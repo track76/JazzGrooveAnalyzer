@@ -1,16 +1,29 @@
-# Virtual environment
-.venv/
+# --------------------------------------------------
+# Python
+# --------------------------------------------------
 
-# Python cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+
+# Distribution
+build/
+dist/
+*.egg-info/
 
 # macOS
 .DS_Store
+._*
 
 # VS Code
 .vscode/
 
-# Temporary files
-*.tmp
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

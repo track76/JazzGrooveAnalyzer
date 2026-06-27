@@ -1,9 +1,0 @@
-analysis
-audio
-cluster
-common
-eme
-jga
-levelA0
-tmi
-visualization
