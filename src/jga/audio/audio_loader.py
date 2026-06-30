@@ -20,7 +20,7 @@ import librosa
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 
-from src.jga.core.audio_file import AudioFile
+from jga.core.audio_file import AudioFile
 
 
 SUPPORTED_FORMATS = {

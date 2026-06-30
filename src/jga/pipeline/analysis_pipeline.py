@@ -76,7 +76,7 @@ class AnalysisPipeline:
         context = self.preprocessor.process(context)
 
         # Source separation
-        context = self.separator.separate(context)
+        context = self.separator.process(context)
 
         # Intro detection
         intro = self.intro_detector.detect(context.audio)

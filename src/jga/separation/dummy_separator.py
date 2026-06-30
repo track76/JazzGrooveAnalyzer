@@ -36,13 +36,11 @@ class DummySeparator(BaseSeparator):
     ) -> AnalysisContext:
 
         stem = AudioStem(
-
             name="Mix",
-
-            audio=context.processed_audio,
-
-            sample_rate=context.audio.sample_rate
-
+            signal=context.processed_audio,
+            sample_rate=context.audio.sample_rate,
+            source="DummySeparator",
+            confidence=1.0,
         )
 
         context.audio_stems = [stem]
