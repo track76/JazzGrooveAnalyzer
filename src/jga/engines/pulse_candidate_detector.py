@@ -28,9 +28,8 @@ from jga.runtime.analysis_context import AnalysisContext
 
 
 class PulseCandidateDetector:
-
     """
-    Version 0.1
+    JGA-130
 
     Estrae gli eventi audio che potrebbero
     appartenere alla pulsazione dell'ensemble.
@@ -75,7 +74,12 @@ class PulseCandidateDetector:
                 )
             )
 
+        # Aggiorna il contesto
         context.pulse_candidates = candidates
+
+        # Aggiorna il report
+        if context.report is not None:
+            context.report.pulse_candidates = len(candidates)
 
         context.log.add(
             f"{len(candidates)} Pulse Candidates extracted."

@@ -2,45 +2,95 @@
 =========================================================
 Jazz Groove Analyzer (JGA)
 
-Analysis Context
+File:
+    analysis_context.py
+
+Description:
+    Shared analysis context used by all JGA
+    engines during the analysis pipeline.
 
 Author:
     Angelo Tracanna
+
+Copyright © 2026 Angelo Tracanna
+All Rights Reserved.
 =========================================================
 """
 
 from dataclasses import dataclass, field
+
 import numpy as np
 
 from jga.core.audio_file import AudioFile
+
 from jga.runtime.analysis_log import AnalysisLog
+from jga.runtime.analysis_report import AnalysisReport
 
 
 @dataclass
 class AnalysisContext:
     """
-    Shared state used by all JGA engines during
-    the analysis of a musical performance.
+    Shared state used by all JGA engines
+    during the analysis of a musical
+    performance.
     """
 
-    # Original audio loaded from disk
+    # =====================================================
+    # Original Audio
+    # =====================================================
+
     audio: AudioFile
 
-    # Audio after preprocessing
+    # =====================================================
+    # Final Report
+    # =====================================================
+
+    report: AnalysisReport | None = None
+
+    # =====================================================
+    # Audio Processing
+    # =====================================================
+
     processed_audio: np.ndarray | None = None
 
-    # Audio stems
     audio_stems: list | None = None
 
-    # Pulse Candidates
+    source_pulse_sequences: list | None = None
+
+    # =====================================================
+    # Pulse Detection
+    # =====================================================
+
     pulse_candidates: list | None = None
 
-    # Pulse Intervals
     pulse_intervals: list | None = None
+
+    # =====================================================
+    # Window Analysis
+    # =====================================================
 
     analysis_windows: list | None = None
 
+    # =====================================================
+    # Metric Stability
+    # =====================================================
+
     stability_curve: object | None = None
 
-    # Analysis log
+    # =====================================================
+    # Metric Clusters
+    # =====================================================
+
+    metric_clusters: list | None = None
+
+    # =====================================================
+    # Periodicity Discovery
+    # =====================================================
+
+    periodicity_segments: list | None = None
+
+    # =====================================================
+    # Analysis Log
+    # =====================================================
+
     log: AnalysisLog = field(default_factory=AnalysisLog)

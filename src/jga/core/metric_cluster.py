@@ -6,7 +6,8 @@ File:
     metric_cluster.py
 
 Description:
-    Metric Cluster
+    Represents a Metric Cluster recognized
+    from consecutive stable Analysis Windows.
 
 Author:
     Angelo Tracanna
@@ -18,48 +19,34 @@ All Rights Reserved.
 
 from dataclasses import dataclass, field
 
-from jga.core.metric_position import MetricPosition
-from jga.core.eme import EME
+from jga.core.analysis_window import AnalysisWindow
 
 
-@dataclass
+@dataclass(slots=True)
 class MetricCluster:
     """
-    Metric Cluster.
+    Represents a stable metric region of the
+    musical performance.
 
-    A Metric Cluster is the collection of all
-    Elementary Metric Events (EMEs) that belong
-    to the same metric position.
-
-    The cluster does NOT compute the Internal
-    Reference Beat (BRI).
-
-    It simply stores the EMEs that contribute
-    to the collective timing of the ensemble.
+    A Metric Cluster is composed of one or more
+    consecutive Analysis Windows that share a
+    coherent temporal behaviour.
     """
 
-    metric_position: MetricPosition
+    start_time: float
 
-    emes: list[EME] = field(default_factory=list)
+    end_time: float
 
-    def add(self, eme: EME) -> None:
-        """
-        Adds an EME to the cluster.
-        """
+    mean_interval: float
 
-        self.emes.append(eme)
+    stability: float
+
+    windows: list[AnalysisWindow] = field(default_factory=list)
 
     @property
-    def size(self) -> int:
-        """
-        Number of EMEs inside the cluster.
-        """
+    def duration(self) -> float:
+        return self.end_time - self.start_time
 
-        return len(self.emes)
-
-    def __str__(self) -> str:
-
-        return (
-            f"{self.metric_position} | "
-            f"EMEs: {self.size}"
-        )
+    @property
+    def window_count(self) -> int:
+        return len(self.windows)

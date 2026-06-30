@@ -39,7 +39,12 @@ class AnalysisWindowBuilder:
         intervals = context.pulse_intervals
 
         if not intervals:
+
             context.analysis_windows = []
+
+            if context.report is not None:
+                context.report.analysis_windows = 0
+
             return context
 
         windows = []
@@ -55,18 +60,19 @@ class AnalysisWindowBuilder:
             windows.append(
 
                 AnalysisWindow(
-
                     start_time=chunk[0].start_time,
-
                     end_time=chunk[-1].end_time,
-
                     intervals=chunk
-
                 )
 
             )
 
+        # Aggiorna il contesto
         context.analysis_windows = windows
+
+        # Aggiorna il report
+        if context.report is not None:
+            context.report.analysis_windows = len(windows)
 
         context.log.add(
             f"{len(windows)} Analysis Windows created."

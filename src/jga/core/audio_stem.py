@@ -35,3 +35,9 @@ class AudioStem:
 
     # Frequenza di campionamento
     sample_rate: int
+
+    # Algoritmo che ha prodotto la separazione
+    source: str = "Unknown"
+
+    # Affidabilità della separazione
+    confidence: float = 1.0

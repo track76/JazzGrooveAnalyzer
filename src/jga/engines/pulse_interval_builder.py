@@ -36,7 +36,12 @@ class PulseIntervalBuilder:
         candidates = context.pulse_candidates
 
         if candidates is None or len(candidates) < 2:
+
             context.pulse_intervals = []
+
+            if context.report is not None:
+                context.report.pulse_intervals = 0
+
             return context
 
         intervals = []
@@ -44,20 +49,19 @@ class PulseIntervalBuilder:
         for previous, current in zip(candidates[:-1], candidates[1:]):
 
             intervals.append(
-
                 PulseInterval(
-
                     start_time=previous.time,
-
                     end_time=current.time,
-
                     duration=current.time - previous.time
-
                 )
-
             )
 
+        # Aggiorna il contesto
         context.pulse_intervals = intervals
+
+        # Aggiorna il report
+        if context.report is not None:
+            context.report.pulse_intervals = len(intervals)
 
         context.log.add(
             f"{len(intervals)} Pulse Intervals created."
