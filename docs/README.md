@@ -162,3 +162,21 @@ No part of the project may be reproduced, distributed or modified without the au
 ---
 
 *"Theory precedes implementation."*
+
+T4 – Musical Analysis Services
+
+□ T4.1 Source Identification
+
+□ T4.2 Musical Function Assignment
+
+□ T4.3 Metric Contribution
+
+□ T4.4 Pulse Construction
+
+□ T4.5 Metric Cluster Construction
+
+□ T4.6 Internal Metric Timeline
+
+□ T4.7 Temporal Analysis
+
+□ T4.8 Statistical Analysis
