@@ -1,209 +1,253 @@
-# JGA_THEORETICAL_FRAMEWORK.md
+# JGA Theoretical Framework
 
-# Theoretical Framework of the Jazz Groove Analyzer (JGA)
+**Version:** 3.0
 
-**Version:** 0.1 (Draft)
+**Status:** Active
 
----
+**Project:** Jazz Groove Analyzer (JGA)
 
-## Abstract
+**Author:** Angelo Tracanna
 
-The Jazz Groove Analyzer (JGA) is a theoretical and computational framework for analysing rhythmic interaction within musical ensembles.
-
-Unlike conventional beat-tracking systems, the JGA assumes that the metric reference is not directly observable. Instead, it is reconstructed from the collective rhythmic behaviour of the performers through an explainable analytical process.
-
-This document defines the theoretical foundations of the JGA, introducing its research questions, conceptual assumptions, mathematical objects and analytical framework. It serves as the formal specification from which future mathematical developments and software implementations will be derived.
+**Copyright © 2026 Angelo Tracanna**
 
 ---
 
 # 1. Introduction
 
-Rhythmic interaction in jazz ensembles is a dynamic and collective phenomenon that cannot always be adequately described by assuming a fixed and externally detectable beat.
+The Jazz Groove Analyzer (JGA) is a scientific framework for the mathematical
+representation of collective metric behaviour in musical ensembles.
 
-Traditional computational approaches typically begin by estimating a metric grid and subsequently measure the temporal deviations of individual events with respect to that grid.
+Unlike conventional beat tracking systems, the JGA does not aim to estimate
+tempo or identify beats directly from audio.
 
-The Jazz Groove Analyzer adopts a different perspective.
+Its primary objective is to construct an interpretable mathematical model
+capable of describing the observable rhythmic behaviour of an ensemble
+through a hierarchy of progressively higher-level Domain representations.
 
-Rather than assuming that the metric reference is known, the JGA investigates whether the metric structure itself can be reconstructed from the evolving collective behaviour of the ensemble.
-
-This shift places musical interaction at the centre of the analytical process.
-
----
-
-# 2. Research Problem
-
-The central research problem addressed by the JGA can be formulated as follows:
-
-> **Can the metric reference of a musical ensemble be reconstructed from collective rhythmic behaviour without assuming an externally detected beat?**
-
-This question motivates the entire theoretical framework developed in this project.
+The software is therefore the implementation of a scientific theory rather
+than the theory itself.
 
 ---
 
-# 3. Foundational Assumptions
+# 2. Scientific Problem
 
-The JGA is based on the following assumptions:
+The central scientific problem addressed by the JGA is not beat detection,
+tempo estimation or onset localisation.
 
-* Musical behaviour is more informative than performer identity.
-* Collective interaction precedes individual timing analysis.
-* Metric organization is an emergent property.
-* Human timing variability contains musical information.
-* Analytical decisions must remain explainable.
-* Mathematical models should preserve musical interpretability.
+Instead, the project investigates how a collective metric reference emerges
+from the interaction of multiple rhythmic sources.
 
-These assumptions are formally defined in **JGA_PRINCIPLES.md**.
+The object of study is therefore the observable metric behaviour of an
+ensemble.
 
 ---
 
-# 4. Fundamental Concepts
+# 3. Observed Phenomenon
 
-The theoretical framework introduces the following conceptual entities:
+The phenomenon investigated by the JGA is defined as:
 
-* Musical Event
-* Behaviour
-* Behaviour Descriptor
-* Behaviour Descriptor Vector (BDV)
-* Behaviour Profile (BP)
-* Behaviour Change
-* Behaviour Change Detector (BCD)
-* Metric Role
-* Ensemble Metric Event (EME)
-* Metric Evidence
-* Metric Evidence Index (MEI)
-* Groove
+> Collective Metric Behaviour
 
-Each concept will receive a rigorous mathematical definition in subsequent revisions of this document.
+Collective metric behaviour is the observable temporal organisation generated
+by the interaction among the rhythmic contributors of a musical ensemble.
+
+The JGA does not attempt to infer performer intentions, expressive meaning,
+or aesthetic qualities.
+
+Only observable properties extracted from the audio signal belong to the
+scientific domain of the framework.
 
 ---
 
-# 5. Mathematical Objects
+# 4. Fundamental Principles
 
-The JGA introduces a family of mathematical objects specifically designed for modelling collective rhythmic behaviour.
+The following principles are considered invariant.
 
-These include:
+1. Theory always precedes implementation.
 
-## Behaviour Descriptor Vector (BDV)
+2. Every mathematical object corresponds to a Domain object.
 
-A multidimensional representation describing the rhythmic characteristics of a musical event or performer.
+3. Every Domain object must have an explicit mathematical definition.
 
----
+4. Every algorithm must remain interpretable.
 
-## Behaviour Profile (BP)
+5. Only observable properties belong to the scientific model.
 
-A structured representation of the temporal behaviour observed over a given analytical window.
+6. Behaviour is represented rather than inferred.
 
----
+7. The framework must remain independent of the specific source-separation
+technology.
 
-## Behaviour Change Detector (BCD)
+8. Local analysis precedes global reconstruction.
 
-A mathematical operator capable of identifying significant behavioural transitions occurring during musical interaction.
+9. Higher abstraction levels may only depend on the immediately preceding
+representation.
 
----
+10. Scientific reproducibility has priority over implementation convenience.
 
-## Metric Evidence Index (MEI)
-
-A quantitative measure expressing the degree of evidence supporting a reconstructed metric hypothesis.
-
----
-
-Additional mathematical structures may be introduced as the theoretical framework evolves.
+11. Domain invariants must always preserve scientific consistency.
 
 ---
 
-# 6. Analytical Process
+# 5. Hierarchy of Musical Representation
 
-The conceptual analytical pipeline of the JGA is:
+The JGA represents rhythmic behaviour through a hierarchy of Domain objects.
 
-```text
-Audio Signal
-      │
-      ▼
-Signal Processing
-      │
-      ▼
-Musical Event Extraction
-      │
-      ▼
-Behaviour Representation
-      │
-      ▼
-Collective Behaviour Analysis
-      │
-      ▼
-Metric Reference Reconstruction
-      │
-      ▼
-Behaviour Profile
-      │
-      ▼
-Behaviour Change Detection
-      │
-      ▼
-Metric Evidence Evaluation
-      │
-      ▼
-Groove Interpretation
-```
+Audio Recording
 
-Future revisions will replace this conceptual description with a complete mathematical formulation.
+↓
 
----
+Audio Stem
 
-# 7. Expected Mathematical Properties
+↓
 
-The theoretical framework aims to satisfy properties such as:
+Elementary Metric Event
 
-* invariance under tempo scaling;
-* robustness to expressive timing;
-* preservation of musical interpretability;
-* continuity of behavioural representations;
-* local metric consistency;
-* explainability of analytical decisions.
+↓
 
-These properties will eventually be formulated as propositions and, where possible, supported by formal proofs.
+Beat Reference
+
+↓
+
+Metric Cluster
+
+↓
+
+Pulse
+
+↓
+
+Internal Metric Timeline
+
+↓
+
+Musical Analysis
+
+Each representation is constructed exclusively from the immediately
+preceding level.
+
+No Domain object may bypass the hierarchy.
+
+This hierarchy defines the current theoretical representation adopted
+by the JGA.
 
 ---
 
-# 8. Validation Strategy
+# 6. Elementary Metric Event
 
-The validity of the JGA will be evaluated through:
+The Elementary Metric Event (EME) is the smallest observable rhythmic
+entity recognised by the JGA.
 
-* analytical consistency;
-* simulations;
-* controlled musical examples;
-* annotated jazz recordings;
-* comparative evaluation against existing analytical approaches.
-
-Experimental protocols will be described in dedicated documents.
+Each EME corresponds to one temporal event extracted from the audio
+signal and represents an observable property rather than a musical
+interpretation.
 
 ---
 
-# 9. Future Development
+# 7. Beat Reference
 
-The theoretical framework is intended to support future developments including:
+A Beat Reference represents the theoretical metric reference inferred
+from the collective rhythmic behaviour of the ensemble.
 
-* Behaviour Mathematics
-* Collective Timing Models
-* Dynamic Metric Role Analysis
-* Groove Quantification
-* Explainable Artificial Intelligence
-* Real-time Analysis
-* Cross-genre applications
+It is not detected directly from the audio signal but is constructed
+from observable rhythmic evidence.
 
 ---
 
-# 10. Scope
+# 8. Metric Cluster
 
-This document defines the theoretical foundations of the Jazz Groove Analyzer.
+A Metric Cluster groups the Elementary Metric Events that belong to the
+same Beat Reference.
 
-It deliberately avoids implementation details, software architecture and programming considerations, which are described elsewhere in the project documentation.
+It represents the collective rhythmic evidence supporting one theoretical
+beat.
 
 ---
 
-# Conclusion
+# 9. Pulse
 
-The Jazz Groove Analyzer is conceived as a theory-driven analytical framework.
+A Pulse represents one theoretical pulsation of the ensemble.
 
-Its software implementation is regarded as a consequence of the theoretical model rather than its starting point.
+Each Pulse is derived from exactly one Metric Cluster and preserves the
+temporal position established by the corresponding Beat Reference.
 
-The long-term objective is to establish a mathematically rigorous, musically interpretable and experimentally verifiable framework for the analysis of collective rhythmic behaviour.
+---
+
+# 10. Internal Metric Timeline
+
+The Internal Metric Timeline represents the ordered sequence of Pulses
+describing the theoretical metric evolution of the ensemble.
+
+It constitutes the highest-level Domain object currently implemented in
+the JGA.
+
+---
+
+# 11. Domain Representation
+
+The current Domain Layer implements the complete theoretical chain:
+
+Audio Recording
+
+↓
+
+Audio Stem
+
+↓
+
+Elementary Metric Event
+
+↓
+
+Beat Reference
+
+↓
+
+Metric Cluster
+
+↓
+
+Pulse
+
+↓
+
+Internal Metric Timeline
+
+This hierarchy constitutes the current scientific representation adopted
+by the JGA.
+
+---
+
+# 12. Scientific Consequences
+
+The proposed framework implies that:
+
+• Beat References emerge from collective rhythmic behaviour.
+
+• Metric Clusters represent observable rhythmic evidence.
+
+• Pulses are theoretical objects rather than detected events.
+
+• Internal Metric Timelines provide the basis for higher-level musical
+analysis.
+
+• The scientific model remains independent of DSP implementation details.
+
+---
+
+# 13. Future Developments
+
+The next stage of the theoretical framework will focus on the analysis
+of the Internal Metric Timeline.
+
+Planned developments include:
+
+• Metric Stability
+
+• Pulse Interval Analysis
+
+• Tempo Estimation
+
+• Groove Metrics
+
+• Collective Metric Behaviour
