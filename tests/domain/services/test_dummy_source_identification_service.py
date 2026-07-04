@@ -1,12 +1,30 @@
+from datetime import datetime
+from pathlib import Path
+from uuid import uuid4
+
+from jga.core.domain.audio_stem import AudioStem
 from jga.core.domain.services.dummy_source_identification_service import (
     DummySourceIdentificationService,
 )
 
 
-def test_identify_returns_empty_tuple():
+def test_identify_creates_sound_source():
 
     service = DummySourceIdentificationService()
 
-    result = service.identify(())
+    stem = AudioStem(
+        id=uuid4(),
+        recording_id=uuid4(),
+        name="bass",
+        audio_path=Path("bass.wav"),
+        sample_rate=44100,
+        duration=10.0,
+        channels=1,
+        created_at=datetime.now(),
+    )
 
-    assert result == ()
+    sources = service.identify((stem,))
+
+    assert len(sources) == 1
+    assert sources[0].name == "bass"
+    assert sources[0].family == "unknown"

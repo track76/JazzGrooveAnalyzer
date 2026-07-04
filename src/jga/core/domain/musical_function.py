@@ -5,11 +5,6 @@ from uuid import UUID
 
 @dataclass(slots=True)
 class MusicalFunction:
-    """
-    Represents the musical role performed by a sound source
-    during a specific time interval.
-    """
-
     id: UUID
     name: str
     description: str | None
