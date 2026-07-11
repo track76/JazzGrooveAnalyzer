@@ -20,7 +20,7 @@ from jga.core.pulse_interval import PulseInterval
 from jga.runtime.analysis_context import AnalysisContext
 
 
-class PulseIntervalBuilder:
+class PulseBuilder:
     """
     JGA-150
 

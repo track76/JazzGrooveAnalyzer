@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from jga.core.domain.audio_recording import AudioRecording
-from jga.core.domain.services.dummy_ensemble_understanding_engine import (
+from jga.domain.audio_recording import AudioRecording
+from jga.domain.services.dummy_ensemble_understanding_engine import (
     DummyEnsembleUnderstandingEngine,
 )
 

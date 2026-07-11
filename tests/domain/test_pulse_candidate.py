@@ -3,7 +3,7 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.pulse_candidate import PulseCandidate
+from jga.domain.pulse_candidate import PulseCandidate
 
 
 def test_create_valid_pulse_candidate():

@@ -2,8 +2,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from uuid import UUID
 
-from jga.core.domain.beat_reference import BeatReference
-from jga.core.domain.elementary_metric_event import ElementaryMetricEvent
+from jga.domain.beat_reference import BeatReference
+from jga.domain.elementary_metric_event import ElementaryMetricEvent
 
 
 @dataclass(frozen=True, slots=True)

@@ -16,21 +16,21 @@ All Rights Reserved.
 =========================================================
 """
 
-from jga.audio.audio_loader import AudioLoader
+from jga.audio.file_audio_source import FileAudioSource
 
 from jga.engines.audio_preprocessor import AudioPreprocessor
 from jga.engines.intro_detector import IntroDetector
 
-from jga.engines.pulse_candidate_detector import PulseCandidateDetector
+from jga.engines.pulse_candidate_builder import PulseCandidateBuilder
 from jga.engines.pulse_candidate_filter import PulseCandidateFilter
-from jga.engines.pulse_interval_builder import PulseIntervalBuilder
+from jga.engines.pulse_builder import PulseBuilder
 from jga.engines.analysis_window_builder import AnalysisWindowBuilder
 from jga.engines.metric_stability_analyzer import MetricStabilityAnalyzer
 
 from jga.runtime.analysis_context import AnalysisContext
 from jga.runtime.analysis_report import AnalysisReport
 
-from jga.separation.dummy_separator import DummySeparator
+from jga.separation.null_separator import NullSeparator
 
 
 class AnalysisPipeline:
@@ -40,19 +40,19 @@ class AnalysisPipeline:
 
     def __init__(self):
 
-        self.loader = AudioLoader()
+        self.loader = FileAudioSource()
 
         self.preprocessor = AudioPreprocessor()
 
-        self.separator = DummySeparator()
+        self.separator = NullSeparator()
 
         self.intro_detector = IntroDetector()
 
-        self.pulse_detector = PulseCandidateDetector()
+        self.pulse_detector = PulseCandidateBuilder()
 
         self.pulse_filter = PulseCandidateFilter()
 
-        self.interval_builder = PulseIntervalBuilder()
+        self.interval_builder = PulseBuilder()
 
         self.window_builder = AnalysisWindowBuilder()
 

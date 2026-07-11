@@ -4,7 +4,7 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.audio_stem import AudioStem
+from jga.domain.audio_stem import AudioStem
 
 
 def test_create_valid_audio_stem():

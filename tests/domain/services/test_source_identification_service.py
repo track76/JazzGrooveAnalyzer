@@ -1,6 +1,6 @@
 import pytest
 
-from jga.core.domain.services.source_identification_service import (
+from jga.domain.services.source_identification_service import (
     SourceIdentificationService,
 )
 

@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from uuid import UUID
 
-from jga.core.domain.pulse import Pulse
+from jga.domain.pulse import Pulse
 
 
 @dataclass(frozen=True, slots=True)

@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 
-from jga.core.domain.audio_stem import AudioStem
-from jga.core.domain.sound_source import SoundSource
+from jga.domain.audio_stem import AudioStem
+from jga.domain.sound_source import SoundSource
 
 
 class SourceIdentificationService(ABC):

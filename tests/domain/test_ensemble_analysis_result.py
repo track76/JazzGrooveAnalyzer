@@ -1,10 +1,10 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.core.domain.ensemble_analysis_result import EnsembleAnalysisResult
-from jga.core.domain.metric_contributor import MetricContributor
-from jga.core.domain.musical_function import MusicalFunction
-from jga.core.domain.sound_source import SoundSource
+from jga.domain.ensemble_analysis_result import EnsembleAnalysisResult
+from jga.domain.metric_contributor import MetricContributor
+from jga.domain.musical_function import MusicalFunction
+from jga.domain.sound_source import SoundSource
 
 
 def test_create_ensemble_analysis_result():

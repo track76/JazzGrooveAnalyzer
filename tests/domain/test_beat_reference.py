@@ -3,7 +3,7 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.beat_reference import BeatReference
+from jga.domain.beat_reference import BeatReference
 
 
 def test_create_valid_beat_reference():

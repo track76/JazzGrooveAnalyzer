@@ -1,4 +1,4 @@
-from jga.core.domain.elementary_metric_event import ElementaryMetricEvent
+from jga.domain.elementary_metric_event import ElementaryMetricEvent
 
 
 class ElementaryMetricEventBuilder:

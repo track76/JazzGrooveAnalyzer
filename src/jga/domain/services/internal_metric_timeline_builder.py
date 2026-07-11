@@ -1,8 +1,8 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.core.domain.internal_metric_timeline import InternalMetricTimeline
-from jga.core.domain.pulse import Pulse
+from jga.domain.internal_metric_timeline import InternalMetricTimeline
+from jga.domain.pulse import Pulse
 
 
 class InternalMetricTimelineBuilder:

@@ -27,7 +27,7 @@ from jga.core.pulse_candidate import PulseCandidate
 from jga.runtime.analysis_context import AnalysisContext
 
 
-class PulseCandidateDetector:
+class PulseCandidateBuilder:
     """
     JGA-130
 

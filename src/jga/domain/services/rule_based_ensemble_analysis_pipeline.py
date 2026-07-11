@@ -1,17 +1,17 @@
-from jga.core.domain.audio_stem import AudioStem
-from jga.core.domain.ensemble_analysis_result import (
+from jga.domain.audio_stem import AudioStem
+from jga.domain.ensemble_analysis_result import (
     EnsembleAnalysisResult,
 )
-from jga.core.domain.services.ensemble_analysis_pipeline import (
+from jga.domain.services.ensemble_analysis_pipeline import (
     EnsembleAnalysisPipeline,
 )
-from jga.core.domain.services.metric_contributor_assignment_service import (
+from jga.domain.services.metric_contributor_assignment_service import (
     MetricContributorAssignmentService,
 )
-from jga.core.domain.services.musical_function_assignment_service import (
+from jga.domain.services.musical_function_assignment_service import (
     MusicalFunctionAssignmentService,
 )
-from jga.core.domain.services.source_identification_service import (
+from jga.domain.services.source_identification_service import (
     SourceIdentificationService,
 )
 

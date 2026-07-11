@@ -1,4 +1,4 @@
-from jga.core.domain.ensemble_profile import EnsembleProfile
+from jga.domain.ensemble_profile import EnsembleProfile
 
 
 def test_ensemble_profile_creation():

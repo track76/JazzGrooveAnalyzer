@@ -1,11 +1,11 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.core.domain.audio_stem import AudioStem
-from jga.core.domain.services.source_identification_service import (
+from jga.domain.audio_stem import AudioStem
+from jga.domain.services.source_identification_service import (
     SourceIdentificationService,
 )
-from jga.core.domain.sound_source import SoundSource
+from jga.domain.sound_source import SoundSource
 
 
 class DummySourceIdentificationService(SourceIdentificationService):

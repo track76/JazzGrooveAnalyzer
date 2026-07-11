@@ -3,7 +3,7 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.musical_function import MusicalFunction
+from jga.domain.musical_function import MusicalFunction
 
 
 def test_create_valid_musical_function():

@@ -3,8 +3,8 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.elementary_metric_event import ElementaryMetricEvent
-from jga.core.domain.services.elementary_metric_event_builder import (
+from jga.domain.elementary_metric_event import ElementaryMetricEvent
+from jga.domain.services.elementary_metric_event_builder import (
     ElementaryMetricEventBuilder,
 )
 

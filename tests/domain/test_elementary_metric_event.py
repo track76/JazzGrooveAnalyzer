@@ -3,7 +3,7 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.elementary_metric_event import ElementaryMetricEvent
+from jga.domain.elementary_metric_event import ElementaryMetricEvent
 
 
 def make_event() -> ElementaryMetricEvent:

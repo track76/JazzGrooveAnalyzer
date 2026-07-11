@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 
-from jga.core.domain.musical_function import MusicalFunction
-from jga.core.domain.sound_source import SoundSource
+from jga.domain.musical_function import MusicalFunction
+from jga.domain.sound_source import SoundSource
 
 
 class MusicalFunctionAssignmentService(ABC):

@@ -1,10 +1,10 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.core.domain.services.rule_based_musical_function_assignment_service import (
+from jga.domain.services.rule_based_musical_function_assignment_service import (
     RuleBasedMusicalFunctionAssignmentService,
 )
-from jga.core.domain.sound_source import SoundSource
+from jga.domain.sound_source import SoundSource
 
 
 def test_assign_bass_function():

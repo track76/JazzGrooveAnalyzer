@@ -22,7 +22,7 @@ from jga.runtime.analysis_context import AnalysisContext
 from .base_separator import BaseSeparator
 
 
-class DummySeparator(BaseSeparator):
+class NullSeparator(BaseSeparator):
     """
     Temporary separator.
 
@@ -39,7 +39,7 @@ class DummySeparator(BaseSeparator):
             name="Mix",
             signal=context.processed_audio,
             sample_rate=context.audio.sample_rate,
-            source="DummySeparator",
+            source="NullSeparator",
             confidence=1.0,
         )
 

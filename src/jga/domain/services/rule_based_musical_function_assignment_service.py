@@ -1,11 +1,11 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.core.domain.musical_function import MusicalFunction
-from jga.core.domain.services.musical_function_assignment_service import (
+from jga.domain.musical_function import MusicalFunction
+from jga.domain.services.musical_function_assignment_service import (
     MusicalFunctionAssignmentService,
 )
-from jga.core.domain.sound_source import SoundSource
+from jga.domain.sound_source import SoundSource
 
 
 class RuleBasedMusicalFunctionAssignmentService(

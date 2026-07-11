@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from jga.core.domain.audio_recording import AudioRecording
-from jga.core.domain.ensemble_profile import EnsembleProfile
+from jga.domain.audio_recording import AudioRecording
+from jga.domain.ensemble_profile import EnsembleProfile
 
 
 class EnsembleUnderstandingEngine(ABC):

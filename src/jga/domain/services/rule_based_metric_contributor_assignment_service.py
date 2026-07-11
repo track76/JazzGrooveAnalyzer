@@ -1,12 +1,12 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.core.domain.metric_contributor import MetricContributor
-from jga.core.domain.musical_function import MusicalFunction
-from jga.core.domain.services.metric_contributor_assignment_service import (
+from jga.domain.metric_contributor import MetricContributor
+from jga.domain.musical_function import MusicalFunction
+from jga.domain.services.metric_contributor_assignment_service import (
     MetricContributorAssignmentService,
 )
-from jga.core.domain.sound_source import SoundSource
+from jga.domain.sound_source import SoundSource
 
 
 class RuleBasedMetricContributorAssignmentService(

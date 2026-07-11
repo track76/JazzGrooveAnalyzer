@@ -1,9 +1,9 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.core.domain.beat_reference import BeatReference
-from jga.core.domain.elementary_metric_event import ElementaryMetricEvent
-from jga.core.domain.metric_cluster import MetricCluster
+from jga.domain.beat_reference import BeatReference
+from jga.domain.elementary_metric_event import ElementaryMetricEvent
+from jga.domain.metric_cluster import MetricCluster
 
 
 class MetricClusterBuilder:

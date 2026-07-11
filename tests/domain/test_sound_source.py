@@ -3,7 +3,7 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.sound_source import SoundSource
+from jga.domain.sound_source import SoundSource
 
 
 def test_create_valid_sound_source():

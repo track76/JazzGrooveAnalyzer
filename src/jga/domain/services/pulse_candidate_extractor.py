@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 
-from jga.core.domain.audio_stem import AudioStem
-from jga.core.domain.pulse_candidate import PulseCandidate
+from jga.domain.audio_stem import AudioStem
+from jga.domain.pulse_candidate import PulseCandidate
 
 
 class PulseCandidateExtractor(ABC):

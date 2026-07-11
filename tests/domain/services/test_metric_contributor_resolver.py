@@ -1,6 +1,6 @@
 import pytest
 
-from jga.core.domain.services.metric_contributor_resolver import (
+from jga.domain.services.metric_contributor_resolver import (
     MetricContributorResolver,
 )
 

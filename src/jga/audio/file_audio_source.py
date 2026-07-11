@@ -33,7 +33,7 @@ SUPPORTED_FORMATS = {
 }
 
 
-class AudioLoader:
+class FileAudioSource:
     """
     Carica una registrazione audio e crea
     l'oggetto AudioFile utilizzato dal JGA.
@@ -102,7 +102,7 @@ def main():
         print("Nessun file selezionato.")
         return
 
-    loader = AudioLoader()
+    loader = FileAudioSource()
 
     audio = loader.load(filepath)
 

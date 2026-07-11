@@ -1,6 +1,6 @@
 import pytest
 
-from jga.core.domain.services.pulse_candidate_extractor import (
+from jga.domain.services.pulse_candidate_extractor import (
     PulseCandidateExtractor,
 )
 

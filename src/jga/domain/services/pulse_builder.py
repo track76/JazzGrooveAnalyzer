@@ -1,8 +1,8 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.core.domain.metric_cluster import MetricCluster
-from jga.core.domain.pulse import Pulse
+from jga.domain.metric_cluster import MetricCluster
+from jga.domain.pulse import Pulse
 
 
 class PulseBuilder:

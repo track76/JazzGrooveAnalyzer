@@ -15,7 +15,7 @@ def test_import_jga():
 
 def test_import_pipeline():
 
-    from jga.pipeline.analysis_pipeline import AnalysisPipeline
+    from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
 
     assert AnalysisPipeline is not None
 

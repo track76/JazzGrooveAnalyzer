@@ -2,8 +2,8 @@ from datetime import datetime
 from pathlib import Path
 from uuid import uuid4
 
-from jga.core.domain.audio_stem import AudioStem
-from jga.core.domain.services.dummy_source_identification_service import (
+from jga.domain.audio_stem import AudioStem
+from jga.domain.services.dummy_source_identification_service import (
     DummySourceIdentificationService,
 )
 

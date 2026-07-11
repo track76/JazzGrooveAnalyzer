@@ -3,11 +3,11 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.beat_reference import BeatReference
-from jga.core.domain.elementary_metric_event import ElementaryMetricEvent
-from jga.core.domain.internal_metric_timeline import InternalMetricTimeline
-from jga.core.domain.metric_cluster import MetricCluster
-from jga.core.domain.pulse import Pulse
+from jga.domain.beat_reference import BeatReference
+from jga.domain.elementary_metric_event import ElementaryMetricEvent
+from jga.domain.internal_metric_timeline import InternalMetricTimeline
+from jga.domain.metric_cluster import MetricCluster
+from jga.domain.pulse import Pulse
 
 
 def make_beat(index: int = 0) -> BeatReference:

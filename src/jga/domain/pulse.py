@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from uuid import UUID
 
-from jga.core.domain.metric_cluster import MetricCluster
+from jga.domain.metric_cluster import MetricCluster
 
 
 @dataclass(frozen=True, slots=True)

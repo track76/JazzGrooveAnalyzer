@@ -3,7 +3,7 @@ from uuid import uuid4
 
 import pytest
 
-from jga.core.domain.metric_contributor import MetricContributor
+from jga.domain.metric_contributor import MetricContributor
 
 
 def test_create_valid_metric_contributor():

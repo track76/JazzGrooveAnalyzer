@@ -1,6 +1,6 @@
-from jga.core.domain.audio_recording import AudioRecording
-from jga.core.domain.ensemble_profile import EnsembleProfile
-from jga.core.domain.services.ensemble_understanding_engine import (
+from jga.domain.audio_recording import AudioRecording
+from jga.domain.ensemble_profile import EnsembleProfile
+from jga.domain.services.ensemble_understanding_engine import (
     EnsembleUnderstandingEngine,
 )
 
