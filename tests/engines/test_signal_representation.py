@@ -1,6 +1,6 @@
 import numpy as np
 
-from jga.engines.signal_representation import SignalRepresentation
+from jga.observation.signal_representation import SignalRepresentation
 
 
 def test_signal_representation_creation():
