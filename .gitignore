@@ -26,4 +26,6 @@ dist/
 .ipynb_checkpoints/
 
 # Logs
-*.logJGA_REPOSITORY.zip
+*.log
+
+JGA_REPOSITORY.zip
