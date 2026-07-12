@@ -2,7 +2,7 @@
 =========================================================
 Jazz Groove Analyzer (JGA)
 
-Feature Extractor Interface
+Basic Feature Extractor
 
 Copyright © 2026 Angelo Tracanna
 =========================================================
@@ -10,23 +10,29 @@ Copyright © 2026 Angelo Tracanna
 
 from __future__ import annotations
 
-from abc import ABC, abstractmethod
+import numpy as np
 
+from jga.interfaces.observation.feature_extractor import FeatureExtractor
 from jga.observation.feature import Feature
 from jga.observation.signal_representation import SignalRepresentation
 
 
-class FeatureExtractor(ABC):
+class BasicFeatureExtractor(FeatureExtractor):
     """
-    Interface for feature extraction algorithms.
+    Basic feature extractor.
+
+    This first implementation computes the signal energy and
+    returns a Feature representing the observation time.
     """
 
-    @abstractmethod
     def extract(
         self,
         signal: SignalRepresentation,
     ) -> tuple[Feature, ...]:
-        """
-        Extract observable features from a signal representation.
-        """
-        raise NotImplementedError
+
+        energy = np.sum(signal.samples ** 2)
+
+        if energy <= 0:
+            return ()
+
+        return (Feature(time=0.0),)
