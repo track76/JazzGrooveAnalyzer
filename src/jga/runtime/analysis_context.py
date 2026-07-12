@@ -25,6 +25,7 @@ from jga.core.audio_file import AudioFile
 
 from jga.runtime.analysis_log import AnalysisLog
 from jga.runtime.analysis_report import AnalysisReport
+from jga.observation.signal_representation import SignalRepresentation
 
 
 @dataclass
@@ -52,6 +53,8 @@ class AnalysisContext:
     # =====================================================
 
     processed_audio: np.ndarray | None = None
+
+    signal_representation: SignalRepresentation | None = None
 
     audio_stems: list | None = None
 

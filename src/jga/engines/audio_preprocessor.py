@@ -19,6 +19,7 @@ All Rights Reserved.
 import numpy as np
 
 from jga.runtime.analysis_context import AnalysisContext
+from jga.observation.signal_representation import SignalRepresentation
 
 
 class AudioPreprocessor:
@@ -49,6 +50,11 @@ class AudioPreprocessor:
             context.processed_audio = audio / peak
         else:
             context.processed_audio = audio.copy()
+
+        context.signal_representation = SignalRepresentation(
+            samples=context.processed_audio,
+            sample_rate=context.audio.sample_rate,
+        )
 
         # Aggiorna il log
         context.log.add("Audio normalized.")
