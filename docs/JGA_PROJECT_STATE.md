@@ -1,9 +1,10 @@
 # Jazz Groove Analyzer (JGA)
+
 # Project State
 
 ---
 
-## Project Information
+## General Information
 
 **Project Name**
 
@@ -11,19 +12,19 @@ Jazz Groove Analyzer (JGA)
 
 **Version**
 
-0.1.0-alpha
+v0.2.0-alpha
 
 **Current Milestone**
 
-T4 — Musical Analysis Services
+M3.1 — Core Integration
 
 **Status**
 
-Domain Layer Stable
+Active Development
 
 **Last Update**
 
-2 July 2026
+July 2026
 
 **Main Branch**
 
@@ -31,7 +32,7 @@ main
 
 **Programming Language**
 
-Python 3.13.14
+Python 3.13
 
 **Repository Layout**
 
@@ -124,50 +125,56 @@ scientific interpretability.
 
 Completed
 
-✓ Repository stabilized
+✓ Infrastructure Stabilization
 
-✓ Domain Model completed
+✓ Core Architecture
 
-✓ Core Domain Services completed
+✓ Observation Layer
 
-✓ Builder chain completed
+✓ DSP Layer
 
-✓ Complete unit test suite
+✓ Domain Layer
 
-✓ Scientific architecture consolidated
+✓ Runtime Infrastructure
 
-The project has completed the construction of the Domain Layer.
+✓ Analysis Pipeline
 
-The next development phase focuses on Musical Analysis Services.
+✓ Documentation Governance
+
+The project is entering Milestone M3.1.
+
+Current objective:
+
+Design and integrate AudioStemCollection as the logical entry point of the Core while preserving the architectural separation between Acquisition and Core.
 
 ---
 
 # Repository Structure
 
 ```
+
 JazzGrooveAnalyzer/
 
 docs/
-    Scientific documentation
 
 src/
-    JGA source code
 
 tests/
-    Automated tests
 
 recordings/
-    Audio recordings
 
 experiments/
-    Experimental scripts
+
+math/
 
 output/
-    Generated analysis
 
 README.md
 
 pyproject.toml
+
+requirements.txt
+
 ```
 
 ---
@@ -177,15 +184,24 @@ pyproject.toml
 Current packages
 
 ```
+
 jga.audio
 
 jga.core
 
+jga.domain
+
+jga.dsp
+
 jga.engines
+
+jga.interfaces
+
+jga.io
 
 jga.math
 
-jga.metric
+jga.observation
 
 jga.pipeline
 
@@ -193,13 +209,39 @@ jga.runtime
 
 jga.separation
 
+jga.utils
+
 jga.visualization
+
 ```
 
-The infrastructure is considered stable.
+Current layered architecture
 
-Future scientific modules will be introduced without redesigning the
-existing architecture unless explicitly required.
+```
+
+Acquisition Layer
+
+↓
+
+AudioStemCollection
+
+↓
+
+Observation
+
+↓
+
+DSP
+
+↓
+
+Domain
+
+↓
+
+Analysis
+
+```
 
 ---
 
@@ -279,15 +321,7 @@ pytest
 
 Current Result
 
-67 / 67 tests passing
-
-Coverage
-
-✓ Domain Entities
-
-✓ Domain Services
-
-✓ Smoke Tests
+99 / 99 tests passing
 
 Status
 
@@ -407,13 +441,13 @@ The following decisions are considered stable.
 
 # Current Milestone
 
-T4
+M3.1
 
-Musical Analysis Services
+Core Integration
 
 Status
 
-Ready to start.
+In Progress
 
 ---
 
@@ -421,23 +455,23 @@ Ready to start.
 
 1.
 
-Metric Stability Analyzer
+Design AudioStemCollection
 
 2.
 
-Pulse Interval Analysis
+Implement AudioStemCollection
 
 3.
 
-Tempo Estimation
+Integrate Acquisition Layer with Core
 
 4.
 
-Groove Metrics
+Preserve Core independence
 
 5.
 
-Scientific Validation
+Update Analysis Pipeline
 
 ---
 
@@ -484,15 +518,17 @@ validation studies and collaborative research.
 
 # Repository Status
 
-Current repository status
+Repository synchronized.
 
-Stable
+Working tree clean.
 
-Domain Layer completed.
+99 / 99 tests passing.
 
-67 / 67 tests passing.
+Observation Layer completed.
 
-Ready for Musical Analysis Services.
+DSP Layer completed.
+
+Current development focuses on Core Integration (M3.1).
 
 ---
 
