@@ -22,7 +22,7 @@ from dataclasses import dataclass, field
 import numpy as np
 
 from jga.core.audio_file import AudioFile
-
+from jga.core.audio_stem_collection import AudioStemCollection
 from jga.runtime.analysis_log import AnalysisLog
 from jga.runtime.analysis_report import AnalysisReport
 from jga.observation.signal_representation import SignalRepresentation
@@ -56,7 +56,7 @@ class AnalysisContext:
 
     signal_representation: SignalRepresentation | None = None
 
-    audio_stems: list | None = None
+    audio_stems: AudioStemCollection | None = None
 
     source_pulse_sequences: list | None = None
 

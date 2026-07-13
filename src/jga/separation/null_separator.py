@@ -17,6 +17,7 @@ All Rights Reserved.
 """
 
 from jga.core.audio_stem import AudioStem
+from jga.core.audio_stem_collection import AudioStemCollection
 from jga.runtime.analysis_context import AnalysisContext
 
 from .base_separator import BaseSeparator
@@ -43,7 +44,7 @@ class NullSeparator(BaseSeparator):
             confidence=1.0,
         )
 
-        context.audio_stems = [stem]
+        context.audio_stems = AudioStemCollection((stem,))
 
         context.log.add(
             "Dummy separator created 1 audio stem."
