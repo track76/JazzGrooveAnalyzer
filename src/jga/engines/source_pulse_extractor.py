@@ -17,6 +17,7 @@ All Rights Reserved.
 =========================================================
 """
 
+from jga.core.source_pulse_sequence import SourcePulseSequence
 from jga.runtime.analysis_context import AnalysisContext
 
 
@@ -26,7 +27,7 @@ class SourcePulseExtractor:
 
     Builds SourcePulseSequence objects.
 
-    Version 0.1
+    Version 0.2
     """
 
     def process(
@@ -36,16 +37,14 @@ class SourcePulseExtractor:
 
         sequences = []
 
-        # --------------------------------------------------
-        # TODO
-        #
-        # When real source separation becomes available,
-        # each AudioStem will produce one independent
-        # SourcePulseSequence.
-        #
-        # Current implementation:
-        # Dummy placeholder.
-        # --------------------------------------------------
+        if context.pulse_candidates:
+
+            sequence = SourcePulseSequence(
+                source_name="mix",
+                pulse_candidates=list(context.pulse_candidates),
+            )
+
+            sequences.append(sequence)
 
         context.source_pulse_sequences = sequences
 
