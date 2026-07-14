@@ -26,9 +26,7 @@ class PeriodicityDiscovery:
 
     Searches for stable periodic behaviours.
 
-    Version 0.1
-
-    Placeholder implementation.
+    Version 0.2
     """
 
     def process(
@@ -36,13 +34,27 @@ class PeriodicityDiscovery:
         context: AnalysisContext
     ) -> AnalysisContext:
 
-        # The real algorithm will be developed
-        # in the next iterations.
+        segments = []
 
-        context.periodicity_segments = []
+        # --------------------------------------------------
+        # Current implementation:
+        #
+        # The engine iterates over every available
+        # SourcePulseSequence.
+        #
+        # Periodicity detection will be implemented
+        # in the next milestone.
+        # --------------------------------------------------
+
+        if context.source_pulse_sequences:
+
+            for _ in context.source_pulse_sequences:
+                pass
+
+        context.periodicity_segments = segments
 
         context.log.add(
-            "0 Periodicity Segments discovered."
+            f"{len(segments)} Periodicity Segments discovered."
         )
 
         return context
