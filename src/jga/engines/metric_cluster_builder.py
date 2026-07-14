@@ -3,7 +3,7 @@
 Jazz Groove Analyzer (JGA)
 
 File:
-    metric_cluster_detector.py
+    class MetricClusterBuilder:
 
 Description:
     Detects Metric Clusters from the
@@ -22,7 +22,7 @@ from jga.core.metric_cluster_criteria import MetricClusterCriteria
 from jga.runtime.analysis_context import AnalysisContext
 
 
-class MetricClusterDetector:
+class MetricClusterBuilder:
     """
     JGA-172
 
