@@ -200,3 +200,47 @@ No unnecessary refactoring.
 One architectural change at a time.
 
 Every commit must preserve a green test suite.
+
+---
+
+# AD-013
+
+## Title
+
+AudioStemCollection as Core Input
+
+**Status:** LOCKED
+
+### Decision
+
+The logical input of the JGA Core is an AudioStemCollection.
+
+The Acquisition Layer is responsible for producing the AudioStemCollection before handing control to the Core.
+
+The Core never depends directly on audio recordings or source separation technologies.
+
+---
+
+# AD-014
+
+## Title
+
+Core Computational Model
+
+**Status:** LOCKED
+
+### Decision
+
+The Core contains computational objects required by the analysis engine.
+
+Core objects represent computational state and processing structures.
+
+The Domain represents musical knowledge and semantic interpretation.
+
+Although similarly named concepts may exist in both layers, they have different responsibilities.
+
+The Core must not implement musical semantics.
+
+The Domain must remain independent from DSP and signal-processing implementation details.
+
+No direct dependency between Core and Domain is allowed.
