@@ -16,6 +16,7 @@ All Rights Reserved.
 =========================================================
 """
 
+from jga.core.metric_segment import MetricSegment
 from jga.runtime.analysis_context import AnalysisContext
 
 
@@ -31,13 +32,26 @@ class MetricSegmentBuilder:
         context: AnalysisContext
     ) -> AnalysisContext:
 
-        context.metric_segments = []
+        metric_segments = []
+
+        periodicity_segments = context.periodicity_segments or []
+
+        for segment in periodicity_segments:
+
+            metric_segments.append(
+                MetricSegment(
+                    periodicity=segment,
+                    confidence=segment.confidence,
+                )
+            )
+
+        context.metric_segments = metric_segments
 
         if context.report is not None:
-            context.report.metric_segments = context.metric_segments
+            context.report.metric_segments = metric_segments
 
         context.log.add(
-            f"{len(context.metric_segments)} Metric Segments detected."
+            f"{len(metric_segments)} Metric Segments detected."
         )
 
         return context

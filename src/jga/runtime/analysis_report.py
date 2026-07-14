@@ -21,7 +21,7 @@ from dataclasses import dataclass
 from jga.core.audio_file import AudioFile
 from jga.core.metric_cluster import MetricCluster
 from jga.core.stability_curve import StabilityCurve
-
+from jga.core.metric_segment import MetricSegment
 
 @dataclass
 class AnalysisReport:
@@ -54,6 +54,8 @@ class AnalysisReport:
     # --------------------------------------------------
     # Musical Structures
     # --------------------------------------------------
+
+    metric_segments: list[MetricSegment] | None = None
 
     metric_clusters: list[MetricCluster] | None = None
 
