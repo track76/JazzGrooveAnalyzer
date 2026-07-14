@@ -6,7 +6,8 @@ File:
     metric_segment.py
 
 Description:
-    Metric Segment
+    Represents one observed metric behaviour
+    extracted from a Periodicity Segment.
 
 Author:
     Angelo Tracanna
@@ -18,35 +19,25 @@ All Rights Reserved.
 
 from dataclasses import dataclass
 
+from jga.core.periodicity_segment import PeriodicitySegment
 
-@dataclass
+
+@dataclass(slots=True)
 class MetricSegment:
     """
-    Represents a portion of the musical performance
-    in which the meter remains constant.
+    Represents one observed metric behaviour.
+
+    A Metric Segment is produced from one
+    Periodicity Segment after metric analysis.
+
+    It does not assume any musical meter
+    (4/4, 3/4, etc.).
     """
 
-    id: int
+    periodicity: PeriodicitySegment
 
-    start_measure: int
-
-    end_measure: int
-
-    numerator: int
-
-    denominator: int
-
-    detection_mode: str = "automatic"
-
-    confidence: float = 1.0
+    confidence: float
 
     @property
-    def meter(self) -> str:
-        return f"{self.numerator}/{self.denominator}"
-
-    def __str__(self) -> str:
-        return (
-            f"Segment {self.id} | "
-            f"Measures {self.start_measure}-{self.end_measure} | "
-            f"{self.meter}"
-        )
+    def duration(self) -> float:
+        return self.periodicity.duration
