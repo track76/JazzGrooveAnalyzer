@@ -34,21 +34,30 @@ class MetricClusterBuilder:
         self.criteria = MetricClusterCriteria()
 
     def process(
-        self,
-        context: AnalysisContext
-    ) -> AnalysisContext:
+    self,
+    context: AnalysisContext
+) -> AnalysisContext:
 
-        # Placeholder.
-        # The real algorithm will be implemented
-        # in the next step.
+    clusters = []
 
-        context.metric_clusters = []
+    # Current implementation:
+    # one pass over the available metric segments.
+    # Cluster construction will be implemented
+    # in the next milestone.
 
-        if context.report is not None:
-            context.report.metric_clusters = []
+    metric_segments = getattr(context, "metric_segments", None)
 
-        context.log.add(
-            "0 Metric Clusters detected."
-        )
+    if metric_segments:
+        for _ in metric_segments:
+            pass
 
-        return context
+    context.metric_clusters = clusters
+
+    if context.report is not None:
+        context.report.metric_clusters = clusters
+
+    context.log.add(
+        f"{len(clusters)} Metric Clusters detected."
+    )
+
+    return context
