@@ -26,12 +26,14 @@ from jga.engines.pulse_candidate_filter import PulseCandidateFilter
 from jga.engines.pulse_builder import PulseBuilder
 from jga.engines.analysis_window_builder import AnalysisWindowBuilder
 from jga.engines.metric_stability_analyzer import MetricStabilityAnalyzer
+from jga.engines.source_pulse_extractor import SourcePulseExtractor
+from jga.engines.periodicity_discovery import PeriodicityDiscovery
+from jga.engines.metric_cluster_builder import MetricClusterBuilder
 
 from jga.runtime.analysis_context import AnalysisContext
 from jga.runtime.analysis_report import AnalysisReport
 
 from jga.separation.null_separator import NullSeparator
-
 
 class AnalysisPipeline:
     """
@@ -57,6 +59,12 @@ class AnalysisPipeline:
         self.window_builder = AnalysisWindowBuilder()
 
         self.stability = MetricStabilityAnalyzer()
+
+        self.source_pulse_extractor = SourcePulseExtractor()
+
+        self.periodicity_discovery = PeriodicityDiscovery()
+
+        self.metric_cluster_builder = MetricClusterBuilder()
 
     def analyze(
         self,
@@ -98,5 +106,11 @@ class AnalysisPipeline:
 
         # Metric Stability
         context = self.stability.process(context)
+        
+        context = self.source_pulse_extractor.process(context)
+
+        context = self.periodicity_discovery.process(context)
+
+        context = self.metric_cluster_builder.process(context)
 
         return context
