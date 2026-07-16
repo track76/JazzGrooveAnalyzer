@@ -163,3 +163,38 @@ Swing Analyzer
 Expressive Timing Analyzer
 
 Automatic Report Generator
+
+---
+
+# Core Execution Model
+
+Audio Source
+      │
+      ▼
+Acquisition
+      │
+      ▼
+Observation
+      │
+      ▼
+DSP
+      │
+      ▼
+Core Representation
+      │
+      ▼
+Representation Translation
+      │
+      ▼
+Domain Services
+      │
+      ▼
+Ensemble Analysis Result
+
+## Architectural Principles
+
+The Core is responsible for computational processing.
+
+The Domain is responsible for musical interpretation.
+
+The integration between the two shall occur through an explicit architectural boundary.
