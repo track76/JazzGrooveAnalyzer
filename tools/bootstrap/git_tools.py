@@ -1,18 +1,19 @@
-import subprocess
 import sys
 
+from .repository_inspector import RepositoryInspector
 
-def check_git_status():
 
-    result = subprocess.run(
-        ["git", "status", "--porcelain"],
-        capture_output=True,
-        text=True,
-    )
+def check_git_status() -> None:
+    """Abort if the repository is not in a clean state."""
 
-    if result.stdout.strip():
+    snapshot = RepositoryInspector().inspect()
 
-        print("\nRepository NOT READY\n")
-        print(result.stdout)
+    if snapshot.working_tree_clean:
+        return
 
-        sys.exit(1)
+    print("\nRepository NOT READY\n")
+
+    if snapshot.status:
+        print(snapshot.status)
+
+    sys.exit(1)
