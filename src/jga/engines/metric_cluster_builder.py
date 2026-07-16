@@ -16,6 +16,7 @@ All Rights Reserved.
 =========================================================
 """
 
+from jga.core.metric_cluster import MetricCluster
 from jga.core.metric_cluster_criteria import MetricClusterCriteria
 from jga.runtime.analysis_context import AnalysisContext
 
@@ -33,29 +34,32 @@ class MetricClusterBuilder:
 
     def process(
         self,
-        context: AnalysisContext
+        context: AnalysisContext,
     ) -> AnalysisContext:
 
-        clusters = []
+         clusters = []
 
-        # Current implementation:
-        # one pass over the available metric segments.
-        # Cluster construction will be implemented
-        # in the next milestone.
+         metric_segments = context.metric_segments or []
 
-        metric_segments = context.metric_segments
+         for segment in metric_segments:
 
-        if metric_segments:
-            for _ in metric_segments:
-                pass
+             clusters.append(
+                 MetricCluster(
+                 start_time=segment.periodicity.start_time,
+                 end_time=segment.periodicity.end_time,
+                 mean_interval=segment.periodicity.mean_interval,
+                 stability=segment.periodicity.stability,
+                 windows=[],
+                 )
+             )
 
-        context.metric_clusters = clusters
+         context.metric_clusters = clusters
 
-        if context.report is not None:
-            context.report.metric_clusters = clusters
+         if context.report is not None:
+             context.report.metric_clusters = clusters
 
-        context.log.add(
-            f"{len(clusters)} Metric Clusters detected."
-        )
+         context.log.add(
+             f"{len(clusters)} Metric Clusters detected."
+         )
 
-        return context
+         return context
