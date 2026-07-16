@@ -25,7 +25,8 @@ class MetricClusterBuilder:
     """
     JGA-172
 
-    Builds Metric Clusters.
+    Builds Metric Clusters by aggregating
+    compatible Metric Segments.
     """
 
     def __init__(self):
@@ -37,29 +38,98 @@ class MetricClusterBuilder:
         context: AnalysisContext,
     ) -> AnalysisContext:
 
-         clusters = []
+        metric_segments = context.metric_segments or []
+        clusters = []
 
-         metric_segments = context.metric_segments or []
+        if not metric_segments:
 
-         for segment in metric_segments:
+            context.metric_clusters = clusters
 
-             clusters.append(
-                 MetricCluster(
-                 start_time=segment.periodicity.start_time,
-                 end_time=segment.periodicity.end_time,
-                 mean_interval=segment.periodicity.mean_interval,
-                 stability=segment.periodicity.stability,
-                 windows=[],
-                 )
-             )
+            if context.report is not None:
+                context.report.metric_clusters = clusters
 
-         context.metric_clusters = clusters
+            context.log.add("0 Metric Clusters detected.")
 
-         if context.report is not None:
-             context.report.metric_clusters = clusters
+            return context
 
-         context.log.add(
-             f"{len(clusters)} Metric Clusters detected."
-         )
+        start_time = metric_segments[0].periodicity.start_time
+        end_time = metric_segments[0].periodicity.end_time
+        mean_interval = metric_segments[0].periodicity.mean_interval
+        stability = metric_segments[0].periodicity.stability
+        count = 1
 
-         return context
+        for segment in metric_segments[1:]:
+
+            interval_difference = (
+                abs(segment.periodicity.mean_interval - mean_interval)
+                / mean_interval
+            )
+
+            stability_difference = abs(
+                segment.periodicity.stability - stability
+            )
+
+            compatible = (
+                segment.periodicity.stability
+                >= self.criteria.minimum_stability
+                and stability >= self.criteria.minimum_stability
+                and interval_difference
+                <= self.criteria.interval_tolerance
+                and stability_difference
+                <= self.criteria.stability_tolerance
+            )
+
+            if compatible:
+
+                end_time = segment.periodicity.end_time
+
+                count += 1
+
+                mean_interval = (
+                    mean_interval * (count - 1)
+                    + segment.periodicity.mean_interval
+                ) / count
+
+                stability = (
+                    stability * (count - 1)
+                    + segment.periodicity.stability
+                ) / count
+
+            else:
+
+                clusters.append(
+                    MetricCluster(
+                        start_time=start_time,
+                        end_time=end_time,
+                        mean_interval=mean_interval,
+                        stability=stability,
+                        windows=[],
+                    )
+                )
+
+                start_time = segment.periodicity.start_time
+                end_time = segment.periodicity.end_time
+                mean_interval = segment.periodicity.mean_interval
+                stability = segment.periodicity.stability
+                count = 1
+
+        clusters.append(
+            MetricCluster(
+                start_time=start_time,
+                end_time=end_time,
+                mean_interval=mean_interval,
+                stability=stability,
+                windows=[],
+            )
+        )
+
+        context.metric_clusters = clusters
+
+        if context.report is not None:
+            context.report.metric_clusters = clusters
+
+        context.log.add(
+            f"{len(clusters)} Metric Clusters detected."
+        )
+
+        return context
