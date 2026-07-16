@@ -3,25 +3,16 @@
 Jazz Groove Analyzer (JGA)
 
 File:
-    representation_translator.py
-
-Description:
-    Translates computational representations
-    into Domain representations.
-
-Author:
-    Angelo Tracanna
-
-Copyright © 2026 Angelo Tracanna
-All Rights Reserved.
+    domain_input_builder.py
 =========================================================
 """
 
+from jga.interfaces.translation.domain_input_builder import (
+    DomainInputBuilder,
+)
 
-class DomainInputBuilder:
-    """
-    Translates Core representations into
-    Domain inputs.
-    """
 
-    pass
+class DefaultDomainInputBuilder(DomainInputBuilder):
+
+    def build(self, context):
+        raise NotImplementedError
