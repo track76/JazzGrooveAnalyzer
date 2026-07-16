@@ -180,3 +180,12 @@ T4 – Musical Analysis Services
 □ T4.7 Temporal Analysis
 
 □ T4.8 Statistical Analysis
+
+## Starting a New Development Session
+## Developer Toolchain
+
+The Jazz Groove Analyzer provides a developer toolchain for exporting the current project context.
+
+See:
+
+- `docs/DEVELOPER_TOOLCHAIN.md`

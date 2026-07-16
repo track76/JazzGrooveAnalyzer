@@ -16,7 +16,7 @@ v0.2.0-alpha
 
 **Current Milestone**
 
-M3.1 — Core Integration
+M3.3 — Core Architecture Review
 
 **Status**
 
@@ -141,11 +141,21 @@ Completed
 
 ✓ Documentation Governance
 
-The project is entering Milestone M3.1.
+The project completed the first phase of Core integration.
+
+Completed
+
+✓ AudioStemCollection introduced
+
+✓ AudioStemCollection integrated into AnalysisContext
+
+✓ NullSeparator updated
+
+✓ 102 / 102 tests passing
 
 Current objective:
 
-Design and integrate AudioStemCollection as the logical entry point of the Core while preserving the architectural separation between Acquisition and Core.
+Review and consolidate the architectural responsibilities of the Core before continuing the integration.
 
 ---
 
@@ -321,7 +331,7 @@ pytest
 
 Current Result
 
-99 / 99 tests passing
+102 / 102 tests passing
 
 Status
 
@@ -345,10 +355,6 @@ JGA_THEORETICAL_FRAMEWORK.md
 
 JGA_PRINCIPLES.md
 
-DESIGN_DECISIONS.md
-
-ROADMAP.md
-
 CHANGELOG.md
 
 CONTRIBUTING.md
@@ -361,11 +367,17 @@ JGA_PROJECT_STATE.md
 
 Future documentation
 
-JGA_DOMAIN_MODEL.md
-
 JGA_DEVELOPMENT_RULES.md
 
 JGA_VALIDATION_PROTOCOL.md
+
+JGA_DECISIONS.md
+
+JGA_SESSION_CONTEXT.md
+
+JGA_ROADMAP.md
+
+docs/core/AUDIO_STEM_COLLECTION.md
 
 ---
 
@@ -522,7 +534,7 @@ Repository synchronized.
 
 Working tree clean.
 
-99 / 99 tests passing.
+102 / 102 tests passing.
 
 Observation Layer completed.
 

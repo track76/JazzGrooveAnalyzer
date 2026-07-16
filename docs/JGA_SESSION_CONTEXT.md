@@ -56,9 +56,9 @@ Analysis
 
 ---
 
-# Current Objective
+## Current Objective
 
-Design and implement `AudioStemCollection` as the fundamental input object of the JGA Core.
+Consolidate the JGA Core architecture by validating Core responsibilities and continuing the integration of the AudioStemCollection workflow.
 
 ---
 
@@ -80,6 +80,13 @@ Design and implement `AudioStemCollection` as the fundamental input object of th
 - Tests passing
 - Observation Layer completed
 - M3.1 started
+✓ AudioStemCollection introduced
+
+✓ AudioStemCollection integrated into AnalysisContext
+
+✓ NullSeparator updated
+
+✓ 102/102 tests passing
 
 ---
 
