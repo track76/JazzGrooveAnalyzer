@@ -155,7 +155,18 @@ Completed
 
 Current objective:
 
-Review and consolidate the architectural responsibilities of the Core before continuing the integration.
+Scientific review of the Observation Model and definition of the
+Temporal Alignment Context (TAC) before Domain Model mapping.
+
+Current focus:
+
+✓ RFC-001 Observation Model Review incorporated
+
+✓ TAC Observation Model v0.1 introduced
+
+✓ RFC-002 PulseCandidate scientific classification under review
+
+No Domain Model modification introduced at this stage.
 
 ---
 
