@@ -155,8 +155,8 @@ Completed
 
 Current objective:
 
-Finalize the scientific Observation Model revision and validate the
-TAC/PulseCandidate relationship before Domain Model evolution.
+Complete the scientific alignment review between TAC, PulseCandidate
+classification and the Domain Model before any Domain evolution.
 
 Current focus:
 
@@ -167,6 +167,16 @@ Current focus:
 ✓ RFC-002 PulseCandidate scientific classification revised (v0.4)
 
 ✓ Core and Domain PulseCandidate distinction identified
+
+✓ TAC Domain Mapping specification introduced
+
+✓ Domain Model alignment review initiated
+
+✓ BeatReference emergence path confirmed through InternalMetricTimeline
+
+Open issue:
+
+PulseCandidate layer separation requires Domain Map review.
 
 No Domain Model modification introduced at this stage.
 
