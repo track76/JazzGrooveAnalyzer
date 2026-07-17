@@ -170,13 +170,16 @@ Current focus:
 
 ✓ TAC Domain Mapping specification introduced
 
-✓ Domain Model alignment review initiated
+✓ RFC-003 Domain Model alignment review documented
+
+✓ Domain Model compatibility with TAC confirmed
 
 ✓ BeatReference emergence path confirmed through InternalMetricTimeline
 
 Open issue:
 
-PulseCandidate layer separation requires Domain Map review.
+Future PulseCandidate naming refinement and Domain Map evolution
+remain under consideration.
 
 No Domain Model modification introduced at this stage.
 
@@ -608,3 +611,4 @@ Assume that the Domain Layer described in this document is complete and validate
 12.
 
 Do not redesign the Domain Model or its architectural decisions unless explicitly requested.
+
