@@ -1,9 +1,9 @@
 # RFC-001 — Observation Model Review
 
-Version: 0.1 (Draft)
+Version: 1.0
 
 Status:
-UNDER DISCUSSION
+ACCEPTED
 
 Author:
 Angelo Tracanna
@@ -100,10 +100,26 @@ The following questions remain under investigation.
 
 ---
 
+# Resolution
+
+The review concludes that the current JGA architecture already provides a
+separation between physical observation and Domain representation.
+
+The Observation Layer is responsible for extracting observable events from
+the audio signal without introducing musical interpretation.
+
+No additional Observation entity is required.
+
+The Elementary Metric Event remains a Domain entity derived from observable
+information and preserves temporal traceability to the original observation.
+
+The current architecture is therefore confirmed.
+
+
 # Expected Outcome
 
 The outcome of this RFC shall determine whether the scientific foundations,
 Domain Model and implementation require revision.
 
-Until this RFC is approved, the current implementation remains the official
-reference model.
+The conclusions of this RFC are now incorporated into the scientific model
+of the JGA.
