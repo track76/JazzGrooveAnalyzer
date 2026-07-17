@@ -1,6 +1,6 @@
 # RFC-003 — Domain Model Alignment after TAC Introduction
 
-Version: 0.1 (Draft)
+Version: 0.2 (Draft)
 
 Status:
 UNDER REVIEW
@@ -23,7 +23,7 @@ No implementation shall be modified until this RFC is approved.
 
 ---
 
-# Motivation
+# Scientific Context
 
 The introduction of TAC clarified the transition between:
 
@@ -31,74 +31,24 @@ The introduction of TAC clarified the transition between:
 - temporal contextualization;
 - musical representation.
 
-Repository analysis revealed that some existing concepts require
-architectural clarification, especially the role of PulseCandidate.
-
-The current repository contains two concepts sharing the same name:
-
-- Core PulseCandidate;
-- Domain PulseCandidate.
-
-This RFC investigates whether the current Domain Model correctly
-represents this distinction.
+The review focused on the role of PulseCandidate and the relationship
+between observation-level candidates and Domain-level entities.
 
 ---
 
-# Current Scientific Model
+# PulseCandidate Classification
 
-The current conceptual flow is:
-
-Audio Signal
-
-    ↓
-
-Observation Layer
-
-    ↓
-
-Core PulseCandidate
-
-    ↓
-
-TAC Temporal Alignment Context
-
-    ↓
-
-Observable Metric Context
-
-    ↓
-
-Domain Representation
-
-    ↓
-
-Elementary Metric Event
-
-    ↓
-
-Metric Cluster
-
-    ↓
-
-Internal Metric Timeline
-
-    ↓
-
-Beat Reference
-
----
-
-# Repository Analysis
+Repository analysis identified two concepts sharing the same name.
 
 ## Core PulseCandidate
 
-The Core implementation represents an observable temporal candidate
+The Core PulseCandidate represents an observable temporal candidate
 derived from audio analysis.
 
-Characteristics:
+It contains observable information such as:
 
 - timestamp;
-- onset strength;
+- strength;
 - confidence.
 
 It does not perform:
@@ -111,70 +61,72 @@ It does not perform:
 
 ## Domain PulseCandidate
 
-The Domain implementation represents a source-associated temporal
-candidate.
+The Domain PulseCandidate represents a temporal candidate inside the
+musical representation layer.
 
-Characteristics:
+It contains:
 
 - identity;
-- sound source;
+- sound source reference;
 - timestamp;
-- confidence;
-- creation metadata.
+- confidence.
 
-Its relationship with Elementary Metric Event requires scientific
-clarification.
+Its role is to preserve a domain-level temporal representation before
+metric structures are constructed.
 
 ---
 
-# Domain Model Observations
+# Domain Alignment Result
 
-The current Domain Model contains:
+The current Domain Model remains structurally compatible with the TAC
+scientific model.
 
+Existing entities:
+
+- MetricContributor;
 - ElementaryMetricEvent;
 - MetricCluster;
 - Pulse;
 - InternalMetricTimeline;
-- BeatReference.
+- BeatReference;
 
-These entities are consistent with the emergent metric model.
+remain consistent with the emergent metric architecture.
 
-The current open question concerns the position and naming of
-PulseCandidate.
+No Domain entity removal or addition is required at this stage.
+
+---
+
+# PulseCandidate Naming
+
+The shared name between Core PulseCandidate and Domain PulseCandidate
+creates semantic ambiguity.
+
+A future naming refinement may be considered.
+
+No rename is introduced by this RFC.
 
 ---
 
 # PulseCandidateExtractor
 
-The repository contains:
+The current repository contains an abstract PulseCandidateExtractor
+interface without active runtime implementation.
 
-PulseCandidateExtractor
+Its architectural responsibility remains unresolved.
 
-inside:
-
-jga.domain.services
-
-The abstraction currently has no implementation and is not used
-by the runtime.
-
-Its architectural location requires review because extraction
-from audio observation may belong outside the Domain Layer.
+No layer migration is introduced at this stage.
 
 ---
 
-# Scientific Questions
+# Final Scientific Position
 
-1. Should Core PulseCandidate and Domain PulseCandidate receive
-different names?
+The current architecture is considered valid.
 
-2. Should Domain PulseCandidate remain an explicit Domain entity?
+The required action is conceptual clarification, not implementation
+refactoring.
 
-3. Should PulseCandidateExtractor belong to the Observation or Engine
-Layer instead of Domain?
-
-4. Should the Domain Map be updated after this review?
-
-5. Does TAC require additional Domain representations?
+Future evolution shall proceed only after approval of the scientific
+classification of existing entities.
 
 ---
 
@@ -192,9 +144,9 @@ The following principles remain invariant:
 
 # Expected Outcome
 
-This RFC will determine whether the current Domain Model requires
-conceptual clarification, naming changes or architectural updates.
+This RFC establishes the current scientific alignment between TAC
+and the Domain Model.
 
-Until approval, the current implementation remains the official
-reference.
+Further implementation evolution shall follow only after this review
+is approved.
 
