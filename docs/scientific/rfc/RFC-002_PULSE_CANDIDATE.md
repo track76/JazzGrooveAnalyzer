@@ -1,9 +1,9 @@
 # RFC-002 — Scientific Nature of the PulseCandidate
 
-Version: 0.3 (Draft)
+Version: 0.4 (Draft)
 
 Status:
-UNDER DISCUSSION
+UNDER REVIEW
 
 Author:
 Angelo Tracanna
@@ -12,11 +12,11 @@ Angelo Tracanna
 
 # Purpose
 
-This RFC investigates the scientific nature of the PulseCandidate within the
-Jazz Groove Analyzer (JGA).
+This RFC investigates the scientific nature and architectural role
+of the PulseCandidate within the Jazz Groove Analyzer (JGA).
 
-Its objective is to determine the exact role of the PulseCandidate in the
-transition between physical observation and musical representation.
+Its objective is to clarify the transition between physical
+observation, temporal contextualization and musical representation.
 
 No implementation shall be modified until this RFC is approved.
 
@@ -24,20 +24,23 @@ No implementation shall be modified until this RFC is approved.
 
 # Motivation
 
-The PulseCandidate is currently positioned between the observation process
-and the construction of Elementary Metric Events (EMEs).
+The PulseCandidate was originally positioned between the observation
+process and the construction of Elementary Metric Events (EMEs).
 
-However, its scientific meaning is not yet fully defined.
+However, repository analysis revealed that the current architecture
+contains two different concepts sharing the same name:
 
-The current name suggests a possible contribution to pulse estimation, while
-the observation model under review raises the question of whether the object
-should instead represent a purely observable sound event.
+- Core PulseCandidate
+- Domain PulseCandidate
+
+The ambiguity is therefore not caused by the algorithmic behaviour,
+but by the overlap of terminology between architectural layers.
 
 ---
 
 # Current Position
 
-Current simplified pipeline:
+The simplified historical pipeline was:
 
 Audio Signal
     ↓
@@ -47,90 +50,169 @@ Elementary Metric Event
     ↓
 Metric Cluster
 
+
+The current scientific model introduces the missing temporal
+contextualization layer:
+
+Audio Signal
+    ↓
+Observation Layer
+    ↓
+Observable Temporal Events
+    ↓
+TAC Temporal Alignment Context
+    ↓
+Observable Metric Context
+    ↓
+Domain Representation
+    ↓
+Elementary Metric Event
+
 ---
 
 # Repository Analysis
 
 Repository inspection produced the following observations.
 
-The current PulseCandidateBuilder:
+## Core PulseCandidate
 
-- detects audio onsets;
-- measures onset strength;
-- creates one PulseCandidate for every detected onset;
-- assigns an initial confidence value.
+The current Core implementation:
+
+- detects temporal events derived from audio analysis;
+- stores timestamp information;
+- stores onset strength;
+- stores confidence.
 
 No pulse estimation is performed.
 
 No beat estimation is performed.
 
-No metric interpretation is introduced.
+No musical interpretation is introduced.
 
-The PulseCandidateFilter:
+The Core PulseCandidate therefore represents an
+observation-layer temporal candidate.
 
-- removes weak candidates;
-- removes temporally redundant candidates;
-- preserves only the strongest candidate within the configured time window.
 
-No musical semantics are introduced by the filtering stage.
+## Domain PulseCandidate
 
-Therefore, the current implementation treats a PulseCandidate as an
-onset-derived observation rather than as an already established metric
-hypothesis.
+The Domain implementation contains:
+
+- identity;
+- sound source reference;
+- timestamp;
+- confidence;
+- creation metadata.
+
+The Domain PulseCandidate represents a temporal contribution
+associated with a musical source.
+
+It belongs to the representation layer.
 
 ---
 
-# Current Assessment
+# Scientific Clarification
 
-Repository analysis indicates that the current PulseCandidate implementation
-operates as an intermediate object between audio observation and metric
-representation.
+The term PulseCandidate currently refers to two different
+architectural concepts.
 
-The current implementation does not perform pulse inference.
+## Core PulseCandidate
 
-The scientific classification of the PulseCandidate remains unresolved.
+Scientific interpretation:
 
-Further analysis is required to determine whether the PulseCandidate should
-be considered:
+Observable temporal candidate.
 
-- an observation-layer object;
-- an intermediate computational representation;
-- a domain-level precursor to metric representation.
+Role:
 
-No architectural change is proposed at this stage.
+To represent an event extracted from the physical audio signal
+before musical interpretation.
 
+
+## Domain PulseCandidate
+
+Scientific interpretation:
+
+Candidate temporal contribution within a musical representation.
+
+Role:
+
+To represent a source-associated event that may contribute to
+metric analysis.
+
+
+The two concepts are related but not identical.
+
+The ambiguity originates from the shared naming.
+
+---
+
+# Relationship with TAC Observation Model
+
+The TAC Observation Model introduces the conceptual boundary
+between observable events and metric representation.
+
+TAC does not replace PulseCandidate.
+
+TAC provides the temporal relational context required before
+metric interpretation.
+
+The scientific transition becomes:
+
+Observable Temporal Event
+
+        ↓
+
+TAC Temporal Relations
+
+        ↓
+
+Observable Metric Context
+
+        ↓
+
+Domain Representation
+
+        ↓
+
+Elementary Metric Event
+
+---
 
 # Scientific Questions
 
 The following questions remain open.
 
-1. Is a PulseCandidate already a metric hypothesis?
+1. Should Core PulseCandidate receive a different name?
 
-2. Does a PulseCandidate belong to the observation domain or to the
-representation domain?
+2. Should Domain PulseCandidate remain part of the Domain Model?
 
-3. Does every observable sound event generate a PulseCandidate?
+3. Should TAC become an explicit software representation?
 
-4. Should PulseCandidates already exclude acoustically irrelevant events?
+4. Which temporal relations are necessary for metric emergence?
 
-5. Is the current name scientifically appropriate?
+5. Is the term "PulseCandidate" scientifically appropriate?
 
 ---
 
-# Working Hypothesis
+# Resolution Proposal
 
-Based on the current implementation, the name PulseCandidate appears to
-describe the intended future role of the object rather than its current
-behaviour.
+Repository analysis indicates that PulseCandidate is not a single
+scientific entity but two related concepts located at different
+architectural layers.
 
-This hypothesis requires further scientific validation before any change to
-the Domain Model or implementation is considered.
+The current implementation remains valid.
+
+No algorithmic change is required.
+
+Future architectural work may introduce clearer naming to separate:
+
+- observable temporal candidates;
+- domain-level metric candidates.
 
 ---
 
 # Scientific Constraints
 
-The following principles are considered invariant.
+The following principles remain invariant:
 
 - Observation always precedes interpretation.
 - No musical meaning may be introduced without observable evidence.
@@ -142,10 +224,10 @@ The following principles are considered invariant.
 
 # Expected Outcome
 
-This RFC shall determine the scientific definition of the PulseCandidate.
+This RFC shall define the final scientific classification of
+PulseCandidate and determine whether naming changes or Domain Model
+adjustments are required.
 
-Its conclusions may require updates to the observation model, the theoretical
-framework and the Domain Model.
+Until this RFC is approved, the current implementation remains the
+official reference.
 
-Until this RFC is approved, the current implementation remains the official
-reference.
