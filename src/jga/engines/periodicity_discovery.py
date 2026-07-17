@@ -17,8 +17,11 @@ All Rights Reserved.
 =========================================================
 """
 
+import numpy as np
+
 from jga.core.metric_source import MetricSource
 from jga.core.periodicity_segment import PeriodicitySegment
+from jga.math.regularity_scorer import RegularityScorer
 from jga.runtime.analysis_context import AnalysisContext
 
 
@@ -28,7 +31,7 @@ class PeriodicityDiscovery:
 
     Searches for stable periodic behaviours.
 
-    Version 0.3
+    Version 0.4
     """
 
     def process(
@@ -37,6 +40,8 @@ class PeriodicityDiscovery:
     ) -> AnalysisContext:
 
         segments = []
+
+        scorer = RegularityScorer()
 
         if context.source_pulse_sequences:
 
@@ -59,6 +64,10 @@ class PeriodicityDiscovery:
                     sum(intervals) / len(intervals)
                 )
 
+                stability = scorer.compute(
+                    np.array(intervals)
+                )
+
                 segments.append(
                     PeriodicitySegment(
                         source=MetricSource(
@@ -68,7 +77,7 @@ class PeriodicityDiscovery:
                         start_time=candidates[0].time,
                         end_time=candidates[-1].time,
                         mean_interval=mean_interval,
-                        stability=1.0,
+                        stability=stability,
                         confidence=1.0,
                     )
                 )
