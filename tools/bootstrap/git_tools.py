@@ -1,10 +1,13 @@
-import sys
-
 from .repository_inspector import RepositoryInspector
 
 
 def check_git_status() -> None:
-    """Abort if the repository is not in a clean state."""
+    """
+    Warn if the repository is not in a clean state.
+
+    Bootstrap generation continues even when the
+    working tree contains uncommitted changes.
+    """
 
     snapshot = RepositoryInspector().inspect()
 
@@ -16,4 +19,4 @@ def check_git_status() -> None:
     if snapshot.status:
         print(snapshot.status)
 
-    sys.exit(1)
+    print("\nWARNING: Continuing bootstrap generation...\n")
