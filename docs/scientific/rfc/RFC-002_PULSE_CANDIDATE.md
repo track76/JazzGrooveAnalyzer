@@ -1,6 +1,6 @@
 # RFC-002 — Scientific Nature of the PulseCandidate
 
-Version: 0.2 (Draft)
+Version: 0.3 (Draft)
 
 Status:
 UNDER DISCUSSION
@@ -79,6 +79,26 @@ onset-derived observation rather than as an already established metric
 hypothesis.
 
 ---
+
+# Current Assessment
+
+Repository analysis indicates that the current PulseCandidate implementation
+operates as an intermediate object between audio observation and metric
+representation.
+
+The current implementation does not perform pulse inference.
+
+The scientific classification of the PulseCandidate remains unresolved.
+
+Further analysis is required to determine whether the PulseCandidate should
+be considered:
+
+- an observation-layer object;
+- an intermediate computational representation;
+- a domain-level precursor to metric representation.
+
+No architectural change is proposed at this stage.
+
 
 # Scientific Questions
 
