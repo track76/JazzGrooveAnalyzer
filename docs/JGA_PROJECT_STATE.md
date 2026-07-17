@@ -155,16 +155,18 @@ Completed
 
 Current objective:
 
-Scientific review of the Observation Model and definition of the
-Temporal Alignment Context (TAC) before Domain Model mapping.
+Finalize the scientific Observation Model revision and validate the
+TAC/PulseCandidate relationship before Domain Model evolution.
 
 Current focus:
 
 ✓ RFC-001 Observation Model Review incorporated
 
-✓ TAC Observation Model v0.1 introduced
+✓ TAC Observation Model v0.2 introduced
 
-✓ RFC-002 PulseCandidate scientific classification under review
+✓ RFC-002 PulseCandidate scientific classification revised (v0.4)
+
+✓ Core and Domain PulseCandidate distinction identified
 
 No Domain Model modification introduced at this stage.
 
