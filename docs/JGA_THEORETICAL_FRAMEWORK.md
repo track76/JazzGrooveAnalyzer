@@ -93,6 +93,14 @@ representation.
 
 The JGA represents rhythmic behaviour through a hierarchy of Domain objects.
 
+Before Domain representation, the Observation Layer provides the physical
+observations extracted from the audio signal.
+
+The Observation Layer does not introduce musical interpretation.
+It preserves observable temporal information that becomes the foundation
+for subsequent Domain representations.
+
+
 Audio Recording
 
 ↓
@@ -135,11 +143,11 @@ by the JGA.
 
 # 6. Elementary Metric Event
 
-The Elementary Metric Event (EME) is the smallest observable rhythmic
-entity recognised by the JGA.
+The Elementary Metric Event (EME) is the smallest temporal
+entity represented within the JGA Domain Model.
 
-Each EME corresponds to one temporal event extracted from the audio
-signal and represents an observable property rather than a musical
+Each EME corresponds to one temporal event derived from the observation
+process and represents a domain-level representation rather than a musical
 interpretation.
 
 ---

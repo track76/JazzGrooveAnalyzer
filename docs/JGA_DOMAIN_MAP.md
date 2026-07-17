@@ -77,7 +77,7 @@ ElementaryMetricEvent (EME)
 
 # Core Rule
 
-ElementaryMetricEvent (EME) is the first musical entity generated from observable events.
+ElementaryMetricEvent (EME) is the first Domain entity generated from observable events provided by the Observation Layer.
 
 Every higher-level rhythmic representation originates from EME.
 

@@ -1,6 +1,6 @@
 # F-001 — Scientific Observation
 
-Version: 1.0 (Draft)
+Version: 1.1 (Draft)
 
 Status:
 UNDER REVIEW
@@ -38,6 +38,20 @@ musical events without altering them.
 
 ---
 
+# Observation Layer
+
+The physical observation of a musical performance is
+performed by the Observation Layer.
+
+The Observation Layer transforms the audio signal into
+observable events (such as Onsets) without introducing
+musical interpretation.
+
+These observations preserve the temporal reality of the
+recorded performance.
+
+---
+
 # Observable Musical Event
 
 Every Elementary Metric Event (EME) represents
@@ -47,6 +61,10 @@ An EME preserves its original occurrence in time.
 
 The JGA never moves, corrects or quantizes
 an observed event.
+
+The EME belongs to the Domain representation and
+remains traceable to the physical observations from
+which it originates.
 
 ---
 
@@ -95,4 +113,3 @@ remains the source of truth.
 The JGA documents musical behaviour.
 
 It never reconstructs an ideal performance.
-
