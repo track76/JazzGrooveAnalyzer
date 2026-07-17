@@ -1,6 +1,6 @@
 # TAC Observation Model
 
-Version: 0.1
+Version: 0.2
 
 Status:
 DRAFT
@@ -22,7 +22,10 @@ assumptions or interpretative hypotheses.
 
 # 2. Scientific Position
 
-TAC belongs to the observation-to-representation transition layer.
+TAC belongs to the transition layer between physical observation
+and musical representation.
+
+TAC describes temporal relationships among observable events.
 
 TAC does not represent:
 
@@ -32,64 +35,115 @@ TAC does not represent:
 - quantized timing;
 - metric correctness.
 
-TAC represents relationships between observable temporal events
-derived from the physical audio signal.
+TAC represents temporal organization derived from the physical
+audio signal while preserving observational traceability.
 
 
-# 3. Relationship with RFC-001 Observation Model Review
+# 3. Relationship with F-001 Scientific Observation
 
-RFC-001 establishes the fundamental principle:
+F-001 establishes the fundamental principle:
 
 Observation always precedes interpretation.
 
-No additional generic Observation entity is introduced.
+The Observation Layer extracts observable events from the audio
+signal without introducing musical meaning.
+
+TAC does not replace the Observation Layer.
+
+TAC operates after observation and provides temporal
+contextualization of observable events before metric interpretation.
+
+
+# 4. Relationship with RFC-001 Observation Model Review
+
+RFC-001 confirms that no additional generic Observation entity
+is required.
 
 The original performance remains the source of truth.
 
-Every higher-level representation must remain traceable to physical
-observations.
+Every higher-level representation must remain traceable to
+physical observations.
 
-TAC therefore does not replace the Observation Layer.
+TAC therefore is not a new observation entity.
 
-TAC operates on observable events while preserving their temporal
-and acoustic provenance.
-
-
-# 4. Relationship with RFC-002 PulseCandidate
-
-RFC-002 identifies an unresolved ambiguity concerning the scientific
-role of PulseCandidate.
-
-Current implementation shows that PulseCandidate:
-
-- derives from onset detection;
-- contains onset-related information;
-- carries confidence;
-- does not perform pulse inference;
-- does not perform beat estimation;
-- does not introduce musical interpretation.
-
-Therefore PulseCandidate cannot be considered an already established
-metric entity.
-
-TAC provides the temporal relational context required between
-observable events and later metric representation.
+TAC is a model of temporal relationships between observations.
 
 
-# 5. TAC Temporal Observation
+# 5. Relationship with F-003 Observable Metric Context
 
-A TAC temporal event represents an observable occurrence extracted
-from the audio signal.
+The Observable Metric Context is constructed after temporal
+relationships among observable events have been identified.
 
-A temporal event may contain:
+F-003 defines the context required for subsequent analysis,
+including:
+
+- meter;
+- local tempo;
+- ensemble pulse;
+- metric contributors;
+- musical functions.
+
+TAC does not determine these concepts.
+
+TAC provides the temporal organization required before the
+Observable Metric Context can emerge.
+
+
+# 6. Relationship with RFC-002 PulseCandidate
+
+RFC-002 identifies an ambiguity in the scientific role of
+PulseCandidate.
+
+Repository analysis shows two different concepts:
+
+## Core PulseCandidate
+
+Represents an onset-derived observable temporal candidate.
+
+Characteristics:
+
+- timestamp;
+- onset strength;
+- confidence.
+
+It belongs to the observation/computational layer.
+
+
+## Domain PulseCandidate
+
+Represents a domain-level candidate temporal contribution
+associated with a musical source.
+
+Characteristics:
+
+- identity;
+- sound source;
+- timestamp;
+- confidence.
+
+It belongs to the representation layer.
+
+
+The shared name creates semantic ambiguity.
+
+TAC provides the missing conceptual boundary between observable
+temporal events and metric representation.
+
+
+# 7. TAC Temporal Observation
+
+A TAC temporal observation represents an observable occurrence
+derived from the audio signal.
+
+A TAC temporal observation may contain:
 
 - timestamp;
 - duration;
-- source identity;
+- source information;
 - acoustic confidence;
 - observable characteristics.
 
-A TAC event does not contain:
+A TAC temporal observation does not contain:
 
 - beat position;
 - metric subdivision;
@@ -97,10 +151,10 @@ A TAC event does not contain:
 - stylistic judgement.
 
 
-# 6. Temporal Relations
+# 8. Temporal Relations
 
-The fundamental purpose of TAC is describing relationships between
-observable events.
+The fundamental purpose of TAC is describing relationships
+between observable temporal events.
 
 Possible temporal relations include:
 
@@ -111,11 +165,11 @@ Possible temporal relations include:
 - persistence;
 - recurrence.
 
-These relations describe what happens in the performance without
-declaring why it happens.
+These relations describe what happens in the performance
+without declaring why it happens.
 
 
-# 7. TAC Context
+# 9. TAC Context
 
 A Temporal Alignment Context is a collection of temporally related
 observable events belonging to a defined performance segment.
@@ -128,28 +182,37 @@ A TAC Context describes:
 - how temporal relationships evolve over time.
 
 
-# 8. Relationship with Elementary Metric Event
+# 10. Relationship with Elementary Metric Event
 
-The Elementary Metric Event remains the first domain-level metric
-representation of JGA.
+The Elementary Metric Event remains a domain-level temporal
+representation derived from observable evidence.
 
 TAC does not replace EME.
 
-TAC provides the observable temporal evidence from which metric
-representation can emerge.
+TAC provides temporal evidence and relational structure before
+metric representation.
 
-The transition:
+The transition is:
 
 Observable Event
+
         ↓
-TAC Temporal Relation
+
+TAC Temporal Relations
+
         ↓
+
+Observable Metric Context
+
+        ↓
+
 Elementary Metric Event
 
-must remain traceable.
+
+Every abstraction must remain traceable to the original audio.
 
 
-# 9. Non Goals
+# 11. Non Goals
 
 TAC does not:
 
@@ -161,7 +224,7 @@ TAC does not:
 - determine correctness of timing.
 
 
-# 10. Scientific Constraints
+# 12. Scientific Constraints
 
 The following principles are invariant:
 
@@ -169,28 +232,28 @@ The following principles are invariant:
 - Observable evidence precedes musical meaning.
 - No hidden metric assumption may be introduced.
 - Every abstraction must remain traceable to the original audio.
+- Intentional rhythmic variation is not treated as error.
 
 
-# 11. Open Questions
+# 13. Open Questions
 
 The following points require further investigation:
 
-1. Is PulseCandidate a TAC input object?
+1. Should TAC become an explicit software model?
 
-2. Should TAC become a Domain Model entity?
+2. Should Core PulseCandidate receive a different name?
 
-3. Which temporal relations are necessary for metric emergence?
+3. Should Domain PulseCandidate remain part of the Domain Model?
 
-4. Does TAC require a dedicated mathematical representation?
+4. Which temporal relations are necessary for metric emergence?
 
-5. How does TAC interact with Metric Cluster construction?
-
-
+5. Does TAC require a dedicated mathematical representation?
 
 
-# 12. Repository Status
+# 14. Repository Status
 
 This document defines a scientific specification only.
 
 No implementation change is introduced until the model is approved
 and mapped to the Domain Model.
+
