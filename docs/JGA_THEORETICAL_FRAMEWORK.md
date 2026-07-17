@@ -251,3 +251,19 @@ Planned developments include:
 • Groove Metrics
 
 • Collective Metric Behaviour
+
+# 14. Canonical Project Documentation
+
+The Jazz Groove Analyzer is supported by a set of canonical documents that
+must evolve together with the source code.
+
+These documents constitute the architectural and scientific memory of the
+project.
+
+- JGA_THEORETICAL_FRAMEWORK.md
+- JGA_DOMAIN_MAP.md
+- JGA_DECISIONS.md
+- JGA_PROJECT_STATE.md
+
+Every modification affecting the scientific model, the Domain Model or the
+project architecture must preserve the consistency of these documents.
