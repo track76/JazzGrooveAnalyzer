@@ -16,7 +16,7 @@ v0.2.0-alpha
 
 **Current Milestone**
 
-M3.3 — Core Architecture Review
+M3.1 — Core Integration
 
 **Status**
 
