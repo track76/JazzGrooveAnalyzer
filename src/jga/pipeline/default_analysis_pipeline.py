@@ -36,6 +36,11 @@ from jga.runtime.analysis_report import AnalysisReport
 
 from jga.separation.null_separator import NullSeparator
 
+from jga.translation.domain_input_builder import (
+    DefaultDomainInputBuilder,
+)
+
+
 class AnalysisPipeline:
     """
     Main JGA analysis pipeline.
@@ -68,6 +73,8 @@ class AnalysisPipeline:
         self.metric_segment_builder = MetricSegmentBuilder()
 
         self.metric_cluster_builder = MetricClusterBuilder()
+
+        self.domain_input_builder = DefaultDomainInputBuilder()
 
     def analyze(
         self,
@@ -109,7 +116,7 @@ class AnalysisPipeline:
 
         # Metric Stability
         context = self.stability.process(context)
-        
+
         context = self.source_pulse_extractor.process(context)
 
         context = self.periodicity_discovery.process(context)
@@ -117,5 +124,7 @@ class AnalysisPipeline:
         context = self.metric_segment_builder.process(context)
 
         context = self.metric_cluster_builder.process(context)
+
+        context = self.domain_input_builder.build(context)
 
         return context
