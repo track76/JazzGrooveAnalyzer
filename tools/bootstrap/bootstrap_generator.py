@@ -13,11 +13,20 @@ def git(cmd):
 
 CANONICAL_DOCUMENTS = [
 
-    # Scientific Foundations
+    # =====================================================
+    # Scientific Documentation
+    # =====================================================
 
+    "docs/scientific/README.md",
     "docs/scientific/JGA_SCIENTIFIC_MANIFESTO.md",
     "docs/scientific/JGA_OBSERVATION_MODEL.md",
     "docs/scientific/JGA_METRIC_CONTEXT.md",
+    "docs/scientific/JGA_TAC_OBSERVATION_MODEL.md",
+    "docs/scientific/JGA_TAC_DOMAIN_MAPPING.md",
+
+    # =====================================================
+    # Scientific Foundations
+    # =====================================================
 
     "docs/scientific/foundations/F-001_SCIENTIFIC_OBSERVATION.md",
     "docs/scientific/foundations/F-002_OBSERVABLE_MUSICAL_FACTS.md",
@@ -26,35 +35,46 @@ CANONICAL_DOCUMENTS = [
     "docs/scientific/foundations/F-005_ENSEMBLE_BEHAVIOUR.md",
     "docs/scientific/foundations/F-006_HISTORICAL_COMPARISON.md",
 
+    # =====================================================
     # Canonical Theory
+    # =====================================================
 
     "docs/JGA_THEORETICAL_FRAMEWORK.md",
+    "docs/JGA_METHOD.md",
     "docs/JGA_PRINCIPLES.md",
-    "docs/JGA_METRIC_STABILITY_MODEL.md",
 
+    # =====================================================
+    # Architecture
+    # =====================================================
+
+    "docs/JGA_ARCHITECTURE.md",
+    "docs/architecture/CORE_DOMAIN_BOUNDARY.md",
+    "docs/architecture/REPRESENTATION_TRANSLATION.md",
+
+    # =====================================================
+    # Domain
+    # =====================================================
+
+    "docs/JGA_DOMAIN_MODEL.md",
+    "docs/domain/DOMAIN_MODEL_MAP.md",
+
+    # =====================================================
     # Project
+    # =====================================================
 
-    "docs/JGA_PROJECT_STATE.md",
     "docs/JGA_DECISIONS.md",
+    "docs/JGA_PROJECT_STATE.md",
 ]
 
 
 def generate_bootstrap():
 
-    branch = git(
-        ["git", "branch", "--show-current"]
-    )
+    branch = git(["git", "branch", "--show-current"])
+    commit = git(["git", "rev-parse", "--short", "HEAD"])
 
-    commit = git(
-        ["git", "rev-parse", "--short", "HEAD"]
-    )
+    docs = "\n".join(f"- {d}" for d in CANONICAL_DOCUMENTS)
 
-    docs = "\n".join(
-        f"- {document}"
-        for document in CANONICAL_DOCUMENTS
-    )
-
-    text = f"""# Jazz Groove Analyzer
+    text = f"""# Jazz Groove Analyzer (JGA)
 
 Branch: {branch}
 
@@ -68,19 +88,35 @@ python tools/bootstrap.py
 
 before every ChatGPT session.
 
-------------------------------------------------------------
+============================================================
+Knowledge Hierarchy
+============================================================
 
+Scientific Theory
+        ↓
+Scientific Observation Model
+        ↓
+Architecture
+        ↓
+Domain Model
+        ↓
+Implementation
+
+Theory precedes implementation.
+
+============================================================
 Canonical Documents
+============================================================
 
 {docs}
 
-------------------------------------------------------------
-
+============================================================
 Development Workflow
+============================================================
 
-Scientific Foundations
+Theory
         ↓
-Specifications
+Architecture
         ↓
 Implementation
         ↓
@@ -88,6 +124,15 @@ Tests
         ↓
 Validation
 
+============================================================
+Current Project State
+============================================================
+
+Always refer to:
+
+- docs/JGA_PROJECT_STATE.md
+
+for the current implementation status.
 """
 
     (
