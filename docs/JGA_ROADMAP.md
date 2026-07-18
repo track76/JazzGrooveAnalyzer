@@ -64,7 +64,7 @@ Each milestone extends the framework while preserving scientific interpretabilit
 
 ## Core Integration
 
-**Status:** 🟨 In Progress
+**Status:** ✅ Completed
 
 ### Goal
 
@@ -87,7 +87,7 @@ M3.1 — AudioStemCollection
 
 ## Metric Reconstruction
 
-**Status:** ⬜ Planned
+**Status:** 🟨 In Progress
 
 ### Objectives
 

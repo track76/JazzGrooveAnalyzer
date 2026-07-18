@@ -16,7 +16,7 @@ v0.2.0-alpha
 
 **Current Milestone**
 
-M3.1 — Core Integration
+M4 — Metric Reconstruction
 
 **Status**
 
@@ -479,9 +479,9 @@ The following decisions are considered stable.
 
 # Current Milestone
 
-M3.1
+M4
 
-Core Integration
+Metric Reconstruction
 
 Status
 
