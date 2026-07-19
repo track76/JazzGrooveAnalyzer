@@ -4,7 +4,7 @@
 
 **Document ID:** JGA-MATH-009
 
-**Version:** 2.0
+**Version:** 2.1
 
 **Status:** Official
 
@@ -182,6 +182,37 @@ The complete mathematical model is therefore
 
 ---
 
+# 6.1 Transformation τ₇ — Internal Metric Timeline Reconstruction
+
+Let
+
+P = (p₁, p₂, …, pₙ)
+
+be an ordered sequence of Pulse entities.
+
+The transformation
+
+τ₇(P) = ℐ
+
+reconstructs the Internal Metric Timeline associated with the complete
+Pulse sequence.
+
+τ₇ operates on the sequence as a whole rather than on individual Pulse
+entities.
+
+The transformation satisfies the following mathematical properties:
+
+- determinism;
+- preservation of Pulse identity;
+- preservation of chronological ordering;
+- preservation of physical timestamps;
+- preservation of temporal continuity.
+
+No additional Pulse entities are created and no existing Pulse entities
+are modified.
+
+---
+
 # 7. Formal Properties
 
 The model satisfies the following properties.
@@ -217,115 +248,3 @@ Every mathematical object possesses one unique formal definition.
 Every mathematical object belongs to exactly one abstraction level.
 
 ---
-
-## Axiom 3
-
-Every transformation preserves the consistency of the mathematical framework.
-
----
-
-## Axiom 4
-
-Mathematical definitions precede computational implementation.
-
----
-
-## Axiom 5
-
-Algorithms implement mathematical transformations.
-
-They never define them.
-
----
-
-# 9. Propositions
-
-## Proposition 9.1
-
-Every representational object depends directly or indirectly upon one or more observational objects.
-
----
-
-## Proposition 9.2
-
-Every valid mathematical transformation increases semantic abstraction.
-
----
-
-## Proposition 9.3
-
-Replacing an implementation never modifies the mathematical model.
-
----
-
-## Proposition 9.4
-
-Every future extension preserving the axioms belongs to the mathematical framework.
-
----
-
-# 10. Corollaries
-
-## Corollary 10.1
-
-Different DSP algorithms may implement the same mathematical transformation.
-
----
-
-## Corollary 10.2
-
-Different programming languages may implement the same mathematical model.
-
----
-
-## Corollary 10.3
-
-The mathematical validity of the Jazz Groove Analyzer is independent of software implementation.
-
----
-
-# 11. Formal Definition of the Jazz Groove Analyzer
-
-The Jazz Groove Analyzer is formally defined as the mathematical model
-
-JGA = (𝕌, ℴ, ℛ, M, S, O, T)
-
-where
-
-𝕌
-
-is the mathematical universe;
-
-ℴ
-
-is the Observation Domain;
-
-ℛ
-
-is the Representation Domain;
-
-M
-
-is the set of mathematical objects;
-
-S
-
-is the set of mathematical structures;
-
-O
-
-is the set of mathematical operations;
-
-T
-
-is the set of mathematical transformations.
-
----
-
-# 12. Conclusion
-
-The mathematical model defined in this document constitutes the formal specification of the Jazz Groove Analyzer.
-
-Every future development of the project shall preserve the definitions, axioms, properties and formal relationships established herein.
-
-Consequently, the mathematical model represents the immutable scientific core of the Jazz Groove Analyzer.
