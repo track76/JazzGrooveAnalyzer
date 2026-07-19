@@ -18,6 +18,7 @@ All Rights Reserved.
 """
 
 from jga.core.source_pulse_sequence import SourcePulseSequence
+from jga.core.metric_source import MetricSource
 from jga.runtime.analysis_context import AnalysisContext
 
 
@@ -40,7 +41,10 @@ class SourcePulseExtractor:
         if context.pulse_candidates:
 
             sequence = SourcePulseSequence(
-                source_name="mix",
+                source=MetricSource(
+                    name="mix",
+                    family="Unknown",
+                ),
                 pulse_candidates=list(context.pulse_candidates),
             )
 

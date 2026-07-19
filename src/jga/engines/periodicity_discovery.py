@@ -70,10 +70,7 @@ class PeriodicityDiscovery:
 
                 segments.append(
                     PeriodicitySegment(
-                        source=MetricSource(
-                            name=sequence.source_name,
-                            family="Unknown",
-                        ),
+                        source=sequence.source,
                         start_time=candidates[0].time,
                         end_time=candidates[-1].time,
                         mean_interval=mean_interval,

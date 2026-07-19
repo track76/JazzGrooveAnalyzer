@@ -5,6 +5,7 @@ import numpy as np
 from jga.core.audio_file import AudioFile
 from jga.core.pulse_candidate import PulseCandidate
 from jga.core.source_pulse_sequence import SourcePulseSequence
+from jga.core.metric_source import MetricSource
 from jga.engines.periodicity_discovery import PeriodicityDiscovery
 from jga.runtime.analysis_context import AnalysisContext
 
@@ -27,7 +28,10 @@ def test_builds_one_periodicity_segment():
 
     context.source_pulse_sequences = [
         SourcePulseSequence(
-            source_name="Ride",
+            source=MetricSource(
+                name="Ride",
+                family="Unknown",
+            ),
             pulse_candidates=[
                 PulseCandidate(time=0.0, strength=1.0),
                 PulseCandidate(time=0.5, strength=1.0),

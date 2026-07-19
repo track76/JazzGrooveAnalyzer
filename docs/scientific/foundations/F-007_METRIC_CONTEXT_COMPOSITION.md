@@ -35,6 +35,9 @@ observable representations:
 - PeriodicitySegment
 - MetricSegment
 
+SourcePulseSequence preserves the observable identity of the
+MetricSource associated with its rhythmic events.
+
 These representations describe increasingly stable temporal
 organization while remaining entirely observable.
 
