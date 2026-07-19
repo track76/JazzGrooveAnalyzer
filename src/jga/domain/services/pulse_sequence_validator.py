@@ -16,6 +16,8 @@ class PulseSequenceValidator:
                 "At least one Pulse is required."
             )
 
+        previous_timestamp = None
+
         for pulse in pulses:
 
             if pulse is None:
@@ -27,3 +29,13 @@ class PulseSequenceValidator:
                 raise TypeError(
                     "All elements must be Pulse instances."
                 )
+
+            if (
+                previous_timestamp is not None
+                and pulse.timestamp < previous_timestamp
+            ):
+                raise ValueError(
+                    "Pulse sequence is not chronologically ordered."
+                )
+
+            previous_timestamp = pulse.timestamp
