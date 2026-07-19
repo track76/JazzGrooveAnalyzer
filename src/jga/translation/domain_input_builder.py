@@ -4,6 +4,16 @@ Jazz Groove Analyzer (JGA)
 
 File:
     domain_input_builder.py
+
+Description:
+    Default implementation of the mathematical
+    transformation τ₈ (Representation Translation).
+
+Author:
+    Angelo Tracanna
+
+Copyright © 2026 Angelo Tracanna
+All Rights Reserved.
 =========================================================
 """
 
@@ -15,14 +25,16 @@ from jga.runtime.analysis_context import AnalysisContext
 
 class DefaultDomainInputBuilder(DomainInputBuilder):
     """
-    Default implementation of the Translation Layer.
+    Default implementation of the mathematical transformation τ₈.
 
-    At the current stage of the project, the Translation
-    Layer establishes the architectural boundary between
-    the computational pipeline and the Domain.
+    τ₈ defines the deterministic translation boundary between the
+    computational representations produced by the Core and the
+    canonical inputs consumed by the Domain.
 
-    Concrete translation rules will be introduced
-    incrementally during Metric Reconstruction.
+    At the current stage no semantic translation is performed.
+
+    The transformation preserves every observable property and
+    introduces no musical interpretation.
     """
 
     def build(
@@ -30,8 +42,18 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         context: AnalysisContext,
     ) -> AnalysisContext:
         """
-        Returns a validated AnalysisContext ready to be
-        consumed by the Domain layer.
+        Performs the τ₈ representation translation.
+
+        Current implementation:
+            Identity transformation.
+
+        Scientific invariants:
+
+        - determinism;
+        - representational fidelity;
+        - traceability;
+        - semantic neutrality;
+        - observation preservation.
         """
 
         if context is None:
