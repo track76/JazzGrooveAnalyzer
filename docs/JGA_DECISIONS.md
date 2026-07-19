@@ -244,3 +244,112 @@ The Core must not implement musical semantics.
 The Domain must remain independent from DSP and signal-processing implementation details.
 
 No direct dependency between Core and Domain is allowed.
+
+---
+
+# AD-015
+
+## Title
+
+Metric Source Identity Preservation
+
+**Status:** LOCKED
+
+### Decision
+
+Every observable rhythmic event that contributes to the Metric Context shall preserve its originating Metric Source throughout the Core computational lifecycle.
+
+The SourcePulseSequence shall maintain the identity of the MetricSource associated with its observable events.
+
+The Translation Layer shall consume this preserved source information without reconstructing or inferring source identity.
+
+### Consequence
+
+The lifecycle preserves source provenance:
+
+MetricSource
+
+↓
+
+SourcePulseSequence
+
+↓
+
+PeriodicitySegment
+
+↓
+
+MetricSegment
+
+↓
+
+MetricContext
+
+↓
+
+τ₈
+
+↓
+
+Domain Objects
+
+
+# AD-015
+
+## Title
+
+Real Audio Validation Requirement
+
+**Status:** LOCKED
+
+### Decision
+
+Every implementation that introduces, modifies or connects components of the JGA pipeline shall be validated through at least one real audio file test before being considered complete.
+
+Unit tests verify local component correctness.
+
+Real audio validation verifies the coherence of the complete computational chain.
+
+### Consequence
+
+The development workflow becomes:
+
+1. Theory
+2. Architecture
+3. Implementation
+4. Unit Tests
+5. Real Audio Validation
+6. Commit
+
+### Scientific Motivation
+
+The JGA analysis chain transforms continuous audio through multiple
+architectural boundaries:
+
+Audio Signal
+
+↓
+
+Observation Model
+
+↓
+
+Computational Representations
+
+↓
+
+Translation Boundary
+
+↓
+
+Domain Model
+
+A component may be locally correct while producing inconsistencies
+when integrated into the complete pipeline.
+
+Real audio validation is therefore required to verify:
+
+- information preservation;
+- architectural compatibility;
+- absence of implicit assumptions;
+- correct behaviour of the complete analysis pipeline.
