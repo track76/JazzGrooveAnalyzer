@@ -235,6 +235,33 @@ The model satisfies the following properties.
 
 ---
 
+## Representational Fidelity
+
+Every mathematical transformation defined within the Jazz Groove Analyzer
+is representational.
+
+A transformation maps an object to a higher abstraction level without
+altering the observed phenomenon.
+
+Consequently, every transformation τ₁ … τ₇ preserves:
+
+- object identity whenever applicable;
+- physical timestamps;
+- chronological ordering;
+- observable information.
+
+No mathematical transformation defined by the Jazz Groove Analyzer may:
+
+- modify the observed phenomenon;
+- generate artificial observations;
+- perform temporal realignment;
+- perform temporal quantization.
+
+Every transformation changes only the representational domain while
+preserving the observed musical behaviour.
+
+---
+
 # 8. Axioms
 
 ## Axiom 1
