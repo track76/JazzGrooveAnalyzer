@@ -29,6 +29,7 @@ from jga.engines.metric_stability_analyzer import MetricStabilityAnalyzer
 from jga.engines.source_pulse_extractor import SourcePulseExtractor
 from jga.engines.periodicity_discovery import PeriodicityDiscovery
 from jga.engines.metric_segment_builder import MetricSegmentBuilder
+from jga.engines.metric_context_builder import MetricContextBuilder
 from jga.engines.metric_cluster_builder import MetricClusterBuilder
 
 from jga.runtime.analysis_context import AnalysisContext
@@ -71,6 +72,8 @@ class AnalysisPipeline:
         self.periodicity_discovery = PeriodicityDiscovery()
 
         self.metric_segment_builder = MetricSegmentBuilder()
+
+        self.metric_context_builder = MetricContextBuilder()
 
         self.metric_cluster_builder = MetricClusterBuilder()
 
@@ -122,6 +125,8 @@ class AnalysisPipeline:
         context = self.periodicity_discovery.process(context)
 
         context = self.metric_segment_builder.process(context)
+
+        context = self.metric_context_builder.process(context)
 
         context = self.metric_cluster_builder.process(context)
 
