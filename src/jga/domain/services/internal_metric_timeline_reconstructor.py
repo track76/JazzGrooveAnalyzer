@@ -26,6 +26,15 @@ class InternalMetricTimelineReconstructor:
         pulses: tuple[Pulse, ...],
     ) -> InternalMetricTimeline:
 
+        validated_pulses = self._prepare(pulses)
+
+        return self._builder.build(validated_pulses)
+
+    def _prepare(
+        self,
+        pulses: tuple[Pulse, ...],
+    ) -> tuple[Pulse, ...]:
+
         self._validator.validate(pulses)
 
-        return self._builder.build(pulses)
+        return pulses
