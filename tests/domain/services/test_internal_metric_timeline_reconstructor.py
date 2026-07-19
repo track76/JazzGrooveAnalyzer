@@ -75,3 +75,21 @@ def test_invalid_sequence_raises_value_error():
 
     with pytest.raises(ValueError):
         reconstructor.reconstruct(())
+
+
+def test_projection_preserves_pulse_identity():
+
+    reconstructor = InternalMetricTimelineReconstructor()
+
+    pulse1 = make_pulse(1.0, 0)
+    pulse2 = make_pulse(2.0, 1)
+
+    timeline = reconstructor.reconstruct(
+        (
+            pulse1,
+            pulse2,
+        )
+    )
+
+    assert timeline.pulses[0] is pulse1
+    assert timeline.pulses[1] is pulse2

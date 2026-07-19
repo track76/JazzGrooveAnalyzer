@@ -10,7 +10,12 @@ from jga.domain.services.pulse_sequence_validator import (
 
 class InternalMetricTimelineReconstructor:
     """
-    Reconstructs an InternalMetricTimeline from a validated Pulse sequence.
+    Reconstructs the Internal Metric Timeline from a Pulse sequence.
+
+    This service implements the Metric Projection stage defined by
+    F-004. The reconstruction never modifies the observed Pulse
+    sequence. It validates the sequence and projects it into the
+    Internal Metric Timeline.
     """
 
     def __init__(
@@ -26,15 +31,20 @@ class InternalMetricTimelineReconstructor:
         pulses: tuple[Pulse, ...],
     ) -> InternalMetricTimeline:
 
-        validated_pulses = self._prepare(pulses)
+        projected_pulses = self._project(pulses)
 
-        return self._builder.build(validated_pulses)
+        return self._builder.build(projected_pulses)
 
-    def _prepare(
+    def _project(
         self,
         pulses: tuple[Pulse, ...],
     ) -> tuple[Pulse, ...]:
 
         self._validator.validate(pulses)
 
+        # F-004:
+        # Projection preserves the physical timestamps.
+        # Musical meaning is added by the reconstruction
+        # process without altering the observed Pulse
+        # sequence.
         return pulses
