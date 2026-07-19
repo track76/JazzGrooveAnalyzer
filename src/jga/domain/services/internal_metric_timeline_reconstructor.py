@@ -12,8 +12,9 @@ class InternalMetricTimelineReconstructor:
     """
     Reconstructs the Internal Metric Timeline from a Pulse sequence.
 
-    This service implements the Metric Projection stage defined by F-004.
-    Projection never modifies the observed Pulse sequence.
+    This service implements the Metric Projection stage defined
+    by F-004. Projection never modifies the observed Pulse
+    sequence and preserves every physical timestamp.
     """
 
     def __init__(
@@ -29,9 +30,9 @@ class InternalMetricTimelineReconstructor:
         pulses: tuple[Pulse, ...],
     ) -> InternalMetricTimeline:
 
-        projected_pulses = self._project(pulses)
-
-        return self._builder.build(projected_pulses)
+        return self._builder.build(
+            self._project(pulses)
+        )
 
     def _project(
         self,
@@ -40,14 +41,10 @@ class InternalMetricTimelineReconstructor:
 
         self._validator.validate(pulses)
 
-        projected = []
-
-        for pulse in pulses:
-            projected.append(
-                self._project_pulse(pulse)
-            )
-
-        return tuple(projected)
+        return tuple(
+            self._project_pulse(pulse)
+            for pulse in pulses
+        )
 
     def _project_pulse(
         self,
@@ -56,7 +53,11 @@ class InternalMetricTimelineReconstructor:
         """
         Projects a Pulse into the Internal Metric Timeline.
 
-        Current implementation preserves the Pulse unchanged.
+        F-004 invariants:
+
+        - physical timestamp is preserved;
+        - Pulse identity is preserved;
+        - no musical information is altered.
         """
 
         return pulse
