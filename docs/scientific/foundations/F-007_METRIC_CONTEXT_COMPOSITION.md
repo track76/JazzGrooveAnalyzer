@@ -40,6 +40,27 @@ organization while remaining entirely observable.
 
 ---
 
+# Canonical Representation
+
+The observable composition of the Metric Context is defined at the
+scientific level.
+
+The software implementation is not required to expose every
+intermediate computational representation as independent fields.
+
+Equivalent software representations are permitted provided that:
+
+- no observable information is lost;
+- every observable property required by the Translation Layer remains
+  recoverable;
+- representational fidelity is preserved;
+- complete traceability to the observable evidence is maintained.
+
+Consequently, the scientific composition of the Metric Context and its
+software representation are intentionally treated as distinct concepts.
+
+---
+
 # Scientific Invariants
 
 Every component of the Metric Context:
