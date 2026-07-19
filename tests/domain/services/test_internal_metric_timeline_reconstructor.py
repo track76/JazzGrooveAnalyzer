@@ -48,12 +48,10 @@ def make_pulse(timestamp: float, index: int) -> Pulse:
 
 
 def test_reconstructor_can_be_instantiated():
-
     assert InternalMetricTimelineReconstructor() is not None
 
 
 def test_reconstruct_returns_internal_metric_timeline():
-
     reconstructor = InternalMetricTimelineReconstructor()
 
     timeline = reconstructor.reconstruct(
@@ -63,22 +61,17 @@ def test_reconstruct_returns_internal_metric_timeline():
         )
     )
 
-    assert isinstance(
-        timeline,
-        InternalMetricTimeline,
-    )
+    assert isinstance(timeline, InternalMetricTimeline)
 
 
 def test_invalid_sequence_raises_value_error():
-
     reconstructor = InternalMetricTimelineReconstructor()
 
     with pytest.raises(ValueError):
         reconstructor.reconstruct(())
 
 
-def test_projection_preserves_pulse_identity():
-
+def test_tau7_preserves_pulse_identity():
     reconstructor = InternalMetricTimelineReconstructor()
 
     pulse1 = make_pulse(1.0, 0)
@@ -93,22 +86,3 @@ def test_projection_preserves_pulse_identity():
 
     assert timeline.pulses[0] is pulse1
     assert timeline.pulses[1] is pulse2
-
-
-def test_projection_preserves_pulse_identity():
-
-    reconstructor = InternalMetricTimelineReconstructor()
-
-    pulse1 = make_pulse(1.0, 0)
-    pulse2 = make_pulse(2.0, 1)
-
-    pulses = (
-        pulse1,
-        pulse2,
-    )
-
-    projected = reconstructor._project(pulses)
-
-    assert projected[0] is pulse1
-    assert projected[1] is pulse2
-    assert projected == pulses

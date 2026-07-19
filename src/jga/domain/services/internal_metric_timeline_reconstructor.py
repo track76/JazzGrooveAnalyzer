@@ -10,12 +10,10 @@ from jga.domain.services.pulse_sequence_validator import (
 
 class InternalMetricTimelineReconstructor:
     """
-    Reconstructs the Internal Metric Timeline from a Pulse sequence.
+    Software implementation of the mathematical transformation τ₇.
 
-    Implements the Metric Projection stage defined by F-004.
-
-    Metric Projection operates on the Pulse sequence as a whole.
-    It never modifies individual Pulse entities.
+    τ₇ reconstructs the Internal Metric Timeline from an ordered
+    Pulse sequence.
     """
 
     def __init__(
@@ -31,24 +29,24 @@ class InternalMetricTimelineReconstructor:
         pulses: tuple[Pulse, ...],
     ) -> InternalMetricTimeline:
 
-        projected = self._project(pulses)
+        reconstructed_sequence = self._reconstruct_sequence(pulses)
 
-        return self._builder.build(projected)
+        return self._builder.build(reconstructed_sequence)
 
-    def _project(
+    def _reconstruct_sequence(
         self,
         pulses: tuple[Pulse, ...],
     ) -> tuple[Pulse, ...]:
         """
-        Performs Metric Projection on the complete Pulse sequence.
+        Implements the mathematical transformation τ₇.
 
-        Scientific invariants (F-004):
+        Scientific invariants:
 
-        - physical timestamps are preserved;
-        - Pulse identity is preserved;
-        - chronological ordering is preserved;
-        - projection is deterministic;
-        - no arbitrary musical interpretation is introduced.
+        - Pulse identity is preserved.
+        - Physical timestamps are preserved.
+        - Chronological ordering is preserved.
+        - Temporal continuity is preserved.
+        - The reconstruction is deterministic.
         """
 
         self._validator.validate(pulses)
