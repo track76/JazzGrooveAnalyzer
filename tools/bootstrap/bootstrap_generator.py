@@ -18,6 +18,7 @@ CANONICAL_DOCUMENTS = [
     # =====================================================
 
     "docs/scientific/README.md",
+    "docs/JGA_DEVELOPMENT_CONSTITUTION.md",
     "docs/scientific/JGA_SCIENTIFIC_MANIFESTO.md",
     "docs/scientific/JGA_OBSERVATION_MODEL.md",
     "docs/scientific/JGA_METRIC_CONTEXT.md",
@@ -103,6 +104,21 @@ Domain Model
 Implementation
 
 Theory precedes implementation.
+
+============================================================
+Development Constitution
+============================================================
+
+Always follow:
+
+- docs/JGA_DEVELOPMENT_CONSTITUTION.md
+
+The Development Constitution defines the
+mandatory development methodology of JGA.
+
+When implementation convenience conflicts
+with the Constitution, the Constitution
+always prevails.
 
 ============================================================
 Canonical Documents
