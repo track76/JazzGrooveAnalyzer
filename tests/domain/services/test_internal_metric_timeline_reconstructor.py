@@ -95,15 +95,20 @@ def test_projection_preserves_pulse_identity():
     assert timeline.pulses[1] is pulse2
 
 
-def test_projection_returns_new_tuple():
+def test_projection_preserves_pulse_identity():
 
     reconstructor = InternalMetricTimelineReconstructor()
 
+    pulse1 = make_pulse(1.0, 0)
+    pulse2 = make_pulse(2.0, 1)
+
     pulses = (
-        make_pulse(1.0, 0),
-        make_pulse(2.0, 1),
+        pulse1,
+        pulse2,
     )
 
     projected = reconstructor._project(pulses)
 
-    assert projected is pulses
+    assert projected[0] is pulse1
+    assert projected[1] is pulse2
+    assert projected == pulses
