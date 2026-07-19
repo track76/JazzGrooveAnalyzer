@@ -18,6 +18,7 @@ def print_report():
     print(ROOT / "artifacts" / "JGA_CONTEXT.zip")
 
     print(ROOT / "artifacts" / "JGA_REPOSITORY.zip")
+    print(ROOT / "artifacts" / "JGA_ARCHITECTURE_MAP.md")
 
     print()
 

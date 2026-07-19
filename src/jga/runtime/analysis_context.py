@@ -102,6 +102,8 @@ class AnalysisContext:
 
     ensemble_analysis_result: EnsembleAnalysisResult | None = None
 
+    domain_pulse_candidates: tuple = ()
+
     elementary_metric_events: tuple = ()
 
     # =====================================================

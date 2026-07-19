@@ -69,4 +69,4 @@ def test_build_returns_same_context_with_translation():
 
     assert result is context
     assert result.ensemble_analysis_result is not None
-    assert result.elementary_metric_events == ()
+    assert result.domain_pulse_candidates == ()

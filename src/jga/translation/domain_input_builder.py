@@ -6,8 +6,8 @@ File:
     domain_input_builder.py
 
 Description:
-    Default implementation of the mathematical
-    transformation τ₈ (Representation Translation).
+    Default implementation of the
+    Domain Input construction boundary.
 
 Author:
     Angelo Tracanna
@@ -17,6 +17,9 @@ All Rights Reserved.
 =========================================================
 """
 
+from jga.domain.services.elementary_metric_event_builder import (
+    ElementaryMetricEventBuilder,
+)
 from jga.domain.services.ensemble_analysis_pipeline import (
     EnsembleAnalysisPipeline,
 )
@@ -29,16 +32,13 @@ from jga.translation.tau8_translator import Tau8Translator
 
 class DefaultDomainInputBuilder(DomainInputBuilder):
     """
-    Default implementation of τ₈.
+    Builds the canonical Domain input.
 
-    Performs the deterministic representation
-    translation from MetricContext to
-    ElementaryMetricEvent domain entities.
+    Responsibilities:
 
-    Before the translation, the musical domain
-    is reconstructed from the AudioStem
-    collection through the configured
-    EnsembleAnalysisPipeline.
+    1. Reconstruct the musical domain.
+    2. Apply τ₈ representation translation.
+    3. Build ElementaryMetricEvent entities.
     """
 
     def __init__(
@@ -47,7 +47,12 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
     ) -> None:
 
         self._ensemble_pipeline = ensemble_pipeline
+
         self.tau8 = Tau8Translator()
+
+        self.eme_builder = (
+            ElementaryMetricEventBuilder()
+        )
 
     def build(
         self,
@@ -80,12 +85,24 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         )
 
         #
-        # Representation translation (τ₈)
+        # τ₈ Representation Translation
+        #
+
+        context.domain_pulse_candidates = (
+            self.tau8.translate(
+                context.metric_context,
+                context.ensemble_analysis_result.sound_sources,
+            )
+        )
+
+        #
+        # Domain Metric Event construction
         #
 
         context.elementary_metric_events = (
-            self.tau8.translate(
-                context.metric_context
+            self.eme_builder.build(
+                context.domain_pulse_candidates,
+                context.ensemble_analysis_result.metric_contributors,
             )
         )
 
