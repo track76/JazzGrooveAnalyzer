@@ -13,6 +13,22 @@ class InternalMetricTimelineBuilder:
         pulses: tuple[Pulse, ...],
     ) -> InternalMetricTimeline:
 
+        if not pulses:
+            raise ValueError(
+                "At least one Pulse is required to build an InternalMetricTimeline."
+            )
+
+        for pulse in pulses:
+            if pulse is None:
+                raise ValueError(
+                    "Pulse sequence cannot contain None values."
+                )
+
+            if not isinstance(pulse, Pulse):
+                raise TypeError(
+                    "All elements must be Pulse instances."
+                )
+
         return InternalMetricTimeline(
             id=uuid4(),
             pulses=pulses,

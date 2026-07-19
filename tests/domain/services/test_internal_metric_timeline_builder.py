@@ -156,3 +156,18 @@ def test_build_large_number_of_pulses():
 
     assert timeline.pulses[0] is pulses[0]
     assert timeline.pulses[-1] is pulses[-1]
+
+def test_none_pulse_raises_value_error():
+
+    builder = InternalMetricTimelineBuilder()
+
+    with pytest.raises(ValueError):
+        builder.build((None,))
+
+
+def test_non_pulse_object_raises_type_error():
+
+    builder = InternalMetricTimelineBuilder()
+
+    with pytest.raises(TypeError):
+        builder.build(("not-a-pulse",))
