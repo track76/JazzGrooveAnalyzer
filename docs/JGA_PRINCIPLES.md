@@ -69,6 +69,43 @@ result.
 ## Principle 5 — Scientific Traceability
 
 Every software component shall be traceable to an explicit scientific
-definition, mathematical formulation or architectural principle.
+model, mathematical formulation or architectural principle.
 
-Theoretical definitions precede implementation.
+Scientific models precede mathematical formalization.
+
+Mathematical formalization precedes software implementation.
+
+---
+
+## Principle 6 — Scientific Development Workflow
+
+The Jazz Groove Analyzer shall always evolve according to the following
+development workflow:
+
+Scientific Model
+        ↓
+Mathematics
+        ↓
+Implementation
+
+The Scientific Model defines the scientific concepts, relationships,
+responsibilities and invariants.
+
+Only after the Scientific Model has been completed may the corresponding
+mathematical formalization be introduced.
+
+Only after the mathematical formalization has been completed may the
+corresponding software implementation begin.
+
+Consequently:
+
+- no implementation shall precede its scientific definition;
+- no mathematical formalization shall precede its scientific model;
+- every implementation shall be fully traceable to both its scientific
+  model and its mathematical definition.
+
+This workflow guarantees scientific consistency, architectural
+coherence and long-term maintainability of the Jazz Groove Analyzer.
+
+When uncertainty exists, development shall stop until the scientific
+model has been clarified.
