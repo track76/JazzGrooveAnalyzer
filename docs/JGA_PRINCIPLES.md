@@ -1,105 +1,74 @@
-# JGA Principles
+# Jazz Groove Analyzer (JGA)
 
-## Foundational Principles of the Jazz Groove Analyzer
-
-**Version:** 1.0 (Draft)
+# Fundamental Principles
 
 ---
 
-## Purpose
+## Principle 1 — Acoustic Primacy
 
-This document defines the fundamental principles that govern the development of the Jazz Groove Analyzer (JGA).
+The acoustic signal constitutes the only primary source of information
+available to the Jazz Groove Analyzer.
 
-These principles are intended to remain stable over time and to guide every methodological, mathematical and software engineering decision throughout the project.
+No external temporal reference, musical score, click track, tempo
+annotation, MIDI information or manually supplied musical knowledge is
+assumed.
 
-Whenever a new algorithm, model or architectural choice is proposed, it should be evaluated against these principles.
-
----
-
-# Principle 1 — Behaviour Before Identity
-
-The JGA analyses musical behaviour rather than performer identity.
-
-Analytical decisions are based on observable rhythmic behaviour, independently of the instrument producing it.
+Every representation reconstructed by the JGA ultimately originates from
+the observed acoustic signal.
 
 ---
 
-# Principle 2 — Ensemble Before Individual
+## Principle 2 — Representational Fidelity
 
-The rhythmic behaviour of the ensemble has priority over the analysis of individual performers.
+The Jazz Groove Analyzer is an observational and representational
+scientific framework.
 
-Individual timing only acquires musical meaning within the collective temporal context.
+Every transformation performed by the JGA produces a higher-level
+representation of the observed musical behaviour without altering the
+underlying observations.
 
----
+Consequently, the JGA shall never:
 
-# Principle 3 — Reconstructed Metric Reference
+- modify physical timestamps;
+- realign musical events;
+- quantize temporal behaviour;
+- smooth temporal observations;
+- create artificial musical events;
+- alter the observable acoustic signal.
 
-The metric reference is not directly detected.
+Every transformation changes only the level of representation while
+preserving the observed musical phenomenon.
 
-It is reconstructed from the collective rhythmic behaviour of the ensemble through the analytical process defined by the JGA methodology.
+The Jazz Groove Analyzer performs analysis rather than correction.
 
----
+A useful analogy is medical imaging.
 
-# Principle 4 — Dynamic Metric Roles
-
-Metric roles are not fixed.
-
-Their functional relevance may evolve continuously during a performance according to the musical interaction among performers.
-
----
-
-# Principle 5 — Emergent Musical Structure
-
-Higher-level rhythmic structures emerge from the interaction of multiple musical events.
-
-The Ensemble Metric Event and other collective phenomena are treated as emergent properties rather than isolated observations.
-
----
-
-# Principle 6 — Human Timing is Musical Information
-
-Timing variability is not considered noise by default.
-
-Expressive microtiming is an essential component of groove and must be preserved whenever possible.
+The JGA performs a temporal "CT scan" of the ensemble: it reconstructs a
+faithful representation of the musical behaviour without modifying the
+phenomenon being observed.
 
 ---
 
-# Principle 7 — Explainability
+## Principle 3 — Progressive Abstraction
 
-Every analytical decision produced by the JGA should be explainable.
+Each abstraction level is reconstructed exclusively from the immediately
+preceding level.
 
-Models whose behaviour cannot be interpreted or justified in musical terms should not become core components of the analytical framework.
-
----
-
-# Principle 8 — Musical Interpretability
-
-Whenever multiple analytical approaches provide comparable performance, the JGA favours the one that preserves musical interpretability.
-
-Algorithmic sophistication must never replace musical understanding.
+No abstraction level may bypass an intermediate representation.
 
 ---
 
-# Principle 9 — Methodological Coherence
+## Principle 4 — Deterministic Reconstruction
 
-Every new algorithm, descriptor or mathematical model introduced into the JGA must remain consistent with the conceptual framework defined by these principles.
-
-Methodological consistency has priority over incremental performance improvements.
-
----
-
-# Principle 10 — Theory Before Implementation
-
-The JGA is fundamentally a theoretical framework for analysing collective rhythmic behaviour.
-
-Software is the implementation of the theory, not its definition.
-
-Mathematical consistency precedes software design.
+Given the same observable input, every reconstruction performed by the
+Jazz Groove Analyzer shall always produce the same representational
+result.
 
 ---
 
-## Final Statement
+## Principle 5 — Scientific Traceability
 
-These principles constitute the constitutional foundation of the Jazz Groove Analyzer project.
+Every software component shall be traceable to an explicit scientific
+definition, mathematical formulation or architectural principle.
 
-They are intended to preserve the scientific identity, methodological coherence and musical interpretability of the JGA throughout its future evolution.
+Theoretical definitions precede implementation.
