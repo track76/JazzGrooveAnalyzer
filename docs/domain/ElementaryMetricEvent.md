@@ -4,7 +4,7 @@
 
 # ElementaryMetricEvent (EME)
 
-**Version:** 1.0
+**Version:** 1.1
 
 **Status:** Official
 
@@ -20,7 +20,7 @@ The purpose of the `ElementaryMetricEvent` (EME) entity is to represent the smal
 
 The EME constitutes the elementary unit from which the ensemble metric structure is progressively inferred.
 
-It is the first temporal object of the Jazz Groove Analyzer.
+It is the first temporal object of the Jazz Groove Analyzer Domain Model.
 
 ---
 
@@ -28,9 +28,9 @@ It is the first temporal object of the Jazz Groove Analyzer.
 
 The temporal organisation of an ensemble cannot be analysed directly from the continuous audio signal.
 
-Instead, the signal must be decomposed into discrete temporal events representing observable musical actions that contribute to the collective metric reference.
+Instead, the signal is progressively transformed into coherent observable representations during the Observation Model.
 
-The ElementaryMetricEvent provides this fundamental abstraction.
+Once the Metric Context has been scientifically established, the Translation Layer reconstructs the corresponding ElementaryMetricEvent entities.
 
 Every higher-level temporal structure within the JGA is ultimately derived from collections of EMEs.
 
@@ -38,13 +38,13 @@ Every higher-level temporal structure within the JGA is ultimately derived from 
 
 # 3. Scientific Definition
 
-An `ElementaryMetricEvent` is a domain-level temporal representation generated from an observable event associated with a `MetricContributor`.
+An `ElementaryMetricEvent` is a domain-level temporal representation generated from observable evidence through the Translation Layer after the Metric Context has been established.
 
 An EME represents the occurrence of a metric-relevant musical action at a specific instant within the performance.
 
 The EME preserves information derived from observation.
 
-It is not yet an estimation of pulse, beat or tempo.
+It is not an estimation of pulse, beat or tempo.
 
 ---
 
@@ -90,7 +90,7 @@ Every MetricCluster is composed exclusively of EMEs.
 
 # 7. Lifecycle
 
-An EME is created when a metric-relevant event is detected.
+An EME is reconstructed by the Translation Layer after the Metric Context has been established.
 
 Once created, it remains immutable throughout the complete analysis.
 
@@ -147,41 +147,14 @@ Those responsibilities belong to later stages of the Domain Model.
 
 # 10. Observability
 
-The ElementaryMetricEvent is directly derived from observable events provided by the Observation Layer.
+The ElementaryMetricEvent preserves observable evidence reconstructed by the Translation Layer from the Metric Context.
 
-It represents the smallest temporal entity explicitly modelled by the Jazz Groove Analyzer.
+It represents the smallest temporal entity explicitly modelled by the Jazz Groove Analyzer Domain Model.
 
 ---
 
 # 11. Position within the Domain Model
 
-```
-AudioRecording
-        │
-        ▼
-AudioStem
-        │
-        ▼
-SoundSource
-        │
-        ▼
-MusicalFunction
-        │
-        ▼
-MetricContributor
-        │
-        ▼
-ElementaryMetricEvent
-        │
-        ▼
-MetricCluster
-        │
-        ▼
-Pulse
-        │
-        ▼
-InternalMetricTimeline
-```
 
 ---
 
@@ -197,8 +170,6 @@ Implementation details remain outside the scope of this document.
 
 # 13. Conclusion
 
-The ElementaryMetricEvent constitutes the fundamental temporal atom of the Jazz Groove Analyzer.
+The ElementaryMetricEvent constitutes the fundamental temporal atom of the Jazz Groove Analyzer Domain Model.
 
 Every higher-level temporal object—including MetricCluster, Pulse and InternalMetricTimeline—is ultimately derived from collections of ElementaryMetricEvents.
-
-For this reason, the EME represents the foundational temporal entity of the entire metric analysis process.
