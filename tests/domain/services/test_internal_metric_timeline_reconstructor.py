@@ -77,12 +77,40 @@ def test_tau7_preserves_pulse_identity():
     pulse1 = make_pulse(1.0, 0)
     pulse2 = make_pulse(2.0, 1)
 
-    timeline = reconstructor.reconstruct(
-        (
-            pulse1,
-            pulse2,
-        )
-    )
+    timeline = reconstructor.reconstruct((pulse1, pulse2))
 
     assert timeline.pulses[0] is pulse1
     assert timeline.pulses[1] is pulse2
+
+
+def test_tau7_preserves_sequence_object():
+    reconstructor = InternalMetricTimelineReconstructor()
+
+    pulses = (
+        make_pulse(1.0, 0),
+        make_pulse(2.0, 1),
+        make_pulse(3.0, 2),
+    )
+
+    reconstructed = reconstructor._reconstruct_sequence(pulses)
+
+    assert reconstructed is pulses
+
+
+def test_tau7_preserves_order_and_timestamps():
+    reconstructor = InternalMetricTimelineReconstructor()
+
+    pulses = (
+        make_pulse(1.0, 0),
+        make_pulse(2.5, 1),
+        make_pulse(4.0, 2),
+    )
+
+    timeline = reconstructor.reconstruct(pulses)
+
+    assert timeline.pulses == pulses
+    assert tuple(p.timestamp for p in timeline.pulses) == (
+        1.0,
+        2.5,
+        4.0,
+    )
