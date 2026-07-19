@@ -17,6 +17,7 @@ class PulseSequenceValidator:
             )
 
         previous_timestamp = None
+        seen_ids = set()
 
         for pulse in pulses:
 
@@ -29,6 +30,13 @@ class PulseSequenceValidator:
                 raise TypeError(
                     "All elements must be Pulse instances."
                 )
+
+            if pulse.id in seen_ids:
+                raise ValueError(
+                    "Duplicate Pulse detected."
+                )
+
+            seen_ids.add(pulse.id)
 
             if (
                 previous_timestamp is not None

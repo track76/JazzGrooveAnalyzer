@@ -103,3 +103,17 @@ def test_decreasing_timestamp_raises_value_error():
                 make_pulse(1.0, 1),
             )
         )
+
+def test_duplicate_pulse_raises_value_error():
+
+    validator = PulseSequenceValidator()
+
+    pulse = make_pulse(1.0, 0)
+
+    with pytest.raises(ValueError):
+        validator.validate(
+            (
+                pulse,
+                pulse,
+            )
+        )
