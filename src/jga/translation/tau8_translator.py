@@ -17,6 +17,9 @@ All Rights Reserved.
 =========================================================
 """
 
+from datetime import datetime
+from uuid import uuid4
+
 from jga.core.metric_context import MetricContext
 from jga.domain.elementary_metric_event import ElementaryMetricEvent
 
@@ -42,6 +45,25 @@ class Tau8Translator:
         metric_context: MetricContext,
     ) -> tuple[ElementaryMetricEvent, ...]:
 
-        raise NotImplementedError(
-            "τ₈ translation is not implemented yet."
-        )
+        if metric_context is None:
+            raise ValueError(
+                "MetricContext cannot be None."
+            )
+
+        events = []
+
+        for sequence in metric_context.source_pulse_sequences:
+
+            for candidate in sequence.pulse_candidates:
+
+                events.append(
+                    ElementaryMetricEvent(
+                        id=uuid4(),
+                        contributor_id=candidate.sound_source_id,
+                        timestamp=candidate.timestamp,
+                        confidence=candidate.confidence,
+                        created_at=datetime.now(),
+                    )
+                )
+
+        return tuple(events)

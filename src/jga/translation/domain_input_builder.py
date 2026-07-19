@@ -20,43 +20,45 @@ All Rights Reserved.
 from jga.interfaces.translation.domain_input_builder import (
     DomainInputBuilder,
 )
+
 from jga.runtime.analysis_context import AnalysisContext
+from jga.translation.tau8_translator import Tau8Translator
 
 
 class DefaultDomainInputBuilder(DomainInputBuilder):
     """
-    Default implementation of the mathematical transformation τ₈.
+    Default implementation of τ₈.
 
-    τ₈ defines the deterministic translation boundary between the
-    computational representations produced by the Core and the
-    canonical inputs consumed by the Domain.
+    Performs the deterministic representation
+    translation from MetricContext to
+    ElementaryMetricEvent domain entities.
 
-    At the current stage no semantic translation is performed.
-
-    The transformation preserves every observable property and
-    introduces no musical interpretation.
+    No musical interpretation is introduced.
     """
+
+    def __init__(self):
+
+        self.tau8 = Tau8Translator()
 
     def build(
         self,
         context: AnalysisContext,
     ) -> AnalysisContext:
-        """
-        Performs the τ₈ representation translation.
-
-        Current implementation:
-            Identity transformation.
-
-        Scientific invariants:
-
-        - determinism;
-        - representational fidelity;
-        - traceability;
-        - semantic neutrality;
-        - observation preservation.
-        """
 
         if context is None:
-            raise ValueError("AnalysisContext cannot be None.")
+            raise ValueError(
+                "AnalysisContext cannot be None."
+            )
+
+        if context.metric_context is None:
+            raise ValueError(
+                "MetricContext required for τ₈ translation."
+            )
+
+        context.elementary_metric_events = (
+            self.tau8.translate(
+                context.metric_context
+            )
+        )
 
         return context
