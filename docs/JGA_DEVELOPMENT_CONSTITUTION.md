@@ -137,3 +137,19 @@ existing architecture is insufficient.
 When multiple solutions satisfy the scientific model, the
 solution introducing the least architectural complexity
 shall be preferred.
+
+---
+
+## DP-015
+
+Each software component shall have one clear responsibility.
+
+Documentation generators generate documentation.
+
+Exporters export existing artifacts.
+
+Inspectors inspect the repository.
+
+Responsibilities shall remain separated unless
+their unification demonstrably reduces
+architectural complexity.
