@@ -17,7 +17,7 @@ class PulseSequenceValidator:
             )
 
         previous_timestamp = None
-        seen_ids = set()
+        seen_ids: set = set()
 
         for pulse in pulses:
 
