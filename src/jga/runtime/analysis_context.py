@@ -26,6 +26,10 @@ from jga.core.audio_stem_collection import AudioStemCollection
 from jga.runtime.analysis_log import AnalysisLog
 from jga.runtime.analysis_report import AnalysisReport
 from jga.observation.signal_representation import SignalRepresentation
+from jga.domain.ensemble_analysis_result import (
+    EnsembleAnalysisResult,
+)
+
 
 
 @dataclass
@@ -95,6 +99,8 @@ class AnalysisContext:
     # =====================================================
     # Translation Layer τ₈
     # =====================================================
+
+    ensemble_analysis_result: EnsembleAnalysisResult | None = None
 
     elementary_metric_events: tuple = ()
 

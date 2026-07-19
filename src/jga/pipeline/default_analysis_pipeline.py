@@ -37,6 +37,19 @@ from jga.runtime.analysis_report import AnalysisReport
 
 from jga.separation.null_separator import NullSeparator
 
+from jga.domain.services.dummy_source_identification_service import (
+    DummySourceIdentificationService,
+)
+from jga.domain.services.rule_based_ensemble_analysis_pipeline import (
+    RuleBasedEnsembleAnalysisPipeline,
+)
+from jga.domain.services.rule_based_metric_contributor_assignment_service import (
+    RuleBasedMetricContributorAssignmentService,
+)
+from jga.domain.services.rule_based_musical_function_assignment_service import (
+    RuleBasedMusicalFunctionAssignmentService,
+)
+
 from jga.translation.domain_input_builder import (
     DefaultDomainInputBuilder,
 )
@@ -76,9 +89,31 @@ class AnalysisPipeline:
         self.metric_context_builder = MetricContextBuilder()
 
         self.metric_cluster_builder = MetricClusterBuilder()
+        
+        source_identifier = DummySourceIdentificationService()
 
-        self.domain_input_builder = DefaultDomainInputBuilder()
+        function_assigner = (
+            RuleBasedMusicalFunctionAssignmentService()
+        )
 
+        contributor_assigner = (
+            RuleBasedMetricContributorAssignmentService()
+        )
+ 
+        ensemble_pipeline = (
+            RuleBasedEnsembleAnalysisPipeline(
+                source_identifier=source_identifier,
+                function_assigner=function_assigner,
+                contributor_assigner=contributor_assigner,
+            )
+        )
+
+        self.domain_input_builder = (
+            DefaultDomainInputBuilder(
+                ensemble_pipeline=ensemble_pipeline,
+            )
+        )
+ 
     def analyze(
         self,
         filepath: str
