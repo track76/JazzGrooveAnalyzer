@@ -669,6 +669,37 @@ It is the final theoretical representation produced by the Jazz Groove Analyzer.
 
 The Internal Metric Timeline provides the temporal reference against which every subsequent analysis of tempo, timing, microtiming, rhythmic stability, and ensemble interaction is performed.
 
+---
+
+# Representational Fidelity Principle
+
+The Jazz Groove Analyzer is an observational and representational scientific framework.
+
+Every transformation performed by the Jazz Groove Analyzer produces a higher-level representation of the observed musical behaviour without altering the underlying observations.
+
+Consequently, every transformation defined within the JGA shall preserve the observed phenomenon.
+
+The Jazz Groove Analyzer shall never:
+
+- modify physical timestamps;
+- realign musical events;
+- quantize temporal behaviour;
+- smooth temporal observations;
+- create artificial musical events;
+- alter the observable acoustic signal.
+
+Every transformation changes only the level of representation while preserving the observed musical behaviour.
+
+The Jazz Groove Analyzer performs analysis rather than correction.
+
+A useful analogy is medical imaging.
+
+The JGA performs a temporal CT scan of the ensemble.
+
+It reconstructs a faithful representation of the musical behaviour without modifying the phenomenon being observed.
+
+This principle governs every mathematical transformation, software component and architectural decision throughout the Jazz Groove Analyzer.
+
 # 13. Fundamental Principles and Axioms
 
 The theoretical framework of the Jazz Groove Analyzer is founded upon a small set of fundamental axioms.
