@@ -353,3 +353,85 @@ Real audio validation is therefore required to verify:
 - architectural compatibility;
 - absence of implicit assumptions;
 - correct behaviour of the complete analysis pipeline.
+
+
+# AD-014
+
+## Title
+
+MetricContributor Resolution Boundary
+
+**Status:** LOCKED
+
+### Decision
+
+The resolution between observable musical sources and metric contributors
+belongs exclusively to `MetricContributorResolver`.
+
+The mapping chain is:
+
+SoundSource.id
+
+↓
+
+MetricContributor.sound_source_id
+
+↓
+
+MetricContributor.id
+
+
+`PulseCandidate` shall preserve the originating `SoundSource` identity.
+
+`ElementaryMetricEvent` shall reference the resolved `MetricContributor`
+identity.
+
+No component shall bypass this resolution step.
+
+
+---
+
+# AD-015
+
+## Title
+
+Architectural Output/Input Contract Validation
+
+**Status:** LOCKED
+
+### Decision
+
+Every architectural component shall produce an output formally compatible
+with the declared input contract of the following component.
+
+Implicit transformations between architectural layers are forbidden.
+
+Each transition shall explicitly define:
+
+- input representation;
+- output representation;
+- responsible transformation;
+- traceability to the previous layer.
+
+Example:
+
+MetricContext
+
+↓
+
+τ₈ Representation Translation
+
+↓
+
+Domain PulseCandidate
+
+↓
+
+MetricContributor Resolution
+
+↓
+
+ElementaryMetricEvent
+
+
+No component may bypass an intermediate semantic layer.
