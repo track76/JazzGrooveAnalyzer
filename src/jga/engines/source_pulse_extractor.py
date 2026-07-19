@@ -28,7 +28,11 @@ class SourcePulseExtractor:
 
     Builds SourcePulseSequence objects.
 
-    Version 0.2
+    Version 0.3
+
+    AD-015:
+    MetricSource identity must originate from
+    AudioStem identity.
     """
 
     def process(
@@ -38,11 +42,13 @@ class SourcePulseExtractor:
 
         sequences = []
 
-        if context.pulse_candidates:
+        if context.pulse_candidates and context.audio_stems:
+
+            stem = context.audio_stems[0]
 
             sequence = SourcePulseSequence(
                 source=MetricSource(
-                    name="mix",
+                    name=stem.name,
                     family="Unknown",
                 ),
                 pulse_candidates=list(context.pulse_candidates),
