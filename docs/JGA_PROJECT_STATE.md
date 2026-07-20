@@ -151,37 +151,41 @@ Completed
 
 ✓ NullSeparator updated
 
-✓ 105 / 105 tests passing
+✓ M4 Translation Layer implemented
+
+✓ τ₈ Domain Translation completed
+
+✓ ElementaryMetricEvent generation validated
+
+✓ MetricSource → SoundSource contract validated
+
+✓ Real audio validation completed
+
+✓ 145 / 145 tests passing
 
 Current objective:
 
-Complete the scientific alignment review between TAC, PulseCandidate
-classification and the Domain Model before any Domain evolution.
+Complete M4 Metric Reconstruction consolidation and prepare the
+transition toward Behaviour Analysis (M5).
 
 Current focus:
 
-✓ RFC-001 Observation Model Review incorporated
+✓ τ₈ Translation Layer validated
 
-✓ TAC Observation Model v0.2 introduced
+✓ Domain Input construction completed
 
-✓ RFC-002 PulseCandidate scientific classification revised (v0.4)
+✓ ElementaryMetricEvent creation verified
 
-✓ Core and Domain PulseCandidate distinction identified
+✓ Domain provenance preservation verified
 
-✓ TAC Domain Mapping specification introduced
+✓ AD-015 Real Audio Validation Requirement satisfied
 
-✓ RFC-003 Domain Model alignment review documented
-
-✓ Domain Model compatibility with TAC confirmed
-
-✓ BeatReference emergence path confirmed through InternalMetricTimeline
+✓ M4 output contracts validated
 
 Open issue:
 
-Future PulseCandidate naming refinement and Domain Map evolution
-remain under consideration.
-
-No Domain Model modification introduced at this stage.
+Final consolidation of Metric Reconstruction and preparation
+of Behaviour Analysis models remain the next development steps.
 
 ---
 
@@ -485,7 +489,7 @@ Metric Reconstruction
 
 Status
 
-In Progress
+Consolidated
 
 ---
 
@@ -493,23 +497,23 @@ In Progress
 
 1.
 
-Design AudioStemCollection
+Complete M4 Metric Reconstruction consolidation
 
 2.
 
-Implement AudioStemCollection
+Document Translation Layer contracts
 
 3.
 
-Integrate Acquisition Layer with Core
+Verify Domain/Core boundary stability
 
 4.
 
-Preserve Core independence
+Prepare Behaviour Analysis models (M5)
 
 5.
 
-Update Analysis Pipeline
+Define validation strategy for higher-level analysis
 
 ---
 
