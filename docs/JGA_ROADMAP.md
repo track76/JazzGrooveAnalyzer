@@ -87,14 +87,17 @@ M3.1 — AudioStemCollection
 
 ## Metric Reconstruction
 
-**Status:** 🟨 In Progress
+**Status:** ✅ Completed
 
-### Objectives
+### Completed
 
-- PulseCandidate generation
+- PulseCandidate generation pipeline foundation
 - ElementaryMetricEvent construction
-- MetricCluster reconstruction
-- Beat Reference estimation
+- MetricCluster reconstruction foundation
+- Beat Reference emergence path validation
+- τ₈ Translation Layer implementation
+- Domain Input construction
+- Real audio validation
 
 ---
 
