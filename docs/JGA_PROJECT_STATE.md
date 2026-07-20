@@ -161,7 +161,7 @@ Completed
 
 ✓ Real audio validation completed
 
-✓ 145 / 145 tests passing
+✓ 105 / 105 tests passing
 
 Current objective:
 
