@@ -2,7 +2,7 @@
 
 **Version:** v0.2.0-alpha
 
-**Current Milestone:** M3.1
+**Current Milestone:** M4 — Metric Reconstruction
 
 **Repository Status:** Active Development
 
@@ -58,7 +58,9 @@ Analysis
 
 ## Current Objective
 
-Consolidate the JGA Core architecture by validating Core responsibilities and continuing the integration of the AudioStemCollection workflow.
+Complete M4 Metric Reconstruction consolidation by validating the
+Translation Layer contracts and preparing the transition toward
+Behaviour Analysis (M5).
 
 ---
 
@@ -76,20 +78,32 @@ Consolidate the JGA Core architecture by validating Core responsibilities and co
 
 # Current Status
 
-- Repository synchronized with GitHub
+- Repository active development
 - Tests passing
 - Observation Layer completed
-- M3.1 started
+- M3.1 AudioStemCollection integration completed
+
 ✓ AudioStemCollection introduced
 
 ✓ AudioStemCollection integrated into AnalysisContext
 
 ✓ NullSeparator updated
 
-✓ 102/102 tests passing
+✓ M4 Translation Layer implemented
+
+✓ τ₈ Domain Translation completed
+
+✓ ElementaryMetricEvent generation validated
+
+✓ MetricSource → SoundSource contract validated
+
+✓ Real audio validation completed
+
+✓ 145/145 tests passing
 
 ---
 
 # Next Immediate Step
 
-Design the `AudioStemCollection` domain object before modifying the pipeline.
+Complete M4 consolidation and begin the preparation of
+Behaviour Analysis (M5).
