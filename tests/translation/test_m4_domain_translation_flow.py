@@ -109,3 +109,59 @@ def test_m4_complete_domain_translation_flow():
     )
 
     assert event.contributor_id == contributor.id
+
+
+def test_m4_metric_source_sound_source_contract():
+
+    builder = create_builder()
+
+    stem = AudioStem(
+        id=uuid4(),
+        recording_id=uuid4(),
+        name="Mix",
+        audio_path=Path("mix.wav"),
+        sample_rate=44100,
+        duration=10.0,
+        channels=1,
+        created_at=datetime.now(),
+    )
+
+    candidate = CorePulseCandidate(
+        time=1.25,
+        strength=1.0,
+        confidence=0.9,
+    )
+
+    sequence = SourcePulseSequence(
+        source=MetricSource(
+            name="Mix",
+            family="unknown",
+        ),
+        pulse_candidates=[
+            candidate,
+        ],
+    )
+
+    context = AnalysisContext(
+        audio=None,
+        audio_stems=AudioStemCollection(
+            (
+                stem,
+            )
+        ),
+        metric_context=MetricContext(
+            source_pulse_sequences=(
+                sequence,
+            ),
+            periodicity_segments=(),
+            metric_segments=(),
+        ),
+    )
+
+    result = builder.build(context)
+
+    assert result.domain_pulse_candidates
+
+    assert result.domain_pulse_candidates[0].sound_source_id == (
+        result.ensemble_analysis_result.sound_sources[0].id
+    )
