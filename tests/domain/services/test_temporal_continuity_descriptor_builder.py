@@ -14,4 +14,7 @@ def test_builder_returns_behaviour_descriptor():
     descriptor = builder.build(observation)
 
     assert isinstance(descriptor, BehaviourDescriptor)
+
     assert descriptor.name == "TemporalContinuity"
+
+    assert 0.0 <= descriptor.value <= 1.0
