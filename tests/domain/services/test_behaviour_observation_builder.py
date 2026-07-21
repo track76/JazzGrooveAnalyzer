@@ -43,13 +43,21 @@ def make_pulse(index: int) -> Pulse:
     )
 
 
-def test_build_observation():
+def test_build_observations():
     timeline = InternalMetricTimeline(
         id=uuid4(),
-        pulses=(make_pulse(0), make_pulse(1)),
+        pulses=(
+            make_pulse(0),
+            make_pulse(1),
+            make_pulse(2),
+        ),
         created_at=datetime.now(),
     )
 
-    observation = BehaviourObservationBuilder().build(timeline)
+    observations = BehaviourObservationBuilder().build(timeline)
 
-    assert observation.timeline == timeline
+    assert len(observations) == 3
+
+    assert observations[0].first_pulse.index == 0
+    assert observations[1].first_pulse.index == 1
+    assert observations[2].first_pulse.index == 2

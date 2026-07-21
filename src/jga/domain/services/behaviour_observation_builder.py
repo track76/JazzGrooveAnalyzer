@@ -7,18 +7,21 @@ from jga.domain.internal_metric_timeline import InternalMetricTimeline
 
 class BehaviourObservationBuilder:
     """
-    Builds one BehaviourObservation from one InternalMetricTimeline.
+    Builds BehaviourObservation objects from an InternalMetricTimeline.
     """
 
     def build(
         self,
         timeline: InternalMetricTimeline,
-    ) -> BehaviourObservation:
+    ) -> tuple[BehaviourObservation, ...]:
 
-        return BehaviourObservation(
-            id=uuid4(),
-            timeline=timeline,
-            first_pulse=timeline.first_pulse,
-            last_pulse=timeline.last_pulse,
-            created_at=datetime.now(),
+        return tuple(
+            BehaviourObservation(
+                id=uuid4(),
+                timeline=timeline,
+                first_pulse=pulse,
+                last_pulse=pulse,
+                created_at=datetime.now(),
+            )
+            for pulse in timeline.pulses
         )
