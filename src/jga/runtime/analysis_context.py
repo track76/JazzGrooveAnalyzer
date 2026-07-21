@@ -23,13 +23,28 @@ import numpy as np
 
 from jga.core.audio_file import AudioFile
 from jga.core.audio_stem_collection import AudioStemCollection
+
+from jga.observation.signal_representation import SignalRepresentation
+
 from jga.runtime.analysis_log import AnalysisLog
 from jga.runtime.analysis_report import AnalysisReport
-from jga.observation.signal_representation import SignalRepresentation
+
 from jga.domain.ensemble_analysis_result import (
     EnsembleAnalysisResult,
 )
 
+from jga.domain.beat_reference import BeatReference
+from jga.domain.metric_cluster import MetricCluster
+from jga.domain.pulse import Pulse
+from jga.domain.internal_metric_timeline import (
+    InternalMetricTimeline,
+)
+from jga.domain.behaviour_observation import (
+    BehaviourObservation,
+)
+from jga.domain.behaviour_profile import (
+    BehaviourProfile,
+)
 
 
 @dataclass
@@ -107,10 +122,40 @@ class AnalysisContext:
     elementary_metric_events: tuple = ()
 
     # =====================================================
+    # Beat References
+    # =====================================================
+
+    beat_references: tuple[BeatReference, ...] = ()
+
+    # =====================================================
     # Metric Clusters
     # =====================================================
 
-    metric_clusters: list | None = None
+    metric_clusters: tuple[MetricCluster, ...] = ()
+
+    # =====================================================
+    # Pulses
+    # =====================================================
+
+    pulses: tuple[Pulse, ...] = ()
+
+    # =====================================================
+    # Internal Metric Timeline (τ₇)
+    # =====================================================
+
+    internal_metric_timeline: (
+        InternalMetricTimeline | None
+    ) = None
+
+    # =====================================================
+    # Behaviour Analysis (M5)
+    # =====================================================
+
+    behaviour_observations: tuple[
+        BehaviourObservation, ...
+    ] = ()
+
+    behaviour_profile: BehaviourProfile | None = None
 
     # =====================================================
     # Periodicity Discovery
@@ -122,4 +167,6 @@ class AnalysisContext:
     # Analysis Log
     # =====================================================
 
-    log: AnalysisLog = field(default_factory=AnalysisLog)
+    log: AnalysisLog = field(
+        default_factory=AnalysisLog
+    )

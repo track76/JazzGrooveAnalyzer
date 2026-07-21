@@ -16,23 +16,14 @@ All Rights Reserved.
 =========================================================
 """
 
-from jga.domain.services.beat_reference_builder import (
-    BeatReferenceBuilder,
-)
-from jga.domain.services.behaviour_observation_builder import (
-    BehaviourObservationBuilder,
-)
-from jga.domain.services.behaviour_profile_builder import (
-    BehaviourProfileBuilder,
-)
 from jga.domain.services.elementary_metric_event_builder import (
     ElementaryMetricEventBuilder,
 )
 from jga.domain.services.ensemble_analysis_pipeline import (
     EnsembleAnalysisPipeline,
 )
-from jga.domain.services.internal_metric_timeline_reconstructor import (
-    InternalMetricTimelineReconstructor,
+from jga.domain.services.beat_reference_builder import (
+    BeatReferenceBuilder,
 )
 from jga.domain.services.metric_cluster_builder import (
     MetricClusterBuilder,
@@ -40,6 +31,16 @@ from jga.domain.services.metric_cluster_builder import (
 from jga.domain.services.pulse_builder import (
     PulseBuilder,
 )
+from jga.domain.services.internal_metric_timeline_reconstructor import (
+    InternalMetricTimelineReconstructor,
+)
+from jga.domain.services.behaviour_observation_builder import (
+    BehaviourObservationBuilder,
+)
+from jga.domain.services.behaviour_profile_builder import (
+    BehaviourProfileBuilder,
+)
+
 from jga.interfaces.translation.domain_input_builder import (
     DomainInputBuilder,
 )
@@ -49,23 +50,23 @@ from jga.translation.tau8_translator import Tau8Translator
 
 class DefaultDomainInputBuilder(DomainInputBuilder):
     """
-    Canonical Domain reconstruction pipeline.
+    Canonical Domain reconstruction.
 
-        τ₈
-         ↓
+    τ₈
+        ↓
     ElementaryMetricEvent
-         ↓
-      BeatReference
-         ↓
-      MetricCluster
-         ↓
-          Pulse
-         ↓
- InternalMetricTimeline
-         ↓
- BehaviourObservation
-         ↓
-   BehaviourProfile
+        ↓
+    BeatReference
+        ↓
+    MetricCluster
+        ↓
+    Pulse
+        ↓
+    InternalMetricTimeline
+        ↓
+    BehaviourObservation
+        ↓
+    BehaviourProfile
     """
 
     def __init__(
@@ -128,7 +129,7 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         )
 
         #
-        # τ₈
+        # τ8
         #
 
         context.domain_pulse_candidates = (
@@ -149,21 +150,15 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
             )
         )
 
-        if not context.elementary_metric_events:
-            return context
-
         #
         # Beat References
         #
 
         context.beat_references = (
             self.beat_builder.build(
-                context.elementary_metric_events,
+                context.elementary_metric_events
             )
         )
-
-        if not context.beat_references:
-            return context
 
         #
         # Metric Clusters
@@ -176,9 +171,6 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
             )
         )
 
-        if not context.metric_clusters:
-            return context
-
         #
         # Pulses
         #
@@ -189,11 +181,8 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
             )
         )
 
-        if not context.pulses:
-            return context
-
         #
-        # Internal Metric Timeline (τ₇)
+        # Internal Metric Timeline
         #
 
         context.internal_metric_timeline = (
