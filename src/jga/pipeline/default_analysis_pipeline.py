@@ -54,6 +54,10 @@ from jga.translation.domain_input_builder import (
     DefaultDomainInputBuilder,
 )
 
+from jga.domain.services.rule_based_behaviour_analytics_pipeline import (
+    RuleBasedBehaviourAnalyticsPipeline,
+)
+
 
 class AnalysisPipeline:
     """
@@ -113,6 +117,10 @@ class AnalysisPipeline:
                 ensemble_pipeline=ensemble_pipeline,
             )
         )
+
+        self.behaviour_analytics_pipeline = (
+            RuleBasedBehaviourAnalyticsPipeline()
+        )
  
     def analyze(
         self,
@@ -166,5 +174,25 @@ class AnalysisPipeline:
         context = self.metric_cluster_builder.process(context)
 
         context = self.domain_input_builder.build(context)
+
+        if context.behaviour_profile is not None:
+
+            context.behaviour_analytics_result = (
+                self.behaviour_analytics_pipeline.analyze(
+                    context.behaviour_profile,
+                )
+            )
+
+            context.descriptor_set = (
+                context.behaviour_analytics_result.descriptor_set
+            )
+
+            context.analytical_structure = (
+                context.behaviour_analytics_result.analytical_structure
+            )
+
+            context.behaviour_descriptors = (
+                context.descriptor_set.descriptors
+            )
 
         return context

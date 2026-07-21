@@ -76,6 +76,26 @@ def main() -> int:
         context.behaviour_profile is not None,
     )
 
+    print(
+        "Behaviour Descriptors:",
+        len(context.behaviour_descriptors),
+    )
+
+    print(
+        "Descriptor Set:",
+        context.descriptor_set is not None,
+    )
+
+    print(
+        "Analytical Structure:",
+        context.analytical_structure is not None,
+    )
+
+    print(
+        "Behaviour Analytics Result:",
+        context.behaviour_analytics_result is not None,
+    )
+
     print()
 
     print("Analysis Log")

@@ -46,6 +46,18 @@ from jga.domain.behaviour_profile import (
     BehaviourProfile,
 )
 
+from jga.domain.behaviour_analytics_result import (
+    BehaviourAnalyticsResult,
+)
+
+from jga.domain.descriptor_set import (
+    DescriptorSet,
+)
+
+from jga.domain.analytical_structure import (
+    AnalyticalStructure,
+)
+
 
 @dataclass
 class AnalysisContext:
@@ -156,6 +168,20 @@ class AnalysisContext:
     ] = ()
 
     behaviour_profile: BehaviourProfile | None = None
+
+    # =====================================================
+    # Behaviour Analytics (M6)
+    # =====================================================
+
+    behaviour_descriptors: tuple = ()
+
+    descriptor_set: DescriptorSet | None = None
+
+    analytical_structure: AnalyticalStructure | None = None
+
+    behaviour_analytics_result: (
+        BehaviourAnalyticsResult | None
+    ) = None
 
     # =====================================================
     # Periodicity Discovery
