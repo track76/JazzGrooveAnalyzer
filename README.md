@@ -1,6 +1,6 @@
 # Jazz Groove Analyzer (JGA)
 
-**A Scientific Framework for the Analysis of Rhythmic Interaction in Jazz Ensembles**
+**A Scientific Framework for the Reconstruction and Quantification of Collective Metric Behaviour in Jazz Ensembles**
 
 ---
 
@@ -14,100 +14,75 @@ Copyright © 2026 Angelo Tracanna. All Rights Reserved.
 
 ## Overview
 
-The Jazz Groove Analyzer (JGA) is an original scientific framework dedicated to the computational analysis of rhythmic interaction, timing behavior and groove in jazz ensembles.
+The Jazz Groove Analyzer (JGA) is an original scientific framework for the
+analysis of collective metric behaviour in jazz ensembles.
 
-Unlike conventional beat-tracking systems, JGA reconstructs the Internal Metric Timeline (IMT) as an emergent representation derived from the collective rhythmic behavior of the ensemble.
+Unlike conventional beat-tracking systems, JGA does not estimate beats or
+tempo directly from audio. Instead, it reconstructs the ensemble metric
+reference through a hierarchy of deterministic and scientifically traceable
+representations.
 
----
-
-## Project Status
-
-**Current Version**
-
-v0.2.0-alpha
-
-**Development Stage**
-
-Scientific Framework — Architecture Complete
+The framework is theory-driven: scientific definitions always precede
+software implementation.
 
 ---
 
-## Completed Phases
+## Scientific Principles
 
-- ✅ Foundations
-- ✅ Scientific Review
-- ✅ Official Glossary
-- ✅ Domain Model
-- ✅ Mathematical Foundations
-- ✅ DSP Architecture
-- ✅ Software Architecture Refactoring
-
----
-
-## Architecture
-
-Theory
-
-↓
-
-Glossary
-
-↓
-
-Mathematics
-
-↓
-
-DSP Architecture
-
-↓
-
-Software
-
-↓
-
-Algorithms
-
-↓
-
-Validation
+- Theory precedes implementation.
+- Every transformation has explicit Input/Output contracts.
+- No implicit transformations are allowed.
+- The Core never assigns musical meaning.
+- The Domain interprets only validated representations.
+- Every software component is traceable to a scientific definition.
 
 ---
 
-## Repository Structure
+## Current Development Status
+
+**Version**
+
+v0.5.0-alpha
+
+**Current Milestone**
+
+M5 — Behaviour Quantification
+
+**Completed Milestones**
+
+- ✅ M1 — Scientific Foundations
+- ✅ M2 — Domain Modelling
+- ✅ M3 — Translation Layer
+- ✅ M4 — Metric Reconstruction
+- ✅ M5 Phase 1 — Behaviour Quantification Foundations
+
+---
+
+## Current Processing Pipeline
 
 ```text
-docs/
-src/
-tests/
-recordings/
-```
+Audio Recording
+        ↓
+Observation Layer
+        ↓
+Metric Context
+        ↓
+τ₈ Translation
+        ↓
+Elementary Metric Event
+        ↓
+Beat Reference
+        ↓
+Metric Cluster
+        ↓
+Pulse
+        ↓
+Internal Metric Timeline
+        ↓
+Behaviour Observation
+        ↓
+Behaviour Profile
+        ↓
+Behaviour Quantification
 
----
-
-## Current Status
-
-- 81/81 tests passing
-- Complete theoretical framework
-- Mathematical model completed
-- DSP architecture completed
-- Software architecture aligned with theory
-
----
-
-## Roadmap
-
-### v0.3.0-alpha
-
-- Signal Representation
-- Transient Detection
-- Onset Detection
-- Pulse Candidate Extraction
-
----
-
-## License
-
-Copyright © 2026 Angelo Tracanna
-
-All Rights Reserved.
+E0F
