@@ -1,14 +1,14 @@
 # Jazz Groove Analyzer (JGA)
 
-# JGA_DOMAIN_MODEL
+# JGA Domain Model
 
 ## Domain Model Specification
 
-**Version:** 1.0
+**Version:** 2.0
 
 **Status:** Official
 
-**Author and Creator:** Angelo Tracanna
+**Author:** Angelo Tracanna
 
 **Copyright © 2026 Angelo Tracanna. All rights reserved.**
 
@@ -16,35 +16,30 @@
 
 # 1. Purpose
 
-This document defines the official Domain Model of the Jazz Groove Analyzer (JGA).
+This document defines the official Domain Model of the Jazz Groove Analyzer
+(JGA).
 
-Its purpose is to establish the software entities that represent the theoretical concepts introduced in the JGA Theoretical Framework.
+The Domain Model is the software representation of the scientific theory.
 
-The Domain Model constitutes the bridge between the scientific theory and the software implementation.
+It establishes the Domain entities, their responsibilities and their
+relationships while preserving complete consistency with the scientific
+framework.
 
-No implementation decisions are defined here.
+The software shall never invent theoretical concepts.
 
-This document specifies only:
-
-- domain entities;
-- responsibilities;
-- relationships;
-- invariants;
-- conceptual hierarchy.
-
-Every future implementation of the JGA must preserve the one-to-one correspondence between this Domain Model and the theoretical framework.
+The software shall only implement previously defined scientific concepts.
 
 ---
 
-# 2. Guiding Principle
+# 2. Scientific Principle
 
-The software shall not invent the model.
-
-The software shall implement an already defined scientific model.
-
-Consequently:
+The development hierarchy of the JGA is immutable.
 
 Theory
+
+↓
+
+Architecture
 
 ↓
 
@@ -52,7 +47,7 @@ Domain Model
 
 ↓
 
-Documentation
+Contracts
 
 ↓
 
@@ -66,113 +61,46 @@ Implementation
 
 Validation
 
----
-
-# 3. Domain Layers
-
-The JGA Domain Model is organised into four conceptual layers.
-
-## Layer 1 — Physical Domain
-
-Represents observable entities extracted from the audio recording.
-
-Entities include:
-
-- AudioRecording
-- AudioStem
-- MusicalSource
-- SourceElement
-
-These entities describe the physical origin of musical events.
+Every software component shall be traceable to exactly one scientific object.
 
 ---
 
-## Layer 2 — Cognitive Domain
+# 3. Domain Architecture
 
-Represents the musical understanding produced by Level A0.
+The Domain Layer begins only after the Translation Layer has produced a
+validated Domain representation.
 
-Entities include:
+No Domain object may be constructed directly from the Observation Layer.
 
-- MusicalRole
-- MetricContributor
-- Meter
-- TempoContext
-- Section
-- EnsembleState
+The Domain never performs observation.
 
-These entities describe the musical interpretation of the observed sources.
+The Domain never assigns musical meaning.
+
+The Domain interprets validated representations.
 
 ---
 
-## Layer 3 — Metric Domain
+# 4. Representation Hierarchy
 
-Represents the temporal structure of the ensemble.
+The complete hierarchy of Domain representations is
 
-Entities include:
-
-- ElementaryMetricEvent (EME)
-- MetricCluster (CM)
-- Pulse
-- Internal Metric Timeline (TMI)
-- LocalTempo
-
-This layer constitutes the theoretical core of the JGA.
-
----
-
-## Layer 4 — Analytical Domain
-
-Represents the measurements produced after the temporal reference has been established.
-
-Entities include:
-
-- TemporalDeviation
-- MetricStability
-- ClusterStatistics
-- InstrumentProfile
-- PerformanceProfile
-- TimingDistribution
-- AnalysisReport
-
-These entities never participate in the construction of the temporal reference.
-
-They describe the behaviour of the performance.
-
----
-
-# 4. Conceptual Hierarchy
-
-The complete hierarchy of the model is
-
-Audio Recording
+Observation Layer
 
 ↓
 
-Audio Stem
+Metric Context
 
 ↓
 
-Musical Source
+Elementary Metric Event
 
 ↓
 
-Source Element
+Beat Reference
 
 ↓
 
-Musical Role
-
-↓
-
-Metric Contributor
-
-↓
-
-Elementary Metric Event (EME)
-
-↓
-
-Metric Cluster (CM)
+Metric Cluster
 
 ↓
 
@@ -180,140 +108,230 @@ Pulse
 
 ↓
 
-Internal Metric Timeline (TMI)
+Internal Metric Timeline
 
 ↓
 
-Local Tempo
+Behaviour Observation
 
 ↓
 
-Temporal Analysis
+Behaviour Profile
 
-↓
+Each representation depends exclusively on the immediately preceding level.
 
-Statistics
-
-↓
-
-Reports
+No representation may bypass the hierarchy.
 
 ---
 
-# 5. Entity Responsibilities
+# 5. Domain Layers
 
-Every domain entity shall satisfy the following principles.
+## Layer 1 — Observation Boundary
+
+Represents the validated information received from the Observation Layer.
+
+Entity
+
+- MetricContext
+
+This layer constitutes the boundary between Observation and Domain.
+
+---
+
+## Layer 2 — Metric Reconstruction
+
+Represents the reconstruction of the ensemble metric reference.
+
+Entities
+
+- ElementaryMetricEvent
+- BeatReference
+- MetricCluster
+- Pulse
+- InternalMetricTimeline
+
+These entities reconstruct the collective temporal reference.
+
+---
+
+## Layer 3 — Behaviour Representation
+
+Represents the observable temporal behaviour emerging from the reconstructed
+Internal Metric Timeline.
+
+Entities
+
+- BehaviourObservation
+- BehaviourProfile
+
+These entities represent behaviour.
+
+They do not quantify behaviour.
+
+---
+
+# 6. Entity Responsibilities
+
+Every Domain entity shall satisfy the following principles.
+
+## Scientific Correspondence
+
+One theoretical object.
+
+One Domain entity.
 
 ## Single Responsibility
 
 Each entity has exactly one responsibility.
 
-No entity shall represent multiple independent concepts.
-
-## Scientific Correspondence
-
-Each entity corresponds to exactly one theoretical object defined in the JGA Theoretical Framework.
-
 ## Traceability
 
-Every implementation class shall be traceable to one and only one domain entity.
+Every entity shall be traceable to its generating representation.
 
----
+## Determinism
 
-# 6. Entity Specification Template
-
-Each entity described in this document shall contain the following sections.
-
-Purpose
-
-Scientific Definition
-
-Responsibilities
-
-Inputs
-
-Outputs
-
-Relationships
-
-Constraints
-
-Future Software Representation
-
-This template guarantees consistency between theory and implementation.
+Equal inputs always produce equal outputs.
 
 ---
 
 # 7. Relationships
 
-Relationships between entities shall be explicit.
+Relationships shall always be explicit.
 
-They include:
+Permitted relationships are
 
-- composition;
-- aggregation;
-- association;
-- dependency;
-- temporal dependency.
+- Composition
+- Aggregation
+- Association
+- Dependency
 
-Implicit relationships are not permitted.
+Implicit relationships are forbidden.
 
 ---
 
 # 8. Domain Invariants
 
-The following principles shall always remain true.
+Invariant 1
 
-## Invariant 1
-
-No software entity may contradict the theoretical framework.
-
-## Invariant 2
-
-No domain entity may simultaneously represent multiple theoretical concepts.
-
-## Invariant 3
-
-Every observable event remains preserved throughout the analysis.
-
-## Invariant 4
-
-The Internal Metric Timeline is never directly observed.
-
-It is always estimated from Metric Clusters.
-
-## Invariant 5
-
-The Domain Model is independent of implementation technology.
-
-Python is not part of the Domain Model.
+The Domain never modifies observable evidence.
 
 ---
 
-# 9. Development Rule
+Invariant 2
 
-Any new software component introduced into the JGA must satisfy the following sequence.
-
-1. Theoretical definition
-
-2. Domain entity
-
-3. Documentation
-
-4. Tests
-
-5. Implementation
-
-6. Validation
-
-Components that do not satisfy this sequence shall not become part of the official project.
+The Domain never introduces implicit transformations.
 
 ---
 
-# 10. Next Step
+Invariant 3
 
-The following sections of this document will formally define every entity of the Domain Model.
+Every transformation has explicitly defined Input and Output.
 
-Each entity will be derived directly from the JGA Theoretical Framework while preserving full conceptual consistency.
+---
 
-The Domain Model therefore represents the definitive bridge between scientific theory and software implementation.
+Invariant 4
+
+Every Domain representation depends exclusively on the immediately preceding
+representation.
+
+---
+
+Invariant 5
+
+BehaviourObservation is derived exclusively from the
+InternalMetricTimeline.
+
+---
+
+Invariant 6
+
+BehaviourProfile is derived exclusively from one or more
+BehaviourObservation instances.
+
+---
+
+Invariant 7
+
+Behaviour representations never modify the Internal Metric Timeline.
+
+---
+
+Invariant 8
+
+The Domain remains independent from implementation technology.
+
+---
+
+# 9. Input / Output Contracts
+
+Every Domain transformation shall explicitly define
+
+Input
+
+Output
+
+Transformation
+
+Scientific justification
+
+No implicit contracts are permitted.
+
+---
+
+# 10. Behaviour Domain
+
+BehaviourObservation represents the observable temporal behaviour of the
+reconstructed metric system.
+
+BehaviourProfile represents the complete behavioural representation of a
+performance.
+
+Neither entity introduces numerical measurements.
+
+Quantification belongs to the subsequent Behaviour Quantification stage.
+
+---
+
+# 11. Future Evolution
+
+The next scientific milestone introduces Behaviour Quantification.
+
+Behaviour Quantification will define deterministic Behaviour Descriptors
+derived exclusively from BehaviourObservation.
+
+Descriptors will never modify existing Domain entities.
+
+They will extend the Behaviour Domain while preserving the reconstruction
+pipeline.
+
+---
+
+# 12. Development Rule
+
+Every new component shall follow the sequence
+
+Theory
+
+↓
+
+Domain Model
+
+↓
+
+Contracts
+
+↓
+
+Tests
+
+↓
+
+Implementation
+
+↓
+
+Validation
+
+Any component violating this sequence shall not become part of the official
+JGA.
+
