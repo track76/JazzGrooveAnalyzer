@@ -335,3 +335,32 @@ Validation
 Any component violating this sequence shall not become part of the official
 JGA.
 
+
+---
+
+# Descriptor Domain
+
+BehaviourDescriptor
+
+↓
+
+DescriptorSet
+
+↓
+
+AnalyticalStructure
+
+↓
+
+BehaviourAnalyticsResult
+
+These entities belong to progressively higher
+levels of abstraction.
+
+Descriptors represent measurements.
+
+AnalyticalStructure represents relationships.
+
+BehaviourAnalyticsResult represents the complete
+analytics output.
+

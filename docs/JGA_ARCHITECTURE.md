@@ -198,3 +198,26 @@ The Core is responsible for computational processing.
 The Domain is responsible for musical interpretation.
 
 The integration between the two shall occur through an explicit architectural boundary.
+
+---
+
+# M7 — Behaviour Quantification / Analytics Boundary
+
+The Behaviour pipeline is formally divided into
+three independent architectural layers.
+
+Representation
+
+↓
+
+Quantification
+
+↓
+
+Analytics
+
+Each layer has independent responsibilities.
+
+No layer may perform responsibilities belonging
+to another layer.
+
