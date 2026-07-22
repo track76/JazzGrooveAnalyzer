@@ -364,3 +364,28 @@ AnalyticalStructure represents relationships.
 BehaviourAnalyticsResult represents the complete
 analytics output.
 
+
+---
+
+# M8 Descriptor Relations
+
+DescriptorSet
+        ↓
+DescriptorRelation*
+        ↓
+AnalyticalStructure
+
+DescriptorRelation belongs to the Behaviour Analytics
+mathematical layer.
+
+
+---
+
+# Descriptor Operators
+
+Descriptor Operators belong to the mathematical layer.
+
+They operate exclusively on DescriptorRelation objects.
+
+Their output is an AnalyticalStructure.
+

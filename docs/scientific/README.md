@@ -54,3 +54,7 @@ Domain Model
 ↓
 
 Implementation
+
+- F-000_MATHEMATICAL_PRINCIPLES.md
+
+- F-011_DESCRIPTOR_OPERATORS.md

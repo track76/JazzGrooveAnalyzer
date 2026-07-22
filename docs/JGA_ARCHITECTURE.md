@@ -221,3 +221,50 @@ Each layer has independent responsibilities.
 No layer may perform responsibilities belonging
 to another layer.
 
+
+---
+
+# M8 — Mathematical Layer
+
+Behaviour Analytics is governed by the Mathematical Principles
+defined in F-000.
+
+Every analytical operator must satisfy:
+
+- determinism;
+- immutability;
+- explicit Input/Output contracts;
+- provenance preservation.
+
+
+---
+
+# M8.1 Descriptor Relations
+
+DescriptorSet
+        ↓
+DescriptorRelation*
+        ↓
+AnalyticalStructure
+        ↓
+BehaviourAnalyticsResult
+
+Descriptor Relations constitute the first mathematical layer
+inside Behaviour Analytics.
+
+
+---
+
+# M8.2 Descriptor Operators
+
+Descriptor Operators form the mathematical engine of
+Behaviour Analytics.
+
+DescriptorSet
+        ↓
+DescriptorRelation*
+        ↓
+DescriptorOperator*
+        ↓
+AnalyticalStructure
+
