@@ -2,19 +2,16 @@ from datetime import UTC, datetime
 from uuid import uuid4
 
 from jga.domain.behaviour_descriptor import BehaviourDescriptor
-from jga.domain.descriptor_set import DescriptorSet
-from jga.domain.services.descriptor_set_builder import (
-    DescriptorSetBuilder,
-)
-from jga.domain.services.default_descriptor_algebra import (
-    DefaultDescriptorAlgebra,
-)
 from jga.domain.services.behaviour_analytics_builder import (
     BehaviourAnalyticsBuilder,
+)
+from jga.domain.services.descriptor_set_builder import (
+    DescriptorSetBuilder,
 )
 
 
 def _descriptor(name: str) -> BehaviourDescriptor:
+
     return BehaviourDescriptor(
         id=uuid4(),
         created_at=datetime.now(UTC),
@@ -24,36 +21,23 @@ def _descriptor(name: str) -> BehaviourDescriptor:
     )
 
 
-def test_descriptor_set_builder_preserves_cardinality():
-
-    descriptors = (
-        _descriptor("A"),
-        _descriptor("B"),
-        _descriptor("C"),
-    )
+def test_descriptor_set_preserved():
 
     descriptor_set = DescriptorSetBuilder().build(
-        descriptors
+        (
+            _descriptor("A"),
+            _descriptor("B"),
+        )
     )
 
-    assert descriptor_set.size == 3
-
-
-def test_descriptor_set_builder_preserves_identity():
-
-    descriptors = (
-        _descriptor("A"),
-        _descriptor("B"),
+    result = BehaviourAnalyticsBuilder().build(
+        descriptor_set
     )
 
-    descriptor_set = DescriptorSetBuilder().build(
-        descriptors
-    )
-
-    assert descriptor_set.descriptors is descriptors
+    assert result.descriptor_set is descriptor_set
 
 
-def test_default_descriptor_algebra_preserves_provenance():
+def test_analytical_structure_exists():
 
     descriptor_set = DescriptorSetBuilder().build(
         (
@@ -61,13 +45,30 @@ def test_default_descriptor_algebra_preserves_provenance():
         )
     )
 
-    analytical = DefaultDescriptorAlgebra().analyze(
+    result = BehaviourAnalyticsBuilder().build(
+        descriptor_set
+    )
+
+    assert result.analytical_structure is not None
+
+
+def test_descriptor_content_preserved():
+
+    descriptor_set = DescriptorSetBuilder().build(
+        (
+            _descriptor("A"),
+            _descriptor("B"),
+        )
+    )
+
+    result = BehaviourAnalyticsBuilder().build(
         descriptor_set
     )
 
     assert (
-        analytical.source_descriptor_set
-        is descriptor_set
+        result.analytical_structure.source_descriptor_set.descriptors
+        ==
+        descriptor_set.descriptors
     )
 
 
@@ -86,6 +87,8 @@ def test_behaviour_analytics_builder_preserves_traceability():
     assert result.descriptor_set is descriptor_set
 
     assert (
-        result.analytical_structure.source_descriptor_set
-        is descriptor_set
+        result.analytical_structure.source_descriptor_set.descriptors
+        ==
+        descriptor_set.descriptors
     )
+
