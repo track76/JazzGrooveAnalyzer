@@ -25,6 +25,7 @@ import librosa
 
 from jga.core.pulse_candidate import PulseCandidate
 from jga.runtime.analysis_context import AnalysisContext
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class PulseCandidateBuilder:
@@ -82,7 +83,17 @@ class PulseCandidateBuilder:
             context.report.pulse_candidates = len(candidates)
 
         context.log.add(
-            f"{len(candidates)} Pulse Candidates extracted."
+            RuntimeEvent(
+                event_id="PULSE_CANDIDATES_EXTRACTED",
+                layer="ENGINE",
+                component="PulseCandidateBuilder",
+                message=f"{len(candidates)} Pulse Candidates extracted.",
+                input_type="SignalRepresentation",
+                output_type="list[PulseCandidate]",
+                metrics={
+                    "pulse_candidates": len(candidates),
+                },
+            )
         )
 
         return context

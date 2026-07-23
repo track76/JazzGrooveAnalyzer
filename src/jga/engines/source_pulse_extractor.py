@@ -17,9 +17,10 @@ All Rights Reserved.
 =========================================================
 """
 
-from jga.core.source_pulse_sequence import SourcePulseSequence
 from jga.core.metric_source import MetricSource
+from jga.core.source_pulse_sequence import SourcePulseSequence
 from jga.runtime.analysis_context import AnalysisContext
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class SourcePulseExtractor:
@@ -37,12 +38,15 @@ class SourcePulseExtractor:
 
     def process(
         self,
-        context: AnalysisContext
+        context: AnalysisContext,
     ) -> AnalysisContext:
 
         sequences = []
 
-        if context.pulse_candidates and context.audio_stems:
+        if (
+            context.pulse_candidates
+            and context.audio_stems
+        ):
 
             stem = context.audio_stems[0]
 
@@ -51,7 +55,9 @@ class SourcePulseExtractor:
                     name=stem.name,
                     family="Unknown",
                 ),
-                pulse_candidates=list(context.pulse_candidates),
+                pulse_candidates=list(
+                    context.pulse_candidates
+                ),
             )
 
             sequences.append(sequence)
@@ -59,7 +65,20 @@ class SourcePulseExtractor:
         context.source_pulse_sequences = sequences
 
         context.log.add(
-            f"{len(sequences)} Source Pulse Sequences created."
+            RuntimeEvent(
+                event_id="SOURCE_PULSE_SEQUENCES_CREATED",
+                layer="ENGINE",
+                component="SourcePulseExtractor",
+                message=(
+                    f"{len(sequences)} "
+                    "Source Pulse Sequences created."
+                ),
+                input_type="list[PulseCandidate]",
+                output_type="list[SourcePulseSequence]",
+                metrics={
+                    "source_pulse_sequences": len(sequences),
+                },
+            )
         )
 
         return context

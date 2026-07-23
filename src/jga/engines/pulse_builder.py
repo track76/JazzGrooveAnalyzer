@@ -18,6 +18,7 @@ All Rights Reserved.
 
 from jga.core.pulse_interval import PulseInterval
 from jga.runtime.analysis_context import AnalysisContext
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class PulseBuilder:
@@ -30,7 +31,7 @@ class PulseBuilder:
 
     def process(
         self,
-        context: AnalysisContext
+        context: AnalysisContext,
     ) -> AnalysisContext:
 
         candidates = context.pulse_candidates
@@ -46,13 +47,17 @@ class PulseBuilder:
 
         intervals = []
 
-        for previous, current in zip(candidates[:-1], candidates[1:]):
+        for previous, current in zip(
+            candidates[:-1],
+            candidates[1:],
+        ):
 
             intervals.append(
                 PulseInterval(
                     start_time=previous.time,
                     end_time=current.time,
-                    duration=current.time - previous.time
+                    duration=current.time
+                    - previous.time,
                 )
             )
 
@@ -64,7 +69,20 @@ class PulseBuilder:
             context.report.pulse_intervals = len(intervals)
 
         context.log.add(
-            f"{len(intervals)} Pulse Intervals created."
+            RuntimeEvent(
+                event_id="PULSE_INTERVALS_CREATED",
+                layer="ENGINE",
+                component="PulseBuilder",
+                message=(
+                    f"{len(intervals)} "
+                    "Pulse Intervals created."
+                ),
+                input_type="list[PulseCandidate]",
+                output_type="list[PulseInterval]",
+                metrics={
+                    "pulse_intervals": len(intervals),
+                },
+            )
         )
 
         return context

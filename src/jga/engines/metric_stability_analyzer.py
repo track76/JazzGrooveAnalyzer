@@ -20,10 +20,9 @@ import numpy as np
 
 from jga.core.stability_curve import StabilityCurve
 from jga.core.stability_point import StabilityPoint
-
 from jga.math.stability_scorer import StabilityScorer
-
 from jga.runtime.analysis_context import AnalysisContext
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class MetricStabilityAnalyzer:
@@ -39,7 +38,7 @@ class MetricStabilityAnalyzer:
 
     def process(
         self,
-        context: AnalysisContext
+        context: AnalysisContext,
     ) -> AnalysisContext:
 
         windows = context.analysis_windows
@@ -58,15 +57,21 @@ class MetricStabilityAnalyzer:
         for window in windows:
 
             durations = np.array(
-                [interval.duration for interval in window.intervals]
+                [
+                    interval.duration
+                    for interval in window.intervals
+                ]
             )
 
             score = self.scorer.compute(durations)
 
             point = StabilityPoint(
-                time=(window.start_time + window.end_time) / 2,
+                time=(
+                    window.start_time
+                    + window.end_time
+                ) / 2,
                 score=score,
-                window_size=window.size
+                window_size=window.size,
             )
 
             curve.add(point)
@@ -79,7 +84,20 @@ class MetricStabilityAnalyzer:
             context.report.stability_curve = curve
 
         context.log.add(
-            f"{len(curve)} Stability Points computed."
+            RuntimeEvent(
+                event_id="STABILITY_POINTS_COMPUTED",
+                layer="ENGINE",
+                component="MetricStabilityAnalyzer",
+                message=(
+                    f"{len(curve)} "
+                    "Stability Points computed."
+                ),
+                input_type="list[AnalysisWindow]",
+                output_type="StabilityCurve",
+                metrics={
+                    "stability_points": len(curve),
+                },
+            )
         )
 
         return context

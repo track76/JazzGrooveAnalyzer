@@ -19,10 +19,16 @@ All Rights Reserved.
 
 import numpy as np
 
-from jga.core.metric_source import MetricSource
-from jga.core.periodicity_segment import PeriodicitySegment
-from jga.math.regularity_scorer import RegularityScorer
-from jga.runtime.analysis_context import AnalysisContext
+from jga.core.periodicity_segment import (
+    PeriodicitySegment,
+)
+from jga.math.regularity_scorer import (
+    RegularityScorer,
+)
+from jga.runtime.analysis_context import (
+    AnalysisContext,
+)
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class PeriodicityDiscovery:
@@ -82,7 +88,20 @@ class PeriodicityDiscovery:
         context.periodicity_segments = segments
 
         context.log.add(
-            f"{len(segments)} Periodicity Segments discovered."
+            RuntimeEvent(
+                event_id="PERIODICITY_SEGMENTS_DISCOVERED",
+                layer="ENGINE",
+                component="PeriodicityDiscovery",
+                message=(
+                    f"{len(segments)} "
+                    "Periodicity Segments discovered."
+                ),
+                input_type="list[SourcePulseSequence]",
+                output_type="list[PeriodicitySegment]",
+                metrics={
+                    "periodicity_segments": len(segments),
+                },
+            )
         )
 
         return context

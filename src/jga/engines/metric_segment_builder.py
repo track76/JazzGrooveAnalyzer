@@ -18,6 +18,7 @@ All Rights Reserved.
 
 from jga.core.metric_segment import MetricSegment
 from jga.runtime.analysis_context import AnalysisContext
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class MetricSegmentBuilder:
@@ -29,12 +30,14 @@ class MetricSegmentBuilder:
 
     def process(
         self,
-        context: AnalysisContext
+        context: AnalysisContext,
     ) -> AnalysisContext:
 
         metric_segments = []
 
-        periodicity_segments = context.periodicity_segments or []
+        periodicity_segments = (
+            context.periodicity_segments or []
+        )
 
         for segment in periodicity_segments:
 
@@ -48,10 +51,27 @@ class MetricSegmentBuilder:
         context.metric_segments = metric_segments
 
         if context.report is not None:
-            context.report.metric_segments = metric_segments
+            context.report.metric_segments = (
+                metric_segments
+            )
 
         context.log.add(
-            f"{len(metric_segments)} Metric Segments detected."
+            RuntimeEvent(
+                event_id="METRIC_SEGMENTS_CREATED",
+                layer="ENGINE",
+                component="MetricSegmentBuilder",
+                message=(
+                    f"{len(metric_segments)} "
+                    "Metric Segments detected."
+                ),
+                input_type="list[PeriodicitySegment]",
+                output_type="list[MetricSegment]",
+                metrics={
+                    "metric_segments": len(
+                        metric_segments
+                    ),
+                },
+            )
         )
 
         return context

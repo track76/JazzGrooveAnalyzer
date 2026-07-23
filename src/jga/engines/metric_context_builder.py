@@ -18,6 +18,7 @@ All Rights Reserved.
 
 from jga.core.metric_context import MetricContext
 from jga.runtime.analysis_context import AnalysisContext
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class MetricContextBuilder:
@@ -48,7 +49,25 @@ class MetricContextBuilder:
         context.metric_context = metric_context
 
         context.log.add(
-            "Metric Context created."
+            RuntimeEvent(
+                event_id="METRIC_CONTEXT_CREATED",
+                layer="ENGINE",
+                component="MetricContextBuilder",
+                message="Metric Context created.",
+                input_type="ObservationModel",
+                output_type="MetricContext",
+                metrics={
+                    "source_pulse_sequences": len(
+                        context.source_pulse_sequences or ()
+                    ),
+                    "periodicity_segments": len(
+                        context.periodicity_segments or ()
+                    ),
+                    "metric_segments": len(
+                        context.metric_segments or ()
+                    ),
+                },
+            )
         )
 
         return context

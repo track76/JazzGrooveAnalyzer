@@ -18,8 +18,11 @@ All Rights Reserved.
 
 import numpy as np
 
+from jga.observation.signal_representation import (
+    SignalRepresentation,
+)
 from jga.runtime.analysis_context import AnalysisContext
-from jga.observation.signal_representation import SignalRepresentation
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class AudioPreprocessor:
@@ -33,7 +36,10 @@ class AudioPreprocessor:
     - Normalizzazione del segnale
     """
 
-    def process(self, context: AnalysisContext) -> AnalysisContext:
+    def process(
+        self,
+        context: AnalysisContext,
+    ) -> AnalysisContext:
 
         # Segnale originale
         audio = context.audio.raw_audio
@@ -51,12 +57,23 @@ class AudioPreprocessor:
         else:
             context.processed_audio = audio.copy()
 
-        context.signal_representation = SignalRepresentation(
-            samples=context.processed_audio,
-            sample_rate=context.audio.sample_rate,
+        context.signal_representation = (
+            SignalRepresentation(
+                samples=context.processed_audio,
+                sample_rate=context.audio.sample_rate,
+            )
         )
 
-        # Aggiorna il log
-        context.log.add("Audio normalized.")
+        # Runtime Event
+        context.log.add(
+            RuntimeEvent(
+                event_id="AUDIO_NORMALIZED",
+                layer="ENGINE",
+                component="AudioPreprocessor",
+                message="Audio normalized.",
+                input_type="AudioFile",
+                output_type="SignalRepresentation",
+            )
+        )
 
         return context

@@ -17,8 +17,11 @@ All Rights Reserved.
 """
 
 from jga.core.audio_stem import AudioStem
-from jga.core.audio_stem_collection import AudioStemCollection
+from jga.core.audio_stem_collection import (
+    AudioStemCollection,
+)
 from jga.runtime.analysis_context import AnalysisContext
+from jga.runtime.runtime_event import RuntimeEvent
 
 from .base_separator import BaseSeparator
 
@@ -33,7 +36,7 @@ class NullSeparator(BaseSeparator):
 
     def process(
         self,
-        context: AnalysisContext
+        context: AnalysisContext,
     ) -> AnalysisContext:
 
         stem = AudioStem(
@@ -47,7 +50,17 @@ class NullSeparator(BaseSeparator):
         context.audio_stems = AudioStemCollection((stem,))
 
         context.log.add(
-            "Dummy separator created 1 audio stem."
+            RuntimeEvent(
+                event_id="AUDIO_STEMS_CREATED",
+                layer="SEPARATION",
+                component="NullSeparator",
+                message="Dummy separator created 1 audio stem.",
+                input_type="SignalRepresentation",
+                output_type="AudioStemCollection",
+                metrics={
+                    "stems": 1,
+                },
+            )
         )
 
         return context

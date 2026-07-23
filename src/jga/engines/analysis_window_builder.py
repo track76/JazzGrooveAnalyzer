@@ -18,6 +18,7 @@ All Rights Reserved.
 
 from jga.core.analysis_window import AnalysisWindow
 from jga.runtime.analysis_context import AnalysisContext
+from jga.runtime.runtime_event import RuntimeEvent
 
 
 class AnalysisWindowBuilder:
@@ -33,7 +34,7 @@ class AnalysisWindowBuilder:
 
     def process(
         self,
-        context: AnalysisContext
+        context: AnalysisContext,
     ) -> AnalysisContext:
 
         intervals = context.pulse_intervals
@@ -52,19 +53,19 @@ class AnalysisWindowBuilder:
         for i in range(
             0,
             len(intervals) - self.WINDOW_SIZE + 1,
-            self.STEP
+            self.STEP,
         ):
 
-            chunk = intervals[i:i + self.WINDOW_SIZE]
+            chunk = intervals[
+                i:i + self.WINDOW_SIZE
+            ]
 
             windows.append(
-
                 AnalysisWindow(
                     start_time=chunk[0].start_time,
                     end_time=chunk[-1].end_time,
-                    intervals=chunk
+                    intervals=chunk,
                 )
-
             )
 
         # Aggiorna il contesto
@@ -72,10 +73,25 @@ class AnalysisWindowBuilder:
 
         # Aggiorna il report
         if context.report is not None:
-            context.report.analysis_windows = len(windows)
+            context.report.analysis_windows = len(
+                windows
+            )
 
         context.log.add(
-            f"{len(windows)} Analysis Windows created."
+            RuntimeEvent(
+                event_id="ANALYSIS_WINDOWS_CREATED",
+                layer="ENGINE",
+                component="AnalysisWindowBuilder",
+                message=(
+                    f"{len(windows)} "
+                    "Analysis Windows created."
+                ),
+                input_type="list[PulseInterval]",
+                output_type="list[AnalysisWindow]",
+                metrics={
+                    "analysis_windows": len(windows),
+                },
+            )
         )
 
         return context
