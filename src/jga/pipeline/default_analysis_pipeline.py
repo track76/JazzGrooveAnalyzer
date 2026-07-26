@@ -58,6 +58,10 @@ from jga.domain.services.rule_based_behaviour_analytics_pipeline import (
     RuleBasedBehaviourAnalyticsPipeline,
 )
 
+from jga.representation.pipeline import (
+    RepresentationPipeline,
+)
+
 
 class AnalysisPipeline:
     """
@@ -120,6 +124,10 @@ class AnalysisPipeline:
 
         self.behaviour_analytics_pipeline = (
             RuleBasedBehaviourAnalyticsPipeline()
+        )
+
+        self.representation_pipeline = (
+            RepresentationPipeline()
         )
  
     def analyze(
@@ -194,5 +202,11 @@ class AnalysisPipeline:
             context.behaviour_descriptors = (
                 context.descriptor_set.descriptors
             )
+
+        context.representation_result = (
+            self.representation_pipeline.run(
+                metric_clusters=context.metric_clusters,
+            )
+        )
 
         return context

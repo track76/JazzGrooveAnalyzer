@@ -50,6 +50,10 @@ from jga.domain.behaviour_analytics_result import (
     BehaviourAnalyticsResult,
 )
 
+from jga.representation.representation_result import (
+    RepresentationResult,
+)
+
 from jga.domain.descriptor_set import (
     DescriptorSet,
 )
@@ -181,6 +185,14 @@ class AnalysisContext:
 
     behaviour_analytics_result: (
         BehaviourAnalyticsResult | None
+    ) = None
+
+    # =====================================================
+    # Representation Layer (M13)
+    # =====================================================
+
+    representation_result: (
+        RepresentationResult | None
     ) = None
 
     # =====================================================
