@@ -14,10 +14,13 @@ def test_representation_pipeline_produces_representation_result():
         metric_clusters=(make_metric_cluster(),),
     )
 
-    assert isinstance(result, RepresentationResult)
+    assert isinstance(
+        result,
+        RepresentationResult,
+    )
 
 
-def test_representation_pipeline_creates_portraits():
+def test_representation_pipeline_creates_metric_landscape():
 
     pipeline = RepresentationPipeline()
 
@@ -25,4 +28,11 @@ def test_representation_pipeline_creates_portraits():
         metric_clusters=(make_metric_cluster(),),
     )
 
-    assert len(result.metric_cluster_portraits) == 1
+    assert result.metric_landscape is not None
+
+    assert (
+        len(
+            result.metric_landscape.metric_cluster_portraits
+        )
+        == 1
+    )

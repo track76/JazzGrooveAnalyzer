@@ -11,22 +11,28 @@ def test_representation_pipeline_returns_result():
     pipeline = RepresentationPipeline()
 
     result = pipeline.run(
-        metric_clusters=(
-            make_metric_cluster(),
-        ),
+        metric_clusters=(make_metric_cluster(),),
     )
 
-    assert isinstance(result, RepresentationResult)
+    assert isinstance(
+        result,
+        RepresentationResult,
+    )
 
 
-def test_representation_pipeline_creates_one_portrait():
+def test_representation_pipeline_creates_metric_landscape():
 
     pipeline = RepresentationPipeline()
 
     result = pipeline.run(
-        metric_clusters=(
-            make_metric_cluster(),
-        ),
+        metric_clusters=(make_metric_cluster(),),
     )
 
-    assert len(result.metric_cluster_portraits) == 1
+    assert result.metric_landscape is not None
+
+    assert (
+        len(
+            result.metric_landscape.metric_cluster_portraits
+        )
+        == 1
+    )

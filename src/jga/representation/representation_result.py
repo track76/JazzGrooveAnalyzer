@@ -7,8 +7,8 @@ by the Representation Layer.
 
 from dataclasses import dataclass
 
-from jga.representation.metric_cluster_portrait import (
-    MetricClusterPortrait,
+from jga.representation.metric_landscape import (
+    MetricLandscape,
 )
 
 
@@ -18,7 +18,4 @@ class RepresentationResult:
     Output of the Representation Layer.
     """
 
-    metric_cluster_portraits: tuple[
-        MetricClusterPortrait,
-        ...
-    ] = ()
+    metric_landscape: MetricLandscape | None = None
