@@ -20,7 +20,10 @@ The scientific documentation represents the highest level of the project knowled
 4. TAC Observation Model
 5. TAC Domain Mapping
 6. Scientific Foundations
-7. RFC Documents
+7. Geometry
+8. Behaviour Mathematics
+9. Scientific Visualization
+10. RFC Documents
 
 ---
 
@@ -35,6 +38,12 @@ scientific/
 ├── JGA_TAC_OBSERVATION_MODEL.md
 ├── JGA_TAC_DOMAIN_MAPPING.md
 ├── foundations/
+├── mathematics/
+├── behaviour_mathematics/
+├── geometry/
+├── visualization/
+├── observability/
+├── architecture/
 └── rfc/
 
 ---
