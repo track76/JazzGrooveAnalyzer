@@ -4,7 +4,22 @@ from bootstrap.docs_updater import update_docs
 from bootstrap.bootstrap_generator import generate_bootstrap
 from bootstrap.repository_exporter import export_repository
 from bootstrap.context_exporter import export_context
-from bootstrap.architecture_exporter import generate_architecture_map
+from bootstrap.architecture_exporter import (
+    generate_architecture_map,
+)
+
+from bootstrap.scientific_state_exporter import (
+    export_scientific_state,
+)
+
+from bootstrap.pipeline_state_exporter import (
+    export_pipeline_state,
+)
+
+from bootstrap.runtime_state_exporter import (
+    export_runtime_state,
+)
+
 from bootstrap.report import print_report
 
 
@@ -29,6 +44,12 @@ def main():
     generate_architecture_map()
 
     export_context()
+
+    export_scientific_state()
+
+    export_pipeline_state()
+
+    export_runtime_state()
 
     print_report()
 
