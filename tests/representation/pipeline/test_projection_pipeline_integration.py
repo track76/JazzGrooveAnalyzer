@@ -1,14 +1,15 @@
-from jga.representation.projection import (
-    ProjectionInput,
-    ScientificProjectionEngine,
-)
+from jga.representation.candidates import ProjectionCandidate
+from jga.representation.projection import ScientificProjectionEngine
 
 
-def test_projection_pipeline_accepts_projection_input():
+def test_projection_pipeline_accepts_candidate():
+
     engine = ScientificProjectionEngine()
 
-    projection_input = ProjectionInput(
+    candidate = ProjectionCandidate(
         representation_object=object(),
     )
 
-    assert engine.project(projection_input) is projection_input
+    result = engine.project(candidate)
+
+    assert result is candidate

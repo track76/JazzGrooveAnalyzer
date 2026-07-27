@@ -5,10 +5,7 @@ M15
 """
 
 from jga.representation.candidates import ProjectionCandidate
-from jga.representation.projection import (
-    ProjectionInput,
-    ScientificProjectionEngine,
-)
+from jga.representation.projection import ScientificProjectionEngine
 
 
 class ScientificRepresentationPipeline:
@@ -23,10 +20,4 @@ class ScientificRepresentationPipeline:
             representation_object=representation_object,
         )
 
-        projection_input = ProjectionInput(
-            representation_object=candidate,
-        )
-
-        return self._projection.project(
-            projection_input,
-        )
+        return self._projection.project(candidate)

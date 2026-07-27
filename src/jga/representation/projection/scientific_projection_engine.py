@@ -1,21 +1,21 @@
 """
 Scientific Projection Engine
 
-M14
+M15
 """
 
-from jga.representation.projection.projection_input import ProjectionInput
+from jga.representation.candidates import ProjectionCandidate
 
 
 class ScientificProjectionEngine:
     """
     Identity implementation of the scientific projection.
 
-    Geometry will be introduced in later milestones.
+    Numerical geometry will be introduced in later milestones.
     """
 
     def project(
         self,
-        projection_input: ProjectionInput,
-    ) -> ProjectionInput:
-        return projection_input
+        candidate: ProjectionCandidate,
+    ) -> ProjectionCandidate:
+        return candidate
