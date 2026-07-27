@@ -11,3 +11,11 @@ from .scientific_coordinate_projector import (
 __all__.append(
     "ScientificCoordinateProjector"
 )
+
+from .scientific_geometric_projection_builder import (
+    ScientificGeometricProjectionBuilder,
+)
+
+__all__.append(
+    "ScientificGeometricProjectionBuilder"
+)
