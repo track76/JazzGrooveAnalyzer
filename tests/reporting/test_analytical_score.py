@@ -41,6 +41,8 @@ def test_creation():
 
         number=1,
 
+        timestamp_seconds=0.0,
+
         cells=(cell,),
 
     )

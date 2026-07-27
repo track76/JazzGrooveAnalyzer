@@ -6,6 +6,10 @@ from jga.reporting.analytical_bar import (
     AnalyticalBar,
 )
 
+from jga.reporting.builders.analytical_beat_builder import (
+    AnalyticalBeatBuilder,
+)
+
 
 class AnalyticalBarBuilder:
     """
@@ -16,6 +20,12 @@ class AnalyticalBarBuilder:
     translation and does not reconstruct data.
     """
 
+    def __init__(self):
+
+        self.beat_builder = (
+            AnalyticalBeatBuilder()
+        )
+
     def build(
         self,
         number: int,
@@ -23,6 +33,7 @@ class AnalyticalBarBuilder:
         end_time_seconds: float,
         time_signature: str,
         internal_bpm: float,
+        beats=(),
     ) -> AnalyticalBar:
 
         return AnalyticalBar(
@@ -37,7 +48,7 @@ class AnalyticalBarBuilder:
 
             internal_bpm=internal_bpm,
 
-            beats=(),
+            beats=beats,
 
         )
 
@@ -49,6 +60,24 @@ class AnalyticalBarBuilder:
         Translates one ReconstructedMeasure into
         one AnalyticalBar preserving scientific data.
         """
+
+        beats = tuple(
+
+            self.beat_builder.build(
+
+                reference,
+
+                number,
+
+            )
+
+            for number, reference
+            in enumerate(
+                measure.beat_references,
+                start=1,
+            )
+
+        )
 
         return self.build(
 
@@ -69,5 +98,7 @@ class AnalyticalBarBuilder:
             internal_bpm=(
                 measure.internal_bpm
             ),
+
+            beats=beats,
 
         )

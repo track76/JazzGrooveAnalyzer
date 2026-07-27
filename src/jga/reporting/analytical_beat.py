@@ -13,12 +13,16 @@ class AnalyticalBeat:
     """
     One reconstructed beat inside an
     Analytical Bar.
+
+    The timestamp preserves the temporal identity
+    of the source BeatReference.
     """
 
     number: int
+
+    timestamp_seconds: float
 
     cells: tuple[
         AnalyticalCell,
         ...
     ]
-

@@ -22,6 +22,7 @@ def test_renderer():
 
     beat = AnalyticalBeat(
         number=1,
+        timestamp_seconds=0.0,
         cells=(cell,),
     )
 
