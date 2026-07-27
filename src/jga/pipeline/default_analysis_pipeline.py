@@ -62,6 +62,10 @@ from jga.representation.pipeline import (
     RepresentationPipeline,
 )
 
+from jga.runtime.engines.scientific_geometry_engine_runner import (
+    ScientificGeometryEngineRunner,
+)
+
 
 class AnalysisPipeline:
     """
@@ -129,6 +133,10 @@ class AnalysisPipeline:
         self.representation_pipeline = (
             RepresentationPipeline()
         )
+
+        self.scientific_geometry_runner = (
+            ScientificGeometryEngineRunner()
+        )
  
     def analyze(
         self,
@@ -180,6 +188,10 @@ class AnalysisPipeline:
         context = self.metric_context_builder.process(context)
 
         context = self.metric_cluster_builder.process(context)
+
+        self.scientific_geometry_runner.run(
+            context
+        )
 
         context = self.domain_input_builder.build(context)
 

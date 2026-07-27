@@ -54,6 +54,10 @@ from jga.representation.representation_result import (
     RepresentationResult,
 )
 
+from jga.geometry.scientific_geometric_plane import (
+    ScientificGeometricPlane,
+)
+
 from jga.domain.descriptor_set import (
     DescriptorSet,
 )
@@ -193,6 +197,14 @@ class AnalysisContext:
 
     representation_result: (
         RepresentationResult | None
+    ) = None
+
+    # =====================================================
+    # Scientific Geometry Layer (M17)
+    # =====================================================
+
+    scientific_geometric_plane: (
+        ScientificGeometricPlane | None
     ) = None
 
     # =====================================================
