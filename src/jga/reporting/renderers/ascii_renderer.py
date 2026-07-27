@@ -33,7 +33,8 @@ class AnalyticalScoreAsciiRenderer:
             )
 
             lines.append(
-                f"Time {bar.time_seconds:.2f}s"
+                f"Time {bar.start_time_seconds:.2f}s - "
+                f"{bar.end_time_seconds:.2f}s"
             )
 
             lines.append(
@@ -65,4 +66,3 @@ class AnalyticalScoreAsciiRenderer:
             lines.append("")
 
         return "\n".join(lines)
-

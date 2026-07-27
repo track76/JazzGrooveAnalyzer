@@ -27,7 +27,8 @@ def test_renderer():
 
     bar = AnalyticalBar(
         number=1,
-        time_seconds=0.0,
+        start_time_seconds=0.0,
+        end_time_seconds=2.0,
         time_signature="4/4",
         internal_bpm=120.0,
         beats=(beat,),
@@ -46,4 +47,3 @@ def test_renderer():
     assert "BAR 1" in text
     assert "Bass" in text
     assert "+12.30" in text
-

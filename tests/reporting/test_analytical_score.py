@@ -49,7 +49,9 @@ def test_creation():
 
         number=1,
 
-        time_seconds=0.0,
+        start_time_seconds=0.0,
+
+        end_time_seconds=2.0,
 
         time_signature="4/4",
 
@@ -77,4 +79,3 @@ def test_creation():
         .offset_ms
         == 12.3
     )
-

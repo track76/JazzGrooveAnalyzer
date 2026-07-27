@@ -12,11 +12,17 @@ from jga.reporting.analytical_beat import (
 class AnalyticalBar:
     """
     One reconstructed musical bar.
+
+    Analytical representation of a ReconstructedMeasure.
+    Temporal boundaries are preserved from the scientific
+    reconstruction layer.
     """
 
     number: int
 
-    time_seconds: float
+    start_time_seconds: float
+
+    end_time_seconds: float
 
     time_signature: str
 
@@ -26,4 +32,3 @@ class AnalyticalBar:
         AnalyticalBeat,
         ...
     ]
-
