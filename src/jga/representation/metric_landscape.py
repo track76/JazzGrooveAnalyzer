@@ -7,6 +7,10 @@ metric behaviour of one musical performance.
 
 from dataclasses import dataclass
 
+from jga.representation.metric_trajectory import (
+    MetricTrajectory,
+)
+
 
 @dataclass(frozen=True, slots=True)
 class MetricLandscape:
@@ -14,6 +18,8 @@ class MetricLandscape:
     Collection of Metric Cluster Portraits
     representing one complete performance.
     """
+
+    metric_trajectory: MetricTrajectory | None = None
 
     metric_cluster_portraits: tuple = ()
 

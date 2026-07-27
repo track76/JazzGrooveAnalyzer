@@ -1,9 +1,13 @@
 """
 Metric Point Builder.
 
-Builds immutable MetricPoint objects from
-Representation Layer inputs.
+Projects validated Domain events into immutable
+Representation Layer MetricPoint objects.
 """
+
+from jga.domain.elementary_metric_event import (
+    ElementaryMetricEvent,
+)
 
 from jga.representation.metric_point import (
     MetricPoint,
@@ -15,13 +19,22 @@ class MetricPointBuilder:
     Builds immutable MetricPoint objects.
     """
 
-    def build(
+    def build_from_event(
         self,
-        x: float = 0.0,
-        y: float = 0.0,
+        event: ElementaryMetricEvent,
     ) -> MetricPoint:
+        """
+        Scientific projection of one validated
+        ElementaryMetricEvent.
+
+        The mathematical projection model will
+        evolve in future milestones.
+
+        The current implementation preserves
+        complete scientific traceability.
+        """
 
         return MetricPoint(
-            x=x,
-            y=y,
+            event=event,
+            offset_ms=0.0,
         )

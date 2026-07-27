@@ -9,6 +9,10 @@ from jga.representation.metric_landscape import (
     MetricLandscape,
 )
 
+from jga.representation.metric_trajectory import (
+    MetricTrajectory,
+)
+
 
 class MetricLandscapeBuilder:
     """
@@ -18,8 +22,10 @@ class MetricLandscapeBuilder:
     def build(
         self,
         metric_cluster_portraits: tuple = (),
+        metric_trajectory: MetricTrajectory | None = None,
     ) -> MetricLandscape:
 
         return MetricLandscape(
+            metric_trajectory=metric_trajectory,
             metric_cluster_portraits=metric_cluster_portraits,
         )
