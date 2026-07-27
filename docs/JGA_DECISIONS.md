@@ -435,3 +435,38 @@ ElementaryMetricEvent
 
 
 No component may bypass an intermediate semantic layer.
+
+---
+
+# AD-016 — Scientific Geometric Plane
+
+## Status
+
+LOCKED
+
+## Context
+
+M17 introduces the scientific geometric framework of the Jazz Groove Analyzer.
+
+The project requires a geometric representation that remains scientifically
+interpretable and directly traceable to observable musical facts.
+
+## Decision
+
+The scientific geometry of the Jazz Groove Analyzer is defined on a
+two-dimensional plane (XY).
+
+Each axis shall represent exactly one validated observable quantity.
+
+No axis may represent an arbitrary mathematical construct.
+
+A third coordinate shall not be introduced unless supported by a future
+scientific theory and an independent architectural decision.
+
+## Consequences
+
+- Scientific Geometry is defined on the XY plane.
+- Every coordinate remains independently observable.
+- Representation remains simple and scientifically interpretable.
+- Future extensions require scientific validation before implementation.
+

@@ -268,3 +268,9 @@ DescriptorOperator*
         ↓
 AnalyticalStructure
 
+
+- architecture/SCIENTIFIC_GEOMETRY.md
+
+
+- architecture/SCIENTIFIC_GEOMETRIC_PLANE.md
+
