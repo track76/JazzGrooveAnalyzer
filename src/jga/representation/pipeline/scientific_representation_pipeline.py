@@ -14,10 +14,11 @@ class ScientificRepresentationPipeline:
 
         self._projection = ScientificProjectionEngine()
 
-    def run(self, representation_object):
+    def run(self, event, offset_ms):
 
         candidate = ProjectionCandidate(
-            representation_object=representation_object,
+            event=event,
+            offset_ms=offset_ms,
         )
 
         return self._projection.project(candidate)

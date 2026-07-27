@@ -1,8 +1,6 @@
 from dataclasses import is_dataclass
 
-from jga.representation.candidates.projection_candidate import (
-    ProjectionCandidate,
-)
+from jga.representation.candidates import ProjectionCandidate
 
 
 def test_projection_candidate_is_dataclass():
@@ -14,6 +12,7 @@ def test_projection_candidate_is_frozen():
 
 
 def test_projection_candidate_preserves_representation():
+
     obj = object()
 
     candidate = ProjectionCandidate(

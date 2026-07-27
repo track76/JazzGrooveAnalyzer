@@ -10,11 +10,12 @@ from jga.domain.metric_cluster import MetricCluster
 from jga.representation.builders.metric_cluster_portrait_builder import (
     MetricClusterPortraitBuilder,
 )
-
 from jga.representation.builders.metric_landscape_builder import (
     MetricLandscapeBuilder,
 )
-
+from jga.representation.builders.metric_point_builder import (
+    MetricPointBuilder,
+)
 from jga.representation.builders.metric_trajectory_builder import (
     MetricTrajectoryBuilder,
 )
@@ -42,6 +43,10 @@ class RepresentationPipeline:
             MetricTrajectoryBuilder()
         )
 
+        self._metric_point_builder = (
+            MetricPointBuilder()
+        )
+
     def run(
         self,
         metric_clusters: tuple[MetricCluster, ...],
@@ -52,8 +57,17 @@ class RepresentationPipeline:
             for cluster in metric_clusters
         )
 
+        metric_points = tuple(
+            self._metric_point_builder.build_from_event(
+                event,
+                cluster.beat_reference,
+            )
+            for cluster in metric_clusters
+            for event in cluster.events
+        )
+
         trajectory = self._trajectory_builder.build(
-            metric_points=(),
+            metric_points=metric_points,
         )
 
         landscape = self._landscape_builder.build(

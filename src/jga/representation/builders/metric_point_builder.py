@@ -5,8 +5,12 @@ Projects validated Domain events into immutable
 Representation Layer MetricPoint objects.
 """
 
+from jga.domain.beat_reference import BeatReference
 from jga.domain.elementary_metric_event import (
     ElementaryMetricEvent,
+)
+from jga.domain.services.metric_offset_calculator import (
+    MetricOffsetCalculator,
 )
 
 from jga.representation.metric_point import (
@@ -19,22 +23,28 @@ class MetricPointBuilder:
     Builds immutable MetricPoint objects.
     """
 
+    def __init__(self):
+
+        self._offset_calculator = (
+            MetricOffsetCalculator()
+        )
+
     def build_from_event(
         self,
         event: ElementaryMetricEvent,
+        beat_reference: BeatReference,
     ) -> MetricPoint:
         """
         Scientific projection of one validated
         ElementaryMetricEvent.
-
-        The mathematical projection model will
-        evolve in future milestones.
-
-        The current implementation preserves
-        complete scientific traceability.
         """
+
+        offset = self._offset_calculator.compute(
+            event,
+            beat_reference,
+        )
 
         return MetricPoint(
             event=event,
-            offset_ms=0.0,
+            offset_ms=offset,
         )
