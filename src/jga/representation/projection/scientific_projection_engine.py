@@ -4,23 +4,18 @@ Scientific Projection Engine
 M14
 """
 
-from jga.representation.metric_point import MetricPoint
+from jga.representation.projection.projection_input import ProjectionInput
 
 
 class ScientificProjectionEngine:
     """
-    First executable implementation of the
-    Scientific Geometric Projection.
+    Identity implementation of the scientific projection.
 
-    Numerical geometry is intentionally deferred.
+    Geometry will be introduced in later milestones.
     """
 
-    def project(self, representation_object: MetricPoint) -> MetricPoint:
-        """
-        Identity projection.
-
-        Until the scientific coordinate equations are formally
-        introduced, projection preserves the Representation object
-        unchanged.
-        """
-        return representation_object
+    def project(
+        self,
+        projection_input: ProjectionInput,
+    ) -> ProjectionInput:
+        return projection_input
