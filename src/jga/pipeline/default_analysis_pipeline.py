@@ -70,6 +70,10 @@ from jga.runtime.engines.scientific_behaviour_geometry_engine_runner import (
     ScientificBehaviourGeometryEngineRunner,
 )
 
+from jga.runtime.engines.behaviour_observation_runner import (
+    BehaviourObservationRunner,
+)
+
 
 class AnalysisPipeline:
     """
@@ -105,7 +109,7 @@ class AnalysisPipeline:
         self.metric_context_builder = MetricContextBuilder()
 
         self.metric_cluster_builder = MetricClusterBuilder()
-        
+
         source_identifier = DummySourceIdentificationService()
 
         function_assigner = (
@@ -115,7 +119,7 @@ class AnalysisPipeline:
         contributor_assigner = (
             RuleBasedMetricContributorAssignmentService()
         )
- 
+
         ensemble_pipeline = (
             RuleBasedEnsembleAnalysisPipeline(
                 source_identifier=source_identifier,
@@ -145,13 +149,16 @@ class AnalysisPipeline:
         self.scientific_behaviour_geometry_runner = (
             ScientificBehaviourGeometryEngineRunner()
         )
- 
+
+        self.behaviour_observation_runner = (
+            BehaviourObservationRunner()
+        )
+
     def analyze(
         self,
-        filepath: str
+        filepath: str,
     ) -> AnalysisContext:
 
-        # Audio loading
         audio = self.loader.load(filepath)
 
         context = AnalysisContext(audio=audio)
@@ -160,31 +167,24 @@ class AnalysisPipeline:
 
         context.log.add("Audio loaded.")
 
-        # Preprocessing
         context = self.preprocessor.process(context)
 
-        # Source separation
         context = self.separator.process(context)
 
-        # Intro detection
         intro = self.intro_detector.detect(context.audio)
 
         context.log.add(
             f"Analysis starts at {intro.analysis_start_time:.3f} s"
         )
 
-        # Pulse Candidates
         context = self.pulse_detector.process(context)
 
         context = self.pulse_filter.process(context)
 
-        # Pulse Intervals
         context = self.interval_builder.process(context)
 
-        # Analysis Windows
         context = self.window_builder.process(context)
 
-        # Metric Stability
         context = self.stability.process(context)
 
         context = self.source_pulse_extractor.process(context)
@@ -200,7 +200,11 @@ class AnalysisPipeline:
         context = self.domain_input_builder.build(context)
 
         self.scientific_behaviour_geometry_runner.run(
-            context
+            context,
+        )
+
+        self.behaviour_observation_runner.run(
+            context,
         )
 
         if context.behaviour_profile is not None:

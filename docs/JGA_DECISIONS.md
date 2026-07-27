@@ -516,3 +516,134 @@ The Scientific Behaviour Space shall preserve:
 These invariants are mandatory for every future Behaviour Space
 implementation.
 
+
+------------------------------------------------------------
+AD-018
+
+Behaviour Distance Vector
+
+Status
+
+LOCKED
+
+Decision
+
+Behaviour comparison shall never be reduced to a single
+measurement.
+
+Every comparison is represented by a scientific vector whose
+components remain individually observable.
+
+Scalar indicators may be derived afterwards.
+
+The vector remains the primary scientific representation.
+
+
+------------------------------------------------------------
+AD-019
+
+Behaviour Space Geometry
+
+Status
+
+LOCKED
+
+Decision
+
+Scientific Behaviour Spaces are compared as complete
+trajectories.
+
+No comparison shall be performed using isolated Behaviour
+Points only.
+
+
+------------------------------------------------------------
+AD-020
+
+Behaviour Scan First
+
+Status
+
+LOCKED
+
+Decision
+
+Behaviour evolution shall always be observed before
+computing any quantitative comparison.
+
+Behaviour Distance is a derived scientific quantity.
+
+Behaviour Change Events are primary observations.
+
+
+------------------------------------------------------------
+AD-021
+
+Observation Before Diagnosis
+
+Status
+
+LOCKED
+
+Decision
+
+Behaviour observations shall always be preserved.
+
+Diagnostic information shall be added without modifying
+the original observations.
+
+No observation may be removed from the scientific record.
+
+
+------------------------------------------------------------
+AD-021
+
+Observation Before Diagnosis
+
+Status
+
+LOCKED
+
+Decision
+
+Every Behaviour Observation Frame shall be preserved.
+
+Diagnostic components may enrich observations but shall
+never modify or remove them.
+
+The complete observation history constitutes the scientific
+record of the analysed performance.
+
+
+------------------------------------------------------------
+AD-022
+
+Observation Builder
+
+Status
+
+LOCKED
+
+Decision
+
+Behaviour Observation Frames shall always be generated from
+Scientific Behaviour Space.
+
+The builder performs no scientific interpretation.
+
+
+------------------------------------------------------------
+AD-023
+
+Behaviour Diagnostics Layer
+
+Status
+
+LOCKED
+
+Decision
+
+Behaviour Diagnostics analyses Observation Frames.
+
+It never accesses Scientific Behaviour Space directly.
+

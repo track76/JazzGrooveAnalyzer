@@ -220,3 +220,12 @@ class AnalysisContext:
     log: AnalysisLog = field(
         default_factory=AnalysisLog
     )
+
+    # =====================================================
+    # Behaviour Observation Layer (M18)
+    # =====================================================
+
+    behaviour_observation_frames: tuple = ()
+
+    behaviour_change_events: tuple = ()
+

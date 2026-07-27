@@ -657,3 +657,53 @@ Validated
 Real Audio Validation:
 Passed
 
+
+------------------------------------------------------------
+M18-B
+
+Behaviour Distance Vector
+
+Status
+
+In Progress
+
+
+------------------------------------------------------------
+M18-C
+
+Behaviour Space Geometry
+
+Status
+
+In Progress
+
+
+------------------------------------------------------------
+M18-D
+
+Behaviour Scan
+
+Status
+
+In Progress
+
+
+------------------------------------------------------------
+M18-E
+
+Behaviour Observation Protocol
+
+Status
+
+In Progress
+
+
+------------------------------------------------------------
+M18-E
+
+Behaviour Observation Protocol
+
+Status
+
+Completed (Theory)
+

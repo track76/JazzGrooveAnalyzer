@@ -33,7 +33,6 @@ def main() -> int:
     print("==========================================")
     print("PIPELINE COMPLETED")
     print("==========================================")
-
     print()
 
     print(
@@ -121,6 +120,16 @@ def main() -> int:
                 "Behaviour Points:",
                 context.scientific_behaviour_space.first_trajectory.point_count,
             )
+
+    print(
+        "Behaviour Observation Frames:",
+        len(context.behaviour_observation_frames),
+    )
+
+    print(
+        "Behaviour Change Events:",
+        len(context.behaviour_change_events),
+    )
 
     print()
 
