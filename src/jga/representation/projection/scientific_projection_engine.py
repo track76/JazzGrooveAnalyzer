@@ -1,23 +1,26 @@
 """
 Scientific Projection Engine
 
-M14 — Scientific Geometric Projection
-
-This module provides the unique architectural entry point for
-scientific geometric projection.
-
-Behaviour intentionally minimal.
+M14
 """
+
+from jga.representation.metric_point import MetricPoint
 
 
 class ScientificProjectionEngine:
     """
-    Architectural placeholder.
+    First executable implementation of the
+    Scientific Geometric Projection.
 
-    Behaviour will be introduced incrementally during M14.
+    Numerical geometry is intentionally deferred.
     """
 
-    def project(self, representation_object):
-        raise NotImplementedError(
-            "Scientific projection has not been implemented yet."
-        )
+    def project(self, representation_object: MetricPoint) -> MetricPoint:
+        """
+        Identity projection.
+
+        Until the scientific coordinate equations are formally
+        introduced, projection preserves the Representation object
+        unchanged.
+        """
+        return representation_object
