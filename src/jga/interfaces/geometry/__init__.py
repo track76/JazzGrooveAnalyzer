@@ -27,3 +27,9 @@ from .metric_behaviour_projection import (
 __all__.append(
     "MetricBehaviourProjection"
 )
+
+from .scientific_behaviour_space_builder import ScientificBehaviourSpaceBuilder
+
+__all__.append(
+    "ScientificBehaviourSpaceBuilder"
+)

@@ -470,3 +470,27 @@ scientific theory and an independent architectural decision.
 - Representation remains simple and scientifically interpretable.
 - Future extensions require scientific validation before implementation.
 
+
+------------------------------------------------------------
+AD-016
+Scientific Behaviour Space
+------------------------------------------------------------
+
+Status:
+LOCKED
+
+Decision
+
+The Behaviour Geometry layer shall represent observable behaviours inside a
+Scientific Behaviour Space.
+
+The Behaviour Space is a scientific mathematical representation rather than
+a visualization layer.
+
+All future behavioural analyses shall operate on this representation.
+
+Rationale
+
+Separating Behaviour Space from graphical visualization preserves the
+scientific independence of the analytical model.
+

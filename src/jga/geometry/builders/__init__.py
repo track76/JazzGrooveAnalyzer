@@ -18,3 +18,11 @@ from .default_scientific_geometric_projection_builder import (
 __all__.append(
     "DefaultScientificGeometricProjectionBuilder"
 )
+
+from .default_scientific_behaviour_space_builder import (
+    DefaultScientificBehaviourSpaceBuilder,
+)
+
+__all__.append(
+    "DefaultScientificBehaviourSpaceBuilder"
+)

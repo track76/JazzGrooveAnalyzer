@@ -616,3 +616,22 @@ Assume that the Domain Layer described in this document is complete and validate
 
 Do not redesign the Domain Model or its architectural decisions unless explicitly requested.
 
+
+------------------------------------------------------------
+M17-G — Scientific Behaviour Space (in progress)
+------------------------------------------------------------
+
+Status
+
+Theory:
+Completed
+
+Foundation:
+F-007 completed
+
+Domain Documentation:
+Behaviour Space Domain Model introduced.
+
+Implementation:
+Not started.
+

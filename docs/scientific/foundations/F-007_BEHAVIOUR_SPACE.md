@@ -1,88 +1,144 @@
-# F-007 — Behaviour Space
+# F-007 — Scientific Behaviour Space
 
 ## Status
 
 Draft
 
-## Purpose
+---
 
-This document introduces the mathematical space in which BehaviourDescriptors
-exist. It establishes the theoretical foundation for Behaviour Analytics.
+# Purpose
 
-## Motivation
+This document introduces the theoretical definition of the Scientific Behaviour
+Space adopted by Jazz Groove Analyzer.
 
-Representation produces observable behavioural facts.
+The Scientific Behaviour Space is not a graphical representation.
 
-Quantification transforms observations into BehaviourDescriptors.
+It is the mathematical space in which observable rhythmic behaviours are
+represented while preserving the scientific constraints established by the
+Observation Model.
 
-Behaviour Analytics operates exclusively on BehaviourDescriptors.
+---
 
-Therefore every BehaviourDescriptor shall belong to a formally defined
-mathematical space called Behaviour Space.
+# Fundamental Principle
 
-## Definition
+A behaviour is an observable musical fact.
 
-Let
+The Scientific Behaviour Space is therefore a representation of observable
+facts rather than a representation of subjective musical interpretation.
 
-B
+Every point in the space corresponds to one observable metric behaviour.
 
-be the Behaviour Space.
+---
 
-A BehaviourDescriptor is an element
+# Scientific Definition
 
-d ∈ B
+A Scientific Behaviour Space is a mathematical space satisfying the following
+properties.
 
-Behaviour Space contains only quantified behavioural entities.
+1. Every point corresponds to an observable behaviour.
 
-Raw observations never belong to Behaviour Space.
+2. Every coordinate represents an observable quantity.
 
-## Principles
+3. No coordinate may encode musical interpretation.
 
-1. Representation never creates Behaviour Space.
+4. The mapping from observation to space shall preserve observational
+   consistency.
 
-2. Quantification maps observations into Behaviour Space.
+5. Every transformation inside the space shall preserve scientific
+   traceability.
 
-3. Analytics operates only inside Behaviour Space.
+---
 
-4. Operators never modify observations.
+# Representation Principle
 
-5. Operators transform BehaviourDescriptors.
+The space does not create information.
 
-## Mapping
+It only reorganizes observable information into a mathematically consistent
+representation.
 
-BehaviourObservation
+---
 
-↓
+# Behaviour Point
 
-BehaviourDescriptor
+A Behaviour Point represents one observable metric behaviour.
 
-↓
+A Behaviour Point may contain one or more observable dimensions.
 
-Behaviour Space
+Examples include:
 
-↓
+- metric offset
+- local stability
+- temporal position
 
-Descriptor Relation
+Future scientific dimensions may be introduced only if they satisfy the
+Observation Model.
 
-↓
+---
 
-Descriptor Operator
+# Behaviour Trajectory
 
-↓
+An ordered sequence of Behaviour Points forms a Behaviour Trajectory.
 
-Analytical Structure
+A Behaviour Trajectory represents the temporal evolution of an observable
+behaviour.
 
-## Consequences
+The ordering is strictly chronological.
 
-All Descriptor Operators shall explicitly declare
+---
 
-- Domain
+# Behaviour Space Properties
 
-- Codomain
+The Scientific Behaviour Space satisfies:
 
-- Preconditions
+- observational consistency
+- temporal consistency
+- deterministic projection
+- coordinate independence
+- scientific reproducibility
 
-- Postconditions
+---
 
-No operator may accept objects outside Behaviour Space.
+# Non Goals
+
+The Scientific Behaviour Space is not intended to:
+
+- classify musical quality
+- rank musicians
+- express aesthetic judgement
+- infer performer intention
+
+Its sole purpose is to represent observable behaviour.
+
+---
+
+# Architectural Consequences
+
+This document introduces the conceptual basis for:
+
+- ScientificBehaviourSpace
+- BehaviourPoint
+- BehaviourTrajectory
+- BehaviourDistance
+- BehaviourRegion
+
+These concepts shall be introduced in subsequent milestones.
+
+---
+
+# Relationship with Previous Foundations
+
+F-001 defines observable science.
+
+F-002 defines observable musical facts.
+
+F-003 defines observable metric context.
+
+F-004 defines metric projection.
+
+F-005 defines ensemble behaviour.
+
+F-006 defines historical comparison.
+
+F-007 defines the mathematical space in which observable behaviours are
+represented.
 
