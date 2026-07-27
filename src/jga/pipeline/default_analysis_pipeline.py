@@ -189,11 +189,11 @@ class AnalysisPipeline:
 
         context = self.metric_cluster_builder.process(context)
 
+        context = self.domain_input_builder.build(context)
+
         self.scientific_geometry_runner.run(
             context
         )
-
-        context = self.domain_input_builder.build(context)
 
         if context.behaviour_profile is not None:
 

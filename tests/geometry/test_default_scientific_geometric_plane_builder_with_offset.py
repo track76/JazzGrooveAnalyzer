@@ -9,17 +9,17 @@ from jga.domain.elementary_metric_event import (
 )
 from jga.domain.metric_cluster import MetricCluster
 
-from jga.geometry.engines import (
-    DefaultScientificGeometryEngine,
+from jga.geometry.builders import (
+    DefaultScientificGeometricPlaneBuilder,
 )
 
 
-def test_engine_projects_metric_offset_geometry():
+def test_metric_offset_becomes_x_coordinate():
 
     event = ElementaryMetricEvent(
         id=uuid4(),
         contributor_id=uuid4(),
-        timestamp=1.015,
+        timestamp=1.010,
         confidence=1.0,
         created_at=datetime.now(),
     )
@@ -38,9 +38,9 @@ def test_engine_projects_metric_offset_geometry():
         created_at=datetime.now(),
     )
 
-    engine = DefaultScientificGeometryEngine()
+    builder = DefaultScientificGeometricPlaneBuilder()
 
-    plane = engine.project(
+    plane = builder.build(
         (cluster,)
     )
 
@@ -51,4 +51,4 @@ def test_engine_projects_metric_offset_geometry():
 
     assert coordinate.name == "Metric Offset"
     assert coordinate.unit == "ms"
-    assert coordinate.value == pytest.approx(15.0)
+    assert coordinate.value == pytest.approx(10.0)
