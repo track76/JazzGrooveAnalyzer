@@ -647,3 +647,100 @@ Behaviour Diagnostics analyses Observation Frames.
 
 It never accesses Scientific Behaviour Space directly.
 
+
+------------------------------------------------------------
+AD-024
+
+Behaviour Diagnostics Independence
+
+Status
+
+LOCKED
+
+Decision
+
+Behaviour Diagnostics operates exclusively on
+Behaviour Observation Frames.
+
+No dependency on previous scientific layers is permitted.
+
+
+------------------------------------------------------------
+AD-018 — Analytical Score as Primary Scientific Representation
+Status
+LOCKED
+------------------------------------------------------------
+
+Decision
+
+The Analytical Score is the primary scientific
+representation produced by the Jazz Groove Analyzer.
+
+All visual outputs shall derive from the same
+Analytical Score model.
+
+Examples include:
+
+- PDF Reports
+- Interactive GUI
+- Scientific Publications
+- Presentation Material
+
+The rendering system shall never reconstruct
+scientific information.
+
+It shall only visualize information already
+contained in the Analytical Score domain model.
+
+------------------------------------------------------------
+
+Scientific Principle
+
+The Internal Timing reconstructed by JGA is the
+absolute temporal reference.
+
+Every observed musical event shall be represented
+with respect to the reconstructed Internal Timing.
+
+No observed event shall be omitted.
+
+No averaging shall replace the original
+observations in the primary representation.
+
+------------------------------------------------------------
+
+Representation Principle
+
+The Analytical Score follows the grammar of a
+musical score while representing temporal
+behaviour instead of musical notation.
+
+Each bar shall contain:
+
+- Bar Number
+- Musical Time
+- Time Signature
+- Internal BPM
+
+Each instrument shall occupy one dedicated row.
+
+Each detected event shall display:
+
+- Event Position
+- Offset from Internal Timing (ms)
+
+Significant variations may be highlighted,
+but every observation shall remain visible.
+
+------------------------------------------------------------
+
+Future Extensions
+
+The Analytical Score shall support:
+
+- Instrument Behaviour Graphs
+- Internal BPM Evolution
+- Ensemble Behaviour Analysis
+- Scientific PDF Export
+- Interactive Visualization
+
