@@ -2,7 +2,7 @@
 =========================================================
 Jazz Groove Analyzer (JGA)
 
-Analytical Score Renderer
+Analytical Score Validation
 
 Author:
     Angelo Tracanna
@@ -11,8 +11,14 @@ Copyright © 2026 Angelo Tracanna
 =========================================================
 """
 
-from jga.reporting.compiler.analytical_score_compiler import (
-    AnalyticalScoreCompiler,
+import sys
+
+from jga.pipeline.default_analysis_pipeline import (
+    AnalysisPipeline,
+)
+
+from jga.reporting.builders.analytical_score_builder import (
+    AnalyticalScoreBuilder,
 )
 
 from jga.reporting.renderers.ascii_renderer import (
@@ -22,17 +28,71 @@ from jga.reporting.renderers.ascii_renderer import (
 
 def main():
 
-    compiler = AnalyticalScoreCompiler()
+    if len(sys.argv) != 2:
 
-    score = compiler.compile(
+        print(
+            "Usage:"
+        )
 
-        title="Demo",
+        print(
+            "python tools/render_analytical_score.py <audiofile>"
+        )
 
-        artist="Unknown",
+        return
 
+    pipeline = AnalysisPipeline()
+
+    context = pipeline.analyze(
+        sys.argv[1],
     )
 
-    renderer = AnalyticalScoreAsciiRenderer()
+    print()
+    print("=" * 60)
+    print("REPORTING VALIDATION")
+    print("=" * 60)
+    print()
+
+    print(
+        "Audio:",
+        context.audio.path.name,
+    )
+
+    print(
+        "Metric Clusters:",
+        len(context.metric_clusters),
+    )
+
+    print(
+        "Beat References:",
+        len(context.beat_references),
+    )
+
+    print(
+        "Pulses:",
+        len(context.pulses),
+    )
+
+    print(
+        "Behaviour Observations:",
+        len(context.behaviour_observations),
+    )
+
+    print(
+        "Behaviour Descriptors:",
+        len(context.behaviour_descriptors),
+    )
+
+    print()
+
+    score = (
+        AnalyticalScoreBuilder().build(
+            context,
+        )
+    )
+
+    renderer = (
+        AnalyticalScoreAsciiRenderer()
+    )
 
     print(renderer.render(score))
 
