@@ -15,6 +15,14 @@ import sys
 
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
 
+from jga.reporting.builders.analytical_score_builder import (
+    AnalyticalScoreBuilder,
+)
+
+from jga.reporting.renderers.ascii_renderer import (
+    AnalyticalScoreAsciiRenderer,
+)
+
 
 def main() -> int:
 
@@ -145,6 +153,23 @@ def main() -> int:
         print(
             f"[{entry.timestamp:%H:%M:%S}] {entry.message}"
         )
+
+    print()
+
+    print("Analytical Score")
+    print("------------------------------------------")
+
+    score_builder = AnalyticalScoreBuilder()
+
+    score = score_builder.build(
+        context,
+    )
+
+    renderer = AnalyticalScoreAsciiRenderer()
+
+    print(
+        renderer.render(score)
+    )
 
     return 0
 
