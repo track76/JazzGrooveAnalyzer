@@ -96,6 +96,32 @@ def main() -> int:
         context.behaviour_analytics_result is not None,
     )
 
+    print(
+        "Scientific Geometric Plane:",
+        context.scientific_geometric_plane is not None,
+    )
+
+    print(
+        "Scientific Behaviour Space:",
+        context.scientific_behaviour_space is not None,
+    )
+
+    if context.scientific_behaviour_space is not None:
+
+        print(
+            "Behaviour Trajectories:",
+            context.scientific_behaviour_space.trajectory_count,
+        )
+
+        if (
+            context.scientific_behaviour_space.first_trajectory
+            is not None
+        ):
+            print(
+                "Behaviour Points:",
+                context.scientific_behaviour_space.first_trajectory.point_count,
+            )
+
     print()
 
     print("Analysis Log")

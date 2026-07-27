@@ -635,3 +635,25 @@ Behaviour Space Domain Model introduced.
 Implementation:
 Not started.
 
+
+------------------------------------------------------------
+M17-I — Behaviour Space Consolidation
+------------------------------------------------------------
+
+Status
+
+Theory:
+Completed
+
+Architecture:
+Locked
+
+Runtime:
+Validated
+
+Scientific Behaviour Space:
+Validated
+
+Real Audio Validation:
+Passed
+

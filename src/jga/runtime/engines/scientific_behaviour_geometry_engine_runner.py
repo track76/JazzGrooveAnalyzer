@@ -1,3 +1,6 @@
+from jga.geometry.builders import (
+    DefaultScientificBehaviourSpaceBuilder,
+)
 from jga.geometry.engines import (
     DefaultScientificBehaviourGeometryEngine,
 )
@@ -17,6 +20,10 @@ class ScientificBehaviourGeometryEngineRunner:
             DefaultScientificBehaviourGeometryEngine()
         )
 
+        self._space_builder = (
+            DefaultScientificBehaviourSpaceBuilder()
+        )
+
     def run(
         self,
         context: AnalysisContext,
@@ -28,9 +35,15 @@ class ScientificBehaviourGeometryEngineRunner:
         if context.stability_curve is None:
             return
 
-        context.scientific_geometric_plane = (
-            self._engine.project(
-                context.metric_clusters,
-                context.stability_curve,
+        plane = self._engine.project(
+            context.metric_clusters,
+            context.stability_curve,
+        )
+
+        context.scientific_geometric_plane = plane
+
+        context.scientific_behaviour_space = (
+            self._space_builder.build(
+                plane,
             )
         )

@@ -494,3 +494,25 @@ Rationale
 Separating Behaviour Space from graphical visualization preserves the
 scientific independence of the analytical model.
 
+
+------------------------------------------------------------
+AD-017
+Behaviour Space Invariants
+------------------------------------------------------------
+
+Status:
+LOCKED
+
+Decision
+
+The Scientific Behaviour Space shall preserve:
+
+- cardinality
+- temporal ordering
+- deterministic projection
+- immutability
+- scientific traceability
+
+These invariants are mandatory for every future Behaviour Space
+implementation.
+
