@@ -74,6 +74,10 @@ from jga.runtime.engines.behaviour_observation_runner import (
     BehaviourObservationRunner,
 )
 
+from jga.runtime.engines.reconstructed_measure_runner import (
+    ReconstructedMeasureRunner,
+)
+
 
 class AnalysisPipeline:
     """
@@ -154,6 +158,10 @@ class AnalysisPipeline:
             BehaviourObservationRunner()
         )
 
+        self.reconstructed_measure_runner = (
+            ReconstructedMeasureRunner()
+        )
+
     def analyze(
         self,
         filepath: str,
@@ -198,6 +206,10 @@ class AnalysisPipeline:
         context = self.metric_cluster_builder.process(context)
 
         context = self.domain_input_builder.build(context)
+
+        self.reconstructed_measure_runner.run(
+            context,
+        )
 
         self.scientific_behaviour_geometry_runner.run(
             context,

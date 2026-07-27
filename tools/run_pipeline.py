@@ -56,6 +56,11 @@ def main() -> int:
     )
 
     print(
+        "Reconstructed Measures:",
+        len(context.reconstructed_measures),
+    )
+
+    print(
         "Pulses:",
         len(context.pulses),
     )

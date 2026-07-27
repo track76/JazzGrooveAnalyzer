@@ -39,6 +39,10 @@ from jga.domain.pulse import Pulse
 from jga.domain.internal_metric_timeline import (
     InternalMetricTimeline,
 )
+
+from jga.domain.reconstructed_measure import (
+    ReconstructedMeasure,
+)
 from jga.domain.behaviour_observation import (
     BehaviourObservation,
 )
@@ -152,6 +156,14 @@ class AnalysisContext:
     # =====================================================
 
     metric_clusters: tuple[MetricCluster, ...] = ()
+
+    # =====================================================
+    # Reconstructed Measures
+    # =====================================================
+
+    reconstructed_measures: tuple[
+        ReconstructedMeasure, ...
+    ] = ()
 
     # =====================================================
     # Pulses
