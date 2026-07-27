@@ -2,8 +2,16 @@ from jga.domain.beat_reference import (
     BeatReference,
 )
 
+from jga.domain.metric_cluster import (
+    MetricCluster,
+)
+
 from jga.reporting.analytical_beat import (
     AnalyticalBeat,
+)
+
+from jga.reporting.builders.analytical_cell_builder import (
+    AnalyticalCellBuilder,
 )
 
 
@@ -15,6 +23,12 @@ class AnalyticalBeatBuilder:
     The builder performs only representational
     translation.
     """
+
+    def __init__(self):
+
+        self.cell_builder = (
+            AnalyticalCellBuilder()
+        )
 
     def build_from_reference(
         self,
@@ -40,11 +54,33 @@ class AnalyticalBeatBuilder:
         self,
         reference: BeatReference,
         number: int,
+        metric_cluster: MetricCluster | None = None,
     ) -> AnalyticalBeat:
         """
         Builds an AnalyticalBeat using a local
         beat number inside an AnalyticalBar.
+
+        If a MetricCluster is provided, its
+        ElementaryMetricEvents are translated
+        into AnalyticalCells.
         """
+
+        cells = ()
+
+        if metric_cluster is not None:
+
+            cells = tuple(
+
+                self.cell_builder.build(
+                    metric_cluster,
+                    event,
+                )
+
+                for event in (
+                    metric_cluster.events
+                )
+
+            )
 
         return AnalyticalBeat(
 
@@ -54,6 +90,6 @@ class AnalyticalBeatBuilder:
                 reference.timestamp
             ),
 
-            cells=(),
+            cells=cells,
 
         )

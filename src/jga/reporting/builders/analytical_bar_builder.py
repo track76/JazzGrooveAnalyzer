@@ -33,7 +33,6 @@ class AnalyticalBarBuilder:
         end_time_seconds: float,
         time_signature: str,
         internal_bpm: float,
-        beats=(),
     ) -> AnalyticalBar:
 
         return AnalyticalBar(
@@ -48,7 +47,7 @@ class AnalyticalBarBuilder:
 
             internal_bpm=internal_bpm,
 
-            beats=beats,
+            beats=(),
 
         )
 
@@ -61,25 +60,49 @@ class AnalyticalBarBuilder:
         one AnalyticalBar preserving scientific data.
         """
 
-        beats = tuple(
+        beats = []
 
-            self.beat_builder.build(
+        for reference in measure.beat_references:
 
-                reference,
-
-                number,
-
+            clusters = tuple(
+                cluster
+                for cluster in measure.metric_clusters
+                if cluster.beat_reference.id
+                == reference.id
             )
 
-            for number, reference
-            in enumerate(
-                measure.beat_references,
-                start=1,
-            )
+            if clusters:
 
-        )
+                beats.append(
 
-        return self.build(
+                    self.beat_builder.build(
+
+                        reference=reference,
+
+                        number=reference.index + 1,
+
+                        metric_cluster=clusters[0],
+
+                    )
+
+                )
+
+            else:
+
+                beats.append(
+
+                    self.beat_builder.build(
+
+                        reference=reference,
+
+                        number=reference.index + 1,
+
+                    )
+
+                )
+
+
+        return AnalyticalBar(
 
             number=measure.number,
 
@@ -99,6 +122,6 @@ class AnalyticalBarBuilder:
                 measure.internal_bpm
             ),
 
-            beats=beats,
+            beats=tuple(beats),
 
         )
