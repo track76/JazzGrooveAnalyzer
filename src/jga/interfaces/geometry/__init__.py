@@ -19,3 +19,11 @@ from .scientific_geometric_projection_builder import (
 __all__.append(
     "ScientificGeometricProjectionBuilder"
 )
+
+from .metric_behaviour_projection import (
+    MetricBehaviourProjection,
+)
+
+__all__.append(
+    "MetricBehaviourProjection"
+)
