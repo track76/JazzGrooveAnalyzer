@@ -1,10 +1,14 @@
 from dataclasses import dataclass
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(
+    frozen=True,
+    slots=True,
+)
 class BehaviourChangeEvent:
     """
-    Scientific observation of a behavioural transition.
+    Behavioural transition detected from
+    Behaviour Observation Frames.
     """
 
     start_time: float

@@ -6,16 +6,24 @@ from jga.domain.behaviour_observation_frame import (
     BehaviourObservationFrame,
 )
 
+from jga.observation.stable_region_detector import (
+    StableRegionDetector,
+)
+
 
 class DefaultBehaviourDiagnostics:
     """
-    First implementation of Behaviour Diagnostics.
+    Behaviour Diagnostics coordinator.
 
-    Current version returns one stable event.
-
-    Future versions will detect behavioural
-    transitions.
+    Each detector analyses one specific
+    behavioural phenomenon.
     """
+
+    def __init__(self):
+
+        self._stable_detector = (
+            StableRegionDetector()
+        )
 
     def analyze(
         self,
@@ -28,21 +36,6 @@ class DefaultBehaviourDiagnostics:
         ...
     ]:
 
-        if not frames:
-            return ()
-
-        return (
-
-            BehaviourChangeEvent(
-
-                start_time=frames[0].time,
-
-                end_time=frames[-1].time,
-
-                event_type="stable",
-
-                intensity=0.0,
-
-            ),
-
+        return self._stable_detector.detect(
+            frames,
         )
