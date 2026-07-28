@@ -87,4 +87,9 @@ class Tau8Translator:
                     )
                 )
 
-        return tuple(candidates)
+        return tuple(
+            sorted(
+                candidates,
+                key=lambda item: item.timestamp,
+            )
+        )

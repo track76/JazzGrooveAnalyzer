@@ -84,13 +84,17 @@ class AnalysisPipeline:
     Main JGA analysis pipeline.
     """
 
-    def __init__(self):
+    def __init__(self, separator=None):
 
         self.loader = FileAudioSource()
 
         self.preprocessor = AudioPreprocessor()
 
-        self.separator = NullSeparator()
+        self.separator = (
+            separator
+            if separator is not None
+            else NullSeparator()
+        )
 
         self.intro_detector = IntroDetector()
 

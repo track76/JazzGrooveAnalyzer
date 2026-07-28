@@ -15,6 +15,10 @@ import sys
 
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
 
+from jga.separation.dummy_multi_stem_separator import (
+    DummyMultiStemSeparator,
+)
+
 from jga.reporting.builders.analytical_score_builder import (
     AnalyticalScoreBuilder,
 )
@@ -26,14 +30,31 @@ from jga.reporting.renderers.ascii_renderer import (
 
 def main() -> int:
 
-    if len(sys.argv) != 2:
+    multi_mode = "--multi" in sys.argv
+
+    arguments = [
+        arg
+        for arg in sys.argv[1:]
+        if arg != "--multi"
+    ]
+
+    if len(arguments) != 1:
         print("Usage:")
-        print("python tools/run_pipeline.py <audiofile>")
+        print(
+            "python tools/run_pipeline.py [--multi] <audiofile>"
+        )
         return 1
 
-    filepath = sys.argv[1]
+    filepath = arguments[0]
 
-    pipeline = AnalysisPipeline()
+    separator = None
+
+    if multi_mode:
+        separator = DummyMultiStemSeparator()
+
+    pipeline = AnalysisPipeline(
+        separator=separator,
+    )
 
     context = pipeline.analyze(filepath)
 

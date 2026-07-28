@@ -12,8 +12,9 @@ Description:
 Author:
     Angelo Tracanna
 
-Copyright © 2026 Angelo Tracanna
-All Rights Reserved.
+Copyright:
+    © 2026 Angelo Tracanna
+    All Rights Reserved.
 =========================================================
 """
 
@@ -29,7 +30,7 @@ class SourcePulseExtractor:
 
     Builds SourcePulseSequence objects.
 
-    Version 0.3
+    Version 0.4
 
     AD-015:
     MetricSource identity must originate from
@@ -48,19 +49,19 @@ class SourcePulseExtractor:
             and context.audio_stems
         ):
 
-            stem = context.audio_stems[0]
+            for stem in context.audio_stems:
 
-            sequence = SourcePulseSequence(
-                source=MetricSource(
-                    name=stem.name,
-                    family="Unknown",
-                ),
-                pulse_candidates=list(
-                    context.pulse_candidates
-                ),
-            )
+                sequence = SourcePulseSequence(
+                    source=MetricSource(
+                        name=stem.name,
+                        family="Unknown",
+                    ),
+                    pulse_candidates=list(
+                        context.pulse_candidates
+                    ),
+                )
 
-            sequences.append(sequence)
+                sequences.append(sequence)
 
         context.source_pulse_sequences = sequences
 
@@ -73,7 +74,7 @@ class SourcePulseExtractor:
                     f"{len(sequences)} "
                     "Source Pulse Sequences created."
                 ),
-                input_type="list[PulseCandidate]",
+                input_type="AudioStemCollection",
                 output_type="list[SourcePulseSequence]",
                 metrics={
                     "source_pulse_sequences": len(sequences),
