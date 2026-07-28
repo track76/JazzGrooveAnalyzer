@@ -20,6 +20,7 @@ from jga.audio.file_audio_source import FileAudioSource
 
 from jga.engines.audio_preprocessor import AudioPreprocessor
 from jga.engines.intro_detector import IntroDetector
+from jga.engines.analysis_start_filter import AnalysisStartFilter
 
 from jga.engines.pulse_candidate_builder import PulseCandidateBuilder
 from jga.engines.pulse_candidate_filter import PulseCandidateFilter
@@ -97,6 +98,8 @@ class AnalysisPipeline:
         )
 
         self.intro_detector = IntroDetector()
+
+        self.analysis_start_filter = AnalysisStartFilter()
 
         self.pulse_detector = PulseCandidateBuilder()
 
@@ -199,6 +202,10 @@ class AnalysisPipeline:
 
         context.analysis_start_time = (
             intro.analysis_start_time
+        )
+
+        context = self.analysis_start_filter.process(
+            context
         )
 
         context.log.add(
