@@ -18,7 +18,9 @@ All Rights Reserved.
 
 from dataclasses import dataclass
 
-from jga.core.audio_file import AudioFile
+from jga.core.stability_curve import (
+    StabilityCurve,
+)
 
 
 @dataclass
@@ -28,6 +30,7 @@ class IntroDetectionResult:
     """
 
     analysis_start_time: float
+
     confidence: float
 
 
@@ -35,19 +38,29 @@ class IntroDetector:
     """
     Intro Detection Engine.
 
-    Version 0.1
-
-    For now the detector assumes that the musical
-    analysis starts from the beginning of the file.
-
-    Future versions will automatically identify
-    the first metrically stable section of the
-    ensemble.
+    Detects the first metrically stable region
+    from the Metric Stability Curve.
     """
 
-    def detect(self, audio: AudioFile) -> IntroDetectionResult:
+    STABILITY_THRESHOLD = 0.75
+
+    def detect(
+        self,
+        stability_curve: StabilityCurve,
+    ) -> IntroDetectionResult:
+
+        for point in stability_curve:
+
+            if (
+                point.score
+                >= self.STABILITY_THRESHOLD
+            ):
+                return IntroDetectionResult(
+                    analysis_start_time=point.time,
+                    confidence=point.score,
+                )
 
         return IntroDetectionResult(
             analysis_start_time=0.0,
-            confidence=1.0
+            confidence=0.0,
         )

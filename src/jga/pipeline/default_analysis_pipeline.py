@@ -183,16 +183,6 @@ class AnalysisPipeline:
 
         context = self.separator.process(context)
 
-        intro = self.intro_detector.detect(context.audio)
-
-        context.analysis_start_time = (
-            intro.analysis_start_time
-        )
-
-        context.log.add(
-            f"Analysis starts at {intro.analysis_start_time:.3f} s"
-        )
-
         context = self.pulse_detector.process(context)
 
         context = self.pulse_filter.process(context)
@@ -202,6 +192,18 @@ class AnalysisPipeline:
         context = self.window_builder.process(context)
 
         context = self.stability.process(context)
+
+        intro = self.intro_detector.detect(
+            context.stability_curve
+        )
+
+        context.analysis_start_time = (
+            intro.analysis_start_time
+        )
+
+        context.log.add(
+            f"Analysis starts at {intro.analysis_start_time:.3f} s"
+        )
 
         context = self.source_pulse_extractor.process(context)
 
