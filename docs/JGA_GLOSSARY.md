@@ -129,21 +129,127 @@ For example, a ride cymbal may carry the pulse during the theme, while becoming 
 
 ---
 
-## Ensemble Metric Event (EME)
+## Metric Movement
 
-The Ensemble Metric Event (EME) is the elementary metric event reconstructed by the Jazz Groove Analyzer.
+A Metric Movement is the fundamental temporal unit used by the Jazz Groove Analyzer.
 
-An EME emerges from the temporal consensus of the active Metric Sources rather than from the performance of any individual musician.
+It represents one position of the reconstructed internal metric grid.
 
-It represents the smallest reconstructed metric unit used by the JGA to describe the collective pulse of the ensemble.
+Example in 4/4:
+
+Beat 1
+Beat 2
+Beat 3
+Beat 4
+
+A Metric Movement is not defined by the number of notes performed inside it.
+
+Multiple audio events, subdivisions or ornamental figures may belong to the same Metric Movement.
+
+---
+
+## Elementary Metric Event (EME)
+
+An Elementary Metric Event (EME) represents the temporal position of one Metric Contributor relative to one reconstructed Metric Movement.
+
+An EME is not a single audio onset.
+
+Multiple notes or acoustic events may contribute to the same EME.
+
+The EME preserves:
+
+* contributor identity
+* metric movement association
+* temporal position
+* deviation from the internal metric reference
+
+Timing deviations are considered analytical information and not errors.
 
 ---
 
 ## Metric Cluster
 
-A Metric Cluster is the ordered sequence of Ensemble Metric Events describing the evolution of the ensemble metric structure over time.
+A Metric Cluster represents one reconstructed Metric Movement together with the Elementary Metric Events associated with that movement.
 
-Metric Clusters constitute the fundamental temporal representation used by the JGA for groove analysis.
+A Metric Cluster may contain multiple contributor observations.
+
+Example:
+
+Metric Movement:
+
+Beat 2
+
+
+Events:
+
+* Bass EME
+* Piano EME
+* Drums EME
+
+Metric Clusters describe the collective temporal relationship of the ensemble.
+
+---
+
+## BeatReference
+
+A BeatReference represents the theoretical temporal position of one reconstructed metric movement.
+
+It provides the internal metric reference used to measure the temporal position of Elementary Metric Events.
+
+---
+
+## AnalyticalCell
+
+An AnalyticalCell is the reporting representation of one Elementary Metric Event.
+
+It preserves the relationship between:
+
+* reconstructed metric reference
+* contributor temporal position
+* timing deviation
+
+It does not perform detection or interpretation.
+
+---
+
+## AnalyticalScore
+
+An AnalyticalScore is the hierarchical reporting representation produced by the Jazz Groove Analyzer.
+
+Structure:
+
+AnalyticalScore
+
+    ↓
+
+AnalyticalBar
+
+    ↓
+
+AnalyticalBeat
+
+    ↓
+
+AnalyticalCell
+
+---
+
+## MusicalSection
+
+A MusicalSection represents a formal region of a performance.
+
+Examples:
+
+* INTRO
+* A
+* B
+* BRIDGE
+* SOLO SAX
+* SOLO PIANO
+* SOLO DOUBLE BASS
+* OUTRO
+
+Musical Sections provide formal context for timing behaviour analysis.
 
 ---
 
