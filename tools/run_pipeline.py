@@ -68,6 +68,31 @@ def main() -> int:
         len(context.reconstructed_measures),
     )
 
+    if context.reconstructed_measures:
+
+        first_measure = (
+            context.reconstructed_measures[0]
+        )
+
+        print(
+            "First Measure Beat References:",
+            len(first_measure.beat_references),
+        )
+
+        print(
+            "First Measure Metric Clusters:",
+            len(first_measure.metric_clusters),
+        )
+
+        if first_measure.metric_clusters:
+
+            print(
+                "First Cluster Events:",
+                len(
+                    first_measure.metric_clusters[0].events
+                ),
+            )
+
     print(
         "Pulses:",
         len(context.pulses),

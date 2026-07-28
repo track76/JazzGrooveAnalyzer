@@ -2,6 +2,14 @@ from jga.domain.reconstructed_measure import (
     ReconstructedMeasure,
 )
 
+from jga.domain.metric_contributor import (
+    MetricContributor,
+)
+
+from jga.domain.sound_source import (
+    SoundSource,
+)
+
 from jga.reporting.analytical_bar import (
     AnalyticalBar,
 )
@@ -54,6 +62,8 @@ class AnalyticalBarBuilder:
     def build_from_measure(
         self,
         measure: ReconstructedMeasure,
+        metric_contributors: tuple[MetricContributor, ...] = (),
+        sound_sources: tuple[SoundSource, ...] = (),
     ) -> AnalyticalBar:
         """
         Translates one ReconstructedMeasure into
@@ -82,6 +92,14 @@ class AnalyticalBarBuilder:
                         number=reference.index + 1,
 
                         metric_cluster=clusters[0],
+
+                        metric_contributors=(
+                            metric_contributors
+                        ),
+
+                        sound_sources=(
+                            sound_sources
+                        ),
 
                     )
 

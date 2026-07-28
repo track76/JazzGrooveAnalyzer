@@ -37,7 +37,15 @@ class AnalyticalScoreBuilder:
         bars = tuple(
 
             self.bar_builder.build_from_measure(
-                measure
+                measure,
+                metric_contributors=(
+                    context.metric_contributors
+                ),
+                sound_sources=(
+                    context.ensemble_analysis_result.sound_sources
+                    if context.ensemble_analysis_result
+                    else ()
+                ),
             )
 
             for measure

@@ -47,10 +47,13 @@ class ReconstructedMeasureRunner:
                     context.beat_references
                 ),
 
+                metric_clusters=(
+                    context.metric_clusters
+                ),
+
                 metric_signature=signature,
 
                 internal_bpm=120.0,
 
             )
         )
-

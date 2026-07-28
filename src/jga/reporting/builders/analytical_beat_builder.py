@@ -6,6 +6,14 @@ from jga.domain.metric_cluster import (
     MetricCluster,
 )
 
+from jga.domain.metric_contributor import (
+    MetricContributor,
+)
+
+from jga.domain.sound_source import (
+    SoundSource,
+)
+
 from jga.reporting.analytical_beat import (
     AnalyticalBeat,
 )
@@ -55,6 +63,8 @@ class AnalyticalBeatBuilder:
         reference: BeatReference,
         number: int,
         metric_cluster: MetricCluster | None = None,
+        metric_contributors: tuple[MetricContributor, ...] = (),
+        sound_sources: tuple[SoundSource, ...] = (),
     ) -> AnalyticalBeat:
         """
         Builds an AnalyticalBeat using a local
@@ -74,6 +84,8 @@ class AnalyticalBeatBuilder:
                 self.cell_builder.build(
                     metric_cluster,
                     event,
+                    metric_contributors=metric_contributors,
+                    sound_sources=sound_sources,
                 )
 
                 for event in (

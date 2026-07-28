@@ -1,4 +1,5 @@
 from jga.domain.beat_reference import BeatReference
+from jga.domain.metric_cluster import MetricCluster
 from jga.domain.internal_metric_signature import (
     InternalMetricSignature,
 )
@@ -12,6 +13,9 @@ class ReconstructedMeasureBuilder:
     Builds reconstructed measures by grouping
     Beat References according to the reconstructed
     Internal Metric Signature.
+
+    MetricClusters are preserved and associated
+    with their corresponding metric movements.
     """
 
     def build(
@@ -22,6 +26,10 @@ class ReconstructedMeasureBuilder:
         ],
         metric_signature: InternalMetricSignature,
         internal_bpm: float,
+        metric_clusters: tuple[
+            MetricCluster,
+            ...
+        ] = (),
     ) -> tuple[
         ReconstructedMeasure,
         ...
@@ -52,6 +60,18 @@ class ReconstructedMeasureBuilder:
             if len(group) < beats_per_measure:
                 break
 
+            group_ids = {
+                beat.id
+                for beat in group
+            }
+
+            clusters = tuple(
+                cluster
+                for cluster in metric_clusters
+                if cluster.beat_reference.id
+                in group_ids
+            )
+
             measures.append(
 
                 ReconstructedMeasure(
@@ -70,11 +90,10 @@ class ReconstructedMeasureBuilder:
 
                     beat_references=group,
 
-                    metric_clusters=(),
+                    metric_clusters=clusters,
 
                 )
 
             )
 
         return tuple(measures)
-
