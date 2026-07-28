@@ -127,6 +127,10 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
             )
         )
 
+        context.metric_contributors = (
+            context.ensemble_analysis_result.metric_contributors
+        )
+
         #
         # τ₈
         #

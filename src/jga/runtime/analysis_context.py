@@ -145,6 +145,8 @@ class AnalysisContext:
 
     elementary_metric_events: tuple = ()
 
+    metric_contributors: tuple = ()
+
     # =====================================================
     # Beat References
     # =====================================================
