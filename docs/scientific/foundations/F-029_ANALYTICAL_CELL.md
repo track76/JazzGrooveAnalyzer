@@ -1,21 +1,26 @@
 # F-029 — Analytical Cell
 
-Status: DRAFT
+Status: LOCKED
+
 
 ## Purpose
 
-Define the scientific meaning of the Analytical Cell representation.
+Define the scientific meaning of the Analytical Cell
+representation.
 
 
 ## Scientific Position
 
 The Analytical Cell is a reporting representation of one
-scientific event positioned inside a reconstructed metric
-structure.
+ElementaryMetricEvent positioned inside a reconstructed
+metric structure.
 
-It does not detect events.
+It does not detect audio events.
+It does not classify notes.
 It does not infer musical behaviour.
-It only represents previously produced scientific results.
+
+It only represents a previously produced scientific
+observation.
 
 
 ## Source of Truth
@@ -28,14 +33,16 @@ ElementaryMetricEvent
 Transformation:
 
 ElementaryMetricEvent
+
         ↓
+
 AnalyticalCell
 
 
 ## Architectural Principle
 
 The reporting layer must preserve scientific observations
-without introducing new interpretation.
+without introducing new musical interpretation.
 
 
 ## Input
@@ -45,8 +52,17 @@ Scientific input:
 ElementaryMetricEvent
 
 
-The event contains a temporally positioned metric
-observation produced by the analysis pipeline.
+An ElementaryMetricEvent represents:
+
+- one metric contributor
+- one reconstructed metric movement
+- one temporal position relative to the internal metric reference
+
+
+The event is not equivalent to an audio onset.
+
+Multiple audio notes may contribute to the same
+ElementaryMetricEvent.
 
 
 ## Output
@@ -56,28 +72,76 @@ AnalyticalCell contains:
 - beat association
 - metric cluster association
 - absolute temporal position
-- timing relation with the metric reference
+- timing deviation from the metric reference
 
 
 ## Relationship
 
 Structure:
 
+
 AnalyticalScore
+
         ↓
+
 AnalyticalBar
+
         ↓
+
 AnalyticalBeat
+
         ↓
+
 AnalyticalCell
+
+
+## Timing Representation
+
+AnalyticalCell preserves the relationship between:
+
+Metric Reference:
+
+BeatReference.timestamp
+
+
+and observed contributor position:
+
+ElementaryMetricEvent.timestamp
+
+
+The difference represents timing behaviour.
+
+
+Example:
+
+BeatReference:
+
+10.000 seconds
+
+
+Contributor observation:
+
+10.018 seconds
+
+
+AnalyticalCell:
+
+offset:
+
++18 ms
+
+
+The deviation is analytical information,
+not an error.
 
 
 ## First Implementation Scope
 
 Included:
 
-- event temporal representation
-- metric association
+- metric movement representation
+- temporal position preservation
+- metric cluster association
 - beat association
 
 
@@ -85,8 +149,9 @@ Excluded:
 
 - performer identification
 - instrument classification
-- expressive interpretation
-- behavioural analysis
+- melodic transcription
+- harmonic analysis
+- behavioural interpretation
 
 
 ## AD-015 Traceability
@@ -108,16 +173,27 @@ AnalyticalCellBuilder
 
 TRACEABILITY:
 
+
 ElementaryMetricEvent
+
         ↓
+
 AnalyticalCell
+
         ↓
+
 AnalyticalBeat
+
         ↓
+
 AnalyticalBar
+
         ↓
+
 AnalyticalScore
+
         ↓
+
 Renderer
 
 
@@ -126,10 +202,12 @@ Renderer
 Future analytical layers may add:
 
 - instrument attribution
-- timing behaviour
-- ensemble interaction analysis
+- contributor behaviour
+- ensemble timing interaction
+- section-based analysis
 
 
 ## Status
 
-Foundation created for M22.6 AnalyticalCell Population.
+Scientific foundation aligned with
+AD-018 Metric Movement Based Event Representation.
