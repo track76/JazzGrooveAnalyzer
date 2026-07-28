@@ -75,6 +75,14 @@ class PulseCandidateBuilder:
                 )
             )
 
+        if context.analysis_start_time > 0.0:
+
+            candidates = [
+                candidate
+                for candidate in candidates
+                if candidate.time >= context.analysis_start_time
+            ]
+
         # Aggiorna il contesto
         context.pulse_candidates = candidates
 

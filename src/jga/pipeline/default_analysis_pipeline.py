@@ -185,6 +185,10 @@ class AnalysisPipeline:
 
         intro = self.intro_detector.detect(context.audio)
 
+        context.analysis_start_time = (
+            intro.analysis_start_time
+        )
+
         context.log.add(
             f"Analysis starts at {intro.analysis_start_time:.3f} s"
         )
