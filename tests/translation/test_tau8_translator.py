@@ -109,3 +109,73 @@ def test_tau8_creates_domain_pulse_candidate():
     assert candidate.timestamp == 1.25
     assert candidate.confidence == 0.9
     assert candidate.sound_source_id == source.id
+
+
+def test_tau8_preserves_multiple_source_provenance():
+
+    translator = Tau8Translator()
+
+    bass = SoundSource(
+        id=uuid4(),
+        name="bass",
+        family="strings",
+        description=None,
+        created_at=datetime.now(),
+    )
+
+    trumpet = SoundSource(
+        id=uuid4(),
+        name="trumpet",
+        family="brass",
+        description=None,
+        created_at=datetime.now(),
+    )
+
+    context = MetricContext(
+        source_pulse_sequences=(
+            SourcePulseSequence(
+                source=MetricSource(
+                    name="bass",
+                    family="strings",
+                ),
+                pulse_candidates=[
+                    CorePulseCandidate(
+                        time=2.0,
+                        strength=0.8,
+                        confidence=0.9,
+                    )
+                ],
+            ),
+            SourcePulseSequence(
+                source=MetricSource(
+                    name="trumpet",
+                    family="brass",
+                ),
+                pulse_candidates=[
+                    CorePulseCandidate(
+                        time=1.0,
+                        strength=0.7,
+                        confidence=0.8,
+                    )
+                ],
+            ),
+        ),
+        periodicity_segments=(),
+        metric_segments=(),
+    )
+
+    result = translator.translate(
+        context,
+        (
+            bass,
+            trumpet,
+        ),
+    )
+
+    assert len(result) == 2
+
+    assert result[0].timestamp == 1.0
+    assert result[1].timestamp == 2.0
+
+    assert result[0].sound_source_id == trumpet.id
+    assert result[1].sound_source_id == bass.id
