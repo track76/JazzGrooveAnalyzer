@@ -179,11 +179,15 @@ Completed
 
 ✓ D-003 BehaviourDensity Descriptor implemented
 
+✓ D-004 TemporalPersistence Descriptor implemented
+
 ✓ M4 → M5 analytical contract validated
 
 ✓ Behaviour Quantification pipeline expanded
 
-✓ 306 / 306 tests passing
+✓ Initial Behaviour Descriptor taxonomy completed
+
+✓ 307 / 307 tests passing
 
 Current objective:
 
@@ -219,6 +223,8 @@ Current focus:
 ✓ MetricStability quantitative descriptor validated
 
 ✓ BehaviourDensity quantitative descriptor validated
+
+✓ TemporalPersistence quantitative descriptor validated
 
 Open issue:
 

@@ -117,7 +117,9 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ✓ D-003 BehaviourDensity Descriptor implemented
 
-✓ 306/306 tests passing
+✓ D-004 TemporalPersistence Descriptor implemented
+
+✓ 307/307 tests passing
 
 ---
 
