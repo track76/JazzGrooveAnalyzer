@@ -797,3 +797,53 @@ Pulse index continuity and shall not introduce alternative
 connectivity models without a new architectural decision.
 
 ------------------------------------------------------------
+
+------------------------------------------------------------
+
+# AD-017
+
+## Behaviour Quantification Input Contract
+
+**Status:** LOCKED
+
+### Context
+
+M5 Behaviour Analysis introduces quantitative Behaviour
+Descriptors derived from validated Behaviour representations.
+
+Some descriptors require analytical results produced by
+previous stages, such as Metric Stability from M4.
+
+Passing these values implicitly would break layer separation.
+
+### Decision
+
+Behaviour Quantification shall operate on an explicit
+BehaviourQuantificationContext.
+
+The context shall contain:
+
+- BehaviourProfile
+- validated metric analysis outputs required by descriptors
+
+M4 produces analytical measurements.
+
+M5 transforms validated measurements into Behaviour
+Descriptors.
+
+### Rationale
+
+This decision:
+
+- preserves M4/M5 separation;
+- avoids recalculation of metric properties;
+- keeps descriptors deterministic;
+- supports future descriptors requiring additional
+  validated inputs.
+
+### Consequences
+
+New Behaviour Descriptors shall declare their required inputs
+through the BehaviourQuantificationContext contract.
+
+------------------------------------------------------------
