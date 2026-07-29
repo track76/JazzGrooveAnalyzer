@@ -241,6 +241,7 @@ class AnalysisPipeline:
             context.behaviour_analytics_result = (
                 self.behaviour_analytics_pipeline.analyze(
                     context.behaviour_profile,
+                    context.stability_curve,
                 )
             )
 

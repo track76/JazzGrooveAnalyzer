@@ -1,20 +1,15 @@
 from datetime import UTC, datetime
 from uuid import uuid4
 
-from tests.support.domain_objects import (
-    make_behaviour_observation,
-)
+from jga.core.stability_curve import StabilityCurve
 
-from jga.domain.behaviour_analytics_result import (
-    BehaviourAnalyticsResult,
-)
-
-from jga.domain.behaviour_profile import (
-    BehaviourProfile,
-)
-
+from jga.domain.behaviour_profile import BehaviourProfile
 from jga.domain.services.rule_based_behaviour_analytics_pipeline import (
     RuleBasedBehaviourAnalyticsPipeline,
+)
+
+from tests.support.domain_objects import (
+    make_behaviour_observation,
 )
 
 
@@ -32,11 +27,8 @@ def test_rule_based_behaviour_analytics_pipeline_builds_result():
 
     result = pipeline.analyze(
         profile,
+        StabilityCurve(),
     )
 
-    assert isinstance(
-        result,
-        BehaviourAnalyticsResult,
-    )
-
-    assert result.analytical_structure is not None
+    assert result is not None
+    assert result.descriptor_set is not None

@@ -32,9 +32,6 @@ from jga.domain.services.behaviour_analytics_pipeline import (
 class RuleBasedBehaviourAnalyticsPipeline(
     BehaviourAnalyticsPipeline,
 ):
-    """
-    Rule based implementation of Behaviour Analytics.
-    """
 
     def __init__(
         self,
@@ -61,11 +58,12 @@ class RuleBasedBehaviourAnalyticsPipeline(
     def analyze(
         self,
         profile: BehaviourProfile,
+        stability_curve: StabilityCurve,
     ) -> BehaviourAnalyticsResult:
 
         context = BehaviourQuantificationContext(
             behaviour_profile=profile,
-            stability_curve=StabilityCurve(),
+            stability_curve=stability_curve,
         )
 
         descriptors = self._quantifier.build(
