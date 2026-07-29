@@ -177,9 +177,13 @@ Completed
 
 ✓ D-002 MetricStability Descriptor implemented
 
+✓ D-003 BehaviourDensity Descriptor implemented
+
 ✓ M4 → M5 analytical contract validated
 
-✓ 305 / 305 tests passing
+✓ Behaviour Quantification pipeline expanded
+
+✓ 306 / 306 tests passing
 
 Current objective:
 
@@ -213,6 +217,8 @@ Current focus:
 ✓ TemporalContinuity quantitative descriptor validated
 
 ✓ MetricStability quantitative descriptor validated
+
+✓ BehaviourDensity quantitative descriptor validated
 
 Open issue:
 

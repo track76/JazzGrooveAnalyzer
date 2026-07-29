@@ -115,7 +115,9 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ✓ D-002 MetricStability Descriptor implemented
 
-✓ 305/305 tests passing
+✓ D-003 BehaviourDensity Descriptor implemented
+
+✓ 306/306 tests passing
 
 ---
 
