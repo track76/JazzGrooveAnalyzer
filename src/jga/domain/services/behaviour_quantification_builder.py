@@ -5,6 +5,10 @@ from jga.domain.behaviour_quantification_context import (
     BehaviourQuantificationContext,
 )
 
+from jga.domain.services.behaviour_density_descriptor_builder import (
+    BehaviourDensityDescriptorBuilder,
+)
+
 from jga.domain.services.metric_stability_descriptor_builder import (
     MetricStabilityDescriptorBuilder,
 )
@@ -30,6 +34,10 @@ class BehaviourQuantificationBuilder:
             MetricStabilityDescriptorBuilder()
         )
 
+        self.behaviour_density_builder = (
+            BehaviourDensityDescriptorBuilder()
+        )
+
     def build(
         self,
         context: BehaviourQuantificationContext,
@@ -43,6 +51,12 @@ class BehaviourQuantificationBuilder:
 
             descriptors.append(
                 self.temporal_continuity_builder.build(
+                    observation,
+                )
+            )
+
+            descriptors.append(
+                self.behaviour_density_builder.build(
                     observation,
                 )
             )
