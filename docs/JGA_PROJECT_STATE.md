@@ -205,12 +205,20 @@ Completed
 
 ✓ End-to-end Behaviour Space flow validated
 
-✓ 316 / 316 tests passing
+✓ M-300 Behaviour Analytics specification completed
+
+✓ M-301 Behaviour Relationship specification completed
+
+✓ M-302 Behaviour Analytics Relationship Layer specified
+
+✓ Behaviour Analytics foundation completed
+
+✓ 318 / 318 tests passing
 
 Current objective:
 
-Complete Behaviour Analytics higher-level models and prepare
-the next analytical layer.
+Complete Behaviour Evolution analysis and prepare
+trajectory-based behavioural modelling.
 
 Current focus:
 
@@ -246,8 +254,8 @@ Current focus:
 
 Open issue:
 
-Expansion of Behaviour Descriptor taxonomy and Behaviour
-Analytics models remain the next development steps.
+Behaviour Evolution and trajectory analysis remain the next
+development steps.
 
 ---
 

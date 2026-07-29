@@ -137,7 +137,15 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ✓ End-to-end Behaviour Space flow validated
 
-✓ 316/316 tests passing
+✓ M-300 Behaviour Analytics specification completed
+
+✓ M-301 Behaviour Relationship specification completed
+
+✓ M-302 Behaviour Analytics Relationship Layer specified
+
+✓ Behaviour Analytics foundation completed
+
+✓ 318/318 tests passing
 
 ---
 
