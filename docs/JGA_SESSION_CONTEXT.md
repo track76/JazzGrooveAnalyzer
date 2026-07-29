@@ -119,7 +119,9 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ✓ D-004 TemporalPersistence Descriptor implemented
 
-✓ 307/307 tests passing
+✓ Descriptor Algebra foundation validated
+
+✓ 308/308 tests passing
 
 ---
 
