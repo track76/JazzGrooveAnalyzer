@@ -109,7 +109,25 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ---
 
+# M4 Closure
+
+M4 Metric Reconstruction is completed.
+
+Final M4 achievements:
+
+✓ τ₈ Translation Layer stabilized
+
+✓ Multi-source provenance preservation validated
+
+✓ Analysis Start Detection integrated
+
+✓ Analysis Start Filtering integrated into metric pipeline
+
+✓ Reconstruction pipeline validated on real audio
+
+✓ 303/303 tests passing
+
+
 # Next Immediate Step
 
-Complete M4 consolidation and begin the preparation of
-Behaviour Analysis (M5).
+Prepare the transition toward Behaviour Analysis (M5).
