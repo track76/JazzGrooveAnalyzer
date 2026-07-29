@@ -96,8 +96,24 @@ M3.1 — AudioStemCollection
 - MetricCluster reconstruction foundation
 - Beat Reference emergence path validation
 - τ₈ Translation Layer implementation
+- Multi-source metric translation with provenance preservation
 - Domain Input construction
+- Analysis Start Detection integration
 - Real audio validation
+- Reconstruction pipeline validation
+
+### Architectural Extensions
+
+M4 established the foundation for future musical structure analysis.
+
+The current Analysis Start Detection layer represents the first step toward a future Musical Structure Timeline capable of identifying:
+
+- Intro sections
+- Head / thematic sections
+- AABA form
+- Solo sections
+- Trading sections
+- Outro / Coda sections
 
 ---
 
@@ -113,6 +129,7 @@ M3.1 — AudioStemCollection
 - Behaviour descriptors
 - Behaviour comparison
 - Temporal behaviour modelling
+- Analysis of metric behaviour evolution inside musical sections
 
 ---
 

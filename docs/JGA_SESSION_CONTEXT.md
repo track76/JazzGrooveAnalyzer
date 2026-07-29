@@ -59,8 +59,8 @@ Analysis
 ## Current Objective
 
 Complete M4 Metric Reconstruction consolidation by validating the
-Translation Layer contracts and preparing the transition toward
-Behaviour Analysis (M5).
+Translation Layer contracts, multi-source provenance, Analysis Start
+Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ---
 
@@ -99,7 +99,13 @@ Behaviour Analysis (M5).
 
 ✓ Real audio validation completed
 
-✓ 145/145 tests passing
+✓ Analysis Start Detection integrated
+
+✓ Analysis Start Filtering integrated into metric pipeline
+
+✓ Multi-source τ₈ provenance preservation validated
+
+✓ 303/303 tests passing
 
 ---
 
