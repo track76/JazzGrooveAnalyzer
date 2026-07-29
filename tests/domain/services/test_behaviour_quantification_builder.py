@@ -35,7 +35,7 @@ def test_quantification_builder_returns_descriptors():
         BehaviourQuantificationBuilder().build(context)
     )
 
-    assert len(descriptors) == 3
+    assert len(descriptors) == 4
 
     assert isinstance(
         descriptors[0],
@@ -46,4 +46,6 @@ def test_quantification_builder_returns_descriptors():
 
     assert descriptors[1].name == "BehaviourDensity"
 
-    assert descriptors[2].name == "MetricStability"
+    assert descriptors[2].name == "TemporalPersistence"
+
+    assert descriptors[3].name == "MetricStability"

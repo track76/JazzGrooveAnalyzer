@@ -1,6 +1,9 @@
 from __future__ import annotations
 
-from jga.domain.behaviour_descriptor import BehaviourDescriptor
+from jga.domain.behaviour_descriptor import (
+    BehaviourDescriptor,
+)
+
 from jga.domain.behaviour_quantification_context import (
     BehaviourQuantificationContext,
 )
@@ -17,6 +20,10 @@ from jga.domain.services.temporal_continuity_descriptor_builder import (
     TemporalContinuityDescriptorBuilder,
 )
 
+from jga.domain.services.temporal_persistence_descriptor_builder import (
+    TemporalPersistenceDescriptorBuilder,
+)
+
 
 class BehaviourQuantificationBuilder:
     """
@@ -30,12 +37,16 @@ class BehaviourQuantificationBuilder:
             TemporalContinuityDescriptorBuilder()
         )
 
-        self.metric_stability_builder = (
-            MetricStabilityDescriptorBuilder()
-        )
-
         self.behaviour_density_builder = (
             BehaviourDensityDescriptorBuilder()
+        )
+
+        self.temporal_persistence_builder = (
+            TemporalPersistenceDescriptorBuilder()
+        )
+
+        self.metric_stability_builder = (
+            MetricStabilityDescriptorBuilder()
         )
 
     def build(
@@ -51,19 +62,25 @@ class BehaviourQuantificationBuilder:
 
             descriptors.append(
                 self.temporal_continuity_builder.build(
-                    observation,
+                    observation
                 )
             )
 
             descriptors.append(
                 self.behaviour_density_builder.build(
-                    observation,
+                    observation
+                )
+            )
+
+            descriptors.append(
+                self.temporal_persistence_builder.build(
+                    observation
                 )
             )
 
         descriptors.append(
             self.metric_stability_builder.build(
-                context,
+                context
             )
         )
 
