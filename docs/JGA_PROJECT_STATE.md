@@ -169,12 +169,22 @@ Completed
 
 ✓ Reconstruction pipeline validation completed
 
-✓ 303 / 303 tests passing
+✓ M4 Metric Reconstruction closed
+
+✓ Behaviour Quantification Context implemented
+
+✓ D-001 TemporalContinuity Descriptor implemented
+
+✓ D-002 MetricStability Descriptor implemented
+
+✓ M4 → M5 analytical contract validated
+
+✓ 305 / 305 tests passing
 
 Current objective:
 
-Complete M4 Metric Reconstruction consolidation and prepare the
-transition toward Behaviour Analysis (M5).
+Complete Behaviour Analysis (M5) foundation and expand the
+Behaviour Descriptor system.
 
 Current focus:
 
@@ -194,10 +204,20 @@ Current focus:
 
 ✓ M4 output contracts validated
 
+✓ AD-017 Behaviour Quantification Input Contract implemented
+
+✓ BehaviourQuantificationContext introduced
+
+✓ Behaviour Quantification pipeline integrated
+
+✓ TemporalContinuity quantitative descriptor validated
+
+✓ MetricStability quantitative descriptor validated
+
 Open issue:
 
-Final consolidation of Metric Reconstruction and preparation
-of Behaviour Analysis models remain the next development steps.
+Expansion of Behaviour Descriptor taxonomy and Behaviour
+Analytics models remain the next development steps.
 
 ---
 

@@ -107,6 +107,16 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ✓ 303/303 tests passing
 
+✓ M4 Metric Reconstruction closed
+
+✓ BehaviourQuantificationContext introduced
+
+✓ D-001 TemporalContinuity Descriptor implemented
+
+✓ D-002 MetricStability Descriptor implemented
+
+✓ 305/305 tests passing
+
 ---
 
 # M4 Closure
@@ -128,6 +138,27 @@ Final M4 achievements:
 ✓ 303/303 tests passing
 
 
+# M5 Behaviour Analysis
+
+Initial M5 foundation completed.
+
+Achievements:
+
+✓ Behaviour Quantification Input Contract implemented
+
+✓ BehaviourQuantificationContext created
+
+✓ Behaviour Quantification pipeline integrated
+
+✓ TemporalContinuity descriptor validated
+
+✓ MetricStability descriptor validated
+
+✓ M4 analytical outputs connected to M5
+
+---
+
 # Next Immediate Step
 
-Prepare the transition toward Behaviour Analysis (M5).
+Continue Behaviour Analysis development by extending the
+Behaviour Descriptor system and analytical models.
