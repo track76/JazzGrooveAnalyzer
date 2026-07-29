@@ -131,7 +131,13 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ✓ M5 → M6 descriptor geometry bridge validated
 
-✓ 312/312 tests passing
+✓ Behaviour Space Comparison foundation implemented
+
+✓ Behaviour Distance foundation implemented
+
+✓ End-to-end Behaviour Space flow validated
+
+✓ 316/316 tests passing
 
 ---
 

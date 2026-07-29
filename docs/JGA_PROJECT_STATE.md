@@ -199,12 +199,18 @@ Completed
 
 ✓ M5 → M6 descriptor geometry bridge validated
 
-✓ 312 / 312 tests passing
+✓ Behaviour Space Comparison foundation implemented
+
+✓ Behaviour Distance foundation implemented
+
+✓ End-to-end Behaviour Space flow validated
+
+✓ 316 / 316 tests passing
 
 Current objective:
 
-Complete Behaviour Space (M6) foundation and expand the
-Behaviour Analytics geometry layer.
+Complete Behaviour Analytics higher-level models and prepare
+the next analytical layer.
 
 Current focus:
 
