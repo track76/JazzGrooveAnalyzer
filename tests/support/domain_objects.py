@@ -4,6 +4,7 @@ from datetime import datetime
 from uuid import uuid4
 
 from jga.domain.beat_reference import BeatReference
+from jga.domain.behaviour_descriptor import BehaviourDescriptor
 from jga.domain.behaviour_observation import BehaviourObservation
 from jga.domain.elementary_metric_event import ElementaryMetricEvent
 from jga.domain.internal_metric_timeline import InternalMetricTimeline
@@ -71,4 +72,23 @@ def make_behaviour_observation() -> BehaviourObservation:
         first_pulse=timeline.first_pulse,
         last_pulse=timeline.last_pulse,
         created_at=_NOW,
+    )
+
+def make_behaviour_descriptor() -> BehaviourDescriptor:
+    return BehaviourDescriptor(
+        id=uuid4(),
+        created_at=_NOW,
+        name="TestDescriptor",
+        value=1.0,
+        provenance="test",
+    )
+
+
+def make_behaviour_descriptor() -> BehaviourDescriptor:
+    return BehaviourDescriptor(
+        id=uuid4(),
+        created_at=_NOW,
+        name="TestDescriptor",
+        value=1.0,
+        provenance="test",
     )

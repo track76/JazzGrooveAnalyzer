@@ -1,31 +1,61 @@
-from datetime import UTC, datetime
-from uuid import uuid4
+from jga.domain.analytical_structure import (
+    AnalyticalStructure,
+)
 
-from jga.domain.analytical_structure import AnalyticalStructure
-from jga.domain.behaviour_descriptor import BehaviourDescriptor
-from jga.domain.descriptor_set import DescriptorSet
+from jga.domain.descriptor_set import (
+    DescriptorSet,
+)
+
 from jga.domain.services.default_descriptor_algebra import (
     DefaultDescriptorAlgebra,
 )
 
+from tests.support.domain_objects import (
+    make_behaviour_descriptor,
+)
 
-def test_descriptor_algebra_returns_analytical_structure():
 
-    descriptor = BehaviourDescriptor(
-        id=uuid4(),
-        created_at=datetime.now(UTC),
-        name="temporal_continuity",
-        value=0.95,
-        provenance="unit-test",
-    )
+def test_descriptor_algebra_preserves_descriptor_set():
+
+    descriptor = make_behaviour_descriptor()
 
     descriptor_set = DescriptorSet(
         descriptors=(descriptor,),
     )
 
-    algebra = DefaultDescriptorAlgebra()
+    result = (
+        DefaultDescriptorAlgebra()
+        .analyze(descriptor_set)
+    )
 
-    result = algebra.analyze(descriptor_set)
+    assert isinstance(
+        result,
+        AnalyticalStructure,
+    )
 
-    assert isinstance(result, AnalyticalStructure)
-    assert result.source_descriptor_set is descriptor_set
+    assert (
+        result.source_descriptor_set
+        ==
+        descriptor_set
+    )
+
+
+def test_descriptor_algebra_does_not_modify_input():
+
+    descriptor = make_behaviour_descriptor()
+
+    descriptor_set = DescriptorSet(
+        descriptors=(descriptor,),
+    )
+
+    original = descriptor_set.descriptors
+
+    DefaultDescriptorAlgebra().analyze(
+        descriptor_set
+    )
+
+    assert (
+        descriptor_set.descriptors
+        ==
+        original
+    )
