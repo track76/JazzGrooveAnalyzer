@@ -121,7 +121,11 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ✓ Descriptor Algebra foundation validated
 
-✓ 308/308 tests passing
+✓ Descriptor Relation foundation validated
+
+✓ Descriptor Algebra relation layer implemented
+
+✓ 310/310 tests passing
 
 ---
 
