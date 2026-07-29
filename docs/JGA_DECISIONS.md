@@ -744,3 +744,56 @@ The Analytical Score shall support:
 - Scientific PDF Export
 - Interactive Visualization
 
+
+------------------------------------------------------------
+
+# AD-016
+
+## Temporal Continuity Connectivity Rule
+
+**Status:** LOCKED
+
+### Context
+
+M5 Behaviour Analysis introduces quantitative Behaviour
+Descriptors derived from validated BehaviourObservation objects.
+
+The TemporalContinuity Descriptor (D-001) requires a
+deterministic definition of temporal connectivity.
+
+### Decision
+
+Temporal connectivity is determined from the ordered Pulse
+indices contained in the Internal Metric Timeline.
+
+A Pulse is considered connected when its index is consecutive
+with respect to the previous Pulse.
+
+For the TemporalContinuity Descriptor:
+
+```
+N = total number of Pulses in the BehaviourObservation
+
+C = number of Pulses belonging to the longest consecutive
+    Pulse index sequence
+
+TemporalContinuity = C / N
+```
+
+### Rationale
+
+This definition:
+
+- uses only validated Domain information;
+- introduces no additional observable variables;
+- preserves determinism and reproducibility;
+- respects the mathematical specification M-001;
+- avoids musical interpretation.
+
+### Consequences
+
+The implementation of D-001 shall compute the descriptor from
+Pulse index continuity and shall not introduce alternative
+connectivity models without a new architectural decision.
+
+------------------------------------------------------------
