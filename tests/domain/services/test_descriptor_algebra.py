@@ -59,3 +59,23 @@ def test_descriptor_algebra_does_not_modify_input():
         ==
         original
     )
+
+
+def test_descriptor_algebra_creates_descriptor_relations():
+
+    descriptor = make_behaviour_descriptor()
+
+    descriptor_set = DescriptorSet(
+        descriptors=(descriptor,),
+    )
+
+    result = (
+        DefaultDescriptorAlgebra()
+        .analyze(descriptor_set)
+    )
+
+    assert (
+        result.source_descriptor_set
+        ==
+        descriptor_set
+    )
