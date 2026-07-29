@@ -5,6 +5,10 @@ from jga.domain.behaviour_quantification_context import (
     BehaviourQuantificationContext,
 )
 
+from jga.domain.services.metric_stability_descriptor_builder import (
+    MetricStabilityDescriptorBuilder,
+)
+
 from jga.domain.services.temporal_continuity_descriptor_builder import (
     TemporalContinuityDescriptorBuilder,
 )
@@ -14,17 +18,16 @@ class BehaviourQuantificationBuilder:
     """
     Produces BehaviourDescriptors from a
     BehaviourQuantificationContext.
-
-    Behaviour Quantification never modifies validated inputs.
-
-    It derives deterministic BehaviourDescriptor objects from
-    Behaviour representations and validated analytical inputs.
     """
 
     def __init__(self) -> None:
 
         self.temporal_continuity_builder = (
             TemporalContinuityDescriptorBuilder()
+        )
+
+        self.metric_stability_builder = (
+            MetricStabilityDescriptorBuilder()
         )
 
     def build(
@@ -43,5 +46,11 @@ class BehaviourQuantificationBuilder:
                     observation,
                 )
             )
+
+        descriptors.append(
+            self.metric_stability_builder.build(
+                context,
+            )
+        )
 
         return tuple(descriptors)
