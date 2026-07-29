@@ -153,6 +153,12 @@ Completed
 
 ✓ M4 Translation Layer implemented
 
+✓ Multi-source τ₈ Translation with provenance preservation completed
+
+✓ Analysis Start Detection integrated
+
+✓ Analysis Start Filtering integrated
+
 ✓ τ₈ Domain Translation completed
 
 ✓ ElementaryMetricEvent generation validated
@@ -161,7 +167,9 @@ Completed
 
 ✓ Real audio validation completed
 
-✓ 105 / 105 tests passing
+✓ Reconstruction pipeline validation completed
+
+✓ 303 / 303 tests passing
 
 Current objective:
 
@@ -171,6 +179,10 @@ transition toward Behaviour Analysis (M5).
 Current focus:
 
 ✓ τ₈ Translation Layer validated
+
+✓ Multi-source provenance validation completed
+
+✓ Analysis Start Detection validated
 
 ✓ Domain Input construction completed
 
