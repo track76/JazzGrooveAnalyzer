@@ -193,12 +193,18 @@ Completed
 
 ✓ Descriptor Algebra relation layer implemented
 
-✓ 310 / 310 tests passing
+✓ M-200 Behaviour Space Projection completed
+
+✓ Descriptor Behaviour Space Builder implemented
+
+✓ M5 → M6 descriptor geometry bridge validated
+
+✓ 312 / 312 tests passing
 
 Current objective:
 
-Complete Behaviour Analysis (M5) foundation and expand the
-Behaviour Descriptor system.
+Complete Behaviour Space (M6) foundation and expand the
+Behaviour Analytics geometry layer.
 
 Current focus:
 

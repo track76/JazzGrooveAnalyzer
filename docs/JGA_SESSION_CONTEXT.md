@@ -125,7 +125,13 @@ Detection and preparing the transition toward Behaviour Analysis (M5).
 
 ✓ Descriptor Algebra relation layer implemented
 
-✓ 310/310 tests passing
+✓ M-200 Behaviour Space Projection completed
+
+✓ Descriptor Behaviour Space Builder implemented
+
+✓ M5 → M6 descriptor geometry bridge validated
+
+✓ 312/312 tests passing
 
 ---
 
