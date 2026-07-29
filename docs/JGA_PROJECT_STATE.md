@@ -213,7 +213,7 @@ Completed
 
 ✓ Behaviour Analytics foundation completed
 
-✓ 318 / 318 tests passing
+✓ 105 / 105 tests passing
 
 Current objective:
 
