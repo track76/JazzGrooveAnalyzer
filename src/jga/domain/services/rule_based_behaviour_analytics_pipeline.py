@@ -1,9 +1,16 @@
 from __future__ import annotations
 
+from jga.core.stability_curve import StabilityCurve
+
 from jga.domain.behaviour_analytics_result import (
     BehaviourAnalyticsResult,
 )
+
 from jga.domain.behaviour_profile import BehaviourProfile
+
+from jga.domain.behaviour_quantification_context import (
+    BehaviourQuantificationContext,
+)
 
 from jga.domain.services.behaviour_analytics_builder import (
     BehaviourAnalyticsBuilder,
@@ -27,21 +34,6 @@ class RuleBasedBehaviourAnalyticsPipeline(
 ):
     """
     Rule based implementation of Behaviour Analytics.
-
-    Orchestrates:
-
-        BehaviourProfile
-              |
-              v
-        Behaviour Quantification
-              |
-              v
-        DescriptorSet
-              |
-              v
-        Behaviour Analytics
-
-    No analytical algorithm is implemented here.
     """
 
     def __init__(
@@ -71,8 +63,13 @@ class RuleBasedBehaviourAnalyticsPipeline(
         profile: BehaviourProfile,
     ) -> BehaviourAnalyticsResult:
 
+        context = BehaviourQuantificationContext(
+            behaviour_profile=profile,
+            stability_curve=StabilityCurve(),
+        )
+
         descriptors = self._quantifier.build(
-            profile,
+            context,
         )
 
         descriptor_set = (

@@ -1,26 +1,47 @@
+from datetime import datetime
+from uuid import uuid4
+
+from jga.core.stability_curve import StabilityCurve
+
 from jga.domain.behaviour_descriptor import BehaviourDescriptor
+from jga.domain.behaviour_observation import BehaviourObservation
+from jga.domain.behaviour_quantification_context import (
+    BehaviourQuantificationContext,
+)
+from jga.domain.internal_metric_timeline import (
+    InternalMetricTimeline,
+)
+from jga.domain.pulse import Pulse
+
 from jga.domain.services.behaviour_quantification_builder import (
     BehaviourQuantificationBuilder,
 )
 
-from tests.support.domain_objects import (
-    make_behaviour_observation,
-)
 from jga.domain.services.behaviour_profile_builder import (
     BehaviourProfileBuilder,
+)
+
+from tests.support.domain_objects import (
+    make_behaviour_observation,
+    make_metric_cluster,
 )
 
 
 def test_quantification_builder_returns_descriptors():
 
-    observation = make_behaviour_observation()
-
     profile = BehaviourProfileBuilder().build(
-        (observation,),
+        (
+            make_behaviour_observation(),
+        )
+    )
+
+    context = BehaviourQuantificationContext(
+        behaviour_profile=profile,
+        stability_curve=StabilityCurve(),
     )
 
     descriptors = (
-        BehaviourQuantificationBuilder().build(profile)
+        BehaviourQuantificationBuilder().build(context)
     )
 
     assert len(descriptors) == 1
@@ -35,23 +56,7 @@ def test_quantification_builder_returns_descriptors():
     assert descriptors[0].value == 1.0
 
 
-
 def test_temporal_continuity_detects_fragmented_sequence():
-
-    from datetime import datetime
-    from uuid import uuid4
-
-    from jga.domain.behaviour_observation import (
-        BehaviourObservation,
-    )
-    from jga.domain.internal_metric_timeline import (
-        InternalMetricTimeline,
-    )
-    from jga.domain.pulse import Pulse
-
-    from tests.support.domain_objects import (
-        make_metric_cluster,
-    )
 
     pulses = (
         Pulse(
@@ -100,8 +105,13 @@ def test_temporal_continuity_detects_fragmented_sequence():
         (observation,),
     )
 
+    context = BehaviourQuantificationContext(
+        behaviour_profile=profile,
+        stability_curve=StabilityCurve(),
+    )
+
     descriptors = (
-        BehaviourQuantificationBuilder().build(profile)
+        BehaviourQuantificationBuilder().build(context)
     )
 
     assert descriptors[0].name == "TemporalContinuity"

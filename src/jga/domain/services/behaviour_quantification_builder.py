@@ -1,5 +1,10 @@
+from __future__ import annotations
+
 from jga.domain.behaviour_descriptor import BehaviourDescriptor
-from jga.domain.behaviour_profile import BehaviourProfile
+from jga.domain.behaviour_quantification_context import (
+    BehaviourQuantificationContext,
+)
+
 from jga.domain.services.temporal_continuity_descriptor_builder import (
     TemporalContinuityDescriptorBuilder,
 )
@@ -7,13 +12,13 @@ from jga.domain.services.temporal_continuity_descriptor_builder import (
 
 class BehaviourQuantificationBuilder:
     """
-    Produces the Behaviour Descriptors associated with one
-    BehaviourProfile.
+    Produces BehaviourDescriptors from a
+    BehaviourQuantificationContext.
 
-    Behaviour Quantification never modifies the BehaviourProfile.
+    Behaviour Quantification never modifies validated inputs.
 
-    It derives deterministic BehaviourDescriptor objects from the
-    validated Behaviour representation.
+    It derives deterministic BehaviourDescriptor objects from
+    Behaviour representations and validated analytical inputs.
     """
 
     def __init__(self) -> None:
@@ -24,12 +29,14 @@ class BehaviourQuantificationBuilder:
 
     def build(
         self,
-        profile: BehaviourProfile,
+        context: BehaviourQuantificationContext,
     ) -> tuple[BehaviourDescriptor, ...]:
 
         descriptors: list[BehaviourDescriptor] = []
 
-        for observation in profile.observations:
+        for observation in (
+            context.behaviour_profile.observations
+        ):
 
             descriptors.append(
                 self.temporal_continuity_builder.build(
@@ -38,4 +45,3 @@ class BehaviourQuantificationBuilder:
             )
 
         return tuple(descriptors)
-
