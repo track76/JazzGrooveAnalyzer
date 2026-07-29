@@ -34,3 +34,76 @@ def test_quantification_builder_returns_descriptors():
 
     assert descriptors[0].value == 1.0
 
+
+
+def test_temporal_continuity_detects_fragmented_sequence():
+
+    from datetime import datetime
+    from uuid import uuid4
+
+    from jga.domain.behaviour_observation import (
+        BehaviourObservation,
+    )
+    from jga.domain.internal_metric_timeline import (
+        InternalMetricTimeline,
+    )
+    from jga.domain.pulse import Pulse
+
+    from tests.support.domain_objects import (
+        make_metric_cluster,
+    )
+
+    pulses = (
+        Pulse(
+            id=uuid4(),
+            index=0,
+            cluster=make_metric_cluster(),
+            timestamp=0.0,
+            created_at=datetime.now(),
+        ),
+        Pulse(
+            id=uuid4(),
+            index=1,
+            cluster=make_metric_cluster(),
+            timestamp=1.0,
+            created_at=datetime.now(),
+        ),
+        Pulse(
+            id=uuid4(),
+            index=5,
+            cluster=make_metric_cluster(),
+            timestamp=2.0,
+            created_at=datetime.now(),
+        ),
+        Pulse(
+            id=uuid4(),
+            index=6,
+            cluster=make_metric_cluster(),
+            timestamp=3.0,
+            created_at=datetime.now(),
+        ),
+    )
+
+    observation = BehaviourObservation(
+        id=uuid4(),
+        timeline=InternalMetricTimeline(
+            id=uuid4(),
+            pulses=pulses,
+            created_at=datetime.now(),
+        ),
+        first_pulse=pulses[0],
+        last_pulse=pulses[-1],
+        created_at=datetime.now(),
+    )
+
+    profile = BehaviourProfileBuilder().build(
+        (observation,),
+    )
+
+    descriptors = (
+        BehaviourQuantificationBuilder().build(profile)
+    )
+
+    assert descriptors[0].name == "TemporalContinuity"
+
+    assert descriptors[0].value == 0.5
