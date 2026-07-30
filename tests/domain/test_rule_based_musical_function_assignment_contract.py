@@ -24,9 +24,10 @@ def test_rule_based_service_returns_assignments():
 
     result = service.assign((source,))
 
-    assert len(result) == 1
+    assert len(result.assignments) == 1
+    assert len(result.musical_functions) == 1
 
-    assignment = result[0]
+    assignment = result.assignments[0]
 
     assert isinstance(
         assignment,

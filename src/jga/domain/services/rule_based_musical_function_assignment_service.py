@@ -1,6 +1,10 @@
 from datetime import datetime
 from uuid import uuid4
 
+from jga.domain.musical_function import MusicalFunction
+from jga.domain.musical_function_assignment_result import (
+    MusicalFunctionAssignmentResult,
+)
 from jga.domain.services.musical_function_assignment_service import (
     MusicalFunctionAssignmentService,
 )
@@ -17,9 +21,13 @@ class RuleBasedMusicalFunctionAssignmentService(
     def assign(
         self,
         sources: tuple[SoundSource, ...],
-    ) -> tuple[SourceMusicalFunctionAssignment, ...]:
+    ) -> MusicalFunctionAssignmentResult:
 
-        assignments: list[SourceMusicalFunctionAssignment] = []
+        functions: list[MusicalFunction] = []
+
+        assignments: list[
+            SourceMusicalFunctionAssignment
+        ] = []
 
         for source in sources:
 
@@ -49,11 +57,21 @@ class RuleBasedMusicalFunctionAssignmentService(
                 function_name = "Unknown"
                 metric = False
 
+            function = MusicalFunction(
+                id=uuid4(),
+                name=function_name,
+                description=None,
+                is_metric=metric,
+                created_at=datetime.now(),
+            )
+
+            functions.append(function)
+
             assignments.append(
                 SourceMusicalFunctionAssignment(
                     id=uuid4(),
                     sound_source_id=source.id,
-                    musical_function_id=uuid4(),
+                    musical_function_id=function.id,
                     confidence=0.8,
                     rationale=(
                         f"Assigned {function_name} "
@@ -63,4 +81,7 @@ class RuleBasedMusicalFunctionAssignmentService(
                 )
             )
 
-        return tuple(assignments)
+        return MusicalFunctionAssignmentResult(
+            musical_functions=tuple(functions),
+            assignments=tuple(assignments),
+        )

@@ -6,6 +6,9 @@ from jga.domain.services.rule_based_metric_contributor_assignment_service import
     RuleBasedMetricContributorAssignmentService,
 )
 from jga.domain.sound_source import SoundSource
+from jga.domain.source_musical_function_assignment import (
+    SourceMusicalFunctionAssignment,
+)
 
 
 def test_assign_metric_contributor():
@@ -28,8 +31,18 @@ def test_assign_metric_contributor():
         created_at=datetime.now(),
     )
 
+    assignment = SourceMusicalFunctionAssignment(
+        id=uuid4(),
+        sound_source_id=source.id,
+        musical_function_id=function.id,
+        confidence=0.9,
+        rationale="bass provides metric foundation",
+        created_at=datetime.now(),
+    )
+
     contributors = service.assign(
         (source,),
+        (assignment,),
         (function,),
     )
 

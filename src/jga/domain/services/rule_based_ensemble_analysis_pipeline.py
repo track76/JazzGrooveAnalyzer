@@ -36,19 +36,39 @@ class RuleBasedEnsembleAnalysisPipeline(
         stems: tuple[AudioStem, ...],
     ) -> EnsembleAnalysisResult:
 
-        sound_sources = self._source_identifier.identify(stems)
-
-        musical_functions = self._function_assigner.assign(
-            sound_sources,
+        sound_sources = (
+            self._source_identifier.identify(
+                stems,
+            )
         )
 
-        metric_contributors = self._contributor_assigner.assign(
-            sound_sources,
-            musical_functions,
+        assignment_result = (
+            self._function_assigner.assign(
+                sound_sources,
+            )
+        )
+
+        musical_functions = (
+            assignment_result.musical_functions
+        )
+
+        source_function_assignments = (
+            assignment_result.assignments
+        )
+
+        metric_contributors = (
+            self._contributor_assigner.assign(
+                sound_sources,
+                source_function_assignments,
+                musical_functions,
+            )
         )
 
         return EnsembleAnalysisResult(
             sound_sources=sound_sources,
             musical_functions=musical_functions,
+            source_function_assignments=(
+                source_function_assignments
+            ),
             metric_contributors=metric_contributors,
         )

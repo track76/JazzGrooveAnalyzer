@@ -41,8 +41,10 @@ class EnsembleUnderstandingService:
             for source in observed
         )
 
-        assignments = self._assignment_service.assign(
-            sound_sources
+        assignment_result = (
+            self._assignment_service.assign(
+                sound_sources
+            )
         )
 
         return EnsembleProfile(
@@ -50,8 +52,12 @@ class EnsembleUnderstandingService:
             estimated_bpm=120.0,
             pulse_start=0.0,
             sound_sources=sound_sources,
-            musical_functions=(),
-            source_function_assignments=assignments,
+            musical_functions=(
+                assignment_result.musical_functions
+            ),
+            source_function_assignments=(
+                assignment_result.assignments
+            ),
             metric_contributors=(),
             confidence=1.0,
         )
