@@ -1187,3 +1187,49 @@ This decision:
 - aligns A0 analysis output with EnsembleProfile.
 
 ------------------------------------------------------------
+
+# AD-025
+
+## Metric Contributor Assignment Input Contract
+
+**Status:** LOCKED
+
+### Context
+
+M25 introduces explicit source/function relationships through
+SourceMusicalFunctionAssignment.
+
+Metric contributor assignment previously consumed isolated
+MusicalFunction objects.
+
+This loses the explicit relationship between source and
+musical role.
+
+### Decision
+
+MetricContributorAssignmentService shall consume
+SourceMusicalFunctionAssignment objects.
+
+Metric contribution inference shall use the assigned
+musical function contained in the relationship.
+
+### Rationale
+
+This decision:
+
+- preserves source/function traceability;
+- avoids detached musical functions;
+- aligns metric analysis with AD-021;
+- keeps contributor assignment deterministic.
+
+### Consequences
+
+The A0 analysis flow becomes:
+
+SoundSource
+        ↓
+SourceMusicalFunctionAssignment
+        ↓
+MetricContributor
+
+------------------------------------------------------------
