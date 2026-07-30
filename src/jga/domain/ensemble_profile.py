@@ -4,6 +4,9 @@ from typing import Sequence
 from jga.domain.metric_contributor import MetricContributor
 from jga.domain.musical_function import MusicalFunction
 from jga.domain.sound_source import SoundSource
+from jga.domain.source_musical_function_assignment import (
+    SourceMusicalFunctionAssignment,
+)
 
 
 @dataclass(frozen=True, slots=True)
@@ -28,3 +31,7 @@ class EnsembleProfile:
     metric_contributors: Sequence[MetricContributor]
 
     confidence: float
+
+    source_function_assignments: Sequence[
+        SourceMusicalFunctionAssignment
+    ] = ()

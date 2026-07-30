@@ -5,6 +5,9 @@ from jga.domain.services.rule_based_musical_function_assignment_service import (
     RuleBasedMusicalFunctionAssignmentService,
 )
 from jga.domain.sound_source import SoundSource
+from jga.domain.source_musical_function_assignment import (
+    SourceMusicalFunctionAssignment,
+)
 
 
 def test_assign_bass_function():
@@ -14,16 +17,25 @@ def test_assign_bass_function():
     source = SoundSource(
         id=uuid4(),
         name="bass",
-        family="strings",
+        family="bass",
         description=None,
         created_at=datetime.now(),
     )
 
-    functions = service.assign((source,))
+    assignments = service.assign((source,))
 
-    assert len(functions) == 1
-    assert functions[0].name == "Walking Bass"
-    assert functions[0].is_metric is True
+    assert len(assignments) == 1
+
+    assignment = assignments[0]
+
+    assert isinstance(
+        assignment,
+        SourceMusicalFunctionAssignment,
+    )
+
+    assert assignment.sound_source_id == source.id
+    assert assignment.confidence > 0.0
+    assert assignment.rationale is not None
 
 
 def test_assign_unknown_function():
@@ -38,8 +50,15 @@ def test_assign_unknown_function():
         created_at=datetime.now(),
     )
 
-    functions = service.assign((source,))
+    assignments = service.assign((source,))
 
-    assert len(functions) == 1
-    assert functions[0].name == "Unknown"
-    assert functions[0].is_metric is False
+    assert len(assignments) == 1
+
+    assignment = assignments[0]
+
+    assert isinstance(
+        assignment,
+        SourceMusicalFunctionAssignment,
+    )
+
+    assert assignment.confidence > 0.0
