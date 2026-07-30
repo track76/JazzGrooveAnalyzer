@@ -954,3 +954,50 @@ jga.domain.ensemble_profile.EnsembleProfile
 as the authoritative model.
 
 ------------------------------------------------------------
+
+# AD-020
+
+## Source Musical Function Assignment Model
+
+**Status:** LOCKED
+
+### Context
+
+M25 Ensemble Understanding requires assigning musical
+functions to observed sound sources.
+
+A MusicalFunction alone does not describe which source
+performs that function.
+
+The relationship between a SoundSource and a MusicalFunction
+must therefore be explicitly represented.
+
+### Decision
+
+The assignment between SoundSource and MusicalFunction shall
+be represented as an explicit domain relationship.
+
+MusicalFunction shall not be stored as an unassociated list.
+
+The model shall preserve:
+
+- source identity;
+- assigned musical function;
+- assignment confidence;
+- assignment rationale.
+
+### Rationale
+
+This decision:
+
+- preserves contextual meaning;
+- avoids losing source/function relationships;
+- supports explainable ensemble interpretation;
+- maintains domain consistency.
+
+### Consequences
+
+M25 implementation shall introduce an explicit assignment
+model before building EnsembleProfile generation.
+
+------------------------------------------------------------
