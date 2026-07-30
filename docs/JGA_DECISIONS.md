@@ -1049,3 +1049,53 @@ RuleBasedMusicalFunctionAssignmentService shall return
 explicit source/function assignments.
 
 ------------------------------------------------------------
+
+# AD-022
+
+## EnsembleProfile Source Function Assignment Integration
+
+**Status:** LOCKED
+
+### Context
+
+M25 introduces explicit relationships between sound sources
+and their assigned musical functions through
+SourceMusicalFunctionAssignment.
+
+The existing EnsembleProfile already contains musical
+functions but does not preserve the explicit relationship
+between each source and its function.
+
+### Decision
+
+EnsembleProfile shall include explicit source/function
+assignment information through
+SourceMusicalFunctionAssignment.
+
+Existing musical_functions information shall be preserved.
+
+The new assignment relationship becomes the authoritative
+representation of source-role association.
+
+### Rationale
+
+This decision:
+
+- preserves backward compatibility;
+- respects AD-020;
+- avoids losing source/function relationships;
+- keeps EnsembleProfile as the ensemble context container.
+
+### Consequences
+
+EnsembleProfile shall contain:
+
+- sound sources;
+- musical functions;
+- source musical function assignments;
+- metric contributors.
+
+Future ensemble analysis shall use the explicit assignment
+relationship when source-role information is required.
+
+------------------------------------------------------------
