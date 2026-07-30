@@ -847,3 +847,56 @@ New Behaviour Descriptors shall declare their required inputs
 through the BehaviourQuantificationContext contract.
 
 ------------------------------------------------------------
+
+# AD-018
+
+## Musical Function Separation
+
+**Status:** LOCKED
+
+### Context
+
+M25 Ensemble Understanding introduces the interpretation
+of musical roles performed by observed sources inside an
+ensemble.
+
+Previous layers determine the identity of observed sources
+through InstrumentClassification.
+
+Instrument identity and musical function represent different
+concepts and must not be merged.
+
+### Decision
+
+InstrumentClassification and MusicalFunction assignment
+shall remain separate architectural layers.
+
+InstrumentClassification describes the observed sound source.
+
+MusicalFunction describes the role performed by that source
+inside the ensemble context.
+
+Musical function assignment shall be implemented by a
+dedicated service operating after Source Understanding.
+
+### Rationale
+
+This decision:
+
+- preserves separation between observation and interpretation;
+- avoids coupling instrument identity with musical role;
+- allows the same instrument to perform different functions;
+- maintains deterministic and explainable analysis;
+- preserves the scientific layered architecture.
+
+### Consequences
+
+InstrumentClassification shall not contain musical role data.
+
+New ensemble interpretation components shall operate on
+validated ObservedSource information.
+
+MusicalFunction assignment shall produce higher-level
+ensemble representations without modifying lower layers.
+
+------------------------------------------------------------
