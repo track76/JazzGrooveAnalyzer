@@ -2,18 +2,20 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 
-from jga.domain.musical_function import MusicalFunction
 from jga.domain.sound_source import SoundSource
+from jga.domain.source_musical_function_assignment import (
+    SourceMusicalFunctionAssignment,
+)
 
 
 class MusicalFunctionAssignmentService(ABC):
     """
-    Assigns a musical function to each detected sound source.
+    Assigns musical functions to detected sound sources.
     """
 
     @abstractmethod
     def assign(
         self,
         sources: tuple[SoundSource, ...],
-    ) -> tuple[MusicalFunction, ...]:
+    ) -> tuple[SourceMusicalFunctionAssignment, ...]:
         ...

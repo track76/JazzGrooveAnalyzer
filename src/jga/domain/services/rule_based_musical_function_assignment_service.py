@@ -1,9 +1,11 @@
 from datetime import datetime
 from uuid import uuid4
 
-from jga.domain.musical_function import MusicalFunction
 from jga.domain.services.musical_function_assignment_service import (
     MusicalFunctionAssignmentService,
+)
+from jga.domain.source_musical_function_assignment import (
+    SourceMusicalFunctionAssignment,
 )
 from jga.domain.sound_source import SoundSource
 
@@ -15,27 +17,31 @@ class RuleBasedMusicalFunctionAssignmentService(
     def assign(
         self,
         sources: tuple[SoundSource, ...],
-    ) -> tuple[MusicalFunction, ...]:
+    ) -> tuple[SourceMusicalFunctionAssignment, ...]:
 
-        functions: list[MusicalFunction] = []
+        assignments: list[SourceMusicalFunctionAssignment] = []
 
         for source in sources:
 
-            name = source.name.lower()
+            family = source.family.lower()
 
-            if name == "bass":
+            if family == "bass":
                 function_name = "Walking Bass"
                 metric = True
 
-            elif name == "drums":
+            elif family == "percussion":
                 function_name = "Time Keeping"
                 metric = True
 
-            elif name == "piano":
-                function_name = "Comping"
-                metric = True
+            elif family == "chordal":
+                function_name = "Harmonic Support"
+                metric = False
 
-            elif name == "voice":
+            elif family == "voice":
+                function_name = "Melody"
+                metric = False
+
+            elif family == "wind":
                 function_name = "Melody"
                 metric = False
 
@@ -43,14 +49,18 @@ class RuleBasedMusicalFunctionAssignmentService(
                 function_name = "Unknown"
                 metric = False
 
-            functions.append(
-                MusicalFunction(
+            assignments.append(
+                SourceMusicalFunctionAssignment(
                     id=uuid4(),
-                    name=function_name,
-                    description=None,
-                    is_metric=metric,
+                    sound_source_id=source.id,
+                    musical_function_id=uuid4(),
+                    confidence=0.8,
+                    rationale=(
+                        f"Assigned {function_name} "
+                        f"from source family {family}"
+                    ),
                     created_at=datetime.now(),
                 )
             )
 
-        return tuple(functions)
+        return tuple(assignments)
