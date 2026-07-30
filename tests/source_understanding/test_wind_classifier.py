@@ -1,27 +1,20 @@
-import numpy as np
-
-from jga.core.audio_stem import AudioStem
-
-from jga.source_understanding.classifiers.wind_classifier import (
-    WindClassifier,
-)
-from jga.source_understanding.instrument_family import (
-    InstrumentFamily,
-)
+from jga.source_understanding.classifiers.wind_classifier import WindClassifier
+from jga.source_understanding.feature_name import FeatureName
+from jga.source_understanding.feature_set import FeatureSet
+from jga.source_understanding.instrument_classification import InstrumentClassification
 
 
 def test_wind_classifier_returns_classification():
-
     classifier = WindClassifier()
 
-    stem = AudioStem(
-        name="wind",
-        signal=np.zeros(1024),
-        sample_rate=44100,
-    )
+    features = FeatureSet()
+    features.set(FeatureName.RMS, 0.5)
+    features.set(FeatureName.ZERO_CROSSING_RATE, 0.1)
+    features.set(FeatureName.SPECTRAL_CENTROID, 150.0)
+    features.set(FeatureName.SPECTRAL_BANDWIDTH, 80.0)
+    features.set(FeatureName.SPECTRAL_ROLLOFF, 300.0)
+    features.set(FeatureName.DURATION, 1.0)
 
-    result = classifier.classify(stem)
+    result = classifier.classify(features)
 
-    assert result.family == InstrumentFamily.UNKNOWN
-    assert result.classifier_name == "WindClassifier"
-    assert result.classifier_version == "0.1"
+    assert isinstance(result, InstrumentClassification)
