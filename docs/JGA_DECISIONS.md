@@ -1233,3 +1233,61 @@ SourceMusicalFunctionAssignment
 MetricContributor
 
 ------------------------------------------------------------
+
+# AD-026
+
+## Musical Function Assignment Result Contract
+
+**Status:** LOCKED
+
+### Context
+
+M25 introduced explicit source/function relationships through
+SourceMusicalFunctionAssignment.
+
+The assignment entity contains only the relationship
+identifiers and does not contain the MusicalFunction
+definition.
+
+The current assignment service creates relationships without
+preserving the assigned MusicalFunction objects.
+
+### Decision
+
+MusicalFunction assignment shall return an explicit result
+containing:
+
+- MusicalFunction objects;
+- SourceMusicalFunctionAssignment objects.
+
+The result shall preserve the relationship between each
+SoundSource and its assigned MusicalFunction.
+
+### Rationale
+
+This decision:
+
+- avoids detached function identifiers;
+- preserves domain traceability;
+- provides complete input for metric contributor analysis;
+- maintains deterministic interpretation.
+
+### Consequences
+
+The ensemble analysis flow becomes:
+
+SoundSource
+
+↓
+
+MusicalFunctionAssignmentResult
+
+↓
+
+SourceMusicalFunctionAssignment
+
+↓
+
+MetricContributor
+
+------------------------------------------------------------
