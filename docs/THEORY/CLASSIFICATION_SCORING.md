@@ -106,3 +106,22 @@ to
 confidence = weighted_sum / total_weight
 
 without changing the public architecture.
+
+---
+
+## Range Based Rules
+
+Some instrument families are characterized by intermediate values.
+
+Example:
+
+- medium spectral centroid
+- medium spectral bandwidth
+
+These cases cannot be represented by only high/low comparisons.
+
+A range rule expresses:
+
+lower_bound <= feature <= upper_bound
+
+Range rules remain deterministic and interpretable.
