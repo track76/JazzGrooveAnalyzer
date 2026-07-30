@@ -1099,3 +1099,52 @@ Future ensemble analysis shall use the explicit assignment
 relationship when source-role information is required.
 
 ------------------------------------------------------------
+
+# AD-023
+
+## Ensemble Understanding Service Input Contract
+
+**Status:** LOCKED
+
+### Context
+
+M25 introduces the interpretation of observed sources into
+ensemble-level musical roles.
+
+Source Understanding already produces
+ObservedSourceCollection containing instrument observations.
+
+Ensemble Understanding must not repeat source observation
+or instrument classification.
+
+### Decision
+
+The Ensemble Understanding Service shall receive
+ObservedSourceCollection as its input.
+
+The service shall translate observed sources into domain
+entities and produce EnsembleProfile.
+
+Source identification and instrument classification remain
+outside the Ensemble Understanding layer.
+
+### Rationale
+
+This decision:
+
+- preserves layer separation;
+- avoids duplicated interpretation;
+- keeps Source Understanding observational;
+- keeps Ensemble Understanding contextual.
+
+### Consequences
+
+The M25 flow becomes:
+
+ObservedSourceCollection
+        ↓
+EnsembleUnderstandingService
+        ↓
+EnsembleProfile
+
+------------------------------------------------------------
