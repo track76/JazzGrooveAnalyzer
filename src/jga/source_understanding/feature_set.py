@@ -12,16 +12,18 @@ All Rights Reserved.
 =========================================================
 """
 
+from jga.source_understanding.feature_name import FeatureName
+
 
 class FeatureSet:
 
     def __init__(self):
 
-        self._features: dict[str, float] = {}
+        self._features: dict[FeatureName, float] = {}
 
     def set(
         self,
-        name: str,
+        name: FeatureName,
         value: float,
     ) -> None:
 
@@ -29,7 +31,7 @@ class FeatureSet:
 
     def get(
         self,
-        name: str,
+        name: FeatureName,
     ) -> float | None:
 
         return self._features.get(name)
