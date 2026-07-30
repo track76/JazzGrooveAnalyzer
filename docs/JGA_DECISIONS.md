@@ -900,3 +900,57 @@ MusicalFunction assignment shall produce higher-level
 ensemble representations without modifying lower layers.
 
 ------------------------------------------------------------
+
+# AD-019
+
+## EnsembleProfile Domain Ownership
+
+**Status:** LOCKED
+
+### Context
+
+M25 Ensemble Understanding requires a representation of the
+musical state of an ensemble.
+
+A domain-level EnsembleProfile already exists and contains
+musical context information such as sound sources,
+musical functions and metric contributors.
+
+A second reduced EnsembleProfile representation exists inside
+Source Understanding and only describes instrument families.
+
+These two objects represent different abstraction levels.
+
+### Decision
+
+The official EnsembleProfile model belongs to the Domain Layer.
+
+Source Understanding shall not define an independent
+EnsembleProfile entity.
+
+Source Understanding outputs ObservedSourceCollection.
+
+Higher-level ensemble interpretation shall produce the
+domain EnsembleProfile.
+
+### Rationale
+
+This decision:
+
+- preserves layer separation;
+- avoids duplicated domain concepts;
+- keeps Source Understanding focused on observation;
+- keeps musical interpretation inside higher-level layers.
+
+### Consequences
+
+The Source Understanding EnsembleProfile representation
+shall be migrated or removed.
+
+All future ensemble interpretation components shall use:
+
+jga.domain.ensemble_profile.EnsembleProfile
+
+as the authoritative model.
+
+------------------------------------------------------------
