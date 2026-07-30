@@ -1001,3 +1001,51 @@ M25 implementation shall introduce an explicit assignment
 model before building EnsembleProfile generation.
 
 ------------------------------------------------------------
+
+# AD-021
+
+## Rule Based Musical Function Assignment Contract
+
+**Status:** LOCKED
+
+### Context
+
+The existing musical function assignment service produced
+MusicalFunction objects directly from SoundSource names.
+
+This approach loses the explicit relationship between a source
+and its assigned musical function.
+
+### Decision
+
+Musical function assignment shall produce
+SourceMusicalFunctionAssignment objects.
+
+Assignments shall preserve:
+
+- source identity;
+- assigned function;
+- confidence;
+- rationale.
+
+Function inference shall use validated source information
+and deterministic rules.
+
+Source names shall not be used as the primary classification
+mechanism.
+
+### Rationale
+
+This decision:
+
+- respects AD-020;
+- preserves explainability;
+- avoids hidden assumptions;
+- maintains layer separation.
+
+### Consequences
+
+RuleBasedMusicalFunctionAssignmentService shall return
+explicit source/function assignments.
+
+------------------------------------------------------------
