@@ -59,8 +59,7 @@ class RuleBasedEnsembleAnalysisPipeline(
         metric_contributors = (
             self._contributor_assigner.assign(
                 sound_sources,
-                source_function_assignments,
-                musical_functions,
+                assignment_result,
             )
         )
 

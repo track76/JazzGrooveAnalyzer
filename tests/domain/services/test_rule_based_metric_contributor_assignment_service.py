@@ -2,6 +2,9 @@ from datetime import datetime
 from uuid import uuid4
 
 from jga.domain.musical_function import MusicalFunction
+from jga.domain.musical_function_assignment_result import (
+    MusicalFunctionAssignmentResult,
+)
 from jga.domain.services.rule_based_metric_contributor_assignment_service import (
     RuleBasedMetricContributorAssignmentService,
 )
@@ -11,21 +14,19 @@ from jga.domain.source_musical_function_assignment import (
 )
 
 
-def test_assign_metric_contributor():
-
-    service = RuleBasedMetricContributorAssignmentService()
+def test_metric_contributors_follow_metric_functions():
 
     source = SoundSource(
         id=uuid4(),
-        name="bass",
-        family="strings",
+        name="Double Bass",
+        family="Strings",
         description=None,
         created_at=datetime.now(),
     )
 
     function = MusicalFunction(
         id=uuid4(),
-        name="Walking Bass",
+        name="Pulse",
         description=None,
         is_metric=True,
         created_at=datetime.now(),
@@ -35,18 +36,27 @@ def test_assign_metric_contributor():
         id=uuid4(),
         sound_source_id=source.id,
         musical_function_id=function.id,
-        confidence=0.9,
-        rationale="bass provides metric foundation",
+        confidence=1.0,
+        rationale=None,
         created_at=datetime.now(),
     )
 
+    assignment_result = MusicalFunctionAssignmentResult(
+        musical_functions=(function,),
+        assignments=(assignment,),
+    )
+
+    service = RuleBasedMetricContributorAssignmentService()
+
     contributors = service.assign(
         (source,),
-        (assignment,),
-        (function,),
+        assignment_result,
     )
 
     assert len(contributors) == 1
-    assert contributors[0].active is True
-    assert contributors[0].sound_source_id == source.id
-    assert contributors[0].musical_function_id == function.id
+
+    contributor = contributors[0]
+
+    assert contributor.sound_source_id == source.id
+    assert contributor.musical_function_id == function.id
+    assert contributor.active is True

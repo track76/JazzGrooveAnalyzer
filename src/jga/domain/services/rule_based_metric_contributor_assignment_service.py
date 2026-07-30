@@ -2,14 +2,13 @@ from datetime import datetime
 from uuid import uuid4
 
 from jga.domain.metric_contributor import MetricContributor
-from jga.domain.musical_function import MusicalFunction
+from jga.domain.musical_function_assignment_result import (
+    MusicalFunctionAssignmentResult,
+)
 from jga.domain.services.metric_contributor_assignment_service import (
     MetricContributorAssignmentService,
 )
 from jga.domain.sound_source import SoundSource
-from jga.domain.source_musical_function_assignment import (
-    SourceMusicalFunctionAssignment,
-)
 
 
 class RuleBasedMetricContributorAssignmentService(
@@ -19,23 +18,19 @@ class RuleBasedMetricContributorAssignmentService(
     def assign(
         self,
         sources: tuple[SoundSource, ...],
-        assignments: tuple[
-            SourceMusicalFunctionAssignment,
-            ...
-        ],
-        functions: tuple[MusicalFunction, ...],
+        assignment_result: MusicalFunctionAssignmentResult,
     ) -> tuple[MetricContributor, ...]:
 
         contributors: list[MetricContributor] = []
 
         functions_by_id = {
             function.id: function
-            for function in functions
+            for function in assignment_result.musical_functions
         }
 
         for source, assignment in zip(
             sources,
-            assignments,
+            assignment_result.assignments,
         ):
 
             function = functions_by_id.get(
