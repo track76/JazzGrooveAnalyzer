@@ -16,11 +16,11 @@ v0.2.0-alpha
 
 **Current Milestone**
 
-M4 — Metric Reconstruction
+M24 — Source Understanding Layer
 
 **Status**
 
-Active Development
+Completed
 
 **Last Update**
 
@@ -431,7 +431,9 @@ pytest
 
 Current Result
 
-105 / 105 tests passing
+84 / 84 source_understanding tests passing
+
+Overall repository regression pending
 
 Status
 
@@ -584,6 +586,57 @@ Prepare Behaviour Analysis models (M5)
 5.
 
 Define validation strategy for higher-level analysis
+
+---
+
+
+# M24 — Source Understanding Layer
+
+Status
+
+Completed
+
+## Scientific Layer
+
+✓ FeatureSet based instrument classification completed
+
+✓ Primitive acoustic rule system completed
+
+✓ RuleEngine scoring architecture completed
+
+✓ FeatureRangeRule implemented
+
+✓ Multi-rule classifier architecture completed
+
+## Instrument Classifiers
+
+✓ BassClassifier validated
+
+✓ PercussionClassifier validated
+
+✓ WindClassifier validated
+
+✓ ChordalClassifier validated
+
+✓ VoiceClassifier validated
+
+## Integration
+
+✓ ClassifierRegistry migrated to FeatureSet contract
+
+✓ SourceUnderstandingService integration validated
+
+✓ ObservedSource generation validated
+
+## Validation
+
+✓ Unit validation completed
+
+✓ Source Understanding pipeline validation completed
+
+✓ AD-015 Real Audio Validation completed
+
+✓ Real audio classification pipeline validated
 
 ---
 
