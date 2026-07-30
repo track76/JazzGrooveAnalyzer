@@ -12,11 +12,12 @@ All Rights Reserved.
 =========================================================
 """
 
-from jga.core.audio_stem import AudioStem
+from jga.source_understanding.feature_set import FeatureSet
 
 from jga.source_understanding.instrument_classifier import (
     InstrumentClassifier,
 )
+
 from jga.source_understanding.instrument_classification import (
     InstrumentClassification,
 )
@@ -26,6 +27,8 @@ class ClassifierRegistry:
     """
     Executes all registered classifiers and
     returns the best InstrumentClassification.
+
+    Classifiers operate exclusively on FeatureSet.
     """
 
     def __init__(
@@ -36,14 +39,14 @@ class ClassifierRegistry:
 
     def classify(
         self,
-        stem: AudioStem,
+        features: FeatureSet,
     ) -> InstrumentClassification:
 
         best = None
 
         for classifier in self._classifiers:
 
-            result = classifier.classify(stem)
+            result = classifier.classify(features)
 
             if (
                 best is None
