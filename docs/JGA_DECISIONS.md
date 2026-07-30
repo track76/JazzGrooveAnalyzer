@@ -1148,3 +1148,42 @@ EnsembleUnderstandingService
 EnsembleProfile
 
 ------------------------------------------------------------
+
+# AD-024
+
+## EnsembleAnalysisResult Assignment Relationship Ownership
+
+**Status:** LOCKED
+
+### Context
+
+M25 introduces explicit source/function relationships through
+SourceMusicalFunctionAssignment.
+
+The existing EnsembleAnalysisResult contains separate
+collections of SoundSource and MusicalFunction.
+
+This representation does not preserve the relationship
+between a source and its assigned function.
+
+### Decision
+
+EnsembleAnalysisResult shall include
+SourceMusicalFunctionAssignment information.
+
+The assignment relationship becomes the authoritative
+representation of source-role association.
+
+Existing musical_functions information shall be preserved
+for compatibility with previous analysis stages.
+
+### Rationale
+
+This decision:
+
+- preserves explicit relationships;
+- avoids information loss between layers;
+- maintains backward compatibility;
+- aligns A0 analysis output with EnsembleProfile.
+
+------------------------------------------------------------
