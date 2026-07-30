@@ -830,3 +830,38 @@ Status
 
 Completed (Theory)
 
+
+============================================================
+M25.7 — Architectural Audit
+============================================================
+
+Status:
+IN PROGRESS
+
+Objective
+
+Verify that the Ensemble Understanding output is
+architecturally complete before extending the pipeline.
+
+Audit checklist
+
+[ ] EnsembleAnalysisResult is the unique aggregate root.
+
+[ ] Every relationship has a single owner.
+
+[ ] MetricContributorAssignmentService consumes only
+    MusicalFunctionAssignmentResult.
+
+[ ] EnsembleProfile is built exclusively from
+    EnsembleAnalysisResult.
+
+Expected outcome
+
+If every contract is satisfied:
+
+    no Architectural Decision is required.
+
+Otherwise:
+
+    introduce a new AD before implementation.
+
