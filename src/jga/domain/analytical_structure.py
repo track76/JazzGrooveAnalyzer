@@ -1,32 +1,18 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
-from datetime import UTC, datetime
-from uuid import UUID, uuid4
+from dataclasses import dataclass
 
 from jga.domain.descriptor_set import DescriptorSet
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(slots=True, frozen=True)
 class AnalyticalStructure:
     """
-    Immutable analytical structure derived from Descriptor Algebra.
+    Final analytical structure produced by Descriptor Algebra.
 
-    This entity represents the output defined by M-100.
-
-    It does not modify the originating DescriptorSet.
-
-    No analytical operation is implemented here.
-    Concrete mathematical structures will be introduced only
-    after formal specification.
+    This entity preserves the DescriptorSet resulting from the
+    algebraic transformations. No analytical computation is
+    performed here.
     """
 
-    id: UUID = field(default_factory=uuid4)
-
-    created_at: datetime = field(
-        default_factory=lambda: datetime.now(UTC)
-    )
-
-    source_descriptor_set: DescriptorSet = field(
-        default_factory=DescriptorSet
-    )
+    source_descriptor_set: DescriptorSet

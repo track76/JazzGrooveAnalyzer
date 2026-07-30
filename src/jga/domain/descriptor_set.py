@@ -1,29 +1,15 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
-from datetime import UTC, datetime
-from uuid import UUID, uuid4
-
-from jga.domain.behaviour_descriptor import BehaviourDescriptor
+from dataclasses import dataclass
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(slots=True, frozen=True)
 class DescriptorSet:
     """
-    Immutable mathematical set of BehaviourDescriptor objects.
-
-    This entity represents the formal input of Behaviour Analytics.
-
-    The class only guarantees representation integrity.
-    Analytical operations belong to Behaviour Analytics services.
+    Immutable collection of behaviour descriptors.
     """
 
-    id: UUID = field(default_factory=uuid4)
-    created_at: datetime = field(
-        default_factory=lambda: datetime.now(UTC)
-    )
-
-    descriptors: tuple[BehaviourDescriptor, ...] = ()
+    descriptors: tuple[object, ...]
 
     @property
     def size(self) -> int:
@@ -31,3 +17,6 @@ class DescriptorSet:
 
     def __iter__(self):
         return iter(self.descriptors)
+
+    def __len__(self) -> int:
+        return len(self.descriptors)
