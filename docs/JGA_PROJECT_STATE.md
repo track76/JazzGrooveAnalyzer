@@ -213,12 +213,12 @@ Completed
 
 ✓ Behaviour Analytics foundation completed
 
-✓ 485 tests passing
+✓ 487 tests passing
 
 Current objective:
 
-Consolidate Behaviour Evolution analysis and prepare
-advanced behavioural dynamics modelling.
+Complete Scientific Report Evolution Integration
+and consolidate the complete scientific result chain.
 
 Current focus:
 
@@ -267,6 +267,14 @@ Current focus:
 ✓ Behaviour Evolution runtime integration completed
 
 ✓ M28 architectural contracts validated
+
+✓ ScientificReport extended with BehaviourEvolutionModel
+
+✓ ScientificReportBuilder evolution integration completed
+
+✓ Behaviour Evolution propagation to Scientific Report validated
+
+✓ M29 scientific report integration completed
 
 ---
 
@@ -566,9 +574,9 @@ The following decisions are considered stable.
 
 # Current Milestone
 
-M28
+M29
 
-Behaviour Evolution Analysis
+Scientific Report Evolution Integration
 
 Status
 
