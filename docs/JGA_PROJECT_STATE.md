@@ -16,15 +16,15 @@ v0.2.0-alpha
 
 **Current Milestone**
 
-M25.8 — Bootstrap Architecture
+M27 — Scientific Evidence Chain and Report Integration
 
 **Status**
 
-In Progress
+Complete
 
 **Last Update**
 
-2026-08-01
+2026-08-02
 
 **Main Branch**
 
