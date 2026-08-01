@@ -213,7 +213,7 @@ Completed
 
 ✓ Behaviour Analytics foundation completed
 
-✓ 105 / 105 tests passing
+✓ 450 / 450 tests passing
 
 Current objective:
 
@@ -687,7 +687,7 @@ Repository synchronized.
 
 Working tree clean.
 
-105 / 105 tests passing.
+450 / 450 tests passing.
 
 Observation Layer completed.
 
