@@ -1,17 +1,84 @@
 from pathlib import Path
-import shutil
+
+from project_metadata import (
+    load_project_metadata,
+)
 
 
-def export_scientific_state():
+ROOT = Path(__file__).resolve().parents[2]
 
-    artifacts = Path("artifacts")
-    artifacts.mkdir(exist_ok=True)
 
-    source = Path("docs/JGA_SCIENTIFIC_STATE.md")
+def export_scientific_state() -> None:
 
-    if source.exists():
+    metadata = load_project_metadata()
 
-        shutil.copy(
-            source,
-            artifacts / "JGA_SCIENTIFIC_STATE.md",
-        )
+    text = f"""# JGA SCIENTIFIC STATE
+
+Automatically generated.
+
+============================================================
+
+Scientific Layers
+
+Metric Reconstruction
+    COMPLETE
+
+Behaviour Analytics
+    COMPLETE
+
+Representation
+    COMPLETE
+
+Scientific Geometry
+    COMPLETE
+
+Scientific Behaviour Space
+    COMPLETE
+
+Behaviour Observation
+    COMPLETE
+
+Behaviour Diagnostics
+    IN PROGRESS
+
+Scientific Report
+    NOT STARTED
+
+Real Source Separation
+    NOT STARTED
+
+============================================================
+
+Current Milestone
+
+{metadata["Current Milestone"]}
+
+{metadata["Current Phase"]}
+
+============================================================
+
+Reference Validation
+
+{metadata["Tests"]} tests passed
+
+============================================================
+
+Status
+
+{metadata["Status"]}
+
+============================================================
+
+Last Update
+
+{metadata["Last Update"]}
+"""
+
+    (
+        ROOT
+        / "artifacts"
+        / "JGA_SCIENTIFIC_STATE.md"
+    ).write_text(
+        text,
+        encoding="utf-8",
+    )

@@ -4,9 +4,9 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: M25.7
+Current Milestone: M25.8
 
-Current Phase: Architectural Audit
+Current Phase: Bootstrap Architecture
 
 Status: Active Development
 

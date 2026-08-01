@@ -3,7 +3,8 @@ from bootstrap.test_runner import run_tests
 from bootstrap.docs_updater import update_docs
 from bootstrap.bootstrap_generator import generate_bootstrap
 from bootstrap.repository_exporter import export_repository
-from bootstrap.context_exporter import export_context
+from bootstrap.context_archive_exporter import export_context
+from bootstrap.context_exporter import export_session_context
 from bootstrap.architecture_exporter import (
     generate_architecture_map,
 )
@@ -42,6 +43,8 @@ def main():
     export_repository()
 
     generate_architecture_map()
+
+    export_session_context()
 
     export_context()
 

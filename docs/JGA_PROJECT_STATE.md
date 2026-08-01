@@ -16,19 +16,19 @@ v0.2.0-alpha
 
 **Current Milestone**
 
-M24 — Source Understanding Layer
+M25.8 — Bootstrap Architecture
 
 **Status**
 
-Completed
+In Progress
 
 **Last Update**
 
-July 2026
+2026-08-01
 
 **Main Branch**
 
-main
+scientific/translation-layer-finalization
 
 **Programming Language**
 
@@ -475,7 +475,7 @@ JGA_VALIDATION_PROTOCOL.md
 
 JGA_DECISIONS.md
 
-JGA_SESSION_CONTEXT.md
+artifacts/JGA_SESSION_CONTEXT.md
 
 JGA_ROADMAP.md
 

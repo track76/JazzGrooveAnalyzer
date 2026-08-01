@@ -1,6 +1,8 @@
 from pathlib import Path
 import subprocess
 
+from project_metadata import load_project_metadata
+
 ROOT = Path(__file__).resolve().parents[2]
 
 
@@ -70,6 +72,8 @@ CANONICAL_DOCUMENTS = [
 
 def generate_bootstrap():
 
+    metadata = load_project_metadata()
+
     branch = git(["git", "branch", "--show-current"])
     commit = git(["git", "rev-parse", "--short", "HEAD"])
 
@@ -77,9 +81,19 @@ def generate_bootstrap():
 
     text = f"""# Jazz Groove Analyzer (JGA)
 
+Version: {metadata["Version"]}
+
+Current Milestone: {metadata["Current Milestone"]}
+
+Current Phase: {metadata["Current Phase"]}
+
 Branch: {branch}
 
 Commit: {commit}
+
+Tests: {metadata["Tests"]}
+
+Last Update: {metadata["Last Update"]}
 
 Repository is the source of truth.
 
