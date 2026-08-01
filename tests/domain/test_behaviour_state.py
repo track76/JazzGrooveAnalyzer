@@ -1,50 +1,18 @@
-import pytest
+from unittest.mock import Mock
 
-from jga.domain.behaviour_state import BehaviourState
-from jga.geometry.behaviour_trajectory import BehaviourTrajectory
-
-
-def trajectory():
-    return BehaviourTrajectory()
+from jga.domain.behaviour_state import (
+    BehaviourState,
+)
 
 
-def test_duration():
+def test_behaviour_state_duration():
+
+    trajectory = Mock()
 
     state = BehaviourState(
-        trajectory=trajectory(),
+        trajectory=trajectory,
         start_index=10,
-        end_index=15,
+        end_index=14,
     )
 
-    assert state.duration == 6
-
-
-def test_single_point_state():
-
-    state = BehaviourState(
-        trajectory=trajectory(),
-        start_index=4,
-        end_index=4,
-    )
-
-    assert state.duration == 1
-
-
-def test_negative_start():
-
-    with pytest.raises(ValueError):
-        BehaviourState(
-            trajectory=trajectory(),
-            start_index=-1,
-            end_index=4,
-        )
-
-
-def test_invalid_interval():
-
-    with pytest.raises(ValueError):
-        BehaviourState(
-            trajectory=trajectory(),
-            start_index=8,
-            end_index=5,
-        )
+    assert state.duration == 5

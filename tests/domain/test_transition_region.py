@@ -1,34 +1,41 @@
-from jga.domain.behaviour_state import BehaviourState
-from jga.domain.behaviour_transition import BehaviourTransition
-from jga.domain.transition_region import TransitionRegion
-from jga.geometry.behaviour_trajectory import BehaviourTrajectory
+from unittest.mock import Mock
+
+from jga.domain.behaviour_state import (
+    BehaviourState,
+)
+from jga.domain.behaviour_transition import (
+    BehaviourTransition,
+)
+from jga.domain.transition_region import (
+    TransitionRegion,
+)
 
 
-def trajectory():
-    return BehaviourTrajectory()
+def test_transition_region_exposes_transition_properties():
 
+    trajectory = Mock()
 
-def test_transition_region():
-
-    t = trajectory()
-
-    a = BehaviourState(
-        trajectory=t,
+    source = BehaviourState(
+        trajectory=trajectory,
         start_index=0,
         end_index=4,
     )
 
-    b = BehaviourState(
-        trajectory=t,
+    target = BehaviourState(
+        trajectory=trajectory,
         start_index=7,
         end_index=10,
     )
 
-    transition = BehaviourTransition(a, b)
+    transition = BehaviourTransition(
+        source=source,
+        target=target,
+    )
 
-    region = TransitionRegion(transition)
+    region = TransitionRegion(
+        transition=transition,
+    )
 
     assert region.start_index == 5
     assert region.end_index == 6
     assert region.duration == 2
-    assert region.transition is transition

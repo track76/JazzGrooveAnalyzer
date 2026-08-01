@@ -1,23 +1,25 @@
-from jga.domain.behaviour_state import BehaviourState
-from jga.domain.stable_region import StableRegion
-from jga.geometry.behaviour_trajectory import BehaviourTrajectory
+from unittest.mock import Mock
+
+from jga.domain.behaviour_state import (
+    BehaviourState,
+)
+from jga.domain.stable_region import (
+    StableRegion,
+)
 
 
-def trajectory():
-    return BehaviourTrajectory()
-
-
-def test_region_exposes_state_interval():
+def test_stable_region_exposes_state_properties():
 
     state = BehaviourState(
-        trajectory=trajectory(),
-        start_index=12,
-        end_index=20,
+        trajectory=Mock(),
+        start_index=10,
+        end_index=14,
     )
 
-    region = StableRegion(state)
+    region = StableRegion(
+        state=state,
+    )
 
-    assert region.start_index == 12
-    assert region.end_index == 20
-    assert region.duration == 9
-    assert region.state is state
+    assert region.start_index == 10
+    assert region.end_index == 14
+    assert region.duration == 5

@@ -1,13 +1,15 @@
 from jga.domain.behaviour_change_event import (
     BehaviourChangeEvent,
 )
-
 from jga.domain.behaviour_observation_frame import (
     BehaviourObservationFrame,
 )
 
 from jga.observation.behaviour_comparator import (
     BehaviourComparator,
+)
+from jga.observation.builders.behaviour_state_builder import (
+    BehaviourStateBuilder,
 )
 
 
@@ -16,6 +18,10 @@ class StableRegionDetector:
     def __init__(self):
 
         self.comparator = BehaviourComparator()
+
+        self.state_builder = (
+            BehaviourStateBuilder()
+        )
 
     def detect(
         self,
@@ -31,28 +37,34 @@ class StableRegionDetector:
         if not frames:
             return ()
 
-        start = frames[0]
+        start = 0
 
-        previous = start
+        previous = 0
 
         events = []
 
-        for current in frames[1:]:
+        for current in range(1, len(frames)):
 
             comparison = self.comparator.compare(
-                previous,
-                current,
+                frames[previous],
+                frames[current],
             )
 
             if not comparison.overall_match:
+
+                state = self.state_builder.build(
+                    frames=frames,
+                    start_index=start,
+                    end_index=previous,
+                )
 
                 events.append(
 
                     BehaviourChangeEvent(
 
-                        start_time=start.time,
+                        start_time=frames[state.start_index].time,
 
-                        end_time=previous.time,
+                        end_time=frames[state.end_index].time,
 
                         event_type="stable_region",
 
@@ -66,13 +78,19 @@ class StableRegionDetector:
 
             previous = current
 
+        state = self.state_builder.build(
+            frames=frames,
+            start_index=start,
+            end_index=previous,
+        )
+
         events.append(
 
             BehaviourChangeEvent(
 
-                start_time=start.time,
+                start_time=frames[state.start_index].time,
 
-                end_time=previous.time,
+                end_time=frames[state.end_index].time,
 
                 event_type="stable_region",
 
@@ -83,4 +101,3 @@ class StableRegionDetector:
         )
 
         return tuple(events)
-
