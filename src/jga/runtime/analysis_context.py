@@ -54,6 +54,10 @@ from jga.domain.behaviour_analytics_result import (
     BehaviourAnalyticsResult,
 )
 
+from jga.domain.behaviour_diagnostic_result import (
+    BehaviourDiagnosticResult,
+)
+
 from jga.representation.representation_result import (
     RepresentationResult,
 )
@@ -68,6 +72,10 @@ from jga.domain.descriptor_set import (
 
 from jga.domain.analytical_structure import (
     AnalyticalStructure,
+)
+
+from jga.domain.scientific_report import (
+    ScientificReport,
 )
 
 
@@ -207,6 +215,8 @@ class AnalysisContext:
 
     analytical_structure: AnalyticalStructure | None = None
 
+    scientific_report: ScientificReport | None = None
+
     behaviour_analytics_result: (
         BehaviourAnalyticsResult | None
     ) = None
@@ -248,4 +258,8 @@ class AnalysisContext:
     behaviour_observation_frames: tuple = ()
 
     behaviour_change_events: tuple = ()
+
+    behaviour_diagnostic_result: (
+        BehaviourDiagnosticResult | None
+    ) = None
 

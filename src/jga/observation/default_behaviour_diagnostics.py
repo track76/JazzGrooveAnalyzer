@@ -18,6 +18,10 @@ from jga.domain.services.scientific_evidence_builder import (
     ScientificEvidenceBuilder,
 )
 
+from jga.domain.services.behaviour_evidence_aggregator import (
+    BehaviourEvidenceAggregator,
+)
+
 from jga.domain.services.behaviour_diagnostic_builder import (
     BehaviourDiagnosticBuilder,
 )
@@ -41,6 +45,10 @@ class DefaultBehaviourDiagnostics:
             ScientificEvidenceBuilder()
         )
 
+        self._evidence_aggregator = (
+            BehaviourEvidenceAggregator()
+        )
+
         self._diagnostic_builder = (
             BehaviourDiagnosticBuilder()
         )
@@ -59,9 +67,15 @@ class DefaultBehaviourDiagnostics:
             )
         )
 
-        evidence = (
-            self._evidence_builder.build(
+        summary = (
+            self._evidence_aggregator.aggregate(
                 stable_regions.evidences,
+            )
+        )
+
+        evidence = (
+            self._evidence_builder.build_from_summary(
+                summary,
             )
         )
 

@@ -59,6 +59,10 @@ from jga.domain.services.rule_based_behaviour_analytics_pipeline import (
     RuleBasedBehaviourAnalyticsPipeline,
 )
 
+from jga.domain.services.scientific_report_builder import (
+    ScientificReportBuilder,
+)
+
 from jga.representation.pipeline import (
     RepresentationPipeline,
 )
@@ -147,6 +151,10 @@ class AnalysisPipeline:
 
         self.behaviour_analytics_pipeline = (
             RuleBasedBehaviourAnalyticsPipeline()
+        )
+
+        self.scientific_report_builder = (
+            ScientificReportBuilder()
         )
 
         self.representation_pipeline = (
@@ -242,6 +250,7 @@ class AnalysisPipeline:
                 self.behaviour_analytics_pipeline.analyze(
                     context.behaviour_profile,
                     context.stability_curve,
+                    context.behaviour_diagnostic_result,
                 )
             )
 
@@ -255,6 +264,12 @@ class AnalysisPipeline:
 
             context.behaviour_descriptors = (
                 context.descriptor_set.descriptors
+            )
+
+            context.scientific_report = (
+                self.scientific_report_builder.build(
+                    context.behaviour_analytics_result
+                )
             )
 
         context.representation_result = (

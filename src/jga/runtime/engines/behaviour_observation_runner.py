@@ -41,8 +41,16 @@ class BehaviourObservationRunner:
             frames
         )
 
-        context.behaviour_change_events = (
+        diagnostic_result = (
             self._diagnostics.analyze(
                 frames,
             )
+        )
+
+        context.behaviour_diagnostic_result = (
+            diagnostic_result
+        )
+
+        context.behaviour_change_events = (
+            diagnostic_result.stable_regions.events
         )

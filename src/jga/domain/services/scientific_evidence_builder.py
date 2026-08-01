@@ -77,3 +77,98 @@ class ScientificEvidenceBuilder:
         return ScientificEvidenceCollection(
             evidences=tuple(scientific)
         )
+
+    def build_from_summary(
+        self,
+        summary,
+    ) -> ScientificEvidenceCollection:
+        """
+        Builds ScientificEvidence from a
+        consolidated BehaviourEvidenceSummary.
+        """
+
+        if summary.comparison_count == 0:
+            return ScientificEvidenceCollection(
+                evidences=()
+            )
+
+        return ScientificEvidenceCollection(
+            evidences=(
+                ScientificEvidence(
+                    name="physical_offset",
+                    value=(
+                        summary
+                        .mean_physical_offset_delta_ms
+                    ),
+                    reference=0.0,
+                    delta=(
+                        summary
+                        .mean_physical_offset_delta_ms
+                    ),
+                    tolerance=0.0,
+                    compatible=(
+                        summary
+                        .mean_physical_offset_delta_ms
+                        == 0.0
+                    ),
+                ),
+
+                ScientificEvidence(
+                    name="metric_offset",
+                    value=(
+                        summary
+                        .mean_metric_offset_delta
+                    ),
+                    reference=0.0,
+                    delta=(
+                        summary
+                        .mean_metric_offset_delta
+                    ),
+                    tolerance=0.0,
+                    compatible=(
+                        summary
+                        .mean_metric_offset_delta
+                        == 0.0
+                    ),
+                ),
+
+                ScientificEvidence(
+                    name="internal_bpm",
+                    value=(
+                        summary
+                        .mean_internal_bpm_delta
+                    ),
+                    reference=0.0,
+                    delta=(
+                        summary
+                        .mean_internal_bpm_delta
+                    ),
+                    tolerance=0.0,
+                    compatible=(
+                        summary
+                        .mean_internal_bpm_delta
+                        == 0.0
+                    ),
+                ),
+
+                ScientificEvidence(
+                    name="stability",
+                    value=(
+                        summary
+                        .mean_stability_delta
+                    ),
+                    reference=0.0,
+                    delta=(
+                        summary
+                        .mean_stability_delta
+                    ),
+                    tolerance=0.0,
+                    compatible=(
+                        summary
+                        .mean_stability_delta
+                        == 0.0
+                    ),
+                ),
+            )
+        )
+
