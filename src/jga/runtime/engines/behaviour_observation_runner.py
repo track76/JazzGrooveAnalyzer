@@ -6,6 +6,10 @@ from jga.observation.default_behaviour_diagnostics import (
     DefaultBehaviourDiagnostics,
 )
 
+from jga.domain.services.behaviour_evolution_builder import (
+    BehaviourEvolutionBuilder,
+)
+
 from jga.runtime.analysis_context import AnalysisContext
 
 
@@ -25,6 +29,10 @@ class BehaviourObservationRunner:
             DefaultBehaviourDiagnostics()
         )
 
+        self._evolution_builder = (
+            BehaviourEvolutionBuilder()
+        )
+
     def run(
         self,
         context: AnalysisContext,
@@ -32,6 +40,19 @@ class BehaviourObservationRunner:
 
         if context.scientific_behaviour_space is None:
             return
+
+        trajectory = (
+            context.scientific_behaviour_space
+            .first_trajectory
+        )
+
+        if trajectory is not None:
+
+            context.behaviour_evolution_model = (
+                self._evolution_builder.build(
+                    trajectory
+                )
+            )
 
         frames = self._builder.build(
             context.scientific_behaviour_space,

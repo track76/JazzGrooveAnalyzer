@@ -58,6 +58,10 @@ from jga.domain.behaviour_diagnostic_result import (
     BehaviourDiagnosticResult,
 )
 
+from jga.domain.behaviour_evolution_model import (
+    BehaviourEvolutionModel,
+)
+
 from jga.representation.representation_result import (
     RepresentationResult,
 )
@@ -261,5 +265,13 @@ class AnalysisContext:
 
     behaviour_diagnostic_result: (
         BehaviourDiagnosticResult | None
+    ) = None
+
+    # =====================================================
+    # Behaviour Evolution Layer (M28)
+    # =====================================================
+
+    behaviour_evolution_model: (
+        BehaviourEvolutionModel | None
     ) = None
 
