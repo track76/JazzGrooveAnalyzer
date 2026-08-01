@@ -6,8 +6,20 @@ from jga.domain.behaviour_observation_frame import (
     BehaviourObservationFrame,
 )
 
+from jga.domain.stable_region_detection_result import (
+    StableRegionDetectionResult,
+)
+
 from jga.observation.stable_region_detector import (
     StableRegionDetector,
+)
+
+from jga.domain.services.scientific_evidence_builder import (
+    ScientificEvidenceBuilder,
+)
+
+from jga.domain.services.behaviour_diagnostic_builder import (
+    BehaviourDiagnosticBuilder,
 )
 
 
@@ -25,17 +37,35 @@ class DefaultBehaviourDiagnostics:
             StableRegionDetector()
         )
 
+        self._evidence_builder = (
+            ScientificEvidenceBuilder()
+        )
+
+        self._diagnostic_builder = (
+            BehaviourDiagnosticBuilder()
+        )
+
     def analyze(
         self,
         frames: tuple[
             BehaviourObservationFrame,
             ...
         ],
-    ) -> tuple[
-        BehaviourChangeEvent,
-        ...
-    ]:
+    ) -> StableRegionDetectionResult:
 
-        return self._stable_detector.detect(
-            frames,
+        stable_regions = (
+            self._stable_detector.detect(
+                frames,
+            )
+        )
+
+        evidence = (
+            self._evidence_builder.build(
+                stable_regions.evidences,
+            )
+        )
+
+        return self._diagnostic_builder.build(
+            stable_regions,
+            evidence,
         )

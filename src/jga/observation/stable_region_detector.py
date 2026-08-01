@@ -5,6 +5,10 @@ from jga.domain.behaviour_observation_frame import (
     BehaviourObservationFrame,
 )
 
+from jga.domain.stable_region_detection_result import (
+    StableRegionDetectionResult,
+)
+
 from jga.observation.behaviour_comparator import (
     BehaviourComparator,
 )
@@ -23,31 +27,40 @@ class StableRegionDetector:
             BehaviourStateBuilder()
         )
 
+
     def detect(
         self,
         frames: tuple[
             BehaviourObservationFrame,
             ...
         ],
-    ) -> tuple[
-        BehaviourChangeEvent,
-        ...
-    ]:
+    ) -> StableRegionDetectionResult:
 
         if not frames:
-            return ()
+            return StableRegionDetectionResult(
+                events=(),
+                evidences=(),
+            )
 
         start = 0
 
         previous = 0
 
         events = []
+        evidences = []
 
         for current in range(1, len(frames)):
 
             comparison = self.comparator.compare(
                 frames[previous],
                 frames[current],
+            )
+
+            evidences.append(
+                self.comparator.compare_with_evidence(
+                    frames[previous],
+                    frames[current],
+                )
             )
 
             if not comparison.overall_match:
@@ -100,4 +113,8 @@ class StableRegionDetector:
 
         )
 
-        return tuple(events)
+        return StableRegionDetectionResult(
+            events=tuple(events),
+            evidences=tuple(evidences),
+        )
+

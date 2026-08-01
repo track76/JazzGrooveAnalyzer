@@ -17,7 +17,7 @@ def test_scientific_evidence_builder():
     )
 
     result = ScientificEvidenceBuilder().build(
-        source
+        (source,)
     )
 
     assert len(result.evidences) == 4
