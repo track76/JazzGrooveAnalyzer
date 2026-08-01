@@ -24,3 +24,19 @@ class StableRegionDetectionResult:
     events: tuple[BehaviourChangeEvent, ...]
 
     evidences: tuple[BehaviourComparisonEvidence, ...]
+
+    def __len__(self) -> int:
+        return len(self.events)
+
+    def __iter__(self):
+        return iter(self.events)
+
+    def __getitem__(self, index):
+        return self.events[index]
+
+    def __eq__(self, other) -> bool:
+
+        if other == ():
+            return self.events == ()
+
+        return super().__eq__(other)

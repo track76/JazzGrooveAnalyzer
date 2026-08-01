@@ -7,6 +7,10 @@ from uuid import UUID, uuid4
 from jga.domain.analytical_structure import AnalyticalStructure
 from jga.domain.descriptor_set import DescriptorSet
 
+from jga.domain.behaviour_diagnostic_result import (
+    BehaviourDiagnosticResult,
+)
+
 
 @dataclass(frozen=True, slots=True)
 class BehaviourAnalyticsResult:
@@ -27,3 +31,7 @@ class BehaviourAnalyticsResult:
     )
 
     analytical_structure: AnalyticalStructure | None = None
+
+    behaviour_diagnostic_result: (
+        BehaviourDiagnosticResult | None
+    ) = None

@@ -6,6 +6,10 @@ from jga.domain.behaviour_analytics_result import (
     BehaviourAnalyticsResult,
 )
 
+from jga.domain.behaviour_diagnostic_result import (
+    BehaviourDiagnosticResult,
+)
+
 from jga.domain.behaviour_profile import BehaviourProfile
 
 from jga.domain.behaviour_quantification_context import (
@@ -59,6 +63,9 @@ class RuleBasedBehaviourAnalyticsPipeline(
         self,
         profile: BehaviourProfile,
         stability_curve: StabilityCurve,
+        behaviour_diagnostic_result: (
+            BehaviourDiagnosticResult | None
+        ) = None,
     ) -> BehaviourAnalyticsResult:
 
         context = BehaviourQuantificationContext(
@@ -78,4 +85,5 @@ class RuleBasedBehaviourAnalyticsPipeline(
 
         return self._analytics_builder.build(
             descriptor_set,
+            behaviour_diagnostic_result,
         )

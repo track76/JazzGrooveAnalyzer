@@ -3,6 +3,10 @@ from __future__ import annotations
 from jga.domain.behaviour_analytics_result import BehaviourAnalyticsResult
 from jga.domain.descriptor_set import DescriptorSet
 
+from jga.domain.behaviour_diagnostic_result import (
+    BehaviourDiagnosticResult,
+)
+
 from jga.domain.services.analytical_structure_builder import (
     AnalyticalStructureBuilder,
 )
@@ -75,6 +79,9 @@ class BehaviourAnalyticsBuilder:
     def build(
         self,
         descriptor_set: DescriptorSet,
+        behaviour_diagnostic_result: (
+            BehaviourDiagnosticResult | None
+        ) = None,
     ) -> BehaviourAnalyticsResult:
 
         relations = self._relation_builder.build(
@@ -104,5 +111,8 @@ class BehaviourAnalyticsBuilder:
         return BehaviourAnalyticsResult(
             descriptor_set=descriptor_set,
             analytical_structure=analytical,
+            behaviour_diagnostic_result=(
+                behaviour_diagnostic_result
+            ),
         )
 
