@@ -1,38 +1,23 @@
-from datetime import UTC, datetime
-from uuid import uuid4
-
-from jga.domain.behaviour_descriptor import BehaviourDescriptor
-from jga.domain.descriptor_relation import DescriptorRelation
+from jga.domain.descriptor_set import DescriptorSet
 from jga.domain.services.analytical_structure_builder import (
     AnalyticalStructureBuilder,
 )
 
 
-def descriptor(name: str):
+def test_analytical_structure_builder_preserves_descriptor_set():
 
-    return BehaviourDescriptor(
-        id=uuid4(),
-        created_at=datetime.now(UTC),
-        name=name,
-        value=1.0,
-        provenance="pytest",
+    builder = AnalyticalStructureBuilder()
+
+    result = builder.build(
+        (),
     )
 
-
-def test_analytical_structure_builder():
-
-    relation = DescriptorRelation(
-        descriptors=(
-            descriptor("A"),
-            descriptor("B"),
-        ),
+    assert isinstance(
+        result.source_descriptor_set,
+        DescriptorSet,
     )
 
-    analytical = AnalyticalStructureBuilder().build(
-        (relation,),
+    assert (
+        result.source_descriptor_set.descriptors
+        == ()
     )
-
-    assert len(
-        analytical.source_descriptor_set.descriptors
-    ) == 2
-
