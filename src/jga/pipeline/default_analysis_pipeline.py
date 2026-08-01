@@ -268,7 +268,8 @@ class AnalysisPipeline:
 
             context.scientific_report = (
                 self.scientific_report_builder.build(
-                    context.behaviour_analytics_result
+                    context.behaviour_analytics_result,
+                    context.behaviour_evolution_model,
                 )
             )
 

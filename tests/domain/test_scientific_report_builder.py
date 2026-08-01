@@ -27,3 +27,34 @@ def test_scientific_report_builder():
     assert report.descriptor_set == (
         result.descriptor_set
     )
+
+
+from jga.domain.behaviour_evolution_model import (
+    BehaviourEvolutionModel,
+)
+
+from jga.geometry.behaviour_trajectory import (
+    BehaviourTrajectory,
+)
+
+
+def test_scientific_report_builder_preserves_behaviour_evolution():
+
+    result = BehaviourAnalyticsResult(
+        descriptor_set=DescriptorSet(
+            descriptors=(),
+        ),
+        analytical_structure=None,
+    )
+
+    evolution = BehaviourEvolutionModel(
+        trajectory=BehaviourTrajectory()
+    )
+
+    report = ScientificReportBuilder().build(
+        result,
+        evolution_model=evolution,
+    )
+
+    assert report.behaviour_evolution == evolution
+

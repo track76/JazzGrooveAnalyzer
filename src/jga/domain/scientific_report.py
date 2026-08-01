@@ -6,6 +6,10 @@ from jga.domain.scientific_evidence_collection import (
     ScientificEvidenceCollection,
 )
 
+from jga.domain.behaviour_evolution_model import (
+    BehaviourEvolutionModel,
+)
+
 
 @dataclass(
     frozen=True,
@@ -28,3 +32,7 @@ class ScientificReport:
     scientific_evidence: (
         ScientificEvidenceCollection | None
     )
+
+    behaviour_evolution: (
+        BehaviourEvolutionModel | None
+    ) = None

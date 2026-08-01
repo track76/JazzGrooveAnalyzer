@@ -18,6 +18,7 @@ class ScientificReportBuilder:
     def build(
         self,
         analytics_result: BehaviourAnalyticsResult,
+        evolution_model=None,
     ) -> ScientificReport:
 
         evidence = None
@@ -41,4 +42,5 @@ class ScientificReportBuilder:
                 analytics_result.analytical_structure
             ),
             scientific_evidence=evidence,
+            behaviour_evolution=evolution_model,
         )
