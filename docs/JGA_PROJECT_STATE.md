@@ -213,12 +213,12 @@ Completed
 
 ✓ Behaviour Analytics foundation completed
 
-✓ 450 / 450 tests passing
+✓ 485 tests passing
 
 Current objective:
 
-Complete Behaviour Evolution analysis and prepare
-trajectory-based behavioural modelling.
+Consolidate Behaviour Evolution analysis and prepare
+advanced behavioural dynamics modelling.
 
 Current focus:
 
@@ -252,10 +252,21 @@ Current focus:
 
 ✓ TemporalPersistence quantitative descriptor validated
 
-Open issue:
+Current focus:
 
-Behaviour Evolution and trajectory analysis remain the next
-development steps.
+✓ Behaviour State model implemented
+
+✓ Behaviour Transition model implemented
+
+✓ Evolution Episode model implemented
+
+✓ Behaviour Evolution Builder implemented
+
+✓ Behaviour Evolution full chain validated
+
+✓ Behaviour Evolution runtime integration completed
+
+✓ M28 architectural contracts validated
 
 ---
 
@@ -555,13 +566,13 @@ The following decisions are considered stable.
 
 # Current Milestone
 
-M4
+M28
 
-Metric Reconstruction
+Behaviour Evolution Analysis
 
 Status
 
-Consolidated
+Complete
 
 ---
 
