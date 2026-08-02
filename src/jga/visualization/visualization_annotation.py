@@ -8,6 +8,7 @@ It does not modify scientific data.
 """
 
 from dataclasses import dataclass
+from uuid import UUID
 
 
 @dataclass(frozen=True)
@@ -18,6 +19,7 @@ class VisualizationAnnotation:
 
     timestamp: float
     label: str
+    reference_id: UUID | None = None
 
     def __post_init__(self):
 

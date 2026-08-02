@@ -217,3 +217,72 @@ class ScientificVisualizationScene:
             ),
         )
 
+    def find_annotations(
+        self,
+        label: str,
+    ) -> tuple:
+        """
+        Returns annotations matching the given label.
+        """
+
+        return tuple(
+            annotation
+            for annotation in self.annotations
+            if annotation.label == label
+        )
+
+    def annotations_between(
+        self,
+        window,
+    ) -> tuple:
+        """
+        Returns annotations contained
+        inside the temporal window.
+        """
+
+        return tuple(
+            annotation
+            for annotation in self.annotations
+            if window.contains(
+                annotation.timestamp
+            )
+        )
+
+    def annotation_for_reference(
+        self,
+        reference_id,
+    ):
+        """
+        Returns the annotation associated with
+        the given external reference id.
+        """
+
+        for annotation in self.annotations:
+
+            if annotation.reference_id == reference_id:
+                return annotation
+
+        return None
+
+    def annotation_for_reference_in_window(
+        self,
+        reference_id,
+        window,
+    ):
+        """
+        Returns the annotation associated with a reference id
+        only if it belongs to the given temporal window.
+        """
+
+        for annotation in self.annotations:
+
+            if (
+                annotation.reference_id == reference_id
+                and window.contains(
+                    annotation.timestamp
+                )
+            ):
+                return annotation
+
+        return None
+
