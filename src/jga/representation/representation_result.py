@@ -16,7 +16,7 @@ class RepresentationResult:
     by the representation pipeline.
     """
 
-    metric_landscape: MetricLandscape
+    metric_landscape: MetricLandscape | None = None
 
     metric_landscapes: dict[
         str,
@@ -29,7 +29,10 @@ class RepresentationResult:
         self,
     ) -> None:
 
-        if not self.metric_landscapes:
+        if (
+            not self.metric_landscapes
+            and self.metric_landscape is not None
+        ):
 
             object.__setattr__(
                 self,
