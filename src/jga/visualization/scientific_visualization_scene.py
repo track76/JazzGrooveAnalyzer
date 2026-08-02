@@ -8,6 +8,10 @@ from jga.visualization.visualization_trajectory_descriptor import (
     VisualizationTrajectoryDescriptor,
 )
 
+from jga.visualization.visualization_annotation import (
+    VisualizationAnnotation,
+)
+
 
 @dataclass(frozen=True)
 class ScientificVisualizationScene:
@@ -17,6 +21,11 @@ class ScientificVisualizationScene:
 
     trajectories: tuple[
         VisualizationTrajectoryDescriptor,
+        ...
+    ] = ()
+
+    annotations: tuple[
+        VisualizationAnnotation,
         ...
     ] = ()
 
@@ -76,6 +85,7 @@ class ScientificVisualizationScene:
                 for trajectory in self.trajectories
                 if trajectory.identifier in identifiers
             ),
+            annotations=self.annotations,
         )
 
     def merge(
@@ -91,6 +101,10 @@ class ScientificVisualizationScene:
             trajectories=(
                 *self.trajectories,
                 *other.trajectories,
+            ),
+            annotations=(
+                *self.annotations,
+                *other.annotations,
             ),
         )
 
@@ -115,6 +129,7 @@ class ScientificVisualizationScene:
                 if trajectory.identifier
                 not in other_ids
             ),
+            annotations=self.annotations,
         )
 
     def trajectory_count(
@@ -168,6 +183,11 @@ class ScientificVisualizationScene:
                 )
                 for descriptor in self.trajectories
             ),
+            annotations=tuple(
+                annotation
+                for annotation in self.annotations
+                if start_time <= annotation.timestamp <= end_time
+            ),
         )
 
     def slice(
@@ -189,6 +209,11 @@ class ScientificVisualizationScene:
                     ),
                 )
                 for descriptor in self.trajectories
+            ),
+            annotations=tuple(
+                annotation
+                for annotation in self.annotations
+                if window.contains(annotation.timestamp)
             ),
         )
 
