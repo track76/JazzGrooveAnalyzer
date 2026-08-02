@@ -16,7 +16,7 @@ v0.2.0-alpha
 
 **Current Milestone**
 
-M27 — Scientific Evidence Chain and Report Integration
+M31 — Real Source Separation Integration
 
 **Status**
 
@@ -574,9 +574,9 @@ The following decisions are considered stable.
 
 # Current Milestone
 
-M29
+M31
 
-Scientific Report Evolution Integration
+Real Source Separation Integration
 
 Status
 
@@ -588,23 +588,23 @@ Complete
 
 1.
 
-Complete M4 Metric Reconstruction consolidation
+Integrate Source Understanding with real AudioStem inputs
 
 2.
 
-Document Translation Layer contracts
+Define source role inference strategy
 
 3.
 
-Verify Domain/Core boundary stability
+Connect separated sources with Musical Function assignment
 
 4.
 
-Prepare Behaviour Analysis models (M5)
+Validate Metric Contributor identification on real separated sources
 
 5.
 
-Define validation strategy for higher-level analysis
+Prepare M32 Source Understanding Integration
 
 ---
 
