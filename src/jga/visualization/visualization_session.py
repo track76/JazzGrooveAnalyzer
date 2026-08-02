@@ -37,6 +37,8 @@ class VisualizationSession:
         ...
     ] = ()
 
+    history_index: int = 0
+
     def __post_init__(self):
         if not self.history:
             object.__setattr__(
@@ -68,6 +70,68 @@ class VisualizationSession:
             state=self.state,
         )
 
+
+
+
+
+
+
+    def redo(
+        self,
+    ) -> "VisualizationSession":
+        """
+        Returns a new session positioned
+        at the next state.
+        """
+
+        if (
+            self.history_index
+            >= len(self.history) - 1
+        ):
+            return self
+
+        next_index = (
+            self.history_index + 1
+        )
+
+        return VisualizationSession(
+            state=self.history[next_index],
+            projection_pipeline=self.projection_pipeline,
+            history=self.history,
+            history_index=next_index,
+        )
+
+    def undo(
+        self,
+    ) -> "VisualizationSession":
+        """
+        Returns a new session positioned
+        at the previous state.
+        """
+
+        if self.history_index == 0:
+            return self
+
+        previous_index = (
+            self.history_index - 1
+        )
+
+        return VisualizationSession(
+            state=self.history[previous_index],
+            projection_pipeline=self.projection_pipeline,
+            history=self.history,
+            history_index=previous_index,
+        )
+
+    def current_state(
+        self,
+    ) -> VisualizationState:
+        """
+        Returns the current visualization state.
+        """
+
+        return self.state
+
     def update_state(
         self,
         **changes,
@@ -90,4 +154,5 @@ class VisualizationSession:
                 *self.history,
                 new_state,
             ),
+            history_index=len(self.history),
         )
