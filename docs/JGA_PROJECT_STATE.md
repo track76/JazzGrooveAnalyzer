@@ -974,3 +974,98 @@ Next step
 Proceed with the next milestone after repository
 state synchronization.
 
+
+============================================================
+M36 — Domain Reconstruction Builder Integration
+============================================================
+
+Status
+
+Completed
+
+
+Objective
+
+Separate metric reconstruction responsibility from
+DefaultDomainInputBuilder through an explicit
+Domain Reconstruction boundary.
+
+
+Completed work
+
+
+M36.1
+
+Introduced DomainReconstructionResult.
+
+The output contract contains:
+
+- domain pulse candidates;
+- ElementaryMetricEvents;
+- BeatReferences;
+- MetricClusters;
+- Pulses;
+- InternalMetricTimeline.
+
+
+M36.2
+
+Introduced DomainReconstructionBuilder interface.
+
+
+M36.3
+
+Implemented DefaultDomainReconstructionBuilder.
+
+The builder centralizes:
+
+- Elementary Metric Event reconstruction;
+- Beat Reference generation;
+- Metric Cluster construction;
+- Pulse construction;
+- Internal Metric Timeline reconstruction.
+
+
+M36.4
+
+Aligned τ8 translation before
+DomainReconstructionInput creation.
+
+
+M36.5
+
+Integrated DomainReconstructionBuilder into
+DefaultDomainInputBuilder.
+
+
+M36.6
+
+Removed obsolete reconstruction dependencies
+from DefaultDomainInputBuilder.
+
+
+Validation
+
+Full test suite:
+
+503 passed
+
+
+Architectural result
+
+Metric reconstruction is now isolated behind:
+
+τ8 Translator
+
+↓
+
+DomainReconstructionInput
+
+↓
+
+DomainReconstructionBuilder
+
+↓
+
+DomainReconstructionResult
+
