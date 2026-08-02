@@ -142,3 +142,31 @@ class ScientificVisualizationScene:
             )
             for descriptor in self.trajectories
         )
+
+    def slice_time(
+        self,
+        start_time: float,
+        end_time: float,
+    ) -> "ScientificVisualizationScene":
+        """
+        Returns a new scene containing
+        trajectories sliced by time window.
+        """
+
+        from jga.visualization.visualization_trajectory_descriptor import (
+            VisualizationTrajectoryDescriptor,
+        )
+
+        return ScientificVisualizationScene(
+            trajectories=tuple(
+                VisualizationTrajectoryDescriptor(
+                    identifier=descriptor.identifier,
+                    trajectory=descriptor.trajectory.slice(
+                        start_time,
+                        end_time,
+                    ),
+                )
+                for descriptor in self.trajectories
+            ),
+        )
+
