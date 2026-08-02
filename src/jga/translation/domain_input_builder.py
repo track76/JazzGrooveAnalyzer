@@ -50,6 +50,9 @@ from jga.translation.semantic_bridge import (
 from jga.translation.domain_reconstruction_input_builder import (
     DomainReconstructionInputBuilder,
 )
+from jga.translation.domain_reconstruction_builder import (
+    DefaultDomainReconstructionBuilder,
+)
 from jga.translation.tau8_translator import Tau8Translator
 
 
@@ -86,6 +89,10 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
 
         self.reconstruction_input_builder = (
             DomainReconstructionInputBuilder()
+        )
+
+        self.domain_reconstruction_builder = (
+            DefaultDomainReconstructionBuilder()
         )
 
         self.tau8 = Tau8Translator()
@@ -146,6 +153,17 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
             )
         )
 
+        #
+        # τ₈
+        #
+
+        context.domain_pulse_candidates = (
+            self.tau8.translate(
+                context.metric_context,
+                sound_sources,
+            )
+        )
+
         reconstruction_input = (
             self.reconstruction_input_builder.build(
                 context
@@ -154,17 +172,6 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
 
         context.metric_contributors = (
             reconstruction_input.metric_contributors
-        )
-
-        #
-        # τ₈
-        #
-
-        context.domain_pulse_candidates = (
-            self.tau8.translate(
-                reconstruction_input.metric_context,
-                reconstruction_input.sound_sources,
-            )
         )
 
         #

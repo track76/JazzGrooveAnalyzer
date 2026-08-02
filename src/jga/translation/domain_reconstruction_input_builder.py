@@ -42,4 +42,7 @@ class DomainReconstructionInputBuilder:
             metric_contributors=(
                 context.ensemble_analysis_result.metric_contributors
             ),
+            domain_pulse_candidates=(
+                context.domain_pulse_candidates
+            ),
         )
