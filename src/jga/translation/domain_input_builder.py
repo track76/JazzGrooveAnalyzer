@@ -16,29 +16,14 @@ All Rights Reserved.
 =========================================================
 """
 
-from jga.domain.services.beat_reference_builder import (
-    BeatReferenceBuilder,
-)
 from jga.domain.services.behaviour_observation_builder import (
     BehaviourObservationBuilder,
 )
 from jga.domain.services.behaviour_profile_builder import (
     BehaviourProfileBuilder,
 )
-from jga.domain.services.elementary_metric_event_builder import (
-    ElementaryMetricEventBuilder,
-)
 from jga.domain.services.ensemble_analysis_pipeline import (
     EnsembleAnalysisPipeline,
-)
-from jga.domain.services.internal_metric_timeline_reconstructor import (
-    InternalMetricTimelineReconstructor,
-)
-from jga.domain.services.metric_cluster_builder import (
-    MetricClusterBuilder,
-)
-from jga.domain.services.pulse_builder import (
-    PulseBuilder,
 )
 from jga.interfaces.translation.domain_input_builder import (
     DomainInputBuilder,
@@ -96,18 +81,6 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         )
 
         self.tau8 = Tau8Translator()
-
-        self.eme_builder = ElementaryMetricEventBuilder()
-
-        self.beat_builder = BeatReferenceBuilder()
-
-        self.cluster_builder = MetricClusterBuilder()
-
-        self.pulse_builder = PulseBuilder()
-
-        self.timeline_builder = (
-            InternalMetricTimelineReconstructor()
-        )
 
         self.behaviour_observation_builder = (
             BehaviourObservationBuilder()
