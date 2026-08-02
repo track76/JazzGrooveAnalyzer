@@ -1,57 +1,68 @@
 """
 Matplotlib Renderer.
-
-Concrete graphical renderer implementation.
 """
 
 import matplotlib.pyplot as plt
+
+from jga.visualization.scientific_visualization_scene import (
+    ScientificVisualizationScene,
+)
 
 from jga.visualization.visual_trajectory import (
     VisualTrajectory,
 )
 
-from jga.visualization.renderers.graphical_renderer import (
-    GraphicalRenderer,
-)
 
-
-class MatplotlibRenderer(GraphicalRenderer):
+class MatplotlibRenderer:
     """
-    Static scientific renderer.
+    Scientific matplotlib renderer.
     """
 
     def render(
         self,
         trajectory: VisualTrajectory,
     ):
+
+        figure = plt.figure()
+
+        axes = figure.add_subplot(111)
+
+        if trajectory.points:
+
+            axes.plot(
+                [p.x for p in trajectory.points],
+                [p.y for p in trajectory.points],
+            )
+
+        return figure
+
+    def render_scene(
+        self,
+        scene: ScientificVisualizationScene,
+    ):
         """
-        Creates a scientific plot.
+        Renders every trajectory contained
+        in one scientific visualization scene.
         """
 
-        x_values = [
-            point.x
-            for point in trajectory.points
-        ]
+        figure = plt.figure()
 
-        y_values = [
-            point.y
-            for point in trajectory.points
-        ]
+        axes = figure.add_subplot(111)
 
-        figure, axis = plt.subplots()
+        for descriptor in scene.trajectories:
 
-        axis.plot(
-            x_values,
-            y_values,
-            marker="o",
-        )
+            trajectory = descriptor.trajectory
 
-        axis.set_xlabel(
-            "Temporal Order"
-        )
+            if trajectory.is_empty():
+                continue
 
-        axis.set_ylabel(
-            "Metric Temporal Displacement"
-        )
+            axes.plot(
+                [p.x for p in trajectory.points],
+                [p.y for p in trajectory.points],
+                label=descriptor.identifier,
+            )
+
+        if scene.trajectory_count() > 1:
+            axes.legend()
 
         return figure

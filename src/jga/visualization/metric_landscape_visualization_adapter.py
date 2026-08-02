@@ -9,6 +9,10 @@ from jga.representation.metric_landscape import (
     MetricLandscape,
 )
 
+from jga.representation.representation_result import (
+    RepresentationResult,
+)
+
 from jga.visualization.visual_point import (
     VisualPoint,
 )
@@ -55,3 +59,18 @@ class MetricLandscapeVisualizationAdapter:
         return VisualTrajectory(
             points=points,
         )
+
+    def adapt_source(
+        self,
+        result: RepresentationResult,
+        source: str,
+    ) -> VisualTrajectory:
+        """
+        Extracts a source-specific landscape
+        and adapts it into a visual trajectory.
+        """
+
+        return self.adapt(
+            result.get_landscape(source)
+        )
+
