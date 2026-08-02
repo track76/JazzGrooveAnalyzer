@@ -1069,3 +1069,73 @@ DomainReconstructionBuilder
 
 DomainReconstructionResult
 
+============================================================
+M37 — Behaviour Construction Boundary
+============================================================
+
+Status
+
+Completed
+
+
+Objective
+
+Separate behaviour construction responsibility from
+DefaultDomainInputBuilder through an explicit
+Behaviour Construction boundary.
+
+
+Completed work
+
+
+M37.1
+
+Introduced BehaviourConstructionResult.
+
+The output contract contains:
+
+- BehaviourObservations;
+- BehaviourProfile.
+
+
+M37.2
+
+Implemented BehaviourConstructionBuilder.
+
+The builder centralizes:
+
+- BehaviourObservation construction;
+- BehaviourProfile construction.
+
+
+M37.3
+
+Integrated BehaviourConstructionBuilder into
+DefaultDomainInputBuilder.
+
+
+Validation
+
+Full test suite:
+
+505 passed
+
+
+Architectural result
+
+Behaviour construction is now isolated behind:
+
+InternalMetricTimeline
+
+↓
+
+BehaviourConstructionBuilder
+
+↓
+
+BehaviourConstructionResult
+
+↓
+
+BehaviourProfile
+
