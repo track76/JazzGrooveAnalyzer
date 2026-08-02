@@ -19,17 +19,40 @@ class TemporalVisualizationWindow:
     end_time: float
 
     def __post_init__(self) -> None:
+
         if self.start_time < 0:
-            raise ValueError("start_time must be non-negative.")
+            raise ValueError(
+                "start_time must be non-negative."
+            )
 
         if self.end_time < self.start_time:
             raise ValueError(
                 "end_time must be greater than or equal to start_time."
             )
 
-    @property
-    def duration(self) -> float:
-        return self.end_time - self.start_time
+    def duration(
+        self,
+    ) -> float:
+        """
+        Returns the temporal length of the window.
+        """
 
-    def contains(self, time: float) -> bool:
-        return self.start_time <= time <= self.end_time
+        return (
+            self.end_time
+            - self.start_time
+        )
+
+    def contains(
+        self,
+        time: float,
+    ) -> bool:
+        """
+        Returns whether a timestamp belongs
+        to the window.
+        """
+
+        return (
+            self.start_time
+            <= time
+            <= self.end_time
+        )

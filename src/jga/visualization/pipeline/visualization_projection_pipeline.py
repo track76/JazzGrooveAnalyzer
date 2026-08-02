@@ -21,6 +21,10 @@ from jga.visualization.scientific_visualization_scene import (
     ScientificVisualizationScene,
 )
 
+from jga.visualization.temporal_visualization_window import (
+    TemporalVisualizationWindow,
+)
+
 
 @dataclass(frozen=True, slots=True)
 class VisualizationProjectionPipeline:
@@ -37,13 +41,19 @@ class VisualizationProjectionPipeline:
     def project(
         self,
         scene: ScientificVisualizationScene,
+        window: TemporalVisualizationWindow | None = None,
     ) -> ScientificVisualizationScene:
         """
-        Applies all configured projectors
-        in sequence.
+        Applies an optional temporal window
+        and all configured projectors.
         """
 
         current_scene = scene
+
+        if window is not None:
+            current_scene = current_scene.slice(
+                window,
+            )
 
         for projector in self.projectors:
             current_scene = projector.project(

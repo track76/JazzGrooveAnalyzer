@@ -170,3 +170,25 @@ class ScientificVisualizationScene:
             ),
         )
 
+    def slice(
+        self,
+        window,
+    ) -> "ScientificVisualizationScene":
+        """
+        Returns a new scene filtered by a
+        TemporalVisualizationWindow.
+        """
+
+        return ScientificVisualizationScene(
+            trajectories=tuple(
+                VisualizationTrajectoryDescriptor(
+                    identifier=descriptor.identifier,
+                    trajectory=descriptor.trajectory.slice(
+                        window.start_time,
+                        window.end_time,
+                    ),
+                )
+                for descriptor in self.trajectories
+            ),
+        )
+
