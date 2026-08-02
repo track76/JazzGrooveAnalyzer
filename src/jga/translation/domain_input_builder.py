@@ -162,8 +162,8 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
 
         context.domain_pulse_candidates = (
             self.tau8.translate(
-                context.metric_context,
-                context.ensemble_analysis_result.sound_sources,
+                reconstruction_input.metric_context,
+                reconstruction_input.sound_sources,
             )
         )
 
@@ -174,7 +174,7 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         context.elementary_metric_events = (
             self.eme_builder.build(
                 context.domain_pulse_candidates,
-                context.ensemble_analysis_result.metric_contributors,
+                reconstruction_input.metric_contributors,
             )
         )
 
