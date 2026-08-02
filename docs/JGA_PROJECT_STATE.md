@@ -884,3 +884,93 @@ Otherwise:
 
     introduce a new AD before implementation.
 
+
+============================================================
+M35 — Domain Reconstruction Boundary
+============================================================
+
+Status
+
+Completed
+
+
+Objective
+
+Introduce an explicit boundary between runtime context
+and domain metric reconstruction.
+
+The reconstruction layer must consume an explicit
+DomainReconstructionInput instead of accessing
+runtime structures directly.
+
+
+Completed work
+
+M35.1
+
+Introduced DomainReconstructionInput.
+
+The contract contains:
+
+- SoundSource collection;
+- MetricContext;
+- MetricContributor collection.
+
+
+M35.2
+
+Introduced DomainReconstructionInputBuilder.
+
+The adapter converts AnalysisContext information into
+the explicit reconstruction input contract.
+
+
+M35.3
+
+Integrated DomainReconstructionInput into
+DefaultDomainInputBuilder.
+
+
+M35.4
+
+Migrated metric reconstruction to consume:
+
+- reconstruction_input.metric_context;
+- reconstruction_input.sound_sources;
+- reconstruction_input.metric_contributors.
+
+
+Validation
+
+Full test suite:
+
+499 passed
+
+
+Architectural result
+
+The metric reconstruction layer no longer depends
+directly on AnalysisContext internals.
+
+The boundary is:
+
+AnalysisContext
+
+↓
+
+DomainReconstructionInputBuilder
+
+↓
+
+DomainReconstructionInput
+
+↓
+
+Metric Reconstruction
+
+
+Next step
+
+Proceed with the next milestone after repository
+state synchronization.
+
