@@ -1,8 +1,13 @@
+from datetime import datetime
+
 from jga.source_understanding.ensemble_profile import EnsembleProfile
 from jga.source_understanding.instrument_classification import (
     InstrumentClassification,
 )
 from jga.source_understanding.instrument_family import InstrumentFamily
+from jga.source_understanding.observation_provenance import (
+    ObservationProvenance,
+)
 from jga.source_understanding.observed_source import ObservedSource
 from jga.source_understanding.observed_source_collection import (
     ObservedSourceCollection,
@@ -13,14 +18,21 @@ from jga.source_understanding.services.ensemble_profile_builder import (
 
 
 def make_source(family: InstrumentFamily) -> ObservedSource:
+    stem_id = family.name.lower()
+
     return ObservedSource(
-        stem_id=family.name.lower(),
+        stem_id=stem_id,
         classification=InstrumentClassification(
             family=family,
             instrument=None,
             confidence=1.0,
             classifier_name="Dummy",
             classifier_version="0.1",
+        ),
+        provenance=ObservationProvenance(
+            stem_id=stem_id,
+            pipeline_stage="test",
+            created_at=datetime.now(),
         ),
     )
 

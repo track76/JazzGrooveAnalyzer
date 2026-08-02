@@ -8,9 +8,6 @@ from jga.core.metric_source import MetricSource
 from jga.core.pulse_candidate import PulseCandidate as CorePulseCandidate
 from jga.core.source_pulse_sequence import SourcePulseSequence
 
-from jga.domain.services.dummy_source_identification_service import (
-    DummySourceIdentificationService,
-)
 from jga.domain.services.rule_based_ensemble_analysis_pipeline import (
     RuleBasedEnsembleAnalysisPipeline,
 )
@@ -26,6 +23,12 @@ from jga.domain.audio_stem import AudioStem
 from jga.translation.domain_input_builder import (
     DefaultDomainInputBuilder,
 )
+from jga.translation.dummy_semantic_bridge import (
+    DummySemanticBridge,
+)
+from tests.source_understanding.observed_source_factory import (
+    make_observed_sources,
+)
 
 from jga.runtime.analysis_context import AnalysisContext
 
@@ -33,12 +36,12 @@ from jga.runtime.analysis_context import AnalysisContext
 def create_builder():
 
     ensemble_pipeline = RuleBasedEnsembleAnalysisPipeline(
-        source_identifier=DummySourceIdentificationService(),
         function_assigner=RuleBasedMusicalFunctionAssignmentService(),
         contributor_assigner=RuleBasedMetricContributorAssignmentService(),
     )
 
     return DefaultDomainInputBuilder(
+        semantic_bridge=DummySemanticBridge(),
         ensemble_pipeline=ensemble_pipeline,
     )
 
@@ -76,6 +79,9 @@ def test_m4_complete_domain_translation_flow():
 
     context = AnalysisContext(
         audio=None,
+        observed_sources=make_observed_sources(
+            stem_id=stem.name
+        ),
         audio_stems=AudioStemCollection(
             (
                 stem,
@@ -144,6 +150,9 @@ def test_m4_metric_source_sound_source_contract():
 
     context = AnalysisContext(
         audio=None,
+        observed_sources=make_observed_sources(
+            stem_id=stem.name
+        ),
         audio_stems=AudioStemCollection(
             (
                 stem,

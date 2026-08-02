@@ -82,6 +82,10 @@ from jga.domain.scientific_report import (
     ScientificReport,
 )
 
+from jga.source_understanding.observed_source_collection import (
+    ObservedSourceCollection,
+)
+
 from jga.source_understanding.ensemble_profile import (
     EnsembleProfile,
 )
@@ -121,6 +125,10 @@ class AnalysisContext:
     # =====================================================
     # Source Understanding (M32)
     # =====================================================
+
+    observed_sources: (
+        ObservedSourceCollection | None
+    ) = None
 
     ensemble_profile: EnsembleProfile | None = None
 

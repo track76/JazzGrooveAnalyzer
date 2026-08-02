@@ -1,11 +1,14 @@
 from __future__ import annotations
 
+from datetime import datetime
+
 from jga.core.audio_stem_collection import AudioStemCollection
 from jga.source_understanding.basic_feature_extractor import BasicFeatureExtractor
 from jga.source_understanding.classifiers.dummy_instrument_classifier import (
     DummyInstrumentClassifier,
 )
 from jga.source_understanding.observed_source import ObservedSource
+from jga.source_understanding.observation_provenance import ObservationProvenance
 from jga.source_understanding.observed_source_collection import (
     ObservedSourceCollection,
 )
@@ -34,6 +37,11 @@ class SourceUnderstandingService:
                 ObservedSource(
                     stem_id=stem.name,
                     classification=classification,
+                    provenance=ObservationProvenance(
+                        stem_id=stem.name,
+                        pipeline_stage="SourceUnderstandingService",
+                        created_at=datetime.now(),
+                    ),
                 )
             )
 

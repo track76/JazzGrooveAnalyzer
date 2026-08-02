@@ -58,6 +58,9 @@ from jga.domain.services.rule_based_musical_function_assignment_service import (
 from jga.translation.domain_input_builder import (
     DefaultDomainInputBuilder,
 )
+from jga.translation.dummy_semantic_bridge import (
+    DummySemanticBridge,
+)
 
 from jga.domain.services.rule_based_behaviour_analytics_pipeline import (
     RuleBasedBehaviourAnalyticsPipeline,
@@ -131,8 +134,6 @@ class AnalysisPipeline:
 
         self.metric_cluster_builder = MetricClusterBuilder()
 
-        source_identifier = DummySourceIdentificationService()
-
         function_assigner = (
             RuleBasedMusicalFunctionAssignmentService()
         )
@@ -143,14 +144,16 @@ class AnalysisPipeline:
 
         ensemble_pipeline = (
             RuleBasedEnsembleAnalysisPipeline(
-                source_identifier=source_identifier,
                 function_assigner=function_assigner,
                 contributor_assigner=contributor_assigner,
             )
         )
 
+        semantic_bridge = DummySemanticBridge()
+
         self.domain_input_builder = (
             DefaultDomainInputBuilder(
+                semantic_bridge=semantic_bridge,
                 ensemble_pipeline=ensemble_pipeline,
             )
         )
@@ -200,10 +203,18 @@ class AnalysisPipeline:
 
         context = self.separator.process(context)
 
-        context.ensemble_profile = (
+        source_result = (
             self.source_understanding.process(
                 context.audio_stems
             )
+        )
+
+        context.observed_sources = (
+            source_result.observed_sources
+        )
+
+        context.ensemble_profile = (
+            source_result.ensemble_profile
         )
 
 

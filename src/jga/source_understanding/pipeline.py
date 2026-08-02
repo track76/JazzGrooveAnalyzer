@@ -1,5 +1,7 @@
 from jga.core.audio_stem_collection import AudioStemCollection
-from jga.source_understanding.ensemble_profile import EnsembleProfile
+from jga.source_understanding.source_understanding_pipeline_result import (
+    SourceUnderstandingPipelineResult,
+)
 from jga.source_understanding.services.ensemble_profile_builder import (
     EnsembleProfileBuilder,
 )
@@ -10,7 +12,7 @@ from jga.source_understanding.services.source_understanding_service import (
 
 class SourceUnderstandingPipeline:
     """
-    Complete source understanding pipeline.
+    Complete Source Understanding pipeline.
 
     AudioStemCollection
             │
@@ -19,6 +21,9 @@ class SourceUnderstandingPipeline:
             │
             ▼
     EnsembleProfile
+            │
+            ▼
+    SourceUnderstandingPipelineResult
     """
 
     def __init__(self) -> None:
@@ -28,8 +33,13 @@ class SourceUnderstandingPipeline:
     def process(
         self,
         stems: AudioStemCollection,
-    ) -> EnsembleProfile:
+    ) -> SourceUnderstandingPipelineResult:
 
         observed = self._service.process(stems)
 
-        return self._builder.build(observed)
+        profile = self._builder.build(observed)
+
+        return SourceUnderstandingPipelineResult(
+            observed_sources=observed,
+            ensemble_profile=profile,
+        )

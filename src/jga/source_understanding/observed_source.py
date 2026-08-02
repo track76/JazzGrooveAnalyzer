@@ -3,6 +3,9 @@ from dataclasses import dataclass
 from jga.source_understanding.instrument_classification import (
     InstrumentClassification,
 )
+from jga.source_understanding.observation_provenance import (
+    ObservationProvenance,
+)
 
 
 @dataclass(frozen=True, slots=True)
@@ -16,3 +19,4 @@ class ObservedSource:
 
     stem_id: str
     classification: InstrumentClassification
+    provenance: ObservationProvenance

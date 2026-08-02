@@ -1,7 +1,12 @@
+from datetime import datetime
+
 from jga.source_understanding.instrument_classification import (
     InstrumentClassification,
 )
 from jga.source_understanding.instrument_family import InstrumentFamily
+from jga.source_understanding.observation_provenance import (
+    ObservationProvenance,
+)
 from jga.source_understanding.observed_source import ObservedSource
 from jga.source_understanding.observed_source_collection import (
     ObservedSourceCollection,
@@ -17,6 +22,11 @@ def make_source(stem_id: str) -> ObservedSource:
             confidence=0.0,
             classifier_name="DummyClassifier",
             classifier_version="0.1.0",
+        ),
+        provenance=ObservationProvenance(
+            stem_id=stem_id,
+            pipeline_stage="test",
+            created_at=datetime.now(),
         ),
     )
 

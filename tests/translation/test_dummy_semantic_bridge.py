@@ -1,15 +1,9 @@
 from datetime import datetime
 
-from jga.domain.ensemble_profile import EnsembleProfile
-from jga.domain.services.ensemble_understanding_service import (
-    EnsembleUnderstandingService,
-)
 from jga.source_understanding.instrument_classification import (
     InstrumentClassification,
 )
-from jga.source_understanding.instrument_family import (
-    InstrumentFamily,
-)
+from jga.source_understanding.instrument_family import InstrumentFamily
 from jga.source_understanding.observation_provenance import (
     ObservationProvenance,
 )
@@ -19,19 +13,22 @@ from jga.source_understanding.observed_source import (
 from jga.source_understanding.observed_source_collection import (
     ObservedSourceCollection,
 )
+from jga.translation.dummy_semantic_bridge import (
+    DummySemanticBridge,
+)
 
 
-def test_ensemble_understanding_creates_profile():
+def test_dummy_semantic_bridge_translates_observations():
 
-    observed = ObservedSourceCollection(
+    observations = ObservedSourceCollection(
         (
             ObservedSource(
                 stem_id="bass",
                 classification=InstrumentClassification(
                     family=InstrumentFamily.BASS,
-                    instrument="bass",
-                    confidence=0.9,
-                    classifier_name="test",
+                    instrument="Double Bass",
+                    confidence=1.0,
+                    classifier_name="Dummy",
                     classifier_version="0.1",
                 ),
                 provenance=ObservationProvenance(
@@ -43,17 +40,10 @@ def test_ensemble_understanding_creates_profile():
         )
     )
 
-    service = EnsembleUnderstandingService()
+    bridge = DummySemanticBridge()
 
-    profile = service.analyze(observed)
+    sound_sources = bridge.translate(observations)
 
-    assert isinstance(
-        profile,
-        EnsembleProfile,
-    )
-
-    assert len(profile.sound_sources) == 1
-
-    assert len(
-        profile.source_function_assignments
-    ) == 1
+    assert len(sound_sources) == 1
+    assert sound_sources[0].name == "bass"
+    assert sound_sources[0].family == "bass"

@@ -44,6 +44,9 @@ from jga.interfaces.translation.domain_input_builder import (
     DomainInputBuilder,
 )
 from jga.runtime.analysis_context import AnalysisContext
+from jga.translation.semantic_bridge import (
+    SemanticBridge,
+)
 from jga.translation.tau8_translator import Tau8Translator
 
 
@@ -70,8 +73,11 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
 
     def __init__(
         self,
+        semantic_bridge: SemanticBridge,
         ensemble_pipeline: EnsembleAnalysisPipeline,
     ) -> None:
+
+        self._semantic_bridge = semantic_bridge
 
         self._ensemble_pipeline = ensemble_pipeline
 
@@ -107,9 +113,9 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
                 "AnalysisContext cannot be None."
             )
 
-        if context.audio_stems is None:
+        if context.observed_sources is None:
             raise ValueError(
-                "AudioStemCollection required."
+                "ObservedSourceCollection required."
             )
 
         if context.metric_context is None:
@@ -121,9 +127,15 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         # Ensemble understanding
         #
 
+        sound_sources = (
+            self._semantic_bridge.translate(
+                context.observed_sources
+            )
+        )
+
         context.ensemble_analysis_result = (
             self._ensemble_pipeline.analyze(
-                tuple(context.audio_stems)
+                sound_sources
             )
         )
 
