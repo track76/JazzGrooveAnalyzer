@@ -1514,3 +1514,119 @@ Graphical rendering
 without coupling Visualization Layer to Domain
 or Analysis implementation details.
 
+
+============================================================
+M41 — Scientific Visualization Semantics
+============================================================
+
+Status
+
+Completed
+
+
+Objective
+
+Define the scientific meaning and interpretation
+rules of JGA visual representations.
+
+
+Completed work
+
+
+M41.1
+
+Scientific Visualization Semantics
+
+Defined the boundary between:
+
+Scientific Representation
+
+↓
+
+Visualization
+
+↓
+
+Human Interpretation
+
+
+M41.2
+
+Visualization Frame Contract
+
+Validated ScientificVisualizationFrame as the
+immutable container connecting Representation
+objects to Visualization.
+
+
+M41.3
+
+Visual Projection Contract
+
+Validated the projection:
+
+MetricPoint
+
+↓
+
+VisualPoint
+
+
+while preserving scientific coordinate meaning.
+
+
+M41.4
+
+Trajectory Semantics Contract
+
+Validated that VisualTrajectory preserves:
+
+- temporal ordering;
+- metric evolution;
+- observable sequence structure.
+
+
+M41.5
+
+Visualization Interpretation Contract
+
+Defined that visualization represents observable
+metric behaviour without assigning automatic
+musical judgement.
+
+
+Validation
+
+Visualization semantic tests:
+
+10 passed
+
+
+Architectural result
+
+JGA visualization is now defined as:
+
+Scientific representation projection
+
+not
+
+automatic musical interpretation.
+
+
+Visualization Layer:
+
+Consumes:
+- MetricLandscape
+- ScientificVisualizationFrame
+- Representation objects
+
+
+Produces:
+- VisualPoint
+- VisualTrajectory
+- Scientific Figures
+
+
+The renderer changes graphical appearance only.
+It does not modify scientific meaning.
+
