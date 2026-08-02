@@ -38,6 +38,10 @@ from jga.runtime.analysis_report import AnalysisReport
 
 from jga.separation.null_separator import NullSeparator
 
+from jga.source_understanding.pipeline import (
+    SourceUnderstandingPipeline,
+)
+
 from jga.domain.services.dummy_source_identification_service import (
     DummySourceIdentificationService,
 )
@@ -100,6 +104,8 @@ class AnalysisPipeline:
             if separator is not None
             else NullSeparator()
         )
+
+        self.source_understanding = SourceUnderstandingPipeline()
 
         self.intro_detector = IntroDetector()
 
@@ -193,6 +199,13 @@ class AnalysisPipeline:
         context = self.preprocessor.process(context)
 
         context = self.separator.process(context)
+
+        context.ensemble_profile = (
+            self.source_understanding.process(
+                context.audio_stems
+            )
+        )
+
 
         context = self.pulse_detector.process(context)
 

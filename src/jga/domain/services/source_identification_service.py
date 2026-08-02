@@ -8,16 +8,18 @@ from jga.domain.sound_source import SoundSource
 
 class SourceIdentificationService(ABC):
     """
-    Identifies the musical sound sources contained
-    in a collection of separated audio stems.
+    Transforms observed AudioStems into SoundSources.
+
+    Input:
+        tuple[AudioStem, ...]
+
+    Output:
+        tuple[SoundSource, ...]
     """
 
     @abstractmethod
     def identify(
         self,
-        stems: tuple[AudioStem, ...],
+        audio_stems: tuple[AudioStem, ...],
     ) -> tuple[SoundSource, ...]:
-        """
-        Build the corresponding SoundSource objects.
-        """
-        ...
+        raise NotImplementedError

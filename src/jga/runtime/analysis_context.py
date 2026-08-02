@@ -82,6 +82,10 @@ from jga.domain.scientific_report import (
     ScientificReport,
 )
 
+from jga.source_understanding.ensemble_profile import (
+    EnsembleProfile,
+)
+
 
 @dataclass
 class AnalysisContext:
@@ -112,6 +116,13 @@ class AnalysisContext:
     signal_representation: SignalRepresentation | None = None
 
     audio_stems: AudioStemCollection | None = None
+
+
+    # =====================================================
+    # Source Understanding (M32)
+    # =====================================================
+
+    ensemble_profile: EnsembleProfile | None = None
 
     # =====================================================
     # Intro / Metric Activation Point

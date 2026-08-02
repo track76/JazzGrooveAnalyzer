@@ -706,7 +706,7 @@ Repository synchronized.
 
 Working tree clean.
 
-450 / 450 tests passing.
+494 / 494 tests passing.
 
 Observation Layer completed.
 

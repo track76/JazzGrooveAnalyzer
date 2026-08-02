@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from datetime import datetime
 from uuid import uuid4
 
@@ -8,25 +10,26 @@ from jga.domain.services.source_identification_service import (
 from jga.domain.sound_source import SoundSource
 
 
-class DummySourceIdentificationService(SourceIdentificationService):
+class DummySourceIdentificationService(
+    SourceIdentificationService,
+):
+    """
+    Dummy implementation that creates one SoundSource
+    for each observed AudioStem.
+    """
 
     def identify(
         self,
-        stems: tuple[AudioStem, ...],
+        audio_stems: tuple[AudioStem, ...],
     ) -> tuple[SoundSource, ...]:
 
-        sources: list[SoundSource] = []
-
-        for stem in stems:
-
-            sources.append(
-                SoundSource(
-                    id=uuid4(),
-                    name=stem.name,
-                    family="unknown",
-                    description=None,
-                    created_at=datetime.now(),
-                )
+        return tuple(
+            SoundSource(
+                id=uuid4(),
+                name=stem.name,
+                family="unknown",
+                description=None,
+                created_at=datetime.now(),
             )
-
-        return tuple(sources)
+            for stem in audio_stems
+        )
