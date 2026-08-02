@@ -117,3 +117,58 @@ Development principles:
 - Domain first
 - Tests before integration
 - Real audio validation required
+
+===============================================================================
+SESSION UPDATE
+===============================================================================
+
+Milestone completed:
+M42 — Scientific Visualization Evolution
+
+Completed during this session:
+
+- TemporalVisualizationWindow
+- VisualPoint temporal contract
+- TemporalVisualizationProjector
+- DefaultTemporalVisualizationProjector
+- VisualizationProjectionPipeline
+
+Architectural outcome:
+
+Visualization pipeline now supports immutable,
+composable transformations operating on
+ScientificVisualizationScene objects.
+
+Current visualization architecture:
+
+MetricLandscape
+        ↓
+MetricLandscapeVisualizationAdapter
+        ↓
+VisualTrajectory
+        ↓
+ScientificVisualizationScene
+        ↓
+VisualizationProjectionPipeline
+        ↓
+ScientificVisualizationScene
+        ↓
+Renderer
+
+Validation:
+
+- Visualization migration completed.
+- 108 tests passed.
+- No architectural regressions.
+
+Decision:
+
+Real audio visualization validation has been
+intentionally postponed until the visualization
+layer supports full temporal exploration
+(window navigation, zoom, viewport).
+
+Next milestone:
+
+M43 — Scientific Visualization Exploration
+

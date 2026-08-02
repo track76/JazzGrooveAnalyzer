@@ -44,11 +44,8 @@ class MetricLandscapeVisualizationAdapter:
         points = tuple(
             VisualPoint(
                 x=float(index),
-                y=(
-                    metric_point
-                    .coordinate
-                    .value
-                ),
+                y=metric_point.coordinate.value,
+                time=metric_point.event.timestamp,
             )
             for index, metric_point in enumerate(
                 landscape.metric_trajectory.metric_points

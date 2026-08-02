@@ -14,8 +14,21 @@ class VisualPoint:
 
     Visual coordinates belong exclusively
     to the Visualization Layer.
+
+    The temporal position identifies where
+    the represented point belongs within
+    the analyzed recording.
+
+    No scientific interpretation is attached
+    to this value.
     """
 
     x: float
 
     y: float
+
+    time: float
+
+    def __post_init__(self) -> None:
+        if self.time < 0:
+            raise ValueError("time must be non-negative.")

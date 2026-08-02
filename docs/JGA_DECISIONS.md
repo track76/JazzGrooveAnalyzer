@@ -1316,3 +1316,56 @@ Next step
 Verify implementation against existing contracts before
 continuing development.
 
+
+-------------------------------------------------------------------------------
+AD-016 — Visualization Projection Pipeline
+-------------------------------------------------------------------------------
+
+Status:
+LOCKED
+
+Date:
+2026-08-02
+
+Context
+
+The Visualization Layer evolved from rendering a single
+VisualTrajectory into supporting immutable transformations
+over complete ScientificVisualizationScene objects.
+
+Temporal visualization introduced the need to apply one or
+more visualization transformations before rendering while
+preserving scientific meaning.
+
+Decision
+
+Introduce the VisualizationProjectionPipeline.
+
+The pipeline applies one or more visualization projectors
+sequentially.
+
+Each projector:
+
+    ScientificVisualizationScene
+            ↓
+    ScientificVisualizationScene
+
+The pipeline performs only visualization-level
+transformations.
+
+It must never:
+
+- modify scientific meaning;
+- infer musical semantics;
+- access Domain objects directly.
+
+Consequences
+
+- composable visualization transformations;
+- immutable visualization workflow;
+- renderer independence;
+- explicit input/output contracts;
+- additive future extensions
+  (temporal navigation, zoom, viewport,
+   trajectory filtering, etc.).
+

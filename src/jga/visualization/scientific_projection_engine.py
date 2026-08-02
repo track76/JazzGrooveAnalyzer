@@ -28,9 +28,24 @@ class ScientificProjectionEngine:
 
         Current implementation preserves
         the visual value directly.
+
+        NOTE:
+        This engine currently has no access to
+        temporal information.
+
+        The canonical temporal propagation is
+        performed by the
+        MetricLandscapeVisualizationAdapter.
+
+        TODO (Future Architecture Decision):
+        Move VisualPoint creation exclusively
+        into the canonical visualization
+        adapter and let this engine return a
+        pure ScientificProjection.
         """
 
         return VisualPoint(
             x=projection.visual_value,
             y=projection.visual_value,
+            time=0.0,
         )
