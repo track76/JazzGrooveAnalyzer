@@ -9,6 +9,7 @@ from jga.domain.internal_metric_timeline import (
     InternalMetricTimeline,
 )
 from jga.domain.metric_cluster import MetricCluster
+from jga.domain.pulse import Pulse
 
 
 @dataclass(frozen=True, slots=True)
@@ -34,6 +35,10 @@ class DomainReconstructionResult:
 
     metric_clusters: (
         tuple[MetricCluster, ...]
+    )
+
+    pulses: (
+        tuple[Pulse, ...]
     )
 
     internal_metric_timeline: (
