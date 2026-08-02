@@ -4,6 +4,9 @@ from jga.representation.metric_cluster_portrait import (
     MetricClusterPortrait,
 )
 from jga.representation.metric_point import MetricPoint
+from jga.representation.scientific_coordinate import (
+    ScientificCoordinate,
+)
 
 
 def test_metric_cluster_portrait_type_exists():
@@ -29,7 +32,11 @@ def test_metric_cluster_portrait_accepts_metric_points():
 
     point = MetricPoint(
         event=cluster.events[0],
-        offset_ms=0.0,
+        coordinate=ScientificCoordinate(
+            value=0.0,
+            unit="milliseconds",
+            dimension="metric_temporal_displacement",
+        ),
     )
 
     portrait = MetricClusterPortrait(

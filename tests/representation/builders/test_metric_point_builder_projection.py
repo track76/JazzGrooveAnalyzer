@@ -32,3 +32,13 @@ def test_metric_point_builder_projects_event():
 
     assert point.event is event
     assert point.offset_ms == 0.0
+
+    assert point.coordinate.value == 0.0
+
+    assert point.coordinate.unit == (
+        "milliseconds"
+    )
+
+    assert point.coordinate.dimension == (
+        "metric_temporal_displacement"
+    )

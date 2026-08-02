@@ -17,6 +17,10 @@ from jga.representation.metric_point import (
     MetricPoint,
 )
 
+from jga.representation.scientific_coordinate import (
+    ScientificCoordinate,
+)
+
 
 class MetricPointBuilder:
     """
@@ -46,5 +50,9 @@ class MetricPointBuilder:
 
         return MetricPoint(
             event=event,
-            offset_ms=offset,
+            coordinate=ScientificCoordinate(
+                value=offset,
+                unit="milliseconds",
+                dimension="metric_temporal_displacement",
+            ),
         )

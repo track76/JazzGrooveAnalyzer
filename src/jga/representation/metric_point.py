@@ -13,7 +13,13 @@ Scientific references:
 
 from dataclasses import dataclass
 
-from jga.domain.elementary_metric_event import ElementaryMetricEvent
+from jga.domain.elementary_metric_event import (
+    ElementaryMetricEvent,
+)
+
+from jga.representation.scientific_coordinate import (
+    ScientificCoordinate,
+)
 
 
 @dataclass(frozen=True, slots=True)
@@ -25,4 +31,12 @@ class MetricPoint:
 
     event: ElementaryMetricEvent
 
-    offset_ms: float
+    coordinate: ScientificCoordinate
+
+    @property
+    def offset_ms(self) -> float:
+        """
+        Backward compatible access to temporal displacement.
+        """
+
+        return self.coordinate.value
