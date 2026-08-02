@@ -47,6 +47,9 @@ from jga.runtime.analysis_context import AnalysisContext
 from jga.translation.semantic_bridge import (
     SemanticBridge,
 )
+from jga.translation.domain_reconstruction_input_builder import (
+    DomainReconstructionInputBuilder,
+)
 from jga.translation.tau8_translator import Tau8Translator
 
 
@@ -80,6 +83,10 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         self._semantic_bridge = semantic_bridge
 
         self._ensemble_pipeline = ensemble_pipeline
+
+        self.reconstruction_input_builder = (
+            DomainReconstructionInputBuilder()
+        )
 
         self.tau8 = Tau8Translator()
 
@@ -139,8 +146,14 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
             )
         )
 
+        reconstruction_input = (
+            self.reconstruction_input_builder.build(
+                context
+            )
+        )
+
         context.metric_contributors = (
-            context.ensemble_analysis_result.metric_contributors
+            reconstruction_input.metric_contributors
         )
 
         #
