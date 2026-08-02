@@ -1284,3 +1284,65 @@ MetricClusterPortrait
 
 MetricLandscape
 
+
+============================================================
+M38.4.1 — Default Scientific Coordinate System
+============================================================
+
+Status
+
+Completed
+
+
+Objective
+
+Introduce the canonical scientific coordinate system
+for the Representation Layer.
+
+
+Completed work
+
+
+M38.4.1
+
+Introduced DEFAULT_SCIENTIFIC_COORDINATE_SYSTEM.
+
+
+Completed changes:
+
+- Added ScientificCoordinateSystem API.
+- Added default coordinate system definition.
+- Registered AXIS-001 metric_temporal_displacement.
+- Preserved renderer independence.
+- Preserved scientific traceability.
+
+
+Validation
+
+Representation test suite:
+
+58 passed
+
+
+Architectural result
+
+Representation coordinates are now organized behind:
+
+ScientificAxis
+
+↓
+
+ScientificCoordinate
+
+↓
+
+ScientificCoordinateSystem
+
+↓
+
+DEFAULT_SCIENTIFIC_COORDINATE_SYSTEM
+
+↓
+
+Metric Representation
+
