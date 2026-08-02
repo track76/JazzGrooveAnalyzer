@@ -1139,3 +1139,77 @@ BehaviourConstructionResult
 
 BehaviourProfile
 
+============================================================
+M38.2.1 — Scientific Coordinate Integration
+============================================================
+
+Status
+
+Completed
+
+
+Objective
+
+Introduce a scientific coordinate contract inside
+the Representation Layer while preserving complete
+traceability to Domain observations.
+
+
+Completed work
+
+
+M38.2.1
+
+Integrated ScientificCoordinate into MetricPoint.
+
+The Representation Layer now separates:
+
+- scientific quantities;
+- geometric representation;
+- visualization concerns.
+
+
+Completed changes:
+
+- Introduced ScientificCoordinate.
+- Migrated MetricPoint from raw offset_ms
+  to scientific coordinate representation.
+- Updated MetricPointBuilder.
+- Updated MetricClusterPortraitBuilder.
+- Preserved offset_ms compatibility access.
+
+
+Validation
+
+Full test suite:
+
+509 passed
+
+
+Architectural result
+
+Metric representation is now isolated behind:
+
+ElementaryMetricEvent
+
+↓
+
+MetricPointBuilder
+
+↓
+
+ScientificCoordinate
+
+↓
+
+MetricPoint
+
+↓
+
+MetricClusterPortrait
+
+↓
+
+MetricLandscape
+
+
