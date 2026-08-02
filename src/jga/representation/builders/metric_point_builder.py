@@ -21,6 +21,10 @@ from jga.representation.scientific_coordinate import (
     ScientificCoordinate,
 )
 
+from jga.representation.standard_axes import (
+    METRIC_TEMPORAL_DISPLACEMENT_AXIS,
+)
+
 
 class MetricPointBuilder:
     """
@@ -51,8 +55,9 @@ class MetricPointBuilder:
         return MetricPoint(
             event=event,
             coordinate=ScientificCoordinate(
+                axis=(
+                    METRIC_TEMPORAL_DISPLACEMENT_AXIS
+                ),
                 value=offset,
-                unit="milliseconds",
-                dimension="metric_temporal_displacement",
             ),
         )

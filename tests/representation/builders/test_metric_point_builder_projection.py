@@ -10,6 +10,10 @@ from jga.representation.builders.metric_point_builder import (
     MetricPointBuilder,
 )
 
+from jga.representation.standard_axes import (
+    METRIC_TEMPORAL_DISPLACEMENT_AXIS,
+)
+
 
 def test_metric_point_builder_projects_event():
 
@@ -31,14 +35,19 @@ def test_metric_point_builder_projects_event():
     )
 
     assert point.event is event
+
     assert point.offset_ms == 0.0
 
     assert point.coordinate.value == 0.0
 
-    assert point.coordinate.unit == (
-        "milliseconds"
+    assert point.coordinate.axis is (
+        METRIC_TEMPORAL_DISPLACEMENT_AXIS
     )
 
-    assert point.coordinate.dimension == (
+    assert point.coordinate.axis.identifier == (
         "metric_temporal_displacement"
+    )
+
+    assert point.coordinate.axis.unit == (
+        "milliseconds"
     )

@@ -12,6 +12,10 @@ from jga.representation.scientific_coordinate import (
     ScientificCoordinate,
 )
 
+from jga.representation.standard_axes import (
+    METRIC_TEMPORAL_DISPLACEMENT_AXIS,
+)
+
 
 def test_metric_points_belong_to_metric_cluster():
 
@@ -20,9 +24,8 @@ def test_metric_points_belong_to_metric_cluster():
     point = MetricPoint(
         event=cluster.events[0],
         coordinate=ScientificCoordinate(
+            axis=METRIC_TEMPORAL_DISPLACEMENT_AXIS,
             value=0.0,
-            unit="milliseconds",
-            dimension="metric_temporal_displacement",
         ),
     )
 
@@ -53,9 +56,8 @@ def test_metric_point_keeps_original_event_reference():
     point = MetricPoint(
         event=cluster.events[0],
         coordinate=ScientificCoordinate(
+            axis=METRIC_TEMPORAL_DISPLACEMENT_AXIS,
             value=0.0,
-            unit="milliseconds",
-            dimension="metric_temporal_displacement",
         ),
     )
 
