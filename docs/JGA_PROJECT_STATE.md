@@ -1213,3 +1213,74 @@ MetricClusterPortrait
 MetricLandscape
 
 
+
+============================================================
+M38.3.2 — Scientific Axis Integration
+============================================================
+
+Status
+
+Completed
+
+
+Objective
+
+Integrate ScientificAxis semantics into
+Representation Layer coordinates.
+
+
+Completed work
+
+
+M38.3.2
+
+Migrated ScientificCoordinate from embedded
+dimension semantics to explicit ScientificAxis reference.
+
+
+Completed changes:
+
+- Introduced standard_axes.py.
+- Added AXIS-001 metric_temporal_displacement.
+- Updated MetricPointBuilder.
+- Updated Representation tests.
+- Preserved Domain traceability.
+
+
+Validation
+
+Representation test suite:
+
+52 passed
+
+
+Architectural result
+
+Metric representation is now isolated behind:
+
+ElementaryMetricEvent
+
+↓
+
+MetricPointBuilder
+
+↓
+
+ScientificAxis
+
+↓
+
+ScientificCoordinate
+
+↓
+
+MetricPoint
+
+↓
+
+MetricClusterPortrait
+
+↓
+
+MetricLandscape
+
