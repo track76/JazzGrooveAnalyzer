@@ -25,6 +25,10 @@ from jga.visualization.temporal_visualization_window import (
     TemporalVisualizationWindow,
 )
 
+from jga.visualization.visualization_state import (
+    VisualizationState,
+)
+
 
 @dataclass(frozen=True, slots=True)
 class VisualizationProjectionPipeline:
@@ -42,6 +46,8 @@ class VisualizationProjectionPipeline:
         self,
         scene: ScientificVisualizationScene,
         window: TemporalVisualizationWindow | None = None,
+        *,
+        state: VisualizationState | None = None,
     ) -> ScientificVisualizationScene:
         """
         Applies an optional temporal window
@@ -50,9 +56,34 @@ class VisualizationProjectionPipeline:
 
         current_scene = scene
 
+        if (
+            state is not None
+            and state.selected_sources
+        ):
+            current_scene = current_scene.filter(
+                *state.selected_sources,
+            )
+
+        if (
+            state is not None
+            and state.active_annotations
+        ):
+            current_scene = ScientificVisualizationScene(
+                trajectories=current_scene.trajectories,
+                annotations=state.active_annotations,
+            )
+
         if window is not None:
             current_scene = current_scene.slice(
                 window,
+            )
+
+        elif (
+            state is not None
+            and state.temporal_window is not None
+        ):
+            current_scene = current_scene.slice(
+                state.temporal_window,
             )
 
         for projector in self.projectors:
