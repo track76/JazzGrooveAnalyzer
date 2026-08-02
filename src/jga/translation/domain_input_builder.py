@@ -16,11 +16,8 @@ All Rights Reserved.
 =========================================================
 """
 
-from jga.domain.services.behaviour_observation_builder import (
-    BehaviourObservationBuilder,
-)
-from jga.domain.services.behaviour_profile_builder import (
-    BehaviourProfileBuilder,
+from jga.domain.services.behaviour_construction_builder import (
+    BehaviourConstructionBuilder,
 )
 from jga.domain.services.ensemble_analysis_pipeline import (
     EnsembleAnalysisPipeline,
@@ -82,12 +79,8 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
 
         self.tau8 = Tau8Translator()
 
-        self.behaviour_observation_builder = (
-            BehaviourObservationBuilder()
-        )
-
-        self.behaviour_profile_builder = (
-            BehaviourProfileBuilder()
+        self.behaviour_construction_builder = (
+            BehaviourConstructionBuilder()
         )
 
     def build(
@@ -184,20 +177,18 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         # Behaviour Observations
         #
 
-        context.behaviour_observations = (
-            self.behaviour_observation_builder.build(
+        behaviour_result = (
+            self.behaviour_construction_builder.build(
                 context.internal_metric_timeline,
             )
         )
 
-        #
-        # Behaviour Profile
-        #
+        context.behaviour_observations = (
+            behaviour_result.behaviour_observations
+        )
 
         context.behaviour_profile = (
-            self.behaviour_profile_builder.build(
-                context.behaviour_observations,
-            )
+            behaviour_result.behaviour_profile
         )
 
         return context
