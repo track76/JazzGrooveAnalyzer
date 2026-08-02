@@ -20,3 +20,5 @@ class DomainReconstructionInput:
     metric_context: MetricContext
 
     metric_contributors: tuple[MetricContributor, ...]
+
+    domain_pulse_candidates: tuple

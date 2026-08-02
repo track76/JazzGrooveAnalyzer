@@ -42,5 +42,5 @@ class DomainReconstructionResult:
     )
 
     internal_metric_timeline: (
-        InternalMetricTimeline
+        InternalMetricTimeline | None
     )

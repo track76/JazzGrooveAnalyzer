@@ -1,0 +1,113 @@
+
+from jga.domain.services.beat_reference_builder import (
+    BeatReferenceBuilder,
+)
+from jga.domain.services.elementary_metric_event_builder import (
+    ElementaryMetricEventBuilder,
+)
+from jga.domain.services.internal_metric_timeline_reconstructor import (
+    InternalMetricTimelineReconstructor,
+)
+from jga.domain.services.metric_cluster_builder import (
+    MetricClusterBuilder,
+)
+from jga.domain.services.pulse_builder import (
+    PulseBuilder,
+)
+
+from jga.interfaces.translation.domain_reconstruction_builder import (
+    DomainReconstructionBuilder,
+)
+
+from jga.translation.domain_reconstruction_input import (
+    DomainReconstructionInput,
+)
+
+from jga.translation.domain_reconstruction_result import (
+    DomainReconstructionResult,
+)
+
+
+class DefaultDomainReconstructionBuilder(
+    DomainReconstructionBuilder
+):
+    """
+    Default implementation of domain reconstruction.
+
+    Orchestrates the deterministic reconstruction flow
+    from metric input to reconstructed domain objects.
+    """
+
+    def __init__(self) -> None:
+
+        self.eme_builder = (
+            ElementaryMetricEventBuilder()
+        )
+
+        self.beat_builder = (
+            BeatReferenceBuilder()
+        )
+
+        self.cluster_builder = (
+            MetricClusterBuilder()
+        )
+
+        self.pulse_builder = (
+            PulseBuilder()
+        )
+
+        self.timeline_reconstructor = (
+            InternalMetricTimelineReconstructor()
+        )
+
+    def build(
+        self,
+        reconstruction_input: DomainReconstructionInput,
+    ) -> DomainReconstructionResult:
+
+        events = self.eme_builder.build(
+            reconstruction_input.domain_pulse_candidates,
+            reconstruction_input.metric_contributors,
+        )
+
+        beats = self.beat_builder.build(
+            events,
+        )
+
+        clusters = self.cluster_builder.build(
+            beats,
+            events,
+        )
+
+        pulses = self.pulse_builder.build(
+            clusters,
+        )
+
+        if not pulses:
+            return DomainReconstructionResult(
+                domain_pulse_candidates=(
+                    reconstruction_input.domain_pulse_candidates
+                ),
+                elementary_metric_events=events,
+                beat_references=beats,
+                metric_clusters=clusters,
+                pulses=pulses,
+                internal_metric_timeline=None,
+            )
+
+        timeline = (
+            self.timeline_reconstructor.reconstruct(
+                pulses,
+            )
+        )
+
+        return DomainReconstructionResult(
+            domain_pulse_candidates=(
+                reconstruction_input.domain_pulse_candidates
+            ),
+            elementary_metric_events=events,
+            beat_references=beats,
+            metric_clusters=clusters,
+            pulses=pulses,
+            internal_metric_timeline=timeline,
+        )
