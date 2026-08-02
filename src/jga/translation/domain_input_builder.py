@@ -178,65 +178,34 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         # Elementary Metric Events
         #
 
-        context.elementary_metric_events = (
-            self.eme_builder.build(
-                context.domain_pulse_candidates,
-                reconstruction_input.metric_contributors,
+        reconstruction_result = (
+            self.domain_reconstruction_builder.build(
+                reconstruction_input
             )
         )
 
-        if not context.elementary_metric_events:
-            return context
-
-        #
-        # Beat References
-        #
+        context.elementary_metric_events = (
+            reconstruction_result.elementary_metric_events
+        )
 
         context.beat_references = (
-            self.beat_builder.build(
-                context.elementary_metric_events,
-            )
+            reconstruction_result.beat_references
         )
-
-        if not context.beat_references:
-            return context
-
-        #
-        # Metric Clusters
-        #
 
         context.metric_clusters = (
-            self.cluster_builder.build(
-                context.beat_references,
-                context.elementary_metric_events,
-            )
+            reconstruction_result.metric_clusters
         )
-
-        if not context.metric_clusters:
-            return context
-
-        #
-        # Pulses
-        #
 
         context.pulses = (
-            self.pulse_builder.build(
-                context.metric_clusters,
-            )
+            reconstruction_result.pulses
         )
-
-        if not context.pulses:
-            return context
-
-        #
-        # Internal Metric Timeline (τ₇)
-        #
 
         context.internal_metric_timeline = (
-            self.timeline_builder.reconstruct(
-                context.pulses,
-            )
+            reconstruction_result.internal_metric_timeline
         )
+
+        if context.internal_metric_timeline is None:
+            return context
 
         #
         # Behaviour Observations
