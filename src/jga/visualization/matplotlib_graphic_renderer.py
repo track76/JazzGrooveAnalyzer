@@ -31,7 +31,21 @@ class MatplotlibGraphicRenderer(
 
         figure = Figure()
 
-        figure.add_subplot(111)
+        axes = figure.add_subplot(111)
+
+        if self.scene is not None and self.scene.layout is not None:
+
+            axes.set_title(
+                self.scene.layout.title,
+            )
+
+            axes.set_xlabel(
+                self.scene.layout.x_axis,
+            )
+
+            axes.set_ylabel(
+                self.scene.layout.y_axis,
+            )
 
         return RenderedOutput(
             metadata={
