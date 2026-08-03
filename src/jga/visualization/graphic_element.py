@@ -6,6 +6,10 @@ Base entity for visual graphic elements.
 
 from dataclasses import dataclass, field
 
+from jga.visualization.graphic_style import (
+    GraphicStyle,
+)
+
 
 @dataclass(frozen=True, slots=True)
 class GraphicElement:
@@ -21,6 +25,8 @@ class GraphicElement:
     metadata: dict = field(
         default_factory=dict,
     )
+
+    style: GraphicStyle | None = None
 
     def is_valid(
         self,

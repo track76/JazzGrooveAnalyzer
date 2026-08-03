@@ -13,6 +13,10 @@ from jga.visualization.graphic_representation import (
     GraphicRepresentation,
 )
 
+from jga.visualization.graphic_style import (
+    GraphicStyle,
+)
+
 from jga.visualization.line_element import (
     LineElement,
 )
@@ -36,6 +40,8 @@ class ScientificGraphicBuilder:
         from a materialized plot.
         """
 
+        style = GraphicStyle()
+
         return GraphicRepresentation(
             source_plot=plot,
             metadata={},
@@ -48,6 +54,7 @@ class ScientificGraphicBuilder:
                     metadata={
                         "role": "trajectory",
                     },
+                    style=style,
                 ),
                 PointElement(
                     position=(
@@ -57,6 +64,7 @@ class ScientificGraphicBuilder:
                     metadata={
                         "role": "marker",
                     },
+                    style=style,
                 ),
             ),
         )
