@@ -17,6 +17,10 @@ from jga.visualization.graphic_composition import (
     GraphicComposition,
 )
 
+from jga.visualization.graphic_scene import (
+    GraphicScene,
+)
+
 from jga.visualization.graphic_style import (
     GraphicStyle,
 )
@@ -79,5 +83,22 @@ class ScientificGraphicBuilder:
         return GraphicComposition(
             elements=representation.elements,
             metadata=representation.metadata,
+            style=GraphicStyle(),
+        )
+
+    def scene(
+        self,
+        plot: MaterializedPlot,
+    ) -> GraphicScene:
+
+        composition = self.compose(plot)
+
+        return GraphicScene(
+            compositions=(
+                composition,
+            ),
+            metadata={
+                "purpose": "scientific_scene",
+            },
             style=GraphicStyle(),
         )
