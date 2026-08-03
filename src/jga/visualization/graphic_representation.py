@@ -11,6 +11,10 @@ from jga.visualization.materialized_plot import (
     MaterializedPlot,
 )
 
+from jga.visualization.graphic_element import (
+    GraphicElement,
+)
+
 
 @dataclass(frozen=True, slots=True)
 class GraphicRepresentation:
@@ -18,7 +22,7 @@ class GraphicRepresentation:
     Abstract graphic representation.
 
     Keeps traceability to the source
-    materialized plot and metadata.
+    plot and contains graphic elements.
     """
 
     source_plot: MaterializedPlot | None = None
@@ -27,12 +31,15 @@ class GraphicRepresentation:
         default_factory=dict,
     )
 
+    elements: tuple[GraphicElement, ...] = field(
+        default_factory=tuple,
+    )
+
     def is_valid(
         self,
     ) -> bool:
         """
-        Checks structural validity
-        of the graphic representation.
+        Checks structural validity.
         """
 
         return (

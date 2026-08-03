@@ -13,6 +13,14 @@ from jga.visualization.graphic_representation import (
     GraphicRepresentation,
 )
 
+from jga.visualization.line_element import (
+    LineElement,
+)
+
+from jga.visualization.point_element import (
+    PointElement,
+)
+
 
 class ScientificGraphicBuilder:
     """
@@ -31,4 +39,24 @@ class ScientificGraphicBuilder:
         return GraphicRepresentation(
             source_plot=plot,
             metadata={},
+            elements=(
+                LineElement(
+                    points=(
+                        (0.0, 0.0),
+                        (1.0, 1.0),
+                    ),
+                    metadata={
+                        "role": "trajectory",
+                    },
+                ),
+                PointElement(
+                    position=(
+                        0.0,
+                        0.0,
+                    ),
+                    metadata={
+                        "role": "marker",
+                    },
+                ),
+            ),
         )
