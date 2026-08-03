@@ -10,6 +10,10 @@ from jga.visualization.graphic_style import (
     GraphicStyle,
 )
 
+from jga.visualization.scientific_plot_metadata import (
+    ScientificPlotMetadata,
+)
+
 
 @dataclass(frozen=True, slots=True)
 class GraphicScene:
@@ -26,6 +30,8 @@ class GraphicScene:
     )
 
     style: GraphicStyle | None = None
+
+    scientific_metadata: ScientificPlotMetadata | None = None
 
     def is_valid(
         self,
