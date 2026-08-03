@@ -13,6 +13,10 @@ from jga.visualization.graphic_representation import (
     GraphicRepresentation,
 )
 
+from jga.visualization.graphic_composition import (
+    GraphicComposition,
+)
+
 from jga.visualization.graphic_style import (
     GraphicStyle,
 )
@@ -35,10 +39,6 @@ class ScientificGraphicBuilder:
         self,
         plot: MaterializedPlot,
     ) -> GraphicRepresentation:
-        """
-        Builds a graphic representation
-        from a materialized plot.
-        """
 
         style = GraphicStyle()
 
@@ -67,4 +67,17 @@ class ScientificGraphicBuilder:
                     style=style,
                 ),
             ),
+        )
+
+    def compose(
+        self,
+        plot: MaterializedPlot,
+    ) -> GraphicComposition:
+
+        representation = self.build(plot)
+
+        return GraphicComposition(
+            elements=representation.elements,
+            metadata=representation.metadata,
+            style=GraphicStyle(),
         )
