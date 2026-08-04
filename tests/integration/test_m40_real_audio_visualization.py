@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from jga.pipeline.default_analysis_pipeline import (
     AnalysisPipeline,
 )
@@ -42,6 +44,15 @@ def test_real_audio_produces_scientific_visualization():
         .render(
             trajectory
         )
+    )
+
+    output_dir = Path("output")
+    output_dir.mkdir(exist_ok=True)
+
+    figure.savefig(
+        output_dir / "chet_baker_metric_plot.png",
+        dpi=300,
+        bbox_inches="tight",
     )
 
     assert figure is not None

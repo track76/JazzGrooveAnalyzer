@@ -1,6 +1,6 @@
 
-from jga.domain.services.beat_reference_builder import (
-    BeatReferenceBuilder,
+from jga.domain.services.beat_reconstruction_engine import (
+    BeatReconstructionEngine,
 )
 from jga.domain.services.elementary_metric_event_builder import (
     ElementaryMetricEventBuilder,
@@ -45,7 +45,7 @@ class DefaultDomainReconstructionBuilder(
         )
 
         self.beat_builder = (
-            BeatReferenceBuilder()
+            BeatReconstructionEngine()
         )
 
         self.cluster_builder = (
@@ -70,7 +70,7 @@ class DefaultDomainReconstructionBuilder(
             reconstruction_input.metric_contributors,
         )
 
-        beats = self.beat_builder.build(
+        beats = self.beat_builder.reconstruct(
             events,
         )
 

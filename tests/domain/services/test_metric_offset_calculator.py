@@ -76,3 +76,37 @@ def test_negative_offset():
     calculator = MetricOffsetCalculator()
 
     assert calculator.compute(event, beat) == pytest.approx(-8.0)
+
+
+from datetime import datetime
+from uuid import uuid4
+
+from jga.domain.beat_reference import BeatReference
+from jga.domain.elementary_metric_event import (
+    ElementaryMetricEvent,
+)
+
+
+def test_offset_is_computed_against_projected_beat():
+
+    beat = BeatReference(
+        id=uuid4(),
+        index=0,
+        timestamp=1.500,
+        created_at=datetime.now(),
+    )
+
+    event = ElementaryMetricEvent(
+        id=uuid4(),
+        contributor_id=uuid4(),
+        timestamp=1.530,
+        confidence=1.0,
+        created_at=datetime.now(),
+    )
+
+    offset = MetricOffsetCalculator().compute(
+        event,
+        beat,
+    )
+
+    assert offset == pytest.approx(30.0)
