@@ -37,15 +37,47 @@ class AnalyticalScoreBuilder:
         context: AnalysisContext,
     ) -> AnalyticalScore:
 
-        measures = tuple(
-            Measure(
-                number=measure.number,
-                time_signature=measure.time_signature,
-                bpm=measure.internal_bpm,
-                start_time_seconds=measure.start_time_seconds,
+        measures_list = []
+
+        for measure in context.reconstructed_measures:
+
+            metric_events = []
+
+            for cluster in measure.metric_clusters:
+
+                for event in cluster.events:
+
+                    metric_events.append(
+                        MetricEvent(
+                            source_name="Unknown",
+                            beat_index=(
+                                cluster.beat_reference.index
+                            ),
+                            absolute_time_seconds=(
+                                event.timestamp
+                            ),
+                            offset_ms=(
+                                (
+                                    event.timestamp
+                                    -
+                                    cluster.beat_reference.timestamp
+                                )
+                                * 1000
+                            ),
+                        )
+                    )
+
+            measures_list.append(
+                Measure(
+                    number=measure.number,
+                    time_signature=measure.time_signature,
+                    bpm=measure.internal_bpm,
+                    start_time_seconds=measure.start_time_seconds,
+                    metric_events=tuple(metric_events),
+                )
             )
-            for measure in context.reconstructed_measures
-        )
+
+        measures = tuple(measures_list)
 
         instrument_lanes = ()
 
