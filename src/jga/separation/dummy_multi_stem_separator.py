@@ -53,7 +53,7 @@ class DummyMultiStemSeparator(BaseSeparator):
             "Double Bass",
             "Piano",
             "Drums",
-            "Saxophone",
+            "Trumpet",
         )
 
         stems = tuple(
