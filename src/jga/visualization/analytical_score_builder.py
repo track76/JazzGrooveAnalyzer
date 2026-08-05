@@ -39,31 +39,43 @@ class AnalyticalScoreBuilder:
 
         measures_list = []
 
+        representation_events = []
+
+        if context.representation_result:
+
+            landscape = (
+                context.representation_result
+                .metric_landscape
+            )
+
+            if landscape and landscape.metric_trajectory:
+
+                representation_events = list(
+                    landscape
+                    .metric_trajectory
+                    .metric_points
+                )
+
         for measure in context.reconstructed_measures:
 
             metric_events = []
 
-            for cluster in measure.metric_clusters:
+            for point in representation_events:
 
-                for event in cluster.events:
+                event = point.event
+
+                if (
+                    measure.start_time_seconds
+                    <= event.timestamp
+                    <= measure.end_time_seconds
+                ):
 
                     metric_events.append(
                         MetricEvent(
                             source_name="Unknown",
-                            beat_index=(
-                                cluster.beat_reference.index
-                            ),
-                            absolute_time_seconds=(
-                                event.timestamp
-                            ),
-                            offset_ms=(
-                                (
-                                    event.timestamp
-                                    -
-                                    cluster.beat_reference.timestamp
-                                )
-                                * 1000
-                            ),
+                            beat_index=point.beat_index,
+                            absolute_time_seconds=event.timestamp,
+                            offset_ms=point.offset_ms,
                         )
                     )
 
@@ -77,7 +89,45 @@ class AnalyticalScoreBuilder:
                 )
             )
 
-        measures = tuple(measures_list)
+        if representation_events:
+
+            assigned = {
+                event.absolute_time_seconds
+                for measure in measures_list
+                for event in measure.metric_events
+            }
+
+            last_measure = measures_list[-1]
+
+            extra_events = []
+
+            for point in representation_events:
+
+                if point.event.timestamp not in assigned:
+
+                    extra_events.append(
+                        MetricEvent(
+                            source_name="Unknown",
+                            beat_index=point.beat_index,
+                            absolute_time_seconds=(
+                                point.event.timestamp
+                            ),
+                            offset_ms=point.offset_ms,
+                        )
+                    )
+
+            if extra_events:
+
+                measures_list[-1] = Measure(
+                    number=last_measure.number,
+                    time_signature=last_measure.time_signature,
+                    bpm=last_measure.bpm,
+                    start_time_seconds=last_measure.start_time_seconds,
+                    metric_events=(
+                        last_measure.metric_events
+                        + tuple(extra_events)
+                    ),
+                )
 
         instrument_lanes = ()
 
@@ -152,6 +202,8 @@ class AnalyticalScoreBuilder:
                     )
                     for name, events in lanes.items()
                 )
+
+        measures = tuple(measures_list)
 
         return AnalyticalScore(
             recording_title="",
