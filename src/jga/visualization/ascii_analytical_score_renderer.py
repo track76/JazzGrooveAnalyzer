@@ -79,8 +79,12 @@ class AsciiAnalyticalScoreRenderer:
 
             for event in measure.metric_events:
 
+                local_beat = (
+                    event.beat_index % 4
+                ) + 1
+
                 lines.append(
-                    f"  beat {event.beat_index}: "
+                    f"  beat {local_beat}: "
                     f"{event.offset_ms:.1f} ms "
                     f"@ {event.absolute_time_seconds:.3f}s"
                 )

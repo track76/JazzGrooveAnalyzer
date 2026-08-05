@@ -114,3 +114,47 @@ def test_renderer_shows_measure_metric_events():
 
     assert "Measure 26" in output
     assert "7.0" in output
+
+
+def test_renderer_normalizes_measure_beat_position():
+
+    from jga.visualization.analytical_score import (
+        AnalyticalScore,
+    )
+    from jga.visualization.measure import (
+        Measure,
+    )
+    from jga.visualization.metric_event import (
+        MetricEvent,
+    )
+    from jga.visualization.ascii_analytical_score_renderer import (
+        AsciiAnalyticalScoreRenderer,
+    )
+
+    measure = Measure(
+        number=26,
+        time_signature="4/4",
+        bpm=120.0,
+        metric_events=(
+            MetricEvent(
+                source_name="Mix",
+                beat_index=100,
+                absolute_time_seconds=99.834,
+                offset_ms=6.4,
+            ),
+        ),
+    )
+
+    score = AnalyticalScore(
+        recording_title="Test",
+        artist="Test",
+        time_signature="4/4",
+        average_bpm=120.0,
+        sections=(),
+        measures=(measure,),
+        instrument_lanes=(),
+    )
+
+    output = AsciiAnalyticalScoreRenderer().render(score)
+
+    assert "beat 1" in output
