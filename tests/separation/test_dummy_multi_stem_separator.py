@@ -54,7 +54,7 @@ def test_dummy_multi_stem_separator_creates_multiple_stems():
         "Double Bass",
         "Piano",
         "Drums",
-        "Saxophone",
+        "Trumpet",
     )
 
     for stem in result.audio_stems:

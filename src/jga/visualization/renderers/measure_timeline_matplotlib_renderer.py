@@ -19,6 +19,7 @@ class MeasureTimelineMatplotlibRenderer:
     def render(
         self,
         timeline: MeasureTimeline,
+        deviation_magnification: float = 1.0,
     ):
 
         figure, axis = plt.subplots()
@@ -27,8 +28,25 @@ class MeasureTimelineMatplotlibRenderer:
             0,
         )
 
+        visual_beats = tuple(
+            beat
+            +
+            (
+                offset
+                /
+                1000.0
+                *
+                deviation_magnification
+            )
+            for beat, offset
+            in zip(
+                timeline.beats,
+                timeline.offsets_ms,
+            )
+        )
+
         axis.scatter(
-            timeline.beats,
+            visual_beats,
             timeline.offsets_ms,
         )
 
@@ -37,7 +55,7 @@ class MeasureTimelineMatplotlibRenderer:
         )
 
         axis.set_xlabel(
-            "Beat"
+            "Metric position"
         )
 
         axis.set_ylabel(

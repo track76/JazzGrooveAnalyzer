@@ -54,6 +54,7 @@ class MetricPointBuilder:
 
         return MetricPoint(
             event=event,
+            beat_reference=beat_reference,
             coordinate=ScientificCoordinate(
                 axis=(
                     METRIC_TEMPORAL_DISPLACEMENT_AXIS

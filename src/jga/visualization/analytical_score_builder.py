@@ -25,6 +25,47 @@ from jga.visualization.metric_event import (
 )
 
 
+def _metric_position_from_point(
+    point,
+    measure,
+) -> float:
+
+    if point.beat_reference is None:
+        return 0.0
+
+    if not measure.beat_references:
+        return 0.0
+
+    beat_duration = (
+        60.0 / measure.internal_bpm
+    )
+
+    first_beat_index = (
+        measure.beat_references[0].index
+    )
+
+    local_beat = (
+        point.beat_reference.index
+        -
+        first_beat_index
+    )
+
+    return (
+        local_beat
+        +
+        1.0
+        +
+        (
+            point.offset_ms
+            /
+            1000.0
+            /
+            beat_duration
+        )
+    )
+
+
+
 class AnalyticalScoreBuilder:
     """
     Builds musicological analytical scores.
@@ -38,6 +79,35 @@ class AnalyticalScoreBuilder:
     ) -> AnalyticalScore:
 
         measures_list = []
+
+        def resolve_source_name(event):
+
+            if not context.ensemble_analysis_result:
+                return "Unknown"
+
+            contributor_map = {
+                contributor.id: contributor.sound_source_id
+                for contributor
+                in context.ensemble_analysis_result.metric_contributors
+            }
+
+            source_map = {
+                source.id: source.name
+                for source
+                in context.ensemble_analysis_result.sound_sources
+            }
+
+            sound_source_id = contributor_map.get(
+                event.contributor_id
+            )
+
+            if sound_source_id is None:
+                return "Unknown"
+
+            return source_map.get(
+                sound_source_id,
+                "Unknown",
+            )
 
         representation_events = []
 
@@ -65,15 +135,23 @@ class AnalyticalScoreBuilder:
                 event = point.event
 
                 if (
-                    measure.start_time_seconds
-                    <= event.timestamp
-                    <= measure.end_time_seconds
+                    point.beat_reference
+                    and
+                    point.beat_reference.id
+                    in {
+                        beat.id
+                        for beat
+                        in measure.beat_references
+                    }
                 ):
 
                     metric_events.append(
                         MetricEvent(
-                            source_name="Unknown",
-                            beat_index=point.beat_index,
+                            source_name=resolve_source_name(event),
+                            beat_index=_metric_position_from_point(
+                                point,
+                                measure,
+                            ),
                             absolute_time_seconds=event.timestamp,
                             offset_ms=point.offset_ms,
                         )
@@ -92,7 +170,10 @@ class AnalyticalScoreBuilder:
         if representation_events:
 
             assigned = {
-                event.absolute_time_seconds
+                (
+                    event.source_name,
+                    event.absolute_time_seconds,
+                )
                 for measure in measures_list
                 for event in measure.metric_events
             }
@@ -103,12 +184,19 @@ class AnalyticalScoreBuilder:
 
             for point in representation_events:
 
-                if point.event.timestamp not in assigned:
+                source_name = resolve_source_name(
+                    point.event
+                )
+
+                if (
+                    source_name,
+                    point.event.timestamp,
+                ) not in assigned:
 
                     extra_events.append(
                         MetricEvent(
-                            source_name="Unknown",
-                            beat_index=point.beat_index,
+                            source_name=resolve_source_name(event),
+                            beat_index=_metric_position_from_point(point, measure),
                             absolute_time_seconds=(
                                 point.event.timestamp
                             ),
@@ -179,7 +267,7 @@ class AnalyticalScoreBuilder:
 
                     metric_event = MetricEvent(
                         source_name=source_name,
-                        beat_index=point.beat_index,
+                        beat_index=_metric_position_from_point(point, measure),
                         absolute_time_seconds=(
                             event.timestamp
                         ),

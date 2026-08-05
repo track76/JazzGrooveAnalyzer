@@ -17,6 +17,10 @@ from jga.domain.elementary_metric_event import (
     ElementaryMetricEvent,
 )
 
+from jga.domain.beat_reference import (
+    BeatReference,
+)
+
 from jga.representation.scientific_coordinate import (
     ScientificCoordinate,
 )
@@ -32,6 +36,8 @@ class MetricPoint:
     event: ElementaryMetricEvent
 
     coordinate: ScientificCoordinate
+
+    beat_reference: BeatReference | None = None
 
     beat_index: int = 0
 

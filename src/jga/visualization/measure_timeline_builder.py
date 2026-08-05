@@ -29,12 +29,8 @@ class MeasureTimelineBuilder:
 
         for event in measure.metric_events:
 
-            local_beat = (
-                event.beat_index % 4
-            ) + 1
-
             beats.append(
-                local_beat
+                event.beat_index
             )
 
             offsets.append(

@@ -39,5 +39,5 @@ def test_measure_timeline_normalizes_beats():
     )
 
     assert timeline.measure_number == 26
-    assert timeline.beats == (1, 2)
+    assert timeline.beats == (100, 101)
     assert timeline.offsets_ms == (6.4, -9.2)
