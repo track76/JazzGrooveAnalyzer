@@ -148,6 +148,15 @@ class AnalyticalScoreBuilder:
                     metric_events.append(
                         MetricEvent(
                             source_name=resolve_source_name(event),
+                            theoretical_position=(
+                                point.beat_reference.index
+                                -
+                                measure.beat_references[0].index
+                                +
+                                1.0
+                                if point.beat_reference
+                                else 0.0
+                            ),
                             beat_index=_metric_position_from_point(
                                 point,
                                 measure,
@@ -162,6 +171,15 @@ class AnalyticalScoreBuilder:
                     number=measure.number,
                     time_signature=measure.time_signature,
                     bpm=measure.internal_bpm,
+                    theoretical_beats=tuple(
+                        float(index + 1)
+                        for index
+                        in range(
+                            len(
+                                measure.beat_references
+                            )
+                        )
+                    ),
                     start_time_seconds=measure.start_time_seconds,
                     metric_events=tuple(metric_events),
                 )
@@ -196,6 +214,15 @@ class AnalyticalScoreBuilder:
                     extra_events.append(
                         MetricEvent(
                             source_name=resolve_source_name(event),
+                            theoretical_position=(
+                                point.beat_reference.index
+                                -
+                                measure.beat_references[0].index
+                                +
+                                1.0
+                                if point.beat_reference
+                                else 0.0
+                            ),
                             beat_index=_metric_position_from_point(point, measure),
                             absolute_time_seconds=(
                                 point.event.timestamp
@@ -210,6 +237,9 @@ class AnalyticalScoreBuilder:
                     number=last_measure.number,
                     time_signature=last_measure.time_signature,
                     bpm=last_measure.bpm,
+                    theoretical_beats=(
+                        last_measure.theoretical_beats
+                    ),
                     start_time_seconds=last_measure.start_time_seconds,
                     metric_events=(
                         last_measure.metric_events
@@ -267,6 +297,15 @@ class AnalyticalScoreBuilder:
 
                     metric_event = MetricEvent(
                         source_name=source_name,
+                        theoretical_position=(
+                            point.beat_reference.index
+                            -
+                            measure.beat_references[0].index
+                            +
+                            1.0
+                            if point.beat_reference
+                            else 0.0
+                        ),
                         beat_index=_metric_position_from_point(point, measure),
                         absolute_time_seconds=(
                             event.timestamp

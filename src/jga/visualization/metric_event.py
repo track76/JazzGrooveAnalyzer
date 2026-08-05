@@ -16,7 +16,9 @@ class MetricEvent:
 
     source_name: str = ""
 
-    beat_index: int = 0
+    theoretical_position: float = 0.0
+
+    beat_index: float = 0.0
 
     absolute_time_seconds: float = 0.0
 

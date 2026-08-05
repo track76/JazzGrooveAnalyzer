@@ -23,6 +23,8 @@ class Measure:
 
     bpm: float
 
+    theoretical_beats: tuple[float, ...] = ()
+
     start_time_seconds: float = 0.0
 
     metric_events: tuple[MetricEvent, ...] = ()
