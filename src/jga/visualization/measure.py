@@ -18,3 +18,7 @@ class Measure:
     time_signature: str
 
     bpm: float
+
+    start_time_seconds: float = 0.0
+
+    start_time_seconds: float

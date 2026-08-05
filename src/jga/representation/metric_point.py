@@ -33,6 +33,8 @@ class MetricPoint:
 
     coordinate: ScientificCoordinate
 
+    beat_index: int = 0
+
     @property
     def offset_ms(self) -> float:
         """

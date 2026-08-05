@@ -25,6 +25,7 @@ def test_metric_point_preserves_eme_reference():
     point = MetricPoint(
         event=eme,
         coordinate=coordinate,
+        beat_index=0,
     )
 
     assert point.event is eme

@@ -67,7 +67,16 @@ class AsciiAnalyticalScoreRenderer:
         lines.append("INSTRUMENTS")
 
         for lane in score.instrument_lanes:
+
             lines.append(f"{lane.name:<12}")
+
+            for event in lane.metric_events:
+
+                lines.append(
+                    f"  beat {event.beat_index}: "
+                    f"{event.offset_ms:.1f} ms "
+                    f"@ {event.absolute_time_seconds:.3f}s"
+                )
 
         lines.append("")
         lines.append("=" * 70)

@@ -9,6 +9,7 @@ def test_measure_can_be_created():
         number=12,
         time_signature="4/4",
         bpm=124.3,
+        start_time_seconds=12.5,
     )
 
     assert measure.number == 12
@@ -16,3 +17,5 @@ def test_measure_can_be_created():
     assert measure.time_signature == "4/4"
 
     assert measure.bpm == 124.3
+
+    assert measure.start_time_seconds == 12.5

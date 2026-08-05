@@ -60,4 +60,5 @@ class MetricPointBuilder:
                 ),
                 value=offset,
             ),
+            beat_index=beat_reference.index,
         )
