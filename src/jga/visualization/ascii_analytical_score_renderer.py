@@ -61,6 +61,31 @@ class AsciiAnalyticalScoreRenderer:
             lines.append(beat_line)
 
         lines.append("")
+        lines.append("MEASURE DETAILS")
+
+        for measure in score.measures:
+
+            if not measure.metric_events:
+                continue
+
+            lines.append("")
+            lines.append(
+                f"Measure {measure.number}"
+            )
+
+            lines.append(
+                "|1|2|3|4|"
+            )
+
+            for event in measure.metric_events:
+
+                lines.append(
+                    f"  beat {event.beat_index}: "
+                    f"{event.offset_ms:.1f} ms "
+                    f"@ {event.absolute_time_seconds:.3f}s"
+                )
+
+        lines.append("")
         lines.append("=" * 70)
         lines.append("")
 
