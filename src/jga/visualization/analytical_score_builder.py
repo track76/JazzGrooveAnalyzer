@@ -40,26 +40,28 @@ def _metric_position_from_point(
         60.0 / measure.internal_bpm
     )
 
-    first_beat_index = (
-        measure.beat_references[0].index
-    )
-
-    local_beat = (
-        point.beat_reference.index
-        -
-        first_beat_index
+    local_beat = next(
+        (
+            index
+            for index, beat
+            in enumerate(
+                measure.beat_references
+            )
+            if beat.index == point.beat_reference.index
+        ),
+        0,
     )
 
     pulses_per_beat = 4
 
-    metric_beat = (
+    metric_position = (
         local_beat
-        //
+        /
         pulses_per_beat
     )
 
     return (
-        metric_beat
+        metric_position
         +
         1.0
         +
@@ -193,17 +195,17 @@ class AnalyticalScoreBuilder:
                     software_name="JazzGrooveAnalyzer",
                     software_author="Angelo Tracanna",
                     copyright="Copyright © 2026 Angelo Tracanna",
-                    theoretical_beats=(
-                        1.0,
-                        2.0,
-                        3.0,
-                        4.0,
+                    theoretical_beats=tuple(
+                        float(index + 1)
+                        for index, _ in enumerate(
+                            measure.beat_references
+                        )
                     ),
-                    beat_positions=(
-                        1.5,
-                        2.5,
-                        3.5,
-                        4.5,
+                    beat_positions=tuple(
+                        beat.timestamp
+                        -
+                        measure.start_time_seconds
+                        for beat in measure.beat_references
                     ),
                     start_time_seconds=measure.start_time_seconds,
                     metric_events=tuple(metric_events),

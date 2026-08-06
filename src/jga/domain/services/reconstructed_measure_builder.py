@@ -40,24 +40,26 @@ class ReconstructedMeasureBuilder:
 
         measures = []
 
-        beats_per_measure = (
+        pulses_per_measure = (
             metric_signature.beats_per_measure
+            *
+            metric_signature.pulses_per_beat
         )
 
         for measure_number, start in enumerate(
             range(
                 0,
                 len(beat_references),
-                beats_per_measure,
+                pulses_per_measure,
             ),
             start=1,
         ):
 
             group = beat_references[
-                start:start + beats_per_measure
+                start:start + pulses_per_measure
             ]
 
-            if len(group) < beats_per_measure:
+            if len(group) < pulses_per_measure:
                 break
 
             group_ids = {
