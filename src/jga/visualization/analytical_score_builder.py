@@ -338,9 +338,14 @@ class AnalyticalScoreBuilder:
 
         measures = tuple(measures_list)
 
+        recording_title = ""
+
+        if context.audio is not None:
+            recording_title = context.audio.path.name
+
         return AnalyticalScore(
-            recording_title="",
-            artist="",
+            recording_title=recording_title,
+            artist="Unknown",
             time_signature=(
                 measures[0].time_signature
                 if measures

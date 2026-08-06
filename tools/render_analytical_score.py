@@ -25,6 +25,10 @@ from jga.reporting.renderers.ascii_renderer import (
     AnalyticalScoreAsciiRenderer,
 )
 
+from jga.visualization.renderers.analytical_score_renderer import (
+    AnalyticalScoreRenderer,
+)
+
 
 def main():
 
@@ -95,6 +99,31 @@ def main():
     )
 
     print(renderer.render(score))
+
+    figure = (
+        AnalyticalScoreRenderer()
+        .render(score)
+    )
+
+    output_path = (
+        "output/jga_final_analytical_groove_score.png"
+    )
+
+    figure.savefig(
+        output_path,
+        dpi=300,
+        bbox_inches="tight",
+    )
+
+    print()
+
+    print(
+        "PNG exported:"
+    )
+
+    print(
+        output_path
+    )
 
 
 if __name__ == "__main__":

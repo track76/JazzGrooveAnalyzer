@@ -1,27 +1,38 @@
-from jga.runtime.analysis_context import AnalysisContext
+"""
+Compatibility adapter for the legacy Reporting layer.
 
-from jga.reporting.analytical_score import (
+The canonical Analytical Score builder lives in the
+Visualization layer.
+
+This adapter preserves the public API while delegating
+all construction to the Visualization implementation.
+"""
+
+from jga.runtime.analysis_context import (
+    AnalysisContext,
+)
+
+from jga.visualization.analytical_score import (
     AnalyticalScore,
 )
 
-from jga.reporting.builders.analytical_bar_builder import (
-    AnalyticalBarBuilder,
+from jga.visualization.analytical_score_builder import (
+    AnalyticalScoreBuilder as VisualizationAnalyticalScoreBuilder,
 )
 
 
 class AnalyticalScoreBuilder:
     """
-    Builds the Analytical Score from the
-    AnalysisContext produced by the JGA pipeline.
+    Compatibility adapter.
 
-    Reporting layer only translates existing
-    scientific results.
+    Delegates to the canonical Visualization
+    AnalyticalScoreBuilder.
     """
 
     def __init__(self):
 
-        self.bar_builder = (
-            AnalyticalBarBuilder()
+        self._builder = (
+            VisualizationAnalyticalScoreBuilder()
         )
 
     def build(
@@ -29,36 +40,6 @@ class AnalyticalScoreBuilder:
         context: AnalysisContext,
     ) -> AnalyticalScore:
 
-        title = "Unknown"
-
-        if context.audio is not None:
-            title = context.audio.path.name
-
-        bars = tuple(
-
-            self.bar_builder.build_from_measure(
-                measure,
-                metric_contributors=(
-                    context.metric_contributors
-                ),
-                sound_sources=(
-                    context.ensemble_analysis_result.sound_sources
-                    if context.ensemble_analysis_result
-                    else ()
-                ),
-            )
-
-            for measure
-            in context.reconstructed_measures
-
-        )
-
-        return AnalyticalScore(
-
-            title=title,
-
-            artist="Unknown",
-
-            bars=bars,
-
+        return self._builder.build(
+            context,
         )
