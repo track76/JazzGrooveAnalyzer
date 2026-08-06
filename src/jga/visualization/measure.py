@@ -23,6 +23,18 @@ class Measure:
 
     bpm: float
 
+    title: str = ""
+
+    composer: str = ""
+
+    section: str = ""
+
+    software_name: str = "JazzGrooveAnalyzer"
+
+    software_author: str = "Angelo Tracanna"
+
+    copyright: str = "Copyright © 2026 Angelo Tracanna"
+
     theoretical_beats: tuple[float, ...] = ()
 
     start_time_seconds: float = 0.0

@@ -50,9 +50,12 @@ class DummyMultiStemSeparator(BaseSeparator):
     ) -> AnalysisContext:
 
         names = (
-            "Double Bass",
+            "Bass",
             "Piano",
-            "Drums",
+            "Ride",
+            "Hi-Hat",
+            "Snare",
+            "Kick",
             "Trumpet",
         )
 

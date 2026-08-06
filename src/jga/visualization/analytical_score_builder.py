@@ -171,6 +171,9 @@ class AnalyticalScoreBuilder:
                     number=measure.number,
                     time_signature=measure.time_signature,
                     bpm=measure.internal_bpm,
+                    software_name="JazzGrooveAnalyzer",
+                    software_author="Angelo Tracanna",
+                    copyright="Copyright © 2026 Angelo Tracanna",
                     theoretical_beats=tuple(
                         float(index + 1)
                         for index
@@ -237,6 +240,9 @@ class AnalyticalScoreBuilder:
                     number=last_measure.number,
                     time_signature=last_measure.time_signature,
                     bpm=last_measure.bpm,
+                    software_name=last_measure.software_name,
+                    software_author=last_measure.software_author,
+                    copyright=last_measure.copyright,
                     theoretical_beats=(
                         last_measure.theoretical_beats
                     ),
