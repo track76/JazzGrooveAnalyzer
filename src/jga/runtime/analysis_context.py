@@ -234,6 +234,8 @@ class AnalysisContext:
 
     behaviour_descriptors: tuple = ()
 
+    semantics: tuple = ()
+
     descriptor_set: DescriptorSet | None = None
 
     analytical_structure: AnalyticalStructure | None = None

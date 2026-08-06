@@ -38,6 +38,10 @@ from jga.translation.domain_reconstruction_builder import (
 from jga.translation.tau8_translator import Tau8Translator
 
 
+from jga.semantics.builders.metric_event_semantics_builder import (
+    MetricEventSemanticsBuilder,
+)
+
 class DefaultDomainInputBuilder(DomainInputBuilder):
     """
     Canonical Domain reconstruction pipeline.
@@ -152,6 +156,13 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
 
         context.elementary_metric_events = (
             reconstruction_result.elementary_metric_events
+        )
+
+        builder = MetricEventSemanticsBuilder()
+
+        context.semantics = tuple(
+            builder.build()
+            for _ in context.elementary_metric_events
         )
 
         context.beat_references = (
