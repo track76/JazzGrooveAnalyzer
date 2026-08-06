@@ -82,9 +82,10 @@ class AnalyticalScoreRenderer:
 
             ax.axhline(
                 y,
-                linewidth=0.6,
-                color="gray",
-                alpha=0.4
+                linewidth=0.4,
+                color="lightgray",
+                alpha=0.25,
+                zorder=0,
             )
 
 
@@ -194,7 +195,10 @@ class AnalyticalScoreRenderer:
                     x,
                     y,
                     marker=marker,
-                    s=80
+                    s=42,
+                    color="black",
+                    linewidths=1.0,
+                    zorder=3,
                 )
 
 
