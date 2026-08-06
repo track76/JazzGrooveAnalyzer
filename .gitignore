@@ -33,3 +33,4 @@ JGA_REPOSITORY.zip
 # Bootstrap artifacts
 artifacts/
 output/*.png
+output/archive_before_M80_1/
