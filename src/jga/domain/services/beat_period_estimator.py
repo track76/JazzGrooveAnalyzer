@@ -36,4 +36,16 @@ class BeatPeriodEstimator:
             )
         ]
 
-        return sum(intervals) / len(intervals)
+        period = (
+            sum(intervals)
+            /
+            len(intervals)
+        )
+
+        # Avoid half-tempo reconstruction.
+        # Beat period should remain in a musical
+        # pulse range.
+        if period > 0.8:
+            period /= 2.0
+
+        return period

@@ -258,6 +258,8 @@ class AnalysisContext:
         RepresentationResult | None
     ) = None
 
+    analytical_score: object | None = None
+
     # =====================================================
     # Scientific Validation Layer (M78)
     # =====================================================

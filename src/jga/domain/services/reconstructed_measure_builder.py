@@ -42,6 +42,8 @@ class ReconstructedMeasureBuilder:
 
         beats_per_measure = (
             metric_signature.beats_per_measure
+            *
+            metric_signature.pulses_per_beat
         )
 
         for measure_number, start in enumerate(
@@ -86,7 +88,15 @@ class ReconstructedMeasureBuilder:
 
                     start_time_seconds=group[0].timestamp,
 
-                    end_time_seconds=group[-1].timestamp,
+                    end_time_seconds=(
+                        group[-1].timestamp
+                        +
+                        (
+                            60.0
+                            /
+                            internal_bpm
+                        )
+                    ),
 
                     beat_references=group,
 

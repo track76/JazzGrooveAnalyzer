@@ -38,6 +38,8 @@ class ReconstructedMeasureRunner:
 
             denominator=4,
 
+            pulses_per_beat=4,
+
         )
 
         context.reconstructed_measures = (

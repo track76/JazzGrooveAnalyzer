@@ -50,8 +50,16 @@ def _metric_position_from_point(
         first_beat_index
     )
 
-    return (
+    pulses_per_beat = 4
+
+    metric_beat = (
         local_beat
+        //
+        pulses_per_beat
+    )
+
+    return (
+        metric_beat
         +
         1.0
         +
@@ -137,23 +145,34 @@ class AnalyticalScoreBuilder:
                 if (
                     point.beat_reference
                     and
-                    point.beat_reference.id
-                    in {
-                        beat.id
-                        for beat
-                        in measure.beat_references
-                    }
+                    measure.start_time_seconds
+                    <= point.event.timestamp
+                    <
+                    (
+                        measure.start_time_seconds
+                        +
+                        (
+                            len(
+                                measure.beat_references
+                            )
+                            *
+                            (
+                                60.0
+                                /
+                                measure.internal_bpm
+                            )
+                        )
+                    )
                 ):
 
                     metric_events.append(
                         MetricEvent(
                             source_name=resolve_source_name(event),
                             theoretical_position=(
-                                point.beat_reference.index
-                                -
-                                measure.beat_references[0].index
-                                +
-                                1.0
+                                _metric_position_from_point(
+                                    point,
+                                    measure,
+                                )
                                 if point.beat_reference
                                 else 0.0
                             ),
@@ -174,23 +193,17 @@ class AnalyticalScoreBuilder:
                     software_name="JazzGrooveAnalyzer",
                     software_author="Angelo Tracanna",
                     copyright="Copyright © 2026 Angelo Tracanna",
-                    theoretical_beats=tuple(
-                        float(index + 1)
-                        for index
-                        in range(
-                            len(
-                                measure.beat_references
-                            )
-                        )
+                    theoretical_beats=(
+                        1.0,
+                        2.0,
+                        3.0,
+                        4.0,
                     ),
-                    beat_positions=tuple(
-                        float(index) + 0.5
-                        for index
-                        in range(
-                            len(
-                                measure.beat_references
-                            )
-                        )
+                    beat_positions=(
+                        1.5,
+                        2.5,
+                        3.5,
+                        4.5,
                     ),
                     start_time_seconds=measure.start_time_seconds,
                     metric_events=tuple(metric_events),
@@ -227,11 +240,10 @@ class AnalyticalScoreBuilder:
                         MetricEvent(
                             source_name=resolve_source_name(event),
                             theoretical_position=(
-                                point.beat_reference.index
-                                -
-                                measure.beat_references[0].index
-                                +
-                                1.0
+                                _metric_position_from_point(
+                                    point,
+                                    measure,
+                                )
                                 if point.beat_reference
                                 else 0.0
                             ),

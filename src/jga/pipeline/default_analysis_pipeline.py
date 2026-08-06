@@ -12,7 +12,6 @@ Author:
     Angelo Tracanna
 
 Copyright © 2026 Angelo Tracanna
-All Rights Reserved.
 =========================================================
 """
 
@@ -42,9 +41,6 @@ from jga.source_understanding.pipeline import (
     SourceUnderstandingPipeline,
 )
 
-from jga.domain.services.dummy_source_identification_service import (
-    DummySourceIdentificationService,
-)
 from jga.domain.services.rule_based_ensemble_analysis_pipeline import (
     RuleBasedEnsembleAnalysisPipeline,
 )
@@ -92,6 +88,10 @@ from jga.runtime.engines.reconstructed_measure_runner import (
 
 from jga.runtime.engines.validation_dataset_runner import (
     ValidationDatasetRunner,
+)
+
+from jga.runtime.engines.analytical_score_runner import (
+    AnalyticalScoreRunner,
 )
 
 
@@ -194,6 +194,10 @@ class AnalysisPipeline:
             ValidationDatasetRunner()
         )
 
+        self.analytical_score_runner = (
+            AnalyticalScoreRunner()
+        )
+
     def analyze(
         self,
         filepath: str,
@@ -224,7 +228,6 @@ class AnalysisPipeline:
         context.ensemble_profile = (
             source_result.ensemble_profile
         )
-
 
         context = self.pulse_detector.process(context)
 
@@ -259,10 +262,6 @@ class AnalysisPipeline:
         context = self.metric_segment_builder.process(context)
 
         context = self.metric_context_builder.process(context)
-
-        self.validation_dataset_runner.run(
-            context,
-        )
 
         context = self.metric_cluster_builder.process(context)
 
@@ -313,6 +312,14 @@ class AnalysisPipeline:
             self.representation_pipeline.run(
                 metric_clusters=context.metric_clusters,
             )
+        )
+
+        self.validation_dataset_runner.run(
+            context,
+        )
+
+        self.analytical_score_runner.run(
+            context,
         )
 
         return context

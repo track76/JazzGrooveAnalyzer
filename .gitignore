@@ -32,3 +32,4 @@ JGA_REPOSITORY.zip
 
 # Bootstrap artifacts
 artifacts/
+output/*.png

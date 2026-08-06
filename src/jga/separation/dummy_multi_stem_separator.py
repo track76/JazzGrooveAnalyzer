@@ -6,14 +6,13 @@ File:
     dummy_multi_stem_separator.py
 
 Description:
-    Development separator generating logical ensemble
-    sources for pipeline validation.
+    Development separator producing multiple
+    observable stems from one audio source.
 
 Author:
     Angelo Tracanna
 
 Copyright © 2026 Angelo Tracanna
-All Rights Reserved.
 =========================================================
 """
 
@@ -22,26 +21,19 @@ from jga.core.audio_stem_collection import (
     AudioStemCollection,
 )
 
-from jga.runtime.analysis_context import (
-    AnalysisContext,
-)
-
-from jga.runtime.runtime_event import (
-    RuntimeEvent,
-)
+from jga.runtime.analysis_context import AnalysisContext
 
 from .base_separator import BaseSeparator
 
 
 class DummyMultiStemSeparator(BaseSeparator):
     """
-    Development separator.
+    Temporary multi-source separator.
 
-    Creates multiple logical AudioStems from the same
-    audio signal.
+    It does NOT perform source separation.
 
-    No real source separation is performed.
-    It validates the ensemble analysis pipeline.
+    It creates observable source placeholders
+    required by higher JGA layers.
     """
 
     def process(
@@ -50,13 +42,13 @@ class DummyMultiStemSeparator(BaseSeparator):
     ) -> AnalysisContext:
 
         names = (
-            "Bass",
+            "Trumpet",
             "Piano",
+            "Bass",
             "Ride",
             "Hi-Hat",
             "Snare",
             "Kick",
-            "Trumpet",
         )
 
         stems = tuple(
@@ -65,30 +57,13 @@ class DummyMultiStemSeparator(BaseSeparator):
                 signal=context.processed_audio,
                 sample_rate=context.audio.sample_rate,
                 source="DummyMultiStemSeparator",
-                confidence=0.5,
+                confidence=0.1,
             )
             for name in names
         )
 
-        context.audio_stems = AudioStemCollection(
-            stems
-        )
-
-        context.log.add(
-            RuntimeEvent(
-                event_id="AUDIO_STEMS_CREATED",
-                layer="SEPARATION",
-                component="DummyMultiStemSeparator",
-                message=(
-                    "Dummy multi separator created "
-                    "7 logical audio stems."
-                ),
-                input_type="SignalRepresentation",
-                output_type="AudioStemCollection",
-                metrics={
-                    "stems": 7,
-                },
-            )
+        context.audio_stems = (
+            AudioStemCollection(stems)
         )
 
         return context

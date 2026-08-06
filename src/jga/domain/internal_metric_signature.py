@@ -15,6 +15,8 @@ class InternalMetricSignature:
 
     denominator: int
 
+    pulses_per_beat: int = 4
+
     @property
     def beats_per_measure(
         self,
