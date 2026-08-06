@@ -42,8 +42,6 @@ class ReconstructedMeasureBuilder:
 
         beats_per_measure = (
             metric_signature.beats_per_measure
-            *
-            metric_signature.pulses_per_beat
         )
 
         for measure_number, start in enumerate(
