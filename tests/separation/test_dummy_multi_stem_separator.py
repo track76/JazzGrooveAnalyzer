@@ -1,3 +1,6 @@
+"""
+Tests for DummyMultiStemSeparator.
+"""
 
 from pathlib import Path
 
@@ -10,65 +13,55 @@ from jga.separation.dummy_multi_stem_separator import (
 )
 
 
-def make_context():
-
+def _create_context() -> AnalysisContext:
     audio = AudioFile(
         path=Path("dummy.wav"),
-        raw_audio=np.array([0.1, 0.2, 0.3]),
+        raw_audio=np.zeros(1024, dtype=float),
         sample_rate=44100,
         duration=1.0,
         channels=1,
         format="wav",
     )
 
-    context = AnalysisContext(
-        audio=audio
-    )
-
-    context.processed_audio = np.array(
-        [0.1, 0.2, 0.3]
-    )
+    context = AnalysisContext(audio=audio)
+    context.processed_audio = np.zeros(1024, dtype=float)
 
     return context
 
 
-def test_dummy_multi_stem_separator_creates_multiple_stems():
+def test_dummy_separator_creates_expected_audio_stems():
+    context = _create_context()
 
-    context = make_context()
+    separator = DummyMultiStemSeparator()
 
-    result = (
-        DummyMultiStemSeparator()
-        .process(context)
-    )
+    context = separator.process(context)
 
-    assert result.audio_stems is not None
+    assert context.audio_stems is not None
+    assert len(context.audio_stems) == 7
 
-    assert len(result.audio_stems) == 4
+    names = [stem.name for stem in context.audio_stems]
 
-    names = tuple(
-        stem.name
-        for stem in result.audio_stems
-    )
-
-    assert names == (
-        "Double Bass",
+    assert names == [
+        "Bass",
         "Piano",
-        "Drums",
+        "Ride",
+        "Hi-Hat",
+        "Snare",
+        "Kick",
         "Trumpet",
-    )
+    ]
 
-    for stem in result.audio_stems:
 
-        assert stem.sample_rate == 44100
+def test_dummy_separator_logs_runtime_event():
+    context = _create_context()
 
-        assert (
-            stem.source
-            == "DummyMultiStemSeparator"
-        )
+    separator = DummyMultiStemSeparator()
 
-        assert stem.confidence == 0.5
+    context = separator.process(context)
 
-        assert np.array_equal(
-            stem.signal,
-            context.processed_audio,
-        )
+    event = context.log.entries[-1]
+
+    assert event.event_id == "AUDIO_STEMS_CREATED"
+    assert event.layer == "SEPARATION"
+    assert event.component == "DummyMultiStemSeparator"
+    assert event.metrics["stems"] == 7

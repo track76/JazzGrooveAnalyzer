@@ -81,12 +81,12 @@ class DummyMultiStemSeparator(BaseSeparator):
                 component="DummyMultiStemSeparator",
                 message=(
                     "Dummy multi separator created "
-                    "4 logical audio stems."
+                    "7 logical audio stems."
                 ),
                 input_type="SignalRepresentation",
                 output_type="AudioStemCollection",
                 metrics={
-                    "stems": 4,
+                    "stems": 7,
                 },
             )
         )
