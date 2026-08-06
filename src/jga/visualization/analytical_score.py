@@ -21,12 +21,20 @@ class AnalyticalScore:
 
     artist: str
 
-    time_signature: str
+    album: str = ""
 
-    average_bpm: float
+    take: str = ""
 
-    sections: tuple
+    year: str = ""
 
-    measures: tuple
+    time_signature: str = ""
 
-    instrument_lanes: tuple
+    average_bpm: float = 0.0
+
+    duration: float = 0.0
+
+    sections: tuple = ()
+
+    measures: tuple = ()
+
+    instrument_lanes: tuple = ()

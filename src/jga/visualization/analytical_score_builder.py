@@ -183,6 +183,15 @@ class AnalyticalScoreBuilder:
                             )
                         )
                     ),
+                    beat_positions=tuple(
+                        float(index) + 0.5
+                        for index
+                        in range(
+                            len(
+                                measure.beat_references
+                            )
+                        )
+                    ),
                     start_time_seconds=measure.start_time_seconds,
                     metric_events=tuple(metric_events),
                 )
@@ -245,6 +254,9 @@ class AnalyticalScoreBuilder:
                     copyright=last_measure.copyright,
                     theoretical_beats=(
                         last_measure.theoretical_beats
+                    ),
+                    beat_positions=(
+                        last_measure.beat_positions
                     ),
                     start_time_seconds=last_measure.start_time_seconds,
                     metric_events=(

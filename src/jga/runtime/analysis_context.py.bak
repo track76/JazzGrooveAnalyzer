@@ -90,10 +90,6 @@ from jga.source_understanding.ensemble_profile import (
     EnsembleProfile,
 )
 
-from jga.validation.validation_dataset import (
-    ValidationDataset,
-)
-
 
 @dataclass
 class AnalysisContext:
@@ -256,14 +252,6 @@ class AnalysisContext:
 
     representation_result: (
         RepresentationResult | None
-    ) = None
-
-    # =====================================================
-    # Scientific Validation Layer (M78)
-    # =====================================================
-
-    validation_dataset: (
-        ValidationDataset | None
     ) = None
 
     # =====================================================

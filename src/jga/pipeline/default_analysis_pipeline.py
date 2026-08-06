@@ -90,6 +90,10 @@ from jga.runtime.engines.reconstructed_measure_runner import (
     ReconstructedMeasureRunner,
 )
 
+from jga.runtime.engines.validation_dataset_runner import (
+    ValidationDatasetRunner,
+)
+
 
 class AnalysisPipeline:
     """
@@ -186,6 +190,10 @@ class AnalysisPipeline:
             ReconstructedMeasureRunner()
         )
 
+        self.validation_dataset_runner = (
+            ValidationDatasetRunner()
+        )
+
     def analyze(
         self,
         filepath: str,
@@ -251,6 +259,10 @@ class AnalysisPipeline:
         context = self.metric_segment_builder.process(context)
 
         context = self.metric_context_builder.process(context)
+
+        self.validation_dataset_runner.run(
+            context,
+        )
 
         context = self.metric_cluster_builder.process(context)
 

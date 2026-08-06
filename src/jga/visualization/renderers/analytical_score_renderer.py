@@ -231,15 +231,31 @@ class AnalyticalScoreRenderer:
         ax.set_xticks([])
 
 
-        ax.set_title(
-            (
-                "JGA Analytical Groove Score\n"
-                f"{score.recording_title}\n"
-                f"{score.time_signature} | "
-                f"Average BPM {score.average_bpm:.1f}"
-            ),
-            fontsize=18,
-            pad=35
+        fig.suptitle(
+            "JGA Analytical Groove Score",
+            fontsize=20,
+            fontweight="bold",
+            y=0.985,
+        )
+
+        header = (
+            f"Recording : {score.recording_title}\n"
+            f"Artist    : {score.artist}\n"
+            f"Album     : {score.album}\n"
+            f"Take      : {score.take}\n"
+            f"Year      : {score.year}\n\n"
+            f"Meter     : {score.time_signature}\n"
+            f"Average BPM : {score.average_bpm:.1f}\n"
+        )
+
+        fig.text(
+            0.02,
+            0.94,
+            header,
+            ha="left",
+            va="top",
+            fontsize=11,
+            family="monospace",
         )
 
 
@@ -249,7 +265,7 @@ class AnalyticalScoreRenderer:
 
 
         fig.subplots_adjust(
-            top=0.82,
+            top=0.70,
             bottom=0.15,
             left=0.12,
             right=0.98
