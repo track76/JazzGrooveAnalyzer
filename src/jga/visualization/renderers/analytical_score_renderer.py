@@ -108,11 +108,12 @@ class AnalyticalScoreRenderer:
             )
 
 
-            for beat in range(
-                beats_per_measure
+            for beat, x in enumerate(
+                measure.beat_positions,
+                start=1,
             ):
 
-                x = start + beat + 0.5
+                x += start
 
 
                 ax.axvline(
@@ -126,7 +127,7 @@ class AnalyticalScoreRenderer:
                 ax.text(
                     x,
                     1.08,
-                    str(beat+1),
+                    str(beat),
                     ha="center",
                     transform=ax.get_xaxis_transform()
                 )

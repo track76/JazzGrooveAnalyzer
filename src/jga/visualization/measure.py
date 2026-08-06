@@ -37,6 +37,8 @@ class Measure:
 
     theoretical_beats: tuple[float, ...] = ()
 
+    beat_positions: tuple[float, ...] = ()
+
     start_time_seconds: float = 0.0
 
     metric_events: tuple[MetricEvent, ...] = ()
