@@ -31,4 +31,4 @@ def test_dummy_multi_stem_separator_creates_sources():
 
     assert len(
         context.audio_stems
-    ) == 7
+    ) == 5

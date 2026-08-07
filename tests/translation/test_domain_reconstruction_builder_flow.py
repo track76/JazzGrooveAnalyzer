@@ -35,6 +35,7 @@ def test_domain_reconstruction_builder_flow():
                 contributor,
             ),
             domain_pulse_candidates=(),
+            ensemble_metric_events=(),
         )
     )
 

@@ -18,22 +18,13 @@ All Rights Reserved.
 """
 
 from dataclasses import dataclass
+from uuid import UUID
 
 
 @dataclass(slots=True)
 class MetricSource:
     """
     One rhythmic source extracted from the audio.
-
-    Examples:
-        Ride
-        Hi-Hat
-        Kick
-        Snare
-        Brushes
-        Double Bass
-        Piano
-        Guitar
     """
 
     name: str
@@ -41,3 +32,5 @@ class MetricSource:
     family: str
 
     confidence: float = 1.0
+
+    source_id: UUID | None = None

@@ -45,4 +45,7 @@ class DomainReconstructionInputBuilder:
             domain_pulse_candidates=(
                 context.domain_pulse_candidates
             ),
+            ensemble_metric_events=(
+                context.ensemble_metric_events
+            ),
         )

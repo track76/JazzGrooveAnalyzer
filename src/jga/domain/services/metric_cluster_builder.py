@@ -10,6 +10,10 @@ class MetricClusterBuilder:
     """
     Builds MetricCluster objects by assigning
     ElementaryMetricEvents to BeatReferences.
+
+    Every BeatReference produces a MetricCluster.
+    Events are optional observations associated with
+    the reconstructed metric movement.
     """
 
     def __init__(
@@ -24,7 +28,7 @@ class MetricClusterBuilder:
         events: tuple[ElementaryMetricEvent, ...],
     ) -> tuple[MetricCluster, ...]:
 
-        if not beat_references or not events:
+        if not beat_references:
             return ()
 
         clusters = []
@@ -38,14 +42,13 @@ class MetricClusterBuilder:
                 <= self.cluster_window
             )
 
-            if assigned_events:
-                clusters.append(
-                    MetricCluster(
-                        id=uuid4(),
-                        beat_reference=beat,
-                        events=assigned_events,
-                        created_at=datetime.now(),
-                    )
+            clusters.append(
+                MetricCluster(
+                    id=uuid4(),
+                    beat_reference=beat,
+                    events=assigned_events,
+                    created_at=datetime.now(),
                 )
+            )
 
         return tuple(clusters)

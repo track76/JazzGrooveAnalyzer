@@ -27,10 +27,23 @@ from jga.engines.pulse_builder import PulseBuilder
 from jga.engines.analysis_window_builder import AnalysisWindowBuilder
 from jga.engines.metric_stability_analyzer import MetricStabilityAnalyzer
 from jga.engines.source_pulse_extractor import SourcePulseExtractor
+from jga.engines.source_pulse_candidate_builder import (
+    SourcePulseCandidateBuilder,
+)
+from jga.engines.domain_pulse_candidate_adapter import (
+    DomainPulseCandidateAdapter,
+)
 from jga.engines.periodicity_discovery import PeriodicityDiscovery
 from jga.engines.metric_segment_builder import MetricSegmentBuilder
 from jga.engines.metric_context_builder import MetricContextBuilder
 from jga.engines.metric_cluster_builder import MetricClusterBuilder
+from jga.engines.ensemble_metric_consensus_engine import (
+    EnsembleMetricConsensusEngine,
+)
+
+from jga.engines.ensemble_analysis_engine import (
+    EnsembleAnalysisEngine,
+)
 
 from jga.runtime.analysis_context import AnalysisContext
 from jga.runtime.analysis_report import AnalysisReport
@@ -130,6 +143,14 @@ class AnalysisPipeline:
 
         self.source_pulse_extractor = SourcePulseExtractor()
 
+        self.source_pulse_candidate_builder = (
+            SourcePulseCandidateBuilder()
+        )
+
+        self.domain_pulse_candidate_adapter = (
+            DomainPulseCandidateAdapter()
+        )
+
         self.periodicity_discovery = PeriodicityDiscovery()
 
         self.metric_segment_builder = MetricSegmentBuilder()
@@ -137,6 +158,10 @@ class AnalysisPipeline:
         self.metric_context_builder = MetricContextBuilder()
 
         self.metric_cluster_builder = MetricClusterBuilder()
+
+        self.ensemble_metric_consensus = (
+            EnsembleMetricConsensusEngine()
+        )
 
         function_assigner = (
             RuleBasedMusicalFunctionAssignmentService()
@@ -154,6 +179,13 @@ class AnalysisPipeline:
         )
 
         semantic_bridge = DummySemanticBridge()
+
+        self.ensemble_analysis_engine = (
+            EnsembleAnalysisEngine(
+                semantic_bridge=semantic_bridge,
+                ensemble_pipeline=ensemble_pipeline,
+            )
+        )
 
         self.domain_input_builder = (
             DefaultDomainInputBuilder(
@@ -255,7 +287,17 @@ class AnalysisPipeline:
             f"Analysis starts at {intro.analysis_start_time:.3f} s"
         )
 
-        context = self.source_pulse_extractor.process(context)
+        context = (
+            self.source_pulse_candidate_builder.process(
+                context
+            )
+        )
+
+        context.domain_pulse_candidates = (
+            self.domain_pulse_candidate_adapter.convert(
+                context.source_pulse_sequences
+            )
+        )
 
         context = self.periodicity_discovery.process(context)
 
@@ -264,6 +306,22 @@ class AnalysisPipeline:
         context = self.metric_context_builder.process(context)
 
         context = self.metric_cluster_builder.process(context)
+
+        context = (
+            self.ensemble_analysis_engine.process(
+                context
+            )
+        )
+
+        context.metric_contributors = (
+            context.ensemble_analysis_result.metric_contributors
+        )
+
+        context = (
+            self.ensemble_metric_consensus.process(
+                context
+            )
+        )
 
         context = self.domain_input_builder.build(context)
 

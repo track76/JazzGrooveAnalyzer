@@ -184,6 +184,8 @@ class AnalysisContext:
 
     domain_pulse_candidates: tuple = ()
 
+    ensemble_metric_events: tuple = ()
+
     elementary_metric_events: tuple = ()
 
     metric_contributors: tuple = ()

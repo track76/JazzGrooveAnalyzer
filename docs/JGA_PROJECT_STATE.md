@@ -29,6 +29,15 @@ COMPLETED
 - DefaultTemporalVisualizationProjector
 - VisualizationProjectionPipeline
 
+### Consensus Layer Integration
+
+- Ensemble Metric Consensus Layer operational
+- DomainPulseCandidateAdapter introduced
+- Core PulseCandidate → Domain PulseCandidate translation boundary
+- Source identity propagation through:
+  AudioStem → MetricSource → MetricContributor → Domain PulseCandidate
+- VAL-001 to VAL-004 validation flows completed
+
 ## Validation
 
 - 108 tests passed

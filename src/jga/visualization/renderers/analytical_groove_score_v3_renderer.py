@@ -1,160 +1,190 @@
 """
-Analytical Groove Score Renderer v3.
+Analytical Groove Score Renderer.
 
-Two-level analytical representation:
-
-1. Metric position
-   - internal beat grid
-   - theoretical position
-   - observed events
-
-2. Microtiming deviation
-   - temporal displacement in milliseconds
+Multi-panel temporal representation.
 """
 
 import matplotlib.pyplot as plt
 
+from collections import defaultdict
+from matplotlib.ticker import FuncFormatter
+
 from jga.visualization.measure import Measure
+from jga.visualization.measure_block import MeasureBlock
+
+
+def _instrument_priority(name: str) -> int:
+    order = {
+        "Trumpet": 0,
+        "Piano": 1,
+        "Bass": 2,
+        "Ride": 3,
+        "Hi-Hat": 4,
+        "Snare": 5,
+        "Kick": 6,
+    }
+
+    return order.get(name, 99)
 
 
 class AnalyticalGrooveScoreV3Renderer:
-    """
-    Renders metric position and microtiming deviation.
-    """
+
 
     def render(
         self,
-        measure: Measure,
+        measure: Measure | MeasureBlock,
     ):
 
-        figure, axes = plt.subplots(
-            2,
-            1,
-            figsize=(10, 8),
-            sharex=True,
-            gridspec_kw={
-                "height_ratios": (2, 1)
-            },
+        if isinstance(measure, MeasureBlock):
+            measures = measure.measures
+        else:
+            measures = (measure,)
+
+        figure, axis = plt.subplots(
+            figsize=(14, 8)
         )
 
-        metric_axis, timing_axis = axes
-
         instruments = tuple(
-            dict.fromkeys(
-                event.source_name
-                for event in measure.metric_events
+            sorted(
+                {
+                    event.source_name
+                    for m in measures
+                    for event in m.metric_events
+                },
+                key=_instrument_priority,
             )
         )
 
         instrument_y = {
             name: index
             for index, name
-            in enumerate(instruments)
+            in enumerate(reversed(instruments))
         }
 
-        # -------------------------
-        # Metric position view
-        # -------------------------
+        for y in instrument_y.values():
 
-        for beat in measure.theoretical_beats:
-            metric_axis.axvline(
-                beat,
-                linewidth=0.8,
-            )
-
-        for event in measure.metric_events:
-
-            y = instrument_y[
-                event.source_name
-            ]
-
-            metric_axis.scatter(
-                event.theoretical_position,
+            axis.axhline(
                 y,
+                linewidth=0.5,
             )
 
-            metric_axis.scatter(
-                event.beat_index,
-                y,
+        for m in measures:
+
+            # measure boundary
+            axis.axvline(
+                m.start_time_seconds,
+                linewidth=2.0,
             )
 
-            metric_axis.plot(
-                (
-                    event.theoretical_position,
-                    event.beat_index,
-                ),
-                (
-                    y,
-                    y,
-                ),
+            # quarter-note beats only
+            # derived from the actual measure timeline,
+            # not from subdivision count.
+
+            measure_duration = (
+                m.beat_positions[-1]
+                -
+                m.beat_positions[0]
             )
 
-        metric_axis.set_yticks(
+            beat_duration = (
+                measure_duration
+                /
+                4
+            )
+
+            for beat_index in range(4):
+
+                axis.axvline(
+                    m.start_time_seconds
+                    +
+                    beat_index * beat_duration,
+                    linestyle="--",
+                    linewidth=1.2,
+                )
+
+            event_offsets = defaultdict(int)
+
+            for event in m.metric_events:
+
+                base_y = instrument_y[
+                    event.source_name
+                ]
+
+                offset = (
+                    event_offsets[
+                        event.source_name
+                    ]
+                    %
+                    5
+                ) * 0.08
+
+                event_offsets[
+                    event.source_name
+                ] += 1
+
+                axis.scatter(
+                    event.absolute_time_seconds,
+                    base_y + offset,
+                    s=12,
+                )
+
+            axis.text(
+                m.start_time_seconds,
+                len(instruments) + 0.3,
+                f"M{m.number}",
+                fontsize=12,
+            )
+
+        axis.set_yticks(
             tuple(
                 instrument_y.values()
             )
         )
 
-        metric_axis.set_yticklabels(
+        axis.set_yticklabels(
             tuple(
                 instrument_y.keys()
             )
         )
 
-        metric_axis.set_ylabel(
+        axis.set_ylabel(
             "Instrument"
         )
 
-        metric_axis.set_title(
+        axis.set_xlabel(
+            "Time (mm:ss.xxx)"
+        )
+
+        axis.xaxis.set_major_formatter(
+            FuncFormatter(
+                lambda x, pos:
+                f"{int(x//60):02d}:{x%60:06.3f}"
+            )
+        )
+
+        axis.set_title(
             f"Analytical Groove Score "
-            f"- Measure {measure.number} "
-            f"- BPM {measure.bpm:.1f}"
+            f"- Measures "
+            f"{measures[0].number}-{measures[-1].number}"
+            f" - BPM {measures[0].bpm:.1f}"
         )
 
-        # -------------------------
-        # Microtiming view
-        # -------------------------
+        last_measure = measures[-1]
 
-        for beat in measure.theoretical_beats:
-            timing_axis.axvline(
-                beat,
-                linewidth=0.8,
-            )
-
-        for event in measure.metric_events:
-
-            y = 0
-
-            timing_axis.scatter(
-                event.beat_index,
-                event.offset_ms,
-            )
-
-        timing_axis.axhline(
-            0,
-            linewidth=1.0,
+        measure_duration = (
+            last_measure.beat_positions[-1]
+            -
+            last_measure.beat_positions[0]
         )
 
-        timing_axis.set_ylim(
-            -20,
-            20,
-        )
-
-        timing_axis.set_ylabel(
-            "Offset (ms)"
-        )
-
-        timing_axis.set_xlabel(
-            "Metric position"
-        )
-
-        timing_axis.set_xticks(
-            measure.theoretical_beats
-        )
-
-        metric_axis.set_xlim(
-            0.5,
-            max(measure.theoretical_beats) + 0.5,
+        axis.set_xlim(
+            measures[0].start_time_seconds,
+            last_measure.start_time_seconds
+            +
+            measure_duration
+            +
+            0.1,
         )
 
         return figure
+

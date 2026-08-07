@@ -82,6 +82,7 @@ def test_events_assigned_to_same_beat_create_one_cluster():
     assert len(clusters) == 1
     assert clusters[0].events == (e1, e2)
 
+
 def test_build_clusters_with_multiple_beat_references():
 
     builder = MetricClusterBuilder(cluster_window=0.010)
@@ -108,6 +109,7 @@ def test_build_clusters_with_multiple_beat_references():
     assert clusters[1].beat_reference == beat_references[1]
     assert clusters[1].events == (e3,)
 
+
 def test_events_outside_cluster_window_are_ignored():
 
     builder = MetricClusterBuilder(cluster_window=0.010)
@@ -128,7 +130,8 @@ def test_events_outside_cluster_window_are_ignored():
     assert len(clusters) == 1
     assert clusters[0].events == (e1, e2)
 
-def test_beat_reference_without_events_does_not_create_cluster():
+
+def test_beat_reference_without_events_creates_empty_cluster():
 
     builder = MetricClusterBuilder(cluster_window=0.010)
 
@@ -144,13 +147,16 @@ def test_beat_reference_without_events_does_not_create_cluster():
         (e1,),
     )
 
-    assert len(clusters) == 1
+    assert len(clusters) == 2
 
     assert clusters[0].beat_reference == beat_references[0]
     assert clusters[0].events == (e1,)
 
+    assert clusters[1].beat_reference == beat_references[1]
+    assert clusters[1].events == ()
 
-def test_no_clusters_created_when_no_events_match_any_beat():
+
+def test_no_events_match_any_beat_creates_empty_clusters():
 
     builder = MetricClusterBuilder(cluster_window=0.010)
 
@@ -168,4 +174,6 @@ def test_no_clusters_created_when_no_events_match_any_beat():
         events,
     )
 
-    assert clusters == ()
+    assert len(clusters) == 2
+    assert clusters[0].events == ()
+    assert clusters[1].events == ()

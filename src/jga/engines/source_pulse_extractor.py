@@ -55,6 +55,7 @@ class SourcePulseExtractor:
                     source=MetricSource(
                         name=stem.name,
                         family="Unknown",
+                        source_id=stem.id,
                     ),
                     pulse_candidates=list(
                         context.pulse_candidates

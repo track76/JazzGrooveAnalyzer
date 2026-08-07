@@ -68,6 +68,7 @@ class RepresentationPipeline:
 
         trajectory = self._trajectory_builder.build(
             metric_points=metric_points,
+            metric_cluster_portraits=portraits,
         )
 
         landscape = self._landscape_builder.build(

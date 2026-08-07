@@ -55,7 +55,7 @@ def test_reconstruct_two_measures():
 
     beats = tuple(
         create_beat(index)
-        for index in range(8)
+        for index in range(32)
     )
 
     measures = builder.build(
@@ -77,7 +77,7 @@ def test_reconstruct_two_measures():
 
     assert measures[1].number == 2
 
-    assert len(measures[0].beat_references) == 4
+    assert len(measures[0].beat_references) == 16
 
-    assert len(measures[1].beat_references) == 4
+    assert len(measures[1].beat_references) == 16
 

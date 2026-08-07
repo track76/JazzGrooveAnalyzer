@@ -1369,3 +1369,434 @@ Consequences
   (temporal navigation, zoom, viewport,
    trajectory filtering, etc.).
 
+
+---
+
+## AD-016 — Ensemble Metric Consensus Layer
+
+Status:
+LOCKED
+
+Date:
+2026-08-07
+
+---
+
+### Context
+
+JGA reconstructs metric behaviour from observable audio evidence.
+
+A PulseCandidate represents a temporal event detected from an
+individual sound source.
+
+A PulseCandidate is not necessarily a beat.
+
+The metric reference must emerge from the temporal relationship
+between multiple contributing sources.
+
+---
+
+### Problem
+
+The current observation-to-domain transition preserves source
+provenance but does not explicitly model collective temporal
+consensus.
+
+Direct translation of isolated PulseCandidates may confuse
+individual source activity with ensemble metric behaviour.
+
+---
+
+### Decision
+
+Introduce an Ensemble Metric Consensus Layer between the
+Observation Model and the τ8 Translation Layer.
+
+The component receives:
+
+- PulseCandidate sequences
+- MetricContributor information
+
+and produces:
+
+- EnsembleMetricEvent sequences
+
+---
+
+### Input Representation
+
+PulseCandidate:
+
+- sound_source_id
+- timestamp
+- confidence
+
+
+MetricContributor:
+
+- sound_source_id
+- musical_function_id
+- active
+
+---
+
+### Output Representation
+
+EnsembleMetricEvent:
+
+- collective temporal position
+- contributing metric sources
+- confidence value
+
+---
+
+### Responsibilities
+
+The Ensemble Metric Consensus Layer:
+
+- aligns temporal events from multiple sources;
+- groups compatible temporal observations;
+- estimates collective metric events;
+- preserves source contribution information.
+
+---
+
+### Non Responsibilities
+
+The Ensemble Metric Consensus Layer does not:
+
+- determine time signature;
+- receive BPM metadata;
+- receive musical labels;
+- identify groove style;
+- introduce external musical knowledge.
+
+---
+
+### Scientific Principle
+
+The metric pulse is an emergent property of the temporal
+interaction between multiple musical sources.
+
+A beat is not assigned to one source.
+
+A beat is reconstructed from collective temporal evidence.
+
+
+---
+
+## AD-016 — Source-level Pulse Extraction before Ensemble Metric Consensus
+
+### Status
+
+LOCKED
+
+### Context
+
+The Ensemble Metric Consensus Layer requires independent temporal
+evidence from multiple Metric Sources.
+
+The current PulseCandidateBuilder operates on the global processed
+audio signal and produces ensemble-level PulseCandidates.
+
+Duplicating these PulseCandidates into multiple SourcePulseSequence
+objects would create artificial source agreement and would not
+represent independent rhythmic behaviour.
+
+### Decision
+
+Introduce a source-level pulse extraction boundary before the
+Ensemble Metric Consensus Layer.
+
+Each MetricSource must provide an independent
+SourcePulseSequence generated from its own audio representation.
+
+### Updated Flow
+
+AudioStemCollection
+
+↓
+
+Source-level Pulse Extraction
+
+↓
+
+SourcePulseSequence
+
+↓
+
+MetricContext
+
+↓
+
+EnsembleMetricConsensus
+
+↓
+
+EnsembleMetricEvent
+
+### Input Representation
+
+AudioStem:
+
+- source identity
+- isolated audio signal
+
+### Output Representation
+
+SourcePulseSequence:
+
+- MetricSource identity
+- source-specific PulseCandidates
+
+### Non Responsibilities
+
+Source-level Pulse Extraction does not:
+
+- determine beat;
+- determine meter;
+- estimate BPM;
+- create BeatReference;
+- introduce musical interpretation.
+
+### Scientific Principle
+
+Ensemble metric behaviour emerges from the temporal interaction
+of independent observable rhythmic sources.
+
+Consensus requires independent evidence.
+
+
+---
+
+## AD-017 — DummyMultiStemSeparator Limitation
+
+### Status
+
+LOCKED
+
+### Context
+
+The Ensemble Metric Consensus Layer requires independent
+temporal evidence produced by multiple observable rhythmic
+sources.
+
+The current DummyMultiStemSeparator creates multiple
+AudioStem objects but does not perform source separation.
+
+All generated stems currently contain the same audio signal.
+
+Example:
+
+AudioStem("Bass").signal
+=
+AudioStem("Ride").signal
+=
+AudioStem("Kick").signal
+
+### Decision
+
+The DummyMultiStemSeparator is considered a structural
+placeholder only.
+
+It may be used to validate:
+
+- pipeline contracts;
+- source identity propagation;
+- data flow;
+- architectural integration.
+
+It must not be used to validate:
+
+- source independence;
+- ensemble metric consensus;
+- emergent rhythmic behaviour.
+
+### Scientific Consequence
+
+A valid Ensemble Metric Consensus validation requires:
+
+- independent temporal observations;
+- independent PulseCandidate sequences;
+- observable differences between Metric Sources.
+
+### Future Validation Strategy
+
+Consensus validation must use either:
+
+1. Real source-separated audio stems;
+
+or
+
+2. Synthetic independent rhythmic sources specifically created
+for algorithm validation.
+
+### Principle
+
+Named sources are not equivalent to independent sources.
+
+Source identity and source signal independence are separate
+architectural concepts.
+
+
+---
+
+## AD-018 — Ensemble Metric Consensus Validation Principle
+
+### Status
+
+LOCKED
+
+### Context
+
+The metric pulse of a musical ensemble cannot be
+identified by selecting one dominant rhythmic source.
+
+The observable rhythmic behaviour emerges from the
+temporal interaction between multiple independent
+Metric Sources.
+
+### Decision
+
+The Ensemble Metric Consensus Layer is the architectural
+boundary responsible for reconstructing collective
+metric events.
+
+It receives:
+
+- independent PulseCandidate sequences;
+- MetricContributor information.
+
+It produces:
+
+- EnsembleMetricEvent sequences.
+
+### Input Representation
+
+PulseCandidate:
+
+- sound_source_id;
+- timestamp;
+- confidence.
+
+MetricContributor:
+
+- sound_source_id;
+- active state;
+- contributor metadata.
+
+### Output Representation
+
+EnsembleMetricEvent:
+
+- collective temporal position;
+- contributing Metric Sources;
+- temporal consensus confidence.
+
+### Non Responsibilities
+
+The Ensemble Metric Consensus Layer does not:
+
+- select a privileged rhythmic source;
+- determine meter;
+- determine BPM metadata;
+- identify musical style;
+- introduce semantic interpretation.
+
+### Scientific Principle
+
+A metric event is not assigned to a single source.
+
+A metric event is reconstructed from the temporal
+agreement of multiple observable sources.
+
+
+
+---
+
+# AD-026 — Domain Pulse Candidate Translation Boundary
+
+## Status
+
+LOCKED
+
+## Context
+
+The Core Observation Layer and the Domain Reconstruction Layer
+operate on different abstraction levels.
+
+Core PulseCandidates represent observable temporal events
+extracted from audio processing.
+
+Domain PulseCandidates represent reconstructed temporal events
+associated with stable musical sources.
+
+Direct consumption of Core PulseCandidates by Domain analysis
+components would violate the separation between observation
+and reconstruction layers.
+
+## Decision
+
+A dedicated translation boundary is required between:
+
+- Core PulseCandidate representation;
+- Domain PulseCandidate representation.
+
+The responsible component is:
+
+`DomainPulseCandidateAdapter`
+
+## Transformation
+
+Input:
+
+Core PulseCandidate:
+
+- time;
+- strength;
+- confidence.
+
+Output:
+
+Domain PulseCandidate:
+
+- id;
+- sound_source_id;
+- timestamp;
+- confidence;
+- creation metadata.
+
+## Pipeline Contract
+
+Canonical flow:
+Core PulseCandidate
+|
+v
+DomainPulseCandidateAdapter
+|
+v
+Domain PulseCandidate
+|
+v
+Ensemble Metric Consensus
+|
+v
+EnsembleMetricEvent
+
+## Non Responsibilities
+
+The adapter does not:
+
+- infer beat;
+- infer meter;
+- estimate BPM;
+- classify instruments;
+- introduce semantic interpretation.
+
+## Scientific Principle
+
+Observable temporal evidence must be translated explicitly
+before entering semantic reconstruction layers.
+
+No implicit representation conversion is allowed.
+

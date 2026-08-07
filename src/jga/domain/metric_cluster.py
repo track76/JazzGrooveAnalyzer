@@ -9,24 +9,20 @@ from jga.domain.elementary_metric_event import ElementaryMetricEvent
 @dataclass(frozen=True, slots=True)
 class MetricCluster:
     """
-    First inferred temporal structure of the Jazz Groove Analyzer.
+    Reconstructed metric movement.
 
-    A MetricCluster groups one or more ElementaryMetricEvents that
-    collectively represent a single metric occurrence.
+    A MetricCluster represents one BeatReference inside the
+    reconstructed metric timeline.
 
-    It is inferred, not directly observed.
+    It may contain zero or more ElementaryMetricEvents.
+    Events are observations of real audio contributors and are
+    not artificially generated.
     """
 
     id: UUID
     beat_reference: BeatReference
     events: tuple[ElementaryMetricEvent, ...]
     created_at: datetime
-
-    def __post_init__(self) -> None:
-        if len(self.events) == 0:
-            raise ValueError(
-                "MetricCluster must contain at least one ElementaryMetricEvent"
-            )
 
     @property
     def size(self) -> int:

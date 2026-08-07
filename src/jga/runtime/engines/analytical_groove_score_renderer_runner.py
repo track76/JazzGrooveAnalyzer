@@ -14,6 +14,10 @@ from jga.visualization.renderers.analytical_groove_score_v3_renderer import (
     AnalyticalGrooveScoreV3Renderer,
 )
 
+from jga.visualization.measure_block import (
+    MeasureBlock,
+)
+
 
 class AnalyticalGrooveScoreRendererRunner:
     """
@@ -34,16 +38,45 @@ class AnalyticalGrooveScoreRendererRunner:
         context: AnalysisContext,
     ):
 
+        return self.render_measure_block(
+            context,
+            0,
+            4,
+        )
+
+    def render_measure_block(
+        self,
+        context: AnalysisContext,
+        start_measure: int,
+        count: int,
+    ):
+
         if context.analytical_score is None:
             raise ValueError(
                 "AnalyticalScore required."
             )
 
-        if not context.analytical_score.measures:
+        measures = (
+            context.analytical_score.measures
+        )
+
+        if not measures:
             raise ValueError(
                 "No measures available."
             )
 
+        selected = measures[
+            start_measure:
+            start_measure + count
+        ]
+
+        if not selected:
+            raise ValueError(
+                "No measures selected."
+            )
+
         return self._renderer.render(
-            context.analytical_score.measures[0]
+            MeasureBlock(
+                measures=tuple(selected)
+            )
         )

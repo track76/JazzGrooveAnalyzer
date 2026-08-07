@@ -65,11 +65,13 @@ def test_cluster_is_immutable():
         cluster.events = (make_event(),)
 
 
-def test_empty_cluster_raises():
-    with pytest.raises(ValueError):
-        MetricCluster(
-            id=uuid4(),
-            beat_reference=make_beat(),
-            events=(),
-            created_at=datetime.now(),
-        )
+def test_empty_cluster_is_valid():
+    cluster = MetricCluster(
+        id=uuid4(),
+        beat_reference=make_beat(),
+        events=(),
+        created_at=datetime.now(),
+    )
+
+    assert cluster.size == 0
+    assert cluster.beat_reference is not None

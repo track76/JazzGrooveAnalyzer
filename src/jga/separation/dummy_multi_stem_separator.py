@@ -42,13 +42,11 @@ class DummyMultiStemSeparator(BaseSeparator):
     ) -> AnalysisContext:
 
         names = (
-            "Trumpet",
+            "Other-1",
+            "Other-2",
             "Piano",
             "Bass",
-            "Ride",
-            "Hi-Hat",
-            "Snare",
-            "Kick",
+            "Drums",
         )
 
         stems = tuple(

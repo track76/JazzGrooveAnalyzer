@@ -16,7 +16,8 @@ All Rights Reserved.
 =========================================================
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from uuid import UUID, uuid5, NAMESPACE_URL
 
 import numpy as np
 
@@ -41,3 +42,14 @@ class AudioStem:
 
     # Affidabilità della separazione
     confidence: float = 1.0
+
+    # Identità stabile della sorgente
+    id: UUID = field(
+        init=False
+    )
+
+    def __post_init__(self) -> None:
+        self.id = uuid5(
+            NAMESPACE_URL,
+            self.name,
+        )
