@@ -69,10 +69,15 @@ It contains:
 - identity;
 - sound source reference;
 - timestamp;
+- strength;
 - confidence.
 
 Its role is to preserve a domain-level temporal representation before
 metric structures are constructed.
+
+M89 disposition: AD-032 preserves `strength` unchanged across Translation as
+an immutable observational quantity. No musical, metrical, accentual,
+behavioural or interpretative semantics are introduced.
 
 ---
 
@@ -149,4 +154,3 @@ and the Domain Model.
 
 Further implementation evolution shall follow only after this review
 is approved.
-

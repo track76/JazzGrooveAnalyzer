@@ -104,6 +104,8 @@ def test_m4_complete_domain_translation_flow():
         result.domain_pulse_candidates
     ) == 1
 
+    assert result.domain_pulse_candidates[0].strength == candidate.strength
+
     assert len(
         result.elementary_metric_events
     ) == 1

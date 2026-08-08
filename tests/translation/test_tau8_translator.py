@@ -107,6 +107,7 @@ def test_tau8_creates_domain_pulse_candidate():
 
     assert isinstance(candidate, PulseCandidate)
     assert candidate.timestamp == 1.25
+    assert candidate.strength == 0.8
     assert candidate.confidence == 0.9
     assert candidate.sound_source_id == source.id
 
@@ -176,6 +177,9 @@ def test_tau8_preserves_multiple_source_provenance():
 
     assert result[0].timestamp == 1.0
     assert result[1].timestamp == 2.0
+
+    assert result[0].strength == 0.7
+    assert result[1].strength == 0.8
 
     assert result[0].sound_source_id == trumpet.id
     assert result[1].sound_source_id == bass.id

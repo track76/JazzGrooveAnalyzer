@@ -12,11 +12,13 @@ def test_create_valid_pulse_candidate():
         id=uuid4(),
         sound_source_id=uuid4(),
         timestamp=1.25,
+        strength=0.75,
         confidence=0.95,
         created_at=datetime.now(),
     )
 
     assert candidate.timestamp == 1.25
+    assert candidate.strength == 0.75
     assert candidate.confidence == 0.95
 
 
@@ -26,12 +28,16 @@ def test_is_immutable():
         id=uuid4(),
         sound_source_id=uuid4(),
         timestamp=1.0,
+        strength=0.75,
         confidence=0.9,
         created_at=datetime.now(),
     )
 
     with pytest.raises(AttributeError):
         candidate.timestamp = 2.0
+
+    with pytest.raises(AttributeError):
+        candidate.strength = 2.0
 
 
 def test_negative_timestamp_raises():
@@ -41,6 +47,7 @@ def test_negative_timestamp_raises():
             id=uuid4(),
             sound_source_id=uuid4(),
             timestamp=-1.0,
+            strength=0.75,
             confidence=0.9,
             created_at=datetime.now(),
         )
@@ -53,6 +60,7 @@ def test_confidence_below_zero_raises():
             id=uuid4(),
             sound_source_id=uuid4(),
             timestamp=1.0,
+            strength=0.75,
             confidence=-0.1,
             created_at=datetime.now(),
         )
@@ -65,6 +73,7 @@ def test_confidence_above_one_raises():
             id=uuid4(),
             sound_source_id=uuid4(),
             timestamp=1.0,
+            strength=0.75,
             confidence=1.1,
             created_at=datetime.now(),
         )

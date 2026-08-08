@@ -18,6 +18,7 @@ def create_candidate_and_contributor():
         id=uuid4(),
         sound_source_id=source_id,
         timestamp=1.25,
+        strength=0.75,
         confidence=0.9,
         created_at=datetime.now(),
     )
@@ -91,6 +92,7 @@ def test_build_multiple_events():
             id=uuid4(),
             sound_source_id=contributor.sound_source_id,
             timestamp=float(i),
+            strength=float(i),
             confidence=1.0,
             created_at=datetime.now(),
         )

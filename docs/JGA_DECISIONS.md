@@ -1720,6 +1720,12 @@ agreement of multiple observable sources.
 
 LOCKED
 
+## M89 Supersession
+
+AD-032 explicitly supersedes only this decision's omission of `strength` from
+the Domain PulseCandidate output mapping. All other provisions remain in
+force. See `docs/architecture/AD-032_M89_PULSE_STRENGTH_PRESERVATION.md`.
+
 ## Context
 
 The Core Observation Layer and the Domain Reconstruction Layer
@@ -1920,3 +1926,26 @@ distinct observational artifact.
 ## Canonical Specification
 
 `docs/architecture/AD-029_M84_VALIDATION_CATALOG.md`
+
+
+------------------------------------------------------------
+
+# AD-032 — M89 PulseCandidate Strength Preservation
+
+## Status
+
+LOCKED
+
+## Decision
+
+`PulseCandidate.strength` is preserved unchanged as an immutable observational
+quantity across the Core PulseCandidate to Domain PulseCandidate Translation
+boundary. Preservation introduces no musical or interpretative semantics and
+does not authorize downstream computation.
+
+AD-032 explicitly supersedes only AD-026's incomplete Domain PulseCandidate
+output mapping.
+
+## Canonical Specification
+
+`docs/architecture/AD-032_M89_PULSE_STRENGTH_PRESERVATION.md`

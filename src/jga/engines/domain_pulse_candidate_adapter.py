@@ -57,6 +57,7 @@ class DomainPulseCandidateAdapter:
                         timestamp=float(
                             candidate.time
                         ),
+                        strength=candidate.strength,
                         confidence=float(
                             candidate.confidence
                         ),

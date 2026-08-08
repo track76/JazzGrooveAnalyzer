@@ -119,9 +119,14 @@ Characteristics:
 - identity;
 - sound source;
 - timestamp;
+- strength;
 - confidence.
 
 It belongs to the representation layer.
+
+The strength field is preserved only as an immutable observational quantity
+under AD-032. Its presence introduces no TAC, musical, metrical, accentual,
+behavioural or interpretative semantics.
 
 
 The shared name creates semantic ambiguity.
@@ -256,4 +261,3 @@ This document defines a scientific specification only.
 
 No implementation change is introduced until the model is approved
 and mapped to the Domain Model.
-

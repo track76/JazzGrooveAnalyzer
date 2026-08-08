@@ -100,6 +100,7 @@ The Domain implementation contains:
 - identity;
 - sound source reference;
 - timestamp;
+- strength;
 - confidence;
 - creation metadata.
 
@@ -107,6 +108,11 @@ The Domain PulseCandidate represents a temporal contribution
 associated with a musical source.
 
 It belongs to the representation layer.
+
+M89 disposition: AD-032 preserves `strength` unchanged across Translation as
+an immutable observational quantity. This correction introduces no new
+scientific interpretation and does not otherwise resolve the questions under
+review in this RFC.
 
 ---
 
@@ -230,4 +236,3 @@ adjustments are required.
 
 Until this RFC is approved, the current implementation remains the
 official reference.
-

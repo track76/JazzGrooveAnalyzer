@@ -15,6 +15,7 @@ class PulseCandidate:
     id: UUID
     sound_source_id: UUID
     timestamp: float
+    strength: float
     confidence: float
     created_at: datetime
 

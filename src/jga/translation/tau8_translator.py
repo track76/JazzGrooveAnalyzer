@@ -82,6 +82,7 @@ class Tau8Translator:
                         id=uuid4(),
                         sound_source_id=source.id,
                         timestamp=candidate.time,
+                        strength=candidate.strength,
                         confidence=candidate.confidence,
                         created_at=datetime.now(),
                     )

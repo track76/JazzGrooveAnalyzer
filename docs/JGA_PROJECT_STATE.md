@@ -1,5 +1,19 @@
 # JGA Project State
 
+## M89 — PulseCandidate Strength Preservation
+
+Status:
+
+COMPLETED
+
+- AD-032 restores the Translation observation-preservation invariant.
+- Core `PulseCandidate.strength` is preserved unchanged in immutable Domain
+  PulseCandidate representations.
+- No downstream scientific or analytical semantics are introduced.
+- Focused and real VAL-001 validation: 20 passed.
+- Complete automated suite: 981 passed, 1 known environment-dependent Demucs
+  MPS failure, 3 warnings.
+
 ## Current Branch
 
 scientific/translation-layer-finalization

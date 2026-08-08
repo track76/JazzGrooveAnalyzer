@@ -1,5 +1,7 @@
 def test_jga_val_001_consensus_flow():
 
+    from collections import Counter
+
     from jga.pipeline.default_analysis_pipeline import (
         AnalysisPipeline,
     )
@@ -61,6 +63,28 @@ def test_jga_val_001_consensus_flow():
     #
 
     assert len(contributors) == 5
+
+    source_observations = Counter(
+        (
+            sequence.source.source_id,
+            candidate.time,
+            candidate.strength,
+            candidate.confidence,
+        )
+        for sequence in context.metric_context.source_pulse_sequences
+        for candidate in sequence.pulse_candidates
+    )
+    domain_observations = Counter(
+        (
+            candidate.sound_source_id,
+            candidate.timestamp,
+            candidate.strength,
+            candidate.confidence,
+        )
+        for candidate in context.domain_pulse_candidates
+    )
+
+    assert domain_observations == source_observations
 
     assert len(events) > 0
 
