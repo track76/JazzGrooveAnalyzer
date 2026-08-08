@@ -1800,3 +1800,59 @@ before entering semantic reconstruction layers.
 
 No implicit representation conversion is allowed.
 
+
+------------------------------------------------------------
+AD-021
+------------------------------------------------------------
+
+Title
+
+Complete Observation Model
+
+Status
+
+PROPOSED
+
+Summary
+
+JGA shall analyze the complete observable audio signal.
+
+Metric Stability is an observable property of the
+performance and shall not determine the beginning of the
+analysis.
+
+Reference
+
+docs/architecture/AD-021_COMPLETE_OBSERVATION_MODEL.md
+
+Validation
+
+VAL-001
+
+
+------------------------------------------------------------
+AD-021
+------------------------------------------------------------
+
+Status
+
+ACCEPTED
+
+Title
+
+Complete Observation Model
+
+Summary
+
+The complete observable musical signal is now the scientific
+object of analysis.
+
+Metric Stability is treated as an observable descriptor of
+musical behaviour and no longer determines where analysis
+begins.
+
+Validation
+
+VAL-001
+PASSED
+

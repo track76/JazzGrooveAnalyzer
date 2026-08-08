@@ -135,13 +135,6 @@ class AnalysisContext:
     ) = None
 
     ensemble_profile: EnsembleProfile | None = None
-
-    # =====================================================
-    # Intro / Metric Activation Point
-    # =====================================================
-
-    analysis_start_time: float = 0.0
-
     source_pulse_sequences: list | None = None
 
     # =====================================================

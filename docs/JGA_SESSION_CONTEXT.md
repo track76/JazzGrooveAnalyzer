@@ -172,3 +172,14 @@ Next milestone:
 
 M43 — Scientific Visualization Exploration
 
+
+Current Scientific State
+
+AD-021 accepted.
+
+The complete recording is now considered the scientific
+object of observation.
+
+Metric Stability is preserved exclusively as an observable
+descriptor and no longer controls the analytical workflow.
+

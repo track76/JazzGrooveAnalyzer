@@ -67,3 +67,32 @@ M19
 
 Scientific Behaviour Diagnostics
 
+
+============================================================
+SCIENTIFIC MILESTONE S-001
+============================================================
+
+Title
+
+Complete Observation Model
+
+Status
+
+ACCEPTED
+
+Scientific Contribution
+
+JGA observes the complete musical phenomenon.
+
+No temporal filtering is performed before scientific
+observation.
+
+Metric Stability is considered an observable property of
+musical behaviour.
+
+Validation
+
+VAL-001
+
+926 tests passed.
+

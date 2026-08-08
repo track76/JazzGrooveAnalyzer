@@ -18,8 +18,6 @@ Copyright © 2026 Angelo Tracanna
 from jga.audio.file_audio_source import FileAudioSource
 
 from jga.engines.audio_preprocessor import AudioPreprocessor
-from jga.engines.intro_detector import IntroDetector
-from jga.engines.analysis_start_filter import AnalysisStartFilter
 
 from jga.engines.pulse_candidate_builder import PulseCandidateBuilder
 from jga.engines.pulse_candidate_filter import PulseCandidateFilter
@@ -127,9 +125,7 @@ class AnalysisPipeline:
 
         self.source_understanding = SourceUnderstandingPipeline()
 
-        self.intro_detector = IntroDetector()
 
-        self.analysis_start_filter = AnalysisStartFilter()
 
         self.pulse_detector = PulseCandidateBuilder()
 
@@ -271,21 +267,9 @@ class AnalysisPipeline:
 
         context = self.stability.process(context)
 
-        intro = self.intro_detector.detect(
-            context.stability_curve
-        )
-
-        context.analysis_start_time = (
-            intro.analysis_start_time
-        )
-
-        context = self.analysis_start_filter.process(
-            context
-        )
-
-        context.log.add(
-            f"Analysis starts at {intro.analysis_start_time:.3f} s"
-        )
+        # AD-021
+        # Metric Stability is computed and preserved as an
+        # observable descriptor only.
 
         context = (
             self.source_pulse_candidate_builder.process(

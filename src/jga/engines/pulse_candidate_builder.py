@@ -32,8 +32,11 @@ class PulseCandidateBuilder:
     """
     JGA-130
 
-    Estrae gli eventi audio che potrebbero
-    appartenere alla pulsazione dell'ensemble.
+    Extracts all observable Pulse Candidates from the
+    processed audio.
+
+    AD-021:
+    No temporal filtering is performed.
     """
 
     def process(
@@ -75,18 +78,12 @@ class PulseCandidateBuilder:
                 )
             )
 
-        if context.analysis_start_time > 0.0:
+        # AD-021
+        # The complete observable signal is analyzed.
+        # No Pulse Candidates are discarded.
 
-            candidates = [
-                candidate
-                for candidate in candidates
-                if candidate.time >= context.analysis_start_time
-            ]
-
-        # Aggiorna il contesto
         context.pulse_candidates = candidates
 
-        # Aggiorna il report
         if context.report is not None:
             context.report.pulse_candidates = len(candidates)
 
