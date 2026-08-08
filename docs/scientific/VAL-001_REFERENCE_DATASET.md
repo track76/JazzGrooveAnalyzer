@@ -36,6 +36,15 @@ Providing any of this information to the analysis pipeline would invalidate the 
 
 # Ground Truth (Validation Only)
 
+Canonical Ground Truth
+
+GT-VAL-001-v1
+
+The Ground Truth identity, approved MusicXML source and
+normalization rules are defined by:
+
+- `docs/architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md`
+
 Time Signature
 
 4/4
@@ -87,4 +96,3 @@ Typical outputs include:
 - scientific report
 
 These outputs are compared with the reference ground truth to evaluate the scientific correctness of the reconstruction.
-

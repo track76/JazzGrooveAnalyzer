@@ -1856,3 +1856,45 @@ Validation
 VAL-001
 PASSED
 
+
+------------------------------------------------------------
+
+# AD-027 — Immutable Analysis Representation
+
+## Status
+
+LOCKED
+
+## Decision
+
+Completed blind analysis shall be exposed to the Scientific Validation Layer
+only through an immutable, scope-minimal scientific representation.
+
+The representation shall not expose mutable runtime state and shall not contain
+Ground Truth or validation conclusions.
+
+## Canonical Specification
+
+`docs/architecture/AD-027_IMMUTABLE_ANALYSIS_REPRESENTATION.md`
+
+
+------------------------------------------------------------
+
+# AD-028 — M83 Ground Truth Reference
+
+## Status
+
+LOCKED
+
+## Decision
+
+GT-VAL-001-v1 is the independent immutable Ground Truth reference bound to
+VAL-001. It is constructed only from the approved authoritative MusicXML source
+and contains the minimum scientific quantities approved for M83.
+
+Ground Truth generation shall remain independent from JGA analysis, Immutable
+Analysis Representation, Comparator and validation outputs.
+
+## Canonical Specification
+
+`docs/architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md`

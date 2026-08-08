@@ -59,6 +59,10 @@ Origin
 
 VAL-001 is the canonical scientific validation dataset of JGA.
 
+The canonical Ground Truth reference bound to VAL-001 is defined by:
+
+- `docs/architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md`
+
 ---
 
 # 4. Mandatory Validation
@@ -188,7 +192,21 @@ No scientific result shall be considered publishable unless it is reproducible f
 
 ---
 
-# 9. Future Datasets
+# 9. Scientific Validation Record
+
+Each completed validation and comparative evaluation shall be
+preserved as part of the permanent scientific record of JGA.
+
+The Scientific Knowledge Record governs the provenance and
+preservation of validation records. This protocol remains the
+authority for validation execution, Ground Truth independence and
+reproducibility requirements.
+
+See F-030 — Scientific Knowledge Record.
+
+---
+
+# 10. Future Datasets
 
 Future datasets shall follow the same protocol.
 
@@ -200,7 +218,7 @@ Examples:
 
 ---
 
-# 10. Modification Policy
+# 11. Modification Policy
 
 This protocol is LOCKED.
 

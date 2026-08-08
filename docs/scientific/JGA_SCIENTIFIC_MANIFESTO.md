@@ -32,6 +32,11 @@ Every semantic conclusion must be supported by observable temporal evidence.
 
 The scientific model is independent from any particular DSP algorithm or software implementation.
 
+The JGA produces scientific knowledge as well as software.
+
+Scientific documentation and validation records preserve the evidence
+through which that knowledge remains traceable and reproducible.
+
 ---
 
 ## Fundamental Principles
@@ -42,6 +47,7 @@ The scientific model is independent from any particular DSP algorithm or softwar
 - Scientific models must be reproducible.
 - Every analytical step must be explicit.
 - Scientific concepts must remain independent from implementation details.
+- Scientific knowledge must be constructed, traceable and preserved.
 
 ---
 
@@ -73,6 +79,10 @@ The scientific model remains stable even when algorithms evolve.
 
 Computational improvements must not modify the scientific meaning of the analytical model.
 
+Scientific documentation and validation records preserve the
+project-level knowledge required to reproduce and evaluate the
+scientific evolution of JGA.
+
 ---
 
 ## Relationship with the Observation Model
@@ -80,6 +90,16 @@ Computational improvements must not modify the scientific meaning of the analyti
 The Observation Model defines how observable evidence is constructed.
 
 This Manifesto defines the scientific principles that justify that process.
+
+---
+
+## Relationship with Project Knowledge
+
+The Knowledge Model defines how project knowledge is constructed and
+classified.
+
+The Scientific Knowledge Record defines how scientific history and
+validation records are preserved.
 
 ---
 

@@ -26,6 +26,7 @@ CANONICAL_DOCUMENTS = [
     "docs/scientific/JGA_METRIC_CONTEXT.md",
     "docs/scientific/JGA_TAC_OBSERVATION_MODEL.md",
     "docs/scientific/JGA_TAC_DOMAIN_MAPPING.md",
+    "docs/scientific/foundations/JGA_KNOWLEDGE_MODEL.md",
 
     # =====================================================
     # Scientific Foundations
@@ -37,6 +38,7 @@ CANONICAL_DOCUMENTS = [
     "docs/scientific/foundations/F-004_METRIC_PROJECTION.md",
     "docs/scientific/foundations/F-005_ENSEMBLE_BEHAVIOUR.md",
     "docs/scientific/foundations/F-006_HISTORICAL_COMPARISON.md",
+    "docs/scientific/foundations/F-030_SCIENTIFIC_KNOWLEDGE_RECORD.md",
 
     # =====================================================
     # Canonical Theory

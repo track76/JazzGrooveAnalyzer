@@ -15,15 +15,17 @@ The scientific documentation represents the highest level of the project knowled
 ## Reading Order
 
 1. JGA Scientific Manifesto
-2. JGA Observation Model
-3. JGA Metric Context
-4. TAC Observation Model
-5. TAC Domain Mapping
-6. Scientific Foundations
-7. Geometry
-8. Behaviour Mathematics
-9. Scientific Visualization
-10. RFC Documents
+2. JGA Knowledge Model
+3. Scientific Knowledge Record
+4. JGA Observation Model
+5. JGA Metric Context
+6. TAC Observation Model
+7. TAC Domain Mapping
+8. Scientific Foundations
+9. Geometry
+10. Behaviour Mathematics
+11. Scientific Visualization
+12. RFC Documents
 
 ---
 
@@ -38,6 +40,8 @@ scientific/
 ├── JGA_TAC_OBSERVATION_MODEL.md
 ├── JGA_TAC_DOMAIN_MAPPING.md
 ├── foundations/
+│   ├── JGA_KNOWLEDGE_MODEL.md
+│   └── F-030_SCIENTIFIC_KNOWLEDGE_RECORD.md
 ├── mathematics/
 ├── behaviour_mathematics/
 ├── geometry/
@@ -76,3 +80,8 @@ Implementation
 - geometry/G-023_OBSERVABLE_QUANTITIES.md
 - geometry/G-024_SCIENTIFIC_COORDINATE_VALIDATION.md
 - geometry/G-025_CANDIDATE_SCIENTIFIC_COORDINATES.md
+
+## Scientific Validation Architecture
+
+- ../architecture/AD-027_IMMUTABLE_ANALYSIS_REPRESENTATION.md
+- ../architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md

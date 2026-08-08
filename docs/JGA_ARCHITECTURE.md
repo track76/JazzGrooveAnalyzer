@@ -274,3 +274,18 @@ AnalyticalStructure
 
 - architecture/SCIENTIFIC_GEOMETRIC_PLANE.md
 
+
+---
+
+# Scientific Validation Boundary
+
+Completed analysis is exposed to the Scientific Validation Layer through the
+Immutable Analysis Representation defined by:
+
+- architecture/AD-027_IMMUTABLE_ANALYSIS_REPRESENTATION.md
+
+The Validation Layer does not consume mutable runtime state.
+
+The independent Ground Truth reference boundary is defined by:
+
+- architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md

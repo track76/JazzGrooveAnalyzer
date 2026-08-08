@@ -108,3 +108,62 @@ Validation
 
 VAL-001 passed.
 
+
+------------------------------------------------------------
+M81 — SCIENTIFIC VALIDATION ARCHITECTURE
+------------------------------------------------------------
+
+Status
+
+IN PROGRESS
+
+Completed
+
+- AD-027 Immutable Analysis Representation approved and specified.
+- Immutable boundary contract introduced between completed analysis and
+  scientific validation.
+
+Pending
+
+- Validation comparator integration.
+
+Validation
+
+- Immutable Analysis Representation contract tests passed.
+- VAL-001 scientific validation passed.
+- Full suite: 925 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
+
+
+------------------------------------------------------------
+M83 — GROUND TRUTH LAYER
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-028 M83 Ground Truth Reference approved and specified.
+- GT-VAL-001-v1 identity and VAL-001 binding preserved.
+- Authoritative MusicXML identity and checksum enforced.
+- Immutable time signature, tempo, section, instrumentation and minimum
+  metric-position representations implemented.
+- Pickup and full-measure identity mapping preserved.
+- Original MusicXML and canonical instrument designations preserved.
+- Ground Truth loader remains independent from analysis, runtime, Comparator
+  and validation outputs.
+
+Pending
+
+- Ground Truth Comparator implementation under a separate approved decision.
+
+Validation
+
+- Ground Truth focused tests: 11 passed.
+- Ground Truth plus VAL-001 scientific validation: 19 passed.
+- Full suite: 936 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
