@@ -16,12 +16,13 @@ The Ground Truth identity is:
 
 `GT-VAL-001-v1`
 
-The Validation Dataset identity is:
+The Validation Item identity is:
 
 `VAL-001`
 
 They are distinct scientific entities. The Ground Truth reference preserves the
-explicit binding between them.
+explicit binding between them. The catalogue containing this item is defined by
+AD-029.
 
 ## Authoritative Source
 
@@ -33,9 +34,10 @@ Its SHA-256 checksum is:
 
 `809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778`
 
-Repository-relative path and content checksum establish source identity. Source
-repository revision remains absent until the source has been committed and
-shall not be fabricated.
+Repository-relative path and content checksum establish source identity. The
+definitive source repository revision is:
+
+`c50abd435097b8f335a53b4146d9fa933764b15f`
 
 ## Schema and Normalization Identity
 

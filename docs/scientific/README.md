@@ -85,3 +85,4 @@ Implementation
 
 - ../architecture/AD-027_IMMUTABLE_ANALYSIS_REPRESENTATION.md
 - ../architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md
+- ../architecture/AD-029_M84_VALIDATION_CATALOG.md

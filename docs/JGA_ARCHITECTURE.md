@@ -289,3 +289,7 @@ The Validation Layer does not consume mutable runtime state.
 The independent Ground Truth reference boundary is defined by:
 
 - architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md
+
+The immutable scientific validation catalogue is defined by:
+
+- architecture/AD-029_M84_VALIDATION_CATALOG.md

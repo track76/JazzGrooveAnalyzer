@@ -1,5 +1,15 @@
 # JGA Validation Dataset
 
+## Terminology Boundary
+
+This document describes the existing analysis-produced observational
+`ValidationDataset` artifact.
+
+It is not the immutable scientific validation catalogue introduced by M84. The
+scientific catalogue and its Validation Items are defined by:
+
+- `docs/architecture/AD-029_M84_VALIDATION_CATALOG.md`
+
 ## Purpose
 
 The Validation Dataset is the scientific observational artifact produced by JGA for experimental validation.

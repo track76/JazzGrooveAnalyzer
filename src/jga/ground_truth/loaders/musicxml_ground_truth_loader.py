@@ -22,7 +22,7 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
     """Loads only the approved GT-VAL-001-v1 MusicXML reference."""
 
     GROUND_TRUTH_ID = "GT-VAL-001-v1"
-    VALIDATION_DATASET_ID = "VAL-001"
+    VALIDATION_ITEM_ID = "VAL-001"
     SCHEMA_VERSION = "1"
     NORMALIZATION_VERSION = "1"
     SOURCE_PATH = (
@@ -31,6 +31,9 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
     )
     SOURCE_SHA256 = (
         "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
+    )
+    SOURCE_REPOSITORY_REVISION = (
+        "c50abd435097b8f335a53b4146d9fa933764b15f"
     )
 
     _INSTRUMENT_CATEGORIES = {
@@ -53,6 +56,11 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
             raise ValueError("MusicXML source is not the approved M83 source.")
         if checksum != self.SOURCE_SHA256:
             raise ValueError("MusicXML source checksum does not match AD-028.")
+        if (
+            repository_revision is not None
+            and repository_revision != self.SOURCE_REPOSITORY_REVISION
+        ):
+            raise ValueError("MusicXML source revision does not match AD-028.")
 
         root = ElementTree.fromstring(source_bytes)
         time_signature = self._read_time_signature(root)
@@ -62,14 +70,14 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
 
         return GroundTruth(
             ground_truth_id=self.GROUND_TRUTH_ID,
-            validation_dataset_id=self.VALIDATION_DATASET_ID,
+            validation_item_id=self.VALIDATION_ITEM_ID,
             provenance=GroundTruthProvenance(
                 schema_version=self.SCHEMA_VERSION,
                 normalization_version=self.NORMALIZATION_VERSION,
                 source=AuthoritativeSourceProvenance(
                     repository_path=self.SOURCE_PATH,
                     sha256=checksum,
-                    repository_revision=repository_revision,
+                    repository_revision=self.SOURCE_REPOSITORY_REVISION,
                 ),
             ),
             time_signature=time_signature,

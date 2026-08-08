@@ -17,7 +17,7 @@ def test_loads_approved_ground_truth_identity_and_binding():
     ground_truth = MusicXmlGroundTruthLoader().load(SOURCE)
 
     assert ground_truth.ground_truth_id == "GT-VAL-001-v1"
-    assert ground_truth.validation_dataset_id == "VAL-001"
+    assert ground_truth.validation_item_id == "VAL-001"
 
 
 def test_preserves_source_and_normalization_provenance():
@@ -29,7 +29,9 @@ def test_preserves_source_and_normalization_provenance():
     assert ground_truth.provenance.source.sha256 == (
         "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
     )
-    assert ground_truth.provenance.source.repository_revision is None
+    assert ground_truth.provenance.source.repository_revision == (
+        "c50abd435097b8f335a53b4146d9fa933764b15f"
+    )
 
 
 def test_represents_only_approved_metric_quantities():

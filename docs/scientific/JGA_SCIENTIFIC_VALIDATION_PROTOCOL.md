@@ -26,9 +26,13 @@ Ground truth is used only after execution for validation.
 
 ---
 
-# 3. Canonical Validation Dataset
+# 3. Canonical Validation Catalogue and Item
 
-Dataset ID
+Catalogue ID
+
+JGA-VALIDATION-CATALOG-v1
+
+Validation Item ID
 
 VAL-001
 
@@ -57,7 +61,11 @@ Origin
 - Audio rendered from score
 - Blind analysis
 
-VAL-001 is the canonical scientific validation dataset of JGA.
+VAL-001 is the canonical scientific validation item of JGA.
+
+The scientific catalogue and Validation Item asset binding are defined by:
+
+- `docs/architecture/AD-029_M84_VALIDATION_CATALOG.md`
 
 The canonical Ground Truth reference bound to VAL-001 is defined by:
 

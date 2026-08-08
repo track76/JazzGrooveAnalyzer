@@ -71,7 +71,7 @@ class GroundTruth:
     """Minimum immutable Ground Truth reference for later validation."""
 
     ground_truth_id: str
-    validation_dataset_id: str
+    validation_item_id: str
     provenance: GroundTruthProvenance
     time_signature: GroundTruthTimeSignature
     tempo: GroundTruthTempo

@@ -1,4 +1,4 @@
-# VAL-001 Reference Dataset
+# VAL-001 Reference Validation Item
 
 Status: LOCKED
 
@@ -6,7 +6,11 @@ Status: LOCKED
 
 # Purpose
 
-VAL-001 is the canonical scientific validation dataset of Jazz Groove Analyzer.
+VAL-001 is the canonical scientific validation item of Jazz Groove Analyzer.
+
+It belongs to `JGA-VALIDATION-CATALOG-v1`, defined by:
+
+- `docs/architecture/AD-029_M84_VALIDATION_CATALOG.md`
 
 Its purpose is exclusively the experimental validation of the JGA pipeline.
 

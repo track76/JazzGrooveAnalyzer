@@ -4,6 +4,16 @@ Copyright © 2026 Angelo Tracanna
 
 ---
 
+## Terminology Boundary
+
+The immutable scientific Validation Catalog and its Validation Items are defined
+by `docs/architecture/AD-029_M84_VALIDATION_CATALOG.md`.
+
+References below to experiment datasets describe historical validation
+experiment material, not the M84 catalogue model.
+
+---
+
 ## Purpose
 
 This document defines the scientific validation methodology
@@ -100,4 +110,3 @@ Every validation run must record:
 - conclusions
 
 ---
-

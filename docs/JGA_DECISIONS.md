@@ -1898,3 +1898,25 @@ Analysis Representation, Comparator and validation outputs.
 ## Canonical Specification
 
 `docs/architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md`
+
+
+------------------------------------------------------------
+
+# AD-029 — M84 Scientific Validation Catalog
+
+## Status
+
+LOCKED
+
+## Decision
+
+`JGA-VALIDATION-CATALOG-v1` is the immutable scientific catalogue of Validation
+Items. `VAL-001` identifies its first item and binds Ground Truth and approved
+asset identities without duplicating Ground Truth content.
+
+The existing analysis-produced `ValidationDataset` remains a scientifically
+distinct observational artifact.
+
+## Canonical Specification
+
+`docs/architecture/AD-029_M84_VALIDATION_CATALOG.md`

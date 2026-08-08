@@ -167,3 +167,39 @@ Validation
 - Full suite: 936 passed; one pre-existing Demucs/MPS environment integration
   test could not execute successfully because its configured backend requires
   macOS 14 or later.
+
+
+------------------------------------------------------------
+M84 — SCIENTIFIC VALIDATION CATALOG
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-029 Scientific Validation Catalog approved and specified.
+- `JGA-VALIDATION-CATALOG-v1` introduced as an immutable asset catalogue.
+- `VAL-001` established as the first Validation Item.
+- M83 Ground Truth binding corrected from Validation Dataset identity to
+  Validation Item identity.
+- GT-VAL-001-v1, authoritative MusicXML and MP3 identities bound without
+  duplicating Ground Truth content.
+- Asset checksums and definitive repository revisions preserved.
+- Licensing status preserved explicitly as `not_specified` for both assets.
+- Existing observational `ValidationDataset` retained unchanged and
+  scientifically distinct.
+
+Pending
+
+- Comparator and validation metrics under separate approved decisions.
+
+Validation
+
+- Validation Catalog plus Ground Truth focused tests: 21 passed.
+- Validation Catalog, Ground Truth and VAL-001 scientific validation:
+  29 passed.
+- Full suite: 946 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
