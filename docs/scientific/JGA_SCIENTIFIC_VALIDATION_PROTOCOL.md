@@ -1,0 +1,207 @@
+# JGA Scientific Validation Protocol
+
+Document ID: SVP-001
+
+Status: LOCKED
+
+---
+
+# 1. Purpose
+
+This document defines the scientific validation methodology of Jazz Groove Analyzer (JGA).
+
+Every significant architectural evolution shall be validated through reproducible experiments using datasets with known ground truth.
+
+This protocol is part of the scientific methodology of JGA.
+
+---
+
+# 2. Scientific Principle
+
+JGA reconstructs musical behaviour exclusively from observable information contained in the audio signal.
+
+No musical metadata may be used during analysis.
+
+Ground truth is used only after execution for validation.
+
+---
+
+# 3. Canonical Validation Dataset
+
+Dataset ID
+
+VAL-001
+
+Reference Audio
+
+03 THE COST OF LIVING versione intro + 8 bar.mp3
+
+Ground Truth
+
+- Time Signature: 4/4
+- Tempo: 78 BPM
+- Intro: 4 measures
+- Section A: 8 measures
+
+Instrumentation
+
+- Voice
+- Saxophone
+- Piano
+- Double Bass
+- Drum Set
+
+Origin
+
+- Score written in Sibelius
+- Audio rendered from score
+- Blind analysis
+
+VAL-001 is the canonical scientific validation dataset of JGA.
+
+---
+
+# 4. Mandatory Validation
+
+VAL-001 shall be executed after every significant modification involving:
+
+- Observation Layer
+- Source Separation
+- Source Understanding
+- Pulse Extraction
+- Metric Reconstruction
+- Ensemble Metric Consensus
+- Translation Layer
+- Domain Reconstruction
+- Behaviour Analytics
+- Scientific Geometry
+- Scientific Report
+
+---
+
+# 5. Validation Workflow
+
+## Phase 1
+
+Repository Validation
+
+- Execute test suite.
+- Verify repository consistency.
+
+## Phase 2
+
+Experimental Execution
+
+- Execute JGA on VAL-001.
+- Blind analysis only.
+
+## Phase 3
+
+Evidence Collection
+
+Observation
+
+- detected sources
+- onset observations
+- intro detection
+
+Source Understanding
+
+- observed sources
+- source identities
+- confidence
+
+Metric Reconstruction
+
+- Pulse Candidates
+- Source Pulse Sequences
+- Metric Context
+- Ensemble Metric Events
+- Metric Clusters
+- Beat References
+- Internal Metric Timeline
+
+Behaviour Analytics
+
+- Behaviour Profile
+- Descriptor Set
+- Stability
+
+Geometry
+
+- Scientific Geometric Plane
+- Scientific Behaviour Space
+
+Scientific Report
+
+- final report
+
+---
+
+# 6. Experimental Artifacts
+
+Each execution produces:
+
+validation/
+
+    VAL-001/
+
+        run_YYYYMMDD_HHMM/
+
+            runtime.log
+            baseline.json
+            report.json
+            diagnostics.json
+            figures/
+            notes.md
+
+Previous executions shall never be overwritten.
+
+---
+
+# 7. Comparative Validation
+
+Each execution shall be compared against:
+
+- previous baseline
+- VAL-001 ground truth
+
+Differences shall be classified as:
+
+- Expected Improvement
+- Expected Architectural Change
+- Regression
+- Bug
+- Non-significant Difference
+
+---
+
+# 8. Scientific Reproducibility
+
+No scientific result shall be considered publishable unless it is reproducible from:
+
+- Git commit
+- Validation dataset
+- Validation protocol
+- Generated reports
+- Execution logs
+
+---
+
+# 9. Future Datasets
+
+Future datasets shall follow the same protocol.
+
+Examples:
+
+- VAL-002
+- VAL-003
+- ...
+
+---
+
+# 10. Modification Policy
+
+This protocol is LOCKED.
+
+Any modification requires an explicit Architectural Decision.
