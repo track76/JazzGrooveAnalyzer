@@ -1930,6 +1930,28 @@ distinct observational artifact.
 
 ------------------------------------------------------------
 
+# AD-030 — M85 Scientific Comparator
+
+## Status
+
+LOCKED
+
+## Decision
+
+`JGA-COMPARATOR-001`, schema `1`, compares one bound Validation Item,
+Immutable Analysis Representation and Ground Truth Model using only the
+approved tempo, time-signature, section and instrumentation contracts.
+
+The Comparator preserves deterministic scientific evidence without accuracy,
+tolerance, classification or conclusions.
+
+## Canonical Specification
+
+`docs/architecture/AD-030_M85_COMPARATOR.md`
+
+
+------------------------------------------------------------
+
 # AD-032 — M89 PulseCandidate Strength Preservation
 
 ## Status

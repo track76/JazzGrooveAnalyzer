@@ -2,6 +2,13 @@
 
 from abc import ABC, abstractmethod
 
+from jga.interfaces.validation.analysis_outputs import (
+    AnalysisOutput,
+    AnalysisSection,
+    AnalysisTempo,
+    AnalysisTimeSignature,
+)
+
 
 class ImmutableAnalysisRepresentation(ABC):
     """Scientific representation of one completed JGA analysis.
@@ -11,6 +18,8 @@ class ImmutableAnalysisRepresentation(ABC):
     mutable runtime state. Scientific outputs are limited to those required by
     the declared validation scope.
     """
+
+    SCHEMA_REVISION = "1"
 
     @property
     @abstractmethod
@@ -82,6 +91,30 @@ class ImmutableAnalysisRepresentation(ABC):
     @abstractmethod
     def content_fingerprint(self) -> str:
         """Deterministic identity of the frozen scientific content."""
+        raise NotImplementedError
+
+    @property
+    @abstractmethod
+    def tempo(self) -> AnalysisOutput[AnalysisTempo]:
+        """Validation-facing tempo with explicit availability."""
+        raise NotImplementedError
+
+    @property
+    @abstractmethod
+    def time_signature(self) -> AnalysisOutput[AnalysisTimeSignature]:
+        """Validation-facing time signature with explicit availability."""
+        raise NotImplementedError
+
+    @property
+    @abstractmethod
+    def sections(self) -> AnalysisOutput[tuple[AnalysisSection, ...]]:
+        """Validation-facing sections with explicit availability."""
+        raise NotImplementedError
+
+    @property
+    @abstractmethod
+    def instrumentation(self) -> AnalysisOutput[tuple[str, ...]]:
+        """Canonical instrument categories with explicit availability."""
         raise NotImplementedError
 
     @abstractmethod

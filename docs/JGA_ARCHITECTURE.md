@@ -293,3 +293,7 @@ The independent Ground Truth reference boundary is defined by:
 The immutable scientific validation catalogue is defined by:
 
 - architecture/AD-029_M84_VALIDATION_CATALOG.md
+
+The scientific Comparator boundary is defined by:
+
+- architecture/AD-030_M85_COMPARATOR.md

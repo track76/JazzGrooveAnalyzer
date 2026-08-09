@@ -180,6 +180,9 @@ The Immutable Analysis Representation is defined by
 AD-027. The comparator never consumes mutable runtime
 state.
 
+The first approved comparison contract is defined by
+`docs/architecture/AD-030_M85_COMPARATOR.md`.
+
 ---
 
 ### ValidationReport

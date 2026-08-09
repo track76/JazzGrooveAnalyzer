@@ -21,7 +21,15 @@ def test_immutable_analysis_representation_exposes_required_contract():
         "output_completeness",
         "limitations",
         "content_fingerprint",
+        "tempo",
+        "time_signature",
+        "sections",
+        "instrumentation",
         "scientific_output",
     }
 
     assert required_members <= set(ImmutableAnalysisRepresentation.__abstractmethods__)
+
+
+def test_immutable_analysis_representation_schema_revision():
+    assert ImmutableAnalysisRepresentation.SCHEMA_REVISION == "1"

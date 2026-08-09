@@ -77,6 +77,20 @@ object.
 
 ## Scientific Outputs
 
+The first approved validation-facing schema revision is `1`.
+
+For M85, the representation exposes only these typed canonical outputs with
+explicit availability:
+
+- `tempo`;
+- `time_signature`;
+- `sections`; and
+- `instrumentation`.
+
+Their contracts are defined by
+`docs/architecture/AD-030_M85_COMPARATOR.md`. They do not expose runtime
+objects.
+
 Scientific outputs are conditional on the declared validation scope. A result
 from an analysis stage is included only when required for validation,
 reproducibility, traceability or scientific evidence preservation.

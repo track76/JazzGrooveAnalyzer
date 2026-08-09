@@ -173,6 +173,10 @@ Previous executions shall never be overwritten.
 
 # 7. Comparative Validation
 
+The first approved immutable Comparator contract is defined by:
+
+- `docs/architecture/AD-030_M85_COMPARATOR.md`
+
 Each execution shall be compared against:
 
 - previous baseline

@@ -217,3 +217,41 @@ Validation
 - Full suite: 946 passed; one pre-existing Demucs/MPS environment integration
   test could not execute successfully because its configured backend requires
   macOS 14 or later.
+
+
+------------------------------------------------------------
+M85 — SCIENTIFIC COMPARATOR
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-030 Scientific Comparator approved and specified.
+- Immutable Analysis Representation schema revision `1` and typed
+  validation-facing outputs recorded.
+- `JGA-COMPARATOR-001` schema compatibility and mandatory bindings enforced.
+- Tempo differences and incompatible beat-unit evidence preserved.
+- Exact time-signature evidence preserved without scoring.
+- Exact-name section correspondence and signed boundary/length differences
+  preserved without inference.
+- Instrument categories compared as sets without aggregate accuracy.
+- Availability states preserved without value inference.
+- Unique execution, result and evidence identities introduced.
+- Comparator output remains immutable and suitable for a later Scientific
+  Validation Record.
+
+Pending
+
+- Scientific metrics, tolerances, classifications and conclusions under
+  separate approved decisions.
+
+Validation
+
+- Comparator and validation-boundary focused tests: 23 passed.
+- Comparator through VAL-001 scientific validation: 52 passed.
+- Full suite: 967 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
