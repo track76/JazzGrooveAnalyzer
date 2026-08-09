@@ -143,6 +143,8 @@ class AnalysisContext:
 
     pulse_candidates: list | None = None
 
+    candidate_period_population: object | None = None
+
     pulse_intervals: list | None = None
 
     # =====================================================
@@ -304,4 +306,3 @@ class AnalysisContext:
     behaviour_evolution_model: (
         BehaviourEvolutionModel | None
     ) = None
-

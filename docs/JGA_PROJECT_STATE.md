@@ -1,5 +1,25 @@
 # JGA Project State
 
+## M92 — Candidate Period Discovery
+
+Status:
+
+COMPLETED
+
+- AD-035 defines the first production Candidate Period discovery rule.
+- Input is limited to the existing filtered Core PulseCandidate population.
+- Discovery preserves every exact consecutive positive frame interval
+  occurring at least twice and every supporting adjacent observation pair.
+- Frame length is explicit PulseCandidate observation/discovery configuration;
+  no library default is recovered silently.
+- The immutable CandidatePeriodPopulation is preserved on AnalysisContext
+  immediately after filtering and does not feed or alter metric reconstruction.
+- No selection, ranking, metric interpretation, phase, non-consecutive lag or
+  cross-source candidate abstraction is introduced.
+- Focused immutable/discovery validation: 19 passed.
+- VAL-001 full mix and all five canonical WAV stems reproduce the complete
+  accepted C1-03/C1-04 candidate inventories exactly.
+
 ## M91.1 — Candidate Period Representation Responsibility Correction
 
 Status:

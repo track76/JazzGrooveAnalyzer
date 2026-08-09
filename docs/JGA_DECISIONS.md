@@ -2047,3 +2047,26 @@ minimum runtime provenance, including explicit discovery configuration.
 ## Canonical Specification
 
 `docs/architecture/AD-034_M91_CANDIDATE_PERIOD_REPRESENTATION.md`
+
+
+------------------------------------------------------------
+
+# AD-035 — M92 Candidate Period Discovery
+
+## Status
+
+LOCKED
+
+## Decision
+
+M92 discovers and preserves the complete Candidate Period population from
+ordered filtered Core PulseCandidate timestamps using only exact recurrent
+consecutive positive frame intervals occurring at least twice.
+
+Observation frame length is explicit configuration. Discovery runs immediately
+after PulseCandidate filtering and does not feed or modify the existing metric
+reconstruction path.
+
+## Canonical Specification
+
+`docs/architecture/AD-035_M92_CANDIDATE_PERIOD_DISCOVERY.md`

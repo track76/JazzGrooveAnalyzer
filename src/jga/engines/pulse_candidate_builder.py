@@ -39,6 +39,8 @@ class PulseCandidateBuilder:
     No temporal filtering is performed.
     """
 
+    FRAME_LENGTH_SAMPLES = 512
+
     def process(
         self,
         context: AnalysisContext
@@ -51,17 +53,20 @@ class PulseCandidateBuilder:
         onset_frames = librosa.onset.onset_detect(
             y=audio,
             sr=sr,
+            hop_length=self.FRAME_LENGTH_SAMPLES,
             units="frames"
         )
 
         onset_strength = librosa.onset.onset_strength(
             y=audio,
-            sr=sr
+            sr=sr,
+            hop_length=self.FRAME_LENGTH_SAMPLES,
         )
 
         onset_times = librosa.frames_to_time(
             onset_frames,
-            sr=sr
+            sr=sr,
+            hop_length=self.FRAME_LENGTH_SAMPLES,
         )
 
         candidates = []

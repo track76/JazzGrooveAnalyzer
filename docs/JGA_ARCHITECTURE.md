@@ -327,3 +327,11 @@ F-030/SVP-001 scientific records. The general Core representation preserves
 only Candidate evidence, observation scope, temporal unit and minimum runtime
 provenance. Discovery measurement conditions must be explicit configuration,
 not recovered from implementation defaults.
+
+The minimum production discovery boundary is defined by:
+
+- architecture/AD-035_M92_CANDIDATE_PERIOD_DISCOVERY.md
+
+It consumes only filtered Core PulseCandidates immediately after filtering and
+preserves the resulting immutable Candidate Period population alongside the
+unchanged reconstruction pipeline.

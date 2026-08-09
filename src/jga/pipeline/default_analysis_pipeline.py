@@ -21,6 +21,7 @@ from jga.engines.audio_preprocessor import AudioPreprocessor
 
 from jga.engines.pulse_candidate_builder import PulseCandidateBuilder
 from jga.engines.pulse_candidate_filter import PulseCandidateFilter
+from jga.engines.candidate_period_discovery import CandidatePeriodDiscovery
 from jga.engines.pulse_builder import PulseBuilder
 from jga.engines.analysis_window_builder import AnalysisWindowBuilder
 from jga.engines.metric_stability_analyzer import MetricStabilityAnalyzer
@@ -130,6 +131,12 @@ class AnalysisPipeline:
         self.pulse_detector = PulseCandidateBuilder()
 
         self.pulse_filter = PulseCandidateFilter()
+
+        self.candidate_period_discovery = CandidatePeriodDiscovery(
+            frame_length_samples=(
+                self.pulse_detector.FRAME_LENGTH_SAMPLES
+            ),
+        )
 
         self.interval_builder = PulseBuilder()
 
@@ -260,6 +267,8 @@ class AnalysisPipeline:
         context = self.pulse_detector.process(context)
 
         context = self.pulse_filter.process(context)
+
+        context = self.candidate_period_discovery.process(context)
 
         context = self.interval_builder.process(context)
 
