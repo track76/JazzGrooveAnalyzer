@@ -110,6 +110,10 @@ CANONICAL
 
 - F-032 defines Recurrence, Candidate Period and Candidate Population.
 - Its experimental basis is Campaign 1 experiment `H-VAL001-C1-03`.
+- H-VAL001-C1-07 provides the experimental basis for the narrow
+  cross-condition correspondence clarification: numerical proximity after a
+  controlled transformation is insufficient without an explicitly justified,
+  measurement-condition-aware criterion. No such criterion is defined.
 - Candidate Periods remain observation-derived and pre-interpretive.
 - Blind discovery remains independent from post-blind Ground Truth evaluation.
 - No candidate selection, metric interpretation, architecture or implementation

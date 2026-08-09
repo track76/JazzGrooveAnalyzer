@@ -24,7 +24,10 @@ This Foundation reinforces the existing representation hierarchy and does not
 replace it.
 
 F-032 defines Candidate Periods as pre-interpretive, observation-derived
-temporal relations. It introduces no new representation level.
+temporal relations. It also requires explicit scientific justification before
+numerically near measurements from different declared discrete conditions may
+be treated as corresponding. It introduces no new representation level or
+correspondence criterion.
 
 ---
 

@@ -37,6 +37,12 @@ These findings motivate Candidate Period Theory. They do not assign musical
 meaning to any discovered period and do not establish that every performance
 contains multiple candidates.
 
+Controlled temporal-scaling experiment `H-VAL001-C1-07`, preserved at
+`validation/VAL-001/run_20260809_192908/`, subsequently established the need
+to clarify cross-condition correspondence under declared discrete temporal
+measurement conditions. That clarification does not define a correspondence
+criterion or alter Candidate Period discovery.
+
 ---
 
 ## 2. Epistemic Position
@@ -148,6 +154,17 @@ Recurrence, frequency, numerical ratios, source support and Ground Truth
 correspondence do not independently make a Candidate Period beat, tempo,
 tactus, subdivision, meter or metric level.
 
+### Principle 6 — Cross-condition correspondence requires justification
+
+Candidate Period measurements obtained under declared discrete temporal
+measurement conditions may not be treated as corresponding to the same
+underlying observation-derived temporal relation solely because they are
+numerically near after a controlled transformation.
+
+Scientific correspondence requires an explicitly justified,
+measurement-condition-aware criterion. This Foundation does not define that
+criterion.
+
 ---
 
 ## 5. Blind Discovery and Post-Blind Evaluation
@@ -231,6 +248,7 @@ This Foundation does not define:
 - metric hierarchy or metric-level interpretation;
 - candidate selection or ranking;
 - recurrence tolerances or confidence thresholds;
+- cross-condition correspondence criteria;
 - statistical estimators or discovery algorithms;
 - Domain objects, architecture, services, APIs or schemas; or
 - implementation milestones.
@@ -252,3 +270,4 @@ that Ground Truth correspondence establishes metric identity.
 - `docs/scientific/JGA_METRIC_CONTEXT.md`
 - `docs/scientific/JGA_SCIENTIFIC_VALIDATION_PROTOCOL.md`
 - `validation/VAL-001/run_20260809_100843/`
+- `validation/VAL-001/run_20260809_192908/`
