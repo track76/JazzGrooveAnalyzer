@@ -476,6 +476,10 @@ Its sole claim is that JGA metric periodicity is an evidence-supported temporal
 relation whose musical level, hierarchical role, and reconstruction status are
 explicit, independently testable interpretations.
 
+The pre-interpretive scientific identity of Candidate Periods and Candidate
+Populations is defined by `F-032_CANDIDATE_PERIODS.md`. F-032 extends and does
+not redefine this Foundation.
+
 ---
 
 ## Governing Relationships
@@ -487,4 +491,5 @@ explicit, independently testable interpretations.
 - `docs/scientific/foundations/F-001_SCIENTIFIC_OBSERVATION.md`
 - `docs/scientific/foundations/F-004_METRIC_PROJECTION.md`
 - `docs/scientific/foundations/F-030_SCIENTIFIC_KNOWLEDGE_RECORD.md`
+- `docs/scientific/foundations/F-032_CANDIDATE_PERIODS.md`
 - `docs/scientific/JGA_SCIENTIFIC_VALIDATION_PROTOCOL.md`

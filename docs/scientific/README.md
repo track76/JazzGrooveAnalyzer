@@ -18,15 +18,16 @@ The scientific documentation represents the highest level of the project knowled
 2. JGA Knowledge Model
 3. Scientific Knowledge Record
 4. Scientific Theory of Hierarchical Metric Periodicity
-5. JGA Observation Model
-6. JGA Metric Context
-7. TAC Observation Model
-8. TAC Domain Mapping
-9. Scientific Foundations
-10. Geometry
-11. Behaviour Mathematics
-12. Scientific Visualization
-13. RFC Documents
+5. Scientific Theory of Candidate Periods
+6. JGA Observation Model
+7. JGA Metric Context
+8. TAC Observation Model
+9. TAC Domain Mapping
+10. Scientific Foundations
+11. Geometry
+12. Behaviour Mathematics
+13. Scientific Visualization
+14. RFC Documents
 
 ---
 
@@ -43,7 +44,8 @@ scientific/
 ├── foundations/
 │   ├── JGA_KNOWLEDGE_MODEL.md
 │   ├── F-030_SCIENTIFIC_KNOWLEDGE_RECORD.md
-│   └── F-031_HIERARCHICAL_METRIC_PERIODICITY.md
+│   ├── F-031_HIERARCHICAL_METRIC_PERIODICITY.md
+│   └── F-032_CANDIDATE_PERIODS.md
 ├── mathematics/
 ├── behaviour_mathematics/
 ├── geometry/
@@ -73,6 +75,8 @@ Implementation
 - F-000_MATHEMATICAL_PRINCIPLES.md
 
 - foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md
+
+- foundations/F-032_CANDIDATE_PERIODS.md
 
 - F-011_DESCRIPTOR_OPERATORS.md
 

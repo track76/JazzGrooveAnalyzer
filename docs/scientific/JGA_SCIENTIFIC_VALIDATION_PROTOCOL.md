@@ -29,6 +29,10 @@ metric-level interpretation is defined by
 `docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`. This
 reference introduces no validation metric, tolerance or comparison rule.
 
+Blind Candidate Discovery and post-blind evaluation are scientifically defined
+by `docs/scientific/foundations/F-032_CANDIDATE_PERIODS.md`. F-032 does not
+change this protocol's execution or artifact requirements.
+
 ---
 
 # 3. Canonical Validation Catalogue and Item

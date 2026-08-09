@@ -18,9 +18,13 @@ The scientific meaning of observation-derived periodicity, metric level,
 hierarchical metric periodicity and metric reconstruction is defined by:
 
 - `docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`
+- `docs/scientific/foundations/F-032_CANDIDATE_PERIODS.md`
 
 This Foundation reinforces the existing representation hierarchy and does not
 replace it.
+
+F-032 defines Candidate Periods as pre-interpretive, observation-derived
+temporal relations. It introduces no new representation level.
 
 ---
 

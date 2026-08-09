@@ -40,6 +40,7 @@ CANONICAL_DOCUMENTS = [
     "docs/scientific/foundations/F-006_HISTORICAL_COMPARISON.md",
     "docs/scientific/foundations/F-030_SCIENTIFIC_KNOWLEDGE_RECORD.md",
     "docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md",
+    "docs/scientific/foundations/F-032_CANDIDATE_PERIODS.md",
 
     # =====================================================
     # Canonical Theory

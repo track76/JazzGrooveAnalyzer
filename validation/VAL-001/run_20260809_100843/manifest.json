@@ -1,0 +1,27 @@
+{
+  "artifact_checksums": {
+    "blind_candidate_discovery.json": "7ab3e6d5fcba948715cb00b7437b3ce358103d86f67848d89ebbe0e0f7be8496",
+    "post_blind_analysis.json": "a41026464366dc1998d703e739d4e602b545220c623ea57fa0aa5e1bcb3d7599",
+    "report.md": "bc94eb883bfd8bc82035040722d97634d14963c183982e947133f7e53310ba50"
+  },
+  "assets": {
+    "controlled_dataset_id": "CED-VAL-001",
+    "double_bass.wav": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
+    "drums.wav": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+    "full_mix.mp3": "d358d1bca5144ea1dabee4d970fa5deabf81a209922481a77db0f01bd8bdbbbb",
+    "ground_truth_id": "GT-VAL-001-v1",
+    "musicxml": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "piano.wav": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e",
+    "tenor_sax.wav": "89dd7e5c6063d3c4d5e4ac59c9119c265df4257dfb1b4a1e01b5f117ee87182e",
+    "validation_item_id": "VAL-001",
+    "voice.wav": "0fa95a3eff06d1ab075caf2f388c17d536e614aca397647967805045521c655a"
+  },
+  "blind_candidate_population_fingerprint": "2825974a1c91c2b1645240e712bd90e27a568fba1336c82cebe27527c8bc43b9",
+  "blind_record_fingerprint": "7a1ebec978115094e751f78eee84abd718933d6cff91200a2920adbd83c6de3c",
+  "bootstrap_revision": "0b32287",
+  "experiment_id": "H-VAL001-C1-03",
+  "post_blind_record_fingerprint": "4d629f352348463523d92892642030b85aa184b3e79562a79e5d4909901806e0",
+  "repository_revision": "0b322875360311c5fe990be94aa253eb275ad0f6",
+  "run_id": "run_20260809_100843",
+  "scientific_protocol": "SVP-001"
+}

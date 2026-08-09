@@ -114,3 +114,7 @@ The Metric Context represents the scientific boundary between observation and se
 It therefore becomes one of the principal inputs of the Translation Layer connecting the computational Core with the Domain Model.
 
 See `docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`.
+
+The scientific identity of Candidate Period evidence is defined by
+`docs/scientific/foundations/F-032_CANDIDATE_PERIODS.md`. This reference does
+not add a Metric Context field or architectural responsibility.

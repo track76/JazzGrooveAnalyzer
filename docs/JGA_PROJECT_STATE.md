@@ -1,5 +1,18 @@
 # JGA Project State
 
+## Phase II — Candidate Period Foundation
+
+Status:
+
+CANONICAL
+
+- F-032 defines Recurrence, Candidate Period and Candidate Population.
+- Its experimental basis is Campaign 1 experiment `H-VAL001-C1-03`.
+- Candidate Periods remain observation-derived and pre-interpretive.
+- Blind discovery remains independent from post-blind Ground Truth evaluation.
+- No candidate selection, metric interpretation, architecture or implementation
+  is introduced.
+
 ## Phase II — Hierarchical Metric Periodicity Foundation
 
 Status:
