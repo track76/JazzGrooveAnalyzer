@@ -11,7 +11,6 @@ from jga.core.candidate_period import (
     CandidatePeriodOccurrence,
     CandidatePeriodPopulation,
     CandidatePeriodProvenance,
-    CandidatePeriodReproducibility,
 )
 
 
@@ -22,6 +21,13 @@ EXPERIMENT_RECORD = (
     / "VAL-001"
     / "run_20260809_100843"
     / "blind_candidate_discovery.json"
+)
+RELATIONSHIP_AUDIT_MANIFEST = (
+    REPOSITORY_ROOT
+    / "validation"
+    / "VAL-001"
+    / "run_20260809_1344"
+    / "manifest.json"
 )
 
 
@@ -64,24 +70,19 @@ def _population_from_preserved_evidence(
             end_seconds=_decimal(source["audio_duration_seconds"]),
         ),
         provenance=CandidatePeriodProvenance(
-            experiment_id=record["experiment_id"],
-            run_id=record["run_id"],
-            source_revision=record["repository_revision"],
-            scientific_protocol_id=record["scientific_protocol"],
             input_asset_path=source["asset_path"],
             input_asset_sha256=source["asset_sha256"],
+            discovery_configuration=(
+                ("sample_rate_hz", str(source["sample_rate"])),
+                ("frame_length_samples", str(source["hop_length"])),
+                (
+                    "recurrence_definition",
+                    record["discovery_configuration"]["recurrence_definition"],
+                ),
+            ),
+            source_revision=record["repository_revision"],
         ),
-        reproducibility=CandidatePeriodReproducibility(
-            measurement_unit="seconds",
-            sample_rate_hz=source["sample_rate"],
-            frame_length_samples=source["hop_length"],
-            first_execution_fingerprint=record[
-                "first_execution_fingerprint"
-            ],
-            repeated_execution_fingerprint=record[
-                "repeated_execution_fingerprint"
-            ],
-        ),
+        measurement_unit="seconds",
         candidates=candidates,
     )
 
@@ -91,10 +92,13 @@ def test_population_preserves_controlled_experimental_evidence() -> None:
 
     assert population.observation_scope.source_identity == "full_mix"
     assert population.observation_scope.end_seconds == Decimal("42.24")
-    assert population.provenance.experiment_id == "H-VAL001-C1-03"
-    assert population.provenance.run_id == "run_20260809_100843"
-    assert population.reproducibility.sample_rate_hz == 44100
-    assert population.reproducibility.frame_length_samples == 512
+    assert population.measurement_unit == "seconds"
+    assert ("sample_rate_hz", "44100") in (
+        population.provenance.discovery_configuration
+    )
+    assert ("frame_length_samples", "512") in (
+        population.provenance.discovery_configuration
+    )
     assert len(population.candidates) == 12
     assert population.candidates[3].duration_seconds == Decimal(
         "0.3831292517006803"
@@ -102,16 +106,20 @@ def test_population_preserves_controlled_experimental_evidence() -> None:
     assert len(population.candidates[3].recurrence_evidence) == 16
 
 
-def test_population_preserves_reproducibility_fingerprints() -> None:
+def test_population_does_not_require_experimental_validation_metadata() -> None:
     population = _population_from_preserved_evidence()
 
-    assert (
-        population.reproducibility.first_execution_fingerprint
-        == "2825974a1c91c2b1645240e712bd90e27a568fba1336c82cebe27527c8bc43b9"
-    )
-    assert (
-        population.reproducibility.repeated_execution_fingerprint
-        == population.reproducibility.first_execution_fingerprint
+    provenance_fields = {
+        field.name for field in fields(type(population.provenance))
+    }
+    assert provenance_fields.isdisjoint(
+        {
+            "experiment_id",
+            "run_id",
+            "scientific_protocol_id",
+            "first_execution_fingerprint",
+            "repeated_execution_fingerprint",
+        }
     )
 
 
@@ -152,7 +160,6 @@ def test_representation_contains_no_metric_interpretation_fields() -> None:
         CandidatePeriod,
         CandidatePeriodObservationScope,
         CandidatePeriodProvenance,
-        CandidatePeriodReproducibility,
         CandidatePeriodPopulation,
     ):
         representation_fields.update(
@@ -174,6 +181,26 @@ def test_representation_contains_no_metric_interpretation_fields() -> None:
     }
 
     assert representation_fields.isdisjoint(forbidden_fields)
+
+
+def test_source_revision_is_optional_for_runtime_population() -> None:
+    provenance = CandidatePeriodProvenance(
+        input_asset_path="recordings/example.wav",
+        input_asset_sha256="a" * 64,
+        discovery_configuration=(("frame_length_samples", "512"),),
+    )
+
+    assert provenance.source_revision is None
+
+
+def test_validation_metadata_remains_in_scientific_record() -> None:
+    manifest = json.loads(RELATIONSHIP_AUDIT_MANIFEST.read_text())
+
+    assert manifest["experiment_id"] == "H-VAL001-C1-04"
+    assert manifest["run_id"] == "run_20260809_1344"
+    assert manifest["scientific_protocol"] == "SVP-001"
+    assert manifest["blind_record_fingerprint"]
+    assert manifest["post_blind_record_fingerprint"]
 
 
 @mark.parametrize(

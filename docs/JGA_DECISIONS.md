@@ -2038,6 +2038,12 @@ without discovery, generation, selection or musical metric interpretation.
 The experiment-local recurrence protocol used by `H-VAL001-C1-03` is not
 promoted to production authority.
 
+M91.1 corrects representation responsibility: experiment identity, validation
+run identity, validation protocol identity and repeated-execution fingerprints
+belong to F-030/SVP-001 records rather than the general Core representation.
+The representation retains only Candidate evidence, scope, temporal unit and
+minimum runtime provenance, including explicit discovery configuration.
+
 ## Canonical Specification
 
 `docs/architecture/AD-034_M91_CANDIDATE_PERIOD_REPRESENTATION.md`

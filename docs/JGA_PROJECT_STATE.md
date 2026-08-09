@@ -1,5 +1,24 @@
 # JGA Project State
 
+## M91.1 — Candidate Period Representation Responsibility Correction
+
+Status:
+
+COMPLETED
+
+- AD-034 now separates intrinsic Candidate evidence, runtime provenance and
+  experimental-validation metadata.
+- Experiment ID, validation run ID, validation protocol ID and repeated-run
+  fingerprints are no longer mandatory Core representation fields.
+- Asset identity and explicit discovery configuration preserve runtime
+  traceability; source revision is retained only when available.
+- Temporal unit remains population evidence. Frame length is not an intrinsic
+  Candidate Period field and may only appear as explicit discovery
+  configuration when a discovery procedure requires it.
+- H-VAL001-C1-03 and H-VAL001-C1-04 retain their experimental identities and
+  reproduction fingerprints in their F-030/SVP-001 records.
+- Focused M91 compatibility validation: 12 passed.
+
 ## M91 — Scientific Representation of Candidate Periods
 
 Status:

@@ -24,11 +24,39 @@ The representation preserves only:
 - Candidate Period duration;
 - supporting recurrence occurrences;
 - observation population, source and temporal scope;
-- input, experiment, protocol and source-revision provenance; and
-- measurement conditions and reproduction fingerprints.
+- minimum runtime input and execution provenance; and
+- the temporal unit and explicit discovery configuration required to recover
+  the evidence.
 
 The population and every nested value are immutable. Decimal temporal values
 preserve the supplied evidence without normalization or interpretation.
+
+## M91.1 Responsibility Correction
+
+M91.1 separates general Candidate Period evidence from scientific-validation
+record metadata under F-030 and SVP-001.
+
+The general representation does not require:
+
+- experiment identity;
+- validation run identity;
+- scientific-validation protocol identity; or
+- first and repeated execution fingerprints.
+
+Those values belong to completed experimental and validation records. A
+runtime Candidate Period population remains capable of participating in
+reproducible science by preserving its evidence, scope, input content identity,
+temporal unit and explicit discovery configuration. Proof of repeated
+execution is attached by the scientific record when such validation occurs.
+
+Input asset path and checksum remain runtime provenance. Source revision is
+preserved when available but is not fabricated by ordinary production
+execution.
+
+Measurement conditions used by a discovery procedure are preserved as
+explicit population-level discovery configuration. They are not intrinsic
+fields of an individual Candidate Period and must not be recovered silently
+from implementation defaults.
 
 ## Boundary
 
@@ -57,8 +85,10 @@ and is not promoted to production authority.
 
 Validation instantiates the representation directly from the frozen blind
 evidence in `validation/VAL-001/run_20260809_100843/`. It verifies deep
-immutability, observation scope, provenance and preserved deterministic
-reproduction fingerprints without executing discovery logic.
+immutability, observation scope, runtime provenance, explicit discovery
+configuration and compatibility with the preserved experimental population
+without executing discovery logic. Experimental reproduction fingerprints
+remain preserved by the source validation record.
 
 ## Governing References
 

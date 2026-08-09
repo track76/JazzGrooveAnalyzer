@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: M91
+Current Milestone: M91.1
 
 Current Phase: Phase II Scientific Validation
 
@@ -14,6 +14,6 @@ Main Branch: scientific/translation-layer-finalization
 
 Python: 3.13
 
-Tests: 991
+Tests: 993
 
 Last Update: 2026-08-09

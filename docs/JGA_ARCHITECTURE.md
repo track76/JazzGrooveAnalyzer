@@ -321,3 +321,9 @@ Period evidence is defined by:
 This standalone Core representation does not add Candidate Period discovery
 or alter Metric Context, Translation, Domain reconstruction or validation
 schemas.
+
+M91.1 keeps experimental execution identities and repeated-run proof in
+F-030/SVP-001 scientific records. The general Core representation preserves
+only Candidate evidence, observation scope, temporal unit and minimum runtime
+provenance. Discovery measurement conditions must be explicit configuration,
+not recovered from implementation defaults.
