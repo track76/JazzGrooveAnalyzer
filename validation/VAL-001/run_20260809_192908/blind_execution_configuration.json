@@ -1,0 +1,14 @@
+{
+  "analysis_pipeline": "existing approved AnalysisPipeline",
+  "candidate_period_discovery": "AD-035 existing production mechanism",
+  "condition_execution_identities": [
+    "BLIND-CONDITION-01",
+    "BLIND-CONDITION-02"
+  ],
+  "condition_tempo_available_during_analysis": false,
+  "discovery_configuration_identical": true,
+  "experiment_id": "H-VAL001-C1-07",
+  "ground_truth_available_during_analysis": false,
+  "musicxml_available_during_analysis": false,
+  "status": "BLOCKED_EXTERNAL_AUDIO_REQUIRED"
+}

@@ -1,0 +1,21 @@
+{
+  "audio_generation_status": "BLOCKED_EXTERNAL_RENDER_REQUIRED",
+  "condition_a_exact_authoritative_copy": true,
+  "condition_a_sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+  "condition_a_tempo": {
+    "beat_unit": "quarter",
+    "beats_per_minute": "78"
+  },
+  "condition_a_tempo_declaration_count": 2,
+  "condition_b_sha256": "708dcbec3228fc4af2d79fed1dcee7b903a8ea162da224a4d613a434cf8093f8",
+  "condition_b_tempo": {
+    "beat_unit": "quarter",
+    "beats_per_minute": "110"
+  },
+  "condition_b_tempo_declaration_count": 2,
+  "experiment_id": "H-VAL001-C1-07",
+  "intended_changed_variable": "authoritative_tempo",
+  "jga_output_used_in_preparation": false,
+  "normalized_symbolic_content_identical": true,
+  "repository_revision": "c2c2042b75673833b4a49dfa3f556ce43f11b846"
+}

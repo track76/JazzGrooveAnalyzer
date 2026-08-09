@@ -1,0 +1,79 @@
+{
+  "condition_a": {
+    "authoritative_musicxml": {
+      "repository_path": "symbolic/condition_a.musicxml",
+      "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
+    },
+    "authoritative_tempo": {
+      "beat_unit": "quarter",
+      "beats_per_minute": "78"
+    },
+    "canonical_wav": {
+      "repository_path": "audio/condition_a.wav",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "catalogue_mp3": {
+      "repository_path": "audio/condition_a.mp3",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "condition_id": "CED-VAL-001-TS-001-A",
+    "ground_truth_definition": {
+      "repository_path": "ground_truth/condition_a.ground_truth.json",
+      "sha256": "6a06edbe0b4ebc519929afc3485aed063ba558d0957f5a97f1324cce6b64d126"
+    },
+    "ground_truth_id": "GT-VAL-001-TS-A-v1",
+    "licensing_status": "not_specified",
+    "repeated_render_wav": {
+      "repository_path": "audio/condition_a_repeat.wav",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "validation_item_id": "VAL-001-TS-A"
+  },
+  "condition_b": {
+    "authoritative_musicxml": {
+      "repository_path": "symbolic/condition_b.musicxml",
+      "sha256": "708dcbec3228fc4af2d79fed1dcee7b903a8ea162da224a4d613a434cf8093f8"
+    },
+    "authoritative_tempo": {
+      "beat_unit": "quarter",
+      "beats_per_minute": "110"
+    },
+    "canonical_wav": {
+      "repository_path": "audio/condition_b.wav",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "catalogue_mp3": {
+      "repository_path": "audio/condition_b.mp3",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "condition_id": "CED-VAL-001-TS-001-B",
+    "ground_truth_definition": {
+      "repository_path": "ground_truth/condition_b.ground_truth.json",
+      "sha256": "b331c533e9779ad3bfb9335dea2ab8d6fd5092207677514b6695abe526362525"
+    },
+    "ground_truth_id": "GT-VAL-001-TS-B-v1",
+    "licensing_status": "not_specified",
+    "repeated_render_wav": {
+      "repository_path": "audio/condition_b_repeat.wav",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "validation_item_id": "VAL-001-TS-B"
+  },
+  "controlled_audio_format": {
+    "bit_depth": 24,
+    "channel_count": 2,
+    "cross_condition_sample_count_identical": false,
+    "sample_rate_hz": 44100,
+    "within_condition_repeat_sample_count_identical": true
+  },
+  "controlled_dataset_id": "CED-VAL-001-TS-001",
+  "dataset_generation_record": {
+    "repository_path": "provenance/dataset_generation_record.md",
+    "sha256": "2aef3abb9ea3381819a9cc517868eb25bd1a2bb447c7970c8f6a63a6df340a8a"
+  },
+  "dataset_generation_record_id": "DGR-CED-VAL-001-TS-001-001",
+  "experiment_id": "H-VAL001-C1-07",
+  "knowledge_classification": "Declared Experimental Procedure",
+  "provenance_revision_id": "PR-CED-VAL-001-TS-001-001",
+  "relationship": "conditions_differ_only_in_authoritative_tempo"
+}

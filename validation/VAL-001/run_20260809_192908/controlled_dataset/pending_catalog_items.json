@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "authoritative_musicxml": {
+        "licensing_status": "not_specified",
+        "repository_path": "validation/VAL-001/run_20260809_192908/controlled_dataset/symbolic/condition_a.musicxml",
+        "repository_revision": null,
+        "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
+      },
+      "ground_truth_id": "GT-VAL-001-TS-A-v1",
+      "metadata": {
+        "title": "VAL-001 temporal scaling Condition A"
+      },
+      "mp3_recording": {
+        "licensing_status": "not_specified",
+        "repository_path": "validation/VAL-001/run_20260809_192908/controlled_dataset/audio/condition_a.mp3",
+        "repository_revision": null,
+        "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      },
+      "provenance": {
+        "item_version": "1",
+        "schema_version": "1"
+      },
+      "validation_item_id": "VAL-001-TS-A"
+    },
+    {
+      "authoritative_musicxml": {
+        "licensing_status": "not_specified",
+        "repository_path": "validation/VAL-001/run_20260809_192908/controlled_dataset/symbolic/condition_b.musicxml",
+        "repository_revision": null,
+        "sha256": "708dcbec3228fc4af2d79fed1dcee7b903a8ea162da224a4d613a434cf8093f8"
+      },
+      "ground_truth_id": "GT-VAL-001-TS-B-v1",
+      "metadata": {
+        "title": "VAL-001 temporal scaling Condition B"
+      },
+      "mp3_recording": {
+        "licensing_status": "not_specified",
+        "repository_path": "validation/VAL-001/run_20260809_192908/controlled_dataset/audio/condition_b.mp3",
+        "repository_revision": null,
+        "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      },
+      "provenance": {
+        "item_version": "1",
+        "schema_version": "1"
+      },
+      "validation_item_id": "VAL-001-TS-B"
+    }
+  ],
+  "status": "NOT_REGISTERED_EXTERNAL_AUDIO_REQUIRED"
+}
