@@ -1,0 +1,2183 @@
+{
+  "analysis": {
+    "bootstrap_revision": "ea31e03",
+    "configuration": {
+      "ground_truth_available": false,
+      "input_population": "frozen distinct ElementaryMetricEvent frame populations from H-VAL001-C1-03 first blind execution",
+      "metric_interpretation": "none",
+      "non_consecutive_lag_operation": "exact positive differences for all event pairs with index distance greater than one",
+      "phase_operation": "supporting consecutive-occurrence start frame modulo exact candidate frame interval",
+      "target_frame_intervals": [
+        33,
+        66,
+        132
+      ],
+      "temporal_distribution_operation": "raw support span, start counts in four equal observation-span partitions, and consecutive support-start gaps",
+      "thresholds": "none"
+    },
+    "cross_source_evidence": {
+      "closeness_note": "Nearest numerical differences are reported without a closeness threshold or equivalence classification.",
+      "independence_note": "Each controlled WAV source is a distinct authoritative generated asset. Full-mix DummyMultiStemSeparator duplicates are excluded; only the distinct full-mix event population is used.",
+      "targets": {
+        "132": {
+          "double_bass": {
+            "all_pair_support_count": 2,
+            "exact_consecutive_occurrence_count": 2,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 132
+          },
+          "drums": {
+            "all_pair_support_count": 12,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -62,
+            "nearest_recurrent_frame_interval": 70
+          },
+          "full_mix": {
+            "all_pair_support_count": 15,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -31,
+            "nearest_recurrent_frame_interval": 101
+          },
+          "piano": {
+            "all_pair_support_count": 3,
+            "exact_consecutive_occurrence_count": 3,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 132
+          },
+          "tenor_sax": {
+            "all_pair_support_count": 0,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -129,
+            "nearest_recurrent_frame_interval": 3
+          },
+          "voice": {
+            "all_pair_support_count": 3,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -100,
+            "nearest_recurrent_frame_interval": 32
+          }
+        },
+        "33": {
+          "double_bass": {
+            "all_pair_support_count": 8,
+            "exact_consecutive_occurrence_count": 8,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 33
+          },
+          "drums": {
+            "all_pair_support_count": 19,
+            "exact_consecutive_occurrence_count": 19,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 33
+          },
+          "full_mix": {
+            "all_pair_support_count": 18,
+            "exact_consecutive_occurrence_count": 16,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 33
+          },
+          "piano": {
+            "all_pair_support_count": 6,
+            "exact_consecutive_occurrence_count": 6,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 33
+          },
+          "tenor_sax": {
+            "all_pair_support_count": 0,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -30,
+            "nearest_recurrent_frame_interval": 3
+          },
+          "voice": {
+            "all_pair_support_count": 11,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -1,
+            "nearest_recurrent_frame_interval": 32
+          }
+        },
+        "66": {
+          "double_bass": {
+            "all_pair_support_count": 2,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -33,
+            "nearest_recurrent_frame_interval": 33
+          },
+          "drums": {
+            "all_pair_support_count": 17,
+            "exact_consecutive_occurrence_count": 15,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 66
+          },
+          "full_mix": {
+            "all_pair_support_count": 19,
+            "exact_consecutive_occurrence_count": 8,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 66
+          },
+          "piano": {
+            "all_pair_support_count": 10,
+            "exact_consecutive_occurrence_count": 3,
+            "nearest_difference_frames": 0,
+            "nearest_recurrent_frame_interval": 66
+          },
+          "tenor_sax": {
+            "all_pair_support_count": 0,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -63,
+            "nearest_recurrent_frame_interval": 3
+          },
+          "voice": {
+            "all_pair_support_count": 8,
+            "exact_consecutive_occurrence_count": 0,
+            "nearest_difference_frames": -34,
+            "nearest_recurrent_frame_interval": 32
+          }
+        }
+      }
+    },
+    "experiment_id": "H-VAL001-C1-04",
+    "limitations": [
+      "The audit uses already frozen observations and does not repeat audio analysis.",
+      "All non-consecutive lags are mathematical relations within the same event population; statistical independence is not established.",
+      "Modulo-phase descriptions use an experiment-local operation and no phase threshold.",
+      "Four equal temporal partitions are descriptive coordinates, not canonical locality or persistence concepts.",
+      "Nearest cross-source frame differences do not define equivalence or closeness."
+    ],
+    "repository_revision": "ea31e03fd4837491723d4f8a80b6d16dfa892bea",
+    "scientific_protocol": "SVP-001",
+    "source_blind_record_fingerprint": "7a1ebec978115094e751f78eee84abd718933d6cff91200a2920adbd83c6de3c",
+    "source_experiment_id": "H-VAL001-C1-03",
+    "sources": {
+      "double_bass": {
+        "asset_path": "recordings/validation/stems/double_bass.wav",
+        "asset_sha256": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
+        "consecutive_candidate_baseline": [
+          {
+            "duration_seconds": 0.3831292517006803,
+            "frame_interval": 33,
+            "occurrence_count": 8,
+            "relative_frequency": 0.3076923076923077
+          },
+          {
+            "duration_seconds": 1.5325170068027212,
+            "frame_interval": 132,
+            "occurrence_count": 2,
+            "relative_frequency": 0.07692307692307693
+          },
+          {
+            "duration_seconds": 2.693514739229025,
+            "frame_interval": 232,
+            "occurrence_count": 6,
+            "relative_frequency": 0.23076923076923078
+          },
+          {
+            "duration_seconds": 3.076643990929705,
+            "frame_interval": 265,
+            "occurrence_count": 2,
+            "relative_frequency": 0.07692307692307693
+          }
+        ],
+        "event_count": 27,
+        "frame_duration_seconds": 0.011609977324263039,
+        "frame_length_samples": 512,
+        "observation_end_frame": 3644,
+        "sample_rate": 44100,
+        "source_identity": "double_bass",
+        "target_non_consecutive_lag_audit": {
+          "132": {
+            "additional_to_consecutive_inventory": false,
+            "all_supporting_pair_count": 2,
+            "consecutive_pair_count": 2,
+            "duration_seconds": 1.5325170068027212,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 0,
+            "non_consecutive_pairs": []
+          },
+          "33": {
+            "additional_to_consecutive_inventory": false,
+            "all_supporting_pair_count": 8,
+            "consecutive_pair_count": 8,
+            "duration_seconds": 0.3831292517006803,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 0,
+            "non_consecutive_pairs": []
+          },
+          "66": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 2,
+            "consecutive_pair_count": 1,
+            "duration_seconds": 0.7662585034013606,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 1,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  33
+                ],
+                "end_event_index": 20,
+                "end_frame": 2420,
+                "intervening_event_count": 1,
+                "start_event_index": 18,
+                "start_frame": 2354
+              }
+            ]
+          }
+        },
+        "target_phase_audit": {
+          "132": {
+            "circular_residuals_frames": [
+              30,
+              0
+            ],
+            "modal_residue_count": 1,
+            "modal_residues_frames": [
+              12,
+              42
+            ],
+            "period_frames": 132,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 12,
+            "start_frame_residue_frequency": {
+              "12": 1,
+              "42": 1
+            },
+            "supporting_occurrence_count": 2
+          },
+          "33": {
+            "circular_residuals_frames": [
+              -7,
+              -5,
+              -4,
+              -3,
+              -2,
+              0,
+              0,
+              1
+            ],
+            "modal_residue_count": 2,
+            "modal_residues_frames": [
+              11
+            ],
+            "period_frames": 33,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 11,
+            "start_frame_residue_frequency": {
+              "11": 2,
+              "12": 1,
+              "4": 1,
+              "6": 1,
+              "7": 1,
+              "8": 1,
+              "9": 1
+            },
+            "supporting_occurrence_count": 8
+          }
+        },
+        "target_temporal_distribution_audit": {
+          "132": {
+            "consecutive_support_start_gaps_frames": [
+              630
+            ],
+            "first_occurrence_start_frame": 1890,
+            "largest_support_start_gap_frames": 630,
+            "last_occurrence_end_frame": 2652,
+            "observation_span_frames": 3644,
+            "occurrence_start_counts_by_observation_quarter": [
+              0,
+              0,
+              2,
+              0
+            ],
+            "period_frames": 132,
+            "support_span_fraction": 0.20911086717892427,
+            "support_span_frames": 762,
+            "supporting_occurrence_count": 2
+          },
+          "33": {
+            "consecutive_support_start_gaps_frames": [
+              530,
+              265,
+              265,
+              265,
+              497,
+              33,
+              265
+            ],
+            "first_occurrence_start_frame": 532,
+            "largest_support_start_gap_frames": 530,
+            "last_occurrence_end_frame": 2685,
+            "observation_span_frames": 3644,
+            "occurrence_start_counts_by_observation_quarter": [
+              1,
+              3,
+              4,
+              0
+            ],
+            "period_frames": 33,
+            "support_span_fraction": 0.5908342480790341,
+            "support_span_frames": 2153,
+            "supporting_occurrence_count": 8
+          }
+        }
+      },
+      "drums": {
+        "asset_path": "recordings/validation/stems/drums.wav",
+        "asset_sha256": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+        "consecutive_candidate_baseline": [
+          {
+            "duration_seconds": 0.34829931972789113,
+            "frame_interval": 30,
+            "occurrence_count": 7,
+            "relative_frequency": 0.11290322580645161
+          },
+          {
+            "duration_seconds": 0.3831292517006803,
+            "frame_interval": 33,
+            "occurrence_count": 19,
+            "relative_frequency": 0.3064516129032258
+          },
+          {
+            "duration_seconds": 0.4295691609977324,
+            "frame_interval": 37,
+            "occurrence_count": 3,
+            "relative_frequency": 0.04838709677419355
+          },
+          {
+            "duration_seconds": 0.7662585034013606,
+            "frame_interval": 66,
+            "occurrence_count": 15,
+            "relative_frequency": 0.24193548387096775
+          },
+          {
+            "duration_seconds": 0.7778684807256235,
+            "frame_interval": 67,
+            "occurrence_count": 6,
+            "relative_frequency": 0.0967741935483871
+          },
+          {
+            "duration_seconds": 0.8126984126984127,
+            "frame_interval": 70,
+            "occurrence_count": 3,
+            "relative_frequency": 0.04838709677419355
+          }
+        ],
+        "event_count": 63,
+        "frame_duration_seconds": 0.011609977324263039,
+        "frame_length_samples": 512,
+        "observation_end_frame": 3644,
+        "sample_rate": 44100,
+        "source_identity": "drums",
+        "target_non_consecutive_lag_audit": {
+          "132": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 12,
+            "consecutive_pair_count": 1,
+            "duration_seconds": 1.5325170068027212,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 11,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  99
+                ],
+                "end_event_index": 3,
+                "end_frame": 236,
+                "intervening_event_count": 1,
+                "start_event_index": 1,
+                "start_frame": 104
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  66,
+                  66
+                ],
+                "end_event_index": 5,
+                "end_frame": 368,
+                "intervening_event_count": 1,
+                "start_event_index": 3,
+                "start_frame": 236
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  66,
+                  33
+                ],
+                "end_event_index": 16,
+                "end_frame": 1031,
+                "intervening_event_count": 2,
+                "start_event_index": 13,
+                "start_frame": 899
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  66,
+                  33
+                ],
+                "end_event_index": 28,
+                "end_frame": 1657,
+                "intervening_event_count": 2,
+                "start_event_index": 25,
+                "start_frame": 1525
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  66,
+                  33
+                ],
+                "end_event_index": 34,
+                "end_frame": 1922,
+                "intervening_event_count": 2,
+                "start_event_index": 31,
+                "start_frame": 1790
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  66,
+                  33
+                ],
+                "end_event_index": 39,
+                "end_frame": 2121,
+                "intervening_event_count": 2,
+                "start_event_index": 36,
+                "start_frame": 1989
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  66,
+                  33,
+                  33
+                ],
+                "end_event_index": 40,
+                "end_frame": 2154,
+                "intervening_event_count": 2,
+                "start_event_index": 37,
+                "start_frame": 2022
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  36,
+                  30,
+                  66
+                ],
+                "end_event_index": 54,
+                "end_frame": 2850,
+                "intervening_event_count": 2,
+                "start_event_index": 51,
+                "start_frame": 2718
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  67,
+                  32
+                ],
+                "end_event_index": 57,
+                "end_frame": 2982,
+                "intervening_event_count": 2,
+                "start_event_index": 54,
+                "start_frame": 2850
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  37,
+                  30,
+                  33
+                ],
+                "end_event_index": 60,
+                "end_frame": 3082,
+                "intervening_event_count": 3,
+                "start_event_index": 56,
+                "start_frame": 2950
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  66,
+                  33
+                ],
+                "end_event_index": 62,
+                "end_frame": 3181,
+                "intervening_event_count": 2,
+                "start_event_index": 59,
+                "start_frame": 3049
+              }
+            ]
+          },
+          "33": {
+            "additional_to_consecutive_inventory": false,
+            "all_supporting_pair_count": 19,
+            "consecutive_pair_count": 19,
+            "duration_seconds": 0.3831292517006803,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 0,
+            "non_consecutive_pairs": []
+          },
+          "66": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 17,
+            "consecutive_pair_count": 15,
+            "duration_seconds": 0.7662585034013606,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 2,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  33
+                ],
+                "end_event_index": 40,
+                "end_frame": 2154,
+                "intervening_event_count": 1,
+                "start_event_index": 38,
+                "start_frame": 2088
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  36,
+                  30
+                ],
+                "end_event_index": 53,
+                "end_frame": 2784,
+                "intervening_event_count": 1,
+                "start_event_index": 51,
+                "start_frame": 2718
+              }
+            ]
+          }
+        },
+        "target_phase_audit": {
+          "33": {
+            "circular_residuals_frames": [
+              -3,
+              -2,
+              -2,
+              0,
+              0,
+              -2,
+              -1,
+              -1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              2,
+              3,
+              4,
+              4,
+              5,
+              5
+            ],
+            "modal_residue_count": 4,
+            "modal_residues_frames": [
+              8
+            ],
+            "period_frames": 33,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 8,
+            "start_frame_residue_frequency": {
+              "10": 1,
+              "11": 1,
+              "12": 2,
+              "13": 2,
+              "5": 1,
+              "6": 3,
+              "7": 2,
+              "8": 4,
+              "9": 3
+            },
+            "supporting_occurrence_count": 19
+          },
+          "66": {
+            "circular_residuals_frames": [
+              32,
+              32,
+              0,
+              -32,
+              2,
+              0,
+              33,
+              -32,
+              2,
+              -31,
+              -30,
+              4,
+              5,
+              6,
+              -26
+            ],
+            "modal_residue_count": 2,
+            "modal_residues_frames": [
+              6,
+              8,
+              38,
+              40
+            ],
+            "period_frames": 66,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 6,
+            "start_frame_residue_frequency": {
+              "10": 1,
+              "11": 1,
+              "12": 1,
+              "38": 2,
+              "39": 1,
+              "40": 2,
+              "41": 1,
+              "42": 1,
+              "46": 1,
+              "6": 2,
+              "8": 2
+            },
+            "supporting_occurrence_count": 15
+          }
+        },
+        "target_temporal_distribution_audit": {
+          "33": {
+            "consecutive_support_start_gaps_frames": [
+              364,
+              165,
+              266,
+              99,
+              262,
+              265,
+              99,
+              166,
+              99,
+              100,
+              99,
+              33,
+              199,
+              265,
+              100,
+              165,
+              199,
+              99
+            ],
+            "first_occurrence_start_frame": 104,
+            "largest_support_start_gap_frames": 364,
+            "last_occurrence_end_frame": 3181,
+            "observation_span_frames": 3644,
+            "occurrence_start_counts_by_observation_quarter": [
+              4,
+              5,
+              7,
+              3
+            ],
+            "period_frames": 33,
+            "support_span_fraction": 0.8444017563117453,
+            "support_span_frames": 3077,
+            "supporting_occurrence_count": 19
+          },
+          "66": {
+            "consecutive_support_start_gaps_frames": [
+              66,
+              100,
+              364,
+              166,
+              262,
+              99,
+              265,
+              166,
+              99,
+              199,
+              232,
+              265,
+              265,
+              298
+            ],
+            "first_occurrence_start_frame": 236,
+            "largest_support_start_gap_frames": 364,
+            "last_occurrence_end_frame": 3148,
+            "observation_span_frames": 3644,
+            "occurrence_start_counts_by_observation_quarter": [
+              4,
+              5,
+              4,
+              2
+            ],
+            "period_frames": 66,
+            "support_span_fraction": 0.7991218441273326,
+            "support_span_frames": 2912,
+            "supporting_occurrence_count": 15
+          }
+        }
+      },
+      "full_mix": {
+        "asset_path": "recordings/validation/03 THE COST OF LIVING versione intro + 8 bar.mp3",
+        "asset_sha256": "d358d1bca5144ea1dabee4d970fa5deabf81a209922481a77db0f01bd8bdbbbb",
+        "consecutive_candidate_baseline": [
+          {
+            "duration_seconds": 0.034829931972789115,
+            "frame_interval": 3,
+            "occurrence_count": 3,
+            "relative_frequency": 0.039473684210526314
+          },
+          {
+            "duration_seconds": 0.3599092970521542,
+            "frame_interval": 31,
+            "occurrence_count": 9,
+            "relative_frequency": 0.11842105263157894
+          },
+          {
+            "duration_seconds": 0.37151927437641724,
+            "frame_interval": 32,
+            "occurrence_count": 9,
+            "relative_frequency": 0.11842105263157894
+          },
+          {
+            "duration_seconds": 0.3831292517006803,
+            "frame_interval": 33,
+            "occurrence_count": 16,
+            "relative_frequency": 0.21052631578947367
+          },
+          {
+            "duration_seconds": 0.3947392290249433,
+            "frame_interval": 34,
+            "occurrence_count": 7,
+            "relative_frequency": 0.09210526315789473
+          },
+          {
+            "duration_seconds": 0.40634920634920635,
+            "frame_interval": 35,
+            "occurrence_count": 2,
+            "relative_frequency": 0.02631578947368421
+          },
+          {
+            "duration_seconds": 0.4179591836734694,
+            "frame_interval": 36,
+            "occurrence_count": 3,
+            "relative_frequency": 0.039473684210526314
+          },
+          {
+            "duration_seconds": 0.7430385487528345,
+            "frame_interval": 64,
+            "occurrence_count": 2,
+            "relative_frequency": 0.02631578947368421
+          },
+          {
+            "duration_seconds": 0.7662585034013606,
+            "frame_interval": 66,
+            "occurrence_count": 8,
+            "relative_frequency": 0.10526315789473684
+          },
+          {
+            "duration_seconds": 0.7778684807256235,
+            "frame_interval": 67,
+            "occurrence_count": 2,
+            "relative_frequency": 0.02631578947368421
+          },
+          {
+            "duration_seconds": 0.8010884353741496,
+            "frame_interval": 69,
+            "occurrence_count": 5,
+            "relative_frequency": 0.06578947368421052
+          },
+          {
+            "duration_seconds": 1.172607709750567,
+            "frame_interval": 101,
+            "occurrence_count": 2,
+            "relative_frequency": 0.02631578947368421
+          }
+        ],
+        "event_count": 77,
+        "frame_duration_seconds": 0.011609977324263039,
+        "frame_length_samples": 512,
+        "observation_end_frame": 3638,
+        "sample_rate": 44100,
+        "source_identity": "full_mix",
+        "target_non_consecutive_lag_audit": {
+          "132": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 15,
+            "consecutive_pair_count": 0,
+            "duration_seconds": 1.5325170068027212,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 15,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  31,
+                  3,
+                  63,
+                  3,
+                  32
+                ],
+                "end_event_index": 11,
+                "end_frame": 503,
+                "intervening_event_count": 4,
+                "start_event_index": 6,
+                "start_frame": 371
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  67,
+                  33
+                ],
+                "end_event_index": 15,
+                "end_frame": 667,
+                "intervening_event_count": 2,
+                "start_event_index": 12,
+                "start_frame": 535
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  31,
+                  66,
+                  3,
+                  32
+                ],
+                "end_event_index": 22,
+                "end_frame": 1033,
+                "intervening_event_count": 3,
+                "start_event_index": 18,
+                "start_frame": 901
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  69,
+                  31
+                ],
+                "end_event_index": 26,
+                "end_frame": 1197,
+                "intervening_event_count": 2,
+                "start_event_index": 23,
+                "start_frame": 1065
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  69,
+                  31
+                ],
+                "end_event_index": 32,
+                "end_frame": 1462,
+                "intervening_event_count": 2,
+                "start_event_index": 29,
+                "start_frame": 1330
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  66,
+                  33,
+                  33
+                ],
+                "end_event_index": 35,
+                "end_frame": 1594,
+                "intervening_event_count": 2,
+                "start_event_index": 32,
+                "start_frame": 1462
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  33,
+                  33,
+                  33
+                ],
+                "end_event_index": 37,
+                "end_frame": 1660,
+                "intervening_event_count": 3,
+                "start_event_index": 33,
+                "start_frame": 1528
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  34,
+                  32,
+                  33
+                ],
+                "end_event_index": 44,
+                "end_frame": 1925,
+                "intervening_event_count": 3,
+                "start_event_index": 40,
+                "start_frame": 1793
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  33,
+                  36,
+                  31
+                ],
+                "end_event_index": 46,
+                "end_frame": 1992,
+                "intervening_event_count": 3,
+                "start_event_index": 42,
+                "start_frame": 1860
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  65,
+                  34
+                ],
+                "end_event_index": 49,
+                "end_frame": 2124,
+                "intervening_event_count": 2,
+                "start_event_index": 46,
+                "start_frame": 1992
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  65,
+                  34,
+                  21,
+                  12
+                ],
+                "end_event_index": 51,
+                "end_frame": 2157,
+                "intervening_event_count": 3,
+                "start_event_index": 47,
+                "start_frame": 2025
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  66,
+                  33,
+                  33
+                ],
+                "end_event_index": 56,
+                "end_frame": 2389,
+                "intervening_event_count": 2,
+                "start_event_index": 53,
+                "start_frame": 2257
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  35,
+                  31,
+                  66
+                ],
+                "end_event_index": 62,
+                "end_frame": 2588,
+                "intervening_event_count": 2,
+                "start_event_index": 59,
+                "start_frame": 2456
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  34,
+                  32,
+                  33
+                ],
+                "end_event_index": 66,
+                "end_frame": 2720,
+                "intervening_event_count": 3,
+                "start_event_index": 62,
+                "start_frame": 2588
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  33,
+                  36,
+                  31
+                ],
+                "end_event_index": 68,
+                "end_frame": 2787,
+                "intervening_event_count": 3,
+                "start_event_index": 64,
+                "start_frame": 2655
+              }
+            ]
+          },
+          "33": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 18,
+            "consecutive_pair_count": 16,
+            "duration_seconds": 0.3831292517006803,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 2,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  21,
+                  12
+                ],
+                "end_event_index": 51,
+                "end_frame": 2157,
+                "intervening_event_count": 1,
+                "start_event_index": 49,
+                "start_frame": 2124
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  17,
+                  16
+                ],
+                "end_event_index": 58,
+                "end_frame": 2422,
+                "intervening_event_count": 1,
+                "start_event_index": 56,
+                "start_frame": 2389
+              }
+            ]
+          },
+          "66": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 19,
+            "consecutive_pair_count": 8,
+            "duration_seconds": 0.7662585034013606,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 11,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  3,
+                  63
+                ],
+                "end_event_index": 9,
+                "end_frame": 468,
+                "intervening_event_count": 1,
+                "start_event_index": 7,
+                "start_frame": 402
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  63,
+                  3
+                ],
+                "end_event_index": 10,
+                "end_frame": 471,
+                "intervening_event_count": 1,
+                "start_event_index": 8,
+                "start_frame": 405
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  34,
+                  32
+                ],
+                "end_event_index": 30,
+                "end_frame": 1362,
+                "intervening_event_count": 1,
+                "start_event_index": 28,
+                "start_frame": 1296
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  33
+                ],
+                "end_event_index": 35,
+                "end_frame": 1594,
+                "intervening_event_count": 1,
+                "start_event_index": 33,
+                "start_frame": 1528
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  33
+                ],
+                "end_event_index": 36,
+                "end_frame": 1627,
+                "intervening_event_count": 1,
+                "start_event_index": 34,
+                "start_frame": 1561
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  33
+                ],
+                "end_event_index": 37,
+                "end_frame": 1660,
+                "intervening_event_count": 1,
+                "start_event_index": 35,
+                "start_frame": 1594
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  34,
+                  32
+                ],
+                "end_event_index": 43,
+                "end_frame": 1892,
+                "intervening_event_count": 1,
+                "start_event_index": 41,
+                "start_frame": 1826
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  33
+                ],
+                "end_event_index": 56,
+                "end_frame": 2389,
+                "intervening_event_count": 1,
+                "start_event_index": 54,
+                "start_frame": 2323
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  17,
+                  16
+                ],
+                "end_event_index": 58,
+                "end_frame": 2422,
+                "intervening_event_count": 2,
+                "start_event_index": 55,
+                "start_frame": 2356
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  35,
+                  31
+                ],
+                "end_event_index": 61,
+                "end_frame": 2522,
+                "intervening_event_count": 1,
+                "start_event_index": 59,
+                "start_frame": 2456
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  34,
+                  32
+                ],
+                "end_event_index": 65,
+                "end_frame": 2687,
+                "intervening_event_count": 1,
+                "start_event_index": 63,
+                "start_frame": 2621
+              }
+            ]
+          }
+        },
+        "target_phase_audit": {
+          "33": {
+            "circular_residuals_frames": [
+              -6,
+              -5,
+              -3,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              2,
+              3,
+              3,
+              4,
+              4,
+              6
+            ],
+            "modal_residue_count": 4,
+            "modal_residues_frames": [
+              10
+            ],
+            "period_frames": 33,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 10,
+            "start_frame_residue_frequency": {
+              "10": 4,
+              "11": 2,
+              "12": 1,
+              "13": 2,
+              "14": 2,
+              "16": 1,
+              "4": 1,
+              "5": 1,
+              "7": 1,
+              "9": 1
+            },
+            "supporting_occurrence_count": 16
+          },
+          "66": {
+            "circular_residuals_frames": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              -26,
+              -25
+            ],
+            "modal_residue_count": 1,
+            "modal_residues_frames": [
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              48,
+              49
+            ],
+            "period_frames": 66,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 8,
+            "start_frame_residue_frequency": {
+              "10": 1,
+              "11": 1,
+              "13": 1,
+              "14": 1,
+              "48": 1,
+              "49": 1,
+              "8": 1,
+              "9": 1
+            },
+            "supporting_occurrence_count": 8
+          }
+        },
+        "target_temporal_distribution_audit": {
+          "33": {
+            "consecutive_support_start_gaps_frames": [
+              100,
+              530,
+              629,
+              265,
+              33,
+              33,
+              33,
+              166,
+              99,
+              100,
+              331,
+              33,
+              232,
+              99,
+              464
+            ],
+            "first_occurrence_start_frame": 4,
+            "largest_support_start_gap_frames": 629,
+            "last_occurrence_end_frame": 3184,
+            "observation_span_frames": 3638,
+            "occurrence_start_counts_by_observation_quarter": [
+              3,
+              6,
+              6,
+              1
+            ],
+            "period_frames": 33,
+            "support_span_fraction": 0.874106652006597,
+            "support_span_frames": 3180,
+            "supporting_occurrence_count": 16
+          },
+          "66": {
+            "consecutive_support_start_gaps_frames": [
+              265,
+              265,
+              265,
+              530,
+              265,
+              364,
+              199
+            ],
+            "first_occurrence_start_frame": 932,
+            "largest_support_start_gap_frames": 530,
+            "last_occurrence_end_frame": 3151,
+            "observation_span_frames": 3638,
+            "occurrence_start_counts_by_observation_quarter": [
+              0,
+              4,
+              2,
+              2
+            ],
+            "period_frames": 66,
+            "support_span_fraction": 0.6099505222649808,
+            "support_span_frames": 2219,
+            "supporting_occurrence_count": 8
+          }
+        }
+      },
+      "piano": {
+        "asset_path": "recordings/validation/stems/piano.wav",
+        "asset_sha256": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e",
+        "consecutive_candidate_baseline": [
+          {
+            "duration_seconds": 0.19736961451247165,
+            "frame_interval": 17,
+            "occurrence_count": 4,
+            "relative_frequency": 0.08333333333333333
+          },
+          {
+            "duration_seconds": 0.37151927437641724,
+            "frame_interval": 32,
+            "occurrence_count": 5,
+            "relative_frequency": 0.10416666666666667
+          },
+          {
+            "duration_seconds": 0.3831292517006803,
+            "frame_interval": 33,
+            "occurrence_count": 6,
+            "relative_frequency": 0.125
+          },
+          {
+            "duration_seconds": 0.3947392290249433,
+            "frame_interval": 34,
+            "occurrence_count": 13,
+            "relative_frequency": 0.2708333333333333
+          },
+          {
+            "duration_seconds": 0.7546485260770975,
+            "frame_interval": 65,
+            "occurrence_count": 5,
+            "relative_frequency": 0.10416666666666667
+          },
+          {
+            "duration_seconds": 0.7662585034013606,
+            "frame_interval": 66,
+            "occurrence_count": 3,
+            "relative_frequency": 0.0625
+          },
+          {
+            "duration_seconds": 1.1609977324263039,
+            "frame_interval": 100,
+            "occurrence_count": 2,
+            "relative_frequency": 0.041666666666666664
+          },
+          {
+            "duration_seconds": 1.5325170068027212,
+            "frame_interval": 132,
+            "occurrence_count": 3,
+            "relative_frequency": 0.0625
+          },
+          {
+            "duration_seconds": 1.9156462585034013,
+            "frame_interval": 165,
+            "occurrence_count": 2,
+            "relative_frequency": 0.041666666666666664
+          },
+          {
+            "duration_seconds": 1.9272562358276644,
+            "frame_interval": 166,
+            "occurrence_count": 4,
+            "relative_frequency": 0.08333333333333333
+          }
+        ],
+        "event_count": 49,
+        "frame_duration_seconds": 0.011609977324263039,
+        "frame_length_samples": 512,
+        "observation_end_frame": 3644,
+        "sample_rate": 44100,
+        "source_identity": "piano",
+        "target_non_consecutive_lag_audit": {
+          "132": {
+            "additional_to_consecutive_inventory": false,
+            "all_supporting_pair_count": 3,
+            "consecutive_pair_count": 3,
+            "duration_seconds": 1.5325170068027212,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 0,
+            "non_consecutive_pairs": []
+          },
+          "33": {
+            "additional_to_consecutive_inventory": false,
+            "all_supporting_pair_count": 6,
+            "consecutive_pair_count": 6,
+            "duration_seconds": 0.3831292517006803,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 0,
+            "non_consecutive_pairs": []
+          },
+          "66": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 10,
+            "consecutive_pair_count": 3,
+            "duration_seconds": 0.7662585034013606,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 7,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  34,
+                  32
+                ],
+                "end_event_index": 10,
+                "end_frame": 631,
+                "intervening_event_count": 1,
+                "start_event_index": 8,
+                "start_frame": 565
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  34
+                ],
+                "end_event_index": 11,
+                "end_frame": 665,
+                "intervening_event_count": 1,
+                "start_event_index": 9,
+                "start_frame": 599
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  34,
+                  32
+                ],
+                "end_event_index": 18,
+                "end_frame": 1161,
+                "intervening_event_count": 1,
+                "start_event_index": 16,
+                "start_frame": 1095
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  34
+                ],
+                "end_event_index": 19,
+                "end_frame": 1195,
+                "intervening_event_count": 1,
+                "start_event_index": 17,
+                "start_frame": 1129
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  34,
+                  32
+                ],
+                "end_event_index": 27,
+                "end_frame": 1724,
+                "intervening_event_count": 1,
+                "start_event_index": 25,
+                "start_frame": 1658
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  34,
+                  32
+                ],
+                "end_event_index": 41,
+                "end_frame": 2519,
+                "intervening_event_count": 1,
+                "start_event_index": 39,
+                "start_frame": 2453
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  33,
+                  33
+                ],
+                "end_event_index": 48,
+                "end_frame": 3050,
+                "intervening_event_count": 1,
+                "start_event_index": 46,
+                "start_frame": 2984
+              }
+            ]
+          }
+        },
+        "target_phase_audit": {
+          "132": {
+            "circular_residuals_frames": [
+              0,
+              2,
+              3
+            ],
+            "modal_residue_count": 1,
+            "modal_residues_frames": [
+              7,
+              9,
+              10
+            ],
+            "period_frames": 132,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 7,
+            "start_frame_residue_frequency": {
+              "10": 1,
+              "7": 1,
+              "9": 1
+            },
+            "supporting_occurrence_count": 3
+          },
+          "33": {
+            "circular_residuals_frames": [
+              -12,
+              -7,
+              -5,
+              -3,
+              0,
+              0
+            ],
+            "modal_residue_count": 2,
+            "modal_residues_frames": [
+              14
+            ],
+            "period_frames": 33,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 14,
+            "start_frame_residue_frequency": {
+              "11": 1,
+              "14": 2,
+              "2": 1,
+              "7": 1,
+              "9": 1
+            },
+            "supporting_occurrence_count": 6
+          },
+          "66": {
+            "circular_residuals_frames": [
+              0,
+              2,
+              6
+            ],
+            "modal_residue_count": 1,
+            "modal_residues_frames": [
+              3,
+              5,
+              9
+            ],
+            "period_frames": 66,
+            "residual_definition": "signed shortest circular frame distance from the smallest modal start residue; descriptive only, with no threshold",
+            "residual_reference_frames": 3,
+            "start_frame_residue_frequency": {
+              "3": 1,
+              "5": 1,
+              "9": 1
+            },
+            "supporting_occurrence_count": 3
+          }
+        },
+        "target_temporal_distribution_audit": {
+          "132": {
+            "consecutive_support_start_gaps_frames": [
+              530,
+              265
+            ],
+            "first_occurrence_start_frame": 1459,
+            "largest_support_start_gap_frames": 530,
+            "last_occurrence_end_frame": 2386,
+            "observation_span_frames": 3644,
+            "occurrence_start_counts_by_observation_quarter": [
+              0,
+              1,
+              2,
+              0
+            ],
+            "period_frames": 132,
+            "support_span_fraction": 0.254390779363337,
+            "support_span_frames": 927,
+            "supporting_occurrence_count": 3
+          },
+          "33": {
+            "consecutive_support_start_gaps_frames": [
+              1490,
+              299,
+              530,
+              564,
+              33
+            ],
+            "first_occurrence_start_frame": 101,
+            "largest_support_start_gap_frames": 1490,
+            "last_occurrence_end_frame": 3050,
+            "observation_span_frames": 3644,
+            "occurrence_start_counts_by_observation_quarter": [
+              1,
+              1,
+              2,
+              2
+            ],
+            "period_frames": 33,
+            "support_span_fraction": 0.8092755214050494,
+            "support_span_frames": 2949,
+            "supporting_occurrence_count": 6
+          },
+          "66": {
+            "consecutive_support_start_gaps_frames": [
+              530,
+              994
+            ],
+            "first_occurrence_start_frame": 399,
+            "largest_support_start_gap_frames": 994,
+            "last_occurrence_end_frame": 1989,
+            "observation_span_frames": 3644,
+            "occurrence_start_counts_by_observation_quarter": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "period_frames": 66,
+            "support_span_fraction": 0.43633369923161364,
+            "support_span_frames": 1590,
+            "supporting_occurrence_count": 3
+          }
+        }
+      },
+      "tenor_sax": {
+        "asset_path": "recordings/validation/stems/tenor_sax.wav",
+        "asset_sha256": "89dd7e5c6063d3c4d5e4ac59c9119c265df4257dfb1b4a1e01b5f117ee87182e",
+        "consecutive_candidate_baseline": [
+          {
+            "duration_seconds": 0.034829931972789115,
+            "frame_interval": 3,
+            "occurrence_count": 2,
+            "relative_frequency": 0.13333333333333333
+          },
+          {
+            "duration_seconds": 3.076643990929705,
+            "frame_interval": 265,
+            "occurrence_count": 2,
+            "relative_frequency": 0.13333333333333333
+          }
+        ],
+        "event_count": 16,
+        "frame_duration_seconds": 0.011609977324263039,
+        "frame_length_samples": 512,
+        "observation_end_frame": 3644,
+        "sample_rate": 44100,
+        "source_identity": "tenor_sax",
+        "target_non_consecutive_lag_audit": {
+          "132": {
+            "additional_to_consecutive_inventory": false,
+            "all_supporting_pair_count": 0,
+            "consecutive_pair_count": 0,
+            "duration_seconds": 1.5325170068027212,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 0,
+            "non_consecutive_pairs": []
+          },
+          "33": {
+            "additional_to_consecutive_inventory": false,
+            "all_supporting_pair_count": 0,
+            "consecutive_pair_count": 0,
+            "duration_seconds": 0.3831292517006803,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 0,
+            "non_consecutive_pairs": []
+          },
+          "66": {
+            "additional_to_consecutive_inventory": false,
+            "all_supporting_pair_count": 0,
+            "consecutive_pair_count": 0,
+            "duration_seconds": 0.7662585034013606,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 0,
+            "non_consecutive_pairs": []
+          }
+        },
+        "target_phase_audit": {},
+        "target_temporal_distribution_audit": {}
+      },
+      "voice": {
+        "asset_path": "recordings/validation/stems/voice.wav",
+        "asset_sha256": "0fa95a3eff06d1ab075caf2f388c17d536e614aca397647967805045521c655a",
+        "consecutive_candidate_baseline": [
+          {
+            "duration_seconds": 0.034829931972789115,
+            "frame_interval": 3,
+            "occurrence_count": 10,
+            "relative_frequency": 0.06711409395973154
+          },
+          {
+            "duration_seconds": 0.046439909297052155,
+            "frame_interval": 4,
+            "occurrence_count": 12,
+            "relative_frequency": 0.08053691275167785
+          },
+          {
+            "duration_seconds": 0.058049886621315196,
+            "frame_interval": 5,
+            "occurrence_count": 7,
+            "relative_frequency": 0.04697986577181208
+          },
+          {
+            "duration_seconds": 0.06965986394557823,
+            "frame_interval": 6,
+            "occurrence_count": 13,
+            "relative_frequency": 0.087248322147651
+          },
+          {
+            "duration_seconds": 0.08126984126984127,
+            "frame_interval": 7,
+            "occurrence_count": 5,
+            "relative_frequency": 0.03355704697986577
+          },
+          {
+            "duration_seconds": 0.09287981859410431,
+            "frame_interval": 8,
+            "occurrence_count": 5,
+            "relative_frequency": 0.03355704697986577
+          },
+          {
+            "duration_seconds": 0.10448979591836735,
+            "frame_interval": 9,
+            "occurrence_count": 8,
+            "relative_frequency": 0.053691275167785234
+          },
+          {
+            "duration_seconds": 0.11609977324263039,
+            "frame_interval": 10,
+            "occurrence_count": 6,
+            "relative_frequency": 0.040268456375838924
+          },
+          {
+            "duration_seconds": 0.12770975056689343,
+            "frame_interval": 11,
+            "occurrence_count": 10,
+            "relative_frequency": 0.06711409395973154
+          },
+          {
+            "duration_seconds": 0.13931972789115646,
+            "frame_interval": 12,
+            "occurrence_count": 11,
+            "relative_frequency": 0.0738255033557047
+          },
+          {
+            "duration_seconds": 0.1509297052154195,
+            "frame_interval": 13,
+            "occurrence_count": 7,
+            "relative_frequency": 0.04697986577181208
+          },
+          {
+            "duration_seconds": 0.16253968253968254,
+            "frame_interval": 14,
+            "occurrence_count": 4,
+            "relative_frequency": 0.026845637583892617
+          },
+          {
+            "duration_seconds": 0.17414965986394557,
+            "frame_interval": 15,
+            "occurrence_count": 5,
+            "relative_frequency": 0.03355704697986577
+          },
+          {
+            "duration_seconds": 0.18575963718820862,
+            "frame_interval": 16,
+            "occurrence_count": 5,
+            "relative_frequency": 0.03355704697986577
+          },
+          {
+            "duration_seconds": 0.19736961451247165,
+            "frame_interval": 17,
+            "occurrence_count": 5,
+            "relative_frequency": 0.03355704697986577
+          },
+          {
+            "duration_seconds": 0.2089795918367347,
+            "frame_interval": 18,
+            "occurrence_count": 3,
+            "relative_frequency": 0.020134228187919462
+          },
+          {
+            "duration_seconds": 0.22058956916099773,
+            "frame_interval": 19,
+            "occurrence_count": 4,
+            "relative_frequency": 0.026845637583892617
+          },
+          {
+            "duration_seconds": 0.23219954648526078,
+            "frame_interval": 20,
+            "occurrence_count": 6,
+            "relative_frequency": 0.040268456375838924
+          },
+          {
+            "duration_seconds": 0.2438095238095238,
+            "frame_interval": 21,
+            "occurrence_count": 3,
+            "relative_frequency": 0.020134228187919462
+          },
+          {
+            "duration_seconds": 0.25541950113378686,
+            "frame_interval": 22,
+            "occurrence_count": 2,
+            "relative_frequency": 0.013422818791946308
+          },
+          {
+            "duration_seconds": 0.26702947845804986,
+            "frame_interval": 23,
+            "occurrence_count": 2,
+            "relative_frequency": 0.013422818791946308
+          },
+          {
+            "duration_seconds": 0.2786394557823129,
+            "frame_interval": 24,
+            "occurrence_count": 3,
+            "relative_frequency": 0.020134228187919462
+          },
+          {
+            "duration_seconds": 0.37151927437641724,
+            "frame_interval": 32,
+            "occurrence_count": 3,
+            "relative_frequency": 0.020134228187919462
+          }
+        ],
+        "event_count": 150,
+        "frame_duration_seconds": 0.011609977324263039,
+        "frame_length_samples": 512,
+        "observation_end_frame": 3644,
+        "sample_rate": 44100,
+        "source_identity": "voice",
+        "target_non_consecutive_lag_audit": {
+          "132": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 3,
+            "consecutive_pair_count": 0,
+            "duration_seconds": 1.5325170068027212,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 3,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  10,
+                  4,
+                  6,
+                  11,
+                  19,
+                  5,
+                  9,
+                  11,
+                  39,
+                  11,
+                  7
+                ],
+                "end_event_index": 24,
+                "end_frame": 1415,
+                "intervening_event_count": 10,
+                "start_event_index": 13,
+                "start_frame": 1283
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  11,
+                  19,
+                  5,
+                  9,
+                  11,
+                  39,
+                  11,
+                  7,
+                  11,
+                  9
+                ],
+                "end_event_index": 26,
+                "end_frame": 1435,
+                "intervening_event_count": 9,
+                "start_event_index": 16,
+                "start_frame": 1303
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  22,
+                  3,
+                  10,
+                  22,
+                  20,
+                  12,
+                  4,
+                  16,
+                  23
+                ],
+                "end_event_index": 36,
+                "end_frame": 1596,
+                "intervening_event_count": 8,
+                "start_event_index": 27,
+                "start_frame": 1464
+              }
+            ]
+          },
+          "33": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 11,
+            "consecutive_pair_count": 0,
+            "duration_seconds": 0.3831292517006803,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 11,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  19,
+                  5,
+                  9
+                ],
+                "end_event_index": 20,
+                "end_frame": 1347,
+                "intervening_event_count": 2,
+                "start_event_index": 17,
+                "start_frame": 1314
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  8,
+                  16,
+                  9
+                ],
+                "end_event_index": 39,
+                "end_frame": 1629,
+                "intervening_event_count": 2,
+                "start_event_index": 36,
+                "start_frame": 1596
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  4,
+                  6,
+                  3,
+                  3,
+                  17
+                ],
+                "end_event_index": 45,
+                "end_frame": 1694,
+                "intervening_event_count": 4,
+                "start_event_index": 40,
+                "start_frame": 1661
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  20,
+                  13
+                ],
+                "end_event_index": 53,
+                "end_frame": 1827,
+                "intervening_event_count": 1,
+                "start_event_index": 51,
+                "start_frame": 1794
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  7,
+                  4,
+                  10,
+                  12
+                ],
+                "end_event_index": 58,
+                "end_frame": 1863,
+                "intervening_event_count": 3,
+                "start_event_index": 54,
+                "start_frame": 1830
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  4,
+                  7,
+                  5,
+                  17
+                ],
+                "end_event_index": 71,
+                "end_frame": 2032,
+                "intervening_event_count": 3,
+                "start_event_index": 67,
+                "start_frame": 1999
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  19,
+                  14
+                ],
+                "end_event_index": 85,
+                "end_frame": 2330,
+                "intervening_event_count": 1,
+                "start_event_index": 83,
+                "start_frame": 2297
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  8,
+                  5,
+                  20
+                ],
+                "end_event_index": 95,
+                "end_frame": 2453,
+                "intervening_event_count": 2,
+                "start_event_index": 92,
+                "start_frame": 2420
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  6,
+                  7,
+                  9,
+                  11
+                ],
+                "end_event_index": 138,
+                "end_frame": 2989,
+                "intervening_event_count": 3,
+                "start_event_index": 134,
+                "start_frame": 2956
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  11,
+                  10,
+                  7,
+                  5
+                ],
+                "end_event_index": 141,
+                "end_frame": 3011,
+                "intervening_event_count": 3,
+                "start_event_index": 137,
+                "start_frame": 2978
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  3,
+                  6,
+                  13,
+                  11
+                ],
+                "end_event_index": 147,
+                "end_frame": 3120,
+                "intervening_event_count": 3,
+                "start_event_index": 143,
+                "start_frame": 3087
+              }
+            ]
+          },
+          "66": {
+            "additional_to_consecutive_inventory": true,
+            "all_supporting_pair_count": 8,
+            "consecutive_pair_count": 0,
+            "duration_seconds": 0.7662585034013606,
+            "independence_from_existing_event_population": "not_established",
+            "non_consecutive_pair_count": 8,
+            "non_consecutive_pairs": [
+              {
+                "constituent_consecutive_gaps": [
+                  15,
+                  21,
+                  5,
+                  13,
+                  6,
+                  6
+                ],
+                "end_event_index": 8,
+                "end_frame": 1200,
+                "intervening_event_count": 5,
+                "start_event_index": 2,
+                "start_frame": 1134
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  18,
+                  8,
+                  5,
+                  20,
+                  12,
+                  3
+                ],
+                "end_event_index": 97,
+                "end_frame": 2468,
+                "intervening_event_count": 5,
+                "start_event_index": 91,
+                "start_frame": 2402
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  32,
+                  4,
+                  6,
+                  3,
+                  9,
+                  12
+                ],
+                "end_event_index": 104,
+                "end_frame": 2547,
+                "intervening_event_count": 5,
+                "start_event_index": 98,
+                "start_frame": 2481
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  17,
+                  15,
+                  13,
+                  13,
+                  8
+                ],
+                "end_event_index": 120,
+                "end_frame": 2773,
+                "intervening_event_count": 4,
+                "start_event_index": 115,
+                "start_frame": 2707
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  8,
+                  6,
+                  9,
+                  6,
+                  25,
+                  12
+                ],
+                "end_event_index": 125,
+                "end_frame": 2831,
+                "intervening_event_count": 5,
+                "start_event_index": 119,
+                "start_frame": 2765
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  12,
+                  6,
+                  19,
+                  16,
+                  6,
+                  7
+                ],
+                "end_event_index": 136,
+                "end_frame": 2969,
+                "intervening_event_count": 5,
+                "start_event_index": 130,
+                "start_frame": 2903
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  16,
+                  6,
+                  7,
+                  9,
+                  11,
+                  10,
+                  7
+                ],
+                "end_event_index": 140,
+                "end_frame": 3006,
+                "intervening_event_count": 6,
+                "start_event_index": 133,
+                "start_frame": 2940
+              },
+              {
+                "constituent_consecutive_gaps": [
+                  6,
+                  13,
+                  11,
+                  24,
+                  12
+                ],
+                "end_event_index": 149,
+                "end_frame": 3156,
+                "intervening_event_count": 4,
+                "start_event_index": 144,
+                "start_frame": 3090
+              }
+            ]
+          }
+        },
+        "target_phase_audit": {},
+        "target_temporal_distribution_audit": {}
+      }
+    }
+  },
+  "blind_frozen_utc": "2026-08-09T13:47:02.722559+00:00",
+  "blind_record_fingerprint": "5460094a50779f68341a306cb9f11b63a79e39806a98f2c0513407c00eced4d7",
+  "deterministic_reproduction": true,
+  "first_execution_fingerprint": "5e8824ce37cf36a687112ba5d1ddc778598c0ad1f68f91e3ba0c8025b755e477",
+  "repeated_execution_fingerprint": "5e8824ce37cf36a687112ba5d1ddc778598c0ad1f68f91e3ba0c8025b755e477",
+  "verified_asset_checksums": {
+    "recordings/validation/03 THE COST OF LIVING versione intro + 8 bar.mp3": "d358d1bca5144ea1dabee4d970fa5deabf81a209922481a77db0f01bd8bdbbbb",
+    "recordings/validation/stems/double_bass.wav": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
+    "recordings/validation/stems/drums.wav": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+    "recordings/validation/stems/piano.wav": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e",
+    "recordings/validation/stems/tenor_sax.wav": "89dd7e5c6063d3c4d5e4ac59c9119c265df4257dfb1b4a1e01b5f117ee87182e",
+    "recordings/validation/stems/voice.wav": "0fa95a3eff06d1ab075caf2f388c17d536e614aca397647967805045521c655a"
+  }
+}

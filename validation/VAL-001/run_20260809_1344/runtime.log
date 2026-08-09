@@ -1,0 +1,11 @@
+H-VAL001-C1-04
+run_id=run_20260809_1344
+repository_revision=ea31e03fd4837491723d4f8a80b6d16dfa892bea
+bootstrap_revision=ea31e03
+blind_command=python validation/VAL-001/run_20260809_1344/relationship_audit.py blind
+blind_frozen_utc=2026-08-09T13:47:02.722559+00:00
+blind_result=completed
+post_blind_command=python validation/VAL-001/run_20260809_1344/relationship_audit.py post-blind
+post_blind_result=completed
+production_code_modified=false
+ground_truth_available_during_blind_audit=false
