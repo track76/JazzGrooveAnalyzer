@@ -1,0 +1,19 @@
+{
+  "experiment_id": "__REQUIRED_EXPERIMENT_ID__",
+  "blind_record_fingerprint": "__REQUIRED_FINGERPRINT__",
+  "condition_assignment": {
+    "condition_a": "__REQUIRED_NEUTRAL_EXECUTION_ID__",
+    "condition_b": "__REQUIRED_NEUTRAL_EXECUTION_ID__"
+  },
+  "ground_truth_identities": {
+    "condition_a": "__REQUIRED_GROUND_TRUTH_ID__",
+    "condition_b": "__REQUIRED_GROUND_TRUTH_ID__"
+  },
+  "scientific_validation_record_identities": {
+    "condition_a": "__REQUIRED_RECORD_ID__",
+    "condition_b": "__REQUIRED_RECORD_ID__"
+  },
+  "descriptive_candidate_comparison": "__REQUIRED_NUMERICAL_EVIDENCE__",
+  "scientific_conclusion": "__REQUIRED_EVIDENCE_CLASSIFIED_RESULT__",
+  "limitations": []
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "validation_item_id": "__REQUIRED_CONDITION_A_VALIDATION_ITEM_ID__",
+      "ground_truth_id": "__REQUIRED_CONDITION_A_GROUND_TRUTH_ID__",
+      "authoritative_musicxml": {
+        "repository_path": "__REQUIRED_REPOSITORY_MUSICXML_PATH__",
+        "sha256": "__REQUIRED_SHA256__",
+        "repository_revision": "__REQUIRED_COMMITTED_REVISION__",
+        "licensing_status": "__REQUIRED_LICENSING_STATUS__"
+      },
+      "mp3_recording": {
+        "repository_path": "__REQUIRED_REPOSITORY_MP3_PATH__",
+        "sha256": "__REQUIRED_SHA256__",
+        "repository_revision": "__REQUIRED_COMMITTED_REVISION__",
+        "licensing_status": "__REQUIRED_LICENSING_STATUS__"
+      },
+      "provenance": {"schema_version": "1", "item_version": "1"},
+      "metadata": {"title": "__REQUIRED_CONDITION_A_TITLE__"}
+    },
+    {
+      "validation_item_id": "__REQUIRED_CONDITION_B_VALIDATION_ITEM_ID__",
+      "ground_truth_id": "__REQUIRED_CONDITION_B_GROUND_TRUTH_ID__",
+      "authoritative_musicxml": {
+        "repository_path": "__REQUIRED_REPOSITORY_MUSICXML_PATH__",
+        "sha256": "__REQUIRED_SHA256__",
+        "repository_revision": "__REQUIRED_COMMITTED_REVISION__",
+        "licensing_status": "__REQUIRED_LICENSING_STATUS__"
+      },
+      "mp3_recording": {
+        "repository_path": "__REQUIRED_REPOSITORY_MP3_PATH__",
+        "sha256": "__REQUIRED_SHA256__",
+        "repository_revision": "__REQUIRED_COMMITTED_REVISION__",
+        "licensing_status": "__REQUIRED_LICENSING_STATUS__"
+      },
+      "provenance": {"schema_version": "1", "item_version": "1"},
+      "metadata": {"title": "__REQUIRED_CONDITION_B_TITLE__"}
+    }
+  ]
+}

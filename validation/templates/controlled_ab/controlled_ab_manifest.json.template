@@ -1,0 +1,37 @@
+{
+  "controlled_dataset_id": "__REQUIRED_CONTROLLED_DATASET_ID__",
+  "dataset_generation_record_id": "__REQUIRED_DATASET_GENERATION_RECORD_ID__",
+  "provenance_revision_id": "__REQUIRED_PROVENANCE_REVISION_ID__",
+  "relationship": "condition_b_is_declared_event_removal_from_condition_a",
+  "knowledge_classification": "Declared Experimental Procedure",
+  "controlled_audio_format": {
+    "sample_rate_hz": "__REQUIRED_SAMPLE_RATE_INTEGER__",
+    "bit_depth": "__REQUIRED_BIT_DEPTH_INTEGER__",
+    "channel_count": "__REQUIRED_CHANNEL_COUNT_INTEGER__",
+    "sample_count_per_channel": "__REQUIRED_SAMPLE_COUNT_INTEGER__"
+  },
+  "condition_a": {
+    "condition_id": "__REQUIRED_CONDITION_A_ID__",
+    "validation_item_id": "__REQUIRED_CONDITION_A_VALIDATION_ITEM_ID__",
+    "ground_truth_id": "__REQUIRED_CONDITION_A_GROUND_TRUTH_ID__",
+    "authoritative_musicxml": {"repository_path": "symbolic/condition_a.musicxml", "sha256": "__REQUIRED_SHA256__"},
+    "ground_truth_definition": {"repository_path": "ground_truth/condition_a.ground_truth.json", "sha256": "__REQUIRED_SHA256__"},
+    "canonical_wav": {"repository_path": "audio/condition_a.wav", "sha256": "__REQUIRED_SHA256__"},
+    "repeated_render_wav": {"repository_path": "audio/condition_a_repeat.wav", "sha256": "__REQUIRED_SHA256__"},
+    "catalogue_mp3": {"repository_path": "audio/condition_a.mp3", "sha256": "__REQUIRED_SHA256__"},
+    "licensing_status": "__REQUIRED_LICENSING_STATUS__"
+  },
+  "condition_b": {
+    "condition_id": "__REQUIRED_CONDITION_B_ID__",
+    "validation_item_id": "__REQUIRED_CONDITION_B_VALIDATION_ITEM_ID__",
+    "ground_truth_id": "__REQUIRED_CONDITION_B_GROUND_TRUTH_ID__",
+    "authoritative_musicxml": {"repository_path": "symbolic/condition_b.musicxml", "sha256": "__REQUIRED_SHA256__"},
+    "ground_truth_definition": {"repository_path": "ground_truth/condition_b.ground_truth.json", "sha256": "__REQUIRED_SHA256__"},
+    "canonical_wav": {"repository_path": "audio/condition_b.wav", "sha256": "__REQUIRED_SHA256__"},
+    "repeated_render_wav": {"repository_path": "audio/condition_b_repeat.wav", "sha256": "__REQUIRED_SHA256__"},
+    "catalogue_mp3": {"repository_path": "audio/condition_b.mp3", "sha256": "__REQUIRED_SHA256__"},
+    "licensing_status": "__REQUIRED_LICENSING_STATUS__"
+  },
+  "event_removal_inventory": {"repository_path": "provenance/event_removal_inventory.json", "sha256": "__REQUIRED_SHA256__"},
+  "dataset_generation_record": {"repository_path": "provenance/dataset_generation_record.md", "sha256": "__REQUIRED_SHA256__"}
+}

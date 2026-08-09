@@ -1,0 +1,28 @@
+{
+  "experiment_id": "__REQUIRED_EXPERIMENT_ID__",
+  "blind_record_fingerprint": "__REQUIRED_FINGERPRINT__",
+  "condition_a": {
+    "validation_item_id": "__REQUIRED_VALIDATION_ITEM_ID__",
+    "analysis_execution_id": "__REQUIRED_ANALYSIS_EXECUTION_ID__",
+    "immutable_analysis_content_fingerprint": "__REQUIRED_FINGERPRINT__",
+    "immutable_analysis_schema_revision": "1",
+    "comparator_execution_id": "__REQUIRED_COMPARATOR_EXECUTION_ID__",
+    "comparator_protocol_id": "JGA-COMPARATOR-001",
+    "comparator_schema_version": "1",
+    "comparison_result_id": "__REQUIRED_COMPARISON_RESULT_ID__",
+    "scientific_validation_record_id": "__REQUIRED_RECORD_ID__",
+    "scientific_validation_record_fingerprint": "__REQUIRED_FINGERPRINT__"
+  },
+  "condition_b": {
+    "validation_item_id": "__REQUIRED_VALIDATION_ITEM_ID__",
+    "analysis_execution_id": "__REQUIRED_ANALYSIS_EXECUTION_ID__",
+    "immutable_analysis_content_fingerprint": "__REQUIRED_FINGERPRINT__",
+    "immutable_analysis_schema_revision": "1",
+    "comparator_execution_id": "__REQUIRED_COMPARATOR_EXECUTION_ID__",
+    "comparator_protocol_id": "JGA-COMPARATOR-001",
+    "comparator_schema_version": "1",
+    "comparison_result_id": "__REQUIRED_COMPARISON_RESULT_ID__",
+    "scientific_validation_record_id": "__REQUIRED_RECORD_ID__",
+    "scientific_validation_record_fingerprint": "__REQUIRED_FINGERPRINT__"
+  }
+}

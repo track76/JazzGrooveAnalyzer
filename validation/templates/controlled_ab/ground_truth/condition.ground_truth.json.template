@@ -1,0 +1,14 @@
+{
+  "ground_truth_id": "__REQUIRED_GROUND_TRUTH_ID__",
+  "validation_item_id": "__REQUIRED_VALIDATION_ITEM_ID__",
+  "schema_version": "1",
+  "normalization_version": "1",
+  "source": {
+    "repository_path": "__REQUIRED_REPOSITORY_MUSICXML_PATH__",
+    "sha256": "__REQUIRED_SHA256__",
+    "repository_revision": "__REQUIRED_COMMITTED_REVISION__"
+  },
+  "measures": "__REQUIRED_SCHEMA_1_MEASURE_MAPPING_ARRAY__",
+  "sections": "__REQUIRED_SCHEMA_1_SECTION_ARRAY__",
+  "instrument_normalization": "__REQUIRED_SCHEMA_1_INSTRUMENT_ARRAY__"
+}

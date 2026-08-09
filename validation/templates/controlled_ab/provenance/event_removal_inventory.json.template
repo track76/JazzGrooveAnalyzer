@@ -1,0 +1,27 @@
+{
+  "inventory_id": "__REQUIRED_INVENTORY_ID__",
+  "condition_a_id": "__REQUIRED_CONDITION_A_ID__",
+  "condition_b_id": "__REQUIRED_CONDITION_B_ID__",
+  "declared_before_analysis": true,
+  "selected_independently_of_jga_output": true,
+  "events": [
+    {
+      "condition_a_event_id": "__REQUIRED_EVENT_ID__",
+      "condition_a_onset_seconds": "__REQUIRED_DECIMAL_SECONDS__",
+      "condition_a_duration_seconds": "__REQUIRED_DECIMAL_SECONDS__",
+      "status": "retained",
+      "condition_b_event_id": "__REQUIRED_EVENT_ID__",
+      "condition_b_onset_seconds": "__REQUIRED_SAME_DECIMAL_SECONDS__",
+      "condition_b_duration_seconds": "__REQUIRED_SAME_DECIMAL_SECONDS__"
+    },
+    {
+      "condition_a_event_id": "__REQUIRED_EVENT_ID__",
+      "condition_a_onset_seconds": "__REQUIRED_DECIMAL_SECONDS__",
+      "condition_a_duration_seconds": "__REQUIRED_DECIMAL_SECONDS__",
+      "status": "removed",
+      "condition_b_event_id": null,
+      "condition_b_onset_seconds": null,
+      "condition_b_duration_seconds": null
+    }
+  ]
+}

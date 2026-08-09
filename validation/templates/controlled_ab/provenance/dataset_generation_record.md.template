@@ -1,0 +1,65 @@
+# Dataset Generation Record
+
+## Identities
+
+- Controlled Dataset ID: `__REQUIRED_CONTROLLED_DATASET_ID__`
+- Dataset Generation Record ID: `__REQUIRED_DATASET_GENERATION_RECORD_ID__`
+- Provenance Revision ID: `__REQUIRED_PROVENANCE_REVISION_ID__`
+- Condition A ID: `__REQUIRED_CONDITION_A_ID__`
+- Condition B ID: `__REQUIRED_CONDITION_B_ID__`
+
+## Classification
+
+All generation and A/B relationship statements are **Declared Experimental
+Procedure**. Asset checksums and measured formats are **Observed Facts**.
+
+## Declared relationship
+
+Condition A contains the complete declared event population. Condition B was
+generated only by removing the events identified as `removed` in the
+checksummed event-removal inventory. The removal set was declared before JGA
+analysis and without reference to JGA output.
+
+## Generating conditions
+
+- Generation date: `__REQUIRED_GENERATION_DATE_OR_NOT_SPECIFIED__`
+- Generating software: `__REQUIRED_GENERATING_SOFTWARE__`
+- Software version: `__REQUIRED_SOFTWARE_VERSION_OR_NOT_SPECIFIED__`
+- Rendering/playback library: `__REQUIRED_RENDERING_LIBRARY_OR_NOT_SPECIFIED__`
+- Rendering library version: `__REQUIRED_RENDERING_VERSION_OR_NOT_SPECIFIED__`
+- Rendering configuration: `__REQUIRED_RENDERING_CONFIGURATION__`
+- Export configuration: `__REQUIRED_EXPORT_CONFIGURATION__`
+- Sample rate: `__REQUIRED_SAMPLE_RATE__`
+- Bit depth: `__REQUIRED_BIT_DEPTH__`
+- Channel configuration: `__REQUIRED_CHANNEL_CONFIGURATION__`
+- Total samples per channel: `__REQUIRED_SAMPLE_COUNT__`
+
+## Temporal origin
+
+**Declared Experimental Procedure:**
+
+`MusicXML score time zero = WAV sample zero`
+
+## Controlled invariants
+
+Authoritative meter, authoritative tempo, instrumentation, retained-event
+timestamps and durations, temporal origin, total duration, rendering
+configuration, sample rate, bit depth, and channel configuration are declared
+identical between conditions.
+
+## Source and generated assets
+
+Record repository-relative identities, SHA-256 checksums, repository revisions,
+and licensing status for both MusicXML sources, both Ground Truth definitions,
+the event-removal inventory, canonical and repeated WAV renders, and catalogue
+MP3 derivatives.
+
+## Repeated rendering
+
+Record whether each repeated render is byte-identical and sample-identical to
+its corresponding canonical WAV. Preserve exact differences without an
+unapproved tolerance.
+
+## Limitations
+
+`__REQUIRED_LIMITATIONS_OR_NONE__`

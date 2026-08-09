@@ -1,0 +1,14 @@
+{
+  "experiment_id": "__REQUIRED_EXPERIMENT_ID__",
+  "scientific_protocol": "SVP-001",
+  "repository_revision": "__REQUIRED_COMMITTED_REVISION__",
+  "bootstrap_revision": "__REQUIRED_BOOTSTRAP_REVISION__",
+  "controlled_dataset_id": "__REQUIRED_CONTROLLED_DATASET_ID__",
+  "dataset_generation_record_id": "__REQUIRED_DATASET_GENERATION_RECORD_ID__",
+  "package_manifest_sha256": "__REQUIRED_SHA256__",
+  "condition_a_neutral_execution_id": "__REQUIRED_NEUTRAL_EXECUTION_ID__",
+  "condition_b_neutral_execution_id": "__REQUIRED_NEUTRAL_EXECUTION_ID__",
+  "blind_configuration": "__REQUIRED_EXACT_CONFIGURATION__",
+  "ground_truth_unavailable_until_blind_freeze": true,
+  "limitations": []
+}

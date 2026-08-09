@@ -1,0 +1,16 @@
+{
+  "experiment_id": "__REQUIRED_EXPERIMENT_ID__",
+  "blind_frozen_utc": "__REQUIRED_TIMESTAMP__",
+  "condition_assignment_revealed": false,
+  "execution_1": {
+    "neutral_execution_id": "__REQUIRED_NEUTRAL_EXECUTION_ID__",
+    "candidate_period_population": "__REQUIRED_SERIALIZED_EXISTING_M91_POPULATION__",
+    "scientific_content_fingerprint": "__REQUIRED_FINGERPRINT__"
+  },
+  "execution_2": {
+    "neutral_execution_id": "__REQUIRED_NEUTRAL_EXECUTION_ID__",
+    "candidate_period_population": "__REQUIRED_SERIALIZED_EXISTING_M91_POPULATION__",
+    "scientific_content_fingerprint": "__REQUIRED_FINGERPRINT__"
+  },
+  "blind_record_fingerprint": "__REQUIRED_FINGERPRINT__"
+}
