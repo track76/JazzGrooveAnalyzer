@@ -58,7 +58,7 @@ class GroundTruthSection:
 
 @dataclass(frozen=True, slots=True)
 class GroundTruthInstrument:
-    """Original MusicXML designation and canonical VAL-001 category."""
+    """Original MusicXML designation and canonical validation category."""
 
     source_part_id: str
     source_part_name: str

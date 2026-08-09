@@ -1,5 +1,6 @@
 from dataclasses import FrozenInstanceError
 from decimal import Decimal
+import json
 from pathlib import Path
 
 import pytest
@@ -119,5 +120,32 @@ def test_rejects_non_authoritative_source_identity(tmp_path):
     copy = tmp_path / SOURCE.name
     copy.write_bytes(SOURCE.read_bytes())
 
-    with pytest.raises(ValueError, match="not the approved M83 source"):
-        MusicXmlGroundTruthLoader().load(copy)
+    definition_path = SOURCE.with_suffix(".ground_truth.json")
+    definition = json.loads(definition_path.read_text())
+    copied_definition = tmp_path / definition_path.name
+    copied_definition.write_text(json.dumps(definition))
+
+    with pytest.raises(ValueError, match="source identity"):
+        MusicXmlGroundTruthLoader(
+            repository_root=tmp_path,
+            definition_path=Path(definition_path.name),
+        ).load(Path(SOURCE.name))
+
+
+def test_ground_truth_identity_and_normalization_are_loaded_from_data(tmp_path):
+    source = tmp_path / SOURCE
+    source.parent.mkdir(parents=True)
+    source.write_bytes(SOURCE.read_bytes())
+
+    definition_path = SOURCE.with_suffix(".ground_truth.json")
+    definition = json.loads(definition_path.read_text())
+    definition["ground_truth_id"] = "TEST-GROUND-TRUTH"
+    definition["validation_item_id"] = "TEST-ITEM"
+    destination = tmp_path / definition_path
+    destination.write_text(json.dumps(definition))
+
+    result = MusicXmlGroundTruthLoader(repository_root=tmp_path).load(SOURCE)
+
+    assert result.ground_truth_id == "TEST-GROUND-TRUTH"
+    assert result.validation_item_id == "TEST-ITEM"
+    assert result.sections == MusicXmlGroundTruthLoader().load(SOURCE).sections

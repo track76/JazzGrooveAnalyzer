@@ -1,0 +1,37 @@
+{
+  "ground_truth_id": "GT-VAL-001-v1",
+  "validation_item_id": "VAL-001",
+  "schema_version": "1",
+  "normalization_version": "1",
+  "source": {
+    "repository_path": "recordings/validation/ground_truth/03 THE COST OF LIVING versione intro + 8 bar.musicxml",
+    "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "repository_revision": "c50abd435097b8f335a53b4146d9fa933764b15f"
+  },
+  "measures": [
+    {"source_measure_id": "1", "normalized_full_measure": null, "is_pickup": true},
+    {"source_measure_id": "2", "normalized_full_measure": 1, "is_pickup": false},
+    {"source_measure_id": "3", "normalized_full_measure": 2, "is_pickup": false},
+    {"source_measure_id": "4", "normalized_full_measure": 3, "is_pickup": false},
+    {"source_measure_id": "5", "normalized_full_measure": 4, "is_pickup": false},
+    {"source_measure_id": "6", "normalized_full_measure": 5, "is_pickup": false},
+    {"source_measure_id": "7", "normalized_full_measure": 6, "is_pickup": false},
+    {"source_measure_id": "8", "normalized_full_measure": 7, "is_pickup": false},
+    {"source_measure_id": "9", "normalized_full_measure": 8, "is_pickup": false},
+    {"source_measure_id": "10", "normalized_full_measure": 9, "is_pickup": false},
+    {"source_measure_id": "11", "normalized_full_measure": 10, "is_pickup": false},
+    {"source_measure_id": "12", "normalized_full_measure": 11, "is_pickup": false},
+    {"source_measure_id": "13", "normalized_full_measure": 12, "is_pickup": false}
+  ],
+  "sections": [
+    {"name": "Intro", "start_full_measure": 1, "measure_count": 4},
+    {"name": "A", "start_full_measure": 5, "measure_count": 8}
+  ],
+  "instrument_normalization": [
+    {"source_part_name": "Voce", "source_instrument_name": "Voice (2)", "canonical_category": "Voice"},
+    {"source_part_name": "Sax Tenore", "source_instrument_name": "Tenor Saxophone (2)", "canonical_category": "Saxophone"},
+    {"source_part_name": "Piano", "source_instrument_name": "Piano (2)", "canonical_category": "Piano"},
+    {"source_part_name": "Basso Verticale", "source_instrument_name": "Upright Bass", "canonical_category": "Double Bass"},
+    {"source_part_name": "Set di batteria", "source_instrument_name": "Drum Set (Jazz)", "canonical_category": "Drum Set"}
+  ]
+}

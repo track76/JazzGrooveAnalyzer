@@ -76,6 +76,14 @@ The scientific catalogue and Validation Item asset binding are defined by:
 
 - `docs/architecture/AD-029_M84_VALIDATION_CATALOG.md`
 
+Operational data-only registration and item-selected execution for additional
+schema-compatible validation items are defined by:
+
+- `docs/architecture/AD-036_M93_VALIDATION_DATASET_GENERALIZATION.md`
+
+This operational reference does not change blind-analysis or Ground Truth
+independence requirements.
+
 The canonical Ground Truth reference bound to VAL-001 is defined by:
 
 - `docs/architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md`

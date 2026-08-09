@@ -1,6 +1,7 @@
-"""Repository loader for JGA-VALIDATION-CATALOG-v1."""
+"""Repository loader for a data-defined scientific validation catalogue."""
 
 from hashlib import sha256
+import json
 from pathlib import Path
 
 from jga.validation_catalog.loaders.validation_catalog_loader import (
@@ -17,87 +18,68 @@ from jga.validation_catalog.models import (
 
 
 class RepositoryValidationCatalogLoader(ValidationCatalogLoader):
-    """Verifies and loads the approved immutable validation catalogue."""
+    """Verify and load the repository's immutable validation catalogue."""
 
-    CATALOGUE_ID = "JGA-VALIDATION-CATALOG-v1"
-    CATALOGUE_SCHEMA_VERSION = "1"
-    CATALOGUE_VERSION = "1"
+    DEFAULT_CATALOGUE_PATH = Path("recordings/validation/catalog.json")
 
-    VALIDATION_ITEM_ID = "VAL-001"
-    VALIDATION_ITEM_SCHEMA_VERSION = "1"
-    VALIDATION_ITEM_VERSION = "1"
-    GROUND_TRUTH_ID = "GT-VAL-001-v1"
-
-    MUSICXML_PATH = (
-        "recordings/validation/ground_truth/"
-        "03 THE COST OF LIVING versione intro + 8 bar.musicxml"
-    )
-    MUSICXML_SHA256 = (
-        "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
-    )
-    MUSICXML_REPOSITORY_REVISION = (
-        "c50abd435097b8f335a53b4146d9fa933764b15f"
-    )
-
-    MP3_PATH = (
-        "recordings/validation/"
-        "03 THE COST OF LIVING versione intro + 8 bar.mp3"
-    )
-    MP3_SHA256 = (
-        "d358d1bca5144ea1dabee4d970fa5deabf81a209922481a77db0f01bd8bdbbbb"
-    )
-    MP3_REPOSITORY_REVISION = (
-        "1b4ebfdcef25dc3e897b691d5149f52dce0d29fd"
-    )
-
-    LICENSING_STATUS = "not_specified"
+    def __init__(self, catalogue_path: Path | None = None) -> None:
+        self.catalogue_path = catalogue_path or self.DEFAULT_CATALOGUE_PATH
 
     def load(self, repository_root: Path) -> ValidationCatalog:
-        musicxml = self._verified_asset(
-            repository_root=repository_root,
-            repository_path=self.MUSICXML_PATH,
-            expected_sha256=self.MUSICXML_SHA256,
-            repository_revision=self.MUSICXML_REPOSITORY_REVISION,
+        definition = json.loads(
+            (repository_root / self.catalogue_path).read_text(encoding="utf-8")
         )
-        mp3 = self._verified_asset(
-            repository_root=repository_root,
-            repository_path=self.MP3_PATH,
-            expected_sha256=self.MP3_SHA256,
-            repository_revision=self.MP3_REPOSITORY_REVISION,
+        items = tuple(
+            self._load_item(repository_root, item)
+            for item in definition["items"]
         )
+        item_ids = tuple(item.validation_item_id for item in items)
+        if len(set(item_ids)) != len(item_ids):
+            raise ValueError("Validation Item identities must be unique.")
 
-        item = ValidationItem(
-            validation_item_id=self.VALIDATION_ITEM_ID,
-            ground_truth_id=self.GROUND_TRUTH_ID,
-            authoritative_musicxml=musicxml,
-            mp3_recording=mp3,
-            provenance=ValidationItemProvenance(
-                schema_version=self.VALIDATION_ITEM_SCHEMA_VERSION,
-                item_version=self.VALIDATION_ITEM_VERSION,
-            ),
-            metadata=ValidationItemMetadata(
-                title="THE COST OF LIVING",
-            ),
-        )
-
+        provenance = definition["provenance"]
         return ValidationCatalog(
-            catalogue_id=self.CATALOGUE_ID,
+            catalogue_id=definition["catalogue_id"],
             provenance=ValidationCatalogProvenance(
-                schema_version=self.CATALOGUE_SCHEMA_VERSION,
-                catalogue_version=self.CATALOGUE_VERSION,
+                schema_version=provenance["schema_version"],
+                catalogue_version=provenance["catalogue_version"],
             ),
-            items=(item,),
+            items=items,
         )
 
-    def _verified_asset(
+    def _load_item(
         self,
         repository_root: Path,
-        repository_path: str,
-        expected_sha256: str,
-        repository_revision: str,
+        definition: dict[str, object],
+    ) -> ValidationItem:
+        provenance = definition["provenance"]
+        metadata = definition["metadata"]
+        return ValidationItem(
+            validation_item_id=definition["validation_item_id"],
+            ground_truth_id=definition["ground_truth_id"],
+            authoritative_musicxml=self._verified_asset(
+                repository_root,
+                definition["authoritative_musicxml"],
+            ),
+            mp3_recording=self._verified_asset(
+                repository_root,
+                definition["mp3_recording"],
+            ),
+            provenance=ValidationItemProvenance(
+                schema_version=provenance["schema_version"],
+                item_version=provenance["item_version"],
+            ),
+            metadata=ValidationItemMetadata(title=metadata["title"]),
+        )
+
+    @staticmethod
+    def _verified_asset(
+        repository_root: Path,
+        definition: dict[str, str],
     ) -> ValidationAsset:
-        asset_path = repository_root / repository_path
-        checksum = sha256(asset_path.read_bytes()).hexdigest()
+        repository_path = definition["repository_path"]
+        expected_sha256 = definition["sha256"]
+        checksum = sha256((repository_root / repository_path).read_bytes()).hexdigest()
         if checksum != expected_sha256:
             raise ValueError(
                 f"Validation asset checksum mismatch: {repository_path}"
@@ -106,6 +88,6 @@ class RepositoryValidationCatalogLoader(ValidationCatalogLoader):
         return ValidationAsset(
             repository_path=repository_path,
             sha256=checksum,
-            repository_revision=repository_revision,
-            licensing_status=self.LICENSING_STATUS,
+            repository_revision=definition["repository_revision"],
+            licensing_status=definition["licensing_status"],
         )

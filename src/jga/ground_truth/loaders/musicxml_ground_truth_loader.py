@@ -1,7 +1,8 @@
-"""MusicXML loader for the approved M83 Ground Truth reference."""
+"""Data-defined MusicXML Ground Truth loader."""
 
 from decimal import Decimal
 from hashlib import sha256
+import json
 from pathlib import Path
 from xml.etree import ElementTree
 
@@ -19,84 +20,92 @@ from jga.ground_truth.models import (
 
 
 class MusicXmlGroundTruthLoader(GroundTruthLoader):
-    """Loads only the approved GT-VAL-001-v1 MusicXML reference."""
+    """Load immutable Ground Truth using repository data beside MusicXML."""
 
-    GROUND_TRUTH_ID = "GT-VAL-001-v1"
-    VALIDATION_ITEM_ID = "VAL-001"
-    SCHEMA_VERSION = "1"
-    NORMALIZATION_VERSION = "1"
-    SOURCE_PATH = (
-        "recordings/validation/ground_truth/"
-        "03 THE COST OF LIVING versione intro + 8 bar.musicxml"
-    )
-    SOURCE_SHA256 = (
-        "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
-    )
-    SOURCE_REPOSITORY_REVISION = (
-        "c50abd435097b8f335a53b4146d9fa933764b15f"
-    )
+    DEFINITION_SUFFIX = ".ground_truth.json"
 
-    _INSTRUMENT_CATEGORIES = {
-        ("Voce", "Voice (2)"): "Voice",
-        ("Sax Tenore", "Tenor Saxophone (2)"): "Saxophone",
-        ("Piano", "Piano (2)"): "Piano",
-        ("Basso Verticale", "Upright Bass"): "Double Bass",
-        ("Set di batteria", "Drum Set (Jazz)"): "Drum Set",
-    }
+    def __init__(
+        self,
+        repository_root: Path = Path("."),
+        definition_path: Path | None = None,
+    ) -> None:
+        self.repository_root = repository_root
+        self.definition_path = definition_path
 
     def load(
         self,
         source: Path,
         repository_revision: str | None = None,
     ) -> GroundTruth:
-        source_bytes = source.read_bytes()
+        source_path = self._repository_path(source)
+        definition_path = self.definition_path or source_path.with_suffix(
+            self.DEFINITION_SUFFIX
+        )
+        definition = json.loads(
+            (self.repository_root / definition_path).read_text(encoding="utf-8")
+        )
+        source_definition = definition["source"]
+        source_bytes = (self.repository_root / source_path).read_bytes()
         checksum = sha256(source_bytes).hexdigest()
 
-        if source.as_posix() != self.SOURCE_PATH:
-            raise ValueError("MusicXML source is not the approved M83 source.")
-        if checksum != self.SOURCE_SHA256:
-            raise ValueError("MusicXML source checksum does not match AD-028.")
+        if source_path.as_posix() != source_definition["repository_path"]:
+            raise ValueError(
+                "MusicXML source identity does not match Ground Truth data."
+            )
+        if checksum != source_definition["sha256"]:
+            raise ValueError(
+                "MusicXML source checksum does not match Ground Truth data."
+            )
         if (
             repository_revision is not None
-            and repository_revision != self.SOURCE_REPOSITORY_REVISION
+            and repository_revision != source_definition["repository_revision"]
         ):
-            raise ValueError("MusicXML source revision does not match AD-028.")
+            raise ValueError(
+                "MusicXML source revision does not match Ground Truth data."
+            )
 
         root = ElementTree.fromstring(source_bytes)
-        time_signature = self._read_time_signature(root)
-        tempo = self._read_tempo(root)
-        measures = self._read_measure_mapping(root)
-        instruments = self._read_instruments(root)
+        measures = self._read_measure_mapping(root, definition["measures"])
+        instruments = self._read_instruments(
+            root,
+            definition["instrument_normalization"],
+        )
 
         return GroundTruth(
-            ground_truth_id=self.GROUND_TRUTH_ID,
-            validation_item_id=self.VALIDATION_ITEM_ID,
+            ground_truth_id=definition["ground_truth_id"],
+            validation_item_id=definition["validation_item_id"],
             provenance=GroundTruthProvenance(
-                schema_version=self.SCHEMA_VERSION,
-                normalization_version=self.NORMALIZATION_VERSION,
+                schema_version=definition["schema_version"],
+                normalization_version=definition["normalization_version"],
                 source=AuthoritativeSourceProvenance(
-                    repository_path=self.SOURCE_PATH,
+                    repository_path=source_definition["repository_path"],
                     sha256=checksum,
-                    repository_revision=self.SOURCE_REPOSITORY_REVISION,
+                    repository_revision=source_definition["repository_revision"],
                 ),
             ),
-            time_signature=time_signature,
-            tempo=tempo,
+            time_signature=self._read_time_signature(root),
+            tempo=self._read_tempo(root),
             measures=measures,
-            sections=(
+            sections=tuple(
                 GroundTruthSection(
-                    name="Intro",
-                    start_full_measure=1,
-                    measure_count=4,
-                ),
-                GroundTruthSection(
-                    name="A",
-                    start_full_measure=5,
-                    measure_count=8,
-                ),
+                    name=section["name"],
+                    start_full_measure=section["start_full_measure"],
+                    measure_count=section["measure_count"],
+                )
+                for section in definition["sections"]
             ),
             instruments=instruments,
         )
+
+    def _repository_path(self, source: Path) -> Path:
+        if source.is_absolute():
+            try:
+                return source.relative_to(self.repository_root.resolve())
+            except ValueError as error:
+                raise ValueError(
+                    "MusicXML source is outside the repository."
+                ) from error
+        return source
 
     @staticmethod
     def _read_time_signature(root: ElementTree.Element) -> GroundTruthTimeSignature:
@@ -109,10 +118,7 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
         if beats is None or beat_type is None:
             raise ValueError("MusicXML time signature is incomplete.")
 
-        return GroundTruthTimeSignature(
-            beats=int(beats),
-            beat_type=int(beat_type),
-        )
+        return GroundTruthTimeSignature(beats=int(beats), beat_type=int(beat_type))
 
     @staticmethod
     def _read_tempo(root: ElementTree.Element) -> GroundTruthTempo:
@@ -133,6 +139,7 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
     @staticmethod
     def _read_measure_mapping(
         root: ElementTree.Element,
+        definitions: list[dict[str, object]],
     ) -> tuple[GroundTruthMeasure, ...]:
         first_part = root.find("./part")
         if first_part is None:
@@ -141,23 +148,32 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
         source_ids = tuple(
             measure.attrib["number"] for measure in first_part.findall("measure")
         )
-        expected_ids = tuple(str(number) for number in range(1, 14))
-        if source_ids != expected_ids:
-            raise ValueError("MusicXML measure sequence does not match AD-028.")
+        defined_ids = tuple(item["source_measure_id"] for item in definitions)
+        if source_ids != defined_ids:
+            raise ValueError(
+                "MusicXML measure sequence does not match Ground Truth data."
+            )
 
         return tuple(
             GroundTruthMeasure(
-                source_measure_id=source_id,
-                normalized_full_measure=None if source_id == "1" else int(source_id) - 1,
-                is_pickup=source_id == "1",
+                source_measure_id=item["source_measure_id"],
+                normalized_full_measure=item["normalized_full_measure"],
+                is_pickup=item["is_pickup"],
             )
-            for source_id in source_ids
+            for item in definitions
         )
 
+    @staticmethod
     def _read_instruments(
-        self,
         root: ElementTree.Element,
+        definitions: list[dict[str, str]],
     ) -> tuple[GroundTruthInstrument, ...]:
+        categories = {
+            (item["source_part_name"], item["source_instrument_name"]): item[
+                "canonical_category"
+            ]
+            for item in definitions
+        }
         instruments: list[GroundTruthInstrument] = []
 
         for score_part in root.findall("./part-list/score-part"):
@@ -169,10 +185,10 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
 
             designation = (part_name, instrument_name)
             try:
-                category = self._INSTRUMENT_CATEGORIES[designation]
+                category = categories[designation]
             except KeyError as error:
                 raise ValueError(
-                    "MusicXML instrument designation is not approved by AD-028."
+                    "MusicXML instrument designation is absent from Ground Truth data."
                 ) from error
 
             instruments.append(
@@ -184,4 +200,8 @@ class MusicXmlGroundTruthLoader(GroundTruthLoader):
                 )
             )
 
+        if len(instruments) != len(definitions):
+            raise ValueError(
+                "Ground Truth instrument normalization does not match MusicXML parts."
+            )
         return tuple(instruments)

@@ -2070,3 +2070,27 @@ reconstruction path.
 ## Canonical Specification
 
 `docs/architecture/AD-035_M92_CANDIDATE_PERIOD_DISCOVERY.md`
+
+
+------------------------------------------------------------
+
+# AD-036 — M93 Validation Dataset Generalization
+
+## Status
+
+LOCKED
+
+## Decision
+
+The existing schema-compatible Validation Catalog and MusicXML Ground Truth
+models are loaded from canonical repository data rather than VAL-001-specific
+implementation constants. Complete scientific validation execution selects a
+registered Validation Item by identity and composes the existing immutable
+analysis, Comparator and Scientific Validation Record boundaries.
+
+This operational generalization changes no scientific quantity, schema,
+comparison semantic or validation-record responsibility.
+
+## Canonical Specification
+
+`docs/architecture/AD-036_M93_VALIDATION_DATASET_GENERALIZATION.md`

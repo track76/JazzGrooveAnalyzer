@@ -116,6 +116,14 @@ Validation Item
 
 Scientific Validation Catalog
 
+## Operational Generalization
+
+M93 loads this existing catalogue model from canonical repository data so that
+schema-compatible items do not require production loader changes. It does not
+alter catalogue ownership or Validation Item semantics. See:
+
+- `docs/architecture/AD-036_M93_VALIDATION_DATASET_GENERALIZATION.md`
+
 ## Governing References
 
 - `docs/scientific/JGA_SCIENTIFIC_VALIDATION_PROTOCOL.md`

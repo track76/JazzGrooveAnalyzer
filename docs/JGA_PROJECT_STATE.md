@@ -1,5 +1,28 @@
 # JGA Project State
 
+## M93 — Validation Dataset Generalization
+
+Status:
+
+COMPLETED
+
+- AD-036 defines the operational generalization without changing scientific
+  validation architecture or schemas.
+- `recordings/validation/catalog.json` owns data-defined catalogue registration.
+- MusicXML-adjacent `.ground_truth.json` data owns the existing Ground Truth
+  identity, provenance and approved normalization values for each source.
+- Repository loading verifies registered asset identities and materializes the
+  existing immutable Validation Catalog and Ground Truth models.
+- Complete validation execution selects a registered item by identity and
+  composes the unchanged analysis materializer, Comparator and Scientific
+  Validation Record boundaries.
+- VAL-001 retains identical identities, checksums, Ground Truth content,
+  availability states, Candidate Period population and scientific comparison
+  behaviour.
+- Focused operational and scientific regression validation: 56 passed.
+- Complete automated suite: 1003 passed, 1 known environment-dependent Demucs
+  MPS failure, 3 warnings.
+
 ## Phase II Validation Block 1
 
 Status:

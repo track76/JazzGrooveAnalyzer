@@ -115,6 +115,14 @@ Ground Truth Loader
 
 Immutable Ground Truth Model
 
+## Operational Generalization
+
+M93 makes the existing Ground Truth schema and normalization inputs
+data-defined for additional validation items. It does not alter this reference
+or its scientific content. See:
+
+- `docs/architecture/AD-036_M93_VALIDATION_DATASET_GENERALIZATION.md`
+
 ## Governing References
 
 - `docs/scientific/m81/M81_GROUND_TRUTH_MODEL.md`

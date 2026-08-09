@@ -1,4 +1,5 @@
 from dataclasses import FrozenInstanceError
+import json
 from pathlib import Path
 
 import pytest
@@ -97,9 +98,43 @@ def test_unknown_validation_item_is_rejected():
 
 def test_asset_checksum_mismatch_is_rejected(tmp_path):
     loader = RepositoryValidationCatalogLoader()
-    musicxml = tmp_path / loader.MUSICXML_PATH
+    definition = json.loads(loader.DEFAULT_CATALOGUE_PATH.read_text())
+    catalogue = tmp_path / loader.DEFAULT_CATALOGUE_PATH
+    catalogue.parent.mkdir(parents=True)
+    catalogue.write_text(json.dumps(definition))
+
+    musicxml_path = definition["items"][0]["authoritative_musicxml"][
+        "repository_path"
+    ]
+    musicxml = tmp_path / musicxml_path
     musicxml.parent.mkdir(parents=True)
     musicxml.write_bytes(b"not the approved MusicXML")
 
     with pytest.raises(ValueError, match="checksum mismatch"):
         loader.load(tmp_path)
+
+
+def test_catalogue_items_are_loaded_from_repository_data(tmp_path):
+    loader = RepositoryValidationCatalogLoader()
+    definition = json.loads(loader.DEFAULT_CATALOGUE_PATH.read_text())
+    original = definition["items"][0]
+    additional = json.loads(json.dumps(original))
+    additional["validation_item_id"] = "TEST-ITEM"
+    additional["ground_truth_id"] = "TEST-GROUND-TRUTH"
+    additional["metadata"]["title"] = "TEST ITEM"
+    definition["items"].append(additional)
+
+    catalogue_path = tmp_path / loader.DEFAULT_CATALOGUE_PATH
+    catalogue_path.parent.mkdir(parents=True)
+    catalogue_path.write_text(json.dumps(definition))
+    for asset_name in ("authoritative_musicxml", "mp3_recording"):
+        source = Path(original[asset_name]["repository_path"])
+        destination = tmp_path / source
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_bytes(source.read_bytes())
+
+    catalogue = loader.load(tmp_path)
+
+    assert len(catalogue) == 2
+    assert catalogue.item("TEST-ITEM").ground_truth_id == "TEST-GROUND-TRUTH"
+    assert catalogue.item("TEST-ITEM").metadata.title == "TEST ITEM"
