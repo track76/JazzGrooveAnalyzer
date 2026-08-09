@@ -120,6 +120,10 @@ Immutable Analysis Representation
 
 Scientific Validation
 
+The schema-revision `1` materialization boundary is implemented by
+`src/jga/analysis_representation/`. It copies only approved values into a
+deeply immutable representation and does not expose its runtime input.
+
 ## Traceability
 
 The representation preserves the temporal reference and measurement units

@@ -255,3 +255,30 @@ Validation
 - Full suite: 967 passed; one pre-existing Demucs/MPS environment integration
   test could not execute successfully because its configured backend requires
   macOS 14 or later.
+
+
+------------------------------------------------------------
+M86 — END-TO-END SCIENTIFIC VALIDATION
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- Completed Analysis to Immutable Analysis Representation materialization
+  boundary implemented for schema revision `1`.
+- Real VAL-001 audio checksum, execution provenance, configuration,
+  completeness, limitations and deterministic content fingerprint preserved.
+- Current pipeline defaults excluded from scientific outputs; all four scoped
+  quantities are explicitly represented as `NOT_PRODUCED`.
+- Runtime state does not escape the deeply immutable representation.
+
+Validation
+
+- Materializer and immutable-boundary focused tests: 12 passed.
+- Materializer through VAL-001 comparison validation: 58 passed.
+- Full suite: 973 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.

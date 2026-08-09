@@ -297,3 +297,6 @@ The immutable scientific validation catalogue is defined by:
 The scientific Comparator boundary is defined by:
 
 - architecture/AD-030_M85_COMPARATOR.md
+
+The approved completed-analysis materialization boundary is defined by AD-027
+and implemented in `src/jga/analysis_representation/`.
