@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "authoritative_musicxml": {
+        "licensing_status": "not_specified",
+        "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/symbolic/condition_a.musicxml",
+        "repository_revision": "__REQUIRED_COMMITTED_ASSET_REVISION__",
+        "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
+      },
+      "ground_truth_id": "GT-VAL-001-RD-A-v1",
+      "metadata": {
+        "title": "VAL-001 controlled density Condition A"
+      },
+      "mp3_recording": {
+        "licensing_status": "not_specified",
+        "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/audio/condition_a.mp3",
+        "repository_revision": "__REQUIRED_COMMITTED_ASSET_REVISION__",
+        "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      },
+      "provenance": {
+        "item_version": "1",
+        "schema_version": "1"
+      },
+      "validation_item_id": "VAL-001-RD-A"
+    },
+    {
+      "authoritative_musicxml": {
+        "licensing_status": "not_specified",
+        "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/symbolic/condition_b.musicxml",
+        "repository_revision": "__REQUIRED_COMMITTED_ASSET_REVISION__",
+        "sha256": "4cb09a0a2753abd2dbdb21fd8a20845d08f5995fdb9eb17bf5eecf46c5446b1b"
+      },
+      "ground_truth_id": "GT-VAL-001-RD-B-v1",
+      "metadata": {
+        "title": "VAL-001 controlled density Condition B"
+      },
+      "mp3_recording": {
+        "licensing_status": "not_specified",
+        "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/audio/condition_b.mp3",
+        "repository_revision": "__REQUIRED_COMMITTED_ASSET_REVISION__",
+        "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      },
+      "provenance": {
+        "item_version": "1",
+        "schema_version": "1"
+      },
+      "validation_item_id": "VAL-001-RD-B"
+    }
+  ],
+  "status": "NOT_REGISTERED_EXTERNAL_AUDIO_REQUIRED"
+}

@@ -1,0 +1,25 @@
+{
+  "artifacts": {
+    "asset_status.json": "885573ec31cd287449f0bcadf5b6f3718eb61715979e5010975511042413bf41",
+    "blind_execution_configuration.json": "441aeec6a3e46f4196619297fd03c396f150661d103fa7a5c41f8176ec432d3d",
+    "controlled_dataset/controlled_ab_manifest.json": "74738fb5dedbc7cce678722bd8101a6a2b548ef8c36451e092513faf13beb8ef",
+    "controlled_dataset/ground_truth/condition_a.ground_truth.json": "a0d9bc6efd0a1c0f16f4d2f5effafe70a7240aaeb35573b31ace65e5ea9cef6a",
+    "controlled_dataset/ground_truth/condition_b.ground_truth.json": "4f03463690058478a58e29c56aab73cbeb9f183b9e7afe0e4dbc6d302d10c99c",
+    "controlled_dataset/pending_catalog_items.json": "88cb01df59e084b0154fa6484d6a475a8deb8e426a7d8c75bf4c04f2f7025045",
+    "controlled_dataset/provenance/dataset_generation_record.md": "c10e47c641d231164a24b4305a31870324484a05bf8025348a772cbf3d1a0f4d",
+    "controlled_dataset/provenance/event_removal_inventory.json": "4eac5571204c8906720577fcd50f09c0cab09288d4297b3ee358650e6e31be59",
+    "controlled_dataset/symbolic/condition_a.musicxml": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "controlled_dataset/symbolic/condition_b.musicxml": "4cb09a0a2753abd2dbdb21fd8a20845d08f5995fdb9eb17bf5eecf46c5446b1b",
+    "experiment_manifest.json": "c184df6aa7ddfb0b175e6959980b6de6f7cda9084ea605972870407746cc6a4a",
+    "notes.md": "7450b0d42c1bca84776d761468d3685428ef3f43d8b4c740f596df0723ccc6c4",
+    "post_blind_evaluation_structure.json": "1428413795d7931fb7c5e1428421226fc066201c0996de7366751429a549933e",
+    "prepare_symbolic_conditions.py": "4152ad1ce23067669ee24edd6bb881daa04fc26953dc6812d38c31786069280d",
+    "report.md": "b83f70eb8a8e9bb650ea1a0b97aa966e44ca3d9b5dc74904063fb5f49de23454",
+    "runtime.log": "ef477a813ecc74c65009bd992ba7776d347df305061ff221b114d834ec257432",
+    "symbolic_validation.json": "b96ad2dc1c0faf6a6b986995ca2efc272ccbe0f8a9c33897638c1f10386cff7b",
+    "validator_result.json": "d017905f898bd8a8f61d888e26ae78b32c21ff9057c79c9d9f9a3bf0fc4debfa"
+  },
+  "experiment_id": "H-VAL001-C1-06",
+  "generated_utc": "2026-08-09T17:41:00.487195+00:00",
+  "repository_revision": "7a63a44d1777f3fc1d40f8b28716f8abb7504c0d"
+}

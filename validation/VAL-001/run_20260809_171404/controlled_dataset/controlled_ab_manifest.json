@@ -1,0 +1,73 @@
+{
+  "condition_a": {
+    "authoritative_musicxml": {
+      "repository_path": "symbolic/condition_a.musicxml",
+      "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
+    },
+    "canonical_wav": {
+      "repository_path": "audio/condition_a.wav",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "catalogue_mp3": {
+      "repository_path": "audio/condition_a.mp3",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "condition_id": "CED-VAL-001-RD-001-A",
+    "ground_truth_definition": {
+      "repository_path": "ground_truth/condition_a.ground_truth.json",
+      "sha256": "a0d9bc6efd0a1c0f16f4d2f5effafe70a7240aaeb35573b31ace65e5ea9cef6a"
+    },
+    "ground_truth_id": "GT-VAL-001-RD-A-v1",
+    "licensing_status": "not_specified",
+    "repeated_render_wav": {
+      "repository_path": "audio/condition_a_repeat.wav",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "validation_item_id": "VAL-001-RD-A"
+  },
+  "condition_b": {
+    "authoritative_musicxml": {
+      "repository_path": "symbolic/condition_b.musicxml",
+      "sha256": "4cb09a0a2753abd2dbdb21fd8a20845d08f5995fdb9eb17bf5eecf46c5446b1b"
+    },
+    "canonical_wav": {
+      "repository_path": "audio/condition_b.wav",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "catalogue_mp3": {
+      "repository_path": "audio/condition_b.mp3",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "condition_id": "CED-VAL-001-RD-001-B",
+    "ground_truth_definition": {
+      "repository_path": "ground_truth/condition_b.ground_truth.json",
+      "sha256": "4f03463690058478a58e29c56aab73cbeb9f183b9e7afe0e4dbc6d302d10c99c"
+    },
+    "ground_truth_id": "GT-VAL-001-RD-B-v1",
+    "licensing_status": "not_specified",
+    "repeated_render_wav": {
+      "repository_path": "audio/condition_b_repeat.wav",
+      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+    },
+    "validation_item_id": "VAL-001-RD-B"
+  },
+  "controlled_audio_format": {
+    "bit_depth": 24,
+    "channel_count": 2,
+    "sample_count_per_channel": "__REQUIRED_IDENTICAL_EXTERNAL_SAMPLE_COUNT__",
+    "sample_rate_hz": 44100
+  },
+  "controlled_dataset_id": "CED-VAL-001-RD-001",
+  "dataset_generation_record": {
+    "repository_path": "provenance/dataset_generation_record.md",
+    "sha256": "c10e47c641d231164a24b4305a31870324484a05bf8025348a772cbf3d1a0f4d"
+  },
+  "dataset_generation_record_id": "DGR-CED-VAL-001-RD-001-001",
+  "event_removal_inventory": {
+    "repository_path": "provenance/event_removal_inventory.json",
+    "sha256": "4eac5571204c8906720577fcd50f09c0cab09288d4297b3ee358650e6e31be59"
+  },
+  "knowledge_classification": "Declared Experimental Procedure",
+  "provenance_revision_id": "PR-CED-VAL-001-RD-001-001",
+  "relationship": "condition_b_is_declared_event_removal_from_condition_a"
+}

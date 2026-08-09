@@ -1,0 +1,16 @@
+{
+  "experiment_id": "H-VAL001-C1-06",
+  "validator": "tools/validate_controlled_ab_package.py",
+  "result": "BLOCKED_EXTERNAL_AUDIO_REQUIRED",
+  "fail_closed": true,
+  "unresolved_fields": [
+    "condition_a.canonical_wav.sha256",
+    "condition_a.repeated_render_wav.sha256",
+    "condition_a.catalogue_mp3.sha256",
+    "condition_b.canonical_wav.sha256",
+    "condition_b.repeated_render_wav.sha256",
+    "condition_b.catalogue_mp3.sha256",
+    "controlled_audio_format.sample_count_per_channel"
+  ],
+  "scientific_interpretation": "No blind analysis may execute until the external assets exist and the package passes validation."
+}

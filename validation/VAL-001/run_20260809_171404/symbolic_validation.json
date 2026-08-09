@@ -1,0 +1,180 @@
+{
+  "audio_generation_status": "BLOCKED_EXTERNAL_RENDER_REQUIRED",
+  "condition_a_exact_source_copy": true,
+  "condition_a_sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+  "condition_b_sha256": "4cb09a0a2753abd2dbdb21fd8a20845d08f5995fdb9eb17bf5eecf46c5446b1b",
+  "condition_b_sounding_event_count": 99,
+  "controlled_symbolic_signature": {
+    "measure_identities": {
+      "P1": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "P2": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "P3": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "P5": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "P6": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    "metronome_indications": [
+      [
+        "quarter",
+        "78"
+      ],
+      [
+        "quarter",
+        "78"
+      ]
+    ],
+    "parts": [
+      [
+        "P1",
+        "Voce"
+      ],
+      [
+        "P2",
+        "Sax Tenore"
+      ],
+      [
+        "P3",
+        "Piano"
+      ],
+      [
+        "P5",
+        "Basso Verticale"
+      ],
+      [
+        "P6",
+        "Set di batteria"
+      ]
+    ],
+    "time_signatures": [
+      [
+        "4",
+        "4"
+      ],
+      [
+        "4",
+        "4"
+      ],
+      [
+        "4",
+        "4"
+      ],
+      [
+        "4",
+        "4"
+      ],
+      [
+        "4",
+        "4"
+      ]
+    ]
+  },
+  "controlled_symbolic_signature_identical": true,
+  "experiment_id": "H-VAL001-C1-06",
+  "inventory_sha256": "4eac5571204c8906720577fcd50f09c0cab09288d4297b3ee358650e6e31be59",
+  "part_event_counts": {
+    "P1": {
+      "eligible_sounding_events": 11,
+      "removed_events": 5,
+      "retained_events": 6
+    },
+    "P2": {
+      "eligible_sounding_events": 12,
+      "removed_events": 6,
+      "retained_events": 6
+    },
+    "P3": {
+      "eligible_sounding_events": 60,
+      "removed_events": 30,
+      "retained_events": 30
+    },
+    "P5": {
+      "eligible_sounding_events": 28,
+      "removed_events": 14,
+      "retained_events": 14
+    },
+    "P6": {
+      "eligible_sounding_events": 86,
+      "removed_events": 43,
+      "retained_events": 43
+    }
+  },
+  "repository_revision": "7a63a44d1777f3fc1d40f8b28716f8abb7504c0d",
+  "retained_event_content_and_timing_identical": true,
+  "source_musicxml": {
+    "repository_path": "recordings/validation/ground_truth/03 THE COST OF LIVING versione intro + 8 bar.musicxml",
+    "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
+  },
+  "temporal_extents_identical": true,
+  "total_eligible_sounding_events": 197,
+  "total_removed_events": 98,
+  "total_retained_events": 99
+}

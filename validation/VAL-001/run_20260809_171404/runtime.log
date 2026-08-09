@@ -1,0 +1,6 @@
+Command: PYTHONPATH=src python validation/VAL-001/run_20260809_171404/prepare_symbolic_conditions.py
+Result: exit 0
+JGA analytical output used for removal: no
+Terminal boundary: external lossless audio rendering required
+Command: python tools/validate_controlled_ab_package.py validation/VAL-001/run_20260809_171404/controlled_dataset
+Result: exit 1 (expected fail-closed external-asset boundary)

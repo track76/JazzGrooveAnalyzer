@@ -1,0 +1,12 @@
+{
+  "blind_record_fingerprint": "__REQUIRED_AFTER_BLIND_FREEZE__",
+  "candidate_population_comparison": "__REQUIRED_FROZEN_NUMERICAL_EVIDENCE__",
+  "condition_a_ground_truth_id": "GT-VAL-001-RD-A-v1",
+  "condition_a_validation_record_id": "__REQUIRED_AFTER_EXECUTION__",
+  "condition_assignment": "__REQUIRED_AFTER_BLIND_FREEZE__",
+  "condition_b_ground_truth_id": "GT-VAL-001-RD-B-v1",
+  "condition_b_validation_record_id": "__REQUIRED_AFTER_EXECUTION__",
+  "experiment_id": "H-VAL001-C1-06",
+  "invariance_assessment": "__REQUIRED_EVIDENCE_CLASSIFIED_RESULT__",
+  "limitations": []
+}

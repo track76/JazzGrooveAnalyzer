@@ -1,0 +1,16 @@
+{
+  "analysis_pipeline": "existing approved AnalysisPipeline",
+  "assignment_storage": "Condition assignment remains outside blind analytical input until both populations are frozen.",
+  "audio_input": "canonical PCM WAV for each condition",
+  "candidate_period_discovery": "AD-035 existing production mechanism",
+  "condition_execution_identities": [
+    "BLIND-CONDITION-01",
+    "BLIND-CONDITION-02"
+  ],
+  "event_removal_inventory_available_during_analysis": false,
+  "experiment_id": "H-VAL001-C1-06",
+  "ground_truth_available_during_analysis": false,
+  "identical_configuration_required": true,
+  "musicxml_available_during_analysis": false,
+  "status": "BLOCKED_EXTERNAL_AUDIO_REQUIRED"
+}

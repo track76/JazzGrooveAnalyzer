@@ -1,0 +1,117 @@
+{
+  "ground_truth_id": "GT-VAL-001-RD-A-v1",
+  "instrument_normalization": [
+    {
+      "canonical_category": "Voice",
+      "source_instrument_name": "Voice (2)",
+      "source_part_name": "Voce"
+    },
+    {
+      "canonical_category": "Saxophone",
+      "source_instrument_name": "Tenor Saxophone (2)",
+      "source_part_name": "Sax Tenore"
+    },
+    {
+      "canonical_category": "Piano",
+      "source_instrument_name": "Piano (2)",
+      "source_part_name": "Piano"
+    },
+    {
+      "canonical_category": "Double Bass",
+      "source_instrument_name": "Upright Bass",
+      "source_part_name": "Basso Verticale"
+    },
+    {
+      "canonical_category": "Drum Set",
+      "source_instrument_name": "Drum Set (Jazz)",
+      "source_part_name": "Set di batteria"
+    }
+  ],
+  "measures": [
+    {
+      "is_pickup": true,
+      "normalized_full_measure": null,
+      "source_measure_id": "1"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 1,
+      "source_measure_id": "2"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 2,
+      "source_measure_id": "3"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 3,
+      "source_measure_id": "4"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 4,
+      "source_measure_id": "5"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 5,
+      "source_measure_id": "6"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 6,
+      "source_measure_id": "7"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 7,
+      "source_measure_id": "8"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 8,
+      "source_measure_id": "9"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 9,
+      "source_measure_id": "10"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 10,
+      "source_measure_id": "11"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 11,
+      "source_measure_id": "12"
+    },
+    {
+      "is_pickup": false,
+      "normalized_full_measure": 12,
+      "source_measure_id": "13"
+    }
+  ],
+  "normalization_version": "1",
+  "schema_version": "1",
+  "sections": [
+    {
+      "measure_count": 4,
+      "name": "Intro",
+      "start_full_measure": 1
+    },
+    {
+      "measure_count": 8,
+      "name": "A",
+      "start_full_measure": 5
+    }
+  ],
+  "source": {
+    "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/symbolic/condition_a.musicxml",
+    "repository_revision": null,
+    "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
+  },
+  "validation_item_id": "VAL-001-RD-A"
+}

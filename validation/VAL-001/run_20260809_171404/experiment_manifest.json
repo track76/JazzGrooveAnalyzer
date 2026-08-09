@@ -1,0 +1,16 @@
+{
+  "blind_configuration": {
+    "analysis_input": "canonical lossless WAV for each neutral condition",
+    "candidate_discovery": "AD-035 existing production configuration",
+    "condition_assignment_hidden": true,
+    "ground_truth_unavailable_until_blind_freeze": true
+  },
+  "bootstrap_revision": "M93 / 44ffffa",
+  "controlled_dataset_id": "CED-VAL-001-RD-001",
+  "dataset_generation_record_id": "DGR-CED-VAL-001-RD-001-001",
+  "experiment_id": "H-VAL001-C1-06",
+  "package_manifest_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/controlled_ab_manifest.json",
+  "repository_revision": "7a63a44d1777f3fc1d40f8b28716f8abb7504c0d",
+  "scientific_protocol": "SVP-001",
+  "status": "PREPARED_TO_EXTERNAL_AUDIO_BOUNDARY"
+}

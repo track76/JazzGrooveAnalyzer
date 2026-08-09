@@ -1,0 +1,21 @@
+{
+  "experiment_id": "H-VAL001-C1-06",
+  "external_required": [
+    "controlled_dataset/audio/condition_a.wav",
+    "controlled_dataset/audio/condition_a_repeat.wav",
+    "controlled_dataset/audio/condition_b.wav",
+    "controlled_dataset/audio/condition_b_repeat.wav",
+    "controlled_dataset/audio/condition_a.mp3",
+    "controlled_dataset/audio/condition_b.mp3"
+  ],
+  "generated": [
+    "validation/VAL-001/run_20260809_171404/controlled_dataset/symbolic/condition_a.musicxml",
+    "validation/VAL-001/run_20260809_171404/controlled_dataset/symbolic/condition_b.musicxml",
+    "validation/VAL-001/run_20260809_171404/controlled_dataset/provenance/event_removal_inventory.json",
+    "validation/VAL-001/run_20260809_171404/controlled_dataset/provenance/dataset_generation_record.md",
+    "validation/VAL-001/run_20260809_171404/controlled_dataset/ground_truth/condition_a.ground_truth.json",
+    "validation/VAL-001/run_20260809_171404/controlled_dataset/ground_truth/condition_b.ground_truth.json"
+  ],
+  "licensing_status": "not_specified",
+  "package_validator_status": "BLOCKED_EXTERNAL_AUDIO_REQUIRED"
+}
