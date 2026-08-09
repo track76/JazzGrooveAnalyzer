@@ -1,0 +1,78 @@
+{
+  "analysis_execution_id": "H-VAL001-C1-06-B-MP3-ANALYSIS",
+  "audio_checksum": "bea3d25c38bba49f523eda7cf16d34613f1ba8e1711d28098a396d1ab594dda5",
+  "audio_content_id": "VAL-001-RD-B-MP3",
+  "content_fingerprint": "848206807049699c4d1a8483d79956238edda31ff8ef5c9f452c689e7cb4aac5",
+  "effective_configuration": [
+    [
+      "separator",
+      "dummy_multi_stem"
+    ]
+  ],
+  "instrumentation": {
+    "state": "NOT_PRODUCED",
+    "value": null
+  },
+  "limitations": [
+    "instrumentation: canonical validation-facing categories are not produced",
+    "sections: canonical section boundaries are not produced",
+    "tempo: validation-facing tempo is not scientifically produced",
+    "time_signature: validation-facing time signature is not scientifically produced"
+  ],
+  "measurement_units": [
+    [
+      "sections.start_full_measure",
+      "full_measure"
+    ],
+    [
+      "sections.measure_count",
+      "full_measure"
+    ],
+    [
+      "tempo",
+      "beats_per_minute"
+    ],
+    [
+      "temporal_origin",
+      "seconds"
+    ],
+    [
+      "time_signature",
+      "beats/beat_type"
+    ]
+  ],
+  "output_completeness": [
+    [
+      "instrumentation",
+      "NOT_PRODUCED"
+    ],
+    [
+      "sections",
+      "NOT_PRODUCED"
+    ],
+    [
+      "tempo",
+      "NOT_PRODUCED"
+    ],
+    [
+      "time_signature",
+      "NOT_PRODUCED"
+    ]
+  ],
+  "pipeline_version": "JGA-H-VAL001-C1-06",
+  "schema_revision": "1",
+  "sections": {
+    "state": "NOT_PRODUCED",
+    "value": null
+  },
+  "source_revision": "36d583dae9d8a6873d1ab7f87e4db494d89d1309",
+  "tempo": {
+    "state": "NOT_PRODUCED",
+    "value": null
+  },
+  "temporal_origin_seconds": 0.0,
+  "time_signature": {
+    "state": "NOT_PRODUCED",
+    "value": null
+  }
+}

@@ -1,16 +1,22 @@
 {
+  "blind_execution_completed": true,
   "experiment_id": "H-VAL001-C1-06",
-  "validator": "tools/validate_controlled_ab_package.py",
-  "result": "BLOCKED_EXTERNAL_AUDIO_REQUIRED",
-  "fail_closed": true,
-  "unresolved_fields": [
-    "condition_a.canonical_wav.sha256",
-    "condition_a.repeated_render_wav.sha256",
-    "condition_a.catalogue_mp3.sha256",
-    "condition_b.canonical_wav.sha256",
-    "condition_b.repeated_render_wav.sha256",
-    "condition_b.catalogue_mp3.sha256",
-    "controlled_audio_format.sample_count_per_channel"
-  ],
-  "scientific_interpretation": "No blind analysis may execute until the external assets exist and the package passes validation."
+  "package_validation": {
+    "conditions": [
+      "CED-VAL-001-RD-001-A",
+      "CED-VAL-001-RD-001-B"
+    ],
+    "controlled_dataset_id": "CED-VAL-001-RD-001",
+    "inventory_event_count": 197,
+    "package_manifest_sha256": "b4adeee5d0969a68a58520dc84206d15751f2e60213f9062948403c070e77f3b",
+    "wav_measurements": {
+      "bit_depth": 24,
+      "channel_count": 2,
+      "sample_count_per_channel": 1983488,
+      "sample_rate_hz": 44100
+    }
+  },
+  "post_blind_evaluation_completed": true,
+  "result": "VALID",
+  "scientific_validation_records_completed": true
 }

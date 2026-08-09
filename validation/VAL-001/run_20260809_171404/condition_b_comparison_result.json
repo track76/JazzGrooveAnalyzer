@@ -1,0 +1,57 @@
+{
+  "comparison_execution_id": "H-VAL001-C1-06-B-001",
+  "comparison_result_id": "H-VAL001-C1-06-B-002",
+  "instrumentation": {
+    "evidence_id": "H-VAL001-C1-06-B-006",
+    "expected_categories": [
+      "Double Bass",
+      "Drum Set",
+      "Piano",
+      "Saxophone",
+      "Voice"
+    ],
+    "matching_categories": null,
+    "missing_categories": null,
+    "observed_categories": null,
+    "state": "NOT_PRODUCED",
+    "unexpected_categories": null
+  },
+  "provenance": {
+    "analysis_content_fingerprint": "848206807049699c4d1a8483d79956238edda31ff8ef5c9f452c689e7cb4aac5",
+    "analysis_execution_id": "H-VAL001-C1-06-B-MP3-ANALYSIS",
+    "analysis_schema_revision": "1",
+    "comparator_protocol_id": "JGA-COMPARATOR-001",
+    "comparator_schema_version": "1",
+    "ground_truth_id": "GT-VAL-001-RD-B-v1",
+    "ground_truth_schema_version": "1",
+    "validation_item_id": "VAL-001-RD-B",
+    "validation_item_schema_version": "1"
+  },
+  "sections": {
+    "evidence_id": "H-VAL001-C1-06-B-005",
+    "sections": [],
+    "state": "NOT_PRODUCED"
+  },
+  "tempo": {
+    "absolute_difference": null,
+    "evidence_id": "H-VAL001-C1-06-B-003",
+    "expected": {
+      "beat_unit": "quarter",
+      "beats_per_minute": "78"
+    },
+    "observed": null,
+    "signed_difference": null,
+    "state": "NOT_PRODUCED",
+    "unit": "beats_per_minute"
+  },
+  "time_signature": {
+    "evidence_id": "H-VAL001-C1-06-B-004",
+    "exact_match": null,
+    "expected": {
+      "beat_type": 4,
+      "beats": 4
+    },
+    "observed": null,
+    "state": "NOT_PRODUCED"
+  }
+}

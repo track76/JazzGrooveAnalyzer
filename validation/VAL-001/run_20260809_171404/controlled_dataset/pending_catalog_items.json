@@ -4,7 +4,7 @@
       "authoritative_musicxml": {
         "licensing_status": "not_specified",
         "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/symbolic/condition_a.musicxml",
-        "repository_revision": "__REQUIRED_COMMITTED_ASSET_REVISION__",
+        "repository_revision": "36d583dae9d8a6873d1ab7f87e4db494d89d1309",
         "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
       },
       "ground_truth_id": "GT-VAL-001-RD-A-v1",
@@ -14,8 +14,8 @@
       "mp3_recording": {
         "licensing_status": "not_specified",
         "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/audio/condition_a.mp3",
-        "repository_revision": "__REQUIRED_COMMITTED_ASSET_REVISION__",
-        "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+        "repository_revision": "not_specified",
+        "sha256": "7fbbc692188805453f7b905d9bff9e678fdf9a91c38d612a10f71e5e2d0b7399"
       },
       "provenance": {
         "item_version": "1",
@@ -27,7 +27,7 @@
       "authoritative_musicxml": {
         "licensing_status": "not_specified",
         "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/symbolic/condition_b.musicxml",
-        "repository_revision": "__REQUIRED_COMMITTED_ASSET_REVISION__",
+        "repository_revision": "36d583dae9d8a6873d1ab7f87e4db494d89d1309",
         "sha256": "4cb09a0a2753abd2dbdb21fd8a20845d08f5995fdb9eb17bf5eecf46c5446b1b"
       },
       "ground_truth_id": "GT-VAL-001-RD-B-v1",
@@ -37,8 +37,8 @@
       "mp3_recording": {
         "licensing_status": "not_specified",
         "repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/audio/condition_b.mp3",
-        "repository_revision": "__REQUIRED_COMMITTED_ASSET_REVISION__",
-        "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+        "repository_revision": "not_specified",
+        "sha256": "bea3d25c38bba49f523eda7cf16d34613f1ba8e1711d28098a396d1ab594dda5"
       },
       "provenance": {
         "item_version": "1",
@@ -47,5 +47,5 @@
       "validation_item_id": "VAL-001-RD-B"
     }
   ],
-  "status": "NOT_REGISTERED_EXTERNAL_AUDIO_REQUIRED"
+  "status": "EXECUTION_LOCAL_CATALOGUE_READY"
 }

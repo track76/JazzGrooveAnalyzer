@@ -1,0 +1,90 @@
+{
+  "conditions": {
+    "a": {
+      "canonical": {
+        "bit_depth": 24,
+        "channel_count": 2,
+        "codec": "PCM",
+        "duration_seconds": 44.977052154195015,
+        "file_sha256": "33f8089ca9a09f711674dc272d7e3b6e2437080539aa046ed244158e599a08fd",
+        "sample_count_per_channel": 1983488,
+        "sample_data_sha256": "219b23abd0ab91a8885d5a0dd3fc27086fea7ca9c642191e96800980c074212b",
+        "sample_rate_hz": 44100
+      },
+      "difference": {
+        "differing_scalar_sample_count": 971111,
+        "file_bytes_identical": false,
+        "first_nonzero_frame_canonical": 1,
+        "first_nonzero_frame_repeated": 1,
+        "last_nonzero_frame_canonical": 1909751,
+        "last_nonzero_frame_repeated": 1909751,
+        "maximum_absolute_difference_24bit_units": 214405,
+        "mean_absolute_difference_24bit_units": 2929.8233213409912,
+        "rms_difference_24bit_units": 10623.7160919889,
+        "sample_values_identical": false,
+        "total_scalar_sample_count": 3966976
+      },
+      "repeat": {
+        "bit_depth": 24,
+        "channel_count": 2,
+        "codec": "PCM",
+        "duration_seconds": 44.977052154195015,
+        "file_sha256": "f1f751d8a8b84fe87d790d32e91458ec20e4d2b2937af1e30410884ee31f804b",
+        "sample_count_per_channel": 1983488,
+        "sample_data_sha256": "ed65c17d0fb1e4fdea14d569589bc55b2c0de2b3c7b656cf0c406b6be339cade",
+        "sample_rate_hz": 44100
+      }
+    },
+    "b": {
+      "canonical": {
+        "bit_depth": 24,
+        "channel_count": 2,
+        "codec": "PCM",
+        "duration_seconds": 44.977052154195015,
+        "file_sha256": "474b2e46ad2216f3d2d2446086c46bb2bcb93561effcf1c86e5bc6700e901b2e",
+        "sample_count_per_channel": 1983488,
+        "sample_data_sha256": "297e1384ea8d36ae522b92bef7df422bc4241fddee471bbfb56d3cf7b652eab4",
+        "sample_rate_hz": 44100
+      },
+      "difference": {
+        "differing_scalar_sample_count": 261918,
+        "file_bytes_identical": false,
+        "first_nonzero_frame_canonical": 1,
+        "first_nonzero_frame_repeated": 1,
+        "last_nonzero_frame_canonical": 1909748,
+        "last_nonzero_frame_repeated": 1909748,
+        "maximum_absolute_difference_24bit_units": 64201,
+        "mean_absolute_difference_24bit_units": 103.85689502532912,
+        "rms_difference_24bit_units": 1329.9268450877596,
+        "sample_values_identical": false,
+        "total_scalar_sample_count": 3966976
+      },
+      "repeat": {
+        "bit_depth": 24,
+        "channel_count": 2,
+        "codec": "PCM",
+        "duration_seconds": 44.977052154195015,
+        "file_sha256": "8081c634bcc6017c19d7d27068b9084ba5ada20246c585fa5c958c5db1fec71a",
+        "sample_count_per_channel": 1983488,
+        "sample_data_sha256": "8391ed98d8c788372d374bf4bd976d17685902f23ed56e9fe5edb4ee4c0c94df",
+        "sample_rate_hz": 44100
+      }
+    }
+  },
+  "experiment_id": "H-VAL001-C1-06",
+  "package_validation": {
+    "conditions": [
+      "CED-VAL-001-RD-001-A",
+      "CED-VAL-001-RD-001-B"
+    ],
+    "controlled_dataset_id": "CED-VAL-001-RD-001",
+    "inventory_event_count": 197,
+    "package_manifest_sha256": "b4adeee5d0969a68a58520dc84206d15751f2e60213f9062948403c070e77f3b",
+    "wav_measurements": {
+      "bit_depth": 24,
+      "channel_count": 2,
+      "sample_count_per_channel": 1983488,
+      "sample_rate_hz": 44100
+    }
+  }
+}

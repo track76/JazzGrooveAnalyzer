@@ -1,0 +1,86 @@
+{
+  "analysis_content_fingerprint": "3dc6f5ad062ef85bb63d4e200d70fdbb9f6eb25f72d040e3791c24942a92072d",
+  "analysis_execution_id": "H-VAL001-C1-06-A-MP3-ANALYSIS",
+  "comparator_execution_id": "H-VAL001-C1-06-A-001",
+  "comparator_protocol_id": "JGA-COMPARATOR-001",
+  "comparator_schema_version": "1",
+  "comparison_result": {
+    "comparison_execution_id": "H-VAL001-C1-06-A-001",
+    "comparison_result_id": "H-VAL001-C1-06-A-002",
+    "instrumentation": {
+      "evidence_id": "H-VAL001-C1-06-A-006",
+      "expected_categories": [
+        "Double Bass",
+        "Drum Set",
+        "Piano",
+        "Saxophone",
+        "Voice"
+      ],
+      "matching_categories": null,
+      "missing_categories": null,
+      "observed_categories": null,
+      "state": "NOT_PRODUCED",
+      "unexpected_categories": null
+    },
+    "provenance": {
+      "analysis_content_fingerprint": "3dc6f5ad062ef85bb63d4e200d70fdbb9f6eb25f72d040e3791c24942a92072d",
+      "analysis_execution_id": "H-VAL001-C1-06-A-MP3-ANALYSIS",
+      "analysis_schema_revision": "1",
+      "comparator_protocol_id": "JGA-COMPARATOR-001",
+      "comparator_schema_version": "1",
+      "ground_truth_id": "GT-VAL-001-RD-A-v1",
+      "ground_truth_schema_version": "1",
+      "validation_item_id": "VAL-001-RD-A",
+      "validation_item_schema_version": "1"
+    },
+    "sections": {
+      "evidence_id": "H-VAL001-C1-06-A-005",
+      "sections": [],
+      "state": "NOT_PRODUCED"
+    },
+    "tempo": {
+      "absolute_difference": null,
+      "evidence_id": "H-VAL001-C1-06-A-003",
+      "expected": {
+        "beat_unit": "quarter",
+        "beats_per_minute": "78"
+      },
+      "observed": null,
+      "signed_difference": null,
+      "state": "NOT_PRODUCED",
+      "unit": "beats_per_minute"
+    },
+    "time_signature": {
+      "evidence_id": "H-VAL001-C1-06-A-004",
+      "exact_match": null,
+      "expected": {
+        "beat_type": 4,
+        "beats": 4
+      },
+      "observed": null,
+      "state": "NOT_PRODUCED"
+    }
+  },
+  "comparison_result_id": "H-VAL001-C1-06-A-002",
+  "ground_truth_id": "GT-VAL-001-RD-A-v1",
+  "input_provenance": {
+    "analysis_content_fingerprint": "3dc6f5ad062ef85bb63d4e200d70fdbb9f6eb25f72d040e3791c24942a92072d",
+    "analysis_execution_id": "H-VAL001-C1-06-A-MP3-ANALYSIS",
+    "analysis_schema_revision": "1",
+    "comparator_protocol_id": "JGA-COMPARATOR-001",
+    "comparator_schema_version": "1",
+    "ground_truth_id": "GT-VAL-001-RD-A-v1",
+    "ground_truth_schema_version": "1",
+    "validation_item_id": "VAL-001-RD-A",
+    "validation_item_schema_version": "1"
+  },
+  "limitations": [
+    "instrumentation: canonical validation-facing categories are not produced",
+    "sections: canonical section boundaries are not produced",
+    "tempo: validation-facing tempo is not scientifically produced",
+    "time_signature: validation-facing time signature is not scientifically produced"
+  ],
+  "record_fingerprint": "915e61345ef6f0e25436c21cffee2ecc56ffbeafe523a229178e9da8496b19ab",
+  "record_id": "JGA-SVR-915e61345ef6f0e25436c21cffee2ecc56ffbeafe523a229178e9da8496b19ab",
+  "validation_item_id": "VAL-001-RD-A"
+}

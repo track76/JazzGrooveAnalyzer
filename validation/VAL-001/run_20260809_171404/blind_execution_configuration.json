@@ -12,5 +12,5 @@
   "ground_truth_available_during_analysis": false,
   "identical_configuration_required": true,
   "musicxml_available_during_analysis": false,
-  "status": "BLOCKED_EXTERNAL_AUDIO_REQUIRED"
+  "status": "COMPLETED"
 }

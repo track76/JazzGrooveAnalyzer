@@ -1,5 +1,5 @@
 {
-  "audio_generation_status": "BLOCKED_EXTERNAL_RENDER_REQUIRED",
+  "audio_generation_status": "SUPPLIED_AND_VALIDATED",
   "condition_a_exact_source_copy": true,
   "condition_a_sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
   "condition_b_sha256": "4cb09a0a2753abd2dbdb21fd8a20845d08f5995fdb9eb17bf5eecf46c5446b1b",

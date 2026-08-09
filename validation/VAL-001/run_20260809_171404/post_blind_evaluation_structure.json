@@ -1,12 +1,19 @@
 {
-  "blind_record_fingerprint": "__REQUIRED_AFTER_BLIND_FREEZE__",
-  "candidate_population_comparison": "__REQUIRED_FROZEN_NUMERICAL_EVIDENCE__",
+  "blind_record_fingerprint": "1dd53f7d15cfc6cb85c2c1bb4ffc4f2541fc33a44ad016023893ef68ec3a2139",
+  "candidate_population_comparison": "post_blind_evaluation.json",
   "condition_a_ground_truth_id": "GT-VAL-001-RD-A-v1",
-  "condition_a_validation_record_id": "__REQUIRED_AFTER_EXECUTION__",
-  "condition_assignment": "__REQUIRED_AFTER_BLIND_FREEZE__",
+  "condition_a_validation_record_id": "JGA-SVR-915e61345ef6f0e25436c21cffee2ecc56ffbeafe523a229178e9da8496b19ab",
+  "condition_assignment": {
+    "condition_a": "BLIND-CONDITION-01",
+    "condition_b": "BLIND-CONDITION-02"
+  },
   "condition_b_ground_truth_id": "GT-VAL-001-RD-B-v1",
-  "condition_b_validation_record_id": "__REQUIRED_AFTER_EXECUTION__",
+  "condition_b_validation_record_id": "JGA-SVR-effdbf73c68a8124b709cb28be74b4d792ed053d9d92e4ab69926e2cee08d69c",
   "experiment_id": "H-VAL001-C1-06",
-  "invariance_assessment": "__REQUIRED_EVIDENCE_CLASSIFIED_RESULT__",
-  "limitations": []
+  "invariance_assessment": "Six exact Candidate Period durations are shared; descriptive invariance evidence only.",
+  "limitations": [
+    "Repeated WAV renders are not sample-identical; no equivalence tolerance is defined.",
+    "Rendering application, library version, generation date, and MP3 encoder configuration are not specified.",
+    "MusicXML score time zero equals WAV sample zero is a Declared Experimental Procedure, not an Observed Fact."
+  ]
 }

@@ -4,3 +4,9 @@ JGA analytical output used for removal: no
 Terminal boundary: external lossless audio rendering required
 Command: python tools/validate_controlled_ab_package.py validation/VAL-001/run_20260809_171404/controlled_dataset
 Result: exit 1 (expected fail-closed external-asset boundary)
+
+2026-08-09 — External assets supplied
+Package validator: VALID
+Blind analysis: completed and frozen before Ground Truth access
+Post-blind evaluation: completed
+Comparator and Scientific Validation Record: completed for both conditions

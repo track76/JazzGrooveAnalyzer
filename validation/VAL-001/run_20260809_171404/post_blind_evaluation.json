@@ -1,0 +1,85 @@
+{
+  "blind_record_fingerprint": "1dd53f7d15cfc6cb85c2c1bb4ffc4f2541fc33a44ad016023893ef68ec3a2139",
+  "candidate_period_counts": {
+    "condition_a": {
+      "0.37151927437641724": 3,
+      "0.3831292517006803": 7,
+      "0.3947392290249433": 3,
+      "0.7662585034013606": 5,
+      "0.7778684807256236": 3,
+      "1.1493877551020408": 2,
+      "1.1609977324263039": 3,
+      "1.5441269841269842": 2,
+      "2.693514739229025": 3
+    },
+    "condition_a_repeat": {
+      "0.37151927437641724": 3,
+      "0.3831292517006803": 7,
+      "0.3947392290249433": 3,
+      "0.7662585034013606": 5,
+      "0.7778684807256236": 3,
+      "1.1493877551020408": 2,
+      "1.1609977324263039": 3,
+      "1.5441269841269842": 2,
+      "2.693514739229025": 3
+    },
+    "condition_b": {
+      "0.3831292517006803": 6,
+      "0.7662585034013606": 7,
+      "0.7778684807256236": 3,
+      "1.1493877551020408": 2,
+      "1.1609977324263039": 3,
+      "1.5441269841269842": 2,
+      "1.9272562358276644": 3
+    },
+    "condition_b_repeat": {
+      "0.3831292517006803": 6,
+      "0.7662585034013606": 7,
+      "0.7778684807256236": 3,
+      "1.1493877551020408": 2,
+      "1.1609977324263039": 3,
+      "1.5441269841269842": 2,
+      "1.9272562358276644": 3
+    }
+  },
+  "canonical_repeat_exact_duration_count_equality": {
+    "condition_a": true,
+    "condition_b": true
+  },
+  "condition_assignment": {
+    "condition_a": "BLIND-CONDITION-01",
+    "condition_b": "BLIND-CONDITION-02"
+  },
+  "exact_shared_candidate_durations_seconds": [
+    "0.3831292517006803",
+    "0.7662585034013606",
+    "0.7778684807256236",
+    "1.1493877551020408",
+    "1.1609977324263039",
+    "1.5441269841269842"
+  ],
+  "experiment_id": "H-VAL001-C1-06",
+  "ground_truth": {
+    "condition_a_id": "GT-VAL-001-RD-A-v1",
+    "condition_b_id": "GT-VAL-001-RD-B-v1",
+    "shared_instrumentation": true,
+    "shared_tempo": {
+      "beat_unit": "quarter",
+      "beats_per_minute": "78"
+    },
+    "shared_time_signature": {
+      "beat_type": 4,
+      "beats": 4
+    }
+  },
+  "post_blind_fingerprint": "416a4c39aa7255bdeae2aec0ae3d1c01aa9d324fb6c5e3cb0b75bad47b7fb734",
+  "scientific_scope": "Descriptive invariance evidence only; no candidate is assigned a metric level and no Ground Truth participated in discovery.",
+  "shared_candidate_occurrence_differences_b_minus_a": {
+    "0.3831292517006803": -1,
+    "0.7662585034013606": 2,
+    "0.7778684807256236": 0,
+    "1.1493877551020408": 0,
+    "1.1609977324263039": 0,
+    "1.5441269841269842": 0
+  }
+}

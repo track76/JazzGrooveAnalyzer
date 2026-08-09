@@ -1,0 +1,34 @@
+{
+  "blind_record_fingerprint": "1dd53f7d15cfc6cb85c2c1bb4ffc4f2541fc33a44ad016023893ef68ec3a2139",
+  "condition_a": {
+    "analysis_content_fingerprint": "3dc6f5ad062ef85bb63d4e200d70fdbb9f6eb25f72d040e3791c24942a92072d",
+    "analysis_execution_id": "H-VAL001-C1-06-A-MP3-ANALYSIS",
+    "comparison_execution_id": "H-VAL001-C1-06-A-001",
+    "comparison_result_id": "H-VAL001-C1-06-A-002",
+    "comparison_states": {
+      "instrumentation": "NOT_PRODUCED",
+      "sections": "NOT_PRODUCED",
+      "tempo": "NOT_PRODUCED",
+      "time_signature": "NOT_PRODUCED"
+    },
+    "scientific_validation_record_fingerprint": "915e61345ef6f0e25436c21cffee2ecc56ffbeafe523a229178e9da8496b19ab",
+    "scientific_validation_record_id": "JGA-SVR-915e61345ef6f0e25436c21cffee2ecc56ffbeafe523a229178e9da8496b19ab",
+    "validation_item_id": "VAL-001-RD-A"
+  },
+  "condition_b": {
+    "analysis_content_fingerprint": "848206807049699c4d1a8483d79956238edda31ff8ef5c9f452c689e7cb4aac5",
+    "analysis_execution_id": "H-VAL001-C1-06-B-MP3-ANALYSIS",
+    "comparison_execution_id": "H-VAL001-C1-06-B-001",
+    "comparison_result_id": "H-VAL001-C1-06-B-002",
+    "comparison_states": {
+      "instrumentation": "NOT_PRODUCED",
+      "sections": "NOT_PRODUCED",
+      "tempo": "NOT_PRODUCED",
+      "time_signature": "NOT_PRODUCED"
+    },
+    "scientific_validation_record_fingerprint": "effdbf73c68a8124b709cb28be74b4d792ed053d9d92e4ab69926e2cee08d69c",
+    "scientific_validation_record_id": "JGA-SVR-effdbf73c68a8124b709cb28be74b4d792ed053d9d92e4ab69926e2cee08d69c",
+    "validation_item_id": "VAL-001-RD-B"
+  },
+  "experiment_id": "H-VAL001-C1-06"
+}

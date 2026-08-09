@@ -1,0 +1,1467 @@
+{
+  "blind_record_fingerprint": "1dd53f7d15cfc6cb85c2c1bb4ffc4f2541fc33a44ad016023893ef68ec3a2139",
+  "condition_assignment_revealed": false,
+  "deterministic_replay": {
+    "BLIND-CONDITION-01": {
+      "first_fingerprint": "b22b292fd231cc5c97109c9f27acbcb83d0235df01eeae71c2c93779d0c51983",
+      "identical": true,
+      "repeated_fingerprint": "b22b292fd231cc5c97109c9f27acbcb83d0235df01eeae71c2c93779d0c51983"
+    },
+    "BLIND-CONDITION-02": {
+      "first_fingerprint": "0dcc1316227c24cc2dddb64e498355d23a7815837e24571b38a260e3face91f2",
+      "identical": true,
+      "repeated_fingerprint": "0dcc1316227c24cc2dddb64e498355d23a7815837e24571b38a260e3face91f2"
+    }
+  },
+  "event_removal_inventory_available_to_analysis": false,
+  "executions": {
+    "BLIND-CONDITION-01": {
+      "candidate_period_count": 9,
+      "candidates": [
+        {
+          "duration_seconds": "0.37151927437641724",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 21,
+              "end_seconds": "24.636371882086166",
+              "start_observation_index": 20,
+              "start_seconds": "24.264852607709752"
+            },
+            {
+              "end_observation_index": 29,
+              "end_seconds": "30.406530612244897",
+              "start_observation_index": 28,
+              "start_seconds": "30.035011337868482"
+            },
+            {
+              "end_observation_index": 34,
+              "end_seconds": "33.866303854875284",
+              "start_observation_index": 33,
+              "start_seconds": "33.494784580498866"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.3831292517006803",
+          "occurrence_count": 7,
+          "occurrences": [
+            {
+              "end_observation_index": 3,
+              "end_seconds": "4.249251700680272",
+              "start_observation_index": 2,
+              "start_seconds": "3.866122448979592"
+            },
+            {
+              "end_observation_index": 8,
+              "end_seconds": "9.253151927437642",
+              "start_observation_index": 7,
+              "start_seconds": "8.870022675736962"
+            },
+            {
+              "end_observation_index": 15,
+              "end_seconds": "15.406439909297053",
+              "start_observation_index": 14,
+              "start_seconds": "15.023310657596372"
+            },
+            {
+              "end_observation_index": 17,
+              "end_seconds": "18.483083900226756",
+              "start_observation_index": 16,
+              "start_seconds": "18.099954648526076"
+            },
+            {
+              "end_observation_index": 19,
+              "end_seconds": "21.559727891156463",
+              "start_observation_index": 18,
+              "start_seconds": "21.176598639455783"
+            },
+            {
+              "end_observation_index": 25,
+              "end_seconds": "27.713015873015873",
+              "start_observation_index": 24,
+              "start_seconds": "27.329886621315193"
+            },
+            {
+              "end_observation_index": 30,
+              "end_seconds": "30.789659863945577",
+              "start_observation_index": 29,
+              "start_seconds": "30.406530612244897"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.3947392290249433",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 10,
+              "end_seconds": "10.414149659863945",
+              "start_observation_index": 9,
+              "start_seconds": "10.019410430839002"
+            },
+            {
+              "end_observation_index": 28,
+              "end_seconds": "30.035011337868482",
+              "start_observation_index": 27,
+              "start_seconds": "29.640272108843536"
+            },
+            {
+              "end_observation_index": 31,
+              "end_seconds": "31.184399092970523",
+              "start_observation_index": 30,
+              "start_seconds": "30.789659863945577"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7662585034013606",
+          "occurrence_count": 5,
+          "occurrences": [
+            {
+              "end_observation_index": 6,
+              "end_seconds": "8.092154195011338",
+              "start_observation_index": 5,
+              "start_seconds": "7.325895691609977"
+            },
+            {
+              "end_observation_index": 9,
+              "end_seconds": "10.019410430839002",
+              "start_observation_index": 8,
+              "start_seconds": "9.253151927437642"
+            },
+            {
+              "end_observation_index": 13,
+              "end_seconds": "14.245442176870748",
+              "start_observation_index": 12,
+              "start_seconds": "13.479183673469388"
+            },
+            {
+              "end_observation_index": 27,
+              "end_seconds": "29.640272108843536",
+              "start_observation_index": 26,
+              "start_seconds": "28.874013605442176"
+            },
+            {
+              "end_observation_index": 32,
+              "end_seconds": "31.950657596371883",
+              "start_observation_index": 31,
+              "start_seconds": "31.184399092970523"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7778684807256236",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 2,
+              "end_seconds": "3.866122448979592",
+              "start_observation_index": 1,
+              "start_seconds": "3.0882539682539685"
+            },
+            {
+              "end_observation_index": 7,
+              "end_seconds": "8.870022675736962",
+              "start_observation_index": 6,
+              "start_seconds": "8.092154195011338"
+            },
+            {
+              "end_observation_index": 14,
+              "end_seconds": "15.023310657596372",
+              "start_observation_index": 13,
+              "start_seconds": "14.245442176870748"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1493877551020408",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 5,
+              "end_seconds": "7.325895691609977",
+              "start_observation_index": 4,
+              "start_seconds": "6.176507936507937"
+            },
+            {
+              "end_observation_index": 12,
+              "end_seconds": "13.479183673469388",
+              "start_observation_index": 11,
+              "start_seconds": "12.329795918367347"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1609977324263039",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 26,
+              "end_seconds": "28.874013605442176",
+              "start_observation_index": 25,
+              "start_seconds": "27.713015873015873"
+            },
+            {
+              "end_observation_index": 35,
+              "end_seconds": "35.02730158730159",
+              "start_observation_index": 34,
+              "start_seconds": "33.866303854875284"
+            },
+            {
+              "end_observation_index": 36,
+              "end_seconds": "36.18829931972789",
+              "start_observation_index": 35,
+              "start_seconds": "35.02730158730159"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.5441269841269842",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 22,
+              "end_seconds": "26.180498866213153",
+              "start_observation_index": 21,
+              "start_seconds": "24.636371882086166"
+            },
+            {
+              "end_observation_index": 33,
+              "end_seconds": "33.494784580498866",
+              "start_observation_index": 32,
+              "start_seconds": "31.950657596371883"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "2.693514739229025",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 16,
+              "end_seconds": "18.099954648526076",
+              "start_observation_index": 15,
+              "start_seconds": "15.406439909297053"
+            },
+            {
+              "end_observation_index": 18,
+              "end_seconds": "21.176598639455783",
+              "start_observation_index": 17,
+              "start_seconds": "18.483083900226756"
+            },
+            {
+              "end_observation_index": 38,
+              "end_seconds": "39.63646258503401",
+              "start_observation_index": 37,
+              "start_seconds": "36.94294784580499"
+            }
+          ]
+        }
+      ],
+      "discovery_configuration": [
+        [
+          "frame_length_samples",
+          "512"
+        ],
+        [
+          "sample_rate_hz",
+          "44100"
+        ],
+        [
+          "recurrence_definition",
+          "exact consecutive positive frame interval occurring at least twice"
+        ]
+      ],
+      "measurement_unit": "seconds",
+      "pulse_candidate_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pulse_candidate_count": 39,
+      "pulse_candidate_strengths": [
+        2.3402750492095947,
+        6.467042446136475,
+        2.3264098167419434,
+        1.88374662399292,
+        15.388338088989258,
+        3.620044469833374,
+        5.209071159362793,
+        3.779278516769409,
+        12.069353103637695,
+        1.997579574584961,
+        2.1357314586639404,
+        15.18181324005127,
+        3.1590840816497803,
+        4.696714401245117,
+        8.15198040008545,
+        8.137471199035645,
+        3.1260693073272705,
+        2.547076463699341,
+        2.953578233718872,
+        3.0825510025024414,
+        4.131566524505615,
+        3.295503616333008,
+        3.9044487476348877,
+        7.159934043884277,
+        6.992609977722168,
+        2.9570350646972656,
+        2.385648488998413,
+        2.315155506134033,
+        2.6679794788360596,
+        2.7559471130371094,
+        2.9618020057678223,
+        2.201615810394287,
+        3.242809295654297,
+        3.4828903675079346,
+        2.309429883956909,
+        2.38969349861145,
+        3.14640212059021,
+        2.5959296226501465,
+        6.7924909591674805
+      ],
+      "pulse_candidate_timestamps_seconds": [
+        0.034829931972789115,
+        3.0882539682539685,
+        3.866122448979592,
+        4.249251700680272,
+        6.176507936507937,
+        7.325895691609977,
+        8.092154195011338,
+        8.870022675736962,
+        9.253151927437642,
+        10.019410430839002,
+        10.414149659863945,
+        12.329795918367347,
+        13.479183673469388,
+        14.245442176870748,
+        15.023310657596372,
+        15.406439909297053,
+        18.099954648526076,
+        18.483083900226756,
+        21.176598639455783,
+        21.559727891156463,
+        24.264852607709752,
+        24.636371882086166,
+        26.180498866213153,
+        27.00480725623583,
+        27.329886621315193,
+        27.713015873015873,
+        28.874013605442176,
+        29.640272108843536,
+        30.035011337868482,
+        30.406530612244897,
+        30.789659863945577,
+        31.184399092970523,
+        31.950657596371883,
+        33.494784580498866,
+        33.866303854875284,
+        35.02730158730159,
+        36.18829931972789,
+        36.94294784580499,
+        39.63646258503401
+      ],
+      "scientific_content_fingerprint": "b22b292fd231cc5c97109c9f27acbcb83d0235df01eeae71c2c93779d0c51983"
+    },
+    "BLIND-CONDITION-01-REPEAT": {
+      "candidate_period_count": 9,
+      "candidates": [
+        {
+          "duration_seconds": "0.37151927437641724",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 21,
+              "end_seconds": "24.636371882086166",
+              "start_observation_index": 20,
+              "start_seconds": "24.264852607709752"
+            },
+            {
+              "end_observation_index": 29,
+              "end_seconds": "30.406530612244897",
+              "start_observation_index": 28,
+              "start_seconds": "30.035011337868482"
+            },
+            {
+              "end_observation_index": 34,
+              "end_seconds": "33.866303854875284",
+              "start_observation_index": 33,
+              "start_seconds": "33.494784580498866"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.3831292517006803",
+          "occurrence_count": 7,
+          "occurrences": [
+            {
+              "end_observation_index": 3,
+              "end_seconds": "4.249251700680272",
+              "start_observation_index": 2,
+              "start_seconds": "3.866122448979592"
+            },
+            {
+              "end_observation_index": 8,
+              "end_seconds": "9.253151927437642",
+              "start_observation_index": 7,
+              "start_seconds": "8.870022675736962"
+            },
+            {
+              "end_observation_index": 15,
+              "end_seconds": "15.406439909297053",
+              "start_observation_index": 14,
+              "start_seconds": "15.023310657596372"
+            },
+            {
+              "end_observation_index": 17,
+              "end_seconds": "18.483083900226756",
+              "start_observation_index": 16,
+              "start_seconds": "18.099954648526076"
+            },
+            {
+              "end_observation_index": 19,
+              "end_seconds": "21.559727891156463",
+              "start_observation_index": 18,
+              "start_seconds": "21.176598639455783"
+            },
+            {
+              "end_observation_index": 25,
+              "end_seconds": "27.713015873015873",
+              "start_observation_index": 24,
+              "start_seconds": "27.329886621315193"
+            },
+            {
+              "end_observation_index": 30,
+              "end_seconds": "30.789659863945577",
+              "start_observation_index": 29,
+              "start_seconds": "30.406530612244897"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.3947392290249433",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 10,
+              "end_seconds": "10.414149659863945",
+              "start_observation_index": 9,
+              "start_seconds": "10.019410430839002"
+            },
+            {
+              "end_observation_index": 28,
+              "end_seconds": "30.035011337868482",
+              "start_observation_index": 27,
+              "start_seconds": "29.640272108843536"
+            },
+            {
+              "end_observation_index": 31,
+              "end_seconds": "31.184399092970523",
+              "start_observation_index": 30,
+              "start_seconds": "30.789659863945577"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7662585034013606",
+          "occurrence_count": 5,
+          "occurrences": [
+            {
+              "end_observation_index": 6,
+              "end_seconds": "8.092154195011338",
+              "start_observation_index": 5,
+              "start_seconds": "7.325895691609977"
+            },
+            {
+              "end_observation_index": 9,
+              "end_seconds": "10.019410430839002",
+              "start_observation_index": 8,
+              "start_seconds": "9.253151927437642"
+            },
+            {
+              "end_observation_index": 13,
+              "end_seconds": "14.245442176870748",
+              "start_observation_index": 12,
+              "start_seconds": "13.479183673469388"
+            },
+            {
+              "end_observation_index": 27,
+              "end_seconds": "29.640272108843536",
+              "start_observation_index": 26,
+              "start_seconds": "28.874013605442176"
+            },
+            {
+              "end_observation_index": 32,
+              "end_seconds": "31.950657596371883",
+              "start_observation_index": 31,
+              "start_seconds": "31.184399092970523"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7778684807256236",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 2,
+              "end_seconds": "3.866122448979592",
+              "start_observation_index": 1,
+              "start_seconds": "3.0882539682539685"
+            },
+            {
+              "end_observation_index": 7,
+              "end_seconds": "8.870022675736962",
+              "start_observation_index": 6,
+              "start_seconds": "8.092154195011338"
+            },
+            {
+              "end_observation_index": 14,
+              "end_seconds": "15.023310657596372",
+              "start_observation_index": 13,
+              "start_seconds": "14.245442176870748"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1493877551020408",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 5,
+              "end_seconds": "7.325895691609977",
+              "start_observation_index": 4,
+              "start_seconds": "6.176507936507937"
+            },
+            {
+              "end_observation_index": 12,
+              "end_seconds": "13.479183673469388",
+              "start_observation_index": 11,
+              "start_seconds": "12.329795918367347"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1609977324263039",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 26,
+              "end_seconds": "28.874013605442176",
+              "start_observation_index": 25,
+              "start_seconds": "27.713015873015873"
+            },
+            {
+              "end_observation_index": 35,
+              "end_seconds": "35.02730158730159",
+              "start_observation_index": 34,
+              "start_seconds": "33.866303854875284"
+            },
+            {
+              "end_observation_index": 36,
+              "end_seconds": "36.18829931972789",
+              "start_observation_index": 35,
+              "start_seconds": "35.02730158730159"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.5441269841269842",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 22,
+              "end_seconds": "26.180498866213153",
+              "start_observation_index": 21,
+              "start_seconds": "24.636371882086166"
+            },
+            {
+              "end_observation_index": 33,
+              "end_seconds": "33.494784580498866",
+              "start_observation_index": 32,
+              "start_seconds": "31.950657596371883"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "2.693514739229025",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 16,
+              "end_seconds": "18.099954648526076",
+              "start_observation_index": 15,
+              "start_seconds": "15.406439909297053"
+            },
+            {
+              "end_observation_index": 18,
+              "end_seconds": "21.176598639455783",
+              "start_observation_index": 17,
+              "start_seconds": "18.483083900226756"
+            },
+            {
+              "end_observation_index": 38,
+              "end_seconds": "39.63646258503401",
+              "start_observation_index": 37,
+              "start_seconds": "36.94294784580499"
+            }
+          ]
+        }
+      ],
+      "discovery_configuration": [
+        [
+          "frame_length_samples",
+          "512"
+        ],
+        [
+          "sample_rate_hz",
+          "44100"
+        ],
+        [
+          "recurrence_definition",
+          "exact consecutive positive frame interval occurring at least twice"
+        ]
+      ],
+      "measurement_unit": "seconds",
+      "pulse_candidate_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pulse_candidate_count": 39,
+      "pulse_candidate_strengths": [
+        2.29823899269104,
+        6.4670515060424805,
+        2.3264098167419434,
+        1.8837467432022095,
+        15.388341903686523,
+        3.620044469833374,
+        5.209071636199951,
+        3.7792792320251465,
+        12.069355964660645,
+        1.997579574584961,
+        2.1357314586639404,
+        15.181814193725586,
+        3.1590840816497803,
+        4.696715354919434,
+        8.151981353759766,
+        8.137472152709961,
+        3.1260695457458496,
+        2.547076463699341,
+        2.953578472137451,
+        3.0825510025024414,
+        4.131566524505615,
+        3.295503854751587,
+        3.904448986053467,
+        7.159937381744385,
+        6.992610454559326,
+        2.9570353031158447,
+        2.385648488998413,
+        2.315155506134033,
+        2.6679797172546387,
+        2.7559471130371094,
+        2.9618020057678223,
+        2.201615810394287,
+        3.242809295654297,
+        3.4295172691345215,
+        2.3147287368774414,
+        2.460829973220825,
+        3.0844082832336426,
+        2.545039415359497,
+        6.713907241821289
+      ],
+      "pulse_candidate_timestamps_seconds": [
+        0.034829931972789115,
+        3.0882539682539685,
+        3.866122448979592,
+        4.249251700680272,
+        6.176507936507937,
+        7.325895691609977,
+        8.092154195011338,
+        8.870022675736962,
+        9.253151927437642,
+        10.019410430839002,
+        10.414149659863945,
+        12.329795918367347,
+        13.479183673469388,
+        14.245442176870748,
+        15.023310657596372,
+        15.406439909297053,
+        18.099954648526076,
+        18.483083900226756,
+        21.176598639455783,
+        21.559727891156463,
+        24.264852607709752,
+        24.636371882086166,
+        26.180498866213153,
+        27.00480725623583,
+        27.329886621315193,
+        27.713015873015873,
+        28.874013605442176,
+        29.640272108843536,
+        30.035011337868482,
+        30.406530612244897,
+        30.789659863945577,
+        31.184399092970523,
+        31.950657596371883,
+        33.494784580498866,
+        33.866303854875284,
+        35.02730158730159,
+        36.18829931972789,
+        36.94294784580499,
+        39.63646258503401
+      ],
+      "scientific_content_fingerprint": "cbc401d37c4b60eb012fec783ff4bca2500e697bd3e697dc34e225d09033c455"
+    },
+    "BLIND-CONDITION-02": {
+      "candidate_period_count": 7,
+      "candidates": [
+        {
+          "duration_seconds": "0.3831292517006803",
+          "occurrence_count": 6,
+          "occurrences": [
+            {
+              "end_observation_index": 8,
+              "end_seconds": "9.636281179138322",
+              "start_observation_index": 7,
+              "start_seconds": "9.253151927437642"
+            },
+            {
+              "end_observation_index": 13,
+              "end_seconds": "15.406439909297053",
+              "start_observation_index": 12,
+              "start_seconds": "15.023310657596372"
+            },
+            {
+              "end_observation_index": 16,
+              "end_seconds": "18.483083900226756",
+              "start_observation_index": 15,
+              "start_seconds": "18.099954648526076"
+            },
+            {
+              "end_observation_index": 19,
+              "end_seconds": "21.559727891156463",
+              "start_observation_index": 18,
+              "start_seconds": "21.176598639455783"
+            },
+            {
+              "end_observation_index": 20,
+              "end_seconds": "21.942857142857143",
+              "start_observation_index": 19,
+              "start_seconds": "21.559727891156463"
+            },
+            {
+              "end_observation_index": 23,
+              "end_seconds": "24.636371882086166",
+              "start_observation_index": 22,
+              "start_seconds": "24.253242630385486"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7662585034013606",
+          "occurrence_count": 7,
+          "occurrences": [
+            {
+              "end_observation_index": 5,
+              "end_seconds": "7.325895691609977",
+              "start_observation_index": 4,
+              "start_seconds": "6.559637188208617"
+            },
+            {
+              "end_observation_index": 6,
+              "end_seconds": "8.092154195011338",
+              "start_observation_index": 5,
+              "start_seconds": "7.325895691609977"
+            },
+            {
+              "end_observation_index": 9,
+              "end_seconds": "10.402539682539683",
+              "start_observation_index": 8,
+              "start_seconds": "9.636281179138322"
+            },
+            {
+              "end_observation_index": 14,
+              "end_seconds": "16.172698412698413",
+              "start_observation_index": 13,
+              "start_seconds": "15.406439909297053"
+            },
+            {
+              "end_observation_index": 21,
+              "end_seconds": "22.709115646258503",
+              "start_observation_index": 20,
+              "start_seconds": "21.942857142857143"
+            },
+            {
+              "end_observation_index": 30,
+              "end_seconds": "30.406530612244897",
+              "start_observation_index": 29,
+              "start_seconds": "29.640272108843536"
+            },
+            {
+              "end_observation_index": 33,
+              "end_seconds": "31.93904761904762",
+              "start_observation_index": 32,
+              "start_seconds": "31.172789115646257"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7778684807256236",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 2,
+              "end_seconds": "3.866122448979592",
+              "start_observation_index": 1,
+              "start_seconds": "3.0882539682539685"
+            },
+            {
+              "end_observation_index": 12,
+              "end_seconds": "15.023310657596372",
+              "start_observation_index": 11,
+              "start_seconds": "14.245442176870748"
+            },
+            {
+              "end_observation_index": 29,
+              "end_seconds": "29.640272108843536",
+              "start_observation_index": 28,
+              "start_seconds": "28.862403628117914"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1493877551020408",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 17,
+              "end_seconds": "19.6324716553288",
+              "start_observation_index": 16,
+              "start_seconds": "18.483083900226756"
+            },
+            {
+              "end_observation_index": 28,
+              "end_seconds": "28.862403628117914",
+              "start_observation_index": 27,
+              "start_seconds": "27.713015873015873"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1609977324263039",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 7,
+              "end_seconds": "9.253151927437642",
+              "start_observation_index": 6,
+              "start_seconds": "8.092154195011338"
+            },
+            {
+              "end_observation_index": 25,
+              "end_seconds": "27.329886621315193",
+              "start_observation_index": 24,
+              "start_seconds": "26.16888888888889"
+            },
+            {
+              "end_observation_index": 36,
+              "end_seconds": "38.10394557823129",
+              "start_observation_index": 35,
+              "start_seconds": "36.94294784580499"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.5441269841269842",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 18,
+              "end_seconds": "21.176598639455783",
+              "start_observation_index": 17,
+              "start_seconds": "19.6324716553288"
+            },
+            {
+              "end_observation_index": 22,
+              "end_seconds": "24.253242630385486",
+              "start_observation_index": 21,
+              "start_seconds": "22.709115646258503"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.9272562358276644",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 10,
+              "end_seconds": "12.329795918367347",
+              "start_observation_index": 9,
+              "start_seconds": "10.402539682539683"
+            },
+            {
+              "end_observation_index": 15,
+              "end_seconds": "18.099954648526076",
+              "start_observation_index": 14,
+              "start_seconds": "16.172698412698413"
+            },
+            {
+              "end_observation_index": 34,
+              "end_seconds": "33.866303854875284",
+              "start_observation_index": 33,
+              "start_seconds": "31.93904761904762"
+            }
+          ]
+        }
+      ],
+      "discovery_configuration": [
+        [
+          "frame_length_samples",
+          "512"
+        ],
+        [
+          "sample_rate_hz",
+          "44100"
+        ],
+        [
+          "recurrence_definition",
+          "exact consecutive positive frame interval occurring at least twice"
+        ]
+      ],
+      "measurement_unit": "seconds",
+      "pulse_candidate_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pulse_candidate_count": 37,
+      "pulse_candidate_strengths": [
+        2.3402750492095947,
+        6.932542324066162,
+        9.407856941223145,
+        3.80725359916687,
+        5.636052131652832,
+        3.7653024196624756,
+        4.307020664215088,
+        17.479379653930664,
+        5.828885078430176,
+        3.425015687942505,
+        8.322021484375,
+        13.663098335266113,
+        10.35413932800293,
+        7.279828071594238,
+        2.916675329208374,
+        18.42279815673828,
+        3.517608880996704,
+        6.1196794509887695,
+        2.6371872425079346,
+        5.645710468292236,
+        3.501526117324829,
+        2.306814193725586,
+        3.627835750579834,
+        2.3072426319122314,
+        6.15489387512207,
+        16.34575653076172,
+        3.0977556705474854,
+        3.0565028190612793,
+        4.248002052307129,
+        4.1391401290893555,
+        5.620711326599121,
+        2.2215335369110107,
+        6.231579780578613,
+        3.1357293128967285,
+        12.602835655212402,
+        3.740893840789795,
+        2.8068323135375977
+      ],
+      "pulse_candidate_timestamps_seconds": [
+        0.034829931972789115,
+        3.0882539682539685,
+        3.866122448979592,
+        6.164897959183674,
+        6.559637188208617,
+        7.325895691609977,
+        8.092154195011338,
+        9.253151927437642,
+        9.636281179138322,
+        10.402539682539683,
+        12.329795918367347,
+        14.245442176870748,
+        15.023310657596372,
+        15.406439909297053,
+        16.172698412698413,
+        18.099954648526076,
+        18.483083900226756,
+        19.6324716553288,
+        21.176598639455783,
+        21.559727891156463,
+        21.942857142857143,
+        22.709115646258503,
+        24.253242630385486,
+        24.636371882086166,
+        26.16888888888889,
+        27.329886621315193,
+        27.515646258503402,
+        27.713015873015873,
+        28.862403628117914,
+        29.640272108843536,
+        30.406530612244897,
+        30.824489795918367,
+        31.172789115646257,
+        31.93904761904762,
+        33.866303854875284,
+        36.94294784580499,
+        38.10394557823129
+      ],
+      "scientific_content_fingerprint": "0dcc1316227c24cc2dddb64e498355d23a7815837e24571b38a260e3face91f2"
+    },
+    "BLIND-CONDITION-02-REPEAT": {
+      "candidate_period_count": 7,
+      "candidates": [
+        {
+          "duration_seconds": "0.3831292517006803",
+          "occurrence_count": 6,
+          "occurrences": [
+            {
+              "end_observation_index": 8,
+              "end_seconds": "9.636281179138322",
+              "start_observation_index": 7,
+              "start_seconds": "9.253151927437642"
+            },
+            {
+              "end_observation_index": 13,
+              "end_seconds": "15.406439909297053",
+              "start_observation_index": 12,
+              "start_seconds": "15.023310657596372"
+            },
+            {
+              "end_observation_index": 16,
+              "end_seconds": "18.483083900226756",
+              "start_observation_index": 15,
+              "start_seconds": "18.099954648526076"
+            },
+            {
+              "end_observation_index": 19,
+              "end_seconds": "21.559727891156463",
+              "start_observation_index": 18,
+              "start_seconds": "21.176598639455783"
+            },
+            {
+              "end_observation_index": 20,
+              "end_seconds": "21.942857142857143",
+              "start_observation_index": 19,
+              "start_seconds": "21.559727891156463"
+            },
+            {
+              "end_observation_index": 23,
+              "end_seconds": "24.636371882086166",
+              "start_observation_index": 22,
+              "start_seconds": "24.253242630385486"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7662585034013606",
+          "occurrence_count": 7,
+          "occurrences": [
+            {
+              "end_observation_index": 5,
+              "end_seconds": "7.325895691609977",
+              "start_observation_index": 4,
+              "start_seconds": "6.559637188208617"
+            },
+            {
+              "end_observation_index": 6,
+              "end_seconds": "8.092154195011338",
+              "start_observation_index": 5,
+              "start_seconds": "7.325895691609977"
+            },
+            {
+              "end_observation_index": 9,
+              "end_seconds": "10.402539682539683",
+              "start_observation_index": 8,
+              "start_seconds": "9.636281179138322"
+            },
+            {
+              "end_observation_index": 14,
+              "end_seconds": "16.172698412698413",
+              "start_observation_index": 13,
+              "start_seconds": "15.406439909297053"
+            },
+            {
+              "end_observation_index": 21,
+              "end_seconds": "22.709115646258503",
+              "start_observation_index": 20,
+              "start_seconds": "21.942857142857143"
+            },
+            {
+              "end_observation_index": 30,
+              "end_seconds": "30.406530612244897",
+              "start_observation_index": 29,
+              "start_seconds": "29.640272108843536"
+            },
+            {
+              "end_observation_index": 33,
+              "end_seconds": "31.93904761904762",
+              "start_observation_index": 32,
+              "start_seconds": "31.172789115646257"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7778684807256236",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 2,
+              "end_seconds": "3.866122448979592",
+              "start_observation_index": 1,
+              "start_seconds": "3.0882539682539685"
+            },
+            {
+              "end_observation_index": 12,
+              "end_seconds": "15.023310657596372",
+              "start_observation_index": 11,
+              "start_seconds": "14.245442176870748"
+            },
+            {
+              "end_observation_index": 29,
+              "end_seconds": "29.640272108843536",
+              "start_observation_index": 28,
+              "start_seconds": "28.862403628117914"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1493877551020408",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 17,
+              "end_seconds": "19.6324716553288",
+              "start_observation_index": 16,
+              "start_seconds": "18.483083900226756"
+            },
+            {
+              "end_observation_index": 28,
+              "end_seconds": "28.862403628117914",
+              "start_observation_index": 27,
+              "start_seconds": "27.713015873015873"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1609977324263039",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 7,
+              "end_seconds": "9.253151927437642",
+              "start_observation_index": 6,
+              "start_seconds": "8.092154195011338"
+            },
+            {
+              "end_observation_index": 25,
+              "end_seconds": "27.329886621315193",
+              "start_observation_index": 24,
+              "start_seconds": "26.16888888888889"
+            },
+            {
+              "end_observation_index": 36,
+              "end_seconds": "38.10394557823129",
+              "start_observation_index": 35,
+              "start_seconds": "36.94294784580499"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.5441269841269842",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 18,
+              "end_seconds": "21.176598639455783",
+              "start_observation_index": 17,
+              "start_seconds": "19.6324716553288"
+            },
+            {
+              "end_observation_index": 22,
+              "end_seconds": "24.253242630385486",
+              "start_observation_index": 21,
+              "start_seconds": "22.709115646258503"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.9272562358276644",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 10,
+              "end_seconds": "12.329795918367347",
+              "start_observation_index": 9,
+              "start_seconds": "10.402539682539683"
+            },
+            {
+              "end_observation_index": 15,
+              "end_seconds": "18.099954648526076",
+              "start_observation_index": 14,
+              "start_seconds": "16.172698412698413"
+            },
+            {
+              "end_observation_index": 34,
+              "end_seconds": "33.866303854875284",
+              "start_observation_index": 33,
+              "start_seconds": "31.93904761904762"
+            }
+          ]
+        }
+      ],
+      "discovery_configuration": [
+        [
+          "frame_length_samples",
+          "512"
+        ],
+        [
+          "sample_rate_hz",
+          "44100"
+        ],
+        [
+          "recurrence_definition",
+          "exact consecutive positive frame interval occurring at least twice"
+        ]
+      ],
+      "measurement_unit": "seconds",
+      "pulse_candidate_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pulse_candidate_count": 37,
+      "pulse_candidate_strengths": [
+        2.2982394695281982,
+        6.932545185089111,
+        9.407856941223145,
+        3.807253122329712,
+        5.636045455932617,
+        3.7653024196624756,
+        4.307020664215088,
+        17.479379653930664,
+        5.828885078430176,
+        3.425015687942505,
+        8.322021484375,
+        13.663098335266113,
+        10.35413932800293,
+        7.279828071594238,
+        2.916675329208374,
+        18.42279815673828,
+        3.517608880996704,
+        6.1196794509887695,
+        2.6371872425079346,
+        5.645710468292236,
+        3.501526117324829,
+        2.306814193725586,
+        3.627835750579834,
+        2.3072426319122314,
+        6.15489387512207,
+        16.34575653076172,
+        3.0977556705474854,
+        3.0565028190612793,
+        4.248002052307129,
+        4.1391401290893555,
+        5.620711326599121,
+        2.2215335369110107,
+        6.231579780578613,
+        3.1357293128967285,
+        12.602835655212402,
+        3.740893840789795,
+        2.8068323135375977
+      ],
+      "pulse_candidate_timestamps_seconds": [
+        0.034829931972789115,
+        3.0882539682539685,
+        3.866122448979592,
+        6.164897959183674,
+        6.559637188208617,
+        7.325895691609977,
+        8.092154195011338,
+        9.253151927437642,
+        9.636281179138322,
+        10.402539682539683,
+        12.329795918367347,
+        14.245442176870748,
+        15.023310657596372,
+        15.406439909297053,
+        16.172698412698413,
+        18.099954648526076,
+        18.483083900226756,
+        19.6324716553288,
+        21.176598639455783,
+        21.559727891156463,
+        21.942857142857143,
+        22.709115646258503,
+        24.253242630385486,
+        24.636371882086166,
+        26.16888888888889,
+        27.329886621315193,
+        27.515646258503402,
+        27.713015873015873,
+        28.862403628117914,
+        29.640272108843536,
+        30.406530612244897,
+        30.824489795918367,
+        31.172789115646257,
+        31.93904761904762,
+        33.866303854875284,
+        36.94294784580499,
+        38.10394557823129
+      ],
+      "scientific_content_fingerprint": "1c1fa8d597b9d0ed36d4e9efc7bdca109d3f7de5b0ef9331410be1277c4bda72"
+    }
+  },
+  "experiment_id": "H-VAL001-C1-06",
+  "ground_truth_available": false,
+  "musicxml_available_to_analysis": false,
+  "repository_revision": "36d583dae9d8a6873d1ab7f87e4db494d89d1309"
+}

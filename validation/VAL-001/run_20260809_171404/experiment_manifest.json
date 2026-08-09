@@ -12,5 +12,5 @@
   "package_manifest_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/controlled_ab_manifest.json",
   "repository_revision": "7a63a44d1777f3fc1d40f8b28716f8abb7504c0d",
   "scientific_protocol": "SVP-001",
-  "status": "PREPARED_TO_EXTERNAL_AUDIO_BOUNDARY"
+  "status": "COMPLETED"
 }
