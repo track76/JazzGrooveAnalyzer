@@ -82,6 +82,12 @@ The Domain interprets validated representations.
 
 # 4. Representation Hierarchy
 
+The scientific distinction between observation-derived periodicity and
+metric-level interpretation is governed by
+`docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`.
+
+F-031 reinforces and does not replace the lineage below.
+
 The complete hierarchy of Domain representations is
 
 Observation Layer
@@ -388,4 +394,3 @@ Descriptor Operators belong to the mathematical layer.
 They operate exclusively on DescriptorRelation objects.
 
 Their output is an AnalyticalStructure.
-

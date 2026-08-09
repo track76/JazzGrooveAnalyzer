@@ -14,6 +14,18 @@
 
 ---
 
+## Current Lineage Clarification
+
+This entity specification preserves its historical scientific description.
+The current authoritative lineage is defined by the Active JGA Theoretical
+Framework and the Official JGA Domain Model as:
+
+`ElementaryMetricEvent → BeatReference → MetricCluster → Pulse → InternalMetricTimeline`
+
+F-031 does not redefine this lineage.
+
+---
+
 # 1. Purpose
 
 The purpose of the `Pulse` entity is to represent the estimated occurrence of the ensemble pulse inferred from one or more `MetricCluster` instances.

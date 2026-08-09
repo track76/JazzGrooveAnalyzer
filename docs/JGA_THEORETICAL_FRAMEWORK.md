@@ -12,6 +12,18 @@
 
 ---
 
+## Governing Foundation
+
+The scientific meaning of observation-derived periodicity, metric level,
+hierarchical metric periodicity and metric reconstruction is defined by:
+
+- `docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`
+
+This Foundation reinforces the existing representation hierarchy and does not
+replace it.
+
+---
+
 # 1. Introduction
 
 The Jazz Groove Analyzer (JGA) is a scientific framework for the mathematical
@@ -146,6 +158,9 @@ It constitutes the complete observational description required for Domain
 translation.
 
 Metric Context contains no musical interpretation.
+
+It may preserve temporal evidence, recurrence and organization. It does not
+identify meter, tempo, ensemble Pulse or metric level.
 
 ---
 

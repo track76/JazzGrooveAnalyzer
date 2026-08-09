@@ -24,6 +24,11 @@ No musical metadata may be used during analysis.
 
 Ground truth is used only after execution for validation.
 
+The scientific distinction between observation-derived periodicity and
+metric-level interpretation is defined by
+`docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`. This
+reference introduces no validation metric, tolerance or comparison rule.
+
 ---
 
 # 3. Canonical Validation Catalogue and Item

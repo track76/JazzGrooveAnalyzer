@@ -14,6 +14,18 @@
 
 ---
 
+## Current Lineage Clarification
+
+This entity specification preserves its historical scientific description.
+The current authoritative lineage is defined by the Active JGA Theoretical
+Framework and the Official JGA Domain Model as:
+
+`ElementaryMetricEvent → BeatReference → MetricCluster → Pulse → InternalMetricTimeline`
+
+F-031 reinforces that BeatReference is inferred and never directly observed.
+
+---
+
 # 1. Purpose
 
 The purpose of the `MetricCluster` entity is to represent a collection of temporally related `ElementaryMetricEvent` (EME) instances that jointly describe a single metric occurrence within the ensemble.

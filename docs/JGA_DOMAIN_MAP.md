@@ -46,6 +46,14 @@ The Domain describes only musical concepts and observable rhythmic behaviour.
 
 # Domain Graph
 
+Historical status clarification:
+
+The graph below is retained as historical repository evidence. The current
+authoritative lineage is `ElementaryMetricEvent → BeatReference →
+MetricCluster → Pulse → InternalMetricTimeline`, as defined by the Active
+JGA Theoretical Framework and Official JGA Domain Model and reinforced by
+`docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`.
+
 AudioRecording
     │
     ▼

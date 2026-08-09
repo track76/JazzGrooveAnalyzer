@@ -2,6 +2,14 @@
 
 Status: Draft
 
+Current authority clarification:
+
+Observation performs no musical interpretation under AD-006. The Level A0
+reference to global-meter estimation is historical draft wording and does not
+assign meter, tempo, ensemble Pulse or metric-level identification to the
+current Observation responsibility. See
+`docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`.
+
 ## Purpose
 
 This document defines the scientific observation process adopted by the Jazz Groove Analyzer (JGA).

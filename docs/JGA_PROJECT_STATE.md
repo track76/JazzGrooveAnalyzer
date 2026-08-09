@@ -1,5 +1,23 @@
 # JGA Project State
 
+## Phase II — Hierarchical Metric Periodicity Foundation
+
+Status:
+
+CANONICAL
+
+- F-031 defines observation-derived periodicity, candidate period, metric
+  level, metric interpretation, metric reconstruction and hierarchical metric
+  periodicity.
+- Observation remains free of musical interpretation under AD-006.
+- Metric-level interpretation remains owned by the Domain under AD-008.
+- Observable Metric Context preserves temporal evidence and organization but
+  does not identify meter, tempo, ensemble Pulse or metric level.
+- The authoritative `ElementaryMetricEvent → BeatReference → MetricCluster →
+  Pulse → InternalMetricTimeline` lineage remains unchanged.
+- No production architecture, implementation, validation schema, metric,
+  tolerance or algorithm is introduced.
+
 ## M89 — PulseCandidate Strength Preservation
 
 Status:

@@ -2,6 +2,14 @@
 
 Status: Draft
 
+Current authority clarification:
+
+Under AD-006, AD-008, the Active JGA Theoretical Framework and F-031, Metric
+Context preserves observable temporal evidence, recurrence and organization.
+It does not identify meter, tempo, ensemble Pulse or metric level. This note
+clarifies the current epistemic boundary without rewriting the document's
+historical development.
+
 ## Purpose
 
 This document defines the scientific concept of Metric Context within the Jazz Groove Analyzer (JGA).
@@ -104,3 +112,5 @@ The Metric Context satisfies the following principles:
 The Metric Context represents the scientific boundary between observation and semantic modelling.
 
 It therefore becomes one of the principal inputs of the Translation Layer connecting the computational Core with the Domain Model.
+
+See `docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`.

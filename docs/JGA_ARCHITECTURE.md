@@ -16,6 +16,10 @@ This document describes the software architecture of the Jazz Groove Analyzer.
 
 Unlike the Method Specification, this document focuses exclusively on the software structure, package organisation and data flow.
 
+The scientific meaning of hierarchical metric periodicity is governed by
+`docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`. The
+Foundation introduces no new software component or architectural boundary.
+
 ---
 
 # High-Level Pipeline
