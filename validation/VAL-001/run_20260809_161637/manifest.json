@@ -1,0 +1,21 @@
+{
+  "artifacts": {
+    "blind_metric_discrimination.json": "5600b31437efe6fcb54bff3ba86f266cec97985e32e6827f24691b3a9ac4b712",
+    "experiment.py": "ff156a30dd079fcebfcec192950b5650a4cc521b0e9f678f61b6a9f22b054f8f",
+    "notes.md": "2d33764aea497ff40b723b9a6469f091b7d69091e0ee40284887d753c37df102",
+    "post_blind_ground_truth_comparison.json": "d136f29b67216e175b250204daa87e27aaeca5de197bd05785aa9731c7926ea0",
+    "report.md": "86554b04a543f9ed8e1b38c0cdde6fd56214b1e616a17c68c7ef96293ff4191d",
+    "runtime.log": "7238980e4347d547352607ff878c13263fff63f055584a1d4e35b0bcfe37554f"
+  },
+  "bootstrap_revision": "M93 / 44ffffa",
+  "evidence_conflicts_preserved": [
+    "Baseline Evidence Conflict",
+    "Document-State Evidence Conflict",
+    "Experimental Artifact Path Evidence Conflict",
+    "LocalTempo Authority Evidence Conflict"
+  ],
+  "execution_started_utc": "2026-08-09T16:20:48.557198+00:00",
+  "experiment_id": "H-VAL001-C1-05",
+  "repository_revision": "44ffffae226192d145739714dffc69c33cc7922f",
+  "title": "Candidate Metric-Level Discrimination Audit"
+}

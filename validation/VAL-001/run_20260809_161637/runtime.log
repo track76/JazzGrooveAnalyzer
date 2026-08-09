@@ -1,0 +1,5 @@
+Command: PYTHONPATH=src python validation/VAL-001/run_20260809_161637/experiment.py
+Result: exit 0
+Blind full-mix executions: 2
+Ground Truth load: after blind record serialization
+Production code changes: none

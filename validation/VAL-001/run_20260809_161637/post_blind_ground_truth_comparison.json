@@ -1,0 +1,39 @@
+{
+  "blind_record_fingerprint": "1ba5df94712f0527679c49b5824ecdc8ed8dde568612402a90799044b817fa30",
+  "candidate_numerical_comparison": {
+    "132": {
+      "difference_from_double_quarter_seconds": "-0.005944531658817373103087388",
+      "difference_from_half_quarter_seconds": "1.147901622187336473050758765",
+      "difference_from_quarter_seconds": "0.7632862375719518576661433808",
+      "duration_seconds": "1.532517006802721088435374150"
+    },
+    "33": {
+      "difference_from_double_quarter_seconds": "-1.155332286760858189429618000",
+      "difference_from_half_quarter_seconds": "-0.0014861329147043432757718471",
+      "difference_from_quarter_seconds": "-0.3861015175300889586603872317",
+      "duration_seconds": "0.3831292517006802721088435375"
+    },
+    "66": {
+      "difference_from_double_quarter_seconds": "-0.7722030350601779173207744630",
+      "difference_from_half_quarter_seconds": "0.3816431187859759288330716904",
+      "difference_from_quarter_seconds": "-0.0029722658294086865515436942",
+      "duration_seconds": "0.7662585034013605442176870750"
+    }
+  },
+  "derived_reference_quantities": {
+    "double_quarter_duration_seconds": "1.538461538461538461538461538",
+    "half_quarter_duration_seconds": "0.3846153846153846153846153846",
+    "quarter_duration_seconds": "0.7692307692307692307692307692"
+  },
+  "experiment_id": "H-VAL001-C1-05",
+  "ground_truth": {
+    "ground_truth_id": "GT-VAL-001-v1",
+    "source_path": "recordings/validation/ground_truth/03 THE COST OF LIVING versione intro + 8 bar.musicxml",
+    "source_sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "tempo_beat_unit": "quarter",
+    "tempo_beats_per_minute": "78",
+    "validation_item_id": "VAL-001"
+  },
+  "post_blind_assessment": "The numerical proximity of frozen candidates to reference-derived durations evaluates the blind evidence but does not establish metric identity or change the blind result.",
+  "post_blind_record_fingerprint": "cf577a3648ce9db4dd66c7d57ab9690ac77eb866a576f1f671463e0cad62c5a0"
+}
