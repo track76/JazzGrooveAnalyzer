@@ -1994,3 +1994,27 @@ output mapping.
 ## Canonical Specification
 
 `docs/architecture/AD-032_M89_PULSE_STRENGTH_PRESERVATION.md`
+
+
+------------------------------------------------------------
+
+# AD-033 — M90 Controlled Dataset Provenance
+
+## Status
+
+LOCKED
+
+## Decision
+
+Controlled Dataset Provenance owns the declared generation procedure,
+generation identities, temporal-origin declaration and reproducibility
+limitations of a controlled experimental dataset. It does not own Ground Truth,
+Validation Catalog asset identity, validation execution or scientific-record
+preservation semantics.
+
+The first canonical identities are `CED-VAL-001`,
+`DGR-CED-VAL-001-001` and `PR-CED-VAL-001-001`.
+
+## Canonical Specification
+
+`docs/architecture/AD-033_M90_CONTROLLED_DATASET_PROVENANCE.md`

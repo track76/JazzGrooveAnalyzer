@@ -98,6 +98,12 @@ The catalogue does not:
 - compute validation metrics; or
 - depend on runtime analysis outputs.
 
+## Controlled Experimental Dataset Reference
+
+The independently governed controlled experimental dataset related to VAL-001
+is identified as `CED-VAL-001`. Its generation procedure and temporal-origin
+declaration are owned by AD-033 and are not duplicated by this catalogue.
+
 ## Dependency Direction
 
 Immutable Asset Identities
@@ -116,3 +122,4 @@ Scientific Validation Catalog
 - `docs/scientific/JGA_VALIDATION_DATASET.md`
 - `docs/scientific/VAL-001_REFERENCE_DATASET.md`
 - `docs/architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md`
+- `docs/architecture/AD-033_M90_CONTROLLED_DATASET_PROVENANCE.md`

@@ -304,3 +304,7 @@ and implemented in `src/jga/analysis_representation/`.
 The permanent Scientific Validation Record boundary is defined by:
 
 - architecture/AD-031_M87_SCIENTIFIC_VALIDATION_RECORD.md
+
+Controlled experimental dataset generation provenance is defined by:
+
+- architecture/AD-033_M90_CONTROLLED_DATASET_PROVENANCE.md

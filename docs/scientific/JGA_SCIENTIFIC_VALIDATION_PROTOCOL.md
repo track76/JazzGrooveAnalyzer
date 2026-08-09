@@ -71,6 +71,15 @@ The canonical Ground Truth reference bound to VAL-001 is defined by:
 
 - `docs/architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md`
 
+The controlled experimental WAV dataset related to VAL-001 is identified as
+`CED-VAL-001`. Its declared generation procedure and temporal origin are
+preserved by:
+
+- `docs/scientific/controlled_datasets/CED-VAL-001.md`
+
+Controlled Dataset Provenance does not change the canonical MP3 analysis asset
+or the independent Ground Truth binding.
+
 ---
 
 # 4. Mandatory Validation

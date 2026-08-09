@@ -312,3 +312,39 @@ Validation
 - Full suite: 980 passed; one pre-existing Demucs/MPS environment integration
   test could not execute successfully because its configured backend requires
   macOS 14 or later.
+
+
+------------------------------------------------------------
+M90 — CONTROLLED DATASET PROVENANCE
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-033 Controlled Dataset Provenance approved and specified.
+- `CED-VAL-001`, `DGR-CED-VAL-001-001` and `PR-CED-VAL-001-001`
+  established as canonical identities.
+- Five authoritative controlled WAV stems preserved by repository-relative
+  identity and SHA-256 checksum.
+- PCM format, 24-bit depth, 44.1 kHz sample rate, stereo channel configuration,
+  sample count and duration preserved as measured Observed Facts.
+- Dataset generation and MusicXML-score-time-zero to WAV-sample-zero alignment
+  preserved explicitly as Declared Experimental Procedure.
+- Unavailable date, software-version and rendering details preserved as
+  `not specified` without inference.
+- Obsolete MP3 stems excluded from the canonical controlled dataset.
+- Ground Truth, Validation Catalog, validation execution and F-030 ownership
+  boundaries remain unchanged.
+
+Validation
+
+- Controlled asset identities, checksums and measured format verified against
+  all five repository WAV assets.
+- M85 focused validation: 23 passed.
+- M86 focused validation through the Comparator boundary: 29 passed.
+- M87 focused and real VAL-001 chain validation: 7 passed.
+- Full suite: 981 passed, one known Demucs/MPS environment integration failure,
+  and three warnings. The configured MPS backend requires macOS 14 or later.

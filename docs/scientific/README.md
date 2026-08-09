@@ -88,3 +88,5 @@ Implementation
 - ../architecture/AD-029_M84_VALIDATION_CATALOG.md
 - ../architecture/AD-030_M85_COMPARATOR.md
 - ../architecture/AD-031_M87_SCIENTIFIC_VALIDATION_RECORD.md
+- ../architecture/AD-033_M90_CONTROLLED_DATASET_PROVENANCE.md
+- controlled_datasets/CED-VAL-001.md
