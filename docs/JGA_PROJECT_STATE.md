@@ -1,5 +1,24 @@
 # JGA Project State
 
+## Phase II Validation Block 1
+
+Status:
+
+COMPLETED
+
+- The completed block is summarized by
+  `docs/scientific/PHASE_II_VALIDATION_BLOCK_1_COMPLETION_REPORT.md`.
+- F-031 and F-032 provide the governing scientific foundations.
+- H-VAL001-C1-03 and H-VAL001-C1-04 preserve the controlled experimental
+  evidence.
+- M91, M91.1 and M92 complete the minimum representation and production
+  discovery responsibility supported by that evidence.
+- The post-M92 Repository Authority Review found no remaining scientifically
+  demonstrated insufficiency requiring implementation.
+- No further implementation milestone is currently scientifically justified;
+  future implementation requires new reproducible evidence demonstrating an
+  actual insufficiency.
+
 ## M92 — Candidate Period Discovery
 
 Status:
