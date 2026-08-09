@@ -118,3 +118,8 @@ See `docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md`.
 The scientific identity of Candidate Period evidence is defined by
 `docs/scientific/foundations/F-032_CANDIDATE_PERIODS.md`. This reference does
 not add a Metric Context field or architectural responsibility.
+
+The standalone immutable representation of already-produced Candidate Period
+evidence is defined by
+`docs/architecture/AD-034_M91_CANDIDATE_PERIOD_REPRESENTATION.md`. M91 does not
+modify Metric Context or authorize Candidate Period discovery.

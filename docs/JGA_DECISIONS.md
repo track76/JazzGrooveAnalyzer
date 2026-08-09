@@ -2018,3 +2018,26 @@ The first canonical identities are `CED-VAL-001`,
 ## Canonical Specification
 
 `docs/architecture/AD-033_M90_CONTROLLED_DATASET_PROVENANCE.md`
+
+
+------------------------------------------------------------
+
+# AD-034 — M91 Candidate Period Representation
+
+## Status
+
+LOCKED
+
+## Decision
+
+Already-produced Candidate Period evidence is preserved by a standalone,
+deeply immutable Core representation. It preserves duration, recurrence
+occurrences, observation scope, provenance and reproducibility metadata
+without discovery, generation, selection or musical metric interpretation.
+
+The experiment-local recurrence protocol used by `H-VAL001-C1-03` is not
+promoted to production authority.
+
+## Canonical Specification
+
+`docs/architecture/AD-034_M91_CANDIDATE_PERIOD_REPRESENTATION.md`

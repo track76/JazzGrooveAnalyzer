@@ -1,5 +1,26 @@
 # JGA Project State
 
+## M91 — Scientific Representation of Candidate Periods
+
+Status:
+
+COMPLETED
+
+- AD-034 places already-produced, pre-interpretive Candidate Period evidence
+  in the existing Core observational representation location.
+- The immutable representation preserves duration, recurrence occurrences,
+  observation scope, provenance and reproducibility metadata only.
+- It performs no discovery, generation, selection, consumption or metric
+  interpretation.
+- `H-VAL001-C1-03` is used only as controlled preserved evidence; its
+  experiment-local recurrence protocol is not production authority.
+- The current `MetricContext`, analysis pipeline, `BeatPeriodEstimator`,
+  reconstruction path and validation schemas remain unchanged.
+- Focused immutable-representation and preserved-evidence validation:
+  10 passed for the VAL-001 full mix and five canonical WAV sources.
+- Complete automated suite: 991 passed, 1 known environment-dependent Demucs
+  MPS failure, 3 warnings.
+
 ## Phase II — Candidate Period Foundation
 
 Status:

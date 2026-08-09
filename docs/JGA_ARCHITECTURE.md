@@ -312,3 +312,12 @@ The permanent Scientific Validation Record boundary is defined by:
 Controlled experimental dataset generation provenance is defined by:
 
 - architecture/AD-033_M90_CONTROLLED_DATASET_PROVENANCE.md
+
+The immutable observational representation for already-produced Candidate
+Period evidence is defined by:
+
+- architecture/AD-034_M91_CANDIDATE_PERIOD_REPRESENTATION.md
+
+This standalone Core representation does not add Candidate Period discovery
+or alter Metric Context, Translation, Domain reconstruction or validation
+schemas.
