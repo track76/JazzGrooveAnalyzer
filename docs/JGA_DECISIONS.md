@@ -1952,6 +1952,29 @@ tolerance, classification or conclusions.
 
 ------------------------------------------------------------
 
+# AD-031 — M87 Scientific Validation Record
+
+## Status
+
+LOCKED
+
+## Decision
+
+One completed immutable Comparator Result and its matching Immutable Analysis
+Representation are materialized into a permanent immutable Scientific
+Validation Record. The boundary preserves identities, provenance, evidence,
+availability states and limitations without interpretation or modification.
+
+Record identity and fingerprint are deterministic for the preserved completed
+validation execution.
+
+## Canonical Specification
+
+`docs/architecture/AD-031_M87_SCIENTIFIC_VALIDATION_RECORD.md`
+
+
+------------------------------------------------------------
+
 # AD-032 — M89 PulseCandidate Strength Preservation
 
 ## Status

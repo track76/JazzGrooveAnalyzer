@@ -282,3 +282,33 @@ Validation
 - Full suite: 973 passed; one pre-existing Demucs/MPS environment integration
   test could not execute successfully because its configured backend requires
   macOS 14 or later.
+
+
+------------------------------------------------------------
+M87 — SCIENTIFIC VALIDATION RECORD
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-031 Scientific Validation Record approved and specified.
+- Immutable preservation of Comparator evidence, result and input provenance
+  implemented.
+- Validation Item, Ground Truth, analysis execution, Comparator execution,
+  protocol and schema identities preserved.
+- Analysis limitations and all Comparator availability states preserved.
+- Deterministic record identity and SHA-256 content fingerprint implemented.
+- Identity and content binding enforced before record creation.
+- Real VAL-001 end-to-end chain completed through the Scientific Validation
+  Record without metrics, tolerances, classification or conclusions.
+
+Validation
+
+- Scientific Validation Record focused and real-chain tests: 7 passed.
+- M87 boundary through VAL-001 scientific validation: 65 passed.
+- Full suite: 980 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.

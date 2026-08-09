@@ -87,3 +87,4 @@ Implementation
 - ../architecture/AD-028_M83_GROUND_TRUTH_REFERENCE.md
 - ../architecture/AD-029_M84_VALIDATION_CATALOG.md
 - ../architecture/AD-030_M85_COMPARATOR.md
+- ../architecture/AD-031_M87_SCIENTIFIC_VALIDATION_RECORD.md

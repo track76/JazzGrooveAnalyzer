@@ -216,6 +216,11 @@ reproducibility requirements.
 
 See F-030 — Scientific Knowledge Record.
 
+The immutable preservation boundary for one completed validation execution is
+defined by:
+
+- `docs/architecture/AD-031_M87_SCIENTIFIC_VALIDATION_RECORD.md`
+
 ---
 
 # 10. Future Datasets

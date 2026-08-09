@@ -300,3 +300,7 @@ The scientific Comparator boundary is defined by:
 
 The approved completed-analysis materialization boundary is defined by AD-027
 and implemented in `src/jga/analysis_representation/`.
+
+The permanent Scientific Validation Record boundary is defined by:
+
+- architecture/AD-031_M87_SCIENTIFIC_VALIDATION_RECORD.md
