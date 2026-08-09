@@ -41,3 +41,20 @@ schema-1 Validation Item binding, using identical MP3 export settings.
 Generating application version, rendering-library version, generation date,
 rendering configuration and MP3 encoder configuration remain `not specified`
 until supplied by the human renderer. Licensing status is `not_specified`.
+
+## Supplied audio assets
+
+The following identities are Observed Facts:
+
+- `audio/condition_a.wav` — `33f8089ca9a09f711674dc272d7e3b6e2437080539aa046ed244158e599a08fd`
+- `audio/condition_a_repeat.wav` — `f1f751d8a8b84fe87d790d32e91458ec20e4d2b2937af1e30410884ee31f804b`
+- `audio/condition_a.mp3` — `7fbbc692188805453f7b905d9bff9e678fdf9a91c38d612a10f71e5e2d0b7399`
+- `audio/condition_b.wav` — `d05a259bc2f8468c9160cfec6efa7643bc1176354898fcf9e8336db09bee7c10`
+- `audio/condition_b_repeat.wav` — `d05a259bc2f8468c9160cfec6efa7643bc1176354898fcf9e8336db09bee7c10`
+- `audio/condition_b.mp3` — `d99574c296ea874c5b5c1faaa9c96943f924f4f2f7fd59d6ed99ebb65bead83b`
+
+All WAV assets are stereo 24-bit PCM at 44.1 kHz. Condition A contains
+1,983,488 samples per channel; Condition B contains 1,470,464. Independent
+render initiation remains a Declared Experimental Procedure. The byte-identical
+Condition B renders establish numerical reproduction but do not independently
+prove how the second file was generated.

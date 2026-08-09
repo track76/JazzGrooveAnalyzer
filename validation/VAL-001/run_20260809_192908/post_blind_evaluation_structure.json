@@ -1,12 +1,17 @@
 {
-  "blind_record_fingerprint": "__REQUIRED_AFTER_BLIND_FREEZE__",
-  "candidate_population_comparison": "__REQUIRED_FROZEN_NUMERICAL_EVIDENCE__",
+  "blind_record_fingerprint": "72a6e90000a621569f3800da3bcbe57206481a03c0b44728f4e6cd68b21f8061",
+  "candidate_population_comparison": "post_blind_evaluation.json",
   "condition_a_ground_truth_id": "GT-VAL-001-TS-A-v1",
-  "condition_a_validation_record_id": "__REQUIRED_AFTER_EXECUTION__",
-  "condition_assignment": "__REQUIRED_AFTER_BLIND_FREEZE__",
+  "condition_assignment": {
+    "condition_a": "BLIND-CONDITION-01",
+    "condition_b": "BLIND-CONDITION-02"
+  },
   "condition_b_ground_truth_id": "GT-VAL-001-TS-B-v1",
-  "condition_b_validation_record_id": "__REQUIRED_AFTER_EXECUTION__",
   "experiment_id": "H-VAL001-C1-07",
-  "limitations": [],
-  "temporal_scaling_assessment": "__REQUIRED_EVIDENCE_CLASSIFIED_RESULT__"
+  "limitations": [
+    "No tolerance or equivalence threshold is authorized.",
+    "Integer-frame observation quantization may prevent exact scaled equality.",
+    "No candidate receives musical metric meaning."
+  ],
+  "temporal_scaling_assessment": "EVIDENCE INSUFFICIENT"
 }

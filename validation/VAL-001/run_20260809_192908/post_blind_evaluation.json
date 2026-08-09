@@ -1,0 +1,107 @@
+{
+  "blind_record_fingerprint": "72a6e90000a621569f3800da3bcbe57206481a03c0b44728f4e6cd68b21f8061",
+  "candidate_period_counts": {
+    "condition_a": {
+      "0.37151927437641724": 3,
+      "0.3831292517006803": 7,
+      "0.3947392290249433": 3,
+      "0.7662585034013606": 5,
+      "0.7778684807256236": 3,
+      "1.1493877551020408": 2,
+      "1.1609977324263039": 3,
+      "1.5441269841269842": 2,
+      "2.693514739229025": 3
+    },
+    "condition_b": {
+      "0.2670294784580499": 4,
+      "0.2786394557823129": 6,
+      "0.5456689342403628": 6,
+      "0.8243083900226758": 5,
+      "1.3467573696145125": 2,
+      "1.9156462585034013": 2
+    }
+  },
+  "classification_rule": "Without an authorized tolerance, only exact frame-domain scaling relationships support the scaling proposition.",
+  "condition_assignment": {
+    "condition_a": "BLIND-CONDITION-01",
+    "condition_b": "BLIND-CONDITION-02"
+  },
+  "exact_authoritative_scale_pairs": [],
+  "experiment_id": "H-VAL001-C1-07",
+  "ground_truth": {
+    "condition_a_id": "GT-VAL-001-TS-A-v1",
+    "condition_a_tempo": {
+      "beat_unit": "quarter",
+      "beats_per_minute": "78"
+    },
+    "condition_b_id": "GT-VAL-001-TS-B-v1",
+    "condition_b_tempo": {
+      "beat_unit": "quarter",
+      "beats_per_minute": "110"
+    },
+    "derived_temporal_scale_b_over_a": "0.7090909090909090909090909091"
+  },
+  "limitations": [
+    "No tolerance or equivalence threshold is authorized.",
+    "Integer-frame observation quantization may prevent exact scaled equality.",
+    "No candidate is assigned beat, tempo, tactus, subdivision or metric level."
+  ],
+  "nearest_pair_descriptions_without_equivalence_claim": [
+    {
+      "condition_a_frames": "32",
+      "expected_scaled_frames": "22.69090909090909090909090909",
+      "nearest_condition_b_frames": "23",
+      "signed_frame_difference": "0.30909090909090909090909091"
+    },
+    {
+      "condition_a_frames": "33",
+      "expected_scaled_frames": "23.40000000000000000000000000",
+      "nearest_condition_b_frames": "23",
+      "signed_frame_difference": "-0.40000000000000000000000000"
+    },
+    {
+      "condition_a_frames": "34",
+      "expected_scaled_frames": "24.10909090909090909090909091",
+      "nearest_condition_b_frames": "24",
+      "signed_frame_difference": "-0.10909090909090909090909091"
+    },
+    {
+      "condition_a_frames": "66",
+      "expected_scaled_frames": "46.80000000000000000000000000",
+      "nearest_condition_b_frames": "47",
+      "signed_frame_difference": "0.20000000000000000000000000"
+    },
+    {
+      "condition_a_frames": "67",
+      "expected_scaled_frames": "47.50909090909090909090909091",
+      "nearest_condition_b_frames": "47",
+      "signed_frame_difference": "-0.50909090909090909090909091"
+    },
+    {
+      "condition_a_frames": "99",
+      "expected_scaled_frames": "70.20000000000000000000000000",
+      "nearest_condition_b_frames": "71",
+      "signed_frame_difference": "0.80000000000000000000000000"
+    },
+    {
+      "condition_a_frames": "100",
+      "expected_scaled_frames": "70.90909090909090909090909091",
+      "nearest_condition_b_frames": "71",
+      "signed_frame_difference": "0.09090909090909090909090909"
+    },
+    {
+      "condition_a_frames": "133",
+      "expected_scaled_frames": "94.30909090909090909090909091",
+      "nearest_condition_b_frames": "116",
+      "signed_frame_difference": "21.69090909090909090909090909"
+    },
+    {
+      "condition_a_frames": "232",
+      "expected_scaled_frames": "164.5090909090909090909090909",
+      "nearest_condition_b_frames": "165",
+      "signed_frame_difference": "0.4909090909090909090909091"
+    }
+  ],
+  "post_blind_fingerprint": "985c373e1f0d8a590a348ca2d94ffcfc91128905321a3a1cae370561b833c80d",
+  "scientific_classification": "EVIDENCE INSUFFICIENT"
+}

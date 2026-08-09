@@ -10,5 +10,5 @@
   "experiment_id": "H-VAL001-C1-07",
   "ground_truth_available_during_analysis": false,
   "musicxml_available_during_analysis": false,
-  "status": "BLOCKED_EXTERNAL_AUDIO_REQUIRED"
+  "status": "COMPLETED"
 }

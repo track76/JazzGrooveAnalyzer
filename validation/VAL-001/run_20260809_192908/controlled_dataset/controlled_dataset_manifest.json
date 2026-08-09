@@ -10,11 +10,11 @@
     },
     "canonical_wav": {
       "repository_path": "audio/condition_a.wav",
-      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      "sha256": "33f8089ca9a09f711674dc272d7e3b6e2437080539aa046ed244158e599a08fd"
     },
     "catalogue_mp3": {
       "repository_path": "audio/condition_a.mp3",
-      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      "sha256": "7fbbc692188805453f7b905d9bff9e678fdf9a91c38d612a10f71e5e2d0b7399"
     },
     "condition_id": "CED-VAL-001-TS-001-A",
     "ground_truth_definition": {
@@ -25,7 +25,7 @@
     "licensing_status": "not_specified",
     "repeated_render_wav": {
       "repository_path": "audio/condition_a_repeat.wav",
-      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      "sha256": "f1f751d8a8b84fe87d790d32e91458ec20e4d2b2937af1e30410884ee31f804b"
     },
     "validation_item_id": "VAL-001-TS-A"
   },
@@ -40,11 +40,11 @@
     },
     "canonical_wav": {
       "repository_path": "audio/condition_b.wav",
-      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      "sha256": "d05a259bc2f8468c9160cfec6efa7643bc1176354898fcf9e8336db09bee7c10"
     },
     "catalogue_mp3": {
       "repository_path": "audio/condition_b.mp3",
-      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      "sha256": "d99574c296ea874c5b5c1faaa9c96943f924f4f2f7fd59d6ed99ebb65bead83b"
     },
     "condition_id": "CED-VAL-001-TS-001-B",
     "ground_truth_definition": {
@@ -55,7 +55,7 @@
     "licensing_status": "not_specified",
     "repeated_render_wav": {
       "repository_path": "audio/condition_b_repeat.wav",
-      "sha256": "__REQUIRED_EXTERNAL_SHA256__"
+      "sha256": "d05a259bc2f8468c9160cfec6efa7643bc1176354898fcf9e8336db09bee7c10"
     },
     "validation_item_id": "VAL-001-TS-B"
   },
@@ -69,7 +69,7 @@
   "controlled_dataset_id": "CED-VAL-001-TS-001",
   "dataset_generation_record": {
     "repository_path": "provenance/dataset_generation_record.md",
-    "sha256": "2aef3abb9ea3381819a9cc517868eb25bd1a2bb447c7970c8f6a63a6df340a8a"
+    "sha256": "d85fa299feb40c112fe322e7ce6cc7ff628ba7318aae308431bfbcff9e804da5"
   },
   "dataset_generation_record_id": "DGR-CED-VAL-001-TS-001-001",
   "experiment_id": "H-VAL001-C1-07",

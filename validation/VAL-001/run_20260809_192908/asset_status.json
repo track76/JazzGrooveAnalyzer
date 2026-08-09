@@ -1,6 +1,7 @@
 {
   "experiment_id": "H-VAL001-C1-07",
-  "external_required": [
+  "external_required": [],
+  "available": [
     "controlled_dataset/audio/condition_a.wav",
     "controlled_dataset/audio/condition_a_repeat.wav",
     "controlled_dataset/audio/condition_a.mp3",
@@ -9,5 +10,5 @@
     "controlled_dataset/audio/condition_b.mp3"
   ],
   "licensing_status": "not_specified",
-  "package_validation_status": "BLOCKED_EXTERNAL_AUDIO_REQUIRED"
+  "package_validation_status": "VALID"
 }

@@ -1,0 +1,8 @@
+{
+  "asset_validation_fingerprint": "e000ee88f609abb1cde5751be254ae78f4542e350f576bd9f157bd9c20aea2a1",
+  "blind_record_fingerprint": "72a6e90000a621569f3800da3bcbe57206481a03c0b44728f4e6cd68b21f8061",
+  "experiment_id": "H-VAL001-C1-07",
+  "post_blind_fingerprint": "985c373e1f0d8a590a348ca2d94ffcfc91128905321a3a1cae370561b833c80d",
+  "result": "VALID",
+  "scientific_classification": "EVIDENCE INSUFFICIENT"
+}

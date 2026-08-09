@@ -1,0 +1,82 @@
+{
+  "condition_b_distinct_from_c1_06": true,
+  "controlled_dataset_id": "CED-VAL-001-TS-001",
+  "experiment_id": "H-VAL001-C1-07",
+  "limitations": [
+    "A and B were not generated in one repository-controlled renderer.",
+    "No audio-to-symbolic correspondence tolerance is defined."
+  ],
+  "package_fingerprint": "e000ee88f609abb1cde5751be254ae78f4542e350f576bd9f157bd9c20aea2a1",
+  "result": "VALID",
+  "temporal_origin": {
+    "classification": "Declared Experimental Procedure with supporting physical observation",
+    "declared_procedure": "MusicXML score time zero = WAV sample zero",
+    "observed_common_first_acoustic_frame": 1
+  },
+  "wav_measurements": {
+    "a": {
+      "canonical": {
+        "bit_depth": 24,
+        "channel_count": 2,
+        "codec": "PCM",
+        "duration_seconds": 44.977052154195015,
+        "file_sha256": "33f8089ca9a09f711674dc272d7e3b6e2437080539aa046ed244158e599a08fd",
+        "sample_count_per_channel": 1983488,
+        "sample_rate_hz": 44100
+      },
+      "difference": {
+        "differing_scalar_sample_count": 971111,
+        "first_nonzero_frame_canonical": 1,
+        "first_nonzero_frame_repeated": 1,
+        "last_nonzero_frame_canonical": 1909751,
+        "last_nonzero_frame_repeated": 1909751,
+        "maximum_absolute_difference_24bit_units": 214405,
+        "mean_absolute_difference_24bit_units": 2929.8233213409912,
+        "rms_difference_24bit_units": 10623.7160919889,
+        "sample_values_identical": false,
+        "total_scalar_sample_count": 3966976
+      },
+      "repeat": {
+        "bit_depth": 24,
+        "channel_count": 2,
+        "codec": "PCM",
+        "duration_seconds": 44.977052154195015,
+        "file_sha256": "f1f751d8a8b84fe87d790d32e91458ec20e4d2b2937af1e30410884ee31f804b",
+        "sample_count_per_channel": 1983488,
+        "sample_rate_hz": 44100
+      }
+    },
+    "b": {
+      "canonical": {
+        "bit_depth": 24,
+        "channel_count": 2,
+        "codec": "PCM",
+        "duration_seconds": 33.34385487528345,
+        "file_sha256": "d05a259bc2f8468c9160cfec6efa7643bc1176354898fcf9e8336db09bee7c10",
+        "sample_count_per_channel": 1470464,
+        "sample_rate_hz": 44100
+      },
+      "difference": {
+        "differing_scalar_sample_count": 0,
+        "first_nonzero_frame_canonical": 1,
+        "first_nonzero_frame_repeated": 1,
+        "last_nonzero_frame_canonical": 1398187,
+        "last_nonzero_frame_repeated": 1398187,
+        "maximum_absolute_difference_24bit_units": 0,
+        "mean_absolute_difference_24bit_units": 0.0,
+        "rms_difference_24bit_units": 0.0,
+        "sample_values_identical": true,
+        "total_scalar_sample_count": 2940928
+      },
+      "repeat": {
+        "bit_depth": 24,
+        "channel_count": 2,
+        "codec": "PCM",
+        "duration_seconds": 33.34385487528345,
+        "file_sha256": "d05a259bc2f8468c9160cfec6efa7643bc1176354898fcf9e8336db09bee7c10",
+        "sample_count_per_channel": 1470464,
+        "sample_rate_hz": 44100
+      }
+    }
+  }
+}
