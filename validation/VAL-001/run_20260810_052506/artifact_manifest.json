@@ -1,0 +1,15 @@
+{
+  "artifacts": {
+    "blind_inputs.json": "6bfa772d5845a8727742a7de45f0f98fb7b31448ebf1d215aa31c07c74644863",
+    "blind_results.json": "2fa2b5a2c36deff82f610206f826c367ccec5cd96de01b5afaca78a88a5ba84d",
+    "experiment.py": "5e7e87fc64a06c1e471179afd6562d2c585e038b89b11e56fb761020020e761a",
+    "manifest.json": "88f9c042cde480ccf0a4298dbe4f8169ef518a4764f25d0c11046d39add8d88e",
+    "measurement_generation_record.json": "7af46d7061074b6bc4a59966300fc6fe3e6b6c04f2edd7918af4880bca6b0a45",
+    "post_blind_evaluation.json": "e9c1da2fc2a1cad9606bb9ca541f2dd06c408cbed80e85254d849eab7c9ce42a",
+    "report.md": "16e87d275c305121c2fc615f790e3c06fe9af2c500d3e0b3513af0b249a93d51",
+    "reproducibility.json": "5bd4b0f901d7c95a13cf24f6570cbae457f6585004f42dd7770ac1e6cb1fd890",
+    "runtime.log.json": "d54394cd30be1c91ded5fff2b076f7edd67cccae61ba1219924aee1b31832d9a"
+  },
+  "experiment_id": "H-VAL001-C1-08",
+  "repository_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8"
+}

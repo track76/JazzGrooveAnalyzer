@@ -1,0 +1,37 @@
+{
+  "classification": "Declared Experimental Procedure",
+  "condition_assignment": {
+    "BLIND-POPULATION-01": "identity transformation",
+    "BLIND-POPULATION-02": "sample position multiplied by 7/10"
+  },
+  "controlled_temporal_scale": "7/10",
+  "criterion_status": "experiment-local scientific hypothesis",
+  "experiment_id": "H-VAL001-C1-08",
+  "measurement_regimes": [
+    {
+      "frame_length_samples": 512,
+      "grid_origin_samples": 0,
+      "measurement_regime_id": "GRID-512-PHASE-0",
+      "rounding": "ROUND_HALF_EVEN",
+      "sample_rate_hz": 44100
+    },
+    {
+      "frame_length_samples": 512,
+      "grid_origin_samples": 256,
+      "measurement_regime_id": "GRID-512-PHASE-256",
+      "rounding": "ROUND_HALF_EVEN",
+      "sample_rate_hz": 44100
+    },
+    {
+      "frame_length_samples": 256,
+      "grid_origin_samples": 0,
+      "measurement_regime_id": "GRID-256-PHASE-0",
+      "rounding": "ROUND_HALF_EVEN",
+      "sample_rate_hz": 44100
+    }
+  ],
+  "musical_semantics": "none",
+  "preregistered_correspondence_criterion": "Two Candidate Periods have experiment-local lineage-supported correspondence when at least two identical adjacent source-observation pairs support the first period and, after the declared controlled transformation and measurement operation, support the second period.",
+  "source_event_identity": "stable zero-based observation index",
+  "source_population": "H-VAL001-C1-07 BLIND-CONDITION-01"
+}

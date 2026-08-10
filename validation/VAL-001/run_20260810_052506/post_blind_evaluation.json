@@ -1,0 +1,727 @@
+{
+  "blind_population_fingerprints": {
+    "GRID-256-PHASE-0": {
+      "BLIND-POPULATION-01": "6ad7920e907843604c4ee9495685dfbf772d6523675e5c97865ae411938bdaff",
+      "BLIND-POPULATION-02": "9e713ba7f4d68ff9ceb428fe7dfe736d5677c1770e476163aa086826a0260ed9"
+    },
+    "GRID-512-PHASE-0": {
+      "BLIND-POPULATION-01": "a87701a6868593fb6ed367ab13a617f0f604a1bfe995425002da3016c7fa0c92",
+      "BLIND-POPULATION-02": "2f592ab73db6b55eea743cfb2e3506436d2eeb339908b98bf51b9fb0d0f7585b"
+    },
+    "GRID-512-PHASE-256": {
+      "BLIND-POPULATION-01": "e25d4c919312bb1291be85ae72fb1f9ab72e50d0cbb18bf11276eea6eaa741e3",
+      "BLIND-POPULATION-02": "b441c6a76b59eef8799beedad2cab1038e54b0cba22a53f259fe1b1c9a15bd1b"
+    }
+  },
+  "condition_assignment_revealed_after_blind_freeze": {
+    "BLIND-POPULATION-01": "identity transformation",
+    "BLIND-POPULATION-02": "sample position multiplied by 7/10"
+  },
+  "controlled_temporal_scale": "7/10",
+  "correspondence_criterion": "Two Candidate Periods have experiment-local lineage-supported correspondence when at least two identical adjacent source-observation pairs support the first period and, after the declared controlled transformation and measurement operation, support the second period.",
+  "experiment_id": "H-VAL001-C1-08",
+  "ground_truth_loaded": false,
+  "limitations": [
+    "The second population is an experiment-local deterministic transformation of frozen observations, not an independent audio observation.",
+    "The experiment isolates discrete remeasurement and does not validate onset detection or rendering correspondence.",
+    "Lineage-supported correspondence does not establish equivalence, musical meaning, beat, tempo, meter, tactus or metric level.",
+    "Absence of lineage-supported correspondence does not establish that observations are unrelated."
+  ],
+  "measurement_evaluations": {
+    "GRID-256-PHASE-0": {
+      "correspondence_count": 10,
+      "correspondences": [
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 64,
+          "population_02_duration_frames": 45,
+          "shared_support_count": 3,
+          "shared_supporting_event_pairs": [
+            [
+              20,
+              21
+            ],
+            [
+              28,
+              29
+            ],
+            [
+              33,
+              34
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 66,
+          "population_02_duration_frames": 46,
+          "shared_support_count": 7,
+          "shared_supporting_event_pairs": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              18,
+              19
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              29,
+              30
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 68,
+          "population_02_duration_frames": 48,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              9,
+              10
+            ],
+            [
+              27,
+              28
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 132,
+          "population_02_duration_frames": 92,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              8,
+              9
+            ],
+            [
+              26,
+              27
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 132,
+          "population_02_duration_frames": 93,
+          "shared_support_count": 3,
+          "shared_supporting_event_pairs": [
+            [
+              5,
+              6
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              31,
+              32
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 134,
+          "population_02_duration_frames": 94,
+          "shared_support_count": 3,
+          "shared_supporting_event_pairs": [
+            [
+              1,
+              2
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              13,
+              14
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 198,
+          "population_02_duration_frames": 138,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              12
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 200,
+          "population_02_duration_frames": 140,
+          "shared_support_count": 3,
+          "shared_supporting_event_pairs": [
+            [
+              25,
+              26
+            ],
+            [
+              34,
+              35
+            ],
+            [
+              35,
+              36
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 266,
+          "population_02_duration_frames": 186,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              21,
+              22
+            ],
+            [
+              32,
+              33
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 464,
+          "population_02_duration_frames": 325,
+          "shared_support_count": 3,
+          "shared_supporting_event_pairs": [
+            [
+              15,
+              16
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              37,
+              38
+            ]
+          ]
+        }
+      ],
+      "lineage_distributions": [
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 64,
+          "population_02_candidate_support_by_duration": {
+            "45": 3
+          }
+        },
+        {
+          "candidate_support_count": 7,
+          "population_01_duration_frames": 66,
+          "population_02_candidate_support_by_duration": {
+            "46": 7
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 68,
+          "population_02_candidate_support_by_duration": {
+            "48": 2
+          }
+        },
+        {
+          "candidate_support_count": 5,
+          "population_01_duration_frames": 132,
+          "population_02_candidate_support_by_duration": {
+            "92": 2,
+            "93": 3
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 134,
+          "population_02_candidate_support_by_duration": {
+            "94": 3
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 198,
+          "population_02_candidate_support_by_duration": {
+            "138": 2
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 200,
+          "population_02_candidate_support_by_duration": {
+            "140": 3
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 266,
+          "population_02_candidate_support_by_duration": {
+            "186": 2
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 464,
+          "population_02_candidate_support_by_duration": {
+            "325": 3
+          }
+        }
+      ]
+    },
+    "GRID-512-PHASE-0": {
+      "correspondence_count": 8,
+      "correspondences": [
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 32,
+          "population_02_duration_frames": 22,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              20,
+              21
+            ],
+            [
+              28,
+              29
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 33,
+          "population_02_duration_frames": 23,
+          "shared_support_count": 7,
+          "shared_supporting_event_pairs": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              18,
+              19
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              29,
+              30
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 34,
+          "population_02_duration_frames": 24,
+          "shared_support_count": 3,
+          "shared_supporting_event_pairs": [
+            [
+              9,
+              10
+            ],
+            [
+              27,
+              28
+            ],
+            [
+              30,
+              31
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 66,
+          "population_02_duration_frames": 46,
+          "shared_support_count": 5,
+          "shared_supporting_event_pairs": [
+            [
+              5,
+              6
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              26,
+              27
+            ],
+            [
+              31,
+              32
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 67,
+          "population_02_duration_frames": 47,
+          "shared_support_count": 3,
+          "shared_supporting_event_pairs": [
+            [
+              1,
+              2
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              13,
+              14
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 99,
+          "population_02_duration_frames": 70,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              12
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 100,
+          "population_02_duration_frames": 70,
+          "shared_support_count": 3,
+          "shared_supporting_event_pairs": [
+            [
+              25,
+              26
+            ],
+            [
+              34,
+              35
+            ],
+            [
+              35,
+              36
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 232,
+          "population_02_duration_frames": 163,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              17,
+              18
+            ],
+            [
+              37,
+              38
+            ]
+          ]
+        }
+      ],
+      "lineage_distributions": [
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 32,
+          "population_02_candidate_support_by_duration": {
+            "22": 2,
+            "23": 1
+          }
+        },
+        {
+          "candidate_support_count": 7,
+          "population_01_duration_frames": 33,
+          "population_02_candidate_support_by_duration": {
+            "23": 7
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 34,
+          "population_02_candidate_support_by_duration": {
+            "24": 3
+          }
+        },
+        {
+          "candidate_support_count": 5,
+          "population_01_duration_frames": 66,
+          "population_02_candidate_support_by_duration": {
+            "46": 5
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 67,
+          "population_02_candidate_support_by_duration": {
+            "47": 3
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 99,
+          "population_02_candidate_support_by_duration": {
+            "70": 2
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 100,
+          "population_02_candidate_support_by_duration": {
+            "70": 3
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 133,
+          "population_02_candidate_support_by_duration": {}
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 232,
+          "population_02_candidate_support_by_duration": {
+            "163": 2
+          }
+        }
+      ]
+    },
+    "GRID-512-PHASE-256": {
+      "correspondence_count": 5,
+      "correspondences": [
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 32,
+          "population_02_duration_frames": 23,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              2,
+              3
+            ],
+            [
+              24,
+              25
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 33,
+          "population_02_duration_frames": 23,
+          "shared_support_count": 5,
+          "shared_supporting_event_pairs": [
+            [
+              7,
+              8
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              18,
+              19
+            ],
+            [
+              29,
+              30
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 66,
+          "population_02_duration_frames": 46,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              31,
+              32
+            ],
+            [
+              36,
+              37
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 67,
+          "population_02_duration_frames": 47,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              1,
+              2
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "numerical_identity": false,
+          "population_01_duration_frames": 100,
+          "population_02_duration_frames": 70,
+          "shared_support_count": 2,
+          "shared_supporting_event_pairs": [
+            [
+              25,
+              26
+            ],
+            [
+              34,
+              35
+            ]
+          ]
+        }
+      ],
+      "lineage_distributions": [
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 31,
+          "population_02_candidate_support_by_duration": {
+            "22": 1,
+            "23": 1
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 32,
+          "population_02_candidate_support_by_duration": {
+            "23": 2
+          }
+        },
+        {
+          "candidate_support_count": 6,
+          "population_01_duration_frames": 33,
+          "population_02_candidate_support_by_duration": {
+            "22": 1,
+            "23": 5
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 35,
+          "population_02_candidate_support_by_duration": {
+            "23": 1
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 65,
+          "population_02_candidate_support_by_duration": {
+            "46": 1,
+            "47": 1
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 66,
+          "population_02_candidate_support_by_duration": {
+            "46": 2,
+            "47": 1
+          }
+        },
+        {
+          "candidate_support_count": 3,
+          "population_01_duration_frames": 67,
+          "population_02_candidate_support_by_duration": {
+            "46": 1,
+            "47": 2
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 99,
+          "population_02_candidate_support_by_duration": {
+            "69": 1,
+            "70": 1
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 100,
+          "population_02_candidate_support_by_duration": {
+            "70": 2
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 231,
+          "population_02_candidate_support_by_duration": {
+            "162": 1
+          }
+        },
+        {
+          "candidate_support_count": 2,
+          "population_01_duration_frames": 233,
+          "population_02_candidate_support_by_duration": {
+            "162": 1
+          }
+        }
+      ]
+    }
+  },
+  "post_blind_fingerprint": "bb9e9c69686484c3b04bf671a49491e35907ffeb471ae3a01f14864767ccc31e"
+}

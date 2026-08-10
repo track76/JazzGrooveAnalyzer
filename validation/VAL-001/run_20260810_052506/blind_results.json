@@ -1,0 +1,1388 @@
+{
+  "blind_scientific_fingerprint": "5432b45352b56601d95cbcd2d4f0eb436d6157c97c1ef489b3fd9fb5944d2a25",
+  "condition_semantics_available": false,
+  "experiment_id": "H-VAL001-C1-08",
+  "ground_truth_loaded": false,
+  "measurement_results": {
+    "GRID-256-PHASE-0": {
+      "measurement_configuration": {
+        "frame_length_samples": 256,
+        "grid_origin_samples": 0,
+        "rounding": "ROUND_HALF_EVEN",
+        "sample_rate_hz": 44100
+      },
+      "populations": {
+        "BLIND-POPULATION-01": {
+          "candidates": [
+            {
+              "duration_frames": 64,
+              "duration_seconds": "0.3715192743764172335600907029",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  20,
+                  21
+                ],
+                [
+                  28,
+                  29
+                ],
+                [
+                  33,
+                  34
+                ]
+              ]
+            },
+            {
+              "duration_frames": 66,
+              "duration_seconds": "0.3831292517006802721088435374",
+              "occurrence_count": 7,
+              "supporting_event_pairs": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  24,
+                  25
+                ],
+                [
+                  29,
+                  30
+                ]
+              ]
+            },
+            {
+              "duration_frames": 68,
+              "duration_seconds": "0.3947392290249433106575963719",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  9,
+                  10
+                ],
+                [
+                  27,
+                  28
+                ],
+                [
+                  30,
+                  31
+                ]
+              ]
+            },
+            {
+              "duration_frames": 132,
+              "duration_seconds": "0.7662585034013605442176870748",
+              "occurrence_count": 5,
+              "supporting_event_pairs": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  26,
+                  27
+                ],
+                [
+                  31,
+                  32
+                ]
+              ]
+            },
+            {
+              "duration_frames": 134,
+              "duration_seconds": "0.7778684807256235827664399093",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  13,
+                  14
+                ]
+              ]
+            },
+            {
+              "duration_frames": 198,
+              "duration_seconds": "1.149387755102040816326530612",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  11,
+                  12
+                ]
+              ]
+            },
+            {
+              "duration_frames": 200,
+              "duration_seconds": "1.160997732426303854875283447",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  25,
+                  26
+                ],
+                [
+                  34,
+                  35
+                ],
+                [
+                  35,
+                  36
+                ]
+              ]
+            },
+            {
+              "duration_frames": 266,
+              "duration_seconds": "1.544126984126984126984126984",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  21,
+                  22
+                ],
+                [
+                  32,
+                  33
+                ]
+              ]
+            },
+            {
+              "duration_frames": 464,
+              "duration_seconds": "2.693514739229024943310657596",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  15,
+                  16
+                ],
+                [
+                  17,
+                  18
+                ],
+                [
+                  37,
+                  38
+                ]
+              ]
+            }
+          ],
+          "deeply_immutable_runtime_type": true,
+          "measurement_unit": "seconds",
+          "observation_scope": {
+            "end_seconds": "39.63646258503401",
+            "observation_population_id": "GRID-256-PHASE-0:BLIND-POPULATION-01",
+            "source_identity": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "start_seconds": "0"
+          },
+          "provenance": {
+            "discovery_configuration": [
+              [
+                "frame_length_samples",
+                "256"
+              ],
+              [
+                "grid_origin_samples",
+                "0"
+              ],
+              [
+                "sample_rate_hz",
+                "44100"
+              ],
+              [
+                "rounding",
+                "ROUND_HALF_EVEN"
+              ],
+              [
+                "recurrence_definition",
+                "exact consecutive positive frame interval occurring at least twice"
+              ]
+            ],
+            "input_asset_path": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "input_asset_sha256": "dc3fffe99c1be1dafe4b85a0661892f3a8c56cc0f10743d8dda66e44520205e0",
+            "source_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8"
+          },
+          "scientific_content_fingerprint": "6ad7920e907843604c4ee9495685dfbf772d6523675e5c97865ae411938bdaff"
+        },
+        "BLIND-POPULATION-02": {
+          "candidates": [
+            {
+              "duration_frames": 45,
+              "duration_seconds": "0.2612244897959183673469387755",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  20,
+                  21
+                ],
+                [
+                  28,
+                  29
+                ],
+                [
+                  33,
+                  34
+                ]
+              ]
+            },
+            {
+              "duration_frames": 46,
+              "duration_seconds": "0.2670294784580498866213151927",
+              "occurrence_count": 7,
+              "supporting_event_pairs": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  24,
+                  25
+                ],
+                [
+                  29,
+                  30
+                ]
+              ]
+            },
+            {
+              "duration_frames": 48,
+              "duration_seconds": "0.2786394557823129251700680272",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  9,
+                  10
+                ],
+                [
+                  27,
+                  28
+                ]
+              ]
+            },
+            {
+              "duration_frames": 92,
+              "duration_seconds": "0.5340589569160997732426303855",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  8,
+                  9
+                ],
+                [
+                  26,
+                  27
+                ]
+              ]
+            },
+            {
+              "duration_frames": 93,
+              "duration_seconds": "0.5398639455782312925170068027",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  31,
+                  32
+                ]
+              ]
+            },
+            {
+              "duration_frames": 94,
+              "duration_seconds": "0.5456689342403628117913832200",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  13,
+                  14
+                ]
+              ]
+            },
+            {
+              "duration_frames": 138,
+              "duration_seconds": "0.8010884353741496598639455782",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  11,
+                  12
+                ]
+              ]
+            },
+            {
+              "duration_frames": 140,
+              "duration_seconds": "0.8126984126984126984126984127",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  25,
+                  26
+                ],
+                [
+                  34,
+                  35
+                ],
+                [
+                  35,
+                  36
+                ]
+              ]
+            },
+            {
+              "duration_frames": 186,
+              "duration_seconds": "1.079727891156462585034013605",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  21,
+                  22
+                ],
+                [
+                  32,
+                  33
+                ]
+              ]
+            },
+            {
+              "duration_frames": 325,
+              "duration_seconds": "1.886621315192743764172335601",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  15,
+                  16
+                ],
+                [
+                  17,
+                  18
+                ],
+                [
+                  37,
+                  38
+                ]
+              ]
+            }
+          ],
+          "deeply_immutable_runtime_type": true,
+          "measurement_unit": "seconds",
+          "observation_scope": {
+            "end_seconds": "27.74784580498866",
+            "observation_population_id": "GRID-256-PHASE-0:BLIND-POPULATION-02",
+            "source_identity": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "start_seconds": "0"
+          },
+          "provenance": {
+            "discovery_configuration": [
+              [
+                "frame_length_samples",
+                "256"
+              ],
+              [
+                "grid_origin_samples",
+                "0"
+              ],
+              [
+                "sample_rate_hz",
+                "44100"
+              ],
+              [
+                "rounding",
+                "ROUND_HALF_EVEN"
+              ],
+              [
+                "recurrence_definition",
+                "exact consecutive positive frame interval occurring at least twice"
+              ]
+            ],
+            "input_asset_path": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "input_asset_sha256": "dc3fffe99c1be1dafe4b85a0661892f3a8c56cc0f10743d8dda66e44520205e0",
+            "source_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8"
+          },
+          "scientific_content_fingerprint": "9e713ba7f4d68ff9ceb428fe7dfe736d5677c1770e476163aa086826a0260ed9"
+        }
+      }
+    },
+    "GRID-512-PHASE-0": {
+      "measurement_configuration": {
+        "frame_length_samples": 512,
+        "grid_origin_samples": 0,
+        "rounding": "ROUND_HALF_EVEN",
+        "sample_rate_hz": 44100
+      },
+      "populations": {
+        "BLIND-POPULATION-01": {
+          "candidates": [
+            {
+              "duration_frames": 32,
+              "duration_seconds": "0.3715192743764172335600907029",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  20,
+                  21
+                ],
+                [
+                  28,
+                  29
+                ],
+                [
+                  33,
+                  34
+                ]
+              ]
+            },
+            {
+              "duration_frames": 33,
+              "duration_seconds": "0.3831292517006802721088435374",
+              "occurrence_count": 7,
+              "supporting_event_pairs": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  24,
+                  25
+                ],
+                [
+                  29,
+                  30
+                ]
+              ]
+            },
+            {
+              "duration_frames": 34,
+              "duration_seconds": "0.3947392290249433106575963719",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  9,
+                  10
+                ],
+                [
+                  27,
+                  28
+                ],
+                [
+                  30,
+                  31
+                ]
+              ]
+            },
+            {
+              "duration_frames": 66,
+              "duration_seconds": "0.7662585034013605442176870748",
+              "occurrence_count": 5,
+              "supporting_event_pairs": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  26,
+                  27
+                ],
+                [
+                  31,
+                  32
+                ]
+              ]
+            },
+            {
+              "duration_frames": 67,
+              "duration_seconds": "0.7778684807256235827664399093",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  13,
+                  14
+                ]
+              ]
+            },
+            {
+              "duration_frames": 99,
+              "duration_seconds": "1.149387755102040816326530612",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  11,
+                  12
+                ]
+              ]
+            },
+            {
+              "duration_frames": 100,
+              "duration_seconds": "1.160997732426303854875283447",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  25,
+                  26
+                ],
+                [
+                  34,
+                  35
+                ],
+                [
+                  35,
+                  36
+                ]
+              ]
+            },
+            {
+              "duration_frames": 133,
+              "duration_seconds": "1.544126984126984126984126984",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  21,
+                  22
+                ],
+                [
+                  32,
+                  33
+                ]
+              ]
+            },
+            {
+              "duration_frames": 232,
+              "duration_seconds": "2.693514739229024943310657596",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  15,
+                  16
+                ],
+                [
+                  17,
+                  18
+                ],
+                [
+                  37,
+                  38
+                ]
+              ]
+            }
+          ],
+          "deeply_immutable_runtime_type": true,
+          "measurement_unit": "seconds",
+          "observation_scope": {
+            "end_seconds": "39.63646258503401",
+            "observation_population_id": "GRID-512-PHASE-0:BLIND-POPULATION-01",
+            "source_identity": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "start_seconds": "0"
+          },
+          "provenance": {
+            "discovery_configuration": [
+              [
+                "frame_length_samples",
+                "512"
+              ],
+              [
+                "grid_origin_samples",
+                "0"
+              ],
+              [
+                "sample_rate_hz",
+                "44100"
+              ],
+              [
+                "rounding",
+                "ROUND_HALF_EVEN"
+              ],
+              [
+                "recurrence_definition",
+                "exact consecutive positive frame interval occurring at least twice"
+              ]
+            ],
+            "input_asset_path": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "input_asset_sha256": "dc3fffe99c1be1dafe4b85a0661892f3a8c56cc0f10743d8dda66e44520205e0",
+            "source_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8"
+          },
+          "scientific_content_fingerprint": "a87701a6868593fb6ed367ab13a617f0f604a1bfe995425002da3016c7fa0c92"
+        },
+        "BLIND-POPULATION-02": {
+          "candidates": [
+            {
+              "duration_frames": 22,
+              "duration_seconds": "0.2554195011337868480725623583",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  20,
+                  21
+                ],
+                [
+                  28,
+                  29
+                ]
+              ]
+            },
+            {
+              "duration_frames": 23,
+              "duration_seconds": "0.2670294784580498866213151927",
+              "occurrence_count": 8,
+              "supporting_event_pairs": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  24,
+                  25
+                ],
+                [
+                  29,
+                  30
+                ],
+                [
+                  33,
+                  34
+                ]
+              ]
+            },
+            {
+              "duration_frames": 24,
+              "duration_seconds": "0.2786394557823129251700680272",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  9,
+                  10
+                ],
+                [
+                  27,
+                  28
+                ],
+                [
+                  30,
+                  31
+                ]
+              ]
+            },
+            {
+              "duration_frames": 46,
+              "duration_seconds": "0.5340589569160997732426303855",
+              "occurrence_count": 5,
+              "supporting_event_pairs": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  26,
+                  27
+                ],
+                [
+                  31,
+                  32
+                ]
+              ]
+            },
+            {
+              "duration_frames": 47,
+              "duration_seconds": "0.5456689342403628117913832200",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  13,
+                  14
+                ]
+              ]
+            },
+            {
+              "duration_frames": 70,
+              "duration_seconds": "0.8126984126984126984126984127",
+              "occurrence_count": 5,
+              "supporting_event_pairs": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  11,
+                  12
+                ],
+                [
+                  25,
+                  26
+                ],
+                [
+                  34,
+                  35
+                ],
+                [
+                  35,
+                  36
+                ]
+              ]
+            },
+            {
+              "duration_frames": 163,
+              "duration_seconds": "1.892426303854875283446712018",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  17,
+                  18
+                ],
+                [
+                  19,
+                  20
+                ],
+                [
+                  37,
+                  38
+                ]
+              ]
+            }
+          ],
+          "deeply_immutable_runtime_type": true,
+          "measurement_unit": "seconds",
+          "observation_scope": {
+            "end_seconds": "27.74784580498866",
+            "observation_population_id": "GRID-512-PHASE-0:BLIND-POPULATION-02",
+            "source_identity": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "start_seconds": "0"
+          },
+          "provenance": {
+            "discovery_configuration": [
+              [
+                "frame_length_samples",
+                "512"
+              ],
+              [
+                "grid_origin_samples",
+                "0"
+              ],
+              [
+                "sample_rate_hz",
+                "44100"
+              ],
+              [
+                "rounding",
+                "ROUND_HALF_EVEN"
+              ],
+              [
+                "recurrence_definition",
+                "exact consecutive positive frame interval occurring at least twice"
+              ]
+            ],
+            "input_asset_path": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "input_asset_sha256": "dc3fffe99c1be1dafe4b85a0661892f3a8c56cc0f10743d8dda66e44520205e0",
+            "source_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8"
+          },
+          "scientific_content_fingerprint": "2f592ab73db6b55eea743cfb2e3506436d2eeb339908b98bf51b9fb0d0f7585b"
+        }
+      }
+    },
+    "GRID-512-PHASE-256": {
+      "measurement_configuration": {
+        "frame_length_samples": 512,
+        "grid_origin_samples": 256,
+        "rounding": "ROUND_HALF_EVEN",
+        "sample_rate_hz": 44100
+      },
+      "populations": {
+        "BLIND-POPULATION-01": {
+          "candidates": [
+            {
+              "duration_frames": 31,
+              "duration_seconds": "0.3599092970521541950113378685",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  20,
+                  21
+                ],
+                [
+                  28,
+                  29
+                ]
+              ]
+            },
+            {
+              "duration_frames": 32,
+              "duration_seconds": "0.3715192743764172335600907029",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  24,
+                  25
+                ]
+              ]
+            },
+            {
+              "duration_frames": 33,
+              "duration_seconds": "0.3831292517006802721088435374",
+              "occurrence_count": 6,
+              "supporting_event_pairs": [
+                [
+                  7,
+                  8
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  29,
+                  30
+                ],
+                [
+                  33,
+                  34
+                ]
+              ]
+            },
+            {
+              "duration_frames": 35,
+              "duration_seconds": "0.4063492063492063492063492063",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  27,
+                  28
+                ],
+                [
+                  30,
+                  31
+                ]
+              ]
+            },
+            {
+              "duration_frames": 65,
+              "duration_seconds": "0.7546485260770975056689342404",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  8,
+                  9
+                ],
+                [
+                  12,
+                  13
+                ]
+              ]
+            },
+            {
+              "duration_frames": 66,
+              "duration_seconds": "0.7662585034013605442176870748",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  26,
+                  27
+                ],
+                [
+                  31,
+                  32
+                ],
+                [
+                  36,
+                  37
+                ]
+              ]
+            },
+            {
+              "duration_frames": 67,
+              "duration_seconds": "0.7778684807256235827664399093",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  6,
+                  7
+                ]
+              ]
+            },
+            {
+              "duration_frames": 99,
+              "duration_seconds": "1.149387755102040816326530612",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  11,
+                  12
+                ],
+                [
+                  35,
+                  36
+                ]
+              ]
+            },
+            {
+              "duration_frames": 100,
+              "duration_seconds": "1.160997732426303854875283447",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  25,
+                  26
+                ],
+                [
+                  34,
+                  35
+                ]
+              ]
+            },
+            {
+              "duration_frames": 231,
+              "duration_seconds": "2.681904761904761904761904762",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  15,
+                  16
+                ],
+                [
+                  37,
+                  38
+                ]
+              ]
+            },
+            {
+              "duration_frames": 233,
+              "duration_seconds": "2.705124716553287981859410431",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  17,
+                  18
+                ],
+                [
+                  19,
+                  20
+                ]
+              ]
+            }
+          ],
+          "deeply_immutable_runtime_type": true,
+          "measurement_unit": "seconds",
+          "observation_scope": {
+            "end_seconds": "39.63065759637188",
+            "observation_population_id": "GRID-512-PHASE-256:BLIND-POPULATION-01",
+            "source_identity": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "start_seconds": "0"
+          },
+          "provenance": {
+            "discovery_configuration": [
+              [
+                "frame_length_samples",
+                "512"
+              ],
+              [
+                "grid_origin_samples",
+                "256"
+              ],
+              [
+                "sample_rate_hz",
+                "44100"
+              ],
+              [
+                "rounding",
+                "ROUND_HALF_EVEN"
+              ],
+              [
+                "recurrence_definition",
+                "exact consecutive positive frame interval occurring at least twice"
+              ]
+            ],
+            "input_asset_path": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "input_asset_sha256": "dc3fffe99c1be1dafe4b85a0661892f3a8c56cc0f10743d8dda66e44520205e0",
+            "source_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8"
+          },
+          "scientific_content_fingerprint": "e25d4c919312bb1291be85ae72fb1f9ab72e50d0cbb18bf11276eea6eaa741e3"
+        },
+        "BLIND-POPULATION-02": {
+          "candidates": [
+            {
+              "duration_frames": 22,
+              "duration_seconds": "0.2554195011337868480725623583",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  20,
+                  21
+                ],
+                [
+                  33,
+                  34
+                ]
+              ]
+            },
+            {
+              "duration_frames": 23,
+              "duration_seconds": "0.2670294784580498866213151927",
+              "occurrence_count": 10,
+              "supporting_event_pairs": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  14,
+                  15
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  18,
+                  19
+                ],
+                [
+                  24,
+                  25
+                ],
+                [
+                  27,
+                  28
+                ],
+                [
+                  28,
+                  29
+                ],
+                [
+                  29,
+                  30
+                ]
+              ]
+            },
+            {
+              "duration_frames": 46,
+              "duration_seconds": "0.5340589569160997732426303855",
+              "occurrence_count": 4,
+              "supporting_event_pairs": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  12,
+                  13
+                ],
+                [
+                  31,
+                  32
+                ],
+                [
+                  36,
+                  37
+                ]
+              ]
+            },
+            {
+              "duration_frames": 47,
+              "duration_seconds": "0.5456689342403628117913832200",
+              "occurrence_count": 5,
+              "supporting_event_pairs": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  26,
+                  27
+                ]
+              ]
+            },
+            {
+              "duration_frames": 69,
+              "duration_seconds": "0.8010884353741496598639455782",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  11,
+                  12
+                ]
+              ]
+            },
+            {
+              "duration_frames": 70,
+              "duration_seconds": "0.8126984126984126984126984127",
+              "occurrence_count": 3,
+              "supporting_event_pairs": [
+                [
+                  25,
+                  26
+                ],
+                [
+                  34,
+                  35
+                ],
+                [
+                  35,
+                  36
+                ]
+              ]
+            },
+            {
+              "duration_frames": 93,
+              "duration_seconds": "1.079727891156462585034013605",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  21,
+                  22
+                ],
+                [
+                  32,
+                  33
+                ]
+              ]
+            },
+            {
+              "duration_frames": 116,
+              "duration_seconds": "1.346757369614512471655328798",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  10,
+                  11
+                ]
+              ]
+            },
+            {
+              "duration_frames": 162,
+              "duration_seconds": "1.880816326530612244897959184",
+              "occurrence_count": 2,
+              "supporting_event_pairs": [
+                [
+                  17,
+                  18
+                ],
+                [
+                  37,
+                  38
+                ]
+              ]
+            }
+          ],
+          "deeply_immutable_runtime_type": true,
+          "measurement_unit": "seconds",
+          "observation_scope": {
+            "end_seconds": "27.74204081632653",
+            "observation_population_id": "GRID-512-PHASE-256:BLIND-POPULATION-02",
+            "source_identity": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "start_seconds": "0"
+          },
+          "provenance": {
+            "discovery_configuration": [
+              [
+                "frame_length_samples",
+                "512"
+              ],
+              [
+                "grid_origin_samples",
+                "256"
+              ],
+              [
+                "sample_rate_hz",
+                "44100"
+              ],
+              [
+                "rounding",
+                "ROUND_HALF_EVEN"
+              ],
+              [
+                "recurrence_definition",
+                "exact consecutive positive frame interval occurring at least twice"
+              ]
+            ],
+            "input_asset_path": "validation/VAL-001/run_20260809_192908/blind_results.json",
+            "input_asset_sha256": "dc3fffe99c1be1dafe4b85a0661892f3a8c56cc0f10743d8dda66e44520205e0",
+            "source_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8"
+          },
+          "scientific_content_fingerprint": "b441c6a76b59eef8799beedad2cab1038e54b0cba22a53f259fe1b1c9a15bd1b"
+        }
+      }
+    }
+  },
+  "source_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8"
+}

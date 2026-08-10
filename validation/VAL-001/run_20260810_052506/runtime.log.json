@@ -1,0 +1,13 @@
+{
+  "execution_order": [
+    "load frozen blind source observations",
+    "generate neutral controlled measurement inputs",
+    "execute blind Candidate Period discovery",
+    "repeat blind discovery",
+    "freeze blind results",
+    "reveal controlled transformation and condition assignment",
+    "evaluate preregistered lineage-supported correspondence"
+  ],
+  "ground_truth_access": "not performed",
+  "production_code_modified": false
+}

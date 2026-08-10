@@ -1,0 +1,56 @@
+{
+  "experiment_id": "H-VAL001-C1-08",
+  "title": "Candidate Period Discrete Measurement Correspondence Audit",
+  "status": "COMPLETED",
+  "source_revision": "fd80b52ecb62c796be60d3eaa272a3a82c027be8",
+  "source_evidence": {
+    "path": "validation/VAL-001/run_20260809_192908/blind_results.json",
+    "experiment_id": "H-VAL001-C1-07",
+    "population": "BLIND-CONDITION-01"
+  },
+  "scientific_question": "Under which declared measurement conditions can two Candidate Period observations be scientifically considered corresponding?",
+  "implementation_required": false,
+  "controlled_variable": "declared discrete temporal measurement condition",
+  "measurement_regimes": [
+    {
+      "measurement_regime_id": "GRID-512-PHASE-0",
+      "frame_length_samples": 512,
+      "grid_origin_samples": 0,
+      "sample_rate_hz": 44100
+    },
+    {
+      "measurement_regime_id": "GRID-512-PHASE-256",
+      "frame_length_samples": 512,
+      "grid_origin_samples": 256,
+      "sample_rate_hz": 44100
+    },
+    {
+      "measurement_regime_id": "GRID-256-PHASE-0",
+      "frame_length_samples": 256,
+      "grid_origin_samples": 0,
+      "sample_rate_hz": 44100
+    }
+  ],
+  "controlled_temporal_transformation": "7/10",
+  "transformation_semantics": "non-musical declared experimental transformation",
+  "preregistered_correspondence_criterion": "Two Candidate Periods have experiment-local lineage-supported correspondence when at least two identical adjacent source-observation pairs support the first period and, after the declared controlled transformation and measurement operation, support the second period.",
+  "blind_boundary": {
+    "unavailable_during_discovery": [
+      "controlled transformation identity",
+      "condition semantics",
+      "Ground Truth",
+      "MusicXML",
+      "tempo",
+      "beat",
+      "meter",
+      "metric level"
+    ]
+  },
+  "hypotheses": [
+    "Non-identical discrete Candidate Period measurements can preserve lineage-supported correspondence.",
+    "Grid phase can change Candidate Period measurement while the source observation identities remain fixed.",
+    "Grid resolution can change Candidate Period measurement while the source observation identities remain fixed.",
+    "Shared supporting-event lineage can distinguish correspondence evidence from numerical similarity without tolerance."
+  ],
+  "scientific_classification": "LINEAGE-SUPPORTED CORRESPONDENCE ESTABLISHED WITHIN CONTROLLED REMEASUREMENT SCOPE"
+}
