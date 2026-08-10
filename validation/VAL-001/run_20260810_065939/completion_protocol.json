@@ -1,0 +1,23 @@
+{
+  "experiment_id": "H-VAL001-C1-10",
+  "documentation_updates": "Not Applicable — the experiment changes no canonical scientific or architectural authority.",
+  "cross_reference_verification": "Passed — the source WAV, external derived WAV and prior experiment authorities resolve by preserved path and checksum.",
+  "focused_tests": {
+    "result": "PASSED",
+    "passed": 19,
+    "warnings": 2
+  },
+  "complete_automated_suite": {
+    "passed": 1032,
+    "failed": 1,
+    "warnings": 3,
+    "failure": "test_m31_real_demucs_separator_creates_stems",
+    "classification": "pre-existing environment-dependent Demucs/macOS MPS backend incompatibility"
+  },
+  "scientific_validation": "PASSED — controlled asset generation, blind execution, deterministic replay, immutable freeze and post-blind invariance evaluation completed.",
+  "repository_consistency": "PASSED — git diff --check and artifact checksum verification completed.",
+  "bootstrap_regeneration": "Not Applicable — no canonical project knowledge or bootstrap semantics changed.",
+  "f_030_evaluation": "Not Applicable — the result remains an experimental record and is not promoted to canonical scientific knowledge.",
+  "production_implementation": "Not Applicable — existing repository capability plus an experiment-local transformation obtained the evidence.",
+  "push": "NOT PERFORMED — explicit PI approval required."
+}

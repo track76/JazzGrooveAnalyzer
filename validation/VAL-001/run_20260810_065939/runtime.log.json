@@ -1,0 +1,20 @@
+{
+  "experiment_id": "H-VAL001-C1-10",
+  "execution_order": [
+    "select minimum perturbation from prior evidence",
+    "freeze experiment-local design",
+    "generate and verify external perturbed WAV",
+    "execute two neutral blind audio analyses",
+    "repeat both blind analyses",
+    "verify deterministic equality",
+    "freeze blind_results.json",
+    "record blind SHA-256",
+    "reveal declared sample shift",
+    "evaluate observation and Candidate Period invariants",
+    "verify blind SHA-256 unchanged"
+  ],
+  "production_code_modified": false,
+  "ground_truth_loaded_during_blind_execution": false,
+  "ground_truth_required_post_blind": false,
+  "blind_record_modified_post_blind": false
+}

@@ -1,0 +1,19 @@
+{
+  "experiment_id": "H-VAL001-C1-10",
+  "artifacts": {
+    "blind_results.json": "5c5ec892ca74876e6af950a30eb584c0c6900571d4974821362924d0f89884e4",
+    "completion_protocol.json": "bc7a0187031bc6791773f2652ce85c66027206cbf46f172b3c0daeee836fcdc9",
+    "experiment.py": "2cd53a48a3377886f0fd170b5da1320ee41ab2e6404fb06859d3e3400a66838a",
+    "manifest.json": "4ab22e252c14a023c30627abb20168a9341766a82cc64ceea59ae195561a8674",
+    "measurement_generation_record.json": "7ca0bb5d2cdca975271b5f74248f065b090239ddfc0131acefc50dd47c38937e",
+    "post_blind_evaluation.json": "21ab29f70a616f5980bbae1e34d17d534022635b0ae77b8eefaf3f085b402bc1",
+    "report.md": "5a210f669f03c30735f5e467f29aa127fae9bf993e15793d1d103e4853f6fe52",
+    "reproducibility.json": "f09519816bda7de85a4e1d2936e07ab34642f73d8b5703c6152b59031dea6d64",
+    "runtime.log.json": "1be37d4f2fd9ce4f4ffa39dd12720673dbe18d1cea00283d6d4d5cb27ae68f04"
+  },
+  "external_artifact": {
+    "external_root_relative_path": "experiments/H-VAL001-C1-10/audio/blind_audio_02.wav",
+    "sha256": "bd2bf3e2e14ada22f78276e7a28bf70f97fdc21f6f3b3f3177e517a025123c60"
+  },
+  "heavy_asset_stored_outside_repository": true
+}

@@ -1,0 +1,36 @@
+{
+  "experiment_id": "H-VAL001-C1-10",
+  "title": "Measurement-Process Perturbation Invariance Audit",
+  "status": "COMPLETED",
+  "source_revision": "4d178d44c5a61516800325ccfb6e06a4af4dcc61",
+  "bootstrap_recorded_revision": "fd80b52",
+  "bootstrap_revision_evidence_conflict": "The bootstrap predates approved operational and experimental commits; repository HEAD remains canonical.",
+  "scientific_question": "What observational properties remain invariant, and which cease to remain invariant, under controlled perturbations of the measurement process?",
+  "evidence_unavailable_before_experiment": "The repository did not contain independently detected evidence under a declared perturbation that changes detector/grid phase while preserving exact source-sample lineage.",
+  "implementation_required": false,
+  "selected_perturbation": "256-sample audio-origin shift relative to the fixed 512-sample observation grid",
+  "selection_reason": "It changes one declared measurement condition, preserves all nonzero samples and their ordering, exercises independent detection, and adds less complexity than resampling, noise or compression.",
+  "blind_input_identities": [
+    "BLIND-AUDIO-01",
+    "BLIND-AUDIO-02"
+  ],
+  "analysis_configuration": {
+    "pipeline": "AnalysisPipeline",
+    "separator": "NullSeparator",
+    "sample_rate_hz": 44100,
+    "frame_length_samples": 512,
+    "recurrence_definition": "exact consecutive positive frame interval occurring at least twice"
+  },
+  "blind_exclusions": [
+    "perturbation identity",
+    "condition relationship",
+    "MusicXML",
+    "Ground Truth",
+    "tempo",
+    "beat",
+    "meter",
+    "metric level"
+  ],
+  "execution_utc": "2026-08-10T06:59:39Z",
+  "execution_local": "2026-08-10T08:59:39+0200"
+}

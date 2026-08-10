@@ -1,0 +1,39 @@
+{
+  "changed_measurement_condition": "audio origin relative to the 512-sample observation grid",
+  "classification": "Declared Experimental Procedure",
+  "experiment_id": "H-VAL001-C1-10",
+  "perturbation": "prepend 256 zero samples and remove 256 verified-zero trailing samples",
+  "perturbed": {
+    "bit_depth": 24,
+    "channel_count": 2,
+    "codec": "PCM",
+    "file_sha256": "bd2bf3e2e14ada22f78276e7a28bf70f97fdc21f6f3b3f3177e517a025123c60",
+    "sample_count_per_channel": 1983488,
+    "sample_data_sha256": "7cc4fd0407976ce939cbba370218dd8ad2cdc97573876f56d9dae1581833559e",
+    "sample_rate_hz": 44100
+  },
+  "perturbed_external_root_relative_path": "experiments/H-VAL001-C1-10/audio/blind_audio_02.wav",
+  "shift_samples": 256,
+  "shifted_sample_identity_verified": true,
+  "source": {
+    "bit_depth": 24,
+    "channel_count": 2,
+    "codec": "PCM",
+    "file_sha256": "33f8089ca9a09f711674dc272d7e3b6e2437080539aa046ed244158e599a08fd",
+    "sample_count_per_channel": 1983488,
+    "sample_data_sha256": "219b23abd0ab91a8885d5a0dd3fc27086fea7ca9c642191e96800980c074212b",
+    "sample_rate_hz": 44100
+  },
+  "source_repository_path": "validation/VAL-001/run_20260809_171404/controlled_dataset/audio/condition_a.wav",
+  "truncated_tail_nonzero_scalar_count": 0,
+  "unchanged": [
+    "source sample ordering",
+    "all nonzero sample values",
+    "sample rate",
+    "bit depth",
+    "channel count",
+    "sample count",
+    "duration",
+    "analysis configuration"
+  ]
+}

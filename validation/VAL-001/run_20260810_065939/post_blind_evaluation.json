@@ -1,0 +1,67 @@
+{
+  "candidate_comparison": {
+    "complete_populations_identical": false,
+    "exact_shared_duration_count": 7,
+    "exact_shared_durations_seconds": [
+      "0.3831292517006803",
+      "0.3947392290249433",
+      "0.7662585034013606",
+      "0.7778684807256236",
+      "1.1493877551020408",
+      "1.1609977324263039",
+      "2.693514739229025"
+    ],
+    "left_count": 9,
+    "left_only_durations_seconds": [
+      "0.37151927437641724",
+      "1.5441269841269842"
+    ],
+    "lineage_supported_correspondence_count": 0,
+    "lineage_supported_correspondences": [],
+    "right_count": 9,
+    "right_only_durations_seconds": [
+      "0.18575963718820862",
+      "1.9156462585034013"
+    ]
+  },
+  "classification_rules": {
+    "broken_correspondence": "requires established source-observation identity and is not inferred from absence",
+    "observational_instability": "identical-input deterministic replay differs",
+    "preserved_candidate_period_correspondence": "at least two exactly aligned supporting timestamp pairs",
+    "preserved_observation": "exact equality after reversing the declared sample shift"
+  },
+  "experiment_id": "H-VAL001-C1-10",
+  "limitations": [
+    "Indexwise offsets are descriptive and do not establish event identity.",
+    "No tolerance, nearest-neighbour rule or ordering substitution is used.",
+    "Absence of exact aligned support is indeterminate, not unrelatedness."
+  ],
+  "measurement_generation_record_sha256": "7ca0bb5d2cdca975271b5f74248f065b090239ddfc0131acefc50dd47c38937e",
+  "observation_comparison": {
+    "aligned_indexwise_offset_samples_distribution": {
+      "-102144": 2,
+      "-15104": 1,
+      "-152320": 1,
+      "-16640": 2,
+      "-17152": 1,
+      "-256": 11,
+      "-25856": 1,
+      "-34048": 1,
+      "-50944": 1,
+      "-51456": 1,
+      "-67840": 1,
+      "-84736": 2,
+      "256": 14
+    },
+    "confidence_sequences_identical": false,
+    "exact_aligned_timestamp_count": 0,
+    "left_count": 39,
+    "right_count": 41,
+    "strength_sequences_identical": false
+  },
+  "post_blind_fingerprint": "c88e9a41c2421f91d92605cab9e4b8ff782c247ffcfdc7749b42628812408c6f",
+  "revealed_perturbation_samples": 256,
+  "revealed_perturbation_seconds": "0.005804988662131519274376417234",
+  "source_blind_record_fingerprint": "9b2622c9828ce109bd3f9600e59c8013ba0c44e6bdf09f03c522ecc740defe94",
+  "source_blind_record_sha256": "5c5ec892ca74876e6af950a30eb584c0c6900571d4974821362924d0f89884e4"
+}

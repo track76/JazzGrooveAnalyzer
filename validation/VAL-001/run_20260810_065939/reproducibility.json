@@ -1,0 +1,7 @@
+{
+  "blind_results_sha256": "5c5ec892ca74876e6af950a30eb584c0c6900571d4974821362924d0f89884e4",
+  "deterministic_replay_identical": true,
+  "experiment_id": "H-VAL001-C1-10",
+  "first_fingerprint": "9b2622c9828ce109bd3f9600e59c8013ba0c44e6bdf09f03c522ecc740defe94",
+  "second_fingerprint": "9b2622c9828ce109bd3f9600e59c8013ba0c44e6bdf09f03c522ecc740defe94"
+}

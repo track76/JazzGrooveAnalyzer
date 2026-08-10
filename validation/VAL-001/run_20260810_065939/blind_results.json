@@ -1,0 +1,798 @@
+{
+  "analysis_configuration": {
+    "frame_length_samples": 512,
+    "pipeline": "AnalysisPipeline",
+    "recurrence_definition": "exact consecutive positive frame interval occurring at least twice",
+    "sample_rate_hz": 44100,
+    "separator": "NullSeparator"
+  },
+  "blind_exclusions": [
+    "perturbation identity",
+    "condition relationship",
+    "MusicXML",
+    "Ground Truth",
+    "tempo",
+    "beat",
+    "meter",
+    "metric level"
+  ],
+  "blind_record_fingerprint": "9b2622c9828ce109bd3f9600e59c8013ba0c44e6bdf09f03c522ecc740defe94",
+  "executions": {
+    "BLIND-AUDIO-01": {
+      "candidate_periods": [
+        {
+          "duration_seconds": "0.37151927437641724",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 21,
+              "end_seconds": "24.636371882086166",
+              "start_observation_index": 20,
+              "start_seconds": "24.264852607709752"
+            },
+            {
+              "end_observation_index": 29,
+              "end_seconds": "30.406530612244897",
+              "start_observation_index": 28,
+              "start_seconds": "30.035011337868482"
+            },
+            {
+              "end_observation_index": 34,
+              "end_seconds": "33.866303854875284",
+              "start_observation_index": 33,
+              "start_seconds": "33.494784580498866"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.3831292517006803",
+          "occurrence_count": 7,
+          "occurrences": [
+            {
+              "end_observation_index": 3,
+              "end_seconds": "4.249251700680272",
+              "start_observation_index": 2,
+              "start_seconds": "3.866122448979592"
+            },
+            {
+              "end_observation_index": 8,
+              "end_seconds": "9.253151927437642",
+              "start_observation_index": 7,
+              "start_seconds": "8.870022675736962"
+            },
+            {
+              "end_observation_index": 15,
+              "end_seconds": "15.406439909297053",
+              "start_observation_index": 14,
+              "start_seconds": "15.023310657596372"
+            },
+            {
+              "end_observation_index": 17,
+              "end_seconds": "18.483083900226756",
+              "start_observation_index": 16,
+              "start_seconds": "18.099954648526076"
+            },
+            {
+              "end_observation_index": 19,
+              "end_seconds": "21.559727891156463",
+              "start_observation_index": 18,
+              "start_seconds": "21.176598639455783"
+            },
+            {
+              "end_observation_index": 25,
+              "end_seconds": "27.713015873015873",
+              "start_observation_index": 24,
+              "start_seconds": "27.329886621315193"
+            },
+            {
+              "end_observation_index": 30,
+              "end_seconds": "30.789659863945577",
+              "start_observation_index": 29,
+              "start_seconds": "30.406530612244897"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.3947392290249433",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 10,
+              "end_seconds": "10.414149659863945",
+              "start_observation_index": 9,
+              "start_seconds": "10.019410430839002"
+            },
+            {
+              "end_observation_index": 28,
+              "end_seconds": "30.035011337868482",
+              "start_observation_index": 27,
+              "start_seconds": "29.640272108843536"
+            },
+            {
+              "end_observation_index": 31,
+              "end_seconds": "31.184399092970523",
+              "start_observation_index": 30,
+              "start_seconds": "30.789659863945577"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7662585034013606",
+          "occurrence_count": 5,
+          "occurrences": [
+            {
+              "end_observation_index": 6,
+              "end_seconds": "8.092154195011338",
+              "start_observation_index": 5,
+              "start_seconds": "7.325895691609977"
+            },
+            {
+              "end_observation_index": 9,
+              "end_seconds": "10.019410430839002",
+              "start_observation_index": 8,
+              "start_seconds": "9.253151927437642"
+            },
+            {
+              "end_observation_index": 13,
+              "end_seconds": "14.245442176870748",
+              "start_observation_index": 12,
+              "start_seconds": "13.479183673469388"
+            },
+            {
+              "end_observation_index": 27,
+              "end_seconds": "29.640272108843536",
+              "start_observation_index": 26,
+              "start_seconds": "28.874013605442176"
+            },
+            {
+              "end_observation_index": 32,
+              "end_seconds": "31.950657596371883",
+              "start_observation_index": 31,
+              "start_seconds": "31.184399092970523"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7778684807256236",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 2,
+              "end_seconds": "3.866122448979592",
+              "start_observation_index": 1,
+              "start_seconds": "3.0882539682539685"
+            },
+            {
+              "end_observation_index": 7,
+              "end_seconds": "8.870022675736962",
+              "start_observation_index": 6,
+              "start_seconds": "8.092154195011338"
+            },
+            {
+              "end_observation_index": 14,
+              "end_seconds": "15.023310657596372",
+              "start_observation_index": 13,
+              "start_seconds": "14.245442176870748"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1493877551020408",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 5,
+              "end_seconds": "7.325895691609977",
+              "start_observation_index": 4,
+              "start_seconds": "6.176507936507937"
+            },
+            {
+              "end_observation_index": 12,
+              "end_seconds": "13.479183673469388",
+              "start_observation_index": 11,
+              "start_seconds": "12.329795918367347"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1609977324263039",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 26,
+              "end_seconds": "28.874013605442176",
+              "start_observation_index": 25,
+              "start_seconds": "27.713015873015873"
+            },
+            {
+              "end_observation_index": 35,
+              "end_seconds": "35.02730158730159",
+              "start_observation_index": 34,
+              "start_seconds": "33.866303854875284"
+            },
+            {
+              "end_observation_index": 36,
+              "end_seconds": "36.18829931972789",
+              "start_observation_index": 35,
+              "start_seconds": "35.02730158730159"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.5441269841269842",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 22,
+              "end_seconds": "26.180498866213153",
+              "start_observation_index": 21,
+              "start_seconds": "24.636371882086166"
+            },
+            {
+              "end_observation_index": 33,
+              "end_seconds": "33.494784580498866",
+              "start_observation_index": 32,
+              "start_seconds": "31.950657596371883"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "2.693514739229025",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 16,
+              "end_seconds": "18.099954648526076",
+              "start_observation_index": 15,
+              "start_seconds": "15.406439909297053"
+            },
+            {
+              "end_observation_index": 18,
+              "end_seconds": "21.176598639455783",
+              "start_observation_index": 17,
+              "start_seconds": "18.483083900226756"
+            },
+            {
+              "end_observation_index": 38,
+              "end_seconds": "39.63646258503401",
+              "start_observation_index": 37,
+              "start_seconds": "36.94294784580499"
+            }
+          ]
+        }
+      ],
+      "discovery_configuration": [
+        [
+          "frame_length_samples",
+          "512"
+        ],
+        [
+          "sample_rate_hz",
+          "44100"
+        ],
+        [
+          "recurrence_definition",
+          "exact consecutive positive frame interval occurring at least twice"
+        ]
+      ],
+      "duration_seconds": 44.977052154195015,
+      "input_sha256": "33f8089ca9a09f711674dc272d7e3b6e2437080539aa046ed244158e599a08fd",
+      "measurement_unit": "seconds",
+      "pulse_candidate_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pulse_candidate_count": 39,
+      "pulse_candidate_strengths": [
+        2.3402750492095947,
+        6.467042446136475,
+        2.3264098167419434,
+        1.88374662399292,
+        15.388338088989258,
+        3.620044469833374,
+        5.209071159362793,
+        3.779278516769409,
+        12.069353103637695,
+        1.997579574584961,
+        2.1357314586639404,
+        15.18181324005127,
+        3.1590840816497803,
+        4.696714401245117,
+        8.15198040008545,
+        8.137471199035645,
+        3.1260693073272705,
+        2.547076463699341,
+        2.953578233718872,
+        3.0825510025024414,
+        4.131566524505615,
+        3.295503616333008,
+        3.9044487476348877,
+        7.159934043884277,
+        6.992609977722168,
+        2.9570350646972656,
+        2.385648488998413,
+        2.315155506134033,
+        2.6679794788360596,
+        2.7559471130371094,
+        2.9618020057678223,
+        2.201615810394287,
+        3.242809295654297,
+        3.4828903675079346,
+        2.309429883956909,
+        2.38969349861145,
+        3.14640212059021,
+        2.5959296226501465,
+        6.7924909591674805
+      ],
+      "pulse_candidate_timestamps_seconds": [
+        0.034829931972789115,
+        3.0882539682539685,
+        3.866122448979592,
+        4.249251700680272,
+        6.176507936507937,
+        7.325895691609977,
+        8.092154195011338,
+        8.870022675736962,
+        9.253151927437642,
+        10.019410430839002,
+        10.414149659863945,
+        12.329795918367347,
+        13.479183673469388,
+        14.245442176870748,
+        15.023310657596372,
+        15.406439909297053,
+        18.099954648526076,
+        18.483083900226756,
+        21.176598639455783,
+        21.559727891156463,
+        24.264852607709752,
+        24.636371882086166,
+        26.180498866213153,
+        27.00480725623583,
+        27.329886621315193,
+        27.713015873015873,
+        28.874013605442176,
+        29.640272108843536,
+        30.035011337868482,
+        30.406530612244897,
+        30.789659863945577,
+        31.184399092970523,
+        31.950657596371883,
+        33.494784580498866,
+        33.866303854875284,
+        35.02730158730159,
+        36.18829931972789,
+        36.94294784580499,
+        39.63646258503401
+      ],
+      "sample_rate_hz": 44100,
+      "scientific_content_fingerprint": "5440b18f74710557da7b0bd4446e53078ec4badf020a491ed2e72af48ef2d335"
+    },
+    "BLIND-AUDIO-02": {
+      "candidate_periods": [
+        {
+          "duration_seconds": "0.18575963718820862",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 31,
+              "end_seconds": "30.603900226757368",
+              "start_observation_index": 30,
+              "start_seconds": "30.418140589569163"
+            },
+            {
+              "end_observation_index": 32,
+              "end_seconds": "30.789659863945577",
+              "start_observation_index": 31,
+              "start_seconds": "30.603900226757368"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.3831292517006803",
+          "occurrence_count": 8,
+          "occurrences": [
+            {
+              "end_observation_index": 3,
+              "end_seconds": "4.260861678004535",
+              "start_observation_index": 2,
+              "start_seconds": "3.877732426303855"
+            },
+            {
+              "end_observation_index": 10,
+              "end_seconds": "10.414149659863945",
+              "start_observation_index": 9,
+              "start_seconds": "10.031020408163265"
+            },
+            {
+              "end_observation_index": 15,
+              "end_seconds": "15.406439909297053",
+              "start_observation_index": 14,
+              "start_seconds": "15.023310657596372"
+            },
+            {
+              "end_observation_index": 17,
+              "end_seconds": "18.494693877551022",
+              "start_observation_index": 16,
+              "start_seconds": "18.11156462585034"
+            },
+            {
+              "end_observation_index": 21,
+              "end_seconds": "24.647981859410432",
+              "start_observation_index": 20,
+              "start_seconds": "24.264852607709752"
+            },
+            {
+              "end_observation_index": 29,
+              "end_seconds": "30.035011337868482",
+              "start_observation_index": 28,
+              "start_seconds": "29.6518820861678"
+            },
+            {
+              "end_observation_index": 30,
+              "end_seconds": "30.418140589569163",
+              "start_observation_index": 29,
+              "start_seconds": "30.035011337868482"
+            },
+            {
+              "end_observation_index": 36,
+              "end_seconds": "33.877913832199546",
+              "start_observation_index": 35,
+              "start_seconds": "33.494784580498866"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.3947392290249433",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 19,
+              "end_seconds": "21.571337868480725",
+              "start_observation_index": 18,
+              "start_seconds": "21.176598639455783"
+            },
+            {
+              "end_observation_index": 33,
+              "end_seconds": "31.184399092970523",
+              "start_observation_index": 32,
+              "start_seconds": "30.789659863945577"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7662585034013606",
+          "occurrence_count": 5,
+          "occurrences": [
+            {
+              "end_observation_index": 6,
+              "end_seconds": "8.103764172335602",
+              "start_observation_index": 5,
+              "start_seconds": "7.337505668934241"
+            },
+            {
+              "end_observation_index": 13,
+              "end_seconds": "14.257052154195012",
+              "start_observation_index": 12,
+              "start_seconds": "13.49079365079365"
+            },
+            {
+              "end_observation_index": 14,
+              "end_seconds": "15.023310657596372",
+              "start_observation_index": 13,
+              "start_seconds": "14.257052154195012"
+            },
+            {
+              "end_observation_index": 34,
+              "end_seconds": "31.950657596371883",
+              "start_observation_index": 33,
+              "start_seconds": "31.184399092970523"
+            },
+            {
+              "end_observation_index": 39,
+              "end_seconds": "36.95455782312925",
+              "start_observation_index": 38,
+              "start_seconds": "36.18829931972789"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "0.7778684807256236",
+          "occurrence_count": 4,
+          "occurrences": [
+            {
+              "end_observation_index": 2,
+              "end_seconds": "3.877732426303855",
+              "start_observation_index": 1,
+              "start_seconds": "3.0998639455782313"
+            },
+            {
+              "end_observation_index": 7,
+              "end_seconds": "8.881632653061224",
+              "start_observation_index": 6,
+              "start_seconds": "8.103764172335602"
+            },
+            {
+              "end_observation_index": 9,
+              "end_seconds": "10.031020408163265",
+              "start_observation_index": 8,
+              "start_seconds": "9.253151927437642"
+            },
+            {
+              "end_observation_index": 28,
+              "end_seconds": "29.6518820861678",
+              "start_observation_index": 27,
+              "start_seconds": "28.874013605442176"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1493877551020408",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 27,
+              "end_seconds": "28.874013605442176",
+              "start_observation_index": 26,
+              "start_seconds": "27.724625850340136"
+            },
+            {
+              "end_observation_index": 37,
+              "end_seconds": "35.02730158730159",
+              "start_observation_index": 36,
+              "start_seconds": "33.877913832199546"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.1609977324263039",
+          "occurrence_count": 3,
+          "occurrences": [
+            {
+              "end_observation_index": 5,
+              "end_seconds": "7.337505668934241",
+              "start_observation_index": 4,
+              "start_seconds": "6.176507936507937"
+            },
+            {
+              "end_observation_index": 12,
+              "end_seconds": "13.49079365079365",
+              "start_observation_index": 11,
+              "start_seconds": "12.329795918367347"
+            },
+            {
+              "end_observation_index": 38,
+              "end_seconds": "36.18829931972789",
+              "start_observation_index": 37,
+              "start_seconds": "35.02730158730159"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "1.9156462585034013",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 4,
+              "end_seconds": "6.176507936507937",
+              "start_observation_index": 3,
+              "start_seconds": "4.260861678004535"
+            },
+            {
+              "end_observation_index": 11,
+              "end_seconds": "12.329795918367347",
+              "start_observation_index": 10,
+              "start_seconds": "10.414149659863945"
+            }
+          ]
+        },
+        {
+          "duration_seconds": "2.693514739229025",
+          "occurrence_count": 2,
+          "occurrences": [
+            {
+              "end_observation_index": 20,
+              "end_seconds": "24.264852607709752",
+              "start_observation_index": 19,
+              "start_seconds": "21.571337868480725"
+            },
+            {
+              "end_observation_index": 40,
+              "end_seconds": "39.64807256235828",
+              "start_observation_index": 39,
+              "start_seconds": "36.95455782312925"
+            }
+          ]
+        }
+      ],
+      "discovery_configuration": [
+        [
+          "frame_length_samples",
+          "512"
+        ],
+        [
+          "sample_rate_hz",
+          "44100"
+        ],
+        [
+          "recurrence_definition",
+          "exact consecutive positive frame interval occurring at least twice"
+        ]
+      ],
+      "duration_seconds": 44.977052154195015,
+      "input_sha256": "bd2bf3e2e14ada22f78276e7a28bf70f97fdc21f6f3b3f3177e517a025123c60",
+      "measurement_unit": "seconds",
+      "pulse_candidate_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pulse_candidate_count": 41,
+      "pulse_candidate_strengths": [
+        6.7684550285339355,
+        16.886281967163086,
+        2.7966930866241455,
+        2.5720808506011963,
+        10.109492301940918,
+        4.3274664878845215,
+        6.533595561981201,
+        4.05992317199707,
+        6.2908453941345215,
+        2.8090500831604004,
+        2.521272897720337,
+        8.731374740600586,
+        4.198887825012207,
+        6.622879505157471,
+        2.837984323501587,
+        4.405369758605957,
+        3.9559519290924072,
+        2.684382200241089,
+        2.6339197158813477,
+        2.8440539836883545,
+        3.655575752258301,
+        4.262781620025635,
+        2.629467725753784,
+        12.13144302368164,
+        6.344169616699219,
+        2.8865244388580322,
+        3.155235767364502,
+        2.8406524658203125,
+        2.742772340774536,
+        2.125999689102173,
+        2.9065144062042236,
+        2.2862563133239746,
+        2.1194887161254883,
+        2.3924691677093506,
+        2.718783140182495,
+        3.7641661167144775,
+        3.2595744132995605,
+        2.4687769412994385,
+        2.4861667156219482,
+        3.0702931880950928,
+        10.675978660583496
+      ],
+      "pulse_candidate_timestamps_seconds": [
+        0.034829931972789115,
+        3.0998639455782313,
+        3.877732426303855,
+        4.260861678004535,
+        6.176507936507937,
+        7.337505668934241,
+        8.103764172335602,
+        8.881632653061224,
+        9.253151927437642,
+        10.031020408163265,
+        10.414149659863945,
+        12.329795918367347,
+        13.49079365079365,
+        14.257052154195012,
+        15.023310657596372,
+        15.406439909297053,
+        18.11156462585034,
+        18.494693877551022,
+        21.176598639455783,
+        21.571337868480725,
+        24.264852607709752,
+        24.647981859410432,
+        26.180498866213153,
+        27.01641723356009,
+        27.329886621315193,
+        27.376326530612246,
+        27.724625850340136,
+        28.874013605442176,
+        29.6518820861678,
+        30.035011337868482,
+        30.418140589569163,
+        30.603900226757368,
+        30.789659863945577,
+        31.184399092970523,
+        31.950657596371883,
+        33.494784580498866,
+        33.877913832199546,
+        35.02730158730159,
+        36.18829931972789,
+        36.95455782312925,
+        39.64807256235828
+      ],
+      "sample_rate_hz": 44100,
+      "scientific_content_fingerprint": "b4b34cbaa9e888a3e8fa64526b9691146a9398cc67050b7b96f59339d77973bd"
+    }
+  },
+  "experiment_id": "H-VAL001-C1-10",
+  "source_revision": "4d178d44c5a61516800325ccfb6e06a4af4dcc61"
+}
