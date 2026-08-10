@@ -1,0 +1,14 @@
+{
+  "experiment_id": "H-VAL001-C1-09",
+  "artifacts": {
+    "blind_results.json": "db87bf3ca626866960e6f8f6fdc137affb6d514bb2457969486b31ed09a6a1c1",
+    "completion_protocol.json": "912d47611cad3a5e72a60c716aa0852c4913925213559d514720a35ea06b4405",
+    "experiment.py": "3e8e7e58ab0495589f5b34d2d222cda56bb19c72d2e6bf2b6952fc02f134d3ad",
+    "manifest.json": "3e19eb6849928b19f4bc85b373cde4dd4b430ab2f3c9eb6dd2677e4c284071d2",
+    "post_blind_evaluation.json": "5bffda65ad33018f3ee5e31e03ecc14b921a9abf18449403f7f423cf3a7b368e",
+    "report.md": "0c10c950d5ee4494151cdbb34084ec8459da684c5d21b369fa5f2dd77cc64ed5",
+    "reproducibility.json": "7f8860f791f198d7e685dcfb033ab6d897dc7fa0f3268a16b976a0101c562f99",
+    "runtime.log.json": "3168d5079908d3a7a6c625c7275bb550dca897d01de2a967fbd75dea766a1f3c"
+  },
+  "source_assets_are_referenced_not_duplicated": true
+}

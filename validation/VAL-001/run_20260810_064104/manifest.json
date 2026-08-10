@@ -1,0 +1,44 @@
+{
+  "experiment_id": "H-VAL001-C1-09",
+  "title": "Independent-Audio Candidate Period Lineage Audit",
+  "status": "COMPLETED",
+  "source_revision": "668c85532e2fa1eca5d823fb63e4b29f21d43389",
+  "bootstrap_recorded_revision": "fd80b52",
+  "bootstrap_revision_evidence_conflict": "The bootstrap predates the approved operational-only external-storage commit; repository HEAD remains canonical.",
+  "scientific_question": "Can lineage-supported Candidate Period correspondence be reproduced when observations originate from independently rendered and independently detected audio rather than from remeasurement of the same frozen observation population?",
+  "implementation_required": false,
+  "input_dataset": "CED-VAL-001-RD-001",
+  "blind_input_identities": [
+    "BLIND-AUDIO-01",
+    "BLIND-AUDIO-02",
+    "BLIND-AUDIO-03",
+    "BLIND-AUDIO-04"
+  ],
+  "input_sha256": [
+    "33f8089ca9a09f711674dc272d7e3b6e2437080539aa046ed244158e599a08fd",
+    "f1f751d8a8b84fe87d790d32e91458ec20e4d2b2937af1e30410884ee31f804b",
+    "474b2e46ad2216f3d2d2446086c46bb2bcb93561effcf1c86e5bc6700e901b2e",
+    "8081c634bcc6017c19d7d27068b9084ba5ada20246c585fa5c958c5db1fec71a"
+  ],
+  "analysis_configuration": {
+    "pipeline": "AnalysisPipeline",
+    "separator": "NullSeparator",
+    "candidate_period_discovery": "AD-035 existing production mechanism",
+    "frame_length_samples": 512,
+    "sample_rate_hz": 44100,
+    "recurrence_definition": "exact consecutive positive frame interval occurring at least twice"
+  },
+  "preregistered_correspondence_criterion": "Under identical declared observation conditions and authoritatively shared symbolic/render lineage, Candidate Periods have experiment-local independent-audio lineage support only when at least two independently detected adjacent observation pairs have exactly identical start and end timestamps.",
+  "blind_exclusions": [
+    "input condition relationship",
+    "rendering lineage",
+    "MusicXML",
+    "Ground Truth",
+    "tempo",
+    "beat",
+    "meter",
+    "metric level"
+  ],
+  "execution_utc": "2026-08-10T06:41:04Z",
+  "execution_local": "2026-08-10T08:41:04+0200"
+}

@@ -1,0 +1,24 @@
+{
+  "experiment_id": "H-VAL001-C1-09",
+  "documentation_updates": "Not Applicable — the experiment changes no canonical scientific or architectural authority.",
+  "cross_reference_verification": "Passed — all source assets and authority records resolve at their preserved repository paths.",
+  "focused_tests": {
+    "result": "PASSED",
+    "passed": 19,
+    "warnings": 2
+  },
+  "complete_automated_suite": {
+    "passed": 1032,
+    "failed": 1,
+    "warnings": 3,
+    "failure": "test_m31_real_demucs_separator_creates_stems",
+    "classification": "environment-dependent Demucs/MPS failure; isolated replay reached the pre-existing macOS/MPS backend incompatibility"
+  },
+  "scientific_validation": "PASSED — four blind audio analyses, deterministic replay, blind freeze and post-blind lineage evaluation completed.",
+  "controlled_wav_validation": "PASSED — existing checksum-identified CED-VAL-001-RD-001 canonical/repeat WAV pairs were used without duplication or modification.",
+  "repository_consistency": "PASSED — git diff --check and experimental artifact checksum verification completed.",
+  "bootstrap_regeneration": "Not Applicable — no canonical project knowledge or bootstrap semantics changed.",
+  "f_030_evaluation": "Not Applicable — the result remains an experimental record and is not promoted to canonical scientific knowledge.",
+  "production_implementation": "Not Applicable — existing repository capability obtained the required evidence.",
+  "push": "NOT PERFORMED — explicit PI approval required."
+}

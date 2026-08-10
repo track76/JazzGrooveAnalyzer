@@ -1,0 +1,17 @@
+{
+  "experiment_id": "H-VAL001-C1-09",
+  "execution_order": [
+    "freeze experiment-local design and criterion",
+    "execute four neutral blind audio analyses",
+    "repeat all four blind analyses",
+    "verify deterministic equality",
+    "freeze blind_results.json",
+    "record blind SHA-256",
+    "load controlled rendering lineage",
+    "evaluate exact supporting-event lineage",
+    "verify blind SHA-256 unchanged"
+  ],
+  "production_code_modified": false,
+  "ground_truth_loaded_during_blind_execution": false,
+  "blind_record_modified_post_blind": false
+}
