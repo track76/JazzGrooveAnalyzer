@@ -2,11 +2,10 @@
 Plots the Stability Curve.
 """
 
-from pathlib import Path
-
 import matplotlib.pyplot as plt
 
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
+from jga.operational.external_storage import ExternalStorage
 
 
 def main():
@@ -19,6 +18,10 @@ def main():
             "python tools/plot_stability_curve.py <audiofile>"
         )
         return 1
+
+    storage = ExternalStorage.from_environment()
+    report_output = storage.directory("reports", "stability")
+    render_output = storage.directory("renders", "stability")
 
     pipeline = AnalysisPipeline()
 
@@ -33,10 +36,7 @@ def main():
     x = [p.time for p in curve]
     y = [p.score for p in curve]
 
-    output = Path("output")
-    output.mkdir(exist_ok=True)
-
-    csv = output / "stability_curve.csv"
+    csv = report_output / "stability_curve.csv"
 
     with csv.open("w") as f:
         f.write("time,score\n")
@@ -54,7 +54,7 @@ def main():
     plt.ylabel("Stability")
     plt.grid(True)
 
-    png = output / "stability_curve.png"
+    png = render_output / "stability_curve.png"
     plt.savefig(png)
 
     print(csv)

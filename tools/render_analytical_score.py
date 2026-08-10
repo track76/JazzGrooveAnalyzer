@@ -16,6 +16,7 @@ import sys
 from jga.pipeline.default_analysis_pipeline import (
     AnalysisPipeline,
 )
+from jga.operational.external_storage import ExternalStorage
 
 from jga.reporting.builders.analytical_score_builder import (
     AnalyticalScoreBuilder,
@@ -43,6 +44,13 @@ def main():
         )
 
         return
+
+    output_path = ExternalStorage.from_environment().directory(
+        "renders",
+        "analytical_score",
+    ) / (
+        "jga_final_analytical_groove_score.png"
+    )
 
     pipeline = AnalysisPipeline()
 
@@ -105,10 +113,6 @@ def main():
         .render(score)
     )
 
-    output_path = (
-        "output/jga_final_analytical_groove_score.png"
-    )
-
     figure.savefig(
         output_path,
         dpi=300,
@@ -128,4 +132,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

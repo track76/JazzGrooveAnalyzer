@@ -32,6 +32,7 @@ from jga.runtime.analysis_context import (
 from jga.runtime.runtime_event import (
     RuntimeEvent,
 )
+from jga.operational.external_storage import ExternalStorage
 
 from .base_separator import BaseSeparator
 from .demucs_runner import DemucsRunner
@@ -59,7 +60,12 @@ class DemucsSeparator(BaseSeparator):
         context: AnalysisContext,
     ) -> AnalysisContext:
 
-        with tempfile.TemporaryDirectory() as tmp:
+        temporary_root = ExternalStorage.from_environment().directory(
+            "temporary",
+            "demucs",
+        )
+
+        with tempfile.TemporaryDirectory(dir=temporary_root) as tmp:
 
             output = self.runner.separate(
                 context.audio.path,

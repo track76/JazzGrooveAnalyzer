@@ -44,6 +44,9 @@ python tools/export_chat_context.py
 
 The repository is the single source of truth.
 
+Heavy operational outputs use the configurable storage described in
+[External Storage for Heavy Operational Artifacts](EXTERNAL_STORAGE.md).
+
 `JGA_BOOTSTRAP.md` and `JGA_CONTEXT.zip` are generated artifacts used to initialize a new development session.
 
 If any information contained in these artifacts conflicts with the repository, the repository always prevails.

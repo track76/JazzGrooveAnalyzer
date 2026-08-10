@@ -2,14 +2,13 @@
 Export DummyMultiStemSeparator outputs for inspection.
 """
 
-from pathlib import Path
-
 import soundfile as sf
 
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
 from jga.separation.dummy_multi_stem_separator import (
     DummyMultiStemSeparator,
 )
+from jga.operational.external_storage import ExternalStorage
 
 
 INPUT = (
@@ -17,10 +16,12 @@ INPUT = (
     "03 THE COST OF LIVING versione intro + 8 bar.mp3"
 )
 
-OUTPUT = Path("output/dummy_stems")
-
-
 def main():
+
+    output = ExternalStorage.from_environment().directory(
+        "stems",
+        "dummy_multi_stem",
+    )
 
     pipeline = AnalysisPipeline(
         separator=DummyMultiStemSeparator()
@@ -28,14 +29,9 @@ def main():
 
     context = pipeline.analyze(INPUT)
 
-    OUTPUT.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
     for stem in context.audio_stems:
 
-        filename = OUTPUT / f"{stem.name}.wav"
+        filename = output / f"{stem.name}.wav"
 
         sf.write(
             filename,

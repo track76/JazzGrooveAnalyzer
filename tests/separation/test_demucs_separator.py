@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import numpy as np
+import pytest
 import soundfile as sf
 
 from jga.core.audio_file import AudioFile
@@ -63,7 +64,15 @@ class FakeDemucsRunner:
         return output
 
 
-def test_demucs_separator_creates_audio_stem_collection():
+def test_demucs_separator_creates_audio_stem_collection(
+    monkeypatch,
+    tmp_path,
+):
+
+    monkeypatch.setenv(
+        "JGA_EXTERNAL_ROOT",
+        str(tmp_path),
+    )
 
     context = make_context()
 
@@ -94,3 +103,20 @@ def test_demucs_separator_creates_audio_stem_collection():
 
     for stem in context.audio_stems:
         assert stem.source == "DemucsSeparator"
+
+
+def test_demucs_separator_fails_closed_without_external_storage(
+    monkeypatch,
+):
+
+    monkeypatch.delenv("JGA_EXTERNAL_ROOT", raising=False)
+
+    separator = DemucsSeparator(
+        runner=FakeDemucsRunner()
+    )
+
+    with pytest.raises(
+        RuntimeError,
+        match="heavy default writes are disabled",
+    ):
+        separator.process(make_context())
