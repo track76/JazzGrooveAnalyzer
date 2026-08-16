@@ -1,0 +1,15 @@
+{
+  "experiment_id": "H-VAL001-RHYTHM-TEMPO-01",
+  "status": "COMPLETE",
+  "repository_revision": "f71947fd078e2ef68d741aae1920b990d2b0f751",
+  "preregistration": "validation/VAL-001/preregistrations/H-VAL001-RHYTHM-TEMPO-01.md",
+  "preregistration_sha256": "6750651e756e2533a58cd4a3cba357f874e56855d21416321ee5596f6a678925",
+  "blind_input": "blind_input.json",
+  "blind_input_sha256": "25ee4d610f6a3130f0b4f001b1908c8dad443d34ee30413905f6fd377202c9e8",
+  "blind_result_sha256": "0f6d8162053142893d4f938f32c73174b26dd8c783a457ad98e6e491ecb369cd",
+  "blind_freeze_sha256": "7e4809ff036089c466a81e6ce82cac31c5b0cc937555c525114bb309f89e8a01",
+  "included_contributors": ["Drums", "Double Bass", "Piano"],
+  "excluded_contributors": {"Tenor Sax": "not a rhythm-section input", "Voice": "DEFERRED"},
+  "blind_exclusions": ["full mix", "symbolic score", "MusicXML", "MIDI", "declared BPM", "declared meter", "declared BeatReference timeline", "normalized phase", "Ground Truth", "Basic Pitch", "SOME"],
+  "production_behavior_changed": false
+}

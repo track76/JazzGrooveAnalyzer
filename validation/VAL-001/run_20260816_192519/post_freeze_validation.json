@@ -1,0 +1,85 @@
+{
+  "autonomous_bpm_status": "PARTIAL",
+  "blind_consensus_classification_unchanged": "MULTIPLE_COMMON_PERIODS",
+  "blind_freeze_sha256_verified": "7e4809ff036089c466a81e6ce82cac31c5b0cc937555c525114bb309f89e8a01",
+  "blind_result_modified": false,
+  "blind_result_sha256_verified": "0f6d8162053142893d4f938f32c73174b26dd8c783a457ad98e6e491ecb369cd",
+  "blind_scientific_fingerprint": "238be4910504e6d2b570a47b6cb1d4ded21a280fddbe300c9f09f88af4b11d38",
+  "comparisons": [
+    {
+      "candidate_changed": false,
+      "common_period_id": "RCP-d5ffc083c273a55acad93186be4b3190150babb558a247c1bc626811139e3d7d",
+      "frozen_corresponding_rate": 166.70866935483872,
+      "frozen_period_seconds": 0.3599092970521542,
+      "metric_role_reassigned": false,
+      "relation": "NO_GROUND_TRUTH_REFERENCE_PERIOD_CORRESPONDENCE"
+    },
+    {
+      "candidate_changed": false,
+      "common_period_id": "RCP-c953167752e31df8a6822d7f8228819c8c85eb90fe97423476770d8d20ff21cb",
+      "frozen_corresponding_rate": 158.203125,
+      "frozen_period_seconds": 0.37925925925925924,
+      "metric_role_reassigned": false,
+      "relation": "NO_GROUND_TRUTH_REFERENCE_PERIOD_CORRESPONDENCE"
+    },
+    {
+      "candidate_changed": false,
+      "common_period_id": "RCP-49fac2900de54fd737e4b6ce57177fab0e68f3e2145e70197d8ed6ff1da8eeb9",
+      "frozen_corresponding_rate": 156.60511363636363,
+      "frozen_period_seconds": 0.3831292517006803,
+      "metric_role_reassigned": false,
+      "relation": "GROUND_TRUTH_REFERENCE_PERIOD_WITHIN_DOUBLED_MEASUREMENT_INTERVAL"
+    },
+    {
+      "candidate_changed": false,
+      "common_period_id": "RCP-cb42f47c336f7a91b8b578d72b5282a356f08c849423d1d4c94d327ba21e7ea0",
+      "frozen_corresponding_rate": 155.0390625,
+      "frozen_period_seconds": 0.3869992441421013,
+      "metric_role_reassigned": false,
+      "relation": "GROUND_TRUTH_REFERENCE_PERIOD_WITHIN_DOUBLED_MEASUREMENT_INTERVAL"
+    },
+    {
+      "candidate_changed": false,
+      "common_period_id": "RCP-e1f164f0c17452afde41470ffd078bc18a624e92111780eca8e709b4c3a99660",
+      "frozen_corresponding_rate": 78.90028625954199,
+      "frozen_period_seconds": 0.7604535147392291,
+      "metric_role_reassigned": false,
+      "relation": "NO_GROUND_TRUTH_REFERENCE_PERIOD_CORRESPONDENCE"
+    },
+    {
+      "candidate_changed": false,
+      "common_period_id": "RCP-a0e4cbece9254e5af4bd0364e04ee6b537d3a7bc5c5e5361dfd25eae82b448c5",
+      "frozen_corresponding_rate": 78.30255681818181,
+      "frozen_period_seconds": 0.7662585034013606,
+      "metric_role_reassigned": false,
+      "relation": "NO_GROUND_TRUTH_REFERENCE_PERIOD_CORRESPONDENCE"
+    },
+    {
+      "candidate_changed": false,
+      "common_period_id": "RCP-aa3105c88891efbae9adcd9efffd5ae96a77dcb022d0a2a4c16ad6afed3b7780",
+      "frozen_corresponding_rate": 78.30255681818181,
+      "frozen_period_seconds": 0.7662585034013606,
+      "metric_role_reassigned": false,
+      "relation": "GROUND_TRUTH_REFERENCE_PERIOD_WITHIN_MEASUREMENT_INTERVAL"
+    },
+    {
+      "candidate_changed": false,
+      "common_period_id": "RCP-7c1efed257ebb311645aaf5a2b574bc320da23b5640fe870b3d8f06207218cdf",
+      "frozen_corresponding_rate": 77.71381578947368,
+      "frozen_period_seconds": 0.7720634920634921,
+      "metric_role_reassigned": false,
+      "relation": "GROUND_TRUTH_REFERENCE_PERIOD_WITHIN_MEASUREMENT_INTERVAL"
+    }
+  ],
+  "experiment_id": "H-VAL001-RHYTHM-TEMPO-01",
+  "ground_truth": {
+    "identity": "GT-VAL-001-v1",
+    "record_sha256": "9f219660d933b9084190708b8b7ae9ef092c987aff767390750351e83a93090d",
+    "reference_period_frames": "66.25600961538461538461538461",
+    "reference_period_seconds": "0.7692307692307692307692307692",
+    "tempo_beat_unit": "quarter",
+    "tempo_rate": "78"
+  },
+  "ground_truth_used_for_discovery": false,
+  "metric_reference_role_scientifically_justified_blindly": false
+}

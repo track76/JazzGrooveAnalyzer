@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "artifacts": [
+    {"path": "prepare_input.py", "sha256": "485a49fda8f2acedfa353a9363bbeb2aade9b59bc1e17f374b0e17f071289c8d"},
+    {"path": "blind_input.json", "sha256": "25ee4d610f6a3130f0b4f001b1908c8dad443d34ee30413905f6fd377202c9e8"},
+    {"path": "experiment.py", "sha256": "26a88323d10a9a03ac5c4e7ab1693005e788bd29e4299921782ce2e5032e472a"},
+    {"path": "blind_result.json", "sha256": "0f6d8162053142893d4f938f32c73174b26dd8c783a457ad98e6e491ecb369cd"},
+    {"path": "blind_freeze.json", "sha256": "7e4809ff036089c466a81e6ce82cac31c5b0cc937555c525114bb309f89e8a01"},
+    {"path": "post_freeze_validation.py", "sha256": "ebaddf5a352250dfd0604753404227c5a3a317b66f2bec5b675bae02e7e70249"},
+    {"path": "post_freeze_validation.json", "sha256": "f0cb8d4b1778c97208881904c184123df21bbab2a8ce136295c3a3d9898ed9b3"},
+    {"path": "manifest.json", "sha256": "49424325e7d7aca24f61a723b4d967db4b1ad6e154067a5f0986b75baab35735"},
+    {"path": "report.md", "sha256": "47a9ea4b5d2de9b51935fd2f4fe91735284f9eb25fd61c18d216d71517a04b26"},
+    {"path": "completion_protocol.json", "sha256": "a7970323afd31836920169f96602dcaf3096d755be392cc78079db605ef1be54"}
+  ]
+}

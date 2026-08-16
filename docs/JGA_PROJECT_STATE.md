@@ -1,5 +1,34 @@
 # JGA Project State
 
+## Rhythm-Section Common-Period Validation
+
+Status:
+
+COMPLETED — AUTONOMOUS BPM PARTIAL
+
+- `H-VAL001-RHYTHM-TEMPO-01` applies the AD-035 exact consecutive-frame
+  recurrence rule independently to complete AD-037 Drums, Double Bass and
+  Piano EME timestamps. Declared BPM, meter, BeatReferences, normalized phase,
+  melodic sources and Ground Truth do not enter blind discovery.
+- The frozen blind result contains eight independently cross-supported common
+  period tuples and is classified `MULTIPLE_COMMON_PERIODS`.
+- Candidate families near 33 and 66 observation frames retain twelve
+  measurement-supported 1:2 relationships. No metric role is assigned.
+- All common candidates recur in both source-scope halves under the
+  preregistered persistence rule. Continuous drift and local tempo remain
+  unmeasured.
+- Post-freeze Ground Truth validates correspondence of two long-period tuples
+  and doubled correspondence of two short-period tuples with the authoritative
+  reference. It does not alter the blind population.
+- Rhythm-section consensus materially improves source independence and common
+  recurrence evidence but does not resolve hierarchical role ambiguity.
+  Metric-reference inference remains scientifically unresolved and autonomous
+  BPM status is `PARTIAL`.
+- Voice remains `DEFERRED`. Production implementation is not authorized.
+- Scientific fingerprint:
+  `238be4910504e6d2b570a47b6cb1d4ded21a280fddbe300c9f09f88af4b11d38`.
+- Complete record: `validation/VAL-001/run_20260816_192519/`.
+
 ## Complete EME Phase-Population Analysis
 
 Status:
