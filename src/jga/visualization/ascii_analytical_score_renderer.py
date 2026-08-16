@@ -25,7 +25,18 @@ class AsciiAnalyticalScoreRenderer:
         lines.append(f"Title : {score.recording_title}")
         lines.append(f"Artist: {score.artist}")
         lines.append(f"Meter : {score.time_signature}")
-        lines.append(f"Tempo : {score.average_bpm:.1f} BPM")
+        if score.metric_reference_origin is not None:
+            lines.append(
+                "Metric reference "
+                f"({score.metric_reference_origin}) : "
+                f"{score.average_bpm:.1f} "
+                f"{score.metric_reference_beat_unit} BPM"
+            )
+            lines.append(
+                f"Metric reference source: {score.metric_reference_source_id}"
+            )
+        else:
+            lines.append("Metric reference: NOT_PRODUCED")
         lines.append("=" * 70)
         lines.append("")
 

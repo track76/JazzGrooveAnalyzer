@@ -5,6 +5,7 @@ from .immutable_analysis_representation import (
 )
 from .analysis_outputs import (
     AnalysisOutput,
+    AnalysisOutputProvenance,
     AnalysisOutputState,
     AnalysisSection,
     AnalysisTempo,
@@ -13,6 +14,7 @@ from .analysis_outputs import (
 
 __all__ = [
     "AnalysisOutput",
+    "AnalysisOutputProvenance",
     "AnalysisOutputState",
     "AnalysisSection",
     "AnalysisTempo",

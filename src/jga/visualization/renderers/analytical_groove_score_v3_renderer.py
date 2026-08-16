@@ -166,7 +166,9 @@ class AnalyticalGrooveScoreV3Renderer:
             f"Analytical Groove Score "
             f"- Measures "
             f"{measures[0].number}-{measures[-1].number}"
-            f" - BPM {measures[0].bpm:.1f}"
+            f" - Metric reference {measures[0].bpm:.1f} "
+            f"{measures[0].metric_reference_beat_unit} BPM "
+            f"({measures[0].metric_reference_origin})"
         )
 
         last_measure = measures[-1]
@@ -187,4 +189,3 @@ class AnalyticalGrooveScoreV3Renderer:
         )
 
         return figure
-

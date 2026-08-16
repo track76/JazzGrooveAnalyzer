@@ -238,6 +238,18 @@ class AnalyticalScoreRenderer:
             y=0.985,
         )
 
+        if score.metric_reference_origin is None:
+            metric_reference_header = "Metric reference : NOT_PRODUCED\n"
+        else:
+            metric_reference_header = (
+                "Metric reference : "
+                f"{score.average_bpm:.1f} "
+                f"{score.metric_reference_beat_unit} BPM "
+                f"({score.metric_reference_origin})\n"
+                "Metric reference source : "
+                f"{score.metric_reference_source_id}\n"
+            )
+
         header = (
             f"Recording : {score.recording_title}\n"
             f"Artist    : {score.artist}\n"
@@ -245,7 +257,7 @@ class AnalyticalScoreRenderer:
             f"Take      : {score.take}\n"
             f"Year      : {score.year}\n\n"
             f"Meter     : {score.time_signature}\n"
-            f"Average BPM : {score.average_bpm:.1f}\n"
+            f"{metric_reference_header}"
         )
 
         fig.text(

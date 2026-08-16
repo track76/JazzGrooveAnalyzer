@@ -48,4 +48,7 @@ class DomainReconstructionInputBuilder:
             ensemble_metric_events=(
                 context.ensemble_metric_events
             ),
+            declared_metric_reference=(
+                context.declared_metric_reference
+            ),
         )

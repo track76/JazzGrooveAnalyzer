@@ -1,4 +1,5 @@
 from dataclasses import FrozenInstanceError
+from decimal import Decimal
 
 import pytest
 
@@ -6,6 +7,11 @@ from jga.analysis_representation import (
     CompletedAnalysisMaterializer,
     MaterializationProvenance,
 )
+from jga.domain.declared_metric_reference import (
+    DeclaredMetricReference,
+    MetricReferenceProvenance,
+)
+from jga.interfaces.scientific_value_origin import ScientificValueOrigin
 from jga.interfaces.validation import AnalysisOutputState
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
 from jga.separation.dummy_multi_stem_separator import DummyMultiStemSeparator
@@ -27,6 +33,22 @@ def provenance(execution_id: str = "ANALYSIS-VAL-001-TEST"):
         source_revision="TEST-SOURCE-REVISION",
         pipeline_version="TEST-PIPELINE-VERSION",
         effective_configuration=(("separator", "dummy_multi_stem"),),
+    )
+
+
+def declared_reference() -> DeclaredMetricReference:
+    return DeclaredMetricReference(
+        beats_per_minute=Decimal("78"),
+        beat_unit="quarter",
+        provenance=MetricReferenceProvenance(
+            source_id="GT-VAL-001-v1",
+            source_kind="authoritative controlled-source context",
+            source_sha256=(
+                "809a6ef276c4c3b9042c71d40a71763d"
+                "cbf90d47e654e784af371eb53d073778"
+            ),
+            temporal_scope="complete controlled performance",
+        ),
     )
 
 
@@ -104,3 +126,25 @@ def test_scientific_output_exposes_only_the_approved_scope(completed_analysis):
     assert result.scientific_output("tempo") is result.tempo
     with pytest.raises(KeyError):
         result.scientific_output("ground_truth")
+
+
+def test_declared_tempo_is_materialized_with_origin_and_provenance():
+    completed = AnalysisPipeline(separator=DummyMultiStemSeparator()).analyze(
+        MP3_PATH,
+        declared_metric_reference=declared_reference(),
+    )
+
+    result = CompletedAnalysisMaterializer().materialize(
+        completed,
+        provenance(),
+    )
+
+    assert result.tempo.state is AnalysisOutputState.PRESENT
+    assert result.tempo.value.beats_per_minute == Decimal("78")
+    assert result.tempo.value.beat_unit == "quarter"
+    assert result.tempo.origin is ScientificValueOrigin.DECLARED
+    assert result.tempo.provenance.source_id == "GT-VAL-001-v1"
+    assert result.tempo.provenance.source_kind == (
+        "authoritative controlled-source context"
+    )
+    assert "autonomous BPM inference is deferred" in result.limitations[-1]

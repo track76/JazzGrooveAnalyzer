@@ -1,7 +1,12 @@
 import pytest
+from decimal import Decimal
 
 from jga.domain.services.beat_reconstruction_engine import (
     BeatReconstructionEngine,
+)
+from jga.domain.declared_metric_reference import (
+    DeclaredMetricReference,
+    MetricReferenceProvenance,
 )
 
 
@@ -20,6 +25,22 @@ def test_empty_events_return_empty_tuple():
     engine = BeatReconstructionEngine()
 
     assert engine.reconstruct(()) == ()
+
+
+def declared_reference(bpm: str = "78") -> DeclaredMetricReference:
+    return DeclaredMetricReference(
+        beats_per_minute=Decimal(bpm),
+        beat_unit="quarter",
+        provenance=MetricReferenceProvenance(
+            source_id="GT-VAL-001-v1",
+            source_kind="authoritative controlled-source context",
+            source_sha256=(
+                "809a6ef276c4c3b9042c71d40a71763d"
+                "cbf90d47e654e784af371eb53d073778"
+            ),
+            temporal_scope="complete controlled performance",
+        ),
+    )
 
 
 from datetime import datetime
@@ -110,6 +131,29 @@ def test_each_event_generates_one_initial_beat():
     beats = BeatReconstructionEngine().reconstruct(events)
 
     assert len(beats) == len(events)
+
+
+def test_declared_metric_reference_controls_period_but_not_observed_origin():
+    events = tuple(
+        ElementaryMetricEvent(
+            id=uuid4(),
+            contributor_id=uuid4(),
+            timestamp=timestamp,
+            confidence=1.0,
+            created_at=datetime.now(),
+        )
+        for timestamp in (1.25, 1.9, 2.7)
+    )
+
+    beats = BeatReconstructionEngine().reconstruct(
+        events,
+        declared_metric_reference=declared_reference(),
+    )
+
+    expected_period = 60.0 / 78.0
+    assert beats[0].timestamp == 1.25
+    assert beats[1].timestamp == pytest.approx(1.25 + expected_period)
+    assert beats[2].timestamp == pytest.approx(1.25 + 2 * expected_period)
 
 
 from jga.domain.services.beat_period_estimator import (

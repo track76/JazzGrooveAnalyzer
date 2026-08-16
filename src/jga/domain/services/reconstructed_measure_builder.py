@@ -6,6 +6,7 @@ from jga.domain.internal_metric_signature import (
 from jga.domain.reconstructed_measure import (
     ReconstructedMeasure,
 )
+from jga.domain.declared_metric_reference import DeclaredMetricReference
 
 
 class ReconstructedMeasureBuilder:
@@ -26,6 +27,7 @@ class ReconstructedMeasureBuilder:
         ],
         metric_signature: InternalMetricSignature,
         internal_bpm: float,
+        declared_metric_reference: DeclaredMetricReference | None = None,
         metric_clusters: tuple[
             MetricCluster,
             ...
@@ -101,6 +103,8 @@ class ReconstructedMeasureBuilder:
                     beat_references=group,
 
                     metric_clusters=clusters,
+
+                    declared_metric_reference=declared_metric_reference,
 
                 )
 

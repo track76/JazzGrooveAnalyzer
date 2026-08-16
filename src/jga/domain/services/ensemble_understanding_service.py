@@ -49,7 +49,7 @@ class EnsembleUnderstandingService:
 
         return EnsembleProfile(
             meter="4/4",
-            estimated_bpm=120.0,
+            estimated_bpm=None,
             pulse_start=0.0,
             sound_sources=sound_sources,
             musical_functions=(

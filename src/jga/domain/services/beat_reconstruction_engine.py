@@ -23,6 +23,7 @@ from jga.domain.services.beat_period_estimator import (
 from jga.domain.services.beat_grid_reconstructor import (
     BeatGridReconstructor,
 )
+from jga.domain.declared_metric_reference import DeclaredMetricReference
 
 
 class BeatReconstructionEngine:
@@ -40,6 +41,7 @@ class BeatReconstructionEngine:
     def reconstruct(
         self,
         events: tuple[ElementaryMetricEvent, ...],
+        declared_metric_reference: DeclaredMetricReference | None = None,
     ) -> tuple[BeatReference, ...]:
 
         if not events:
@@ -49,8 +51,10 @@ class BeatReconstructionEngine:
             events,
         )
 
-        period = self._period_estimator.estimate(
-            events,
+        period = (
+            float(declared_metric_reference.period_seconds)
+            if declared_metric_reference is not None
+            else self._period_estimator.estimate(events)
         )
 
         grid = self._grid_reconstructor.reconstruct(

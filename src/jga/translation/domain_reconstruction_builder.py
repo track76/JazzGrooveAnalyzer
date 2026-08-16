@@ -72,6 +72,9 @@ class DefaultDomainReconstructionBuilder(
 
         beats = self.beat_builder.reconstruct(
             events,
+            declared_metric_reference=(
+                reconstruction_input.declared_metric_reference
+            ),
         )
 
         clusters = self.cluster_builder.build(

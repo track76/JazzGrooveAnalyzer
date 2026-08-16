@@ -15,22 +15,4 @@ def test_m80_first_measure_debug():
         "recordings/III_Chet Baker - I fall in love too easily.mp3"
     )
 
-    measure = (
-        context.analytical_score.measures[0]
-    )
-
-    print()
-    print("==============================")
-    print("FIRST MEASURE DEBUG")
-    print("==============================")
-
-    for event in measure.metric_events:
-        print(
-            event.source_name,
-            "position=",
-            event.theoretical_position,
-            "beat=",
-            event.beat_index,
-            "offset=",
-            event.offset_ms,
-        )
+    assert context.analytical_score.measures == ()

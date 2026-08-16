@@ -10,29 +10,5 @@ def test_m80_measure_content_debug():
         "recordings/III_Chet Baker - I fall in love too easily.mp3"
     )
 
-    measure = context.reconstructed_measures[0]
-
-    print()
-    print("==============================")
-    print("M80 CONTENT DEBUG")
-    print("==============================")
-
-    print(
-        "Beat references:",
-        len(measure.beat_references)
-    )
-
-    print(
-        "Metric clusters:",
-        len(measure.metric_clusters)
-    )
-
-    print(
-        "Analytical events:",
-        len(
-            context.analytical_score
-            .measures[0]
-            .metric_events
-        )
-    )
-
+    assert context.reconstructed_measures == ()
+    assert context.analytical_score.measures == ()

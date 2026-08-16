@@ -4,6 +4,7 @@ from jga.core.metric_context import MetricContext
 from jga.core.ensemble_metric_event import EnsembleMetricEvent
 from jga.domain.metric_contributor import MetricContributor
 from jga.domain.sound_source import SoundSource
+from jga.domain.declared_metric_reference import DeclaredMetricReference
 
 
 @dataclass(frozen=True, slots=True)
@@ -25,3 +26,5 @@ class DomainReconstructionInput:
     domain_pulse_candidates: tuple
 
     ensemble_metric_events: tuple[EnsembleMetricEvent, ...]
+
+    declared_metric_reference: DeclaredMetricReference | None = None

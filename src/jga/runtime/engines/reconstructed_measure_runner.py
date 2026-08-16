@@ -32,6 +32,10 @@ class ReconstructedMeasureRunner:
 
             return
 
+        if context.declared_metric_reference is None:
+
+            return
+
         signature = InternalMetricSignature(
 
             numerator=4,
@@ -55,7 +59,13 @@ class ReconstructedMeasureRunner:
 
                 metric_signature=signature,
 
-                internal_bpm=120.0,
+                internal_bpm=float(
+                    context.declared_metric_reference.beats_per_minute
+                ),
+
+                declared_metric_reference=(
+                    context.declared_metric_reference
+                ),
 
             )
         )

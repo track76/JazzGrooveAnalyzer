@@ -192,6 +192,21 @@ class AnalyticalScoreBuilder:
                     number=measure.number,
                     time_signature=measure.time_signature,
                     bpm=measure.internal_bpm,
+                    metric_reference_origin=(
+                        measure.declared_metric_reference.origin.value
+                        if measure.declared_metric_reference is not None
+                        else None
+                    ),
+                    metric_reference_beat_unit=(
+                        measure.declared_metric_reference.beat_unit
+                        if measure.declared_metric_reference is not None
+                        else None
+                    ),
+                    metric_reference_source_id=(
+                        measure.declared_metric_reference.provenance.source_id
+                        if measure.declared_metric_reference is not None
+                        else None
+                    ),
                     software_name="JazzGrooveAnalyzer",
                     software_author="Angelo Tracanna",
                     copyright="Copyright © 2026 Angelo Tracanna",
@@ -212,7 +227,7 @@ class AnalyticalScoreBuilder:
                 )
             )
 
-        if representation_events:
+        if representation_events and measures_list:
 
             assigned = {
                 (
@@ -263,6 +278,15 @@ class AnalyticalScoreBuilder:
                     number=last_measure.number,
                     time_signature=last_measure.time_signature,
                     bpm=last_measure.bpm,
+                    metric_reference_origin=(
+                        last_measure.metric_reference_origin
+                    ),
+                    metric_reference_beat_unit=(
+                        last_measure.metric_reference_beat_unit
+                    ),
+                    metric_reference_source_id=(
+                        last_measure.metric_reference_source_id
+                    ),
                     software_name=last_measure.software_name,
                     software_author=last_measure.software_author,
                     copyright=last_measure.copyright,
@@ -281,7 +305,7 @@ class AnalyticalScoreBuilder:
 
         instrument_lanes = ()
 
-        if context.representation_result:
+        if context.representation_result and measures_list:
 
             landscape = (
                 context.representation_result
@@ -380,7 +404,22 @@ class AnalyticalScoreBuilder:
             average_bpm=(
                 measures[0].bpm
                 if measures
-                else 120.0
+                else 0.0
+            ),
+            metric_reference_origin=(
+                context.declared_metric_reference.origin.value
+                if context.declared_metric_reference is not None
+                else None
+            ),
+            metric_reference_beat_unit=(
+                context.declared_metric_reference.beat_unit
+                if context.declared_metric_reference is not None
+                else None
+            ),
+            metric_reference_source_id=(
+                context.declared_metric_reference.provenance.source_id
+                if context.declared_metric_reference is not None
+                else None
             ),
             sections=(),
             measures=measures,

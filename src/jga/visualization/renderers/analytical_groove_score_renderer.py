@@ -90,7 +90,9 @@ class AnalyticalGrooveScoreRenderer:
         axis.set_title(
             f"Analytical Groove Score "
             f"- Measure {measure.number} "
-            f"- BPM {measure.bpm:.1f}"
+            f"- Metric reference {measure.bpm:.1f} "
+            f"{measure.metric_reference_beat_unit} BPM "
+            f"({measure.metric_reference_origin})"
         )
 
         axis.set_xlabel(

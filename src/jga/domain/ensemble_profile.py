@@ -20,7 +20,7 @@ class EnsembleProfile:
 
     meter: str
 
-    estimated_bpm: float
+    estimated_bpm: float | None
 
     pulse_start: float
 

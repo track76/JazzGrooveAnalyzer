@@ -31,6 +31,12 @@ class AnalyticalScore:
 
     average_bpm: float = 0.0
 
+    metric_reference_origin: str | None = None
+
+    metric_reference_beat_unit: str | None = None
+
+    metric_reference_source_id: str | None = None
+
     duration: float = 0.0
 
     sections: tuple = ()

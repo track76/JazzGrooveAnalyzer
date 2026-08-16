@@ -1,5 +1,32 @@
 # JGA Project State
 
+## Declared Metric-Reference Vertical Slice
+
+Status:
+
+COMPLETED
+
+- The analysis input may supply an immutable metric reference with explicit
+  `DECLARED` origin, authority identity, source kind, SHA-256 identity and
+  temporal scope.
+- The controlled VAL-001 context supplies 78 quarter BPM from
+  `GT-VAL-001-v1`; this value is contextual validation authority and is never
+  represented as detected or inferred from audio.
+- The declared reference crosses the existing Translation boundary and drives
+  Domain beat-period and reconstructed-measure timing without entering or
+  changing Core observation.
+- Validation-facing immutable and analytical outputs preserve the declared
+  origin and source identity. Without declared context, tempo and reconstructed
+  measures are not produced; no silent 120 BPM fallback remains active.
+- Autonomous BPM inference remains `DEFERRED`, not solved.
+- Meter interpretation remains outside this milestone and is the next separate
+  development item.
+- Focused Domain, Translation, representation, reporting and controlled-audio
+  validation: 593 passed.
+- Complete automated suite excluding the environment-blocked Demucs integration
+  test: 1043 passed, 3 warnings. The excluded test could not access the
+  configured `JGA_EXTERNAL_ROOT`; no heavy write was attempted.
+
 ## M93 — Validation Dataset Generalization
 
 Status:

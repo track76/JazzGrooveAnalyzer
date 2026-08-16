@@ -1,4 +1,4 @@
-from pathlib import Path
+import pytest
 
 from jga.pipeline.default_analysis_pipeline import (
     AnalysisPipeline,
@@ -25,9 +25,8 @@ def test_m80_multistem_png_export():
         "output/jga_analytical_groove_score_multistem.png"
     )
 
-    AnalyticalGrooveScorePngExporterRunner().export(
-        context,
-        destination,
-    )
-
-    assert Path(destination).exists()
+    with pytest.raises(ValueError, match="No measures available"):
+        AnalyticalGrooveScorePngExporterRunner().export(
+            context,
+            destination,
+        )

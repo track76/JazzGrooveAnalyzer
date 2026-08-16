@@ -6,7 +6,13 @@ import json
 from pathlib import Path
 
 from jga.analysis_representation.models import FrozenAnalysisRepresentation
-from jga.interfaces.validation import AnalysisOutput, AnalysisOutputState
+from jga.interfaces.scientific_value_origin import ScientificValueOrigin
+from jga.interfaces.validation import (
+    AnalysisOutput,
+    AnalysisOutputProvenance,
+    AnalysisOutputState,
+    AnalysisTempo,
+)
 from jga.runtime.analysis_context import AnalysisContext
 
 
@@ -17,10 +23,9 @@ _SCOPED_OUTPUTS = (
     "time_signature",
 )
 
-_LIMITATIONS = (
+_BASE_LIMITATIONS = (
     "instrumentation: canonical validation-facing categories are not produced",
     "sections: canonical section boundaries are not produced",
-    "tempo: validation-facing tempo is not scientifically produced",
     "time_signature: validation-facing time signature is not scientifically produced",
 )
 
@@ -52,6 +57,32 @@ class CompletedAnalysisMaterializer:
             name: AnalysisOutput(AnalysisOutputState.NOT_PRODUCED)
             for name in _SCOPED_OUTPUTS
         }
+        limitations = list(_BASE_LIMITATIONS)
+        declared_reference = completed_analysis.declared_metric_reference
+        if declared_reference is None:
+            limitations.append(
+                "tempo: validation-facing tempo is not scientifically produced"
+            )
+        else:
+            source = declared_reference.provenance
+            outputs["tempo"] = AnalysisOutput(
+                state=AnalysisOutputState.PRESENT,
+                value=AnalysisTempo(
+                    beats_per_minute=declared_reference.beats_per_minute,
+                    beat_unit=declared_reference.beat_unit,
+                ),
+                origin=ScientificValueOrigin.DECLARED,
+                provenance=AnalysisOutputProvenance(
+                    source_id=source.source_id,
+                    source_kind=source.source_kind,
+                    source_sha256=source.source_sha256,
+                    temporal_scope=source.temporal_scope,
+                ),
+            )
+            limitations.append(
+                "tempo: declared context; autonomous BPM inference is deferred"
+            )
+        limitations = tuple(limitations)
         output_completeness = tuple(
             (name, outputs[name].state.value) for name in _SCOPED_OUTPUTS
         )
@@ -67,9 +98,39 @@ class CompletedAnalysisMaterializer:
         fingerprint_payload = {
             "audio_checksum": audio_checksum,
             "effective_configuration": effective_configuration,
-            "limitations": _LIMITATIONS,
+            "limitations": limitations,
             "measurement_units": measurement_units,
-            "outputs": output_completeness,
+            "outputs": {
+                name: {
+                    "state": output.state.value,
+                    "value": (
+                        {
+                            "beats_per_minute": str(
+                                output.value.beats_per_minute
+                            ),
+                            "beat_unit": output.value.beat_unit,
+                        }
+                        if name == "tempo" and output.value is not None
+                        else None
+                    ),
+                    "origin": (
+                        output.origin.value
+                        if output.origin is not None
+                        else None
+                    ),
+                    "provenance": (
+                        {
+                            "source_id": output.provenance.source_id,
+                            "source_kind": output.provenance.source_kind,
+                            "source_sha256": output.provenance.source_sha256,
+                            "temporal_scope": output.provenance.temporal_scope,
+                        }
+                        if output.provenance is not None
+                        else None
+                    ),
+                }
+                for name, output in outputs.items()
+            },
             "pipeline_version": provenance.pipeline_version,
             "schema_revision": self.SCHEMA_REVISION,
             "source_revision": provenance.source_revision,
@@ -95,7 +156,7 @@ class CompletedAnalysisMaterializer:
             temporal_origin_seconds=provenance.temporal_origin_seconds,
             measurement_units=measurement_units,
             output_completeness=output_completeness,
-            limitations=_LIMITATIONS,
+            limitations=limitations,
             content_fingerprint=content_fingerprint,
             tempo=outputs["tempo"],
             time_signature=outputs["time_signature"],
