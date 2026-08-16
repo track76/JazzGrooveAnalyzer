@@ -1,0 +1,9 @@
+{
+  "experiment_id": "H-VAL001-EME-NEUTRAL-01",
+  "status": "PASS",
+  "repository_revision": "00fcbab4020d7e09c9d39be532be768ec79dbca3",
+  "result_sha256": "5f3a10ce3fdc89004f421a2f0f5c8cebf24342d2242248529513142344a5ae7d",
+  "scientific_fingerprint": "a8b39d18139fec26c2b3da7bee02942a1bd3a619143208b7d0bafca9129f8500",
+  "production_correction": "deterministic MetricContributor identity",
+  "push": "NOT PERFORMED"
+}

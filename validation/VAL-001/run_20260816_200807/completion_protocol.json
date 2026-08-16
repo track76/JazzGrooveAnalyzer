@@ -1,0 +1,9 @@
+{
+  "focused_tests": "PASS — 5 tests",
+  "scientific_validation": "PASS — 155/155 neutral representations and exact replay",
+  "full_suite": "1067 passed; one environment-dependent Demucs test failed because JGA_EXTERNAL_ROOT was not writable; 3 warnings",
+  "documentation_consistency": "PASS — AD-037 and project state updated",
+  "bootstrap": "regenerate after commit",
+  "storage": "lightweight records only; no audio copied",
+  "push": "NOT PERFORMED"
+}

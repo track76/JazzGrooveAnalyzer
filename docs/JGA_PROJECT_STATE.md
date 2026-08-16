@@ -1,5 +1,23 @@
 # JGA Project State
 
+## Complete Neutral EME Timing Validation
+
+Status: PASS
+
+- `H-VAL001-EME-NEUTRAL-01` represents all 155 authorized Drums, Piano,
+  Double Bass and Tenor Sax EME against the provenance-bound declared quarter
+  timeline. Losses, merges and creations are zero; Voice remains `DEFERRED`.
+- Every record preserves exact frame-derived timestamp, contributor/source,
+  preceding/following BeatReference, elapsed time, normalized phase, neutral
+  nearest-reference displacement, PulseCandidate lineage/strength, and full
+  declared timeline provenance without musical classification.
+- Validation exposed and corrected nondeterministic `MetricContributor` UUID
+  creation. Contributor identity is now deterministic from existing source and
+  function evidence. Timing and cardinality are unchanged.
+- Scientific fingerprint:
+  `a8b39d18139fec26c2b3da7bee02942a1bd3a619143208b7d0bafca9129f8500`.
+- Record: `validation/VAL-001/run_20260816_200807/`.
+
 ## Rhythm-Section Strength Role Discrimination
 
 Status: COMPLETED — HIERARCHICALLY UNRESOLVED

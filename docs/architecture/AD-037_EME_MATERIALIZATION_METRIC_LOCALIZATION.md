@@ -19,6 +19,11 @@ Preserved source observations
 
 Metric association must not determine EME existence or cardinality.
 
+MetricContributor identity used by this materialization path is deterministic
+from existing SoundSource identity and assigned function evidence. Runtime
+UUID generation must not make an otherwise identical neutral EME
+representation differ between replays.
+
 Metric structures may locate an existing EME, relate it to an authorized
 BeatReference and derive neutral temporal coordinates. They shall not suppress,
 merge or create EME. Multiple distinct EME from one contributor may occupy the

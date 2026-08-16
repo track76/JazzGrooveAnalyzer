@@ -1,5 +1,5 @@
 from datetime import datetime
-from uuid import uuid4
+from uuid import NAMESPACE_URL, uuid5
 
 from jga.domain.metric_contributor import MetricContributor
 from jga.domain.musical_function_assignment_result import (
@@ -42,7 +42,17 @@ class RuleBasedMetricContributorAssignmentService(
 
             contributors.append(
                 MetricContributor(
-                    id=uuid4(),
+                    id=uuid5(
+                        NAMESPACE_URL,
+                        ":".join(
+                            (
+                                "metric-contributor/v1",
+                                str(source.id),
+                                function.name,
+                                str(function.is_metric),
+                            )
+                        ),
+                    ),
                     sound_source_id=source.id,
                     musical_function_id=(
                         assignment.musical_function_id

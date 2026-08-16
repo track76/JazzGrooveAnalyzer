@@ -60,3 +60,10 @@ def test_metric_contributors_follow_metric_functions():
     assert contributor.sound_source_id == source.id
     assert contributor.musical_function_id == function.id
     assert contributor.active is True
+
+    replay = service.assign(
+        (source,),
+        assignment_result,
+    )
+
+    assert replay[0].id == contributor.id
