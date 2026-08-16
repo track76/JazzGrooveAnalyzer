@@ -1,0 +1,13 @@
+{
+  "experiment_id": "H-VAL001-AI-VOICE-01",
+  "scientific_validation": "PARTIAL — blind freeze and deterministic replay passed; population validation found residual fragmentation; event-level correspondence remains unvalidated.",
+  "focused_checks": "Passed — manifest JSON, Python compilation, model/input checksums, two identical complete inferences, freeze binding, post-freeze Ground Truth checksum, and artifact JSON validation.",
+  "complete_automated_suite": "Not Applicable — no production code, architecture, canonical authority, or repository runtime behavior changed.",
+  "production_implementation": "Not justified — proof of concept is PARTIAL.",
+  "documentation_updates": "Not Applicable — no canonical scientific or architectural decision was approved.",
+  "bootstrap_regeneration": "Not Applicable — project state and bootstrap semantics were not changed.",
+  "cross_reference_verification": "Passed — controlled Voice WAV and authoritative MusicXML resolve by repository path and checksum.",
+  "repository_consistency": "Passed — deterministic post-freeze replay, JSON parsing, Python compilation, git diff --check, and artifact checksum verification completed.",
+  "storage_impact": "External only for runtime-heavy data: approximately 4.4 GiB environment, 281 MiB cache, and 23 MiB experiment outputs. Repository record is lightweight.",
+  "push": "NOT PERFORMED — explicit PI approval required."
+}

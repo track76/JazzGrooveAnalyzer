@@ -1,0 +1,18 @@
+{
+  "experiment_id": "H-VAL001-AI-VOICE-01",
+  "repository_artifacts": {
+    "completion_protocol.json": "a6a5855a21690d8c8e0e0a4f7f77520571ae50778b3513e905b62267e19c9262",
+    "environment_lock.json": "3d1eb243565b3bcbe7b135e8f12c512b1f3084309cc88d38a5208ca3d26a919b",
+    "experiment.py": "c6a3e6ee7a32d90951d09801d63cfdc7b35c0711db462d549e96c1acbefa1f96",
+    "manifest.json": "0b14ca69a8e89603740febfc9679da00e7cc1a145929b05e0cdc7f5e6dc29991",
+    "post_blind_evaluation.json": "544dd6f6e11596e8c504ec4162170bebd5dac127d4db86e502b8561f4b53c9f0",
+    "post_blind_evaluation.py": "b7ecf0229442563c455092f10329a4b1de3d880f3696cab5a09efb66f1c96251",
+    "report.md": "eb530ee927ba99ed035988d27f7c68d6e3cfa2a46ec31506332c5c71948dee07",
+    "reproducibility.json": "878f8c650ec16077ed1d69ac237ed83ad85c18a54ce0c28e544d1ad4328a96e6"
+  },
+  "external_blind_freeze": {
+    "path": "/Volumes/SSD Track/JGA/experiments/H-VAL001-AI-VOICE-01/run_20260816_115417/blind_freeze.json",
+    "sha256": "c7dc882cfeebbd6238e681ec22f004f6f37fd50c5311dd23b272f7a031cd88f3"
+  },
+  "external_raw_outputs": "Bound transitively by blind_freeze.json to two complete raw-array, note-event and MIDI records."
+}

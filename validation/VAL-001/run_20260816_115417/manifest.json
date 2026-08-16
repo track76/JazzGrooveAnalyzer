@@ -1,0 +1,69 @@
+{
+  "experiment_id": "H-VAL001-AI-VOICE-01",
+  "run_id": "run_20260816_115417",
+  "status": "PREREGISTERED",
+  "scientific_question": "Can a pinned pretrained Basic Pitch model provide reliable INFERRED source-event evidence for the controlled Voice stem where deterministic transient observations are strongly fragmented?",
+  "architectural_impact": "None; experimental evidence only",
+  "epistemic_status": "INFERRED",
+  "observed_population_preserved": {
+    "kind": "Voice PulseCandidate",
+    "count": 150,
+    "status": "OBSERVED"
+  },
+  "model_freeze": {
+    "distribution": "basic-pitch",
+    "release": "0.4.0",
+    "official_repository": "https://github.com/spotify/basic-pitch",
+    "release_tag": "v0.4.0",
+    "release_tag_commit": "9991303bba609a3b93089d13ec80d1d495083596",
+    "serialization": "Core ML mlpackage",
+    "backend": "coremltools",
+    "model_component_sha256": {
+      "Data/com.apple.CoreML/model.mlmodel": "af7bf7d49bc167e0bf0c30aa2ca6b432c3e10df048d2dd4173ff3a738c020858",
+      "Data/com.apple.CoreML/weights/weight.bin": "691a6b63c7ddcdde0ee131ff3986dcb1250df47cd738612efde966ba9b4c99cd",
+      "Manifest.json": "c1fa5ef8acc34703edcd4e90e9a8640bd4673d9f3a68753c3b9d1ca0365e2928"
+    }
+  },
+  "input": {
+    "path": "recordings/validation/stems/voice.wav",
+    "sha256": "0fa95a3eff06d1ab075caf2f388c17d536e614aca397647967805045521c655a"
+  },
+  "environment": {
+    "python": "3.11.15",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "external_environment": "/Volumes/SSD Track/JGA/environments/basic-pitch-0.4.0-py311",
+    "external_run_root": "/Volumes/SSD Track/JGA/experiments/H-VAL001-AI-VOICE-01/run_20260816_115417",
+    "dependency_correction": "setuptools==80.9.0 supplies pkg_resources required by resampy 0.4.2"
+  },
+  "inference_parameters": {
+    "onset_threshold": 0.5,
+    "frame_threshold": 0.3,
+    "minimum_note_length_ms": 127.7,
+    "minimum_frequency_hz": null,
+    "maximum_frequency_hz": null,
+    "multiple_pitch_bends": false,
+    "melodia_trick": true,
+    "midi_tempo": 120,
+    "parameter_authority": "Basic Pitch 0.4.0 predict() documented defaults; MIDI tempo is serialization metadata and is not JGA metric evidence",
+    "input_resampling": "Basic Pitch internal mono conversion and resampling to 22050 Hz"
+  },
+  "blind_exclusions": [
+    "symbolic Voice event count",
+    "MusicXML Voice onset positions",
+    "Ground Truth event identities"
+  ],
+  "raw_outputs": [
+    "contour frame array",
+    "note frame array",
+    "onset frame array",
+    "note events with onset, offset, pitch, confidence and pitch bends",
+    "MIDI serialization"
+  ],
+  "reproducibility_rule": "Two independent complete processes must produce identical canonical note-event and raw-array scientific fingerprints under the frozen environment.",
+  "outcome_rules": {
+    "PASS": "Pinned inference is reproducible and well formed, and post-freeze validation establishes useful event evidence without scientifically established fragmentation, merging, duplication or omission.",
+    "PARTIAL": "Pinned inference is reproducible and yields useful event evidence, but post-freeze validation establishes or cannot exclude significant fragmentation, merging, duplication, omission or event-level ambiguity.",
+    "FAIL": "Inference is unstable, empty, invalid, does not reduce the transient-fragmentation problem, or is otherwise scientifically unsuitable."
+  },
+  "anti_overfitting": "No inference parameter may be changed after Ground Truth reveal. Population equality is not a PASS criterion."
+}

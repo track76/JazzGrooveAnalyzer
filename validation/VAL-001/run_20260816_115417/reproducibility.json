@@ -1,0 +1,13 @@
+{
+  "experiment_id": "H-VAL001-AI-VOICE-01",
+  "complete_inference_executions": 2,
+  "note_event_counts": [25, 25],
+  "first_scientific_fingerprint": "7abc9a2915c10c2a69dd3ea286408ab19e9fcd4a484b720103c3f95be568fa39",
+  "second_scientific_fingerprint": "7abc9a2915c10c2a69dd3ea286408ab19e9fcd4a484b720103c3f95be568fa39",
+  "raw_array_fingerprints_identical": true,
+  "canonical_note_events_identical": true,
+  "midi_sha256_identical": true,
+  "scientific_outputs_identical": true,
+  "blind_freeze_sha256": "7d59863526afb356fcb6c87e846bb75648c50ddf967b661c7ecc710aaecbd8cc",
+  "external_blind_freeze_file_sha256": "c7dc882cfeebbd6238e681ec22f004f6f37fd50c5311dd23b272f7a031cd88f3"
+}
