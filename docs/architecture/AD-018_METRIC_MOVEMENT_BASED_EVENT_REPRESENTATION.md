@@ -1,6 +1,12 @@
 # AD-018 — Metric Movement Based Event Representation
 
-Status: LOCKED
+Status: SUPERSEDED IN PART BY AD-037
+
+> Historical authority notice: AD-037 supersedes movement-dependent EME
+> existence, the one-EME-per-contributor/movement cardinality rule and
+> ambiguity suppression. This document remains preserved to retain the
+> scientific history and its still-authoritative observation/interpretation
+> distinctions.
 
 
 ## Decision

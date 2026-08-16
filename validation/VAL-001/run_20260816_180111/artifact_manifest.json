@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "artifacts": [
+    {
+      "path": "manifest.json",
+      "sha256": "af6ec66583d8396a5c28d92bd5c467c65a0833fca5702234bc634b931b413303"
+    },
+    {
+      "path": "result.json",
+      "sha256": "ce684b7062d78c96de4e2520dc9dfbededf605aaf671ec2f03814d97347f5785"
+    },
+    {
+      "path": "report.md",
+      "sha256": "54228e4eac1dd810f1c0c129cd51b24ba1bf70a9a8450f69baacb66ca73171c8"
+    },
+    {
+      "path": "completion_protocol.json",
+      "sha256": "e65ebe50381aa4bd25c2aa826743a59fc912cee5f210823a6cc5b8c217a2099a"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 
 # ElementaryMetricEvent (EME)
 
-**Version:** 1.1
+**Version:** 1.2
 
 **Status:** Official
 
@@ -16,7 +16,9 @@
 
 # 1. Purpose
 
-The purpose of the `ElementaryMetricEvent` (EME) entity is to represent one active `MetricContributor`'s immutable temporal position relative to one authorized reconstructed metric movement.
+The purpose of the `ElementaryMetricEvent` (EME) entity is to preserve one
+scientifically authorized source-event representation for an active
+`MetricContributor` before metric localization.
 
 The EME constitutes the elementary unit from which the ensemble metric structure is progressively inferred.
 
@@ -40,7 +42,11 @@ Every higher-level temporal structure within the JGA is ultimately derived from 
 
 An `ElementaryMetricEvent` is a domain-level temporal representation generated from observable evidence through the Translation Layer after the Metric Context has been established.
 
-An EME represents one contributor-position relation at a specific instant within the performance and retains its supporting-observation lineage.
+An EME represents one source-event temporal position at a specific instant
+within the performance and retains its supporting-observation lineage.
+
+Metric association does not determine whether the EME exists or how many EME
+may exist. Localization is a subsequent relationship governed by AD-037.
 
 The EME preserves information derived from observation.
 
@@ -64,10 +70,10 @@ It is not a note, raw onset, transient, generic musical-event transcription, or 
 
 The ElementaryMetricEvent is responsible for:
 
-- representing one contributor's position relative to one reconstructed movement;
+- representing one contributor's authorized source-event position;
 - preserving its temporal position;
 - maintaining traceability to the originating MetricContributor;
-- retaining its supporting PulseCandidate and BeatReference identities;
+- retaining its supporting PulseCandidate identities;
 - serving as the elementary input for MetricCluster construction.
 
 The EME never:
@@ -81,9 +87,10 @@ The EME never:
 
 # 6. Relationships
 
-Every ElementaryMetricEvent originates from exactly one MetricContributor,
-refers to exactly one authorized reconstructed movement, and has one or more
-supporting observations.
+Every ElementaryMetricEvent originates from exactly one MetricContributor and
+has one or more supporting observations. Metric localization may subsequently
+relate it to one preceding and one following BeatReference without changing
+the EME.
 
 Multiple EMEs contribute to the construction of one MetricCluster.
 
@@ -93,8 +100,8 @@ Every MetricCluster is composed exclusively of EMEs.
 
 # 7. Lifecycle
 
-An EME is reconstructed only after its authorized metric movement exists and
-an explicit association result has been established under AD-018.
+An EME is materialized from authorized source-event evidence before metric
+localization under AD-037.
 
 Once created, it remains immutable throughout the complete analysis.
 

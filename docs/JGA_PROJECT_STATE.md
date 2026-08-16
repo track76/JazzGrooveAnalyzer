@@ -1,5 +1,32 @@
 # JGA Project State
 
+## EME Materialization and Metric Localization
+
+Status:
+
+COMPLETED
+
+- AD-037 supersedes AD-018's movement-dependent EME existence and
+  one-EME-per-contributor/movement cardinality rules while preserving their
+  scientific history.
+- The production order is now source evidence → EME → metric localization →
+  future interpretation. Metric association does not suppress, merge or create
+  EME.
+- Controlled cardinalities are Drums 63→63, Piano 49→49, Double Bass 27→27
+  and Tenor Sax 16→16 from materialized EME through MetricPoint output.
+- Multiple same-contributor EME per quarter interval are preserved. Maximum
+  interval populations are 2, 3, 2 and 3 respectively.
+- Every localizable EME retains preceding/following reference identity,
+  elapsed seconds and raw normalized quarter phase in `[0,1)` without musical
+  or subdivision interpretation.
+- EME and Domain PulseCandidate identities are deterministic and asset-bound;
+  observation lineage, metric provenance and Core observations are preserved.
+- `H-VAL001-EME-CARDINALITY-01` status is `PASS`. Voice remains deferred.
+- Focused Domain, Translation, Representation and controlled-real-audio
+  validation: 101 passed, 2 dependency deprecation warnings.
+- Complete automated suite excluding the environment-dependent Demucs
+  integration test: 1069 passed, 3 warnings. No heavy write was attempted.
+
 ## Neutral Signed EME Displacement Validation
 
 Status:

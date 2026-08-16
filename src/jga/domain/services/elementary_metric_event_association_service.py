@@ -1,4 +1,7 @@
+from bisect import bisect_right
+
 from jga.domain.beat_reference import BeatReference
+from jga.domain.elementary_metric_event import ElementaryMetricEvent
 from jga.domain.elementary_metric_event_association import (
     ElementaryMetricEventAssociation,
 )
@@ -7,9 +10,111 @@ from jga.domain.pulse_candidate import PulseCandidate
 
 
 class ElementaryMetricEventAssociationService:
-    """Associate observations only through explicit BeatReference lineage."""
+    """Localize existing EME without controlling their existence."""
 
     RULE = "explicit-movement-observation-lineage/v1"
+    LOCALIZATION_RULE = "preceding-quarter-localization/v1"
+
+    def localize(
+        self,
+        events: tuple[ElementaryMetricEvent, ...],
+        beat_references: tuple[BeatReference, ...],
+    ) -> tuple[ElementaryMetricEventAssociation, ...]:
+        ordered_beats = tuple(
+            sorted(beat_references, key=lambda beat: (beat.timestamp, beat.index))
+        )
+        timestamps = tuple(beat.timestamp for beat in ordered_beats)
+        results = []
+        for event in events:
+            declared_quarter_timeline = bool(
+                ordered_beats and ordered_beats[0].exact_period_seconds is not None
+            )
+            if ordered_beats and not declared_quarter_timeline:
+                nearest = min(
+                    ordered_beats,
+                    key=lambda beat: (abs(event.timestamp - beat.timestamp), beat.index),
+                )
+                results.append(
+                    ElementaryMetricEventAssociation(
+                        beat_reference_id=nearest.id,
+                        contributor_id=event.contributor_id,
+                        sound_source_id=event.sound_source_id,
+                        supporting_pulse_candidate_ids=event.supporting_pulse_candidate_ids,
+                        timestamp=event.timestamp,
+                        confidence=event.confidence,
+                        temporal_scope=event.temporal_scope,
+                        association_rule="legacy-nearest-localization/v1",
+                        outcome="ASSOCIATED",
+                        elementary_metric_event_id=event.id,
+                        elapsed_seconds=event.timestamp - nearest.timestamp,
+                    )
+                )
+                continue
+            preceding_index = bisect_right(timestamps, event.timestamp) - 1
+            if preceding_index < 0 or not ordered_beats:
+                results.append(
+                    ElementaryMetricEventAssociation(
+                        beat_reference_id=None,
+                        contributor_id=event.contributor_id,
+                        sound_source_id=event.sound_source_id,
+                        supporting_pulse_candidate_ids=(
+                            event.supporting_pulse_candidate_ids
+                        ),
+                        timestamp=event.timestamp,
+                        confidence=event.confidence,
+                        temporal_scope=event.temporal_scope,
+                        association_rule=self.LOCALIZATION_RULE,
+                        outcome="NOT_PRODUCED",
+                        elementary_metric_event_id=event.id,
+                    )
+                )
+                continue
+
+            preceding = ordered_beats[preceding_index]
+            following = (
+                ordered_beats[preceding_index + 1]
+                if preceding_index + 1 < len(ordered_beats)
+                else None
+            )
+            if preceding.exact_period_seconds is None:
+                period_seconds = (
+                    following.timestamp - preceding.timestamp
+                    if following is not None
+                    else None
+                )
+            else:
+                period_seconds = float(preceding.exact_period_seconds)
+            elapsed = event.timestamp - preceding.timestamp
+            phase = (
+                elapsed / period_seconds
+                if period_seconds is not None and period_seconds > 0
+                else None
+            )
+            outcome = (
+                "ASSOCIATED"
+                if phase is not None and 0.0 <= phase < 1.0
+                else "NOT_PRODUCED"
+            )
+            results.append(
+                ElementaryMetricEventAssociation(
+                    beat_reference_id=(preceding.id if outcome == "ASSOCIATED" else None),
+                    contributor_id=event.contributor_id,
+                    sound_source_id=event.sound_source_id,
+                    supporting_pulse_candidate_ids=event.supporting_pulse_candidate_ids,
+                    timestamp=event.timestamp,
+                    confidence=event.confidence,
+                    temporal_scope=event.temporal_scope,
+                    association_rule=self.LOCALIZATION_RULE,
+                    outcome=outcome,
+                    elementary_metric_event_id=event.id,
+                    following_beat_reference_id=(
+                        following.id if following is not None else None
+                    ),
+                    elapsed_seconds=elapsed if outcome == "ASSOCIATED" else None,
+                    normalized_phase=phase if outcome == "ASSOCIATED" else None,
+                )
+            )
+        return tuple(results)
 
     def associate(
         self,

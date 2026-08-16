@@ -53,16 +53,28 @@ class RepresentationPipeline:
     ) -> RepresentationResult:
 
         portraits = tuple(
-            self._portrait_builder.build(cluster)
-            for cluster in metric_clusters
+            self._portrait_builder.build(
+                cluster,
+                (
+                    metric_clusters[index + 1].beat_reference
+                    if index + 1 < len(metric_clusters)
+                    else None
+                ),
+            )
+            for index, cluster in enumerate(metric_clusters)
         )
 
         metric_points = tuple(
             self._metric_point_builder.build_from_event(
                 event,
                 cluster.beat_reference,
+                (
+                    metric_clusters[index + 1].beat_reference
+                    if index + 1 < len(metric_clusters)
+                    else None
+                ),
             )
-            for cluster in metric_clusters
+            for index, cluster in enumerate(metric_clusters)
             for event in cluster.events
         )
 

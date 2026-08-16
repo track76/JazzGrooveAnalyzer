@@ -2094,3 +2094,27 @@ comparison semantic or validation-record responsibility.
 ## Canonical Specification
 
 `docs/architecture/AD-036_M93_VALIDATION_DATASET_GENERALIZATION.md`
+
+
+------------------------------------------------------------
+
+# AD-037 — EME Materialization and Metric Localization
+
+## Status
+
+LOCKED
+
+## Decision
+
+ElementaryMetricEvent existence and cardinality are determined by authorized
+source-event evidence before metric localization. Metric association may
+locate EME but shall not suppress, merge or create them. Multiple EME per
+contributor and quarter interval are permitted.
+
+AD-037 supersedes the movement-dependent EME existence and cardinality rules
+of AD-018 while preserving AD-018's historical rationale and remaining
+observation/interpretation constraints.
+
+## Canonical Specification
+
+`docs/architecture/AD-037_EME_MATERIALIZATION_METRIC_LOCALIZATION.md`

@@ -41,6 +41,14 @@ class MetricPoint:
 
     beat_index: int = 0
 
+    preceding_beat_reference: BeatReference | None = None
+
+    following_beat_reference: BeatReference | None = None
+
+    elapsed_from_preceding_seconds: float | None = None
+
+    normalized_quarter_phase: float | None = None
+
     @property
     def offset_ms(self) -> float:
         """

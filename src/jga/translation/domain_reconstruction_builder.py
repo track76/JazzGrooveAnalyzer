@@ -84,6 +84,31 @@ class DefaultDomainReconstructionBuilder(
             else None
         )
 
+        declared_scope = reconstruction_input.declared_analysis_scope
+        temporal_scope = (
+            f"[{declared_scope.start_seconds},{declared_scope.end_seconds})"
+            if declared_scope is not None
+            else "analysis_input"
+        )
+        source_asset_sha256 = (
+            declared_scope.asset_sha256
+            if declared_scope is not None
+            else next(
+                (
+                    item.observation_provenance_id
+                    for item in reconstruction_input.domain_pulse_candidates
+                    if item.observation_provenance_id is not None
+                ),
+                None,
+            )
+        )
+        events = self.eme_builder.build_from_observations(
+            reconstruction_input.domain_pulse_candidates,
+            reconstruction_input.metric_contributors,
+            temporal_scope,
+            source_asset_sha256,
+        )
+
         beats = self.beat_builder.reconstruct(
             reconstruction_input.ensemble_metric_events,
             declared_metric_reference=(
@@ -97,17 +122,15 @@ class DefaultDomainReconstructionBuilder(
             ),
         )
 
-        associations = self.eme_association_service.associate(
-            reconstruction_input.domain_pulse_candidates,
-            reconstruction_input.metric_contributors,
+        associations = self.eme_association_service.localize(
+            events,
             beats,
         )
-
-        events = self.eme_builder.build(associations)
 
         clusters = self.cluster_builder.build(
             beats,
             events,
+            associations,
         )
 
         pulses = self.pulse_builder.build(

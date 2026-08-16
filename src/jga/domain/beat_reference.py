@@ -38,6 +38,10 @@ class BeatReference:
 
     exact_timestamp_ratio: str | None = None
 
+    exact_period_seconds: Decimal | None = None
+
+    exact_period_ratio: str | None = None
+
     epistemic_status: ScientificValueOrigin | None = None
 
     tempo_provenance: MetricReferenceProvenance | None = None

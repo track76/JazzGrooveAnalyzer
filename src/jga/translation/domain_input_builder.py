@@ -149,7 +149,7 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         )
 
         #
-        # Elementary Metric Events
+        # Source-event EME materialization, then metric localization
         #
 
         reconstruction_result = (

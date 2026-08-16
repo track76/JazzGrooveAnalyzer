@@ -148,6 +148,10 @@ class BeatReconstructionEngine:
                 exact_timestamp_ratio=(
                     f"{timestamp.numerator}/{timestamp.denominator}"
                 ),
+                exact_period_seconds=(
+                    Decimal(period.numerator) / Decimal(period.denominator)
+                ),
+                exact_period_ratio=f"{period.numerator}/{period.denominator}",
                 created_at=created_at,
                 supporting_pulse_candidate_ids=tuple(support_by_index[index]),
                 reconstruction_rule=self.DECLARED_PERIOD_RULE,

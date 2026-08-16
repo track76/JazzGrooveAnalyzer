@@ -304,7 +304,10 @@ class AnalysisPipeline:
 
         context.domain_pulse_candidates = (
             self.domain_pulse_candidate_adapter.convert(
-                context.source_pulse_sequences
+                context.source_pulse_sequences,
+                observation_scope_identity=(
+                    context.candidate_period_population.provenance.input_asset_sha256
+                ),
             )
         )
 

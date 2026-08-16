@@ -1,0 +1,15 @@
+{
+  "experiment_id": "H-VAL001-EME-CARDINALITY-01",
+  "validation_protocol": "SVP-001",
+  "timestamp": "2026-08-16T18:01:11+02:00",
+  "repository_commit_input": "becb44d",
+  "governing_decision": "AD-037",
+  "scope": "source-event EME materialization and neutral quarter localization",
+  "quarter_origin_seconds": "0",
+  "quarter_period_seconds": "10/13",
+  "analysis_scope_seconds": "[0,1865728/44100)",
+  "beat_reference_count": 55,
+  "included_sources": ["Drums", "Piano", "Double Bass", "Tenor Sax"],
+  "excluded_sources": {"Voice": "DEFERRED"},
+  "interpretation": "NOT_PERFORMED"
+}

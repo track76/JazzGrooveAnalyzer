@@ -17,7 +17,7 @@ Copyright © 2026 Angelo Tracanna
 """
 
 from datetime import datetime
-from uuid import uuid4
+from uuid import NAMESPACE_URL, uuid5
 
 from jga.domain.pulse_candidate import (
     PulseCandidate,
@@ -33,6 +33,7 @@ class DomainPulseCandidateAdapter:
     def convert(
         self,
         source_pulse_sequences,
+        observation_scope_identity: str = "unspecified-observation-scope",
     ) -> tuple[PulseCandidate, ...]:
 
         result = []
@@ -48,11 +49,23 @@ class DomainPulseCandidateAdapter:
                 sequence.source.source_id
             )
 
-            for candidate in sequence.pulse_candidates:
+            for observation_index, candidate in enumerate(sequence.pulse_candidates):
+
+                identity = ":".join(
+                    (
+                        "domain-pulse-candidate/v2",
+                        observation_scope_identity,
+                        str(sound_source_id),
+                        str(observation_index),
+                        candidate.time.hex(),
+                        candidate.strength.hex(),
+                        candidate.confidence.hex(),
+                    )
+                )
 
                 result.append(
                     PulseCandidate(
-                        id=uuid4(),
+                        id=uuid5(NAMESPACE_URL, identity),
                         sound_source_id=sound_source_id,
                         timestamp=float(
                             candidate.time
@@ -62,6 +75,8 @@ class DomainPulseCandidateAdapter:
                             candidate.confidence
                         ),
                         created_at=datetime.now(),
+                        observation_index=observation_index,
+                        observation_provenance_id=observation_scope_identity,
                     )
                 )
 

@@ -28,12 +28,14 @@ class MetricClusterPortraitBuilder:
     def build(
         self,
         cluster: MetricCluster,
+        following_beat_reference=None,
     ) -> MetricClusterPortrait:
 
         points = tuple(
             self._metric_point_builder.build_from_event(
                 event,
                 cluster.beat_reference,
+                following_beat_reference,
             )
             for event in cluster.events
         )

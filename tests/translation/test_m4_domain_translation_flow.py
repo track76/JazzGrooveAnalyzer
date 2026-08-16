@@ -106,9 +106,11 @@ def test_m4_complete_domain_translation_flow():
 
     assert result.domain_pulse_candidates[0].strength == candidate.strength
 
-    # No authorized pre-EME movement evidence was supplied by this
-    # Translation-only fixture, so no EME may be synthesized.
-    assert result.elementary_metric_events == ()
+    # Source-event EME existence no longer depends on metric evidence.
+    assert len(result.elementary_metric_events) == 1
+    assert result.elementary_metric_events[0].timestamp == candidate.time
+    assert result.elementary_metric_events[0].beat_reference_id is None
+    assert result.metric_clusters == ()
 
 
 def test_m4_metric_source_sound_source_contract():
