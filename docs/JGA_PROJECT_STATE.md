@@ -1,5 +1,27 @@
 # JGA Project State
 
+## Complete EME Phase-Population Preregistration
+
+Status:
+
+PREREGISTERED — NOT EXECUTED
+
+- `H-VAL001-EME-PHASE-01` freezes a contributor-separated circular analysis
+  of the complete AD-037 normalized-phase populations before inspection or
+  interpretation.
+- The candidate models are a uniform circular null and finite von Mises
+  mixtures selected by BIC, with deterministic replay and preregistered
+  bootstrap stability and uncertainty criteria.
+- No EME may be removed, merged, duplicated or initially pooled across
+  contributors. No phase center, component count or musical label is assumed.
+- Voice remains `DEFERRED`, not excluded, and shall receive the same contract
+  after an authorized Voice EME population exists. Basic Pitch and SOME are
+  excluded from this analysis.
+- The preregistration is authoritative at
+  `validation/VAL-001/preregistrations/H-VAL001-EME-PHASE-01.md`.
+- No phase-population analysis has been executed and no musical
+  interpretation is authorized.
+
 ## EME Materialization and Metric Localization
 
 Status:
