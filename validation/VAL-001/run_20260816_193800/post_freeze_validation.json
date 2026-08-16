@@ -1,0 +1,41 @@
+{
+  "autonomous_bpm_status": "PARTIAL",
+  "blind_classification_unchanged": "EQUIVALENT_HIERARCHICALLY_UNRESOLVED",
+  "blind_freeze_sha256_verified": "6feaf58a1ae05273d4b95dfb9b6149e896f0b4f8b38c0466ba628891f891284a",
+  "blind_result_modified": false,
+  "blind_result_sha256_verified": "c674a2b9ddd9831b9babbdaf9e01b659c1ca044e5d90928bd5a7ee149eb7eda0",
+  "blind_scientific_fingerprint": "02912d34d5a5aeafa00b41131863a79b7ece77934e338bb3c923ff174298f5c7",
+  "experiment_id": "H-VAL001-RHYTHM-ROLE-01",
+  "family_relations": {
+    "LONG": {
+      "candidate_relations": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "contains_authoritative_reference_period": true
+    },
+    "SHORT": {
+      "candidate_relations": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "contains_authoritative_reference_period": false
+    }
+  },
+  "ground_truth": {
+    "identity": "GT-VAL-001-v1",
+    "record_sha256": "9f219660d933b9084190708b8b7ae9ef092c987aff767390750351e83a93090d",
+    "reference_period_frames": "66.25600961538461538461538461",
+    "reference_period_seconds": "0.7692307692307692307692307692",
+    "tempo_beat_unit": "quarter",
+    "tempo_rate": "78"
+  },
+  "ground_truth_used_for_discovery": false,
+  "metric_reference_role_scientifically_justified": false,
+  "production_implementation_justified": false,
+  "selected_authoritative_family_blindly": "UNRESOLVED"
+}

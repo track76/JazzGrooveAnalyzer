@@ -1,0 +1,16 @@
+{
+  "experiment_id": "H-VAL001-RHYTHM-ROLE-01",
+  "status": "COMPLETE",
+  "repository_revision": "79f60712254901ed055718de315b50004126a166",
+  "preregistration": "validation/VAL-001/preregistrations/H-VAL001-RHYTHM-ROLE-01.md",
+  "preregistration_sha256": "2abfeee83cec547e5efd57ffd06e7e2c83d3eb674122e6072339830d8df19605",
+  "parent_experiment": "H-VAL001-RHYTHM-TEMPO-01",
+  "parent_blind_result_sha256": "0f6d8162053142893d4f938f32c73174b26dd8c783a457ad98e6e491ecb369cd",
+  "blind_result_sha256": "c674a2b9ddd9831b9babbdaf9e01b659c1ca044e5d90928bd5a7ee149eb7eda0",
+  "blind_freeze_sha256": "6feaf58a1ae05273d4b95dfb9b6149e896f0b4f8b38c0466ba628891f891284a",
+  "scientific_fingerprint": "02912d34d5a5aeafa00b41131863a79b7ece77934e338bb3c923ff174298f5c7",
+  "included_contributors": ["Drums", "Double Bass", "Piano"],
+  "voice_status": "DEFERRED",
+  "production_behavior_changed": false,
+  "push": "NOT PERFORMED"
+}

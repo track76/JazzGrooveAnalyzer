@@ -1,5 +1,30 @@
 # JGA Project State
 
+## Rhythm-Section Metric-Role Discrimination
+
+Status:
+
+COMPLETED — HIERARCHICALLY UNRESOLVED
+
+- `H-VAL001-RHYTHM-ROLE-01` tested only the immutable SHORT and LONG
+  common-period families from `H-VAL001-RHYTHM-TEMPO-01`, using the same
+  complete AD-037 Drums, Double Bass and Piano EME populations.
+- Candidate origin was an exhaustively evaluated nuisance parameter. Neutral
+  cycle-occupancy recurrence was selected by a preregistered BIC rule over
+  full, early and late scopes, with equal-source consensus.
+- Drums preferred SHORT. Double Bass and Piano were unresolved under the
+  frozen source rule, so neither family received the required two independent
+  source votes.
+- Blind classification is `EQUIVALENT_HIERARCHICALLY_UNRESOLVED`. The result
+  was frozen before Ground Truth access and does not assign metric role.
+- Post-freeze validation confirms that the authoritative reference lies in the
+  LONG family; the blind criterion did not select it. Autonomous BPM remains
+  `PARTIAL`, and production integration is not authorized.
+- Voice remains `DEFERRED`. No production or architectural behavior changed.
+- Scientific fingerprint:
+  `02912d34d5a5aeafa00b41131863a79b7ece77934e338bb3c923ff174298f5c7`.
+- Complete record: `validation/VAL-001/run_20260816_193800/`.
+
 ## Rhythm-Section Common-Period Validation
 
 Status:
