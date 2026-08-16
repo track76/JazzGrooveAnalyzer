@@ -1,0 +1,44 @@
+{
+  "accepted": [
+    {
+      "quantity": "observation_scope_duration_seconds",
+      "reason": "Required to delimit and interpret all evidence and compare scopes."
+    },
+    {
+      "quantity": "candidate_count",
+      "reason": "Minimum description of preserved recurrent temporal multiplicity."
+    },
+    {
+      "quantity": "candidate_duration_seconds",
+      "reason": "The observed recurrent temporal relation defined by F-032."
+    },
+    {
+      "quantity": "recurrence_occurrence_count",
+      "reason": "Minimum magnitude of exact recurrence support without ranking."
+    },
+    {
+      "quantity": "complete_supporting_occurrence_positions",
+      "reason": "Preserves when recurrence support occurs and permits later temporal comparison without aggregation loss."
+    }
+  ],
+  "exact_replay": true,
+  "experiment_id": "H-VAL001-C1-11",
+  "ground_truth_used": false,
+  "musical_interpretation_used": false,
+  "production_implementation_required": false,
+  "profile_sha256": "08194cb1d78196bdcf3cfee7b6118b4f4d0dae328f8dec5c1a573daa60b67674",
+  "rejected": [
+    {
+      "quantity": "first_to_last_support_span_seconds",
+      "reason": "Deterministic but redundant with complete occurrence positions and hides internal distribution."
+    },
+    {
+      "quantity": "recurrence_rate_per_scope_second",
+      "reason": "Deterministic but derivable from accepted occurrence count and scope duration; not required in the minimum profile."
+    },
+    {
+      "quantity": "normalized_support_share",
+      "reason": "Deterministic but compositional and redundant with accepted counts; it adds no indispensable evidence."
+    }
+  ]
+}

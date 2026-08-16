@@ -1,0 +1,59 @@
+{
+  "experiment_id": "H-VAL001-C1-11",
+  "run_id": "run_20260816_054601",
+  "status": "PREREGISTERED",
+  "scientific_question": "What minimum deterministic, provenance-bound descriptive quantities can be derived directly from one real-performance Candidate Period population to describe recurrent timing behaviour and support later performance comparison?",
+  "direct_contribution_to_jga_mission": "Establish the first scientifically defensible single-performance timing profile directly from validated pre-interpretive temporal evidence.",
+  "missing_scientific_evidence": "Evidence that a minimum timing profile can be derived reproducibly from a real-performance Candidate Period population without metric or musical interpretation.",
+  "why_existing_evidence_is_insufficient": "Existing controlled records validate Candidate Period evidence, but no preserved scientific record evaluates a minimum profile on a genuine real-performance recording.",
+  "smallest_experiment": "Execute the existing observation-through-M92 path twice on one repository real-performance recording, derive only preregistered quantities from each immutable Candidate Period population, and require exact profile equality.",
+  "architectural_impact": "None",
+  "complexity_introduced": "Experiment-local derivation and lightweight records only",
+  "input": {
+    "repository_path": "recordings/III_Chet Baker - I fall in love too easily.mp3",
+    "sha256": "3906369e80a62cf202e1c27e2574ef42dec84b6033f69522c3da47d9db8db0e1"
+  },
+  "source_revision": "548ef8560a6c1b367b93548907870be893dedbef",
+  "processing_scope": [
+    "FileAudioSource",
+    "AudioPreprocessor",
+    "PulseCandidateBuilder",
+    "PulseCandidateFilter",
+    "CandidatePeriodDiscovery"
+  ],
+  "excluded": [
+    "source separation",
+    "Ground Truth",
+    "beat",
+    "BPM",
+    "tempo",
+    "meter",
+    "measures",
+    "musical labels",
+    "Domain reconstruction",
+    "event-lineage research",
+    "detector or DSP modification",
+    "arbitrary tolerance"
+  ],
+  "candidate_quantities": [
+    "observation_scope_duration_seconds",
+    "candidate_count",
+    "candidate_duration_seconds",
+    "recurrence_occurrence_count",
+    "complete_supporting_occurrence_positions",
+    "first_to_last_support_span_seconds",
+    "recurrence_rate_per_scope_second",
+    "normalized_support_share"
+  ],
+  "acceptance_criteria": [
+    "derived directly from the immutable Candidate Period population",
+    "exactly reproduced by two complete executions",
+    "bound to input identity, discovery configuration and observation scope",
+    "contains no musical interpretation",
+    "has an explicit scientific interpretation",
+    "adds non-redundant value to later comparison"
+  ],
+  "falsification_rule": "Reject any quantity that fails direct derivability, exact replay, provenance binding, musical neutrality, scientific interpretability or minimum non-redundancy.",
+  "profile_equivalence_rule": "Canonical JSON payloads must be byte-identical and have identical SHA-256 fingerprints.",
+  "ground_truth_available": false
+}
