@@ -1,5 +1,20 @@
 # JGA Project State
 
+## Rhythm-Section Strength Role Discrimination
+
+Status: COMPLETED — HIERARCHICALLY UNRESOLVED
+
+- `H-VAL001-RHYTHM-STRENGTH-01` tested AD-032-preserved onset strength over
+  the immutable SHORT/LONG families and complete Drums, Double Bass and Piano
+  EME populations. All 139 supporting PulseCandidate identities reproduced.
+- Full/early/late centered-strength phase association did not satisfy the
+  frozen source or equal-source preference rules. Blind classification is
+  `EQUIVALENT_UNRESOLVED`; Ground Truth was accessed only after freeze.
+- Strength did not resolve metric role. Autonomous BPM remains `PARTIAL` and
+  production integration is not authorized. Scientific fingerprint:
+  `24c89394f846c579e46f6c796a181b7ffb35dc3f8cafc948cb5ca687194b43fd`.
+- Record: `validation/VAL-001/run_20260816_195601/`.
+
 ## Rhythm-Section Metric-Role Discrimination
 
 Status:

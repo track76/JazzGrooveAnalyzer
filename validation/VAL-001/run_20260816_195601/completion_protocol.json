@@ -1,0 +1,9 @@
+{
+  "production_code": "NOT APPLICABLE — experiment-local only",
+  "focused_checks": "PASS — 139 supporting identities, frozen families, deterministic replay, freeze and Ground Truth firewall",
+  "full_suite": "NOT APPLICABLE — production behavior unchanged",
+  "scientific_validation": "PASS — EQUIVALENT_UNRESOLVED frozen result",
+  "bootstrap": "regenerate after commit",
+  "storage": "lightweight records only; no copied audio",
+  "push": "NOT PERFORMED"
+}

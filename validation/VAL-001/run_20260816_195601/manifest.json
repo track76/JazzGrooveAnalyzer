@@ -1,0 +1,11 @@
+{
+  "experiment_id": "H-VAL001-RHYTHM-STRENGTH-01",
+  "status": "COMPLETE",
+  "repository_revision": "7c43e677ec78c2179b557d130d30af66378c9f1c",
+  "preregistration_sha256": "8887de8754f13d8a2ad1d5b92918a135dbbd787ca1edcc34a15997e7a6f2aa94",
+  "blind_result_sha256": "0a5ab86f1c6c30d9e389c8e1c47a9689deb7eef7db0fc7b13ee189f95ee96045",
+  "blind_freeze_sha256": "255a1b481ca537891a91c77913d13b4b56d497c6f20053358bb47df3979e3f51",
+  "scientific_fingerprint": "24c89394f846c579e46f6c796a181b7ffb35dc3f8cafc948cb5ca687194b43fd",
+  "production_behavior_changed": false,
+  "push": "NOT PERFORMED"
+}

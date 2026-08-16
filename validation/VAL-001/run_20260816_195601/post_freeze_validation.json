@@ -1,0 +1,17 @@
+{
+  "autonomous_bpm_status": "PARTIAL",
+  "blind_classification_unchanged": "EQUIVALENT_UNRESOLVED",
+  "blind_freeze_sha256_verified": "255a1b481ca537891a91c77913d13b4b56d497c6f20053358bb47df3979e3f51",
+  "blind_result_sha256_verified": "0a5ab86f1c6c30d9e389c8e1c47a9689deb7eef7db0fc7b13ee189f95ee96045",
+  "blind_selected_authoritative_family": "UNRESOLVED",
+  "experiment_id": "H-VAL001-RHYTHM-STRENGTH-01",
+  "ground_truth": {
+    "beat_unit": "quarter",
+    "identity": "GT-VAL-001-v1",
+    "record_sha256": "9f219660d933b9084190708b8b7ae9ef092c987aff767390750351e83a93090d",
+    "tempo_rate": "78"
+  },
+  "ground_truth_used_for_discovery": false,
+  "production_implementation_justified": false,
+  "strength_resolved_hierarchy": false
+}
