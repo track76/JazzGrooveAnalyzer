@@ -1,0 +1,104 @@
+{
+  "audit_id": "H-VAL001-AI-VOICE-02-CAUSAL-01",
+  "source_experiment": "H-VAL001-AI-VOICE-02",
+  "source_run": "run_20260816_163230",
+  "audit_type": "READ_ONLY_FROZEN_EVIDENCE",
+  "inference_rerun": false,
+  "parameters_changed": false,
+  "measurement_resolution": {
+    "sample_rate_hz": 44100,
+    "hop_samples": 512,
+    "hop_seconds": 0.011609977324263039,
+    "descriptive_window": "Three native frames before through three native frames after each boundary; no acceptance threshold is applied."
+  },
+  "terminal_boundaries": [
+    {
+      "boundary": 1,
+      "preceding_event": "chunk-001-segment-00004",
+      "following_event": "chunk-001-segment-00005",
+      "time_seconds": 31.502766439909294,
+      "chunk_frame": 598,
+      "decoded_pitches": [66.74089813232422, 66.9968490600586],
+      "decoded_rest_states": [false, false],
+      "midi_67_probability_frames_minus3_to_plus3": [0.86313396692276, 0.8939943313598633, 0.9155790209770203, 0.932989776134491, 0.9486477971076965, 0.9615248441696167, 0.9707022309303284],
+      "boundary_evidence_frames_minus3_to_plus3": [0.00010840985487448052, 0.0004264450108166784, 0.05243206024169922, 0.2415962666273117, 0.30464038252830505, 0.2599489986896515, 0.09761615842580795],
+      "pitch_argmax_across_window": [67, 67, 67, 67, 67, 67, 67],
+      "active_across_window": true,
+      "native_boundary_state_changes": [5, 6],
+      "classification": "A. STRONG NATIVE BOUNDARY EVIDENCE",
+      "cause": "A localized native boundary-evidence rise advances the cumulative boundary state from 5 to 6. Pitch activation remains active and MIDI 67 remains the framewise maximum; neither rest decoding nor chunk stitching causes the split."
+    },
+    {
+      "boundary": 2,
+      "preceding_event": "chunk-001-segment-00005",
+      "following_event": "chunk-001-segment-00006",
+      "time_seconds": 34.8,
+      "chunk_frame": 882,
+      "decoded_pitches": [66.9968490600586, 67.01931762695312],
+      "decoded_rest_states": [false, false],
+      "midi_67_probability_frames_minus3_to_plus3": [0.9836373925209045, 0.9843814373016357, 0.9844345450401306, 0.9831483364105225, 0.9831528067588806, 0.9835551381111145, 0.9842560887336731],
+      "boundary_evidence_frames_minus3_to_plus3": [0.000099225937447045, 0.0005106276948936284, 0.046762626618146896, 0.2951015532016754, 0.3447006046772003, 0.25252705812454224, 0.036380309611558914],
+      "pitch_argmax_across_window": [67, 67, 67, 67, 67, 67, 67],
+      "active_across_window": true,
+      "native_boundary_state_changes": [6, 7],
+      "classification": "A. STRONG NATIVE BOUNDARY EVIDENCE",
+      "cause": "A localized native boundary-evidence rise advances the cumulative boundary state from 6 to 7 while MIDI 67 remains dominant and activity remains uninterrupted. It is not a pitch, rest or chunk transition."
+    },
+    {
+      "boundary": 3,
+      "preceding_event": "chunk-001-segment-00006",
+      "following_event": "chunk-001-segment-00007",
+      "time_seconds": 36.866575963718816,
+      "chunk_frame": 1060,
+      "decoded_pitches": [67.01931762695312, 66.96796417236328],
+      "decoded_rest_states": [false, false],
+      "midi_67_probability_frames_minus3_to_plus3": [0.9791331887245178, 0.9781197309494019, 0.9778056144714355, 0.9778926968574524, 0.9782247543334961, 0.9786741733551025, 0.9791874885559082],
+      "boundary_evidence_frames_minus3_to_plus3": [0.00021829616161994636, 0.0019843094050884247, 0.055291805416345596, 0.1824866533279419, 0.15423500537872314, 0.029941342771053314, 0.001247034058906138],
+      "pitch_argmax_across_window": [67, 67, 67, 67, 67, 67, 67],
+      "active_across_window": true,
+      "native_boundary_state_changes": [7, 8],
+      "classification": "A. STRONG NATIVE BOUNDARY EVIDENCE",
+      "cause": "A localized native boundary-evidence rise advances the cumulative boundary state from 7 to 8. The rise is smaller than at boundaries 1 and 2 but is directly present in the model output and is sufficient under the unchanged native decoder; pitch and activity remain continuous."
+    }
+  ],
+  "complete_terminal_trajectory": {
+    "chunk_frames": [577, 1124],
+    "frame_count": 547,
+    "active_frame_count": 547,
+    "midi_67_argmax_frame_count": 538,
+    "other_argmax_frames": {"66": 6, "70": 3},
+    "interpretation": "Acoustic/pitch activation is continuous across every audited boundary and the local boundary windows remain framewise MIDI-67 dominant. Native boundary evidence nevertheless positively authorizes all three decoder state transitions."
+  },
+  "symbolic_midi_75_discrepancy": {
+    "temporal_localization_authorized": false,
+    "audit_scope": "Sequence-local region between the frozen decoded 74 and 72 segments only",
+    "decoded_74_segment_frames": [13, 47],
+    "decoded_72_segment_frames": [47, 314],
+    "midi_75_argmax_frames": 0,
+    "midi_75_probability_in_decoded_74_segment": {"maximum": 0.8296030163764954, "median": 0.7835913896560669},
+    "midi_74_probability_maximum_in_decoded_74_segment": 0.9623094201087952,
+    "transition_evidence": {
+      "frame_44": {"midi_74": 0.8056192398071289, "midi_75": 0.8027685880661011},
+      "frame_45": {"midi_74": 0.7084934711456299, "midi_75": 0.7077021598815918},
+      "frame_46": {"midi_72": 0.5228320956230164, "midi_74": 0.4993754029273987, "midi_75": 0.44149452447891235},
+      "frame_47_boundary_evidence": 0.35111764073371887
+    },
+    "separate_boundary_for_midi_75": false,
+    "classification": "C. COMPETING PITCH HYPOTHESIS",
+    "cause": "The frozen model contains substantial MIDI-75 probability within the decoded-74 segment, including near-equality with MIDI 74 immediately before the 74-to-72 boundary. MIDI 75 is never the framewise maximum and has no separate native boundary, so the standard decoder materializes no independent 75 segment."
+  },
+  "scientific_decision": {
+    "terminal_splits_causally_explained": true,
+    "terminal_splits_are_model_segmentation_outputs": true,
+    "terminal_splits_proven_erroneous_artifacts": false,
+    "merging_authorized": false,
+    "midi_75_discrepancy_causally_explained": true,
+    "population_arithmetic_explained": "Three terminal boundary splits add three inferred segments while the absent symbolic MIDI-75 contributes one missing segment: +3 - 1 = net +2, explaining 13 versus 11 at population level.",
+    "event_identity_validated": false,
+    "some_materially_better_than_basic_pitch": true,
+    "outcome": "PARTIAL",
+    "production_integration_justified": false,
+    "additional_voice_ai_model_justified": false,
+    "voice_ai_exploration_branch_can_close": true
+  }
+}

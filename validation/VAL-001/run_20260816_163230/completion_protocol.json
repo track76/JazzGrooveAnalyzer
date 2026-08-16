@@ -6,7 +6,7 @@
   "bootstrap_integration": "NOT APPLICABLE — no repository authority or session bootstrap changed.",
   "focused_tests": "PASS — preregistration syntax, model/config/input checksums, two CPU runs, blind freeze and post-freeze comparison.",
   "full_suite": "NOT APPLICABLE — production code and repository behavior were not modified.",
-  "scientific_validation": "PARTIAL — reproducibility passed; event-level temporal correspondence remains unvalidated.",
+  "scientific_validation": "PARTIAL — reproducibility passed; the frozen causal audit explains the population discrepancy, while event-level temporal correspondence remains unvalidated.",
   "repository_consistency": "PASS — only the approved lightweight experimental record was added; unrelated worktree changes remain untouched.",
   "storage_impact": "Heavy content externalized; repository record is lightweight.",
   "push": "NOT PERFORMED — PI approval required."
