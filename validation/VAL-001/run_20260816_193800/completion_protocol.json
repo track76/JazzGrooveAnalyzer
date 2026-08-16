@@ -5,7 +5,7 @@
   "full_suite": "NOT APPLICABLE — no production or test behavior changed",
   "scientific_validation": "PASS — blind EQUIVALENT_HIERARCHICALLY_UNRESOLVED result frozen before Ground Truth reveal",
   "documentation_consistency": "PASS — AD-035 recurrence and AD-037 EME cardinality preserved",
-  "bootstrap": "regenerate after commit for HEAD consistency",
+  "bootstrap": "PASS — regenerated after scientific-record commit and verified against HEAD",
   "storage_impact": "lightweight JSON, Python and Markdown records only; no audio copied",
   "push": "NOT PERFORMED"
 }
