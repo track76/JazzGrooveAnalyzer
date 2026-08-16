@@ -4,6 +4,7 @@ from uuid import uuid4
 from jga.domain.beat_reference import BeatReference
 from jga.domain.elementary_metric_event import ElementaryMetricEvent
 from jga.domain.metric_cluster import MetricCluster
+from jga.domain.services.beat_projection_engine import BeatProjectionEngine
 
 
 class MetricClusterBuilder:
@@ -16,11 +17,8 @@ class MetricClusterBuilder:
     the reconstructed metric movement.
     """
 
-    def __init__(
-        self,
-        cluster_window: float = 0.010,
-    ):
-        self.cluster_window = cluster_window
+    def __init__(self) -> None:
+        self._projection_engine = BeatProjectionEngine()
 
     def build(
         self,
@@ -31,24 +29,33 @@ class MetricClusterBuilder:
         if not beat_references:
             return ()
 
-        clusters = []
-
-        for beat in beat_references:
-
-            assigned_events = tuple(
-                event
-                for event in events
-                if abs(event.timestamp - beat.timestamp)
-                <= self.cluster_window
+        ordered_beats = tuple(
+            sorted(
+                beat_references,
+                key=lambda beat: (beat.timestamp, beat.index),
             )
+        )
+        beat_grid = tuple(beat.timestamp for beat in ordered_beats)
+        assignments = {beat.id: [] for beat in ordered_beats}
 
-            clusters.append(
-                MetricCluster(
-                    id=uuid4(),
-                    beat_reference=beat,
-                    events=assigned_events,
-                    created_at=datetime.now(),
-                )
+        for event in events:
+            projected_timestamp = self._projection_engine.project(
+                event_timestamp=event.timestamp,
+                beat_grid=beat_grid,
             )
+            projected_beat = next(
+                beat
+                for beat in ordered_beats
+                if beat.timestamp == projected_timestamp
+            )
+            assignments[projected_beat.id].append(event)
 
-        return tuple(clusters)
+        return tuple(
+            MetricCluster(
+                id=uuid4(),
+                beat_reference=beat,
+                events=tuple(assignments[beat.id]),
+                created_at=datetime.now(),
+            )
+            for beat in ordered_beats
+        )

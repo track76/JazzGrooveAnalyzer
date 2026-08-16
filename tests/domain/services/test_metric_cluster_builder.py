@@ -34,10 +34,12 @@ def test_builder_can_be_instantiated():
     assert MetricClusterBuilder() is not None
 
 
-def test_default_cluster_window():
+def test_builder_uses_existing_projection_engine():
     builder = MetricClusterBuilder()
 
-    assert builder.cluster_window == 0.010
+    from jga.domain.services.beat_projection_engine import BeatProjectionEngine
+
+    assert isinstance(builder._projection_engine, BeatProjectionEngine)
 
 
 def test_build_requires_arguments():
@@ -70,7 +72,7 @@ def test_single_event_creates_single_cluster():
 
 def test_events_assigned_to_same_beat_create_one_cluster():
 
-    builder = MetricClusterBuilder(cluster_window=0.010)
+    builder = MetricClusterBuilder()
 
     beat = make_beat(1.000)
 
@@ -85,7 +87,7 @@ def test_events_assigned_to_same_beat_create_one_cluster():
 
 def test_build_clusters_with_multiple_beat_references():
 
-    builder = MetricClusterBuilder(cluster_window=0.010)
+    builder = MetricClusterBuilder()
 
     beat_references = (
         make_beat(1.000, index=1),
@@ -110,9 +112,9 @@ def test_build_clusters_with_multiple_beat_references():
     assert clusters[1].events == (e3,)
 
 
-def test_events_outside_cluster_window_are_ignored():
+def test_distant_events_are_projected_and_never_discarded():
 
-    builder = MetricClusterBuilder(cluster_window=0.010)
+    builder = MetricClusterBuilder()
 
     beat_references = (
         make_beat(1.000, index=1),
@@ -128,12 +130,12 @@ def test_events_outside_cluster_window_are_ignored():
     )
 
     assert len(clusters) == 1
-    assert clusters[0].events == (e1, e2)
+    assert clusters[0].events == (e1, e2, e3)
 
 
 def test_beat_reference_without_events_creates_empty_cluster():
 
-    builder = MetricClusterBuilder(cluster_window=0.010)
+    builder = MetricClusterBuilder()
 
     beat_references = (
         make_beat(1.000, index=1),
@@ -156,9 +158,9 @@ def test_beat_reference_without_events_creates_empty_cluster():
     assert clusters[1].events == ()
 
 
-def test_no_events_match_any_beat_creates_empty_clusters():
+def test_every_event_projects_to_the_nearest_available_beat():
 
-    builder = MetricClusterBuilder(cluster_window=0.010)
+    builder = MetricClusterBuilder()
 
     beat_references = (
         make_beat(1.000, index=1),
@@ -176,4 +178,36 @@ def test_no_events_match_any_beat_creates_empty_clusters():
 
     assert len(clusters) == 2
     assert clusters[0].events == ()
-    assert clusters[1].events == ()
+    assert clusters[1].events == events
+
+
+def test_exact_tie_projects_deterministically_to_earlier_beat():
+    builder = MetricClusterBuilder()
+    earlier = make_beat(1.0, index=1)
+    later = make_beat(2.0, index=2)
+    event = make_event(1.5)
+
+    first = builder.build((later, earlier), (event,))
+    second = builder.build((later, earlier), (event,))
+
+    assert first[0].beat_reference is earlier
+    assert first[0].events == (event,)
+    assert first[1].events == ()
+    assert tuple(cluster.events for cluster in first) == tuple(
+        cluster.events for cluster in second
+    )
+
+
+def test_every_event_appears_once_with_identity_and_timestamp_preserved():
+    builder = MetricClusterBuilder()
+    beats = (make_beat(1.0, 1), make_beat(2.0, 2), make_beat(3.0, 3))
+    events = (make_event(0.2), make_event(1.7), make_event(4.8))
+
+    clusters = builder.build(beats, events)
+    projected = tuple(event for cluster in clusters for event in cluster.events)
+
+    assert len(projected) == len(events)
+    assert {event.id for event in projected} == {event.id for event in events}
+    assert {event.id: event.timestamp for event in projected} == {
+        event.id: event.timestamp for event in events
+    }

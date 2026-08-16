@@ -1,5 +1,32 @@
 # JGA Project State
 
+## Total EME Projection
+
+Status:
+
+COMPLETED
+
+- `MetricClusterBuilder` now projects every ElementaryMetricEvent to exactly
+  one nearest BeatReference through the existing `BeatProjectionEngine`.
+- BeatReferences are ordered by timestamp and index before projection; an exact
+  temporal midpoint therefore resolves deterministically to the earlier
+  reference.
+- The former ±10 ms inclusion window and exclusion behavior are removed. No
+  EME is discarded because of temporal distance, and signed offsets remain the
+  unchanged event timestamp minus its selected reference timestamp.
+- Controlled VAL-001 full-mix validation with declared 78 quarter BPM and 4/4
+  preserves all 77 input EMEs as 77 unique MetricCluster memberships and 77
+  MetricPoints. Event identity, timestamp and contributor provenance remain
+  unchanged; replay is deterministic and Core observation is invariant.
+- No offset was interpreted musically. Measure-grid reconstruction, pickup,
+  downbeat, sections and timing-behaviour interpretation remain outside this
+  milestone.
+- Focused Domain, Translation, representation and controlled-audio validation:
+  720 passed.
+- Complete automated suite: 1058 passed, 1 environment-blocked Demucs test,
+  3 warnings. The blocked test could not write to the configured
+  `JGA_EXTERNAL_ROOT`; no heavy write was attempted.
+
 ## Declared Meter Vertical Slice
 
 Status:
