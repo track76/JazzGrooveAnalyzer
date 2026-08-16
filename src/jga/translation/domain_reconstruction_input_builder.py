@@ -51,5 +51,9 @@ class DomainReconstructionInputBuilder:
             declared_metric_reference=(
                 context.declared_metric_reference
             ),
+            declared_quarter_phase_origin=(
+                context.declared_quarter_phase_origin
+            ),
+            declared_analysis_scope=context.declared_analysis_scope,
             declared_meter=context.declared_meter,
         )

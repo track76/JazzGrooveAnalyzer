@@ -12,6 +12,10 @@ from jga.domain.declared_metric_reference import (
     MetricReferenceProvenance,
 )
 from jga.domain.declared_meter import DeclaredMeter
+from jga.domain.declared_metric_timeline import (
+    DeclaredAnalysisScope,
+    DeclaredQuarterPhaseOrigin,
+)
 from jga.interfaces.scientific_value_origin import ScientificValueOrigin
 from jga.interfaces.validation import AnalysisOutputState
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
@@ -134,9 +138,21 @@ def test_scientific_output_exposes_only_the_approved_scope(completed_analysis):
 
 
 def test_declared_tempo_is_materialized_with_origin_and_provenance():
+    asset_provenance = MetricReferenceProvenance(
+        source_id="TEST-VAL-001-MP3-SCOPE",
+        source_kind="test-declared audio scope",
+        source_sha256=MP3_SHA256,
+        temporal_scope="complete test audio",
+    )
     completed = AnalysisPipeline(separator=DummyMultiStemSeparator()).analyze(
         MP3_PATH,
         declared_metric_reference=declared_reference(),
+        declared_quarter_phase_origin=DeclaredQuarterPhaseOrigin(
+            Decimal("0"), asset_provenance
+        ),
+        declared_analysis_scope=DeclaredAnalysisScope(
+            Decimal("0"), Decimal("42.24"), MP3_SHA256, asset_provenance
+        ),
     )
 
     result = CompletedAnalysisMaterializer().materialize(

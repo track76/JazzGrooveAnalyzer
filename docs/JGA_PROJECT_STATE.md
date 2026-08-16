@@ -4,20 +4,27 @@
 
 Status:
 
-FAILED
+COMPLETED
 
-- `H-VAL001-BEATREF-01` confirms exact declared-period derivation as `10/13`
-  seconds and index-based timestamp generation from one common timeline.
-- Current origin is the first ensemble-consensus centroid. Although derived
-  from observations, it has no authorized quarter-phase meaning and is
-  scientifically unsupported as a BeatReference origin.
-- BeatReference count remains equal to pre-EME consensus-event count. The
-  controlled MP3 therefore produces 74 BeatReferences from 74 consensus
-  groups and extends the final timestamp beyond the audio scope.
-- Timestamp replay is deterministic, but BeatReference UUID replay is not;
-  declared-reference provenance and numeric temporal scope are incomplete.
-- No production correction is authorized until metric origin, numeric scope
-  and density-independent observation association are scientifically defined.
+- The authoritative controlled asset declares quarter phase `0.0` seconds as
+  score time zero = audio sample zero, bound to the controlled WAV checksum.
+- The declared path carries exact numeric start/end scope and independent
+  provenance for rate, phase and audio-asset scope across Translation into
+  Domain reconstruction.
+- The quarter period is `10/13` seconds. BeatReferences are generated from
+  `origin + index * period`, never recursive floating-point accumulation.
+- The 1,865,728-sample, 44.1 kHz controlled WAV scope produces 55 common
+  BeatReferences: index 0 at `0/1` seconds through index 54 at `540/13`
+  seconds. The next reference lies beyond the scope and is not produced.
+- BeatReference identity is deterministic from declared authority, numeric
+  scope, exact timestamp and index. Consensus observations are associated
+  afterward and do not determine identity, timestamp or cardinality.
+- Source-density and EME independence are validated; Core observations remain
+  unchanged. The timeline result is `PASS`.
+- Focused Domain and controlled-real-audio validation: 21 passed.
+- Complete automated suite excluding the environment-blocked Demucs
+  integration test: 1057 passed, 3 warnings. The excluded test could not
+  write to the configured `JGA_EXTERNAL_ROOT`; no heavy write was attempted.
 - Autonomous BPM, meter, measures, downbeat, pickup, sections, Voice AI,
   groove and behaviour interpretation remain outside this validation.
 
@@ -35,12 +42,10 @@ COMPLETED
 - The former ±10 ms inclusion window and exclusion behavior are removed. No
   EME is discarded because of temporal distance, and signed offsets remain the
   unchanged event timestamp minus its selected reference timestamp.
-- Controlled VAL-001 full-mix validation with declared 78 quarter BPM and 4/4
-  preserves all 77 Domain PulseCandidate observations. The authoritative
-  AD-018 association flow produces 71 EME and three ambiguous association
-  groups; all 71 authorized EME retain unique MetricCluster memberships and
-  MetricPoints. Event identity, timestamp and contributor provenance remain
-  unchanged; replay is deterministic and Core observation is invariant.
+- The earlier 71-EME result used the superseded consensus-count BeatReference
+  sequence. With the corrected declared quarter timeline, all 77 observations
+  remain preserved and are associated only after movement reconstruction;
+  EME authorization is a downstream question and is not timeline evidence.
 - No offset was interpreted musically. Measure-grid reconstruction, pickup,
   downbeat, sections and timing-behaviour interpretation remain outside this
   milestone.

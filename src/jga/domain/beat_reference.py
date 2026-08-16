@@ -1,6 +1,11 @@
 from dataclasses import dataclass
 from datetime import datetime
+from decimal import Decimal
 from uuid import UUID
+
+from jga.domain.declared_metric_reference import MetricReferenceProvenance
+from jga.domain.declared_metric_timeline import DeclaredAnalysisScope
+from jga.interfaces.scientific_value_origin import ScientificValueOrigin
 
 
 @dataclass(frozen=True, slots=True)
@@ -28,6 +33,18 @@ class BeatReference:
     reconstruction_rule: str = "legacy-unrecorded"
 
     temporal_scope: str = "unspecified"
+
+    exact_timestamp_seconds: Decimal | None = None
+
+    exact_timestamp_ratio: str | None = None
+
+    epistemic_status: ScientificValueOrigin | None = None
+
+    tempo_provenance: MetricReferenceProvenance | None = None
+
+    phase_origin_provenance: MetricReferenceProvenance | None = None
+
+    numeric_temporal_scope: DeclaredAnalysisScope | None = None
 
     def __post_init__(self):
 

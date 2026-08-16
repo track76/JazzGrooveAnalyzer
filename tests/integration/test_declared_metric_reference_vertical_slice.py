@@ -11,6 +11,10 @@ from jga.domain.declared_metric_reference import (
     MetricReferenceProvenance,
 )
 from jga.domain.declared_meter import DeclaredMeter
+from jga.domain.declared_metric_timeline import (
+    DeclaredAnalysisScope,
+    DeclaredQuarterPhaseOrigin,
+)
 from jga.interfaces.scientific_value_origin import ScientificValueOrigin
 from jga.interfaces.validation import AnalysisOutputState
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
@@ -41,13 +45,26 @@ def declared_meter() -> DeclaredMeter:
     return DeclaredMeter(4, 4, declared_reference().provenance)
 
 
+def declared_timeline_context():
+    provenance = declared_reference().provenance
+    return (
+        DeclaredQuarterPhaseOrigin(Decimal("0"), provenance),
+        DeclaredAnalysisScope(
+            Decimal("0"), Decimal("42.24"), SOURCE_SHA256, provenance
+        ),
+    )
+
+
 @pytest.fixture(scope="module")
 def analyses():
     pipeline = AnalysisPipeline(separator=DummyMultiStemSeparator())
     observed_only = pipeline.analyze(MP3_PATH)
+    phase, scope = declared_timeline_context()
     declared = pipeline.analyze(
         MP3_PATH,
         declared_metric_reference=declared_reference(),
+        declared_quarter_phase_origin=phase,
+        declared_analysis_scope=scope,
         declared_meter=declared_meter(),
     )
     return observed_only, declared
@@ -115,9 +132,12 @@ def test_immutable_and_report_outputs_label_reference_as_declared(analyses):
 
 def test_declared_tempo_and_meter_are_independent():
     pipeline = AnalysisPipeline(separator=DummyMultiStemSeparator())
+    phase, scope = declared_timeline_context()
     tempo_only = pipeline.analyze(
         MP3_PATH,
         declared_metric_reference=declared_reference(),
+        declared_quarter_phase_origin=phase,
+        declared_analysis_scope=scope,
     )
     meter_only = pipeline.analyze(
         MP3_PATH,

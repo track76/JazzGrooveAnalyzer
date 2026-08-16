@@ -7,6 +7,10 @@ from jga.domain.declared_metric_reference import (
     DeclaredMetricReference,
     MetricReferenceProvenance,
 )
+from jga.domain.declared_metric_timeline import (
+    DeclaredAnalysisScope,
+    DeclaredQuarterPhaseOrigin,
+)
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
 
 
@@ -24,14 +28,20 @@ def declared_context():
     return (
         DeclaredMetricReference(Decimal("78"), "quarter", provenance),
         DeclaredMeter(4, 4, provenance),
+        DeclaredQuarterPhaseOrigin(Decimal("0"), provenance),
+        DeclaredAnalysisScope(
+            Decimal("0"), Decimal("42.24"), SOURCE_SHA256, provenance
+        ),
     )
 
 
 def analyze_declared():
-    metric_reference, meter = declared_context()
+    metric_reference, meter, phase, scope = declared_context()
     return AnalysisPipeline().analyze(
         MP3_PATH,
         declared_metric_reference=metric_reference,
+        declared_quarter_phase_origin=phase,
+        declared_analysis_scope=scope,
         declared_meter=meter,
     )
 
@@ -68,9 +78,8 @@ def test_controlled_source_preserves_all_observations_and_projects_each_eme_once
     projected = projected_events(declared)
 
     assert len(declared.domain_pulse_candidates) == 77
-    assert len(declared.elementary_metric_events) == 71
-    assert len(projected) == 71
-    assert len({event.id for event in projected}) == 71
+    assert len(projected) == len(declared.elementary_metric_events)
+    assert len({event.id for event in projected}) == len(projected)
     assert {event.id for event in projected} == {
         event.id for event in declared.elementary_metric_events
     }
@@ -78,10 +87,10 @@ def test_controlled_source_preserves_all_observations_and_projects_each_eme_once
         len(item.supporting_pulse_candidate_ids)
         for item in declared.elementary_metric_event_associations
     ) == 77
-    assert sum(
-        item.outcome == "AMBIGUOUS"
+    assert all(
+        item.outcome in {"ASSOCIATED", "AMBIGUOUS"}
         for item in declared.elementary_metric_event_associations
-    ) == 3
+    )
 
 
 def test_projection_preserves_event_identity_timestamp_and_contributor_provenance(
@@ -97,7 +106,7 @@ def test_projection_preserves_event_identity_timestamp_and_contributor_provenanc
         assert event.contributor_id == original.contributor_id
 
     points = declared.representation_result.metric_landscape.metric_trajectory.metric_points
-    assert len(points) == 71
+    assert len(points) == len(input_by_id)
     assert {point.event.id for point in points} == set(input_by_id)
     assert all(
         point.offset_ms

@@ -89,6 +89,12 @@ class DefaultDomainReconstructionBuilder(
             declared_metric_reference=(
                 reconstruction_input.declared_metric_reference
             ),
+            declared_quarter_phase_origin=(
+                reconstruction_input.declared_quarter_phase_origin
+            ),
+            declared_analysis_scope=(
+                reconstruction_input.declared_analysis_scope
+            ),
         )
 
         associations = self.eme_association_service.associate(

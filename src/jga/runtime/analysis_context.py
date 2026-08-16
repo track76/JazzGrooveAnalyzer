@@ -41,6 +41,10 @@ from jga.domain.internal_metric_timeline import (
 )
 from jga.domain.internal_metric_signature import InternalMetricSignature
 from jga.domain.declared_metric_reference import DeclaredMetricReference
+from jga.domain.declared_metric_timeline import (
+    DeclaredAnalysisScope,
+    DeclaredQuarterPhaseOrigin,
+)
 from jga.domain.declared_meter import DeclaredMeter
 
 from jga.domain.reconstructed_measure import (
@@ -176,6 +180,10 @@ class AnalysisContext:
 
     # Externally supplied musical context. It is not observation evidence.
     declared_metric_reference: DeclaredMetricReference | None = None
+
+    declared_quarter_phase_origin: DeclaredQuarterPhaseOrigin | None = None
+
+    declared_analysis_scope: DeclaredAnalysisScope | None = None
 
     declared_meter: DeclaredMeter | None = None
 
