@@ -1,0 +1,95 @@
+{
+  "experiment_id": "H-VAL001-AI-VOICE-02",
+  "run_id": "run_20260816_163230",
+  "status": "PREREGISTERED",
+  "scientific_question": "Can a pinned pretrained SOME model provide reliable INFERRED source-event evidence for the controlled Voice stem independently of Basic Pitch and JGA physical observations?",
+  "architectural_impact": "None; experimental evidence only",
+  "epistemic_status": "INFERRED",
+  "observed_population_preserved": {
+    "kind": "Voice PulseCandidate",
+    "count": 150,
+    "status": "OBSERVED",
+    "used_as_model_input": false
+  },
+  "model_freeze": {
+    "project": "SOME — Singing-Oriented MIDI Extractor",
+    "official_repository": "https://github.com/openvpi/SOME",
+    "release": "v1.0.0-baseline",
+    "release_id": 137767692,
+    "source_commit": "dcfd40f9bfaa7c9649aae01a2795af73946ec5e7",
+    "checkpoint_asset_id": 146576629,
+    "checkpoint_asset_filename": "0119_continuous128_5spk.zip",
+    "checkpoint_download_url": "https://github.com/openvpi/SOME/releases/download/v1.0.0-baseline/0119_continuous128_5spk.zip",
+    "checkpoint_archive_bytes": 435401333,
+    "checkpoint_archive_sha256": "bc91b1afc3ae350bd70d36ec418c471baa65c94fbeeaa09d6e178cbcfca886ec",
+    "extracted_files": {
+      "0119_continuous256_5spk/config.yaml": {
+        "bytes": 3210,
+        "sha256": "3719983d1fbc95d804c38fd08fb956a18a467417b52e295c57ccc35f30910910"
+      },
+      "0119_continuous256_5spk/model_ckpt_steps_100000_simplified.ckpt": {
+        "bytes": 470801253,
+        "sha256": "aa710fce920b4dae281b0e6cc2acba83345d82ee62d51f7bafeb29636f28f97c"
+      }
+    },
+    "identity_note": "The official asset filename contains continuous128 while its archived directory contains continuous256; both identities are preserved verbatim.",
+    "code_license": "MIT",
+    "model_license": "CC BY-NC-SA 4.0",
+    "use_scope": "Scientific, non-commercial evaluation only"
+  },
+  "input": {
+    "path": "recordings/validation/stems/voice.wav",
+    "sha256": "0fa95a3eff06d1ab075caf2f388c17d536e614aca397647967805045521c655a"
+  },
+  "environment": {
+    "python": "3.11",
+    "device": "cpu",
+    "external_environment": "/Volumes/SSD Track/JGA/environments/some-v1.0.0-baseline-py311-cpu",
+    "external_source": "/Volumes/SSD Track/JGA/models/SOME/dcfd40f9bfaa7c9649aae01a2795af73946ec5e7",
+    "external_checkpoint": "/Volumes/SSD Track/JGA/models/SOME/v1.0.0-baseline/0119_continuous256_5spk/model_ckpt_steps_100000_simplified.ckpt",
+    "external_run_root": "/Volumes/SSD Track/JGA/experiments/H-VAL001-AI-VOICE-02/run_20260816_163230",
+    "external_cache": "/Volumes/SSD Track/JGA/caches/SOME"
+  },
+  "inference_configuration": {
+    "authority": "Official v1.0.0-baseline config.yaml and inference implementation",
+    "audio_sample_rate_hz": 44100,
+    "window_samples": 2048,
+    "hop_samples": 512,
+    "slicer_threshold_db": -40.0,
+    "slicer_min_length_ms": 5000,
+    "slicer_min_interval_ms": 300,
+    "slicer_hop_ms": 20,
+    "slicer_max_silence_kept_ms": 1000,
+    "rest_threshold": 0.1,
+    "midi_serialization_tempo_bpm": 120,
+    "midi_tempo_status": "Official serialization default only; not model input, JGA evidence, or inferred tempo",
+    "resampling": "librosa.load mono=True, sr=config audio_sample_rate",
+    "device": "cpu"
+  },
+  "blind_exclusions": [
+    "symbolic Voice event count",
+    "MusicXML Voice event positions and boundaries",
+    "lyrics",
+    "MIDI input",
+    "BPM and meter context",
+    "Basic Pitch output",
+    "JGA PulseCandidates"
+  ],
+  "raw_outputs": [
+    "framewise pitch probabilities",
+    "framewise boundary evidence",
+    "frame masks",
+    "decoded pitch sequence",
+    "decoded duration sequence",
+    "decoded rest sequence",
+    "derived onset/offset intervals",
+    "MIDI serialization"
+  ],
+  "reproducibility_rule": "Two independent complete CPU processes must be compared for byte identity of serialized arrays, decoded records and MIDI; otherwise compare canonical scientific fingerprints.",
+  "outcome_rules": {
+    "PASS": "SOME produces reproducible, well-formed, scientifically useful source-event evidence and post-freeze validation does not establish material fragmentation or merging that defeats the Voice event-inference purpose.",
+    "PARTIAL": "SOME produces reproducible and useful event evidence, but material fragmentation, merging, omission or event-level ambiguity remains or cannot be excluded.",
+    "FAIL": "Inference is unstable, empty, invalid, does not materially improve the fragmentation problem, or is scientifically unsuitable."
+  },
+  "anti_overfitting": "No model, decoding, slicing, threshold or postprocessing parameter may change after Ground Truth reveal. Population equality is not a PASS criterion."
+}

@@ -1,0 +1,14 @@
+{
+  "experiment_id": "H-VAL001-AI-VOICE-02",
+  "classification": "BYTE-IDENTICAL",
+  "scope": "All scientific payloads: raw probability arrays, raw boundary arrays, masks, decoded arrays, inferred-event serialization and MIDI",
+  "run_1_event_count": 13,
+  "run_2_event_count": 13,
+  "run_1_scientific_fingerprint": "a7670c5501fdda70fe8ce2e3fa7e59ba837323b73a602b81e442a4cc7cc6b2d0",
+  "run_2_scientific_fingerprint": "a7670c5501fdda70fe8ce2e3fa7e59ba837323b73a602b81e442a4cc7cc6b2d0",
+  "scientifically_identical": true,
+  "scientific_payloads_byte_identical": true,
+  "whole_directory_byte_identical": false,
+  "whole_directory_difference_reason": "blind_run.json intentionally contains different run_label values; this metadata difference is not part of the scientific payload. AppleDouble sidecars are operational metadata.",
+  "result": "Two independent CPU processes reproduced identical model and decoded evidence."
+}

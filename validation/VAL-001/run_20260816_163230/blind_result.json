@@ -1,0 +1,24 @@
+{
+  "experiment_id": "H-VAL001-AI-VOICE-02",
+  "status": "FROZEN",
+  "epistemic_status": "INFERRED",
+  "ground_truth_loaded": false,
+  "voice_input_sha256": "0fa95a3eff06d1ab075caf2f388c17d536e614aca397647967805045521c655a",
+  "decoded_event_count": 13,
+  "rounded_pitch_sequence": [67, 69, 71, 72, 74, 75, 74, 72, 70, 67, 67, 67, 67],
+  "chunk_count": 2,
+  "chunk_offsets_seconds": [11.78, 24.56],
+  "sample_rate_hz": 44100,
+  "sample_count": 1865728,
+  "scientific_fingerprint": "a7670c5501fdda70fe8ce2e3fa7e59ba837323b73a602b81e442a4cc7cc6b2d0",
+  "blind_freeze_scientific_sha256": "455a8fe7f562ea412c12e443cd31b106e052a0b22e3ff89222d05d6155e102e4",
+  "blind_freeze_file_sha256": "64360e779dcce50cf2b9d46d09c69c60b0a7a656c57292e1c12035559ab63d78",
+  "external_run_root": "/Volumes/SSD Track/JGA/experiments/H-VAL001-AI-VOICE-02/run_20260816_163230",
+  "raw_array_scientific_sha256": {
+    "chunk_000_bounds": "cd69a67d01aa8602f29c609bffcc1439c871054dbdb62af74c419a0e9e741d7b",
+    "chunk_000_probs": "ba293c2098a7112d0e686b6172780e99bd245cbbe083bf77ffbd9433a34cb9fb",
+    "chunk_001_bounds": "6cdca2d318d9f73df9057dc91e2a9c27aabba05db96fd719b28cfcb2112716bd",
+    "chunk_001_probs": "9b5ebb28cc4d4980a1678c8ae76b7210e26b5168b441abeb1493f5349f49feb1"
+  },
+  "midi_file_sha256": "6d54c1e352866bcd4938af73871df37af74df166b6f8f42dc3b79e486cecc48c"
+}

@@ -1,0 +1,16 @@
+{
+  "experiment_id": "H-VAL001-AI-VOICE-02",
+  "repository_records": [
+    "manifest.json",
+    "experiment.py",
+    "environment_lock.json",
+    "blind_result.json",
+    "reproducibility.json",
+    "post_blind_evaluation.json",
+    "report.md",
+    "completion_protocol.json"
+  ],
+  "external_root": "/Volumes/SSD Track/JGA/experiments/H-VAL001-AI-VOICE-02/run_20260816_163230",
+  "external_content": "Two raw inference runs, raw arrays, decoded arrays, event records, MIDI files and blind freeze record",
+  "storage_policy": "Heavy assets and runtime content remain under JGA_EXTERNAL_ROOT."
+}
