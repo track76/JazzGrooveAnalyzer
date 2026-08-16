@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "artifacts": [
+    {"path": "experiment.py", "sha256": "120ba2e8cc2fee51bcce474cdc64b0fa187d9f93e6df86c90f01667e2257ffcb"},
+    {"path": "result.json.gz", "sha256": "04468297cb6bf70e56af00d73c4071a96fabc429cfbabad1f81e302e7088ca02", "uncompressed_sha256": "6e0005870f61cfb7edd2638c2cd60ca812074d1dfb7905b08a51170345f4f19b"},
+    {"path": "replay_result.json", "sha256": "7a6c4c1d109f98556d2c1af5243b9051b659dde376ad9350b5e00490706fc59b"},
+    {"path": "manifest.json", "sha256": "daf256d9c6523672cd7e44bb98a9cddbbedef6b983c7bc44f46f2ceeba4e1dfe"},
+    {"path": "report.md", "sha256": "a0da24c8efa473fc0ebf17210338d968ff4d69bcaca7117cf2d8136e401bb381"},
+    {"path": "completion_protocol.json", "sha256": "8e5ead73d89604d2904f169919c3a5a1f87c574ee7ab787418fe959b5da95a30"}
+  ]
+}

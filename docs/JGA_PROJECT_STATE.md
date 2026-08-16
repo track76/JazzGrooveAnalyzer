@@ -1,14 +1,14 @@
 # JGA Project State
 
-## Complete EME Phase-Population Preregistration
+## Complete EME Phase-Population Analysis
 
 Status:
 
-PREREGISTERED — NOT EXECUTED
+COMPLETED
 
-- `H-VAL001-EME-PHASE-01` freezes a contributor-separated circular analysis
-  of the complete AD-037 normalized-phase populations before inspection or
-  interpretation.
+- `H-VAL001-EME-PHASE-01` executed its frozen contributor-separated circular
+  analysis of the complete AD-037 normalized-phase populations without
+  Ground Truth access or musical interpretation.
 - The candidate models are a uniform circular null and finite von Mises
   mixtures selected by BIC, with deterministic replay and preregistered
   bootstrap stability and uncertainty criteria.
@@ -17,10 +17,17 @@ PREREGISTERED — NOT EXECUTED
 - Voice remains `DEFERRED`, not excluded, and shall receive the same contract
   after an authorized Voice EME population exists. Basic Pitch and SOME are
   excluded from this analysis.
-- The preregistration is authoritative at
+- The unchanged preregistration is authoritative at
   `validation/VAL-001/preregistrations/H-VAL001-EME-PHASE-01.md`.
-- No phase-population analysis has been executed and no musical
-  interpretation is authorized.
+- Double Bass supports two stable phase populations under the preregistered
+  95% bootstrap rule. Drums, Piano and Tenor Sax are `INSUFFICIENT_EVIDENCE`
+  because their selected component counts do not reach that stability rule.
+- No pair of contributors has independently stable structure, so no
+  shared-center comparison is authorized. Musical interpretation remains
+  prohibited pending a separate PI decision.
+- The immutable result is preserved at
+  `validation/VAL-001/run_20260816_182736/` with scientific fingerprint
+  `75fea68e4e3d6af29241e49a37d9bfd9ec2d0fb1ca822ff02a5466f4a4a1f8c2`.
 
 ## EME Materialization and Metric Localization
 

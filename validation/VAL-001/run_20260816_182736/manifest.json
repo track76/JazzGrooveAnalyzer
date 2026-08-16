@@ -1,0 +1,20 @@
+{
+  "experiment_id": "H-VAL001-EME-PHASE-01",
+  "status": "COMPLETE",
+  "epistemic_status": "DERIVED_EVIDENCE",
+  "repository_revision": "fcc27859f4b72d960ae34a3edf672ccb0d8077c1",
+  "preregistration": "validation/VAL-001/preregistrations/H-VAL001-EME-PHASE-01.md",
+  "preregistration_sha256": "8e33eb2530fc6823209a457b173da03dea46ba64104a8eea6d085c32ec3a3ebf",
+  "input": "validation/VAL-001/run_20260816_180111/result.json",
+  "input_sha256": "ce684b7062d78c96de4e2520dc9dfbededf605aaf671ec2f03814d97347f5785",
+  "included_contributors": ["Drums", "Piano", "Double Bass", "Tenor Sax"],
+  "excluded_contributors": {"Voice": "DEFERRED — source-event EME population not authorized"},
+  "quarter_origin_seconds": "0",
+  "quarter_period_seconds": "10/13",
+  "analysis_scope_seconds": "[0,1865728/44100)",
+  "bootstrap_resamples_per_contributor": 2000,
+  "ground_truth_accessed": false,
+  "musical_interpretation_performed": false
+  ,"raw_external_artifact": "$JGA_EXTERNAL_ROOT/validation/VAL-001/run_20260816_182736/result.json"
+  ,"raw_external_artifact_sha256": "6e0005870f61cfb7edd2638c2cd60ca812074d1dfb7905b08a51170345f4f19b"
+}
