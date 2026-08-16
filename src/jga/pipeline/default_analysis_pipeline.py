@@ -47,6 +47,7 @@ from jga.engines.ensemble_analysis_engine import (
 from jga.runtime.analysis_context import AnalysisContext
 from jga.runtime.analysis_report import AnalysisReport
 from jga.domain.declared_metric_reference import DeclaredMetricReference
+from jga.domain.declared_meter import DeclaredMeter
 
 from jga.separation.null_separator import NullSeparator
 
@@ -238,6 +239,7 @@ class AnalysisPipeline:
         self,
         filepath: str,
         declared_metric_reference: DeclaredMetricReference | None = None,
+        declared_meter: DeclaredMeter | None = None,
     ) -> AnalysisContext:
 
         audio = self.loader.load(filepath)
@@ -245,6 +247,7 @@ class AnalysisPipeline:
         context = AnalysisContext(
             audio=audio,
             declared_metric_reference=declared_metric_reference,
+            declared_meter=declared_meter,
         )
 
         context.report = AnalysisReport(audio=audio)

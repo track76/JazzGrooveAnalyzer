@@ -10,6 +10,7 @@ from jga.domain.internal_metric_timeline import (
 )
 from jga.domain.metric_cluster import MetricCluster
 from jga.domain.pulse import Pulse
+from jga.domain.internal_metric_signature import InternalMetricSignature
 
 
 @dataclass(frozen=True, slots=True)
@@ -44,3 +45,5 @@ class DomainReconstructionResult:
     internal_metric_timeline: (
         InternalMetricTimeline | None
     )
+
+    internal_metric_signature: InternalMetricSignature | None = None

@@ -24,7 +24,13 @@ class AsciiAnalyticalScoreRenderer:
         lines.append("")
         lines.append(f"Title : {score.recording_title}")
         lines.append(f"Artist: {score.artist}")
-        lines.append(f"Meter : {score.time_signature}")
+        if score.meter_origin is None:
+            lines.append("Meter: NOT_PRODUCED")
+        else:
+            lines.append(
+                f"Meter ({score.meter_origin}) : {score.time_signature}"
+            )
+            lines.append(f"Meter source: {score.meter_source_id}")
         if score.metric_reference_origin is not None:
             lines.append(
                 "Metric reference "

@@ -14,6 +14,7 @@ from jga.domain.services.metric_cluster_builder import (
 from jga.domain.services.pulse_builder import (
     PulseBuilder,
 )
+from jga.domain.internal_metric_signature import InternalMetricSignature
 
 from jga.interfaces.translation.domain_reconstruction_builder import (
     DomainReconstructionBuilder,
@@ -65,6 +66,17 @@ class DefaultDomainReconstructionBuilder(
         reconstruction_input: DomainReconstructionInput,
     ) -> DomainReconstructionResult:
 
+        declared_meter = reconstruction_input.declared_meter
+        internal_metric_signature = (
+            InternalMetricSignature(
+                numerator=declared_meter.numerator,
+                denominator=declared_meter.denominator,
+                pulses_per_beat=4,
+            )
+            if declared_meter is not None
+            else None
+        )
+
         events = self.eme_builder.build(
             reconstruction_input.domain_pulse_candidates,
             reconstruction_input.metric_contributors,
@@ -96,6 +108,7 @@ class DefaultDomainReconstructionBuilder(
                 metric_clusters=clusters,
                 pulses=pulses,
                 internal_metric_timeline=None,
+                internal_metric_signature=internal_metric_signature,
             )
 
         timeline = (
@@ -113,4 +126,5 @@ class DefaultDomainReconstructionBuilder(
             metric_clusters=clusters,
             pulses=pulses,
             internal_metric_timeline=timeline,
+            internal_metric_signature=internal_metric_signature,
         )

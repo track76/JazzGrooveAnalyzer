@@ -51,4 +51,5 @@ class DomainReconstructionInputBuilder:
             declared_metric_reference=(
                 context.declared_metric_reference
             ),
+            declared_meter=context.declared_meter,
         )

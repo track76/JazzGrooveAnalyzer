@@ -18,7 +18,7 @@ class EnsembleProfile:
     subsequent stages of the Jazz Groove Analyzer.
     """
 
-    meter: str
+    meter: str | None
 
     estimated_bpm: float | None
 

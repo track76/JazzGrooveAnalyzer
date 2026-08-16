@@ -2,10 +2,6 @@ from jga.domain.services.reconstructed_measure_builder import (
     ReconstructedMeasureBuilder,
 )
 
-from jga.domain.internal_metric_signature import (
-    InternalMetricSignature,
-)
-
 from jga.runtime.analysis_context import (
     AnalysisContext,
 )
@@ -36,15 +32,13 @@ class ReconstructedMeasureRunner:
 
             return
 
-        signature = InternalMetricSignature(
+        if context.declared_meter is None:
 
-            numerator=4,
+            return
 
-            denominator=4,
+        if context.internal_metric_signature is None:
 
-            pulses_per_beat=4,
-
-        )
+            return
 
         context.reconstructed_measures = (
             self.builder.build(
@@ -57,7 +51,7 @@ class ReconstructedMeasureRunner:
                     context.metric_clusters
                 ),
 
-                metric_signature=signature,
+                metric_signature=context.internal_metric_signature,
 
                 internal_bpm=float(
                     context.declared_metric_reference.beats_per_minute
@@ -66,6 +60,8 @@ class ReconstructedMeasureRunner:
                 declared_metric_reference=(
                     context.declared_metric_reference
                 ),
+
+                declared_meter=context.declared_meter,
 
             )
         )

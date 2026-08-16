@@ -19,4 +19,4 @@ def test_dummy_engine():
 
     profile = engine.analyze(recording)
 
-    assert profile.meter == "4/4"
+    assert profile.meter is None

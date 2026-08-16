@@ -23,6 +23,10 @@ class Measure:
 
     bpm: float
 
+    meter_origin: str | None = None
+
+    meter_source_id: str | None = None
+
     metric_reference_origin: str | None = None
 
     metric_reference_beat_unit: str | None = None

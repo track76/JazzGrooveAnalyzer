@@ -197,7 +197,8 @@ def test_analytical_score_contains_recording_information():
     )
 
     assert score.recording_title == ""
-    assert score.time_signature == "4/4"
+    assert score.time_signature == "NOT_PRODUCED"
+    assert score.meter_origin is None
     assert score.average_bpm == 124.0
 
 
@@ -224,4 +225,3 @@ def test_builder_maps_metric_events_to_instrument_lanes():
     )
 
     assert len(score.instrument_lanes) == 1
-

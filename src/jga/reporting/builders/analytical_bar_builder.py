@@ -142,4 +142,16 @@ class AnalyticalBarBuilder:
 
             beats=tuple(beats),
 
+            meter_origin=(
+                measure.declared_meter.origin.value
+                if measure.declared_meter is not None
+                else None
+            ),
+
+            meter_source_id=(
+                measure.declared_meter.provenance.source_id
+                if measure.declared_meter is not None
+                else None
+            ),
+
         )

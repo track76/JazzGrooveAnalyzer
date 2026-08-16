@@ -10,6 +10,8 @@ from jga.domain.declared_metric_reference import (
     DeclaredMetricReference,
     MetricReferenceProvenance,
 )
+from jga.domain.declared_meter import DeclaredMeter
+from jga.domain.internal_metric_signature import InternalMetricSignature
 from jga.runtime.analysis_context import AnalysisContext
 from jga.runtime.engines.reconstructed_measure_runner import (
     ReconstructedMeasureRunner,
@@ -55,6 +57,10 @@ def context_with_beats() -> AnalysisContext:
     return context
 
 
+def declared_meter() -> DeclaredMeter:
+    return DeclaredMeter(4, 4, declared_reference().provenance)
+
+
 def test_absent_metric_reference_does_not_silently_build_at_120_bpm():
     context = context_with_beats()
 
@@ -66,6 +72,8 @@ def test_absent_metric_reference_does_not_silently_build_at_120_bpm():
 def test_declared_metric_reference_is_preserved_by_reconstructed_measure():
     context = context_with_beats()
     context.declared_metric_reference = declared_reference()
+    context.declared_meter = declared_meter()
+    context.internal_metric_signature = InternalMetricSignature(4, 4, 4)
 
     ReconstructedMeasureRunner().run(context)
 
@@ -73,3 +81,14 @@ def test_declared_metric_reference_is_preserved_by_reconstructed_measure():
     measure = context.reconstructed_measures[0]
     assert measure.internal_bpm == 78.0
     assert measure.declared_metric_reference is context.declared_metric_reference
+    assert measure.declared_meter is context.declared_meter
+    assert measure.time_signature == "4/4"
+
+
+def test_missing_declared_meter_does_not_reconstruct_measures():
+    context = context_with_beats()
+    context.declared_metric_reference = declared_reference()
+
+    ReconstructedMeasureRunner().run(context)
+
+    assert context.reconstructed_measures == ()

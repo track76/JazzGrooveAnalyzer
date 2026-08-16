@@ -12,6 +12,7 @@ from jga.interfaces.validation import (
     AnalysisOutputProvenance,
     AnalysisOutputState,
     AnalysisTempo,
+    AnalysisTimeSignature,
 )
 from jga.runtime.analysis_context import AnalysisContext
 
@@ -26,7 +27,6 @@ _SCOPED_OUTPUTS = (
 _BASE_LIMITATIONS = (
     "instrumentation: canonical validation-facing categories are not produced",
     "sections: canonical section boundaries are not produced",
-    "time_signature: validation-facing time signature is not scientifically produced",
 )
 
 
@@ -82,6 +82,32 @@ class CompletedAnalysisMaterializer:
             limitations.append(
                 "tempo: declared context; autonomous BPM inference is deferred"
             )
+        declared_meter = completed_analysis.declared_meter
+        if declared_meter is None:
+            limitations.append(
+                "time_signature: validation-facing time signature is not "
+                "scientifically produced"
+            )
+        else:
+            source = declared_meter.provenance
+            outputs["time_signature"] = AnalysisOutput(
+                state=AnalysisOutputState.PRESENT,
+                value=AnalysisTimeSignature(
+                    beats=declared_meter.numerator,
+                    beat_type=declared_meter.denominator,
+                ),
+                origin=ScientificValueOrigin.DECLARED,
+                provenance=AnalysisOutputProvenance(
+                    source_id=source.source_id,
+                    source_kind=source.source_kind,
+                    source_sha256=source.source_sha256,
+                    temporal_scope=source.temporal_scope,
+                ),
+            )
+            limitations.append(
+                "time_signature: declared context; autonomous meter "
+                "recognition is deferred"
+            )
         limitations = tuple(limitations)
         output_completeness = tuple(
             (name, outputs[name].state.value) for name in _SCOPED_OUTPUTS
@@ -111,7 +137,15 @@ class CompletedAnalysisMaterializer:
                             "beat_unit": output.value.beat_unit,
                         }
                         if name == "tempo" and output.value is not None
-                        else None
+                        else (
+                            {
+                                "beats": output.value.beats,
+                                "beat_type": output.value.beat_type,
+                            }
+                            if name == "time_signature"
+                            and output.value is not None
+                            else None
+                        )
                     ),
                     "origin": (
                         output.origin.value

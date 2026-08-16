@@ -29,6 +29,10 @@ class AnalyticalScore:
 
     time_signature: str = ""
 
+    meter_origin: str | None = None
+
+    meter_source_id: str | None = None
+
     average_bpm: float = 0.0
 
     metric_reference_origin: str | None = None

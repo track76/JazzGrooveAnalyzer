@@ -192,6 +192,16 @@ class AnalyticalScoreBuilder:
                     number=measure.number,
                     time_signature=measure.time_signature,
                     bpm=measure.internal_bpm,
+                    meter_origin=(
+                        measure.declared_meter.origin.value
+                        if measure.declared_meter is not None
+                        else None
+                    ),
+                    meter_source_id=(
+                        measure.declared_meter.provenance.source_id
+                        if measure.declared_meter is not None
+                        else None
+                    ),
                     metric_reference_origin=(
                         measure.declared_metric_reference.origin.value
                         if measure.declared_metric_reference is not None
@@ -278,6 +288,8 @@ class AnalyticalScoreBuilder:
                     number=last_measure.number,
                     time_signature=last_measure.time_signature,
                     bpm=last_measure.bpm,
+                    meter_origin=last_measure.meter_origin,
+                    meter_source_id=last_measure.meter_source_id,
                     metric_reference_origin=(
                         last_measure.metric_reference_origin
                     ),
@@ -397,9 +409,19 @@ class AnalyticalScoreBuilder:
             recording_title=recording_title,
             artist="Unknown",
             time_signature=(
-                measures[0].time_signature
-                if measures
-                else "4/4"
+                str(context.declared_meter)
+                if context.declared_meter is not None
+                else "NOT_PRODUCED"
+            ),
+            meter_origin=(
+                context.declared_meter.origin.value
+                if context.declared_meter is not None
+                else None
+            ),
+            meter_source_id=(
+                context.declared_meter.provenance.source_id
+                if context.declared_meter is not None
+                else None
             ),
             average_bpm=(
                 measures[0].bpm

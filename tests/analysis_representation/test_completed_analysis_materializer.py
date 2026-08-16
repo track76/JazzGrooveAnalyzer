@@ -11,6 +11,7 @@ from jga.domain.declared_metric_reference import (
     DeclaredMetricReference,
     MetricReferenceProvenance,
 )
+from jga.domain.declared_meter import DeclaredMeter
 from jga.interfaces.scientific_value_origin import ScientificValueOrigin
 from jga.interfaces.validation import AnalysisOutputState
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
@@ -50,6 +51,10 @@ def declared_reference() -> DeclaredMetricReference:
             temporal_scope="complete controlled performance",
         ),
     )
+
+
+def declared_meter() -> DeclaredMeter:
+    return DeclaredMeter(4, 4, declared_reference().provenance)
 
 
 def test_materializes_real_completed_analysis_with_provenance(completed_analysis):
@@ -147,4 +152,26 @@ def test_declared_tempo_is_materialized_with_origin_and_provenance():
     assert result.tempo.provenance.source_kind == (
         "authoritative controlled-source context"
     )
-    assert "autonomous BPM inference is deferred" in result.limitations[-1]
+    assert any(
+        "autonomous BPM inference is deferred" in limitation
+        for limitation in result.limitations
+    )
+
+
+def test_declared_meter_is_materialized_with_origin_and_provenance():
+    completed = AnalysisPipeline(separator=DummyMultiStemSeparator()).analyze(
+        MP3_PATH,
+        declared_meter=declared_meter(),
+    )
+
+    result = CompletedAnalysisMaterializer().materialize(
+        completed,
+        provenance(),
+    )
+
+    assert result.time_signature.state is AnalysisOutputState.PRESENT
+    assert result.time_signature.value.beats == 4
+    assert result.time_signature.value.beat_type == 4
+    assert result.time_signature.origin is ScientificValueOrigin.DECLARED
+    assert result.time_signature.provenance.source_id == "GT-VAL-001-v1"
+    assert "autonomous meter recognition is deferred" in result.limitations[-1]

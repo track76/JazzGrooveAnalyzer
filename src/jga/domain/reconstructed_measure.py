@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from jga.domain.beat_reference import BeatReference
 from jga.domain.metric_cluster import MetricCluster
 from jga.domain.declared_metric_reference import DeclaredMetricReference
+from jga.domain.declared_meter import DeclaredMeter
 
 
 @dataclass(
@@ -35,3 +36,5 @@ class ReconstructedMeasure:
     ]
 
     declared_metric_reference: DeclaredMetricReference | None = None
+
+    declared_meter: DeclaredMeter | None = None

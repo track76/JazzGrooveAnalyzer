@@ -15,7 +15,7 @@ class DummyEnsembleUnderstandingEngine(
     ) -> EnsembleProfile:
 
         return EnsembleProfile(
-            meter="4/4",
+            meter=None,
             estimated_bpm=None,
             pulse_start=0.0,
             sound_sources=[],

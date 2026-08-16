@@ -181,6 +181,10 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
             reconstruction_result.internal_metric_timeline
         )
 
+        context.internal_metric_signature = (
+            reconstruction_result.internal_metric_signature
+        )
+
         if context.internal_metric_timeline is None:
             return context
 

@@ -250,13 +250,21 @@ class AnalyticalScoreRenderer:
                 f"{score.metric_reference_source_id}\n"
             )
 
+        if score.meter_origin is None:
+            meter_header = "Meter     : NOT_PRODUCED\n"
+        else:
+            meter_header = (
+                f"Meter     : {score.time_signature} ({score.meter_origin})\n"
+                f"Meter source : {score.meter_source_id}\n"
+            )
+
         header = (
             f"Recording : {score.recording_title}\n"
             f"Artist    : {score.artist}\n"
             f"Album     : {score.album}\n"
             f"Take      : {score.take}\n"
             f"Year      : {score.year}\n\n"
-            f"Meter     : {score.time_signature}\n"
+            f"{meter_header}"
             f"{metric_reference_header}"
         )
 

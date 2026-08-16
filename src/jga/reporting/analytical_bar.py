@@ -32,3 +32,7 @@ class AnalyticalBar:
         AnalyticalBeat,
         ...
     ]
+
+    meter_origin: str | None = None
+
+    meter_source_id: str | None = None

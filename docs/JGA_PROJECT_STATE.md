@@ -1,5 +1,33 @@
 # JGA Project State
 
+## Declared Meter Vertical Slice
+
+Status:
+
+COMPLETED
+
+- Analysis input may supply an immutable meter independently from the declared
+  metric reference, with explicit `DECLARED` origin and authority provenance.
+- The controlled VAL-001 context supplies 4/4 from `GT-VAL-001-v1`; this is
+  authoritative context and is never represented as detected or inferred from
+  audio.
+- Declared meter crosses the existing Translation boundary and produces the
+  Domain `InternalMetricSignature` consumed by reconstructed-measure grouping.
+  The existing `pulses_per_beat` reconstruction setting remains separate and
+  is not evidence for the declared meter.
+- Reconstructed, immutable, analytical and reporting outputs preserve declared
+  meter origin and source identity. Without declared meter, time signature is
+  `NOT_PRODUCED` and reconstructed measures are absent; no active silent 4/4
+  fallback remains.
+- Autonomous meter recognition remains `DEFERRED`, not solved. Measure
+  boundaries, pickup, measure count, sections and EME correctness were not
+  validated by this milestone.
+- Focused Domain, Translation, representation, reporting and controlled-audio
+  validation: 612 passed.
+- Complete automated suite: 1052 passed, 1 environment-blocked Demucs test,
+  3 warnings. The blocked test could not write to the configured
+  `JGA_EXTERNAL_ROOT`; no heavy write was attempted.
+
 ## Declared Metric-Reference Vertical Slice
 
 Status:

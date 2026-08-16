@@ -10,6 +10,7 @@ from jga.domain.declared_metric_reference import (
     DeclaredMetricReference,
     MetricReferenceProvenance,
 )
+from jga.domain.declared_meter import DeclaredMeter
 from jga.interfaces.scientific_value_origin import ScientificValueOrigin
 from jga.interfaces.validation import AnalysisOutputState
 from jga.pipeline.default_analysis_pipeline import AnalysisPipeline
@@ -36,6 +37,10 @@ def declared_reference() -> DeclaredMetricReference:
     )
 
 
+def declared_meter() -> DeclaredMeter:
+    return DeclaredMeter(4, 4, declared_reference().provenance)
+
+
 @pytest.fixture(scope="module")
 def analyses():
     pipeline = AnalysisPipeline(separator=DummyMultiStemSeparator())
@@ -43,6 +48,7 @@ def analyses():
     declared = pipeline.analyze(
         MP3_PATH,
         declared_metric_reference=declared_reference(),
+        declared_meter=declared_meter(),
     )
     return observed_only, declared
 
@@ -71,6 +77,10 @@ def test_declared_reference_controls_domain_timeline_and_measures(analyses):
         measure.declared_metric_reference is declared.declared_metric_reference
         for measure in declared.reconstructed_measures
     )
+    assert all(
+        measure.declared_meter is declared.declared_meter
+        for measure in declared.reconstructed_measures
+    )
 
 
 def test_immutable_and_report_outputs_label_reference_as_declared(analyses):
@@ -89,8 +99,52 @@ def test_immutable_and_report_outputs_label_reference_as_declared(analyses):
     assert materialized.tempo.state is AnalysisOutputState.PRESENT
     assert materialized.tempo.origin is ScientificValueOrigin.DECLARED
     assert materialized.tempo.provenance.source_id == "GT-VAL-001-v1"
+    assert materialized.time_signature.state is AnalysisOutputState.PRESENT
+    assert materialized.time_signature.value.beats == 4
+    assert materialized.time_signature.value.beat_type == 4
+    assert materialized.time_signature.origin is ScientificValueOrigin.DECLARED
+    assert materialized.time_signature.provenance.source_id == "GT-VAL-001-v1"
     rendered = AsciiAnalyticalScoreRenderer().render(declared.analytical_score)
+    assert "Meter (DECLARED) : 4/4" in rendered
+    assert "Meter source: GT-VAL-001-v1" in rendered
     assert "Metric reference (DECLARED) : 78.0 quarter BPM" in rendered
     assert "Metric reference source: GT-VAL-001-v1" in rendered
     assert "detected" not in rendered.lower()
     assert "inferred" not in rendered.lower()
+
+
+def test_declared_tempo_and_meter_are_independent():
+    pipeline = AnalysisPipeline(separator=DummyMultiStemSeparator())
+    tempo_only = pipeline.analyze(
+        MP3_PATH,
+        declared_metric_reference=declared_reference(),
+    )
+    meter_only = pipeline.analyze(
+        MP3_PATH,
+        declared_meter=declared_meter(),
+    )
+
+    tempo_only_output = CompletedAnalysisMaterializer().materialize(
+        tempo_only,
+        MaterializationProvenance(
+            analysis_execution_id="TEMPO-ONLY",
+            audio_content_id="VAL-001-MP3",
+            source_revision="TEST",
+            pipeline_version="TEST",
+        ),
+    )
+    meter_only_output = CompletedAnalysisMaterializer().materialize(
+        meter_only,
+        MaterializationProvenance(
+            analysis_execution_id="METER-ONLY",
+            audio_content_id="VAL-001-MP3",
+            source_revision="TEST",
+            pipeline_version="TEST",
+        ),
+    )
+
+    assert tempo_only_output.tempo.state is AnalysisOutputState.PRESENT
+    assert tempo_only_output.time_signature.state is AnalysisOutputState.NOT_PRODUCED
+    assert meter_only_output.tempo.state is AnalysisOutputState.NOT_PRODUCED
+    assert meter_only_output.time_signature.state is AnalysisOutputState.PRESENT
+    assert tempo_only.analytical_score.time_signature == "NOT_PRODUCED"

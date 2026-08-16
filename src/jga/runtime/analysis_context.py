@@ -39,7 +39,9 @@ from jga.domain.pulse import Pulse
 from jga.domain.internal_metric_timeline import (
     InternalMetricTimeline,
 )
+from jga.domain.internal_metric_signature import InternalMetricSignature
 from jga.domain.declared_metric_reference import DeclaredMetricReference
+from jga.domain.declared_meter import DeclaredMeter
 
 from jga.domain.reconstructed_measure import (
     ReconstructedMeasure,
@@ -175,6 +177,8 @@ class AnalysisContext:
     # Externally supplied musical context. It is not observation evidence.
     declared_metric_reference: DeclaredMetricReference | None = None
 
+    declared_meter: DeclaredMeter | None = None
+
     # =====================================================
     # Translation Layer τ₈
     # =====================================================
@@ -222,6 +226,8 @@ class AnalysisContext:
     internal_metric_timeline: (
         InternalMetricTimeline | None
     ) = None
+
+    internal_metric_signature: InternalMetricSignature | None = None
 
     # =====================================================
     # Behaviour Analysis (M5)
