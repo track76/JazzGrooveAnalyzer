@@ -1,0 +1,12 @@
+{
+  "artifacts": {
+    "blind_result.json": "c96e025e39fb7d1864ea117049889c94d61b76191bcaa60b81f8879b26ec4306",
+    "completion_protocol.json": "f5221865a6088b2d9d172d01f4c620180446b018b04308ea1168b6bd223636fa",
+    "experiment.py": "bce68343668111eb2c0d9f2eec3baa0b1d8659f5a69fca8284fd03df8490322e",
+    "manifest.json": "bbe4b90d848a8c7db07483f47f81fad1f2eca39ae488998e416d5092a7b93968",
+    "post_blind_evaluation.json": "856fb0fa0d07a486c7e1193254439cd92281a65e00f44b657400a76b89a77c12",
+    "report.md": "7776eb0610fe733d91a72c02309b84aab580ccd9dd08e69982d11fabcb53ae50",
+    "reproducibility.json": "856c8fc7f60c81f7c957d4f46234471cac15e6690f8a7e0558b45cc4d4cc7e4b"
+  },
+  "experiment_id": "H-VAL001-C1-12"
+}

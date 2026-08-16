@@ -1,0 +1,63 @@
+{
+  "experiment_id": "H-VAL001-C1-12",
+  "run_id": "run_20260816_060428",
+  "status": "PREREGISTERED",
+  "scientific_question": "Can existing Candidate Period evidence from the controlled source support a scientifically justified identification of one metric-reference periodicity without access to Ground Truth?",
+  "direct_contribution_to_jga_mission": "Test the first Domain-level metric interpretation required for controlled-source tempo convergence.",
+  "missing_scientific_evidence": "Evidence that identifies a metric-reference role rather than only the existence, recurrence or coordination of a periodicity.",
+  "why_existing_evidence_is_insufficient": "F-031, F-032 and C1-04 preserve multiple candidates and descriptive relations but define no metric-reference selector.",
+  "smallest_experiment": "Audit the frozen C1-03 and C1-04 blind records twice for an existing explicitly authorized metric-role-identifying relation, freeze the blind result, then reveal Ground Truth for validation only.",
+  "architectural_impact": "None",
+  "complexity_introduced": "Lightweight experiment-local audit only",
+  "source_revision": "4ec9d0a8ad4e7c293a1e3e7d4bb57192d2c1c021",
+  "blind_inputs": [
+    {
+      "path": "validation/VAL-001/run_20260809_100843/blind_candidate_discovery.json",
+      "sha256": "7ab3e6d5fcba948715cb00b7437b3ce358103d86f67848d89ebbe0e0f7be8496"
+    },
+    {
+      "path": "validation/VAL-001/run_20260809_1344/blind_relationship_audit.json",
+      "sha256": "e1d386952566a3195ee312225b0688f46753ef03e43e02f3ef61cebf58bcfe6a"
+    }
+  ],
+  "blind_exclusions": [
+    "78 BPM",
+    "quarter-note duration",
+    "4/4",
+    "measure count",
+    "pickup",
+    "section boundaries",
+    "MusicXML metric information",
+    "Ground Truth tempo or meter"
+  ],
+  "criterion": {
+    "unique_support": "Exactly one Candidate Period has an existing explicitly authorized evidence relation that identifies its metric-reference role.",
+    "ambiguous": "More than one Candidate Period has an existing explicitly authorized evidence relation that identifies its metric-reference role.",
+    "unsupported": "No Candidate Period has an existing explicitly authorized evidence relation that identifies its metric-reference role."
+  },
+  "non_selecting_evidence": [
+    "duration",
+    "recurrence count",
+    "supporting occurrence positions",
+    "observation indices",
+    "exact cross-source recurrence",
+    "non-consecutive recurrence",
+    "phase description",
+    "temporal distribution",
+    "numerical ratios"
+  ],
+  "forbidden_operations": [
+    "selector",
+    "weighting",
+    "threshold",
+    "ranking",
+    "tolerance",
+    "heuristic",
+    "musical assumption"
+  ],
+  "possible_outcomes": [
+    "UNIQUE SUPPORT",
+    "AMBIGUOUS",
+    "UNSUPPORTED"
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "blind_result": {
+    "authority_constraints": [
+      "F-031: no single recurrent scale is privileged without additional evidence.",
+      "F-031: recurrence, duration and numerical ratio do not independently establish metric level.",
+      "F-032: recurrence frequency and source support do not independently assign musical metric meaning.",
+      "C1-04: phase concentration was not established.",
+      "C1-04: cross-source recurrence is descriptive and does not privilege a candidate."
+    ],
+    "available_evidence": {
+      "candidate_durations": true,
+      "controlled_stem_populations": true,
+      "exact_cross_source_recurrence": true,
+      "full_mix_population": true,
+      "metric_role_identifying_relation": false,
+      "non_consecutive_relationships": true,
+      "observation_indices": true,
+      "phase_description": true,
+      "recurrence_counts": true,
+      "supporting_occurrence_positions": true,
+      "temporal_distribution": true
+    },
+    "blind_bpm": null,
+    "blind_metric_duration_seconds": null,
+    "blind_result": "UNSUPPORTED",
+    "candidate_evidence": [
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.034829931972789115",
+        "exact_controlled_stem_support": {
+          "tenor_sax": 2,
+          "voice": 10
+        },
+        "frame_interval": 3,
+        "full_mix_recurrence_count": 3,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 8,
+            "end_seconds": 4.702040816326531,
+            "start_event_index": 7,
+            "start_seconds": 4.667210884353741
+          },
+          {
+            "end_event_index": 10,
+            "end_seconds": 5.468299319727891,
+            "start_event_index": 9,
+            "start_seconds": 5.433469387755102
+          },
+          {
+            "end_event_index": 21,
+            "end_seconds": 11.6215873015873,
+            "start_event_index": 20,
+            "start_seconds": 11.586757369614512
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.3599092970521542",
+        "exact_controlled_stem_support": {},
+        "frame_interval": 31,
+        "full_mix_recurrence_count": 9,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 7,
+            "end_seconds": 4.667210884353741,
+            "start_event_index": 6,
+            "start_seconds": 4.307301587301588
+          },
+          {
+            "end_event_index": 19,
+            "end_seconds": 10.820498866213152,
+            "start_event_index": 18,
+            "start_seconds": 10.460589569160998
+          },
+          {
+            "end_event_index": 26,
+            "end_seconds": 13.897142857142857,
+            "start_event_index": 25,
+            "start_seconds": 13.537233560090703
+          },
+          {
+            "end_event_index": 32,
+            "end_seconds": 16.973786848072564,
+            "start_event_index": 31,
+            "start_seconds": 16.61387755102041
+          },
+          {
+            "end_event_index": 39,
+            "end_seconds": 20.050430839002267,
+            "start_event_index": 38,
+            "start_seconds": 19.690521541950112
+          },
+          {
+            "end_event_index": 46,
+            "end_seconds": 23.127074829931974,
+            "start_event_index": 45,
+            "start_seconds": 22.76716553287982
+          },
+          {
+            "end_event_index": 53,
+            "end_seconds": 26.203718820861678,
+            "start_event_index": 52,
+            "start_seconds": 25.843809523809522
+          },
+          {
+            "end_event_index": 61,
+            "end_seconds": 29.280362811791385,
+            "start_event_index": 60,
+            "start_seconds": 28.92045351473923
+          },
+          {
+            "end_event_index": 68,
+            "end_seconds": 32.35700680272109,
+            "start_event_index": 67,
+            "start_seconds": 31.997097505668933
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.37151927437641724",
+        "exact_controlled_stem_support": {
+          "piano": 5,
+          "voice": 3
+        },
+        "frame_interval": 32,
+        "full_mix_recurrence_count": 9,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 11,
+            "end_seconds": 5.839818594104308,
+            "start_event_index": 10,
+            "start_seconds": 5.468299319727891
+          },
+          {
+            "end_event_index": 12,
+            "end_seconds": 6.211337868480726,
+            "start_event_index": 11,
+            "start_seconds": 5.839818594104308
+          },
+          {
+            "end_event_index": 13,
+            "end_seconds": 6.582857142857143,
+            "start_event_index": 12,
+            "start_seconds": 6.211337868480726
+          },
+          {
+            "end_event_index": 22,
+            "end_seconds": 11.993106575963719,
+            "start_event_index": 21,
+            "start_seconds": 11.6215873015873
+          },
+          {
+            "end_event_index": 23,
+            "end_seconds": 12.364625850340136,
+            "start_event_index": 22,
+            "start_seconds": 11.993106575963719
+          },
+          {
+            "end_event_index": 24,
+            "end_seconds": 12.736145124716554,
+            "start_event_index": 23,
+            "start_seconds": 12.364625850340136
+          },
+          {
+            "end_event_index": 30,
+            "end_seconds": 15.81278911564626,
+            "start_event_index": 29,
+            "start_seconds": 15.441269841269841
+          },
+          {
+            "end_event_index": 43,
+            "end_seconds": 21.966077097505668,
+            "start_event_index": 42,
+            "start_seconds": 21.59455782312925
+          },
+          {
+            "end_event_index": 65,
+            "end_seconds": 31.196009070294785,
+            "start_event_index": 64,
+            "start_seconds": 30.824489795918367
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": true,
+        "duration_seconds": "0.3831292517006803",
+        "exact_controlled_stem_support": {
+          "double_bass": 8,
+          "drums": 19,
+          "piano": 6
+        },
+        "frame_interval": 33,
+        "full_mix_recurrence_count": 16,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 1,
+            "end_seconds": 0.4295691609977324,
+            "start_event_index": 0,
+            "start_seconds": 0.046439909297052155
+          },
+          {
+            "end_event_index": 3,
+            "end_seconds": 1.5905668934240362,
+            "start_event_index": 2,
+            "start_seconds": 1.207437641723356
+          },
+          {
+            "end_event_index": 15,
+            "end_seconds": 7.743854875283446,
+            "start_event_index": 14,
+            "start_seconds": 7.360725623582766
+          },
+          {
+            "end_event_index": 28,
+            "end_seconds": 15.046530612244897,
+            "start_event_index": 27,
+            "start_seconds": 14.663401360544217
+          },
+          {
+            "end_event_index": 34,
+            "end_seconds": 18.123174603174604,
+            "start_event_index": 33,
+            "start_seconds": 17.740045351473924
+          },
+          {
+            "end_event_index": 35,
+            "end_seconds": 18.506303854875284,
+            "start_event_index": 34,
+            "start_seconds": 18.123174603174604
+          },
+          {
+            "end_event_index": 36,
+            "end_seconds": 18.889433106575964,
+            "start_event_index": 35,
+            "start_seconds": 18.506303854875284
+          },
+          {
+            "end_event_index": 37,
+            "end_seconds": 19.272562358276645,
+            "start_event_index": 36,
+            "start_seconds": 18.889433106575964
+          },
+          {
+            "end_event_index": 41,
+            "end_seconds": 21.199818594104308,
+            "start_event_index": 40,
+            "start_seconds": 20.816689342403627
+          },
+          {
+            "end_event_index": 44,
+            "end_seconds": 22.349206349206348,
+            "start_event_index": 43,
+            "start_seconds": 21.966077097505668
+          },
+          {
+            "end_event_index": 47,
+            "end_seconds": 23.510204081632654,
+            "start_event_index": 46,
+            "start_seconds": 23.127074829931974
+          },
+          {
+            "end_event_index": 55,
+            "end_seconds": 27.353106575963718,
+            "start_event_index": 54,
+            "start_seconds": 26.969977324263038
+          },
+          {
+            "end_event_index": 56,
+            "end_seconds": 27.736235827664398,
+            "start_event_index": 55,
+            "start_seconds": 27.353106575963718
+          },
+          {
+            "end_event_index": 63,
+            "end_seconds": 30.429750566893425,
+            "start_event_index": 62,
+            "start_seconds": 30.046621315192745
+          },
+          {
+            "end_event_index": 66,
+            "end_seconds": 31.579138321995465,
+            "start_event_index": 65,
+            "start_seconds": 31.196009070294785
+          },
+          {
+            "end_event_index": 76,
+            "end_seconds": 36.96616780045351,
+            "start_event_index": 75,
+            "start_seconds": 36.58303854875283
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.3947392290249433",
+        "exact_controlled_stem_support": {
+          "piano": 13
+        },
+        "frame_interval": 34,
+        "full_mix_recurrence_count": 7,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 29,
+            "end_seconds": 15.441269841269841,
+            "start_event_index": 28,
+            "start_seconds": 15.046530612244897
+          },
+          {
+            "end_event_index": 42,
+            "end_seconds": 21.59455782312925,
+            "start_event_index": 41,
+            "start_seconds": 21.199818594104308
+          },
+          {
+            "end_event_index": 49,
+            "end_seconds": 24.659591836734695,
+            "start_event_index": 48,
+            "start_seconds": 24.264852607709752
+          },
+          {
+            "end_event_index": 59,
+            "end_seconds": 28.514104308390024,
+            "start_event_index": 58,
+            "start_seconds": 28.11936507936508
+          },
+          {
+            "end_event_index": 64,
+            "end_seconds": 30.824489795918367,
+            "start_event_index": 63,
+            "start_seconds": 30.429750566893425
+          },
+          {
+            "end_event_index": 71,
+            "end_seconds": 34.66739229024943,
+            "start_event_index": 70,
+            "start_seconds": 34.27265306122449
+          },
+          {
+            "end_event_index": 73,
+            "end_seconds": 35.468480725623586,
+            "start_event_index": 72,
+            "start_seconds": 35.073741496598636
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.40634920634920635",
+        "exact_controlled_stem_support": {},
+        "frame_interval": 35,
+        "full_mix_recurrence_count": 2,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 60,
+            "end_seconds": 28.92045351473923,
+            "start_event_index": 59,
+            "start_seconds": 28.514104308390024
+          },
+          {
+            "end_event_index": 72,
+            "end_seconds": 35.073741496598636,
+            "start_event_index": 71,
+            "start_seconds": 34.66739229024943
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.4179591836734694",
+        "exact_controlled_stem_support": {},
+        "frame_interval": 36,
+        "full_mix_recurrence_count": 3,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 38,
+            "end_seconds": 19.690521541950112,
+            "start_event_index": 37,
+            "start_seconds": 19.272562358276645
+          },
+          {
+            "end_event_index": 45,
+            "end_seconds": 22.76716553287982,
+            "start_event_index": 44,
+            "start_seconds": 22.349206349206348
+          },
+          {
+            "end_event_index": 67,
+            "end_seconds": 31.997097505668933,
+            "start_event_index": 66,
+            "start_seconds": 31.579138321995465
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.7430385487528345",
+        "exact_controlled_stem_support": {},
+        "frame_interval": 64,
+        "full_mix_recurrence_count": 2,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 5,
+            "end_seconds": 3.5062131519274375,
+            "start_event_index": 4,
+            "start_seconds": 2.7631746031746034
+          },
+          {
+            "end_event_index": 17,
+            "end_seconds": 9.659501133786849,
+            "start_event_index": 16,
+            "start_seconds": 8.916462585034013
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": true,
+        "duration_seconds": "0.7662585034013606",
+        "exact_controlled_stem_support": {
+          "drums": 15,
+          "piano": 3
+        },
+        "frame_interval": 66,
+        "full_mix_recurrence_count": 8,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 20,
+            "end_seconds": 11.586757369614512,
+            "start_event_index": 19,
+            "start_seconds": 10.820498866213152
+          },
+          {
+            "end_event_index": 27,
+            "end_seconds": 14.663401360544217,
+            "start_event_index": 26,
+            "start_seconds": 13.897142857142857
+          },
+          {
+            "end_event_index": 33,
+            "end_seconds": 17.740045351473924,
+            "start_event_index": 32,
+            "start_seconds": 16.973786848072564
+          },
+          {
+            "end_event_index": 40,
+            "end_seconds": 20.816689342403627,
+            "start_event_index": 39,
+            "start_seconds": 20.050430839002267
+          },
+          {
+            "end_event_index": 54,
+            "end_seconds": 26.969977324263038,
+            "start_event_index": 53,
+            "start_seconds": 26.203718820861678
+          },
+          {
+            "end_event_index": 62,
+            "end_seconds": 30.046621315192745,
+            "start_event_index": 61,
+            "start_seconds": 29.280362811791385
+          },
+          {
+            "end_event_index": 70,
+            "end_seconds": 34.27265306122449,
+            "start_event_index": 69,
+            "start_seconds": 33.50639455782313
+          },
+          {
+            "end_event_index": 75,
+            "end_seconds": 36.58303854875283,
+            "start_event_index": 74,
+            "start_seconds": 35.81678004535147
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.7778684807256235",
+        "exact_controlled_stem_support": {
+          "drums": 6
+        },
+        "frame_interval": 67,
+        "full_mix_recurrence_count": 2,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 2,
+            "end_seconds": 1.207437641723356,
+            "start_event_index": 1,
+            "start_seconds": 0.4295691609977324
+          },
+          {
+            "end_event_index": 14,
+            "end_seconds": 7.360725623582766,
+            "start_event_index": 13,
+            "start_seconds": 6.582857142857143
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "0.8010884353741496",
+        "exact_controlled_stem_support": {},
+        "frame_interval": 69,
+        "full_mix_recurrence_count": 5,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 6,
+            "end_seconds": 4.307301587301588,
+            "start_event_index": 5,
+            "start_seconds": 3.5062131519274375
+          },
+          {
+            "end_event_index": 18,
+            "end_seconds": 10.460589569160998,
+            "start_event_index": 17,
+            "start_seconds": 9.659501133786849
+          },
+          {
+            "end_event_index": 25,
+            "end_seconds": 13.537233560090703,
+            "start_event_index": 24,
+            "start_seconds": 12.736145124716554
+          },
+          {
+            "end_event_index": 31,
+            "end_seconds": 16.61387755102041,
+            "start_event_index": 30,
+            "start_seconds": 15.81278911564626
+          },
+          {
+            "end_event_index": 52,
+            "end_seconds": 25.843809523809522,
+            "start_event_index": 51,
+            "start_seconds": 25.042721088435375
+          }
+        ]
+      },
+      {
+        "additional_relationship_record_available": false,
+        "duration_seconds": "1.172607709750567",
+        "exact_controlled_stem_support": {},
+        "frame_interval": 101,
+        "full_mix_recurrence_count": 2,
+        "metric_reference_role_identified": false,
+        "metric_role_identifying_evidence": [],
+        "periodicity_exists": true,
+        "periodicity_is_recurrent": true,
+        "supporting_occurrences": [
+          {
+            "end_event_index": 4,
+            "end_seconds": 2.7631746031746034,
+            "start_event_index": 3,
+            "start_seconds": 1.5905668934240362
+          },
+          {
+            "end_event_index": 16,
+            "end_seconds": 8.916462585034013,
+            "start_event_index": 15,
+            "start_seconds": 7.743854875283446
+          }
+        ]
+      }
+    ],
+    "experiment_id": "H-VAL001-C1-12",
+    "input_bindings": {
+      "candidate_discovery_blind_record_fingerprint": "7a1ebec978115094e751f78eee84abd718933d6cff91200a2920adbd83c6de3c",
+      "candidate_discovery_experiment": "H-VAL001-C1-03",
+      "relationship_blind_record_fingerprint": "5460094a50779f68341a306cb9f11b63a79e39806a98f2c0513407c00eced4d7",
+      "relationship_experiment": "H-VAL001-C1-04"
+    },
+    "limitations": [
+      "Existence and recurrence evidence are not metric-role evidence.",
+      "Cross-source coordination does not identify metric level under current authority.",
+      "No selector, weighting, threshold, ranking, tolerance, heuristic or musical assumption was introduced."
+    ],
+    "role_supported_candidate_count": 0,
+    "selected_candidate": null
+  },
+  "blind_result_sha256": "7aeb9598c26331f6fb8f1c9dea9d4e21d5afcdafa6b7285620d67691b23d93b2",
+  "byte_identical_replay": true,
+  "experiment_id": "H-VAL001-C1-12",
+  "frozen_utc": "2026-08-16T04:06:46.831975+00:00",
+  "ground_truth_loaded": false,
+  "repeated_blind_result_sha256": "7aeb9598c26331f6fb8f1c9dea9d4e21d5afcdafa6b7285620d67691b23d93b2"
+}

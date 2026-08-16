@@ -1,0 +1,16 @@
+{
+  "agreement": "NOT APPLICABLE \u2014 NO SCIENTIFICALLY JUSTIFIED BLIND SELECTION",
+  "blind_result": "UNSUPPORTED",
+  "blind_result_file_sha256_before_ground_truth": "c96e025e39fb7d1864ea117049889c94d61b76191bcaa60b81f8879b26ec4306",
+  "blind_result_sha256": "7aeb9598c26331f6fb8f1c9dea9d4e21d5afcdafa6b7285620d67691b23d93b2",
+  "experiment_id": "H-VAL001-C1-12",
+  "ground_truth": {
+    "ground_truth_id": "GT-VAL-001-v1",
+    "reference_duration_seconds": "0.7692307692307692307692307692",
+    "source_sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "tempo_beat_unit": "quarter",
+    "tempo_beats_per_minute": "78"
+  },
+  "ground_truth_changed_blind_result": false,
+  "selected_candidate": null
+}
