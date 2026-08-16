@@ -54,6 +54,7 @@ def test_positive_offset():
     calculator = MetricOffsetCalculator()
 
     assert calculator.compute(event, beat) == pytest.approx(12.0)
+    assert calculator.compute_seconds(event, beat) == pytest.approx(0.012)
 
 
 def test_negative_offset():

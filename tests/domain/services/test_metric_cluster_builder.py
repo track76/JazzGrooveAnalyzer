@@ -11,13 +11,17 @@ from jga.domain.services.metric_cluster_builder import (
 )
 
 
-def make_event(timestamp: float) -> ElementaryMetricEvent:
+def make_event(
+    timestamp: float,
+    beat_reference_id=None,
+) -> ElementaryMetricEvent:
     return ElementaryMetricEvent(
         id=uuid4(),
         contributor_id=uuid4(),
         timestamp=timestamp,
         confidence=1.0,
         created_at=datetime.now(),
+        beat_reference_id=beat_reference_id,
     )
 
 
@@ -211,3 +215,22 @@ def test_every_event_appears_once_with_identity_and_timestamp_preserved():
     assert {event.id: event.timestamp for event in projected} == {
         event.id: event.timestamp for event in events
     }
+
+
+def test_authorized_movement_identity_precedes_nearest_reprojection():
+    earlier = make_beat(1.0, 1)
+    later = make_beat(2.0, 2)
+    event = make_event(1.1, beat_reference_id=later.id)
+
+    clusters = MetricClusterBuilder().build((earlier, later), (event,))
+
+    assert clusters[0].events == ()
+    assert clusters[1].events == (event,)
+
+
+def test_unknown_authorized_movement_is_rejected():
+    beat = make_beat(1.0, 1)
+    event = make_event(1.0, beat_reference_id=uuid4())
+
+    with pytest.raises(ValueError, match="outside the supplied timeline"):
+        MetricClusterBuilder().build((beat,), (event,))

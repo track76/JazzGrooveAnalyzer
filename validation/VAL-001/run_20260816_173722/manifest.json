@@ -1,0 +1,17 @@
+{
+  "experiment_id": "H-VAL001-EME-DISPLACEMENT-01",
+  "validation_protocol": "SVP-001",
+  "timestamp": "2026-08-16T17:37:22+02:00",
+  "repository_commit_input": "6c8762f",
+  "epistemic_scope": "neutral signed EME displacement",
+  "quarter_phase_origin_seconds": "0",
+  "quarter_phase_origin_status": "DECLARED",
+  "tempo_quarter_bpm": "78",
+  "tempo_status": "DECLARED",
+  "exact_period_seconds": "10/13",
+  "scope_seconds": "[0,1865728/44100)",
+  "beat_reference_count": 55,
+  "included_sources": ["Drums", "Piano", "Double Bass", "Tenor Sax"],
+  "excluded_sources": {"Voice": "DEFERRED"},
+  "musical_interpretation": "NOT_PERFORMED"
+}

@@ -60,3 +60,4 @@ def test_metric_point_offset_compatibility_property():
     )
 
     assert point.offset_ms == 12.5
+    assert point.offset_seconds == 0.0125

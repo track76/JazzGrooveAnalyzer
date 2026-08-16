@@ -36,18 +36,29 @@ class MetricClusterBuilder:
             )
         )
         beat_grid = tuple(beat.timestamp for beat in ordered_beats)
+        beat_by_id = {beat.id: beat for beat in ordered_beats}
         assignments = {beat.id: [] for beat in ordered_beats}
 
         for event in events:
-            projected_timestamp = self._projection_engine.project(
-                event_timestamp=event.timestamp,
-                beat_grid=beat_grid,
-            )
-            projected_beat = next(
-                beat
-                for beat in ordered_beats
-                if beat.timestamp == projected_timestamp
-            )
+            if event.beat_reference_id is not None:
+                try:
+                    projected_beat = beat_by_id[event.beat_reference_id]
+                except KeyError as error:
+                    raise ValueError(
+                        "EME references a BeatReference outside the supplied timeline"
+                    ) from error
+            else:
+                # Compatibility for legacy EME that predate explicit
+                # movement-association lineage.
+                projected_timestamp = self._projection_engine.project(
+                    event_timestamp=event.timestamp,
+                    beat_grid=beat_grid,
+                )
+                projected_beat = next(
+                    beat
+                    for beat in ordered_beats
+                    if beat.timestamp == projected_timestamp
+                )
             assignments[projected_beat.id].append(event)
 
         return tuple(

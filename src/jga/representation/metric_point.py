@@ -48,3 +48,9 @@ class MetricPoint:
         """
 
         return self.coordinate.value
+
+    @property
+    def offset_seconds(self) -> float:
+        """Neutral signed temporal displacement in physical seconds."""
+
+        return self.coordinate.value / 1000.0

@@ -1,5 +1,34 @@
 # JGA Project State
 
+## Neutral Signed EME Displacement Validation
+
+Status:
+
+COMPLETED
+
+- `H-VAL001-EME-DISPLACEMENT-01` validates the neutral quantity `EME timestamp
+  - associated BeatReference timestamp` in seconds and milliseconds against
+  the authorized 55-reference controlled quarter timeline.
+- Every authorized EME retains exactly one MetricCluster membership and its
+  AD-018 movement identity. No inclusion threshold, deletion, duplication or
+  musical interpretation is applied.
+- Controlled authorized EME populations are Drums 27, Piano 9, Double Bass 25
+  and Tenor Sax 10. All preserve source, contributor, supporting-observation,
+  movement and declared-timeline provenance.
+- Raw quarter-normalized phase values reveal numerical populations near zero
+  and near minus one-half for several sources. No categorical tolerance or
+  subdivision meaning is assigned.
+- Scientific replay fingerprints are identical across two executions per
+  source. Runtime observation and EME UUIDs remain execution-local while
+  within-analysis identity and lineage are preserved unchanged.
+- The controlled status is `PASS`. The remaining limitation is that a
+  quarter-only reference cannot separate temporal displacement from other
+  metric phases without independently authorized subdivision evidence.
+- Focused Domain, Representation and controlled-real-audio validation: 26
+  passed, 2 dependency deprecation warnings.
+- Complete automated suite excluding the environment-blocked Demucs
+  integration test: 1059 passed, 3 warnings. No heavy write was attempted.
+
 ## Controlled BeatReference Timeline Validation
 
 Status:
