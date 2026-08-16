@@ -1,5 +1,26 @@
 # JGA Project State
 
+## Controlled BeatReference Timeline Validation
+
+Status:
+
+FAILED
+
+- `H-VAL001-BEATREF-01` confirms exact declared-period derivation as `10/13`
+  seconds and index-based timestamp generation from one common timeline.
+- Current origin is the first ensemble-consensus centroid. Although derived
+  from observations, it has no authorized quarter-phase meaning and is
+  scientifically unsupported as a BeatReference origin.
+- BeatReference count remains equal to pre-EME consensus-event count. The
+  controlled MP3 therefore produces 74 BeatReferences from 74 consensus
+  groups and extends the final timestamp beyond the audio scope.
+- Timestamp replay is deterministic, but BeatReference UUID replay is not;
+  declared-reference provenance and numeric temporal scope are incomplete.
+- No production correction is authorized until metric origin, numeric scope
+  and density-independent observation association are scientifically defined.
+- Autonomous BPM, meter, measures, downbeat, pickup, sections, Voice AI,
+  groove and behaviour interpretation remain outside this validation.
+
 ## Total EME Projection
 
 Status:
@@ -15,7 +36,9 @@ COMPLETED
   EME is discarded because of temporal distance, and signed offsets remain the
   unchanged event timestamp minus its selected reference timestamp.
 - Controlled VAL-001 full-mix validation with declared 78 quarter BPM and 4/4
-  preserves all 77 input EMEs as 77 unique MetricCluster memberships and 77
+  preserves all 77 Domain PulseCandidate observations. The authoritative
+  AD-018 association flow produces 71 EME and three ambiguous association
+  groups; all 71 authorized EME retain unique MetricCluster memberships and
   MetricPoints. Event identity, timestamp and contributor provenance remain
   unchanged; replay is deterministic and Core observation is invariant.
 - No offset was interpreted musically. Measure-grid reconstruction, pickup,

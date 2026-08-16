@@ -1,0 +1,13 @@
+{
+  "experiment_id": "H-VAL001-BEATREF-01",
+  "documentation_consistency": "PASS with reported conflict — the stale 77-EME project-state statement is corrected to the authoritative AD-018 result of 77 observations, 71 EME and three ambiguous groups.",
+  "cross_reference_verification": "PASS — declared-context, AD-018, CED-VAL-001 and runtime reconstruction evidence were checked.",
+  "repository_authority": "PASS — unsupported origin and cardinality are reported rather than inferred.",
+  "bootstrap_integration": "NOT APPLICABLE — no authority hierarchy or bootstrap input changed.",
+  "focused_tests": "PASS — two controlled executions; exact-period, common-timeline, source-density, EME-dependency, timestamp/identity replay and scope checks.",
+  "full_suite": "NOT APPLICABLE — no production code changed.",
+  "scientific_validation": "FAIL — rate is correct, but origin, cardinality, deterministic identity and complete provenance fail the approved BeatReference contract.",
+  "repository_consistency": "PASS — lightweight validation record and precise project-state correction only; unrelated worktree changes untouched.",
+  "storage_impact": "Lightweight repository records only; no generated audio or heavy artifacts.",
+  "push": "NOT PERFORMED — explicit PI approval required."
+}

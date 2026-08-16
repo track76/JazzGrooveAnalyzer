@@ -1,0 +1,26 @@
+{
+  "experiment_id": "H-VAL001-BEATREF-01",
+  "run_id": "run_20260816_171303",
+  "status": "CONTROLLED_DIAGNOSTIC",
+  "scientific_question": "Given the declared reference rate of 78 quarter BPM, can JGA construct one deterministic, provenance-bound, temporally correct sequence of quarter-note BeatReferences over the controlled performance?",
+  "scope": "BeatReference timeline only; no measure, downbeat, pickup, section, groove or behaviour interpretation",
+  "declared_context": {
+    "tempo_bpm": "78",
+    "beat_unit": "quarter",
+    "tempo_origin": "DECLARED",
+    "meter": "4/4",
+    "meter_origin": "DECLARED",
+    "meter_used_for_timeline": false,
+    "authority_id": "GT-VAL-001-v1"
+  },
+  "input": {
+    "path": "recordings/validation/03 THE COST OF LIVING versione intro + 8 bar.mp3",
+    "reported_audio_duration_seconds": 42.24
+  },
+  "expected_period": {
+    "exact_seconds": "10/13",
+    "decimal_seconds": "0.7692307692307692307692307692",
+    "derivation": "Decimal('60') / Decimal('78')"
+  },
+  "ground_truth_boundary": "Ground Truth validates only after current runtime output is captured; it does not create the runtime timeline."
+}

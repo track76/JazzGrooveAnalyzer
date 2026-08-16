@@ -1,0 +1,74 @@
+{
+  "experiment_id": "H-VAL001-BEATREF-01",
+  "current_path": "Domain PulseCandidates -> 50 ms EnsembleMetricConsensus groups -> BeatReconstructionEngine -> BeatReferences -> EME association",
+  "current_input_evidence": {
+    "domain_pulse_candidates": 77,
+    "ensemble_consensus_events": 74,
+    "declared_metric_reference": "78 quarter BPM",
+    "declared_meter_present_but_not_used": "4/4",
+    "audio_duration_seconds": 42.24
+  },
+  "runtime_result": {
+    "beat_reference_count": 74,
+    "first_timestamp_seconds": 0.046439909297052155,
+    "last_timestamp_seconds": 56.20028606314321,
+    "last_timestamp_exceeds_audio_scope_seconds": 13.96028606314321,
+    "reconstruction_rule": "ensemble-consensus-declared-period/v1",
+    "temporal_scope": "analysis_input",
+    "authorized_eme_count": 71,
+    "ambiguous_association_groups": 3
+  },
+  "rate_validation": {
+    "status": "PASS",
+    "exact_period_seconds": "10/13",
+    "implementation_value_source": "float(DeclaredMetricReference.period_seconds)",
+    "generation": "origin + index * period",
+    "recursive_accumulation": false,
+    "maximum_observed_decimal_error_seconds": "6.306538461538461538461538461538462E-15"
+  },
+  "origin_validation": {
+    "status": "FAIL",
+    "runtime_origin_source": "first ordered EnsembleMetricEvent.beat_time; arithmetic mean of the first 50 ms consensus group",
+    "runtime_origin_epistemic_classification": "UNSUPPORTED",
+    "reason": "The centroid is observation-derived physical timing, but no authorized evidence assigns it quarter-note phase.",
+    "canonical_dataset_origin_declaration": "MusicXML score time zero = WAV sample zero",
+    "canonical_origin_scope": "Authoritative CED-VAL-001 WAV stems",
+    "mp3_origin_validation": "NOT AUTHORIZED; CED-VAL-001 does not declare MP3 sample zero equivalent to score time zero"
+  },
+  "cardinality_validation": {
+    "status": "FAIL",
+    "reason": "BeatReference count is exactly the number of EnsembleMetricEvent consensus groups, not a count derived from declared temporal scope and period.",
+    "scope_defect": "BeatReconstructionEngine receives no numeric analysis start/end and records only the generic string analysis_input."
+  },
+  "common_timeline": {
+    "status": "PASS",
+    "reason": "One BeatReference tuple is created per analysis and contributors associate afterward; no contributor-specific BeatReference collections exist."
+  },
+  "source_density_independence": {
+    "status": "FAIL",
+    "reason": "The engine creates one BeatReference for every pre-EME consensus event, so changing transient/consensus density changes BeatReference count and supporting identities."
+  },
+  "eme_dependency": {
+    "status": "PASS",
+    "reason": "BeatReference reconstruction consumes pre-EME EnsembleMetricEvents and declared context, never ElementaryMetricEvents."
+  },
+  "reproducibility": {
+    "timestamp_replay": "PASS",
+    "identity_replay": "FAIL",
+    "reason": "Two complete runs produce identical timestamps but different BeatReference UUIDs because identity includes nondeterministic PulseCandidate UUIDs."
+  },
+  "provenance": {
+    "status": "FAIL",
+    "preserved": ["reconstruction rule", "generic temporal scope", "supporting observation identities"],
+    "missing": ["declared metric-reference authority ID", "declared source kind", "declared source checksum", "numeric analysis scope", "origin authority/status"]
+  },
+  "unsupported_defaults": {
+    "silent_120_bpm_active": false,
+    "silent_4_4_used_for_beat_timeline": false
+  },
+  "core_observations_changed": false,
+  "overall_status": "FAIL",
+  "first_scientific_blocker": "No authorized quarter-phase origin is supplied for the analyzed MP3, and the current consensus centroid is not metric-role evidence.",
+  "production_correction_performed": false,
+  "implementation_decision": "No correction is scientifically authorized because satisfying the contract requires an explicit origin and numeric temporal-scope authority plus an association rule that does not derive movement count from observation density. None may be invented in this task."
+}
