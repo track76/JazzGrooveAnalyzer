@@ -20,6 +20,7 @@ CANONICAL_DOCUMENTS = [
     # =====================================================
 
     "docs/scientific/README.md",
+    "docs/scientific/JGA_SCIENTIFIC_RESEARCH_CONSTITUTION.md",
     "docs/JGA_DEVELOPMENT_CONSTITUTION.md",
     "docs/scientific/JGA_SCIENTIFIC_MANIFESTO.md",
     "docs/scientific/JGA_OBSERVATION_MODEL.md",
@@ -109,10 +110,16 @@ python tools/bootstrap.py
 before every ChatGPT session.
 
 ============================================================
-Knowledge Hierarchy
+Mandatory Reading and Knowledge Hierarchy
 ============================================================
 
-Scientific Theory
+Scientific Mission
+        ↓
+Scientific Research Constitution
+        ↓
+Scientific Manifesto and Philosophy
+        ↓
+Scientific Foundations
         ↓
 Scientific Observation Model
         ↓
@@ -125,19 +132,25 @@ Implementation
 Theory precedes implementation.
 
 ============================================================
-Development Constitution
+Constitutional Authority
 ============================================================
 
 Always follow:
 
+- docs/scientific/JGA_SCIENTIFIC_RESEARCH_CONSTITUTION.md
 - docs/JGA_DEVELOPMENT_CONSTITUTION.md
 
-The Development Constitution defines the
-mandatory development methodology of JGA.
+The Scientific Research Constitution is the highest
+authority governing scientific mission, research direction,
+scientific scope and scientific evolution.
 
-When implementation convenience conflicts
-with the Constitution, the Constitution
-always prevails.
+The Development Constitution defines the
+mandatory development methodology and execution of JGA.
+It is subordinate to the Scientific Research Constitution
+where scientific direction is concerned.
+
+When implementation convenience conflicts with either
+applicable Constitution, constitutional authority prevails.
 
 ============================================================
 Canonical Documents

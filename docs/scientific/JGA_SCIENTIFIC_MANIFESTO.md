@@ -6,6 +6,10 @@ Status: Draft
 
 This document defines the scientific philosophy of the Jazz Groove Analyzer (JGA).
 
+The JGA Scientific Research Constitution is the highest authority governing
+scientific mission, direction, scope and evolution. This Manifesto states the
+scientific philosophy protected by that Constitution.
+
 It establishes the principles that guide the scientific model independently from the software implementation.
 
 The Manifesto explains *why* the JGA has been designed, while the Observation Model explains *how* musical performances are scientifically observed.

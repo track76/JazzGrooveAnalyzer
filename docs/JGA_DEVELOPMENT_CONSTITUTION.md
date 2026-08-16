@@ -12,7 +12,13 @@ Status: LOCKED
 
 This document defines the mandatory development methodology of the Jazz Groove Analyzer.
 
-It governs every architectural, scientific and implementation decision.
+It governs architectural and implementation decisions and the execution of
+scientifically approved work.
+
+The JGA Scientific Research Constitution is the highest authority for
+scientific mission, research direction, scientific scope and scientific
+evolution. This Development Constitution is subordinate to it where scientific
+direction is concerned.
 
 Whenever a conflict exists between implementation convenience and this Constitution, the Constitution prevails.
 
@@ -20,7 +26,13 @@ Whenever a conflict exists between implementation convenience and this Constitut
 
 # Knowledge Hierarchy
 
-Scientific Theory
+Scientific Mission
+        ↓
+Scientific Research Constitution
+        ↓
+Scientific Manifesto and Philosophy
+        ↓
+Scientific Foundations
         ↓
 Observation Model
         ↓

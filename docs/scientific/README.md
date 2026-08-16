@@ -14,21 +14,22 @@ The scientific documentation represents the highest level of the project knowled
 
 ## Reading Order
 
-1. JGA Scientific Manifesto
-2. JGA Knowledge Model
-3. Scientific Knowledge Record
-4. Scientific Theory of Hierarchical Metric Periodicity
-5. Scientific Theory of Candidate Periods
-6. Phase II Validation Block 1 Completion Report
-7. JGA Observation Model
-8. JGA Metric Context
-9. TAC Observation Model
-10. TAC Domain Mapping
-11. Scientific Foundations
-12. Geometry
-13. Behaviour Mathematics
-14. Scientific Visualization
-15. RFC Documents
+1. JGA Scientific Research Constitution
+2. JGA Scientific Manifesto
+3. JGA Knowledge Model
+4. Scientific Knowledge Record
+5. Scientific Theory of Hierarchical Metric Periodicity
+6. Scientific Theory of Candidate Periods
+7. Phase II Validation Block 1 Completion Report
+8. JGA Observation Model
+9. JGA Metric Context
+10. TAC Observation Model
+11. TAC Domain Mapping
+12. Scientific Foundations
+13. Geometry
+14. Behaviour Mathematics
+15. Scientific Visualization
+16. RFC Documents
 
 ---
 
@@ -37,6 +38,7 @@ The scientific documentation represents the highest level of the project knowled
 scientific/
 │
 ├── README.md
+├── JGA_SCIENTIFIC_RESEARCH_CONSTITUTION.md
 ├── JGA_SCIENTIFIC_MANIFESTO.md
 ├── JGA_OBSERVATION_MODEL.md
 ├── JGA_METRIC_CONTEXT.md
