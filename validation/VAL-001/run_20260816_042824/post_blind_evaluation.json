@@ -1,0 +1,16 @@
+{
+  "agreement": "NOT APPLICABLE \u2014 BLIND TEST FAILED",
+  "blind_result": "FAILED TEST",
+  "blind_result_file_sha256_before_ground_truth": "a7c049e4ec18f730032ffdbc8cbf7ac4d31f28ddd679b571b3428fe5e9c533af",
+  "blind_result_sha256": "eb17682f25233c50f08bf98d38689be55e45e48303edc9bbe65ff34e5b5c55b0",
+  "experiment_id": "H-VAL001-C1-13",
+  "ground_truth": {
+    "ground_truth_id": "GT-VAL-001-v1",
+    "reference_duration_seconds": "0.7692307692307692307692307692",
+    "source_sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "tempo_beat_unit": "quarter",
+    "tempo_beats_per_minute": "78"
+  },
+  "ground_truth_changed_blind_result": false,
+  "selected_candidate_frames": null
+}

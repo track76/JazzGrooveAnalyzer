@@ -1,0 +1,13 @@
+{
+  "experiment_id": "H-VAL001-C1-13",
+  "artifacts": {
+    "blind_result.json": "a7c049e4ec18f730032ffdbc8cbf7ac4d31f28ddd679b571b3428fe5e9c533af",
+    "manifest.json": "3b16a83e8bb1ec9e59f49db7a499c446ad9503f6ff6b33323171c228c54e6909",
+    "notes.md": "672948a541ad2262ace48c098a653262b5907fde6f91999a78cd22c63b31ae0a",
+    "post_blind_evaluation.json": "e0c7655468b5fe9c6ddc80bb170d36b7f6b4d871bd53c5c085109e9f06e26943",
+    "report.md": "a5320f18f5682097743e7aa068b324bda91d9327c77bff4c7a755281d7384a60",
+    "reproducibility.json": "d7227ea0e3b9bcf3966f7c5aee11be4de1b5cd8afe6d33488192d81f6bfc9562"
+  },
+  "blind_result_content_sha256": "eb17682f25233c50f08bf98d38689be55e45e48303edc9bbe65ff34e5b5c55b0",
+  "blind_result_file_sha256_before_ground_truth": "a7c049e4ec18f730032ffdbc8cbf7ac4d31f28ddd679b571b3428fe5e9c533af"
+}

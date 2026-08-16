@@ -1,0 +1,4724 @@
+{
+  "blind_result": {
+    "authorized_metric_role_decision_relation_available": false,
+    "blind_result": "FAILED TEST",
+    "candidate_hierarchy_frames": [
+      33,
+      66,
+      132
+    ],
+    "experiment_id": "H-VAL001-C1-13",
+    "ground_truth_loaded": false,
+    "observations_reproduced": true,
+    "phase_conditioned_strength_evidence": [
+      {
+        "asset_path": "recordings/validation/03 THE COST OF LIVING versione intro + 8 bar.mp3",
+        "asset_sha256": "d358d1bca5144ea1dabee4d970fa5deabf81a209922481a77db0f01bd8bdbbbb",
+        "candidate_hierarchy_occurrence_counts": {
+          "132": 0,
+          "33": 7,
+          "66": 8
+        },
+        "frame_length_samples": 512,
+        "pulse_candidate_count": 77,
+        "pulse_candidates": [
+          {
+            "confidence": 1.0,
+            "frame": 4,
+            "observation_index": 0,
+            "phase_residue_frames": {
+              "132": 4,
+              "33": 4,
+              "66": 4
+            },
+            "strength": 15.991703033447266,
+            "timestamp_seconds": 0.046439909297052155
+          },
+          {
+            "confidence": 1.0,
+            "frame": 37,
+            "observation_index": 1,
+            "phase_residue_frames": {
+              "132": 37,
+              "33": 4,
+              "66": 37
+            },
+            "strength": 7.971296787261963,
+            "timestamp_seconds": 0.4295691609977324
+          },
+          {
+            "confidence": 1.0,
+            "frame": 104,
+            "observation_index": 2,
+            "phase_residue_frames": {
+              "132": 104,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 2.778853416442871,
+            "timestamp_seconds": 1.207437641723356
+          },
+          {
+            "confidence": 1.0,
+            "frame": 137,
+            "observation_index": 3,
+            "phase_residue_frames": {
+              "132": 5,
+              "33": 5,
+              "66": 5
+            },
+            "strength": 2.4176979064941406,
+            "timestamp_seconds": 1.5905668934240362
+          },
+          {
+            "confidence": 1.0,
+            "frame": 238,
+            "observation_index": 4,
+            "phase_residue_frames": {
+              "132": 106,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 3.084681749343872,
+            "timestamp_seconds": 2.7631746031746034
+          },
+          {
+            "confidence": 1.0,
+            "frame": 302,
+            "observation_index": 5,
+            "phase_residue_frames": {
+              "132": 38,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 8.540417671203613,
+            "timestamp_seconds": 3.5062131519274375
+          },
+          {
+            "confidence": 1.0,
+            "frame": 371,
+            "observation_index": 6,
+            "phase_residue_frames": {
+              "132": 107,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 6.0225348472595215,
+            "timestamp_seconds": 4.307301587301588
+          },
+          {
+            "confidence": 1.0,
+            "frame": 402,
+            "observation_index": 7,
+            "phase_residue_frames": {
+              "132": 6,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 4.076831817626953,
+            "timestamp_seconds": 4.667210884353741
+          },
+          {
+            "confidence": 1.0,
+            "frame": 405,
+            "observation_index": 8,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 2.8426804542541504,
+            "timestamp_seconds": 4.702040816326531
+          },
+          {
+            "confidence": 1.0,
+            "frame": 468,
+            "observation_index": 9,
+            "phase_residue_frames": {
+              "132": 72,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 6.068235874176025,
+            "timestamp_seconds": 5.433469387755102
+          },
+          {
+            "confidence": 1.0,
+            "frame": 471,
+            "observation_index": 10,
+            "phase_residue_frames": {
+              "132": 75,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 3.0354793071746826,
+            "timestamp_seconds": 5.468299319727891
+          },
+          {
+            "confidence": 1.0,
+            "frame": 503,
+            "observation_index": 11,
+            "phase_residue_frames": {
+              "132": 107,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 2.1168885231018066,
+            "timestamp_seconds": 5.839818594104308
+          },
+          {
+            "confidence": 1.0,
+            "frame": 535,
+            "observation_index": 12,
+            "phase_residue_frames": {
+              "132": 7,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 3.293189287185669,
+            "timestamp_seconds": 6.211337868480726
+          },
+          {
+            "confidence": 1.0,
+            "frame": 567,
+            "observation_index": 13,
+            "phase_residue_frames": {
+              "132": 39,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 4.959400653839111,
+            "timestamp_seconds": 6.582857142857143
+          },
+          {
+            "confidence": 1.0,
+            "frame": 634,
+            "observation_index": 14,
+            "phase_residue_frames": {
+              "132": 106,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 2.6325881481170654,
+            "timestamp_seconds": 7.360725623582766
+          },
+          {
+            "confidence": 1.0,
+            "frame": 667,
+            "observation_index": 15,
+            "phase_residue_frames": {
+              "132": 7,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 2.469634771347046,
+            "timestamp_seconds": 7.743854875283446
+          },
+          {
+            "confidence": 1.0,
+            "frame": 768,
+            "observation_index": 16,
+            "phase_residue_frames": {
+              "132": 108,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 3.525602102279663,
+            "timestamp_seconds": 8.916462585034013
+          },
+          {
+            "confidence": 1.0,
+            "frame": 832,
+            "observation_index": 17,
+            "phase_residue_frames": {
+              "132": 40,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 8.691854476928711,
+            "timestamp_seconds": 9.659501133786849
+          },
+          {
+            "confidence": 1.0,
+            "frame": 901,
+            "observation_index": 18,
+            "phase_residue_frames": {
+              "132": 109,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 6.160015106201172,
+            "timestamp_seconds": 10.460589569160998
+          },
+          {
+            "confidence": 1.0,
+            "frame": 932,
+            "observation_index": 19,
+            "phase_residue_frames": {
+              "132": 8,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 4.047555446624756,
+            "timestamp_seconds": 10.820498866213152
+          },
+          {
+            "confidence": 1.0,
+            "frame": 998,
+            "observation_index": 20,
+            "phase_residue_frames": {
+              "132": 74,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 6.156118869781494,
+            "timestamp_seconds": 11.586757369614512
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1001,
+            "observation_index": 21,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 3.2355997562408447,
+            "timestamp_seconds": 11.6215873015873
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1033,
+            "observation_index": 22,
+            "phase_residue_frames": {
+              "132": 109,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 2.329120397567749,
+            "timestamp_seconds": 11.993106575963719
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1065,
+            "observation_index": 23,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 7.697571754455566,
+            "timestamp_seconds": 12.364625850340136
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1097,
+            "observation_index": 24,
+            "phase_residue_frames": {
+              "132": 41,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 13.512654304504395,
+            "timestamp_seconds": 12.736145124716554
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1166,
+            "observation_index": 25,
+            "phase_residue_frames": {
+              "132": 110,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 2.589890956878662,
+            "timestamp_seconds": 13.537233560090703
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1197,
+            "observation_index": 26,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 4.817901134490967,
+            "timestamp_seconds": 13.897142857142857
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1263,
+            "observation_index": 27,
+            "phase_residue_frames": {
+              "132": 75,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 2.331690549850464,
+            "timestamp_seconds": 14.663401360544217
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1296,
+            "observation_index": 28,
+            "phase_residue_frames": {
+              "132": 108,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 6.682529449462891,
+            "timestamp_seconds": 15.046530612244897
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1330,
+            "observation_index": 29,
+            "phase_residue_frames": {
+              "132": 10,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 4.108283996582031,
+            "timestamp_seconds": 15.441269841269841
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1362,
+            "observation_index": 30,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 3.437293291091919,
+            "timestamp_seconds": 15.81278911564626
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1431,
+            "observation_index": 31,
+            "phase_residue_frames": {
+              "132": 111,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 2.722752094268799,
+            "timestamp_seconds": 16.61387755102041
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1462,
+            "observation_index": 32,
+            "phase_residue_frames": {
+              "132": 10,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 4.03598690032959,
+            "timestamp_seconds": 16.973786848072564
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1528,
+            "observation_index": 33,
+            "phase_residue_frames": {
+              "132": 76,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 2.5558269023895264,
+            "timestamp_seconds": 17.740045351473924
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1561,
+            "observation_index": 34,
+            "phase_residue_frames": {
+              "132": 109,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 5.583674430847168,
+            "timestamp_seconds": 18.123174603174604
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1594,
+            "observation_index": 35,
+            "phase_residue_frames": {
+              "132": 10,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 2.585740804672241,
+            "timestamp_seconds": 18.506303854875284
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1627,
+            "observation_index": 36,
+            "phase_residue_frames": {
+              "132": 43,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 3.5389654636383057,
+            "timestamp_seconds": 18.889433106575964
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1660,
+            "observation_index": 37,
+            "phase_residue_frames": {
+              "132": 76,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 3.0869903564453125,
+            "timestamp_seconds": 19.272562358276645
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1696,
+            "observation_index": 38,
+            "phase_residue_frames": {
+              "132": 112,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 2.752772331237793,
+            "timestamp_seconds": 19.690521541950112
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1727,
+            "observation_index": 39,
+            "phase_residue_frames": {
+              "132": 11,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 2.8330323696136475,
+            "timestamp_seconds": 20.050430839002267
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1793,
+            "observation_index": 40,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 2.882315158843994,
+            "timestamp_seconds": 20.816689342403627
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1826,
+            "observation_index": 41,
+            "phase_residue_frames": {
+              "132": 110,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 6.833360195159912,
+            "timestamp_seconds": 21.199818594104308
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1860,
+            "observation_index": 42,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 3.579388380050659,
+            "timestamp_seconds": 21.59455782312925
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1892,
+            "observation_index": 43,
+            "phase_residue_frames": {
+              "132": 44,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 3.2482171058654785,
+            "timestamp_seconds": 21.966077097505668
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1925,
+            "observation_index": 44,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 3.5971851348876953,
+            "timestamp_seconds": 22.349206349206348
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1961,
+            "observation_index": 45,
+            "phase_residue_frames": {
+              "132": 113,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 2.860032796859741,
+            "timestamp_seconds": 22.76716553287982
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1992,
+            "observation_index": 46,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 4.057825088500977,
+            "timestamp_seconds": 23.127074829931974
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2025,
+            "observation_index": 47,
+            "phase_residue_frames": {
+              "132": 45,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 4.3742828369140625,
+            "timestamp_seconds": 23.510204081632654
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2090,
+            "observation_index": 48,
+            "phase_residue_frames": {
+              "132": 110,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 5.435153961181641,
+            "timestamp_seconds": 24.264852607709752
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2124,
+            "observation_index": 49,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 11.455647468566895,
+            "timestamp_seconds": 24.659591836734695
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2145,
+            "observation_index": 50,
+            "phase_residue_frames": {
+              "132": 33,
+              "33": 0,
+              "66": 33
+            },
+            "strength": 2.1241490840911865,
+            "timestamp_seconds": 24.90340136054422
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2157,
+            "observation_index": 51,
+            "phase_residue_frames": {
+              "132": 45,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 4.389740467071533,
+            "timestamp_seconds": 25.042721088435375
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2226,
+            "observation_index": 52,
+            "phase_residue_frames": {
+              "132": 114,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 2.461905002593994,
+            "timestamp_seconds": 25.843809523809522
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2257,
+            "observation_index": 53,
+            "phase_residue_frames": {
+              "132": 13,
+              "33": 13,
+              "66": 13
+            },
+            "strength": 5.812104225158691,
+            "timestamp_seconds": 26.203718820861678
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2323,
+            "observation_index": 54,
+            "phase_residue_frames": {
+              "132": 79,
+              "33": 13,
+              "66": 13
+            },
+            "strength": 2.2770910263061523,
+            "timestamp_seconds": 26.969977324263038
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2356,
+            "observation_index": 55,
+            "phase_residue_frames": {
+              "132": 112,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 5.388602256774902,
+            "timestamp_seconds": 27.353106575963718
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2389,
+            "observation_index": 56,
+            "phase_residue_frames": {
+              "132": 13,
+              "33": 13,
+              "66": 13
+            },
+            "strength": 2.3074464797973633,
+            "timestamp_seconds": 27.736235827664398
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2406,
+            "observation_index": 57,
+            "phase_residue_frames": {
+              "132": 30,
+              "33": 30,
+              "66": 30
+            },
+            "strength": 2.385927677154541,
+            "timestamp_seconds": 27.93360544217687
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2422,
+            "observation_index": 58,
+            "phase_residue_frames": {
+              "132": 46,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 4.3372650146484375,
+            "timestamp_seconds": 28.11936507936508
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2456,
+            "observation_index": 59,
+            "phase_residue_frames": {
+              "132": 80,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 2.4739208221435547,
+            "timestamp_seconds": 28.514104308390024
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2491,
+            "observation_index": 60,
+            "phase_residue_frames": {
+              "132": 115,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 3.0080161094665527,
+            "timestamp_seconds": 28.92045351473923
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2522,
+            "observation_index": 61,
+            "phase_residue_frames": {
+              "132": 14,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 4.696599960327148,
+            "timestamp_seconds": 29.280362811791385
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2588,
+            "observation_index": 62,
+            "phase_residue_frames": {
+              "132": 80,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 2.492831230163574,
+            "timestamp_seconds": 30.046621315192745
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2621,
+            "observation_index": 63,
+            "phase_residue_frames": {
+              "132": 113,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 4.279176235198975,
+            "timestamp_seconds": 30.429750566893425
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2655,
+            "observation_index": 64,
+            "phase_residue_frames": {
+              "132": 15,
+              "33": 15,
+              "66": 15
+            },
+            "strength": 4.075174331665039,
+            "timestamp_seconds": 30.824489795918367
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2687,
+            "observation_index": 65,
+            "phase_residue_frames": {
+              "132": 47,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 4.208893299102783,
+            "timestamp_seconds": 31.196009070294785
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2720,
+            "observation_index": 66,
+            "phase_residue_frames": {
+              "132": 80,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 2.3923285007476807,
+            "timestamp_seconds": 31.579138321995465
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2756,
+            "observation_index": 67,
+            "phase_residue_frames": {
+              "132": 116,
+              "33": 17,
+              "66": 50
+            },
+            "strength": 2.0183167457580566,
+            "timestamp_seconds": 31.997097505668933
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2787,
+            "observation_index": 68,
+            "phase_residue_frames": {
+              "132": 15,
+              "33": 15,
+              "66": 15
+            },
+            "strength": 3.437957763671875,
+            "timestamp_seconds": 32.35700680272109
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2886,
+            "observation_index": 69,
+            "phase_residue_frames": {
+              "132": 114,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 2.4954893589019775,
+            "timestamp_seconds": 33.50639455782313
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2952,
+            "observation_index": 70,
+            "phase_residue_frames": {
+              "132": 48,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 4.208249568939209,
+            "timestamp_seconds": 34.27265306122449
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2986,
+            "observation_index": 71,
+            "phase_residue_frames": {
+              "132": 82,
+              "33": 16,
+              "66": 16
+            },
+            "strength": 4.014450550079346,
+            "timestamp_seconds": 34.66739229024943
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3021,
+            "observation_index": 72,
+            "phase_residue_frames": {
+              "132": 117,
+              "33": 18,
+              "66": 51
+            },
+            "strength": 1.9854470491409302,
+            "timestamp_seconds": 35.073741496598636
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3055,
+            "observation_index": 73,
+            "phase_residue_frames": {
+              "132": 19,
+              "33": 19,
+              "66": 19
+            },
+            "strength": 1.9941097497940063,
+            "timestamp_seconds": 35.468480725623586
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3085,
+            "observation_index": 74,
+            "phase_residue_frames": {
+              "132": 49,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 1.871424913406372,
+            "timestamp_seconds": 35.81678004535147
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3151,
+            "observation_index": 75,
+            "phase_residue_frames": {
+              "132": 115,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 4.402731895446777,
+            "timestamp_seconds": 36.58303854875283
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3184,
+            "observation_index": 76,
+            "phase_residue_frames": {
+              "132": 16,
+              "33": 16,
+              "66": 16
+            },
+            "strength": 10.924467086791992,
+            "timestamp_seconds": 36.96616780045351
+          }
+        ],
+        "sample_rate_hz": 44100,
+        "source": "full_mix",
+        "temporal_scope_seconds": [
+          0.0,
+          42.24
+        ]
+      },
+      {
+        "asset_path": "recordings/validation/stems/double_bass.wav",
+        "asset_sha256": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
+        "candidate_hierarchy_occurrence_counts": {
+          "132": 2,
+          "33": 8,
+          "66": 0
+        },
+        "frame_length_samples": 512,
+        "pulse_candidate_count": 27,
+        "pulse_candidates": [
+          {
+            "confidence": 1.0,
+            "frame": 3,
+            "observation_index": 0,
+            "phase_residue_frames": {
+              "132": 3,
+              "33": 3,
+              "66": 3
+            },
+            "strength": 2.22605037689209,
+            "timestamp_seconds": 0.034829931972789115
+          },
+          {
+            "confidence": 1.0,
+            "frame": 35,
+            "observation_index": 1,
+            "phase_residue_frames": {
+              "132": 35,
+              "33": 2,
+              "66": 35
+            },
+            "strength": 14.018383026123047,
+            "timestamp_seconds": 0.40634920634920635
+          },
+          {
+            "confidence": 1.0,
+            "frame": 300,
+            "observation_index": 2,
+            "phase_residue_frames": {
+              "132": 36,
+              "33": 3,
+              "66": 36
+            },
+            "strength": 19.053037643432617,
+            "timestamp_seconds": 3.4829931972789114
+          },
+          {
+            "confidence": 1.0,
+            "frame": 532,
+            "observation_index": 3,
+            "phase_residue_frames": {
+              "132": 4,
+              "33": 4,
+              "66": 4
+            },
+            "strength": 11.074310302734375,
+            "timestamp_seconds": 6.176507936507937
+          },
+          {
+            "confidence": 1.0,
+            "frame": 565,
+            "observation_index": 4,
+            "phase_residue_frames": {
+              "132": 37,
+              "33": 4,
+              "66": 37
+            },
+            "strength": 14.763175010681152,
+            "timestamp_seconds": 6.559637188208617
+          },
+          {
+            "confidence": 1.0,
+            "frame": 830,
+            "observation_index": 5,
+            "phase_residue_frames": {
+              "132": 38,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 19.169937133789062,
+            "timestamp_seconds": 9.636281179138322
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1062,
+            "observation_index": 6,
+            "phase_residue_frames": {
+              "132": 6,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 16.277292251586914,
+            "timestamp_seconds": 12.329795918367347
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1095,
+            "observation_index": 7,
+            "phase_residue_frames": {
+              "132": 39,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 6.01835823059082,
+            "timestamp_seconds": 12.712925170068027
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1327,
+            "observation_index": 8,
+            "phase_residue_frames": {
+              "132": 7,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 16.41921043395996,
+            "timestamp_seconds": 15.406439909297053
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1360,
+            "observation_index": 9,
+            "phase_residue_frames": {
+              "132": 40,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 5.048521518707275,
+            "timestamp_seconds": 15.789569160997733
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1592,
+            "observation_index": 10,
+            "phase_residue_frames": {
+              "132": 8,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 9.607486724853516,
+            "timestamp_seconds": 18.483083900226756
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1625,
+            "observation_index": 11,
+            "phase_residue_frames": {
+              "132": 41,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 7.128046989440918,
+            "timestamp_seconds": 18.866213151927436
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1857,
+            "observation_index": 12,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 9.036453247070312,
+            "timestamp_seconds": 21.559727891156463
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1890,
+            "observation_index": 13,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 13.181174278259277,
+            "timestamp_seconds": 21.942857142857143
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2022,
+            "observation_index": 14,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 11.576824188232422,
+            "timestamp_seconds": 23.475374149659864
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2094,
+            "observation_index": 15,
+            "phase_residue_frames": {
+              "132": 114,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 12.136549949645996,
+            "timestamp_seconds": 24.3112925170068
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2155,
+            "observation_index": 16,
+            "phase_residue_frames": {
+              "132": 43,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 14.247533798217773,
+            "timestamp_seconds": 25.019501133786846
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2320,
+            "observation_index": 17,
+            "phase_residue_frames": {
+              "132": 76,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 4.121875762939453,
+            "timestamp_seconds": 26.93514739229025
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2354,
+            "observation_index": 18,
+            "phase_residue_frames": {
+              "132": 110,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 7.70858097076416,
+            "timestamp_seconds": 27.329886621315193
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2387,
+            "observation_index": 19,
+            "phase_residue_frames": {
+              "132": 11,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 10.526153564453125,
+            "timestamp_seconds": 27.713015873015873
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2420,
+            "observation_index": 20,
+            "phase_residue_frames": {
+              "132": 44,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 7.805811882019043,
+            "timestamp_seconds": 28.096145124716553
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2520,
+            "observation_index": 21,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 17.10218620300293,
+            "timestamp_seconds": 29.257142857142856
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2652,
+            "observation_index": 22,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 14.077225685119629,
+            "timestamp_seconds": 30.789659863945577
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2685,
+            "observation_index": 23,
+            "phase_residue_frames": {
+              "132": 45,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 2.9904067516326904,
+            "timestamp_seconds": 31.172789115646257
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2884,
+            "observation_index": 24,
+            "phase_residue_frames": {
+              "132": 112,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 9.719155311584473,
+            "timestamp_seconds": 33.483174603174604
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2950,
+            "observation_index": 25,
+            "phase_residue_frames": {
+              "132": 46,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 13.606762886047363,
+            "timestamp_seconds": 34.249433106575964
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3182,
+            "observation_index": 26,
+            "phase_residue_frames": {
+              "132": 14,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 12.645503044128418,
+            "timestamp_seconds": 36.94294784580499
+          }
+        ],
+        "sample_rate_hz": 44100,
+        "source": "double_bass",
+        "temporal_scope_seconds": [
+          0.0,
+          42.30675736961451
+        ]
+      },
+      {
+        "asset_path": "recordings/validation/stems/drums.wav",
+        "asset_sha256": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+        "candidate_hierarchy_occurrence_counts": {
+          "132": 0,
+          "33": 19,
+          "66": 15
+        },
+        "frame_length_samples": 512,
+        "pulse_candidate_count": 63,
+        "pulse_candidates": [
+          {
+            "confidence": 1.0,
+            "frame": 37,
+            "observation_index": 0,
+            "phase_residue_frames": {
+              "132": 37,
+              "33": 4,
+              "66": 37
+            },
+            "strength": 7.308899402618408,
+            "timestamp_seconds": 0.4295691609977324
+          },
+          {
+            "confidence": 1.0,
+            "frame": 104,
+            "observation_index": 1,
+            "phase_residue_frames": {
+              "132": 104,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 10.970926284790039,
+            "timestamp_seconds": 1.207437641723356
+          },
+          {
+            "confidence": 1.0,
+            "frame": 137,
+            "observation_index": 2,
+            "phase_residue_frames": {
+              "132": 5,
+              "33": 5,
+              "66": 5
+            },
+            "strength": 7.753572940826416,
+            "timestamp_seconds": 1.5905668934240362
+          },
+          {
+            "confidence": 1.0,
+            "frame": 236,
+            "observation_index": 3,
+            "phase_residue_frames": {
+              "132": 104,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 10.118642807006836,
+            "timestamp_seconds": 2.7399546485260773
+          },
+          {
+            "confidence": 1.0,
+            "frame": 302,
+            "observation_index": 4,
+            "phase_residue_frames": {
+              "132": 38,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 6.616000652313232,
+            "timestamp_seconds": 3.5062131519274375
+          },
+          {
+            "confidence": 1.0,
+            "frame": 368,
+            "observation_index": 5,
+            "phase_residue_frames": {
+              "132": 104,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 2.742086410522461,
+            "timestamp_seconds": 4.272471655328798
+          },
+          {
+            "confidence": 1.0,
+            "frame": 402,
+            "observation_index": 6,
+            "phase_residue_frames": {
+              "132": 6,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 7.90908145904541,
+            "timestamp_seconds": 4.667210884353741
+          },
+          {
+            "confidence": 1.0,
+            "frame": 468,
+            "observation_index": 7,
+            "phase_residue_frames": {
+              "132": 72,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 7.779242515563965,
+            "timestamp_seconds": 5.433469387755102
+          },
+          {
+            "confidence": 1.0,
+            "frame": 501,
+            "observation_index": 8,
+            "phase_residue_frames": {
+              "132": 105,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 9.056015968322754,
+            "timestamp_seconds": 5.8165986394557825
+          },
+          {
+            "confidence": 1.0,
+            "frame": 633,
+            "observation_index": 9,
+            "phase_residue_frames": {
+              "132": 105,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 2.9192628860473633,
+            "timestamp_seconds": 7.349115646258503
+          },
+          {
+            "confidence": 1.0,
+            "frame": 666,
+            "observation_index": 10,
+            "phase_residue_frames": {
+              "132": 6,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 2.5612235069274902,
+            "timestamp_seconds": 7.732244897959184
+          },
+          {
+            "confidence": 1.0,
+            "frame": 766,
+            "observation_index": 11,
+            "phase_residue_frames": {
+              "132": 106,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 9.207874298095703,
+            "timestamp_seconds": 8.893242630385487
+          },
+          {
+            "confidence": 1.0,
+            "frame": 832,
+            "observation_index": 12,
+            "phase_residue_frames": {
+              "132": 40,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 6.78436279296875,
+            "timestamp_seconds": 9.659501133786849
+          },
+          {
+            "confidence": 1.0,
+            "frame": 899,
+            "observation_index": 13,
+            "phase_residue_frames": {
+              "132": 107,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 11.720101356506348,
+            "timestamp_seconds": 10.437369614512471
+          },
+          {
+            "confidence": 1.0,
+            "frame": 932,
+            "observation_index": 14,
+            "phase_residue_frames": {
+              "132": 8,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 8.187986373901367,
+            "timestamp_seconds": 10.820498866213152
+          },
+          {
+            "confidence": 1.0,
+            "frame": 998,
+            "observation_index": 15,
+            "phase_residue_frames": {
+              "132": 74,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 7.514431953430176,
+            "timestamp_seconds": 11.586757369614512
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1031,
+            "observation_index": 16,
+            "phase_residue_frames": {
+              "132": 107,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 7.996313571929932,
+            "timestamp_seconds": 11.969886621315192
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1094,
+            "observation_index": 17,
+            "phase_residue_frames": {
+              "132": 38,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 5.995666027069092,
+            "timestamp_seconds": 12.701315192743763
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1164,
+            "observation_index": 18,
+            "phase_residue_frames": {
+              "132": 108,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 12.728561401367188,
+            "timestamp_seconds": 13.514013605442177
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1194,
+            "observation_index": 19,
+            "phase_residue_frames": {
+              "132": 6,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 16.56793975830078,
+            "timestamp_seconds": 13.862312925170068
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1260,
+            "observation_index": 20,
+            "phase_residue_frames": {
+              "132": 72,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 8.885088920593262,
+            "timestamp_seconds": 14.628571428571428
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1293,
+            "observation_index": 21,
+            "phase_residue_frames": {
+              "132": 105,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 16.785486221313477,
+            "timestamp_seconds": 15.011700680272108
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1359,
+            "observation_index": 22,
+            "phase_residue_frames": {
+              "132": 39,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 8.569080352783203,
+            "timestamp_seconds": 15.777959183673469
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1429,
+            "observation_index": 23,
+            "phase_residue_frames": {
+              "132": 109,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 11.107841491699219,
+            "timestamp_seconds": 16.590657596371884
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1458,
+            "observation_index": 24,
+            "phase_residue_frames": {
+              "132": 6,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 4.162052154541016,
+            "timestamp_seconds": 16.92734693877551
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1525,
+            "observation_index": 25,
+            "phase_residue_frames": {
+              "132": 73,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 8.23598575592041,
+            "timestamp_seconds": 17.705215419501133
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1558,
+            "observation_index": 26,
+            "phase_residue_frames": {
+              "132": 106,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 16.295320510864258,
+            "timestamp_seconds": 18.088344671201813
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1624,
+            "observation_index": 27,
+            "phase_residue_frames": {
+              "132": 40,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 7.560239315032959,
+            "timestamp_seconds": 18.854603174603174
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1657,
+            "observation_index": 28,
+            "phase_residue_frames": {
+              "132": 73,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 3.3738784790039062,
+            "timestamp_seconds": 19.237732426303854
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1694,
+            "observation_index": 29,
+            "phase_residue_frames": {
+              "132": 110,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 10.183510780334473,
+            "timestamp_seconds": 19.667301587301587
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1724,
+            "observation_index": 30,
+            "phase_residue_frames": {
+              "132": 8,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 10.278707504272461,
+            "timestamp_seconds": 20.01560090702948
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1790,
+            "observation_index": 31,
+            "phase_residue_frames": {
+              "132": 74,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 8.377656936645508,
+            "timestamp_seconds": 20.78185941043084
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1823,
+            "observation_index": 32,
+            "phase_residue_frames": {
+              "132": 107,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 11.05053997039795,
+            "timestamp_seconds": 21.16498866213152
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1889,
+            "observation_index": 33,
+            "phase_residue_frames": {
+              "132": 41,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 3.779994010925293,
+            "timestamp_seconds": 21.93124716553288
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1922,
+            "observation_index": 34,
+            "phase_residue_frames": {
+              "132": 74,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 3.5767784118652344,
+            "timestamp_seconds": 22.31437641723356
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1959,
+            "observation_index": 35,
+            "phase_residue_frames": {
+              "132": 111,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 10.186138153076172,
+            "timestamp_seconds": 22.743945578231294
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1989,
+            "observation_index": 36,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 10.59616470336914,
+            "timestamp_seconds": 23.092244897959183
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2022,
+            "observation_index": 37,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 8.631402015686035,
+            "timestamp_seconds": 23.475374149659864
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2088,
+            "observation_index": 38,
+            "phase_residue_frames": {
+              "132": 108,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 16.646671295166016,
+            "timestamp_seconds": 24.241632653061224
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2121,
+            "observation_index": 39,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 7.557652950286865,
+            "timestamp_seconds": 24.624761904761904
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2154,
+            "observation_index": 40,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 3.238544225692749,
+            "timestamp_seconds": 25.007891156462584
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2224,
+            "observation_index": 41,
+            "phase_residue_frames": {
+              "132": 112,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 6.548889636993408,
+            "timestamp_seconds": 25.820589569160997
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2254,
+            "observation_index": 42,
+            "phase_residue_frames": {
+              "132": 10,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 11.359067916870117,
+            "timestamp_seconds": 26.16888888888889
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2320,
+            "observation_index": 43,
+            "phase_residue_frames": {
+              "132": 76,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 5.846974849700928,
+            "timestamp_seconds": 26.93514739229025
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2353,
+            "observation_index": 44,
+            "phase_residue_frames": {
+              "132": 109,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 13.451519966125488,
+            "timestamp_seconds": 27.31827664399093
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2420,
+            "observation_index": 45,
+            "phase_residue_frames": {
+              "132": 44,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 12.094964981079102,
+            "timestamp_seconds": 28.096145124716553
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2489,
+            "observation_index": 46,
+            "phase_residue_frames": {
+              "132": 113,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 11.234682083129883,
+            "timestamp_seconds": 28.897233560090704
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2519,
+            "observation_index": 47,
+            "phase_residue_frames": {
+              "132": 11,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 20.342683792114258,
+            "timestamp_seconds": 29.245532879818594
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2585,
+            "observation_index": 48,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 7.082009315490723,
+            "timestamp_seconds": 30.011791383219954
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2618,
+            "observation_index": 49,
+            "phase_residue_frames": {
+              "132": 110,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 14.073233604431152,
+            "timestamp_seconds": 30.394920634920634
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2685,
+            "observation_index": 50,
+            "phase_residue_frames": {
+              "132": 45,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 12.1950044631958,
+            "timestamp_seconds": 31.172789115646257
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2718,
+            "observation_index": 51,
+            "phase_residue_frames": {
+              "132": 78,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 13.262733459472656,
+            "timestamp_seconds": 31.555918367346937
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2754,
+            "observation_index": 52,
+            "phase_residue_frames": {
+              "132": 114,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 10.082388877868652,
+            "timestamp_seconds": 31.973877551020408
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2784,
+            "observation_index": 53,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 9.826684951782227,
+            "timestamp_seconds": 32.3221768707483
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2850,
+            "observation_index": 54,
+            "phase_residue_frames": {
+              "132": 78,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 7.585390567779541,
+            "timestamp_seconds": 33.08843537414966
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2883,
+            "observation_index": 55,
+            "phase_residue_frames": {
+              "132": 111,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 13.198392868041992,
+            "timestamp_seconds": 33.47156462585034
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2950,
+            "observation_index": 56,
+            "phase_residue_frames": {
+              "132": 46,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 12.280399322509766,
+            "timestamp_seconds": 34.249433106575964
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2982,
+            "observation_index": 57,
+            "phase_residue_frames": {
+              "132": 78,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 3.877088785171509,
+            "timestamp_seconds": 34.62095238095238
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3019,
+            "observation_index": 58,
+            "phase_residue_frames": {
+              "132": 115,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 8.662038803100586,
+            "timestamp_seconds": 35.05052154195011
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3049,
+            "observation_index": 59,
+            "phase_residue_frames": {
+              "132": 13,
+              "33": 13,
+              "66": 13
+            },
+            "strength": 9.473258972167969,
+            "timestamp_seconds": 35.398820861678004
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3082,
+            "observation_index": 60,
+            "phase_residue_frames": {
+              "132": 46,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 12.018484115600586,
+            "timestamp_seconds": 35.781950113378684
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3148,
+            "observation_index": 61,
+            "phase_residue_frames": {
+              "132": 112,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 13.316054344177246,
+            "timestamp_seconds": 36.548208616780045
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3181,
+            "observation_index": 62,
+            "phase_residue_frames": {
+              "132": 13,
+              "33": 13,
+              "66": 13
+            },
+            "strength": 5.165666103363037,
+            "timestamp_seconds": 36.931337868480725
+          }
+        ],
+        "sample_rate_hz": 44100,
+        "source": "drums",
+        "temporal_scope_seconds": [
+          0.0,
+          42.30675736961451
+        ]
+      },
+      {
+        "asset_path": "recordings/validation/stems/piano.wav",
+        "asset_sha256": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e",
+        "candidate_hierarchy_occurrence_counts": {
+          "132": 3,
+          "33": 13,
+          "66": 3
+        },
+        "frame_length_samples": 512,
+        "pulse_candidate_count": 49,
+        "pulse_candidates": [
+          {
+            "confidence": 1.0,
+            "frame": 34,
+            "observation_index": 0,
+            "phase_residue_frames": {
+              "132": 34,
+              "33": 1,
+              "66": 34
+            },
+            "strength": 5.573205947875977,
+            "timestamp_seconds": 0.3947392290249433
+          },
+          {
+            "confidence": 1.0,
+            "frame": 69,
+            "observation_index": 1,
+            "phase_residue_frames": {
+              "132": 69,
+              "33": 3,
+              "66": 3
+            },
+            "strength": 1.7840728759765625,
+            "timestamp_seconds": 0.8010884353741496
+          },
+          {
+            "confidence": 1.0,
+            "frame": 101,
+            "observation_index": 2,
+            "phase_residue_frames": {
+              "132": 101,
+              "33": 2,
+              "66": 35
+            },
+            "strength": 2.0995724201202393,
+            "timestamp_seconds": 1.172607709750567
+          },
+          {
+            "confidence": 1.0,
+            "frame": 134,
+            "observation_index": 3,
+            "phase_residue_frames": {
+              "132": 2,
+              "33": 2,
+              "66": 2
+            },
+            "strength": 1.708866834640503,
+            "timestamp_seconds": 1.555736961451247
+          },
+          {
+            "confidence": 1.0,
+            "frame": 300,
+            "observation_index": 4,
+            "phase_residue_frames": {
+              "132": 36,
+              "33": 3,
+              "66": 36
+            },
+            "strength": 8.747578620910645,
+            "timestamp_seconds": 3.4829931972789114
+          },
+          {
+            "confidence": 1.0,
+            "frame": 334,
+            "observation_index": 5,
+            "phase_residue_frames": {
+              "132": 70,
+              "33": 4,
+              "66": 4
+            },
+            "strength": 1.9524633884429932,
+            "timestamp_seconds": 3.877732426303855
+          },
+          {
+            "confidence": 1.0,
+            "frame": 399,
+            "observation_index": 6,
+            "phase_residue_frames": {
+              "132": 3,
+              "33": 3,
+              "66": 3
+            },
+            "strength": 3.2679316997528076,
+            "timestamp_seconds": 4.632380952380952
+          },
+          {
+            "confidence": 1.0,
+            "frame": 465,
+            "observation_index": 7,
+            "phase_residue_frames": {
+              "132": 69,
+              "33": 3,
+              "66": 3
+            },
+            "strength": 4.756139755249023,
+            "timestamp_seconds": 5.3986394557823125
+          },
+          {
+            "confidence": 1.0,
+            "frame": 565,
+            "observation_index": 8,
+            "phase_residue_frames": {
+              "132": 37,
+              "33": 4,
+              "66": 37
+            },
+            "strength": 7.6543121337890625,
+            "timestamp_seconds": 6.559637188208617
+          },
+          {
+            "confidence": 1.0,
+            "frame": 599,
+            "observation_index": 9,
+            "phase_residue_frames": {
+              "132": 71,
+              "33": 5,
+              "66": 5
+            },
+            "strength": 1.758992075920105,
+            "timestamp_seconds": 6.9543764172335605
+          },
+          {
+            "confidence": 1.0,
+            "frame": 631,
+            "observation_index": 10,
+            "phase_residue_frames": {
+              "132": 103,
+              "33": 4,
+              "66": 37
+            },
+            "strength": 2.1325719356536865,
+            "timestamp_seconds": 7.325895691609977
+          },
+          {
+            "confidence": 1.0,
+            "frame": 665,
+            "observation_index": 11,
+            "phase_residue_frames": {
+              "132": 5,
+              "33": 5,
+              "66": 5
+            },
+            "strength": 2.635390043258667,
+            "timestamp_seconds": 7.720634920634921
+          },
+          {
+            "confidence": 1.0,
+            "frame": 830,
+            "observation_index": 12,
+            "phase_residue_frames": {
+              "132": 38,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 8.808084487915039,
+            "timestamp_seconds": 9.636281179138322
+          },
+          {
+            "confidence": 1.0,
+            "frame": 864,
+            "observation_index": 13,
+            "phase_residue_frames": {
+              "132": 72,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 1.952531337738037,
+            "timestamp_seconds": 10.031020408163265
+          },
+          {
+            "confidence": 1.0,
+            "frame": 929,
+            "observation_index": 14,
+            "phase_residue_frames": {
+              "132": 5,
+              "33": 5,
+              "66": 5
+            },
+            "strength": 2.902841567993164,
+            "timestamp_seconds": 10.785668934240363
+          },
+          {
+            "confidence": 1.0,
+            "frame": 995,
+            "observation_index": 15,
+            "phase_residue_frames": {
+              "132": 71,
+              "33": 5,
+              "66": 5
+            },
+            "strength": 4.817465782165527,
+            "timestamp_seconds": 11.551927437641723
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1095,
+            "observation_index": 16,
+            "phase_residue_frames": {
+              "132": 39,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 7.65704870223999,
+            "timestamp_seconds": 12.712925170068027
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1129,
+            "observation_index": 17,
+            "phase_residue_frames": {
+              "132": 73,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 1.9449961185455322,
+            "timestamp_seconds": 13.10766439909297
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1161,
+            "observation_index": 18,
+            "phase_residue_frames": {
+              "132": 105,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 2.0520753860473633,
+            "timestamp_seconds": 13.479183673469388
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1195,
+            "observation_index": 19,
+            "phase_residue_frames": {
+              "132": 7,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 2.6025538444519043,
+            "timestamp_seconds": 13.87392290249433
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1360,
+            "observation_index": 20,
+            "phase_residue_frames": {
+              "132": 40,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 8.8287992477417,
+            "timestamp_seconds": 15.789569160997733
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1394,
+            "observation_index": 21,
+            "phase_residue_frames": {
+              "132": 74,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 1.9044255018234253,
+            "timestamp_seconds": 16.184308390022675
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1459,
+            "observation_index": 22,
+            "phase_residue_frames": {
+              "132": 7,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 3.0433125495910645,
+            "timestamp_seconds": 16.938956916099773
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1591,
+            "observation_index": 23,
+            "phase_residue_frames": {
+              "132": 7,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 3.314919948577881,
+            "timestamp_seconds": 18.471473922902494
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1624,
+            "observation_index": 24,
+            "phase_residue_frames": {
+              "132": 40,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 2.5798070430755615,
+            "timestamp_seconds": 18.854603174603174
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1658,
+            "observation_index": 25,
+            "phase_residue_frames": {
+              "132": 74,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 1.5182048082351685,
+            "timestamp_seconds": 19.249342403628116
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1692,
+            "observation_index": 26,
+            "phase_residue_frames": {
+              "132": 108,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 2.2683238983154297,
+            "timestamp_seconds": 19.644081632653062
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1724,
+            "observation_index": 27,
+            "phase_residue_frames": {
+              "132": 8,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 2.147707462310791,
+            "timestamp_seconds": 20.01560090702948
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1890,
+            "observation_index": 28,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 7.922910690307617,
+            "timestamp_seconds": 21.942857142857143
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1923,
+            "observation_index": 29,
+            "phase_residue_frames": {
+              "132": 75,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 2.114832878112793,
+            "timestamp_seconds": 22.325986394557823
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1989,
+            "observation_index": 30,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 3.55415415763855,
+            "timestamp_seconds": 23.092244897959183
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2121,
+            "observation_index": 31,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 6.217911243438721,
+            "timestamp_seconds": 24.624761904761904
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2138,
+            "observation_index": 32,
+            "phase_residue_frames": {
+              "132": 26,
+              "33": 26,
+              "66": 26
+            },
+            "strength": 3.590852737426758,
+            "timestamp_seconds": 24.822131519274375
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2155,
+            "observation_index": 33,
+            "phase_residue_frames": {
+              "132": 43,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 6.464303493499756,
+            "timestamp_seconds": 25.019501133786846
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2189,
+            "observation_index": 34,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 1.7165946960449219,
+            "timestamp_seconds": 25.414240362811793
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2254,
+            "observation_index": 35,
+            "phase_residue_frames": {
+              "132": 10,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 4.957608222961426,
+            "timestamp_seconds": 26.16888888888889
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2386,
+            "observation_index": 36,
+            "phase_residue_frames": {
+              "132": 10,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 2.120253801345825,
+            "timestamp_seconds": 27.70140589569161
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2403,
+            "observation_index": 37,
+            "phase_residue_frames": {
+              "132": 27,
+              "33": 27,
+              "66": 27
+            },
+            "strength": 2.389526605606079,
+            "timestamp_seconds": 27.898775510204082
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2420,
+            "observation_index": 38,
+            "phase_residue_frames": {
+              "132": 44,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 4.955904006958008,
+            "timestamp_seconds": 28.096145124716553
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2453,
+            "observation_index": 39,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 3.439823627471924,
+            "timestamp_seconds": 28.479274376417234
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2487,
+            "observation_index": 40,
+            "phase_residue_frames": {
+              "132": 111,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 2.0515856742858887,
+            "timestamp_seconds": 28.874013605442176
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2519,
+            "observation_index": 41,
+            "phase_residue_frames": {
+              "132": 11,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 1.6110801696777344,
+            "timestamp_seconds": 29.245532879818594
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2685,
+            "observation_index": 42,
+            "phase_residue_frames": {
+              "132": 45,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 8.115928649902344,
+            "timestamp_seconds": 31.172789115646257
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2719,
+            "observation_index": 43,
+            "phase_residue_frames": {
+              "132": 79,
+              "33": 13,
+              "66": 13
+            },
+            "strength": 2.5936431884765625,
+            "timestamp_seconds": 31.567528344671203
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2784,
+            "observation_index": 44,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 4.988348484039307,
+            "timestamp_seconds": 32.3221768707483
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2950,
+            "observation_index": 45,
+            "phase_residue_frames": {
+              "132": 46,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 10.37353229522705,
+            "timestamp_seconds": 34.249433106575964
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2984,
+            "observation_index": 46,
+            "phase_residue_frames": {
+              "132": 80,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 1.478629469871521,
+            "timestamp_seconds": 34.644172335600906
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3017,
+            "observation_index": 47,
+            "phase_residue_frames": {
+              "132": 113,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 2.438343048095703,
+            "timestamp_seconds": 35.02730158730159
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3050,
+            "observation_index": 48,
+            "phase_residue_frames": {
+              "132": 14,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 2.035409450531006,
+            "timestamp_seconds": 35.41043083900227
+          }
+        ],
+        "sample_rate_hz": 44100,
+        "source": "piano",
+        "temporal_scope_seconds": [
+          0.0,
+          42.30675736961451
+        ]
+      },
+      {
+        "asset_path": "recordings/validation/stems/tenor_sax.wav",
+        "asset_sha256": "89dd7e5c6063d3c4d5e4ac59c9119c265df4257dfb1b4a1e01b5f117ee87182e",
+        "candidate_hierarchy_occurrence_counts": {
+          "132": 0,
+          "33": 0,
+          "66": 0
+        },
+        "frame_length_samples": 512,
+        "pulse_candidate_count": 16,
+        "pulse_candidates": [
+          {
+            "confidence": 1.0,
+            "frame": 1095,
+            "observation_index": 0,
+            "phase_residue_frames": {
+              "132": 39,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 9.410208702087402,
+            "timestamp_seconds": 12.712925170068027
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1098,
+            "observation_index": 1,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 6.1518025398254395,
+            "timestamp_seconds": 12.747755102040816
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1197,
+            "observation_index": 2,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 1.9497394561767578,
+            "timestamp_seconds": 13.897142857142857
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1462,
+            "observation_index": 3,
+            "phase_residue_frames": {
+              "132": 10,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 2.221003770828247,
+            "timestamp_seconds": 16.973786848072564
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1595,
+            "observation_index": 4,
+            "phase_residue_frames": {
+              "132": 11,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 2.6124751567840576,
+            "timestamp_seconds": 18.517913832199547
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1626,
+            "observation_index": 5,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 1.8838887214660645,
+            "timestamp_seconds": 18.877823129251702
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2022,
+            "observation_index": 6,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 1.3611620664596558,
+            "timestamp_seconds": 23.475374149659864
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2122,
+            "observation_index": 7,
+            "phase_residue_frames": {
+              "132": 10,
+              "33": 10,
+              "66": 10
+            },
+            "strength": 8.761375427246094,
+            "timestamp_seconds": 24.636371882086166
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2141,
+            "observation_index": 8,
+            "phase_residue_frames": {
+              "132": 29,
+              "33": 29,
+              "66": 29
+            },
+            "strength": 3.3041179180145264,
+            "timestamp_seconds": 24.856961451247166
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2158,
+            "observation_index": 9,
+            "phase_residue_frames": {
+              "132": 46,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 2.480647325515747,
+            "timestamp_seconds": 25.054331065759637
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2420,
+            "observation_index": 10,
+            "phase_residue_frames": {
+              "132": 44,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 1.7409839630126953,
+            "timestamp_seconds": 28.096145124716553
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2423,
+            "observation_index": 11,
+            "phase_residue_frames": {
+              "132": 47,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 2.46337890625,
+            "timestamp_seconds": 28.130975056689344
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2654,
+            "observation_index": 12,
+            "phase_residue_frames": {
+              "132": 14,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 2.165418863296509,
+            "timestamp_seconds": 30.812879818594105
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2688,
+            "observation_index": 13,
+            "phase_residue_frames": {
+              "132": 48,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 2.3068368434906006,
+            "timestamp_seconds": 31.207619047619048
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2953,
+            "observation_index": 14,
+            "phase_residue_frames": {
+              "132": 49,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 4.788081645965576,
+            "timestamp_seconds": 34.28426303854875
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3149,
+            "observation_index": 15,
+            "phase_residue_frames": {
+              "132": 113,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 1.159303903579712,
+            "timestamp_seconds": 36.55981859410431
+          }
+        ],
+        "sample_rate_hz": 44100,
+        "source": "tenor_sax",
+        "temporal_scope_seconds": [
+          0.0,
+          42.30675736961451
+        ]
+      },
+      {
+        "asset_path": "recordings/validation/stems/voice.wav",
+        "asset_sha256": "0fa95a3eff06d1ab075caf2f388c17d536e614aca397647967805045521c655a",
+        "candidate_hierarchy_occurrence_counts": {
+          "132": 0,
+          "33": 0,
+          "66": 0
+        },
+        "frame_length_samples": 512,
+        "pulse_candidate_count": 150,
+        "pulse_candidates": [
+          {
+            "confidence": 1.0,
+            "frame": 1096,
+            "observation_index": 0,
+            "phase_residue_frames": {
+              "132": 40,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 1.9277441501617432,
+            "timestamp_seconds": 12.72453514739229
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1117,
+            "observation_index": 1,
+            "phase_residue_frames": {
+              "132": 61,
+              "33": 28,
+              "66": 61
+            },
+            "strength": 1.3388011455535889,
+            "timestamp_seconds": 12.968344671201814
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1134,
+            "observation_index": 2,
+            "phase_residue_frames": {
+              "132": 78,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 1.1963422298431396,
+            "timestamp_seconds": 13.165714285714285
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1149,
+            "observation_index": 3,
+            "phase_residue_frames": {
+              "132": 93,
+              "33": 27,
+              "66": 27
+            },
+            "strength": 1.1592772006988525,
+            "timestamp_seconds": 13.339863945578232
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1170,
+            "observation_index": 4,
+            "phase_residue_frames": {
+              "132": 114,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 1.1761245727539062,
+            "timestamp_seconds": 13.583673469387755
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1175,
+            "observation_index": 5,
+            "phase_residue_frames": {
+              "132": 119,
+              "33": 20,
+              "66": 53
+            },
+            "strength": 1.1595202684402466,
+            "timestamp_seconds": 13.64172335600907
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1188,
+            "observation_index": 6,
+            "phase_residue_frames": {
+              "132": 0,
+              "33": 0,
+              "66": 0
+            },
+            "strength": 1.184797763824463,
+            "timestamp_seconds": 13.79265306122449
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1194,
+            "observation_index": 7,
+            "phase_residue_frames": {
+              "132": 6,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 1.6851651668548584,
+            "timestamp_seconds": 13.862312925170068
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1200,
+            "observation_index": 8,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 1.4632517099380493,
+            "timestamp_seconds": 13.931972789115646
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1212,
+            "observation_index": 9,
+            "phase_residue_frames": {
+              "132": 24,
+              "33": 24,
+              "66": 24
+            },
+            "strength": 1.1282793283462524,
+            "timestamp_seconds": 14.071292517006803
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1216,
+            "observation_index": 10,
+            "phase_residue_frames": {
+              "132": 28,
+              "33": 28,
+              "66": 28
+            },
+            "strength": 1.0992801189422607,
+            "timestamp_seconds": 14.117732426303855
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1225,
+            "observation_index": 11,
+            "phase_residue_frames": {
+              "132": 37,
+              "33": 4,
+              "66": 37
+            },
+            "strength": 1.0879251956939697,
+            "timestamp_seconds": 14.222222222222221
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1275,
+            "observation_index": 12,
+            "phase_residue_frames": {
+              "132": 87,
+              "33": 21,
+              "66": 21
+            },
+            "strength": 1.1194751262664795,
+            "timestamp_seconds": 14.802721088435375
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1283,
+            "observation_index": 13,
+            "phase_residue_frames": {
+              "132": 95,
+              "33": 29,
+              "66": 29
+            },
+            "strength": 1.183732032775879,
+            "timestamp_seconds": 14.895600907029479
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1293,
+            "observation_index": 14,
+            "phase_residue_frames": {
+              "132": 105,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 1.0847327709197998,
+            "timestamp_seconds": 15.011700680272108
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1297,
+            "observation_index": 15,
+            "phase_residue_frames": {
+              "132": 109,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 1.1981613636016846,
+            "timestamp_seconds": 15.058140589569161
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1303,
+            "observation_index": 16,
+            "phase_residue_frames": {
+              "132": 115,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 1.233842134475708,
+            "timestamp_seconds": 15.12780045351474
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1314,
+            "observation_index": 17,
+            "phase_residue_frames": {
+              "132": 126,
+              "33": 27,
+              "66": 60
+            },
+            "strength": 1.0674347877502441,
+            "timestamp_seconds": 15.255510204081633
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1333,
+            "observation_index": 18,
+            "phase_residue_frames": {
+              "132": 13,
+              "33": 13,
+              "66": 13
+            },
+            "strength": 1.3228418827056885,
+            "timestamp_seconds": 15.47609977324263
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1338,
+            "observation_index": 19,
+            "phase_residue_frames": {
+              "132": 18,
+              "33": 18,
+              "66": 18
+            },
+            "strength": 1.2964260578155518,
+            "timestamp_seconds": 15.534149659863946
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1347,
+            "observation_index": 20,
+            "phase_residue_frames": {
+              "132": 27,
+              "33": 27,
+              "66": 27
+            },
+            "strength": 1.129896879196167,
+            "timestamp_seconds": 15.638639455782313
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1358,
+            "observation_index": 21,
+            "phase_residue_frames": {
+              "132": 38,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 1.3605830669403076,
+            "timestamp_seconds": 15.766349206349206
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1397,
+            "observation_index": 22,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 1.1175236701965332,
+            "timestamp_seconds": 16.219138321995466
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1408,
+            "observation_index": 23,
+            "phase_residue_frames": {
+              "132": 88,
+              "33": 22,
+              "66": 22
+            },
+            "strength": 1.1753120422363281,
+            "timestamp_seconds": 16.34684807256236
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1415,
+            "observation_index": 24,
+            "phase_residue_frames": {
+              "132": 95,
+              "33": 29,
+              "66": 29
+            },
+            "strength": 1.2623600959777832,
+            "timestamp_seconds": 16.4281179138322
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1426,
+            "observation_index": 25,
+            "phase_residue_frames": {
+              "132": 106,
+              "33": 7,
+              "66": 40
+            },
+            "strength": 1.1132800579071045,
+            "timestamp_seconds": 16.555827664399093
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1435,
+            "observation_index": 26,
+            "phase_residue_frames": {
+              "132": 115,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 1.1634182929992676,
+            "timestamp_seconds": 16.66031746031746
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1464,
+            "observation_index": 27,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 1.5123906135559082,
+            "timestamp_seconds": 16.99700680272109
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1486,
+            "observation_index": 28,
+            "phase_residue_frames": {
+              "132": 34,
+              "33": 1,
+              "66": 34
+            },
+            "strength": 1.1409168243408203,
+            "timestamp_seconds": 17.252426303854875
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1489,
+            "observation_index": 29,
+            "phase_residue_frames": {
+              "132": 37,
+              "33": 4,
+              "66": 37
+            },
+            "strength": 1.4221038818359375,
+            "timestamp_seconds": 17.287256235827666
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1499,
+            "observation_index": 30,
+            "phase_residue_frames": {
+              "132": 47,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 1.0936615467071533,
+            "timestamp_seconds": 17.403356009070293
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1521,
+            "observation_index": 31,
+            "phase_residue_frames": {
+              "132": 69,
+              "33": 3,
+              "66": 3
+            },
+            "strength": 1.253520131111145,
+            "timestamp_seconds": 17.65877551020408
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1541,
+            "observation_index": 32,
+            "phase_residue_frames": {
+              "132": 89,
+              "33": 23,
+              "66": 23
+            },
+            "strength": 1.160874843597412,
+            "timestamp_seconds": 17.890975056689342
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1553,
+            "observation_index": 33,
+            "phase_residue_frames": {
+              "132": 101,
+              "33": 2,
+              "66": 35
+            },
+            "strength": 1.0707948207855225,
+            "timestamp_seconds": 18.030294784580498
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1557,
+            "observation_index": 34,
+            "phase_residue_frames": {
+              "132": 105,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 1.100795030593872,
+            "timestamp_seconds": 18.07673469387755
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1573,
+            "observation_index": 35,
+            "phase_residue_frames": {
+              "132": 121,
+              "33": 22,
+              "66": 55
+            },
+            "strength": 1.1108577251434326,
+            "timestamp_seconds": 18.26249433106576
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1596,
+            "observation_index": 36,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 1.3543336391448975,
+            "timestamp_seconds": 18.52952380952381
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1604,
+            "observation_index": 37,
+            "phase_residue_frames": {
+              "132": 20,
+              "33": 20,
+              "66": 20
+            },
+            "strength": 1.427781581878662,
+            "timestamp_seconds": 18.622403628117915
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1620,
+            "observation_index": 38,
+            "phase_residue_frames": {
+              "132": 36,
+              "33": 3,
+              "66": 36
+            },
+            "strength": 1.0706744194030762,
+            "timestamp_seconds": 18.808163265306124
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1629,
+            "observation_index": 39,
+            "phase_residue_frames": {
+              "132": 45,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 1.4760770797729492,
+            "timestamp_seconds": 18.91265306122449
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1661,
+            "observation_index": 40,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 1.2266719341278076,
+            "timestamp_seconds": 19.284172335600907
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1665,
+            "observation_index": 41,
+            "phase_residue_frames": {
+              "132": 81,
+              "33": 15,
+              "66": 15
+            },
+            "strength": 1.223314881324768,
+            "timestamp_seconds": 19.33061224489796
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1671,
+            "observation_index": 42,
+            "phase_residue_frames": {
+              "132": 87,
+              "33": 21,
+              "66": 21
+            },
+            "strength": 1.2102954387664795,
+            "timestamp_seconds": 19.400272108843538
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1674,
+            "observation_index": 43,
+            "phase_residue_frames": {
+              "132": 90,
+              "33": 24,
+              "66": 24
+            },
+            "strength": 1.1910582780838013,
+            "timestamp_seconds": 19.435102040816325
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1677,
+            "observation_index": 44,
+            "phase_residue_frames": {
+              "132": 93,
+              "33": 27,
+              "66": 27
+            },
+            "strength": 1.242931604385376,
+            "timestamp_seconds": 19.469931972789116
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1694,
+            "observation_index": 45,
+            "phase_residue_frames": {
+              "132": 110,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 1.352235198020935,
+            "timestamp_seconds": 19.667301587301587
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1708,
+            "observation_index": 46,
+            "phase_residue_frames": {
+              "132": 124,
+              "33": 25,
+              "66": 58
+            },
+            "strength": 1.3863067626953125,
+            "timestamp_seconds": 19.82984126984127
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1723,
+            "observation_index": 47,
+            "phase_residue_frames": {
+              "132": 7,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 1.1309781074523926,
+            "timestamp_seconds": 20.003990929705214
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1734,
+            "observation_index": 48,
+            "phase_residue_frames": {
+              "132": 18,
+              "33": 18,
+              "66": 18
+            },
+            "strength": 1.167704701423645,
+            "timestamp_seconds": 20.131700680272107
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1776,
+            "observation_index": 49,
+            "phase_residue_frames": {
+              "132": 60,
+              "33": 27,
+              "66": 60
+            },
+            "strength": 1.2437286376953125,
+            "timestamp_seconds": 20.619319727891156
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1780,
+            "observation_index": 50,
+            "phase_residue_frames": {
+              "132": 64,
+              "33": 31,
+              "66": 64
+            },
+            "strength": 1.160426139831543,
+            "timestamp_seconds": 20.66575963718821
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1794,
+            "observation_index": 51,
+            "phase_residue_frames": {
+              "132": 78,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 1.2353901863098145,
+            "timestamp_seconds": 20.82829931972789
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1814,
+            "observation_index": 52,
+            "phase_residue_frames": {
+              "132": 98,
+              "33": 32,
+              "66": 32
+            },
+            "strength": 1.192374587059021,
+            "timestamp_seconds": 21.060498866213152
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1827,
+            "observation_index": 53,
+            "phase_residue_frames": {
+              "132": 111,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 1.186440110206604,
+            "timestamp_seconds": 21.21142857142857
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1830,
+            "observation_index": 54,
+            "phase_residue_frames": {
+              "132": 114,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 1.2755497694015503,
+            "timestamp_seconds": 21.24625850340136
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1837,
+            "observation_index": 55,
+            "phase_residue_frames": {
+              "132": 121,
+              "33": 22,
+              "66": 55
+            },
+            "strength": 1.1466546058654785,
+            "timestamp_seconds": 21.3275283446712
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1841,
+            "observation_index": 56,
+            "phase_residue_frames": {
+              "132": 125,
+              "33": 26,
+              "66": 59
+            },
+            "strength": 1.1138828992843628,
+            "timestamp_seconds": 21.373968253968254
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1851,
+            "observation_index": 57,
+            "phase_residue_frames": {
+              "132": 3,
+              "33": 3,
+              "66": 3
+            },
+            "strength": 1.38675057888031,
+            "timestamp_seconds": 21.490068027210885
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1863,
+            "observation_index": 58,
+            "phase_residue_frames": {
+              "132": 15,
+              "33": 15,
+              "66": 15
+            },
+            "strength": 1.1521040201187134,
+            "timestamp_seconds": 21.62938775510204
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1875,
+            "observation_index": 59,
+            "phase_residue_frames": {
+              "132": 27,
+              "33": 27,
+              "66": 27
+            },
+            "strength": 1.312906265258789,
+            "timestamp_seconds": 21.768707482993197
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1889,
+            "observation_index": 60,
+            "phase_residue_frames": {
+              "132": 41,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 1.3298041820526123,
+            "timestamp_seconds": 21.93124716553288
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1910,
+            "observation_index": 61,
+            "phase_residue_frames": {
+              "132": 62,
+              "33": 29,
+              "66": 62
+            },
+            "strength": 1.2273648977279663,
+            "timestamp_seconds": 22.175056689342405
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1942,
+            "observation_index": 62,
+            "phase_residue_frames": {
+              "132": 94,
+              "33": 28,
+              "66": 28
+            },
+            "strength": 1.1242750883102417,
+            "timestamp_seconds": 22.54657596371882
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1958,
+            "observation_index": 63,
+            "phase_residue_frames": {
+              "132": 110,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 1.2145665884017944,
+            "timestamp_seconds": 22.732335600907028
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1961,
+            "observation_index": 64,
+            "phase_residue_frames": {
+              "132": 113,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 1.3411893844604492,
+            "timestamp_seconds": 22.76716553287982
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1984,
+            "observation_index": 65,
+            "phase_residue_frames": {
+              "132": 4,
+              "33": 4,
+              "66": 4
+            },
+            "strength": 1.2571284770965576,
+            "timestamp_seconds": 23.034195011337868
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1996,
+            "observation_index": 66,
+            "phase_residue_frames": {
+              "132": 16,
+              "33": 16,
+              "66": 16
+            },
+            "strength": 1.2923763990402222,
+            "timestamp_seconds": 23.173514739229024
+          },
+          {
+            "confidence": 1.0,
+            "frame": 1999,
+            "observation_index": 67,
+            "phase_residue_frames": {
+              "132": 19,
+              "33": 19,
+              "66": 19
+            },
+            "strength": 1.2319825887680054,
+            "timestamp_seconds": 23.208344671201814
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2003,
+            "observation_index": 68,
+            "phase_residue_frames": {
+              "132": 23,
+              "33": 23,
+              "66": 23
+            },
+            "strength": 1.2571896314620972,
+            "timestamp_seconds": 23.254784580498868
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2010,
+            "observation_index": 69,
+            "phase_residue_frames": {
+              "132": 30,
+              "33": 30,
+              "66": 30
+            },
+            "strength": 1.4806827306747437,
+            "timestamp_seconds": 23.336054421768708
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2015,
+            "observation_index": 70,
+            "phase_residue_frames": {
+              "132": 35,
+              "33": 2,
+              "66": 35
+            },
+            "strength": 1.3035401105880737,
+            "timestamp_seconds": 23.394104308390023
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2032,
+            "observation_index": 71,
+            "phase_residue_frames": {
+              "132": 52,
+              "33": 19,
+              "66": 52
+            },
+            "strength": 0.8015961647033691,
+            "timestamp_seconds": 23.591473922902495
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2037,
+            "observation_index": 72,
+            "phase_residue_frames": {
+              "132": 57,
+              "33": 24,
+              "66": 57
+            },
+            "strength": 0.7814669609069824,
+            "timestamp_seconds": 23.64952380952381
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2124,
+            "observation_index": 73,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 1.4187724590301514,
+            "timestamp_seconds": 24.659591836734695
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2143,
+            "observation_index": 74,
+            "phase_residue_frames": {
+              "132": 31,
+              "33": 31,
+              "66": 31
+            },
+            "strength": 1.5140336751937866,
+            "timestamp_seconds": 24.88018140589569
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2161,
+            "observation_index": 75,
+            "phase_residue_frames": {
+              "132": 49,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 1.7389239072799683,
+            "timestamp_seconds": 25.089160997732428
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2185,
+            "observation_index": 76,
+            "phase_residue_frames": {
+              "132": 73,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 1.3470087051391602,
+            "timestamp_seconds": 25.36780045351474
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2195,
+            "observation_index": 77,
+            "phase_residue_frames": {
+              "132": 83,
+              "33": 17,
+              "66": 17
+            },
+            "strength": 1.216484546661377,
+            "timestamp_seconds": 25.48390022675737
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2199,
+            "observation_index": 78,
+            "phase_residue_frames": {
+              "132": 87,
+              "33": 21,
+              "66": 21
+            },
+            "strength": 1.2101671695709229,
+            "timestamp_seconds": 25.530340136054424
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2217,
+            "observation_index": 79,
+            "phase_residue_frames": {
+              "132": 105,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 1.2414826154708862,
+            "timestamp_seconds": 25.739319727891157
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2237,
+            "observation_index": 80,
+            "phase_residue_frames": {
+              "132": 125,
+              "33": 26,
+              "66": 59
+            },
+            "strength": 1.2709404230117798,
+            "timestamp_seconds": 25.971519274376416
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2249,
+            "observation_index": 81,
+            "phase_residue_frames": {
+              "132": 5,
+              "33": 5,
+              "66": 5
+            },
+            "strength": 1.133684515953064,
+            "timestamp_seconds": 26.110839002267575
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2286,
+            "observation_index": 82,
+            "phase_residue_frames": {
+              "132": 42,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 1.1073089838027954,
+            "timestamp_seconds": 26.540408163265305
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2297,
+            "observation_index": 83,
+            "phase_residue_frames": {
+              "132": 53,
+              "33": 20,
+              "66": 53
+            },
+            "strength": 1.2043087482452393,
+            "timestamp_seconds": 26.668117913832198
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2316,
+            "observation_index": 84,
+            "phase_residue_frames": {
+              "132": 72,
+              "33": 6,
+              "66": 6
+            },
+            "strength": 1.19198477268219,
+            "timestamp_seconds": 26.888707482993198
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2330,
+            "observation_index": 85,
+            "phase_residue_frames": {
+              "132": 86,
+              "33": 20,
+              "66": 20
+            },
+            "strength": 1.1028155088424683,
+            "timestamp_seconds": 27.051247165532878
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2347,
+            "observation_index": 86,
+            "phase_residue_frames": {
+              "132": 103,
+              "33": 4,
+              "66": 37
+            },
+            "strength": 1.1761869192123413,
+            "timestamp_seconds": 27.248616780045353
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2353,
+            "observation_index": 87,
+            "phase_residue_frames": {
+              "132": 109,
+              "33": 10,
+              "66": 43
+            },
+            "strength": 1.48800528049469,
+            "timestamp_seconds": 27.31827664399093
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2366,
+            "observation_index": 88,
+            "phase_residue_frames": {
+              "132": 122,
+              "33": 23,
+              "66": 56
+            },
+            "strength": 1.1655248403549194,
+            "timestamp_seconds": 27.46920634920635
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2390,
+            "observation_index": 89,
+            "phase_residue_frames": {
+              "132": 14,
+              "33": 14,
+              "66": 14
+            },
+            "strength": 1.2664892673492432,
+            "timestamp_seconds": 27.74784580498866
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2398,
+            "observation_index": 90,
+            "phase_residue_frames": {
+              "132": 22,
+              "33": 22,
+              "66": 22
+            },
+            "strength": 1.209547758102417,
+            "timestamp_seconds": 27.840725623582767
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2402,
+            "observation_index": 91,
+            "phase_residue_frames": {
+              "132": 26,
+              "33": 26,
+              "66": 26
+            },
+            "strength": 1.1962708234786987,
+            "timestamp_seconds": 27.88716553287982
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2420,
+            "observation_index": 92,
+            "phase_residue_frames": {
+              "132": 44,
+              "33": 11,
+              "66": 44
+            },
+            "strength": 1.4839551448822021,
+            "timestamp_seconds": 28.096145124716553
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2428,
+            "observation_index": 93,
+            "phase_residue_frames": {
+              "132": 52,
+              "33": 19,
+              "66": 52
+            },
+            "strength": 1.4597010612487793,
+            "timestamp_seconds": 28.189024943310656
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2433,
+            "observation_index": 94,
+            "phase_residue_frames": {
+              "132": 57,
+              "33": 24,
+              "66": 57
+            },
+            "strength": 1.3451175689697266,
+            "timestamp_seconds": 28.24707482993197
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2453,
+            "observation_index": 95,
+            "phase_residue_frames": {
+              "132": 77,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 1.111533522605896,
+            "timestamp_seconds": 28.479274376417234
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2465,
+            "observation_index": 96,
+            "phase_residue_frames": {
+              "132": 89,
+              "33": 23,
+              "66": 23
+            },
+            "strength": 1.0910403728485107,
+            "timestamp_seconds": 28.61859410430839
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2468,
+            "observation_index": 97,
+            "phase_residue_frames": {
+              "132": 92,
+              "33": 26,
+              "66": 26
+            },
+            "strength": 1.1339333057403564,
+            "timestamp_seconds": 28.65342403628118
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2481,
+            "observation_index": 98,
+            "phase_residue_frames": {
+              "132": 105,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 1.1583160161972046,
+            "timestamp_seconds": 28.804353741496598
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2513,
+            "observation_index": 99,
+            "phase_residue_frames": {
+              "132": 5,
+              "33": 5,
+              "66": 5
+            },
+            "strength": 1.1751598119735718,
+            "timestamp_seconds": 29.175873015873016
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2517,
+            "observation_index": 100,
+            "phase_residue_frames": {
+              "132": 9,
+              "33": 9,
+              "66": 9
+            },
+            "strength": 1.3329052925109863,
+            "timestamp_seconds": 29.22231292517007
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2523,
+            "observation_index": 101,
+            "phase_residue_frames": {
+              "132": 15,
+              "33": 15,
+              "66": 15
+            },
+            "strength": 1.2049355506896973,
+            "timestamp_seconds": 29.291972789115647
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2526,
+            "observation_index": 102,
+            "phase_residue_frames": {
+              "132": 18,
+              "33": 18,
+              "66": 18
+            },
+            "strength": 1.386893391609192,
+            "timestamp_seconds": 29.326802721088434
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2535,
+            "observation_index": 103,
+            "phase_residue_frames": {
+              "132": 27,
+              "33": 27,
+              "66": 27
+            },
+            "strength": 1.068203091621399,
+            "timestamp_seconds": 29.431292517006803
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2547,
+            "observation_index": 104,
+            "phase_residue_frames": {
+              "132": 39,
+              "33": 6,
+              "66": 39
+            },
+            "strength": 1.1526631116867065,
+            "timestamp_seconds": 29.57061224489796
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2553,
+            "observation_index": 105,
+            "phase_residue_frames": {
+              "132": 45,
+              "33": 12,
+              "66": 45
+            },
+            "strength": 1.1508630514144897,
+            "timestamp_seconds": 29.640272108843536
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2557,
+            "observation_index": 106,
+            "phase_residue_frames": {
+              "132": 49,
+              "33": 16,
+              "66": 49
+            },
+            "strength": 1.1384587287902832,
+            "timestamp_seconds": 29.68671201814059
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2612,
+            "observation_index": 107,
+            "phase_residue_frames": {
+              "132": 104,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 1.0726450681686401,
+            "timestamp_seconds": 30.325260770975056
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2621,
+            "observation_index": 108,
+            "phase_residue_frames": {
+              "132": 113,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 1.0677430629730225,
+            "timestamp_seconds": 30.429750566893425
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2631,
+            "observation_index": 109,
+            "phase_residue_frames": {
+              "132": 123,
+              "33": 24,
+              "66": 57
+            },
+            "strength": 1.1774818897247314,
+            "timestamp_seconds": 30.545850340136056
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2637,
+            "observation_index": 110,
+            "phase_residue_frames": {
+              "132": 129,
+              "33": 30,
+              "66": 63
+            },
+            "strength": 1.1427040100097656,
+            "timestamp_seconds": 30.615510204081634
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2652,
+            "observation_index": 111,
+            "phase_residue_frames": {
+              "132": 12,
+              "33": 12,
+              "66": 12
+            },
+            "strength": 1.209144949913025,
+            "timestamp_seconds": 30.789659863945577
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2672,
+            "observation_index": 112,
+            "phase_residue_frames": {
+              "132": 32,
+              "33": 32,
+              "66": 32
+            },
+            "strength": 1.098914623260498,
+            "timestamp_seconds": 31.02185941043084
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2688,
+            "observation_index": 113,
+            "phase_residue_frames": {
+              "132": 48,
+              "33": 15,
+              "66": 48
+            },
+            "strength": 1.291835904121399,
+            "timestamp_seconds": 31.207619047619048
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2692,
+            "observation_index": 114,
+            "phase_residue_frames": {
+              "132": 52,
+              "33": 19,
+              "66": 52
+            },
+            "strength": 1.5926611423492432,
+            "timestamp_seconds": 31.2540589569161
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2707,
+            "observation_index": 115,
+            "phase_residue_frames": {
+              "132": 67,
+              "33": 1,
+              "66": 1
+            },
+            "strength": 1.0999863147735596,
+            "timestamp_seconds": 31.428208616780044
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2724,
+            "observation_index": 116,
+            "phase_residue_frames": {
+              "132": 84,
+              "33": 18,
+              "66": 18
+            },
+            "strength": 1.2795450687408447,
+            "timestamp_seconds": 31.62557823129252
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2739,
+            "observation_index": 117,
+            "phase_residue_frames": {
+              "132": 99,
+              "33": 0,
+              "66": 33
+            },
+            "strength": 1.1069409847259521,
+            "timestamp_seconds": 31.79972789115646
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2752,
+            "observation_index": 118,
+            "phase_residue_frames": {
+              "132": 112,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 1.0940771102905273,
+            "timestamp_seconds": 31.950657596371883
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2765,
+            "observation_index": 119,
+            "phase_residue_frames": {
+              "132": 125,
+              "33": 26,
+              "66": 59
+            },
+            "strength": 1.126572608947754,
+            "timestamp_seconds": 32.1015873015873
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2773,
+            "observation_index": 120,
+            "phase_residue_frames": {
+              "132": 1,
+              "33": 1,
+              "66": 1
+            },
+            "strength": 1.1757980585098267,
+            "timestamp_seconds": 32.19446712018141
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2779,
+            "observation_index": 121,
+            "phase_residue_frames": {
+              "132": 7,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 1.2389591932296753,
+            "timestamp_seconds": 32.26412698412698
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2788,
+            "observation_index": 122,
+            "phase_residue_frames": {
+              "132": 16,
+              "33": 16,
+              "66": 16
+            },
+            "strength": 1.1865257024765015,
+            "timestamp_seconds": 32.36861678004535
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2794,
+            "observation_index": 123,
+            "phase_residue_frames": {
+              "132": 22,
+              "33": 22,
+              "66": 22
+            },
+            "strength": 1.2463351488113403,
+            "timestamp_seconds": 32.43827664399093
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2819,
+            "observation_index": 124,
+            "phase_residue_frames": {
+              "132": 47,
+              "33": 14,
+              "66": 47
+            },
+            "strength": 1.4472516775131226,
+            "timestamp_seconds": 32.728526077097506
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2831,
+            "observation_index": 125,
+            "phase_residue_frames": {
+              "132": 59,
+              "33": 26,
+              "66": 59
+            },
+            "strength": 1.1308590173721313,
+            "timestamp_seconds": 32.86784580498866
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2842,
+            "observation_index": 126,
+            "phase_residue_frames": {
+              "132": 70,
+              "33": 4,
+              "66": 4
+            },
+            "strength": 1.1856659650802612,
+            "timestamp_seconds": 32.995555555555555
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2862,
+            "observation_index": 127,
+            "phase_residue_frames": {
+              "132": 90,
+              "33": 24,
+              "66": 24
+            },
+            "strength": 1.2145723104476929,
+            "timestamp_seconds": 33.22775510204082
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2873,
+            "observation_index": 128,
+            "phase_residue_frames": {
+              "132": 101,
+              "33": 2,
+              "66": 35
+            },
+            "strength": 1.284697413444519,
+            "timestamp_seconds": 33.35546485260771
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2876,
+            "observation_index": 129,
+            "phase_residue_frames": {
+              "132": 104,
+              "33": 5,
+              "66": 38
+            },
+            "strength": 1.2306156158447266,
+            "timestamp_seconds": 33.3902947845805
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2903,
+            "observation_index": 130,
+            "phase_residue_frames": {
+              "132": 131,
+              "33": 32,
+              "66": 65
+            },
+            "strength": 1.2517383098602295,
+            "timestamp_seconds": 33.7037641723356
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2915,
+            "observation_index": 131,
+            "phase_residue_frames": {
+              "132": 11,
+              "33": 11,
+              "66": 11
+            },
+            "strength": 1.179471492767334,
+            "timestamp_seconds": 33.84308390022676
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2921,
+            "observation_index": 132,
+            "phase_residue_frames": {
+              "132": 17,
+              "33": 17,
+              "66": 17
+            },
+            "strength": 1.159151315689087,
+            "timestamp_seconds": 33.91274376417233
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2940,
+            "observation_index": 133,
+            "phase_residue_frames": {
+              "132": 36,
+              "33": 3,
+              "66": 36
+            },
+            "strength": 1.1728004217147827,
+            "timestamp_seconds": 34.13333333333333
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2956,
+            "observation_index": 134,
+            "phase_residue_frames": {
+              "132": 52,
+              "33": 19,
+              "66": 52
+            },
+            "strength": 1.2041127681732178,
+            "timestamp_seconds": 34.319092970521545
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2962,
+            "observation_index": 135,
+            "phase_residue_frames": {
+              "132": 58,
+              "33": 25,
+              "66": 58
+            },
+            "strength": 1.2564905881881714,
+            "timestamp_seconds": 34.38875283446712
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2969,
+            "observation_index": 136,
+            "phase_residue_frames": {
+              "132": 65,
+              "33": 32,
+              "66": 65
+            },
+            "strength": 1.1671582460403442,
+            "timestamp_seconds": 34.47002267573696
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2978,
+            "observation_index": 137,
+            "phase_residue_frames": {
+              "132": 74,
+              "33": 8,
+              "66": 8
+            },
+            "strength": 1.094561219215393,
+            "timestamp_seconds": 34.57451247165533
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2989,
+            "observation_index": 138,
+            "phase_residue_frames": {
+              "132": 85,
+              "33": 19,
+              "66": 19
+            },
+            "strength": 1.1600741147994995,
+            "timestamp_seconds": 34.702222222222225
+          },
+          {
+            "confidence": 1.0,
+            "frame": 2999,
+            "observation_index": 139,
+            "phase_residue_frames": {
+              "132": 95,
+              "33": 29,
+              "66": 29
+            },
+            "strength": 1.3084542751312256,
+            "timestamp_seconds": 34.81832199546485
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3006,
+            "observation_index": 140,
+            "phase_residue_frames": {
+              "132": 102,
+              "33": 3,
+              "66": 36
+            },
+            "strength": 1.1494436264038086,
+            "timestamp_seconds": 34.89959183673469
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3011,
+            "observation_index": 141,
+            "phase_residue_frames": {
+              "132": 107,
+              "33": 8,
+              "66": 41
+            },
+            "strength": 1.2051764726638794,
+            "timestamp_seconds": 34.95764172335601
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3082,
+            "observation_index": 142,
+            "phase_residue_frames": {
+              "132": 46,
+              "33": 13,
+              "66": 46
+            },
+            "strength": 1.314012050628662,
+            "timestamp_seconds": 35.781950113378684
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3087,
+            "observation_index": 143,
+            "phase_residue_frames": {
+              "132": 51,
+              "33": 18,
+              "66": 51
+            },
+            "strength": 1.2734262943267822,
+            "timestamp_seconds": 35.84
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3090,
+            "observation_index": 144,
+            "phase_residue_frames": {
+              "132": 54,
+              "33": 21,
+              "66": 54
+            },
+            "strength": 1.2160937786102295,
+            "timestamp_seconds": 35.87482993197279
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3096,
+            "observation_index": 145,
+            "phase_residue_frames": {
+              "132": 60,
+              "33": 27,
+              "66": 60
+            },
+            "strength": 1.3032984733581543,
+            "timestamp_seconds": 35.944489795918365
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3109,
+            "observation_index": 146,
+            "phase_residue_frames": {
+              "132": 73,
+              "33": 7,
+              "66": 7
+            },
+            "strength": 1.1672985553741455,
+            "timestamp_seconds": 36.09541950113379
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3120,
+            "observation_index": 147,
+            "phase_residue_frames": {
+              "132": 84,
+              "33": 18,
+              "66": 18
+            },
+            "strength": 1.107293725013733,
+            "timestamp_seconds": 36.22312925170068
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3144,
+            "observation_index": 148,
+            "phase_residue_frames": {
+              "132": 108,
+              "33": 9,
+              "66": 42
+            },
+            "strength": 1.1849347352981567,
+            "timestamp_seconds": 36.501768707482995
+          },
+          {
+            "confidence": 1.0,
+            "frame": 3156,
+            "observation_index": 149,
+            "phase_residue_frames": {
+              "132": 120,
+              "33": 21,
+              "66": 54
+            },
+            "strength": 0.854974091053009,
+            "timestamp_seconds": 36.64108843537415
+          }
+        ],
+        "sample_rate_hz": 44100,
+        "source": "voice",
+        "temporal_scope_seconds": [
+          0.0,
+          42.30675736961451
+        ]
+      }
+    ],
+    "prohibited_inferences_applied": [],
+    "reason": "Existing onset strength is reproducible as a physical quantity, but repository authority supplies no non-arbitrary relation that maps raw source-specific strength by exact phase to metric role. The preregistered rule prohibits deriving that relation from the observed outcomes.",
+    "selected_candidate_frames": null
+  },
+  "blind_result_sha256": "eb17682f25233c50f08bf98d38689be55e45e48303edc9bbe65ff34e5b5c55b0",
+  "byte_identical_replay": true,
+  "experiment_id": "H-VAL001-C1-13",
+  "frozen_utc": "2026-08-16T04:31:33.968364+00:00",
+  "ground_truth_loaded": false,
+  "manifest_sha256": "3b16a83e8bb1ec9e59f49db7a499c446ad9503f6ff6b33323171c228c54e6909",
+  "repeated_blind_result_sha256": "eb17682f25233c50f08bf98d38689be55e45e48303edc9bbe65ff34e5b5c55b0"
+}

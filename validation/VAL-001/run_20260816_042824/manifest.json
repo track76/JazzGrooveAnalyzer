@@ -1,0 +1,75 @@
+{
+  "experiment_id": "H-VAL001-C1-13",
+  "run_id": "run_20260816_042824",
+  "status": "PREREGISTERED",
+  "scientific_question": "Can existing PulseCandidate onset-strength evidence, evaluated by phase across the established 33 / 66 / 132 Candidate Period hierarchy, discriminate one metric-reference level blindly?",
+  "direct_contribution_to_jga_mission": "Resolve or close the first controlled-source metric-reference blocker so JGA can converge on useful timing analysis.",
+  "missing_scientific_evidence": "Evidence that phase-conditioned physical onset strength distinguishes metric-reference role from subdivision and multiple roles.",
+  "why_existing_evidence_is_insufficient": "C1-12 found no metric-role relation; C1-04 preserved phase descriptions without onset strength and established no phase concentration.",
+  "smallest_experiment": "Run the unchanged pipeline on the authoritative controlled audio assets, preserve each existing PulseCandidate frame, timestamp, strength, confidence and source plus exact residues modulo 33, 66 and 132, then apply the frozen evidence-sufficiency decision rule before Ground Truth reveal.",
+  "architectural_impact": "None",
+  "complexity_introduced": "Lightweight experiment-local records only",
+  "source_revision": "c2122f7a9688d570f287c6c3e97b087b32846336",
+  "bootstrap_evidence_conflict": "artifacts/JGA_BOOTSTRAP.md identifies 548ef85 while repository HEAD is c2122f7; preserved without historical rewrite and not used analytically.",
+  "blind_assets": [
+    {
+      "path": "recordings/validation/03 THE COST OF LIVING versione intro + 8 bar.mp3",
+      "sha256": "d358d1bca5144ea1dabee4d970fa5deabf81a209922481a77db0f01bd8bdbbbb",
+      "source": "full_mix"
+    },
+    {
+      "path": "recordings/validation/stems/double_bass.wav",
+      "sha256": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
+      "source": "double_bass"
+    },
+    {
+      "path": "recordings/validation/stems/drums.wav",
+      "sha256": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+      "source": "drums"
+    },
+    {
+      "path": "recordings/validation/stems/piano.wav",
+      "sha256": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e",
+      "source": "piano"
+    },
+    {
+      "path": "recordings/validation/stems/tenor_sax.wav",
+      "sha256": "89dd7e5c6063d3c4d5e4ac59c9119c265df4257dfb1b4a1e01b5f117ee87182e",
+      "source": "tenor_sax"
+    },
+    {
+      "path": "recordings/validation/stems/voice.wav",
+      "sha256": "0fa95a3eff06d1ab075caf2f388c17d536e614aca397647967805045521c655a",
+      "source": "voice"
+    }
+  ],
+  "comparison_procedure": {
+    "candidate_hierarchy_frames": [33, 66, 132],
+    "observable_record": "For every existing PulseCandidate, preserve source, observation index, exact analysis frame, timestamp, unmodified onset strength, confidence and frame residue modulo each candidate.",
+    "phase_rule": "Phase is the exact integer frame residue modulo the candidate interval relative to the unchanged analysis origin. No phase origin is selected or shifted after observing strength.",
+    "cross_source_rule": "Raw strengths remain source-specific and are never compared, normalized, pooled or weighted across sources.",
+    "unique_support": "Exactly one candidate may be selected only if an already-authorized, preregistered and literature-grounded decision relation maps the preserved phase-conditioned strength evidence to metric-reference role while rejecting both adjacent alternatives.",
+    "ambiguous": "More than one candidate satisfies such an authorized relation.",
+    "unsupported": "An authorized relation exists but no candidate satisfies it.",
+    "failed_test": "The required observations cannot be reproduced, or no authorized non-arbitrary decision relation exists for mapping the reproduced strength-by-phase values to metric-reference role.",
+    "prohibited": [
+      "strength ranking",
+      "cross-source magnitude comparison",
+      "normalization",
+      "weighting",
+      "tolerance",
+      "threshold",
+      "tempo range",
+      "selected phase origin",
+      "post-hoc pattern",
+      "Ground Truth"
+    ]
+  },
+  "possible_results": [
+    "UNIQUE SUPPORT",
+    "AMBIGUOUS",
+    "UNSUPPORTED",
+    "FAILED TEST"
+  ],
+  "ground_truth_gate": "Ground Truth may be loaded only after blind_result.json is written and its file checksum is frozen."
+}

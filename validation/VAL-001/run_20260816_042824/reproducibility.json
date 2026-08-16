@@ -1,0 +1,8 @@
+{
+  "byte_identical": true,
+  "completed_utc": "2026-08-16T04:31:33.994555+00:00",
+  "experiment_id": "H-VAL001-C1-13",
+  "first_blind_result_sha256": "eb17682f25233c50f08bf98d38689be55e45e48303edc9bbe65ff34e5b5c55b0",
+  "repeated_blind_result_sha256": "eb17682f25233c50f08bf98d38689be55e45e48303edc9bbe65ff34e5b5c55b0",
+  "started_utc": "2026-08-16T04:31:25.867387+00:00"
+}
