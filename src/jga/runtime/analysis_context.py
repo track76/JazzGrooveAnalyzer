@@ -191,6 +191,8 @@ class AnalysisContext:
 
     elementary_metric_events: tuple = ()
 
+    elementary_metric_event_associations: tuple = ()
+
     metric_contributors: tuple = ()
 
     # =====================================================

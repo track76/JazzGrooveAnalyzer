@@ -18,6 +18,7 @@ All Rights Reserved.
 """
 
 from dataclasses import dataclass
+from uuid import UUID
 
 from jga.core.metric_source import MetricSource
 
@@ -37,3 +38,9 @@ class MetricContribution:
 
     # Reliability of this contribution
     confidence: float = 1.0
+
+    # Explicit lineage to the Domain observation represented here.
+    pulse_candidate_id: UUID | None = None
+
+    # SoundSource identity is retained even when no MetricSource map exists.
+    sound_source_id: UUID | None = None

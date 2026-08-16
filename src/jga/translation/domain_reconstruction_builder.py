@@ -5,6 +5,9 @@ from jga.domain.services.beat_reconstruction_engine import (
 from jga.domain.services.elementary_metric_event_builder import (
     ElementaryMetricEventBuilder,
 )
+from jga.domain.services.elementary_metric_event_association_service import (
+    ElementaryMetricEventAssociationService,
+)
 from jga.domain.services.internal_metric_timeline_reconstructor import (
     InternalMetricTimelineReconstructor,
 )
@@ -45,6 +48,10 @@ class DefaultDomainReconstructionBuilder(
             ElementaryMetricEventBuilder()
         )
 
+        self.eme_association_service = (
+            ElementaryMetricEventAssociationService()
+        )
+
         self.beat_builder = (
             BeatReconstructionEngine()
         )
@@ -77,17 +84,20 @@ class DefaultDomainReconstructionBuilder(
             else None
         )
 
-        events = self.eme_builder.build(
-            reconstruction_input.domain_pulse_candidates,
-            reconstruction_input.metric_contributors,
-        )
-
         beats = self.beat_builder.reconstruct(
-            events,
+            reconstruction_input.ensemble_metric_events,
             declared_metric_reference=(
                 reconstruction_input.declared_metric_reference
             ),
         )
+
+        associations = self.eme_association_service.associate(
+            reconstruction_input.domain_pulse_candidates,
+            reconstruction_input.metric_contributors,
+            beats,
+        )
+
+        events = self.eme_builder.build(associations)
 
         clusters = self.cluster_builder.build(
             beats,
@@ -109,6 +119,7 @@ class DefaultDomainReconstructionBuilder(
                 pulses=pulses,
                 internal_metric_timeline=None,
                 internal_metric_signature=internal_metric_signature,
+                elementary_metric_event_associations=associations,
             )
 
         timeline = (
@@ -127,4 +138,5 @@ class DefaultDomainReconstructionBuilder(
             pulses=pulses,
             internal_metric_timeline=timeline,
             internal_metric_signature=internal_metric_signature,
+            elementary_metric_event_associations=associations,
         )

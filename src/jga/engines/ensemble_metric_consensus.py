@@ -147,6 +147,8 @@ class EnsembleMetricConsensus:
                     source=source,
                     event_time=candidate.timestamp,
                     confidence=candidate.confidence,
+                    pulse_candidate_id=candidate.id,
+                    sound_source_id=candidate.sound_source_id,
                 )
             )
 

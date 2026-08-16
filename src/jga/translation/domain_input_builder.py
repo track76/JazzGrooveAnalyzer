@@ -127,12 +127,16 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
         # τ₈
         #
 
-        context.domain_pulse_candidates = (
-            self.tau8.translate(
-                context.metric_context,
-                sound_sources,
+        # Preserve the already translated observation identities used by
+        # pre-EME ensemble consensus. Direct Translation-only callers that
+        # have not supplied that population still use tau8.
+        if not context.domain_pulse_candidates:
+            context.domain_pulse_candidates = (
+                self.tau8.translate(
+                    context.metric_context,
+                    sound_sources,
+                )
             )
-        )
 
         reconstruction_input = (
             self.reconstruction_input_builder.build(
@@ -156,6 +160,10 @@ class DefaultDomainInputBuilder(DomainInputBuilder):
 
         context.elementary_metric_events = (
             reconstruction_result.elementary_metric_events
+        )
+
+        context.elementary_metric_event_associations = (
+            reconstruction_result.elementary_metric_event_associations
         )
 
         builder = MetricEventSemanticsBuilder()

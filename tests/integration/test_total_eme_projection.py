@@ -61,16 +61,27 @@ def projection_signature(context):
     )
 
 
-def test_controlled_source_projects_all_77_emes_exactly_once(controlled_analyses):
+def test_controlled_source_preserves_all_observations_and_projects_each_eme_once(
+    controlled_analyses,
+):
     _, declared, _ = controlled_analyses
     projected = projected_events(declared)
 
-    assert len(declared.elementary_metric_events) == 77
-    assert len(projected) == 77
-    assert len({event.id for event in projected}) == 77
+    assert len(declared.domain_pulse_candidates) == 77
+    assert len(declared.elementary_metric_events) == 71
+    assert len(projected) == 71
+    assert len({event.id for event in projected}) == 71
     assert {event.id for event in projected} == {
         event.id for event in declared.elementary_metric_events
     }
+    assert sum(
+        len(item.supporting_pulse_candidate_ids)
+        for item in declared.elementary_metric_event_associations
+    ) == 77
+    assert sum(
+        item.outcome == "AMBIGUOUS"
+        for item in declared.elementary_metric_event_associations
+    ) == 3
 
 
 def test_projection_preserves_event_identity_timestamp_and_contributor_provenance(
@@ -86,7 +97,7 @@ def test_projection_preserves_event_identity_timestamp_and_contributor_provenanc
         assert event.contributor_id == original.contributor_id
 
     points = declared.representation_result.metric_landscape.metric_trajectory.metric_points
-    assert len(points) == 77
+    assert len(points) == 71
     assert {point.event.id for point in points} == set(input_by_id)
     assert all(
         point.offset_ms

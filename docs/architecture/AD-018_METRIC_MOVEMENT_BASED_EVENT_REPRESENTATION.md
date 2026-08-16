@@ -181,6 +181,33 @@ RESPONSIBLE TRANSFORMATION:
 Metric Event Association Layer
 
 
+## Authoritative EME Association Contract
+
+ElementaryMetricEvent construction requires:
+
+- the complete ordered source-specific Domain PulseCandidate population;
+- the SoundSource to MetricContributor mapping;
+- an authorized BeatReference reconstructed from pre-EME metric evidence;
+- an explicit deterministic association result;
+- temporal scope and provenance.
+
+BeatReference reconstruction must not consume the ElementaryMetricEvents
+whose existence depends on that BeatReference. Existing pre-EME ensemble
+consensus evidence, together with declared context where applicable, is the
+authorized input to movement reconstruction.
+
+An observation may support at most one ElementaryMetricEvent in one
+analysis. For one contributor and one movement, zero or more observations
+may produce no more than one ElementaryMetricEvent. Every produced event
+must retain the identities of all supporting observations, the source and
+contributor identities, the movement identity, and the association rule.
+
+Ambiguous association produces no ElementaryMetricEvent. Absence of an
+authorized movement or a valid contributor-position association likewise
+produces no event. Unassociated observations remain preserved as Domain
+PulseCandidates; they are not discarded or duplicated.
+
+
 TRACEABILITY:
 
 Audio Event

@@ -1,58 +1,47 @@
 from datetime import datetime
-from uuid import uuid4
+from uuid import NAMESPACE_URL, uuid5
 
 from jga.domain.elementary_metric_event import ElementaryMetricEvent
-from jga.domain.metric_contributor import MetricContributor
-from jga.domain.pulse_candidate import PulseCandidate
-from jga.domain.services.metric_contributor_resolver import (
-    MetricContributorResolver,
+from jga.domain.elementary_metric_event_association import (
+    ElementaryMetricEventAssociation,
 )
 
 
 class ElementaryMetricEventBuilder:
-    """
-    Builds ElementaryMetricEvent objects from
-    Domain PulseCandidate objects.
-
-    The contributor identity is resolved through
-    MetricContributorResolver.
-    """
-
-    def __init__(self) -> None:
-
-        self._resolver = MetricContributorResolver()
+    """Materialize EME only from authorized association results."""
 
     def build(
         self,
-        pulse_candidates: tuple[PulseCandidate, ...],
-        contributors: tuple[MetricContributor, ...],
+        associations: tuple[ElementaryMetricEventAssociation, ...],
     ) -> tuple[ElementaryMetricEvent, ...]:
-
-        if not pulse_candidates:
-            return ()
-
-        if contributors is None:
-            raise ValueError(
-                "contributors cannot be None."
-            )
-
         events = []
-
-        for candidate in pulse_candidates:
-
-            contributor = self._resolver.resolve(
-                candidate.sound_source_id,
-                contributors,
+        for association in associations:
+            if association.outcome != "ASSOCIATED":
+                continue
+            if association.timestamp is None or association.confidence is None:
+                continue
+            identity = ",".join(
+                str(item) for item in association.supporting_pulse_candidate_ids
             )
-
             events.append(
                 ElementaryMetricEvent(
-                    id=uuid4(),
-                    contributor_id=contributor.id,
-                    timestamp=candidate.timestamp,
-                    confidence=candidate.confidence,
+                    id=uuid5(
+                        NAMESPACE_URL,
+                        f"{association.association_rule}:{association.beat_reference_id}:{association.contributor_id}:{identity}",
+                    ),
+                    contributor_id=association.contributor_id,
+                    timestamp=association.timestamp,
+                    confidence=association.confidence,
                     created_at=datetime.now(),
+                    beat_reference_id=association.beat_reference_id,
+                    sound_source_id=association.sound_source_id,
+                    supporting_pulse_candidate_ids=(
+                        association.supporting_pulse_candidate_ids
+                    ),
+                    association_rule=association.association_rule,
+                    temporal_scope=association.temporal_scope,
+                    association_outcome=association.outcome,
+                    evidence_status="OBSERVATION_SUPPORTED",
                 )
             )
-
         return tuple(events)

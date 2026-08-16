@@ -23,6 +23,12 @@ class BeatReference:
 
     created_at: datetime
 
+    supporting_pulse_candidate_ids: tuple[UUID, ...] = ()
+
+    reconstruction_rule: str = "legacy-unrecorded"
+
+    temporal_scope: str = "unspecified"
+
     def __post_init__(self):
 
         if self.index < 0:

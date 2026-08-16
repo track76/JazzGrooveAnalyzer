@@ -11,6 +11,9 @@ from jga.domain.internal_metric_timeline import (
 from jga.domain.metric_cluster import MetricCluster
 from jga.domain.pulse import Pulse
 from jga.domain.internal_metric_signature import InternalMetricSignature
+from jga.domain.elementary_metric_event_association import (
+    ElementaryMetricEventAssociation,
+)
 
 
 @dataclass(frozen=True, slots=True)
@@ -47,3 +50,7 @@ class DomainReconstructionResult:
     )
 
     internal_metric_signature: InternalMetricSignature | None = None
+
+    elementary_metric_event_associations: tuple[
+        ElementaryMetricEventAssociation, ...
+    ] = ()
