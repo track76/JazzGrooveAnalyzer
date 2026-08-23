@@ -2,7 +2,25 @@
 
 ## CED-VAL-003-SWING-3-4 Controlled Dataset
 
-Status: CALIBRATION ZERO PREREGISTERED — EXECUTION REQUIRES PI APPROVAL
+Status: CALIBRATION ZERO FROZEN RESULT — PI REVIEW REQUIRED
+
+- `H-CEDVAL003-CALIBRATION-ZERO-01` executed exactly against
+  `PR-CED-VAL-003-SWING-3-4-001`; all checksum authority passed.
+- Observed EME populations are Drums 155, Double Bass 100 and Piano 50. The
+  frozen midpoint rule produced 193 valid absolute correspondences.
+- Absolute outcome is `SOURCE_SPECIFIC_CANDIDATE_BIAS`; measurement structure
+  is `MIXED_MEASUREMENT_BEHAVIOUR`. Drums are `INSUFFICIENT_EVIDENCE` after
+  mandatory ambiguity sensitivity; Double Bass and Piano retain stable
+  candidate systematic bias.
+- Exact symbolic authority produced 12 valid Piano–Drums and 32 valid Double
+  Bass–Drums JGA pairs. Both are `INSUFFICIENT_EVIDENCE` after the frozen
+  ambiguity-sensitivity support gate.
+- Two complete executions replayed deterministically; independent arithmetic,
+  cardinality and lineage verification passed. Raw observations remain
+  immutable, no correction is authorized, and H02 was neither executed nor
+  inspected.
+- Scientific fingerprint: `589ee3c1…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_203324/`.
 
 - `H-CEDVAL003-CALIBRATION-ZERO-01` binds exclusively to frozen authority
   `PR-CED-VAL-003-SWING-3-4-001` and fingerprint `9345f592…`.

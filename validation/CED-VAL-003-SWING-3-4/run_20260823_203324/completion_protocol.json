@@ -1,0 +1,17 @@
+{
+  "bootstrap_resamples": 10000,
+  "bootstrap_status": "PASS",
+  "calibration_correction_authorized": false,
+  "dataset_authority": "PR-CED-VAL-003-SWING-3-4-001",
+  "dataset_fingerprint": "9345f5923055a7ed1c953eee4b8613f2b2262c55cd2e5f094d489d097c37f790",
+  "deterministic_complete_execution_count": 2,
+  "deterministic_replay": true,
+  "experiment_id": "H-CEDVAL003-CALIBRATION-ZERO-01",
+  "h02_executed_or_inspected": false,
+  "independent_arithmetic_verification": "PASS",
+  "production_code_changed": false,
+  "raw_observations_modified": false,
+  "scientific_fingerprint": "589ee3c15783556bd0e5b7b6df53822dff56c1eddfb6d17476aa3152adef5270",
+  "status": "PASS_FROZEN_RESULT",
+  "test_status": "1087_PASSED_1_KNOWN_EXTERNAL_STORAGE_FAILURE"
+}

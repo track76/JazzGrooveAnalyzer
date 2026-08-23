@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: CED-VAL-003-SWING-3-4 Calibration Zero Preregistered
+Current Milestone: CED-VAL-003-SWING-3-4 Calibration Zero Frozen Result
 
 Current Phase: Phase II Scientific Validation
 

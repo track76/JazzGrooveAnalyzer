@@ -1,0 +1,55 @@
+{
+  "artifacts": {
+    "build_pair_authority.py": {
+      "sha256": "3c727051b42a77584267f325d2e7ff50ccd2561301e2538c653afeb35217c876",
+      "size_bytes": 2815
+    },
+    "build_symbolic_authority.py": {
+      "sha256": "155a64dfca65b37ecb6fd69a15b0a42165415bc8ed70c53a55fbccc9d3fa4a55",
+      "size_bytes": 7547
+    },
+    "calibration_symbolic_events.json": {
+      "sha256": "fcb56adb0dfd6361ab6173107fc2f90d293caf8ca87d3fbc2e6b36e393f6a199",
+      "size_bytes": 338190
+    },
+    "completion_protocol.json": {
+      "sha256": "fd29b9820aadb87b627329f395eb46ae44e066eb092eba12f99d5ae45ea36d86",
+      "size_bytes": 748
+    },
+    "event_level_results.json": {
+      "sha256": "3c2d22300de63de57885a1c786dea1679136410860558f3e093e6bf2b5233c31",
+      "size_bytes": 991189
+    },
+    "event_pair_results.json": {
+      "sha256": "a25cb0179f0f527b86d309d06da2c8ebb33d2e1afda63d0ff54ce5f5d7059a8e",
+      "size_bytes": 261241
+    },
+    "experiment.py": {
+      "sha256": "13bfcd0be75c6896eb2678dea799b656e44cc6a71cff8d1ff2fa320cd8e6ccc2",
+      "size_bytes": 19719
+    },
+    "input_manifest.json": {
+      "sha256": "680e907ec1aba6d21a94f44d29f740144edda33d91da6163cbb4bc6719ef5864",
+      "size_bytes": 2732
+    },
+    "report.md": {
+      "sha256": "7d80d4be2493169d8fd5080021f66318a2132d0abf8b8e87d2a774f2ea946361",
+      "size_bytes": 4879
+    },
+    "result.json": {
+      "sha256": "5faa6fe772dd4f6211bfe00646d4cdbde8d904082cef80c18ea53da2e240ee29",
+      "size_bytes": 34142
+    },
+    "symbolic_pair_authority.json": {
+      "sha256": "10cee0e96fc21b854714f426ca27543b94a63071b19861c7e28832f7e790fbf7",
+      "size_bytes": 94051
+    },
+    "verify.py": {
+      "sha256": "08a51cb9318811f35591f2665dc5ab593bf7f154f91a59c330db6d5adc9bd152",
+      "size_bytes": 5344
+    }
+  },
+  "experiment_id": "H-CEDVAL003-CALIBRATION-ZERO-01",
+  "schema": "JGA-CALIBRATION-ARTIFACT-MANIFEST/v1",
+  "scientific_fingerprint": "589ee3c15783556bd0e5b7b6df53822dff56c1eddfb6d17476aa3152adef5270"
+}

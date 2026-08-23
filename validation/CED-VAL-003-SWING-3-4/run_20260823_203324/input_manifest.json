@@ -1,0 +1,51 @@
+{
+  "dataset_fingerprint": "9345f5923055a7ed1c953eee4b8613f2b2262c55cd2e5f094d489d097c37f790",
+  "dataset_id": "CED-VAL-003-SWING-3-4",
+  "execution": {
+    "numpy": "2.4.6",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "experiment_id": "H-CEDVAL003-CALIBRATION-ZERO-01",
+  "frozen_inputs": {
+    "/Volumes/SSD Track/JGA/datasets/CED-VAL-003-SWING/steams/CED-VAL-003-SWING-3-4_bass.wav": "bd702128f0b6e9887ccfae104ee0af6b2b4307c2021bb826fd85fec669322429",
+    "/Volumes/SSD Track/JGA/datasets/CED-VAL-003-SWING/steams/CED-VAL-003-SWING-3-4_drums.wav": "11bd51037126608d7052ae0bb2b01d77b86eccae46d60ca088d3d5f57cccc44d",
+    "/Volumes/SSD Track/JGA/datasets/CED-VAL-003-SWING/steams/CED-VAL-003-SWING-3-4_piano.wav": "64b95f5c41bb2bc102c68ffb2fa9b0215a2397e749f671ba2891378533302065",
+    "/Volumes/SSD Track/JGA/datasets/CED-VAL-003-SWING/symbolic/CED-VAL-003-SWING-3-4.musicxml": "f74856b2766db824536bdbab0b3ab62dbcf8460c780272b88df13dec8620f4c2",
+    "/Volumes/SSD Track/JGA/datasets/CED-VAL-003-SWING/symbolic/CED-VAL-003-SWING-3-4.sib": "f5d67d5e612e820ee8213ed02bf0d3303056ae5101d08f7c6e881b8e4252c477",
+    "validation/CED-VAL-003-SWING-3-4/input_authority_manifest.json": "f53ce38c5324981753310736e47dd2620364e9a1a71848af50b4d5fb35d5e085",
+    "validation/CED-VAL-003-SWING-3-4/preregistrations/H-CEDVAL003-CALIBRATION-ZERO-01.md": "2f62d18830ed87cd210ac31f89310a9130e1b0bf29cacce62b6eefe873ff792b",
+    "validation/CED-VAL-003-SWING-3-4/run_20260823_203324/calibration_symbolic_events.json": "fcb56adb0dfd6361ab6173107fc2f90d293caf8ca87d3fbc2e6b36e393f6a199",
+    "validation/CED-VAL-003-SWING-3-4/run_20260823_203324/symbolic_pair_authority.json": "10cee0e96fc21b854714f426ca27543b94a63071b19861c7e28832f7e790fbf7"
+  },
+  "h02_executed": false,
+  "midpoint_seconds": {
+    "decimal": "24.38095238095238",
+    "denominator": 21,
+    "exact": "512/21",
+    "numerator": 512
+  },
+  "observation": {
+    "beat_reference_consumed": false,
+    "declared_meter": null,
+    "declared_metric_reference": null,
+    "frame_spacing_seconds": {
+      "decimal": "0.011609977324263039",
+      "denominator": 11025,
+      "exact": "128/11025",
+      "numerator": 128
+    },
+    "hop_samples": 512,
+    "pipeline": "jga.pipeline.default_analysis_pipeline.AnalysisPipeline",
+    "sample_rate_hz": 44100
+  },
+  "origin": "DECLARED_SIBELIUS_EXPORT_FROM_BEGINNING",
+  "provenance_revision": "PR-CED-VAL-003-SWING-3-4-001",
+  "scope_seconds": {
+    "decimal": "48.76190476190476",
+    "denominator": 21,
+    "exact": "1024/21",
+    "numerator": 1024
+  },
+  "source_revision": "6a373b9edd04758a3ca85534ccb6f3713707e93b"
+}
