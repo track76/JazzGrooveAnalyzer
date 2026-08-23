@@ -1,5 +1,16 @@
 # JGA Project State
 
+## CED-VAL-003 Within-Cell Strength Discriminability Preregistration
+
+Status: FROZEN — NOT YET EXECUTED
+
+- `H-CEDVAL003-WITHIN-CELL-STRENGTH-DISCRIMINABILITY-01` freezes exact
+  binary64 within-cell ordering over the accepted 56-cell strength artifact.
+- Unique maximum, exact tie and unresolved classifications are physical
+  discriminability only; they cannot select correspondence or change H02.
+- Ground Truth, thresholds, tolerances and cross-source comparisons are
+  prohibited.
+
 ## CED-VAL-003 PulseCandidate Strength Measurement Authority
 
 Status: PASS — FROZEN MEASUREMENT AUTHORITY
