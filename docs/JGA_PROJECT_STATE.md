@@ -1,5 +1,24 @@
 # JGA Project State
 
+## CED-VAL-002-SWING Calibration Zero Preregistration
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-CEDVAL002-CALIBRATION-ZERO-01` binds exclusively to corrected provenance
+  `PR-CED-VAL-002-SWING-002` and dataset fingerprint `631eaf01…`; the
+  superseded pre-correction authority remains historical evidence only.
+- Before EME comparison, execution must freeze exact-rational symbolic-event
+  and exact-equality symbolic-pair authorities from corrected MusicXML.
+- Contributor-separated midpoint-cell correspondence, absolute and pairwise
+  quantities, 512/44100 frame description, exact WAV-scope halves, minimum
+  support 10/5, deterministic 10,000-resample median bootstrap, ambiguity
+  sensitivity, bias/stability criteria and outcome vocabularies are frozen
+  before result access.
+- CED-VAL-001 numerical calibration evidence does not transfer. No correction,
+  production behavior or H02 execution is authorized.
+- Preregistration:
+  `validation/CED-VAL-002-SWING/preregistrations/H-CEDVAL002-CALIBRATION-ZERO-01.md`.
+
 ## CED-VAL-002-SWING Corrected Controlled Dataset
 
 Status: CORRECTED INPUT AUTHORITY FROZEN — CALIBRATION PENDING
