@@ -1,0 +1,10 @@
+{
+  "experiment_id": "H-VAL001-CALIBRATION-PAIRWISE-01",
+  "status": "PASS",
+  "preregistration": "validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-PAIRWISE-01.md",
+  "preregistration_commit": "f7ce7927d1cad8f44fbfabcda4a40ba12de1c95b",
+  "run_id": "run_20260823_095617",
+  "voice_status": "DEFERRED",
+  "production_impact": "NONE",
+  "correction_authorized": false
+}

@@ -1,0 +1,46 @@
+{
+  "absolute_calibration_environment": {
+    "architecture": "arm64",
+    "librosa": "0.11.0",
+    "numpy": "2.4.6",
+    "operating_system": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14",
+    "run_id": "run_20260823_070702",
+    "scipy": "1.18.0",
+    "soundfile": "0.14.0",
+    "source_revision": "93bca5c9141dc6752890a9aa003fe57e2ca45131"
+  },
+  "experiment_id": "H-VAL001-CALIBRATION-PAIRWISE-01",
+  "frozen_inputs": {
+    "recordings/validation/ground_truth/03 THE COST OF LIVING versione intro + 8 bar.musicxml": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "recordings/validation/stems/double_bass.wav": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
+    "recordings/validation/stems/drums.wav": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+    "recordings/validation/stems/piano.wav": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e",
+    "recordings/validation/stems/tenor_sax.wav": "89dd7e5c6063d3c4d5e4ac59c9119c265df4257dfb1b4a1e01b5f117ee87182e",
+    "validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-PAIRWISE-01.md": "c5e066a46f6b6f8a46f6330aff5e5fb774f981f3ee38fbe0386bd95c48eacc06",
+    "validation/VAL-001/run_20260823_070702/calibration_symbolic_events.json": "038a970994dcb42961d115c6b5c7dd2a05c714b52f5fec3a1756133b5cdedd9f",
+    "validation/VAL-001/run_20260823_070702/event_level_results.json": "13fd9baa9510aa16acbec26547b2d732f0133f6090cda3fb5c1159b31d39c875",
+    "validation/VAL-001/run_20260823_070702/input_manifest.json": "71bc3439eddf781c6fed531d29e67340616ca3ab8352904dfa53b68e38c02600",
+    "validation/VAL-001/run_20260823_070702/result.json": "406f7ad0de0f95bf03272d0f058ab47d27b9f496e55b733453a026d7a9c61062"
+  },
+  "observation": {
+    "detector": "jga.engines.pulse_candidate_builder.PulseCandidateBuilder using librosa.onset.onset_detect defaults",
+    "detector_source_revision": "93bca5c9141dc6752890a9aa003fe57e2ca45131",
+    "hop_length_samples": 512,
+    "sample_count_per_channel": 1865728,
+    "sample_rate_hz": 44100,
+    "temporal_scope": "[0,1865728/44100) seconds"
+  },
+  "preregistration": {
+    "path": "validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-PAIRWISE-01.md",
+    "sha256": "c5e066a46f6b6f8a46f6330aff5e5fb774f981f3ee38fbe0386bd95c48eacc06"
+  },
+  "sample_zero_relationship": "MusicXML score time zero = WAV sample zero",
+  "source_revision": "f7ce7927d1cad8f44fbfabcda4a40ba12de1c95b",
+  "symbolic_pair_authority": {
+    "path": "validation/VAL-001/run_20260823_095617/symbolic_pair_authority.json",
+    "scientific_fingerprint": "f5c424a3f8de3b35c60d2ae9e3f41527a93ed4f84f5d8cc992a837a2489f5b28",
+    "sha256": "ba6a02764967565ab85869d43e636aa0305356c504fafbe999a71b3c56595a2c"
+  },
+  "voice_status": "DEFERRED"
+}

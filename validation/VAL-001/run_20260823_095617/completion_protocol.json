@@ -1,0 +1,13 @@
+{
+  "experiment_id": "H-VAL001-CALIBRATION-PAIRWISE-01",
+  "protocol_executed_unchanged": true,
+  "symbolic_pair_authority_verified_before_pairwise_calculation": true,
+  "deterministic_replay": "PASS",
+  "bootstrap": "PASS — deterministic 10000-resample median intervals reproduced",
+  "independent_arithmetic_verification": "PASS",
+  "full_suite": "1078 passed, 1 environment-dependent external-storage failure, 3 warnings; MPLBACKEND=Agg",
+  "raw_observations_unchanged": true,
+  "correction_authorized": false,
+  "production_code_changed": false,
+  "bootstrap_document": "regenerate after scientific-record commit"
+}

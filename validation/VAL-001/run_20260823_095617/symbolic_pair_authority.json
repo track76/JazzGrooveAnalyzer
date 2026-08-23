@@ -1,0 +1,1749 @@
+{
+  "authority_status": "FROZEN",
+  "counts": {
+    "Double Bass": {
+      "ambiguous_symbolic_pairs": 0,
+      "symbolic_source_events": 28,
+      "unmatched_symbolic_pairs": 9,
+      "valid_symbolic_pairs": 19
+    },
+    "Piano": {
+      "ambiguous_symbolic_pairs": 0,
+      "symbolic_source_events": 49,
+      "unmatched_symbolic_pairs": 13,
+      "valid_symbolic_pairs": 36
+    },
+    "Tenor Sax": {
+      "ambiguous_symbolic_pairs": 0,
+      "symbolic_source_events": 12,
+      "unmatched_symbolic_pairs": 3,
+      "valid_symbolic_pairs": 9
+    }
+  },
+  "jga_timestamps_accessed": false,
+  "pair_rule": "exact-rational-timestamp-equality/v1",
+  "records": [
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-cf6f5e448ae107f84deb4c76f3292a879db51fe5a57a4a0a6c5af28827e57758",
+      "source_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "0/1",
+        "numerator": 0
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-5316a40016867c454801276e27af03f98eb805704a442731e4af0a8841062c39"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-02337f920e35b965e5e9e6b55d5722fd5108d19af7696d1ba9b7190d444a364a"
+      ],
+      "drum_symbolic_event_id": "CSE-02337f920e35b965e5e9e6b55d5722fd5108d19af7696d1ba9b7190d444a364a",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "5/13",
+        "numerator": 5
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-7482a69d60921e5fd0caa576ef2fea1f1e62537cf3154e688be92f0a952329c8",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "5/13",
+        "numerator": 5
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-807c64a911b7615ae4167ce918ea6dba6d023bc80343bfbd6c9dc45bc73fc8d7"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-02337f920e35b965e5e9e6b55d5722fd5108d19af7696d1ba9b7190d444a364a"
+      ],
+      "drum_symbolic_event_id": "CSE-02337f920e35b965e5e9e6b55d5722fd5108d19af7696d1ba9b7190d444a364a",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "5/13",
+        "numerator": 5
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-1d12193a05ace0b39aeddb929256569ff64b31eeb9de4757c992a125cafa69ef",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "5/13",
+        "numerator": 5
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-4b6ac787b0b0dda2fe5db907470e9e394a702db28e663ff2a4487c19bec82e74"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-23771bb00561970a101d22bd81290f1c8d87ec06b08a6d15d66abd95bc1bc21a",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "10/13",
+        "numerator": 10
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-9b0a449942ff4d135ed0cb03d5a19651ab9cce60bfc0bfe68f2ba81a25a2532f"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-f722ad3bb99b40aeba86838a8b977bde1be037da54569992c1576afbc6fc25a9"
+      ],
+      "drum_symbolic_event_id": "CSE-f722ad3bb99b40aeba86838a8b977bde1be037da54569992c1576afbc6fc25a9",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "15/13",
+        "numerator": 15
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-ad47351575db4391546841d316075c4a5ef2babfe1aeb95be03d40e6b1385f30",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "15/13",
+        "numerator": 15
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-89aa44b0aad2113d8d0a81e9c5de45aa1d0e820556dee66957702b8a5621481c"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-c2474b55058b3a424a856a57503cf9b289b9b4b840965f072cca7108980876db"
+      ],
+      "drum_symbolic_event_id": "CSE-c2474b55058b3a424a856a57503cf9b289b9b4b840965f072cca7108980876db",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "20/13",
+        "numerator": 20
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-89bc6f3c9c674f7886232674a5f5416c7af80b51bb845bb3b688546d8586150f",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "20/13",
+        "numerator": 20
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-0076450de5da851c9fa5c80c2a5c0580a3e8edcb374265a13d72369aabc42f84"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-a68b5176d178164357c5da16db506b2f49699980746ddc312fc1cad758791a0b"
+      ],
+      "drum_symbolic_event_id": "CSE-a68b5176d178164357c5da16db506b2f49699980746ddc312fc1cad758791a0b",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "45/13",
+        "numerator": 45
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-f991cdc85bae38792dd69b7272e26e4f7c125f2c8b3256e3bc321040c7685103",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "45/13",
+        "numerator": 45
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-ba11189acaa651011b6726b9787fba63d13fdf3a1849c078541823faf92e172d"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-a68b5176d178164357c5da16db506b2f49699980746ddc312fc1cad758791a0b"
+      ],
+      "drum_symbolic_event_id": "CSE-a68b5176d178164357c5da16db506b2f49699980746ddc312fc1cad758791a0b",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "45/13",
+        "numerator": 45
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-70fa1e18d38ba4ab6817d52afc3b2479254e06ab0cafa78e7dbd5269cba386c5",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "45/13",
+        "numerator": 45
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-80fe0f161e664a5e36344dfab7a8b0bb77b358a09e2c8d6bfcf32eb29bcab49c"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-04dbae9737fb9353bb17181ba6ef521457cb1ddb2895223a5805b83e9fa5470c",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "50/13",
+        "numerator": 50
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-69a2d3d25b6f0d0140d37988f223549648d632c536d24aabc472f00f881fec08"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-5e6a483333ef35b64697ad3b5a3504df35b5354f69c1350e5ff1f9f8d71e797d"
+      ],
+      "drum_symbolic_event_id": "CSE-5e6a483333ef35b64697ad3b5a3504df35b5354f69c1350e5ff1f9f8d71e797d",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "60/13",
+        "numerator": 60
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-7b0aa530acc43349c18e446d67d90e01fb52a711279543bd5ade2990998346ef",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "60/13",
+        "numerator": 60
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-0ca7310beae812f0c8ef2c1cf1c95a5d851aa6f0bc31d1069085459328b30d8f"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-77e7fa058644d9d6960b50de32655467576d95ebfe8f63c682426a921ce4b06e"
+      ],
+      "drum_symbolic_event_id": "CSE-77e7fa058644d9d6960b50de32655467576d95ebfe8f63c682426a921ce4b06e",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "70/13",
+        "numerator": 70
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-6cbdd5abae017872e4d69befb7745d8e0346b451171deafb1345f0731b907002",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "70/13",
+        "numerator": 70
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-598f30fb8ec7cb4f346857e7140ab06d6c7aea43c0cba807259269d0e479b8d7"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-c2b916e37ac22c088c8f07c3968fee6e004cb5f4bde91a348df889101ab18fb7",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "80/13",
+        "numerator": 80
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-dc1f73a66cab6e7f52686292df5db0b7478f41b301baee0aa8fff84493dfdae1"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-5f5e9ad84dbb2603d1992cbb83a88a00d3146e0f8c6d6e37ed6295314cd5321d",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "85/13",
+        "numerator": 85
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-26bc36558d36851cffee98685e159ddefec6bc99fc333142dd8caa110a54380b"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-d9b8b6c53a3997c919a7f1ae43004a41e5a2e65b7ba8ec7a98b7d0fe034249ce",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "85/13",
+        "numerator": 85
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-d514b5eb3540f7efeee615c1423f221fe8ec9b5cbe8bb5ca4e097933cea9fbbd"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-118208d04e00cc27ce3b18c2245eac0602b08f94f7f3b57ea2119c12e299306a",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "90/13",
+        "numerator": 90
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-ba1f795dabad264b319bf84b9adb18e01d01d8957496943f99a2d1ad42b1809c"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-4b3d2e499a03051e6c78ddff3a5d9c197deb10f336d9ca54ce78726277d78917"
+      ],
+      "drum_symbolic_event_id": "CSE-4b3d2e499a03051e6c78ddff3a5d9c197deb10f336d9ca54ce78726277d78917",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "95/13",
+        "numerator": 95
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-9235b60ae0843fdb44c08df6e8cfc10098cd5b005be3234b301efce69eb2503f",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "95/13",
+        "numerator": 95
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-24ce5dd126c5c1ef7600f806018a57462faec189ed095c4b61890ba9fb15d6b3"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-24c4471bb5f36805ae9dc90b1084f8855bde4f5de2b3c55e2c3c5d4d1c5d656c"
+      ],
+      "drum_symbolic_event_id": "CSE-24c4471bb5f36805ae9dc90b1084f8855bde4f5de2b3c55e2c3c5d4d1c5d656c",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "100/13",
+        "numerator": 100
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-6c23ceb4df4f37ea1b04e919a5ac4b56682643be0398100dd101ce5622ab3c0f",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "100/13",
+        "numerator": 100
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-ccdb97b16c28d2737dc0156a986f79f8bfae5f196c5ef35bdc97fd2d3d41ec36"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-5c0577379f605e827ff1e339fa81ee08d75e00ddc98ef69abcfe4c3be5a18aa7"
+      ],
+      "drum_symbolic_event_id": "CSE-5c0577379f605e827ff1e339fa81ee08d75e00ddc98ef69abcfe4c3be5a18aa7",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "125/13",
+        "numerator": 125
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-7c7a289f46d5be7d9c1360df8050bec5026110a4ef8cd6cef3a5af547a49346d",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "125/13",
+        "numerator": 125
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-63d0696baed6fa88300697066fef76a5e21e3063cb553ad37fc0f68003d646a2"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-5c0577379f605e827ff1e339fa81ee08d75e00ddc98ef69abcfe4c3be5a18aa7"
+      ],
+      "drum_symbolic_event_id": "CSE-5c0577379f605e827ff1e339fa81ee08d75e00ddc98ef69abcfe4c3be5a18aa7",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "125/13",
+        "numerator": 125
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-0d114582a6996fdf1ba2415044fe02400bb2087e169fb9550a12c5ca96bf502a",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "125/13",
+        "numerator": 125
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-46fccbddac21f114b21b5d6756bcc3d0537c03de218e1dff18f373b145545a14"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-6afd5a87e139a32e9c7951b4253495cc9f034f38c8ea3d350d04592d762193f7",
+      "source_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "10/1",
+        "numerator": 10
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-27e43e92a0acfd2038cd86cc86b32f3aad46f89647bf3ea82a5330fb67b5d55b"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-100ccf74ea1245ec4cf466f94143df50a26d3d6b631714a664c689ce45e6df47"
+      ],
+      "drum_symbolic_event_id": "CSE-100ccf74ea1245ec4cf466f94143df50a26d3d6b631714a664c689ce45e6df47",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "140/13",
+        "numerator": 140
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-4b48cc19e9e2df30485eed7051d0972c6ea355de42a92d0c3644cc64750a84b0",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "140/13",
+        "numerator": 140
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-8ddf33d41c0f82726b9aad55570b6390b652f55ab95dfb7fd07efaf9fb76a911"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-5276d51395373b8a3897c4e62af8a48459e73ffacbdc768861d5222dd90f1868"
+      ],
+      "drum_symbolic_event_id": "CSE-5276d51395373b8a3897c4e62af8a48459e73ffacbdc768861d5222dd90f1868",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "150/13",
+        "numerator": 150
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-d20ef50e153299929e71f531731703b70e4a2561c642810c8d4ab745b1dd03c7",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "150/13",
+        "numerator": 150
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-1181d6d0c77d3898507ec2f0732d3f058235c74f3df8a919e6b92fb77330ba1a"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-a93c40624d88d5057576ff77ed7f7c8c17ef79a776f2dbc1e85d755147a65007",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "160/13",
+        "numerator": 160
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-5b96d6eddd0181f62b4cae187b1766148f9cc54d050dcaa24fbc54d55864ff92"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48"
+      ],
+      "drum_symbolic_event_id": "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-ed3209bbdd99845bc47213fa1c372e0f6c4fe47d2df5913333802d2814cbee2d",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-3d7c4cc9eede714386c37541ffa8006a52efe3f1964ec43c0af56065df8f2f99"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48"
+      ],
+      "drum_symbolic_event_id": "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-e96e21ffbfeb6b18e13c910691d226f499cb3cc841a2d785877adec6f306f034",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-00f32f0a69f672e58d283255e2a8b4ea4bf21e3b3fdda5998622cd78f5201a72"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48"
+      ],
+      "drum_symbolic_event_id": "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-e7e641e8a67e6e7bebb8ebf9ec2b6fb2773b2553e15114ffa2eefdc886247e89",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-769e72b1af033f8f5a3e9b2904fb2aab096ab966ec6b6b6acb8a285119033301"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-60bed029e58816e94c897393ef9ed2ab383470ce63238f2beb6781e48b0e7222",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "170/13",
+        "numerator": 170
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-bb19be6ce1960d25417b889c02e0c87c391d120893a1d804eba22cdb77c9ec29"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-78cd4906d6de020e57ebf35ea36ea7ceeb5e7a0d9a388b67dc0ec30bac3d3510"
+      ],
+      "drum_symbolic_event_id": "CSE-78cd4906d6de020e57ebf35ea36ea7ceeb5e7a0d9a388b67dc0ec30bac3d3510",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "175/13",
+        "numerator": 175
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-fe8b743c69d7fc1fabd2e1ac94d871bb5be7ff45f6f9e0373942a85ba41594cb",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "175/13",
+        "numerator": 175
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-61ced5172df934ba7e7378ca53f2216a9007b1ca9c90872455700effa63e173f"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-083869724970a223e39b37dedef3952234967d3a5112eeb17218f0441e0055e1"
+      ],
+      "drum_symbolic_event_id": "CSE-083869724970a223e39b37dedef3952234967d3a5112eeb17218f0441e0055e1",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "180/13",
+        "numerator": 180
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-a2edf8f2ddba44a62ebbcca80fab828ae908b94db16d81759a8522c616a92e55",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "180/13",
+        "numerator": 180
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-0b1cb2d407f084ec9d0e674ab8cac7df7c559dfcd802736287b5f3d8694e3317"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-083869724970a223e39b37dedef3952234967d3a5112eeb17218f0441e0055e1"
+      ],
+      "drum_symbolic_event_id": "CSE-083869724970a223e39b37dedef3952234967d3a5112eeb17218f0441e0055e1",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "180/13",
+        "numerator": 180
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-1a5d5542c268b611cb38af899d9a6d98b949084fa4836fb586e2c3bdd6b91114",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "180/13",
+        "numerator": 180
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-6cffab923a595d7a56d6880ffc4553023604d5d2be2900b87e1c8930a1ae31e0"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-357c34ae446b6aabb9c61c6bdd39154d716fa408947d25d86ffe93168d61110d",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "200/13",
+        "numerator": 200
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-d7d3493cbd23a1f63130bed1ab78e1860a60cf074da325ef8636c914801d952a"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-8ccba58d4056c56a35e588330935d35af74777955e892b737882bf0f1d618126"
+      ],
+      "drum_symbolic_event_id": "CSE-8ccba58d4056c56a35e588330935d35af74777955e892b737882bf0f1d618126",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "205/13",
+        "numerator": 205
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-4a3eb32d971404ce618db6e0917e2190930c0f20b6159219ba67671cec7fff4e",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "205/13",
+        "numerator": 205
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-4b32d3c62749609f7e58bce72bce9667400e3217d735c4ad09b2f0c233e8a3eb"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-8ccba58d4056c56a35e588330935d35af74777955e892b737882bf0f1d618126"
+      ],
+      "drum_symbolic_event_id": "CSE-8ccba58d4056c56a35e588330935d35af74777955e892b737882bf0f1d618126",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "205/13",
+        "numerator": 205
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-74644b6b7830b45ae7f2f13605dfd2c1fb40056c0e831b4f4dcbe1d03bfb9931",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "205/13",
+        "numerator": 205
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-e1d39ef981a0da8ebfbf1e74b45ca8d16c122137f0c7b63c6b96d797996c2b3b"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-ba0316b81908cfd87bb1b2a05df104c394dd0f974f17a744d4b519bed9139f37",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "210/13",
+        "numerator": 210
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-8fca50e3a65da3cce2987eb0af28e52d6c61516008e75c3854bc7abd29f46c48"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-23c8d7843d4d6f11a8d60a947961adb2e047aacebad32695cb01b786e8ec348f"
+      ],
+      "drum_symbolic_event_id": "CSE-23c8d7843d4d6f11a8d60a947961adb2e047aacebad32695cb01b786e8ec348f",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "220/13",
+        "numerator": 220
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-6e83d74bf14a6f1ed630a224ddc6aacba56f4742ddfdbe92963abd576a0d5460",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "220/13",
+        "numerator": 220
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-efaf4519144e4cd047814b5bd1d5a9316ee3054204752d74c10c381ce38cc1d1"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-23c8d7843d4d6f11a8d60a947961adb2e047aacebad32695cb01b786e8ec348f"
+      ],
+      "drum_symbolic_event_id": "CSE-23c8d7843d4d6f11a8d60a947961adb2e047aacebad32695cb01b786e8ec348f",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "220/13",
+        "numerator": 220
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-5cd790bc75832477bf902a91e0327605fb9610608a221bd44a5212151b09f95a",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "220/13",
+        "numerator": 220
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-5bfa66dcc5dadc725550690b4465d55c57fb6c445ec091ad5b55f4a2f4abea05"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-dd8078a0dd91a03144e8dc846ab6324078b43c72453bba8e58de5f9f4449e350",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "240/13",
+        "numerator": 240
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-03513e0efcecaa6c8cc52e3faffa61d18bef9b45ccda815294349270fc28f9b5"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-4aebb678152e66caff15e9de6bfd91aeb2cc69e24dc03fcde5e0fb4779be7539",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "240/13",
+        "numerator": 240
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-ef200de00de2e37057743f3b537a39e6f99174f201239b1d398a9be8c5d63210"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-0a82ef221739f1b1617061913cbcac25f8c8dbe4b48bea28810f29bcb71422f4",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "240/13",
+        "numerator": 240
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-3846d4fffffdcdb962acf8f2fb081c7d5277b90ed3bedbea6f16bf2e44c2bcf6"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f"
+      ],
+      "drum_symbolic_event_id": "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-8e0d4c700883b0d59a5339e13a868fef1263e7a43c79fead9fd21b68ae9521fd",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-e743bfee775b4079d5fb4a1fe3d91f05fba6df778f8e771e97591d82c35a9f0a"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f"
+      ],
+      "drum_symbolic_event_id": "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-28b6056257cc141222148adf599ca18749c8bd4c5ba7579617b7533db213f2c2",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-adf1258e9b4787816b3a1530890c18778cd89b7ae3a262c0f691de855e5c26b1"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f"
+      ],
+      "drum_symbolic_event_id": "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-a9f1a121d2bb47234e60050339032c20e3b96b6817e8d33e8eb3021ba2441fab",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-ff74efcb6faf8697dc6b972d23d0bd6aa7acb606283d88e3e96e5fb8122f5af9"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-18a1be73cb0530ae03990678d67243b3edcae6c5ec99aca6ee795c485fc2542e"
+      ],
+      "drum_symbolic_event_id": "CSE-18a1be73cb0530ae03990678d67243b3edcae6c5ec99aca6ee795c485fc2542e",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "250/13",
+        "numerator": 250
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-2568032a384f3da8d3a9874a2d3702e742fa3126962d4b3cad026f015c4fb681",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "250/13",
+        "numerator": 250
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-1c6ce869ef8cc3b4cc51c87a98807a46333d1ff3cdbaaa879f69c126effd1daf"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-0961d91ba4865c6ce82d1c59e1def76f8f0463ca208fd4d773ece4275fabef0e"
+      ],
+      "drum_symbolic_event_id": "CSE-0961d91ba4865c6ce82d1c59e1def76f8f0463ca208fd4d773ece4275fabef0e",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "255/13",
+        "numerator": 255
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-aaf3752da783010ab8d443d624017e6a06496d586da60cbd902110367ede791d",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "255/13",
+        "numerator": 255
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-14f2988241358059e872393631a3d62fe26b51948d99e579690afb28c2f20c5e"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-d9b8f39778e1bce4863873e4e5433298e0c4ec9f1ce0a7504c7d9880bc10b9bb"
+      ],
+      "drum_symbolic_event_id": "CSE-d9b8f39778e1bce4863873e4e5433298e0c4ec9f1ce0a7504c7d9880bc10b9bb",
+      "drum_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "20/1",
+        "numerator": 20
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-60e3fd17cf0ed5a7cb35f5e4ef06c8bb967640d1ea540ab7c695b5e56e060327",
+      "source_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "20/1",
+        "numerator": 20
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-532ac039c332788607453ad8a5d67936d9911a73b55bdd5225144b0790673e20"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-93b1a5b97b6474f903bd885a48f849035c2e6af711a0a560b57b199378f8f063",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "280/13",
+        "numerator": 280
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-55963c09a5fe3d7928dbee85bf4b91669cf38d6972d96e0f4d57f9b916a13ab1"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-9ea7ce022478997dcbb5e40707a8ad555ffc51efad6100ee36fbdab9343e6812"
+      ],
+      "drum_symbolic_event_id": "CSE-9ea7ce022478997dcbb5e40707a8ad555ffc51efad6100ee36fbdab9343e6812",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "285/13",
+        "numerator": 285
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-77b382f798fe7595aac71de868078c03adbab9ccb63582f2d70c998ad7d64a0f",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "285/13",
+        "numerator": 285
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-b5fd98dfd12784724dea452f3d98a0d4e66242209ad9c041f0a0208f7593dffd"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-9ea7ce022478997dcbb5e40707a8ad555ffc51efad6100ee36fbdab9343e6812"
+      ],
+      "drum_symbolic_event_id": "CSE-9ea7ce022478997dcbb5e40707a8ad555ffc51efad6100ee36fbdab9343e6812",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "285/13",
+        "numerator": 285
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-309a078577fa5743bd3f5a13dcd39b27b8dbe14f5a0a14b459f33285844d9d22",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "285/13",
+        "numerator": 285
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-668da5adb9572b15ab2df65cc218dd3dda7932ca00d7c31ae48d8b6973c317e5"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-7700a9644f4e8546f65979abd5e48c61e89146a9c7dcaffd332afdacc7bde58a"
+      ],
+      "drum_symbolic_event_id": "CSE-7700a9644f4e8546f65979abd5e48c61e89146a9c7dcaffd332afdacc7bde58a",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "290/13",
+        "numerator": 290
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-3f0d1a9e6d42738b35574c88023a2fffd5dc59b1ec5ad02b41c4620227ef108f",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "290/13",
+        "numerator": 290
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-6cc9aa6147d9c18560bceb71165956f0e6839eebda2c885e7b677924631fb4ac"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-7a4e8a010d65405ba5b811c8e8950111c2f2a8e5626faf2b9a6fd811b0dd59b4"
+      ],
+      "drum_symbolic_event_id": "CSE-7a4e8a010d65405ba5b811c8e8950111c2f2a8e5626faf2b9a6fd811b0dd59b4",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "300/13",
+        "numerator": 300
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-14fb3b459efb5c196fc1995cb1b2be6442823ba697ed00d4fb7b1c6bdbe3f2b9",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "300/13",
+        "numerator": 300
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-7b43041312e0d9c44406be16721a809d513db554b1be12e27dfcd4733be8e4c3"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-35656a1894bdc924187991d521c9c4ad13db9926f3e4e6c7829f09567eaf1f8a"
+      ],
+      "drum_symbolic_event_id": "CSE-35656a1894bdc924187991d521c9c4ad13db9926f3e4e6c7829f09567eaf1f8a",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "305/13",
+        "numerator": 305
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-547e111a413bc273f719f4b616f8f0e2da0b4da6971943f62e4c2b51e003e32b",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "305/13",
+        "numerator": 305
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-ee32a0aeca58af1969455969f3bc0be4c8405d52bda6b4b85b22ed0afaf12861"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-6c7a1e1bfeedebca4717ff15aa2702bfb5d58a9f685e5c904caa99db5e40b468"
+      ],
+      "drum_symbolic_event_id": "CSE-6c7a1e1bfeedebca4717ff15aa2702bfb5d58a9f685e5c904caa99db5e40b468",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "315/13",
+        "numerator": 315
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-33fb7847cb46754a268af14e4e0be9011be92914c8fa59ac133b981481ce990d",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "315/13",
+        "numerator": 315
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-93129f0efb390a57f76f6a7f9a38515a296c31a8edc6162eda1e0edf556bc927"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-409d2e001bf63ed953404c8ce32c2d5a4f8bb1acab8f8d896256d0fa9921d550"
+      ],
+      "drum_symbolic_event_id": "CSE-409d2e001bf63ed953404c8ce32c2d5a4f8bb1acab8f8d896256d0fa9921d550",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-7fefb126078590817958b26665955fb5b05776113931d23a475d9341f86d68b0",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-76f78d3387fff807134626fa7ce5a040d731b1534cb97bab4b1a11ced0bbf2c2"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-409d2e001bf63ed953404c8ce32c2d5a4f8bb1acab8f8d896256d0fa9921d550"
+      ],
+      "drum_symbolic_event_id": "CSE-409d2e001bf63ed953404c8ce32c2d5a4f8bb1acab8f8d896256d0fa9921d550",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-d14f76c8993b423f507f7070ddc30002f5e746cee1efab5f1484f7d575d2728e",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-1758dfc1902d479a5803b203a4a0f02c4cdddefdadcd4bd9fd48659f899ae631"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-409d2e001bf63ed953404c8ce32c2d5a4f8bb1acab8f8d896256d0fa9921d550"
+      ],
+      "drum_symbolic_event_id": "CSE-409d2e001bf63ed953404c8ce32c2d5a4f8bb1acab8f8d896256d0fa9921d550",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-221af1d4d6871fedd19e1c608a3c9c3c963b751db7406813827c97f8d6d031f6",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-3d07a778497649abacf402c7f3db17d7b7dce641ae1ff34ad0feefd46c2c2222"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-ce2806837c021d676d715d0be7aae875b577d98f10c73a0d5d7fffb0663cc6e3",
+      "source_t_gt_seconds": {
+        "denominator": 26,
+        "exact": "645/26",
+        "numerator": 645
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-c03bbfac2a847991438b328b40b8074d5e41af55055c1e2e1bb152e14ed1c822"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-6d48f9126162ddd04531606f208466190edfe494b018f811d9f7529bf99a5a73",
+      "source_t_gt_seconds": {
+        "denominator": 26,
+        "exact": "645/26",
+        "numerator": 645
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-0ca73c44dadaf654e1985c550021d2b1af83330d96b554ee27414916aec42d9e"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303"
+      ],
+      "drum_symbolic_event_id": "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303",
+      "drum_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-d61c91e5d02ad7d12a40e3420249d1fa0475e876bdbd419498c0cb54b27bd9e7",
+      "source_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-89a32ffdf3b7b3ee47b61ae49c45ba4ce10b65236adf59a80a5d7ef69f56c8b6"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303"
+      ],
+      "drum_symbolic_event_id": "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303",
+      "drum_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-302ced1f4168711df025b8ffddc17a27133d05c52b4d0b525284820e7077c333",
+      "source_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-05e81970b648325c7ee4d29ac52dac4dc2b3cea527e354d423b265e3d6d9d01b"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303"
+      ],
+      "drum_symbolic_event_id": "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303",
+      "drum_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-2541632d833daced224612674861aedccc3920b3c961d64d4fad0266ba4073ab",
+      "source_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-f46d660119ffacefb54607332024c1c3e376db98fc9b74951f4dcab2ac9adf6d"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-d1aac73d24b0282f3b3ae18e110da0d2eed9cc9dc62b581bbe2364cf59fe4c61",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "330/13",
+        "numerator": 330
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-b51be5617ef9497fc3e8251b697bce6e3ee03fce94e5c545626cb091581dc8e8"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-5b3a876e73acdf96935724d05017936ef1c0eb306e8f9653621b123874b7b267"
+      ],
+      "drum_symbolic_event_id": "CSE-5b3a876e73acdf96935724d05017936ef1c0eb306e8f9653621b123874b7b267",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "340/13",
+        "numerator": 340
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-eb47dbf26701fc2f9b570bb749705cbe4bc6791920eca54454ca8f9c3689bff1",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "340/13",
+        "numerator": 340
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-02311734cee44acf68e98998657423b990e5d8b3fe3c8ec80ca1c6800fe49d1b"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-b2fe7b30f5e7648c1f567866c19ca67a771d0db3f27977a833c6f194bec9254f"
+      ],
+      "drum_symbolic_event_id": "CSE-b2fe7b30f5e7648c1f567866c19ca67a771d0db3f27977a833c6f194bec9254f",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "350/13",
+        "numerator": 350
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-8879b3e13b74c32005c4fce99e75448800c9df9c9bcd0fd5ca8912009a84c3c9",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "350/13",
+        "numerator": 350
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-e473fc8f29590d157b596b0fe86332fbff001c64c795e5ef7e55cea66f7ff9e6"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-eaad0eb043fcdae917944c5548e8a4a96af788e0bdfab68f4533c60dcf4b5192"
+      ],
+      "drum_symbolic_event_id": "CSE-eaad0eb043fcdae917944c5548e8a4a96af788e0bdfab68f4533c60dcf4b5192",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "355/13",
+        "numerator": 355
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-860bceac9f04b4efd6d228f522502ee042d5be2634b82445f333592f6e302753",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "355/13",
+        "numerator": 355
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-70fee5851004aa2a0ef5d0cffcc8d9ca7cede32318aa300a31d3e1eaf73ff993"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-3b8e19b287db01c46eb54294e1d364a8c6d4acb29b042d91460d25e29751e26e",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "360/13",
+        "numerator": 360
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-86281d96e3235403d1ef689e7be1962a4f0e03e0178ee1156d9c6fc0544725d6"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-f23ebf44de919ccf041b332ca3ec9812053b73eeab7b816c1466b05a857151e9",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "360/13",
+        "numerator": 360
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-80c88b0f82a6ce9f7eca77739bc0444fd37ceed3ac57c23cd8dc63fb42b14ec0"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-c0882b97212b41db34da7b47726e240251fe0636f692595ea950c563f2330793",
+      "source_t_gt_seconds": {
+        "denominator": 26,
+        "exact": "725/26",
+        "numerator": 725
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-a1e53e3813ed2ecb283b12f84526189e45e27d4a5f47960bf21bf381c9b70033"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4"
+      ],
+      "drum_symbolic_event_id": "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-feba8530e52ea351490c31afd71e488f3b26a1d8de3731451b34a7223e04292a",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-7a63df387b3c523ab330b83d9675a0f5b22148068d266ec4a51870b5a32e3b0b"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4"
+      ],
+      "drum_symbolic_event_id": "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-783c3ecf365ddb1b54f6a5fe7ae64842a8dd7f01d52e85e1af0404980d4499fe",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-a680fe6ffcc87ce45763bb7dfc5dc92c2edd9059354896654fce7b94687177f3"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4"
+      ],
+      "drum_symbolic_event_id": "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-221fd1ac3fc99a57b1f5982b76747cf45f9dbfcfa8335cc16d3badcca485fd9c",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-32f318e31580c97ed78537daa067e6ab8cb61ef50badad60ee46373944c7f4fb"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-27a1b425fe6ee0a4ff90c17817ef54cb925d60a86113c3e3e06e26776e75dfd0",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "370/13",
+        "numerator": 370
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-4544605cd0f1618951a007d6736dd319afe61557c4c2bd9af9451467ef05a69f"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-14bfc02280d88f3804833192b4e4d6ec20d1aeaf7680ee9970fa1b5e432fc407"
+      ],
+      "drum_symbolic_event_id": "CSE-14bfc02280d88f3804833192b4e4d6ec20d1aeaf7680ee9970fa1b5e432fc407",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "375/13",
+        "numerator": 375
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-0fc86782f4758907d5a5b63c6778f733cf7e7a1d5ea68c3a6c68e4257e311a22",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "375/13",
+        "numerator": 375
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-efbbf52ef08237fd0c7248bcc17b35543cdb636b17a54b57b01017be23e83f72"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-5f9e699013e6ae3d6bde6471bb85b055229444ce4ce427edd38e2e3732bbac86"
+      ],
+      "drum_symbolic_event_id": "CSE-5f9e699013e6ae3d6bde6471bb85b055229444ce4ce427edd38e2e3732bbac86",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "380/13",
+        "numerator": 380
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-1cd426f423231ff96a950ba25c64c1db11176533ac0ffb2850a4d04fbd830cce",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "380/13",
+        "numerator": 380
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-2fb4ac5dc69e9f15a4ab7f870746e70ebb74894063da21e2fd684dfd9b42840a"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-5f9e699013e6ae3d6bde6471bb85b055229444ce4ce427edd38e2e3732bbac86"
+      ],
+      "drum_symbolic_event_id": "CSE-5f9e699013e6ae3d6bde6471bb85b055229444ce4ce427edd38e2e3732bbac86",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "380/13",
+        "numerator": 380
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-e9696362727954e7faac980009a9546d155a78eb05e3f0f843dae553c84e2c59",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "380/13",
+        "numerator": 380
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-e8d97a0b4f79831d70f6bee032ab3815e997136f6d1f1a51508e2c38939262e1"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-4a511f8a97a47272520b95a7ac8981c4b9d67d7f670a8834193c954890f7b32a",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "400/13",
+        "numerator": 400
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-872b13ad3d5730377bdddc6cc3c7b5baded7123e287a45b2bdd89281ad5fa063"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [],
+      "drum_symbolic_event_id": null,
+      "drum_t_gt_seconds": null,
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-236f8a1234cfba4064bcc5d78cc5cfcf5f3ec5ad1ab71fffeb013579fea34611",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "400/13",
+        "numerator": 400
+      },
+      "status": "UNMATCHED_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-f4f520553d25591f5e6ddf325801e32c07ecfc4bc21e4d2f259bbb8137711c1f"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9"
+      ],
+      "drum_symbolic_event_id": "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-1fea57eabd42a8484cdbd0bf628a8d5944e25da1e1006d7708871d3f17e2211e",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-eef4632a1e3c322002fa13eb03d62185818516e2947fb62a2f0ef6babadc5cc5"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9"
+      ],
+      "drum_symbolic_event_id": "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-d03366e61df8edbf6d3c7b179fadc9f4448c3f489090a09d6d03514e00e32313",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-3b76cdb78619a012bc86aeb4de60706d4944c58982b631d3bc03b4c7ccf110a5"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9"
+      ],
+      "drum_symbolic_event_id": "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-c70ade3a429b2a8e4002888dd92d3f98bd460785d11d8fe6f1dc1c194d3a7623",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-9d5fb873e51e452f29a41f54d8ca499b2a33837a67ca8ac305c0b33ae1266373"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-6490020a789ff5af78cd8c061ba581d7fda99d41663be5c1cadcf69e8c1e6c42"
+      ],
+      "drum_symbolic_event_id": "CSE-6490020a789ff5af78cd8c061ba581d7fda99d41663be5c1cadcf69e8c1e6c42",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "410/13",
+        "numerator": 410
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-d38dc0f91427539d3e0d49f3191cbed55fce5566f065d381ebed1717d5893c14",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "410/13",
+        "numerator": 410
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-eb9b1d9693bf43c20682e0819cadefa51b2049e25c349890abaf94cad064a481"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-8ff2ae97a7c5a7445713d17112c0afa861527f36def7f25cdda3c9def6f5ed45"
+      ],
+      "drum_symbolic_event_id": "CSE-8ff2ae97a7c5a7445713d17112c0afa861527f36def7f25cdda3c9def6f5ed45",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "420/13",
+        "numerator": 420
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-5e576023268f97c404a52914c22ef90f858c8755c317feabccff5a7f02b1d739",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "420/13",
+        "numerator": 420
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-a050b28a2ebbf115fdc6241c51215085c76ed1e446c7bc7f3bf204282b911942"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-b7584e9d74370a1b53cdba1f4f7cd8d13a537e5788899f764f1d060a7b722a7d"
+      ],
+      "drum_symbolic_event_id": "CSE-b7584e9d74370a1b53cdba1f4f7cd8d13a537e5788899f764f1d060a7b722a7d",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "435/13",
+        "numerator": 435
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-98816358d72870d1610fbd91344089a68e8a7901523414d520e1b05769904054",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "435/13",
+        "numerator": 435
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-4bfc29d10a6273993e6cafe0b2978157a39c886cf5b60232ba7b640daea031b3"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3"
+      ],
+      "drum_symbolic_event_id": "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-62007d488bc15c6bf32ff0618c294539c1c0cbc71dcf4e59f8b9219974203381",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-274c8d46040ba393cbd9c42e99b2a01c6ab8ea1bcccd8f9ee3c6d3d531331586"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3"
+      ],
+      "drum_symbolic_event_id": "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-95ebc76c402da900a3a8277cd8126edd319b595eb4f2f37b9de1ca379f5fbb8e",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-f730d41f7d0d1d377ae8007f1a3b35af7017042fdbaa3325f38fdcf23c0a2966"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3"
+      ],
+      "drum_symbolic_event_id": "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      },
+      "pair_type": "Tenor Sax\u2013Drums",
+      "source": "Tenor Sax",
+      "source_symbolic_event_id": "CSE-fdc60c96801a833c30cf10f1759ba3ec3168dd0e089fb48c5bbd36f61e607875",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-556ce44e3218e487598fb1842e2f2188ae88ada531e3f2f62c737c984d057491"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-36b86074260342508ba4d3fee31bd777c45bc3f2c66affeebfb2427bac820dd2"
+      ],
+      "drum_symbolic_event_id": "CSE-36b86074260342508ba4d3fee31bd777c45bc3f2c66affeebfb2427bac820dd2",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "450/13",
+        "numerator": 450
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-2a08ef35b1076f7952f695a5187609b474b214ede6a2d435646f11e9e2a76113",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "450/13",
+        "numerator": 450
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-13b47fd4a6341b56572ab1ad63bcabdb0984cb6df6d4bb32b44861ef90f5400b"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-4555b3fe4035601ecef331957274b1f571c83469a54b11ddbeccd3dee714390c"
+      ],
+      "drum_symbolic_event_id": "CSE-4555b3fe4035601ecef331957274b1f571c83469a54b11ddbeccd3dee714390c",
+      "drum_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "35/1",
+        "numerator": 35
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-ebee761bc245dd43841c06657cef229fee228d5823ea1253d96b2672efe3fcac",
+      "source_t_gt_seconds": {
+        "denominator": 1,
+        "exact": "35/1",
+        "numerator": 35
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-8818a8a7560e37602ee43005b5c6e2de5823f04f93d494f232a4946eb027b5de"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-d5ca8b59921f9232f0c68ec68f25a9d2ec14f99a400905b1373bb31bc779d484"
+      ],
+      "drum_symbolic_event_id": "CSE-d5ca8b59921f9232f0c68ec68f25a9d2ec14f99a400905b1373bb31bc779d484",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "460/13",
+        "numerator": 460
+      },
+      "pair_type": "Piano\u2013Drums",
+      "source": "Piano",
+      "source_symbolic_event_id": "CSE-afc2fb68dd70a677c4d862af6ab97f6ade6bec4bb4f402297007ef908b494334",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "460/13",
+        "numerator": 460
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-dcee07c89c167e30ac0531defbadebf15bbde5fa80cf41fed066fe821c78f373"
+    },
+    {
+      "candidate_drum_symbolic_event_ids": [
+        "CSE-c54dec82570b01f084e80331ccfc4352626d6e7d63428a37e303317537a07c93"
+      ],
+      "drum_symbolic_event_id": "CSE-c54dec82570b01f084e80331ccfc4352626d6e7d63428a37e303317537a07c93",
+      "drum_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "480/13",
+        "numerator": 480
+      },
+      "pair_type": "Double Bass\u2013Drums",
+      "source": "Double Bass",
+      "source_symbolic_event_id": "CSE-ba9a68c36139db92a9bbce20da8145656e7fb252eea05b8d5ec2fdcfa0b44205",
+      "source_t_gt_seconds": {
+        "denominator": 13,
+        "exact": "480/13",
+        "numerator": 480
+      },
+      "status": "VALID_SYMBOLIC_PAIR",
+      "symbolic_pair_id": "CSP-d95173124df21e9c78f12bf77783b27300559d05b0fd0d531055993b0994e345"
+    }
+  ],
+  "schema_revision": "calibration-symbolic-pair-authority/v1",
+  "scientific_fingerprint": "f5c424a3f8de3b35c60d2ae9e3f41527a93ed4f84f5d8cc992a837a2489f5b28",
+  "source_authority_fingerprint": "b682fadc92be106fcf6b6a5379a4ab840c18e2bc8c852e44a4cda96c30488086"
+}

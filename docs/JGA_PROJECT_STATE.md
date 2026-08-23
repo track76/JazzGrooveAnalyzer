@@ -1,5 +1,32 @@
 # JGA Project State
 
+## Pairwise Calibration Zero Measurement Characterization
+
+Status: PASS — MIXED SOURCE-SPECIFIC OUTCOME
+
+- `H-VAL001-CALIBRATION-PAIRWISE-01` executed unchanged after checksum
+  verification and independent freeze/verification of exact-equality symbolic
+  pair authority.
+- Symbolic/valid JGA pair populations are Piano–Drums 36/36, Double
+  Bass–Drums 19/18 and Tenor Sax–Drums 9/5. Unmatched symbolic relationships
+  are 13, 9 and 3; unresolved JGA pairs are 0, 1 and 4; symbolic ambiguity is
+  zero throughout. All evidence remains preserved.
+- Piano–Drums and Double Bass–Drums are
+  `NO_DETECTABLE_PAIRWISE_BIAS` under the frozen stability rule. Tenor
+  Sax–Drums is `INSUFFICIENT_EVIDENCE`; therefore the overall classification
+  is `MIXED_SOURCE_SPECIFIC_OUTCOME`.
+- All 59 valid errors occur at integer frame offsets to within exact
+  stored-timestamp residuals no greater than `6.0771e-12 ms`. This is
+  descriptive structure only and establishes no causal mechanism.
+- Common absolute candidate behaviour is compatible with cancellation for
+  Piano–Drums and Double Bass–Drums; Tenor Sax–Drums remains partial because
+  minimum support is absent.
+- No correction is authorized. Raw observations are unchanged; Voice remains
+  `DEFERRED`. Deterministic replay and independent verification: PASS.
+- Scientific fingerprint:
+  `38740f74ab22c5c17b4400a6fac3823cbf4ead8650f77d6a5ab81e8ee7921b27`.
+- Record: `validation/VAL-001/run_20260823_095617/`.
+
 ## Pairwise Calibration Zero Preregistration
 
 Status: FROZEN — NOT EXECUTED
