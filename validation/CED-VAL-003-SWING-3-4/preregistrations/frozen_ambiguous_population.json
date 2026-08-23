@@ -1,0 +1,1199 @@
+{
+  "authority": "AUD-CEDVAL003-H02-SCORABILITY-01",
+  "calibration_event_authority_sha256": "3c2d22300de63de57885a1c786dea1679136410860558f3e093e6bf2b5233c31",
+  "cells": [
+    {
+      "cell_identity": "CEDVAL003:Drums:3",
+      "cell_index": 3,
+      "observations": [
+        {
+          "eme_id": "95275422-99cd-52f0-9ed2-c7d024221f77",
+          "supporting_pulse_candidate_ids": [
+            "26221aab-2dc5-5795-9048-b5c14e2f6666"
+          ],
+          "timestamp_seconds": "0.7894784580498866"
+        },
+        {
+          "eme_id": "1c262618-afbe-5bed-b4bf-eeee8f6234fb",
+          "supporting_pulse_candidate_ids": [
+            "e695908e-3097-5e92-a39d-e8e38c6bd7c3"
+          ],
+          "timestamp_seconds": "0.9404081632653061"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:6",
+      "cell_index": 6,
+      "observations": [
+        {
+          "eme_id": "25c8df79-f0e9-53ba-825b-a9c6fd04e40b",
+          "supporting_pulse_candidate_ids": [
+            "d8f98aac-61c8-5923-a58b-05bcd0b747d4"
+          ],
+          "timestamp_seconds": "1.6486167800453515"
+        },
+        {
+          "eme_id": "ccb367fe-c815-5577-a639-427a380a49fd",
+          "supporting_pulse_candidate_ids": [
+            "41dfbb15-ea77-56fe-9ed7-05d023d5a319"
+          ],
+          "timestamp_seconds": "1.799546485260771"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:9",
+      "cell_index": 9,
+      "observations": [
+        {
+          "eme_id": "022ee597-180d-5117-87c6-591d44a6a38a",
+          "supporting_pulse_candidate_ids": [
+            "f5afbd74-cbc5-544d-b5b7-b5fd373618b8"
+          ],
+          "timestamp_seconds": "2.507755102040816"
+        },
+        {
+          "eme_id": "a33da37b-fbcc-56a6-a1bf-41faed61c337",
+          "supporting_pulse_candidate_ids": [
+            "9672080c-bfeb-5dab-94f8-d4e215333af5"
+          ],
+          "timestamp_seconds": "2.6586848072562357"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:13",
+      "cell_index": 13,
+      "observations": [
+        {
+          "eme_id": "1e9d0573-ab9d-5039-b2f7-40fe2e296bf2",
+          "supporting_pulse_candidate_ids": [
+            "b0639575-0d91-53e9-8578-8ac233689edf"
+          ],
+          "timestamp_seconds": "3.355283446712018"
+        },
+        {
+          "eme_id": "576900f8-5aaf-5ba4-b209-0696f37dc3d8",
+          "supporting_pulse_candidate_ids": [
+            "0eb02e45-0436-5a51-bca0-dcc10d48bf7a"
+          ],
+          "timestamp_seconds": "3.517823129251701"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:17",
+      "cell_index": 17,
+      "observations": [
+        {
+          "eme_id": "db24946a-590e-5f8a-a61e-2347fe4a852b",
+          "supporting_pulse_candidate_ids": [
+            "bddd70ca-66dd-5090-855b-cc0471dd5e35"
+          ],
+          "timestamp_seconds": "4.214421768707483"
+        },
+        {
+          "eme_id": "dfefe236-3728-5ad5-8d34-3d72f463c5cd",
+          "supporting_pulse_candidate_ids": [
+            "0c4aa38a-2de8-522c-9a79-5a6c02139394"
+          ],
+          "timestamp_seconds": "4.3769614512471655"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:20",
+      "cell_index": 20,
+      "observations": [
+        {
+          "eme_id": "283eebd6-8a44-53e1-bf78-1b4c412b880f",
+          "supporting_pulse_candidate_ids": [
+            "62401fc6-b9e2-50b1-9fbd-c16ce928ef79"
+          ],
+          "timestamp_seconds": "5.073560090702948"
+        },
+        {
+          "eme_id": "00b2d2b8-36a7-5643-a069-3313da6604fe",
+          "supporting_pulse_candidate_ids": [
+            "4dc2a1c4-bbd0-599d-91f7-151da9c1089d"
+          ],
+          "timestamp_seconds": "5.224489795918367"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:23",
+      "cell_index": 23,
+      "observations": [
+        {
+          "eme_id": "391f6214-0c1e-5655-98a4-c11b7b66d5d7",
+          "supporting_pulse_candidate_ids": [
+            "7b5cb31a-cc30-51f6-adde-b69f5387be74"
+          ],
+          "timestamp_seconds": "5.932698412698413"
+        },
+        {
+          "eme_id": "c4e72dc0-2c9a-54d3-9ed3-64d36ce5d2da",
+          "supporting_pulse_candidate_ids": [
+            "73c31e83-9563-5a7d-8c01-f46f93f3826d"
+          ],
+          "timestamp_seconds": "6.0836281179138325"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:26",
+      "cell_index": 26,
+      "observations": [
+        {
+          "eme_id": "3eb05155-d433-5061-8719-483f751ef79a",
+          "supporting_pulse_candidate_ids": [
+            "166d1333-a959-59e3-a66a-f29a6bdc5a59"
+          ],
+          "timestamp_seconds": "6.791836734693877"
+        },
+        {
+          "eme_id": "dc91d977-f3e7-5ea3-b2c2-f8f02dd08723",
+          "supporting_pulse_candidate_ids": [
+            "5e669f9f-0426-5c66-bba6-e6dbce093777"
+          ],
+          "timestamp_seconds": "6.942766439909297"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:29",
+      "cell_index": 29,
+      "observations": [
+        {
+          "eme_id": "f4bbca3a-afde-59b8-9663-dc25715ca8f1",
+          "supporting_pulse_candidate_ids": [
+            "db93d45a-7cb1-5ec5-8cfe-7b62b3da5e7a"
+          ],
+          "timestamp_seconds": "7.63936507936508"
+        },
+        {
+          "eme_id": "26eb49eb-c969-5efd-9463-a8c82b16f00b",
+          "supporting_pulse_candidate_ids": [
+            "29de3221-2add-5abe-8c52-3d66cc4a1493"
+          ],
+          "timestamp_seconds": "7.801904761904762"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:32",
+      "cell_index": 32,
+      "observations": [
+        {
+          "eme_id": "457a7937-5a8e-5d8a-90f7-e6addd56d6ab",
+          "supporting_pulse_candidate_ids": [
+            "797b6d45-90ff-575d-9369-75ebe69cdc4f"
+          ],
+          "timestamp_seconds": "8.498503401360544"
+        },
+        {
+          "eme_id": "8e98c072-5ed4-5b79-a17c-ef98b239fa99",
+          "supporting_pulse_candidate_ids": [
+            "c0a278e6-cde7-5a6b-9e0f-da7cc552aca9"
+          ],
+          "timestamp_seconds": "8.661043083900227"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:35",
+      "cell_index": 35,
+      "observations": [
+        {
+          "eme_id": "30f8651f-e962-5f43-bf81-447d20c8d32f",
+          "supporting_pulse_candidate_ids": [
+            "f4ce8f63-11c2-553b-aaab-966ae3d7ce2e"
+          ],
+          "timestamp_seconds": "9.357641723356009"
+        },
+        {
+          "eme_id": "d83d94dc-6b4f-530d-931c-7e31c8e6777e",
+          "supporting_pulse_candidate_ids": [
+            "e573415a-1f12-5f55-833b-0659d88330b2"
+          ],
+          "timestamp_seconds": "9.520181405895691"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:37",
+      "cell_index": 37,
+      "observations": [
+        {
+          "eme_id": "98de1cf8-9da2-5b15-90b3-1ceeb2452cea",
+          "supporting_pulse_candidate_ids": [
+            "1ae71f19-b104-5135-87bd-ee1ee475a1e5"
+          ],
+          "timestamp_seconds": "9.787210884353742"
+        },
+        {
+          "eme_id": "761e84d5-fc8e-59bb-87e5-7e85a16de260",
+          "supporting_pulse_candidate_ids": [
+            "a78dd81a-bf59-5b5d-9347-4fcaa379222f"
+          ],
+          "timestamp_seconds": "9.93814058956916"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:39",
+      "cell_index": 39,
+      "observations": [
+        {
+          "eme_id": "c9dee616-0b3f-567b-ab70-87fe318e7173",
+          "supporting_pulse_candidate_ids": [
+            "b2549489-cd58-5386-a03f-6dbec1af6463"
+          ],
+          "timestamp_seconds": "10.216780045351474"
+        },
+        {
+          "eme_id": "1682d815-65a7-55f1-b45e-02761a6d91e9",
+          "supporting_pulse_candidate_ids": [
+            "23ac564b-6978-5993-b330-acf23774149c"
+          ],
+          "timestamp_seconds": "10.367709750566894"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:41",
+      "cell_index": 41,
+      "observations": [
+        {
+          "eme_id": "f6c182df-7f32-5e79-afcf-a33bded5ac28",
+          "supporting_pulse_candidate_ids": [
+            "d3ab000e-a8b7-5d87-a5fb-e333089506df"
+          ],
+          "timestamp_seconds": "10.646349206349207"
+        },
+        {
+          "eme_id": "bfb63ac7-058c-581d-aee3-cfa8941fae32",
+          "supporting_pulse_candidate_ids": [
+            "05004b59-32c4-5a49-b2b8-10eb55070139"
+          ],
+          "timestamp_seconds": "10.797278911564625"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:44",
+      "cell_index": 44,
+      "observations": [
+        {
+          "eme_id": "5805ac09-915d-5b5e-8790-2e0f47deb10b",
+          "supporting_pulse_candidate_ids": [
+            "0253237e-7a82-59cd-8b27-02b3f496ab8a"
+          ],
+          "timestamp_seconds": "11.505487528344672"
+        },
+        {
+          "eme_id": "213a2c30-e9e6-5b3b-9655-7bcd2c366f56",
+          "supporting_pulse_candidate_ids": [
+            "b601cfe4-61cc-5665-9159-d892386aa7cd"
+          ],
+          "timestamp_seconds": "11.644807256235827"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:47",
+      "cell_index": 47,
+      "observations": [
+        {
+          "eme_id": "53461a64-32a0-51bd-96b5-f3615193f5bf",
+          "supporting_pulse_candidate_ids": [
+            "b779c2b4-0494-560c-8fe1-f66ad7421430"
+          ],
+          "timestamp_seconds": "12.364625850340136"
+        },
+        {
+          "eme_id": "dcb226b4-5ac3-5f7c-ad15-319cad30ef04",
+          "supporting_pulse_candidate_ids": [
+            "d62673cb-5119-574d-8238-f24c80968ef1"
+          ],
+          "timestamp_seconds": "12.503945578231292"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:50",
+      "cell_index": 50,
+      "observations": [
+        {
+          "eme_id": "caff887c-7db5-54f5-9617-38d0c2b58ffc",
+          "supporting_pulse_candidate_ids": [
+            "fa180146-869a-52b6-9539-89d6344df468"
+          ],
+          "timestamp_seconds": "13.212154195011339"
+        },
+        {
+          "eme_id": "17e16563-45a4-5d65-97de-23503de83259",
+          "supporting_pulse_candidate_ids": [
+            "13d05f5b-d034-5225-97ec-1e4b05c5d1d8"
+          ],
+          "timestamp_seconds": "13.374693877551021"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:52",
+      "cell_index": 52,
+      "observations": [
+        {
+          "eme_id": "1f8cf26a-a1b2-5c5b-9d54-72e25c3a5492",
+          "supporting_pulse_candidate_ids": [
+            "f7519b14-4d84-5146-bec5-4255f21a60e1"
+          ],
+          "timestamp_seconds": "13.64172335600907"
+        },
+        {
+          "eme_id": "e1873f1a-8290-5fa4-8f84-98959cdcb3ab",
+          "supporting_pulse_candidate_ids": [
+            "8080d3d1-6d61-5ff0-a68c-1eb5827f422c"
+          ],
+          "timestamp_seconds": "13.804263038548752"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:54",
+      "cell_index": 54,
+      "observations": [
+        {
+          "eme_id": "ff9dfe58-087a-5380-837d-bbd933540e7f",
+          "supporting_pulse_candidate_ids": [
+            "509ebcac-751d-5216-bb91-940aaee31db1"
+          ],
+          "timestamp_seconds": "14.071292517006803"
+        },
+        {
+          "eme_id": "13db7bdf-5b94-5d2d-98f5-99af8fe19105",
+          "supporting_pulse_candidate_ids": [
+            "655acb92-fb67-5e64-b9da-f085a7b35920"
+          ],
+          "timestamp_seconds": "14.222222222222221"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:57",
+      "cell_index": 57,
+      "observations": [
+        {
+          "eme_id": "588c726c-fc2b-5a09-873a-b8a379507509",
+          "supporting_pulse_candidate_ids": [
+            "b2b94552-6a1c-5d54-afb0-f2f2110db8f2"
+          ],
+          "timestamp_seconds": "14.930430839002268"
+        },
+        {
+          "eme_id": "f2f15d2d-2d22-513e-9bad-7fbf2efd8a97",
+          "supporting_pulse_candidate_ids": [
+            "3f5b4808-28a6-5036-8fc5-8042332d1b5b"
+          ],
+          "timestamp_seconds": "15.09297052154195"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:61",
+      "cell_index": 61,
+      "observations": [
+        {
+          "eme_id": "bf593e41-53b5-5b3c-a49f-8707e58a4610",
+          "supporting_pulse_candidate_ids": [
+            "4661ff99-6750-57a6-8994-37aec2bb4295"
+          ],
+          "timestamp_seconds": "16.219138321995466"
+        },
+        {
+          "eme_id": "cffa390a-7d35-5a37-97f1-a2f723a12d93",
+          "supporting_pulse_candidate_ids": [
+            "8aa58a70-bf4b-5c0b-b21c-d2ad8000f405"
+          ],
+          "timestamp_seconds": "16.370068027210884"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:64",
+      "cell_index": 64,
+      "observations": [
+        {
+          "eme_id": "37799b9e-eec5-5851-8373-e311dd08fbfb",
+          "supporting_pulse_candidate_ids": [
+            "e75763a7-b973-5fee-b8e5-74fe8567f8cf"
+          ],
+          "timestamp_seconds": "17.07827664399093"
+        },
+        {
+          "eme_id": "542acd43-7feb-577e-bf74-3f9224883d16",
+          "supporting_pulse_candidate_ids": [
+            "b57dbce3-e890-5b1a-9451-b5a72fc1f966"
+          ],
+          "timestamp_seconds": "17.22920634920635"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:67",
+      "cell_index": 67,
+      "observations": [
+        {
+          "eme_id": "f33ce8f9-0706-5efa-b39b-ace8a37c2e8c",
+          "supporting_pulse_candidate_ids": [
+            "fd39fa4d-ceb2-5ac1-a70c-4a4d5512092c"
+          ],
+          "timestamp_seconds": "17.937414965986395"
+        },
+        {
+          "eme_id": "8e5c6b30-ce9a-50f6-8ed6-a666124f06a8",
+          "supporting_pulse_candidate_ids": [
+            "5e1c9346-c691-5621-b382-2c5832878809"
+          ],
+          "timestamp_seconds": "18.088344671201813"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:71",
+      "cell_index": 71,
+      "observations": [
+        {
+          "eme_id": "69e15ac3-993c-5d29-907b-4e03622a1229",
+          "supporting_pulse_candidate_ids": [
+            "0eef0b4c-e4a6-55ea-8a52-861159f4f437"
+          ],
+          "timestamp_seconds": "18.784943310657596"
+        },
+        {
+          "eme_id": "b84c5d72-ac54-5dbd-b860-c3bdd0c88399",
+          "supporting_pulse_candidate_ids": [
+            "a4de239e-61a8-5776-a8cd-81748e7701c7"
+          ],
+          "timestamp_seconds": "18.94748299319728"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:75",
+      "cell_index": 75,
+      "observations": [
+        {
+          "eme_id": "73d5e100-484a-5004-ae00-f00e262f2cd1",
+          "supporting_pulse_candidate_ids": [
+            "8de2b48c-bf5c-5353-98a8-2b4498d9aeb5"
+          ],
+          "timestamp_seconds": "19.644081632653062"
+        },
+        {
+          "eme_id": "49f378f9-1bd7-5cef-9c27-6d69d87c8b00",
+          "supporting_pulse_candidate_ids": [
+            "63d7729c-cdf9-5016-8ee2-42541cb092dd"
+          ],
+          "timestamp_seconds": "19.806621315192743"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:78",
+      "cell_index": 78,
+      "observations": [
+        {
+          "eme_id": "90fcf689-e5cc-5bd8-ba3b-ab9eab013300",
+          "supporting_pulse_candidate_ids": [
+            "79f5fe76-83c0-51be-a075-a8819c3fc7cb"
+          ],
+          "timestamp_seconds": "20.503219954648525"
+        },
+        {
+          "eme_id": "92261f1a-bfa6-5f86-8a36-3c893b1f4b43",
+          "supporting_pulse_candidate_ids": [
+            "02822fc1-4f06-551e-b63c-cd83a77884a4"
+          ],
+          "timestamp_seconds": "20.654149659863947"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:81",
+      "cell_index": 81,
+      "observations": [
+        {
+          "eme_id": "0cc195a1-9b52-5f77-9628-0fc262f13e23",
+          "supporting_pulse_candidate_ids": [
+            "dce54051-b640-5561-a0b0-9daa5e476235"
+          ],
+          "timestamp_seconds": "21.36235827664399"
+        },
+        {
+          "eme_id": "50aec83a-258a-59ca-8433-5a6f359434d5",
+          "supporting_pulse_candidate_ids": [
+            "03ee5c09-27d8-5b68-940d-73b124f58c55"
+          ],
+          "timestamp_seconds": "21.51328798185941"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:84",
+      "cell_index": 84,
+      "observations": [
+        {
+          "eme_id": "8663bcaf-1bdc-5f2f-8fb6-67b61fcd6049",
+          "supporting_pulse_candidate_ids": [
+            "2fa2028f-2f0b-5e29-8c88-ccdec710b12e"
+          ],
+          "timestamp_seconds": "22.221496598639455"
+        },
+        {
+          "eme_id": "4d8d8834-58d7-559e-af62-3a19f44f7e1c",
+          "supporting_pulse_candidate_ids": [
+            "5c787a88-c150-53c7-8776-0e0124594cf1"
+          ],
+          "timestamp_seconds": "22.372426303854876"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:87",
+      "cell_index": 87,
+      "observations": [
+        {
+          "eme_id": "0fdae090-8ac1-5765-8285-dff314eaf199",
+          "supporting_pulse_candidate_ids": [
+            "6d39ae3d-3edf-54ce-907d-64cb5ebe1a56"
+          ],
+          "timestamp_seconds": "23.06902494331066"
+        },
+        {
+          "eme_id": "23424170-7809-5ba0-93ff-339d902c9977",
+          "supporting_pulse_candidate_ids": [
+            "db5824e1-ed1b-5f1c-8ffb-54643d7c47a5"
+          ],
+          "timestamp_seconds": "23.23156462585034"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:90",
+      "cell_index": 90,
+      "observations": [
+        {
+          "eme_id": "162c8a93-4ee1-559b-98a1-b818f7ff3fbe",
+          "supporting_pulse_candidate_ids": [
+            "23d19bda-20c9-5640-ae83-051879f14582"
+          ],
+          "timestamp_seconds": "23.92816326530612"
+        },
+        {
+          "eme_id": "cc7a201a-3d83-51fb-90ef-cd0d0df5b4f2",
+          "supporting_pulse_candidate_ids": [
+            "69dd6ccd-df3f-57c1-878a-a082ee1122b7"
+          ],
+          "timestamp_seconds": "24.090702947845806"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:93",
+      "cell_index": 93,
+      "observations": [
+        {
+          "eme_id": "400603d2-fabe-5e0d-98a3-236c93993bd9",
+          "supporting_pulse_candidate_ids": [
+            "51cdd614-cce8-51b1-afb2-4135235f455d"
+          ],
+          "timestamp_seconds": "24.787301587301588"
+        },
+        {
+          "eme_id": "46ddee5f-ef87-5939-b202-12f3cb6daf50",
+          "supporting_pulse_candidate_ids": [
+            "f67f62b6-f750-5a31-8797-6751427e7c44"
+          ],
+          "timestamp_seconds": "24.94984126984127"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:95",
+      "cell_index": 95,
+      "observations": [
+        {
+          "eme_id": "aa25abb6-0390-5de2-9489-69b73ef5dd88",
+          "supporting_pulse_candidate_ids": [
+            "08560361-61bc-5ab8-850a-ca8bc66f2df9"
+          ],
+          "timestamp_seconds": "25.21687074829932"
+        },
+        {
+          "eme_id": "5e9d37f8-94f1-5d5a-8944-a1f8e0b2f40c",
+          "supporting_pulse_candidate_ids": [
+            "b2de0e77-667b-5ab2-a289-1e7845324ff6"
+          ],
+          "timestamp_seconds": "25.36780045351474"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:97",
+      "cell_index": 97,
+      "observations": [
+        {
+          "eme_id": "bfcb93cf-c2e6-5d91-944e-11e1ef522b26",
+          "supporting_pulse_candidate_ids": [
+            "66123d8d-1a20-5192-95e2-c13a9ed0fb1d"
+          ],
+          "timestamp_seconds": "25.64643990929705"
+        },
+        {
+          "eme_id": "6a783904-c046-5b6a-8617-15f5b54ff5fb",
+          "supporting_pulse_candidate_ids": [
+            "391701f5-92a9-55ed-9518-00752b46e831"
+          ],
+          "timestamp_seconds": "25.797369614512473"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:99",
+      "cell_index": 99,
+      "observations": [
+        {
+          "eme_id": "787161be-a21e-5281-97f3-2312a9a1657d",
+          "supporting_pulse_candidate_ids": [
+            "5326e832-28ac-5da2-99ee-6084c3558512"
+          ],
+          "timestamp_seconds": "26.076009070294784"
+        },
+        {
+          "eme_id": "30f3730b-a58f-509a-80d7-f227370e66bc",
+          "supporting_pulse_candidate_ids": [
+            "266ef372-ddb2-5ae0-9633-ac05b1451e7d"
+          ],
+          "timestamp_seconds": "26.226938775510202"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:102",
+      "cell_index": 102,
+      "observations": [
+        {
+          "eme_id": "01e7604a-94ac-5d1f-8aeb-9d163a631e8b",
+          "supporting_pulse_candidate_ids": [
+            "aa122518-3f8b-5674-8567-9bdff64ba732"
+          ],
+          "timestamp_seconds": "26.93514739229025"
+        },
+        {
+          "eme_id": "e0c8a836-0fc9-527c-a20a-5066cbb8a597",
+          "supporting_pulse_candidate_ids": [
+            "c4c87622-a363-58f9-8c81-88082c7823e1"
+          ],
+          "timestamp_seconds": "27.074467120181406"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:105",
+      "cell_index": 105,
+      "observations": [
+        {
+          "eme_id": "46017b31-6fc6-5f3a-87be-cd5d849422cf",
+          "supporting_pulse_candidate_ids": [
+            "8a8e89c7-4c2f-5d65-870b-212752f20f62"
+          ],
+          "timestamp_seconds": "27.794285714285714"
+        },
+        {
+          "eme_id": "996bfeda-bba1-5c3f-bfae-8370b1570657",
+          "supporting_pulse_candidate_ids": [
+            "50d2a2b3-2deb-5b7c-8eac-07dfa60f8e21"
+          ],
+          "timestamp_seconds": "27.93360544217687"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:108",
+      "cell_index": 108,
+      "observations": [
+        {
+          "eme_id": "56cb652e-5a58-52a1-874b-9793c8657ba0",
+          "supporting_pulse_candidate_ids": [
+            "de13784d-487c-5478-8992-35f4849d2a4f"
+          ],
+          "timestamp_seconds": "28.641814058956918"
+        },
+        {
+          "eme_id": "497d4a05-c954-57f7-bec7-92727aa59b3d",
+          "supporting_pulse_candidate_ids": [
+            "72332b84-66d6-5868-ac62-93d47925229d"
+          ],
+          "timestamp_seconds": "28.804353741496598"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:110",
+      "cell_index": 110,
+      "observations": [
+        {
+          "eme_id": "da0d2d69-a152-5650-9f06-ab5fd7423065",
+          "supporting_pulse_candidate_ids": [
+            "59c8bb32-6972-5ba6-ad09-fa3740d87f5b"
+          ],
+          "timestamp_seconds": "29.071383219954647"
+        },
+        {
+          "eme_id": "153f5493-2550-504f-9c27-845e4415bed7",
+          "supporting_pulse_candidate_ids": [
+            "72f83d27-43b1-54ed-98fe-9963efbd01d5"
+          ],
+          "timestamp_seconds": "29.23392290249433"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:112",
+      "cell_index": 112,
+      "observations": [
+        {
+          "eme_id": "ba86cbe4-7bc2-5a18-ac17-9af8da3d7ee1",
+          "supporting_pulse_candidate_ids": [
+            "f3c234d9-5c19-52f0-bfc8-620272c30fb2"
+          ],
+          "timestamp_seconds": "29.50095238095238"
+        },
+        {
+          "eme_id": "dc3861ef-413c-57ab-a886-b6af8258af63",
+          "supporting_pulse_candidate_ids": [
+            "105bf138-43d4-5bc3-84c1-94cea5bdfa57"
+          ],
+          "timestamp_seconds": "29.6518820861678"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:115",
+      "cell_index": 115,
+      "observations": [
+        {
+          "eme_id": "07bab1e9-ab27-5b47-b1e0-ca11b049a9e9",
+          "supporting_pulse_candidate_ids": [
+            "ea6cd466-3346-5a03-be4f-1e536f365312"
+          ],
+          "timestamp_seconds": "30.360090702947847"
+        },
+        {
+          "eme_id": "07a1fd42-a672-572f-b83c-b1ae605a4852",
+          "supporting_pulse_candidate_ids": [
+            "b17e162f-e507-5cec-a89f-e3991dee43b0"
+          ],
+          "timestamp_seconds": "30.522630385487528"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:119",
+      "cell_index": 119,
+      "observations": [
+        {
+          "eme_id": "ab7a3180-655f-5fd0-8947-7d5d32c3ce5b",
+          "supporting_pulse_candidate_ids": [
+            "8a84ae20-af3d-5a36-a267-a7bfd4007326"
+          ],
+          "timestamp_seconds": "31.648798185941043"
+        },
+        {
+          "eme_id": "4d7c46db-0a50-550a-9ed8-b06fe720334f",
+          "supporting_pulse_candidate_ids": [
+            "384f4980-1943-5650-a048-301a65eb5032"
+          ],
+          "timestamp_seconds": "31.79972789115646"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:122",
+      "cell_index": 122,
+      "observations": [
+        {
+          "eme_id": "25a0b61d-2c8e-5b9e-ba7d-59551782a5f0",
+          "supporting_pulse_candidate_ids": [
+            "dabba0fb-25b8-59aa-bea5-5738bc0bf7c9"
+          ],
+          "timestamp_seconds": "32.507936507936506"
+        },
+        {
+          "eme_id": "f8fd23a9-5501-51ca-bca5-43cbce8bcb46",
+          "supporting_pulse_candidate_ids": [
+            "89f3a513-9530-5733-ae90-09da78e8f8ed"
+          ],
+          "timestamp_seconds": "32.658866213151924"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:125",
+      "cell_index": 125,
+      "observations": [
+        {
+          "eme_id": "ba6b4306-90c8-54c4-8348-feda7e306338",
+          "supporting_pulse_candidate_ids": [
+            "88934801-2979-5567-bc33-a295264e74f1"
+          ],
+          "timestamp_seconds": "33.35546485260771"
+        },
+        {
+          "eme_id": "d28a5289-f36d-5ef1-80bd-96b8cd589fef",
+          "supporting_pulse_candidate_ids": [
+            "e7cf38f0-9278-5534-9f64-8123102dc3ed"
+          ],
+          "timestamp_seconds": "33.51800453514739"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:128",
+      "cell_index": 128,
+      "observations": [
+        {
+          "eme_id": "c13728fd-5794-5bc3-8ecd-73f67f17ca5a",
+          "supporting_pulse_candidate_ids": [
+            "4c9cffc4-538d-57d5-95ab-86c67b1924fb"
+          ],
+          "timestamp_seconds": "34.21460317460318"
+        },
+        {
+          "eme_id": "619d9038-ccc3-5e86-a9b0-af7b9bf5fcc6",
+          "supporting_pulse_candidate_ids": [
+            "ee2cd5d0-d6fe-547f-9e1f-63ddfbcb2c1d"
+          ],
+          "timestamp_seconds": "34.37714285714286"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:131",
+      "cell_index": 131,
+      "observations": [
+        {
+          "eme_id": "44a594fb-ee18-59d7-917a-c082a619d27d",
+          "supporting_pulse_candidate_ids": [
+            "65ad64fa-4970-518f-aa3d-c8ce7033bf11"
+          ],
+          "timestamp_seconds": "35.073741496598636"
+        },
+        {
+          "eme_id": "f77c0834-f5e9-5f33-bcbf-e644b685f9fb",
+          "supporting_pulse_candidate_ids": [
+            "57c0599e-9206-5508-8094-cfe4950976ac"
+          ],
+          "timestamp_seconds": "35.236281179138324"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:133",
+      "cell_index": 133,
+      "observations": [
+        {
+          "eme_id": "9d40a7ea-784f-57c7-94bb-4aaec6d2b95e",
+          "supporting_pulse_candidate_ids": [
+            "19af60f8-5339-5a02-ae44-46629e708b07"
+          ],
+          "timestamp_seconds": "35.50331065759637"
+        },
+        {
+          "eme_id": "834d32ce-9c6a-5083-8408-2340f96ff3ea",
+          "supporting_pulse_candidate_ids": [
+            "81528d06-184f-5d9e-a21c-fb11e80697e7"
+          ],
+          "timestamp_seconds": "35.65424036281179"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:135",
+      "cell_index": 135,
+      "observations": [
+        {
+          "eme_id": "66c85fc8-069c-5595-ad68-73a8f0a6590b",
+          "supporting_pulse_candidate_ids": [
+            "516f7b45-9e19-595d-b954-c33d333ac808"
+          ],
+          "timestamp_seconds": "35.9328798185941"
+        },
+        {
+          "eme_id": "4c5651f0-51c3-5157-9e46-94490cf7f045",
+          "supporting_pulse_candidate_ids": [
+            "a2e17efa-5dd6-5311-9238-59429df8bc57"
+          ],
+          "timestamp_seconds": "36.08380952380952"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:137",
+      "cell_index": 137,
+      "observations": [
+        {
+          "eme_id": "d6a0ff5c-0966-5841-b14d-5a2cde8a9584",
+          "supporting_pulse_candidate_ids": [
+            "4c8cef8c-43db-53a7-8d08-030fbb7ed948"
+          ],
+          "timestamp_seconds": "36.36244897959184"
+        },
+        {
+          "eme_id": "d1303272-832e-5efa-a363-61f2d107f7d3",
+          "supporting_pulse_candidate_ids": [
+            "ff6d186b-0d98-5b4e-a186-3119a06c3686"
+          ],
+          "timestamp_seconds": "36.51337868480726"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:140",
+      "cell_index": 140,
+      "observations": [
+        {
+          "eme_id": "8ae6e6e9-a9c8-5974-9ada-d7aa96563796",
+          "supporting_pulse_candidate_ids": [
+            "83f78796-af22-5aed-b3cc-7f5764920b46"
+          ],
+          "timestamp_seconds": "37.2215873015873"
+        },
+        {
+          "eme_id": "dbf64e9d-4947-5b79-bd0b-1e70533938ae",
+          "supporting_pulse_candidate_ids": [
+            "74b881eb-3f5d-5e22-a817-ace02f4d8f9c"
+          ],
+          "timestamp_seconds": "37.36090702947846"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:143",
+      "cell_index": 143,
+      "observations": [
+        {
+          "eme_id": "b8005835-15c3-5ac9-a266-0b084f49fa67",
+          "supporting_pulse_candidate_ids": [
+            "7e044d2f-f9bc-5fd3-b9a5-e97f7ba3c3d4"
+          ],
+          "timestamp_seconds": "38.080725623582765"
+        },
+        {
+          "eme_id": "b4dc14fe-13fe-580a-aee9-41fd1baf5df2",
+          "supporting_pulse_candidate_ids": [
+            "1afe1e26-d67e-53d1-a37a-3c5a98b5d487"
+          ],
+          "timestamp_seconds": "38.22004535147392"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:146",
+      "cell_index": 146,
+      "observations": [
+        {
+          "eme_id": "a485f0fd-8b32-5d2d-a98f-1e46b03f3563",
+          "supporting_pulse_candidate_ids": [
+            "3e8c54f8-e580-5b06-8d4f-e7de62a46f59"
+          ],
+          "timestamp_seconds": "38.92825396825397"
+        },
+        {
+          "eme_id": "48cc1ac5-c930-5fa4-a6a8-e4ad050fa43c",
+          "supporting_pulse_candidate_ids": [
+            "5814d0a8-e13a-520f-8236-1f97a1780d0e"
+          ],
+          "timestamp_seconds": "39.09079365079365"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:148",
+      "cell_index": 148,
+      "observations": [
+        {
+          "eme_id": "6a956a75-244d-5327-a619-7c61eece4722",
+          "supporting_pulse_candidate_ids": [
+            "c6edf48d-1747-51af-b690-13c39df013a2"
+          ],
+          "timestamp_seconds": "39.3578231292517"
+        },
+        {
+          "eme_id": "7d2faa30-8a5b-5aa4-aa0e-82b146d6e533",
+          "supporting_pulse_candidate_ids": [
+            "1f21aba4-80fd-508e-9bff-15ae4da7d146"
+          ],
+          "timestamp_seconds": "39.52036281179139"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:150",
+      "cell_index": 150,
+      "observations": [
+        {
+          "eme_id": "2adce5a3-d85f-58f1-94da-24245fc81a29",
+          "supporting_pulse_candidate_ids": [
+            "b93ca00c-96ee-50c0-aaf3-482a269fd83e"
+          ],
+          "timestamp_seconds": "39.787392290249436"
+        },
+        {
+          "eme_id": "fe41d425-5ebd-5948-bd90-7a0c8b313e90",
+          "supporting_pulse_candidate_ids": [
+            "0cf95e54-6799-5794-ae08-a6a1fc93bc57"
+          ],
+          "timestamp_seconds": "39.938321995464854"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Drums:153",
+      "cell_index": 153,
+      "observations": [
+        {
+          "eme_id": "af11f077-a97b-529b-9053-e1c091485958",
+          "supporting_pulse_candidate_ids": [
+            "1e0bf157-810a-5d43-8cc3-8fc40e41fbc2"
+          ],
+          "timestamp_seconds": "40.646530612244895"
+        },
+        {
+          "eme_id": "5d94bbde-d94e-5230-9747-a9970b709990",
+          "supporting_pulse_candidate_ids": [
+            "fd4729d4-bb06-54cf-8005-9fcd8cee6194"
+          ],
+          "timestamp_seconds": "40.80907029478458"
+        }
+      ],
+      "source": "Drums"
+    },
+    {
+      "cell_identity": "CEDVAL003:Double Bass:67",
+      "cell_index": 67,
+      "observations": [
+        {
+          "eme_id": "7e29e64f-deb9-58ff-bc4b-9718adf9478f",
+          "supporting_pulse_candidate_ids": [
+            "9f1b4714-cb50-5927-9583-46f5fac6b779"
+          ],
+          "timestamp_seconds": "28.23546485260771"
+        },
+        {
+          "eme_id": "81cf26eb-7418-5d5f-b846-f37e34165f7a",
+          "supporting_pulse_candidate_ids": [
+            "1e97ec35-4cb7-5ba3-836c-5c8395c52399"
+          ],
+          "timestamp_seconds": "28.35156462585034"
+        }
+      ],
+      "source": "Double Bass"
+    },
+    {
+      "cell_identity": "CEDVAL003:Double Bass:92",
+      "cell_index": 92,
+      "observations": [
+        {
+          "eme_id": "95c298d3-ff6c-53ff-8d42-1b42f0a1ef36",
+          "supporting_pulse_candidate_ids": [
+            "b8c4ae04-300b-5dc5-a2b3-8eca7ae7b453"
+          ],
+          "timestamp_seconds": "38.521904761904764"
+        },
+        {
+          "eme_id": "033f4a6f-f332-5da6-a6b6-b1266735c3c9",
+          "supporting_pulse_candidate_ids": [
+            "ddb08501-ea5a-5021-8196-2c468981fbb9"
+          ],
+          "timestamp_seconds": "38.638004535147395"
+        }
+      ],
+      "source": "Double Bass"
+    }
+  ],
+  "counts": {
+    "Double Bass": {
+      "cells": 2,
+      "observations": 4
+    },
+    "Drums": {
+      "cells": 54,
+      "observations": 108
+    },
+    "Piano": {
+      "cells": 0,
+      "observations": 0
+    }
+  },
+  "ground_truth_timestamps_included": false,
+  "schema": "JGA-AMBIGUOUS-STRENGTH-POPULATION/v1",
+  "scoring_outcomes_included": false
+}

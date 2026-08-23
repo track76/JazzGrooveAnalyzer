@@ -1,5 +1,19 @@
 # JGA Project State
 
+## CED-VAL-003 PulseCandidate Strength Authority Preregistration
+
+Status: FROZEN — NOT YET EXECUTED
+
+- `H-CEDVAL003-PULSECANDIDATE-STRENGTH-AUTHORITY-01` freezes exact recovery of
+  lineage-bound strength for 112 observations in 56 ambiguous cells.
+- Recovery is WAV → unchanged observation pipeline → exact PulseCandidate/EME
+  identity join. Two exact replays are mandatory.
+- The study establishes within-source measurement authority only. It cannot
+  rank/select observations, access Ground Truth, rescore H02 or establish
+  cross-source comparability.
+- Preregistration:
+  `validation/CED-VAL-003-SWING-3-4/preregistrations/H-CEDVAL003-PULSECANDIDATE-STRENGTH-AUTHORITY-01.md`.
+
 ## CED-VAL-003 Ambiguous-Cell Physical-Authority Evidence Gap
 
 Status: FROZEN EVIDENCE GAP — NO EXPERIMENT PREREGISTERED
