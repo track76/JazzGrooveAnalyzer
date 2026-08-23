@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: AD-038 Neutral Drum-Relative EME Localization
+Current Milestone: AD-039 Calibration Zero Measurement Authority
 
 Current Phase: Phase II Scientific Validation
 

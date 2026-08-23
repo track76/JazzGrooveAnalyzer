@@ -2143,3 +2143,28 @@ functionality remains unchanged and independently callable.
 ## Canonical Specification
 
 `docs/architecture/AD-038_DRUM_RELATIVE_EME_LOCALIZATION.md`
+
+
+------------------------------------------------------------
+
+# AD-039 — Calibration Zero and Measurement Baseline Authority
+
+## Status
+
+LOCKED
+
+## Decision
+
+`CED-VAL-001` and its provenance-bound symbolic authority form the JGA
+Calibration Zero. JGA shall characterize controlled rendering and measurement
+behaviour before interpreting temporal deviation as human performance
+behaviour. Frame spacing is temporal sampling resolution, not demonstrated
+measurement error, bias, correction or threshold.
+
+Raw observations remain immutable. Any future baseline or corrected estimate
+shall remain separate, uncertainty-bearing and provenance-bound. No correction
+or production change is authorized.
+
+## Canonical Specification
+
+`docs/architecture/AD-039_CALIBRATION_ZERO_MEASUREMENT_BASELINE.md`

@@ -1,5 +1,27 @@
 # JGA Project State
 
+## Calibration Zero and Measurement Baseline Authority
+
+Status: AUTHORIZED — EXPERIMENT NOT EXECUTED
+
+- AD-039 establishes `CED-VAL-001` and its provenance-bound symbolic authority
+  as the JGA Calibration Zero / Controlled Measurement Baseline.
+- JGA must characterize controlled rendering and measurement behaviour before
+  temporal deviation may be interpreted as human performance behaviour.
+- The current 512-sample hop at 44.1 kHz is approximately 11.609977 ms frame
+  spacing. It is not established accuracy, measurement error, systematic bias,
+  correction or a microtiming threshold.
+- Raw observation, calibration baseline and any future baseline-aware evidence
+  must remain separate. Raw EME timestamps are immutable.
+- Source-specific and pairwise calibration are conceptually reserved, but no
+  bias value, correction, tolerance or production behavior is authorized.
+- Existing AD-037 EME and AD-038 Drum-relative results remain valid, unchanged
+  neutral observations. Their descriptive distributions are motivating
+  evidence only.
+- Exactly one future experiment is reserved as
+  `H-VAL001-CALIBRATION-ZERO-01`; it is not preregistered or executed.
+- Production impact: NONE.
+
 ## Neutral Drum-Relative EME Localization
 
 Status: PASS

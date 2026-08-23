@@ -320,6 +320,15 @@ Controlled experimental dataset generation provenance is defined by:
 
 - architecture/AD-033_M90_CONTROLLED_DATASET_PROVENANCE.md
 
+Calibration Zero authority, the Ground Truth firewall, raw-measurement
+immutability and the reserved future distinction between raw observation,
+calibration baseline and baseline-aware evidence are defined by:
+
+- architecture/AD-039_CALIBRATION_ZERO_MEASUREMENT_BASELINE.md
+
+AD-039 introduces no runtime component or production dependency and authorizes
+no timestamp correction.
+
 The immutable observational representation for already-produced Candidate
 Period evidence is defined by:
 
