@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: H-CEDVAL002-CALIBRATION-ZERO-01 Preregistered
+Current Milestone: H-CEDVAL002-CALIBRATION-ZERO-01 Frozen Result
 
 Current Phase: Phase II Scientific Validation
 

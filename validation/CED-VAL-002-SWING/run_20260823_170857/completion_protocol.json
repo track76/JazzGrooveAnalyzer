@@ -1,0 +1,16 @@
+{
+  "experiment_id": "H-CEDVAL002-CALIBRATION-ZERO-01",
+  "status": "PASS_FROZEN_RESULT",
+  "dataset_authority": "PR-CED-VAL-002-SWING-002",
+  "dataset_fingerprint": "631eaf017cfaf335ee2945bfbe0df19221a0a0d069fee3602880eda7a851ade1",
+  "deterministic_complete_execution_count": 2,
+  "deterministic_replay": true,
+  "independent_arithmetic_verification": "PASS",
+  "bootstrap_resamples": 10000,
+  "bootstrap_status": "PASS",
+  "raw_observations_modified": false,
+  "calibration_correction_authorized": false,
+  "h02_executed_or_inspected": false,
+  "production_code_changed": false,
+  "scientific_fingerprint": "d4b0b18766cf2c69a367014704f2c2dc4429d977cdf8ddd27d767276b603d4e7"
+}

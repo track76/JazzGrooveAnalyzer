@@ -1,5 +1,23 @@
 # JGA Project State
 
+## CED-VAL-002-SWING Calibration Zero Execution
+
+Status: FROZEN RESULT — PI REVIEW REQUIRED
+
+- `H-CEDVAL002-CALIBRATION-ZERO-01` executed exactly against corrected
+  `PR-CED-VAL-002-SWING-002`; all checksum authority passed.
+- Observed EME populations are Drums 192, Double Bass 127 and Piano 63. The
+  frozen midpoint rule produced 378 valid absolute correspondences.
+- Absolute outcome: `SOURCE_SPECIFIC_CANDIDATE_BIAS`; measurement structure:
+  `MIXED_MEASUREMENT_BEHAVIOUR`.
+- Exact symbolic authority produced 24 valid Piano–Drums and 118 valid Double
+  Bass–Drums JGA pairs. Both are `CANDIDATE_PAIRWISE_BIAS` under the frozen
+  criterion.
+- Raw observations remain immutable. No correction is authorized. H02 remains
+  frozen and was neither executed nor inspected.
+- Scientific fingerprint: `d4b0b187…`; complete record:
+  `validation/CED-VAL-002-SWING/run_20260823_170857/`.
+
 ## CED-VAL-002-SWING Calibration Zero Preregistration
 
 Status: FROZEN — NOT EXECUTED

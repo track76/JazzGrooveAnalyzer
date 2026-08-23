@@ -1,0 +1,55 @@
+{
+  "artifacts": {
+    "build_pair_authority.py": {
+      "sha256": "8d25b2b70aa813825012674ecf5560d8bd19863f55aabe21ccb9570c1adec294",
+      "size_bytes": 2811
+    },
+    "build_symbolic_authority.py": {
+      "sha256": "067609010f001e1c3c08a47d2e45e02450c009d89f8e8398b72451496ea39d7a",
+      "size_bytes": 7545
+    },
+    "calibration_symbolic_events.json": {
+      "sha256": "ec65381a1de5850efb8a03eb993984659e9af33da6f7eb51b33785696d784ef7",
+      "size_bytes": 395970
+    },
+    "completion_protocol.json": {
+      "sha256": "a4cc31db4898e9fb21820cb72dbf482ded32e1e8b4d5940a58d148d6a593b601",
+      "size_bytes": 679
+    },
+    "event_level_results.json": {
+      "sha256": "cf6aace090c92c3077b642bd6f8506b1a8516c4e55743a797581b763fbd71ecc",
+      "size_bytes": 1660872
+    },
+    "event_pair_results.json": {
+      "sha256": "6b1b67723dd2414674bd6913f06cedb71afe668dde70a71cc158a98e4df4c962",
+      "size_bytes": 600505
+    },
+    "experiment.py": {
+      "sha256": "8ebfe307efeec3f924c0cf9b1020a8556cb6ff890b20cdca46bc25c22abf9d40",
+      "size_bytes": 19423
+    },
+    "input_manifest.json": {
+      "sha256": "6d8a7bc134e0a8dcabcce2c3c3aaa903b8eb1432aa0fe1b9311855b4c573cb3b",
+      "size_bytes": 2718
+    },
+    "report.md": {
+      "sha256": "d107e737254687ede9266af67e1adc3dacff4e0eb8b71f6965549df282450bc2",
+      "size_bytes": 4225
+    },
+    "result.json": {
+      "sha256": "056b8b6c213a0825ce94a5df6795ad5b3b75e8b5e2cecaac3d3eefbc90e776de",
+      "size_bytes": 34447
+    },
+    "symbolic_pair_authority.json": {
+      "sha256": "f00958d9f534135273cb33fc0d533e07864f1ff964b62ce6512dd4209a327a96",
+      "size_bytes": 118047
+    },
+    "verify.py": {
+      "sha256": "d69b4c7b4cfd281388e76207a556e089b608b467a0781220a08df1c95b67fee0",
+      "size_bytes": 5341
+    }
+  },
+  "experiment_id": "H-CEDVAL002-CALIBRATION-ZERO-01",
+  "schema": "JGA-CALIBRATION-ARTIFACT-MANIFEST/v1",
+  "scientific_fingerprint": "d4b0b18766cf2c69a367014704f2c2dc4429d977cdf8ddd27d767276b603d4e7"
+}
