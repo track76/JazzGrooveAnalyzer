@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: H02 Three-Dataset Scientific Conclusion Frozen
+Current Milestone: CED-VAL-003 H02 Scorability Audit Preregistered
 
 Current Phase: Phase II Scientific Validation
 

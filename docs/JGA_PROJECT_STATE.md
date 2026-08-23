@@ -1,5 +1,19 @@
 # JGA Project State
 
+## CED-VAL-003 H02 Scorability Authority Audit
+
+Status: PREREGISTERED — EXECUTION PENDING
+
+- `AUD-CEDVAL003-H02-SCORABILITY-01` freezes a read-only, deterministic audit
+  of all 89 candidates, including 56 unscorable candidates and 55 unscorable
+  symbolic relations.
+- Exact identity joins trace frozen blind/scoring evidence through Calibration
+  Zero event and pair authority without rematching or rescoring.
+- H02, Calibration Zero, raw observations, frozen metrics, AD-040 and
+  production code remain immutable.
+- Preregistration:
+  `validation/CED-VAL-003-SWING-3-4/preregistrations/AUD-CEDVAL003-H02-SCORABILITY-01.md`.
+
 ## H02 Three-Dataset Scientific Conclusion
 
 Status: FROZEN — PI-AUTHORIZED EVIDENCE SYNTHESIS
