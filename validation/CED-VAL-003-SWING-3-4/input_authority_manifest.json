@@ -1,0 +1,171 @@
+{
+  "schema": "JGA-CONTROLLED-DATASET-INPUT-AUTHORITY/v1",
+  "dataset_id": "CED-VAL-003-SWING-3-4",
+  "dataset_generation_record_id": "DGR-CED-VAL-003-SWING-3-4-001",
+  "provenance_revision_id": "PR-CED-VAL-003-SWING-3-4-001",
+  "status": "FROZEN_INPUT_AUTHORITY",
+  "operational_history": {
+    "initial_discovery_attempt": "FAILED_DATASET_NOT_VISIBLE",
+    "pi_correction_notice": "PI confirmed external availability and reauthorized verification",
+    "second_expected_path_check": "EXPECTED_ROOT_ABSENT",
+    "actual_root_discovered": "datasets/CED-VAL-003-SWING",
+    "history_rewritten": false
+  },
+  "external_root_variable": "JGA_EXTERNAL_ROOT",
+  "expected_external_dataset_path": "datasets/CED-VAL-003-SWING-3-4",
+  "discovered_external_dataset_path": "datasets/CED-VAL-003-SWING",
+  "discovered_audio_directory": "steams",
+  "path_status": "DOCUMENTED_NON_SEMANTIC_PATH_DEVIATION",
+  "assets": {
+    "Drums": {
+      "asset_id": "CED-VAL-003-SWING-3-4-DRUMS-WAV-R1",
+      "path": "datasets/CED-VAL-003-SWING/steams/CED-VAL-003-SWING-3-4_drums.wav",
+      "sha256": "11bd51037126608d7052ae0bb2b01d77b86eccae46d60ca088d3d5f57cccc44d",
+      "file_size_bytes": 12906496,
+      "container": "WAVE",
+      "codec": "linear PCM, 24-bit little-endian signed integer",
+      "sample_rate_hz": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "sample_frames_per_channel": 2150400,
+      "duration_seconds_exact": "1024/21",
+      "duration_seconds_decimal": "48.761904761904762"
+    },
+    "Double Bass": {
+      "asset_id": "CED-VAL-003-SWING-3-4-DOUBLE-BASS-WAV-R1",
+      "path": "datasets/CED-VAL-003-SWING/steams/CED-VAL-003-SWING-3-4_bass.wav",
+      "sha256": "bd702128f0b6e9887ccfae104ee0af6b2b4307c2021bb826fd85fec669322429",
+      "file_size_bytes": 12906496,
+      "container": "WAVE",
+      "codec": "linear PCM, 24-bit little-endian signed integer",
+      "sample_rate_hz": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "sample_frames_per_channel": 2150400,
+      "duration_seconds_exact": "1024/21",
+      "duration_seconds_decimal": "48.761904761904762"
+    },
+    "Piano": {
+      "asset_id": "CED-VAL-003-SWING-3-4-PIANO-WAV-R1",
+      "path": "datasets/CED-VAL-003-SWING/steams/CED-VAL-003-SWING-3-4_piano.wav",
+      "sha256": "64b95f5c41bb2bc102c68ffb2fa9b0215a2397e749f671ba2891378533302065",
+      "file_size_bytes": 12906496,
+      "container": "WAVE",
+      "codec": "linear PCM, 24-bit little-endian signed integer",
+      "sample_rate_hz": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "sample_frames_per_channel": 2150400,
+      "duration_seconds_exact": "1024/21",
+      "duration_seconds_decimal": "48.761904761904762"
+    }
+  },
+  "cross_stem_compatibility": {
+    "identical_sample_rate": true,
+    "identical_bit_depth": true,
+    "identical_channel_count": true,
+    "identical_sample_frame_count": true,
+    "identical_duration": true,
+    "common_origin": "DECLARED_SIBELIUS_EXPORT_FROM_BEGINNING",
+    "origin_epistemic_status": "DECLARED_EXPERIMENTAL_PROCEDURE",
+    "detected_onset_alignment_performed": false
+  },
+  "symbolic_assets": {
+    "MusicXML": {
+      "asset_id": "CED-VAL-003-SWING-3-4-MUSICXML-R1",
+      "path": "datasets/CED-VAL-003-SWING/symbolic/CED-VAL-003-SWING-3-4.musicxml",
+      "sha256": "f74856b2766db824536bdbab0b3ab62dbcf8460c780272b88df13dec8620f4c2",
+      "file_size_bytes": 313844,
+      "format": "MusicXML score-partwise 3.0",
+      "well_formed": true,
+      "score_title": "Someday My Prince Will Come",
+      "export_software_declaration": "Sibelius 25.12.1; Direct export, not from Dolet"
+    },
+    "Sibelius": {
+      "asset_id": "CED-VAL-003-SWING-3-4-SIBELIUS-R1",
+      "path": "datasets/CED-VAL-003-SWING/symbolic/CED-VAL-003-SWING-3-4.sib",
+      "sha256": "f5d67d5e612e820ee8213ed02bf0d3303056ae5101d08f7c6e881b8e4252c477",
+      "file_size_bytes": 149186,
+      "parsed": false
+    }
+  },
+  "excluded_operational_metadata": [],
+  "symbolic_characterization": {
+    "method": "musicxml-exact-rational-onset-grouping/v1",
+    "jga_observations_accessed": false,
+    "parts": {
+      "P1": {"source": "Piano", "measure_count": 34, "attack_note_count": 245, "rest_count": 149, "tied_continuation_count": 101, "simultaneous_onset_group_count": 51, "symbolic_event_count": 57},
+      "P3": {"source": "Double Bass", "musicxml_part_name": "Bass", "measure_count": 34, "attack_note_count": 100, "rest_count": 0, "tied_continuation_count": 20, "simultaneous_onset_group_count": 0, "symbolic_event_count": 100},
+      "P4": {"source": "Drums", "measure_count": 34, "attack_note_count": 247, "rest_count": 45, "tied_continuation_count": 5, "simultaneous_onset_group_count": 82, "symbolic_event_count": 155}
+    },
+    "declared_meter": {
+      "declaration_count": 3,
+      "declarations_consistent": true,
+      "beats": 3,
+      "beat_type": 4,
+      "ground_truth_only": true,
+      "supplied_to_jga_or_h02": false
+    },
+    "declared_timing": {
+      "declaration_count": 2,
+      "declarations_consistent": true,
+      "beat_unit": "quarter",
+      "per_minute": "140/1",
+      "seconds_per_quarter_exact": "3/7",
+      "inferred": false,
+      "supplied_to_jga_or_h02": false
+    },
+    "score_extent_quarter_units_exact": "102/1",
+    "score_extent_seconds_exact": "306/7",
+    "score_extent_seconds_decimal": "43.714285714285714",
+    "first_symbolic_onset_quarter_units_exact": "0/1",
+    "first_symbolic_onset_seconds_exact": "0/1",
+    "last_symbolic_onset_quarter_units_exact": "96/1",
+    "last_symbolic_onset_seconds_exact": "288/7",
+    "deterministic_calibration_symbolic_event_authority_buildable_later": true,
+    "event_authority_constructed_in_this_task": false,
+    "eme_compared": false,
+    "h02_candidates_constructed": false,
+    "correspondence_outcomes_inspected": false
+  },
+  "temporal_consistency": {
+    "wav_scope_seconds_exact": "1024/21",
+    "symbolic_scope_seconds_exact": "306/7",
+    "wav_tail_after_symbolic_scope_seconds_exact": "106/21",
+    "wav_tail_after_symbolic_scope_seconds_decimal": "5.047619047619048",
+    "wav_tail_after_last_onset_seconds_exact": "160/21",
+    "wav_tail_after_last_onset_seconds_decimal": "7.619047619047619",
+    "status": "PASS",
+    "reason": "declared common sample-zero origin, complete symbolic scope lies within every equal WAV scope, and the untrimmed rendered tail may preserve note duration and release"
+  },
+  "declared_export_procedure": {
+    "creator_authority": "PI declaration",
+    "source_application": "Sibelius",
+    "exported_per_part": true,
+    "export_origin": "FROM BEGINNING",
+    "origin_epistemic_status": "DECLARED_EXPERIMENTAL_PROCEDURE",
+    "detected_onset_alignment_performed": false,
+    "asset_modification_performed": false
+  },
+  "independence": {
+    "identity_distinct_from": ["CED-VAL-001", "CED-VAL-002-SWING"],
+    "all_authoritative_asset_checksums_distinct_from_prior_controlled_datasets": true,
+    "created_after_h02_and_prior_results_frozen": "PI_DECLARED",
+    "not_used_to_construct_tune_or_prior_evaluate_h01_h02": "PI_DECLARED",
+    "statistical_independence_claimed": false
+  },
+  "calibration_zero": {
+    "new_characterization_required": true,
+    "status": "MISSING",
+    "prior_numerical_results_reused": false,
+    "execution_authorized_in_this_task": false
+  },
+  "h02_applicability": {
+    "frozen_status": ["EXPERIMENTALLY_SUPPORTED", "SOURCE_SENSITIVE", "CONSERVATIVE_IN_SOME_CONDITIONS", "NOT_PRODUCTION_AUTHORIZED"],
+    "frozen_rule_unchanged_applicable_later": true,
+    "execution_authorized_in_this_task": false,
+    "prerequisite": "CED-VAL-003-SWING-3-4 Calibration Zero authority and separate PI approval"
+  },
+  "dataset_fingerprint_method": "sha256-canonical-json-excluding-dataset_fingerprint/v1",
+  "dataset_fingerprint": "9345f5923055a7ed1c953eee4b8613f2b2262c55cd2e5f094d489d097c37f790"
+}

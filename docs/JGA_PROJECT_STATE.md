@@ -1,5 +1,27 @@
 # JGA Project State
 
+## CED-VAL-003-SWING-3-4 Controlled Dataset
+
+Status: INPUT AUTHORITY FROZEN — CALIBRATION PENDING
+
+- The initial failed discovery remains preserved. Following PI correction,
+  assets were discovered under actual external root
+  `datasets/CED-VAL-003-SWING/`, with scientific filenames retaining
+  `CED-VAL-003-SWING-3-4` and audio directory `steams/`.
+- Three equal stereo 24-bit PCM 44.1 kHz stems each contain 2,150,400 frames
+  (`1024/21` seconds) with PI-declared common export-from-beginning origin.
+- Explicit checksum-bound MusicXML Ground Truth declares 3/4 and quarter =
+  140/minute and yields Drums 155, Double Bass 100 and Piano 57 exact-rational
+  symbolic onset groups. No declaration entered JGA or H02.
+- Complete symbolic scope `306/7` seconds is contained within the WAV scope;
+  the untrimmed rendered tail is `106/21` seconds.
+- A new independent Calibration Zero is mandatory before separately authorized
+  unchanged blind H02 execution. No production behavior changed.
+- Authority:
+  `docs/scientific/controlled_datasets/CED-VAL-003-SWING-3-4.md` and
+  `validation/CED-VAL-003-SWING-3-4/input_authority_manifest.json`.
+- Dataset fingerprint: `9345f592…`.
+
 ## H02 Independent Out-of-Sample Validation
 
 Status: MIXED GENERALIZATION — SCIENTIFIC CONCLUSION FROZEN

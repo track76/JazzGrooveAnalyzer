@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: H02 Mixed Generalization Conclusion Frozen
+Current Milestone: CED-VAL-003-SWING-3-4 Input Authority Frozen
 
 Current Phase: Phase II Scientific Validation
 
