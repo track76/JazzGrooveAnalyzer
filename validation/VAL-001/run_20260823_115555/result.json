@@ -1,0 +1,567 @@
+{
+  "blind_result_sha256": "3326ec42d127e210751f470222aa059a8e2360a8831f8577d5b4952d27c9714d",
+  "blind_scientific_fingerprint": "259246226fee627934708eeb9aafc8bd8eb8e3ebbe7340b76935f2a4c0d8b674",
+  "by_source": {
+    "Double Bass": {
+      "ambiguous_unscorable_candidate_count": 0,
+      "ambiguous_unscorable_symbolic_relation_count": 1,
+      "blind_candidate_count": 1,
+      "f1": 0.10526315789473684,
+      "fn": 17,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 0.05555555555555555,
+      "scorable_candidate_count": 1,
+      "tp": 1,
+      "unresolved_count": 26
+    },
+    "Piano": {
+      "ambiguous_unscorable_candidate_count": 0,
+      "ambiguous_unscorable_symbolic_relation_count": 0,
+      "blind_candidate_count": 12,
+      "f1": 0.4583333333333333,
+      "fn": 25,
+      "fp": 1,
+      "precision": 0.9166666666666666,
+      "recall": 0.3055555555555556,
+      "scorable_candidate_count": 12,
+      "tp": 11,
+      "unresolved_count": 37
+    }
+  },
+  "candidate_comparison": {
+    "change": 13,
+    "hypothesis_01": 0,
+    "hypothesis_02": 13
+  },
+  "deterministic_replay": true,
+  "experiment_id": "H-VAL001-RHYTHM-CORRESPONDENCE-02",
+  "ground_truth_scoring_authority": {
+    "absolute_correspondence_results_sha256": "13fd9baa9510aa16acbec26547b2d732f0133f6090cda3fb5c1159b31d39c875",
+    "pair_event_results_sha256": "d64d8fd8a4f188a1b50726b6c93997f08adb7bc692ff92ee0cb473af364ffed8",
+    "symbolic_pair_authority_fingerprint": "f5c424a3f8de3b35c60d2ae9e3f41527a93ed4f84f5d8cc992a837a2489f5b28",
+    "symbolic_pair_authority_sha256": "ba6a02764967565ab85869d43e636aa0305356c504fafbe999a71b3c56595a2c"
+  },
+  "ground_truth_used_for_scoring_only": true,
+  "outcome_classification": "LOW_RECALL",
+  "overall": {
+    "ambiguous_unscorable_candidate_count": 0,
+    "ambiguous_unscorable_symbolic_relation_count": 1,
+    "blind_candidate_count": 13,
+    "f1": 0.35820895522388063,
+    "fn": 42,
+    "fp": 1,
+    "precision": 0.9230769230769231,
+    "recall": 0.2222222222222222,
+    "scorable_candidate_count": 13,
+    "tp": 12,
+    "unresolved_count": 63
+  },
+  "preregistration_commit": "62cebe2c46402d80803c82c4ea74d9b4d61006a7",
+  "production_authorized_event_relation_promotion": false,
+  "production_code_modified": false,
+  "raw_observations_modified": false,
+  "schema": "H-VAL001-RHYTHM-CORRESPONDENCE-02-result/v1",
+  "scientific_fingerprint": "2bf5ddb3c40620c3ddf5ebf8cbf7aad6d6ed74d770481d8eb921b579ad96c082",
+  "score_records": {
+    "Double Bass": [
+      {
+        "drum_eme_id": "65269f55-671e-5578-ab5e-c47abffd4366",
+        "drum_symbolic_event_id": "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "01049d23-af4a-5a00-9042-9008ef9179b5",
+        "source_symbolic_event_id": "CSE-8e0d4c700883b0d59a5339e13a868fef1263e7a43c79fead9fd21b68ae9521fd",
+        "symbolic_pair_id": "CSP-e743bfee775b4079d5fb4a1fe3d91f05fba6df778f8e771e97591d82c35a9f0a"
+      },
+      {
+        "drum_eme_id": "17098814-877f-52a8-99ce-fee4dd409655",
+        "drum_symbolic_event_id": "CSE-02337f920e35b965e5e9e6b55d5722fd5108d19af7696d1ba9b7190d444a364a",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "3b6faf2d-42e6-50a4-ac4c-caf5b85a2398",
+        "source_symbolic_event_id": "CSE-7482a69d60921e5fd0caa576ef2fea1f1e62537cf3154e688be92f0a952329c8",
+        "symbolic_pair_id": "CSP-807c64a911b7615ae4167ce918ea6dba6d023bc80343bfbd6c9dc45bc73fc8d7"
+      },
+      {
+        "drum_eme_id": "688fcebc-88fb-595e-b03e-c7ed2df36665",
+        "drum_symbolic_event_id": "CSE-a68b5176d178164357c5da16db506b2f49699980746ddc312fc1cad758791a0b",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "a47c68f9-0129-52c9-8986-ceccce4658f8",
+        "source_symbolic_event_id": "CSE-f991cdc85bae38792dd69b7272e26e4f7c125f2c8b3256e3bc321040c7685103",
+        "symbolic_pair_id": "CSP-ba11189acaa651011b6726b9787fba63d13fdf3a1849c078541823faf92e172d"
+      },
+      {
+        "drum_eme_id": "b2579f48-3eab-5826-b670-a10fe505fb33",
+        "drum_symbolic_event_id": "CSE-5c0577379f605e827ff1e339fa81ee08d75e00ddc98ef69abcfe4c3be5a18aa7",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "75d42efb-f91f-5b47-acee-8d1b1933706b",
+        "source_symbolic_event_id": "CSE-7c7a289f46d5be7d9c1360df8050bec5026110a4ef8cd6cef3a5af547a49346d",
+        "symbolic_pair_id": "CSP-63d0696baed6fa88300697066fef76a5e21e3063cb553ad37fc0f68003d646a2"
+      },
+      {
+        "drum_eme_id": "d58a7fc9-6dc5-551e-8bde-9e108985c472",
+        "drum_symbolic_event_id": "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "2c15cce2-c049-5ba5-ab77-add4f61d3575",
+        "source_symbolic_event_id": "CSE-ed3209bbdd99845bc47213fa1c372e0f6c4fe47d2df5913333802d2814cbee2d",
+        "symbolic_pair_id": "CSP-3d7c4cc9eede714386c37541ffa8006a52efe3f1964ec43c0af56065df8f2f99"
+      },
+      {
+        "drum_eme_id": "91426ff8-6dd0-5f44-ab11-fcef05e50764",
+        "drum_symbolic_event_id": "CSE-8ccba58d4056c56a35e588330935d35af74777955e892b737882bf0f1d618126",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "309a4d52-e925-50ee-8589-564c404d55f2",
+        "source_symbolic_event_id": "CSE-4a3eb32d971404ce618db6e0917e2190930c0f20b6159219ba67671cec7fff4e",
+        "symbolic_pair_id": "CSP-4b32d3c62749609f7e58bce72bce9667400e3217d735c4ad09b2f0c233e8a3eb"
+      },
+      {
+        "drum_eme_id": "81090df8-32b8-5ed1-9eb4-be4ad8ab070e",
+        "drum_symbolic_event_id": "CSE-9ea7ce022478997dcbb5e40707a8ad555ffc51efad6100ee36fbdab9343e6812",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "47ad8af8-9512-5b50-8d18-3ab7b150a617",
+        "source_symbolic_event_id": "CSE-77b382f798fe7595aac71de868078c03adbab9ccb63582f2d70c998ad7d64a0f",
+        "symbolic_pair_id": "CSP-b5fd98dfd12784724dea452f3d98a0d4e66242209ad9c041f0a0208f7593dffd"
+      },
+      {
+        "drum_eme_id": "a727664c-767b-501c-b421-26604ae7a709",
+        "drum_symbolic_event_id": "CSE-35656a1894bdc924187991d521c9c4ad13db9926f3e4e6c7829f09567eaf1f8a",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "1a9914d6-1d49-5ed7-a052-e3641936a170",
+        "source_symbolic_event_id": "CSE-547e111a413bc273f719f4b616f8f0e2da0b4da6971943f62e4c2b51e003e32b",
+        "symbolic_pair_id": "CSP-ee32a0aeca58af1969455969f3bc0be4c8405d52bda6b4b85b22ed0afaf12861"
+      },
+      {
+        "drum_eme_id": "971afad3-c986-57a2-983a-153917b6d4f5",
+        "drum_symbolic_event_id": "CSE-6c7a1e1bfeedebca4717ff15aa2702bfb5d58a9f685e5c904caa99db5e40b468",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "316220d4-837e-50b1-a0c2-248b801d136c",
+        "source_symbolic_event_id": "CSE-33fb7847cb46754a268af14e4e0be9011be92914c8fa59ac133b981481ce990d",
+        "symbolic_pair_id": "CSP-93129f0efb390a57f76f6a7f9a38515a296c31a8edc6162eda1e0edf556bc927"
+      },
+      {
+        "drum_eme_id": "2cc5b7c2-6944-57c5-bc6e-be4652ad36e1",
+        "drum_symbolic_event_id": "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "a046dc9f-7fbe-53d6-9ac4-869d759026a8",
+        "source_symbolic_event_id": "CSE-d61c91e5d02ad7d12a40e3420249d1fa0475e876bdbd419498c0cb54b27bd9e7",
+        "symbolic_pair_id": "CSP-89a32ffdf3b7b3ee47b61ae49c45ba4ce10b65236adf59a80a5d7ef69f56c8b6"
+      },
+      {
+        "drum_eme_id": "40a69ec7-a5e1-5d05-8bd8-c94309c1d9bc",
+        "drum_symbolic_event_id": "CSE-b2fe7b30f5e7648c1f567866c19ca67a771d0db3f27977a833c6f194bec9254f",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "7405098f-8b3d-5db0-a983-510954fbf30f",
+        "source_symbolic_event_id": "CSE-8879b3e13b74c32005c4fce99e75448800c9df9c9bcd0fd5ca8912009a84c3c9",
+        "symbolic_pair_id": "CSP-e473fc8f29590d157b596b0fe86332fbff001c64c795e5ef7e55cea66f7ff9e6"
+      },
+      {
+        "drum_eme_id": "b2ebf779-b7ab-54e3-82d2-f03c0ed88808",
+        "drum_symbolic_event_id": "CSE-eaad0eb043fcdae917944c5548e8a4a96af788e0bdfab68f4533c60dcf4b5192",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d3186051-6b64-54e4-8c5e-d5d91868df47",
+        "source_symbolic_event_id": "CSE-860bceac9f04b4efd6d228f522502ee042d5be2634b82445f333592f6e302753",
+        "symbolic_pair_id": "CSP-70fee5851004aa2a0ef5d0cffcc8d9ca7cede32318aa300a31d3e1eaf73ff993"
+      },
+      {
+        "drum_eme_id": "1ac43029-2fc5-5a41-9fc1-e97c8f5a0a8b",
+        "drum_symbolic_event_id": "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "0a5b5086-54f4-543c-bfe6-cddca1e84bfc",
+        "source_symbolic_event_id": "CSE-feba8530e52ea351490c31afd71e488f3b26a1d8de3731451b34a7223e04292a",
+        "symbolic_pair_id": "CSP-7a63df387b3c523ab330b83d9675a0f5b22148068d266ec4a51870b5a32e3b0b"
+      },
+      {
+        "drum_eme_id": "9e5e67d6-2f6a-5adc-be73-4bc61456a5fd",
+        "drum_symbolic_event_id": "CSE-5f9e699013e6ae3d6bde6471bb85b055229444ce4ce427edd38e2e3732bbac86",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "a39376b5-fd0b-5ba6-abe1-aaa08ea5b792",
+        "source_symbolic_event_id": "CSE-1cd426f423231ff96a950ba25c64c1db11176533ac0ffb2850a4d04fbd830cce",
+        "symbolic_pair_id": "CSP-2fb4ac5dc69e9f15a4ab7f870746e70ebb74894063da21e2fd684dfd9b42840a"
+      },
+      {
+        "drum_eme_id": "7374cff9-149a-5943-bfd4-6fb46dcb15ce",
+        "drum_symbolic_event_id": "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "709f35b8-06ca-5f58-a51f-c68adc1539e0",
+        "source_symbolic_event_id": "CSE-1fea57eabd42a8484cdbd0bf628a8d5944e25da1e1006d7708871d3f17e2211e",
+        "symbolic_pair_id": "CSP-eef4632a1e3c322002fa13eb03d62185818516e2947fb62a2f0ef6babadc5cc5"
+      },
+      {
+        "drum_eme_id": "6956b99d-cca4-58d5-82ee-cc4d383d8520",
+        "drum_symbolic_event_id": "CSE-b7584e9d74370a1b53cdba1f4f7cd8d13a537e5788899f764f1d060a7b722a7d",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d293aa82-6cde-5759-975b-7e603f273b05",
+        "source_symbolic_event_id": "CSE-98816358d72870d1610fbd91344089a68e8a7901523414d520e1b05769904054",
+        "symbolic_pair_id": "CSP-4bfc29d10a6273993e6cafe0b2978157a39c886cf5b60232ba7b640daea031b3"
+      },
+      {
+        "drum_eme_id": "301b557b-0c6d-55c9-8a01-0971c815fd6e",
+        "drum_symbolic_event_id": "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "4f80f63b-c345-563c-81ad-81ed6144723b",
+        "source_symbolic_event_id": "CSE-62007d488bc15c6bf32ff0618c294539c1c0cbc71dcf4e59f8b9219974203381",
+        "symbolic_pair_id": "CSP-274c8d46040ba393cbd9c42e99b2a01c6ab8ea1bcccd8f9ee3c6d3d531331586"
+      },
+      {
+        "drum_eme_id": "db345c61-f0a8-58c2-acce-36bda3d9455d",
+        "drum_symbolic_event_id": "CSE-c54dec82570b01f084e80331ccfc4352626d6e7d63428a37e303317537a07c93",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "fa0e0460-342d-5f93-932c-0313d1d56d06",
+        "source_symbolic_event_id": "CSE-ba9a68c36139db92a9bbce20da8145656e7fb252eea05b8d5ec2fdcfa0b44205",
+        "symbolic_pair_id": "CSP-d95173124df21e9c78f12bf77783b27300559d05b0fd0d531055993b0994e345"
+      }
+    ],
+    "Piano": [
+      {
+        "drum_eme_id": "00c0b404-6b6c-53e6-b994-6c6ba717fb39",
+        "drum_symbolic_event_id": "CSE-77e7fa058644d9d6960b50de32655467576d95ebfe8f63c682426a921ce4b06e",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "b9a3c6a2-f44b-5b97-8d44-7c4f3f2e66df",
+        "source_symbolic_event_id": "CSE-6cbdd5abae017872e4d69befb7745d8e0346b451171deafb1345f0731b907002",
+        "symbolic_pair_id": "CSP-598f30fb8ec7cb4f346857e7140ab06d6c7aea43c0cba807259269d0e479b8d7"
+      },
+      {
+        "drum_eme_id": "b9f61d3a-c086-568e-8abd-98c0ad8dc8e1",
+        "drum_symbolic_event_id": "CSE-100ccf74ea1245ec4cf466f94143df50a26d3d6b631714a664c689ce45e6df47",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "3aed898d-83d3-5ec5-bade-47b299897294",
+        "source_symbolic_event_id": "CSE-4b48cc19e9e2df30485eed7051d0972c6ea355de42a92d0c3644cc64750a84b0",
+        "symbolic_pair_id": "CSP-8ddf33d41c0f82726b9aad55570b6390b652f55ab95dfb7fd07efaf9fb76a911"
+      },
+      {
+        "drum_eme_id": "07019471-e37d-552b-a3d4-48b24bfa6c99",
+        "drum_symbolic_event_id": "CSE-5276d51395373b8a3897c4e62af8a48459e73ffacbdc768861d5222dd90f1868",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "60a9c973-f8ef-566b-96d7-d7fd6e83c690",
+        "source_symbolic_event_id": "CSE-d20ef50e153299929e71f531731703b70e4a2561c642810c8d4ab745b1dd03c7",
+        "symbolic_pair_id": "CSP-1181d6d0c77d3898507ec2f0732d3f058235c74f3df8a919e6b92fb77330ba1a"
+      },
+      {
+        "drum_eme_id": "6edac7a0-f153-54d7-b27e-680950a312f5",
+        "drum_symbolic_event_id": "CSE-78cd4906d6de020e57ebf35ea36ea7ceeb5e7a0d9a388b67dc0ec30bac3d3510",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "8a092961-d025-5f19-a108-aa432db3b94c",
+        "source_symbolic_event_id": "CSE-fe8b743c69d7fc1fabd2e1ac94d871bb5be7ff45f6f9e0373942a85ba41594cb",
+        "symbolic_pair_id": "CSP-61ced5172df934ba7e7378ca53f2216a9007b1ca9c90872455700effa63e173f"
+      },
+      {
+        "drum_eme_id": "239cfa5e-ffbb-5070-9094-43055f338759",
+        "drum_symbolic_event_id": "CSE-083869724970a223e39b37dedef3952234967d3a5112eeb17218f0441e0055e1",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "d1f186f5-b77f-5c34-80c5-0e9b59cf7a79",
+        "source_symbolic_event_id": "CSE-a2edf8f2ddba44a62ebbcca80fab828ae908b94db16d81759a8522c616a92e55",
+        "symbolic_pair_id": "CSP-0b1cb2d407f084ec9d0e674ab8cac7df7c559dfcd802736287b5f3d8694e3317"
+      },
+      {
+        "drum_eme_id": "65269f55-671e-5578-ab5e-c47abffd4366",
+        "drum_symbolic_event_id": "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "d6210cd6-235b-59fc-9646-30c76c306d75",
+        "source_symbolic_event_id": "CSE-28b6056257cc141222148adf599ca18749c8bd4c5ba7579617b7533db213f2c2",
+        "symbolic_pair_id": "CSP-adf1258e9b4787816b3a1530890c18778cd89b7ae3a262c0f691de855e5c26b1"
+      },
+      {
+        "drum_eme_id": "c5c5d9f4-fc52-54a5-9e8d-d6cd51a08f26",
+        "drum_symbolic_event_id": "CSE-0961d91ba4865c6ce82d1c59e1def76f8f0463ca208fd4d773ece4275fabef0e",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "839fabae-c761-553a-8b0a-57a98783a713",
+        "source_symbolic_event_id": "CSE-aaf3752da783010ab8d443d624017e6a06496d586da60cbd902110367ede791d",
+        "symbolic_pair_id": "CSP-14f2988241358059e872393631a3d62fe26b51948d99e579690afb28c2f20c5e"
+      },
+      {
+        "drum_eme_id": "9fdc13a4-e912-56da-9f4a-d1c0d4278f26",
+        "drum_symbolic_event_id": "CSE-d9b8f39778e1bce4863873e4e5433298e0c4ec9f1ce0a7504c7d9880bc10b9bb",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "25fc236f-b67d-5ab1-8371-86c79e66d80a",
+        "source_symbolic_event_id": "CSE-60e3fd17cf0ed5a7cb35f5e4ef06c8bb967640d1ea540ab7c695b5e56e060327",
+        "symbolic_pair_id": "CSP-532ac039c332788607453ad8a5d67936d9911a73b55bdd5225144b0790673e20"
+      },
+      {
+        "drum_eme_id": "8b4623a6-e5bf-55fd-b2d2-af5889a33111",
+        "drum_symbolic_event_id": "CSE-5b3a876e73acdf96935724d05017936ef1c0eb306e8f9653621b123874b7b267",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "e5fb09a3-ea30-5697-a46a-4c3027ce054a",
+        "source_symbolic_event_id": "CSE-eb47dbf26701fc2f9b570bb749705cbe4bc6791920eca54454ca8f9c3689bff1",
+        "symbolic_pair_id": "CSP-02311734cee44acf68e98998657423b990e5d8b3fe3c8ec80ca1c6800fe49d1b"
+      },
+      {
+        "drum_eme_id": "b2ebf779-b7ab-54e3-82d2-f03c0ed88808",
+        "drum_symbolic_event_id": "CSE-eaad0eb043fcdae917944c5548e8a4a96af788e0bdfab68f4533c60dcf4b5192",
+        "score": "FALSE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "a37956ee-4a7d-576d-92e9-99233238ba7f",
+        "source_symbolic_event_id": "CSE-f23ebf44de919ccf041b332ca3ec9812053b73eeab7b816c1466b05a857151e9",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "9e5e67d6-2f6a-5adc-be73-4bc61456a5fd",
+        "drum_symbolic_event_id": "CSE-5f9e699013e6ae3d6bde6471bb85b055229444ce4ce427edd38e2e3732bbac86",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "74d75128-456b-5de8-99d5-406551e38ad3",
+        "source_symbolic_event_id": "CSE-e9696362727954e7faac980009a9546d155a78eb05e3f0f843dae553c84e2c59",
+        "symbolic_pair_id": "CSP-e8d97a0b4f79831d70f6bee032ab3815e997136f6d1f1a51508e2c38939262e1"
+      },
+      {
+        "drum_eme_id": "7374cff9-149a-5943-bfd4-6fb46dcb15ce",
+        "drum_symbolic_event_id": "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "0406a9e1-9dec-5a53-b19a-628df5384d79",
+        "source_symbolic_event_id": "CSE-d03366e61df8edbf6d3c7b179fadc9f4448c3f489090a09d6d03514e00e32313",
+        "symbolic_pair_id": "CSP-3b76cdb78619a012bc86aeb4de60706d4944c58982b631d3bc03b4c7ccf110a5"
+      },
+      {
+        "drum_eme_id": "17098814-877f-52a8-99ce-fee4dd409655",
+        "drum_symbolic_event_id": "CSE-02337f920e35b965e5e9e6b55d5722fd5108d19af7696d1ba9b7190d444a364a",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "6ad23402-a6f0-55a6-a78f-f8427ff752ee",
+        "source_symbolic_event_id": "CSE-1d12193a05ace0b39aeddb929256569ff64b31eeb9de4757c992a125cafa69ef",
+        "symbolic_pair_id": "CSP-4b6ac787b0b0dda2fe5db907470e9e394a702db28e663ff2a4487c19bec82e74"
+      },
+      {
+        "drum_eme_id": "5227a5a6-d6f7-5a6f-bbf6-1237d54e3312",
+        "drum_symbolic_event_id": "CSE-f722ad3bb99b40aeba86838a8b977bde1be037da54569992c1576afbc6fc25a9",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "fe4722e9-76c3-5550-98a0-d0da08cd8f80",
+        "source_symbolic_event_id": "CSE-ad47351575db4391546841d316075c4a5ef2babfe1aeb95be03d40e6b1385f30",
+        "symbolic_pair_id": "CSP-89aa44b0aad2113d8d0a81e9c5de45aa1d0e820556dee66957702b8a5621481c"
+      },
+      {
+        "drum_eme_id": "e1b5df66-c6c0-5412-a461-265c933b98a2",
+        "drum_symbolic_event_id": "CSE-c2474b55058b3a424a856a57503cf9b289b9b4b840965f072cca7108980876db",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "21d35bd6-3456-5e1b-bbca-67a715809581",
+        "source_symbolic_event_id": "CSE-89bc6f3c9c674f7886232674a5f5416c7af80b51bb845bb3b688546d8586150f",
+        "symbolic_pair_id": "CSP-0076450de5da851c9fa5c80c2a5c0580a3e8edcb374265a13d72369aabc42f84"
+      },
+      {
+        "drum_eme_id": "688fcebc-88fb-595e-b03e-c7ed2df36665",
+        "drum_symbolic_event_id": "CSE-a68b5176d178164357c5da16db506b2f49699980746ddc312fc1cad758791a0b",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "5dc54c0e-2d34-504a-9574-2bfb7d19f27a",
+        "source_symbolic_event_id": "CSE-70fa1e18d38ba4ab6817d52afc3b2479254e06ab0cafa78e7dbd5269cba386c5",
+        "symbolic_pair_id": "CSP-80fe0f161e664a5e36344dfab7a8b0bb77b358a09e2c8d6bfcf32eb29bcab49c"
+      },
+      {
+        "drum_eme_id": "19c9fe17-9e5c-56cf-81c2-cdb2e0ffe0d0",
+        "drum_symbolic_event_id": "CSE-5e6a483333ef35b64697ad3b5a3504df35b5354f69c1350e5ff1f9f8d71e797d",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "07a94c6a-29a7-5d95-a326-eb04e6d59703",
+        "source_symbolic_event_id": "CSE-7b0aa530acc43349c18e446d67d90e01fb52a711279543bd5ade2990998346ef",
+        "symbolic_pair_id": "CSP-0ca7310beae812f0c8ef2c1cf1c95a5d851aa6f0bc31d1069085459328b30d8f"
+      },
+      {
+        "drum_eme_id": "08f40415-c267-5580-9759-993b649ce6a9",
+        "drum_symbolic_event_id": "CSE-4b3d2e499a03051e6c78ddff3a5d9c197deb10f336d9ca54ce78726277d78917",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "15707241-9848-5b52-8a0b-d53b9ef04549",
+        "source_symbolic_event_id": "CSE-9235b60ae0843fdb44c08df6e8cfc10098cd5b005be3234b301efce69eb2503f",
+        "symbolic_pair_id": "CSP-24ce5dd126c5c1ef7600f806018a57462faec189ed095c4b61890ba9fb15d6b3"
+      },
+      {
+        "drum_eme_id": "0fa1ee20-cfc0-545a-8122-bcd7984eddd9",
+        "drum_symbolic_event_id": "CSE-24c4471bb5f36805ae9dc90b1084f8855bde4f5de2b3c55e2c3c5d4d1c5d656c",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "d705e861-870d-5c31-8f97-34374c64308c",
+        "source_symbolic_event_id": "CSE-6c23ceb4df4f37ea1b04e919a5ac4b56682643be0398100dd101ce5622ab3c0f",
+        "symbolic_pair_id": "CSP-ccdb97b16c28d2737dc0156a986f79f8bfae5f196c5ef35bdc97fd2d3d41ec36"
+      },
+      {
+        "drum_eme_id": "b2579f48-3eab-5826-b670-a10fe505fb33",
+        "drum_symbolic_event_id": "CSE-5c0577379f605e827ff1e339fa81ee08d75e00ddc98ef69abcfe4c3be5a18aa7",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "5814d898-bf06-5b39-8e04-7662f28169af",
+        "source_symbolic_event_id": "CSE-0d114582a6996fdf1ba2415044fe02400bb2087e169fb9550a12c5ca96bf502a",
+        "symbolic_pair_id": "CSP-46fccbddac21f114b21b5d6756bcc3d0537c03de218e1dff18f373b145545a14"
+      },
+      {
+        "drum_eme_id": "d58a7fc9-6dc5-551e-8bde-9e108985c472",
+        "drum_symbolic_event_id": "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "1bf4a425-4d3b-5b4d-942b-936e2c4e6a45",
+        "source_symbolic_event_id": "CSE-e96e21ffbfeb6b18e13c910691d226f499cb3cc841a2d785877adec6f306f034",
+        "symbolic_pair_id": "CSP-00f32f0a69f672e58d283255e2a8b4ea4bf21e3b3fdda5998622cd78f5201a72"
+      },
+      {
+        "drum_eme_id": "91426ff8-6dd0-5f44-ab11-fcef05e50764",
+        "drum_symbolic_event_id": "CSE-8ccba58d4056c56a35e588330935d35af74777955e892b737882bf0f1d618126",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "831cbb5d-9dc4-54be-8cf4-86c7d5a0b8b7",
+        "source_symbolic_event_id": "CSE-74644b6b7830b45ae7f2f13605dfd2c1fb40056c0e831b4f4dcbe1d03bfb9931",
+        "symbolic_pair_id": "CSP-e1d39ef981a0da8ebfbf1e74b45ca8d16c122137f0c7b63c6b96d797996c2b3b"
+      },
+      {
+        "drum_eme_id": "91c7ff5c-e023-5322-b78e-90b296074c0f",
+        "drum_symbolic_event_id": "CSE-23c8d7843d4d6f11a8d60a947961adb2e047aacebad32695cb01b786e8ec348f",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "abb53f47-1c65-5370-bdd7-8e83ec0091c0",
+        "source_symbolic_event_id": "CSE-6e83d74bf14a6f1ed630a224ddc6aacba56f4742ddfdbe92963abd576a0d5460",
+        "symbolic_pair_id": "CSP-efaf4519144e4cd047814b5bd1d5a9316ee3054204752d74c10c381ce38cc1d1"
+      },
+      {
+        "drum_eme_id": "b01dfec0-0cad-5fe5-a3ba-870bcb52602c",
+        "drum_symbolic_event_id": "CSE-18a1be73cb0530ae03990678d67243b3edcae6c5ec99aca6ee795c485fc2542e",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "d7e83644-0645-51e7-8b69-ff73802a3f96",
+        "source_symbolic_event_id": "CSE-2568032a384f3da8d3a9874a2d3702e742fa3126962d4b3cad026f015c4fb681",
+        "symbolic_pair_id": "CSP-1c6ce869ef8cc3b4cc51c87a98807a46333d1ff3cdbaaa879f69c126effd1daf"
+      },
+      {
+        "drum_eme_id": "81090df8-32b8-5ed1-9eb4-be4ad8ab070e",
+        "drum_symbolic_event_id": "CSE-9ea7ce022478997dcbb5e40707a8ad555ffc51efad6100ee36fbdab9343e6812",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "fda5e78a-ad25-5e77-83b5-9a742411802b",
+        "source_symbolic_event_id": "CSE-309a078577fa5743bd3f5a13dcd39b27b8dbe14f5a0a14b459f33285844d9d22",
+        "symbolic_pair_id": "CSP-668da5adb9572b15ab2df65cc218dd3dda7932ca00d7c31ae48d8b6973c317e5"
+      },
+      {
+        "drum_eme_id": "ada483ff-d77e-50cf-82b5-0f10d478345f",
+        "drum_symbolic_event_id": "CSE-7700a9644f4e8546f65979abd5e48c61e89146a9c7dcaffd332afdacc7bde58a",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "18bd5e57-5418-5588-b1d1-aa9af7c70015",
+        "source_symbolic_event_id": "CSE-3f0d1a9e6d42738b35574c88023a2fffd5dc59b1ec5ad02b41c4620227ef108f",
+        "symbolic_pair_id": "CSP-6cc9aa6147d9c18560bceb71165956f0e6839eebda2c885e7b677924631fb4ac"
+      },
+      {
+        "drum_eme_id": "e4ebcef7-42bf-500c-a726-fcea797dc7be",
+        "drum_symbolic_event_id": "CSE-7a4e8a010d65405ba5b811c8e8950111c2f2a8e5626faf2b9a6fd811b0dd59b4",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "7d1f374c-de01-57a9-bb09-2cb46e46d082",
+        "source_symbolic_event_id": "CSE-14fb3b459efb5c196fc1995cb1b2be6442823ba697ed00d4fb7b1c6bdbe3f2b9",
+        "symbolic_pair_id": "CSP-7b43041312e0d9c44406be16721a809d513db554b1be12e27dfcd4733be8e4c3"
+      },
+      {
+        "drum_eme_id": "cb5a9ac7-2921-589a-8acd-40a20aaaa162",
+        "drum_symbolic_event_id": "CSE-409d2e001bf63ed953404c8ce32c2d5a4f8bb1acab8f8d896256d0fa9921d550",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "cfc79668-1466-573a-a6a4-7284e33b1c42",
+        "source_symbolic_event_id": "CSE-d14f76c8993b423f507f7070ddc30002f5e746cee1efab5f1484f7d575d2728e",
+        "symbolic_pair_id": "CSP-1758dfc1902d479a5803b203a4a0f02c4cdddefdadcd4bd9fd48659f899ae631"
+      },
+      {
+        "drum_eme_id": "2cc5b7c2-6944-57c5-bc6e-be4652ad36e1",
+        "drum_symbolic_event_id": "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "f9bee8f4-78da-56e4-a2d0-d959f0f5d0c6",
+        "source_symbolic_event_id": "CSE-302ced1f4168711df025b8ffddc17a27133d05c52b4d0b525284820e7077c333",
+        "symbolic_pair_id": "CSP-05e81970b648325c7ee4d29ac52dac4dc2b3cea527e354d423b265e3d6d9d01b"
+      },
+      {
+        "drum_eme_id": "1ac43029-2fc5-5a41-9fc1-e97c8f5a0a8b",
+        "drum_symbolic_event_id": "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "4b31167f-1173-517c-aee2-eb6b97a85ce9",
+        "source_symbolic_event_id": "CSE-783c3ecf365ddb1b54f6a5fe7ae64842a8dd7f01d52e85e1af0404980d4499fe",
+        "symbolic_pair_id": "CSP-a680fe6ffcc87ce45763bb7dfc5dc92c2edd9059354896654fce7b94687177f3"
+      },
+      {
+        "drum_eme_id": "dfd3e7cb-b682-5b6c-bb77-88c91e331e83",
+        "drum_symbolic_event_id": "CSE-14bfc02280d88f3804833192b4e4d6ec20d1aeaf7680ee9970fa1b5e432fc407",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "542a1794-87fe-50a4-bbc9-86d71c13c167",
+        "source_symbolic_event_id": "CSE-0fc86782f4758907d5a5b63c6778f733cf7e7a1d5ea68c3a6c68e4257e311a22",
+        "symbolic_pair_id": "CSP-efbbf52ef08237fd0c7248bcc17b35543cdb636b17a54b57b01017be23e83f72"
+      },
+      {
+        "drum_eme_id": "d84c42bf-58fd-58a2-a164-c4ad0f3913e3",
+        "drum_symbolic_event_id": "CSE-6490020a789ff5af78cd8c061ba581d7fda99d41663be5c1cadcf69e8c1e6c42",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "662e250f-a388-58dd-8f89-5360181df8bc",
+        "source_symbolic_event_id": "CSE-d38dc0f91427539d3e0d49f3191cbed55fce5566f065d381ebed1717d5893c14",
+        "symbolic_pair_id": "CSP-eb9b1d9693bf43c20682e0819cadefa51b2049e25c349890abaf94cad064a481"
+      },
+      {
+        "drum_eme_id": "05dd5c63-3562-5eee-9aa2-536952ac64b3",
+        "drum_symbolic_event_id": "CSE-8ff2ae97a7c5a7445713d17112c0afa861527f36def7f25cdda3c9def6f5ed45",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "bc711049-a251-5a0d-afaf-5f678f984020",
+        "source_symbolic_event_id": "CSE-5e576023268f97c404a52914c22ef90f858c8755c317feabccff5a7f02b1d739",
+        "symbolic_pair_id": "CSP-a050b28a2ebbf115fdc6241c51215085c76ed1e446c7bc7f3bf204282b911942"
+      },
+      {
+        "drum_eme_id": "301b557b-0c6d-55c9-8a01-0971c815fd6e",
+        "drum_symbolic_event_id": "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "d4c0cd28-335e-5a4a-a288-2a1ea86daca7",
+        "source_symbolic_event_id": "CSE-95ebc76c402da900a3a8277cd8126edd319b595eb4f2f37b9de1ca379f5fbb8e",
+        "symbolic_pair_id": "CSP-f730d41f7d0d1d377ae8007f1a3b35af7017042fdbaa3325f38fdcf23c0a2966"
+      },
+      {
+        "drum_eme_id": "6a4a6abd-e25c-5ac7-b379-755bd587bbcf",
+        "drum_symbolic_event_id": "CSE-36b86074260342508ba4d3fee31bd777c45bc3f2c66affeebfb2427bac820dd2",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "b666d396-69c9-5f7f-8027-bee55d864882",
+        "source_symbolic_event_id": "CSE-2a08ef35b1076f7952f695a5187609b474b214ede6a2d435646f11e9e2a76113",
+        "symbolic_pair_id": "CSP-13b47fd4a6341b56572ab1ad63bcabdb0984cb6df6d4bb32b44861ef90f5400b"
+      },
+      {
+        "drum_eme_id": "56167e9e-4720-5cce-9eb9-01de70654550",
+        "drum_symbolic_event_id": "CSE-4555b3fe4035601ecef331957274b1f571c83469a54b11ddbeccd3dee714390c",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "97975c04-55bb-5f9a-b4c4-a44ab8903942",
+        "source_symbolic_event_id": "CSE-ebee761bc245dd43841c06657cef229fee228d5823ea1253d96b2672efe3fcac",
+        "symbolic_pair_id": "CSP-8818a8a7560e37602ee43005b5c6e2de5823f04f93d494f232a4946eb027b5de"
+      },
+      {
+        "drum_eme_id": "685405aa-efab-51e5-a11a-253c1dbc86aa",
+        "drum_symbolic_event_id": "CSE-d5ca8b59921f9232f0c68ec68f25a9d2ec14f99a400905b1373bb31bc779d484",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "a22b3f78-aac4-5bf1-a824-ce6cbb86fda7",
+        "source_symbolic_event_id": "CSE-afc2fb68dd70a677c4d862af6ab97f6ade6bec4bb4f402297007ef908b494334",
+        "symbolic_pair_id": "CSP-dcee07c89c167e30ac0531defbadebf15bbde5fa80cf41fed066fe821c78f373"
+      }
+    ]
+  }
+}

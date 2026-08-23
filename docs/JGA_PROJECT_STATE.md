@@ -2,21 +2,30 @@
 
 ## Blind Rhythm-Section Event-Correspondence Hypothesis 02
 
-Status: FROZEN — NOT EXECUTED
+Status: LOW_RECALL
 
 - `H-VAL001-RHYTHM-CORRESPONDENCE-02` preserves Hypothesis 01 as a frozen
-  negative result and removes exactly its scientifically unjustified
+  negative result and removed exactly its scientifically unjustified
   cross-source signature-equality requirement.
 - A candidate still requires mutual unique nearest geometry, valid exact
   two-sided frame signatures independently recurrent at least twice within
   each event's own source, and complete boundary, tie, frame-authority,
   provenance and replay integrity.
-- Inputs, frame/signature/recurrence/nearest definitions, validation metrics,
-  classification order and interpretation firewall remain unchanged. No
-  threshold, BPM, meter, production behavior or Ground Truth access is
-  authorized before blind freeze.
-- Preregistration:
-  `validation/VAL-001/preregistrations/H-VAL001-RHYTHM-CORRESPONDENCE-02.md`.
+- Blind execution froze 13 candidates before Ground Truth access: 12
+  Piano–Drums and 1 Double Bass–Drums. Deterministic replay was byte-identical;
+  63 relationships remain unresolved.
+- Post-freeze scoring reports Piano TP/FP/FN 11/1/25 and Double Bass 1/0/17;
+  overall precision is 0.9230769231, recall 0.2222222222 and F1
+  0.3582089552. No blind candidate is ambiguous/unscorable.
+- Frozen classification: `LOW_RECALL`. The evidence is conservative and
+  potentially useful, but production promotion remains unauthorized. No raw
+  observation or production behavior changed.
+- Blind/result fingerprints:
+  `259246226fee627934708eeb9aafc8bd8eb8e3ebbe7340b76935f2a4c0d8b674` /
+  `2bf5ddb3c40620c3ddf5ebf8cbf7aad6d6ed74d770481d8eb921b579ad96c082`.
+- Preregistration and record:
+  `validation/VAL-001/preregistrations/H-VAL001-RHYTHM-CORRESPONDENCE-02.md`,
+  `validation/VAL-001/run_20260823_115555/`.
 
 ## Blind Rhythm-Section Event-Correspondence Experiment
 
