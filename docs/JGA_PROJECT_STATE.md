@@ -1,5 +1,28 @@
 # JGA Project State
 
+## Rhythm Section Timing Profile Authority
+
+Status: AUTHORIZED — NOT IMPLEMENTED
+
+- AD-040 reserves `RhythmSectionTimingProfile` as a provenance-bound,
+  read-only downstream projection over existing immutable EME, AD-038 neutral
+  Drum-relative geometry and separately referenced Calibration Zero evidence.
+- For the current controlled dataset, Drums are assigned
+  `TEMPORAL_REFERENCE`; Double Bass and Piano are assigned `ACCOMPANIMENT`;
+  Tenor Sax remains outside the core in a melodic/lead analytical role and
+  Voice remains `DEFERRED`.
+- Analytical role is explicitly bound to source/asset, scope, rule/version,
+  execution and scientific authority. Instrument identity does not imply role;
+  no automatic role inference is authorized.
+- `GEOMETRIC_ONLY`, `AUTHORIZED_EVENT_RELATION`, `UNRESOLVED` and
+  `NOT_APPLICABLE` form the minimum correspondence vocabulary. Calibration
+  applicability remains separate.
+- Raw observation, calibration context and future interpretation are
+  non-overwriting levels. Absolute recording time remains authoritative; no
+  correction or production implementation is authorized.
+- Canonical decision:
+  `docs/architecture/AD-040_RHYTHM_SECTION_TIMING_PROFILE.md`.
+
 ## Pairwise Calibration Zero Measurement Characterization
 
 Status: PASS — MIXED SOURCE-SPECIFIC OUTCOME

@@ -2168,3 +2168,29 @@ or production change is authorized.
 ## Canonical Specification
 
 `docs/architecture/AD-039_CALIBRATION_ZERO_MEASUREMENT_BASELINE.md`
+
+
+------------------------------------------------------------
+
+# AD-040 — Rhythm Section Timing Profile
+
+## Status
+
+LOCKED
+
+## Decision
+
+`RhythmSectionTimingProfile` is reserved as a provenance-bound, read-only
+analytical projection over existing immutable EME, neutral Drum-relative
+geometry and separately referenced Calibration Zero evidence. Sources enter
+the profile only through explicit asset-, scope-, rule- and authority-bound
+analytical role assignments; instrument identity never assigns role.
+
+Geometric relationship and independently authorized event correspondence
+remain distinct. Calibration context remains separate from correspondence and
+never modifies raw observations. No new architectural layer, duplicate
+localization, correction or production behavior is authorized.
+
+## Canonical Specification
+
+`docs/architecture/AD-040_RHYTHM_SECTION_TIMING_PROFILE.md`

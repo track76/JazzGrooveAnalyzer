@@ -329,6 +329,16 @@ calibration baseline and baseline-aware evidence are defined by:
 AD-039 introduces no runtime component or production dependency and authorizes
 no timestamp correction.
 
+The provenance-bound read-only Rhythm Section Timing Profile contract,
+analytical role-assignment authority, geometric/correspondence firewall and
+separate calibration-context reference are defined by:
+
+- architecture/AD-040_RHYTHM_SECTION_TIMING_PROFILE.md
+
+AD-040 composes existing immutable authority by reference. It introduces no
+new architectural layer, duplicate localization model, role inference,
+correction subsystem or production dependency.
+
 The immutable observational representation for already-produced Candidate
 Period evidence is defined by:
 
