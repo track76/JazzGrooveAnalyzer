@@ -1,5 +1,26 @@
 # JGA Project State
 
+## Pairwise Calibration Zero Preregistration
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-VAL001-CALIBRATION-PAIRWISE-01` freezes a distinct downstream experiment
+  measuring error in Ground-Truth-authorized Piano–Drums, Double Bass–Drums
+  and Tenor Sax–Drums temporal relationships.
+- Symbolic pairs are constructed by exact equal authoritative symbolic time
+  and frozen before JGA pairwise quantities are calculated. Geometrically
+  nearest Drum observations, tolerances and result-informed matching are not
+  authorized.
+- The protocol freezes pairwise quantities, contributor-separated descriptive
+  outputs, deterministic bootstrap and stability criteria, frame-resolution
+  description, allowed outcomes and reproducibility artifacts.
+- The completed absolute Calibration Zero study remains unchanged. No
+  correction, production behavior or experiment execution is authorized.
+- Voice remains `DEFERRED`; raw Ground Truth, EME, PulseCandidates,
+  Drum-relative localizations and existing calibration artifacts are immutable.
+- Preregistration:
+  `validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-PAIRWISE-01.md`.
+
 ## Calibration Zero Measurement Characterization
 
 Status: PASS — SOURCE-INDEPENDENT CANDIDATE BIAS / MIXED MEASUREMENT BEHAVIOUR
