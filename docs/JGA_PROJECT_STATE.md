@@ -1,5 +1,29 @@
 # JGA Project State
 
+## Blind Rhythm-Section Event-Correspondence Preregistration
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-VAL001-RHYTHM-CORRESPONDENCE-01` freezes one Ground-Truth-blind candidate
+  relation rule over the complete AD-040 Drums, Double Bass and Piano
+  populations.
+- A candidate requires mutual unique geometric nearest status, an identical
+  exact two-sided integer-frame interval signature, independent recurrence of
+  that signature at least twice within each source, and no boundary, duplicate
+  frame or tie condition.
+- Exact frame identity must be recovered by unique bitwise producer
+  round-trip. No rounding, tolerance, millisecond threshold, PulseCandidate
+  strength, Calibration Zero correspondence evidence or metric information is
+  authorized.
+- The complete blind population and fingerprint must freeze before any
+  symbolic authority is opened. Post-freeze validation may score but never
+  retune or modify blind relations.
+- The experiment is not executed. Production impact is NONE; raw EME,
+  PulseCandidates, AD-038 localizations, AD-040 profiles, calibration artifacts
+  and visualizations remain unchanged.
+- Preregistration:
+  `validation/VAL-001/preregistrations/H-VAL001-RHYTHM-CORRESPONDENCE-01.md`.
+
 ## Rhythm Section Timing Profile Authority
 
 Status: IMPLEMENTED
