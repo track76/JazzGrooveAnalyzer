@@ -1,5 +1,29 @@
 # JGA Project State
 
+## CED-VAL-003 Ambiguous-Cell Physical-Authority Evidence Gap
+
+Status: FROZEN EVIDENCE GAP — NO EXPERIMENT PREREGISTERED
+
+- The complete population is 56 `AMBIGUOUS_MULTIPLE_OBSERVED` cells containing
+  112 observations: Drums 54/108, Double Bass 2/4 and Piano 0/0.
+- Frozen authority preserves exact identities, timestamps, lineage,
+  source/asset provenance and temporal-sequence context, but none currently
+  authorizes a Ground-Truth-independent preference among observations inside a
+  cell.
+- Numeric PulseCandidate strength/confidence and EME confidence are not
+  retained in the frozen CED-VAL-003 artifacts; strength also lacks validated
+  within-cell discrimination semantics. No transient, spectral, envelope or
+  Drum-component descriptor is authoritative.
+- No experiment is forced. The minimum next evidence is lineage-bound numeric
+  PulseCandidate strength plus independent deterministic within-source
+  repeatability/measurement validation; this does not itself authorize a
+  selection rule.
+- Symbolic proximity is excluded. H02, H03, Calibration Zero, frozen scores,
+  raw observations, AD-040 and production code remain unchanged;
+  `GEOMETRIC_ONLY` remains authoritative.
+- Frozen record:
+  `validation/CED-VAL-003-SWING-3-4/preregistrations/EG-CEDVAL003-AMBIGUOUS-PHYSICAL-AUTHORITY-01.md`.
+
 ## CED-VAL-003 H02 Scorability Authority Audit
 
 Status: FROZEN READ-ONLY AUDIT — PASS

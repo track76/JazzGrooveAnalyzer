@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: CED-VAL-003 H02 Scorability Audit Frozen
+Current Milestone: CED-VAL-003 Ambiguous-Cell Physical-Authority Evidence Gap Frozen
 
 Current Phase: Phase II Scientific Validation
 
