@@ -1,0 +1,10 @@
+{
+  "experiment_id": "H-VAL001-RHYTHM-CORRESPONDENCE-01",
+  "status": "INSUFFICIENT_CANDIDATES",
+  "preregistration": "validation/VAL-001/preregistrations/H-VAL001-RHYTHM-CORRESPONDENCE-01.md",
+  "preregistration_commit": "ca9683c786b8dbf57ea78f07ee16c86a896e3dbc",
+  "run_id": "run_20260823_111348",
+  "blind_freeze_preceded_ground_truth_access": true,
+  "production_impact": "NONE",
+  "voice_status": "DEFERRED"
+}

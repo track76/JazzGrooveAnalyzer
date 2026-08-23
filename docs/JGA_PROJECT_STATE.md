@@ -1,5 +1,29 @@
 # JGA Project State
 
+## Blind Rhythm-Section Event-Correspondence Experiment
+
+Status: INSUFFICIENT_CANDIDATES
+
+- `H-VAL001-RHYTHM-CORRESPONDENCE-01` executed unchanged against the frozen
+  populations of 63 Drums, 27 Double Bass and 49 Piano EME.
+- Exact producer round-trip established unique frame authority for every EME.
+  The complete blind result and checksum manifest froze before any symbolic
+  authority was opened; deterministic replay was byte-identical.
+- The frozen rule produced zero blind candidates. All 76 accompaniment
+  relationships remain `UNRESOLVED / GEOMETRIC_ONLY`: 27 Double Bass and 49
+  Piano. No relation was promoted to `AUTHORIZED_EVENT_RELATION`.
+- Post-freeze scoring reports Piano–Drums TP=0, FP=0, FN=36 and Double
+  Bass–Drums TP=0, FP=0, FN=18. Overall precision and F1 are undefined and
+  recall is 0.0. One Double Bass symbolic relation is unscorable; no blind
+  candidate is ambiguous/unscorable.
+- Frozen classification: `INSUFFICIENT_CANDIDATES`. Raw observations and all
+  AD-038, AD-040 and Calibration Zero authority remain unchanged. Production
+  impact is NONE.
+- Blind/result fingerprints:
+  `7a11a950a60d79f1a75099bdf9e083b7fc35a3f3845d5041304f8ec637c2f3d6` /
+  `471664e57ace2a21ffbf6e1a54940bfe773d99f5baa3023eefc3fc1e1a67d045`.
+- Record: `validation/VAL-001/run_20260823_111348/`.
+
 ## Blind Rhythm-Section Event-Correspondence Preregistration
 
 Status: FROZEN — NOT EXECUTED
