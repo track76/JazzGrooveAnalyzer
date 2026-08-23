@@ -1,0 +1,12 @@
+{
+  "authority_sha256": "038a970994dcb42961d115c6b5c7dd2a05c714b52f5fec3a1756133b5cdedd9f",
+  "experiment_id": "H-VAL001-CALIBRATION-ZERO-01",
+  "input_manifest_sha256": "71bc3439eddf781c6fed531d29e67340616ca3ab8352904dfa53b68e38c02600",
+  "preregistration": "validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-ZERO-01.md",
+  "preregistration_sha256": "bf08399d4c45d2bcd58323720651084e36ef8bbade683379f7e34b9d2bc2a994",
+  "run_id": "run_20260823_070702",
+  "scientific_fingerprint": "d9ff1dba90cdb8b96e0412d05dd10c8b972f9dd2c2194187addcff4d6bd2050f",
+  "source_revision": "93bca5c9141dc6752890a9aa003fe57e2ca45131",
+  "status": "PASS",
+  "voice_status": "DEFERRED"
+}

@@ -1,0 +1,710 @@
+{
+  "authority_fingerprint": "b682fadc92be106fcf6b6a5379a4ab840c18e2bc8c852e44a4cda96c30488086",
+  "authority_status": "SUFFICIENT",
+  "beat_reference_consumed_by_calibration": false,
+  "bias_evidence_outcome": "SOURCE_INDEPENDENT_CANDIDATE_BIAS",
+  "candidate_bias": {
+    "Double Bass": {
+      "authority_conflict": false,
+      "candidate_systematic_bias": true,
+      "primary": {
+        "all_intervals_exclude_zero": true,
+        "bootstrap_intervals": {
+          "first_partition": {
+            "lower_95": 20.757020757020655,
+            "median": 21.50008721437216,
+            "n": 12,
+            "resamples": 10000,
+            "seed": 18346026931987451822,
+            "upper_95": 21.964067678353846
+          },
+          "full": {
+            "lower_95": 20.059305773589845,
+            "median": 20.896563753706616,
+            "n": 27,
+            "resamples": 10000,
+            "seed": 18012248600239126368,
+            "upper_95": 21.63614163614246
+          },
+          "second_partition": {
+            "lower_95": 18.942961800103152,
+            "median": 19.870922728066923,
+            "n": 15,
+            "resamples": 10000,
+            "seed": 9273324533539121602,
+            "upper_95": 21.63614163614246
+          }
+        },
+        "core_criterion_passed": true,
+        "first_partition_n": 12,
+        "n": 27,
+        "same_sign": true,
+        "second_partition_n": 15,
+        "support_requirement": true,
+        "temporal_interval_overlap": true
+      },
+      "sensitivity": {
+        "all_intervals_exclude_zero": true,
+        "bootstrap_intervals": {
+          "first_partition": {
+            "lower_95": 20.757020757020655,
+            "median": 21.50008721437216,
+            "n": 12,
+            "resamples": 10000,
+            "seed": 16097381657252084312,
+            "upper_95": 21.964067678353846
+          },
+          "full": {
+            "lower_95": 20.059305773589845,
+            "median": 20.896563753706616,
+            "n": 25,
+            "resamples": 10000,
+            "seed": 12675532648321277145,
+            "upper_95": 21.63614163614246
+          },
+          "second_partition": {
+            "lower_95": 18.942961800103152,
+            "median": 19.870922728066923,
+            "n": 13,
+            "resamples": 10000,
+            "seed": 18113849664139923575,
+            "upper_95": 21.26635269492454
+          }
+        },
+        "core_criterion_passed": true,
+        "first_partition_n": 12,
+        "n": 25,
+        "same_sign": true,
+        "second_partition_n": 13,
+        "support_requirement": true,
+        "temporal_interval_overlap": true
+      },
+      "sensitivity_conclusion_stable": true,
+      "source": "Double Bass"
+    },
+    "Drums": {
+      "authority_conflict": false,
+      "candidate_systematic_bias": true,
+      "primary": {
+        "all_intervals_exclude_zero": true,
+        "bootstrap_intervals": {
+          "first_partition": {
+            "lower_95": 15.879993022850922,
+            "median": 44.39560439560479,
+            "n": 32,
+            "resamples": 10000,
+            "seed": 8056658726226928922,
+            "upper_95": 47.64695621838499
+          },
+          "full": {
+            "lower_95": 12.71934414791477,
+            "median": 15.321821036106076,
+            "n": 63,
+            "resamples": 10000,
+            "seed": 7220498801722295304,
+            "upper_95": 41.423338566195305
+          },
+          "second_partition": {
+            "lower_95": 10.863422291993231,
+            "median": 12.71934414791477,
+            "n": 31,
+            "resamples": 10000,
+            "seed": 6898012640954011155,
+            "upper_95": 15.042735042736155
+          }
+        },
+        "core_criterion_passed": true,
+        "first_partition_n": 32,
+        "n": 63,
+        "same_sign": true,
+        "second_partition_n": 31,
+        "support_requirement": true,
+        "temporal_interval_overlap": true
+      },
+      "sensitivity": {
+        "all_intervals_exclude_zero": true,
+        "bootstrap_intervals": {
+          "first_partition": {
+            "lower_95": 15.60090702948,
+            "median": 44.39560439560479,
+            "n": 32,
+            "resamples": 10000,
+            "seed": 14630473458445906880,
+            "upper_95": 47.64695621838499
+          },
+          "full": {
+            "lower_95": 12.71934414791477,
+            "median": 15.321821036106076,
+            "n": 63,
+            "resamples": 10000,
+            "seed": 16083769667912005815,
+            "upper_95": 41.423338566195305
+          },
+          "second_partition": {
+            "lower_95": 10.863422291993231,
+            "median": 12.71934414791477,
+            "n": 31,
+            "resamples": 10000,
+            "seed": 5581763347955375048,
+            "upper_95": 15.042735042736155
+          }
+        },
+        "core_criterion_passed": true,
+        "first_partition_n": 32,
+        "n": 63,
+        "same_sign": true,
+        "second_partition_n": 31,
+        "support_requirement": true,
+        "temporal_interval_overlap": true
+      },
+      "sensitivity_conclusion_stable": true,
+      "source": "Drums"
+    },
+    "Piano": {
+      "authority_conflict": false,
+      "candidate_systematic_bias": true,
+      "primary": {
+        "all_intervals_exclude_zero": true,
+        "bootstrap_intervals": {
+          "first_partition": {
+            "lower_95": 17.135879993022577,
+            "median": 19.549973835688462,
+            "n": 28,
+            "resamples": 10000,
+            "seed": 11135079974329845554,
+            "upper_95": 24.611896040466853
+          },
+          "full": {
+            "lower_95": 17.275422989708538,
+            "median": 18.761555904413154,
+            "n": 49,
+            "resamples": 10000,
+            "seed": 16112747336887418866,
+            "upper_95": 20.896563753706616
+          },
+          "second_partition": {
+            "lower_95": 15.042735042736155,
+            "median": 18.66387580673323,
+            "n": 21,
+            "resamples": 10000,
+            "seed": 3595488038398896434,
+            "upper_95": 19.780219780219923
+          }
+        },
+        "core_criterion_passed": true,
+        "first_partition_n": 28,
+        "n": 49,
+        "same_sign": true,
+        "second_partition_n": 21,
+        "support_requirement": true,
+        "temporal_interval_overlap": true
+      },
+      "sensitivity": {
+        "all_intervals_exclude_zero": true,
+        "bootstrap_intervals": {
+          "first_partition": {
+            "lower_95": 17.135879993022577,
+            "median": 19.549973835688462,
+            "n": 28,
+            "resamples": 10000,
+            "seed": 16312394581045856346,
+            "upper_95": 24.611896040466853
+          },
+          "full": {
+            "lower_95": 17.275422989708538,
+            "median": 18.761555904413154,
+            "n": 49,
+            "resamples": 10000,
+            "seed": 6474625373043433823,
+            "upper_95": 20.896563753706616
+          },
+          "second_partition": {
+            "lower_95": 15.042735042736155,
+            "median": 18.66387580673323,
+            "n": 21,
+            "resamples": 10000,
+            "seed": 11958469038644425406,
+            "upper_95": 19.780219780219923
+          }
+        },
+        "core_criterion_passed": true,
+        "first_partition_n": 28,
+        "n": 49,
+        "same_sign": true,
+        "second_partition_n": 21,
+        "support_requirement": true,
+        "temporal_interval_overlap": true
+      },
+      "sensitivity_conclusion_stable": true,
+      "source": "Piano"
+    },
+    "Tenor Sax": {
+      "authority_conflict": false,
+      "candidate_systematic_bias": false,
+      "primary": {
+        "all_intervals_exclude_zero": true,
+        "bootstrap_intervals": {
+          "first_partition": {
+            "lower_95": 31.669283097855846,
+            "median": 50.849467992325884,
+            "n": 4,
+            "resamples": 10000,
+            "seed": 8550019577753470882,
+            "upper_95": 56.37537066108546
+          },
+          "full": {
+            "lower_95": 43.64904936333577,
+            "median": 50.849467992325884,
+            "n": 8,
+            "resamples": 10000,
+            "seed": 14180234100287422909,
+            "upper_95": 54.331065759637
+          },
+          "second_partition": {
+            "lower_95": 43.64904936333577,
+            "median": 51.521018663876234,
+            "n": 4,
+            "resamples": 10000,
+            "seed": 9609831886620111220,
+            "upper_95": 54.331065759637
+          }
+        },
+        "core_criterion_passed": false,
+        "first_partition_n": 4,
+        "n": 8,
+        "same_sign": true,
+        "second_partition_n": 4,
+        "support_requirement": false,
+        "temporal_interval_overlap": false
+      },
+      "sensitivity": {
+        "all_intervals_exclude_zero": false,
+        "bootstrap_intervals": {
+          "first_partition": {
+            "lower_95": 50.709924995640925,
+            "median": 53.542647828363194,
+            "n": 2,
+            "resamples": 10000,
+            "seed": 11091562417250787567,
+            "upper_95": 56.37537066108546
+          },
+          "full": {
+            "lower_95": 50.709924995640925,
+            "median": 53.542647828363194,
+            "n": 2,
+            "resamples": 10000,
+            "seed": 3528786333497297438,
+            "upper_95": 56.37537066108546
+          },
+          "second_partition": {
+            "lower_95": null,
+            "median": null,
+            "n": 0,
+            "upper_95": null
+          }
+        },
+        "core_criterion_passed": false,
+        "first_partition_n": 2,
+        "n": 2,
+        "same_sign": false,
+        "second_partition_n": 0,
+        "support_requirement": false,
+        "temporal_interval_overlap": false
+      },
+      "sensitivity_conclusion_stable": true,
+      "source": "Tenor Sax"
+    }
+  },
+  "correction_authorized": false,
+  "declared_bpm_supplied_to_jga": false,
+  "declared_meter_supplied_to_jga": false,
+  "deterministic_replay": true,
+  "experiment_id": "H-VAL001-CALIBRATION-ZERO-01",
+  "frame_distributions": {
+    "Double Bass": {
+      "exact_frame_multiple_count": 0,
+      "frame_offsets": {
+        "1": 2,
+        "2": 23,
+        "3": 1,
+        "7": 1
+      },
+      "frame_residual_ms": {
+        "maximum": 3.1536717250991537,
+        "mean": -1.8192272160528458,
+        "median": -1.9536019536015385,
+        "minimum": -4.556078841792846,
+        "n": 27,
+        "population_standard_deviation": 1.7844280452840984,
+        "q1": -3.0211058782492692,
+        "q2": -1.9536019536015385,
+        "q3": -1.0709924995637694
+      },
+      "normalized_frame_residual": {
+        "maximum": 0.27163461538451694,
+        "mean": -0.15669515669517672,
+        "median": -0.16826923076919503,
+        "minimum": -0.3924278846153604,
+        "n": 27,
+        "population_standard_deviation": 0.15369780624419674,
+        "q1": -0.2602163461538921,
+        "q2": -0.16826923076919503,
+        "q3": -0.09224759615383249
+      }
+    },
+    "Drums": {
+      "exact_frame_multiple_count": 0,
+      "frame_offsets": {
+        "0": 2,
+        "1": 32,
+        "2": 4,
+        "3": 1,
+        "4": 21,
+        "5": 3
+      },
+      "frame_residual_ms": {
+        "maximum": 5.756148613293385,
+        "mean": 0.2772032704003316,
+        "median": 0.36978894121676886,
+        "minimum": -5.7631257631275385,
+        "n": 63,
+        "population_standard_deviation": 3.530565241575042,
+        "q1": -2.7420198848778075,
+        "q2": 0.36978894121676886,
+        "q3": 3.572300715158077
+      },
+      "normalized_frame_residual": {
+        "maximum": 0.4957932692309341,
+        "mean": 0.023876297313778556,
+        "median": 0.031850961538397476,
+        "minimum": -0.4963942307693837,
+        "n": 63,
+        "population_standard_deviation": 0.3040975139716003,
+        "q1": -0.2361778846154518,
+        "q2": 0.031850961538397476,
+        "q3": 0.3076923076923265
+      }
+    },
+    "Overall": {
+      "exact_frame_multiple_count": 0,
+      "frame_offsets": {
+        "0": 2,
+        "1": 52,
+        "2": 50,
+        "3": 11,
+        "4": 25,
+        "5": 6,
+        "7": 1
+      },
+      "frame_residual_ms": {
+        "maximum": 5.756148613293385,
+        "mean": -0.4245856723991954,
+        "median": -1.4861329147043538,
+        "minimum": -5.7631257631275385,
+        "n": 147,
+        "population_standard_deviation": 3.5058023738103286,
+        "q1": -3.3943833943836155,
+        "q2": -1.4861329147043538,
+        "q3": 2.8519099947677113
+      },
+      "normalized_frame_residual": {
+        "maximum": 0.4957932692309341,
+        "mean": -0.03657075811094632,
+        "median": -0.1280048076923086,
+        "minimum": -0.4963942307693837,
+        "n": 147,
+        "population_standard_deviation": 0.30196461852545997,
+        "q1": -0.29236778846155753,
+        "q2": -0.1280048076923086,
+        "q3": 0.24564302884620326
+      }
+    },
+    "Piano": {
+      "exact_frame_multiple_count": 0,
+      "frame_offsets": {
+        "1": 18,
+        "2": 23,
+        "3": 8
+      },
+      "frame_residual_ms": {
+        "maximum": 5.6654456654455,
+        "mean": -0.546638330894914,
+        "median": -2.232687946974423,
+        "minimum": -5.763125763124577,
+        "n": 49,
+        "population_standard_deviation": 3.921385797798974,
+        "q1": -3.99790685505,
+        "q2": -2.232687946974423,
+        "q3": 3.4327577184731153
+      },
+      "normalized_frame_residual": {
+        "maximum": 0.48798076923075495,
+        "mean": -0.04708349686028458,
+        "median": -0.19230769230775793,
+        "minimum": -0.49639423076912864,
+        "n": 49,
+        "population_standard_deviation": 0.33775998766198195,
+        "q1": -0.3443509615384863,
+        "q2": -0.19230769230775793,
+        "q3": 0.29567307692317263
+      }
+    },
+    "Tenor Sax": {
+      "exact_frame_multiple_count": 0,
+      "frame_offsets": {
+        "3": 1,
+        "4": 4,
+        "5": 3
+      },
+      "frame_residual_ms": {
+        "maximum": 4.5491016919586915,
+        "mean": -0.49668585382812547,
+        "median": -2.232687946973058,
+        "minimum": -4.276992848421039,
+        "n": 8,
+        "population_standard_deviation": 3.493981480066441,
+        "q1": -3.3001918716195004,
+        "q2": -2.232687946973058,
+        "q3": 3.189429618001807
+      },
+      "normalized_frame_residual": {
+        "maximum": 0.39182692307691075,
+        "mean": -0.042780949519180336,
+        "median": -0.19230769230764036,
+        "minimum": -0.36838942307689027,
+        "n": 8,
+        "population_standard_deviation": 0.30094645170103523,
+        "q1": -0.2842548076922265,
+        "q2": -0.19230769230764036,
+        "q3": 0.2747145432692963
+      }
+    }
+  },
+  "input_manifest_sha256": "71bc3439eddf781c6fed531d29e67340616ca3ab8352904dfa53b68e38c02600",
+  "measured_behaviour": "COMBINED_RENDERING_MEASUREMENT",
+  "measurement_structure_outcome": "MIXED_MEASUREMENT_BEHAVIOUR",
+  "pairwise_median_signed_error_difference_ms": {
+    "Double Bass - Tenor Sax": {
+      "lower_95": -33.62288505145781,
+      "median_difference": -29.95290423861927,
+      "resamples": 10000,
+      "seed": 13664463175707006707,
+      "upper_95": -22.752485609629154
+    },
+    "Drums - Double Bass": {
+      "lower_95": -8.267922553637845,
+      "median_difference": -5.5747427176005395,
+      "resamples": 10000,
+      "seed": 5997330060705637776,
+      "upper_95": 20.247688819116767
+    },
+    "Drums - Piano": {
+      "lower_95": -6.593406593405307,
+      "median_difference": -3.4397348683070774,
+      "resamples": 10000,
+      "seed": 17078645730326041083,
+      "upper_95": 21.922204779349304
+    },
+    "Drums - Tenor Sax": {
+      "lower_95": -39.892987964416285,
+      "median_difference": -35.52764695621981,
+      "resamples": 10000,
+      "seed": 1470676012668838746,
+      "upper_95": -10.049406942264817
+    },
+    "Piano - Double Bass": {
+      "lower_95": -3.7188208616774006,
+      "median_difference": -2.135007849293462,
+      "resamples": 10000,
+      "seed": 16353970208498774727,
+      "upper_95": 0.0
+    },
+    "Piano - Tenor Sax": {
+      "lower_95": -35.80777952206587,
+      "median_difference": -32.08791208791273,
+      "resamples": 10000,
+      "seed": 1026659739330680921,
+      "upper_95": -24.98517355660254
+    }
+  },
+  "pooled_qualifying_source_interval": {
+    "lower_95": 18.294086865515307,
+    "median": 19.222047793476076,
+    "n": 139,
+    "resamples": 10000,
+    "seed": 527507319227855002,
+    "upper_95": 20.70818070818069
+  },
+  "population_summary": {
+    "Double Bass": {
+      "ambiguous_boundary_eme_count": 0,
+      "ambiguous_multiple_cell_count": 0,
+      "observed_eme_count": 27,
+      "symbolic_event_count": 28,
+      "unmatched_observed_count": 0,
+      "unmatched_symbolic_count": 1,
+      "valid_correspondence_count": 27
+    },
+    "Drums": {
+      "ambiguous_boundary_eme_count": 0,
+      "ambiguous_multiple_cell_count": 0,
+      "observed_eme_count": 63,
+      "symbolic_event_count": 63,
+      "unmatched_observed_count": 0,
+      "unmatched_symbolic_count": 0,
+      "valid_correspondence_count": 63
+    },
+    "Piano": {
+      "ambiguous_boundary_eme_count": 0,
+      "ambiguous_multiple_cell_count": 0,
+      "observed_eme_count": 49,
+      "symbolic_event_count": 49,
+      "unmatched_observed_count": 0,
+      "unmatched_symbolic_count": 0,
+      "valid_correspondence_count": 49
+    },
+    "Tenor Sax": {
+      "ambiguous_boundary_eme_count": 0,
+      "ambiguous_multiple_cell_count": 4,
+      "observed_eme_count": 16,
+      "symbolic_event_count": 12,
+      "unmatched_observed_count": 0,
+      "unmatched_symbolic_count": 0,
+      "valid_correspondence_count": 8
+    }
+  },
+  "qualifying_candidate_bias_sources": [
+    "Drums",
+    "Piano",
+    "Double Bass"
+  ],
+  "quantization_structure_evidence": "PARTIAL",
+  "raw_observations_modified": false,
+  "rendering_detection_decomposition": "NOT_SUPPORTED",
+  "run_id": "run_20260823_070702",
+  "scientific_fingerprint": "d9ff1dba90cdb8b96e0412d05dd10c8b972f9dd2c2194187addcff4d6bd2050f",
+  "statistics": {
+    "Double Bass": {
+      "absolute_error_ms": {
+        "maximum": 80.52328623756924,
+        "mean": 23.120724073104792,
+        "median": 20.896563753706616,
+        "minimum": 12.070469213326923,
+        "n": 27,
+        "population_standard_deviation": 11.863703814874333,
+        "q1": 19.825571254143423,
+        "q2": 20.896563753706616,
+        "q3": 21.77917320774506
+      },
+      "signed_error_ms": {
+        "maximum": 80.52328623756924,
+        "mean": 23.120724073104792,
+        "median": 20.896563753706616,
+        "minimum": 12.070469213326923,
+        "n": 27,
+        "population_standard_deviation": 11.863703814874333,
+        "q1": 19.825571254143423,
+        "q2": 20.896563753706616,
+        "q3": 21.77917320774506
+      }
+    },
+    "Drums": {
+      "absolute_error_ms": {
+        "maximum": 53.591487877202155,
+        "mean": 26.445723588580513,
+        "median": 15.321821036106076,
+        "minimum": 4.270015698586923,
+        "n": 63,
+        "population_standard_deviation": 18.398032970180143,
+        "q1": 11.002965288679693,
+        "q2": 15.321821036106076,
+        "q3": 47.50741322169913
+      },
+      "signed_error_ms": {
+        "maximum": 53.591487877202155,
+        "mean": 26.445723588580513,
+        "median": 15.321821036106076,
+        "minimum": 4.270015698586923,
+        "n": 63,
+        "population_standard_deviation": 18.398032970180143,
+        "q1": 11.002965288679693,
+        "q2": 15.321821036106076,
+        "q3": 47.50741322169913
+      }
+    },
+    "Overall": {
+      "absolute_error_ms": {
+        "maximum": 80.52328623756924,
+        "mean": 25.00679322836746,
+        "median": 19.780219780219923,
+        "minimum": 4.270015698586923,
+        "n": 147,
+        "population_standard_deviation": 15.1364215829359,
+        "q1": 14.182801325658385,
+        "q2": 19.780219780219923,
+        "q3": 31.439037153323135
+      },
+      "signed_error_ms": {
+        "maximum": 80.52328623756924,
+        "mean": 25.00679322836746,
+        "median": 19.780219780219923,
+        "minimum": 4.270015698586923,
+        "n": 147,
+        "population_standard_deviation": 15.1364215829359,
+        "q1": 14.182801325658385,
+        "q2": 19.780219780219923,
+        "q3": 31.439037153323135
+      }
+    },
+    "Piano": {
+      "absolute_error_ms": {
+        "maximum": 31.85766614338037,
+        "mean": 20.303933190230545,
+        "median": 18.761555904413154,
+        "minimum": 8.449328449327846,
+        "n": 49,
+        "population_standard_deviation": 6.786145978484774,
+        "q1": 15.321821036106076,
+        "q2": 18.761555904413154,
+        "q3": 27.769056340483846
+      },
+      "signed_error_ms": {
+        "maximum": 31.85766614338037,
+        "mean": 20.303933190230545,
+        "median": 18.761555904413154,
+        "minimum": 8.449328449327846,
+        "n": 49,
+        "population_standard_deviation": 6.786145978484774,
+        "q1": 15.321821036106076,
+        "q2": 18.761555904413154,
+        "q3": 27.769056340483846
+      }
+    },
+    "Tenor Sax": {
+      "absolute_error_ms": {
+        "maximum": 56.37537066108546,
+        "mean": 48.84571777428979,
+        "median": 50.849467992325884,
+        "minimum": 31.669283097855846,
+        "n": 8,
+        "population_standard_deviation": 7.427527456735459,
+        "q1": 47.86412000697767,
+        "q2": 50.849467992325884,
+        "q3": 53.91243676957987
+      },
+      "signed_error_ms": {
+        "maximum": 56.37537066108546,
+        "mean": 48.84571777428979,
+        "median": 50.849467992325884,
+        "minimum": 31.669283097855846,
+        "n": 8,
+        "population_standard_deviation": 7.427527456735459,
+        "q1": 47.86412000697767,
+        "q2": 50.849467992325884,
+        "q3": 53.91243676957987
+      }
+    }
+  },
+  "status": "PASS",
+  "voice_status": "DEFERRED"
+}

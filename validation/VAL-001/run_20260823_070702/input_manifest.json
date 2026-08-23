@@ -1,0 +1,55 @@
+{
+  "authority": {
+    "calibration_symbolic_events_path": "validation/VAL-001/run_20260823_070702/calibration_symbolic_events.json",
+    "calibration_symbolic_events_sha256": "038a970994dcb42961d115c6b5c7dd2a05c714b52f5fec3a1756133b5cdedd9f",
+    "controlled_dataset_id": "CED-VAL-001",
+    "dataset_generation_record_id": "DGR-CED-VAL-001-001",
+    "ground_truth_id": "GT-VAL-001-v1",
+    "musicxml_sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "provenance_revision_id": "PR-CED-VAL-001-001",
+    "sample_zero_relationship": "MusicXML score time zero = WAV sample zero"
+  },
+  "execution": {
+    "architecture": "arm64",
+    "librosa": "0.11.0",
+    "numpy": "2.4.6",
+    "operating_system": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14",
+    "run_id": "run_20260823_070702",
+    "scipy": "1.18.0",
+    "soundfile": "0.14.0",
+    "source_revision": "93bca5c9141dc6752890a9aa003fe57e2ca45131"
+  },
+  "observation": {
+    "detector": "jga.engines.pulse_candidate_builder.PulseCandidateBuilder using librosa.onset.onset_detect defaults",
+    "detector_source_revision": "93bca5c9141dc6752890a9aa003fe57e2ca45131",
+    "hop_length_samples": 512,
+    "sample_count_per_channel": 1865728,
+    "sample_rate_hz": 44100,
+    "temporal_scope": "[0,1865728/44100) seconds"
+  },
+  "preregistration": {
+    "path": "validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-ZERO-01.md",
+    "sha256": "bf08399d4c45d2bcd58323720651084e36ef8bbade683379f7e34b9d2bc2a994",
+    "status": "FROZEN"
+  },
+  "rendered_stems": {
+    "Double Bass": {
+      "path": "recordings/validation/stems/double_bass.wav",
+      "sha256": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5"
+    },
+    "Drums": {
+      "path": "recordings/validation/stems/drums.wav",
+      "sha256": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd"
+    },
+    "Piano": {
+      "path": "recordings/validation/stems/piano.wav",
+      "sha256": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e"
+    },
+    "Tenor Sax": {
+      "path": "recordings/validation/stems/tenor_sax.wav",
+      "sha256": "89dd7e5c6063d3c4d5e4ac59c9119c265df4257dfb1b4a1e01b5f117ee87182e"
+    }
+  },
+  "voice_status": "DEFERRED"
+}

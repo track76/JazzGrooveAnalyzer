@@ -1,0 +1,5431 @@
+{
+  "authority_status": "SUFFICIENT",
+  "controlled_dataset_id": "CED-VAL-001",
+  "events": [
+    {
+      "calibration_symbolic_event_id": "CSE-02337f920e35b965e5e9e6b55d5722fd5108d19af7696d1ba9b7190d444a364a",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "1/2",
+        "numerator": 1
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "5/13",
+        "numerator": 5
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-f722ad3bb99b40aeba86838a8b977bde1be037da54569992c1576afbc6fc25a9",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "3/2",
+        "numerator": 3
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "15/13",
+        "numerator": 15
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-c2474b55058b3a424a856a57503cf9b289b9b4b840965f072cca7108980876db",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "2/1",
+        "numerator": 2
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "20/13",
+        "numerator": 20
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-8f34906487574f92f6743f7e24baaae1e456cb6173c3aff3fdd96c6e5506d8c3",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "7/2",
+        "numerator": 7
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "35/13",
+        "numerator": 35
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-a68b5176d178164357c5da16db506b2f49699980746ddc312fc1cad758791a0b",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "9/2",
+        "numerator": 9
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "45/13",
+        "numerator": 45
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-abfa4a75e74b96578fcc6f2f4d723071e2b893662a18b820cd54421b886c4341",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "11/2",
+        "numerator": 11
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "55/13",
+        "numerator": 55
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5e6a483333ef35b64697ad3b5a3504df35b5354f69c1350e5ff1f9f8d71e797d",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "6/1",
+        "numerator": 6
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "60/13",
+        "numerator": 60
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-77e7fa058644d9d6960b50de32655467576d95ebfe8f63c682426a921ce4b06e",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "7/1",
+        "numerator": 7
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "70/13",
+        "numerator": 70
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-a7e359c7332b5ed49d5b0bc1c2ab29194f5ec33df9494e33206a3cc7f033887e",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "15/2",
+        "numerator": 15
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "75/13",
+        "numerator": 75
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-4b3d2e499a03051e6c78ddff3a5d9c197deb10f336d9ca54ce78726277d78917",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "4",
+          "measure_ordinal": 4,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "19/2",
+        "numerator": 19
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "95/13",
+        "numerator": 95
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-24c4471bb5f36805ae9dc90b1084f8855bde4f5de2b3c55e2c3c5d4d1c5d656c",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "4",
+          "measure_ordinal": 4,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "10/1",
+        "numerator": 10
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "100/13",
+        "numerator": 100
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-db304b19143a21b7a90660e80d79a43db499531555c15fb9475cf5d9b594d325",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "4",
+          "measure_ordinal": 4,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "23/2",
+        "numerator": 23
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "115/13",
+        "numerator": 115
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5c0577379f605e827ff1e339fa81ee08d75e00ddc98ef69abcfe4c3be5a18aa7",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "25/2",
+        "numerator": 25
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "125/13",
+        "numerator": 125
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-8d75a14ead415421e67e01526daf487fb2262c87edd9eef08048bddfb645091a",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "27/2",
+        "numerator": 27
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "135/13",
+        "numerator": 135
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-100ccf74ea1245ec4cf466f94143df50a26d3d6b631714a664c689ce45e6df47",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "14/1",
+        "numerator": 14
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "140/13",
+        "numerator": 140
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5276d51395373b8a3897c4e62af8a48459e73ffacbdc768861d5222dd90f1868",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "15/1",
+        "numerator": 15
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "150/13",
+        "numerator": 150
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-657d0e05a8356564f82f2076e5aaa18529d205d1d582a9fa5235baa81d0413fa",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "31/2",
+        "numerator": 31
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "155/13",
+        "numerator": 155
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-3c1cfaa839b6f93a65777ea3276b1d4d7765c4e05322b623f7a1fdf715be8c48",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "33/2",
+        "numerator": 33
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-78cd4906d6de020e57ebf35ea36ea7ceeb5e7a0d9a388b67dc0ec30bac3d3510",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "35/2",
+        "numerator": 35
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "175/13",
+        "numerator": 175
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-083869724970a223e39b37dedef3952234967d3a5112eeb17218f0441e0055e1",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 8,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "18/1",
+        "numerator": 18
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "180/13",
+        "numerator": 180
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-1a9fa011f6d0084a2098105fce4738243c8374c84ea80a5e2602d90c4c329fa1",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 10,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "19/1",
+        "numerator": 19
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "190/13",
+        "numerator": 190
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-9e0fef474c46a0401afcddd6879fb7de55508e0c80b294ca468a2ffb887119a1",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 11,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "39/2",
+        "numerator": 39
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "15/1",
+        "numerator": 15
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-8ccba58d4056c56a35e588330935d35af74777955e892b737882bf0f1d618126",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "41/2",
+        "numerator": 41
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "205/13",
+        "numerator": 205
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-2177d1f8246a2e6f9615b5cd221d9cf4e92dcc0a4a2fe53acc613c27719cbaf5",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "43/2",
+        "numerator": 43
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "215/13",
+        "numerator": 215
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-23c8d7843d4d6f11a8d60a947961adb2e047aacebad32695cb01b786e8ec348f",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 8,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "22/1",
+        "numerator": 22
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "220/13",
+        "numerator": 220
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-17d99a0cb3e8f5d556e0b69e037500e91a2e04336da47df0b8a131063eb254b0",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 10,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "23/1",
+        "numerator": 23
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "230/13",
+        "numerator": 230
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-9abe312d6ef0217413d54bcf7a6ec1b073352af850f5a68bd007357037fcbe99",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 11,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "47/2",
+        "numerator": 47
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "235/13",
+        "numerator": 235
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-b746449a3fbfcbd5adae706d9a9cdbeb7218b15ed2e8dec92844bbfbff9ea36f",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "49/2",
+        "numerator": 49
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-18a1be73cb0530ae03990678d67243b3edcae6c5ec99aca6ee795c485fc2542e",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 7,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "250/13",
+        "numerator": 250
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-0961d91ba4865c6ce82d1c59e1def76f8f0463ca208fd4d773ece4275fabef0e",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "51/2",
+        "numerator": 51
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "255/13",
+        "numerator": 255
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d9b8f39778e1bce4863873e4e5433298e0c4ec9f1ce0a7504c7d9880bc10b9bb",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 9,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "26/1",
+        "numerator": 26
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "20/1",
+        "numerator": 20
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-c46d28a8a76f4750d7336f1f637c99ea1c512c0a9beb92a58eed4f1d94dd99ae",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 11,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "27/1",
+        "numerator": 27
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "270/13",
+        "numerator": 270
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-6db903149b67caed013918603c21c94a6a5143acaa50e3280182da9843bf1a3a",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 12,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "55/2",
+        "numerator": 55
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "275/13",
+        "numerator": 275
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-9ea7ce022478997dcbb5e40707a8ad555ffc51efad6100ee36fbdab9343e6812",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "57/2",
+        "numerator": 57
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "285/13",
+        "numerator": 285
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-7700a9644f4e8546f65979abd5e48c61e89146a9c7dcaffd332afdacc7bde58a",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 7,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "29/1",
+        "numerator": 29
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "290/13",
+        "numerator": 290
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-7ebc36b1fe8936508eccfcae28a85c8f9255ce5095df7a54be963478398d56c9",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "59/2",
+        "numerator": 59
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "295/13",
+        "numerator": 295
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-7a4e8a010d65405ba5b811c8e8950111c2f2a8e5626faf2b9a6fd811b0dd59b4",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 9,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "30/1",
+        "numerator": 30
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "300/13",
+        "numerator": 300
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-35656a1894bdc924187991d521c9c4ad13db9926f3e4e6c7829f09567eaf1f8a",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 10,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "61/2",
+        "numerator": 61
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "305/13",
+        "numerator": 305
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-6c7a1e1bfeedebca4717ff15aa2702bfb5d58a9f685e5c904caa99db5e40b468",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 11,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "63/2",
+        "numerator": 63
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "315/13",
+        "numerator": 315
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-409d2e001bf63ed953404c8ce32c2d5a4f8bb1acab8f8d896256d0fa9921d550",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:D5",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 12,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "32/1",
+        "numerator": 32
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-c6f03132d90186d5fef66c1b260271d6788438dbffd003a964b9186e8d3d4303",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:A5",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "65/2",
+        "numerator": 65
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5a1c2b86970e1561bbd4e554e671e7cb13f9b871784a3d79a8409a34492737ee",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "67/2",
+        "numerator": 67
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "335/13",
+        "numerator": 335
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5b3a876e73acdf96935724d05017936ef1c0eb306e8f9653621b123874b7b267",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 8,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "34/1",
+        "numerator": 34
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "340/13",
+        "numerator": 340
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-b2fe7b30f5e7648c1f567866c19ca67a771d0db3f27977a833c6f194bec9254f",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 10,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "35/1",
+        "numerator": 35
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "350/13",
+        "numerator": 350
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-eaad0eb043fcdae917944c5548e8a4a96af788e0bdfab68f4533c60dcf4b5192",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 11,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "71/2",
+        "numerator": 71
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "355/13",
+        "numerator": 355
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-b45e186c39671751c8aa082b89824cfec59bfe7a69c8a1a7dc89ce4bbf2115c4",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "73/2",
+        "numerator": 73
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-14bfc02280d88f3804833192b4e4d6ec20d1aeaf7680ee9970fa1b5e432fc407",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "75/2",
+        "numerator": 75
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "375/13",
+        "numerator": 375
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5f9e699013e6ae3d6bde6471bb85b055229444ce4ce427edd38e2e3732bbac86",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 8,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "38/1",
+        "numerator": 38
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "380/13",
+        "numerator": 380
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-1d03ae23de3015eb58f2bd6ba2eabb1f945972bd72db10b896f73c80966d2d62",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 10,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "39/1",
+        "numerator": 39
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "30/1",
+        "numerator": 30
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5d942974f869c544f8ad2f01c9627df86d470e2c7f2a6b4f3824ad1bd7af8ee1",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 11,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "79/2",
+        "numerator": 79
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "395/13",
+        "numerator": 395
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-f8139ded51f03813b054ac7b46c99bdc1786a338eef7a3f153cee876c4f625d9",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "81/2",
+        "numerator": 81
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-6490020a789ff5af78cd8c061ba581d7fda99d41663be5c1cadcf69e8c1e6c42",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 7,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "41/1",
+        "numerator": 41
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "410/13",
+        "numerator": 410
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-8aaed0f936e618872998790c727188eb3c0761589c7d8f1aa48a7de759ebbcca",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "83/2",
+        "numerator": 83
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "415/13",
+        "numerator": 415
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-8ff2ae97a7c5a7445713d17112c0afa861527f36def7f25cdda3c9def6f5ed45",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 9,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "42/1",
+        "numerator": 42
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "420/13",
+        "numerator": 420
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-c2bfb1ba556e8e2bf0f3da69a2faf33bc023de826d76a9341b98036c3696735c",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 11,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "43/1",
+        "numerator": 43
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "430/13",
+        "numerator": 430
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-b7584e9d74370a1b53cdba1f4f7cd8d13a537e5788899f764f1d060a7b722a7d",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 12,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "87/2",
+        "numerator": 87
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "435/13",
+        "numerator": 435
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-28a2c5e93e2bf4754f1f1e139887077567227cd9e963adf839a1af11a556dea3",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 1,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 6,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "89/2",
+        "numerator": 89
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-36b86074260342508ba4d3fee31bd777c45bc3f2c66affeebfb2427bac820dd2",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 7,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "45/1",
+        "numerator": 45
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "450/13",
+        "numerator": 450
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-4555b3fe4035601ecef331957274b1f571c83469a54b11ddbeccd3dee714390c",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 2,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "91/2",
+        "numerator": 91
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "35/1",
+        "numerator": 35
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d5ca8b59921f9232f0c68ec68f25a9d2ec14f99a400905b1373bb31bc779d484",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F5",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 3,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 9,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "46/1",
+        "numerator": 46
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "460/13",
+        "numerator": 460
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-3a8272d8755167c7bdc0f3002d7b1596527f71adb16a0b8d4d58112f08220011",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:F4",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 10,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "93/2",
+        "numerator": 93
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "465/13",
+        "numerator": 465
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-2e6ff2078afc646a9a688bfbeaa8cb7dacba81ca7f0805dbb21025ea5991cf6e",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:G5",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 5,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "unpitched:C5",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 11,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "95/2",
+        "numerator": 95
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "475/13",
+        "numerator": 475
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-c54dec82570b01f084e80331ccfc4352626d6e7d63428a37e303317537a07c93",
+      "constituent_notes": [
+        {
+          "descriptor": "unpitched:D5",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 12,
+          "part_id": "P6",
+          "staff": "1",
+          "voice": "2"
+        }
+      ],
+      "source": "Drums",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "48/1",
+        "numerator": 48
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "480/13",
+        "numerator": 480
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-1d12193a05ace0b39aeddb929256569ff64b31eeb9de4757c992a125cafa69ef",
+      "constituent_notes": [
+        {
+          "descriptor": "C02",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "1/2",
+        "numerator": 1
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "5/13",
+        "numerator": 5
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-23771bb00561970a101d22bd81290f1c8d87ec06b08a6d15d66abd95bc1bc21a",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "1/1",
+        "numerator": 1
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "10/13",
+        "numerator": 10
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-ad47351575db4391546841d316075c4a5ef2babfe1aeb95be03d40e6b1385f30",
+      "constituent_notes": [
+        {
+          "descriptor": "D03",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 3,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "3/2",
+        "numerator": 3
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "15/13",
+        "numerator": 15
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-89bc6f3c9c674f7886232674a5f5416c7af80b51bb845bb3b688546d8586150f",
+      "constituent_notes": [
+        {
+          "descriptor": "E-13",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "2/1",
+        "numerator": 2
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "20/13",
+        "numerator": 20
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-70fa1e18d38ba4ab6817d52afc3b2479254e06ab0cafa78e7dbd5269cba386c5",
+      "constituent_notes": [
+        {
+          "descriptor": "C02",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 10,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "9/2",
+        "numerator": 9
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "45/13",
+        "numerator": 45
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-04dbae9737fb9353bb17181ba6ef521457cb1ddb2895223a5805b83e9fa5470c",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 11,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "5/1",
+        "numerator": 5
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "50/13",
+        "numerator": 50
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-7b0aa530acc43349c18e446d67d90e01fb52a711279543bd5ade2990998346ef",
+      "constituent_notes": [
+        {
+          "descriptor": "E-13",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "6/1",
+        "numerator": 6
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "60/13",
+        "numerator": 60
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-6cbdd5abae017872e4d69befb7745d8e0346b451171deafb1345f0731b907002",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        },
+        {
+          "descriptor": "G04",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "unspecified"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "7/1",
+        "numerator": 7
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "70/13",
+        "numerator": 70
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d9b8b6c53a3997c919a7f1ae43004a41e5a2e65b7ba8ec7a98b7d0fe034249ce",
+      "constituent_notes": [
+        {
+          "descriptor": "C02",
+          "measure_number": "4",
+          "measure_ordinal": 4,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "17/2",
+        "numerator": 17
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "85/13",
+        "numerator": 85
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-118208d04e00cc27ce3b18c2245eac0602b08f94f7f3b57ea2119c12e299306a",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "4",
+          "measure_ordinal": 4,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "9/1",
+        "numerator": 9
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "90/13",
+        "numerator": 90
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-9235b60ae0843fdb44c08df6e8cfc10098cd5b005be3234b301efce69eb2503f",
+      "constituent_notes": [
+        {
+          "descriptor": "D03",
+          "measure_number": "4",
+          "measure_ordinal": 4,
+          "note_ordinal": 3,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "19/2",
+        "numerator": 19
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "95/13",
+        "numerator": 95
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-6c23ceb4df4f37ea1b04e919a5ac4b56682643be0398100dd101ce5622ab3c0f",
+      "constituent_notes": [
+        {
+          "descriptor": "E-13",
+          "measure_number": "4",
+          "measure_ordinal": 4,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "10/1",
+        "numerator": 10
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "100/13",
+        "numerator": 100
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-0d114582a6996fdf1ba2415044fe02400bb2087e169fb9550a12c5ca96bf502a",
+      "constituent_notes": [
+        {
+          "descriptor": "C02",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 10,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "25/2",
+        "numerator": 25
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "125/13",
+        "numerator": 125
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-6afd5a87e139a32e9c7951b4253495cc9f034f38c8ea3d350d04592d762193f7",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 11,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "13/1",
+        "numerator": 13
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "10/1",
+        "numerator": 10
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-4b48cc19e9e2df30485eed7051d0972c6ea355de42a92d0c3644cc64750a84b0",
+      "constituent_notes": [
+        {
+          "descriptor": "E-13",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "14/1",
+        "numerator": 14
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "140/13",
+        "numerator": 140
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d20ef50e153299929e71f531731703b70e4a2561c642810c8d4ab745b1dd03c7",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        },
+        {
+          "descriptor": "G04",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "unspecified"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "15/1",
+        "numerator": 15
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "150/13",
+        "numerator": 150
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-e96e21ffbfeb6b18e13c910691d226f499cb3cc841a2d785877adec6f306f034",
+      "constituent_notes": [
+        {
+          "descriptor": "C02",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "33/2",
+        "numerator": 33
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-60bed029e58816e94c897393ef9ed2ab383470ce63238f2beb6781e48b0e7222",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "17/1",
+        "numerator": 17
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "170/13",
+        "numerator": 170
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-fe8b743c69d7fc1fabd2e1ac94d871bb5be7ff45f6f9e0373942a85ba41594cb",
+      "constituent_notes": [
+        {
+          "descriptor": "D03",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 3,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "35/2",
+        "numerator": 35
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "175/13",
+        "numerator": 175
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-a2edf8f2ddba44a62ebbcca80fab828ae908b94db16d81759a8522c616a92e55",
+      "constituent_notes": [
+        {
+          "descriptor": "E-13",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "18/1",
+        "numerator": 18
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "180/13",
+        "numerator": 180
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-74644b6b7830b45ae7f2f13605dfd2c1fb40056c0e831b4f4dcbe1d03bfb9931",
+      "constituent_notes": [
+        {
+          "descriptor": "C02",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "41/2",
+        "numerator": 41
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "205/13",
+        "numerator": 205
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-ba0316b81908cfd87bb1b2a05df104c394dd0f974f17a744d4b519bed9139f37",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 8,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "21/1",
+        "numerator": 21
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "210/13",
+        "numerator": 210
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-6e83d74bf14a6f1ed630a224ddc6aacba56f4742ddfdbe92963abd576a0d5460",
+      "constituent_notes": [
+        {
+          "descriptor": "E-13",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "22/1",
+        "numerator": 22
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "220/13",
+        "numerator": 220
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-4aebb678152e66caff15e9de6bfd91aeb2cc69e24dc03fcde5e0fb4779be7539",
+      "constituent_notes": [
+        {
+          "descriptor": "D04",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "24/1",
+        "numerator": 24
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "240/13",
+        "numerator": 240
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-28b6056257cc141222148adf599ca18749c8bd4c5ba7579617b7533db213f2c2",
+      "constituent_notes": [
+        {
+          "descriptor": "E-14",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 2,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        },
+        {
+          "descriptor": "F02",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "49/2",
+        "numerator": 49
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-2568032a384f3da8d3a9874a2d3702e742fa3126962d4b3cad026f015c4fb681",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "250/13",
+        "numerator": 250
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-aaf3752da783010ab8d443d624017e6a06496d586da60cbd902110367ede791d",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 3,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "51/2",
+        "numerator": 51
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "255/13",
+        "numerator": 255
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-60e3fd17cf0ed5a7cb35f5e4ef06c8bb967640d1ea540ab7c695b5e56e060327",
+      "constituent_notes": [
+        {
+          "descriptor": "A03",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "26/1",
+        "numerator": 26
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "20/1",
+        "numerator": 20
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-309a078577fa5743bd3f5a13dcd39b27b8dbe14f5a0a14b459f33285844d9d22",
+      "constituent_notes": [
+        {
+          "descriptor": "F02",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 10,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "57/2",
+        "numerator": 57
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "285/13",
+        "numerator": 285
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-3f0d1a9e6d42738b35574c88023a2fffd5dc59b1ec5ad02b41c4620227ef108f",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 11,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "29/1",
+        "numerator": 29
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "290/13",
+        "numerator": 290
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-14fb3b459efb5c196fc1995cb1b2be6442823ba697ed00d4fb7b1c6bdbe3f2b9",
+      "constituent_notes": [
+        {
+          "descriptor": "A03",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "30/1",
+        "numerator": 30
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "300/13",
+        "numerator": 300
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d14f76c8993b423f507f7070ddc30002f5e746cee1efab5f1484f7d575d2728e",
+      "constituent_notes": [
+        {
+          "descriptor": "E-14",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "32/1",
+        "numerator": 32
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-ce2806837c021d676d715d0be7aae875b577d98f10c73a0d5d7fffb0663cc6e3",
+      "constituent_notes": [
+        {
+          "descriptor": "D04",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 5,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 4,
+        "exact": "129/4",
+        "numerator": 129
+      },
+      "t_gt_seconds": {
+        "denominator": 26,
+        "exact": "645/26",
+        "numerator": 645
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-302ced1f4168711df025b8ffddc17a27133d05c52b4d0b525284820e7077c333",
+      "constituent_notes": [
+        {
+          "descriptor": "C04",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 1,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "A-12",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 5,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "65/2",
+        "numerator": 65
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d1aac73d24b0282f3b3ae18e110da0d2eed9cc9dc62b581bbe2364cf59fe4c61",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "33/1",
+        "numerator": 33
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "330/13",
+        "numerator": 330
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-eb47dbf26701fc2f9b570bb749705cbe4bc6791920eca54454ca8f9c3689bff1",
+      "constituent_notes": [
+        {
+          "descriptor": "B-13",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 2,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "E-13",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "34/1",
+        "numerator": 34
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "340/13",
+        "numerator": 340
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-f23ebf44de919ccf041b332ca3ec9812053b73eeab7b816c1466b05a857151e9",
+      "constituent_notes": [
+        {
+          "descriptor": "E-14",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 3,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "36/1",
+        "numerator": 36
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "360/13",
+        "numerator": 360
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-c0882b97212b41db34da7b47726e240251fe0636f692595ea950c563f2330793",
+      "constituent_notes": [
+        {
+          "descriptor": "D04",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 4,
+        "exact": "145/4",
+        "numerator": 145
+      },
+      "t_gt_seconds": {
+        "denominator": 26,
+        "exact": "725/26",
+        "numerator": 725
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-783c3ecf365ddb1b54f6a5fe7ae64842a8dd7f01d52e85e1af0404980d4499fe",
+      "constituent_notes": [
+        {
+          "descriptor": "B-13",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 1,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "E-13",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 4,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "73/2",
+        "numerator": 73
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-27a1b425fe6ee0a4ff90c17817ef54cb925d60a86113c3e3e06e26776e75dfd0",
+      "constituent_notes": [
+        {
+          "descriptor": "B-13",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 2,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "G02",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 5,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "37/1",
+        "numerator": 37
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "370/13",
+        "numerator": 370
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-0fc86782f4758907d5a5b63c6778f733cf7e7a1d5ea68c3a6c68e4257e311a22",
+      "constituent_notes": [
+        {
+          "descriptor": "D03",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "75/2",
+        "numerator": 75
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "375/13",
+        "numerator": 375
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-e9696362727954e7faac980009a9546d155a78eb05e3f0f843dae553c84e2c59",
+      "constituent_notes": [
+        {
+          "descriptor": "E-13",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "38/1",
+        "numerator": 38
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "380/13",
+        "numerator": 380
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d03366e61df8edbf6d3c7b179fadc9f4448c3f489090a09d6d03514e00e32313",
+      "constituent_notes": [
+        {
+          "descriptor": "C02",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "81/2",
+        "numerator": 81
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d38dc0f91427539d3e0d49f3191cbed55fce5566f065d381ebed1717d5893c14",
+      "constituent_notes": [
+        {
+          "descriptor": "D03",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 7,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "41/1",
+        "numerator": 41
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "410/13",
+        "numerator": 410
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5e576023268f97c404a52914c22ef90f858c8755c317feabccff5a7f02b1d739",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 2,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "G04",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 3,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "unspecified"
+        },
+        {
+          "descriptor": "E-13",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 8,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "42/1",
+        "numerator": 42
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "420/13",
+        "numerator": 420
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-95ebc76c402da900a3a8277cd8126edd319b595eb4f2f37b9de1ca379f5fbb8e",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 1,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "1"
+        },
+        {
+          "descriptor": "G04",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 2,
+          "part_id": "P3",
+          "staff": "1",
+          "voice": "unspecified"
+        },
+        {
+          "descriptor": "E-13",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 5,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "89/2",
+        "numerator": 89
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-2a08ef35b1076f7952f695a5187609b474b214ede6a2d435646f11e9e2a76113",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 6,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "45/1",
+        "numerator": 45
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "450/13",
+        "numerator": 450
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-ebee761bc245dd43841c06657cef229fee228d5823ea1253d96b2672efe3fcac",
+      "constituent_notes": [
+        {
+          "descriptor": "D03",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 11,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "3"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "91/2",
+        "numerator": 91
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "35/1",
+        "numerator": 35
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-afc2fb68dd70a677c4d862af6ab97f6ade6bec4bb4f402297007ef908b494334",
+      "constituent_notes": [
+        {
+          "descriptor": "F03",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 8,
+          "part_id": "P3",
+          "staff": "2",
+          "voice": "2"
+        }
+      ],
+      "source": "Piano",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "46/1",
+        "numerator": 46
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "460/13",
+        "numerator": 460
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-cf6f5e448ae107f84deb4c76f3292a879db51fe5a57a4a0a6c5af28827e57758",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "1",
+          "measure_ordinal": 1,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "0/1",
+        "numerator": 0
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "0/1",
+        "numerator": 0
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-7482a69d60921e5fd0caa576ef2fea1f1e62537cf3154e688be92f0a952329c8",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "2",
+          "measure_ordinal": 2,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "1/2",
+        "numerator": 1
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "5/13",
+        "numerator": 5
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-f991cdc85bae38792dd69b7272e26e4f7c125f2c8b3256e3bc321040c7685103",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "9/2",
+        "numerator": 9
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "45/13",
+        "numerator": 45
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-c2b916e37ac22c088c8f07c3968fee6e004cb5f4bde91a348df889101ab18fb7",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "3",
+          "measure_ordinal": 3,
+          "note_ordinal": 3,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "8/1",
+        "numerator": 8
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "80/13",
+        "numerator": 80
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5f5e9ad84dbb2603d1992cbb83a88a00d3146e0f8c6d6e37ed6295314cd5321d",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "4",
+          "measure_ordinal": 4,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "17/2",
+        "numerator": 17
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "85/13",
+        "numerator": 85
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-7c7a289f46d5be7d9c1360df8050bec5026110a4ef8cd6cef3a5af547a49346d",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "25/2",
+        "numerator": 25
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "125/13",
+        "numerator": 125
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-a93c40624d88d5057576ff77ed7f7c8c17ef79a776f2dbc1e85d755147a65007",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "5",
+          "measure_ordinal": 5,
+          "note_ordinal": 3,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "16/1",
+        "numerator": 16
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "160/13",
+        "numerator": 160
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-ed3209bbdd99845bc47213fa1c372e0f6c4fe47d2df5913333802d2814cbee2d",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "33/2",
+        "numerator": 33
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-357c34ae446b6aabb9c61c6bdd39154d716fa408947d25d86ffe93168d61110d",
+      "constituent_notes": [
+        {
+          "descriptor": "D03",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 3,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "20/1",
+        "numerator": 20
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "200/13",
+        "numerator": 200
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-4a3eb32d971404ce618db6e0917e2190930c0f20b6159219ba67671cec7fff4e",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "41/2",
+        "numerator": 41
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "205/13",
+        "numerator": 205
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-dd8078a0dd91a03144e8dc846ab6324078b43c72453bba8e58de5f9f4449e350",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 3,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "24/1",
+        "numerator": 24
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "240/13",
+        "numerator": 240
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-8e0d4c700883b0d59a5339e13a868fef1263e7a43c79fead9fd21b68ae9521fd",
+      "constituent_notes": [
+        {
+          "descriptor": "F02",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "49/2",
+        "numerator": 49
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-93b1a5b97b6474f903bd885a48f849035c2e6af711a0a560b57b199378f8f063",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 3,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "28/1",
+        "numerator": 28
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "280/13",
+        "numerator": 280
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-77b382f798fe7595aac71de868078c03adbab9ccb63582f2d70c998ad7d64a0f",
+      "constituent_notes": [
+        {
+          "descriptor": "F03",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "57/2",
+        "numerator": 57
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "285/13",
+        "numerator": 285
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-547e111a413bc273f719f4b616f8f0e2da0b4da6971943f62e4c2b51e003e32b",
+      "constituent_notes": [
+        {
+          "descriptor": "C04",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 2,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "61/2",
+        "numerator": 61
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "305/13",
+        "numerator": 305
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-33fb7847cb46754a268af14e4e0be9011be92914c8fa59ac133b981481ce990d",
+      "constituent_notes": [
+        {
+          "descriptor": "F03",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 3,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "63/2",
+        "numerator": 63
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "315/13",
+        "numerator": 315
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-7fefb126078590817958b26665955fb5b05776113931d23a475d9341f86d68b0",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 4,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "32/1",
+        "numerator": 32
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-d61c91e5d02ad7d12a40e3420249d1fa0475e876bdbd419498c0cb54b27bd9e7",
+      "constituent_notes": [
+        {
+          "descriptor": "A-13",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "65/2",
+        "numerator": 65
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-8879b3e13b74c32005c4fce99e75448800c9df9c9bcd0fd5ca8912009a84c3c9",
+      "constituent_notes": [
+        {
+          "descriptor": "E-14",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 3,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "35/1",
+        "numerator": 35
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "350/13",
+        "numerator": 350
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-860bceac9f04b4efd6d228f522502ee042d5be2634b82445f333592f6e302753",
+      "constituent_notes": [
+        {
+          "descriptor": "A-13",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 4,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "71/2",
+        "numerator": 71
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "355/13",
+        "numerator": 355
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-3b8e19b287db01c46eb54294e1d364a8c6d4acb29b042d91460d25e29751e26e",
+      "constituent_notes": [
+        {
+          "descriptor": "D04",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 5,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "36/1",
+        "numerator": 36
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "360/13",
+        "numerator": 360
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-feba8530e52ea351490c31afd71e488f3b26a1d8de3731451b34a7223e04292a",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "73/2",
+        "numerator": 73
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-1cd426f423231ff96a950ba25c64c1db11176533ac0ffb2850a4d04fbd830cce",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 2,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "38/1",
+        "numerator": 38
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "380/13",
+        "numerator": 380
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-4a511f8a97a47272520b95a7ac8981c4b9d67d7f670a8834193c954890f7b32a",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 4,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "40/1",
+        "numerator": 40
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "400/13",
+        "numerator": 400
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-1fea57eabd42a8484cdbd0bf628a8d5944e25da1e1006d7708871d3f17e2211e",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "81/2",
+        "numerator": 81
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-98816358d72870d1610fbd91344089a68e8a7901523414d520e1b05769904054",
+      "constituent_notes": [
+        {
+          "descriptor": "C03",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 2,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "87/2",
+        "numerator": 87
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "435/13",
+        "numerator": 435
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-62007d488bc15c6bf32ff0618c294539c1c0cbc71dcf4e59f8b9219974203381",
+      "constituent_notes": [
+        {
+          "descriptor": "G02",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 1,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "89/2",
+        "numerator": 89
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-ba9a68c36139db92a9bbce20da8145656e7fb252eea05b8d5ec2fdcfa0b44205",
+      "constituent_notes": [
+        {
+          "descriptor": "G03",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 3,
+          "part_id": "P5",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Double Bass",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "48/1",
+        "numerator": 48
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "480/13",
+        "numerator": 480
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-e7e641e8a67e6e7bebb8ebf9ec2b6fb2773b2553e15114ffa2eefdc886247e89",
+      "constituent_notes": [
+        {
+          "descriptor": "F05",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 1,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "33/2",
+        "numerator": 33
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "165/13",
+        "numerator": 165
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-1a5d5542c268b611cb38af899d9a6d98b949084fa4836fb586e2c3bdd6b91114",
+      "constituent_notes": [
+        {
+          "descriptor": "E05",
+          "measure_number": "6",
+          "measure_ordinal": 6,
+          "note_ordinal": 2,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "18/1",
+        "numerator": 18
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "180/13",
+        "numerator": 180
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-5cd790bc75832477bf902a91e0327605fb9610608a221bd44a5212151b09f95a",
+      "constituent_notes": [
+        {
+          "descriptor": "F05",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 2,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "22/1",
+        "numerator": 22
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "220/13",
+        "numerator": 220
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-0a82ef221739f1b1617061913cbcac25f8c8dbe4b48bea28810f29bcb71422f4",
+      "constituent_notes": [
+        {
+          "descriptor": "G05",
+          "measure_number": "7",
+          "measure_ordinal": 7,
+          "note_ordinal": 4,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "24/1",
+        "numerator": 24
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "240/13",
+        "numerator": 240
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-a9f1a121d2bb47234e60050339032c20e3b96b6817e8d33e8eb3021ba2441fab",
+      "constituent_notes": [
+        {
+          "descriptor": "A05",
+          "measure_number": "8",
+          "measure_ordinal": 8,
+          "note_ordinal": 1,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "49/2",
+        "numerator": 49
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "245/13",
+        "numerator": 245
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-221af1d4d6871fedd19e1c608a3c9c3c963b751db7406813827c97f8d6d031f6",
+      "constituent_notes": [
+        {
+          "descriptor": "C05",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 4,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "32/1",
+        "numerator": 32
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "320/13",
+        "numerator": 320
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-6d48f9126162ddd04531606f208466190edfe494b018f811d9f7529bf99a5a73",
+      "constituent_notes": [
+        {
+          "descriptor": "D05",
+          "measure_number": "9",
+          "measure_ordinal": 9,
+          "note_ordinal": 5,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 4,
+        "exact": "129/4",
+        "numerator": 129
+      },
+      "t_gt_seconds": {
+        "denominator": 26,
+        "exact": "645/26",
+        "numerator": 645
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-2541632d833daced224612674861aedccc3920b3c961d64d4fad0266ba4073ab",
+      "constituent_notes": [
+        {
+          "descriptor": "F05",
+          "measure_number": "10",
+          "measure_ordinal": 10,
+          "note_ordinal": 1,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "65/2",
+        "numerator": 65
+      },
+      "t_gt_seconds": {
+        "denominator": 1,
+        "exact": "25/1",
+        "numerator": 25
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-221fd1ac3fc99a57b1f5982b76747cf45f9dbfcfa8335cc16d3badcca485fd9c",
+      "constituent_notes": [
+        {
+          "descriptor": "G05",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 1,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "73/2",
+        "numerator": 73
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "365/13",
+        "numerator": 365
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-236f8a1234cfba4064bcc5d78cc5cfcf5f3ec5ad1ab71fffeb013579fea34611",
+      "constituent_notes": [
+        {
+          "descriptor": "D05",
+          "measure_number": "11",
+          "measure_ordinal": 11,
+          "note_ordinal": 3,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 1,
+        "exact": "40/1",
+        "numerator": 40
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "400/13",
+        "numerator": 400
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-c70ade3a429b2a8e4002888dd92d3f98bd460785d11d8fe6f1dc1c194d3a7623",
+      "constituent_notes": [
+        {
+          "descriptor": "C05",
+          "measure_number": "12",
+          "measure_ordinal": 12,
+          "note_ordinal": 1,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "81/2",
+        "numerator": 81
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "405/13",
+        "numerator": 405
+      }
+    },
+    {
+      "calibration_symbolic_event_id": "CSE-fdc60c96801a833c30cf10f1759ba3ec3168dd0e089fb48c5bbd36f61e607875",
+      "constituent_notes": [
+        {
+          "descriptor": "C15",
+          "measure_number": "13",
+          "measure_ordinal": 13,
+          "note_ordinal": 1,
+          "part_id": "P2",
+          "staff": "1",
+          "voice": "1"
+        }
+      ],
+      "source": "Tenor Sax",
+      "symbolic_onset_quarters": {
+        "denominator": 2,
+        "exact": "89/2",
+        "numerator": 89
+      },
+      "t_gt_seconds": {
+        "denominator": 13,
+        "exact": "445/13",
+        "numerator": 445
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "descriptor": "unidentified",
+      "measure_number": "1",
+      "measure_ordinal": 1,
+      "note_ordinal": 1,
+      "part_id": "P2",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 1,
+      "part_id": "P2",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 1,
+      "part_id": "P2",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 1,
+      "part_id": "P2",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 1,
+      "part_id": "P2",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "E05",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 3,
+      "part_id": "P2",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "E05",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 1,
+      "part_id": "P2",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "F05",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 3,
+      "part_id": "P2",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "A05",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 1,
+      "part_id": "P2",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 2,
+      "part_id": "P2",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 3,
+      "part_id": "P2",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "G05",
+      "measure_number": "11",
+      "measure_ordinal": 11,
+      "note_ordinal": 2,
+      "part_id": "P2",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 2,
+      "part_id": "P2",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "1",
+      "measure_ordinal": 1,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "1",
+      "measure_ordinal": 1,
+      "note_ordinal": 2,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 2,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 5,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "G02",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 10,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 2,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 3,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 5,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "G03",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "G04",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "unspecified"
+    },
+    {
+      "descriptor": "G02",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 12,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 13,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 14,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 2,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 5,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "G02",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 10,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 2,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 3,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 5,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "G03",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "G04",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "unspecified"
+    },
+    {
+      "descriptor": "G02",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 12,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 13,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 14,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 2,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 5,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "G02",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 2,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 3,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 5,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "G02",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 10,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "8",
+      "measure_ordinal": 8,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "A03",
+      "measure_number": "8",
+      "measure_ordinal": 8,
+      "note_ordinal": 5,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "C03",
+      "measure_number": "8",
+      "measure_ordinal": 8,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "8",
+      "measure_ordinal": 8,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 2,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 3,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "A03",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 6,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "A03",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "C03",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 12,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 13,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "10",
+      "measure_ordinal": 10,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "11",
+      "measure_ordinal": 11,
+      "note_ordinal": 3,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "11",
+      "measure_ordinal": 11,
+      "note_ordinal": 8,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "12",
+      "measure_ordinal": 12,
+      "note_ordinal": 1,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "G03",
+      "measure_number": "12",
+      "measure_ordinal": 12,
+      "note_ordinal": 4,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "G04",
+      "measure_number": "12",
+      "measure_ordinal": 12,
+      "note_ordinal": 5,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "unspecified"
+    },
+    {
+      "descriptor": "E-13",
+      "measure_number": "12",
+      "measure_ordinal": 12,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 3,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 4,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 7,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "F03",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 9,
+      "part_id": "P3",
+      "reason": "TIED_CONTINUATION",
+      "staff": "2",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 10,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 12,
+      "part_id": "P3",
+      "reason": "REST",
+      "staff": "2",
+      "voice": "3"
+    },
+    {
+      "descriptor": "C03",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 2,
+      "part_id": "P5",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "C03",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 2,
+      "part_id": "P5",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "C03",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 2,
+      "part_id": "P5",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "G02",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 2,
+      "part_id": "P5",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "F02",
+      "measure_number": "8",
+      "measure_ordinal": 8,
+      "note_ordinal": 2,
+      "part_id": "P5",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "A-13",
+      "measure_number": "10",
+      "measure_ordinal": 10,
+      "note_ordinal": 2,
+      "part_id": "P5",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "G03",
+      "measure_number": "11",
+      "measure_ordinal": 11,
+      "note_ordinal": 3,
+      "part_id": "P5",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "G02",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 2,
+      "part_id": "P5",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "1",
+      "measure_ordinal": 1,
+      "note_ordinal": 1,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "2",
+      "measure_ordinal": 2,
+      "note_ordinal": 6,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "3",
+      "measure_ordinal": 3,
+      "note_ordinal": 7,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 1,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "4",
+      "measure_ordinal": 4,
+      "note_ordinal": 6,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "5",
+      "measure_ordinal": 5,
+      "note_ordinal": 7,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 1,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 7,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "6",
+      "measure_ordinal": 6,
+      "note_ordinal": 9,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 7,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "7",
+      "measure_ordinal": 7,
+      "note_ordinal": 9,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "8",
+      "measure_ordinal": 8,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "8",
+      "measure_ordinal": 8,
+      "note_ordinal": 8,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "8",
+      "measure_ordinal": 8,
+      "note_ordinal": 10,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "9",
+      "measure_ordinal": 9,
+      "note_ordinal": 8,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "10",
+      "measure_ordinal": 10,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "10",
+      "measure_ordinal": 10,
+      "note_ordinal": 7,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "10",
+      "measure_ordinal": 10,
+      "note_ordinal": 9,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "11",
+      "measure_ordinal": 11,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "11",
+      "measure_ordinal": 11,
+      "note_ordinal": 7,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "11",
+      "measure_ordinal": 11,
+      "note_ordinal": 9,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "12",
+      "measure_ordinal": 12,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "12",
+      "measure_ordinal": 12,
+      "note_ordinal": 8,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "12",
+      "measure_ordinal": 12,
+      "note_ordinal": 10,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    },
+    {
+      "descriptor": "unpitched:F5",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 4,
+      "part_id": "P6",
+      "reason": "TIED_CONTINUATION",
+      "staff": "1",
+      "voice": "1"
+    },
+    {
+      "descriptor": "unidentified",
+      "measure_number": "13",
+      "measure_ordinal": 13,
+      "note_ordinal": 8,
+      "part_id": "P6",
+      "reason": "REST",
+      "staff": "1",
+      "voice": "2"
+    }
+  ],
+  "generation_record_id": "DGR-CED-VAL-001-001",
+  "ground_truth_id": "GT-VAL-001-v1",
+  "jga_observed_events_accessed": false,
+  "musicxml": {
+    "path": "recordings/validation/ground_truth/03 THE COST OF LIVING versione intro + 8 bar.musicxml",
+    "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778"
+  },
+  "part_summaries": {
+    "Double Bass": {
+      "attack_note_count": 28,
+      "duration_quarters": {
+        "denominator": 2,
+        "exact": "97/2",
+        "numerator": 97
+      },
+      "measure_count": 13,
+      "part_id": "P5",
+      "rest_count": 0,
+      "tied_continuation_count": 8
+    },
+    "Drums": {
+      "attack_note_count": 86,
+      "duration_quarters": {
+        "denominator": 2,
+        "exact": "97/2",
+        "numerator": 97
+      },
+      "measure_count": 13,
+      "part_id": "P6",
+      "rest_count": 19,
+      "tied_continuation_count": 14
+    },
+    "Piano": {
+      "attack_note_count": 60,
+      "duration_quarters": {
+        "denominator": 2,
+        "exact": "97/2",
+        "numerator": 97
+      },
+      "measure_count": 13,
+      "part_id": "P3",
+      "rest_count": 38,
+      "tied_continuation_count": 30
+    },
+    "Tenor Sax": {
+      "attack_note_count": 12,
+      "duration_quarters": {
+        "denominator": 2,
+        "exact": "97/2",
+        "numerator": 97
+      },
+      "measure_count": 13,
+      "part_id": "P2",
+      "rest_count": 8,
+      "tied_continuation_count": 5
+    }
+  },
+  "provenance_revision_id": "PR-CED-VAL-001-001",
+  "rendered_stems": {
+    "Double Bass": {
+      "path": "recordings/validation/stems/double_bass.wav",
+      "sha256": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5"
+    },
+    "Drums": {
+      "path": "recordings/validation/stems/drums.wav",
+      "sha256": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd"
+    },
+    "Piano": {
+      "path": "recordings/validation/stems/piano.wav",
+      "sha256": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e"
+    },
+    "Tenor Sax": {
+      "path": "recordings/validation/stems/tenor_sax.wav",
+      "sha256": "89dd7e5c6063d3c4d5e4ac59c9119c265df4257dfb1b4a1e01b5f117ee87182e"
+    }
+  },
+  "sample_count_per_channel": 1865728,
+  "sample_rate_hz": 44100,
+  "sample_zero_relationship": "MusicXML score time zero = WAV sample zero",
+  "schema_revision": "1",
+  "scientific_fingerprint": "b682fadc92be106fcf6b6a5379a4ab840c18e2bc8c852e44a4cda96c30488086",
+  "symbolic_event_counts": {
+    "Double Bass": 28,
+    "Drums": 63,
+    "Piano": 49,
+    "Tenor Sax": 12
+  },
+  "symbolic_temporal_conversion": {
+    "authority": "checksum-bound MusicXML metronome declarations",
+    "declaration_count": 2,
+    "inferred": false,
+    "seconds_per_quarter": {
+      "denominator": 13,
+      "exact": "10/13",
+      "numerator": 10
+    }
+  }
+}

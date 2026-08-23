@@ -1,0 +1,28 @@
+{
+  "authority_gate": {
+    "authority_fingerprint": "b682fadc92be106fcf6b6a5379a4ab840c18e2bc8c852e44a4cda96c30488086",
+    "jga_observed_events_accessed_during_authority_construction": false,
+    "status": "SUFFICIENT",
+    "symbolic_event_count": 152
+  },
+  "bias_evidence_outcome": "SOURCE_INDEPENDENT_CANDIDATE_BIAS",
+  "correction_authorized": false,
+  "deterministic_replay": true,
+  "experiment_id": "H-VAL001-CALIBRATION-ZERO-01",
+  "frame_structure_evidence": "PARTIAL",
+  "ground_truth_access": {
+    "accessed_after_preregistration_freeze": true,
+    "event_level_error_accessed_before_authority_freeze": false,
+    "purpose": "controlled calibration authority and measurement characterization"
+  },
+  "input_manifest_sha256": "71bc3439eddf781c6fed531d29e67340616ca3ab8352904dfa53b68e38c02600",
+  "measurement_structure_outcome": "MIXED_MEASUREMENT_BEHAVIOUR",
+  "preregistration_sha256": "bf08399d4c45d2bcd58323720651084e36ef8bbade683379f7e34b9d2bc2a994",
+  "production_integration_authorized": false,
+  "raw_observations_modified": false,
+  "rendering_detection_decomposition": "NOT_SUPPORTED",
+  "run_id": "run_20260823_070702",
+  "scientific_fingerprint": "d9ff1dba90cdb8b96e0412d05dd10c8b972f9dd2c2194187addcff4d6bd2050f",
+  "status": "PASS",
+  "voice_status": "DEFERRED"
+}

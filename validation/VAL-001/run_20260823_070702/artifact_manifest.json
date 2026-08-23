@@ -1,0 +1,12 @@
+{
+  "build_symbolic_authority.py": "ee124a619d54c1a33a5b686a8790376b9068451da5b6027f1950bdd8a30b351f",
+  "calibration_symbolic_events.json": "038a970994dcb42961d115c6b5c7dd2a05c714b52f5fec3a1756133b5cdedd9f",
+  "completion_protocol.json": "cc476a5cd61404d35de5529477345c26b4e383905c9c2f63fd819ba062d30f3a",
+  "event_level_results.json": "13fd9baa9510aa16acbec26547b2d732f0133f6090cda3fb5c1159b31d39c875",
+  "experiment.py": "a5a2fd43a8acb630e83f3a87459e27a040df5cce1f66dad837007c0a281035d2",
+  "input_manifest.json": "71bc3439eddf781c6fed531d29e67340616ca3ab8352904dfa53b68e38c02600",
+  "manifest.json": "75980e148800e35ab045da9ff421fb81042d0dd4069959f672e91185ea1ed4e2",
+  "report.md": "c5ffb08bda5df3733b1de1d1c3bbe1f7ea93fe7fdd1e2d6f38c61ce568ef230b",
+  "result.json": "406f7ad0de0f95bf03272d0f058ab47d27b9f496e55b733453a026d7a9c61062",
+  "verify.py": "107857659223d3d0543523319872303aaf79f5a9b786304c3bf5c52b5ec0c9d8"
+}

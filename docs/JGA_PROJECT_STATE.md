@@ -1,5 +1,32 @@
 # JGA Project State
 
+## Calibration Zero Measurement Characterization
+
+Status: PASS — SOURCE-INDEPENDENT CANDIDATE BIAS / MIXED MEASUREMENT BEHAVIOUR
+
+- `H-VAL001-CALIBRATION-ZERO-01` executed unchanged from the frozen
+  preregistration after sufficient symbolic-event authority was constructed
+  without prior access to JGA event-level differences.
+- Frozen symbolic/observed/valid populations are Drums 63/63/63, Piano
+  49/49/49, Double Bass 28/27/27 and Tenor Sax 12/16/8. One Bass symbolic event
+  is unmatched; four Sax cells contain multiple observed EME. All ambiguous
+  evidence remains preserved.
+- Drums, Piano and Double Bass satisfy the frozen candidate-bias criterion;
+  Tenor Sax has insufficient valid support. Qualifying-source pairwise
+  intervals include zero and the pooled median interval excludes zero, yielding
+  `SOURCE_INDEPENDENT_CANDIDATE_BIAS` under the preregistered rule.
+- Frame offsets concentrate at one and two frames, but no valid error is an
+  exact frame multiple and residuals span nearly the full nearest-frame range.
+  Frame-related evidence is `PARTIAL`; measurement structure is
+  `MIXED_MEASUREMENT_BEHAVIOUR`, not quantization-dominated.
+- The result characterizes combined controlled rendering/measurement behavior.
+  Rendering and detection contributions are not separately identified.
+- No correction, tolerance, threshold or production integration is authorized.
+  Raw observations are unchanged; Voice remains `DEFERRED`.
+- Deterministic replay: PASS. Scientific fingerprint:
+  `d9ff1dba90cdb8b96e0412d05dd10c8b972f9dd2c2194187addcff4d6bd2050f`.
+- Record: `validation/VAL-001/run_20260823_070702/`.
+
 ## Calibration Zero Experiment Preregistration
 
 Status: FROZEN — NOT EXECUTED
