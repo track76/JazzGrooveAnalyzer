@@ -2118,3 +2118,28 @@ observation/interpretation constraints.
 ## Canonical Specification
 
 `docs/architecture/AD-037_EME_MATERIALIZATION_METRIC_LOCALIZATION.md`
+
+
+------------------------------------------------------------
+
+# AD-038 — Neutral Drum-Relative EME Localization
+
+## Status
+
+LOCKED
+
+## Decision
+
+Every authorized non-Drum EME may be projected relative to the preserved Drum
+EME population using only absolute timestamp geometry. The projection
+preserves all EME and complete observation lineage and assigns no musical or
+metric meaning to Drum events, nearest selection or observed interval
+fraction.
+
+The projection is a separate downstream Representation path. Existing
+BeatReference, declared tempo, meter, MetricCluster and reconstructed-measure
+functionality remains unchanged and independently callable.
+
+## Canonical Specification
+
+`docs/architecture/AD-038_DRUM_RELATIVE_EME_LOCALIZATION.md`

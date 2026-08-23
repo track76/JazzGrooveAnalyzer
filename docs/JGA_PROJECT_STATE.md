@@ -1,5 +1,31 @@
 # JGA Project State
 
+## Neutral Drum-Relative EME Localization
+
+Status: PASS
+
+- AD-038 establishes the immediate minimum path as absolute audio timeline →
+  authorized EME → neutral Drum-relative localization → later comparison.
+- The separate downstream Representation projection preserves all 63 Drum EME
+  and produces one immutable localization for every authorized Piano (49),
+  Double Bass (27) and Tenor Sax (16) EME: 92 records from 155 preserved EME.
+- Losses, merges and creations are zero. Exact timestamps, contributor/source,
+  target and selected Drum PulseCandidate lineage, asset, scope, origin, rule
+  and execution provenance are retained. Voice remains `DEFERRED`.
+- Independent validation reproduced all localization arithmetic. Three targets
+  precede the first Drum event, one follows the last, 88 records have an
+  observed interval fraction, and two geometric nearest-selection ties are
+  explicitly preserved.
+- No declared BPM, meter or BeatReference input enters the new projection. The
+  existing validated metric path remains unchanged and independently callable.
+- Scientific fingerprint:
+  `92a6b2e467d0b0b7fe465e9ccb8d9eb6d6e03ed9fb3e7435a2f0fd53bb4c2c62`.
+- Focused validation: 17 passed, 2 dependency deprecation warnings.
+- Complete automated suite: 1078 passed, 1 environment-dependent Demucs
+  external-storage failure, 3 warnings. The configured external root was not
+  writable; no heavy write was attempted.
+- Record: `validation/VAL-001/run_20260823_060808/`.
+
 ## Complete Neutral EME Timing Validation
 
 Status: PASS

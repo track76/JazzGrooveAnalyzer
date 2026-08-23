@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: AD-037 EME Materialization and Metric Localization
+Current Milestone: AD-038 Neutral Drum-Relative EME Localization
 
 Current Phase: Phase II Scientific Validation
 
@@ -14,6 +14,6 @@ Main Branch: scientific/translation-layer-finalization
 
 Python: 3.13
 
-Tests: 1069
+Tests: 1078
 
-Last Update: 2026-08-16
+Last Update: 2026-08-23

@@ -1,0 +1,42 @@
+{
+  "beat_reference_input_supplied": false,
+  "boundary_results": {
+    "after_last": 1,
+    "before_first": 3
+  },
+  "complete_provenance": true,
+  "creations": 0,
+  "declared_bpm_supplied": false,
+  "declared_meter_supplied": false,
+  "deterministic_replay": true,
+  "drum_eme_preserved": 63,
+  "eme_counts": {
+    "Double Bass": 27,
+    "Drums": 63,
+    "Piano": 49,
+    "Tenor Sax": 16
+  },
+  "experiment_id": "H-VAL001-DRUM-RELATIVE-EME-01",
+  "independent_arithmetic_replay": true,
+  "localization_records": 92,
+  "localized_counts": {
+    "Double Bass": 27,
+    "Piano": 49,
+    "Tenor Sax": 16
+  },
+  "losses": 0,
+  "merges": 0,
+  "nearest_selection_status": {
+    "EQUAL_DISTANCE_TIE": 2,
+    "UNIQUE": 90
+  },
+  "observed_interval_fraction": {
+    "not_produced": 4,
+    "present": 88
+  },
+  "scientific_fingerprint": "92a6b2e467d0b0b7fe465e9ccb8d9eb6d6e03ed9fb3e7435a2f0fd53bb4c2c62",
+  "status": "PASS",
+  "timestamps_unchanged": true,
+  "total_eme": 155,
+  "voice_status": "DEFERRED"
+}

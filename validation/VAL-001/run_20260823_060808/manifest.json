@@ -1,0 +1,8 @@
+{
+  "experiment_id": "H-VAL001-DRUM-RELATIVE-EME-01",
+  "preregistration": "validation/VAL-001/preregistrations/H-VAL001-DRUM-RELATIVE-EME-01.md",
+  "rule": "observed-drum-eme-relative-localization/v1",
+  "run_id": "run_20260823_060808",
+  "status": "PASS",
+  "voice_status": "DEFERRED"
+}
