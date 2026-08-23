@@ -1,0 +1,18 @@
+{
+  "architecture_impact": "NONE",
+  "calibration_zero_changed": false,
+  "cross_source_comparability_authorized": false,
+  "discrimination_authority": false,
+  "ground_truth_accessed": false,
+  "h02_changed": false,
+  "h03_created": false,
+  "historical_h02_scores_changed": false,
+  "production_code_changed": false,
+  "production_impact": "NONE",
+  "push_authorized": false,
+  "raw_observations_changed": false,
+  "selection_or_ranking_performed": false,
+  "status": "PASS",
+  "study_id": "H-CEDVAL003-PULSECANDIDATE-STRENGTH-AUTHORITY-01",
+  "within_source_measurement_authority": true
+}

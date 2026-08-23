@@ -1,0 +1,26 @@
+{
+  "frozen_inputs": {
+    "/Volumes/SSD Track/JGA/datasets/CED-VAL-003-SWING/steams/CED-VAL-003-SWING-3-4_bass.wav": "bd702128f0b6e9887ccfae104ee0af6b2b4307c2021bb826fd85fec669322429",
+    "/Volumes/SSD Track/JGA/datasets/CED-VAL-003-SWING/steams/CED-VAL-003-SWING-3-4_drums.wav": "11bd51037126608d7052ae0bb2b01d77b86eccae46d60ca088d3d5f57cccc44d",
+    "src/jga/domain/services/elementary_metric_event_builder.py": "137e390a69c9361d5cbfd66908256b2417d76c95d503e7ad2c409cd2e1b66cc2",
+    "src/jga/engines/domain_pulse_candidate_adapter.py": "6a3d276bf50534bc6823075a26787c624ab7a8d2ecca58628579fb86658a9330",
+    "src/jga/engines/pulse_candidate_builder.py": "788c13ac7e108860907b3031ea056569e45b7531b1e92993f3895224c114ff59",
+    "src/jga/engines/pulse_candidate_filter.py": "a0982865cb09d8df1b5e108cdf8b53371ccb69dc9ff713175ea0ab5be9439f44",
+    "src/jga/engines/source_pulse_candidate_builder.py": "5b270f352483dde91448b0958a299c08e51d064ab867bc872ef1cdde37a81c32",
+    "src/jga/pipeline/default_analysis_pipeline.py": "04ecdfee536717b977276b91b7e9416701e7a89ce9aa7bc4339917263725ef17",
+    "validation/CED-VAL-003-SWING-3-4/input_authority_manifest.json": "f53ce38c5324981753310736e47dd2620364e9a1a71848af50b4d5fb35d5e085",
+    "validation/CED-VAL-003-SWING-3-4/preregistrations/EG-CEDVAL003-AMBIGUOUS-PHYSICAL-AUTHORITY-01.md": "77885fcd2d1a83e5f32335c9d814541275884af39fe094fbde8f812a5f2a0a08",
+    "validation/CED-VAL-003-SWING-3-4/preregistrations/H-CEDVAL003-PULSECANDIDATE-STRENGTH-AUTHORITY-01.md": "a64866681d5095be04c501e93ceea8e8d2af0b988c4408446c74399cd9848600",
+    "validation/CED-VAL-003-SWING-3-4/preregistrations/frozen_ambiguous_population.json": "7544282135cae86f13076f1eb70d35c2feb82dacd36ae849bc4b08fa3c4f5ac8",
+    "validation/CED-VAL-003-SWING-3-4/run_20260823_205731/audit_result.json": "5da81ca50b072c4af332acf8e403c1d1c520e86af8378ba6125fabd764ce4af4"
+  },
+  "h02_scoring_opened": false,
+  "hop_samples": 512,
+  "numpy": "2.4.6",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "preregistration_commit": "ce8b93e",
+  "preregistration_sha256": "a64866681d5095be04c501e93ceea8e8d2af0b988c4408446c74399cd9848600",
+  "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "sample_rate_hz": 44100,
+  "symbolic_authority_opened": false
+}

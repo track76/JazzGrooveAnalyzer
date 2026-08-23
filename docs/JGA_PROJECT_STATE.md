@@ -1,5 +1,23 @@
 # JGA Project State
 
+## CED-VAL-003 PulseCandidate Strength Measurement Authority
+
+Status: PASS — FROZEN MEASUREMENT AUTHORITY
+
+- Exact lineage-bound strength was recovered for all 112 observations in all
+  56 frozen ambiguous cells: Drums 108/108, Double Bass 4/4, Piano 0/0.
+- Two executions and a second complete run reproduced identities, frames,
+  indices, binary64 values, memberships and fingerprint exactly; lineage
+  failures are zero.
+- Strength is now authoritative only as a provenance-bound within-source
+  physical measurement for this population. Cross-source comparability and
+  discrimination/selection authority remain unauthorized.
+- Ground Truth and H02 scoring were not accessed. No rank, selection or
+  threshold was produced; historical H02/Calibration Zero evidence remains
+  unchanged.
+- Scientific fingerprint `6903decb…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_211259/`.
+
 ## CED-VAL-003 PulseCandidate Strength Authority Preregistration
 
 Status: FROZEN — NOT YET EXECUTED

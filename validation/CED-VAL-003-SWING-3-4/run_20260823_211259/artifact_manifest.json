@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "completion_protocol.json": "ee052657b48294d63dab6450d31da8237ce6672fbc6c1264a8ecaec81b4c32a3",
+    "execute.py": "003a7c68a6e248e6f084f08d5b8b877438d7a394873fafe05da2a5504e3181b5",
+    "input_manifest.json": "97c50f3d81807ca77486f1409691f4a0bb8582f0eaf628857148f2d80ca7b76f",
+    "report.md": "bfab12a8fd53a239575a0b32d0ecc3f6c2288a8c1e27a9f5f66c3311a414210f",
+    "strength_measurements.json": "1772b2817b0a6aa075b91cff20b830791c14f245a5c219d6a65feee7f19450cc",
+    "verify.py": "60e32df6e2eb40b4f96c229839978785616270671b7e9fe2cb6276b62849f8b7"
+  },
+  "schema": "JGA-STRENGTH-MEASUREMENT-AUTHORITY-ARTIFACT-MANIFEST/v1",
+  "scientific_fingerprint": "6903decbe3175db300002f148d5e4192f9c51ba8959a6534921675af753aa94d",
+  "study_id": "H-CEDVAL003-PULSECANDIDATE-STRENGTH-AUTHORITY-01"
+}
