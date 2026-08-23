@@ -2,7 +2,7 @@
 
 ## Rhythm Section Timing Profile Authority
 
-Status: AUTHORIZED — NOT IMPLEMENTED
+Status: IMPLEMENTED
 
 - AD-040 reserves `RhythmSectionTimingProfile` as a provenance-bound,
   read-only downstream projection over existing immutable EME, AD-038 neutral
@@ -19,7 +19,18 @@ Status: AUTHORIZED — NOT IMPLEMENTED
   applicability remains separate.
 - Raw observation, calibration context and future interpretation are
   non-overwriting levels. Absolute recording time remains authoritative; no
-  correction or production implementation is authorized.
+  correction is authorized.
+- The minimum immutable implementation stores direct references to authorized
+  EME and AD-038 localizations, explicit source/asset role assignments,
+  independent correspondence evidence and separate calibration references.
+  Deterministic profile identity and scientific fingerprinting depend on
+  canonical referenced authority; no timestamp or displacement is copied or
+  corrected.
+- Controlled integration preserves 63 Drum EME and projects 49 Piano plus 27
+  Double Bass relationships. All 16 Tenor Sax EME remain outside the current
+  core and Voice remains `DEFERRED`. Focused contracts: 18 passed. Full suite:
+  1087 passed, 1 unchanged environment-dependent Demucs external-storage
+  failure, 3 warnings.
 - Canonical decision:
   `docs/architecture/AD-040_RHYTHM_SECTION_TIMING_PROFILE.md`.
 
