@@ -1,5 +1,25 @@
 # JGA Project State
 
+## H02 Three-Dataset Scientific Conclusion
+
+Status: FROZEN — PI-AUTHORIZED EVIDENCE SYNTHESIS
+
+- H02 is `EXPERIMENTALLY_SUPPORTED`, `SOURCE_SENSITIVE`,
+  `REPLICATED_FOR_DOUBLE_BASS_DRUMS_UNDER_TESTED_CONTROLLED_CONDITIONS`,
+  `NOT_GENERALIZED_FOR_PIANO_DRUMS` and `NOT_PRODUCTION_AUTHORIZED`.
+- Strong Double Bass–Drums behavior replicated on CED-VAL-002 and CED-VAL-003
+  within tested controlled conditions. Piano–Drums did not show stable
+  conservative behavior across datasets.
+- CED-VAL-003's 56 ambiguous/unscorable candidates and 55 unscorable symbolic
+  relations remain preserved and materially limit its generalization evidence.
+- Aggregate performance cannot replace source-specific evidence. No causal
+  claim about 3/4, swing, density or analytical role is authorized.
+- Calibration remains separate context; no correction is authorized. H02 and
+  AD-040 are unchanged, no H03 exists, and `GEOMETRIC_ONLY` remains production
+  authority.
+- Frozen conclusion:
+  `validation/H02_THREE_DATASET_SCIENTIFIC_CONCLUSION.md`.
+
 ## CED-VAL-003-SWING-3-4 H02 Independent Replication
 
 Status: FROZEN RESULT — PARTIAL CORRESPONDENCE EVIDENCE
