@@ -1,0 +1,1465 @@
+{
+  "blind_result_sha256": "e2ad20937b6d623f40c05e9df30eb59bb9e07deee5c91d316a38647b6bfb27ef",
+  "blind_scientific_fingerprint": "c053888ade8ddba30dad9abd11f4486dd9083640307d5c49feb409c389e28c08",
+  "by_source": {
+    "Double Bass": {
+      "ambiguous_unscorable_candidate_count": 2,
+      "ambiguous_unscorable_symbolic_relation_count": 2,
+      "blind_candidate_count": 114,
+      "f1": 0.9478260869565216,
+      "fn": 9,
+      "fp": 3,
+      "precision": 0.9732142857142857,
+      "recall": 0.923728813559322,
+      "scorable_candidate_count": 112,
+      "tp": 109,
+      "unresolved_count": 13
+    },
+    "Piano": {
+      "ambiguous_unscorable_candidate_count": 0,
+      "ambiguous_unscorable_symbolic_relation_count": 2,
+      "blind_candidate_count": 11,
+      "f1": 0.2285714285714286,
+      "fn": 20,
+      "fp": 7,
+      "precision": 0.36363636363636365,
+      "recall": 0.16666666666666666,
+      "scorable_candidate_count": 11,
+      "tp": 4,
+      "unresolved_count": 52
+    }
+  },
+  "calibration_context_used_for_candidate_generation": false,
+  "calibration_correction_applied": false,
+  "ced_val_001_reference": {
+    "candidate_count": 13,
+    "f1": 0.358209,
+    "fp": 1,
+    "precision": 0.923077,
+    "recall": 0.222222,
+    "tp": 12
+  },
+  "deterministic_replay": true,
+  "experiment_id": "H-VAL001-RHYTHM-CORRESPONDENCE-02",
+  "frozen_h02_preregistration_commit": "ca9683c786b8dbf57ea78f07ee16c86a896e3dbc",
+  "ground_truth_scoring_authority": {
+    "absolute_correspondence_results_sha256": "cf6aace090c92c3077b642bd6f8506b1a8516c4e55743a797581b763fbd71ecc",
+    "calibration_symbolic_event_fingerprint": "7fb4e7f3cbe8ecfa93fcfd9774256219daba2c4c1c70d07e04d913cb5e779642",
+    "pair_event_results_sha256": "6b1b67723dd2414674bd6913f06cedb71afe668dde70a71cc158a98e4df4c962",
+    "symbolic_pair_authority_fingerprint": "991ad738c2244bf26f873f65e7a140f4dcec4c9d7b5736c471d3f50c920f42b0",
+    "symbolic_pair_authority_sha256": "f00958d9f534135273cb33fc0d533e07864f1ff964b62ce6512dd4209a327a96"
+  },
+  "ground_truth_used_for_scoring_only": true,
+  "outcome_classification": "PARTIAL_CORRESPONDENCE_EVIDENCE",
+  "overall": {
+    "ambiguous_unscorable_candidate_count": 2,
+    "ambiguous_unscorable_symbolic_relation_count": 4,
+    "blind_candidate_count": 125,
+    "f1": 0.8528301886792452,
+    "fn": 29,
+    "fp": 10,
+    "precision": 0.9186991869918699,
+    "recall": 0.795774647887324,
+    "scorable_candidate_count": 123,
+    "tp": 113,
+    "unresolved_count": 65
+  },
+  "production_authorized_event_relation_promotion": false,
+  "production_code_modified": false,
+  "raw_observations_modified": false,
+  "schema": "H02-CEDVAL002-out-of-sample-result/v1",
+  "scientific_fingerprint": "ac6df971b4d1fb224c2324fb91cac85c04bb30062f86103f5681293dcd80c89e",
+  "score_records": {
+    "Double Bass": [
+      {
+        "drum_eme_id": "a1cf7a87-d96a-5f03-a45f-5a9d3b979534",
+        "drum_symbolic_event_id": "CSE-f8e5d70f489162ae53a7dbcad9b5fd820545efc755ff7803ed27a72ee42a0e71",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "43a7044e-8121-50cf-8380-bb8d60dda5aa",
+        "source_symbolic_event_id": "CSE-20fc8962e2f4dbc23ebcd34bbf4b1c410842f6c2614d4c120bcece898ff93272",
+        "symbolic_pair_id": "CSP-06af8c919044bee462d0974257ae4a189ef298678c6ec5f631c6f777334dea6d"
+      },
+      {
+        "drum_eme_id": "bc3018de-9de2-50ce-bffb-17abb8082ed7",
+        "drum_symbolic_event_id": "CSE-1fe14a0a23eb590be7231c0c87ca7cd8f0b560a6847b4a575f4df5cee09f344c",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "686ebe54-a96c-5220-be3e-b7f1373e5be7",
+        "source_symbolic_event_id": "CSE-722cf82fa0bf7d73f0a29a7af128d71464ce51ba71853e5e65887844ef206c85",
+        "symbolic_pair_id": "CSP-5e0279bc2339b2358df1f1df4493ccc5ef149856c3bb5b26c815c719abd18d24"
+      },
+      {
+        "drum_eme_id": "a3949fcc-0782-5c13-b8fc-6a5e90c07985",
+        "drum_symbolic_event_id": "CSE-7c7797f95b0f9bc70f1457cd903e75c57994bbee2d0da00f3ed5aaf9a43b45e4",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "badf6bcd-e250-52dd-93a3-2c8dfd6592fa",
+        "source_symbolic_event_id": "CSE-fbfa489da2c57d9ebf54e7f1f1ce3970d24bb4d01395681e8b26c44574ea5ecc",
+        "symbolic_pair_id": "CSP-9b838e314eb6b7776c0f7326d15df0598f23e5410c1af5501d4dc3c9b9ee6db2"
+      },
+      {
+        "drum_eme_id": "475da25b-30e3-574a-af29-e2071009f757",
+        "drum_symbolic_event_id": "CSE-cf09994613bc1697bcac883a7f02a47aa965985a833a9bba344af917dde575ce",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "758797b6-cf7d-5283-8f21-05154aa2033e",
+        "source_symbolic_event_id": "CSE-8e1d1c5a8debf2966b75470510467ec1a52a812dde4ac7700562f6ba68bcdf49",
+        "symbolic_pair_id": "CSP-15bf6e34aa2d656709a39aef9395e6d04389a015f625b72ef51f550683d2cb18"
+      },
+      {
+        "drum_eme_id": "860bec7c-d35a-5013-94d5-dd1877c5fc2b",
+        "drum_symbolic_event_id": "CSE-8133ce211032bf44ec61dd8870f3037c794267dc0c4a917a25434219ee5d89a8",
+        "score": "FALSE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "1b6bc817-cd25-5c65-95ba-6892eb3b2aef",
+        "source_symbolic_event_id": "CSE-d6cb2afb7ffc4ae1cc005f0149b189cf19a6752de277fcf83c299eed1352b931",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "f6eaaa71-8167-5722-8c00-32644c040cf6",
+        "drum_symbolic_event_id": "CSE-245110c02b90696d0e70a70c2947b7d0f30f5e2af4916d8b8e4727d99c01de06",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "edd9f7bc-ff43-584a-9815-073bcb4d89e3",
+        "source_symbolic_event_id": "CSE-aa91b2dc047d5b3c52e80efc2b3d9e4e94c8183c61a835b3d6aee5d0006c32d9",
+        "symbolic_pair_id": "CSP-8ff0c66292f91d585f2236c8a633aca7c270184e879bf5da35b94d4d5ad9f8a8"
+      },
+      {
+        "drum_eme_id": "0a1de4ec-7dab-5666-95f2-24f4e4ddc12e",
+        "drum_symbolic_event_id": "CSE-ae59a1ee725449fb1e3ca8a5a72a3325047505fbc4378bca2c9d667e3083d0ab",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "67614759-2287-579d-8d64-8a05ba437ba9",
+        "source_symbolic_event_id": "CSE-347b35930f516e2a717f50899e7efd5a80b55da05fdccbf0a269ce11c733ddf8",
+        "symbolic_pair_id": "CSP-401c2f76c02c5646e08279e16aa103ff8a380f1250ac9372de509c7d7d102540"
+      },
+      {
+        "drum_eme_id": "0a61e37e-3027-5711-a677-8d01891500eb",
+        "drum_symbolic_event_id": "CSE-8b11a7ab657dfa154288cdacbe7328332a089f27575d2a0e78c715e08c217e6d",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "0cd033e3-6484-584d-9ce8-7131fdd18356",
+        "source_symbolic_event_id": "CSE-1c3a5d64304285e712782de89188671864c1004294ac7bf5ececa5ed3eadd16e",
+        "symbolic_pair_id": "CSP-e5b68a969dc2dcab0d23b175b90fa793d9c269d5fa6d754eb91d629048e379d5"
+      },
+      {
+        "drum_eme_id": "9b769b31-ba4d-51b5-945a-a85bf165ad23",
+        "drum_symbolic_event_id": "CSE-bd67f922be4dca90985f3e4fcb15d5fbf2eb6186c21c2ee3c0c4ebea1a7a34e9",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "028dbe84-ba7e-5576-8dc1-89748c95aed1",
+        "source_symbolic_event_id": "CSE-52eccac36a6a51cf71635d655119eca6e90f6e357f8734fba397d87514b5bbc3",
+        "symbolic_pair_id": "CSP-39517cf22f78be64cbd66acd17c4a56485fae90394f4e82844a58540c5f8fbc0"
+      },
+      {
+        "drum_eme_id": "a911c8ea-cfe6-56bf-a001-0dbc9a5a4186",
+        "drum_symbolic_event_id": "CSE-2700f6e5bfaaf90dbde70979030ac584ecdfb62644a87666ad16bebe80baeec4",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "f5a0f86a-3ad8-5fba-bfe0-0ab56c74d1c8",
+        "source_symbolic_event_id": "CSE-d26a57423fa0fe09d818f0483525873dd99f18c5305dd245f8dcd00b42f9c049",
+        "symbolic_pair_id": "CSP-9ad3e9c0132883b3b4cc65ba99fd74215565baebe2ed59177a17e4f4b5668b10"
+      },
+      {
+        "drum_eme_id": "675d57ae-c172-5dfb-a6c7-69aed5c09bd7",
+        "drum_symbolic_event_id": "CSE-7be74edc76c7ded908163fd2be23de2f45e8e8824b6855cb0f8b584f3a81e41e",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "8101a831-aaf2-500c-bf9f-1e14bd8d4c9d",
+        "source_symbolic_event_id": "CSE-8b9d3620f4b752dac741f9040ca600e1e90bf9f0877d79e2fc9ff33a2565820e",
+        "symbolic_pair_id": "CSP-f9d3cddf0cfa7b7f27b237d5374f05deb522cac9f7c76eb007350895816155d1"
+      },
+      {
+        "drum_eme_id": "b63db683-7e9d-563a-b22d-a7426e681bdb",
+        "drum_symbolic_event_id": "CSE-b18232ce227759fb5e5c1439e1f7ecea066e53482a57a0b5921aa0262ed459bf",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "07f1199d-da17-5b9b-b9e2-ed5f478bd9fc",
+        "source_symbolic_event_id": "CSE-b544b9039989469a3ea1146fcf1709345f41070e91c7b227193d0f6a976769d9",
+        "symbolic_pair_id": "CSP-2bfbcd8fe729e177733be5a40f8ff57d82cf37a1b4b9f78b21163ebc5c569c27"
+      },
+      {
+        "drum_eme_id": "f495368c-2c30-5202-93a6-560ace34a1d3",
+        "drum_symbolic_event_id": "CSE-a16e759c0d3a301a0ac4bd9111daae27108f01af035fff1ba5df3db7ae00eb1c",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "348b5c0d-c5ff-523b-aa6f-56a057502b70",
+        "source_symbolic_event_id": "CSE-3da4dd61e1a6879acf8b72a95e42f0c2b8fd2fc668bdabdb4afa8b6e21ed70ba",
+        "symbolic_pair_id": "CSP-2520c6348855f0cd9dca408a4bf6db31bf23809516d3048497b55c4d5dd73e05"
+      },
+      {
+        "drum_eme_id": "bde0de0e-9dba-54a1-97a3-dda6835c2863",
+        "drum_symbolic_event_id": "CSE-cc4e7d8cf42fc8f0acab5250045b212c21060377317cbb7555529b2ef23c2565",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "c735c438-8599-5de6-947c-464125d0ec69",
+        "source_symbolic_event_id": "CSE-2da084acbd94e0b72de0e103aa8e0195c171bd0ae27f58ae02f8ff94ed83a225",
+        "symbolic_pair_id": "CSP-c3d312c480a9a943d7976f5a5b2d21d8c7daab280d7f9a6e1cc0f11662ebb9ae"
+      },
+      {
+        "drum_eme_id": "970dccea-b158-5452-a597-66d522bd5277",
+        "drum_symbolic_event_id": "CSE-7fba8845e5e0bbb0408e7309f912ad7d246495ad0287ae2e6ffe7313902b8648",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "fdce6acc-e339-595b-814d-5a41500bc894",
+        "source_symbolic_event_id": "CSE-3d3c79dc0a6af84488b249487f7bd218bc84601f8049278a2d132952e7442572",
+        "symbolic_pair_id": "CSP-bdfed3bca429c606231450d5759d295e53be3b4dd22637f6c04136388b357445"
+      },
+      {
+        "drum_eme_id": "6e039f8b-d8cb-5984-b5b2-58337aa1305c",
+        "drum_symbolic_event_id": "CSE-5e1bd01ac7dbd3257af651fb06e00f2d8a0eaf2c186196ee91d61d2525eb43fe",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "af20d6ee-2b8c-524d-acb0-d059ffd931c4",
+        "source_symbolic_event_id": "CSE-9083ff0f719eb5d761b1951d45a16442c3dc14dd650af62c9be600a6a67c3405",
+        "symbolic_pair_id": "CSP-53013d668d37981251e4bffacdc623b1b925abbeb0750a88101e39317a6a2c72"
+      },
+      {
+        "drum_eme_id": "fdd34972-5536-5de0-bae0-657ed74c144b",
+        "drum_symbolic_event_id": "CSE-19d6cad1aa70dcf5125489341af94c87b1300afb6e1e99b6631788722228da02",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "50356922-7569-503f-873e-c7f59b002af3",
+        "source_symbolic_event_id": "CSE-a4b7b3a925b7e5fcfc205106c39e0870097098fe725dba3169339c4e6ddd177f",
+        "symbolic_pair_id": "CSP-95264d9640438df5138fe252106f6ade7c98ad510468576c3f37feec52d1a229"
+      },
+      {
+        "drum_eme_id": "acb6b9a0-3fb1-5861-a316-276337a84bdd",
+        "drum_symbolic_event_id": "CSE-6baacb8e20949f17215da97b87fefbef564c4a351a804cb2ec8743d88f0266d3",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "1cd64109-52d1-5a49-879e-253c13a85fce",
+        "source_symbolic_event_id": "CSE-a7864f78ef06ba8a517fc31d30602994bec02f00565b16e174de157747cc8a00",
+        "symbolic_pair_id": "CSP-69211a8f48473bf4a0208071b4420efde95c3561a9bbe63146cc90729a78e1f6"
+      },
+      {
+        "drum_eme_id": "53c411cf-0dec-5438-abdd-3bdd893b7ef4",
+        "drum_symbolic_event_id": "CSE-82bde09a52271ebc544e3e467552e7d2fcd06f32458a7388f817e8957e6b940b",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "4db03f4b-be9d-5122-801e-8a6e6e0e5c70",
+        "source_symbolic_event_id": "CSE-027b045697be1d4ee47943f29c42ab2411738617e2ea0a68549103b5b78fb34d",
+        "symbolic_pair_id": "CSP-c396fd9941015b53957f2d890f9e91f490aa8925cc172c2be2850b7fab3eadbb"
+      },
+      {
+        "drum_eme_id": "9abb74f0-8327-5681-8d73-290c662417ea",
+        "drum_symbolic_event_id": "CSE-2f2a90834d5659edd43f8cdcdb71b45091724ecec09cbb80572998d9259c6db4",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "bdf6a186-c6bb-5db8-a1bb-311b14db102e",
+        "source_symbolic_event_id": "CSE-2892e32abc3c224f437ff698886f7b3e6bd5c1080794a4df67ce1431896a8d2e",
+        "symbolic_pair_id": "CSP-cf389953825efd55795f9abf3ee18fc0725822ebaaa6a7e27a5f6d2f0a1628a4"
+      },
+      {
+        "drum_eme_id": "711fdacd-c289-5b02-a61c-94fc205d672d",
+        "drum_symbolic_event_id": "CSE-ba208ee783c5e3eec5cd1ec4268a1ef8c209c4b85e3519d208021b893d804504",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "6aff2f4c-9549-5baa-863d-96a24ff72d4a",
+        "source_symbolic_event_id": "CSE-6f8756b653ec3d9b05dc4ac722ac660ef500552cc9a5f3155df5ca4dfe564d71",
+        "symbolic_pair_id": "CSP-4e5dd8381c5015fd81040b0c4e479709fc9a69234fdaac068ff23d55073653a6"
+      },
+      {
+        "drum_eme_id": "737976cd-439a-518e-9620-1ce05bdbf0dd",
+        "drum_symbolic_event_id": "CSE-ef962627d075baecd596c32cef73cf00d917b9d16fd4726d48b873a6f0b58e74",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "2967661a-bbb2-50c1-b773-6490a87a2fd8",
+        "source_symbolic_event_id": "CSE-f283cc3b6c4aca702a68078da53aa09b8b3d731e7d62400efeff71e4e758104a",
+        "symbolic_pair_id": "CSP-b8d65987789889812872e96c5baa6c53ead03ff99d1ebcdfefab878a68ec2d6c"
+      },
+      {
+        "drum_eme_id": "e3ccbb97-4661-5efa-b55d-940f82c74e0d",
+        "drum_symbolic_event_id": "CSE-325a67cc56fd803d2727611067f5a55a8ef9055c4f3eeebe0ce90bc3395ddf7a",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "a3037569-609b-5692-8255-b47455f88d5e",
+        "source_symbolic_event_id": "CSE-3fa0b09d81117a18b954c1b6d99db544c98f5c775a346254218bd7b1a5ab5e00",
+        "symbolic_pair_id": "CSP-5d520a53c35ba798388c343cdc4894d083b6f5b4da48aabd6d2e88b5e94b0d7b"
+      },
+      {
+        "drum_eme_id": "4cd29699-1d37-5ddf-98cd-58c7d29e550e",
+        "drum_symbolic_event_id": "CSE-ef421c1ebae4c046f256464f2c9c3c5c96739b5985c76b542d1417762c8ea20c",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "639d0fa1-0a63-564d-adc2-57aa38ddafa9",
+        "source_symbolic_event_id": "CSE-f6564993275a26f8da0729b8d1489a3e8c8e8b8c5a760863438d674e2b788c49",
+        "symbolic_pair_id": "CSP-ff617390e072df8998cb393dcd546bb65fdbed7e88a0f2a5cc9c570656402918"
+      },
+      {
+        "drum_eme_id": "779fe426-a149-55e9-be44-64d580b1c060",
+        "drum_symbolic_event_id": "CSE-dfb01a61b497fe6b5ff5bea38fccf1dad408c8d41724659fd740e8fc81ba4575",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "028d6029-adfc-5299-94a6-e0d2aaa66fc8",
+        "source_symbolic_event_id": "CSE-b4e8283d651811ff81b8fc03dc23da3bea284bbd7d47886dd70e271bd0be3fa5",
+        "symbolic_pair_id": "CSP-6b2fc02b75a026a8f576955a922a475eaec93287c510a04dfe25885bd7462be7"
+      },
+      {
+        "drum_eme_id": "e245d3c7-fe81-5bc5-9b55-0b61d18c61de",
+        "drum_symbolic_event_id": "CSE-1391e579779292044f805d6a44c69c0dd4b57de414c06a6cb0815e5d6665ace2",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "1ac78a8a-ac72-5ea3-b3f5-242814073f23",
+        "source_symbolic_event_id": "CSE-630cbeaec24ff0a4cd8c418d3d81ff606b4734ca6f91fa19b63391635e0f49af",
+        "symbolic_pair_id": "CSP-515abd0c9cc855a36ae796bc607a92ded5cde955bea9b2022ecc538e52a8605f"
+      },
+      {
+        "drum_eme_id": "51fb5a31-239b-5be8-a370-cf28bd27c0da",
+        "drum_symbolic_event_id": "CSE-51de7bf40dc67d77e73ad8440f799ce57e823dea860d1d643bdab8e959192508",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "173cec4e-28a9-51a1-9f74-da2914e0e9c4",
+        "source_symbolic_event_id": "CSE-144e3c64dee30c26e6994adc64fc9531eaf22062ce70f6ea287da68c74d494f9",
+        "symbolic_pair_id": "CSP-a7dc45ef633b8112e7b5916c43418ec592aba70ca7c00b755d245917f6b7b234"
+      },
+      {
+        "drum_eme_id": "adf8d02e-4c60-5723-8c78-3d1bf425d3ec",
+        "drum_symbolic_event_id": "CSE-af34da793c48c1d19af701626620a488e84382226ea2374bc1e0abc2e26fb986",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "e54e4aee-05d2-5424-9b88-8d28965b37c9",
+        "source_symbolic_event_id": "CSE-e48f03a867d722535c7d6f558aa003eb18a526daa0708daf3bc678a12dc0e020",
+        "symbolic_pair_id": "CSP-da99490f5cd001395ee7663d97a8a48d2224470149a58b19ee73314d37de1989"
+      },
+      {
+        "drum_eme_id": "3b2b9293-4f31-57b6-a9f5-d0fdf611a754",
+        "drum_symbolic_event_id": "CSE-843d4362e5deae88d0914250c01236e9e203619c8783849d57d9c3ee1bc4f8a9",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "89a7daed-eb4f-5c73-8791-1e852c019ef5",
+        "source_symbolic_event_id": "CSE-3813ec80aba6fd816d27a35cfe41d955ba7700ea2ee50a720c711ef98e465e8c",
+        "symbolic_pair_id": "CSP-0341465fbc99932ec458dc0d662c170ae5cf3c35651a423eb3bf688f9a8041e5"
+      },
+      {
+        "drum_eme_id": "bc1d7ce2-40ca-5454-8322-6b676faea223",
+        "drum_symbolic_event_id": "CSE-483f0e91406b4a95d88b560c89d633b59522aea3d08ccba9b96dafd48677e79d",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "9f36702f-446c-5c3f-b502-d3601e23a5eb",
+        "source_symbolic_event_id": "CSE-148d38aa63295a868194517442e288b2ebf0b993c0a922d54d113d36b9df0a34",
+        "symbolic_pair_id": "CSP-4fc84aef1d9538262295c91d67eb0be4999baad72f34c2da43be1423b21a5f80"
+      },
+      {
+        "drum_eme_id": "af60a2ec-34b6-57c8-9a7e-ab05d04ac14c",
+        "drum_symbolic_event_id": "CSE-ab3be2f2eaeec20e3223abc30d012768f74cd34f766fd5fdf547b2d38b9eb04c",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "f07991ba-700b-522d-9458-c3b74773967b",
+        "source_symbolic_event_id": "CSE-40511c98163221d6d5f1fa889612c514c2e43c47e36ab0342585f73852c3b750",
+        "symbolic_pair_id": "CSP-e0b842cefd3d8609cdd5ae8d59fefa5ae608bbffeb59952aa61273eabc477b5a"
+      },
+      {
+        "drum_eme_id": "276bd682-a71f-5dac-b1e4-8c4555c381d2",
+        "drum_symbolic_event_id": null,
+        "score": "AMBIGUOUS_UNSCORABLE",
+        "source": "Double Bass",
+        "source_eme_id": "acb282d2-e020-50a3-a637-5bf4415a5605",
+        "source_symbolic_event_id": "CSE-6e622a3121e731f513ce589f58f7a326b552da5785266b208784491cc5fc1fd4",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "33e41e90-fd45-5cc0-acf9-8f5fd081260e",
+        "drum_symbolic_event_id": "CSE-aa7bc416e844de00f8be05954e327c0591dbaba17d485d25254d4a03a616f900",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d420a999-950d-56aa-9d62-2068333ac711",
+        "source_symbolic_event_id": "CSE-6a405c61e57cbca1b878bf6f86d404e3b420a1be4d31d78dc8ab393cd60841ff",
+        "symbolic_pair_id": "CSP-1a13711cfbd4b22bdf46261e2a4d8bc4153b85a32bd6d2078a005fc1098e199e"
+      },
+      {
+        "drum_eme_id": "a4df6f0e-b432-5608-92dc-6dc31d287bcd",
+        "drum_symbolic_event_id": "CSE-4667ef005cbe745a296eb359e718848703edfbbadb1fb791de8249ac22f91a3d",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d7678177-b1f6-5087-bc56-6cd477269002",
+        "source_symbolic_event_id": "CSE-4d1e86679227bf46372f18d594c2b5089a52eb08f94c0018d7c2a67ce50e44be",
+        "symbolic_pair_id": "CSP-288440a1b93dda5d4239b5b3c1105c7f4432ffc5d7fb96314d62195826e6f188"
+      },
+      {
+        "drum_eme_id": "bc80e12e-1799-5f3d-b37b-9278441b8143",
+        "drum_symbolic_event_id": "CSE-6ab3d853238f77b9eca69569fde37d76dfb8e351d549745024240afd29074755",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "91b7f115-035f-5fec-ba81-783e8c6d5b04",
+        "source_symbolic_event_id": "CSE-979c2debc97801ebc5e046e8706d40d5c5d0e342397d16ba8322305de08c08df",
+        "symbolic_pair_id": "CSP-90f6b2e379af0e36fbfdf0432745a095a7d017c2921b2d234c0e0cce8d2320c0"
+      },
+      {
+        "drum_eme_id": "a4d72b3b-0ce7-558a-a455-f2050ac24510",
+        "drum_symbolic_event_id": "CSE-c41e0c3f5b10d6e81a610434c5692fa42770b04837bb476526dd3439c22caeac",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "524c235e-199d-59db-9798-856bb2de241f",
+        "source_symbolic_event_id": "CSE-dbbe90f9a00c0a0eae8913e0f4f600f4d56bd9b8849c43e206680b10cc2f10d4",
+        "symbolic_pair_id": "CSP-d0d3c16a59f252a914e7f7c089b635cdd283c6deb719f8f6546520a789694906"
+      },
+      {
+        "drum_eme_id": "3c679086-88d2-5fdc-aaaa-5cd192caa6e3",
+        "drum_symbolic_event_id": "CSE-a5e6d8dce09c89886c1b3ee8b52b3e3184b4b0fd9676d30f3d6d1d39063369b9",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "74ad0a01-9402-5e35-8be1-e5daac563204",
+        "source_symbolic_event_id": "CSE-8d555214aff1aa86c7c1292269aef53ad70d0f080ad50418f8664bb60d95d6f6",
+        "symbolic_pair_id": "CSP-1a0514cfe03992c487ff9690a9fbf6144a24f97f3ae5a703ed172dc34125344d"
+      },
+      {
+        "drum_eme_id": "904e9b3b-6d72-5903-b5a3-dae7838ed13f",
+        "drum_symbolic_event_id": "CSE-8b1709f44a14190f65c711fc7c11d4cd881cb15b4796a1909932b2c619236f06",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d1edadc2-dde7-5221-af80-69aa67d3b0b4",
+        "source_symbolic_event_id": "CSE-eb1061ffeae3a96a7263de7d2921dd95aafaac80f9d8b541e3f457a09db305d2",
+        "symbolic_pair_id": "CSP-efe2e27b288dee4524db873460e4602f841629c460ae5d1d37bf3f7b30fe1350"
+      },
+      {
+        "drum_eme_id": "23073706-ccb8-54fa-b0aa-c290920f2a0b",
+        "drum_symbolic_event_id": "CSE-79d50e95d82d4a95d6a84a16af4890e00548c69a1376a6ff7393194946cabaea",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "9fd8beac-dcec-5a50-8279-11155d36e322",
+        "source_symbolic_event_id": "CSE-089c81efe79a7a43a32dac1a2ac8c5250ba6ba8201a01ca18e3c4347c7f84019",
+        "symbolic_pair_id": "CSP-acd3ddd6c45078518307e457122e202d89e248aef6e93f30135aa1b287e38f95"
+      },
+      {
+        "drum_eme_id": "e80c45d3-3768-5d40-b755-86c8ac005822",
+        "drum_symbolic_event_id": "CSE-772d7cbebacac73d249a60877279b9d2a6b0a0e9310fefb0982e1c13027679f4",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "8c054735-e9e7-5e85-b865-835c486bc9ab",
+        "source_symbolic_event_id": "CSE-cd17631b69bc97d964b203d47cd5e006d5cb4d99117c3fb14c39e8eef16c402d",
+        "symbolic_pair_id": "CSP-45b95125c8c0839902638e921d338122149912c11c099b8fef216405e9f87616"
+      },
+      {
+        "drum_eme_id": "9598c16b-30bb-548b-b978-51bc8d8b1d7a",
+        "drum_symbolic_event_id": "CSE-0240776080827c2ee77941f2c65cf5cc8fa8633f9b9ab346201130576e8eafa2",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "0fb6e1a2-b61f-5f73-a5ad-639ba5017496",
+        "source_symbolic_event_id": "CSE-510bf3ad41bee1f4e4814a33e00a579a501d608c6495acffe9d2e880c7e71f6c",
+        "symbolic_pair_id": "CSP-59a70b0e4ab5174d3936610de555803613b1ef05eafae9f559cfaa4fc9519e5c"
+      },
+      {
+        "drum_eme_id": "17f07fa8-1edb-599a-9b4b-759fe996b303",
+        "drum_symbolic_event_id": "CSE-05f87c1c765c5d8261c5d39f9599a5fd05b7dc2a2e8d8878494de311bf4b90f0",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d2ccbfa0-c5b6-5597-a2ca-c6fe7371f7ea",
+        "source_symbolic_event_id": "CSE-93efcf8117d1d3e988dda6c5bebccb8b435969c3a3b38480fe630209469be691",
+        "symbolic_pair_id": "CSP-60c0e74dbc6140d85cc569b2010e8fb4e0d8917e2dabce7492d4f446681c8b73"
+      },
+      {
+        "drum_eme_id": "34ee7957-22fe-556d-a741-ad103d6238c9",
+        "drum_symbolic_event_id": "CSE-0b89416bd99dd04407e8b046072866bf374a98aa773233a1c6a389a61c335341",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "667ea53d-d41a-5e5e-b4f9-4d144f331862",
+        "source_symbolic_event_id": "CSE-18c1075a4666e1840feed4f522297de3aa22988ce86cf1d40c0424f981960517",
+        "symbolic_pair_id": "CSP-3b9b8a2cb0461987c2d561e5eb91e7309e59b64ea381bde0da38330470e6ab46"
+      },
+      {
+        "drum_eme_id": "8beaa115-4cbe-59d2-abc6-18a0a4fae107",
+        "drum_symbolic_event_id": "CSE-4904f3e380bafa17bc93947d03e25aa7e90a336c410443c09ab8f60d6d74a5f2",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "4fd71203-254e-58ef-8ad5-1252be692a74",
+        "source_symbolic_event_id": "CSE-45348b75538e126f937ee7ba6dc8e4e3834896e6292274496a9f62e520a757a7",
+        "symbolic_pair_id": "CSP-e2f74ea8bf5a7fcad060adfe64ac6755e871b162ec24df6d255fe246bb39f2af"
+      },
+      {
+        "drum_eme_id": "ec9111f4-8698-58a8-aa5b-5b6c4ecf4814",
+        "drum_symbolic_event_id": "CSE-ff80cbb0cfb377d3d2f39f0b5d6e1632fc61211a8b9981533ab6619b98828afc",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "43b8cecb-15b7-59a0-b210-e8ec97e5c66c",
+        "source_symbolic_event_id": "CSE-7fbfe007afc2adb5482a523bc827dbb00139109d22a8858ee1e42074092df329",
+        "symbolic_pair_id": "CSP-7ebd3051ae65d4c82a4ba9bb06a12f0636c75d201cb01203ca458e2b2ad2a6e3"
+      },
+      {
+        "drum_eme_id": "2cc32009-791f-530c-b2f0-78a174cf2a6b",
+        "drum_symbolic_event_id": "CSE-8e7c4c3d97de298ef90733e56841394fffb416c05b97a0ad4a8219c355ae9d63",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "eb69aa06-3158-5ce8-a298-78556c2867af",
+        "source_symbolic_event_id": "CSE-db6294c0a114e849aede7a3fb8e1e193a30f413bfb57ecf1e4ae026f692416fb",
+        "symbolic_pair_id": "CSP-91c1ddf0c546cd7b431b41f40adb0aeaf9d7b5326eb78e66f7c5dd9821823f3a"
+      },
+      {
+        "drum_eme_id": "4bc96292-9797-5409-9a2a-2636e2445c2f",
+        "drum_symbolic_event_id": "CSE-5f63578707514387a6633238c23a10ed6956ce2d96c96e228bf8b9d467812505",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "c1aa50a4-c8d3-5cd6-8890-bff062e89f93",
+        "source_symbolic_event_id": "CSE-240a7937f5048493b56178c30237488f93e8af862b06114981f2513806e475a5",
+        "symbolic_pair_id": "CSP-1a398f0e4ea3ff34cff0cffbad99b952879a5f4a522dc333d25c4c5e876298c1"
+      },
+      {
+        "drum_eme_id": "bd32a6a3-c014-5f52-b349-f392fdb7f66d",
+        "drum_symbolic_event_id": "CSE-175e16afd31c3c3c5be72f3a3b99faba249e0de55f3f6a081995b277311a3b38",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "e4608ebd-b105-594b-966b-87d93e621c20",
+        "source_symbolic_event_id": "CSE-35630540502b59b9528ac447ebb46e4046a26b4ea40d0827c26be80558eac21f",
+        "symbolic_pair_id": "CSP-aae7844014a35cc57144d3e1f74b152af29f867fe33c3cfd6dc3de53c58781c1"
+      },
+      {
+        "drum_eme_id": "21a254f1-b155-5193-9954-8eb83c4bb9e9",
+        "drum_symbolic_event_id": "CSE-5bdb598754f46bd8a649e5e0afad3ccccc595562f3303abfa95d24b3897f4f3f",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "2e3a7365-fd92-5cbb-a040-12e89293a265",
+        "source_symbolic_event_id": "CSE-2029a3994a4f544ca1b180667f4b04fc57ba64234bbc821d1f423fa60e1d36a4",
+        "symbolic_pair_id": "CSP-e566f0c437789b34b1eff584bab367c413c54060c2ca51c6e8ac6ef1d87a272c"
+      },
+      {
+        "drum_eme_id": "f95e8ad7-9912-5c7d-9e29-2c5e119ef2ba",
+        "drum_symbolic_event_id": "CSE-0f2fdacfd1f9196dd26be811cd01e79c3939bfcc92abdf9bff59ddb5b8e3155d",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "98e705c0-f69f-5da7-9275-94967d1dc10e",
+        "source_symbolic_event_id": "CSE-a2bad0e7622209eb9038cdd91390501d1fab9dda590e670cde74cee860277bb5",
+        "symbolic_pair_id": "CSP-3b07836a910c1d4861ebcf91bc167616b74d2ff41cff55bb2703de7fe475d478"
+      },
+      {
+        "drum_eme_id": "a4f91fec-d2a3-57b6-abec-29506a9221fd",
+        "drum_symbolic_event_id": "CSE-688701a793b0534631be5617c61bca32397845f00981e9b437100459234a4fa1",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "015b3dc9-aa71-56ae-b55d-3716576ee874",
+        "source_symbolic_event_id": "CSE-bc5d88ccf9bb99004abc33c71b4148ed381b5a8b578f72cd0a6b4eb23186fcc5",
+        "symbolic_pair_id": "CSP-51efb55c723180208e09d428bf3c3c3355456be2ae2d173612742c247948c8b7"
+      },
+      {
+        "drum_eme_id": "4296b816-14a3-56c2-99b5-8d987fcc6727",
+        "drum_symbolic_event_id": "CSE-737fc85143972e2b536fb3e48871b81bb5e793ec3406295c86339a378acdaeef",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "38eb8379-6963-5a1a-a988-e87b5fe58939",
+        "source_symbolic_event_id": "CSE-dd00adb5cb9948785efd26d0aab70791ca7a26ccf1ae327c192112c07338fb95",
+        "symbolic_pair_id": "CSP-a85d66b90988adb46abacd46e3b20a15cd60b54df90a8b2d69104c02648f9cba"
+      },
+      {
+        "drum_eme_id": "1c38167a-8765-5e7b-a91c-f61c336ee6f3",
+        "drum_symbolic_event_id": "CSE-d99828dca9e27265ec4cc60e889a931507cd9217143cd179d56bf41b5500f3ca",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "ed8835ae-d85a-5873-b438-b5bbcfcd9fe5",
+        "source_symbolic_event_id": "CSE-27c02d05656e067fe1a23c600173139fad31cf9bec58f07b53c8bd5c36ca69ff",
+        "symbolic_pair_id": "CSP-48e0e8fbdc2176e66a177c0f0bed31dc884383d07edc2d7040a437520749090a"
+      },
+      {
+        "drum_eme_id": "ccac7eca-3cd9-53ec-ade6-80430a646e91",
+        "drum_symbolic_event_id": "CSE-dfb355c57fca22f7b1d0f085e050837f62700a8a5b31aa0b444b5805a06161fc",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "edf575f9-a805-5082-b64e-5e7d71a9a63d",
+        "source_symbolic_event_id": "CSE-392d184979f26c39f272cfd71bb8b16a82b3c65ce35fb9943af008be76e360e2",
+        "symbolic_pair_id": "CSP-779bf004e269f122214e1f55062b900d20b8e62e43204c5a7ce961beceb4f4b7"
+      },
+      {
+        "drum_eme_id": "ffb248b6-6c21-578b-9d0d-6a96ecc2383b",
+        "drum_symbolic_event_id": "CSE-1b7dd7dee10a1627576b376fd10736cf3273c0c23362f0e8f5b5646c19b78ed9",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "1677408c-6d6a-5b2d-937b-3bfe884dbaf7",
+        "source_symbolic_event_id": "CSE-e9a6a2680d2049f9eaf6d28aca55839b058f5d00db6ccf1e2cb192f5f415abf8",
+        "symbolic_pair_id": "CSP-6c87e1ccd6936041228a16172df859ab83bab6865cf1d8a37c8170d0f52724fc"
+      },
+      {
+        "drum_eme_id": "8c232ad0-7558-50f6-956b-989190f92fcb",
+        "drum_symbolic_event_id": "CSE-f26a54917efcd6a2d480ac4709bd0fe6225bad24db5c39cdeebbbf94bffb5348",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "e68ea6df-6646-56ed-ad15-9cfa5041f68a",
+        "source_symbolic_event_id": "CSE-203d3828005f16a98ed67e621b5062c2d8d988d0b6c9da8dc1fa287f8ba5801a",
+        "symbolic_pair_id": "CSP-6c10bb88006189ad700093a808da4647cb9c21d128984a72c8f8efab326d463d"
+      },
+      {
+        "drum_eme_id": "249449e4-1e4f-51a3-89c2-8680d507f94f",
+        "drum_symbolic_event_id": "CSE-a2a92652ae2ec2539e97438b6ad1a434ebf1aef286b9fdc1e955f25212d29de4",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "4d0863cb-50be-5c13-8d12-c13c911983d7",
+        "source_symbolic_event_id": "CSE-eab97987090e5175ac2ca8a334c105b05ca02452c0c6505da37d5358849bce1d",
+        "symbolic_pair_id": "CSP-eba84040417b411816271ff79d6c3bdaf0c38ef9955ebe153c376d4b7ed5a795"
+      },
+      {
+        "drum_eme_id": "9a933856-4204-5483-999b-5984828f2258",
+        "drum_symbolic_event_id": "CSE-3448e73d30ac40ebd7f835eb42609290f2cae3d99140b1aa43178e298f255458",
+        "score": "FALSE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "70ecda5d-e403-5300-8a10-a19b91cbf912",
+        "source_symbolic_event_id": "CSE-de3adb954551dbd9d9ba843d0d612c4a7709126099644fcf32b40bd432e05b66",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "23122bd5-b1a5-58d7-8298-dd8922ff8f52",
+        "drum_symbolic_event_id": "CSE-a03d3aa4108bd1bf494d89c18bd96081c3e97362cfeb6525b7993e80fb40a629",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "4368b720-bf3d-5d45-9390-16cb0aa2cf7e",
+        "source_symbolic_event_id": "CSE-01fc2fe601297d35bf99c453960f39711cb4387829da8b8effdf0161068930cb",
+        "symbolic_pair_id": "CSP-fe86fed239f57335f319895005937380550fa942b9b99fe41e04a874d4ffb16b"
+      },
+      {
+        "drum_eme_id": "c664deb5-8acc-5ed4-b266-c14cac1177c2",
+        "drum_symbolic_event_id": "CSE-2517933c0b6d8deea178af30106f3c2ccb545bf626dca654f04522a01da2bd3c",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "bbf9b792-f86c-502f-82d0-1860d275124a",
+        "source_symbolic_event_id": "CSE-fa5780753a485b7191865c5b1878475dc2ad40adcb3c7db1afc3bce530a2768f",
+        "symbolic_pair_id": "CSP-476de8adde9a10be71a20b821bfa582dd445bfc9f858a753f72ab813dd6ad601"
+      },
+      {
+        "drum_eme_id": "0bab9903-1356-58e1-9f24-162cd922479e",
+        "drum_symbolic_event_id": "CSE-c88a137d4f509c553b7c4bc8ada275915672dada5fcd04d6c0b6fb5a1fe10d23",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "5c8c2b7e-39bd-5764-90a5-2794d65c0659",
+        "source_symbolic_event_id": "CSE-93b611ac0ec088bd53b7a9f97a07317f83ed7a2c1a7732f136f87c8df2190a79",
+        "symbolic_pair_id": "CSP-e5ac7bb1afb4e3e7931504399306536edc3c7ba983c5d3efe07668911b644bdf"
+      },
+      {
+        "drum_eme_id": "45af6626-da35-5498-b36b-e329bcc6f8e5",
+        "drum_symbolic_event_id": "CSE-08961e55969d778053a6a5e07577fbe5378625785685b1d7dd5eca173acc49b0",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "be0c1082-9a38-5664-b474-a27bc9b0d755",
+        "source_symbolic_event_id": "CSE-9c6a6ad2e254923945157806eaff2f8eab05830522968d97c8d0958f26b985c5",
+        "symbolic_pair_id": "CSP-460463bc2ac67199d14bc5524279186d0eff0b0113fd4c6cbf0f6add285e03a6"
+      },
+      {
+        "drum_eme_id": "41720e67-ae5a-500b-b4b9-d445121c1444",
+        "drum_symbolic_event_id": "CSE-de159f07471f38535536973983e78b644942b30b2f15b8dbed58ea436d30a627",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "5442062c-3304-57f4-a57d-14200cd1f7cd",
+        "source_symbolic_event_id": "CSE-e128d73f8d11eeb9488801fbdad20bbca3b8e2bddfbed43cedafc60c54c5d479",
+        "symbolic_pair_id": "CSP-7ce028be2ba62ccc036da096e9aa2410352e169179af0b31bb45e89499abfed6"
+      },
+      {
+        "drum_eme_id": "91c4dc33-f6a0-5cb3-916b-96d285ae5ba6",
+        "drum_symbolic_event_id": "CSE-ee53eb81dd85bdbced99c5c19fd48ba71d08964da8e9d9769ade4011bb7760de",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "1f9d1390-cc28-5ae1-a019-924eaf997d14",
+        "source_symbolic_event_id": "CSE-f0f6f6744f6925d90edc71af011cd127ef1ed91a2235240368a2608f34df0f2e",
+        "symbolic_pair_id": "CSP-fb594bf4c59713f768f09d6b2a475287a7669911a463125ba5ee2ad3146e31df"
+      },
+      {
+        "drum_eme_id": "54af33c2-c472-59bb-a58b-366bb2e811d9",
+        "drum_symbolic_event_id": "CSE-c990e3e11abe2401ff85e96a59c7f5cc6e39ba2dc6ea92bd0cd39bf260bc3c37",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "bb1f2d09-926e-5bd8-a99f-238c67a5fa4e",
+        "source_symbolic_event_id": "CSE-dbb6a021a12ba59f9d9aafc3840d40eab61768c1b932cbe10bf75c2e63171214",
+        "symbolic_pair_id": "CSP-8ed2e71614c8a08aa91a2e4e2c2bff546dbd630dd460421153a5764726c9e739"
+      },
+      {
+        "drum_eme_id": "30357029-853c-5bc5-9a25-246e4bb4888d",
+        "drum_symbolic_event_id": "CSE-a58bc54fd0640e98a0ec44dda4e9d724363cc1088ea1d9157b63e10e938b8256",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "5b85d1e3-44cb-5323-b320-eda3074a57a9",
+        "source_symbolic_event_id": "CSE-6bee99d2001f4fa7e7545aff33d1ad0aa5f04c6213961be5f819f2aa1026d6c4",
+        "symbolic_pair_id": "CSP-1cc4d48a0e0906c633fc023d1d957897903fac8f2225f7de329b42ac0892fadf"
+      },
+      {
+        "drum_eme_id": "d2824538-a9f9-52ef-911e-fdf28f5f7414",
+        "drum_symbolic_event_id": "CSE-504d728332e99a92ab24bdcc1a1cc2f2850ed8576d075a8d1e83f315d36d334b",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "a8729cdb-6515-54f1-ab10-f6b677365777",
+        "source_symbolic_event_id": "CSE-cb9afdb447756251d541225f4e51199efb460604c60c0d8238a99502f7997ee8",
+        "symbolic_pair_id": "CSP-357ff5ac1256e42301ed3e46dbe93ca196695fcf16896aebc370e468e8d785cc"
+      },
+      {
+        "drum_eme_id": "57e2a42a-24a4-5fbc-a681-5778ebf34e09",
+        "drum_symbolic_event_id": "CSE-39d17995df398b89d74d7c23063a30dded081af6e52d43ed7e6162de750e4694",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "a2402223-fb1d-5e0d-b650-475f428f21e0",
+        "source_symbolic_event_id": "CSE-00bbcfa5a7779a77115ad4e8ac8b8273db32c9098b7db3babedb85f5754f20f8",
+        "symbolic_pair_id": "CSP-ccf398a91d0b8394514c732a73ac990c5b7ff1b1e7ef6493ba93535257a2d2b7"
+      },
+      {
+        "drum_eme_id": "9b5ba1f2-c026-5076-b164-3037626bef3b",
+        "drum_symbolic_event_id": "CSE-ff4b9d40319c9844d9131b172cd225b1d12a55c14c694ad8f9a0e6fcd52d75c9",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "19c22d46-376f-525b-822d-c0a922239079",
+        "source_symbolic_event_id": "CSE-07051845f92970c06a7c33e931d84019080986140ed96c298f9eab1e9d4f4596",
+        "symbolic_pair_id": "CSP-74d2e3ca43b851e08ac7b86bf8b4a505b3ff914c33404f953d7e4591f79974a8"
+      },
+      {
+        "drum_eme_id": "143302f1-8f8e-5271-8a7f-f987a3a99e3c",
+        "drum_symbolic_event_id": "CSE-a6f91c8f48e6e34d8fa6462c9a6acc45787d955b0899fe7dbdd0d8f948517d00",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "f25bab10-69e4-5479-9812-afe3e96c2395",
+        "source_symbolic_event_id": "CSE-7bce1c7434f7304eb63726453da2fb6df73a2f8f2cdf19ae40fdda9f7894f7ee",
+        "symbolic_pair_id": "CSP-d4f38eaef721bdf5ff809e54fa7f49f98b5304df707bd4af40222db3057422fa"
+      },
+      {
+        "drum_eme_id": "efc6817d-174d-5e4b-b8e5-d3ca2efa15d2",
+        "drum_symbolic_event_id": "CSE-e36bdfd77fa9a6a755e8edca489e4d2e396f9488636d6904c490e3a727d45d4e",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "25093a37-6864-541c-89be-d4ef61f472c2",
+        "source_symbolic_event_id": "CSE-aaaeea80c40ccfbb0aff411715e0fcabec34684b1a17b02f3952f4923ddc99c9",
+        "symbolic_pair_id": "CSP-fe2dec42bf5fb56deb7b6e2305d87fdeec26a4d1140e6c7121c9a06cbbe9ebb7"
+      },
+      {
+        "drum_eme_id": "6ea4b7ab-4f68-5e42-8b86-c93808f311fa",
+        "drum_symbolic_event_id": "CSE-bf61ebd6046b00fd019714afbd6dc1c784bb7614385f1e5a9705f70d23df7cc0",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "7fd188be-4ad1-5c0c-b25d-022516b4c35f",
+        "source_symbolic_event_id": "CSE-13de0be4bccbed29ccb9792fd7be78a9846e9e0154f885163f5a9c0eb993ab12",
+        "symbolic_pair_id": "CSP-564254dc69033b79b6c8f228baeb6e505f52b4ec41b1e70548257b4b3dcab215"
+      },
+      {
+        "drum_eme_id": "f5b01a10-99b5-53f5-8126-7b722a3d56ae",
+        "drum_symbolic_event_id": "CSE-6950c86aede5dda89ea7fcd19ca4247df23e5ec95012d27d5ce15d90eb53fbe1",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "50cd491c-3304-56d1-9956-3990eaaeaa36",
+        "source_symbolic_event_id": "CSE-a101bcac123c65aabd004732c077c4254f3af2cde2e8c4ed0e40c66b7b8f3907",
+        "symbolic_pair_id": "CSP-96fe2bde7b57f31e59b281b3005d886f6586d99a26429dc346ce1f15f7cd1e15"
+      },
+      {
+        "drum_eme_id": "c6c4a40b-738a-5061-b748-33328e2fdb24",
+        "drum_symbolic_event_id": "CSE-1cdd8393b309b4a79ed34bd9355ca19f0249654c642ba002a502137c743aa162",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "bcf0281e-2868-5f04-bee2-0257d9a91908",
+        "source_symbolic_event_id": "CSE-7055d76171b0afdca44190ceb1246f8948fe52ce96345fadaab9b5d2f2763cad",
+        "symbolic_pair_id": "CSP-41d27f8f7f8aebff0838ccf067d52ad54d45bdb52736ba83c8cdc83d1c68c71e"
+      },
+      {
+        "drum_eme_id": "d913bca6-08ee-5cc1-aa59-b1445dffdb4d",
+        "drum_symbolic_event_id": "CSE-646669fe64d21cdd7096adf940b7591e1b6f7aaa09d4d0b75bbc036244468e35",
+        "score": "FALSE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "39639d65-bedc-5c9e-98db-8a00be7d6b92",
+        "source_symbolic_event_id": "CSE-e492cc123ae447a66f5195d379b2040cb373524b9522be6394dfe0f6966e223b",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "1d58a41c-a5fd-5c98-bd31-0076ca7da477",
+        "drum_symbolic_event_id": "CSE-bb73b39684f1ca818cb025a6a3d5bf16147d49a78dba3161ba4f5faa8efa14c4",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "806d3eb8-3b26-5222-894b-1769d49c8d6a",
+        "source_symbolic_event_id": "CSE-a9cbbc32bee5039f7cb6b8db9b9f802b8b9ab3763d994927bf7991996ce3dcf7",
+        "symbolic_pair_id": "CSP-c426cbec229be0030c9d9878ce16cf66b7beeb5f41408437f57cac74e4253f98"
+      },
+      {
+        "drum_eme_id": "3e7cf1e8-7f14-59b6-8c2d-e19b2d6736c7",
+        "drum_symbolic_event_id": "CSE-e1003519dca319908350b9cd5018f562586d27d987d3eac869008039d7bada23",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "5dc65d1d-4447-50d0-bc20-9ffef7fe5c2a",
+        "source_symbolic_event_id": "CSE-ba809865bb3b8fbecb280120a8575dc07a1068fe7bddb36bc4f6813252a42f06",
+        "symbolic_pair_id": "CSP-52b25a4acb6be8df14529a0cf70bfecd86f45d01cb1681e0faca11095c68e8a8"
+      },
+      {
+        "drum_eme_id": "48d4f3f5-9c97-5fae-babe-e3ff4d470f7a",
+        "drum_symbolic_event_id": "CSE-2b973dbc81cc3d8d11a4613b4ddf0ec901a48b815f2308e3492021d206c48265",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "f2957ad7-eef3-5f1d-917a-9f03416da25a",
+        "source_symbolic_event_id": "CSE-06487503d9a3c684b8948287ed0e30a4fe2a3f5d4768871ee4732c160955e3f0",
+        "symbolic_pair_id": "CSP-1f5a418c7f3617a333ddf3ee1d2180afa038ef228c37010c59058c40d7617aa4"
+      },
+      {
+        "drum_eme_id": "d96346e9-4e09-5b90-ae60-f36badfd2e4a",
+        "drum_symbolic_event_id": "CSE-3b45993e1868a0f9c488abd78ee3f29be59703b7415d6b1a0d0ebc4b060e4471",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "f7306ec4-9761-5916-aec2-206494528588",
+        "source_symbolic_event_id": "CSE-b060a46629e61af58a4744a534d6a14c9fbf833740210389beabc64199d292ec",
+        "symbolic_pair_id": "CSP-c3ede6e6fae5b309c023546f7489f3a6a0eaeaad048e6f1842456483e5cc6ae9"
+      },
+      {
+        "drum_eme_id": "811e937f-89d7-5f8e-aa7c-b499c4ff8d5e",
+        "drum_symbolic_event_id": "CSE-a0e88483bfd152973cb83d747b56ac88010075f104fb55edafe6f279200b23a2",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "45cc5b26-a7b3-5b7d-8bf5-10fba3896152",
+        "source_symbolic_event_id": "CSE-e7774c222be8b1a89d1e3cdd7af7bce161ef6a1877dadbca3a5573fa7bb2e502",
+        "symbolic_pair_id": "CSP-6659a25a524485be5285002e0431dce81c51588b14c4cf6d140803df183a6f7e"
+      },
+      {
+        "drum_eme_id": "24c1d30b-6ef5-522d-9fed-eff26878a921",
+        "drum_symbolic_event_id": "CSE-f616850e13a3f22157eac4d4a7bc34165af922c217a3240cc70821b45836a504",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "65904776-c182-51f5-8ff0-b4cbef965147",
+        "source_symbolic_event_id": "CSE-52ae1ec6369e0b234d945c28b9d8a9ccc917251e451fc1c2468e8a58b38fe3d3",
+        "symbolic_pair_id": "CSP-377121f2e655175fcbc34b5c8d86906fb9be08634617f46127eb75fd74ee74d3"
+      },
+      {
+        "drum_eme_id": "f2dae18b-3715-5513-af00-a97cbac0e300",
+        "drum_symbolic_event_id": "CSE-c62c7ae83effb6f98bf54647fd64708039491263b546125e401f31dd8d6f81a4",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "db0afb74-9f6a-586f-bfa1-ede926950d00",
+        "source_symbolic_event_id": "CSE-c3c95f945846de5ff27b32ca434b66b4b15a1d9baaa39c07c0f506290d5df00d",
+        "symbolic_pair_id": "CSP-964ba9e4560b047c89553d7a4b60b4b4b85284c6785a360c6d0e98a347c1e4d9"
+      },
+      {
+        "drum_eme_id": "4fce7345-af35-52bf-a8de-cebfeb49561b",
+        "drum_symbolic_event_id": "CSE-1ada9361a8aa4e8e8f12c7e0521c9a2cc4190f0aa95f83b2d087250e28dbea5e",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "7882fba7-793a-5c77-bfe9-def5de87eecd",
+        "source_symbolic_event_id": "CSE-6d755a2c913cd8ed2561d78fcd38e9f0c16062c438e23ece2f4cfe94c627328f",
+        "symbolic_pair_id": "CSP-54181ca59e57f29ec297d1d03eda6eea3b72f7e9b5547f56bf331644b94fece9"
+      },
+      {
+        "drum_eme_id": "d532fbe3-f121-50fe-bd85-766b3e1c63eb",
+        "drum_symbolic_event_id": "CSE-176152b475d9a35d2e2b2c40630382d4fa3baf0db527e5b631a505984f575eb6",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "19c40971-59dd-51a8-a7f5-f6c818121699",
+        "source_symbolic_event_id": "CSE-e2f83550c8ea58b0b6703adbbeb7d3973f69a28c73cfdddc058c94b63718c237",
+        "symbolic_pair_id": "CSP-353fd578801fde7e825776dca7cb8fa44947738ba6575558b02e95117d00fcca"
+      },
+      {
+        "drum_eme_id": "b6ff75c5-80c8-5613-a3cb-684d3099d4b2",
+        "drum_symbolic_event_id": "CSE-7facda4ab93b35198791d162fedff2fb03b1356d86625c48fce62201f35878c4",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "1a9ced4d-38b7-5319-be83-bea168436907",
+        "source_symbolic_event_id": "CSE-1825a0d24ae6c5829ae4a01c0be95716b781828f550328622b8d4bda377c3af6",
+        "symbolic_pair_id": "CSP-ffdaa0bdd349b2f0b258d6c2c48032367912e4f8664b15bb297e6a05b5f5b499"
+      },
+      {
+        "drum_eme_id": "688ac4e9-2cbb-57eb-8e5a-0bf08fc688d5",
+        "drum_symbolic_event_id": "CSE-cd675e64e35e1107aa6b880eab205ea71ddb1b761f1f95bceb1fd0a45a80a379",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "2b834396-3998-58fe-9c92-7bd8eb259500",
+        "source_symbolic_event_id": "CSE-7ef7bfe83ca7c4d2d78d0d1ffe3c43f9068258314513ed1dabb25f8bebaad85a",
+        "symbolic_pair_id": "CSP-2e1c6be900c8a8df4087c191ff8cd151e106156b3848eaac3fb7caab9477ff1c"
+      },
+      {
+        "drum_eme_id": "dfe4cad7-0995-5919-8ea0-15b7734c0b52",
+        "drum_symbolic_event_id": "CSE-0f4fdce0daaced8ae72596681632eacbfd53d967a2764cc96b29a3b5d134c7c6",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "a3a49d07-df13-5079-af5f-6045e3bb0715",
+        "source_symbolic_event_id": "CSE-e52b7e945a6a40be76a8e1c473b80c179e056283e91c9c91d859bf47c0eb5aff",
+        "symbolic_pair_id": "CSP-ea1f7675527d853a19496f8a346f51736e1b75ffcc26e2ef0833a4a17820d2d6"
+      },
+      {
+        "drum_eme_id": "90175dd2-44f8-5892-9c40-e116c2723605",
+        "drum_symbolic_event_id": "CSE-45657b04f9b4849a36ce2a202672de19fda6dc58be93287375a85e7a5b440655",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "9bc7535a-e517-5743-9095-52cac831c659",
+        "source_symbolic_event_id": "CSE-670c064e5837da65670a0b7ba063f7e24c1d611e8b06ff946aee718d5c11d322",
+        "symbolic_pair_id": "CSP-80f601f538a4fe7777bf3eed3ea29ff3d899b546fc0d48cb6ded4abb3b1463db"
+      },
+      {
+        "drum_eme_id": "842a088f-ce71-5e7e-9cf9-43dc436e6d2a",
+        "drum_symbolic_event_id": "CSE-0fdb711ffac5b8c5ef2d8ac12b09d3d3a5c751f98728fac24f664cb7dc4cf01f",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "05b4e83f-78ba-5f6b-b6ae-0f7afc343428",
+        "source_symbolic_event_id": "CSE-b6357822e3d9b14262fa5feb3ef727fb36e8b5f646cdf87df6388c8efa231b84",
+        "symbolic_pair_id": "CSP-c5c0bc866e1591540eec5a5bcef7815b9418c2244686ca9dfd02f9ff3b0695a4"
+      },
+      {
+        "drum_eme_id": "cac7b090-6a48-5e1e-a0f9-f43d7f66ead9",
+        "drum_symbolic_event_id": "CSE-49939ae73ffddee21e3a2c86bfcbfbbf3cfcdeb67d33b1c2769bbefc73eb7e85",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d91ee9b8-a31c-5210-832a-0436e695b355",
+        "source_symbolic_event_id": "CSE-9e320f8a6b96e60c5527b235d7148703d547723797eaf60dcc95a7ea2b5884fc",
+        "symbolic_pair_id": "CSP-0fdde25a4be0525ba6f7fd06b6c7be7bd0d21d55b51e68579b587a77d6b87290"
+      },
+      {
+        "drum_eme_id": "06a6b530-665c-5b8a-9a69-72416ab92f92",
+        "drum_symbolic_event_id": "CSE-c89f7421ba6a357d892132ee3d0a57507aa00ae80ce4468235c748b67892f63c",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "1f1b8102-66c2-5f90-8e18-19098a89bc07",
+        "source_symbolic_event_id": "CSE-f3d9ff57f45c10ac53b2bb0d6a73bb29f512b0d632fef61d3afba19bc76b1387",
+        "symbolic_pair_id": "CSP-a3482f13dd1bceaf6512f788217266143ea842282aa1075081557102b54a27b2"
+      },
+      {
+        "drum_eme_id": "25cb28cc-4567-5425-829f-95ad48ccebaa",
+        "drum_symbolic_event_id": null,
+        "score": "AMBIGUOUS_UNSCORABLE",
+        "source": "Double Bass",
+        "source_eme_id": "561f1656-1582-57c7-8d31-332d44600ee6",
+        "source_symbolic_event_id": "CSE-90fe72c2c8a8da479ad6b41084b5286d4569597aa5fbec7a1527b6e1f5a534d2",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "75be0f79-a4b5-5f90-8f6b-5e88fef883e6",
+        "drum_symbolic_event_id": "CSE-208fdc6e7ac37b47ffeca7e2dd62e38da535eb88c0e7a176a0c500cdc4687175",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "dea6c7b6-a027-5fc2-bc67-c62b072c68a9",
+        "source_symbolic_event_id": "CSE-bd5f4ac2588667f95309ab1f20700de8e95c5db86c3e9754f895885a4b4811c2",
+        "symbolic_pair_id": "CSP-6f4bec041dea81eb304ce0dd04ec6f0347d08ddc54b96d5213ee46b81920743b"
+      },
+      {
+        "drum_eme_id": "d1222124-a9dc-5633-b2c8-fb2354660978",
+        "drum_symbolic_event_id": "CSE-bb320cbe83d10dcc11a8aec35a095386735c932182a3cda9c7af8a57f50b78e6",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "5083e073-dd47-5922-9b60-12f09d4c9971",
+        "source_symbolic_event_id": "CSE-4f1fd212446c3e18660db9f48690cef0d175bbef78be481d03caa2e76a1faea3",
+        "symbolic_pair_id": "CSP-8f9794a96b66a37d992ff371b059e8aa576c5a033247f14719f9ed49f8fb3508"
+      },
+      {
+        "drum_eme_id": "64084042-5e53-5f68-bc56-7def4af93294",
+        "drum_symbolic_event_id": "CSE-c0f2eb761b752b77c1f32b9353c83141c46b3af0b0118db72a68a5c2cdf56c1a",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "2ea6ef0d-ba63-5e8c-9635-545366070b5c",
+        "source_symbolic_event_id": "CSE-4cc48e04e032ae844ede4aa8b05ee6053356d4f138372a6632191ebf6b83c7ac",
+        "symbolic_pair_id": "CSP-fbfed48765be240d4ba70762d6c805732473470bfd573e68e0356c64fe1c3fc2"
+      },
+      {
+        "drum_eme_id": "a360d506-0b85-5d63-ad55-1807fe4cd4dc",
+        "drum_symbolic_event_id": "CSE-cfa876607051b428002e7afc097ba039cabc0cbe89e07d895a1925fd179a7419",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "8aeea6bb-473c-5e4d-aab0-d5d0ca0941d0",
+        "source_symbolic_event_id": "CSE-31e6f83e1cb5946cbf7bf9a0b208ee1d148c740d7538c76713923fbaefe2138e",
+        "symbolic_pair_id": "CSP-e0d15bb6d9d663e14bc6ac7680317bafdc41706cfd3552e46312cf4182dc258b"
+      },
+      {
+        "drum_eme_id": "45ac65e6-7f1c-550d-8f79-c9dbd6c6f886",
+        "drum_symbolic_event_id": "CSE-93bdf8eb72b0d5b3bdbf2c726a95cafa36c7f8dbf5a7627fbcae63f72d9a2ddb",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "839aac03-d83a-5334-b11d-5dd4b90bd57c",
+        "source_symbolic_event_id": "CSE-aa3b94629aa401e5b4961b17827993dd732bf55c17c5edf2d45eaa3dbc298993",
+        "symbolic_pair_id": "CSP-66628510ae4b449e509977a659c0786d89ac244b6e70532e0879c9af4c91cd64"
+      },
+      {
+        "drum_eme_id": "1f84cd95-58b5-5cac-a67d-792bb72b6f95",
+        "drum_symbolic_event_id": "CSE-9510603fc43a38a3d2d91196210caf71ddbe11d11f313e67462c72b6e5175c70",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "faf4eeda-a0bd-5d64-811a-080eeb2cfe5f",
+        "source_symbolic_event_id": "CSE-f3740d71df77a080bbe30547ccd0a627bcf97660f19d4ee2bbeec2a4a203b8b2",
+        "symbolic_pair_id": "CSP-fb613d19ebe1d9f925b5eb627fb481b0ddae9aa9cec8103782e67fa20f337337"
+      },
+      {
+        "drum_eme_id": "e4e21346-7bea-5c3f-8d33-e8f689e71206",
+        "drum_symbolic_event_id": "CSE-f85ee64d0f59d1656ca49a49ca29460940c2a97fa24a48771f1e57aa0dfa724c",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "54da5e89-be4d-53ad-b676-94ec86edbc82",
+        "source_symbolic_event_id": "CSE-f9c192e80af38e2c62bcecd46d18a729b72e76c1ca654645b40e4c07133f1d98",
+        "symbolic_pair_id": "CSP-c215b7d9ae3e622e8d060eccf34f93a3831d53805a9979b4c75cf89e0af706be"
+      },
+      {
+        "drum_eme_id": "e9dcd630-6184-5f70-be3e-64d45c5d2271",
+        "drum_symbolic_event_id": "CSE-bb5b0c8e3658436a0e4359545a98fdbe971fc8f8470b5791573ecd14cc390a88",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "ddbb6a52-f02f-5392-873a-402bbef3b0a0",
+        "source_symbolic_event_id": "CSE-b0fcb3122964ce50d9863a91245c7490cbdc017bc683118342c9c4947880f152",
+        "symbolic_pair_id": "CSP-ab248730487e8972923d8e47d3a213274c0e21bf817b41b7d2e06687a1c81713"
+      },
+      {
+        "drum_eme_id": "f7f86603-f102-5d67-b109-e535eb660e24",
+        "drum_symbolic_event_id": "CSE-bb6e05cbe8af2af904838df8e6613167459af94c78a99ac643fa9c0f93518e1e",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "b389aa4d-9eb9-5342-bd96-318ff75e4a11",
+        "source_symbolic_event_id": "CSE-daa2b56c561fc8d50f11874487b88bae1b57c3f7f6d615b9bf10c413adf54c72",
+        "symbolic_pair_id": "CSP-9121c0f8f8f7ac63958dda42b1304ee9bcf32d45e46d078146cc310434a94b8f"
+      },
+      {
+        "drum_eme_id": "2a84f34e-6fa8-559c-8241-1b4d710b7945",
+        "drum_symbolic_event_id": "CSE-6d2f3ae2d358dc610f2ffd539aeae05648b8d839c5526f4713329603551e586d",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "5b98c607-c269-522c-a0a1-a844ba6ae0b0",
+        "source_symbolic_event_id": "CSE-e1f146efcef1adc501afd6f2a69ecf2af562f494ba47a4463d406c7a63219b4e",
+        "symbolic_pair_id": "CSP-77aab0cd59287815e88a057984ea9c098cf33bb66c785df896f83efec74a4a40"
+      },
+      {
+        "drum_eme_id": "d3629302-eb48-56fe-a0fd-12eec689bb32",
+        "drum_symbolic_event_id": "CSE-484bce3ec82b874395c3945754f4a1d961a8442d54c93a5646a3454c2a777990",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "971ea30d-64e1-5bca-9b42-a540e07e9323",
+        "source_symbolic_event_id": "CSE-5cb9ef35a9af04c8579de805ed057babc917b60aad1bbc594f7a4be844c10e49",
+        "symbolic_pair_id": "CSP-018aa40622ec594c2cee32dcdfc42d95aa40d76e01af1f46ad0b84ebc9c01c71"
+      },
+      {
+        "drum_eme_id": "e9adda16-469a-53a9-b6b1-0ccea3b9e3ee",
+        "drum_symbolic_event_id": "CSE-fd7e56096498de677e4feaf5fc65b35eb4044f28368e576836588125ffc7bb57",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "51288314-16e2-5ed5-b874-110a983e6031",
+        "source_symbolic_event_id": "CSE-63091e1a48763815669b4d1f53fd919a940275c30f8f6982dca33ee703c17ce4",
+        "symbolic_pair_id": "CSP-bfd5f7e9caccdd097797bc495347d8792ea6ec0cb7d5cbf859b853b9e1c94e9f"
+      },
+      {
+        "drum_eme_id": "d508f539-743c-5caa-88b1-ad3552cb2984",
+        "drum_symbolic_event_id": "CSE-769064c503e50d3c023a350841967119a5bc08ebaa6b33878da4e7734db74d1b",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "0c1a600a-69fe-54ad-be09-79e91c78eddb",
+        "source_symbolic_event_id": "CSE-fba6c127b96ace6bba29b6b7038666e24da7e0f46220496d290f2ebd8134018a",
+        "symbolic_pair_id": "CSP-bc23f239061bd2ccea63651ea93d412e7eaaf095d6b165072cbfa484b889a862"
+      },
+      {
+        "drum_eme_id": "7bf25276-2be5-510d-9ad0-0337e4188c1f",
+        "drum_symbolic_event_id": "CSE-298f68eed9e43ffb6b0246ba960876f055df64fd1ccb7b419ac093cd137dfdc2",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "909b428f-8251-57f9-a64d-a802a574b4f3",
+        "source_symbolic_event_id": "CSE-f91c455792c7f5afc095c0c04fde228d6efa5c5d729563d4dd2189152d589c9b",
+        "symbolic_pair_id": "CSP-ef3eda39b298d21a34f5740c71ab11fc3e9dbc6721829e202dd2c692404c0a9f"
+      },
+      {
+        "drum_eme_id": "e19e8cd1-df26-5a59-950c-8b1e7318875b",
+        "drum_symbolic_event_id": "CSE-ce58a11bd5a9ec7aa96ac21eecb548b97e32c1ae5c87d1b6dd8bc14acf07f20c",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "07ac340c-a7a7-50bf-99b4-016fb510ddb8",
+        "source_symbolic_event_id": "CSE-4a2bfbd4cd1cf37b277339a7298f30b4c43b802e6eeee5c5c7d28c9354ab8740",
+        "symbolic_pair_id": "CSP-0f38fd8a2dbbfbea753aa8e947ce22102bcea205af361e8e7d449361ce2fab5f"
+      },
+      {
+        "drum_eme_id": "cd60c4ed-5622-5248-8077-242b0152ad04",
+        "drum_symbolic_event_id": "CSE-0c5586044190b88c85c1ccf732382c1d2020ee72f1de63db223ccba95d3b7332",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "33fa27f5-f167-58a3-bdbe-9330b1b39f56",
+        "source_symbolic_event_id": "CSE-87ba3e0ecb0dc99b77dad4aac1bec6567e99748edb1d08443f7c357e5c353887",
+        "symbolic_pair_id": "CSP-e595b3a9fd3917f4c3d713fae65078bffc453b19b64e03789acc2b5b1df48749"
+      },
+      {
+        "drum_eme_id": "32654f31-afaa-5b69-82bf-3073c7b0639d",
+        "drum_symbolic_event_id": "CSE-dada9b668f8a2f2365fb5372a89eab4045f558932e630e098d92ca87a66bc118",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "54863603-1aed-5cf6-84b2-89a830344d43",
+        "source_symbolic_event_id": "CSE-5990979dbcf95388f3648bcac41576f8e7650065288698b67d3dd8c6b62ce885",
+        "symbolic_pair_id": "CSP-a4e117704060c5adbc63786c2f1797e7f32e6fd62cd174779897d52558eae971"
+      },
+      {
+        "drum_eme_id": "02a2e21d-b5fc-54c3-8f7e-003d17e26742",
+        "drum_symbolic_event_id": "CSE-25e1a30a1ee3b01925a9a11aedc99e6ab7ca734c66b1559c5e5d661784783c9b",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "6453c3e1-4ed6-57d0-be62-7525bf22f234",
+        "source_symbolic_event_id": "CSE-36d58b1335431063daa63aad57f350b22dfefcc6cb45b4b9c601fdcc7a03ea46",
+        "symbolic_pair_id": "CSP-53389c563897d477d7420a8da225bea4fbf87fa2bf4ad24878a33fc366b86ae3"
+      },
+      {
+        "drum_eme_id": "ed3cdb90-d1d7-56bb-a87a-a91887380c5a",
+        "drum_symbolic_event_id": "CSE-8a4c34ed022cb23e6429433132c3b2a3921c3d6f6174cc8b64f6b8c2e5d74128",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "3e5d04c4-cb35-56a7-9e63-271e1da09a65",
+        "source_symbolic_event_id": "CSE-980db8fe53222d03cbe07f415c7d85ecadc5e0457f8a82d2d8105462d205d811",
+        "symbolic_pair_id": "CSP-fb8d643b6a874e333ff48a986d64821f2f5dfd425d84553634d7cbd03ec99501"
+      },
+      {
+        "drum_eme_id": "9eff2aed-0567-51e6-916b-b55492c4479b",
+        "drum_symbolic_event_id": "CSE-b19b9a81860d665fcd499142c65c8cec6427d8a66f1219431a05ac6548a0efc6",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "42762358-d71d-5aa7-b8b9-1ea270ee86f0",
+        "source_symbolic_event_id": "CSE-9038be5fb765b77cd55d9d5f7a0ca1e492dea3f0fa310436100e8e8a48aec5f8",
+        "symbolic_pair_id": "CSP-75499632f7b80912881f0bbfaa55145115726cc4427bdfe25bdab8cecf3420dd"
+      },
+      {
+        "drum_eme_id": "ac01c62e-c479-50dc-97c1-e25d46ff88fc",
+        "drum_symbolic_event_id": "CSE-9c6dfe9cc2c440868bd4aba7f5689092aa57a8192ceeb0e93e27287c6fb0c6f6",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d39c8017-1724-5732-818b-5ceffdf43219",
+        "source_symbolic_event_id": "CSE-6970364d1c67bc5b7d54c93ad3a14388f663a90c3aa91dffffb562c9260ec4c8",
+        "symbolic_pair_id": "CSP-db4a13dee8a429f7a26932c68fb1cd1f19f88655ffa343ac8e705c81ce0e220d"
+      },
+      {
+        "drum_eme_id": "3ec868d3-25e0-5f00-890b-ee59d8a0e477",
+        "drum_symbolic_event_id": "CSE-3a5045cc46e04261180870c4fa67f28c28ad031b722fe851258be2382a1c9240",
+        "score": "TRUE_POSITIVE",
+        "source": "Double Bass",
+        "source_eme_id": "6710fccb-141b-5fab-a337-58057aac4c7f",
+        "source_symbolic_event_id": "CSE-7c6f2b4c1a392439da5b8b504763496397567821d4f89aa2cc9ef81950a8df50",
+        "symbolic_pair_id": "CSP-7e519439eff771f9251ad573fc7531694e311bf0ba54b5470e937e10ac5efdaf"
+      },
+      {
+        "drum_eme_id": "aea65fc0-1c99-5ffd-bf32-9d851c74037f",
+        "drum_symbolic_event_id": "CSE-ca3894c3829c662de299a4682f418b76ceb4aeb1fcfda547e035ea5a01482ad4",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "6b165da3-e11a-555c-95b1-ef571cbed2f7",
+        "source_symbolic_event_id": "CSE-2e710862c03756bf0e87acb882ba281c25da6e3f9393516390025906e142329a",
+        "symbolic_pair_id": "CSP-09ff0d55fcf591addc5c0eee42100ddcdb426481fa653f76c26246dcbe27bc38"
+      },
+      {
+        "drum_eme_id": "1d2fd8e7-52f5-5e8a-8030-dcd4de346f4d",
+        "drum_symbolic_event_id": "CSE-493ead4ad0964b585ee5e9f7144f3feb671c631dcafb96547c37a193b1264efe",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "9f4cea92-4f0a-5928-a0c7-3f5ec2695ab4",
+        "source_symbolic_event_id": "CSE-d3c0c70865928b58d0e080308ea28e94a964d2322de5931ef04ea88388872d77",
+        "symbolic_pair_id": "CSP-9a0ff71bd95b633a949e3a1172ac2eeed8602bd7c607e9077fffe3b82d203a80"
+      },
+      {
+        "drum_eme_id": "a904838b-3cae-5e02-9d0a-39a795f2429b",
+        "drum_symbolic_event_id": "CSE-39badf927e95546835660c0c4b079ff5daee62e44a647baf04449fdc221e6579",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "34a6ff24-fd48-56e2-9077-98471b5ab663",
+        "source_symbolic_event_id": "CSE-84f8f08ec9213df4ddf11283e114870bc1e3716c589deddbe725568ced2e658b",
+        "symbolic_pair_id": "CSP-ab18df6858f406f0371c975a0e73ff15cc041a1d99f0ec1bbd4f0218675545bf"
+      },
+      {
+        "drum_eme_id": "ae4bef10-99e6-5cd9-a4be-d604c7afedd4",
+        "drum_symbolic_event_id": "CSE-f1ea362b6b341102523ead3654ba790d9b4df2af66b0e012a0b9e0921e50e6f1",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "40b4f5cb-dff9-589a-848d-e2046269d924",
+        "source_symbolic_event_id": "CSE-d4115b92adc094989ecd469c29a1bd12df54f29fd00ba783b37919f6323078ab",
+        "symbolic_pair_id": "CSP-836fbd10b5a2d51c10109667bc3103049cfde85fc798e0003a33198a712541b0"
+      },
+      {
+        "drum_eme_id": "f2857bc6-dd79-569e-a863-a03480039883",
+        "drum_symbolic_event_id": "CSE-bf8705a864f9867b9b07ea3501db21178a7af9a312d01d5204c6be6ceb9256c2",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "9bf3484f-0257-5899-89c2-8c08e4a638b0",
+        "source_symbolic_event_id": "CSE-c6512b685ce94d412403f40c1621ab8e72ee35737abe22e9dde720fc339d9039",
+        "symbolic_pair_id": "CSP-fd2cd84ce44eff2dbfbc9316d5d2c1bda965b06a04445ac4bd677ac4e02c9664"
+      },
+      {
+        "drum_eme_id": "98637601-a0c1-5959-ba2b-b9d35ea53a1c",
+        "drum_symbolic_event_id": "CSE-76126f0a96556fea74e63e9ac30dc8eefcd16fb56bf7508bd548930a5f975f91",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "9501212a-ac73-5e73-86bc-fd872846bb19",
+        "source_symbolic_event_id": "CSE-c99492b69755a342f389b0ec38ff25db20669d037c7f56eb91f71060a08a7269",
+        "symbolic_pair_id": "CSP-8cf66f8a4a4ab364e1e367cafedd43b20541636264e52ff9ed0a0ed942e13e70"
+      },
+      {
+        "drum_eme_id": "8f5d38fc-6cfc-5c85-a0a9-a143a6971f0c",
+        "drum_symbolic_event_id": "CSE-68f24c32e0725f1e6d373c3c68a71cd72866f9c503e2ece704f351675373b532",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "ad9ec979-bc61-54b7-8acc-599e191857e4",
+        "source_symbolic_event_id": "CSE-95591edec6a75b29227be199f0b1a7709adbccb4b8882a4a05022d93c28aa328",
+        "symbolic_pair_id": "CSP-71a8e18e21e30922b525452876b0c58e9597ff3c79edd081b5d9cc09561d41e2"
+      },
+      {
+        "drum_eme_id": "859a267a-3749-5273-9351-e20288430a23",
+        "drum_symbolic_event_id": "CSE-fb3fa248285255c16ed8274e41843bc08462f105ae266ac67387e986e5f600e5",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "d74b7a64-9078-54e8-9d91-5d0015d40bb0",
+        "source_symbolic_event_id": "CSE-615c0f1be22940f1d562aa0c057986fcc7995d5fdb320540d510420d3d40c8fb",
+        "symbolic_pair_id": "CSP-2281abba7d01c2297a34ad3188e21308286306fffaade924422f9824b693151e"
+      },
+      {
+        "drum_eme_id": "6488a565-24af-55ae-bad4-fc9df299014f",
+        "drum_symbolic_event_id": "CSE-6222644d61568ac4a5350897bbc4787ad672903977a74430381c011a04d1ece8",
+        "score": "FALSE_NEGATIVE",
+        "source": "Double Bass",
+        "source_eme_id": "3d181a2d-a31f-5e83-a637-76d4cd797ceb",
+        "source_symbolic_event_id": "CSE-c6d9d5a202611747a67f1c06fa266dac590a7606ec8edd2be53cb60a518185b4",
+        "symbolic_pair_id": "CSP-b0c9ecf309eb333709678424e7d6683c4abc0a9db25ba2b3a3bd59e8142c3fd3"
+      }
+    ],
+    "Piano": [
+      {
+        "drum_eme_id": "be154b80-af48-570e-a4e0-b1e054961111",
+        "drum_symbolic_event_id": "CSE-39432bdbc1c7893b64e4b41be0347b19839e774d5ec951928a782917313aabea",
+        "score": "FALSE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "4442a44b-5a1b-5a68-bb83-8565330d964e",
+        "source_symbolic_event_id": "CSE-4865bd8dae8b495e17ddb82aee0fe2c2c5746bfa6af0565d16e99cbd6a4a80d9",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "b0fd6e7d-414e-517d-9b9f-2a9d65ed79f9",
+        "drum_symbolic_event_id": "CSE-29b79ddc8b814aeff35cebe4a84290aef01816b4f0aee997359a21457077b993",
+        "score": "FALSE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "24f11d49-8aef-5c67-a82b-3cddfdbc30e6",
+        "source_symbolic_event_id": "CSE-0b3454e809e1dcca25cca4918a5170d7bf7d2f3e0afc57cbf8c0e426f87c4e0d",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "924be3b2-a02d-58f1-9239-16ca30b474b2",
+        "drum_symbolic_event_id": "CSE-70756e23f361ce59116b71e369b5f634c12686ab9b17caf4d55c43da11a140de",
+        "score": "FALSE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "c92e2a27-256c-5cea-9b3b-a49bcd0c44f4",
+        "source_symbolic_event_id": "CSE-8346aef3bc8b27e629b399032e45efed2dd5a201af36bed0449f94ff8de0cc36",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "54af33c2-c472-59bb-a58b-366bb2e811d9",
+        "drum_symbolic_event_id": "CSE-c990e3e11abe2401ff85e96a59c7f5cc6e39ba2dc6ea92bd0cd39bf260bc3c37",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "cc1de31a-7fb5-503e-b74f-ecc6ef7e88c0",
+        "source_symbolic_event_id": "CSE-bb687737dbf59d4213fb2b7c9fc29b6f6493b0007c43fbc960821f9fb73198e1",
+        "symbolic_pair_id": "CSP-5a655bfa508b559f74223cfd6226fa1ed7fe2234cae7ff3cb4fb204af6082a94"
+      },
+      {
+        "drum_eme_id": "811e937f-89d7-5f8e-aa7c-b499c4ff8d5e",
+        "drum_symbolic_event_id": "CSE-a0e88483bfd152973cb83d747b56ac88010075f104fb55edafe6f279200b23a2",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "3e284843-847d-5fc1-87f2-78dcbd809ce9",
+        "source_symbolic_event_id": "CSE-5709099d1f84d874b9cd9ec13f71646eed48b5e24e9f498751e5285008b77689",
+        "symbolic_pair_id": "CSP-e231fb7974eda6c887012cb26284bb18caba200b3034865fd49cd1599b0ec486"
+      },
+      {
+        "drum_eme_id": "d532fbe3-f121-50fe-bd85-766b3e1c63eb",
+        "drum_symbolic_event_id": "CSE-176152b475d9a35d2e2b2c40630382d4fa3baf0db527e5b631a505984f575eb6",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "98192f03-e334-5916-ae54-a3d7e54f89c9",
+        "source_symbolic_event_id": "CSE-a043b2a2588b4cb848d3f6d345745a495433d807291f4ae917f3e5ca4d29d620",
+        "symbolic_pair_id": "CSP-150eebb8f5391c85ab6e3f107207c62570cfa1e83ed4bd5120e26d93e0ed9606"
+      },
+      {
+        "drum_eme_id": "c2d42a2d-e113-57af-aff0-1ea68cff3cac",
+        "drum_symbolic_event_id": "CSE-2aec6685dfeaae071db473136b91f3bdaa5ba87ac347084568da38ed6eafe0b6",
+        "score": "FALSE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "aedd0658-15f3-5b3f-a15e-542646a2453c",
+        "source_symbolic_event_id": "CSE-8fc7f867be77d8445a1fb3a7dbfdb1c0e9f85a5de246d9015467e0882447219e",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "ac80211d-5486-5613-9c40-e9ffdbe7838f",
+        "drum_symbolic_event_id": "CSE-043b6a0b4f3b6442b179eefb4cf35d538e25e9373f24cf5103c0593a91599384",
+        "score": "FALSE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "1607cac1-3b4b-5d01-8298-2391aca1c61c",
+        "source_symbolic_event_id": "CSE-08247032187a422229b2ac96453de85583495bc88a458f644b330483adbcd120",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "6a605363-a6ac-5c1e-92b2-cca97ed4e682",
+        "drum_symbolic_event_id": "CSE-fb59d0e22b54f3752b14a5e9a521b115284e4bf4e145bfb35c61ca860975c4cd",
+        "score": "FALSE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "96867ba9-2125-5e8a-93d2-0e21e3c3bd7b",
+        "source_symbolic_event_id": "CSE-473eae59b4248ab7adf18f7092daf63239f5969094c33ac2354abc9506cc8e8e",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "1df727d6-3fe2-529e-b449-a01d0bfce4a3",
+        "drum_symbolic_event_id": "CSE-b9149434d69985f822e233b7b8b4b91d9ebe7529ff15ea9ee6530d99e95f8db7",
+        "score": "FALSE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "e7e3f86c-b634-596c-9c52-42ad1427c823",
+        "source_symbolic_event_id": "CSE-dac773c9c3f4acbe4e07f5f08846df3f6561160d7e6ba845982009042dcd59af",
+        "symbolic_pair_id": null
+      },
+      {
+        "drum_eme_id": "ed3cdb90-d1d7-56bb-a87a-a91887380c5a",
+        "drum_symbolic_event_id": "CSE-8a4c34ed022cb23e6429433132c3b2a3921c3d6f6174cc8b64f6b8c2e5d74128",
+        "score": "TRUE_POSITIVE",
+        "source": "Piano",
+        "source_eme_id": "06204b92-dde8-55a2-98c3-d7e02f33faf1",
+        "source_symbolic_event_id": "CSE-cbe756b784a7b1cc204e047a02453aceec935f64470c7d70dc912ac27d4d1e38",
+        "symbolic_pair_id": "CSP-faa2d65094180a1358818a9bed99d0e35ddc78ed9a4a369c918455a17d2f819c"
+      },
+      {
+        "drum_eme_id": "aea65fc0-1c99-5ffd-bf32-9d851c74037f",
+        "drum_symbolic_event_id": "CSE-ca3894c3829c662de299a4682f418b76ceb4aeb1fcfda547e035ea5a01482ad4",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "021735a2-4f8b-57b2-9f41-0c4f69a749c8",
+        "source_symbolic_event_id": "CSE-c1909bf2610c9afd0a22aa072bb3267bc0fc2c331e9acb9b88ea4257b0bc3d45",
+        "symbolic_pair_id": "CSP-e1a6dad020ef2cdac83fcc9f40a4d40808d1b31c8b48329032799398bd284c5e"
+      },
+      {
+        "drum_eme_id": "0a61e37e-3027-5711-a677-8d01891500eb",
+        "drum_symbolic_event_id": "CSE-8b11a7ab657dfa154288cdacbe7328332a089f27575d2a0e78c715e08c217e6d",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "ff73a619-4ac1-5cf5-adc4-a911d5ee5b17",
+        "source_symbolic_event_id": "CSE-2171bfcfea876d5065e83f1da166450faf415bdb444e1afdef4f7f427ae4aa16",
+        "symbolic_pair_id": "CSP-10bbe84407b5a31a71a4bc142211702cf559939e5ad94f468caf8a306c9c3f81"
+      },
+      {
+        "drum_eme_id": "b63db683-7e9d-563a-b22d-a7426e681bdb",
+        "drum_symbolic_event_id": "CSE-b18232ce227759fb5e5c1439e1f7ecea066e53482a57a0b5921aa0262ed459bf",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "ee52ed29-8cde-5216-ae4b-31df07da5481",
+        "source_symbolic_event_id": "CSE-dfe7ed2a5d91236ce63e18e35517d745e4c9fae1fd3e5826ab0be898a19a8215",
+        "symbolic_pair_id": "CSP-ba598bc9393fa24826d0f5fa62965fa79e26fae7507c38a3ab12a5d7413372ce"
+      },
+      {
+        "drum_eme_id": "6e039f8b-d8cb-5984-b5b2-58337aa1305c",
+        "drum_symbolic_event_id": "CSE-5e1bd01ac7dbd3257af651fb06e00f2d8a0eaf2c186196ee91d61d2525eb43fe",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "83341810-81ef-5c08-96c7-f7b7b57f1a91",
+        "source_symbolic_event_id": "CSE-f2adc745fbcecafb3534591b5950ebbb188f15300db1311408660d828c6ef9e4",
+        "symbolic_pair_id": "CSP-146d81c64701c8092d26e9fcc1e31ab9eb71b0e340b049d9ffc1c75f4499309d"
+      },
+      {
+        "drum_eme_id": "9abb74f0-8327-5681-8d73-290c662417ea",
+        "drum_symbolic_event_id": "CSE-2f2a90834d5659edd43f8cdcdb71b45091724ecec09cbb80572998d9259c6db4",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "e4f090f1-da1d-5ff1-a07f-2971382feb71",
+        "source_symbolic_event_id": "CSE-316a011a7020e71e5be9c218b7765d977e12f95c00c008795f25d111e8d72d13",
+        "symbolic_pair_id": "CSP-361b81a5168be775074f5958c4c776ff9c569e39f9a0859f21e0ab76485dce8e"
+      },
+      {
+        "drum_eme_id": "4cd29699-1d37-5ddf-98cd-58c7d29e550e",
+        "drum_symbolic_event_id": "CSE-ef421c1ebae4c046f256464f2c9c3c5c96739b5985c76b542d1417762c8ea20c",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "ea4cc50b-d214-5b7e-bcb9-b4cd33a21d48",
+        "source_symbolic_event_id": "CSE-7a1f80896dda49c61ba68d89ce24342b6a28288faa28dfd46bf7fa2afa7d62b7",
+        "symbolic_pair_id": "CSP-d8de346592d9db4fea775ef97805303c59675b90c0646c28ea1827cd7ef138c9"
+      },
+      {
+        "drum_eme_id": "a4df6f0e-b432-5608-92dc-6dc31d287bcd",
+        "drum_symbolic_event_id": "CSE-4667ef005cbe745a296eb359e718848703edfbbadb1fb791de8249ac22f91a3d",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "5d6bf2ba-85be-5267-b1e6-5cbba80237c7",
+        "source_symbolic_event_id": "CSE-462cad2a434991d9c32eb002ce5c78e441646e344dc120e90c6ff10150de7d69",
+        "symbolic_pair_id": "CSP-0f23c1823885a533a3ed7648a5585122eab85b0c08d0ab695c57300150440d68"
+      },
+      {
+        "drum_eme_id": "17f07fa8-1edb-599a-9b4b-759fe996b303",
+        "drum_symbolic_event_id": "CSE-05f87c1c765c5d8261c5d39f9599a5fd05b7dc2a2e8d8878494de311bf4b90f0",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "fdd61fac-88e0-568e-b17c-459c5dda009a",
+        "source_symbolic_event_id": "CSE-a10e1f8e110d857c081915f671f1e5188ecc3a69bbc2d625fe4d780a6164f134",
+        "symbolic_pair_id": "CSP-275be9b7075b92acaf34883bb13763b9f2e2fc03cb4a8471be9decbe0a3bf99d"
+      },
+      {
+        "drum_eme_id": "21a254f1-b155-5193-9954-8eb83c4bb9e9",
+        "drum_symbolic_event_id": "CSE-5bdb598754f46bd8a649e5e0afad3ccccc595562f3303abfa95d24b3897f4f3f",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "bb7c908a-9866-5556-841f-4749df8c5f7f",
+        "source_symbolic_event_id": "CSE-2bf11e05e2b109e93f56a18b1ea25309abc63ba2cddf7eeb993c51a926af22ff",
+        "symbolic_pair_id": "CSP-f2965f6156863303ca4dc0ffd69dbe4da202466f55d6e8816a2ba86495f6420e"
+      },
+      {
+        "drum_eme_id": "23122bd5-b1a5-58d7-8298-dd8922ff8f52",
+        "drum_symbolic_event_id": "CSE-a03d3aa4108bd1bf494d89c18bd96081c3e97362cfeb6525b7993e80fb40a629",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "021bf3fb-c3b1-5035-a155-5caffcb06987",
+        "source_symbolic_event_id": "CSE-7fdc58a60552a6afc525581878b84808ac31b554e842a43cc6c227a0a04e16db",
+        "symbolic_pair_id": "CSP-16e7f40302d6e5c8dcd3705cc89b3d08b2d2ba08e2ce73eed0489111a8115e17"
+      },
+      {
+        "drum_eme_id": "45af6626-da35-5498-b36b-e329bcc6f8e5",
+        "drum_symbolic_event_id": "CSE-08961e55969d778053a6a5e07577fbe5378625785685b1d7dd5eca173acc49b0",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "fa8347fd-4d1e-5787-83f5-b7fb2681afe1",
+        "source_symbolic_event_id": "CSE-63988fdaca1cb6b09ec6e5cc9497ea6ceb80f542cb12af6f6f1e9060d5f99da3",
+        "symbolic_pair_id": "CSP-9614fc08d3dda681ebe9db741316abe220e06c0d18178a3b07ac56be095a279b"
+      },
+      {
+        "drum_eme_id": "efc6817d-174d-5e4b-b8e5-d3ca2efa15d2",
+        "drum_symbolic_event_id": "CSE-e36bdfd77fa9a6a755e8edca489e4d2e396f9488636d6904c490e3a727d45d4e",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "7286a87d-1745-5f02-b8d5-4d4446dc7292",
+        "source_symbolic_event_id": "CSE-4e3a4d2dce9d322f8fb1200f1aeb263a6704f256a14f0db097681e9a14f8b6d2",
+        "symbolic_pair_id": "CSP-59e67da3916e24f818995508629c6045512d0d048fecf5c2503fc0ac09a98161"
+      },
+      {
+        "drum_eme_id": "c6c4a40b-738a-5061-b748-33328e2fdb24",
+        "drum_symbolic_event_id": "CSE-1cdd8393b309b4a79ed34bd9355ca19f0249654c642ba002a502137c743aa162",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "17119c98-11e2-5add-8b32-c6d64c47279b",
+        "source_symbolic_event_id": "CSE-4c67423052f70f34b50bf6faebcf3aa322f42a3212194183a5414109a2134960",
+        "symbolic_pair_id": "CSP-a5451d378af7bc0408e75721b6ce1868ed4f550bbcadcc2f8d29d216bd733206"
+      },
+      {
+        "drum_eme_id": "64084042-5e53-5f68-bc56-7def4af93294",
+        "drum_symbolic_event_id": "CSE-c0f2eb761b752b77c1f32b9353c83141c46b3af0b0118db72a68a5c2cdf56c1a",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "163269f6-ad96-51fc-a4b9-e28235233def",
+        "source_symbolic_event_id": "CSE-c61afccf548a9e67325df718f2bd9424fa8e7ed6f7119bc6bd1530d1af8527a2",
+        "symbolic_pair_id": "CSP-ee2d467691b11be60a94f2719c04170aa7cd7cfdb4990dd7f2298be8877c644a"
+      },
+      {
+        "drum_eme_id": "a360d506-0b85-5d63-ad55-1807fe4cd4dc",
+        "drum_symbolic_event_id": "CSE-cfa876607051b428002e7afc097ba039cabc0cbe89e07d895a1925fd179a7419",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "d1996672-f664-5874-9293-ac220daf0455",
+        "source_symbolic_event_id": "CSE-fa96ae25e69134829a4db4ac82124871cd00ea656bfb8f8d80da3dae6f21c95b",
+        "symbolic_pair_id": "CSP-1b271110b60ee6ab7c930f3ed99ce1b69bb791b7d0f33b2dce0b11dec91f9583"
+      },
+      {
+        "drum_eme_id": "1f84cd95-58b5-5cac-a67d-792bb72b6f95",
+        "drum_symbolic_event_id": "CSE-9510603fc43a38a3d2d91196210caf71ddbe11d11f313e67462c72b6e5175c70",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "e78d0b15-d02e-5c53-9f00-00e436479288",
+        "source_symbolic_event_id": "CSE-25379eb743cc92bead763c430e9069f12e169997b62e89146561c613104b2516",
+        "symbolic_pair_id": "CSP-53c0950dbee7fa43bda4ebdbc29f06a618d296a99f4e5848a97c98ae52a0a1c2"
+      },
+      {
+        "drum_eme_id": "e4e21346-7bea-5c3f-8d33-e8f689e71206",
+        "drum_symbolic_event_id": "CSE-f85ee64d0f59d1656ca49a49ca29460940c2a97fa24a48771f1e57aa0dfa724c",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "c4483783-c3c1-520f-aad0-f330baf169ff",
+        "source_symbolic_event_id": "CSE-20a3a2a58ccdc88962e0d6a5f91f4a3b1938828a5fc8e66e3d0a258a2637c975",
+        "symbolic_pair_id": "CSP-616a482786acf402aabfe4599e1c661a620d28edc501067550c2e2e4abb946be"
+      },
+      {
+        "drum_eme_id": "f7f86603-f102-5d67-b109-e535eb660e24",
+        "drum_symbolic_event_id": "CSE-bb6e05cbe8af2af904838df8e6613167459af94c78a99ac643fa9c0f93518e1e",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "5c8fbe4c-fe73-55e8-b8e7-371d4444ae0f",
+        "source_symbolic_event_id": "CSE-e2cbd59b95a04b14f6cde36e3897d7ec1688dff74916a41f338a131fb88fc456",
+        "symbolic_pair_id": "CSP-16085a9106c4512ed138a0d852127b9fb7914c9d3325ef9424d6e88dafb6e17f"
+      },
+      {
+        "drum_eme_id": "3ec868d3-25e0-5f00-890b-ee59d8a0e477",
+        "drum_symbolic_event_id": "CSE-3a5045cc46e04261180870c4fa67f28c28ad031b722fe851258be2382a1c9240",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "649858be-81a3-5a64-adbc-304f44e5fa5c",
+        "source_symbolic_event_id": "CSE-97b1a7a3740e91051b67c2f758d71146b7987f2ab2f9623c7b51ac45d37c817a",
+        "symbolic_pair_id": "CSP-5dedc3a3c1cd69bc17a60be4740cb0d42098e8e63f6e9b7e7808d9f84b42f673"
+      },
+      {
+        "drum_eme_id": "6488a565-24af-55ae-bad4-fc9df299014f",
+        "drum_symbolic_event_id": "CSE-6222644d61568ac4a5350897bbc4787ad672903977a74430381c011a04d1ece8",
+        "score": "FALSE_NEGATIVE",
+        "source": "Piano",
+        "source_eme_id": "ddc6a241-6ed0-5075-a30d-c11d70652a9c",
+        "source_symbolic_event_id": "CSE-7e79fb16bb214d45c29c23359aab01a0261da99ef994f24ad7f5487ab9816f2c",
+        "symbolic_pair_id": "CSP-faa11ebc45c3102b51c0d030287ea1354daab76a6694ddb0398c6dc98a63df74"
+      }
+    ]
+  },
+  "validation_dataset": "PR-CED-VAL-002-SWING-002"
+}

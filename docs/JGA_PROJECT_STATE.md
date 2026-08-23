@@ -1,5 +1,23 @@
 # JGA Project State
 
+## H02 Independent Out-of-Sample Validation
+
+Status: FROZEN RESULT — PI REVIEW REQUIRED
+
+- The unchanged `H-VAL001-RHYTHM-CORRESPONDENCE-02` rule executed blind on
+  corrected `PR-CED-VAL-002-SWING-002`, separately from Calibration Zero.
+- Blind result: 125 candidates (Piano 11; Double Bass 114), fingerprint
+  `c053888a…`, with deterministic replay before Ground Truth access.
+- Post-freeze: Piano 4 TP / 7 FP / 20 FN; Double Bass 109 TP / 3 FP / 9 FN;
+  overall 113 TP / 10 FP / 29 FN, precision 0.918699, recall 0.795775 and F1
+  0.852830.
+- Frozen classification: `PARTIAL_CORRESPONDENCE_EVIDENCE`; out-of-sample
+  generalization evidence is `MIXED` because source-specific performance differs
+  materially.
+- No correction or production promotion is authorized. `GEOMETRIC_ONLY`
+  remains production authority. Complete record:
+  `validation/CED-VAL-002-SWING/run_20260823_192726/`.
+
 ## CED-VAL-002-SWING Calibration Zero Execution
 
 Status: FROZEN RESULT — PI REVIEW REQUIRED

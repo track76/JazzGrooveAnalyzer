@@ -1,0 +1,15 @@
+{
+  "experiment_id": "H-VAL001-RHYTHM-CORRESPONDENCE-02",
+  "validation_dataset": "PR-CED-VAL-002-SWING-002",
+  "status": "PASS_FROZEN_OUT_OF_SAMPLE_RESULT",
+  "blind_deterministic_replay": true,
+  "ground_truth_accessed_after_blind_freeze_only": true,
+  "calibration_values_consumed_by_candidate_generation": false,
+  "calibration_correction_applied": false,
+  "raw_observations_modified": false,
+  "production_code_changed": false,
+  "production_promotion_authorized": false,
+  "bootstrap_status": "NOT_APPLICABLE_NOT_PREREGISTERED",
+  "blind_fingerprint": "c053888ade8ddba30dad9abd11f4486dd9083640307d5c49feb409c389e28c08",
+  "scientific_fingerprint": "ac6df971b4d1fb224c2324fb91cac85c04bb30062f86103f5681293dcd80c89e"
+}
