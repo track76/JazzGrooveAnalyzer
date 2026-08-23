@@ -2,7 +2,7 @@
 
 ## H02 Independent Out-of-Sample Validation
 
-Status: FROZEN RESULT — PI REVIEW REQUIRED
+Status: MIXED GENERALIZATION — SCIENTIFIC CONCLUSION FROZEN
 
 - The unchanged `H-VAL001-RHYTHM-CORRESPONDENCE-02` rule executed blind on
   corrected `PR-CED-VAL-002-SWING-002`, separately from Calibration Zero.
@@ -17,6 +17,12 @@ Status: FROZEN RESULT — PI REVIEW REQUIRED
 - No correction or production promotion is authorized. `GEOMETRIC_ONLY`
   remains production authority. Complete record:
   `validation/CED-VAL-002-SWING/run_20260823_192726/`.
+- PI acceptance freezes H02 as experimentally supported, source-sensitive,
+  conservative in some conditions and not production-authorized. At least one
+  further genuinely independent controlled replication is mandatory before
+  production promotion may be reconsidered.
+- Frozen conclusion:
+  `validation/CED-VAL-002-SWING/H02_OUT_OF_SAMPLE_SCIENTIFIC_CONCLUSION.md`.
 
 ## CED-VAL-002-SWING Calibration Zero Execution
 
