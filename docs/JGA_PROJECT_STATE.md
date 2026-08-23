@@ -2,7 +2,20 @@
 
 ## CED-VAL-003-SWING-3-4 Controlled Dataset
 
-Status: INPUT AUTHORITY FROZEN — CALIBRATION PENDING
+Status: CALIBRATION ZERO PREREGISTERED — EXECUTION REQUIRES PI APPROVAL
+
+- `H-CEDVAL003-CALIBRATION-ZERO-01` binds exclusively to frozen authority
+  `PR-CED-VAL-003-SWING-3-4-001` and fingerprint `9345f592…`.
+- Exact-rational symbolic authority, contributor-separated midpoint cells,
+  exact-equality symbolic pair authority, absolute/pairwise quantities,
+  512/44100 frame description, fixed WAV-scope halves `512/21`, minimum
+  support 10/5, deterministic 10,000-resample bootstrap, sensitivity and
+  classification criteria are frozen before result access.
+- No prior numerical calibration result transfers. Dataset assets, raw
+  observations and H02 remain immutable; no correction or execution is
+  authorized.
+- Preregistration:
+  `validation/CED-VAL-003-SWING-3-4/preregistrations/H-CEDVAL003-CALIBRATION-ZERO-01.md`.
 
 - The initial failed discovery remains preserved. Following PI correction,
   assets were discovered under actual external root
