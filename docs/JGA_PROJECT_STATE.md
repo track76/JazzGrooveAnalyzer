@@ -1,5 +1,19 @@
 # JGA Project State
 
+## CED-VAL-003 Within-Cell Strength Discriminability
+
+Status: PASS — FROZEN PHYSICAL DISCRIMINABILITY
+
+- Exact binary64 strength produced `UNIQUE_STRENGTH_MAXIMUM` in 56/56 cells:
+  Drums 54/54 and Double Bass 2/2; ties and unresolved cases are zero.
+- The result demonstrates deterministic physical distinction only. It does not
+  identify correct correspondence, resolve historical ambiguity or authorize
+  H02 rescoring/production use.
+- Ground Truth, thresholds, tolerances and cross-source comparisons were not
+  used. H02, H03, Calibration Zero and raw observations remain unchanged.
+- Scientific fingerprint `902c9a7d…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_212023/`.
+
 ## CED-VAL-003 Within-Cell Strength Discriminability Preregistration
 
 Status: FROZEN — NOT YET EXECUTED

@@ -1,0 +1,17 @@
+{
+  "architecture_impact": "NONE",
+  "calibration_zero_changed": false,
+  "correspondence_selection_performed": false,
+  "cross_source_comparison_performed": false,
+  "ground_truth_accessed": false,
+  "h02_changed": false,
+  "h03_created": false,
+  "historical_h02_scores_changed": false,
+  "production_code_changed": false,
+  "production_impact": "NONE",
+  "push_authorized": false,
+  "raw_observations_changed": false,
+  "status": "PASS",
+  "study_id": "H-CEDVAL003-WITHIN-CELL-STRENGTH-DISCRIMINABILITY-01",
+  "threshold_or_tolerance_used": false
+}

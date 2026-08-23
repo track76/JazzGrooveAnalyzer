@@ -1,0 +1,10 @@
+{
+  "frozen_inputs": {
+    "validation/CED-VAL-003-SWING-3-4/preregistrations/H-CEDVAL003-WITHIN-CELL-STRENGTH-DISCRIMINABILITY-01.md": "e0499331bca210e52e22f977297f519e8bc630091369f70fcb19c279c656649d",
+    "validation/CED-VAL-003-SWING-3-4/run_20260823_211259/artifact_manifest.json": "c30f7b2a0ea77e3205f8cfaa6868906f19c438fef48dde7a162daf88dbc5e008",
+    "validation/CED-VAL-003-SWING-3-4/run_20260823_211259/strength_measurements.json": "1772b2817b0a6aa075b91cff20b830791c14f245a5c219d6a65feee7f19450cc"
+  },
+  "ground_truth_accessed": false,
+  "h02_scoring_accessed": false,
+  "preregistration_commit": "b36ec458a248ae5eb28bfde796b0255f37989fc1"
+}

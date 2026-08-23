@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "completion_protocol.json": "5157d222e6fb02c7ffef1dd1fd523ad78c96ba951f736cd9725c7a921b68da98",
+    "discriminability_result.json": "35904ceb0812fae6f7a1f67394735f313a2b079b79cf493c17298b76ce6e2d9c",
+    "execute.py": "43e7ee1db2a4ea792c5d7e42b81e5b8fd590d7b6a6cfd6f9ff3ddcf06ea9ccff",
+    "input_manifest.json": "2e33da200d62bd714d19c0ebc16853ed7c86aa88e5ee26f428d591b71450f6ee",
+    "report.md": "74d3f6c88133b0a3feb041207a97460dc80a6be346489ff532735434cc312842",
+    "verify.py": "da7455165292e7915f96ebd64ffd787001196b3fec64ccc0613e59b941c4a04e"
+  },
+  "schema": "JGA-WITHIN-CELL-STRENGTH-DISCRIMINABILITY-MANIFEST/v1",
+  "scientific_fingerprint": "902c9a7dd53b7f99c103bbab9f39552017e930af03e5813a2cfafe6855abddcd",
+  "study_id": "H-CEDVAL003-WITHIN-CELL-STRENGTH-DISCRIMINABILITY-01"
+}

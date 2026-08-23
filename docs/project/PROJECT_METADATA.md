@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: CED-VAL-003 Within-Cell Strength Discriminability Preregistered
+Current Milestone: CED-VAL-003 Within-Cell Strength Discriminability Frozen
 
 Current Phase: Phase II Scientific Validation
 
