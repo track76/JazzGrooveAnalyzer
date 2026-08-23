@@ -1,0 +1,41 @@
+{
+  "artifacts": {
+    "blind_execute.py": {
+      "sha256": "8f5940fcdb7c82429ac1842805eef2168bd6dae4776fb9dc2d24739fc0b9a672",
+      "size_bytes": 14448
+    },
+    "blind_manifest.json": {
+      "sha256": "31b4d32a99afc9faf80ea6b58bf7daf9cd88e5a11472cdd0c7d32b3233369bce",
+      "size_bytes": 410
+    },
+    "blind_result.json": {
+      "sha256": "061968ece6e534d097b18936488c4fa551b216e9bb55beece4ba87cf8f13172a",
+      "size_bytes": 398880
+    },
+    "completion_protocol.json": {
+      "sha256": "e2debb05ac244af0d1f55c22403c836af44839df128b7895d259f4d482cb2da5",
+      "size_bytes": 680
+    },
+    "report.md": {
+      "sha256": "4ff8e7532c6ba62398e6b5b38ffd110844a79c2b07f07593161121989ed8d672",
+      "size_bytes": 3758
+    },
+    "result.json": {
+      "sha256": "993fd8c05285e2402c03f7e813f3dfbbc30e54c40a5577e195c9c31997796828",
+      "size_bytes": 50073
+    },
+    "score_frozen.py": {
+      "sha256": "197c397e1637d6128812cdee157eab4087c199e82d50db68ba0d100e46405c2c",
+      "size_bytes": 8224
+    },
+    "verify.py": {
+      "sha256": "718ecbfb7ea2e204c18963008f44b664aeee224628c242f5f43bb561b764ea81",
+      "size_bytes": 2953
+    }
+  },
+  "blind_fingerprint": "a76e37eda621a266832a4fd347b9ac7334a3d12e2c94351dfdc5fa1dd9faa997",
+  "experiment_id": "H-VAL001-RHYTHM-CORRESPONDENCE-02",
+  "schema": "JGA-H02-OUT-OF-SAMPLE-ARTIFACT-MANIFEST/v1",
+  "scientific_fingerprint": "374ab02a71c0e583bba33b5723550c50c935f4d4fd11722085f1d368170d0987",
+  "validation_dataset": "PR-CED-VAL-003-SWING-3-4-001"
+}

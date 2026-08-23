@@ -1,5 +1,27 @@
 # JGA Project State
 
+## CED-VAL-003-SWING-3-4 H02 Independent Replication
+
+Status: FROZEN RESULT — PARTIAL CORRESPONDENCE EVIDENCE
+
+- The unchanged `H-VAL001-RHYTHM-CORRESPONDENCE-02` rule executed blind on
+  `PR-CED-VAL-003-SWING-3-4-001`, without symbolic, calibration, meter or tempo
+  input. Two complete blind executions replayed byte-identically.
+- Blind result: 89 candidates (Piano 14; Double Bass 75), 61 unresolved;
+  fingerprint `a76e37ed…`.
+- Post-freeze scoring: Piano 3 TP / 2 FP / 9 FN from 5 scorable candidates;
+  Double Bass 26 TP / 2 FP / 6 FN from 28 scorable candidates; overall 29 TP /
+  4 FP / 15 FN, precision 0.878788, recall 0.659091 and F1 0.753247.
+- Fifty-six blind candidates remain ambiguous/unscorable under frozen
+  Ground-Truth correspondence authority and are preserved.
+- Frozen classification: `PARTIAL_CORRESPONDENCE_EVIDENCE`; three-dataset
+  generalization is `MIXED`. Double Bass supplies supporting replication,
+  while Piano behavior and scorable coverage remain source/dataset-sensitive.
+- H02 remains experimental and is not promoted. `GEOMETRIC_ONLY` remains
+  production authority; raw observations and production code are unchanged.
+- Scientific fingerprint: `374ab02a…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_204545/`.
+
 ## CED-VAL-003-SWING-3-4 Controlled Dataset
 
 Status: CALIBRATION ZERO FROZEN RESULT — PI REVIEW REQUIRED

@@ -1,0 +1,14 @@
+{
+  "blind_deterministic_replay": true,
+  "blind_fingerprint": "a76e37eda621a266832a4fd347b9ac7334a3d12e2c94351dfdc5fa1dd9faa997",
+  "calibration_correction_applied": false,
+  "calibration_values_consumed_by_candidate_generation": false,
+  "experiment_id": "H-VAL001-RHYTHM-CORRESPONDENCE-02",
+  "ground_truth_accessed_after_blind_freeze_only": true,
+  "production_code_changed": false,
+  "production_promotion_authorized": false,
+  "raw_observations_modified": false,
+  "scientific_fingerprint": "374ab02a71c0e583bba33b5723550c50c935f4d4fd11722085f1d368170d0987",
+  "status": "PASS_FROZEN_INDEPENDENT_REPLICATION_RESULT",
+  "validation_dataset": "PR-CED-VAL-003-SWING-3-4-001"
+}
