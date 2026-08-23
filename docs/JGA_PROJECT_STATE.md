@@ -1,5 +1,22 @@
 # JGA Project State
 
+## CED-VAL-003 Strength-Max Correspondence Validation
+
+Status: PASS EXECUTION — INSUFFICIENT SCORABLE EVIDENCE
+
+- All 56 unique-strength predictors were frozen before Ground Truth and joined
+  deterministically to frozen Calibration Zero authority.
+- Drums 0/54 and Double Bass 0/2 were scorable; all 56 remain
+  `AMBIGUOUS_MULTIPLE_OBSERVED`, so correct/incorrect and accuracy are
+  undefined rather than zero-performance evidence.
+- The study neither supports nor contradicts strength as a correspondence
+  predictor. Unique physical discrimination is not independent scoring
+  authority.
+- Historical H02 results, the three-dataset conclusion, Calibration Zero, raw
+  observations and production authority remain unchanged.
+- Scientific fingerprint `f9dd0c08…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_212608/`.
+
 ## CED-VAL-003 Strength-Max Correspondence Validation Preregistration
 
 Status: FROZEN — NOT YET SCORED

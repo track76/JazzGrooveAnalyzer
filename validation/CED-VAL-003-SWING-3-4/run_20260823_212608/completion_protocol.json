@@ -1,0 +1,16 @@
+{
+  "architecture_impact": "NONE",
+  "calibration_zero_changed": false,
+  "classification": "INSUFFICIENT_SCORABLE_EVIDENCE",
+  "h02_changed": false,
+  "h03_created": false,
+  "historical_h02_scores_changed": false,
+  "historical_three_dataset_conclusion_changed": false,
+  "production_code_changed": false,
+  "production_impact": "NONE",
+  "production_promotion_authorized": false,
+  "push_authorized": false,
+  "raw_observations_changed": false,
+  "status": "PASS",
+  "study_id": "H-CEDVAL003-STRENGTH-MAX-CORRESPONDENCE-VALIDATION-01"
+}

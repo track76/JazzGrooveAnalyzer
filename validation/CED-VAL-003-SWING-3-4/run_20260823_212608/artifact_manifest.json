@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "completion_protocol.json": "dc701a6e956e450a4cdbe39c92bdac5b86d5d3f53dfb1bca8e275fd89c11aa7d",
+    "input_manifest.json": "fe1ca8ad86cf76bb5eb3e28f74cd2f4263df70458ccaa456aef674a071d50a56",
+    "report.md": "38c305cdabcd5dacee6aedacd17e362f73b04c9300923bb651f9763e46b08396",
+    "score.py": "07022b318bacda50d3db498300bf8437f25de6c142ab619d6ed94d356d36cc77",
+    "scoring_result.json": "7f7bdc922bedc11f6dda83e2fb974c30b87374a7b286237d13ad2312d336c6a6",
+    "verify.py": "254fe5086d286e7b60d08f662629e44252158ab556b91c68cb317ff7d3fa956e"
+  },
+  "schema": "JGA-STRENGTH-MAX-CORRESPONDENCE-VALIDATION-MANIFEST/v1",
+  "scientific_fingerprint": "f9dd0c0892edbcab20782c4580baf64f6c8e7b2b36a87a1265fa80ecdf71d77e",
+  "study_id": "H-CEDVAL003-STRENGTH-MAX-CORRESPONDENCE-VALIDATION-01"
+}

@@ -1,0 +1,12 @@
+{
+  "frozen_inputs": {
+    "validation/CED-VAL-003-SWING-3-4/preregistrations/H-CEDVAL003-STRENGTH-MAX-CORRESPONDENCE-VALIDATION-01.md": "254734e5c70155e674108939d0e43785be943ffa6a2bbc116e731578dfa7a426",
+    "validation/CED-VAL-003-SWING-3-4/preregistrations/frozen_strength_max_predictors.json": "19e787493b0490a8aeec602d833638b2784002ad4d645af1a81c4c73c3ec3ac0",
+    "validation/CED-VAL-003-SWING-3-4/run_20260823_203324/calibration_symbolic_events.json": "fcb56adb0dfd6361ab6173107fc2f90d293caf8ca87d3fbc2e6b36e393f6a199",
+    "validation/CED-VAL-003-SWING-3-4/run_20260823_203324/event_level_results.json": "3c2d22300de63de57885a1c786dea1679136410860558f3e093e6bf2b5233c31",
+    "validation/CED-VAL-003-SWING-3-4/run_20260823_203324/result.json": "5faa6fe772dd4f6211bfe00646d4cdbde8d904082cef80c18ea53da2e240ee29"
+  },
+  "ground_truth_opened_only_after_preregistration": true,
+  "preregistration_commit": "e2753a66ee9fe146e42af9fdf8e033bc1f91da3e",
+  "symbolic_authority_fingerprint": "3d97ff352fa0ca3ca5317d1584ec57b62eec368cd3595529f4659321e8a0bda0"
+}
