@@ -2,18 +2,23 @@
 
 ## CED-VAL-004 Physical-Onset Generation Preregistration
 
-Status: FROZEN PROTOCOL — NO ASSETS CREATED
+Status: FROZEN PROTOCOL — CONDITIONAL REVIEW INCORPORATED — NO ASSETS CREATED
 
 - `PR-CED-VAL-004-PHYSICAL-ONSET-GENERATION-01` defines a prospective
   common-clock marker-referenced dataset for Drums and Double Bass.
 - A single offline render must preserve one exact marker channel, separate
   unmodified source waveforms, equal-scope no-event controls and a canonical
   event/sample manifest.
-- Four fixed 10-second isolated slots contain two repeated excitations per
-  source and place each marker two seconds after slot start. Generation is
-  fixed at 44.1 kHz/24-bit PCM with a one-sample marker amplitude of 4,194,304.
+- Twenty fixed 10-second isolated slots contain 10 excitations per source,
+  balanced 5/5 across temporal halves, and place each marker two seconds after
+  slot start. Generation is fixed at 44.1 kHz/24-bit PCM with a one-sample
+  marker amplitude of 4,194,304.
   Marker authority remains distinct from a later separately preregistered
   non-JGA first-causal-response authority.
+- The first technically valid render is frozen as canonical. Source rerender
+  byte identity is not mandatory; any nondeterminism is retained and measured
+  separately. Marker rerender identity and all common-clock checks remain
+  mandatory.
 - No assets, experiment, JGA execution, H02/H03 change or production impact are
   authorized.
 - Protocol:

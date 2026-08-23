@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: CED-VAL-004 Physical-Onset Generation Protocol Frozen
+Current Milestone: CED-VAL-004 Physical-Onset Generation Protocol Reviewed and Frozen
 
 Current Phase: Phase II Scientific Validation
 

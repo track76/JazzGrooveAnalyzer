@@ -1,6 +1,6 @@
 # PR-CED-VAL-004-PHYSICAL-ONSET-GENERATION-01
 
-Status: **FROZEN GENERATION PROTOCOL — NO ASSETS CREATED**
+Status: **FROZEN GENERATION PROTOCOL — CONDITIONAL REVIEW INCORPORATED — NO ASSETS CREATED**
 
 Authority: PI approval following
 `H-CEDVAL003-STRENGTH-MAX-CORRESPONDENCE-VALIDATION-01`, frozen result commit
@@ -34,11 +34,13 @@ would expand source-specific scope without equivalent evidence. Piano may be
 added only by later explicit authority and may not be silently appended to
 this dataset.
 
-Use exactly two identical controlled excitations per source, the minimum that
-permits a within-source repeatability comparison: Drums-1, Double-Bass-1,
-Drums-2, Double-Bass-2. The material is non-musical. Meter, tempo, swing,
-harmony and realistic performance are neither required nor authorized as
-experimental factors.
+Use exactly **10 identical controlled excitations per source**. This reuses the
+established JGA Calibration Zero minimum full-population support of 10 and
+permits a balanced descriptive early/late comparison of five observations per
+source in each temporal half. It is a modest minimum that avoids an anecdotal
+N=2 predictor validation without introducing an outcome-derived power claim.
+The material is non-musical. Meter, tempo, swing, harmony and realistic
+performance are neither required nor authorized as experimental factors.
 
 ## Common-clock generation
 
@@ -83,13 +85,14 @@ is **not** physical-onset authority and does not authorize
 
 ## Event isolation and control baseline
 
-Use four fixed **10-second event slots** (total exact scope 40 seconds /
-1,764,000 samples), chosen before rendering and without JGA
-output. Place each marker exactly 2 seconds after its slot begins, leaving an
-8-second post-marker response interval. Marker indices are therefore 88,200,
-529,200, 970,200 and 1,411,200 for Drums-1, Double-Bass-1, Drums-2 and
-Double-Bass-2 respectively. Emit only one source event in a slot; the other
-source remains untriggered.
+Use 20 fixed **10-second event slots** (total exact scope 200 seconds /
+8,820,000 samples), chosen before rendering and without JGA output. Place each
+marker exactly 2 seconds after its slot begins, leaving an 8-second post-marker
+response interval. For zero-based slot `k`, the exact marker index is
+`88,200 + 441,000 × k`, for `k = 0…19`. Even slots contain Drums-1 through
+Drums-10; odd slots contain Double-Bass-1 through Double-Bass-10. Thus each
+temporal half contains five events per source. Emit only one source event in a
+slot; the other source remains untriggered.
 
 The configured event duration must end early enough to preserve the complete
 release within the slot. During authority freeze, a non-JGA check must verify
@@ -153,10 +156,29 @@ No asset is created now. A future authority-freeze must expect:
 
 Every audio asset must preserve exact sample rate, format, channel count,
 sample count, scope and sample-zero relation. Freeze all SHA-256 values, marker
-indices, event/source identities, tool versions, routing, presets and
-deterministic replay evidence. Generate the complete render twice; require
-byte-identical assets or stop and characterize the reproducibility limitation
-before dataset authority can pass.
+indices, event/source identities, tool versions, routing and presets.
+
+The **first successfully completed render that passes all predeclared technical
+and common-clock checks** is the canonical render. This selection rule is
+fixed before waveform inspection. Its assets are immutable and checksum-bound;
+later rerenders can never replace it based on their content.
+
+Generate at least one independent complete rerender under the identical frozen
+configuration as repeatability evidence. Byte identity of source/control
+waveforms is desirable but is **not required** for canonical dataset authority.
+The independently generated marker channel must remain byte-identical; marker
+nondeterminism is a generation-authority failure. If source or control assets
+differ, preserve every rerender and checksum and report, separately by source
+and channel, differing-sample count/fraction, signed and absolute sample-
+difference distributions, maximum absolute difference and RMS difference.
+Rerender variability is a separate measurement result, never a correction to
+the canonical render.
+
+Canonical authority passes when its common-clock alignment, marker integrity,
+scope, configuration provenance and checksums pass. If rerender variability
+later prevents a stable first-causal-response authority or uncertainty bound,
+the later physical-onset study must report insufficient authority; the
+canonical assets are not silently discarded or replaced.
 
 ## Blindness, historical and publication firewalls
 
