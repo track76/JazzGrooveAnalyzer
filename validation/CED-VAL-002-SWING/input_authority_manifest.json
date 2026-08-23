@@ -1,0 +1,147 @@
+{
+  "schema": "JGA-CONTROLLED-DATASET-INPUT-AUTHORITY/v1",
+  "dataset_id": "CED-VAL-002-SWING",
+  "dataset_generation_record_id": "DGR-CED-VAL-002-SWING-001",
+  "provenance_revision_id": "PR-CED-VAL-002-SWING-001",
+  "status": "FROZEN_INPUT_AUTHORITY",
+  "external_root_variable": "JGA_EXTERNAL_ROOT",
+  "external_dataset_path": "datasets/CED-VAL-002-SWING",
+  "discovered_audio_directory": "steams",
+  "expected_audio_directory": "stems",
+  "naming_deviation_status": "DOCUMENTED_NON_SEMANTIC_PATH_DEVIATION",
+  "assets": {
+    "Drums": {
+      "asset_id": "CED-VAL-002-SWING-DRUMS-WAV",
+      "path": "datasets/CED-VAL-002-SWING/steams/CED-VAL-002-swing_drums.wav",
+      "sha256": "f3f75d95b05e7710dce5c35b68a7c54f2241a3d24177fc92f723b2ddeccbfbbb",
+      "file_size_bytes": 14872576,
+      "container": "WAVE",
+      "codec": "linear PCM, 24-bit little-endian signed integer",
+      "sample_rate_hz": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "sample_frames_per_channel": 2478080,
+      "duration_seconds_exact": "123904/2205",
+      "duration_seconds_decimal": "56.192290249433107"
+    },
+    "Double Bass": {
+      "asset_id": "CED-VAL-002-SWING-DOUBLE-BASS-WAV",
+      "path": "datasets/CED-VAL-002-SWING/steams/CED-VAL-002-swing_bass.wav",
+      "sha256": "dc71100c99526bbb6c1d4a6626cacae55db3d434a8cfc1216dfeda15a65549d4",
+      "file_size_bytes": 14872576,
+      "container": "WAVE",
+      "codec": "linear PCM, 24-bit little-endian signed integer",
+      "sample_rate_hz": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "sample_frames_per_channel": 2478080,
+      "duration_seconds_exact": "123904/2205",
+      "duration_seconds_decimal": "56.192290249433107"
+    },
+    "Piano": {
+      "asset_id": "CED-VAL-002-SWING-PIANO-WAV",
+      "path": "datasets/CED-VAL-002-SWING/steams/CED-VAL-002-swing_piano.wav",
+      "sha256": "4d2b03e7740d7487c365b2049959dd5cdc4f3b623fa9a4497bc698201c9bd75a",
+      "file_size_bytes": 14872576,
+      "container": "WAVE",
+      "codec": "linear PCM, 24-bit little-endian signed integer",
+      "sample_rate_hz": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "sample_frames_per_channel": 2478080,
+      "duration_seconds_exact": "123904/2205",
+      "duration_seconds_decimal": "56.192290249433107"
+    }
+  },
+  "cross_stem_compatibility": {
+    "identical_sample_rate": true,
+    "identical_bit_depth": true,
+    "identical_channel_count": true,
+    "identical_sample_frame_count": true,
+    "identical_duration": true,
+    "common_origin": "DECLARED_SIBELIUS_EXPORT_FROM_BEGINNING",
+    "origin_epistemic_status": "DECLARED_EXPERIMENTAL_PROCEDURE",
+    "onset_alignment_performed": false
+  },
+  "symbolic_assets": {
+    "MusicXML": {
+      "asset_id": "CED-VAL-002-SWING-MUSICXML",
+      "path": "datasets/CED-VAL-002-SWING/symbolic/CED-VAL-002-swing.musicxml",
+      "sha256": "f7f22a09410d05dc2fc2c341ebd0279603ef39339bed291f24700017390223fa",
+      "file_size_bytes": 347545,
+      "format": "MusicXML score-partwise 3.0",
+      "well_formed": true,
+      "score_title": "On Green Dolphin Street",
+      "export_software_declaration": "Sibelius 25.12.1; Direct export, not from Dolet"
+    },
+    "Sibelius": {
+      "asset_id": "CED-VAL-002-SWING-SIBELIUS",
+      "path": "datasets/CED-VAL-002-SWING/symbolic/CED-VAL-002-swing.sib",
+      "sha256": "abbda6256b217636bba3ac53410da2f454de25865044cdb7148b7d6e0ae72851",
+      "file_size_bytes": 150393,
+      "parsed": false
+    }
+  },
+  "excluded_operational_metadata": {
+    "path": "datasets/CED-VAL-002-SWING/symbolic/._CED-VAL-002-swing.sib",
+    "sha256": "6034a3dd9a52b211d3b612938564f058f526a5e29b9a07949f250d8f851151bf",
+    "classification": "APPLEDOUBLE_SIDECAR_NOT_SCIENTIFIC_SOURCE_ASSET"
+  },
+  "symbolic_characterization": {
+    "method": "musicxml-exact-rational-onset-grouping/v1",
+    "jga_observations_accessed": false,
+    "parts": {
+      "P1": {"source": "Piano", "measure_count": 32, "symbolic_event_count": 64},
+      "P3": {"source": "Double Bass", "musicxml_part_name": "Bass", "measure_count": 32, "symbolic_event_count": 127},
+      "P4": {"source": "Drums", "measure_count": 32, "symbolic_event_count": 192}
+    },
+    "score_extent_quarter_units_exact": "128/1",
+    "score_extent_seconds_exact_from_declared_conversion": "256/5",
+    "score_extent_seconds_decimal": "51.2",
+    "first_symbolic_onset_quarter_units_exact": "0/1",
+    "last_symbolic_onset_quarter_units_exact": "120/1",
+    "last_symbolic_onset_seconds_exact_from_declared_conversion": "48/1",
+    "deterministic_event_authority_buildable_later": true,
+    "event_authority_constructed_in_this_task": false,
+    "h02_candidates_constructed": false,
+    "correspondence_outcomes_inspected": false
+  },
+  "declared_export_procedure": {
+    "creator_authority": "PI declaration",
+    "source_application": "Sibelius",
+    "playback_configuration": "Sibelius 7 Sounds (Jazz)",
+    "exported_per_part": true,
+    "export_origin": "FROM BEGINNING",
+    "format": "WAV",
+    "bit_depth": 24,
+    "sample_rate_hz": 44100,
+    "subsequent_processing": false,
+    "trimming": false,
+    "normalization": false,
+    "conversion": false,
+    "manual_alignment": false
+  },
+  "independence": {
+    "identity_distinct_from": "CED-VAL-001",
+    "all_asset_checksums_distinct_from_ced_val_001": true,
+    "not_used_for_h01_or_h02": "PI_DECLARED",
+    "statistical_independence_claimed": false
+  },
+  "calibration_zero": {
+    "new_characterization_required": true,
+    "status": "MISSING",
+    "missing_authority": [
+      "CED-VAL-002-SWING event-level symbolic Calibration Zero authority",
+      "source-specific combined rendering/measurement characterization for Drums, Double Bass, and Piano",
+      "pairwise Piano-Drums and Double Bass-Drums calibration applicability and uncertainty",
+      "deterministic calibration replay and scientific fingerprint"
+    ],
+    "ced_val_001_numerical_results_reused": false
+  },
+  "h02_applicability": {
+    "frozen_rule_unchanged_applicable_later": true,
+    "execution_authorized_in_this_task": false,
+    "prerequisite": "CED-VAL-002-SWING Calibration Zero authority and separate PI approval"
+  },
+  "dataset_fingerprint": "8a32b9296056d465312ede6cb7de5a8ccf2decc323aa289dbc7b4200ec73afd4"
+}

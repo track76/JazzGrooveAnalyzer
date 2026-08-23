@@ -1,5 +1,33 @@
 # JGA Project State
 
+## CED-VAL-002-SWING Independent Controlled Dataset
+
+Status: INPUT AUTHORITY FROZEN — CALIBRATION PENDING
+
+- The new external controlled dataset is checksum-bound at
+  `$JGA_EXTERNAL_ROOT/datasets/CED-VAL-002-SWING/` without copying or altering
+  its three WAV stems or symbolic sources.
+- Drums, Double Bass and Piano WAV assets independently verify as stereo
+  24-bit little-endian PCM at 44.1 kHz with identical 2,478,080-frame counts
+  and exact duration `123904/2205` seconds. Sibelius `Export from beginning`
+  is preserved as declared common-origin procedure; no onset alignment or
+  trimming occurred.
+- Well-formed MusicXML contains Piano, Bass and Drums and supports a later
+  deterministic exact-rational event-authority build. Input-only
+  characterization found 64, 127 and 192 symbolic onset groups respectively;
+  no JGA observation or H02 outcome entered that characterization.
+- Dataset identity and all asset checksums differ from `CED-VAL-001`. PI
+  provenance establishes non-use in H01/H02 development; no statistical
+  independence claim is made.
+- A new Calibration Zero and pairwise applicability characterization is
+  required before H02 execution. The frozen H02 rule can later be applied
+  unchanged; it was not executed.
+- Canonical records:
+  `docs/scientific/controlled_datasets/CED-VAL-002-SWING.md` and
+  `validation/CED-VAL-002-SWING/input_authority_manifest.json`.
+- Dataset/manifest fingerprint:
+  `8a32b9296056d465312ede6cb7de5a8ccf2decc323aa289dbc7b4200ec73afd4`.
+
 ## Blind Rhythm-Section Event-Correspondence Hypothesis 02
 
 Status: LOW_RECALL — SCIENTIFIC CONCLUSION FROZEN
