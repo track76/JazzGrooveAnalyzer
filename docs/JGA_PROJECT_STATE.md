@@ -2,7 +2,7 @@
 
 ## Blind Rhythm-Section Event-Correspondence Hypothesis 02
 
-Status: LOW_RECALL
+Status: LOW_RECALL — SCIENTIFIC CONCLUSION FROZEN
 
 - `H-VAL001-RHYTHM-CORRESPONDENCE-02` preserves Hypothesis 01 as a frozen
   negative result and removed exactly its scientifically unjustified
@@ -20,12 +20,27 @@ Status: LOW_RECALL
 - Frozen classification: `LOW_RECALL`. The evidence is conservative and
   potentially useful, but production promotion remains unauthorized. No raw
   observation or production behavior changed.
+- PI acceptance freezes Hypothesis 02 as a conservative candidate-discovery
+  rule, not a complete correspondence model. It demonstrates limited blind
+  temporal-comparison discovery but no generalization beyond the controlled
+  render.
+- Before production promotion may be considered, the unchanged rule requires
+  one separately preregistered, checksum-bound, out-of-sample controlled
+  validation with blind freeze before Ground Truth reveal, deterministic
+  replay, complete provenance, contributor-specific evidence and applicable
+  Calibration Zero characterization. A controlled swing/walking-bass render
+  is preferred for representative out-of-sample evaluation without assuming
+  improved performance.
+- No numerical precision threshold is authorized. AD-040 `GEOMETRIC_ONLY`
+  remains production authority; candidates remain experimental evidence.
 - Blind/result fingerprints:
   `259246226fee627934708eeb9aafc8bd8eb8e3ebbe7340b76935f2a4c0d8b674` /
   `2bf5ddb3c40620c3ddf5ebf8cbf7aad6d6ed74d770481d8eb921b579ad96c082`.
 - Preregistration and record:
   `validation/VAL-001/preregistrations/H-VAL001-RHYTHM-CORRESPONDENCE-02.md`,
   `validation/VAL-001/run_20260823_115555/`.
+- Frozen conclusion:
+  `validation/VAL-001/H-VAL001-RHYTHM-CORRESPONDENCE-02_SCIENTIFIC_CONCLUSION.md`.
 
 ## Blind Rhythm-Section Event-Correspondence Experiment
 
