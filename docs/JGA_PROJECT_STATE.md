@@ -1,5 +1,16 @@
 # JGA Project State
 
+## CED-VAL-003 Strength-Max Correspondence Validation Preregistration
+
+Status: FROZEN — NOT YET SCORED
+
+- The 56 already-frozen unique-strength maximum identities are preserved in a
+  Ground-Truth-free predictor manifest before scoring.
+- Frozen Calibration Zero may score only where its existing authority uniquely
+  adjudicates a contained EME; unresolved authority remains `UNSCORABLE`.
+- No predictor recomputation, threshold, rematching, H02 rescoring or
+  production effect is authorized.
+
 ## CED-VAL-003 Within-Cell Strength Discriminability
 
 Status: PASS — FROZEN PHYSICAL DISCRIMINABILITY
