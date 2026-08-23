@@ -2,7 +2,18 @@
 
 ## CED-VAL-003 H02 Scorability Authority Audit
 
-Status: PREREGISTERED — EXECUTION PENDING
+Status: FROZEN READ-ONLY AUDIT — PASS
+
+- Complete deterministic audit explains all 56 unscorable candidates: 54 are
+  blocked by Drum `AMBIGUOUS_MULTIPLE_OBSERVED` authority and 2 by Double Bass
+  `AMBIGUOUS_MULTIPLE_OBSERVED` authority.
+- Candidate-discovery limitations, mixed limitations, indeterminate cases and
+  identity/provenance join failures are all zero. Blind candidate evidence
+  exists; the limitation primarily affects validation.
+- All 55 unscorable symbolic relations remain individually preserved. Frozen
+  precision/recall/F1 remain unchanged and apply only to 33 scorable candidates.
+- Audit fingerprint `34dafe33…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_205731/`.
 
 - `AUD-CEDVAL003-H02-SCORABILITY-01` freezes a read-only, deterministic audit
   of all 89 candidates, including 56 unscorable candidates and 55 unscorable

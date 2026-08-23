@@ -1,0 +1,3516 @@
+{
+  "audit_id": "AUD-CEDVAL003-H02-SCORABILITY-01",
+  "audit_scientific_fingerprint": "34dafe335a0965ff2321bfc176386b974f1ee5a0425e153894e96bde8f939348",
+  "blind_fingerprint": "a76e37eda621a266832a4fd347b9ac7334a3d12e2c94351dfdc5fa1dd9faa997",
+  "cases": [
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-9fc5e846c4c97069a2cecc24975508a082396d57ff73857d7633461df5af4541",
+        "candidate_count": 2,
+        "cell_index": 3,
+        "pulse_candidate_ids": [
+          "e695908e-3097-5e92-a39d-e8e38c6bd7c3"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "1c262618-afbe-5bed-b4bf-eeee8f6234fb",
+      "exact_symbolic_pair_authority_id": "CSP-2bcf80f645948acbcfd20fc8fbd7de6adb8d5e1c7a4e0c05a8d991c824bb0a7f",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-ced8b75ec4c61d99eadb509a62b96f737c505ba6eae700ff2ce665f722bb47f0",
+        "candidate_count": 1,
+        "cell_index": 2,
+        "pulse_candidate_ids": [
+          "0abb85a2-e0d3-54c0-ba9c-55f7d7a4dcdc"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "0a9d1dd4-3a2f-5ac0-8fa0-a57b6e21627c"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-a0abfa2c215a46647c1e32dee6b91b9177329a7d6101d469b676efe03e93d57c",
+        "candidate_count": 1,
+        "cell_index": 4,
+        "pulse_candidate_ids": [
+          "a039e90c-1e36-5d81-b457-adad4be0439d"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "b38ec420-09c1-50dd-9b88-8d318beb5bb4",
+      "exact_symbolic_pair_authority_id": "CSP-67f318504490aad17797430d199ab70c4138bd85fbe596388abec15f5398d8b1",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-04471ef1249bc85d17592a138f214517272e92f13977eb3ad53863f1e22c2095",
+        "candidate_count": 1,
+        "cell_index": 3,
+        "pulse_candidate_ids": [
+          "f21ea2a1-9506-59a2-afaa-2bf69e2caa0c"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "8145b152-8520-597e-b158-51df88347241"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-7225e2cc5536c3fbf016590135350632b1485866b5f23e82440923a80bb926e9",
+        "candidate_count": 2,
+        "cell_index": 6,
+        "pulse_candidate_ids": [
+          "41dfbb15-ea77-56fe-9ed7-05d023d5a319"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "ccb367fe-c815-5577-a639-427a380a49fd",
+      "exact_symbolic_pair_authority_id": "CSP-a822a4e5dac6f3c935c0e3a80f549c77924f0d34d20251426e78bf05d93114d7",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-974d2b47592a96b5c923087dfdc0fa681a551fc4fea95a2fdbb84704e116936e",
+        "candidate_count": 1,
+        "cell_index": 4,
+        "pulse_candidate_ids": [
+          "a11875ad-b22a-525e-a6de-ac2409f89a79"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "929be7d7-4253-59bd-b542-5183c86e2c9e"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-b6f876b9f4d1ebde110346f9ac04be0c99414774bf02ed32ed86cce0941224cd",
+        "candidate_count": 1,
+        "cell_index": 7,
+        "pulse_candidate_ids": [
+          "53bd8e5a-7a72-51d3-bb3b-604e15844af3"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "c909a753-87d7-5df8-a50e-b9d09aaeb5b5",
+      "exact_symbolic_pair_authority_id": "CSP-d9cd9b28f908fe25efdae908884cf1b5ee00a8f01a1be9af1f544caf4fa88c31",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-54ee01da9593d857d0197c8bcd11f4f0a6d11713d7da70c33784a9eb77017a71",
+        "candidate_count": 1,
+        "cell_index": 5,
+        "pulse_candidate_ids": [
+          "b923882f-6fcc-5f6d-bf9c-fb87fe0e4815"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "1f9d4e18-5f33-5369-9e14-0a6398a1ee31"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-5e2e5d4c48843322f7ea0d0161b44d94d6e9bdb1b12555f114b51efbf51f1beb",
+        "candidate_count": 2,
+        "cell_index": 9,
+        "pulse_candidate_ids": [
+          "9672080c-bfeb-5dab-94f8-d4e215333af5"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "a33da37b-fbcc-56a6-a1bf-41faed61c337",
+      "exact_symbolic_pair_authority_id": "CSP-1f71069c2d658fc1f285bd199530e99dce0bd09c40368f36f4a689109af3a228",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-66ac55fe1e1cca62dc57596db29f9c322b9913d756c1283ace87081bd8645c6d",
+        "candidate_count": 1,
+        "cell_index": 6,
+        "pulse_candidate_ids": [
+          "0808426b-0c92-524b-9f8b-ec11cd3b5b55"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "0cada9cb-1007-51a8-b49e-97b3b4c4589d"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8e0ffe283e34f8ded84cab3c0c3102d7afa299cb91b2b99e8058b40bd696d0fd",
+        "candidate_count": 1,
+        "cell_index": 11,
+        "pulse_candidate_ids": [
+          "14ebe9e1-741d-572a-8fa1-3a72027bad32"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "49721fd4-5046-56f5-afc0-363f75e89b52",
+      "exact_symbolic_pair_authority_id": "CSP-6abdda1025da27daf6dd618e5c9f0527e220abc27121aa3419e3a0ff6b96edbe",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-45a9aa73e41a69037876bb4b3e51e604c7ac9c74be711f55de3cbbb60aa08059",
+        "candidate_count": 1,
+        "cell_index": 7,
+        "pulse_candidate_ids": [
+          "bf796a64-2901-58c8-81b7-2868a2984924"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "67aae009-2251-5c3e-9286-3c2b4f343b63"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8fe2c4d901a521d3d246f7b021333a4ef645c153117ea5c9f0c014bd661b9e0f",
+        "candidate_count": 2,
+        "cell_index": 13,
+        "pulse_candidate_ids": [
+          "0eb02e45-0436-5a51-bca0-dcc10d48bf7a"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "576900f8-5aaf-5ba4-b209-0696f37dc3d8",
+      "exact_symbolic_pair_authority_id": "CSP-7b6cd796d38b46837e6ce0ee1de061e4ad10788c042112c0c3df1977b5ef7f3c",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-ddf3a3ec5a2071f494ceea8714641c7722e28a4ee75fbf584277fe6e6015c786",
+        "candidate_count": 1,
+        "cell_index": 8,
+        "pulse_candidate_ids": [
+          "ad94e91d-67c0-5dc5-98d6-4ad989d172d9"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "9bc75835-77b2-5614-affc-273d6d6c7ec2"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-eef6188341fffc257226a40784b617f64efe91e0d17eea05bed0a951c1ec8ad0",
+        "candidate_count": 1,
+        "cell_index": 15,
+        "pulse_candidate_ids": [
+          "273a32ac-c3d2-5eb9-9a3a-56c0278ebd1f"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "0c84c23b-05ad-5946-b5aa-c873ef2e98c5",
+      "exact_symbolic_pair_authority_id": "CSP-5904f70c891e1d03c5b464ecb941e4590f045f4becec95d4e4c2eda54c9ac80c",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-f3423ec8e8f8156b616f80eedda71ec5cd2e215b9aaffc0a151a9c37f83bd8eb",
+        "candidate_count": 1,
+        "cell_index": 9,
+        "pulse_candidate_ids": [
+          "cdf70c6a-d97d-581a-aa77-9c04ed76ea5f"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "73f2845b-4395-528c-9893-d18ddc533ad9"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-104dbdab448ac0dc15be96bae4c9b121a71bc42700ff6bf2f4d2e1d12c34bb92",
+        "candidate_count": 2,
+        "cell_index": 17,
+        "pulse_candidate_ids": [
+          "0c4aa38a-2de8-522c-9a79-5a6c02139394"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "dfefe236-3728-5ad5-8d34-3d72f463c5cd",
+      "exact_symbolic_pair_authority_id": "CSP-2c6ada89fc28ae78ed33e4e94ba94b1f37f2088180890f30cbf6264cebb536db",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-563b46ac7d158fa723854e9fd7604283525f200c6cbf6fcf52ca0784f79ad970",
+        "candidate_count": 1,
+        "cell_index": 10,
+        "pulse_candidate_ids": [
+          "d4cd11ce-5a80-5570-a0f9-6a23e30ac94e"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "d820dff8-88ab-54a5-883d-ddbc7434b9a3"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-bc442409fc8a5fbb71153b1cb027a9850ed5eab24c041a95457ff8b0ac17d1c9",
+        "candidate_count": 1,
+        "cell_index": 18,
+        "pulse_candidate_ids": [
+          "812ffac8-e8ee-53cc-87c0-89710f9eb630"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "9f81e388-b464-5874-bd29-d3310e4fb78d",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "FALSE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-33611b26a2fd1950c9643307ce95ca9d30791dc5097223058d060e61dce6facf",
+        "candidate_count": 1,
+        "cell_index": 11,
+        "pulse_candidate_ids": [
+          "1e00222b-c81a-53c8-9a1e-da4a44935664"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "fcb7b177-c951-555f-842e-89b659540934"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-1419188bf3e91f1251b1bcc2ba60bcb9192e3ecc61c2596f5524cfd2f3937016",
+        "candidate_count": 2,
+        "cell_index": 20,
+        "pulse_candidate_ids": [
+          "62401fc6-b9e2-50b1-9fbd-c16ce928ef79"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "283eebd6-8a44-53e1-bf78-1b4c412b880f",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-1412f691837b07406737ca2a935ccb67ed8be53eddf9d55286837ac99c2dbb31",
+        "candidate_count": 1,
+        "cell_index": 12,
+        "pulse_candidate_ids": [
+          "97f4bcc1-7323-5e9e-a1dc-b6847c9c63a4"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "491d75ee-2429-553f-a56b-53f23c734a49"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-1419188bf3e91f1251b1bcc2ba60bcb9192e3ecc61c2596f5524cfd2f3937016",
+        "candidate_count": 2,
+        "cell_index": 20,
+        "pulse_candidate_ids": [
+          "4dc2a1c4-bbd0-599d-91f7-151da9c1089d"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "00b2d2b8-36a7-5643-a069-3313da6604fe",
+      "exact_symbolic_pair_authority_id": "CSP-96401a0f7d49dd83d8da5a5a8d3b3d9e30ffc1a0f8e050f8fa9f41afb3d5b8bf",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-539be80322002832763087989f8d650c7b364f0aeb7cbd4b68aecbc517e97302",
+        "candidate_count": 1,
+        "cell_index": 13,
+        "pulse_candidate_ids": [
+          "887b91b6-15ad-56de-a137-18faa64811a7"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "d8c9a58b-93f7-5ff0-ad5d-8890fb07fa32"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-6184b8aba78c24552acb78d3fcdb08504f9e5c72f41bcc501fe8e4e00be4e632",
+        "candidate_count": 1,
+        "cell_index": 21,
+        "pulse_candidate_ids": [
+          "0140f427-d5c0-535e-829e-02e44c534c8b"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "217bfdbf-ae85-528d-a7fb-1e9a7b5defee",
+      "exact_symbolic_pair_authority_id": "CSP-35ab4364bf04b8df74998e311bcdeac93b9f5db661ac6ba10c019436709093ed",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-f8f850ac9bd2015aa7f0a8b0954fb95e2d8e713764cf5a4d15fc3793067242be",
+        "candidate_count": 1,
+        "cell_index": 14,
+        "pulse_candidate_ids": [
+          "bcf8558d-d80b-55dc-82ff-b85f8823713e"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "1b693e6a-067f-594c-8699-fe7af4abfa59"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8ec3b3f3de38eade2c2e5ab0e443091d3a9a48787332227a33bdb02d4c748a0b",
+        "candidate_count": 2,
+        "cell_index": 23,
+        "pulse_candidate_ids": [
+          "73c31e83-9563-5a7d-8c01-f46f93f3826d"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "c4e72dc0-2c9a-54d3-9ed3-64d36ce5d2da",
+      "exact_symbolic_pair_authority_id": "CSP-6281c3bacc8e0eb9d6b6497c4c93819ca3c69bc100c4d6f9f3061e90a06f4471",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-b20626b4103813fb793df5079352054e7ff112ac51536d64f8e86b238ec16952",
+        "candidate_count": 1,
+        "cell_index": 15,
+        "pulse_candidate_ids": [
+          "c42c066c-80b9-582f-be49-7700a42b9e6f"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "8ccab93b-e8f8-5493-8e78-5096b6001843"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-9a30d65adebf23b0d6402fb8d4e970b83dbf16782c8d1e84e672f651018f0707",
+        "candidate_count": 1,
+        "cell_index": 24,
+        "pulse_candidate_ids": [
+          "485ec5af-6b00-58cc-a497-3427714e93e8"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "06d27d2e-dfa4-5d82-b527-3a9d39363f61",
+      "exact_symbolic_pair_authority_id": "CSP-bb16dadd38f344562dd33a617bbaaaff6b822ab0847e04ce3e631256b903b543",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-164407a3da9aabf73e413b2832de5d4d84199d7b2b4e641ce6c06679853dd07e",
+        "candidate_count": 1,
+        "cell_index": 16,
+        "pulse_candidate_ids": [
+          "268ff685-36ec-53a0-999e-09a45eac8502"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "f5af9025-d339-5f10-8508-1d42ea1d0446"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-fef6762643ba8f305d221361698570081fb409421522907b4de99cde2ba044aa",
+        "candidate_count": 2,
+        "cell_index": 26,
+        "pulse_candidate_ids": [
+          "5e669f9f-0426-5c66-bba6-e6dbce093777"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "dc91d977-f3e7-5ea3-b2c2-f8f02dd08723",
+      "exact_symbolic_pair_authority_id": "CSP-c9c907a70599aa26957eaf4d397f8a892b8f18ebd406bedadc18e6a25cfbe4da",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-b0e007d982d5925bb7b35b90cb3e95455e154a3b8bfbfbe0b20dba27c418f124",
+        "candidate_count": 1,
+        "cell_index": 17,
+        "pulse_candidate_ids": [
+          "c9a8b027-4361-5a87-9c01-beab63ad00fb"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "ba3915ee-2574-5ad9-ad6b-0e18faff14d1"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-d776c1c67b638f849c6cd5341c11601baabe23a3fc85e3eaa9a194dbd7eac25d",
+        "candidate_count": 1,
+        "cell_index": 27,
+        "pulse_candidate_ids": [
+          "2e0ed812-8719-5abb-b922-cefcf4deaf26"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "b374dcf9-d103-5e85-b74f-f6c4933231c0",
+      "exact_symbolic_pair_authority_id": "CSP-927474ff3badeab40a45dee963adfbcea5dab55ea53826098f613612a2b9638e",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-b5bd9de82f349fa8221dc43a4e11163363de1634f25849ba7e7cfab04adb6c8e",
+        "candidate_count": 1,
+        "cell_index": 18,
+        "pulse_candidate_ids": [
+          "e4b2640b-95d6-5252-85b0-711a2254ce4e"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "ac6da7a6-d7b7-58b5-b472-7299fd440317"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-fbfa3c0cd00502893c583a13e111c7381ff4c97fb11670035c1a42ceffb96619",
+        "candidate_count": 2,
+        "cell_index": 29,
+        "pulse_candidate_ids": [
+          "29de3221-2add-5abe-8c52-3d66cc4a1493"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "26eb49eb-c969-5efd-9463-a8c82b16f00b",
+      "exact_symbolic_pair_authority_id": "CSP-a247c51beacca216162b42889504f6c8e78fdad29ec1f1a1acac07b5689c75ae",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-9150a284590610a7a724d26760c25b5a806816cc8a193046263a1f541074a033",
+        "candidate_count": 1,
+        "cell_index": 19,
+        "pulse_candidate_ids": [
+          "6f6c4ba9-b5b6-5eec-86a2-daacfd43aff4"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "7861a50f-3179-5d97-8956-bbd8d0fbf472"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-10ec4801da5e1ad3740f732bbe4b8c1bc67f0744635ea4c62641e1acca85ca84",
+        "candidate_count": 1,
+        "cell_index": 30,
+        "pulse_candidate_ids": [
+          "d8ea12b3-e0a5-57e3-b836-197063470466"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "b325a84e-fa15-5d72-a0c1-ff27609bc1d4",
+      "exact_symbolic_pair_authority_id": "CSP-274bfcbf72ccd99b58b0e7511274cee8eb74af3bbe208a06dc69c5996dcf6aa7",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-6bb6f5559ef87ff4e82ef2d707251308b1d8599f75a4bfe2981a27de45b4c2ce",
+        "candidate_count": 1,
+        "cell_index": 20,
+        "pulse_candidate_ids": [
+          "8814fe65-f12f-56d5-ac06-de6774466b43"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "45c611b3-9b92-5498-b738-a08cc90edbd3"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-3ff7df00f879d9921e5cea584a4e1a3b6fe13c59c444a0a8d40ae4de173e1808",
+        "candidate_count": 2,
+        "cell_index": 32,
+        "pulse_candidate_ids": [
+          "c0a278e6-cde7-5a6b-9e0f-da7cc552aca9"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "8e98c072-5ed4-5b79-a17c-ef98b239fa99",
+      "exact_symbolic_pair_authority_id": "CSP-f9c370b479e56225cacac765a5acc438d72e6373cc268a81e8311dea7614043b",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-9317ed2515b9058e854e768264e2c7a84a04c32e681fd62998c025e81c80300a",
+        "candidate_count": 1,
+        "cell_index": 21,
+        "pulse_candidate_ids": [
+          "b2682a85-fecd-509e-85d1-62d48269dd46"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "66e7e8c5-8fd4-5311-9e55-fb7aacbcce34"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-610ce46cf8339ba808ca8458cb11db3b85e7e857f84da1da424ccb1fee0bd56e",
+        "candidate_count": 1,
+        "cell_index": 33,
+        "pulse_candidate_ids": [
+          "ba76f02f-58f6-56dd-bcf0-69a112f8cc3a"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "a8b55d4f-e810-54e9-88f3-d881a87e6914",
+      "exact_symbolic_pair_authority_id": "CSP-77ecb9deead4b25f416fba4743012001b878a509f72a4962c66be2b7237bbe6b",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-2f172fc7ad038bc7b6e96bf59cf5baf362b9be33e97f25e25b47fa022c89fb4f",
+        "candidate_count": 1,
+        "cell_index": 22,
+        "pulse_candidate_ids": [
+          "82dcbccc-50df-56db-98f0-29b6b835aff1"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "086ae783-ccd1-5f3f-b87a-55ae6b616fc7"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-63e44818bd0bdd93582324ec98e9a89e4fd054ab3d9b44f1e27797536f61cb85",
+        "candidate_count": 2,
+        "cell_index": 37,
+        "pulse_candidate_ids": [
+          "1ae71f19-b104-5135-87bd-ee1ee475a1e5"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "98de1cf8-9da2-5b15-90b3-1ceeb2452cea",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-09fde51c4420f4219116666078865ef6fd99182d91caf4495f21d0a38bdf15bc",
+        "candidate_count": 1,
+        "cell_index": 23,
+        "pulse_candidate_ids": [
+          "0cb8adbe-7279-5883-baba-7b02ad9b985e"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "4b78882c-050f-5426-a2ea-6fbde84d374d"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-cbe0739737434dad80f8f8227bc67ae1aca7615dea05c841cdc95a0da7ac1e27",
+        "candidate_count": 2,
+        "cell_index": 39,
+        "pulse_candidate_ids": [
+          "b2549489-cd58-5386-a03f-6dbec1af6463"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "c9dee616-0b3f-567b-ab70-87fe318e7173",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-e14ecea39cf8eb9e63fc8c027df645fdb59b54bfcf01c79f709052047e512d58",
+        "candidate_count": 1,
+        "cell_index": 24,
+        "pulse_candidate_ids": [
+          "bc72f3e7-9408-548f-be74-0eec8919eb55"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "ce604056-2f3b-5427-a243-5c8f741fa523"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-cbe0739737434dad80f8f8227bc67ae1aca7615dea05c841cdc95a0da7ac1e27",
+        "candidate_count": 2,
+        "cell_index": 39,
+        "pulse_candidate_ids": [
+          "23ac564b-6978-5993-b330-acf23774149c"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "1682d815-65a7-55f1-b45e-02761a6d91e9",
+      "exact_symbolic_pair_authority_id": "CSP-126b5b3141412f13ce42ab138de9fc67748cd9abaa5fb114b500aa8f8ebe5f93",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-6109b0447fcc97cceb2d35689bc3832b8a0756b062bf45d1c5f757e39d0de669",
+        "candidate_count": 1,
+        "cell_index": 25,
+        "pulse_candidate_ids": [
+          "0ce1aa1d-a65a-50b2-83a8-8f6cb3602a39"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "5f39384d-b30d-56c8-85e7-87e664ccfbcf"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-4666bba5edb955d279f48176dd329d411e0031da5fe8929d594b42ef3d1a25d8",
+        "candidate_count": 2,
+        "cell_index": 50,
+        "pulse_candidate_ids": [
+          "13d05f5b-d034-5225-97ec-1e4b05c5d1d8"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "17e16563-45a4-5d65-97de-23503de83259",
+      "exact_symbolic_pair_authority_id": "CSP-ccb7cd4ce5e9c809fea772afaec74b7773739fb153d94a90947c41060bffa152",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-38c17e68acf28368b1742e7f0650e8ef4fca646c1045b611bf788a46b4f9e5ba",
+        "candidate_count": 1,
+        "cell_index": 33,
+        "pulse_candidate_ids": [
+          "1bb724f8-17d9-56f1-a7d2-a4217cb4902c"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "fa995d8b-80bf-5bcf-91af-d89d5d4ff36b"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-09080f6ea071b938de544793af7b7bd659b5fba707db30aa7b803896e47c97af",
+        "candidate_count": 2,
+        "cell_index": 52,
+        "pulse_candidate_ids": [
+          "8080d3d1-6d61-5ff0-a68c-1eb5827f422c"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "e1873f1a-8290-5fa4-8f84-98959cdcb3ab",
+      "exact_symbolic_pair_authority_id": "CSP-8fccbaae35da88a860cc9bccfdfc0722d47f2db84bc678f8b6baaa003425dc2d",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-f5308d5368efc2cc695414d2cab5a6ed2208aeeea94d1d0763061e7f67d0b1fd",
+        "candidate_count": 1,
+        "cell_index": 34,
+        "pulse_candidate_ids": [
+          "fb1daaac-bdcf-5b70-9ca4-4b5cdf94bfe4"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "36e9f097-1a74-528f-81e9-67412dd8845c"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-50f77ef88fecb961ec3955d0fa57bd4a994a7dacfc516dcedf7da49c16b0092e",
+        "candidate_count": 2,
+        "cell_index": 54,
+        "pulse_candidate_ids": [
+          "655acb92-fb67-5e64-b9da-f085a7b35920"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "13db7bdf-5b94-5d2d-98f5-99af8fe19105",
+      "exact_symbolic_pair_authority_id": "CSP-7afeaa85c906ebf473e44e4f25788a9d129de92c318ac75149403d1569be45f7",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-a6204f94118bf1912c593e2af526e184c613e42f12cebefa8d3270515ef98e84",
+        "candidate_count": 1,
+        "cell_index": 35,
+        "pulse_candidate_ids": [
+          "fef6499c-69a4-54ae-964c-dcb824a96770"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "1ac482be-bc07-51eb-a6ab-c9a2821d0df4"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-db612ba179b2b6322415d5242c8e74ee3948a12728f79842b3e6ac69dbf359cd",
+        "candidate_count": 1,
+        "cell_index": 59,
+        "pulse_candidate_ids": [
+          "87a19cf5-99d4-512e-b430-b6543a1dcf35"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "e1e68592-0f2b-5221-8fdf-560e9dd380d7",
+      "exact_symbolic_pair_authority_id": "CSP-99887275ecb361ecf8867ff3ff8d4a07a3f7dac066313fbd4ed29a43aaba62b0",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-2ca9bddf4b3c062b26bf0c3fb26326bdd79b0c3d29350bd13c0f206b5efcb500",
+        "candidate_count": 1,
+        "cell_index": 38,
+        "pulse_candidate_ids": [
+          "61edccf3-7cfa-5129-b01b-d5b047459ad5"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "a9aa3e03-cad5-522d-8b68-66d3799250c3"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-89026cfd25bb21f4aba5f49dfc1222e2a5b9757f9e6f933f5deac6ef31165c04",
+        "candidate_count": 2,
+        "cell_index": 61,
+        "pulse_candidate_ids": [
+          "8aa58a70-bf4b-5c0b-b21c-d2ad8000f405"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "cffa390a-7d35-5a37-97f1-a2f723a12d93",
+      "exact_symbolic_pair_authority_id": "CSP-5e696450ba704789a8505c1c9519255c26ed0798af0ac64a707b79e7f9b617cf",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-f2fd0a4b189d618a4d8749b69777d0ec0cee9771861b6e6c44aea3b9c35c31dd",
+        "candidate_count": 1,
+        "cell_index": 39,
+        "pulse_candidate_ids": [
+          "d5a9c20b-d891-5b50-954f-bf966d691289"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "453de0a0-0cf5-570b-9662-bcdd83ac0a91"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-5f5985c7541fd347431a10e7e01025d8f642a296f5f04643fdb6ce0bcb0fd6b4",
+        "candidate_count": 1,
+        "cell_index": 62,
+        "pulse_candidate_ids": [
+          "a19d3105-ed97-55c8-9f46-ef4e1469c569"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "a1dfceca-36b3-562c-85d2-b827892d1630",
+      "exact_symbolic_pair_authority_id": "CSP-6a9a5545aa7c5e48881ec5c4c9a7520234a4a35c628f80d30355167348a01b9f",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-f06310e97a01f0614c41dc7e1134782020a2fa66ce180ca69f400c4c9ab088e5",
+        "candidate_count": 1,
+        "cell_index": 40,
+        "pulse_candidate_ids": [
+          "0951a793-a6f9-5ed6-89da-1f57133ecd90"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "82027bc0-7207-5fc7-933c-4577ef20ddef"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-97f83dcfa3f76140e963d4160719f6cacd5e452db2680fe452ea2eff151bcd2f",
+        "candidate_count": 2,
+        "cell_index": 64,
+        "pulse_candidate_ids": [
+          "b57dbce3-e890-5b1a-9451-b5a72fc1f966"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "542acd43-7feb-577e-bf74-3f9224883d16",
+      "exact_symbolic_pair_authority_id": "CSP-32c8a6a6c6dbe77f1d0c6b545d963e23aaa81df69cc9807921ed0765b6d2d642",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-de9b73e61707dc9d1aa9300d3eb1adb80f6789112271bb5326c5a186bff938cd",
+        "candidate_count": 1,
+        "cell_index": 41,
+        "pulse_candidate_ids": [
+          "d3770190-c43b-5e0b-bee3-eeadcc5b8c49"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "fbb3c55a-e3ec-5b97-bb2b-ad90946b6d73"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-01fe01dbb656cc6340033f666a64b667858b46f547359836a483b9e6fa6f79f8",
+        "candidate_count": 1,
+        "cell_index": 65,
+        "pulse_candidate_ids": [
+          "feb33619-0b89-5ecf-a2a1-97d79234260f"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "9e7eb0dd-4523-5f2c-8cbe-0cd13d3f9cc0",
+      "exact_symbolic_pair_authority_id": "CSP-ff1229a3ed97a60733b2d7cb9775902cb8e6d1f1c61d6da9b441056735f39864",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-b6e68e344ed6c991250c1781af3962106c43f71832fac6a47b1ca75115e00086",
+        "candidate_count": 1,
+        "cell_index": 42,
+        "pulse_candidate_ids": [
+          "8d217e5b-ddbb-5dff-8ccc-e1c41740471c"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "7cbd4c46-2363-5db2-8d14-a22a254034d9"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-3170576634c2c25b5c588c3bc8c3f1b77bba054909cf559a7c2115152afe9863",
+        "candidate_count": 2,
+        "cell_index": 67,
+        "pulse_candidate_ids": [
+          "5e1c9346-c691-5621-b382-2c5832878809"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "8e5c6b30-ce9a-50f6-8ed6-a666124f06a8",
+      "exact_symbolic_pair_authority_id": "CSP-0ef1dd50a275c55e35ce9edcaaa0eb24b33798ea145c4f475289825b9048dc86",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-82895977977ecd0293976886074816a89428fd6edf376fce41c26f8cc8dcc1a3",
+        "candidate_count": 1,
+        "cell_index": 43,
+        "pulse_candidate_ids": [
+          "854ff481-1a9b-5513-b2c6-3be819e8375a"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "d6369a97-53af-5263-8f48-5e407b678cae"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-d6fc25771233bf68ff817b2bd2bd83676f635d5d6d61e8a7c0e70dd87c60a16c",
+        "candidate_count": 2,
+        "cell_index": 71,
+        "pulse_candidate_ids": [
+          "0eef0b4c-e4a6-55ea-8a52-861159f4f437"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "69e15ac3-993c-5d29-907b-4e03622a1229",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-deeebf4c6bdd9157735532208f401356d28f86493ba4ce3577bbd99d18cca378",
+        "candidate_count": 1,
+        "cell_index": 44,
+        "pulse_candidate_ids": [
+          "a8caab06-0b7b-5540-82f5-3414cc0f609f"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "da0cca76-74b9-50ab-8ecb-06172153cd44"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-81c8642eaeff14c31beceba43481b9155a6ceb5d1f8fd48f7ea522fb907f7696",
+        "candidate_count": 1,
+        "cell_index": 72,
+        "pulse_candidate_ids": [
+          "f6beee8a-1432-5fa1-a0d2-65b949dccde6"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "842b396b-c907-5a96-ba00-1e7abac6b03b",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "FALSE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-d9965756c3a581b526a141c0e08946494ae1cda46c35caf0587da4b5837bfbf5",
+        "candidate_count": 1,
+        "cell_index": 45,
+        "pulse_candidate_ids": [
+          "6b1d7e6a-dd6f-5333-8a3f-1d7a39b24327"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "e551a501-54af-57ad-a061-4ca164c4e5d4"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8f9e450cb23a522fb3785527dbc459fb4fb6757e936140ddcc8dc9703399bd87",
+        "candidate_count": 1,
+        "cell_index": 73,
+        "pulse_candidate_ids": [
+          "6f161aaa-0fec-5502-b766-6e359ea8f422"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "02e1a559-32b0-5a5f-8242-d7913a3e2a67",
+      "exact_symbolic_pair_authority_id": "CSP-25bb0c70c5babe3ae327779e2aefe44c1971415eb5a7a007161e3e6045b8df5e",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-78b27f19b2340fa0e3638452a9a2b6a0560b7d93e3100a3c5642758b1296011b",
+        "candidate_count": 1,
+        "cell_index": 46,
+        "pulse_candidate_ids": [
+          "1a9c459c-ba86-5dc9-af78-c4d8e2434101"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "575fda10-a844-57bf-b816-e273b94d1a2b"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-53166376512c2a982f8288609851dbd71f6749c001cba68881d6db8b341685b5",
+        "candidate_count": 2,
+        "cell_index": 75,
+        "pulse_candidate_ids": [
+          "63d7729c-cdf9-5016-8ee2-42541cb092dd"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "49f378f9-1bd7-5cef-9c27-6d69d87c8b00",
+      "exact_symbolic_pair_authority_id": "CSP-b99ae539b82420368c97cf713f1fafb7d33f7ea759d8f4f221369ca346e2f2ed",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-3ac1a07190e4419165c6111dee876c78ebf318684687218456f59f52e92a78ac",
+        "candidate_count": 1,
+        "cell_index": 47,
+        "pulse_candidate_ids": [
+          "4d77564e-ab80-5a8c-bff8-312c77e8b923"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "4d8aa040-ad90-53a7-8ec4-d5e32511ff0d"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-d2fbb595f86b52b800760c391f80ecfab81b822356ea294f28c493cd84db5e26",
+        "candidate_count": 1,
+        "cell_index": 76,
+        "pulse_candidate_ids": [
+          "3e7afd3f-a3e6-5b6f-bdb2-9ca078c92854"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "1f985d72-58ba-5ae2-8fd3-25cbfa5498b6",
+      "exact_symbolic_pair_authority_id": "CSP-81a6f4f28dcebe8639e31efb303c8ad52a1ed9ee60383c50a52d6e57d4d64db2",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-e72843773f582ae37f7f1fd9d9635ca94f50ec7475ce83465cd9de21ff8ac9d7",
+        "candidate_count": 1,
+        "cell_index": 48,
+        "pulse_candidate_ids": [
+          "42b841bc-7969-5534-b377-81385013b39b"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "1d81c66d-727c-5355-953f-7aae18f7d8d1"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-a2ebf39e3c36ffe80cd2769679fc871a35e6764a8fe9f829c6a818e242bd9127",
+        "candidate_count": 2,
+        "cell_index": 78,
+        "pulse_candidate_ids": [
+          "02822fc1-4f06-551e-b63c-cd83a77884a4"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "92261f1a-bfa6-5f86-8a36-3c893b1f4b43",
+      "exact_symbolic_pair_authority_id": "CSP-32c81cbd7de11fc2ee6c7f841469a753856e6363ef2b0dc3800dd3242e95acbd",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-34df3c37936621f30ea1a883033bb7dd4eee8c14dec3ac8764086064494f6be4",
+        "candidate_count": 1,
+        "cell_index": 49,
+        "pulse_candidate_ids": [
+          "75515fa7-d2ac-5726-84ff-6d5aacd671da"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "9bcdce4d-36cd-5bf3-ace1-6cf5cf8f9575"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-a85d51bdc00ba4946014d9cf36f6ddb6f74d2b96a7eef8845b592787135ab015",
+        "candidate_count": 1,
+        "cell_index": 79,
+        "pulse_candidate_ids": [
+          "9b857270-8595-549b-b7a1-e66f94c1735d"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "5fa1db90-8327-52ee-849b-43a4536236a9",
+      "exact_symbolic_pair_authority_id": "CSP-fb20bb1ab8feb2056999b0c56bd995e4250c3ad7ca3a5e2f1d5d40e0c5b04541",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-fabba29a8c13b3e7400e4836914743abfa55850e4304eaf8e2459c06d7fae75f",
+        "candidate_count": 1,
+        "cell_index": 50,
+        "pulse_candidate_ids": [
+          "8fff6fdd-fd43-567c-819d-0b8bcdd50045"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "69c2e276-6c6d-57e0-ab7a-973dc860f7ce"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-216540a8275e48481952442e7928e95a2501ccf1f6742b9941a5adfb483c4ca1",
+        "candidate_count": 2,
+        "cell_index": 81,
+        "pulse_candidate_ids": [
+          "03ee5c09-27d8-5b68-940d-73b124f58c55"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "50aec83a-258a-59ca-8433-5a6f359434d5",
+      "exact_symbolic_pair_authority_id": "CSP-d615757e4ae9a25d56f71a518b83dabecaa9b25d9b8108ced1ccf0fd25c30265",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-e04d515c2469cd84e2427fd6445fc07809999e241cab95b0c8c26940cc3c687a",
+        "candidate_count": 1,
+        "cell_index": 51,
+        "pulse_candidate_ids": [
+          "ebc8fab2-ac01-54db-991e-feeb9ec54566"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "7fe70e65-f713-5e6e-8115-8b1fd82f9c71"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-29b2625e40c797e77eff7891fa92df091df285f5b4f817517d3b0ff80b568197",
+        "candidate_count": 1,
+        "cell_index": 82,
+        "pulse_candidate_ids": [
+          "0383071f-4acd-5be4-a10e-68df06a3df7e"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "e20c257c-29e1-5021-a800-8bf2fa47a5cf",
+      "exact_symbolic_pair_authority_id": "CSP-d6bae8d9f5c4cd0ace7c28782d8de76132514b51dbc4c412691bd29d43025ffd",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-22d9e96d0050e6140ac822030ed07e51d5bd58555b3655cd5f6a544ec18eafe7",
+        "candidate_count": 1,
+        "cell_index": 52,
+        "pulse_candidate_ids": [
+          "e1eec934-7553-5cc8-86b0-50a569fb8e53"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "cfd0f5ad-51a1-5774-ad39-4efc97db3c2c"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-63c618186a51d1a3d88fa228e47575805cee43488ce755d07dd36c26ac2a3e66",
+        "candidate_count": 2,
+        "cell_index": 93,
+        "pulse_candidate_ids": [
+          "f67f62b6-f750-5a31-8797-6751427e7c44"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "46ddee5f-ef87-5939-b202-12f3cb6daf50",
+      "exact_symbolic_pair_authority_id": "CSP-669edf526231695ecf2e4639984e491b5f35658a5e649898389d0c6caed6c915",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-ca21106487406c03eb9c3a4224d18f5f6e7b03c322dc3dd5bd8b7f477f389cbc",
+        "candidate_count": 1,
+        "cell_index": 59,
+        "pulse_candidate_ids": [
+          "29113f0e-0aa3-5ad5-aee9-06f352e3f33e"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "d739fd3f-c789-5276-8bb7-4d57e92e5535"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-7669fd94deb56703b86c3625aa9b0e0c98d15a2685aad78622b72e410d48db82",
+        "candidate_count": 2,
+        "cell_index": 95,
+        "pulse_candidate_ids": [
+          "b2de0e77-667b-5ab2-a289-1e7845324ff6"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "5e9d37f8-94f1-5d5a-8944-a1f8e0b2f40c",
+      "exact_symbolic_pair_authority_id": "CSP-1e20c799ede1781b6da7d5a7b69df98c1789d9e069d6caff725177770e0e3fb5",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-17579b42ba89c03abb452d878c09b741e033545d4af7307835c8af762e3abc1a",
+        "candidate_count": 1,
+        "cell_index": 60,
+        "pulse_candidate_ids": [
+          "bf36f221-f775-527a-b99a-03f17bb86134"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "281bc343-9103-5094-89b5-658d48feeffb"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-2e0d0b9ae62616ce66fc65897486015b56d90e93c433360536f96a7d94973f45",
+        "candidate_count": 2,
+        "cell_index": 97,
+        "pulse_candidate_ids": [
+          "391701f5-92a9-55ed-9518-00752b46e831"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "6a783904-c046-5b6a-8617-15f5b54ff5fb",
+      "exact_symbolic_pair_authority_id": "CSP-727b65cb5f47d8c7bbdccdf79bfb345da4805f7f17cd30e47e2f35a8763af0e6",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-8acba244d8df7f32b6405da421170105b2bdb8147a6e1ccb7d3c0c8f83eb2084",
+        "candidate_count": 1,
+        "cell_index": 61,
+        "pulse_candidate_ids": [
+          "83cb8fb7-6750-5a62-b4ba-971e9846f91f"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "b3fe3347-5bdb-588b-8885-bf0f1219296e"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8220ffb0b30c510e00c14d6baf6a9a8abf0140bdc9057b939cc174225a6d26a7",
+        "candidate_count": 2,
+        "cell_index": 99,
+        "pulse_candidate_ids": [
+          "266ef372-ddb2-5ae0-9633-ac05b1451e7d"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "30f3730b-a58f-509a-80d7-f227370e66bc",
+      "exact_symbolic_pair_authority_id": "CSP-34ecfb2eda1fdb5fa83e1b1c384a7ee459d11b38ec9d1c423d8648a1aef0bcad",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-fd1eb4e1c109932b3d75a35a278ac610ee1b3605d35b4ab5c3e2a393ea3822b3",
+        "candidate_count": 1,
+        "cell_index": 62,
+        "pulse_candidate_ids": [
+          "b49e128e-ef74-55c6-9156-c25e21c88623"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "019226ca-4cf7-5eea-be39-a0d7448ea8e8"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-d69fa2ef89900e3eba4820863b94d514ebc62482eb438625173ad63437eb48df",
+        "candidate_count": 1,
+        "cell_index": 100,
+        "pulse_candidate_ids": [
+          "e932f3bd-5e03-59b8-96f1-a05ff18dd63c"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "1ebc97ef-5e05-503e-83b1-a354d1e7d55b",
+      "exact_symbolic_pair_authority_id": "CSP-d847815f6429ed4e6ae100b60aa547af39ac3897a4897c98d064132edaaf3088",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-7d1f1047fcb9ed81422d758f7e73ae70112952d195c084293eecb72192847e81",
+        "candidate_count": 1,
+        "cell_index": 63,
+        "pulse_candidate_ids": [
+          "51599d1b-2abe-5dd1-8724-a5b2ec0d5bb7"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "84af6dc6-64a4-5df0-9876-61dcdf4bbf56"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8c36a45d04a4173b12675bf7ea0ae8c40f1d7e52ffe027b5cceb3e534fcec0e7",
+        "candidate_count": 2,
+        "cell_index": 105,
+        "pulse_candidate_ids": [
+          "8a8e89c7-4c2f-5d65-870b-212752f20f62"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "46017b31-6fc6-5f3a-87be-cd5d849422cf",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-0d5d07eb46b0443ff4837154e9c74bf02c5655616b1367a0f29380be634f79da",
+        "candidate_count": 1,
+        "cell_index": 65,
+        "pulse_candidate_ids": [
+          "bfe1ff44-288c-5608-a68b-234527653041"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "3e7fa870-b1d7-5f01-811e-dff90dc00fe0"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "ACCOMPANIMENT_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-f8bf5c31ce752ca6d8c9c22ce7470aa0d8636eda616994cb6883700a71d13dd2",
+        "candidate_count": 1,
+        "cell_index": 106,
+        "pulse_candidate_ids": [
+          "8409feec-beeb-51c9-9342-0b5fb0e74fde"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "4f559a1e-7603-54b1-b4ef-d08eed997581",
+      "exact_symbolic_pair_authority_id": "CSP-be7572b21a20f05fe7ac54868646a0562d25cf4e4c148f57836b584b12c5d95a",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-586cfd34ea81eb71b37c9267c07be4eb6ac72b7d6a8e94b8d3f8aae0f47fbbc7",
+        "candidate_count": 2,
+        "cell_index": 67,
+        "pulse_candidate_ids": [
+          "1e97ec35-4cb7-5ba3-836c-5c8395c52399"
+        ],
+        "source": "Double Bass",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "source_eme_id": "81cf26eb-7418-5d5f-b846-f37e34165f7a"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-b9ab4fe17c777e20789f8ea15e5c29d7a72fb084ce19ba4cfbc86002a003ac36",
+        "candidate_count": 2,
+        "cell_index": 108,
+        "pulse_candidate_ids": [
+          "72332b84-66d6-5868-ac62-93d47925229d"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "497d4a05-c954-57f7-bec7-92727aa59b3d",
+      "exact_symbolic_pair_authority_id": "CSP-4d8616b9bc3e27290550785b737464f657ec6ca15bf001c46fe094b3dbfa5233",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-0234c4f03ec2d512b1a5375cc9a379efcc710a2e4b1e3db2c6153e9c5eacc586",
+        "candidate_count": 1,
+        "cell_index": 68,
+        "pulse_candidate_ids": [
+          "1c372e86-0a90-5549-a301-c99aa06bd821"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "16387ec7-18c6-5475-a9bf-0848b888f474"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-76471332d4b072fa212fd06191f727f091762c44544593e521b1e892ab41b661",
+        "candidate_count": 2,
+        "cell_index": 110,
+        "pulse_candidate_ids": [
+          "72f83d27-43b1-54ed-98fe-9963efbd01d5"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "153f5493-2550-504f-9c27-845e4415bed7",
+      "exact_symbolic_pair_authority_id": "CSP-591d636652c430c0a47aaecb77e022c40ef689c83f2082c0993b0edaebd01dfa",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-1c14d3cec4694495aa07d96b33bf7dfa259e99b52adede474d854112eccc5d5a",
+        "candidate_count": 1,
+        "cell_index": 69,
+        "pulse_candidate_ids": [
+          "59366590-16a2-5be4-8c2f-c58c36ba415a"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "8432430e-82f2-521a-8a94-cdf5ff2fc4d0"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-f6d40469eeab60a2779dff571505535bf43959b408d5584602fd6b985c14d388",
+        "candidate_count": 2,
+        "cell_index": 112,
+        "pulse_candidate_ids": [
+          "105bf138-43d4-5bc3-84c1-94cea5bdfa57"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "dc3861ef-413c-57ab-a886-b6af8258af63",
+      "exact_symbolic_pair_authority_id": "CSP-72ee1e806d3f1b933c609ef3f6dc70bb94a9ea5bd5e3b85bf875ca5763f53a1a",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-2464bb8d0d76d98020b96d182719f210d44c7713c13265ba5a611acfe8dbddde",
+        "candidate_count": 1,
+        "cell_index": 70,
+        "pulse_candidate_ids": [
+          "b9dfa9af-2bd9-5f67-95a0-b064cb2adbdc"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "c3b2555f-fcbb-55b5-8e9e-3dac9ffb7b30"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-2883f5911eecb282480112eb762fb3781091bf77c305c041dd41c1c7f70c9566",
+        "candidate_count": 1,
+        "cell_index": 113,
+        "pulse_candidate_ids": [
+          "2b32c096-3333-5055-a932-e2756eacb0d7"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "938fdb90-7239-5887-b05f-8b759a304326",
+      "exact_symbolic_pair_authority_id": "CSP-fd7a5e5e8f34766989c14416a465d156fb5c82783d65933c9286d892c17bd4f2",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-bf3c151f91c18260c019740ecdf2a0c73387de79a23f23967c31d5ded2d25ac6",
+        "candidate_count": 1,
+        "cell_index": 71,
+        "pulse_candidate_ids": [
+          "cd8e9555-b8b8-565c-af8a-d56c41929714"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "414f6b05-d1c1-5e77-9bf3-c1e465d443f4"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-b39b1f2bddc7dbe85824aa9aae45422092ab2591eb6fd64df3c1b72728daeb64",
+        "candidate_count": 2,
+        "cell_index": 115,
+        "pulse_candidate_ids": [
+          "ea6cd466-3346-5a03-be4f-1e536f365312"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "07bab1e9-ab27-5b47-b1e0-ca11b049a9e9",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-538835cec0ab6081924772e2e90bb4a5730ae6556d625f91b5a8338ccf06380b",
+        "candidate_count": 1,
+        "cell_index": 72,
+        "pulse_candidate_ids": [
+          "0345628b-b758-5bf0-a3ed-62d3a2a3d753"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "1d874e23-91be-5fcb-b6b3-806e8d3ed74c"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-c1bcda7db8423a70a9f975d210d0f04bf1bbb81eeca6123f28599469cf3dbddc",
+        "candidate_count": 1,
+        "cell_index": 116,
+        "pulse_candidate_ids": [
+          "758fd911-0472-5e4f-bf00-e0fe4e1f49f6"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "ee1f7c46-26e4-5476-a6da-508922edc467",
+      "exact_symbolic_pair_authority_id": "CSP-865d905b88a8e5db975ef68587f6a25bfe4b2c4e51f82456cec9d68c5c0677b6",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-d8fc207d7d2b908226feb673bda91f25aed26d8808edd9418055659602e259bb",
+        "candidate_count": 1,
+        "cell_index": 74,
+        "pulse_candidate_ids": [
+          "790f8427-828a-5726-ba7b-07a4fbeff861"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "ae0944a8-f078-5fd0-a23c-8e9bfb0778b5"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-d25b5d8645ac3c45f660a5660873b927784a6bb45769f7e8831e5a8c3aa5e645",
+        "candidate_count": 1,
+        "cell_index": 117,
+        "pulse_candidate_ids": [
+          "f7f026ed-6370-502f-8eb0-bd50671652dd"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "85f0594e-9c10-5e75-8a08-4dbbc0b40edc",
+      "exact_symbolic_pair_authority_id": "CSP-ba86abc23cef18f80b08e5755b470b42ff1ba7970f5f8b7ba68cd48e86cbeb38",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-4482e98e67e3c6231738d47fe95aeebb0238b40a7e9352eda987626b113756ab",
+        "candidate_count": 1,
+        "cell_index": 75,
+        "pulse_candidate_ids": [
+          "36593716-e0b5-54f6-8011-43b88ba22322"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "2e5074af-f0f0-58fe-afc2-3603f1a0afe9"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-814abcb5d01ad1b4a83921dc9adfc8ce8712cdcc48beb13c98957f7564bdb120",
+        "candidate_count": 2,
+        "cell_index": 119,
+        "pulse_candidate_ids": [
+          "384f4980-1943-5650-a048-301a65eb5032"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "4d7c46db-0a50-550a-9ed8-b06fe720334f",
+      "exact_symbolic_pair_authority_id": "CSP-2d9f9c2ef5df22e1e50b39e8b927dc2cec825ab4280dbaecf949e864e8f889d8",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-d2e21cb1eaaac1e3ee56ef2136f72d05ee6104a0bbfa62cc0d19679e89345ccb",
+        "candidate_count": 1,
+        "cell_index": 76,
+        "pulse_candidate_ids": [
+          "0f8c2503-bcbd-5688-b5d7-f0dc7ffaa803"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "2876d0ac-4da6-542f-a2a3-f4b8c0d97e57"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-0257df3d793f384e438fbb6e754fc05bc5e9085f23b6f9ce31195e17d3efba00",
+        "candidate_count": 1,
+        "cell_index": 120,
+        "pulse_candidate_ids": [
+          "117717d8-10fd-5b3b-8bf6-cabade62aa6d"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "3241fe5f-f3f2-52f2-999f-12645c5c9d88",
+      "exact_symbolic_pair_authority_id": "CSP-bce47b90e9f18833bb7013e8b1db83c485684d9013e8d9bdee7d5cc2e97f1861",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-84e8d16fdc68d312ffa42421ce66b3b018b92c4d9ab1de42eea8d34340343e4c",
+        "candidate_count": 1,
+        "cell_index": 77,
+        "pulse_candidate_ids": [
+          "4647d2d8-ef8f-501e-8174-d8550a1f7bbd"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "05f8a417-96d9-531e-aa2f-199941f4bb8b"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-94b2d02665093913b8a162fed6df7313472e0b98f410afa7715c04dd2d20a87f",
+        "candidate_count": 2,
+        "cell_index": 122,
+        "pulse_candidate_ids": [
+          "89f3a513-9530-5733-ae90-09da78e8f8ed"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "f8fd23a9-5501-51ca-bca5-43cbce8bcb46",
+      "exact_symbolic_pair_authority_id": "CSP-e1608312da37bd2341794ee807a0120c91bfc0bb6781bfc4eabd25125c2a3949",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-5dbce5352f0c0ad1291157ec2bcc50170763839926c73bf9da2e61514f2fb8f8",
+        "candidate_count": 1,
+        "cell_index": 78,
+        "pulse_candidate_ids": [
+          "f1891d8f-ada4-5252-9281-d43d452025b7"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "5c8cd908-91cb-5a78-8967-cb9aa0f717a3"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-4fc0d5481ab8b12bb5a9872b0f6cc341f0bbf405afc54f1b026e846cab24eb98",
+        "candidate_count": 1,
+        "cell_index": 123,
+        "pulse_candidate_ids": [
+          "ddde246f-3e7c-5d28-a5da-4e66f586affd"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "89fdedc0-d7aa-51ff-978a-86943c92eb93",
+      "exact_symbolic_pair_authority_id": "CSP-f460efafb7fc0487d0ab0d3f345f20e0192013a6f1a90b12f3e72b93889a6aae",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-083ebe166e46739e27e655cca58e74623e66e983761d6f3627958018c709b49c",
+        "candidate_count": 1,
+        "cell_index": 79,
+        "pulse_candidate_ids": [
+          "d45135e1-a766-510d-9169-0264d7a56845"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "4260b4c2-d6f3-5677-82a6-f1256f78ce29"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-9f350021e590b117e3803e5247bdaa1a2ea2369e2a6088a5c4981f41092f53ca",
+        "candidate_count": 2,
+        "cell_index": 125,
+        "pulse_candidate_ids": [
+          "e7cf38f0-9278-5534-9f64-8123102dc3ed"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "d28a5289-f36d-5ef1-80bd-96b8cd589fef",
+      "exact_symbolic_pair_authority_id": "CSP-8c79d9e2807a1464e9b5dfe59d7bd410061597b9dbd38c8a8954b8b91f0570a6",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-0264fe5943915c3dcef976bf96dc620de3033f612b2204e6d99623f758b9d619",
+        "candidate_count": 1,
+        "cell_index": 80,
+        "pulse_candidate_ids": [
+          "c4fcd98a-d416-54be-8c3a-c779716f975b"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "c9834d29-6201-5de0-aaf2-d28d382f73ed"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-41812e8e7f4a7faae15316636dea9e56bcec0f05724212ac676e2050268df707",
+        "candidate_count": 1,
+        "cell_index": 126,
+        "pulse_candidate_ids": [
+          "85fad015-7048-5eed-8c04-d123d0d6ef4e"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "325afd4e-cfac-555a-95a3-40c5f20121d7",
+      "exact_symbolic_pair_authority_id": "CSP-38968f4e1e71c6fc243eaad489b6feb8ce23f81cf31a4e3e412e98db98a897f3",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-72d47e9825a67a570093a4d67b00658d26aa7ce19f63aea4e931bdb8f1bbf635",
+        "candidate_count": 1,
+        "cell_index": 81,
+        "pulse_candidate_ids": [
+          "4091023d-e970-57e5-9357-06df67c59678"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "fa755ddf-de2d-5294-8943-8a7a037d3fbe"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-22d0209920a3636924ea9685e25491ac2ea1b6b08738996a1e8b2675af1fd700",
+        "candidate_count": 2,
+        "cell_index": 128,
+        "pulse_candidate_ids": [
+          "ee2cd5d0-d6fe-547f-9e1f-63ddfbcb2c1d"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "619d9038-ccc3-5e86-a9b0-af7b9bf5fcc6",
+      "exact_symbolic_pair_authority_id": "CSP-e7e2641925b69713653670c2b2405a2f36158728cf55392c8189b5db5dd03539",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-230a8e875e5a90d18268e252b2f92efb3e3f1a61c8800487b30aabed15459bc2",
+        "candidate_count": 1,
+        "cell_index": 82,
+        "pulse_candidate_ids": [
+          "7a23a4ea-b4b8-547c-a7c2-eb1d32627c1a"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "8c981621-eb7b-5710-9596-c0e3942d464e"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-89b037106de71f53646d19f03c82fb7259b4a9cf2c6c7064e60bd6b3a8274197",
+        "candidate_count": 1,
+        "cell_index": 129,
+        "pulse_candidate_ids": [
+          "e7599252-a7bf-5cc9-88a6-bd472fe59970"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "27c1f38b-ded7-565c-a58c-24beff6178d7",
+      "exact_symbolic_pair_authority_id": "CSP-fe200c3206787a27dddb6576439012508796c33f34287907b6b2778f6e942021",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-13aaf29830c1c8980c00870eef9e959cdd5aab8fa0b79cb9328285cf5166171c",
+        "candidate_count": 1,
+        "cell_index": 83,
+        "pulse_candidate_ids": [
+          "2764aada-47ce-5fb8-a7e4-87413e19f28e"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "75be972f-e8ce-5796-a54a-8cd465b27987"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-a79f7b14328bb400db7177ca568e603b36262e379eac5f24d487c8d03e256909",
+        "candidate_count": 2,
+        "cell_index": 131,
+        "pulse_candidate_ids": [
+          "57c0599e-9206-5508-8094-cfe4950976ac"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "f77c0834-f5e9-5f33-bcbf-e644b685f9fb",
+      "exact_symbolic_pair_authority_id": "CSP-8a6ba6cc44f5fa70f05be774db59373303d677b692db76eb9c9220a79d33699e",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-32034a40b58eaf52027465d6bd1a61f41f787685f71cc85aeb7bf0b17e6f3288",
+        "candidate_count": 1,
+        "cell_index": 84,
+        "pulse_candidate_ids": [
+          "fff29511-235f-5400-b6c4-631e5af46f7a"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "9ff6c0a8-96c7-5739-aab9-4552f36f611c"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-9a22824473947e4529a774efb14230adf08dd344f9fd29ff058d005afae8f3f0",
+        "candidate_count": 2,
+        "cell_index": 133,
+        "pulse_candidate_ids": [
+          "81528d06-184f-5d9e-a21c-fb11e80697e7"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "834d32ce-9c6a-5083-8408-2340f96ff3ea",
+      "exact_symbolic_pair_authority_id": "CSP-b349fbdc28b8fcbc490ad26450638ec5376dc454f5c4fbbc11ba6013c2487fdf",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-7cca773886871ec0fa48fbc0f24a2c5b927fedc8b115ae6a0aaad6ad091d074d",
+        "candidate_count": 1,
+        "cell_index": 85,
+        "pulse_candidate_ids": [
+          "5bfbc24f-cc09-554b-bf35-b2afdf531a0d"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "0704b2e2-9003-5d05-a377-311c1156c522"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-7344c35bd83196cf4434ecbe075000befa0c03e0cecc76ab2b74829c396aab79",
+        "candidate_count": 2,
+        "cell_index": 135,
+        "pulse_candidate_ids": [
+          "a2e17efa-5dd6-5311-9238-59429df8bc57"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "4c5651f0-51c3-5157-9e46-94490cf7f045",
+      "exact_symbolic_pair_authority_id": "CSP-50f6ee6f9052850489ae50455af87a70a54f8c9218b79e9a1971ad76838a79eb",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-0ab3a564c62d19eef94db36dbc5ffa47db5bc47b4f5d62c9b9df5cfa8bade6f4",
+        "candidate_count": 1,
+        "cell_index": 86,
+        "pulse_candidate_ids": [
+          "412550eb-561c-5e5d-8deb-9d4ba96690de"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "35ea0734-307a-5058-8b1e-aa7de20018b4"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-d713253dc5612c8b81660c7867d4f9f5f77e6aba58f5db8cbfef41e066272518",
+        "candidate_count": 2,
+        "cell_index": 137,
+        "pulse_candidate_ids": [
+          "ff6d186b-0d98-5b4e-a186-3119a06c3686"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "d1303272-832e-5efa-a363-61f2d107f7d3",
+      "exact_symbolic_pair_authority_id": "CSP-18999f10378142ccce0ad2f9788bcb8b25ff0c1bfbd150458e49aee1cea3ecf5",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-a52cd2b822d8fca0f3c071261d094ad9efa84f67ea97eb124aad0a51840d4d62",
+        "candidate_count": 1,
+        "cell_index": 87,
+        "pulse_candidate_ids": [
+          "99007fbf-6299-5d55-8579-58186a1cfff5"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "ef676fcc-1aaf-5332-90ba-b38755c23071"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8af99ae83a21d4e1e1900598b0a6345f8fd9487ddb901650f519f2a88e3e8628",
+        "candidate_count": 1,
+        "cell_index": 138,
+        "pulse_candidate_ids": [
+          "559aa9d2-a80c-5c52-a12b-2cf101e6bf51"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "cf9a6995-8e96-50af-920c-e9c1de3e0938",
+      "exact_symbolic_pair_authority_id": "CSP-fc33714338dda20cbc6b8692208ceb93d525ab3f1a7b36668d2c8df42dcf2a77",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-1562d97f1e993a0af1d737fc53d2102aa641d84bac71e6fdbb84631b0ecba8a6",
+        "candidate_count": 1,
+        "cell_index": 88,
+        "pulse_candidate_ids": [
+          "a3f68f52-0c11-53b9-a217-3f92e3262abe"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "d3066bf8-8159-55a2-bbd8-b080b5e04d2f"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8d4f0231da5984893122e6f4d3bfca437072757ace9a1a2ada936df459874c61",
+        "candidate_count": 2,
+        "cell_index": 140,
+        "pulse_candidate_ids": [
+          "74b881eb-3f5d-5e22-a817-ace02f4d8f9c"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "dbf64e9d-4947-5b79-bd0b-1e70533938ae",
+      "exact_symbolic_pair_authority_id": "CSP-6e4f855ba09770dd5f6bf7f0a8224d1387bc9442c48407ac1970a9985c97edf4",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-aa2cd75269ac992fcffa118068551eb6ce04324ad48f37d385bd8735c960e5c7",
+        "candidate_count": 1,
+        "cell_index": 89,
+        "pulse_candidate_ids": [
+          "719eab13-6c2d-50f7-aec8-a36f509daa20"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "9ca9944a-021d-5d46-a4f4-decfdf9d22e1"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-c24d11022a535d69eafbe36c879cf43738019a4d3141bff9716f98117096c5d8",
+        "candidate_count": 2,
+        "cell_index": 143,
+        "pulse_candidate_ids": [
+          "7e044d2f-f9bc-5fd3-b9a5-e97f7ba3c3d4"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "b8005835-15c3-5ac9-a266-0b084f49fa67",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-6ea590f6e99d65d8b0585460f5036b5c6010fa5489002a05c2d52e738318e754",
+        "candidate_count": 1,
+        "cell_index": 90,
+        "pulse_candidate_ids": [
+          "a439ce67-213e-5c8f-8875-638ef12bfcc0"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "db8c291d-91db-50b4-9ca0-55c1817b12bf"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "ACCOMPANIMENT_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-2d7fc5ce8a0d4c6c33124652460b2830c855210b1173cc2e1165aec0f8544c7a",
+        "candidate_count": 1,
+        "cell_index": 144,
+        "pulse_candidate_ids": [
+          "f28b3707-3b10-519c-a644-cc735c72784b"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "07b7a373-7354-5211-8753-cff67ea934bb",
+      "exact_symbolic_pair_authority_id": "CSP-809c5eede5c6706083b3eb03aeaf2c7172b0782ef06d36b1e7e9e1c0d9ef80b8",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-90cb42960afe76b7f411569e34afb84f0e58e506a13d02ab86955c214301b872",
+        "candidate_count": 2,
+        "cell_index": 92,
+        "pulse_candidate_ids": [
+          "ddb08501-ea5a-5021-8196-2c468981fbb9"
+        ],
+        "source": "Double Bass",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "source_eme_id": "033f4a6f-f332-5da6-a6b6-b1266735c3c9"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-e621bfc1a9f4ad458c9c433e14f6924fb3c9d4db08920bc085755c2355746743",
+        "candidate_count": 2,
+        "cell_index": 150,
+        "pulse_candidate_ids": [
+          "b93ca00c-96ee-50c0-aaf3-482a269fd83e"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "2adce5a3-d85f-58f1-94da-24245fc81a29",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-a46b98345c3d2c933e4eba3990e33ae78d73c4cee144b13fa8f3c79a25f0120c",
+        "candidate_count": 1,
+        "cell_index": 95,
+        "pulse_candidate_ids": [
+          "bfd76d12-3536-53c5-a7f6-7bc560a101e5"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "726c6952-8d2d-554d-92c7-5ba18dd0d9c3"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-e621bfc1a9f4ad458c9c433e14f6924fb3c9d4db08920bc085755c2355746743",
+        "candidate_count": 2,
+        "cell_index": 150,
+        "pulse_candidate_ids": [
+          "0cf95e54-6799-5794-ae08-a6a1fc93bc57"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "fe41d425-5ebd-5948-bd90-7a0c8b313e90",
+      "exact_symbolic_pair_authority_id": "CSP-1a394831de60662149f3fcb454d8b94e9a92d5543a25790f9919f98ac6129b3e",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-5badd79f78e783a43dc1d429c333e783bc072e6314972dd5a356bf9a2e332e41",
+        "candidate_count": 1,
+        "cell_index": 96,
+        "pulse_candidate_ids": [
+          "a6113d5f-a3cd-5684-ac4e-900426c8c72d"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "83026881-c01d-54fc-b42f-ae126c0d3d98"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-14fc1b96ca17072a775001c53a2434b628774cfaa3f335378998b399e0292172",
+        "candidate_count": 1,
+        "cell_index": 151,
+        "pulse_candidate_ids": [
+          "55ffbc03-4b0f-543f-a9d6-541be136b8ea"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "b853c92b-a3a9-568b-9fff-4e510b2ad0cc",
+      "exact_symbolic_pair_authority_id": "CSP-db864372fa4f9ac16c9dccdf3ca6d2200f6df109bf003bb072928ff39ab90d4a",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Double Bass",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-21257cc4ac5d5ef78325e3ea258aeaaaee4345cfe38c491ad4430cb345933d2c",
+        "candidate_count": 1,
+        "cell_index": 97,
+        "pulse_candidate_ids": [
+          "cd0ce8e5-dd4c-5e91-907d-07bb3b25c1d9"
+        ],
+        "source": "Double Bass",
+        "status": "VALID"
+      },
+      "source_eme_id": "6f22d2d0-736f-562a-a726-f8a3a8c56944"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-8fe2c4d901a521d3d246f7b021333a4ef645c153117ea5c9f0c014bd661b9e0f",
+        "candidate_count": 2,
+        "cell_index": 13,
+        "pulse_candidate_ids": [
+          "b0639575-0d91-53e9-8578-8ac233689edf"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "1e9d0573-ab9d-5039-b2f7-40fe2e296bf2",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-d01db18e87c41840d9e132a4a3cc7468c0223f77a0d4fa89942466e1c19697aa",
+        "candidate_count": 1,
+        "cell_index": 4,
+        "pulse_candidate_ids": [
+          "a6f2dca0-9bf1-54d0-954f-6bd361b99b9e"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "16e7c140-6066-5bdd-9859-2359549312fc"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-eef6188341fffc257226a40784b617f64efe91e0d17eea05bed0a951c1ec8ad0",
+        "candidate_count": 1,
+        "cell_index": 15,
+        "pulse_candidate_ids": [
+          "273a32ac-c3d2-5eb9-9a3a-56c0278ebd1f"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "0c84c23b-05ad-5946-b5aa-c873ef2e98c5",
+      "exact_symbolic_pair_authority_id": "CSP-7acc4aebc2668edb73e54a5f02cd884f4a5eb23830bd98f26962eba3d790aecb",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-289d9626c94525da6da3232ed1e2f5e9797ce2c81ca242e60343afa08d4d5bf4",
+        "candidate_count": 1,
+        "cell_index": 5,
+        "pulse_candidate_ids": [
+          "c75299c7-bd80-536d-a658-39cbe0f304a7"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "c4c4bf97-f394-58d6-aa51-cd84652ab44a"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-3ff7df00f879d9921e5cea584a4e1a3b6fe13c59c444a0a8d40ae4de173e1808",
+        "candidate_count": 2,
+        "cell_index": 32,
+        "pulse_candidate_ids": [
+          "797b6d45-90ff-575d-9369-75ebe69cdc4f"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "457a7937-5a8e-5d8a-90f7-e6addd56d6ab",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-f98c3f40a908f22f4b10c6e9a5d5d86256a1d7104f503ca4465d460aafbd8883",
+        "candidate_count": 1,
+        "cell_index": 13,
+        "pulse_candidate_ids": [
+          "0d95b22d-5343-52a8-9bdc-38f593e1bfd2"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "bebba4cf-c656-52bf-a68b-1270eb29627d"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-610ce46cf8339ba808ca8458cb11db3b85e7e857f84da1da424ccb1fee0bd56e",
+        "candidate_count": 1,
+        "cell_index": 33,
+        "pulse_candidate_ids": [
+          "ba76f02f-58f6-56dd-bcf0-69a112f8cc3a"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "a8b55d4f-e810-54e9-88f3-d881a87e6914",
+      "exact_symbolic_pair_authority_id": "CSP-ae1db5b21bb80ec217730d908ed81fb0aa811b15ca33152483b3de5999d5a089",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-e5219289ebae5a3711c10aadae0d6dd59dd7f7c62e111b153562fb21e9f15865",
+        "candidate_count": 1,
+        "cell_index": 14,
+        "pulse_candidate_ids": [
+          "4be6c394-cb7b-5e2a-b386-9369a89cc648"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "6e7a6d4c-e53f-554a-ad05-b9c622f71dd0"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-c8b877a87aa7d86a19a53da52787632a3fbdb54dbb62bcd0731f4c9b96407bb9",
+        "candidate_count": 2,
+        "cell_index": 44,
+        "pulse_candidate_ids": [
+          "0253237e-7a82-59cd-8b27-02b3f496ab8a"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "5805ac09-915d-5b5e-8790-2e0f47deb10b",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-472a1b652537c9447f23291d5e2983b6f573ed07b95bb22e68ff7e0e76e91422",
+        "candidate_count": 1,
+        "cell_index": 17,
+        "pulse_candidate_ids": [
+          "a0a787b6-e07f-5e61-9828-7deb5120cc35"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "ccf94540-fc51-52c4-948c-29a53b8cf71c"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-4666bba5edb955d279f48176dd329d411e0031da5fe8929d594b42ef3d1a25d8",
+        "candidate_count": 2,
+        "cell_index": 50,
+        "pulse_candidate_ids": [
+          "13d05f5b-d034-5225-97ec-1e4b05c5d1d8"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "17e16563-45a4-5d65-97de-23503de83259",
+      "exact_symbolic_pair_authority_id": "CSP-d72c4811c241e1bce895ca082f1406fc8740d763d465f85f71be5d6f582c30d3",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-0c26a5e8c862cbd371e60e5fe2826870d6e84357429c667155ba7ce57ab9c414",
+        "candidate_count": 1,
+        "cell_index": 18,
+        "pulse_candidate_ids": [
+          "a00947aa-8e15-529d-a653-7d3e67e5601c"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "31af36af-876f-55d2-83db-513b601b6c89"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-89026cfd25bb21f4aba5f49dfc1222e2a5b9757f9e6f933f5deac6ef31165c04",
+        "candidate_count": 2,
+        "cell_index": 61,
+        "pulse_candidate_ids": [
+          "4661ff99-6750-57a6-8994-37aec2bb4295"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "bf593e41-53b5-5b3c-a49f-8707e58a4610",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-588526030d0a6403b6ef22b37bc02da31c9757a2a59a3559c79e7d489f936df7",
+        "candidate_count": 1,
+        "cell_index": 22,
+        "pulse_candidate_ids": [
+          "b6a7d00a-198d-5c77-b6a7-c501e140f19b"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "3b4f5cc4-6850-57d9-aa61-723905fe60c9"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-53166376512c2a982f8288609851dbd71f6749c001cba68881d6db8b341685b5",
+        "candidate_count": 2,
+        "cell_index": 75,
+        "pulse_candidate_ids": [
+          "8de2b48c-bf5c-5353-98a8-2b4498d9aeb5"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "73d5e100-484a-5004-ae00-f00e262f2cd1",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-d703a69a60e5566b2b7de5ac8f0fd9a6785b0c72b8d790da3c59932af8c41ea9",
+        "candidate_count": 1,
+        "cell_index": 27,
+        "pulse_candidate_ids": [
+          "06e19304-4aa0-55a5-9c89-eb7f0a26ad6e"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "40706da0-6801-5995-b2f0-8c174e9315d4"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-a2ebf39e3c36ffe80cd2769679fc871a35e6764a8fe9f829c6a818e242bd9127",
+        "candidate_count": 2,
+        "cell_index": 78,
+        "pulse_candidate_ids": [
+          "02822fc1-4f06-551e-b63c-cd83a77884a4"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "92261f1a-bfa6-5f86-8a36-3c893b1f4b43",
+      "exact_symbolic_pair_authority_id": "CSP-49291ca2b6f2bd697a9ed2a1b3d922a9f6bf080b879ce5a8a6d355df1ddba64c",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-4882146470602f186a8367785853d9d0b74afdd1b0c88b7e1885e3205627e80c",
+        "candidate_count": 1,
+        "cell_index": 29,
+        "pulse_candidate_ids": [
+          "5f395bb6-500d-5241-9d59-3e96c74904e6"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "8d27d85f-56db-5b3a-8a18-16fc8e6d2acb"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-2883f5911eecb282480112eb762fb3781091bf77c305c041dd41c1c7f70c9566",
+        "candidate_count": 1,
+        "cell_index": 113,
+        "pulse_candidate_ids": [
+          "2b32c096-3333-5055-a932-e2756eacb0d7"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "938fdb90-7239-5887-b05f-8b759a304326",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "FALSE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-38bc7569e545618812427f1ea1e6d7d2be0d9d7cd616ac6a7adcf34ac785eb51",
+        "candidate_count": 1,
+        "cell_index": 43,
+        "pulse_candidate_ids": [
+          "2844f6d3-c8f8-5125-bddc-6bcf663e7177"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "03fe077f-79b5-5a1c-ac53-2564a90b2723"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-814abcb5d01ad1b4a83921dc9adfc8ce8712cdcc48beb13c98957f7564bdb120",
+        "candidate_count": 2,
+        "cell_index": 119,
+        "pulse_candidate_ids": [
+          "8a84ae20-af3d-5a36-a267-a7bfd4007326"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "ab7a3180-655f-5fd0-8947-7d5d32c3ce5b",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-331d6d53ac3063c659a1ebfad672d3315c38a9449ea2debc998d2e14727a5b1c",
+        "candidate_count": 1,
+        "cell_index": 46,
+        "pulse_candidate_ids": [
+          "ecc37f11-dc0d-5e8a-9c15-452e093c9093"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "946d14a6-d09d-5018-bd11-5a4ece6cb787"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-89b037106de71f53646d19f03c82fb7259b4a9cf2c6c7064e60bd6b3a8274197",
+        "candidate_count": 1,
+        "cell_index": 129,
+        "pulse_candidate_ids": [
+          "e7599252-a7bf-5cc9-88a6-bd472fe59970"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "27c1f38b-ded7-565c-a58c-24beff6178d7",
+      "exact_symbolic_pair_authority_id": null,
+      "frozen_score": "FALSE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-37b15d74c07ca4a76157e8d6dcaf36d1d5883dd8474f2ccd65919b7171bc7383",
+        "candidate_count": 1,
+        "cell_index": 50,
+        "pulse_candidate_ids": [
+          "a21a90ff-4d05-5c83-903e-3d1be7353d24"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "9c86ee5c-cc78-5249-8c37-e3c6f7ae32f6"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-d713253dc5612c8b81660c7867d4f9f5f77e6aba58f5db8cbfef41e066272518",
+        "candidate_count": 2,
+        "cell_index": 137,
+        "pulse_candidate_ids": [
+          "ff6d186b-0d98-5b4e-a186-3119a06c3686"
+        ],
+        "source": "Drums",
+        "status": "AMBIGUOUS_MULTIPLE_OBSERVED"
+      },
+      "drum_eme_id": "d1303272-832e-5efa-a363-61f2d107f7d3",
+      "exact_symbolic_pair_authority_id": "CSP-a7f6ebf2695857cb8447f7cbe02393dff1a6cca8fb0e340ad300323354bf4982",
+      "frozen_score": "AMBIGUOUS_UNSCORABLE",
+      "high_level_category": "CALIBRATION_SCORING_AUTHORITY_LIMITATION",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-eeeb98e39a44055b7fd73a4e591e621d1ad704abc67b7df80c84910e3300c628",
+        "candidate_count": 1,
+        "cell_index": 51,
+        "pulse_candidate_ids": [
+          "f1ba3444-65ac-5cbf-9652-d8d66a2320b7"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "de538e86-c842-541e-bcc1-5e4e1387a7b0"
+    },
+    {
+      "blind_status": "BLIND_CANDIDATE",
+      "candidate_changed": false,
+      "candidate_identity_and_lineage_complete": true,
+      "cause": "SCORABLE",
+      "drum_authority": {
+        "calibration_symbolic_event_id": "CSE-2d7fc5ce8a0d4c6c33124652460b2830c855210b1173cc2e1165aec0f8544c7a",
+        "candidate_count": 1,
+        "cell_index": 144,
+        "pulse_candidate_ids": [
+          "f28b3707-3b10-519c-a644-cc735c72784b"
+        ],
+        "source": "Drums",
+        "status": "VALID"
+      },
+      "drum_eme_id": "07b7a373-7354-5211-8753-cff67ea934bb",
+      "exact_symbolic_pair_authority_id": "CSP-a241091b27cf0ace46771d26125ac657040f55c7269c8fa61fda31a47b62b163",
+      "frozen_score": "TRUE_POSITIVE",
+      "high_level_category": "NOT_APPLICABLE_SCORABLE",
+      "score_changed": false,
+      "source": "Piano",
+      "source_authority": {
+        "calibration_symbolic_event_id": "CSE-3a359187c68903f8cb40766a71d7fc4c3d4a278fde6777174612af48d058ab7b",
+        "candidate_count": 1,
+        "cell_index": 54,
+        "pulse_candidate_ids": [
+          "f024ae5d-e009-542f-8229-5b966f5a3ec5"
+        ],
+        "source": "Piano",
+        "status": "VALID"
+      },
+      "source_eme_id": "50a951e0-57f7-5c5a-9f2b-c7a0aeb5a09b"
+    }
+  ],
+  "deterministic_replay": true,
+  "input_checksums": {
+    "blind_result": "061968ece6e534d097b18936488c4fa551b216e9bb55beece4ba87cf8f13172a",
+    "event_results": "3c2d22300de63de57885a1c786dea1679136410860558f3e093e6bf2b5233c31",
+    "pair_authority": "10cee0e96fc21b854714f426ca27543b94a63071b19861c7e28832f7e790fbf7",
+    "pair_results": "a25cb0179f0f527b86d309d06da2c8ebb33d2e1afda63d0ff54ce5f5d7059a8e",
+    "preregistration": "4dfa806eea4a3a268f9b41133506922b3b0fbca23cb8d859dde4159776a49614",
+    "scoring_result": "993fd8c05285e2402c03f7e813f3dfbbc30e54c40a5577e195c9c31997796828",
+    "three_dataset_conclusion": "f416d8efc8c10b520bc5257a475f075b022ba343ff1c615e6316798afd2d686c"
+  },
+  "schema": "JGA-H02-SCORABILITY-AUDIT/v1",
+  "scoring_fingerprint": "374ab02a71c0e583bba33b5723550c50c935f4d4fd11722085f1d368170d0987",
+  "status": "PASS_FROZEN_READ_ONLY_AUDIT",
+  "summary": {
+    "all_unscorable_explained": true,
+    "audit_population": {
+      "blind_candidates": 89,
+      "blind_unresolved": 61,
+      "unscorable_candidates": 56,
+      "unscorable_symbolic_relations": 55
+    },
+    "by_source": {
+      "Double Bass": {
+        "blind_candidates": 75,
+        "cause_counts": {
+          "ACCOMPANIMENT_CALIBRATION_AUTHORITY_UNRESOLVED": 2,
+          "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED": 45
+        },
+        "drum_side_nonvalid": 45,
+        "exact_symbolic_pair_authority_available": 39,
+        "scorable": 28,
+        "source_side_nonvalid": 2,
+        "unscorable": 47
+      },
+      "Piano": {
+        "blind_candidates": 14,
+        "cause_counts": {
+          "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED": 9
+        },
+        "drum_side_nonvalid": 9,
+        "exact_symbolic_pair_authority_available": 3,
+        "scorable": 5,
+        "source_side_nonvalid": 0,
+        "unscorable": 9
+      }
+    },
+    "calibration_zero_changed": false,
+    "candidates_changed": false,
+    "cause_counts": {
+      "ACCOMPANIMENT_CALIBRATION_AUTHORITY_UNRESOLVED": 2,
+      "DRUM_CALIBRATION_AUTHORITY_UNRESOLVED": 54
+    },
+    "direct_status_counts": {
+      "drum": {
+        "AMBIGUOUS_MULTIPLE_OBSERVED": 54,
+        "VALID": 2
+      },
+      "source": {
+        "AMBIGUOUS_MULTIPLE_OBSERVED": 2,
+        "VALID": 54
+      }
+    },
+    "frozen_metrics_changed": false,
+    "h02_changed": false,
+    "h03_created": false,
+    "high_level_counts": {
+      "calibration_scoring_authority_limitation": 56,
+      "candidate_discovery_limitation": 0,
+      "indeterminate": 0,
+      "mixed_limitation": 0
+    },
+    "identity_provenance_join_failures": 0,
+    "production_code_changed": false,
+    "raw_observations_changed": false
+  },
+  "unscorable_symbolic_relations": [
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-9fc5e846c4c97069a2cecc24975508a082396d57ff73857d7633461df5af4541",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-ced8b75ec4c61d99eadb509a62b96f737c505ba6eae700ff2ce665f722bb47f0",
+      "symbolic_pair_id": "CSP-2bcf80f645948acbcfd20fc8fbd7de6adb8d5e1c7a4e0c05a8d991c824bb0a7f"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-7225e2cc5536c3fbf016590135350632b1485866b5f23e82440923a80bb926e9",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-974d2b47592a96b5c923087dfdc0fa681a551fc4fea95a2fdbb84704e116936e",
+      "symbolic_pair_id": "CSP-a822a4e5dac6f3c935c0e3a80f549c77924f0d34d20251426e78bf05d93114d7"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-5e2e5d4c48843322f7ea0d0161b44d94d6e9bdb1b12555f114b51efbf51f1beb",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-66ac55fe1e1cca62dc57596db29f9c322b9913d756c1283ace87081bd8645c6d",
+      "symbolic_pair_id": "CSP-1f71069c2d658fc1f285bd199530e99dce0bd09c40368f36f4a689109af3a228"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-8fe2c4d901a521d3d246f7b021333a4ef645c153117ea5c9f0c014bd661b9e0f",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-ddf3a3ec5a2071f494ceea8714641c7722e28a4ee75fbf584277fe6e6015c786",
+      "symbolic_pair_id": "CSP-7b6cd796d38b46837e6ce0ee1de061e4ad10788c042112c0c3df1977b5ef7f3c"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-104dbdab448ac0dc15be96bae4c9b121a71bc42700ff6bf2f4d2e1d12c34bb92",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-563b46ac7d158fa723854e9fd7604283525f200c6cbf6fcf52ca0784f79ad970",
+      "symbolic_pair_id": "CSP-2c6ada89fc28ae78ed33e4e94ba94b1f37f2088180890f30cbf6264cebb536db"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-1419188bf3e91f1251b1bcc2ba60bcb9192e3ecc61c2596f5524cfd2f3937016",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-539be80322002832763087989f8d650c7b364f0aeb7cbd4b68aecbc517e97302",
+      "symbolic_pair_id": "CSP-96401a0f7d49dd83d8da5a5a8d3b3d9e30ffc1a0f8e050f8fa9f41afb3d5b8bf"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-8ec3b3f3de38eade2c2e5ab0e443091d3a9a48787332227a33bdb02d4c748a0b",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-b20626b4103813fb793df5079352054e7ff112ac51536d64f8e86b238ec16952",
+      "symbolic_pair_id": "CSP-6281c3bacc8e0eb9d6b6497c4c93819ca3c69bc100c4d6f9f3061e90a06f4471"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-fef6762643ba8f305d221361698570081fb409421522907b4de99cde2ba044aa",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-b0e007d982d5925bb7b35b90cb3e95455e154a3b8bfbfbe0b20dba27c418f124",
+      "symbolic_pair_id": "CSP-c9c907a70599aa26957eaf4d397f8a892b8f18ebd406bedadc18e6a25cfbe4da"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-fbfa3c0cd00502893c583a13e111c7381ff4c97fb11670035c1a42ceffb96619",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-9150a284590610a7a724d26760c25b5a806816cc8a193046263a1f541074a033",
+      "symbolic_pair_id": "CSP-a247c51beacca216162b42889504f6c8e78fdad29ec1f1a1acac07b5689c75ae"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-3ff7df00f879d9921e5cea584a4e1a3b6fe13c59c444a0a8d40ae4de173e1808",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-9317ed2515b9058e854e768264e2c7a84a04c32e681fd62998c025e81c80300a",
+      "symbolic_pair_id": "CSP-f9c370b479e56225cacac765a5acc438d72e6373cc268a81e8311dea7614043b"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-cbe0739737434dad80f8f8227bc67ae1aca7615dea05c841cdc95a0da7ac1e27",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-6109b0447fcc97cceb2d35689bc3832b8a0756b062bf45d1c5f757e39d0de669",
+      "symbolic_pair_id": "CSP-126b5b3141412f13ce42ab138de9fc67748cd9abaa5fb114b500aa8f8ebe5f93"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-c563a67e98d3a68792ead1f9252c7cd70fa9908497150b4c4df24b61bc9155d0",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-6a2f2e25fadd1bffdfc4c619803578d63a8147aa4ec9f7cfb19d0d5215538a3d",
+      "symbolic_pair_id": "CSP-a605cb62401bf8c9385f24210a469d3a49506ba30672102348b2917285b3ef29"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-c8b877a87aa7d86a19a53da52787632a3fbdb54dbb62bcd0731f4c9b96407bb9",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-4066fa2bd184a2af50a38587b514bbd0100f157d12feed2021224101860b89dd",
+      "symbolic_pair_id": "CSP-8eed3aa944cd47ccb1ca2c0cd262d67e8617dde79d44385dd4bc2903ffc34550"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-4666bba5edb955d279f48176dd329d411e0031da5fe8929d594b42ef3d1a25d8",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-38c17e68acf28368b1742e7f0650e8ef4fca646c1045b611bf788a46b4f9e5ba",
+      "symbolic_pair_id": "CSP-ccb7cd4ce5e9c809fea772afaec74b7773739fb153d94a90947c41060bffa152"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-09080f6ea071b938de544793af7b7bd659b5fba707db30aa7b803896e47c97af",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-f5308d5368efc2cc695414d2cab5a6ed2208aeeea94d1d0763061e7f67d0b1fd",
+      "symbolic_pair_id": "CSP-8fccbaae35da88a860cc9bccfdfc0722d47f2db84bc678f8b6baaa003425dc2d"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-50f77ef88fecb961ec3955d0fa57bd4a994a7dacfc516dcedf7da49c16b0092e",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-a6204f94118bf1912c593e2af526e184c613e42f12cebefa8d3270515ef98e84",
+      "symbolic_pair_id": "CSP-7afeaa85c906ebf473e44e4f25788a9d129de92c318ac75149403d1569be45f7"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-89026cfd25bb21f4aba5f49dfc1222e2a5b9757f9e6f933f5deac6ef31165c04",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-f2fd0a4b189d618a4d8749b69777d0ec0cee9771861b6e6c44aea3b9c35c31dd",
+      "symbolic_pair_id": "CSP-5e696450ba704789a8505c1c9519255c26ed0798af0ac64a707b79e7f9b617cf"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-97f83dcfa3f76140e963d4160719f6cacd5e452db2680fe452ea2eff151bcd2f",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-de9b73e61707dc9d1aa9300d3eb1adb80f6789112271bb5326c5a186bff938cd",
+      "symbolic_pair_id": "CSP-32c8a6a6c6dbe77f1d0c6b545d963e23aaa81df69cc9807921ed0765b6d2d642"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-3170576634c2c25b5c588c3bc8c3f1b77bba054909cf559a7c2115152afe9863",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-82895977977ecd0293976886074816a89428fd6edf376fce41c26f8cc8dcc1a3",
+      "symbolic_pair_id": "CSP-0ef1dd50a275c55e35ce9edcaaa0eb24b33798ea145c4f475289825b9048dc86"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-53166376512c2a982f8288609851dbd71f6749c001cba68881d6db8b341685b5",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-3ac1a07190e4419165c6111dee876c78ebf318684687218456f59f52e92a78ac",
+      "symbolic_pair_id": "CSP-b99ae539b82420368c97cf713f1fafb7d33f7ea759d8f4f221369ca346e2f2ed"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-a2ebf39e3c36ffe80cd2769679fc871a35e6764a8fe9f829c6a818e242bd9127",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-34df3c37936621f30ea1a883033bb7dd4eee8c14dec3ac8764086064494f6be4",
+      "symbolic_pair_id": "CSP-32c81cbd7de11fc2ee6c7f841469a753856e6363ef2b0dc3800dd3242e95acbd"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-216540a8275e48481952442e7928e95a2501ccf1f6742b9941a5adfb483c4ca1",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-e04d515c2469cd84e2427fd6445fc07809999e241cab95b0c8c26940cc3c687a",
+      "symbolic_pair_id": "CSP-d615757e4ae9a25d56f71a518b83dabecaa9b25d9b8108ced1ccf0fd25c30265"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-6719f0507411dc02df66a8f61a77efddd28cefa25928d7047c4f4ab6f635ebe5",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-61dd74786bcb896448e0fa76512980ab4541af88af522bb5c703ae11aaee47fc",
+      "symbolic_pair_id": "CSP-3183d1eb6f20147928ebbf925a6529b31c4d8b0cb6b50a74bc29e22b97c7a45d"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-72d1e9435c247b2678d548bfcd522b38d8ace2d5975fedd82472d3cbb1d3fe49",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-51f12c6390a301cc83bef8991d989713c171503b175afd7fcd2dafc527831b6f",
+      "symbolic_pair_id": "CSP-68a6d9ec5171e9f7336c07f44a2d8c1ea778688ca775cf5432ced21b7e4acf76"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-63c618186a51d1a3d88fa228e47575805cee43488ce755d07dd36c26ac2a3e66",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-ca21106487406c03eb9c3a4224d18f5f6e7b03c322dc3dd5bd8b7f477f389cbc",
+      "symbolic_pair_id": "CSP-669edf526231695ecf2e4639984e491b5f35658a5e649898389d0c6caed6c915"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-7669fd94deb56703b86c3625aa9b0e0c98d15a2685aad78622b72e410d48db82",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-17579b42ba89c03abb452d878c09b741e033545d4af7307835c8af762e3abc1a",
+      "symbolic_pair_id": "CSP-1e20c799ede1781b6da7d5a7b69df98c1789d9e069d6caff725177770e0e3fb5"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-2e0d0b9ae62616ce66fc65897486015b56d90e93c433360536f96a7d94973f45",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-8acba244d8df7f32b6405da421170105b2bdb8147a6e1ccb7d3c0c8f83eb2084",
+      "symbolic_pair_id": "CSP-727b65cb5f47d8c7bbdccdf79bfb345da4805f7f17cd30e47e2f35a8763af0e6"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-8220ffb0b30c510e00c14d6baf6a9a8abf0140bdc9057b939cc174225a6d26a7",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-fd1eb4e1c109932b3d75a35a278ac610ee1b3605d35b4ab5c3e2a393ea3822b3",
+      "symbolic_pair_id": "CSP-34ecfb2eda1fdb5fa83e1b1c384a7ee459d11b38ec9d1c423d8648a1aef0bcad"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-7747d2777f33f31b194e47d29405cf933fad5ab0ee2525a26fc4e22846ca4672",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-b04a22ee9685636d952e6ce0114d99161b5094929c69c5c5a8152605a187cae6",
+      "symbolic_pair_id": "CSP-0c12180a844d74499bc94298b795fb0f5ac39ef9ad871f0a719f9b8a509c9b8a"
+    },
+    {
+      "drum_absolute_correspondence_status": "VALID",
+      "drum_symbolic_event_id": "CSE-f8bf5c31ce752ca6d8c9c22ce7470aa0d8636eda616994cb6883700a71d13dd2",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "source_symbolic_event_id": "CSE-586cfd34ea81eb71b37c9267c07be4eb6ac72b7d6a8e94b8d3f8aae0f47fbbc7",
+      "symbolic_pair_id": "CSP-be7572b21a20f05fe7ac54868646a0562d25cf4e4c148f57836b584b12c5d95a"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-b9ab4fe17c777e20789f8ea15e5c29d7a72fb084ce19ba4cfbc86002a003ac36",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-0234c4f03ec2d512b1a5375cc9a379efcc710a2e4b1e3db2c6153e9c5eacc586",
+      "symbolic_pair_id": "CSP-4d8616b9bc3e27290550785b737464f657ec6ca15bf001c46fe094b3dbfa5233"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-76471332d4b072fa212fd06191f727f091762c44544593e521b1e892ab41b661",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-1c14d3cec4694495aa07d96b33bf7dfa259e99b52adede474d854112eccc5d5a",
+      "symbolic_pair_id": "CSP-591d636652c430c0a47aaecb77e022c40ef689c83f2082c0993b0edaebd01dfa"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-f6d40469eeab60a2779dff571505535bf43959b408d5584602fd6b985c14d388",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-2464bb8d0d76d98020b96d182719f210d44c7713c13265ba5a611acfe8dbddde",
+      "symbolic_pair_id": "CSP-72ee1e806d3f1b933c609ef3f6dc70bb94a9ea5bd5e3b85bf875ca5763f53a1a"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-814abcb5d01ad1b4a83921dc9adfc8ce8712cdcc48beb13c98957f7564bdb120",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-d2e21cb1eaaac1e3ee56ef2136f72d05ee6104a0bbfa62cc0d19679e89345ccb",
+      "symbolic_pair_id": "CSP-2d9f9c2ef5df22e1e50b39e8b927dc2cec825ab4280dbaecf949e864e8f889d8"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-94b2d02665093913b8a162fed6df7313472e0b98f410afa7715c04dd2d20a87f",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-5dbce5352f0c0ad1291157ec2bcc50170763839926c73bf9da2e61514f2fb8f8",
+      "symbolic_pair_id": "CSP-e1608312da37bd2341794ee807a0120c91bfc0bb6781bfc4eabd25125c2a3949"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-9f350021e590b117e3803e5247bdaa1a2ea2369e2a6088a5c4981f41092f53ca",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-0264fe5943915c3dcef976bf96dc620de3033f612b2204e6d99623f758b9d619",
+      "symbolic_pair_id": "CSP-8c79d9e2807a1464e9b5dfe59d7bd410061597b9dbd38c8a8954b8b91f0570a6"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-22d0209920a3636924ea9685e25491ac2ea1b6b08738996a1e8b2675af1fd700",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-230a8e875e5a90d18268e252b2f92efb3e3f1a61c8800487b30aabed15459bc2",
+      "symbolic_pair_id": "CSP-e7e2641925b69713653670c2b2405a2f36158728cf55392c8189b5db5dd03539"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-a79f7b14328bb400db7177ca568e603b36262e379eac5f24d487c8d03e256909",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-32034a40b58eaf52027465d6bd1a61f41f787685f71cc85aeb7bf0b17e6f3288",
+      "symbolic_pair_id": "CSP-8a6ba6cc44f5fa70f05be774db59373303d677b692db76eb9c9220a79d33699e"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-9a22824473947e4529a774efb14230adf08dd344f9fd29ff058d005afae8f3f0",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-7cca773886871ec0fa48fbc0f24a2c5b927fedc8b115ae6a0aaad6ad091d074d",
+      "symbolic_pair_id": "CSP-b349fbdc28b8fcbc490ad26450638ec5376dc454f5c4fbbc11ba6013c2487fdf"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-7344c35bd83196cf4434ecbe075000befa0c03e0cecc76ab2b74829c396aab79",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-0ab3a564c62d19eef94db36dbc5ffa47db5bc47b4f5d62c9b9df5cfa8bade6f4",
+      "symbolic_pair_id": "CSP-50f6ee6f9052850489ae50455af87a70a54f8c9218b79e9a1971ad76838a79eb"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-d713253dc5612c8b81660c7867d4f9f5f77e6aba58f5db8cbfef41e066272518",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-a52cd2b822d8fca0f3c071261d094ad9efa84f67ea97eb124aad0a51840d4d62",
+      "symbolic_pair_id": "CSP-18999f10378142ccce0ad2f9788bcb8b25ff0c1bfbd150458e49aee1cea3ecf5"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-8d4f0231da5984893122e6f4d3bfca437072757ace9a1a2ada936df459874c61",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-aa2cd75269ac992fcffa118068551eb6ce04324ad48f37d385bd8735c960e5c7",
+      "symbolic_pair_id": "CSP-6e4f855ba09770dd5f6bf7f0a8224d1387bc9442c48407ac1970a9985c97edf4"
+    },
+    {
+      "drum_absolute_correspondence_status": "VALID",
+      "drum_symbolic_event_id": "CSE-2d7fc5ce8a0d4c6c33124652460b2830c855210b1173cc2e1165aec0f8544c7a",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "source_symbolic_event_id": "CSE-90cb42960afe76b7f411569e34afb84f0e58e506a13d02ab86955c214301b872",
+      "symbolic_pair_id": "CSP-809c5eede5c6706083b3eb03aeaf2c7172b0782ef06d36b1e7e9e1c0d9ef80b8"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-3387ae81778b4878ebb542f0d58d1fb0c229c5cc40e0828a16cb8937dc44aea2",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-e01c852e4d8a15062e77bbc95f5df2390653e87795c1300fdebfa160a5fe4b1a",
+      "symbolic_pair_id": "CSP-b89593f76064716dc692bc558285015ce71af417b5a89c20f8e195ba885a757e"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-e621bfc1a9f4ad458c9c433e14f6924fb3c9d4db08920bc085755c2355746743",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-5badd79f78e783a43dc1d429c333e783bc072e6314972dd5a356bf9a2e332e41",
+      "symbolic_pair_id": "CSP-1a394831de60662149f3fcb454d8b94e9a92d5543a25790f9919f98ac6129b3e"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-4dfce448e6e6dad24e89a33cbcd48560aca8a9516f04b6b64250fe489b8b9a7f",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Double Bass",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-1ae739d91d2fafa0ff7c77b4975ed0fe4c21dafdfc4d7741734d33278c396223",
+      "symbolic_pair_id": "CSP-4c62ea24006a377ce6ad77f80037eabf63f1a39136b5fcb2a580aef226238494"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-5e2e5d4c48843322f7ea0d0161b44d94d6e9bdb1b12555f114b51efbf51f1beb",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-dfddea6fedd783114e009b0c239632b82efff948afe2b24a79110e9ebc45f009",
+      "symbolic_pair_id": "CSP-79747bfe53cfe8a41111651738ed8af23fdef83dab1ff193eb7df2a1178fb5f6"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-1419188bf3e91f1251b1bcc2ba60bcb9192e3ecc61c2596f5524cfd2f3937016",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-188205ddd9f46c0f84f8203d85e64a1d235355cbec04a26053f002829c519de4",
+      "symbolic_pair_id": "CSP-5e1ef199be304dc5c725dc6c9021c895398e1b68222a0c9991bf189fcbbeeb8c"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-fbfa3c0cd00502893c583a13e111c7381ff4c97fb11670035c1a42ceffb96619",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-ae39466c2bee85ba99468d5db4e4e9e3248239a75cd6d1a489a7296719911ab2",
+      "symbolic_pair_id": "CSP-1c070bd7bfbfc4fd163a65236756dd42252000cfae6c1ad27261b1dc223e1116"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-4666bba5edb955d279f48176dd329d411e0031da5fe8929d594b42ef3d1a25d8",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-0c26a5e8c862cbd371e60e5fe2826870d6e84357429c667155ba7ce57ab9c414",
+      "symbolic_pair_id": "CSP-d72c4811c241e1bce895ca082f1406fc8740d763d465f85f71be5d6f582c30d3"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-3170576634c2c25b5c588c3bc8c3f1b77bba054909cf559a7c2115152afe9863",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-a6d94154efdc046bf581451b154c7086871faf874d714edc7769f35936c1ac88",
+      "symbolic_pair_id": "CSP-0ff3e230f445ff5553377bd5f2da9620a4d60db676a8ea69970dc48afb1e701a"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-a2ebf39e3c36ffe80cd2769679fc871a35e6764a8fe9f829c6a818e242bd9127",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-4882146470602f186a8367785853d9d0b74afdd1b0c88b7e1885e3205627e80c",
+      "symbolic_pair_id": "CSP-49291ca2b6f2bd697a9ed2a1b3d922a9f6bf080b879ce5a8a6d355df1ddba64c"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-7747d2777f33f31b194e47d29405cf933fad5ab0ee2525a26fc4e22846ca4672",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-667d476a49ff61c9d09901f1c826c3edc117b75fcf0626adc7c6f806cc50bdc4",
+      "symbolic_pair_id": "CSP-de412fbfc006c589e5ac96969c628f55f212c7e3adaef11490af6a88738dbf36"
+    },
+    {
+      "drum_absolute_correspondence_status": "UNMATCHED_SYMBOLIC",
+      "drum_symbolic_event_id": "CSE-e62976c335785c68b7ef949be085cdd485d8c3ea23c3035562ca0b7439700022",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "UNMATCHED_SYMBOLIC",
+      "source_symbolic_event_id": "CSE-8953329d6eeaf154fed09848c057512c012d97227604a33279f63c64236a04fa",
+      "symbolic_pair_id": "CSP-6a45a513189a72b9c5d25330cb622118d40405559daea3bde5ba2c151eabe3ce"
+    },
+    {
+      "drum_absolute_correspondence_status": "AMBIGUOUS_MULTIPLE_OBSERVED",
+      "drum_symbolic_event_id": "CSE-d713253dc5612c8b81660c7867d4f9f5f77e6aba58f5db8cbfef41e066272518",
+      "jga_pair_status": "UNRESOLVED_JGA_PAIR",
+      "source": "Piano",
+      "source_absolute_correspondence_status": "VALID",
+      "source_symbolic_event_id": "CSE-eeeb98e39a44055b7fd73a4e591e621d1ad704abc67b7df80c84910e3300c628",
+      "symbolic_pair_id": "CSP-a7f6ebf2695857cb8447f7cbe02393dff1a6cca8fb0e340ad300323354bf4982"
+    }
+  ]
+}

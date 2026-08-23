@@ -1,0 +1,27 @@
+{
+  "artifacts": {
+    "audit.py": {
+      "sha256": "7305320601fb0219df313cabe14ad588d7e83c5af7888dc3684a59fb0bbe7074",
+      "size_bytes": 10076
+    },
+    "audit_result.json": {
+      "sha256": "5da81ca50b072c4af332acf8e403c1d1c520e86af8378ba6125fabd764ce4af4",
+      "size_bytes": 148115
+    },
+    "completion_protocol.json": {
+      "sha256": "32aeeb4739e3e7d6da7d638106edcc9c8f8fbcc77e8506cd16ba3e0219c46fd1",
+      "size_bytes": 609
+    },
+    "report.md": {
+      "sha256": "4de5e623d448dd0ae0048256f3718a333cfa3e18dd57fd2c280ae86d4473b5cc",
+      "size_bytes": 2953
+    },
+    "verify.py": {
+      "sha256": "2d0b801315e5f8e0a06bfaa376167ecf3a0fc302cc7447c5383f8c37efa4219f",
+      "size_bytes": 1672
+    }
+  },
+  "audit_id": "AUD-CEDVAL003-H02-SCORABILITY-01",
+  "schema": "JGA-SCORABILITY-AUDIT-ARTIFACT-MANIFEST/v1",
+  "scientific_fingerprint": "34dafe335a0965ff2321bfc176386b974f1ee5a0425e153894e96bde8f939348"
+}
