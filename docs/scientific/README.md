@@ -106,3 +106,4 @@ Implementation
 - ../architecture/AD-036_M93_VALIDATION_DATASET_GENERALIZATION.md
 - controlled_datasets/CED-VAL-001.md
 - controlled_datasets/CED-VAL-002-SWING.md
+- controlled_datasets/CED-VAL-002-SWING_CORRECTED.md

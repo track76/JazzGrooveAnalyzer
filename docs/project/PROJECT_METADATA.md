@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: CED-VAL-002-SWING Input Authority Frozen
+Current Milestone: CED-VAL-002-SWING Corrected Authority Frozen
 
 Current Phase: Phase II Scientific Validation
 

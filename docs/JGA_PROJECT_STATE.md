@@ -1,8 +1,31 @@
 # JGA Project State
 
+## CED-VAL-002-SWING Corrected Controlled Dataset
+
+Status: CORRECTED INPUT AUTHORITY FROZEN — CALIBRATION PENDING
+
+- PI correction after commit `64c8c93` changed the MusicXML and Sibelius
+  assets; the three WAV assets remain byte-identical. The prior manifest and
+  documentation remain preserved as superseded/pre-correction evidence.
+- Corrected MusicXML remains well formed with Piano 64, Double Bass 127 and
+  Drums 192 exact-rational symbolic onset groups. Symbolic scope is exactly
+  128 quarter units / `256/5` seconds, first onset 0 and last onset 48 seconds.
+- All three WAVs remain equal stereo 24-bit PCM, 44.1 kHz, 2,478,080 frames
+  and `123904/2205` seconds. Their `11008/2205`-second tail beyond symbolic
+  scope is neutral, preserved and temporally coherent with the PI-declared
+  common export-from-beginning origin.
+- Corrected authority supersedes revision 1 for all future Calibration Zero
+  and H02 work. A new Calibration Zero remains mandatory; H02 was not executed
+  and can later be applied unchanged after separate approval.
+- Corrected records:
+  `docs/scientific/controlled_datasets/CED-VAL-002-SWING_CORRECTED.md` and
+  `validation/CED-VAL-002-SWING/input_authority_manifest_v2_corrected.json`.
+- Corrected dataset/manifest fingerprint:
+  `631eaf017cfaf335ee2945bfbe0df19221a0a0d069fee3602880eda7a851ade1`.
+
 ## CED-VAL-002-SWING Independent Controlled Dataset
 
-Status: INPUT AUTHORITY FROZEN — CALIBRATION PENDING
+Status: SUPERSEDED PRE-CORRECTION INPUT AUTHORITY
 
 - The new external controlled dataset is checksum-bound at
   `$JGA_EXTERNAL_ROOT/datasets/CED-VAL-002-SWING/` without copying or altering

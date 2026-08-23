@@ -1,6 +1,11 @@
 # CED-VAL-002-SWING — Independent Controlled Swing Dataset
 
-Status: **FROZEN INPUT AUTHORITY — CALIBRATION PENDING**
+Status: **SUPERSEDED PRE-CORRECTION INPUT AUTHORITY**
+
+This document preserves the initial freeze at commit
+`64c8c934d819e95cbb0bc294729b31f2dc02be53`. It is historical evidence and
+must not govern future Calibration Zero or H02 work. The corrected authority
+is `CED-VAL-002-SWING_CORRECTED.md`; the original manifest remains unchanged.
 
 ## Identities and Scope
 
