@@ -1,5 +1,23 @@
 # JGA Project State
 
+## Blind Rhythm-Section Event-Correspondence Hypothesis 02
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-VAL001-RHYTHM-CORRESPONDENCE-02` preserves Hypothesis 01 as a frozen
+  negative result and removes exactly its scientifically unjustified
+  cross-source signature-equality requirement.
+- A candidate still requires mutual unique nearest geometry, valid exact
+  two-sided frame signatures independently recurrent at least twice within
+  each event's own source, and complete boundary, tie, frame-authority,
+  provenance and replay integrity.
+- Inputs, frame/signature/recurrence/nearest definitions, validation metrics,
+  classification order and interpretation firewall remain unchanged. No
+  threshold, BPM, meter, production behavior or Ground Truth access is
+  authorized before blind freeze.
+- Preregistration:
+  `validation/VAL-001/preregistrations/H-VAL001-RHYTHM-CORRESPONDENCE-02.md`.
+
 ## Blind Rhythm-Section Event-Correspondence Experiment
 
 Status: INSUFFICIENT_CANDIDATES
