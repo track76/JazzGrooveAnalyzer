@@ -1,5 +1,25 @@
 # JGA Project State
 
+## Calibration Zero Experiment Preregistration
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-VAL001-CALIBRATION-ZERO-01` freezes the event-authority construction,
+  deterministic midpoint-cell correspondence rule, event-level measurement
+  quantities, descriptive outputs, frame-offset analysis, candidate-bias
+  criteria, source/pairwise analysis and allowed outcomes before access to
+  symbolic-vs-JGA timing differences.
+- AD-028 does not currently establish event-level Ground Truth. The future
+  execution must first construct and freeze provenance-bound symbolic event
+  authority without accessing JGA timing differences; insufficient authority
+  stops execution before error calculation.
+- The experiment is not executed. No calibration result, bias, correction,
+  tolerance, threshold or production behavior is authorized.
+- Voice remains `DEFERRED`. Raw EME, PulseCandidate, Drum-relative and existing
+  validation artifacts remain unchanged.
+- Preregistration:
+  `validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-ZERO-01.md`.
+
 ## Calibration Zero and Measurement Baseline Authority
 
 Status: AUTHORIZED — EXPERIMENT NOT EXECUTED

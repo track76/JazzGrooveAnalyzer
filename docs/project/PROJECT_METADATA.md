@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: AD-039 Calibration Zero Measurement Authority
+Current Milestone: H-VAL001-CALIBRATION-ZERO-01 Preregistration
 
 Current Phase: Phase II Scientific Validation
 
