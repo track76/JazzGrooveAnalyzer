@@ -1,0 +1,15 @@
+{
+  "aggregate_visualization_fingerprint": "323a27449d9ec73315bdb9e6410e8fcef7da258de82a96b5b636f1a2e7ae7078",
+  "bpm_used": false,
+  "external_tracker_used": false,
+  "h02_used": false,
+  "historical_authorities_changed": false,
+  "jga_rerun": false,
+  "musical_interpretation_performed": false,
+  "png_byte_replay": "PASS_BYTE_IDENTICAL_TWO_COMPLETE_EXECUTIONS",
+  "production_code_changed": false,
+  "raw_assets_changed": false,
+  "scientific_content_replay": "PASS_EXACT_TWO_COMPLETE_EXECUTIONS",
+  "status": "PASS_FROZEN_FIVE_WINDOW_LOCAL_NEUTRAL_VISUALIZATIONS",
+  "strength_accessed": false
+}

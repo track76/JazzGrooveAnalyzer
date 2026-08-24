@@ -1,0 +1,1273 @@
+{
+  "aggregate_visualization_fingerprint": "323a27449d9ec73315bdb9e6410e8fcef7da258de82a96b5b636f1a2e7ae7078",
+  "artifact_paths": [
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/local_visualizations_20260824_185658/cedval006_w1_observational.png",
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/local_visualizations_20260824_185658/cedval006_w2_observational.png",
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/local_visualizations_20260824_185658/cedval006_w3_observational.png",
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/local_visualizations_20260824_185658/cedval006_w4_observational.png",
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/local_visualizations_20260824_185658/cedval006_w5_observational.png"
+  ],
+  "per_window_scientific_content_fingerprints": {
+    "W1": "592979e5a425337e03c6afd835e5eadf4c932d3b94de0d3d4b656345455cca18",
+    "W2": "37173125b20de8d3e2761dc3a807e9f2479e270185b7728cc71a56b2be059ffc",
+    "W3": "d2e43210f01bf4a243a7e126eb4cd9682c6f94868685b8b75983d9472970aff5",
+    "W4": "97aabdc1750d0c997e8b0abd5f432cdb937ff6f19f2f3896eceba1a64945bdee",
+    "W5": "8f2168356dabe05079e564a64f71b2a7a090842d82b1cb05715b97cbbfc82238"
+  },
+  "png_byte_replay": true,
+  "png_sha256": {
+    "W1": "938ddddac3bd5d900c13173af049f1bb98296c01987bf59fb128faec476ca682",
+    "W2": "9b397bbd6aece89c79fb7bbcc53062df391883ad87f34657289fa9ff0931c9fa",
+    "W3": "09813383e2efb28482a52a5866b869db6cee61438d51bfcbe71247296dda7286",
+    "W4": "0efe9baf3e001ca646f17bba87f843c4703d8c5a0ce6a362a6d00ad34872c30d",
+    "W5": "0d8766b536101aa3f5d4865f3ee710c64fd731157c0cea1ef8f0ded2ef10d152"
+  },
+  "scientific_content_replay": true,
+  "scientific_record": {
+    "acquisition_authority_status": "PARTIAL_STRICTLY_BOUNDED_AS_RECORDED",
+    "calibration_applicability": "UNESTABLISHED",
+    "correspondence_status": "GEOMETRIC_ONLY",
+    "execution_id": "EXEC-CEDVAL006-LOCAL-VISUALIZATION-20260824-185658",
+    "firewalls": {
+      "bpm_used": false,
+      "external_tracker_used": false,
+      "h02_used": false,
+      "historical_authorities_changed": false,
+      "jga_rerun": false,
+      "musical_interpretation_performed": false,
+      "production_code_changed": false,
+      "raw_assets_changed": false,
+      "strength_accessed": false
+    },
+    "frame_lattice": {
+      "hop_samples": 512,
+      "sample_rate_hz": 48000,
+      "seconds": 0.010666666666666666
+    },
+    "membership_coordinate": "producer_sample_coordinate",
+    "membership_rule": "start_sample_frame <= producer_sample_coordinate < end_sample_frame",
+    "schema": "JGA-CEDVAL006-LOCAL-NEUTRAL-VISUALIZATION/v1",
+    "source_execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+    "source_scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+    "study_id": "H-CEDVAL006-FIVE-WINDOW-LOCAL-NEUTRAL-VISUALIZATION-01",
+    "windows": [
+      {
+        "acquisition_authority": {
+          "common_session_time_origin": "UNESTABLISHED",
+          "live_performance": "SUPPORTED_BY_LEWITT_PROVIDER_DECLARATION",
+          "physical_onset": "NOT_ESTABLISHED",
+          "raw_no_editing_no_tuning": "SUPPORTED_TO_THE_EXTENT_DECLARED",
+          "shared_hardware_clock": "UNESTABLISHED"
+        },
+        "calibration_applicability": "UNESTABLISHED",
+        "center_sample_frame": 1191286,
+        "center_time_seconds": 24.818458333333332,
+        "connectors": [
+          {
+            "bass_eme_id": "6014c687-6a44-5fb2-b3e8-2f5aa3e1f99d",
+            "bass_timestamp_seconds": 26.538666666666668,
+            "drum_eme_id": "6ad01341-7b98-5822-a79c-4d276a33cc7a",
+            "drum_timestamp_seconds": 26.528,
+            "localization_id": "fbaf3519-96e9-537a-a8bb-d6feae92b498"
+          }
+        ],
+        "connectors_rendered_count": 1,
+        "correspondence_status": "GEOMETRIC_ONLY",
+        "display_boundary_censoring": [],
+        "display_boundary_censoring_count": 0,
+        "double_bass_eme_count": 1,
+        "drums_eme_count": 1,
+        "duration_sample_frames": 240000,
+        "duration_seconds": 5.0,
+        "eligible_frozen_localization_count": 1,
+        "end_sample_frame_exclusive": 1311286,
+        "end_time_seconds_exclusive": 27.318458333333332,
+        "included_double_bass_eme_ids": [
+          "6014c687-6a44-5fb2-b3e8-2f5aa3e1f99d"
+        ],
+        "included_drums_eme_ids": [
+          "6ad01341-7b98-5822-a79c-4d276a33cc7a"
+        ],
+        "included_localization_ids": [
+          "fbaf3519-96e9-537a-a8bb-d6feae92b498"
+        ],
+        "nearest_tie_count": 0,
+        "nearest_tie_localization_ids": [],
+        "profile_id": "f000d109-8582-5d6a-b90c-0e26d50e7e76",
+        "scientific_content_fingerprint": "592979e5a425337e03c6afd835e5eadf4c932d3b94de0d3d4b656345455cca18",
+        "source_execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+        "source_scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+        "start_sample_frame": 1071286,
+        "start_time_seconds": 22.318458333333332,
+        "stratum_index": 0,
+        "total_eme_count": 2,
+        "window_id": "W1"
+      },
+      {
+        "acquisition_authority": {
+          "common_session_time_origin": "UNESTABLISHED",
+          "live_performance": "SUPPORTED_BY_LEWITT_PROVIDER_DECLARATION",
+          "physical_onset": "NOT_ESTABLISHED",
+          "raw_no_editing_no_tuning": "SUPPORTED_TO_THE_EXTENT_DECLARED",
+          "shared_hardware_clock": "UNESTABLISHED"
+        },
+        "calibration_applicability": "UNESTABLISHED",
+        "center_sample_frame": 3573860,
+        "center_time_seconds": 74.45541666666666,
+        "connectors": [
+          {
+            "bass_eme_id": "187016ab-f814-5e82-98df-cffa9f9639fd",
+            "bass_timestamp_seconds": 72.0,
+            "drum_eme_id": "7c7bdd6e-0dac-5f02-aea8-a3fe99d47c12",
+            "drum_timestamp_seconds": 72.0,
+            "localization_id": "9821a4d9-fc64-5159-a781-8d173545f877"
+          },
+          {
+            "bass_eme_id": "3559048c-8577-594d-933e-064e2a2ecad1",
+            "bass_timestamp_seconds": 72.224,
+            "drum_eme_id": "cfa7917f-99f9-5677-a4a2-45361573faca",
+            "drum_timestamp_seconds": 72.24533333333333,
+            "localization_id": "8dfd471c-e126-5a6d-9d5a-d2420e22b32b"
+          },
+          {
+            "bass_eme_id": "d5c2b00c-436f-5b5b-8851-b5ca89e1b73f",
+            "bass_timestamp_seconds": 72.45866666666667,
+            "drum_eme_id": "d0cd5007-02ec-56a7-b279-24b3107cf5e6",
+            "drum_timestamp_seconds": 72.48,
+            "localization_id": "76e37417-e27c-596b-9780-867f23ecc190"
+          },
+          {
+            "bass_eme_id": "26aba915-1107-5312-a840-72c98f4d56b9",
+            "bass_timestamp_seconds": 72.71466666666667,
+            "drum_eme_id": "36910d76-45f8-5e8d-b78f-43caeefec2b8",
+            "drum_timestamp_seconds": 72.71466666666667,
+            "localization_id": "790d733f-47ae-5310-93b5-d742f4850eca"
+          },
+          {
+            "bass_eme_id": "9afdd05d-178e-5eb1-9a56-545a70d3ad35",
+            "bass_timestamp_seconds": 72.94933333333333,
+            "drum_eme_id": "5f422657-2d12-5402-a3a1-ea77c8653edd",
+            "drum_timestamp_seconds": 72.93866666666666,
+            "localization_id": "df81c245-6a23-5568-832e-371dff7de697"
+          },
+          {
+            "bass_eme_id": "de2c63d6-7bc6-50af-8556-e2d6d40f0a95",
+            "bass_timestamp_seconds": 73.16266666666667,
+            "drum_eme_id": "7c390897-8a27-56b6-8860-a775c351573e",
+            "drum_timestamp_seconds": 73.16266666666667,
+            "localization_id": "c1502048-f883-5111-8d2c-f883fd11df34"
+          },
+          {
+            "bass_eme_id": "113fc8ee-3cf5-5db7-add3-3cbd6970bdd4",
+            "bass_timestamp_seconds": 73.29066666666667,
+            "drum_eme_id": "1e600cba-bf0d-55a7-bb30-96aaf179e1c2",
+            "drum_timestamp_seconds": 73.408,
+            "localization_id": "e7e7eec5-ded5-536d-b0a8-0bf4cdbd0699"
+          },
+          {
+            "bass_eme_id": "161dd434-bfdd-580b-8668-9ca7aa8a9219",
+            "bass_timestamp_seconds": 73.41866666666667,
+            "drum_eme_id": "1e600cba-bf0d-55a7-bb30-96aaf179e1c2",
+            "drum_timestamp_seconds": 73.408,
+            "localization_id": "5511fdab-37e7-59e7-9686-a5478d67be30"
+          },
+          {
+            "bass_eme_id": "4c876c3d-cb18-54e1-a450-a2b0ffeb23b3",
+            "bass_timestamp_seconds": 73.888,
+            "drum_eme_id": "6db2d774-aee5-56f5-8459-8c0106a4406f",
+            "drum_timestamp_seconds": 73.86666666666666,
+            "localization_id": "f12d80f1-962c-501a-965c-8755f76f1e85"
+          },
+          {
+            "bass_eme_id": "333ccb69-4bae-5876-93bf-c623a5f73703",
+            "bass_timestamp_seconds": 74.10133333333333,
+            "drum_eme_id": "931c3d3f-48b5-5e1b-ae40-936a3a278d52",
+            "drum_timestamp_seconds": 74.112,
+            "localization_id": "c7cbc24b-48b6-545a-acbf-cc7c97548955"
+          },
+          {
+            "bass_eme_id": "f095769e-0aa3-55d6-a6bb-5ae7862414f7",
+            "bass_timestamp_seconds": 74.29333333333334,
+            "drum_eme_id": "8470501d-3f2c-58c3-ab8f-7a4c28e62556",
+            "drum_timestamp_seconds": 74.35733333333333,
+            "localization_id": "87381b6d-1a01-5aec-8bd2-9a680af714f4"
+          },
+          {
+            "bass_eme_id": "c0f15225-56fa-564f-b7c4-42d6201f1f89",
+            "bass_timestamp_seconds": 74.35733333333333,
+            "drum_eme_id": "8470501d-3f2c-58c3-ab8f-7a4c28e62556",
+            "drum_timestamp_seconds": 74.35733333333333,
+            "localization_id": "d97af43b-85f7-5eca-b38f-4768cf399f7c"
+          },
+          {
+            "bass_eme_id": "0a12cb59-8ef2-58ad-a73a-d7352d8d3b47",
+            "bass_timestamp_seconds": 74.528,
+            "drum_eme_id": "e2ae8cef-f95b-5d47-b69b-69fcfccf9139",
+            "drum_timestamp_seconds": 74.58133333333333,
+            "localization_id": "9b73c738-326b-5f71-9db0-41b911ff72ee"
+          },
+          {
+            "bass_eme_id": "db6daae5-97cb-5c67-8501-52c19cc388cd",
+            "bass_timestamp_seconds": 74.63466666666666,
+            "drum_eme_id": "e2ae8cef-f95b-5d47-b69b-69fcfccf9139",
+            "drum_timestamp_seconds": 74.58133333333333,
+            "localization_id": "3862c41e-420d-5e04-ac16-6875a7cd7571"
+          },
+          {
+            "bass_eme_id": "18e08f8d-d80b-5791-9399-9290ed9aece9",
+            "bass_timestamp_seconds": 74.784,
+            "drum_eme_id": "51395e29-3985-5dc2-b6e2-449a1f99535d",
+            "drum_timestamp_seconds": 74.816,
+            "localization_id": "99b1a654-b608-590d-95bc-54423acf761d"
+          },
+          {
+            "bass_eme_id": "e332c4af-7429-585d-9790-f8f5c1f4f085",
+            "bass_timestamp_seconds": 74.82666666666667,
+            "drum_eme_id": "51395e29-3985-5dc2-b6e2-449a1f99535d",
+            "drum_timestamp_seconds": 74.816,
+            "localization_id": "f01dcb93-93c7-5454-acce-77c8acfbe8ba"
+          },
+          {
+            "bass_eme_id": "0a45de87-05bc-5458-9135-7dce4e42c09f",
+            "bass_timestamp_seconds": 75.05066666666667,
+            "drum_eme_id": "0eebd0f5-b2c2-5399-9e50-8836682f6527",
+            "drum_timestamp_seconds": 75.05066666666667,
+            "localization_id": "fc2f566a-cf5d-5049-b03b-5aef33a53095"
+          },
+          {
+            "bass_eme_id": "9c31d587-1141-550a-8750-49bb8da752a3",
+            "bass_timestamp_seconds": 75.27466666666666,
+            "drum_eme_id": "3494a4b8-c707-500d-9892-1a1279465d19",
+            "drum_timestamp_seconds": 75.28533333333333,
+            "localization_id": "64d9796f-a52f-5e46-abc9-491f419c7a31"
+          },
+          {
+            "bass_eme_id": "848fef68-c16b-5c57-8e04-ecd95d41f793",
+            "bass_timestamp_seconds": 75.75466666666667,
+            "drum_eme_id": "7b6a2170-b6a4-5dfc-950c-96cf454169d5",
+            "drum_timestamp_seconds": 75.744,
+            "localization_id": "766d6fb7-c0d0-5580-8510-dd2400d3ac5e"
+          },
+          {
+            "bass_eme_id": "9354d8df-c4e1-59e7-ac15-838360e4170b",
+            "bass_timestamp_seconds": 75.968,
+            "drum_eme_id": "fc475895-8722-51e0-a863-7e8d071fe99a",
+            "drum_timestamp_seconds": 75.98933333333333,
+            "localization_id": "8706ba73-abee-5eaa-afd9-efe31181a982"
+          },
+          {
+            "bass_eme_id": "6b0e052d-9917-5e13-bb92-b9b5455f022e",
+            "bass_timestamp_seconds": 76.20266666666667,
+            "drum_eme_id": "30a86570-fbd1-51ab-bc5a-99c0da54cc99",
+            "drum_timestamp_seconds": 76.224,
+            "localization_id": "b9260493-43bf-5159-94f5-79bb01dd31b1"
+          },
+          {
+            "bass_eme_id": "3f83ee60-bafc-5806-ab02-213af42770c8",
+            "bass_timestamp_seconds": 76.46933333333334,
+            "drum_eme_id": "fe75bf09-8816-5222-a806-aec067e33a75",
+            "drum_timestamp_seconds": 76.45866666666667,
+            "localization_id": "8710f9b3-b91a-5e77-8d8a-7da4fe4021dd"
+          },
+          {
+            "bass_eme_id": "109d84ca-5de5-52e3-9101-c48b7442748d",
+            "bass_timestamp_seconds": 76.68266666666666,
+            "drum_eme_id": "e719b327-1c9e-566d-8641-58c2c2d9ca7e",
+            "drum_timestamp_seconds": 76.68266666666666,
+            "localization_id": "4cccf2fc-5a76-5477-8dc8-b562c466d10c"
+          },
+          {
+            "bass_eme_id": "978b580b-eb3d-5015-a88d-713c97a95fe8",
+            "bass_timestamp_seconds": 76.90666666666667,
+            "drum_eme_id": "21204c9a-f2e8-53ee-873b-2c9d3d7bd4b3",
+            "drum_timestamp_seconds": 76.91733333333333,
+            "localization_id": "04ed572d-f214-542c-8718-2e4690ed5ae3"
+          }
+        ],
+        "connectors_rendered_count": 24,
+        "correspondence_status": "GEOMETRIC_ONLY",
+        "display_boundary_censoring": [],
+        "display_boundary_censoring_count": 0,
+        "double_bass_eme_count": 24,
+        "drums_eme_count": 22,
+        "duration_sample_frames": 240000,
+        "duration_seconds": 5.0,
+        "eligible_frozen_localization_count": 24,
+        "end_sample_frame_exclusive": 3693860,
+        "end_time_seconds_exclusive": 76.95541666666666,
+        "included_double_bass_eme_ids": [
+          "187016ab-f814-5e82-98df-cffa9f9639fd",
+          "3559048c-8577-594d-933e-064e2a2ecad1",
+          "d5c2b00c-436f-5b5b-8851-b5ca89e1b73f",
+          "26aba915-1107-5312-a840-72c98f4d56b9",
+          "9afdd05d-178e-5eb1-9a56-545a70d3ad35",
+          "de2c63d6-7bc6-50af-8556-e2d6d40f0a95",
+          "113fc8ee-3cf5-5db7-add3-3cbd6970bdd4",
+          "161dd434-bfdd-580b-8668-9ca7aa8a9219",
+          "4c876c3d-cb18-54e1-a450-a2b0ffeb23b3",
+          "333ccb69-4bae-5876-93bf-c623a5f73703",
+          "f095769e-0aa3-55d6-a6bb-5ae7862414f7",
+          "c0f15225-56fa-564f-b7c4-42d6201f1f89",
+          "0a12cb59-8ef2-58ad-a73a-d7352d8d3b47",
+          "db6daae5-97cb-5c67-8501-52c19cc388cd",
+          "18e08f8d-d80b-5791-9399-9290ed9aece9",
+          "e332c4af-7429-585d-9790-f8f5c1f4f085",
+          "0a45de87-05bc-5458-9135-7dce4e42c09f",
+          "9c31d587-1141-550a-8750-49bb8da752a3",
+          "848fef68-c16b-5c57-8e04-ecd95d41f793",
+          "9354d8df-c4e1-59e7-ac15-838360e4170b",
+          "6b0e052d-9917-5e13-bb92-b9b5455f022e",
+          "3f83ee60-bafc-5806-ab02-213af42770c8",
+          "109d84ca-5de5-52e3-9101-c48b7442748d",
+          "978b580b-eb3d-5015-a88d-713c97a95fe8"
+        ],
+        "included_drums_eme_ids": [
+          "7c7bdd6e-0dac-5f02-aea8-a3fe99d47c12",
+          "cfa7917f-99f9-5677-a4a2-45361573faca",
+          "d0cd5007-02ec-56a7-b279-24b3107cf5e6",
+          "36910d76-45f8-5e8d-b78f-43caeefec2b8",
+          "5f422657-2d12-5402-a3a1-ea77c8653edd",
+          "7c390897-8a27-56b6-8860-a775c351573e",
+          "1e600cba-bf0d-55a7-bb30-96aaf179e1c2",
+          "3313c6ed-6fe2-50ec-8819-496470c13ac9",
+          "6db2d774-aee5-56f5-8459-8c0106a4406f",
+          "931c3d3f-48b5-5e1b-ae40-936a3a278d52",
+          "8470501d-3f2c-58c3-ab8f-7a4c28e62556",
+          "e2ae8cef-f95b-5d47-b69b-69fcfccf9139",
+          "51395e29-3985-5dc2-b6e2-449a1f99535d",
+          "0eebd0f5-b2c2-5399-9e50-8836682f6527",
+          "3494a4b8-c707-500d-9892-1a1279465d19",
+          "6da8be9d-2ba2-5fcc-bf56-ed44a98ff4e1",
+          "7b6a2170-b6a4-5dfc-950c-96cf454169d5",
+          "fc475895-8722-51e0-a863-7e8d071fe99a",
+          "30a86570-fbd1-51ab-bc5a-99c0da54cc99",
+          "fe75bf09-8816-5222-a806-aec067e33a75",
+          "e719b327-1c9e-566d-8641-58c2c2d9ca7e",
+          "21204c9a-f2e8-53ee-873b-2c9d3d7bd4b3"
+        ],
+        "included_localization_ids": [
+          "9821a4d9-fc64-5159-a781-8d173545f877",
+          "8dfd471c-e126-5a6d-9d5a-d2420e22b32b",
+          "76e37417-e27c-596b-9780-867f23ecc190",
+          "790d733f-47ae-5310-93b5-d742f4850eca",
+          "df81c245-6a23-5568-832e-371dff7de697",
+          "c1502048-f883-5111-8d2c-f883fd11df34",
+          "e7e7eec5-ded5-536d-b0a8-0bf4cdbd0699",
+          "5511fdab-37e7-59e7-9686-a5478d67be30",
+          "f12d80f1-962c-501a-965c-8755f76f1e85",
+          "c7cbc24b-48b6-545a-acbf-cc7c97548955",
+          "87381b6d-1a01-5aec-8bd2-9a680af714f4",
+          "d97af43b-85f7-5eca-b38f-4768cf399f7c",
+          "9b73c738-326b-5f71-9db0-41b911ff72ee",
+          "3862c41e-420d-5e04-ac16-6875a7cd7571",
+          "99b1a654-b608-590d-95bc-54423acf761d",
+          "f01dcb93-93c7-5454-acce-77c8acfbe8ba",
+          "fc2f566a-cf5d-5049-b03b-5aef33a53095",
+          "64d9796f-a52f-5e46-abc9-491f419c7a31",
+          "766d6fb7-c0d0-5580-8510-dd2400d3ac5e",
+          "8706ba73-abee-5eaa-afd9-efe31181a982",
+          "b9260493-43bf-5159-94f5-79bb01dd31b1",
+          "8710f9b3-b91a-5e77-8d8a-7da4fe4021dd",
+          "4cccf2fc-5a76-5477-8dc8-b562c466d10c",
+          "04ed572d-f214-542c-8718-2e4690ed5ae3"
+        ],
+        "nearest_tie_count": 0,
+        "nearest_tie_localization_ids": [],
+        "profile_id": "f000d109-8582-5d6a-b90c-0e26d50e7e76",
+        "scientific_content_fingerprint": "37173125b20de8d3e2761dc3a807e9f2479e270185b7728cc71a56b2be059ffc",
+        "source_execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+        "source_scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+        "start_sample_frame": 3453860,
+        "start_time_seconds": 71.95541666666666,
+        "stratum_index": 1,
+        "total_eme_count": 46,
+        "window_id": "W2"
+      },
+      {
+        "acquisition_authority": {
+          "common_session_time_origin": "UNESTABLISHED",
+          "live_performance": "SUPPORTED_BY_LEWITT_PROVIDER_DECLARATION",
+          "physical_onset": "NOT_ESTABLISHED",
+          "raw_no_editing_no_tuning": "SUPPORTED_TO_THE_EXTENT_DECLARED",
+          "shared_hardware_clock": "UNESTABLISHED"
+        },
+        "calibration_applicability": "UNESTABLISHED",
+        "center_sample_frame": 5956434,
+        "center_time_seconds": 124.092375,
+        "connectors": [
+          {
+            "bass_eme_id": "687b0519-a34f-5133-aa93-01d20bd719f4",
+            "bass_timestamp_seconds": 121.73866666666666,
+            "drum_eme_id": "41d06733-f296-523d-bf2e-3eee968f87a0",
+            "drum_timestamp_seconds": 121.71733333333333,
+            "localization_id": "7a20afb6-171e-55a0-bd46-81d3506e3759"
+          },
+          {
+            "bass_eme_id": "19eb04d6-b2cb-5823-8178-9fd52177f384",
+            "bass_timestamp_seconds": 121.96266666666666,
+            "drum_eme_id": "41d06733-f296-523d-bf2e-3eee968f87a0",
+            "drum_timestamp_seconds": 121.71733333333333,
+            "localization_id": "b0012b3e-300f-5950-bba5-81f1f96105e6"
+          },
+          {
+            "bass_eme_id": "8b4792e1-930d-562b-83ed-b3a5a3932b56",
+            "bass_timestamp_seconds": 123.168,
+            "drum_eme_id": "562279f6-1cc4-5f37-9983-628f195e3bba",
+            "drum_timestamp_seconds": 123.15733333333333,
+            "localization_id": "98468043-c9a7-57b4-af3c-14be248ddcaa"
+          },
+          {
+            "bass_eme_id": "8bda6273-d2c9-5270-9909-213fa396166f",
+            "bass_timestamp_seconds": 123.648,
+            "drum_eme_id": "67031205-88e5-5a55-b10f-38912d578932",
+            "drum_timestamp_seconds": 123.63733333333333,
+            "localization_id": "ffc16f43-fbfd-5831-8bf0-4e68669396c9"
+          },
+          {
+            "bass_eme_id": "fbc9be1d-9a64-5d41-b654-2cdccfb3e3f3",
+            "bass_timestamp_seconds": 123.872,
+            "drum_eme_id": "ccf12551-558b-5d58-a07a-4caa92f5a181",
+            "drum_timestamp_seconds": 123.872,
+            "localization_id": "0e325f6a-d663-527d-abe4-ed08a1c2ba45"
+          },
+          {
+            "bass_eme_id": "af1ce6a8-f768-531f-b5b3-33607f91f59c",
+            "bass_timestamp_seconds": 124.10666666666667,
+            "drum_eme_id": "aa9a69c6-b41c-5660-87a6-35ccd47edacd",
+            "drum_timestamp_seconds": 124.096,
+            "localization_id": "34bdcb92-9535-5102-be1b-7865149b28cb"
+          },
+          {
+            "bass_eme_id": "dba6ff60-0b69-55fc-893f-4bb18f832b2d",
+            "bass_timestamp_seconds": 124.56533333333333,
+            "drum_eme_id": "c131fbc4-2d16-5396-ae4c-eef208b85e45",
+            "drum_timestamp_seconds": 124.56533333333333,
+            "localization_id": "be65f2d5-64c4-50cf-9f62-e89bb4eac40a"
+          },
+          {
+            "bass_eme_id": "3b468006-ac83-512e-a1e2-b1e44109d863",
+            "bass_timestamp_seconds": 124.82133333333333,
+            "drum_eme_id": "e88f374e-7e00-5e97-a9fd-8454834e0b74",
+            "drum_timestamp_seconds": 124.81066666666666,
+            "localization_id": "33c42c81-2677-5d32-a7ee-1b1fca291116"
+          },
+          {
+            "bass_eme_id": "541abf43-6959-5d31-a129-563924bcdf6b",
+            "bass_timestamp_seconds": 124.90666666666667,
+            "drum_eme_id": "e88f374e-7e00-5e97-a9fd-8454834e0b74",
+            "drum_timestamp_seconds": 124.81066666666666,
+            "localization_id": "76a311b0-4994-5122-9a9d-2ccf3f0896cb"
+          },
+          {
+            "bass_eme_id": "7d0080f6-c9ba-5b16-a1c8-0feb9f0cc55d",
+            "bass_timestamp_seconds": 125.03466666666667,
+            "drum_eme_id": "8673d39b-1a2d-5a1a-8605-eb42c75770a7",
+            "drum_timestamp_seconds": 125.04533333333333,
+            "localization_id": "39c5c2ef-0108-5c1a-90c0-cebaf32a2848"
+          },
+          {
+            "bass_eme_id": "12be7419-9a6e-59b7-8b97-069ed6a3a977",
+            "bass_timestamp_seconds": 125.28,
+            "drum_eme_id": "3622d8f6-2a25-5095-8258-96ced2e2f36a",
+            "drum_timestamp_seconds": 125.26933333333334,
+            "localization_id": "e6d524a1-2fce-58e8-9869-e898fcefc03b"
+          },
+          {
+            "bass_eme_id": "45fef8ad-225f-53ff-ae27-fe55dfb92332",
+            "bass_timestamp_seconds": 125.504,
+            "drum_eme_id": "adb632ea-cdc1-534e-904e-2cbe6c6c6c62",
+            "drum_timestamp_seconds": 125.504,
+            "localization_id": "11845b8a-084f-5b83-8d68-dcb5bff39896"
+          },
+          {
+            "bass_eme_id": "258e4490-c78f-5952-a7c9-b55e8a57043e",
+            "bass_timestamp_seconds": 125.664,
+            "drum_eme_id": "efc86005-07f2-50d4-b3db-c3e1c260d80f",
+            "drum_timestamp_seconds": 125.728,
+            "localization_id": "0701f6e9-8bf2-5270-bcb4-c1976aa1dc15"
+          },
+          {
+            "bass_eme_id": "91659f9e-7162-502e-b0de-3885b396dceb",
+            "bass_timestamp_seconds": 125.728,
+            "drum_eme_id": "efc86005-07f2-50d4-b3db-c3e1c260d80f",
+            "drum_timestamp_seconds": 125.728,
+            "localization_id": "f1f61f5f-9701-5000-bac2-60530e3524d9"
+          },
+          {
+            "bass_eme_id": "aeba6792-78db-566f-ad94-c360e4fd07f2",
+            "bass_timestamp_seconds": 125.89866666666667,
+            "drum_eme_id": "f47f199a-c277-5204-a93a-1df92130b34b",
+            "drum_timestamp_seconds": 125.97333333333333,
+            "localization_id": "d68a83c2-0d74-52e2-9df9-c66cb5ee4d79"
+          },
+          {
+            "bass_eme_id": "2d297469-0899-5d32-a822-34b93e1c3047",
+            "bass_timestamp_seconds": 125.984,
+            "drum_eme_id": "f47f199a-c277-5204-a93a-1df92130b34b",
+            "drum_timestamp_seconds": 125.97333333333333,
+            "localization_id": "6c22c601-2b4f-5f5f-bbe1-2e77c16cb57e"
+          },
+          {
+            "bass_eme_id": "44a2e703-85ba-541c-b232-5c98cbc8c8f7",
+            "bass_timestamp_seconds": 126.44266666666667,
+            "drum_eme_id": "f633dfec-ada0-557a-914c-9fe6a3edbd39",
+            "drum_timestamp_seconds": 126.432,
+            "localization_id": "c96b6d58-d4a7-5277-aecf-7f88bc0ec564"
+          }
+        ],
+        "connectors_rendered_count": 17,
+        "correspondence_status": "GEOMETRIC_ONLY",
+        "display_boundary_censoring": [],
+        "display_boundary_censoring_count": 0,
+        "double_bass_eme_count": 17,
+        "drums_eme_count": 16,
+        "duration_sample_frames": 240000,
+        "duration_seconds": 5.0,
+        "eligible_frozen_localization_count": 17,
+        "end_sample_frame_exclusive": 6076434,
+        "end_time_seconds_exclusive": 126.592375,
+        "included_double_bass_eme_ids": [
+          "687b0519-a34f-5133-aa93-01d20bd719f4",
+          "19eb04d6-b2cb-5823-8178-9fd52177f384",
+          "8b4792e1-930d-562b-83ed-b3a5a3932b56",
+          "8bda6273-d2c9-5270-9909-213fa396166f",
+          "fbc9be1d-9a64-5d41-b654-2cdccfb3e3f3",
+          "af1ce6a8-f768-531f-b5b3-33607f91f59c",
+          "dba6ff60-0b69-55fc-893f-4bb18f832b2d",
+          "3b468006-ac83-512e-a1e2-b1e44109d863",
+          "541abf43-6959-5d31-a129-563924bcdf6b",
+          "7d0080f6-c9ba-5b16-a1c8-0feb9f0cc55d",
+          "12be7419-9a6e-59b7-8b97-069ed6a3a977",
+          "45fef8ad-225f-53ff-ae27-fe55dfb92332",
+          "258e4490-c78f-5952-a7c9-b55e8a57043e",
+          "91659f9e-7162-502e-b0de-3885b396dceb",
+          "aeba6792-78db-566f-ad94-c360e4fd07f2",
+          "2d297469-0899-5d32-a822-34b93e1c3047",
+          "44a2e703-85ba-541c-b232-5c98cbc8c8f7"
+        ],
+        "included_drums_eme_ids": [
+          "41d06733-f296-523d-bf2e-3eee968f87a0",
+          "562279f6-1cc4-5f37-9983-628f195e3bba",
+          "82f708a5-ea71-5190-b44c-c26b3cd2e7f6",
+          "306e7055-d3fe-57cc-a1e2-db770be847e8",
+          "67031205-88e5-5a55-b10f-38912d578932",
+          "ccf12551-558b-5d58-a07a-4caa92f5a181",
+          "aa9a69c6-b41c-5660-87a6-35ccd47edacd",
+          "c131fbc4-2d16-5396-ae4c-eef208b85e45",
+          "e88f374e-7e00-5e97-a9fd-8454834e0b74",
+          "8673d39b-1a2d-5a1a-8605-eb42c75770a7",
+          "3622d8f6-2a25-5095-8258-96ced2e2f36a",
+          "adb632ea-cdc1-534e-904e-2cbe6c6c6c62",
+          "efc86005-07f2-50d4-b3db-c3e1c260d80f",
+          "f47f199a-c277-5204-a93a-1df92130b34b",
+          "6a37d443-4407-5d43-9623-e376c94707b8",
+          "f633dfec-ada0-557a-914c-9fe6a3edbd39"
+        ],
+        "included_localization_ids": [
+          "7a20afb6-171e-55a0-bd46-81d3506e3759",
+          "b0012b3e-300f-5950-bba5-81f1f96105e6",
+          "98468043-c9a7-57b4-af3c-14be248ddcaa",
+          "ffc16f43-fbfd-5831-8bf0-4e68669396c9",
+          "0e325f6a-d663-527d-abe4-ed08a1c2ba45",
+          "34bdcb92-9535-5102-be1b-7865149b28cb",
+          "be65f2d5-64c4-50cf-9f62-e89bb4eac40a",
+          "33c42c81-2677-5d32-a7ee-1b1fca291116",
+          "76a311b0-4994-5122-9a9d-2ccf3f0896cb",
+          "39c5c2ef-0108-5c1a-90c0-cebaf32a2848",
+          "e6d524a1-2fce-58e8-9869-e898fcefc03b",
+          "11845b8a-084f-5b83-8d68-dcb5bff39896",
+          "0701f6e9-8bf2-5270-bcb4-c1976aa1dc15",
+          "f1f61f5f-9701-5000-bac2-60530e3524d9",
+          "d68a83c2-0d74-52e2-9df9-c66cb5ee4d79",
+          "6c22c601-2b4f-5f5f-bbe1-2e77c16cb57e",
+          "c96b6d58-d4a7-5277-aecf-7f88bc0ec564"
+        ],
+        "nearest_tie_count": 0,
+        "nearest_tie_localization_ids": [],
+        "profile_id": "f000d109-8582-5d6a-b90c-0e26d50e7e76",
+        "scientific_content_fingerprint": "d2e43210f01bf4a243a7e126eb4cd9682c6f94868685b8b75983d9472970aff5",
+        "source_execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+        "source_scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+        "start_sample_frame": 5836434,
+        "start_time_seconds": 121.592375,
+        "stratum_index": 2,
+        "total_eme_count": 33,
+        "window_id": "W3"
+      },
+      {
+        "acquisition_authority": {
+          "common_session_time_origin": "UNESTABLISHED",
+          "live_performance": "SUPPORTED_BY_LEWITT_PROVIDER_DECLARATION",
+          "physical_onset": "NOT_ESTABLISHED",
+          "raw_no_editing_no_tuning": "SUPPORTED_TO_THE_EXTENT_DECLARED",
+          "shared_hardware_clock": "UNESTABLISHED"
+        },
+        "calibration_applicability": "UNESTABLISHED",
+        "center_sample_frame": 8339007,
+        "center_time_seconds": 173.7293125,
+        "connectors": [
+          {
+            "bass_eme_id": "1b743994-0663-53fb-a948-4300694ba7be",
+            "bass_timestamp_seconds": 171.30666666666667,
+            "drum_eme_id": "83c2817b-1fa9-5544-9f9e-7b0616d5ca03",
+            "drum_timestamp_seconds": 171.30666666666667,
+            "localization_id": "eccaefe2-975e-52bc-a98c-689c4a6e76db"
+          },
+          {
+            "bass_eme_id": "906877c5-0ff9-5f92-a9d1-fef85b28b6fa",
+            "bass_timestamp_seconds": 171.46666666666667,
+            "drum_eme_id": "cc4f6a9a-2d30-515a-9f52-731cde0b7469",
+            "drum_timestamp_seconds": 171.54133333333334,
+            "localization_id": "8451f535-805e-573d-836d-1136a7393a3b"
+          },
+          {
+            "bass_eme_id": "df3a02bb-18fc-550d-9e7c-eb9bd094af53",
+            "bass_timestamp_seconds": 171.52,
+            "drum_eme_id": "cc4f6a9a-2d30-515a-9f52-731cde0b7469",
+            "drum_timestamp_seconds": 171.54133333333334,
+            "localization_id": "63c27b9d-8b20-54bb-ba02-cef955d772bc"
+          },
+          {
+            "bass_eme_id": "03375dd5-3485-52a6-ba9b-0a6ced093162",
+            "bass_timestamp_seconds": 171.552,
+            "drum_eme_id": "cc4f6a9a-2d30-515a-9f52-731cde0b7469",
+            "drum_timestamp_seconds": 171.54133333333334,
+            "localization_id": "0aacd9d4-d84f-5703-9ba5-be2ded98537e"
+          },
+          {
+            "bass_eme_id": "9ab52e6b-0c78-5ddf-b815-c311de2af4b8",
+            "bass_timestamp_seconds": 171.776,
+            "drum_eme_id": "f8f4aeea-c2f4-5aec-8a63-357ebfc5fd36",
+            "drum_timestamp_seconds": 171.76533333333333,
+            "localization_id": "fecb6d99-0c42-5067-a836-f62012f9545a"
+          },
+          {
+            "bass_eme_id": "1fe878a5-85d4-5e46-8550-3a16cf799931",
+            "bass_timestamp_seconds": 171.94666666666666,
+            "drum_eme_id": "53dde3cb-f65c-5dff-9e26-0b5987520238",
+            "drum_timestamp_seconds": 172.01066666666668,
+            "localization_id": "51766187-85ae-5022-af03-5cd96a3184b0"
+          },
+          {
+            "bass_eme_id": "9416c7ed-7bf3-5e46-9e44-0611a01560b8",
+            "bass_timestamp_seconds": 172.01066666666668,
+            "drum_eme_id": "53dde3cb-f65c-5dff-9e26-0b5987520238",
+            "drum_timestamp_seconds": 172.01066666666668,
+            "localization_id": "2ebfe433-e3af-5454-a970-6de4e072f61f"
+          },
+          {
+            "bass_eme_id": "babd604d-5155-5ddb-9466-510246fe909f",
+            "bass_timestamp_seconds": 172.17066666666668,
+            "drum_eme_id": "7af3befc-6f7f-5581-beb4-d127a03fa760",
+            "drum_timestamp_seconds": 172.24533333333332,
+            "localization_id": "b819b944-8ed9-5fa2-a2ad-36bcced68c4a"
+          },
+          {
+            "bass_eme_id": "eea1eeb6-89ee-514a-9c0f-09c27453fedf",
+            "bass_timestamp_seconds": 172.23466666666667,
+            "drum_eme_id": "7af3befc-6f7f-5581-beb4-d127a03fa760",
+            "drum_timestamp_seconds": 172.24533333333332,
+            "localization_id": "a7b3cf98-2b17-59ab-8ae8-e409abeb9ea4"
+          },
+          {
+            "bass_eme_id": "b72566f1-abd5-5f6e-a863-5915f2923e92",
+            "bass_timestamp_seconds": 172.40533333333335,
+            "drum_eme_id": "10666e1e-1d96-5540-97ae-37671bf2b866",
+            "drum_timestamp_seconds": 172.48,
+            "localization_id": "75445c06-b44a-5e4d-a3b2-a1abeb7a6994"
+          },
+          {
+            "bass_eme_id": "17dd4146-9854-5c51-8737-d834920087a5",
+            "bass_timestamp_seconds": 172.46933333333334,
+            "drum_eme_id": "10666e1e-1d96-5540-97ae-37671bf2b866",
+            "drum_timestamp_seconds": 172.48,
+            "localization_id": "ee1126df-15be-5f6c-a407-c70ce8eaeacb"
+          },
+          {
+            "bass_eme_id": "c6509a88-968b-59af-ac17-d74e1ede144a",
+            "bass_timestamp_seconds": 172.65066666666667,
+            "drum_eme_id": "98b45694-bee2-51dc-8b5a-684bb6a776e6",
+            "drum_timestamp_seconds": 172.72533333333334,
+            "localization_id": "ff9957bb-9a33-5e17-9d29-6ad7a0a1ffca"
+          },
+          {
+            "bass_eme_id": "df5b55e2-3099-5a10-981f-759b22165762",
+            "bass_timestamp_seconds": 172.71466666666666,
+            "drum_eme_id": "98b45694-bee2-51dc-8b5a-684bb6a776e6",
+            "drum_timestamp_seconds": 172.72533333333334,
+            "localization_id": "9093be33-ca1a-503c-a4c6-336855c4b405"
+          },
+          {
+            "bass_eme_id": "ab5a18e5-5b8f-5d96-9666-6b4d672c3a41",
+            "bass_timestamp_seconds": 172.93866666666668,
+            "drum_eme_id": "039c64d3-bc91-5d90-ac36-2fd2a3135297",
+            "drum_timestamp_seconds": 172.94933333333333,
+            "localization_id": "e90cfc9f-46f8-5d49-afc2-c08483683208"
+          },
+          {
+            "bass_eme_id": "be5bc083-19d1-5fcd-a5a5-de707aa221ad",
+            "bass_timestamp_seconds": 173.184,
+            "drum_eme_id": "502be86a-49de-5660-98a5-d0ab6dfc9767",
+            "drum_timestamp_seconds": 173.19466666666668,
+            "localization_id": "cef3b66d-e031-5591-a799-7a44124d73e5"
+          },
+          {
+            "bass_eme_id": "7a59d137-9e9e-58f0-9a89-8abb26a10430",
+            "bass_timestamp_seconds": 173.344,
+            "drum_eme_id": "c12fae5a-247c-56f9-8bb0-8bbd76a8769d",
+            "drum_timestamp_seconds": 173.41866666666667,
+            "localization_id": "ca55e4e8-d2b1-50f1-93fd-5b4a91e6ce26"
+          },
+          {
+            "bass_eme_id": "4ecb374c-e483-510b-8bca-e120485937dc",
+            "bass_timestamp_seconds": 173.41866666666667,
+            "drum_eme_id": "c12fae5a-247c-56f9-8bb0-8bbd76a8769d",
+            "drum_timestamp_seconds": 173.41866666666667,
+            "localization_id": "7133b3d0-f787-5920-a6b9-8a91287db39a"
+          },
+          {
+            "bass_eme_id": "85c41755-8257-5d95-9d4b-de419acb539e",
+            "bass_timestamp_seconds": 173.58933333333334,
+            "drum_eme_id": "31fc3e56-581d-580d-98f4-7e886d7a5cdc",
+            "drum_timestamp_seconds": 173.65333333333334,
+            "localization_id": "eec4f472-ae3a-5da5-aa4a-2ae382e3e9a0"
+          },
+          {
+            "bass_eme_id": "8551f62b-fbdd-53b2-ac45-db66739dfb35",
+            "bass_timestamp_seconds": 173.65333333333334,
+            "drum_eme_id": "31fc3e56-581d-580d-98f4-7e886d7a5cdc",
+            "drum_timestamp_seconds": 173.65333333333334,
+            "localization_id": "51b90679-c919-5b6a-bd79-55620f4e03ba"
+          },
+          {
+            "bass_eme_id": "81aae65d-953c-5bc7-be56-7b120871d5d5",
+            "bass_timestamp_seconds": 173.81333333333333,
+            "drum_eme_id": "5c9faf15-131b-54a0-93bf-007302be4435",
+            "drum_timestamp_seconds": 173.888,
+            "localization_id": "654e161c-1230-56aa-89b7-5df179bb06f3"
+          },
+          {
+            "bass_eme_id": "2c0915bd-5a24-52a2-b4c5-03117a1d3d14",
+            "bass_timestamp_seconds": 173.888,
+            "drum_eme_id": "5c9faf15-131b-54a0-93bf-007302be4435",
+            "drum_timestamp_seconds": 173.888,
+            "localization_id": "51ba3c8b-af3e-55fb-830c-b02f66671d3a"
+          },
+          {
+            "bass_eme_id": "9cecea86-9027-5813-a872-e099ec329dfc",
+            "bass_timestamp_seconds": 174.06933333333333,
+            "drum_eme_id": "78e3153d-2ff3-5c96-b1d5-1150a9db938f",
+            "drum_timestamp_seconds": 174.12266666666667,
+            "localization_id": "c6937e91-2dea-5452-a686-c010a3ad6b8d"
+          },
+          {
+            "bass_eme_id": "58bc3bca-b973-53bc-8a10-9fb425e9b2aa",
+            "bass_timestamp_seconds": 174.112,
+            "drum_eme_id": "78e3153d-2ff3-5c96-b1d5-1150a9db938f",
+            "drum_timestamp_seconds": 174.12266666666667,
+            "localization_id": "45688d25-8edd-55be-8070-85cc028e6546"
+          },
+          {
+            "bass_eme_id": "9f67ccbc-acbc-56ec-9bde-d254cd84fafc",
+            "bass_timestamp_seconds": 174.29333333333332,
+            "drum_eme_id": "8bd08bbc-abd0-54a5-8cca-c78ef241d8bb",
+            "drum_timestamp_seconds": 174.34666666666666,
+            "localization_id": "9bc83d14-5114-5de7-86cf-590178f2222d"
+          },
+          {
+            "bass_eme_id": "71b14c5d-a054-5e8b-9a80-1d9b991c1802",
+            "bass_timestamp_seconds": 174.368,
+            "drum_eme_id": "8bd08bbc-abd0-54a5-8cca-c78ef241d8bb",
+            "drum_timestamp_seconds": 174.34666666666666,
+            "localization_id": "c20a4f65-b94a-525d-8829-f8e3c58684de"
+          },
+          {
+            "bass_eme_id": "d2145972-f1e7-5cf6-9e4a-7e096f5e16e0",
+            "bass_timestamp_seconds": 174.53866666666667,
+            "drum_eme_id": "594d2787-dfc8-599c-8e9c-8b8495477d16",
+            "drum_timestamp_seconds": 174.58133333333333,
+            "localization_id": "f5d7d467-c762-59fa-bdb1-ed7e73382a60"
+          },
+          {
+            "bass_eme_id": "4c26a172-fc1d-52d8-9383-289dffea6086",
+            "bass_timestamp_seconds": 174.60266666666666,
+            "drum_eme_id": "594d2787-dfc8-599c-8e9c-8b8495477d16",
+            "drum_timestamp_seconds": 174.58133333333333,
+            "localization_id": "211916c0-74f9-57db-a7dc-db1d45bebcba"
+          },
+          {
+            "bass_eme_id": "bfcde076-c093-519b-bbd9-1e33b78a365f",
+            "bass_timestamp_seconds": 174.82666666666665,
+            "drum_eme_id": "c6ae73a3-33cf-5483-bf56-237b5c43ef83",
+            "drum_timestamp_seconds": 174.80533333333332,
+            "localization_id": "25580284-6f08-585c-916b-08c7b2b21992"
+          },
+          {
+            "bass_eme_id": "3f9f505e-9167-5f80-85f9-d0424030596e",
+            "bass_timestamp_seconds": 175.01866666666666,
+            "drum_eme_id": "af10712e-088e-5cfa-ad35-f47190940ca5",
+            "drum_timestamp_seconds": 175.05066666666667,
+            "localization_id": "a47d7018-0e31-5d3e-8b6f-5742a76bd308"
+          },
+          {
+            "bass_eme_id": "67e6e7f9-015a-5fb3-9273-efc8bade3a90",
+            "bass_timestamp_seconds": 175.28533333333334,
+            "drum_eme_id": "d1e0b256-1766-5b1c-b0e9-de77e83b1b94",
+            "drum_timestamp_seconds": 175.28533333333334,
+            "localization_id": "4eb2518e-6019-586d-a7be-9fb5baf7c7c6"
+          },
+          {
+            "bass_eme_id": "05e292c1-0a08-5e9c-b326-3fab994bcd3a",
+            "bass_timestamp_seconds": 175.52,
+            "drum_eme_id": "68b65cf8-cae4-5179-a6f1-e8f2e7052f9e",
+            "drum_timestamp_seconds": 175.50933333333333,
+            "localization_id": "02198beb-d060-5202-a638-f92635cbb1d2"
+          },
+          {
+            "bass_eme_id": "aeff89e0-f58b-5b82-a69d-b471401a70c0",
+            "bass_timestamp_seconds": 175.75466666666668,
+            "drum_eme_id": "334f9721-e0ae-5623-9436-4229616386bb",
+            "drum_timestamp_seconds": 175.744,
+            "localization_id": "f543a4b5-56df-52bc-a103-21d025222afc"
+          },
+          {
+            "bass_eme_id": "21f7e146-72e1-54f4-91b5-681b7634c0fc",
+            "bass_timestamp_seconds": 176.18133333333333,
+            "drum_eme_id": "cbb94e5c-efaf-5841-9161-deefc23c4351",
+            "drum_timestamp_seconds": 176.20266666666666,
+            "localization_id": "74eefeca-2b68-583b-bf4d-c0fb2e29030b"
+          }
+        ],
+        "connectors_rendered_count": 33,
+        "correspondence_status": "GEOMETRIC_ONLY",
+        "display_boundary_censoring": [],
+        "display_boundary_censoring_count": 0,
+        "double_bass_eme_count": 33,
+        "drums_eme_count": 27,
+        "duration_sample_frames": 240000,
+        "duration_seconds": 5.0,
+        "eligible_frozen_localization_count": 33,
+        "end_sample_frame_exclusive": 8459007,
+        "end_time_seconds_exclusive": 176.2293125,
+        "included_double_bass_eme_ids": [
+          "1b743994-0663-53fb-a948-4300694ba7be",
+          "906877c5-0ff9-5f92-a9d1-fef85b28b6fa",
+          "df3a02bb-18fc-550d-9e7c-eb9bd094af53",
+          "03375dd5-3485-52a6-ba9b-0a6ced093162",
+          "9ab52e6b-0c78-5ddf-b815-c311de2af4b8",
+          "1fe878a5-85d4-5e46-8550-3a16cf799931",
+          "9416c7ed-7bf3-5e46-9e44-0611a01560b8",
+          "babd604d-5155-5ddb-9466-510246fe909f",
+          "eea1eeb6-89ee-514a-9c0f-09c27453fedf",
+          "b72566f1-abd5-5f6e-a863-5915f2923e92",
+          "17dd4146-9854-5c51-8737-d834920087a5",
+          "c6509a88-968b-59af-ac17-d74e1ede144a",
+          "df5b55e2-3099-5a10-981f-759b22165762",
+          "ab5a18e5-5b8f-5d96-9666-6b4d672c3a41",
+          "be5bc083-19d1-5fcd-a5a5-de707aa221ad",
+          "7a59d137-9e9e-58f0-9a89-8abb26a10430",
+          "4ecb374c-e483-510b-8bca-e120485937dc",
+          "85c41755-8257-5d95-9d4b-de419acb539e",
+          "8551f62b-fbdd-53b2-ac45-db66739dfb35",
+          "81aae65d-953c-5bc7-be56-7b120871d5d5",
+          "2c0915bd-5a24-52a2-b4c5-03117a1d3d14",
+          "9cecea86-9027-5813-a872-e099ec329dfc",
+          "58bc3bca-b973-53bc-8a10-9fb425e9b2aa",
+          "9f67ccbc-acbc-56ec-9bde-d254cd84fafc",
+          "71b14c5d-a054-5e8b-9a80-1d9b991c1802",
+          "d2145972-f1e7-5cf6-9e4a-7e096f5e16e0",
+          "4c26a172-fc1d-52d8-9383-289dffea6086",
+          "bfcde076-c093-519b-bbd9-1e33b78a365f",
+          "3f9f505e-9167-5f80-85f9-d0424030596e",
+          "67e6e7f9-015a-5fb3-9273-efc8bade3a90",
+          "05e292c1-0a08-5e9c-b326-3fab994bcd3a",
+          "aeff89e0-f58b-5b82-a69d-b471401a70c0",
+          "21f7e146-72e1-54f4-91b5-681b7634c0fc"
+        ],
+        "included_drums_eme_ids": [
+          "83c2817b-1fa9-5544-9f9e-7b0616d5ca03",
+          "cc4f6a9a-2d30-515a-9f52-731cde0b7469",
+          "f8f4aeea-c2f4-5aec-8a63-357ebfc5fd36",
+          "53dde3cb-f65c-5dff-9e26-0b5987520238",
+          "7af3befc-6f7f-5581-beb4-d127a03fa760",
+          "10666e1e-1d96-5540-97ae-37671bf2b866",
+          "98b45694-bee2-51dc-8b5a-684bb6a776e6",
+          "039c64d3-bc91-5d90-ac36-2fd2a3135297",
+          "502be86a-49de-5660-98a5-d0ab6dfc9767",
+          "c12fae5a-247c-56f9-8bb0-8bbd76a8769d",
+          "31fc3e56-581d-580d-98f4-7e886d7a5cdc",
+          "5c9faf15-131b-54a0-93bf-007302be4435",
+          "78e3153d-2ff3-5c96-b1d5-1150a9db938f",
+          "8bd08bbc-abd0-54a5-8cca-c78ef241d8bb",
+          "594d2787-dfc8-599c-8e9c-8b8495477d16",
+          "c6ae73a3-33cf-5483-bf56-237b5c43ef83",
+          "af10712e-088e-5cfa-ad35-f47190940ca5",
+          "852569e3-489c-5458-bd81-7b4bd319bc7f",
+          "d1e0b256-1766-5b1c-b0e9-de77e83b1b94",
+          "6523854d-4d67-5b43-8700-f9a2ebc11a55",
+          "68b65cf8-cae4-5179-a6f1-e8f2e7052f9e",
+          "800a7fdd-c000-56e3-9fc2-d2709d25ef8a",
+          "334f9721-e0ae-5623-9436-4229616386bb",
+          "22b9beec-9d24-561f-8f17-9725e1ae3f2d",
+          "30ee17ac-bd6d-5c46-9e4d-7e27a3b2da28",
+          "04824d8e-8725-5a53-8899-390d261bc033",
+          "cbb94e5c-efaf-5841-9161-deefc23c4351"
+        ],
+        "included_localization_ids": [
+          "eccaefe2-975e-52bc-a98c-689c4a6e76db",
+          "8451f535-805e-573d-836d-1136a7393a3b",
+          "63c27b9d-8b20-54bb-ba02-cef955d772bc",
+          "0aacd9d4-d84f-5703-9ba5-be2ded98537e",
+          "fecb6d99-0c42-5067-a836-f62012f9545a",
+          "51766187-85ae-5022-af03-5cd96a3184b0",
+          "2ebfe433-e3af-5454-a970-6de4e072f61f",
+          "b819b944-8ed9-5fa2-a2ad-36bcced68c4a",
+          "a7b3cf98-2b17-59ab-8ae8-e409abeb9ea4",
+          "75445c06-b44a-5e4d-a3b2-a1abeb7a6994",
+          "ee1126df-15be-5f6c-a407-c70ce8eaeacb",
+          "ff9957bb-9a33-5e17-9d29-6ad7a0a1ffca",
+          "9093be33-ca1a-503c-a4c6-336855c4b405",
+          "e90cfc9f-46f8-5d49-afc2-c08483683208",
+          "cef3b66d-e031-5591-a799-7a44124d73e5",
+          "ca55e4e8-d2b1-50f1-93fd-5b4a91e6ce26",
+          "7133b3d0-f787-5920-a6b9-8a91287db39a",
+          "eec4f472-ae3a-5da5-aa4a-2ae382e3e9a0",
+          "51b90679-c919-5b6a-bd79-55620f4e03ba",
+          "654e161c-1230-56aa-89b7-5df179bb06f3",
+          "51ba3c8b-af3e-55fb-830c-b02f66671d3a",
+          "c6937e91-2dea-5452-a686-c010a3ad6b8d",
+          "45688d25-8edd-55be-8070-85cc028e6546",
+          "9bc83d14-5114-5de7-86cf-590178f2222d",
+          "c20a4f65-b94a-525d-8829-f8e3c58684de",
+          "f5d7d467-c762-59fa-bdb1-ed7e73382a60",
+          "211916c0-74f9-57db-a7dc-db1d45bebcba",
+          "25580284-6f08-585c-916b-08c7b2b21992",
+          "a47d7018-0e31-5d3e-8b6f-5742a76bd308",
+          "4eb2518e-6019-586d-a7be-9fb5baf7c7c6",
+          "02198beb-d060-5202-a638-f92635cbb1d2",
+          "f543a4b5-56df-52bc-a103-21d025222afc",
+          "74eefeca-2b68-583b-bf4d-c0fb2e29030b"
+        ],
+        "nearest_tie_count": 0,
+        "nearest_tie_localization_ids": [],
+        "profile_id": "f000d109-8582-5d6a-b90c-0e26d50e7e76",
+        "scientific_content_fingerprint": "97aabdc1750d0c997e8b0abd5f432cdb937ff6f19f2f3896eceba1a64945bdee",
+        "source_execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+        "source_scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+        "start_sample_frame": 8219007,
+        "start_time_seconds": 171.2293125,
+        "stratum_index": 3,
+        "total_eme_count": 60,
+        "window_id": "W4"
+      },
+      {
+        "acquisition_authority": {
+          "common_session_time_origin": "UNESTABLISHED",
+          "live_performance": "SUPPORTED_BY_LEWITT_PROVIDER_DECLARATION",
+          "physical_onset": "NOT_ESTABLISHED",
+          "raw_no_editing_no_tuning": "SUPPORTED_TO_THE_EXTENT_DECLARED",
+          "shared_hardware_clock": "UNESTABLISHED"
+        },
+        "calibration_applicability": "UNESTABLISHED",
+        "center_sample_frame": 10721581,
+        "center_time_seconds": 223.36627083333335,
+        "connectors": [
+          {
+            "bass_eme_id": "ab0ac054-a9fc-5f03-adc5-3f651de965d2",
+            "bass_timestamp_seconds": 220.90666666666667,
+            "drum_eme_id": "19b4210d-831e-5cad-983f-947f2694da35",
+            "drum_timestamp_seconds": 220.91733333333335,
+            "localization_id": "c6b8d931-91a8-557f-ac58-63630289a50d"
+          },
+          {
+            "bass_eme_id": "9b1147df-c34b-5a02-86f1-215ae1d8b78b",
+            "bass_timestamp_seconds": 221.14133333333334,
+            "drum_eme_id": "030f77e1-adf2-5da4-ad36-92771b181a4f",
+            "drum_timestamp_seconds": 221.152,
+            "localization_id": "4eab0357-f0e9-5174-99af-ac5826ca1d71"
+          },
+          {
+            "bass_eme_id": "fdd1ed8d-075b-5d23-8110-9f744829a227",
+            "bass_timestamp_seconds": 221.376,
+            "drum_eme_id": "f353f905-1475-502e-af61-c2009b6180d3",
+            "drum_timestamp_seconds": 221.376,
+            "localization_id": "b191d519-14a7-55f5-8dec-6fed066d4347"
+          },
+          {
+            "bass_eme_id": "4165e26a-0bc3-5f79-9eeb-c1b07f99a316",
+            "bass_timestamp_seconds": 221.568,
+            "drum_eme_id": "cddf7b6d-a4d7-5090-8f86-eb9f40638736",
+            "drum_timestamp_seconds": 221.61066666666667,
+            "localization_id": "0e85bbf0-213a-5de9-9322-53012327e9d9"
+          },
+          {
+            "bass_eme_id": "9710adcc-2b09-5f38-98f2-79c035e57af4",
+            "bass_timestamp_seconds": 221.83466666666666,
+            "drum_eme_id": "6fe76abe-592d-5379-9efc-3ff7dbd3f1ff",
+            "drum_timestamp_seconds": 221.856,
+            "localization_id": "a46a5108-1852-5d11-a813-e5d25a9ddb2a"
+          },
+          {
+            "bass_eme_id": "638f3504-bea2-5c8e-ba61-b13a3b932a4c",
+            "bass_timestamp_seconds": 222.09066666666666,
+            "drum_eme_id": "c1ac0737-33c0-519d-9cfa-e048818ddcbb",
+            "drum_timestamp_seconds": 222.08,
+            "localization_id": "795c146c-ba1e-506f-a2b0-da72ad4a5c09"
+          },
+          {
+            "bass_eme_id": "a5ea8509-07fd-56b5-9a43-8bb8d342a0c3",
+            "bass_timestamp_seconds": 222.26133333333334,
+            "drum_eme_id": "3e6d6e51-4eb8-51dc-a6e8-3225973fd7c6",
+            "drum_timestamp_seconds": 222.32533333333333,
+            "localization_id": "99c1b18e-3c39-59b8-8fa6-ffddc82c51f8"
+          },
+          {
+            "bass_eme_id": "b26547c2-5932-5275-b366-598c334b8672",
+            "bass_timestamp_seconds": 222.53866666666667,
+            "drum_eme_id": "0fe1e6d6-53de-538c-9507-59e1669d1f59",
+            "drum_timestamp_seconds": 222.56,
+            "localization_id": "9e22c396-a7b8-5d09-907f-bf274d1d8c99"
+          },
+          {
+            "bass_eme_id": "6638921d-da8a-5795-8c23-f9c9c2a2ac1b",
+            "bass_timestamp_seconds": 222.79466666666667,
+            "drum_eme_id": "7abcdbf5-1927-578d-bab5-bce118c4e016",
+            "drum_timestamp_seconds": 222.79466666666667,
+            "localization_id": "5f8ebbd7-9743-51fc-86a5-7652f8b58c91"
+          },
+          {
+            "bass_eme_id": "2a661d96-d524-58e3-87ee-f2685783ba7e",
+            "bass_timestamp_seconds": 223.008,
+            "drum_eme_id": "b6b279c8-554f-5579-9329-b7f9e7d1dad8",
+            "drum_timestamp_seconds": 223.02933333333334,
+            "localization_id": "ab60482d-ab6a-515a-bd54-0f8e49c3f692"
+          },
+          {
+            "bass_eme_id": "25d07825-71e8-59ff-b8ad-3589a5c13505",
+            "bass_timestamp_seconds": 223.168,
+            "drum_eme_id": "ffae1aef-2e15-57d5-b9e1-034e6ad401b6",
+            "drum_timestamp_seconds": 223.25333333333333,
+            "localization_id": "0287bcd5-043c-5974-9f6a-b06aa27b06d1"
+          },
+          {
+            "bass_eme_id": "85fc845c-639f-5794-bada-3cbea369f973",
+            "bass_timestamp_seconds": 223.264,
+            "drum_eme_id": "ffae1aef-2e15-57d5-b9e1-034e6ad401b6",
+            "drum_timestamp_seconds": 223.25333333333333,
+            "localization_id": "4c2d5510-8415-53b4-8c6f-1ba807e547ca"
+          },
+          {
+            "bass_eme_id": "d09254a2-2bd7-5ff6-9193-789adc4e2522",
+            "bass_timestamp_seconds": 223.424,
+            "drum_eme_id": "7dd50274-af78-529c-8b33-96fa33f8bac4",
+            "drum_timestamp_seconds": 223.488,
+            "localization_id": "fb491c84-2dbb-56b2-8bd4-aad03308bd62"
+          },
+          {
+            "bass_eme_id": "6d753af7-ae16-5e59-a0cc-51ceb40a1452",
+            "bass_timestamp_seconds": 223.46666666666667,
+            "drum_eme_id": "7dd50274-af78-529c-8b33-96fa33f8bac4",
+            "drum_timestamp_seconds": 223.488,
+            "localization_id": "2b37b6cb-04a9-5b3c-bc15-85718c10b162"
+          },
+          {
+            "bass_eme_id": "26a8a492-5dce-5b36-8ba4-9344ba14be22",
+            "bass_timestamp_seconds": 223.65866666666668,
+            "drum_eme_id": "245d2206-20d7-5097-ae1c-8515b279089e",
+            "drum_timestamp_seconds": 223.712,
+            "localization_id": "2150f64e-9627-5995-a544-6a2a608f8067"
+          },
+          {
+            "bass_eme_id": "9af1b158-7e58-5ea0-96ba-d417c8b58ae9",
+            "bass_timestamp_seconds": 223.73333333333332,
+            "drum_eme_id": "245d2206-20d7-5097-ae1c-8515b279089e",
+            "drum_timestamp_seconds": 223.712,
+            "localization_id": "da49ad73-f6e9-59fe-a927-0345d90f926e"
+          },
+          {
+            "bass_eme_id": "60126475-9210-582d-81bf-3bca1edaa26c",
+            "bass_timestamp_seconds": 223.872,
+            "drum_eme_id": "44945b85-9929-591f-82d4-e3ccbe4128ba",
+            "drum_timestamp_seconds": 223.936,
+            "localization_id": "2fc6caa7-074f-5baa-909b-f57aef1570c1"
+          },
+          {
+            "bass_eme_id": "3af51374-9e97-5d83-851f-ff13dd489d21",
+            "bass_timestamp_seconds": 223.94666666666666,
+            "drum_eme_id": "44945b85-9929-591f-82d4-e3ccbe4128ba",
+            "drum_timestamp_seconds": 223.936,
+            "localization_id": "79994ad9-a4f8-50c7-930f-93f160d3dd0d"
+          },
+          {
+            "bass_eme_id": "08c7ebeb-e3b3-5712-ba6d-1b039516d07c",
+            "bass_timestamp_seconds": 224.17066666666668,
+            "drum_eme_id": "09c7c934-a275-55cc-bd58-1ab7af0faf47",
+            "drum_timestamp_seconds": 224.18133333333333,
+            "localization_id": "4e8b2d36-a0d5-559c-b9b5-1d9818946500"
+          },
+          {
+            "bass_eme_id": "9ea0c9b9-6dab-5517-a69c-6d93aeae5332",
+            "bass_timestamp_seconds": 224.40533333333335,
+            "drum_eme_id": "b65fd1af-a3d6-5bc7-ae94-57e065def2d9",
+            "drum_timestamp_seconds": 224.416,
+            "localization_id": "42627c70-ed24-58f2-9a06-73bdd483e71e"
+          },
+          {
+            "bass_eme_id": "d5c76145-09c9-55bb-b0e9-2f12d3931402",
+            "bass_timestamp_seconds": 224.608,
+            "drum_eme_id": "f50aded7-f9a5-51a4-9373-6936431d77ba",
+            "drum_timestamp_seconds": 224.65066666666667,
+            "localization_id": "e25dfc82-c36b-5224-ae50-dade4f52b661"
+          },
+          {
+            "bass_eme_id": "f53feb61-6fbf-5c0f-a960-7323dd0cff11",
+            "bass_timestamp_seconds": 224.66133333333335,
+            "drum_eme_id": "f50aded7-f9a5-51a4-9373-6936431d77ba",
+            "drum_timestamp_seconds": 224.65066666666667,
+            "localization_id": "27a2bbdb-d760-59ef-85a3-1e8a41761815"
+          },
+          {
+            "bass_eme_id": "e98c8bbf-b70b-58f0-8eb3-9f876dc02902",
+            "bass_timestamp_seconds": 224.93866666666668,
+            "drum_eme_id": "72f6e13b-3f45-5916-b2ba-ac1905fdad3a",
+            "drum_timestamp_seconds": 224.88533333333334,
+            "localization_id": "294e2b73-1a03-53b3-a505-0a32336808c9"
+          },
+          {
+            "bass_eme_id": "165edd18-3be2-5407-8be2-d1f91e2d5e14",
+            "bass_timestamp_seconds": 225.13066666666666,
+            "drum_eme_id": "740c8e18-e3cf-5a2d-b8f5-52365ea48610",
+            "drum_timestamp_seconds": 225.10933333333332,
+            "localization_id": "182ddd34-65d2-5d2a-9c62-2926b3d8d5c6"
+          },
+          {
+            "bass_eme_id": "08065dd7-acd3-5b5d-b993-7051f5a812b3",
+            "bass_timestamp_seconds": 225.35466666666667,
+            "drum_eme_id": "02099f9b-8e39-5d90-8d1d-80b8e9027c58",
+            "drum_timestamp_seconds": 225.344,
+            "localization_id": "aaf4b702-a237-5aed-a873-c10b5be5f634"
+          },
+          {
+            "bass_eme_id": "06dd67c9-43b1-5143-b769-ad7c40e855e7",
+            "bass_timestamp_seconds": 225.568,
+            "drum_eme_id": "7f127468-231d-56db-b266-267d3bc7de84",
+            "drum_timestamp_seconds": 225.57866666666666,
+            "localization_id": "9963c146-3723-522e-9659-9151a0ec6ef0"
+          },
+          {
+            "bass_eme_id": "123e9f9c-25ee-5e22-8e19-8d9e8c8926e6",
+            "bass_timestamp_seconds": 225.792,
+            "drum_eme_id": "c797250f-a7d2-5069-a78e-67f9d0142363",
+            "drum_timestamp_seconds": 225.824,
+            "localization_id": "fe017276-5df1-5b31-8b51-9df8862d8446"
+          }
+        ],
+        "connectors_rendered_count": 27,
+        "correspondence_status": "GEOMETRIC_ONLY",
+        "display_boundary_censoring": [],
+        "display_boundary_censoring_count": 0,
+        "double_bass_eme_count": 27,
+        "drums_eme_count": 22,
+        "duration_sample_frames": 240000,
+        "duration_seconds": 5.0,
+        "eligible_frozen_localization_count": 27,
+        "end_sample_frame_exclusive": 10841581,
+        "end_time_seconds_exclusive": 225.86627083333335,
+        "included_double_bass_eme_ids": [
+          "ab0ac054-a9fc-5f03-adc5-3f651de965d2",
+          "9b1147df-c34b-5a02-86f1-215ae1d8b78b",
+          "fdd1ed8d-075b-5d23-8110-9f744829a227",
+          "4165e26a-0bc3-5f79-9eeb-c1b07f99a316",
+          "9710adcc-2b09-5f38-98f2-79c035e57af4",
+          "638f3504-bea2-5c8e-ba61-b13a3b932a4c",
+          "a5ea8509-07fd-56b5-9a43-8bb8d342a0c3",
+          "b26547c2-5932-5275-b366-598c334b8672",
+          "6638921d-da8a-5795-8c23-f9c9c2a2ac1b",
+          "2a661d96-d524-58e3-87ee-f2685783ba7e",
+          "25d07825-71e8-59ff-b8ad-3589a5c13505",
+          "85fc845c-639f-5794-bada-3cbea369f973",
+          "d09254a2-2bd7-5ff6-9193-789adc4e2522",
+          "6d753af7-ae16-5e59-a0cc-51ceb40a1452",
+          "26a8a492-5dce-5b36-8ba4-9344ba14be22",
+          "9af1b158-7e58-5ea0-96ba-d417c8b58ae9",
+          "60126475-9210-582d-81bf-3bca1edaa26c",
+          "3af51374-9e97-5d83-851f-ff13dd489d21",
+          "08c7ebeb-e3b3-5712-ba6d-1b039516d07c",
+          "9ea0c9b9-6dab-5517-a69c-6d93aeae5332",
+          "d5c76145-09c9-55bb-b0e9-2f12d3931402",
+          "f53feb61-6fbf-5c0f-a960-7323dd0cff11",
+          "e98c8bbf-b70b-58f0-8eb3-9f876dc02902",
+          "165edd18-3be2-5407-8be2-d1f91e2d5e14",
+          "08065dd7-acd3-5b5d-b993-7051f5a812b3",
+          "06dd67c9-43b1-5143-b769-ad7c40e855e7",
+          "123e9f9c-25ee-5e22-8e19-8d9e8c8926e6"
+        ],
+        "included_drums_eme_ids": [
+          "19b4210d-831e-5cad-983f-947f2694da35",
+          "030f77e1-adf2-5da4-ad36-92771b181a4f",
+          "f353f905-1475-502e-af61-c2009b6180d3",
+          "cddf7b6d-a4d7-5090-8f86-eb9f40638736",
+          "6fe76abe-592d-5379-9efc-3ff7dbd3f1ff",
+          "c1ac0737-33c0-519d-9cfa-e048818ddcbb",
+          "3e6d6e51-4eb8-51dc-a6e8-3225973fd7c6",
+          "0fe1e6d6-53de-538c-9507-59e1669d1f59",
+          "7abcdbf5-1927-578d-bab5-bce118c4e016",
+          "b6b279c8-554f-5579-9329-b7f9e7d1dad8",
+          "ffae1aef-2e15-57d5-b9e1-034e6ad401b6",
+          "7dd50274-af78-529c-8b33-96fa33f8bac4",
+          "245d2206-20d7-5097-ae1c-8515b279089e",
+          "44945b85-9929-591f-82d4-e3ccbe4128ba",
+          "09c7c934-a275-55cc-bd58-1ab7af0faf47",
+          "b65fd1af-a3d6-5bc7-ae94-57e065def2d9",
+          "f50aded7-f9a5-51a4-9373-6936431d77ba",
+          "72f6e13b-3f45-5916-b2ba-ac1905fdad3a",
+          "740c8e18-e3cf-5a2d-b8f5-52365ea48610",
+          "02099f9b-8e39-5d90-8d1d-80b8e9027c58",
+          "7f127468-231d-56db-b266-267d3bc7de84",
+          "c797250f-a7d2-5069-a78e-67f9d0142363"
+        ],
+        "included_localization_ids": [
+          "c6b8d931-91a8-557f-ac58-63630289a50d",
+          "4eab0357-f0e9-5174-99af-ac5826ca1d71",
+          "b191d519-14a7-55f5-8dec-6fed066d4347",
+          "0e85bbf0-213a-5de9-9322-53012327e9d9",
+          "a46a5108-1852-5d11-a813-e5d25a9ddb2a",
+          "795c146c-ba1e-506f-a2b0-da72ad4a5c09",
+          "99c1b18e-3c39-59b8-8fa6-ffddc82c51f8",
+          "9e22c396-a7b8-5d09-907f-bf274d1d8c99",
+          "5f8ebbd7-9743-51fc-86a5-7652f8b58c91",
+          "ab60482d-ab6a-515a-bd54-0f8e49c3f692",
+          "0287bcd5-043c-5974-9f6a-b06aa27b06d1",
+          "4c2d5510-8415-53b4-8c6f-1ba807e547ca",
+          "fb491c84-2dbb-56b2-8bd4-aad03308bd62",
+          "2b37b6cb-04a9-5b3c-bc15-85718c10b162",
+          "2150f64e-9627-5995-a544-6a2a608f8067",
+          "da49ad73-f6e9-59fe-a927-0345d90f926e",
+          "2fc6caa7-074f-5baa-909b-f57aef1570c1",
+          "79994ad9-a4f8-50c7-930f-93f160d3dd0d",
+          "4e8b2d36-a0d5-559c-b9b5-1d9818946500",
+          "42627c70-ed24-58f2-9a06-73bdd483e71e",
+          "e25dfc82-c36b-5224-ae50-dade4f52b661",
+          "27a2bbdb-d760-59ef-85a3-1e8a41761815",
+          "294e2b73-1a03-53b3-a505-0a32336808c9",
+          "182ddd34-65d2-5d2a-9c62-2926b3d8d5c6",
+          "aaf4b702-a237-5aed-a873-c10b5be5f634",
+          "9963c146-3723-522e-9659-9151a0ec6ef0",
+          "fe017276-5df1-5b31-8b51-9df8862d8446"
+        ],
+        "nearest_tie_count": 0,
+        "nearest_tie_localization_ids": [],
+        "profile_id": "f000d109-8582-5d6a-b90c-0e26d50e7e76",
+        "scientific_content_fingerprint": "8f2168356dabe05079e564a64f71b2a7a090842d82b1cb05715b97cbbfc82238",
+        "source_execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+        "source_scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+        "start_sample_frame": 10601581,
+        "start_time_seconds": 220.86627083333335,
+        "stratum_index": 4,
+        "total_eme_count": 49,
+        "window_id": "W5"
+      }
+    ]
+  },
+  "status": "PASS_FROZEN_FIVE_WINDOW_LOCAL_NEUTRAL_VISUALIZATIONS"
+}

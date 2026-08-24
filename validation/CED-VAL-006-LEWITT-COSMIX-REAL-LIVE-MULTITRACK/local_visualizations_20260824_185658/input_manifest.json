@@ -1,0 +1,16 @@
+{
+  "authority_checksums": {
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/preregistrations/H-CEDVAL006-FIVE-WINDOW-LOCAL-NEUTRAL-VISUALIZATION-01.md": "ceab140853db3f7d6aaa7e06dfbdcdad7fb7b23ff5040c5ab60df726b0ca1e4c"
+  },
+  "authority_gate": "PASS",
+  "execution_id": "EXEC-CEDVAL006-LOCAL-VISUALIZATION-20260824-185658",
+  "input_checksums": {
+    "artifact_manifest.json": "53abec045bb26beb29c123fa564c740cef6c6da82298c91f8718679108e25ba0",
+    "drum_relative_localizations.json": "a1f401a8c26f894ee36fa68f924008393410048da64ebb874b415611c796c51a",
+    "elementary_metric_events.json": "64db95d8feeb6ab7ca22aa8081e177c57d6ab57c9f0aaf3bb4a5650db28329f5",
+    "rhythm_section_timing_profile.json": "32c599c5a14f12577a8b7562aeff19b7ef0507b6e348a82a6093461e246dc008"
+  },
+  "source_execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+  "source_scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+  "study_id": "H-CEDVAL006-FIVE-WINDOW-LOCAL-NEUTRAL-VISUALIZATION-01"
+}
