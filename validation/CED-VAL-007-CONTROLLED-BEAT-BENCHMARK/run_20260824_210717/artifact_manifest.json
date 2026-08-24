@@ -1,0 +1,16 @@
+{
+  "artifacts": [
+    {"relative_path": "completion_protocol.json", "sha256": "8c988d8924012b2db798235424015c3c0d93ee2ed30d112a556f9c0d0af61f77"},
+    {"relative_path": "event_level_responses.json", "sha256": "976fbeae5c4518d2002627cb3df687ce8831bdfc41d49712e995a81f986b0add"},
+    {"relative_path": "execute.py", "sha256": "b7ace943c99ed78398ee9ad45070726db36281c4f701547098354e4044f1ccd9"},
+    {"relative_path": "input_manifest.json", "sha256": "5f170d600f9e948a43c9fdd83466a242409d5e7ecc26571b61e214d9b105ebe4"},
+    {"relative_path": "report.md", "sha256": "b1326cf7d5d8d1b6b0b010da414660e6ee709bd7c4ca3fa0ca379b4184ad5744"},
+    {"relative_path": "result.json", "sha256": "55ed4b1b0c55e8d6f2a01dd468e25818e03632dbd6b2881401ee63d5fdce9f2a"},
+    {"relative_path": "scientific_content.json", "sha256": "41fa3c1ad6f37d6cfae08119681278004f23933098bf801cc9ab15508d58d952"},
+    {"relative_path": "source_summary.json", "sha256": "591c8f79d8c6516a472188365d7e5536dcd4ce4db7777c2c0c1a7565a7210cdb"},
+    {"relative_path": "verify.py", "sha256": "cb698db9362e516025c019ea57087c89cc7ed2afeb7b411b35f9a5e6bca6cb6c"}
+  ],
+  "combined_response_measurement_fingerprint": "c915eb4a63b9f7e9a3650eef1ce28d52b6bc956da485ec3b5ae7451e87ab29a2",
+  "execution_id": "EXEC-CEDVAL007-RENDERED-RESPONSE-20260824-210717",
+  "schema": "JGA-SCIENTIFIC-ARTIFACT-MANIFEST/v1"
+}

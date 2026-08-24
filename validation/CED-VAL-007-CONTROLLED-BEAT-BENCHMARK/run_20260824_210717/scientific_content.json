@@ -1,0 +1,5263 @@
+{
+  "combined_fingerprint_basis": {
+    "dataset_fingerprint": "cd93455778d1484067f9a3caa3037b6467d27c7e8d5a8c0df694658bad2484e9",
+    "rule_id": "H-CEDVAL007-RENDERED-RESPONSE-MEASUREMENT-01",
+    "source_fingerprints": {
+      "DRUM": "9c251de148f71eaded8a549f646c19b68414a854a9adbc6704901aaa23d4f3cb",
+      "MARKER": "939a7bf7c0275e31563b51542007f80251e9275adad8116b5c83097acb91c08d"
+    },
+    "symbolic_authority": "SYMBOLIC_BEAT_GROUND_TRUTH"
+  },
+  "combined_response_measurement_fingerprint": "c915eb4a63b9f7e9a3650eef1ce28d52b6bc956da485ec3b5ae7451e87ab29a2",
+  "dataset_fingerprint": "cd93455778d1484067f9a3caa3037b6467d27c7e8d5a8c0df694658bad2484e9",
+  "epistemic_separation": {
+    "DRUM": "RENDERED_DRUM_RESPONSE",
+    "MARKER": "RENDERED_MARKER_RESPONSE",
+    "symbolic": "SYMBOLIC_BEAT_GROUND_TRUTH"
+  },
+  "execution_id": "EXEC-CEDVAL007-RENDERED-RESPONSE-20260824-210717",
+  "firewalls": {
+    "cedval004_latency_transfer": false,
+    "essentia_executed": false,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "jga_executed": false,
+    "latency_correction": false,
+    "librosa_executed": false,
+    "musical_interpretation": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "strength_accessed": false
+  },
+  "rule_id": "H-CEDVAL007-RENDERED-RESPONSE-MEASUREMENT-01",
+  "sources": {
+    "DRUM": {
+      "absolute_displacement_samples": [
+        1
+      ],
+      "absolute_displacement_statistics": {
+        "count": 1,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "ambiguous_count": 0,
+      "authority_conflict_count": 0,
+      "channel_relation_counts": {
+        "CHANNEL_FIRST_RESPONSE_DIFFERENCE": 0,
+        "STEREO_FIRST_RESPONSE_TIE": 1
+      },
+      "epistemic_status": "RENDERED_DRUM_RESPONSE",
+      "events": [
+        {
+          "beat_index": 0,
+          "cell": {
+            "end_exclusive": 11025,
+            "start": 0
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": null,
+            "exact_digital_silence": null,
+            "start": null
+          },
+          "initial_boundary_limitation": true,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1,
+              "present": true,
+              "signed_value": 149718
+            },
+            "right": {
+              "coordinate": 1,
+              "present": true,
+              "signed_value": 149718
+            },
+            "sample_coordinate": 1,
+            "time_seconds_exact": "1/44100"
+          },
+          "search": {
+            "end_exclusive": 11025,
+            "start": 0
+          },
+          "source": "DRUM",
+          "status": "LOCALIZED_INITIAL_FILE_BOUNDARY",
+          "symbolic_beat_id": "BEAT-00",
+          "symbolic_sample_coordinate": 0,
+          "symbolic_time_seconds_exact": "0/1"
+        },
+        {
+          "beat_index": 1,
+          "cell": {
+            "end_exclusive": 33075,
+            "start": 11025
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 22050,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 11025,
+            "signed_values": {
+              "left": 678696,
+              "right": 678696
+            },
+            "start": 11025
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 33075,
+            "start": 22050
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-01",
+          "symbolic_sample_coordinate": 22050,
+          "symbolic_time_seconds_exact": "1/2"
+        },
+        {
+          "beat_index": 2,
+          "cell": {
+            "end_exclusive": 55125,
+            "start": 33075
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 44100,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 33075,
+            "signed_values": {
+              "left": -353639,
+              "right": -353639
+            },
+            "start": 33075
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 55125,
+            "start": 44100
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-02",
+          "symbolic_sample_coordinate": 44100,
+          "symbolic_time_seconds_exact": "1/1"
+        },
+        {
+          "beat_index": 3,
+          "cell": {
+            "end_exclusive": 77175,
+            "start": 55125
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 66150,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 55125,
+            "signed_values": {
+              "left": -735195,
+              "right": -735195
+            },
+            "start": 55125
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 77175,
+            "start": 66150
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-03",
+          "symbolic_sample_coordinate": 66150,
+          "symbolic_time_seconds_exact": "3/2"
+        },
+        {
+          "beat_index": 4,
+          "cell": {
+            "end_exclusive": 99225,
+            "start": 77175
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 88200,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 77175,
+            "signed_values": {
+              "left": 238223,
+              "right": 238223
+            },
+            "start": 77175
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 99225,
+            "start": 88200
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-04",
+          "symbolic_sample_coordinate": 88200,
+          "symbolic_time_seconds_exact": "2/1"
+        },
+        {
+          "beat_index": 5,
+          "cell": {
+            "end_exclusive": 121275,
+            "start": 99225
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 110250,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 99225,
+            "signed_values": {
+              "left": 773922,
+              "right": 773922
+            },
+            "start": 99225
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 121275,
+            "start": 110250
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-05",
+          "symbolic_sample_coordinate": 110250,
+          "symbolic_time_seconds_exact": "5/2"
+        },
+        {
+          "beat_index": 6,
+          "cell": {
+            "end_exclusive": 143325,
+            "start": 121275
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 132300,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 121275,
+            "signed_values": {
+              "left": -114918,
+              "right": -114918
+            },
+            "start": 121275
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 143325,
+            "start": 132300
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-06",
+          "symbolic_sample_coordinate": 132300,
+          "symbolic_time_seconds_exact": "3/1"
+        },
+        {
+          "beat_index": 7,
+          "cell": {
+            "end_exclusive": 165375,
+            "start": 143325
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 154350,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 143325,
+            "signed_values": {
+              "left": -790728,
+              "right": -790728
+            },
+            "start": 143325
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 165375,
+            "start": 154350
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-07",
+          "symbolic_sample_coordinate": 154350,
+          "symbolic_time_seconds_exact": "7/2"
+        },
+        {
+          "beat_index": 8,
+          "cell": {
+            "end_exclusive": 187425,
+            "start": 165375
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 176400,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 165375,
+            "signed_values": {
+              "left": -2064,
+              "right": -2064
+            },
+            "start": 165375
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 187425,
+            "start": 176400
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-08",
+          "symbolic_sample_coordinate": 176400,
+          "symbolic_time_seconds_exact": "4/1"
+        },
+        {
+          "beat_index": 9,
+          "cell": {
+            "end_exclusive": 209475,
+            "start": 187425
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 198450,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 187425,
+            "signed_values": {
+              "left": 791436,
+              "right": 791436
+            },
+            "start": 187425
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 209475,
+            "start": 198450
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-09",
+          "symbolic_sample_coordinate": 198450,
+          "symbolic_time_seconds_exact": "9/2"
+        },
+        {
+          "beat_index": 10,
+          "cell": {
+            "end_exclusive": 231525,
+            "start": 209475
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 220500,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 209475,
+            "signed_values": {
+              "left": 120635,
+              "right": 120635
+            },
+            "start": 209475
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 231525,
+            "start": 220500
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-10",
+          "symbolic_sample_coordinate": 220500,
+          "symbolic_time_seconds_exact": "5/1"
+        },
+        {
+          "beat_index": 11,
+          "cell": {
+            "end_exclusive": 253575,
+            "start": 231525
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 242550,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 231525,
+            "signed_values": {
+              "left": -772973,
+              "right": -772973
+            },
+            "start": 231525
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 253575,
+            "start": 242550
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-11",
+          "symbolic_sample_coordinate": 242550,
+          "symbolic_time_seconds_exact": "11/2"
+        },
+        {
+          "beat_index": 12,
+          "cell": {
+            "end_exclusive": 275625,
+            "start": 253575
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 264600,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 253575,
+            "signed_values": {
+              "left": -224751,
+              "right": -224751
+            },
+            "start": 253575
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 275625,
+            "start": 264600
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-12",
+          "symbolic_sample_coordinate": 264600,
+          "symbolic_time_seconds_exact": "6/1"
+        },
+        {
+          "beat_index": 13,
+          "cell": {
+            "end_exclusive": 297675,
+            "start": 275625
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 286650,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 275625,
+            "signed_values": {
+              "left": 742024,
+              "right": 742024
+            },
+            "start": 275625
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 297675,
+            "start": 286650
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-13",
+          "symbolic_sample_coordinate": 286650,
+          "symbolic_time_seconds_exact": "13/2"
+        },
+        {
+          "beat_index": 14,
+          "cell": {
+            "end_exclusive": 319725,
+            "start": 297675
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 308700,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 297675,
+            "signed_values": {
+              "left": 324640,
+              "right": 324640
+            },
+            "start": 297675
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 319725,
+            "start": 308700
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-14",
+          "symbolic_sample_coordinate": 308700,
+          "symbolic_time_seconds_exact": "7/1"
+        },
+        {
+          "beat_index": 15,
+          "cell": {
+            "end_exclusive": 341775,
+            "start": 319725
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 330750,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 319725,
+            "signed_values": {
+              "left": -697515,
+              "right": -697515
+            },
+            "start": 319725
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 341775,
+            "start": 330750
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-15",
+          "symbolic_sample_coordinate": 330750,
+          "symbolic_time_seconds_exact": "15/2"
+        },
+        {
+          "beat_index": 16,
+          "cell": {
+            "end_exclusive": 363825,
+            "start": 341775
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 352800,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 341775,
+            "signed_values": {
+              "left": -418479,
+              "right": -418479
+            },
+            "start": 341775
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 363825,
+            "start": 352800
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-16",
+          "symbolic_sample_coordinate": 352800,
+          "symbolic_time_seconds_exact": "8/1"
+        },
+        {
+          "beat_index": 17,
+          "cell": {
+            "end_exclusive": 385875,
+            "start": 363825
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 374850,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 363825,
+            "signed_values": {
+              "left": 640275,
+              "right": 640275
+            },
+            "start": 363825
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 385875,
+            "start": 374850
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-17",
+          "symbolic_sample_coordinate": 374850,
+          "symbolic_time_seconds_exact": "17/2"
+        },
+        {
+          "beat_index": 18,
+          "cell": {
+            "end_exclusive": 407925,
+            "start": 385875
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 396900,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 385875,
+            "signed_values": {
+              "left": 508775,
+              "right": 508775
+            },
+            "start": 385875
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 407925,
+            "start": 396900
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-18",
+          "symbolic_sample_coordinate": 396900,
+          "symbolic_time_seconds_exact": "9/1"
+        },
+        {
+          "beat_index": 19,
+          "cell": {
+            "end_exclusive": 429975,
+            "start": 407925
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 418950,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 407925,
+            "signed_values": {
+              "left": -571367,
+              "right": -571367
+            },
+            "start": 407925
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 429975,
+            "start": 418950
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-19",
+          "symbolic_sample_coordinate": 418950,
+          "symbolic_time_seconds_exact": "19/2"
+        },
+        {
+          "beat_index": 20,
+          "cell": {
+            "end_exclusive": 452025,
+            "start": 429975
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 441000,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 429975,
+            "signed_values": {
+              "left": -586165,
+              "right": -586165
+            },
+            "start": 429975
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 452025,
+            "start": 441000
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-20",
+          "symbolic_sample_coordinate": 441000,
+          "symbolic_time_seconds_exact": "10/1"
+        },
+        {
+          "beat_index": 21,
+          "cell": {
+            "end_exclusive": 474075,
+            "start": 452025
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 463050,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 452025,
+            "signed_values": {
+              "left": 492065,
+              "right": 492065
+            },
+            "start": 452025
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 474075,
+            "start": 463050
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-21",
+          "symbolic_sample_coordinate": 463050,
+          "symbolic_time_seconds_exact": "21/2"
+        },
+        {
+          "beat_index": 22,
+          "cell": {
+            "end_exclusive": 496125,
+            "start": 474075
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 485100,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 474075,
+            "signed_values": {
+              "left": 652737,
+              "right": 652737
+            },
+            "start": 474075
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 496125,
+            "start": 485100
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-22",
+          "symbolic_sample_coordinate": 485100,
+          "symbolic_time_seconds_exact": "11/1"
+        },
+        {
+          "beat_index": 23,
+          "cell": {
+            "end_exclusive": 518175,
+            "start": 496125
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 507150,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 496125,
+            "signed_values": {
+              "left": -403832,
+              "right": -403832
+            },
+            "start": 496125
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 518175,
+            "start": 507150
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-23",
+          "symbolic_sample_coordinate": 507150,
+          "symbolic_time_seconds_exact": "23/2"
+        },
+        {
+          "beat_index": 24,
+          "cell": {
+            "end_exclusive": 540225,
+            "start": 518175
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 529200,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 518175,
+            "signed_values": {
+              "left": -707283,
+              "right": -707283
+            },
+            "start": 518175
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 540225,
+            "start": 529200
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-24",
+          "symbolic_sample_coordinate": 529200,
+          "symbolic_time_seconds_exact": "12/1"
+        },
+        {
+          "beat_index": 25,
+          "cell": {
+            "end_exclusive": 562275,
+            "start": 540225
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 551250,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 540225,
+            "signed_values": {
+              "left": 308293,
+              "right": 308293
+            },
+            "start": 540225
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 562275,
+            "start": 551250
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-25",
+          "symbolic_sample_coordinate": 551250,
+          "symbolic_time_seconds_exact": "25/2"
+        },
+        {
+          "beat_index": 26,
+          "cell": {
+            "end_exclusive": 584325,
+            "start": 562275
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 573300,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 562275,
+            "signed_values": {
+              "left": 748815,
+              "right": 748815
+            },
+            "start": 562275
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 584325,
+            "start": 573300
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-26",
+          "symbolic_sample_coordinate": 573300,
+          "symbolic_time_seconds_exact": "13/1"
+        },
+        {
+          "beat_index": 27,
+          "cell": {
+            "end_exclusive": 606375,
+            "start": 584325
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 595350,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 584325,
+            "signed_values": {
+              "left": -207208,
+              "right": -207208
+            },
+            "start": 584325
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 606375,
+            "start": 595350
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-27",
+          "symbolic_sample_coordinate": 595350,
+          "symbolic_time_seconds_exact": "27/2"
+        },
+        {
+          "beat_index": 28,
+          "cell": {
+            "end_exclusive": 628425,
+            "start": 606375
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 617400,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 606375,
+            "signed_values": {
+              "left": -776587,
+              "right": -776587
+            },
+            "start": 606375
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 628425,
+            "start": 617400
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-28",
+          "symbolic_sample_coordinate": 617400,
+          "symbolic_time_seconds_exact": "14/1"
+        },
+        {
+          "beat_index": 29,
+          "cell": {
+            "end_exclusive": 650475,
+            "start": 628425
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 639450,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 628425,
+            "signed_values": {
+              "left": 102433,
+              "right": 102433
+            },
+            "start": 628425
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 650475,
+            "start": 639450
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-29",
+          "symbolic_sample_coordinate": 639450,
+          "symbolic_time_seconds_exact": "29/2"
+        },
+        {
+          "beat_index": 30,
+          "cell": {
+            "end_exclusive": 672525,
+            "start": 650475
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 661500,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 650475,
+            "signed_values": {
+              "left": 790104,
+              "right": 790104
+            },
+            "start": 650475
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 672525,
+            "start": 661500
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-30",
+          "symbolic_sample_coordinate": 661500,
+          "symbolic_time_seconds_exact": "15/1"
+        },
+        {
+          "beat_index": 31,
+          "cell": {
+            "end_exclusive": 694575,
+            "start": 672525
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 683550,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 672525,
+            "signed_values": {
+              "left": 4109,
+              "right": 4109
+            },
+            "start": 672525
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 694575,
+            "start": 683550
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-31",
+          "symbolic_sample_coordinate": 683550,
+          "symbolic_time_seconds_exact": "31/2"
+        },
+        {
+          "beat_index": 32,
+          "cell": {
+            "end_exclusive": 716625,
+            "start": 694575
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 705600,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 694575,
+            "signed_values": {
+              "left": -789134,
+              "right": -789134
+            },
+            "start": 694575
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 716625,
+            "start": 705600
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-32",
+          "symbolic_sample_coordinate": 705600,
+          "symbolic_time_seconds_exact": "16/1"
+        },
+        {
+          "beat_index": 33,
+          "cell": {
+            "end_exclusive": 738675,
+            "start": 716625
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 727650,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 716625,
+            "signed_values": {
+              "left": -111363,
+              "right": -111363
+            },
+            "start": 716625
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 738675,
+            "start": 727650
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-33",
+          "symbolic_sample_coordinate": 727650,
+          "symbolic_time_seconds_exact": "33/2"
+        },
+        {
+          "beat_index": 34,
+          "cell": {
+            "end_exclusive": 760725,
+            "start": 738675
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 749700,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 738675,
+            "signed_values": {
+              "left": 773710,
+              "right": 773710
+            },
+            "start": 738675
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 760725,
+            "start": 749700
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-34",
+          "symbolic_sample_coordinate": 749700,
+          "symbolic_time_seconds_exact": "17/1"
+        },
+        {
+          "beat_index": 35,
+          "cell": {
+            "end_exclusive": 782775,
+            "start": 760725
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 771750,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 760725,
+            "signed_values": {
+              "left": 216462,
+              "right": 216462
+            },
+            "start": 760725
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 782775,
+            "start": 771750
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-35",
+          "symbolic_sample_coordinate": 771750,
+          "symbolic_time_seconds_exact": "35/2"
+        },
+        {
+          "beat_index": 36,
+          "cell": {
+            "end_exclusive": 804825,
+            "start": 782775
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 793800,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 782775,
+            "signed_values": {
+              "left": -744129,
+              "right": -744129
+            },
+            "start": 782775
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 804825,
+            "start": 793800
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-36",
+          "symbolic_sample_coordinate": 793800,
+          "symbolic_time_seconds_exact": "18/1"
+        },
+        {
+          "beat_index": 37,
+          "cell": {
+            "end_exclusive": 826875,
+            "start": 804825
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 815850,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 804825,
+            "signed_values": {
+              "left": -317485,
+              "right": -317485
+            },
+            "start": 804825
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 826875,
+            "start": 815850
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-37",
+          "symbolic_sample_coordinate": 815850,
+          "symbolic_time_seconds_exact": "37/2"
+        },
+        {
+          "beat_index": 38,
+          "cell": {
+            "end_exclusive": 848925,
+            "start": 826875
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 837900,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 826875,
+            "signed_values": {
+              "left": 700947,
+              "right": 700947
+            },
+            "start": 826875
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 848925,
+            "start": 837900
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-38",
+          "symbolic_sample_coordinate": 837900,
+          "symbolic_time_seconds_exact": "19/1"
+        },
+        {
+          "beat_index": 39,
+          "cell": {
+            "end_exclusive": 870975,
+            "start": 848925
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 859950,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 848925,
+            "signed_values": {
+              "left": 412586,
+              "right": 412586
+            },
+            "start": 848925
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 870975,
+            "start": 859950
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-39",
+          "symbolic_sample_coordinate": 859950,
+          "symbolic_time_seconds_exact": "39/2"
+        },
+        {
+          "beat_index": 40,
+          "cell": {
+            "end_exclusive": 893025,
+            "start": 870975
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 882000,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 870975,
+            "signed_values": {
+              "left": -644971,
+              "right": -644971
+            },
+            "start": 870975
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 893025,
+            "start": 882000
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-40",
+          "symbolic_sample_coordinate": 882000,
+          "symbolic_time_seconds_exact": "20/1"
+        },
+        {
+          "beat_index": 41,
+          "cell": {
+            "end_exclusive": 915075,
+            "start": 893025
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 904050,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 893025,
+            "signed_values": {
+              "left": -500030,
+              "right": -500030
+            },
+            "start": 893025
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 915075,
+            "start": 904050
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-41",
+          "symbolic_sample_coordinate": 904050,
+          "symbolic_time_seconds_exact": "41/2"
+        },
+        {
+          "beat_index": 42,
+          "cell": {
+            "end_exclusive": 937125,
+            "start": 915075
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 926100,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 915075,
+            "signed_values": {
+              "left": 577239,
+              "right": 577239
+            },
+            "start": 915075
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 937125,
+            "start": 926100
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-42",
+          "symbolic_sample_coordinate": 926100,
+          "symbolic_time_seconds_exact": "21/1"
+        },
+        {
+          "beat_index": 43,
+          "cell": {
+            "end_exclusive": 959175,
+            "start": 937125
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 948150,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 937125,
+            "signed_values": {
+              "left": 578224,
+              "right": 578224
+            },
+            "start": 937125
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 959175,
+            "start": 948150
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-43",
+          "symbolic_sample_coordinate": 948150,
+          "symbolic_time_seconds_exact": "43/2"
+        },
+        {
+          "beat_index": 44,
+          "cell": {
+            "end_exclusive": 981225,
+            "start": 959175
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 970200,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 959175,
+            "signed_values": {
+              "left": -499004,
+              "right": -499004
+            },
+            "start": 959175
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 981225,
+            "start": 970200
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-44",
+          "symbolic_sample_coordinate": 970200,
+          "symbolic_time_seconds_exact": "22/1"
+        },
+        {
+          "beat_index": 45,
+          "cell": {
+            "end_exclusive": 1003275,
+            "start": 981225
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 992250,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 981225,
+            "signed_values": {
+              "left": -645743,
+              "right": -645743
+            },
+            "start": 981225
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1003275,
+            "start": 992250
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-45",
+          "symbolic_sample_coordinate": 992250,
+          "symbolic_time_seconds_exact": "45/2"
+        },
+        {
+          "beat_index": 46,
+          "cell": {
+            "end_exclusive": 1025325,
+            "start": 1003275
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1014300,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1003275,
+            "signed_values": {
+              "left": 411710,
+              "right": 411710
+            },
+            "start": 1003275
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1025325,
+            "start": 1014300
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-46",
+          "symbolic_sample_coordinate": 1014300,
+          "symbolic_time_seconds_exact": "23/1"
+        },
+        {
+          "beat_index": 47,
+          "cell": {
+            "end_exclusive": 1047375,
+            "start": 1025325
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1036350,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1025325,
+            "signed_values": {
+              "left": 701363,
+              "right": 701363
+            },
+            "start": 1025325
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1047375,
+            "start": 1036350
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-47",
+          "symbolic_sample_coordinate": 1036350,
+          "symbolic_time_seconds_exact": "47/2"
+        },
+        {
+          "beat_index": 48,
+          "cell": {
+            "end_exclusive": 1069425,
+            "start": 1047375
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1058400,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1047375,
+            "signed_values": {
+              "left": -316965,
+              "right": -316965
+            },
+            "start": 1047375
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1069425,
+            "start": 1058400
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-48",
+          "symbolic_sample_coordinate": 1058400,
+          "symbolic_time_seconds_exact": "24/1"
+        },
+        {
+          "beat_index": 49,
+          "cell": {
+            "end_exclusive": 1091475,
+            "start": 1069425
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1080450,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1069425,
+            "signed_values": {
+              "left": -744077,
+              "right": -744077
+            },
+            "start": 1069425
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1091475,
+            "start": 1080450
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-49",
+          "symbolic_sample_coordinate": 1080450,
+          "symbolic_time_seconds_exact": "49/2"
+        },
+        {
+          "beat_index": 50,
+          "cell": {
+            "end_exclusive": 1113525,
+            "start": 1091475
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1102500,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1091475,
+            "signed_values": {
+              "left": 218365,
+              "right": 218365
+            },
+            "start": 1091475
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1113525,
+            "start": 1102500
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-50",
+          "symbolic_sample_coordinate": 1102500,
+          "symbolic_time_seconds_exact": "25/1"
+        },
+        {
+          "beat_index": 51,
+          "cell": {
+            "end_exclusive": 1135575,
+            "start": 1113525
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1124550,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1113525,
+            "signed_values": {
+              "left": 773116,
+              "right": 773116
+            },
+            "start": 1113525
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1135575,
+            "start": 1124550
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-51",
+          "symbolic_sample_coordinate": 1124550,
+          "symbolic_time_seconds_exact": "51/2"
+        },
+        {
+          "beat_index": 52,
+          "cell": {
+            "end_exclusive": 1157625,
+            "start": 1135575
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1146600,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1135575,
+            "signed_values": {
+              "left": -113176,
+              "right": -113176
+            },
+            "start": 1135575
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1157625,
+            "start": 1146600
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-52",
+          "symbolic_sample_coordinate": 1146600,
+          "symbolic_time_seconds_exact": "26/1"
+        },
+        {
+          "beat_index": 53,
+          "cell": {
+            "end_exclusive": 1179675,
+            "start": 1157625
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1168650,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1157625,
+            "signed_values": {
+              "left": -787963,
+              "right": -787963
+            },
+            "start": 1157625
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1179675,
+            "start": 1168650
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-53",
+          "symbolic_sample_coordinate": 1168650,
+          "symbolic_time_seconds_exact": "53/2"
+        },
+        {
+          "beat_index": 54,
+          "cell": {
+            "end_exclusive": 1201725,
+            "start": 1179675
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1190700,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1179675,
+            "signed_values": {
+              "left": 6024,
+              "right": 6024
+            },
+            "start": 1179675
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1201725,
+            "start": 1190700
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-54",
+          "symbolic_sample_coordinate": 1190700,
+          "symbolic_time_seconds_exact": "27/1"
+        },
+        {
+          "beat_index": 55,
+          "cell": {
+            "end_exclusive": 1223775,
+            "start": 1201725
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1212750,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1201725,
+            "signed_values": {
+              "left": 788360,
+              "right": 788360
+            },
+            "start": 1201725
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1223775,
+            "start": 1212750
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-55",
+          "symbolic_sample_coordinate": 1212750,
+          "symbolic_time_seconds_exact": "55/2"
+        },
+        {
+          "beat_index": 56,
+          "cell": {
+            "end_exclusive": 1245825,
+            "start": 1223775
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1234800,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1223775,
+            "signed_values": {
+              "left": 101127,
+              "right": 101127
+            },
+            "start": 1223775
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1245825,
+            "start": 1234800
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-56",
+          "symbolic_sample_coordinate": 1234800,
+          "symbolic_time_seconds_exact": "28/1"
+        },
+        {
+          "beat_index": 57,
+          "cell": {
+            "end_exclusive": 1267875,
+            "start": 1245825
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1256850,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1245825,
+            "signed_values": {
+              "left": -774315,
+              "right": -774315
+            },
+            "start": 1245825
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1267875,
+            "start": 1256850
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-57",
+          "symbolic_sample_coordinate": 1256850,
+          "symbolic_time_seconds_exact": "57/2"
+        },
+        {
+          "beat_index": 58,
+          "cell": {
+            "end_exclusive": 1289925,
+            "start": 1267875
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1278900,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1267875,
+            "signed_values": {
+              "left": -206312,
+              "right": -206312
+            },
+            "start": 1267875
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1289925,
+            "start": 1278900
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-58",
+          "symbolic_sample_coordinate": 1278900,
+          "symbolic_time_seconds_exact": "29/1"
+        },
+        {
+          "beat_index": 59,
+          "cell": {
+            "end_exclusive": 1311975,
+            "start": 1289925
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1300950,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1289925,
+            "signed_values": {
+              "left": 746102,
+              "right": 746102
+            },
+            "start": 1289925
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1311975,
+            "start": 1300950
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-59",
+          "symbolic_sample_coordinate": 1300950,
+          "symbolic_time_seconds_exact": "59/2"
+        },
+        {
+          "beat_index": 60,
+          "cell": {
+            "end_exclusive": 1334025,
+            "start": 1311975
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1323000,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1311975,
+            "signed_values": {
+              "left": 307609,
+              "right": 307609
+            },
+            "start": 1311975
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1334025,
+            "start": 1323000
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-60",
+          "symbolic_sample_coordinate": 1323000,
+          "symbolic_time_seconds_exact": "30/1"
+        },
+        {
+          "beat_index": 61,
+          "cell": {
+            "end_exclusive": 1356075,
+            "start": 1334025
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1345050,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1334025,
+            "signed_values": {
+              "left": -704250,
+              "right": -704250
+            },
+            "start": 1334025
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1356075,
+            "start": 1345050
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-61",
+          "symbolic_sample_coordinate": 1345050,
+          "symbolic_time_seconds_exact": "61/2"
+        },
+        {
+          "beat_index": 62,
+          "cell": {
+            "end_exclusive": 1378125,
+            "start": 1356075
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1367100,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1356075,
+            "signed_values": {
+              "left": -403165,
+              "right": -403165
+            },
+            "start": 1356075
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1378125,
+            "start": 1367100
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-62",
+          "symbolic_sample_coordinate": 1367100,
+          "symbolic_time_seconds_exact": "31/1"
+        },
+        {
+          "beat_index": 63,
+          "cell": {
+            "end_exclusive": 1411200,
+            "start": 1378125
+          },
+          "channel_relation": null,
+          "displacement": null,
+          "guard": {
+            "end_exclusive": 1389150,
+            "exact_digital_silence": false,
+            "first_nonzero_frame": 1378125,
+            "signed_values": {
+              "left": 649542,
+              "right": 649542
+            },
+            "start": 1378125
+          },
+          "rendered_response": null,
+          "search": {
+            "end_exclusive": 1411200,
+            "start": 1389150
+          },
+          "source": "DRUM",
+          "status": "UNRESOLVED_PRE_EVENT_ACTIVITY",
+          "symbolic_beat_id": "BEAT-63",
+          "symbolic_sample_coordinate": 1389150,
+          "symbolic_time_seconds_exact": "63/2"
+        }
+      ],
+      "expected_event_count": 64,
+      "localized_count": 1,
+      "scientific_fingerprint": "9c251de148f71eaded8a549f646c19b68414a854a9adbc6704901aaa23d4f3cb",
+      "signed_displacement_samples": [
+        1
+      ],
+      "signed_displacement_statistics": {
+        "count": 1,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "source": "DRUM",
+      "status_counts": {
+        "LOCALIZED_INITIAL_FILE_BOUNDARY": 1,
+        "UNRESOLVED_PRE_EVENT_ACTIVITY": 63
+      },
+      "unresolved_count": 63
+    },
+    "MARKER": {
+      "absolute_displacement_samples": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "absolute_displacement_statistics": {
+        "count": 64,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "ambiguous_count": 0,
+      "authority_conflict_count": 0,
+      "channel_relation_counts": {
+        "CHANNEL_FIRST_RESPONSE_DIFFERENCE": 0,
+        "STEREO_FIRST_RESPONSE_TIE": 64
+      },
+      "epistemic_status": "RENDERED_MARKER_RESPONSE",
+      "events": [
+        {
+          "beat_index": 0,
+          "cell": {
+            "end_exclusive": 11025,
+            "start": 0
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": null,
+            "exact_digital_silence": null,
+            "start": null
+          },
+          "initial_boundary_limitation": true,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1,
+            "time_seconds_exact": "1/44100"
+          },
+          "search": {
+            "end_exclusive": 11025,
+            "start": 0
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_INITIAL_FILE_BOUNDARY",
+          "symbolic_beat_id": "BEAT-00",
+          "symbolic_sample_coordinate": 0,
+          "symbolic_time_seconds_exact": "0/1"
+        },
+        {
+          "beat_index": 1,
+          "cell": {
+            "end_exclusive": 33075,
+            "start": 11025
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 22050,
+            "exact_digital_silence": true,
+            "start": 11025
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 22051,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 22051,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 22051,
+            "time_seconds_exact": "22051/44100"
+          },
+          "search": {
+            "end_exclusive": 33075,
+            "start": 22050
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-01",
+          "symbolic_sample_coordinate": 22050,
+          "symbolic_time_seconds_exact": "1/2"
+        },
+        {
+          "beat_index": 2,
+          "cell": {
+            "end_exclusive": 55125,
+            "start": 33075
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 44100,
+            "exact_digital_silence": true,
+            "start": 33075
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 44101,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 44101,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 44101,
+            "time_seconds_exact": "44101/44100"
+          },
+          "search": {
+            "end_exclusive": 55125,
+            "start": 44100
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-02",
+          "symbolic_sample_coordinate": 44100,
+          "symbolic_time_seconds_exact": "1/1"
+        },
+        {
+          "beat_index": 3,
+          "cell": {
+            "end_exclusive": 77175,
+            "start": 55125
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 66150,
+            "exact_digital_silence": true,
+            "start": 55125
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 66151,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 66151,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 66151,
+            "time_seconds_exact": "66151/44100"
+          },
+          "search": {
+            "end_exclusive": 77175,
+            "start": 66150
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-03",
+          "symbolic_sample_coordinate": 66150,
+          "symbolic_time_seconds_exact": "3/2"
+        },
+        {
+          "beat_index": 4,
+          "cell": {
+            "end_exclusive": 99225,
+            "start": 77175
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 88200,
+            "exact_digital_silence": true,
+            "start": 77175
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 88201,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 88201,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 88201,
+            "time_seconds_exact": "88201/44100"
+          },
+          "search": {
+            "end_exclusive": 99225,
+            "start": 88200
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-04",
+          "symbolic_sample_coordinate": 88200,
+          "symbolic_time_seconds_exact": "2/1"
+        },
+        {
+          "beat_index": 5,
+          "cell": {
+            "end_exclusive": 121275,
+            "start": 99225
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 110250,
+            "exact_digital_silence": true,
+            "start": 99225
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 110251,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 110251,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 110251,
+            "time_seconds_exact": "110251/44100"
+          },
+          "search": {
+            "end_exclusive": 121275,
+            "start": 110250
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-05",
+          "symbolic_sample_coordinate": 110250,
+          "symbolic_time_seconds_exact": "5/2"
+        },
+        {
+          "beat_index": 6,
+          "cell": {
+            "end_exclusive": 143325,
+            "start": 121275
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 132300,
+            "exact_digital_silence": true,
+            "start": 121275
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 132301,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 132301,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 132301,
+            "time_seconds_exact": "132301/44100"
+          },
+          "search": {
+            "end_exclusive": 143325,
+            "start": 132300
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-06",
+          "symbolic_sample_coordinate": 132300,
+          "symbolic_time_seconds_exact": "3/1"
+        },
+        {
+          "beat_index": 7,
+          "cell": {
+            "end_exclusive": 165375,
+            "start": 143325
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 154350,
+            "exact_digital_silence": true,
+            "start": 143325
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 154351,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 154351,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 154351,
+            "time_seconds_exact": "154351/44100"
+          },
+          "search": {
+            "end_exclusive": 165375,
+            "start": 154350
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-07",
+          "symbolic_sample_coordinate": 154350,
+          "symbolic_time_seconds_exact": "7/2"
+        },
+        {
+          "beat_index": 8,
+          "cell": {
+            "end_exclusive": 187425,
+            "start": 165375
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 176400,
+            "exact_digital_silence": true,
+            "start": 165375
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 176401,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 176401,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 176401,
+            "time_seconds_exact": "176401/44100"
+          },
+          "search": {
+            "end_exclusive": 187425,
+            "start": 176400
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-08",
+          "symbolic_sample_coordinate": 176400,
+          "symbolic_time_seconds_exact": "4/1"
+        },
+        {
+          "beat_index": 9,
+          "cell": {
+            "end_exclusive": 209475,
+            "start": 187425
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 198450,
+            "exact_digital_silence": true,
+            "start": 187425
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 198451,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 198451,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 198451,
+            "time_seconds_exact": "198451/44100"
+          },
+          "search": {
+            "end_exclusive": 209475,
+            "start": 198450
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-09",
+          "symbolic_sample_coordinate": 198450,
+          "symbolic_time_seconds_exact": "9/2"
+        },
+        {
+          "beat_index": 10,
+          "cell": {
+            "end_exclusive": 231525,
+            "start": 209475
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 220500,
+            "exact_digital_silence": true,
+            "start": 209475
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 220501,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 220501,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 220501,
+            "time_seconds_exact": "220501/44100"
+          },
+          "search": {
+            "end_exclusive": 231525,
+            "start": 220500
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-10",
+          "symbolic_sample_coordinate": 220500,
+          "symbolic_time_seconds_exact": "5/1"
+        },
+        {
+          "beat_index": 11,
+          "cell": {
+            "end_exclusive": 253575,
+            "start": 231525
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 242550,
+            "exact_digital_silence": true,
+            "start": 231525
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 242551,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 242551,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 242551,
+            "time_seconds_exact": "242551/44100"
+          },
+          "search": {
+            "end_exclusive": 253575,
+            "start": 242550
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-11",
+          "symbolic_sample_coordinate": 242550,
+          "symbolic_time_seconds_exact": "11/2"
+        },
+        {
+          "beat_index": 12,
+          "cell": {
+            "end_exclusive": 275625,
+            "start": 253575
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 264600,
+            "exact_digital_silence": true,
+            "start": 253575
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 264601,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 264601,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 264601,
+            "time_seconds_exact": "264601/44100"
+          },
+          "search": {
+            "end_exclusive": 275625,
+            "start": 264600
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-12",
+          "symbolic_sample_coordinate": 264600,
+          "symbolic_time_seconds_exact": "6/1"
+        },
+        {
+          "beat_index": 13,
+          "cell": {
+            "end_exclusive": 297675,
+            "start": 275625
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 286650,
+            "exact_digital_silence": true,
+            "start": 275625
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 286651,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 286651,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 286651,
+            "time_seconds_exact": "286651/44100"
+          },
+          "search": {
+            "end_exclusive": 297675,
+            "start": 286650
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-13",
+          "symbolic_sample_coordinate": 286650,
+          "symbolic_time_seconds_exact": "13/2"
+        },
+        {
+          "beat_index": 14,
+          "cell": {
+            "end_exclusive": 319725,
+            "start": 297675
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 308700,
+            "exact_digital_silence": true,
+            "start": 297675
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 308701,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 308701,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 308701,
+            "time_seconds_exact": "308701/44100"
+          },
+          "search": {
+            "end_exclusive": 319725,
+            "start": 308700
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-14",
+          "symbolic_sample_coordinate": 308700,
+          "symbolic_time_seconds_exact": "7/1"
+        },
+        {
+          "beat_index": 15,
+          "cell": {
+            "end_exclusive": 341775,
+            "start": 319725
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 330750,
+            "exact_digital_silence": true,
+            "start": 319725
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 330751,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 330751,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 330751,
+            "time_seconds_exact": "330751/44100"
+          },
+          "search": {
+            "end_exclusive": 341775,
+            "start": 330750
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-15",
+          "symbolic_sample_coordinate": 330750,
+          "symbolic_time_seconds_exact": "15/2"
+        },
+        {
+          "beat_index": 16,
+          "cell": {
+            "end_exclusive": 363825,
+            "start": 341775
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 352800,
+            "exact_digital_silence": true,
+            "start": 341775
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 352801,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 352801,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 352801,
+            "time_seconds_exact": "352801/44100"
+          },
+          "search": {
+            "end_exclusive": 363825,
+            "start": 352800
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-16",
+          "symbolic_sample_coordinate": 352800,
+          "symbolic_time_seconds_exact": "8/1"
+        },
+        {
+          "beat_index": 17,
+          "cell": {
+            "end_exclusive": 385875,
+            "start": 363825
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 374850,
+            "exact_digital_silence": true,
+            "start": 363825
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 374851,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 374851,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 374851,
+            "time_seconds_exact": "374851/44100"
+          },
+          "search": {
+            "end_exclusive": 385875,
+            "start": 374850
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-17",
+          "symbolic_sample_coordinate": 374850,
+          "symbolic_time_seconds_exact": "17/2"
+        },
+        {
+          "beat_index": 18,
+          "cell": {
+            "end_exclusive": 407925,
+            "start": 385875
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 396900,
+            "exact_digital_silence": true,
+            "start": 385875
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 396901,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 396901,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 396901,
+            "time_seconds_exact": "396901/44100"
+          },
+          "search": {
+            "end_exclusive": 407925,
+            "start": 396900
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-18",
+          "symbolic_sample_coordinate": 396900,
+          "symbolic_time_seconds_exact": "9/1"
+        },
+        {
+          "beat_index": 19,
+          "cell": {
+            "end_exclusive": 429975,
+            "start": 407925
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 418950,
+            "exact_digital_silence": true,
+            "start": 407925
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 418951,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 418951,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 418951,
+            "time_seconds_exact": "418951/44100"
+          },
+          "search": {
+            "end_exclusive": 429975,
+            "start": 418950
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-19",
+          "symbolic_sample_coordinate": 418950,
+          "symbolic_time_seconds_exact": "19/2"
+        },
+        {
+          "beat_index": 20,
+          "cell": {
+            "end_exclusive": 452025,
+            "start": 429975
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 441000,
+            "exact_digital_silence": true,
+            "start": 429975
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 441001,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 441001,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 441001,
+            "time_seconds_exact": "441001/44100"
+          },
+          "search": {
+            "end_exclusive": 452025,
+            "start": 441000
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-20",
+          "symbolic_sample_coordinate": 441000,
+          "symbolic_time_seconds_exact": "10/1"
+        },
+        {
+          "beat_index": 21,
+          "cell": {
+            "end_exclusive": 474075,
+            "start": 452025
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 463050,
+            "exact_digital_silence": true,
+            "start": 452025
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 463051,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 463051,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 463051,
+            "time_seconds_exact": "463051/44100"
+          },
+          "search": {
+            "end_exclusive": 474075,
+            "start": 463050
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-21",
+          "symbolic_sample_coordinate": 463050,
+          "symbolic_time_seconds_exact": "21/2"
+        },
+        {
+          "beat_index": 22,
+          "cell": {
+            "end_exclusive": 496125,
+            "start": 474075
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 485100,
+            "exact_digital_silence": true,
+            "start": 474075
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 485101,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 485101,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 485101,
+            "time_seconds_exact": "485101/44100"
+          },
+          "search": {
+            "end_exclusive": 496125,
+            "start": 485100
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-22",
+          "symbolic_sample_coordinate": 485100,
+          "symbolic_time_seconds_exact": "11/1"
+        },
+        {
+          "beat_index": 23,
+          "cell": {
+            "end_exclusive": 518175,
+            "start": 496125
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 507150,
+            "exact_digital_silence": true,
+            "start": 496125
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 507151,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 507151,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 507151,
+            "time_seconds_exact": "507151/44100"
+          },
+          "search": {
+            "end_exclusive": 518175,
+            "start": 507150
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-23",
+          "symbolic_sample_coordinate": 507150,
+          "symbolic_time_seconds_exact": "23/2"
+        },
+        {
+          "beat_index": 24,
+          "cell": {
+            "end_exclusive": 540225,
+            "start": 518175
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 529200,
+            "exact_digital_silence": true,
+            "start": 518175
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 529201,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 529201,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 529201,
+            "time_seconds_exact": "529201/44100"
+          },
+          "search": {
+            "end_exclusive": 540225,
+            "start": 529200
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-24",
+          "symbolic_sample_coordinate": 529200,
+          "symbolic_time_seconds_exact": "12/1"
+        },
+        {
+          "beat_index": 25,
+          "cell": {
+            "end_exclusive": 562275,
+            "start": 540225
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 551250,
+            "exact_digital_silence": true,
+            "start": 540225
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 551251,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 551251,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 551251,
+            "time_seconds_exact": "551251/44100"
+          },
+          "search": {
+            "end_exclusive": 562275,
+            "start": 551250
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-25",
+          "symbolic_sample_coordinate": 551250,
+          "symbolic_time_seconds_exact": "25/2"
+        },
+        {
+          "beat_index": 26,
+          "cell": {
+            "end_exclusive": 584325,
+            "start": 562275
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 573300,
+            "exact_digital_silence": true,
+            "start": 562275
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 573301,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 573301,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 573301,
+            "time_seconds_exact": "573301/44100"
+          },
+          "search": {
+            "end_exclusive": 584325,
+            "start": 573300
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-26",
+          "symbolic_sample_coordinate": 573300,
+          "symbolic_time_seconds_exact": "13/1"
+        },
+        {
+          "beat_index": 27,
+          "cell": {
+            "end_exclusive": 606375,
+            "start": 584325
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 595350,
+            "exact_digital_silence": true,
+            "start": 584325
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 595351,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 595351,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 595351,
+            "time_seconds_exact": "595351/44100"
+          },
+          "search": {
+            "end_exclusive": 606375,
+            "start": 595350
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-27",
+          "symbolic_sample_coordinate": 595350,
+          "symbolic_time_seconds_exact": "27/2"
+        },
+        {
+          "beat_index": 28,
+          "cell": {
+            "end_exclusive": 628425,
+            "start": 606375
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 617400,
+            "exact_digital_silence": true,
+            "start": 606375
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 617401,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 617401,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 617401,
+            "time_seconds_exact": "617401/44100"
+          },
+          "search": {
+            "end_exclusive": 628425,
+            "start": 617400
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-28",
+          "symbolic_sample_coordinate": 617400,
+          "symbolic_time_seconds_exact": "14/1"
+        },
+        {
+          "beat_index": 29,
+          "cell": {
+            "end_exclusive": 650475,
+            "start": 628425
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 639450,
+            "exact_digital_silence": true,
+            "start": 628425
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 639451,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 639451,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 639451,
+            "time_seconds_exact": "639451/44100"
+          },
+          "search": {
+            "end_exclusive": 650475,
+            "start": 639450
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-29",
+          "symbolic_sample_coordinate": 639450,
+          "symbolic_time_seconds_exact": "29/2"
+        },
+        {
+          "beat_index": 30,
+          "cell": {
+            "end_exclusive": 672525,
+            "start": 650475
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 661500,
+            "exact_digital_silence": true,
+            "start": 650475
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 661501,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 661501,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 661501,
+            "time_seconds_exact": "661501/44100"
+          },
+          "search": {
+            "end_exclusive": 672525,
+            "start": 661500
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-30",
+          "symbolic_sample_coordinate": 661500,
+          "symbolic_time_seconds_exact": "15/1"
+        },
+        {
+          "beat_index": 31,
+          "cell": {
+            "end_exclusive": 694575,
+            "start": 672525
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 683550,
+            "exact_digital_silence": true,
+            "start": 672525
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 683551,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 683551,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 683551,
+            "time_seconds_exact": "683551/44100"
+          },
+          "search": {
+            "end_exclusive": 694575,
+            "start": 683550
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-31",
+          "symbolic_sample_coordinate": 683550,
+          "symbolic_time_seconds_exact": "31/2"
+        },
+        {
+          "beat_index": 32,
+          "cell": {
+            "end_exclusive": 716625,
+            "start": 694575
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 705600,
+            "exact_digital_silence": true,
+            "start": 694575
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 705601,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 705601,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 705601,
+            "time_seconds_exact": "705601/44100"
+          },
+          "search": {
+            "end_exclusive": 716625,
+            "start": 705600
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-32",
+          "symbolic_sample_coordinate": 705600,
+          "symbolic_time_seconds_exact": "16/1"
+        },
+        {
+          "beat_index": 33,
+          "cell": {
+            "end_exclusive": 738675,
+            "start": 716625
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 727650,
+            "exact_digital_silence": true,
+            "start": 716625
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 727651,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 727651,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 727651,
+            "time_seconds_exact": "727651/44100"
+          },
+          "search": {
+            "end_exclusive": 738675,
+            "start": 727650
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-33",
+          "symbolic_sample_coordinate": 727650,
+          "symbolic_time_seconds_exact": "33/2"
+        },
+        {
+          "beat_index": 34,
+          "cell": {
+            "end_exclusive": 760725,
+            "start": 738675
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 749700,
+            "exact_digital_silence": true,
+            "start": 738675
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 749701,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 749701,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 749701,
+            "time_seconds_exact": "749701/44100"
+          },
+          "search": {
+            "end_exclusive": 760725,
+            "start": 749700
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-34",
+          "symbolic_sample_coordinate": 749700,
+          "symbolic_time_seconds_exact": "17/1"
+        },
+        {
+          "beat_index": 35,
+          "cell": {
+            "end_exclusive": 782775,
+            "start": 760725
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 771750,
+            "exact_digital_silence": true,
+            "start": 760725
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 771751,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 771751,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 771751,
+            "time_seconds_exact": "771751/44100"
+          },
+          "search": {
+            "end_exclusive": 782775,
+            "start": 771750
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-35",
+          "symbolic_sample_coordinate": 771750,
+          "symbolic_time_seconds_exact": "35/2"
+        },
+        {
+          "beat_index": 36,
+          "cell": {
+            "end_exclusive": 804825,
+            "start": 782775
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 793800,
+            "exact_digital_silence": true,
+            "start": 782775
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 793801,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 793801,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 793801,
+            "time_seconds_exact": "793801/44100"
+          },
+          "search": {
+            "end_exclusive": 804825,
+            "start": 793800
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-36",
+          "symbolic_sample_coordinate": 793800,
+          "symbolic_time_seconds_exact": "18/1"
+        },
+        {
+          "beat_index": 37,
+          "cell": {
+            "end_exclusive": 826875,
+            "start": 804825
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 815850,
+            "exact_digital_silence": true,
+            "start": 804825
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 815851,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 815851,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 815851,
+            "time_seconds_exact": "815851/44100"
+          },
+          "search": {
+            "end_exclusive": 826875,
+            "start": 815850
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-37",
+          "symbolic_sample_coordinate": 815850,
+          "symbolic_time_seconds_exact": "37/2"
+        },
+        {
+          "beat_index": 38,
+          "cell": {
+            "end_exclusive": 848925,
+            "start": 826875
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 837900,
+            "exact_digital_silence": true,
+            "start": 826875
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 837901,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 837901,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 837901,
+            "time_seconds_exact": "837901/44100"
+          },
+          "search": {
+            "end_exclusive": 848925,
+            "start": 837900
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-38",
+          "symbolic_sample_coordinate": 837900,
+          "symbolic_time_seconds_exact": "19/1"
+        },
+        {
+          "beat_index": 39,
+          "cell": {
+            "end_exclusive": 870975,
+            "start": 848925
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 859950,
+            "exact_digital_silence": true,
+            "start": 848925
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 859951,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 859951,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 859951,
+            "time_seconds_exact": "859951/44100"
+          },
+          "search": {
+            "end_exclusive": 870975,
+            "start": 859950
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-39",
+          "symbolic_sample_coordinate": 859950,
+          "symbolic_time_seconds_exact": "39/2"
+        },
+        {
+          "beat_index": 40,
+          "cell": {
+            "end_exclusive": 893025,
+            "start": 870975
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 882000,
+            "exact_digital_silence": true,
+            "start": 870975
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 882001,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 882001,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 882001,
+            "time_seconds_exact": "882001/44100"
+          },
+          "search": {
+            "end_exclusive": 893025,
+            "start": 882000
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-40",
+          "symbolic_sample_coordinate": 882000,
+          "symbolic_time_seconds_exact": "20/1"
+        },
+        {
+          "beat_index": 41,
+          "cell": {
+            "end_exclusive": 915075,
+            "start": 893025
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 904050,
+            "exact_digital_silence": true,
+            "start": 893025
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 904051,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 904051,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 904051,
+            "time_seconds_exact": "904051/44100"
+          },
+          "search": {
+            "end_exclusive": 915075,
+            "start": 904050
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-41",
+          "symbolic_sample_coordinate": 904050,
+          "symbolic_time_seconds_exact": "41/2"
+        },
+        {
+          "beat_index": 42,
+          "cell": {
+            "end_exclusive": 937125,
+            "start": 915075
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 926100,
+            "exact_digital_silence": true,
+            "start": 915075
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 926101,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 926101,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 926101,
+            "time_seconds_exact": "926101/44100"
+          },
+          "search": {
+            "end_exclusive": 937125,
+            "start": 926100
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-42",
+          "symbolic_sample_coordinate": 926100,
+          "symbolic_time_seconds_exact": "21/1"
+        },
+        {
+          "beat_index": 43,
+          "cell": {
+            "end_exclusive": 959175,
+            "start": 937125
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 948150,
+            "exact_digital_silence": true,
+            "start": 937125
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 948151,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 948151,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 948151,
+            "time_seconds_exact": "948151/44100"
+          },
+          "search": {
+            "end_exclusive": 959175,
+            "start": 948150
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-43",
+          "symbolic_sample_coordinate": 948150,
+          "symbolic_time_seconds_exact": "43/2"
+        },
+        {
+          "beat_index": 44,
+          "cell": {
+            "end_exclusive": 981225,
+            "start": 959175
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 970200,
+            "exact_digital_silence": true,
+            "start": 959175
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 970201,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 970201,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 970201,
+            "time_seconds_exact": "970201/44100"
+          },
+          "search": {
+            "end_exclusive": 981225,
+            "start": 970200
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-44",
+          "symbolic_sample_coordinate": 970200,
+          "symbolic_time_seconds_exact": "22/1"
+        },
+        {
+          "beat_index": 45,
+          "cell": {
+            "end_exclusive": 1003275,
+            "start": 981225
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 992250,
+            "exact_digital_silence": true,
+            "start": 981225
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 992251,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 992251,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 992251,
+            "time_seconds_exact": "992251/44100"
+          },
+          "search": {
+            "end_exclusive": 1003275,
+            "start": 992250
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-45",
+          "symbolic_sample_coordinate": 992250,
+          "symbolic_time_seconds_exact": "45/2"
+        },
+        {
+          "beat_index": 46,
+          "cell": {
+            "end_exclusive": 1025325,
+            "start": 1003275
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1014300,
+            "exact_digital_silence": true,
+            "start": 1003275
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1014301,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1014301,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1014301,
+            "time_seconds_exact": "1014301/44100"
+          },
+          "search": {
+            "end_exclusive": 1025325,
+            "start": 1014300
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-46",
+          "symbolic_sample_coordinate": 1014300,
+          "symbolic_time_seconds_exact": "23/1"
+        },
+        {
+          "beat_index": 47,
+          "cell": {
+            "end_exclusive": 1047375,
+            "start": 1025325
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1036350,
+            "exact_digital_silence": true,
+            "start": 1025325
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1036351,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1036351,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1036351,
+            "time_seconds_exact": "1036351/44100"
+          },
+          "search": {
+            "end_exclusive": 1047375,
+            "start": 1036350
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-47",
+          "symbolic_sample_coordinate": 1036350,
+          "symbolic_time_seconds_exact": "47/2"
+        },
+        {
+          "beat_index": 48,
+          "cell": {
+            "end_exclusive": 1069425,
+            "start": 1047375
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1058400,
+            "exact_digital_silence": true,
+            "start": 1047375
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1058401,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1058401,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1058401,
+            "time_seconds_exact": "1058401/44100"
+          },
+          "search": {
+            "end_exclusive": 1069425,
+            "start": 1058400
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-48",
+          "symbolic_sample_coordinate": 1058400,
+          "symbolic_time_seconds_exact": "24/1"
+        },
+        {
+          "beat_index": 49,
+          "cell": {
+            "end_exclusive": 1091475,
+            "start": 1069425
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1080450,
+            "exact_digital_silence": true,
+            "start": 1069425
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1080451,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1080451,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1080451,
+            "time_seconds_exact": "1080451/44100"
+          },
+          "search": {
+            "end_exclusive": 1091475,
+            "start": 1080450
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-49",
+          "symbolic_sample_coordinate": 1080450,
+          "symbolic_time_seconds_exact": "49/2"
+        },
+        {
+          "beat_index": 50,
+          "cell": {
+            "end_exclusive": 1113525,
+            "start": 1091475
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1102500,
+            "exact_digital_silence": true,
+            "start": 1091475
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1102501,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1102501,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1102501,
+            "time_seconds_exact": "1102501/44100"
+          },
+          "search": {
+            "end_exclusive": 1113525,
+            "start": 1102500
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-50",
+          "symbolic_sample_coordinate": 1102500,
+          "symbolic_time_seconds_exact": "25/1"
+        },
+        {
+          "beat_index": 51,
+          "cell": {
+            "end_exclusive": 1135575,
+            "start": 1113525
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1124550,
+            "exact_digital_silence": true,
+            "start": 1113525
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1124551,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1124551,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1124551,
+            "time_seconds_exact": "1124551/44100"
+          },
+          "search": {
+            "end_exclusive": 1135575,
+            "start": 1124550
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-51",
+          "symbolic_sample_coordinate": 1124550,
+          "symbolic_time_seconds_exact": "51/2"
+        },
+        {
+          "beat_index": 52,
+          "cell": {
+            "end_exclusive": 1157625,
+            "start": 1135575
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1146600,
+            "exact_digital_silence": true,
+            "start": 1135575
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1146601,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1146601,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1146601,
+            "time_seconds_exact": "1146601/44100"
+          },
+          "search": {
+            "end_exclusive": 1157625,
+            "start": 1146600
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-52",
+          "symbolic_sample_coordinate": 1146600,
+          "symbolic_time_seconds_exact": "26/1"
+        },
+        {
+          "beat_index": 53,
+          "cell": {
+            "end_exclusive": 1179675,
+            "start": 1157625
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1168650,
+            "exact_digital_silence": true,
+            "start": 1157625
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1168651,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1168651,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1168651,
+            "time_seconds_exact": "1168651/44100"
+          },
+          "search": {
+            "end_exclusive": 1179675,
+            "start": 1168650
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-53",
+          "symbolic_sample_coordinate": 1168650,
+          "symbolic_time_seconds_exact": "53/2"
+        },
+        {
+          "beat_index": 54,
+          "cell": {
+            "end_exclusive": 1201725,
+            "start": 1179675
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1190700,
+            "exact_digital_silence": true,
+            "start": 1179675
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1190701,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1190701,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1190701,
+            "time_seconds_exact": "1190701/44100"
+          },
+          "search": {
+            "end_exclusive": 1201725,
+            "start": 1190700
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-54",
+          "symbolic_sample_coordinate": 1190700,
+          "symbolic_time_seconds_exact": "27/1"
+        },
+        {
+          "beat_index": 55,
+          "cell": {
+            "end_exclusive": 1223775,
+            "start": 1201725
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1212750,
+            "exact_digital_silence": true,
+            "start": 1201725
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1212751,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1212751,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1212751,
+            "time_seconds_exact": "1212751/44100"
+          },
+          "search": {
+            "end_exclusive": 1223775,
+            "start": 1212750
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-55",
+          "symbolic_sample_coordinate": 1212750,
+          "symbolic_time_seconds_exact": "55/2"
+        },
+        {
+          "beat_index": 56,
+          "cell": {
+            "end_exclusive": 1245825,
+            "start": 1223775
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1234800,
+            "exact_digital_silence": true,
+            "start": 1223775
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1234801,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1234801,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1234801,
+            "time_seconds_exact": "1234801/44100"
+          },
+          "search": {
+            "end_exclusive": 1245825,
+            "start": 1234800
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-56",
+          "symbolic_sample_coordinate": 1234800,
+          "symbolic_time_seconds_exact": "28/1"
+        },
+        {
+          "beat_index": 57,
+          "cell": {
+            "end_exclusive": 1267875,
+            "start": 1245825
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1256850,
+            "exact_digital_silence": true,
+            "start": 1245825
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1256851,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1256851,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1256851,
+            "time_seconds_exact": "1256851/44100"
+          },
+          "search": {
+            "end_exclusive": 1267875,
+            "start": 1256850
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-57",
+          "symbolic_sample_coordinate": 1256850,
+          "symbolic_time_seconds_exact": "57/2"
+        },
+        {
+          "beat_index": 58,
+          "cell": {
+            "end_exclusive": 1289925,
+            "start": 1267875
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1278900,
+            "exact_digital_silence": true,
+            "start": 1267875
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1278901,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1278901,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1278901,
+            "time_seconds_exact": "1278901/44100"
+          },
+          "search": {
+            "end_exclusive": 1289925,
+            "start": 1278900
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-58",
+          "symbolic_sample_coordinate": 1278900,
+          "symbolic_time_seconds_exact": "29/1"
+        },
+        {
+          "beat_index": 59,
+          "cell": {
+            "end_exclusive": 1311975,
+            "start": 1289925
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1300950,
+            "exact_digital_silence": true,
+            "start": 1289925
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1300951,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1300951,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1300951,
+            "time_seconds_exact": "1300951/44100"
+          },
+          "search": {
+            "end_exclusive": 1311975,
+            "start": 1300950
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-59",
+          "symbolic_sample_coordinate": 1300950,
+          "symbolic_time_seconds_exact": "59/2"
+        },
+        {
+          "beat_index": 60,
+          "cell": {
+            "end_exclusive": 1334025,
+            "start": 1311975
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1323000,
+            "exact_digital_silence": true,
+            "start": 1311975
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1323001,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1323001,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1323001,
+            "time_seconds_exact": "1323001/44100"
+          },
+          "search": {
+            "end_exclusive": 1334025,
+            "start": 1323000
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-60",
+          "symbolic_sample_coordinate": 1323000,
+          "symbolic_time_seconds_exact": "30/1"
+        },
+        {
+          "beat_index": 61,
+          "cell": {
+            "end_exclusive": 1356075,
+            "start": 1334025
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1345050,
+            "exact_digital_silence": true,
+            "start": 1334025
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1345051,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1345051,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1345051,
+            "time_seconds_exact": "1345051/44100"
+          },
+          "search": {
+            "end_exclusive": 1356075,
+            "start": 1345050
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-61",
+          "symbolic_sample_coordinate": 1345050,
+          "symbolic_time_seconds_exact": "61/2"
+        },
+        {
+          "beat_index": 62,
+          "cell": {
+            "end_exclusive": 1378125,
+            "start": 1356075
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1367100,
+            "exact_digital_silence": true,
+            "start": 1356075
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1367101,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1367101,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1367101,
+            "time_seconds_exact": "1367101/44100"
+          },
+          "search": {
+            "end_exclusive": 1378125,
+            "start": 1367100
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-62",
+          "symbolic_sample_coordinate": 1367100,
+          "symbolic_time_seconds_exact": "31/1"
+        },
+        {
+          "beat_index": 63,
+          "cell": {
+            "end_exclusive": 1411200,
+            "start": 1378125
+          },
+          "channel_relation": "STEREO_FIRST_RESPONSE_TIE",
+          "displacement": {
+            "absolute_milliseconds_decimal": "0.022675736961451",
+            "absolute_milliseconds_exact": "10/441",
+            "absolute_samples": 1,
+            "signed_milliseconds_decimal": "0.022675736961451",
+            "signed_milliseconds_exact": "10/441",
+            "signed_samples": 1
+          },
+          "guard": {
+            "end_exclusive": 1389150,
+            "exact_digital_silence": true,
+            "start": 1378125
+          },
+          "initial_boundary_limitation": false,
+          "rendered_response": {
+            "continuous_time_uncertainty": "((n_rendered-1)/44100,n_rendered/44100] when preceding exact-zero sample exists",
+            "left": {
+              "coordinate": 1389151,
+              "present": true,
+              "signed_value": 3457099
+            },
+            "right": {
+              "coordinate": 1389151,
+              "present": true,
+              "signed_value": 3457100
+            },
+            "sample_coordinate": 1389151,
+            "time_seconds_exact": "1389151/44100"
+          },
+          "search": {
+            "end_exclusive": 1411200,
+            "start": 1389150
+          },
+          "source": "MARKER",
+          "status": "LOCALIZED_EXACT_ZERO_GUARD",
+          "symbolic_beat_id": "BEAT-63",
+          "symbolic_sample_coordinate": 1389150,
+          "symbolic_time_seconds_exact": "63/2"
+        }
+      ],
+      "expected_event_count": 64,
+      "localized_count": 64,
+      "scientific_fingerprint": "939a7bf7c0275e31563b51542007f80251e9275adad8116b5c83097acb91c08d",
+      "signed_displacement_samples": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "signed_displacement_statistics": {
+        "count": 64,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "source": "MARKER",
+      "status_counts": {
+        "LOCALIZED_EXACT_ZERO_GUARD": 63,
+        "LOCALIZED_INITIAL_FILE_BOUNDARY": 1
+      },
+      "unresolved_count": 0
+    }
+  },
+  "symbolic_ground_truth_changed": false
+}

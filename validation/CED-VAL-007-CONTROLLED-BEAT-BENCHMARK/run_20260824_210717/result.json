@@ -1,0 +1,31 @@
+{
+  "combined_response_measurement_fingerprint": "c915eb4a63b9f7e9a3650eef1ce28d52b6bc956da485ec3b5ae7451e87ab29a2",
+  "execution_id": "EXEC-CEDVAL007-RENDERED-RESPONSE-20260824-210717",
+  "source_results": {
+    "DRUM": {
+      "ambiguous_count": 0,
+      "authority_conflict_count": 0,
+      "expected_event_count": 64,
+      "localized_count": 1,
+      "scientific_fingerprint": "9c251de148f71eaded8a549f646c19b68414a854a9adbc6704901aaa23d4f3cb",
+      "status_counts": {
+        "LOCALIZED_INITIAL_FILE_BOUNDARY": 1,
+        "UNRESOLVED_PRE_EVENT_ACTIVITY": 63
+      },
+      "unresolved_count": 63
+    },
+    "MARKER": {
+      "ambiguous_count": 0,
+      "authority_conflict_count": 0,
+      "expected_event_count": 64,
+      "localized_count": 64,
+      "scientific_fingerprint": "939a7bf7c0275e31563b51542007f80251e9275adad8116b5c83097acb91c08d",
+      "status_counts": {
+        "LOCALIZED_EXACT_ZERO_GUARD": 63,
+        "LOCALIZED_INITIAL_FILE_BOUNDARY": 1
+      },
+      "unresolved_count": 0
+    }
+  },
+  "status": "PASS_DETERMINISTIC_RESPONSE_MEASUREMENT"
+}

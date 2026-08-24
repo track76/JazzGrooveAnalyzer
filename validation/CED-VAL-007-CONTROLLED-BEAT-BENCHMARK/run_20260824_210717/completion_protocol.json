@@ -1,0 +1,13 @@
+{
+  "execution_id": "EXEC-CEDVAL007-RENDERED-RESPONSE-20260824-210717",
+  "preregistration_id": "H-CEDVAL007-RENDERED-RESPONSE-MEASUREMENT-01",
+  "preregistration_commit": "c10d4c1fb505649a3b214df69ba24911b7517bc2",
+  "replay": {
+    "complete_fresh_process_executions": 2,
+    "material_disagreement": false,
+    "result": "PASS_EXACT_TWO_COMPLETE_EXECUTIONS",
+    "scientific_artifact_byte_identity": true
+  },
+  "status": "COMPLETE",
+  "stop_conditions_triggered": []
+}

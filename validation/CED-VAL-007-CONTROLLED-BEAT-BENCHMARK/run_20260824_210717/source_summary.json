@@ -1,0 +1,411 @@
+{
+  "execution_id": "EXEC-CEDVAL007-RENDERED-RESPONSE-20260824-210717",
+  "sources": {
+    "DRUM": {
+      "absolute_displacement_samples": [
+        1
+      ],
+      "absolute_displacement_statistics": {
+        "count": 1,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "ambiguous_count": 0,
+      "authority_conflict_count": 0,
+      "channel_relation_counts": {
+        "CHANNEL_FIRST_RESPONSE_DIFFERENCE": 0,
+        "STEREO_FIRST_RESPONSE_TIE": 1
+      },
+      "epistemic_status": "RENDERED_DRUM_RESPONSE",
+      "expected_event_count": 64,
+      "localized_count": 1,
+      "scientific_fingerprint": "9c251de148f71eaded8a549f646c19b68414a854a9adbc6704901aaa23d4f3cb",
+      "signed_displacement_samples": [
+        1
+      ],
+      "signed_displacement_statistics": {
+        "count": 1,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "source": "DRUM",
+      "status_counts": {
+        "LOCALIZED_INITIAL_FILE_BOUNDARY": 1,
+        "UNRESOLVED_PRE_EVENT_ACTIVITY": 63
+      },
+      "unresolved_count": 63
+    },
+    "MARKER": {
+      "absolute_displacement_samples": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "absolute_displacement_statistics": {
+        "count": 64,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "ambiguous_count": 0,
+      "authority_conflict_count": 0,
+      "channel_relation_counts": {
+        "CHANNEL_FIRST_RESPONSE_DIFFERENCE": 0,
+        "STEREO_FIRST_RESPONSE_TIE": 64
+      },
+      "epistemic_status": "RENDERED_MARKER_RESPONSE",
+      "expected_event_count": 64,
+      "localized_count": 64,
+      "scientific_fingerprint": "939a7bf7c0275e31563b51542007f80251e9275adad8116b5c83097acb91c08d",
+      "signed_displacement_samples": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "signed_displacement_statistics": {
+        "count": 64,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3_linear": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3_linear": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "source": "MARKER",
+      "status_counts": {
+        "LOCALIZED_EXACT_ZERO_GUARD": 63,
+        "LOCALIZED_INITIAL_FILE_BOUNDARY": 1
+      },
+      "unresolved_count": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "assets": {
+    "DRUM": {
+      "epistemic_status": "RENDERED_DRUM_RESPONSE",
+      "filename": "CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 DRUM GT.wav",
+      "properties": {
+        "channels": 2,
+        "compression": "NONE",
+        "frame_count": 1411200,
+        "sample_rate_hz": 44100,
+        "sample_width_bytes": 3
+      },
+      "sha256": "c673d2c104eb3eb31012154f1bd84ee81313b4fd36b61bf3913686f43e19bb0c"
+    },
+    "MARKER": {
+      "epistemic_status": "RENDERED_MARKER_RESPONSE",
+      "filename": "CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 MARKER GT.wav",
+      "properties": {
+        "channels": 2,
+        "compression": "NONE",
+        "frame_count": 1411200,
+        "sample_rate_hz": 44100,
+        "sample_width_bytes": 3
+      },
+      "sha256": "7c8c8534944e3d901b0de47f97fab03816f47e6ab62225e63ee3ba12e1c2206f"
+    }
+  },
+  "dataset_authority": "PR-CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-001",
+  "dataset_fingerprint": "cd93455778d1484067f9a3caa3037b6467d27c7e8d5a8c0df694658bad2484e9",
+  "environment": {
+    "byteorder": "little",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14"
+  },
+  "execution_id": "EXEC-CEDVAL007-RENDERED-RESPONSE-20260824-210717",
+  "preregistration": {
+    "commit": "c10d4c1fb505649a3b214df69ba24911b7517bc2",
+    "id": "H-CEDVAL007-RENDERED-RESPONSE-MEASUREMENT-01",
+    "sha256": "1fe15d7d97538cf612ec0d9bba0f00474b89803f8b1f12e926c2d5a9c6b7f6fc"
+  },
+  "symbolic_reference_sha256": "c2035145967dc436e08210d57a8ecdbe0ad39c309d253a06cb3c700a99405431"
+}
