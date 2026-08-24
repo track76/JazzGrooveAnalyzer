@@ -1,0 +1,12 @@
+{
+  "combined_benchmark_fingerprint": "637c3898f9607f60cabbb43aeabd26383aacf216e475007e79ce07da5848d2a0",
+  "execution_id": "EXEC-CEDVAL007-THREE-SYSTEM-BENCHMARK-20260824-212203",
+  "raw_output_freeze_before_ground_truth": "PASS",
+  "scoring_replay": "PASS_EXACT_TWO_INDEPENDENT_EXECUTIONS",
+  "status": "PASS_COMMON_THREE_SYSTEM_SYMBOLIC_BEAT_RECOVERY_BENCHMARK",
+  "system_replay": {
+    "ESSENTIA": "PASS_EXACT_TWO_FRESH_PROCESSES",
+    "JGA": "PASS_EXACT_TWO_FRESH_PROCESSES",
+    "LIBROSA": "PASS_EXACT_TWO_FRESH_PROCESSES"
+  }
+}

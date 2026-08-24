@@ -1,0 +1,21 @@
+{
+  "construction": "float32((int64(L)+int64(R))/(2*8388608))",
+  "dtype": "float32",
+  "maximum": {
+    "binary32_hex_bytes": "840dca3e",
+    "decimal": 0.3946343660354614
+  },
+  "minimum": {
+    "binary32_hex_bytes": "300dcabe",
+    "decimal": -0.39463186264038086
+  },
+  "normalization": false,
+  "raw_bytes_sha256": "d39065b6d0fd357679c70045123447ed486bfca498e738b26398a7ab9fa0518a",
+  "resampling": false,
+  "sample_rate_hz": 44100,
+  "sample_zero_authority": "CED-VAL-007 distributed-file sample zero",
+  "shape": [
+    1411200
+  ],
+  "trimming": false
+}

@@ -1,0 +1,917 @@
+{
+  "confidence": {
+    "binary64_hex": "0x1.dc2d4c0000000p+1",
+    "decimal": 3.720132350921631,
+    "semantics": "TRACK_LEVEL_MULTIFEATURE_CONFIDENCE"
+  },
+  "configuration": {
+    "algorithm": "RhythmExtractor2013",
+    "maxTempo": 208,
+    "method": "multifeature",
+    "minTempo": 40,
+    "resampling": false,
+    "sample_rate_hz": 44100
+  },
+  "environment": {
+    "numpy": "2.5.2",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "thread_limits": 1
+  },
+  "epistemic_status": "BEAT_TRACKER_OUTPUT",
+  "estimates": [
+    {
+      "binary64_hex": "0x1.e0bdc60000000p+6",
+      "decimal": 120.1853256225586
+    },
+    {
+      "binary64_hex": "0x1.e0bdc60000000p+6",
+      "decimal": 120.1853256225586
+    },
+    {
+      "binary64_hex": "0x1.e0bdc20000000p+6",
+      "decimal": 120.18531036376953
+    },
+    {
+      "binary64_hex": "0x1.e0bdc20000000p+6",
+      "decimal": 120.18531036376953
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.d5d0bc0000000p+6",
+      "decimal": 117.45384216308594
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.e0bdc80000000p+6",
+      "decimal": 120.18533325195312
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bde80000000p+6",
+      "decimal": 120.18545532226562
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bde80000000p+6",
+      "decimal": 120.18545532226562
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bde80000000p+6",
+      "decimal": 120.18545532226562
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bde80000000p+6",
+      "decimal": 120.18545532226562
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bde80000000p+6",
+      "decimal": 120.18545532226562
+    },
+    {
+      "binary64_hex": "0x1.d5d09e0000000p+6",
+      "decimal": 117.45372772216797
+    },
+    {
+      "binary64_hex": "0x1.e0bde80000000p+6",
+      "decimal": 120.18545532226562
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bde80000000p+6",
+      "decimal": 120.18545532226562
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0be240000000p+6",
+      "decimal": 120.18568420410156
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0be240000000p+6",
+      "decimal": 120.18568420410156
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0be240000000p+6",
+      "decimal": 120.18568420410156
+    },
+    {
+      "binary64_hex": "0x1.d5d09e0000000p+6",
+      "decimal": 117.45372772216797
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0be240000000p+6",
+      "decimal": 120.18568420410156
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0be240000000p+6",
+      "decimal": 120.18568420410156
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0be240000000p+6",
+      "decimal": 120.18568420410156
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.d5d09e0000000p+6",
+      "decimal": 117.45372772216797
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    },
+    {
+      "binary64_hex": "0x1.e0be240000000p+6",
+      "decimal": 120.18568420410156
+    },
+    {
+      "binary64_hex": "0x1.e0bdaa0000000p+6",
+      "decimal": 120.18521881103516
+    }
+  ],
+  "ground_truth_accessed": false,
+  "input_mono_raw_bytes_sha256": "d39065b6d0fd357679c70045123447ed486bfca498e738b26398a7ab9fa0518a",
+  "intervals": [
+    {
+      "binary64_hex": "0x1.ff35e40000000p-2",
+      "decimal": 0.4992290139198303
+    },
+    {
+      "binary64_hex": "0x1.ff35e40000000p-2",
+      "decimal": 0.4992290139198303
+    },
+    {
+      "binary64_hex": "0x1.ff35e80000000p-2",
+      "decimal": 0.4992290735244751
+    },
+    {
+      "binary64_hex": "0x1.ff35e80000000p-2",
+      "decimal": 0.4992290735244751
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.058cb00000000p-1",
+      "decimal": 0.5108389854431152
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.ff35e00000000p-2",
+      "decimal": 0.49922895431518555
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35c00000000p-2",
+      "decimal": 0.49922847747802734
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35c00000000p-2",
+      "decimal": 0.49922847747802734
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35c00000000p-2",
+      "decimal": 0.49922847747802734
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35c00000000p-2",
+      "decimal": 0.49922847747802734
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35c00000000p-2",
+      "decimal": 0.49922847747802734
+    },
+    {
+      "binary64_hex": "0x1.058cc00000000p-1",
+      "decimal": 0.5108394622802734
+    },
+    {
+      "binary64_hex": "0x1.ff35c00000000p-2",
+      "decimal": 0.49922847747802734
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35c00000000p-2",
+      "decimal": 0.49922847747802734
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35800000000p-2",
+      "decimal": 0.49922752380371094
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35800000000p-2",
+      "decimal": 0.49922752380371094
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35800000000p-2",
+      "decimal": 0.49922752380371094
+    },
+    {
+      "binary64_hex": "0x1.058cc00000000p-1",
+      "decimal": 0.5108394622802734
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35800000000p-2",
+      "decimal": 0.49922752380371094
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35800000000p-2",
+      "decimal": 0.49922752380371094
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35800000000p-2",
+      "decimal": 0.49922752380371094
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.058cc00000000p-1",
+      "decimal": 0.5108394622802734
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    },
+    {
+      "binary64_hex": "0x1.ff35800000000p-2",
+      "decimal": 0.49922752380371094
+    },
+    {
+      "binary64_hex": "0x1.ff36000000000p-2",
+      "decimal": 0.49922943115234375
+    }
+  ],
+  "known_bpm_supplied": false,
+  "outputs": [
+    {
+      "beat_seconds": 0.4876190423965454,
+      "beat_seconds_binary64_hex": "0x1.f352680000000p-2",
+      "native_output_index": 0,
+      "output_id": "ESSENTIA-BEAT-0000"
+    },
+    {
+      "beat_seconds": 0.9868480563163757,
+      "beat_seconds_binary64_hex": "0x1.f944260000000p-1",
+      "native_output_index": 1,
+      "output_id": "ESSENTIA-BEAT-0001"
+    },
+    {
+      "beat_seconds": 1.486077070236206,
+      "beat_seconds_binary64_hex": "0x1.7c6f8c0000000p+0",
+      "native_output_index": 2,
+      "output_id": "ESSENTIA-BEAT-0002"
+    },
+    {
+      "beat_seconds": 1.9853061437606812,
+      "beat_seconds_binary64_hex": "0x1.fc3d060000000p+0",
+      "native_output_index": 3,
+      "output_id": "ESSENTIA-BEAT-0003"
+    },
+    {
+      "beat_seconds": 2.4845352172851562,
+      "beat_seconds_binary64_hex": "0x1.3e05400000000p+1",
+      "native_output_index": 4,
+      "output_id": "ESSENTIA-BEAT-0004"
+    },
+    {
+      "beat_seconds": 2.983764171600342,
+      "beat_seconds_binary64_hex": "0x1.7debfc0000000p+1",
+      "native_output_index": 5,
+      "output_id": "ESSENTIA-BEAT-0005"
+    },
+    {
+      "beat_seconds": 3.4829931259155273,
+      "beat_seconds_binary64_hex": "0x1.bdd2b80000000p+1",
+      "native_output_index": 6,
+      "output_id": "ESSENTIA-BEAT-0006"
+    },
+    {
+      "beat_seconds": 3.982222080230713,
+      "beat_seconds_binary64_hex": "0x1.fdb9740000000p+1",
+      "native_output_index": 7,
+      "output_id": "ESSENTIA-BEAT-0007"
+    },
+    {
+      "beat_seconds": 4.481451034545898,
+      "beat_seconds_binary64_hex": "0x1.1ed0180000000p+2",
+      "native_output_index": 8,
+      "output_id": "ESSENTIA-BEAT-0008"
+    },
+    {
+      "beat_seconds": 4.980679988861084,
+      "beat_seconds_binary64_hex": "0x1.3ec3760000000p+2",
+      "native_output_index": 9,
+      "output_id": "ESSENTIA-BEAT-0009"
+    },
+    {
+      "beat_seconds": 5.479909420013428,
+      "beat_seconds_binary64_hex": "0x1.5eb6d60000000p+2",
+      "native_output_index": 10,
+      "output_id": "ESSENTIA-BEAT-0010"
+    },
+    {
+      "beat_seconds": 5.979138374328613,
+      "beat_seconds_binary64_hex": "0x1.7eaa340000000p+2",
+      "native_output_index": 11,
+      "output_id": "ESSENTIA-BEAT-0011"
+    },
+    {
+      "beat_seconds": 6.4899773597717285,
+      "beat_seconds_binary64_hex": "0x1.9f5bca0000000p+2",
+      "native_output_index": 12,
+      "output_id": "ESSENTIA-BEAT-0012"
+    },
+    {
+      "beat_seconds": 6.989206314086914,
+      "beat_seconds_binary64_hex": "0x1.bf4f280000000p+2",
+      "native_output_index": 13,
+      "output_id": "ESSENTIA-BEAT-0013"
+    },
+    {
+      "beat_seconds": 7.4884352684021,
+      "beat_seconds_binary64_hex": "0x1.df42860000000p+2",
+      "native_output_index": 14,
+      "output_id": "ESSENTIA-BEAT-0014"
+    },
+    {
+      "beat_seconds": 7.987664222717285,
+      "beat_seconds_binary64_hex": "0x1.ff35e40000000p+2",
+      "native_output_index": 15,
+      "output_id": "ESSENTIA-BEAT-0015"
+    },
+    {
+      "beat_seconds": 8.486893653869629,
+      "beat_seconds_binary64_hex": "0x1.0f94a20000000p+3",
+      "native_output_index": 16,
+      "output_id": "ESSENTIA-BEAT-0016"
+    },
+    {
+      "beat_seconds": 8.986122131347656,
+      "beat_seconds_binary64_hex": "0x1.1f8e500000000p+3",
+      "native_output_index": 17,
+      "output_id": "ESSENTIA-BEAT-0017"
+    },
+    {
+      "beat_seconds": 9.4853515625,
+      "beat_seconds_binary64_hex": "0x1.2f88000000000p+3",
+      "native_output_index": 18,
+      "output_id": "ESSENTIA-BEAT-0018"
+    },
+    {
+      "beat_seconds": 9.984580039978027,
+      "beat_seconds_binary64_hex": "0x1.3f81ae0000000p+3",
+      "native_output_index": 19,
+      "output_id": "ESSENTIA-BEAT-0019"
+    },
+    {
+      "beat_seconds": 10.483809471130371,
+      "beat_seconds_binary64_hex": "0x1.4f7b5e0000000p+3",
+      "native_output_index": 20,
+      "output_id": "ESSENTIA-BEAT-0020"
+    },
+    {
+      "beat_seconds": 10.983037948608398,
+      "beat_seconds_binary64_hex": "0x1.5f750c0000000p+3",
+      "native_output_index": 21,
+      "output_id": "ESSENTIA-BEAT-0021"
+    },
+    {
+      "beat_seconds": 11.482267379760742,
+      "beat_seconds_binary64_hex": "0x1.6f6ebc0000000p+3",
+      "native_output_index": 22,
+      "output_id": "ESSENTIA-BEAT-0022"
+    },
+    {
+      "beat_seconds": 11.981496810913086,
+      "beat_seconds_binary64_hex": "0x1.7f686c0000000p+3",
+      "native_output_index": 23,
+      "output_id": "ESSENTIA-BEAT-0023"
+    },
+    {
+      "beat_seconds": 12.480725288391113,
+      "beat_seconds_binary64_hex": "0x1.8f621a0000000p+3",
+      "native_output_index": 24,
+      "output_id": "ESSENTIA-BEAT-0024"
+    },
+    {
+      "beat_seconds": 12.979954719543457,
+      "beat_seconds_binary64_hex": "0x1.9f5bca0000000p+3",
+      "native_output_index": 25,
+      "output_id": "ESSENTIA-BEAT-0025"
+    },
+    {
+      "beat_seconds": 13.479183197021484,
+      "beat_seconds_binary64_hex": "0x1.af55780000000p+3",
+      "native_output_index": 26,
+      "output_id": "ESSENTIA-BEAT-0026"
+    },
+    {
+      "beat_seconds": 13.990022659301758,
+      "beat_seconds_binary64_hex": "0x1.bfae440000000p+3",
+      "native_output_index": 27,
+      "output_id": "ESSENTIA-BEAT-0027"
+    },
+    {
+      "beat_seconds": 14.489251136779785,
+      "beat_seconds_binary64_hex": "0x1.cfa7f20000000p+3",
+      "native_output_index": 28,
+      "output_id": "ESSENTIA-BEAT-0028"
+    },
+    {
+      "beat_seconds": 14.988480567932129,
+      "beat_seconds_binary64_hex": "0x1.dfa1a20000000p+3",
+      "native_output_index": 29,
+      "output_id": "ESSENTIA-BEAT-0029"
+    },
+    {
+      "beat_seconds": 15.487709045410156,
+      "beat_seconds_binary64_hex": "0x1.ef9b500000000p+3",
+      "native_output_index": 30,
+      "output_id": "ESSENTIA-BEAT-0030"
+    },
+    {
+      "beat_seconds": 15.9869384765625,
+      "beat_seconds_binary64_hex": "0x1.ff95000000000p+3",
+      "native_output_index": 31,
+      "output_id": "ESSENTIA-BEAT-0031"
+    },
+    {
+      "beat_seconds": 16.486167907714844,
+      "beat_seconds_binary64_hex": "0x1.07c7580000000p+4",
+      "native_output_index": 32,
+      "output_id": "ESSENTIA-BEAT-0032"
+    },
+    {
+      "beat_seconds": 16.985397338867188,
+      "beat_seconds_binary64_hex": "0x1.0fc4300000000p+4",
+      "native_output_index": 33,
+      "output_id": "ESSENTIA-BEAT-0033"
+    },
+    {
+      "beat_seconds": 17.4846248626709,
+      "beat_seconds_binary64_hex": "0x1.17c1060000000p+4",
+      "native_output_index": 34,
+      "output_id": "ESSENTIA-BEAT-0034"
+    },
+    {
+      "beat_seconds": 17.983854293823242,
+      "beat_seconds_binary64_hex": "0x1.1fbdde0000000p+4",
+      "native_output_index": 35,
+      "output_id": "ESSENTIA-BEAT-0035"
+    },
+    {
+      "beat_seconds": 18.483083724975586,
+      "beat_seconds_binary64_hex": "0x1.27bab60000000p+4",
+      "native_output_index": 36,
+      "output_id": "ESSENTIA-BEAT-0036"
+    },
+    {
+      "beat_seconds": 18.98231315612793,
+      "beat_seconds_binary64_hex": "0x1.2fb78e0000000p+4",
+      "native_output_index": 37,
+      "output_id": "ESSENTIA-BEAT-0037"
+    },
+    {
+      "beat_seconds": 19.48154067993164,
+      "beat_seconds_binary64_hex": "0x1.37b4640000000p+4",
+      "native_output_index": 38,
+      "output_id": "ESSENTIA-BEAT-0038"
+    },
+    {
+      "beat_seconds": 19.980770111083984,
+      "beat_seconds_binary64_hex": "0x1.3fb13c0000000p+4",
+      "native_output_index": 39,
+      "output_id": "ESSENTIA-BEAT-0039"
+    },
+    {
+      "beat_seconds": 20.479999542236328,
+      "beat_seconds_binary64_hex": "0x1.47ae140000000p+4",
+      "native_output_index": 40,
+      "output_id": "ESSENTIA-BEAT-0040"
+    },
+    {
+      "beat_seconds": 20.979228973388672,
+      "beat_seconds_binary64_hex": "0x1.4faaec0000000p+4",
+      "native_output_index": 41,
+      "output_id": "ESSENTIA-BEAT-0041"
+    },
+    {
+      "beat_seconds": 21.478458404541016,
+      "beat_seconds_binary64_hex": "0x1.57a7c40000000p+4",
+      "native_output_index": 42,
+      "output_id": "ESSENTIA-BEAT-0042"
+    },
+    {
+      "beat_seconds": 21.977685928344727,
+      "beat_seconds_binary64_hex": "0x1.5fa49a0000000p+4",
+      "native_output_index": 43,
+      "output_id": "ESSENTIA-BEAT-0043"
+    },
+    {
+      "beat_seconds": 22.488525390625,
+      "beat_seconds_binary64_hex": "0x1.67d1000000000p+4",
+      "native_output_index": 44,
+      "output_id": "ESSENTIA-BEAT-0044"
+    },
+    {
+      "beat_seconds": 22.987754821777344,
+      "beat_seconds_binary64_hex": "0x1.6fcdd80000000p+4",
+      "native_output_index": 45,
+      "output_id": "ESSENTIA-BEAT-0045"
+    },
+    {
+      "beat_seconds": 23.486984252929688,
+      "beat_seconds_binary64_hex": "0x1.77cab00000000p+4",
+      "native_output_index": 46,
+      "output_id": "ESSENTIA-BEAT-0046"
+    },
+    {
+      "beat_seconds": 23.9862117767334,
+      "beat_seconds_binary64_hex": "0x1.7fc7860000000p+4",
+      "native_output_index": 47,
+      "output_id": "ESSENTIA-BEAT-0047"
+    },
+    {
+      "beat_seconds": 24.485441207885742,
+      "beat_seconds_binary64_hex": "0x1.87c45e0000000p+4",
+      "native_output_index": 48,
+      "output_id": "ESSENTIA-BEAT-0048"
+    },
+    {
+      "beat_seconds": 24.984670639038086,
+      "beat_seconds_binary64_hex": "0x1.8fc1360000000p+4",
+      "native_output_index": 49,
+      "output_id": "ESSENTIA-BEAT-0049"
+    },
+    {
+      "beat_seconds": 25.48390007019043,
+      "beat_seconds_binary64_hex": "0x1.97be0e0000000p+4",
+      "native_output_index": 50,
+      "output_id": "ESSENTIA-BEAT-0050"
+    },
+    {
+      "beat_seconds": 25.983129501342773,
+      "beat_seconds_binary64_hex": "0x1.9fbae60000000p+4",
+      "native_output_index": 51,
+      "output_id": "ESSENTIA-BEAT-0051"
+    },
+    {
+      "beat_seconds": 26.482357025146484,
+      "beat_seconds_binary64_hex": "0x1.a7b7bc0000000p+4",
+      "native_output_index": 52,
+      "output_id": "ESSENTIA-BEAT-0052"
+    },
+    {
+      "beat_seconds": 26.981586456298828,
+      "beat_seconds_binary64_hex": "0x1.afb4940000000p+4",
+      "native_output_index": 53,
+      "output_id": "ESSENTIA-BEAT-0053"
+    },
+    {
+      "beat_seconds": 27.480815887451172,
+      "beat_seconds_binary64_hex": "0x1.b7b16c0000000p+4",
+      "native_output_index": 54,
+      "output_id": "ESSENTIA-BEAT-0054"
+    },
+    {
+      "beat_seconds": 27.980045318603516,
+      "beat_seconds_binary64_hex": "0x1.bfae440000000p+4",
+      "native_output_index": 55,
+      "output_id": "ESSENTIA-BEAT-0055"
+    },
+    {
+      "beat_seconds": 28.47927474975586,
+      "beat_seconds_binary64_hex": "0x1.c7ab1c0000000p+4",
+      "native_output_index": 56,
+      "output_id": "ESSENTIA-BEAT-0056"
+    },
+    {
+      "beat_seconds": 28.97850227355957,
+      "beat_seconds_binary64_hex": "0x1.cfa7f20000000p+4",
+      "native_output_index": 57,
+      "output_id": "ESSENTIA-BEAT-0057"
+    },
+    {
+      "beat_seconds": 29.477731704711914,
+      "beat_seconds_binary64_hex": "0x1.d7a4ca0000000p+4",
+      "native_output_index": 58,
+      "output_id": "ESSENTIA-BEAT-0058"
+    },
+    {
+      "beat_seconds": 29.988571166992188,
+      "beat_seconds_binary64_hex": "0x1.dfd1300000000p+4",
+      "native_output_index": 59,
+      "output_id": "ESSENTIA-BEAT-0059"
+    },
+    {
+      "beat_seconds": 30.48780059814453,
+      "beat_seconds_binary64_hex": "0x1.e7ce080000000p+4",
+      "native_output_index": 60,
+      "output_id": "ESSENTIA-BEAT-0060"
+    },
+    {
+      "beat_seconds": 30.987028121948242,
+      "beat_seconds_binary64_hex": "0x1.efcade0000000p+4",
+      "native_output_index": 61,
+      "output_id": "ESSENTIA-BEAT-0061"
+    },
+    {
+      "beat_seconds": 31.486257553100586,
+      "beat_seconds_binary64_hex": "0x1.f7c7b60000000p+4",
+      "native_output_index": 62,
+      "output_id": "ESSENTIA-BEAT-0062"
+    }
+  ],
+  "package_authority": {
+    "distribution": "essentia==2.1b6.dev1389",
+    "imported_version": "2.1-beta6-dev",
+    "wheel_sha256": "84e5167b95d9e74b2ddd928555d5a1e11997a458dae25e653544a953bc3068b9"
+  },
+  "raw_output_count": 63,
+  "reported_bpm": {
+    "binary64_hex": "0x1.e009440000000p+6",
+    "decimal": 120.00904846191406
+  },
+  "scientific_fingerprint": "13c4196499c2d52172937eca1f43318312dda1caaac5fe0b32d8771581e07ae4",
+  "system": "ESSENTIA"
+}

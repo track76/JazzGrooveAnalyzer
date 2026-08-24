@@ -1,0 +1,109 @@
+{
+  "combined_benchmark_fingerprint": "637c3898f9607f60cabbb43aeabd26383aacf216e475007e79ce07da5848d2a0",
+  "comparison": {
+    "highest_f1": [
+      "JGA",
+      "ESSENTIA"
+    ],
+    "highest_precision": [
+      "JGA",
+      "LIBROSA",
+      "ESSENTIA"
+    ],
+    "highest_recall": [
+      "JGA",
+      "ESSENTIA"
+    ],
+    "lowest_median_absolute_error": [
+      "JGA"
+    ],
+    "lowest_rmse": [
+      "JGA"
+    ],
+    "metric_winners_identical_across_all_criteria": false
+  },
+  "deterministic_raw_output_replay": {
+    "ESSENTIA": "PASS_EXACT_TWO_FRESH_PROCESSES",
+    "JGA": "PASS_EXACT_TWO_FRESH_PROCESSES",
+    "LIBROSA": "PASS_EXACT_TWO_FRESH_PROCESSES"
+  },
+  "deterministic_scoring_replay": "PASS_EXACT_TWO_INDEPENDENT_EXECUTIONS",
+  "execution_id": "EXEC-CEDVAL007-THREE-SYSTEM-BENCHMARK-20260824-212203",
+  "firewalls": {
+    "cedval004_latency_transfer": false,
+    "drum_latency_correction": false,
+    "ground_truth_used_only_after_raw_output_freeze": true,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "known_120_bpm_supplied": false,
+    "marker_correction": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "strength_accessed": false,
+    "universal_superiority_claim": false
+  },
+  "status": "PASS_COMMON_THREE_SYSTEM_SYMBOLIC_BEAT_RECOVERY_BENCHMARK",
+  "study_id": "H-CEDVAL007-THREE-SYSTEM-SYMBOLIC-BEAT-RECOVERY-01",
+  "system_results": {
+    "ESSENTIA": {
+      "exact_zero_match_count": 0,
+      "extra_output_count": 0,
+      "f1": {
+        "decimal": "0.992125984251969",
+        "exact": "126/127"
+      },
+      "matched_count": 63,
+      "missed_gt_count": 1,
+      "precision": {
+        "decimal": "1.000000000000000",
+        "exact": "1/1"
+      },
+      "raw_output_count": 63,
+      "recall": {
+        "decimal": "0.984375000000000",
+        "exact": "63/64"
+      },
+      "scientific_fingerprint": "43f3b9ad787f6f2e91e26d6c99316e45545aa8e4fe4e34206656c70cbe5d7a10"
+    },
+    "JGA": {
+      "exact_zero_match_count": 0,
+      "extra_output_count": 0,
+      "f1": {
+        "decimal": "0.992125984251969",
+        "exact": "126/127"
+      },
+      "matched_count": 63,
+      "missed_gt_count": 1,
+      "precision": {
+        "decimal": "1.000000000000000",
+        "exact": "1/1"
+      },
+      "raw_output_count": 63,
+      "recall": {
+        "decimal": "0.984375000000000",
+        "exact": "63/64"
+      },
+      "scientific_fingerprint": "38c618575dd569b0fde7a509574940fb56ad713acddebc93ea18f7f47a25a827"
+    },
+    "LIBROSA": {
+      "exact_zero_match_count": 0,
+      "extra_output_count": 0,
+      "f1": {
+        "decimal": "0.984126984126984",
+        "exact": "62/63"
+      },
+      "matched_count": 62,
+      "missed_gt_count": 2,
+      "precision": {
+        "decimal": "1.000000000000000",
+        "exact": "1/1"
+      },
+      "raw_output_count": 62,
+      "recall": {
+        "decimal": "0.968750000000000",
+        "exact": "31/32"
+      },
+      "scientific_fingerprint": "ebd5c1619df87de4eed87b392abccbedde9a71291a1df81c5065a0003af7a9af"
+    }
+  }
+}

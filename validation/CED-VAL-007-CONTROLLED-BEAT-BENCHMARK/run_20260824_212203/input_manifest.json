@@ -1,0 +1,12 @@
+{
+  "dataset_authority": "PR-CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-001",
+  "dataset_fingerprint": "cd93455778d1484067f9a3caa3037b6467d27c7e8d5a8c0df694658bad2484e9",
+  "execution_id": "EXEC-CEDVAL007-THREE-SYSTEM-BENCHMARK-20260824-212203",
+  "ground_truth_authority": "SYMBOLIC_BEAT_GROUND_TRUTH",
+  "ground_truth_sha256": "c2035145967dc436e08210d57a8ecdbe0ad39c309d253a06cb3c700a99405431",
+  "input_sha256": "c673d2c104eb3eb31012154f1bd84ee81313b4fd36b61bf3913686f43e19bb0c",
+  "preregistration_commit": "4126d7992150629a1cfb7294cda10dab1df11ee7",
+  "raw_system_output_authority_fingerprint": "0b5035e7f8e722c98dab6c8bc9c0fcbbe16c004f0369b9c8b621bcb748306026",
+  "shared_mono_raw_bytes_sha256": "d39065b6d0fd357679c70045123447ed486bfca498e738b26398a7ab9fa0518a",
+  "study_id": "H-CEDVAL007-THREE-SYSTEM-SYMBOLIC-BEAT-RECOVERY-01"
+}

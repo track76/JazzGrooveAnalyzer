@@ -1,0 +1,24 @@
+{
+  "basis": {
+    "input_sha256": "c673d2c104eb3eb31012154f1bd84ee81313b4fd36b61bf3913686f43e19bb0c",
+    "shared_mono_raw_bytes_sha256": "d39065b6d0fd357679c70045123447ed486bfca498e738b26398a7ab9fa0518a",
+    "system_fingerprints": {
+      "ESSENTIA": "13c4196499c2d52172937eca1f43318312dda1caaac5fe0b32d8771581e07ae4",
+      "JGA": "1834cdabc17c7cd69cddc0ad7d848c43db67f7c084f38d28b40891e81cfc8b31",
+      "LIBROSA": "858db5a981cb0b121b5362dc9dc4f6e0b0b18d94fe1c59ae85ec3c2ef0a02f07"
+    }
+  },
+  "blind_freeze_order": [
+    "JGA",
+    "LIBROSA",
+    "ESSENTIA"
+  ],
+  "combined_raw_output_fingerprint": "0b5035e7f8e722c98dab6c8bc9c0fcbbe16c004f0369b9c8b621bcb748306026",
+  "ground_truth_accessed_by_output_construction": false,
+  "replay": {
+    "ESSENTIA": "PASS_EXACT_TWO_FRESH_PROCESSES",
+    "JGA": "PASS_EXACT_TWO_FRESH_PROCESSES",
+    "LIBROSA": "PASS_EXACT_TWO_FRESH_PROCESSES"
+  },
+  "status": "FROZEN_BEFORE_GROUND_TRUTH_ACCESS"
+}

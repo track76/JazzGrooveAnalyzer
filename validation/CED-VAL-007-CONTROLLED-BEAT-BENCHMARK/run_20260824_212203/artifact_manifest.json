@@ -1,0 +1,24 @@
+{
+  "artifacts": [
+    {"relative_path": "completion_protocol.json", "sha256": "f849bbb2807a9d04eb2f2085476f17e06c8e74b29c6827b57e07f3b161aa0cfb"},
+    {"relative_path": "essentia_raw_output.json", "sha256": "9453ae9a32781189d9de25ac905e0a7423b86a1cc4214cca1b52785b95068a04"},
+    {"relative_path": "execute.py", "sha256": "89a1d0f98c14f5d57baef50105a0e181b26803c0c88597afff3ba7f6cac44dc6"},
+    {"relative_path": "freeze_outputs.py", "sha256": "7f785899d44978493200a91c13d9ac1dac8d6f6a43ffaebada9db77a7f6019da"},
+    {"relative_path": "input_manifest.json", "sha256": "607d7cb29e4b660e8e0bceac4b0dc68991b56b8269e61d8b48aef12baf495a2b"},
+    {"relative_path": "jga_raw_output.json", "sha256": "aa2f98b839f3f4047fa824266bc80444506a75f4cb67b76f26d39a3fe392aa7c"},
+    {"relative_path": "librosa_raw_output.json", "sha256": "05eaf8b0f3584e11ac3c23e60526d50a8ee6039ef3705c89b8b0a50639e76866"},
+    {"relative_path": "raw_system_output_authority.json", "sha256": "90f9e275c832de5f6ec503a1e228ee0f2276d5475be2cd31b853925276ed0567"},
+    {"relative_path": "report.md", "sha256": "1c314cc79f8e8601ec7cc3f3de1f323f9b384757126c30a89c47aeba076d9907"},
+    {"relative_path": "result.json", "sha256": "900c53c94137a0fea3fd4cbf3c35fa1e1d3afc36bfa3dc158345b40728571b1c"},
+    {"relative_path": "run_essentia.py", "sha256": "43cf5cc2b7b028b1a0ea84f910b985f2c91f69461a9c4d401773168c09d32e0f"},
+    {"relative_path": "run_jga.py", "sha256": "1d627c092cc04b07a04be60f2ed665daf3dc29563aa9221abc701e619aef4544"},
+    {"relative_path": "run_librosa.py", "sha256": "5f9b09e3fbae4574156da48c47b3857ad46d6c595187c1d45eea01d6730231fb"},
+    {"relative_path": "scientific_content.json", "sha256": "6a3ebd4992a49da3dcbcd45a2b97fca3fe9c466c340826a740798ba377aee689"},
+    {"relative_path": "score.py", "sha256": "13b206cf2aa932a767d20778348f9e8b14acc1c623c0900ec137d9cb0b7f7b69"},
+    {"relative_path": "shared_mono_authority.json", "sha256": "c734efb84c55b27ef54050d341c6eb2cd865988fd8028c7739702912bc93d3f8"},
+    {"relative_path": "verify.py", "sha256": "0d38be99568ec60bcc3976046d300fc344c24553f65d8aa9766c94362f17917b"}
+  ],
+  "combined_benchmark_fingerprint": "637c3898f9607f60cabbb43aeabd26383aacf216e475007e79ce07da5848d2a0",
+  "execution_id": "EXEC-CEDVAL007-THREE-SYSTEM-BENCHMARK-20260824-212203",
+  "schema": "JGA-SCIENTIFIC-ARTIFACT-MANIFEST/v1"
+}

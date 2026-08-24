@@ -1,0 +1,4557 @@
+{
+  "algorithmic_dependency_caveat": "JGA uses librosa-based observation functionality and is not fully algorithmically independent from librosa beat_track; Essentia is the more independent comparator.",
+  "claim_scope": "CED-VAL-007 controlled DS-Kick, 120 BPM, 4/4, 44.1 kHz, 64 quarter notes, 32-second render only",
+  "combined_benchmark_fingerprint": "637c3898f9607f60cabbb43aeabd26383aacf216e475007e79ce07da5848d2a0",
+  "combined_benchmark_fingerprint_basis": {
+    "ground_truth_sha256": "c2035145967dc436e08210d57a8ecdbe0ad39c309d253a06cb3c700a99405431",
+    "raw_output_authority_fingerprint": "0b5035e7f8e722c98dab6c8bc9c0fcbbe16c004f0369b9c8b621bcb748306026",
+    "system_score_fingerprints": {
+      "ESSENTIA": "43f3b9ad787f6f2e91e26d6c99316e45545aa8e4fe4e34206656c70cbe5d7a10",
+      "JGA": "38c618575dd569b0fde7a509574940fb56ad713acddebc93ea18f7f47a25a827",
+      "LIBROSA": "ebd5c1619df87de4eed87b392abccbedde9a71291a1df81c5065a0003af7a9af"
+    }
+  },
+  "firewalls": {
+    "cedval004_latency_transfer": false,
+    "drum_latency_correction": false,
+    "ground_truth_used_only_after_raw_output_freeze": true,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "known_120_bpm_supplied": false,
+    "marker_correction": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "strength_accessed": false,
+    "universal_superiority_claim": false
+  },
+  "ground_truth_authority": "SYMBOLIC_BEAT_GROUND_TRUTH",
+  "ground_truth_count": 64,
+  "jga_semantic_scope": "ability of the JGA Drums observational population to recover the controlled symbolic beat schedule",
+  "raw_output_authority": {
+    "basis": {
+      "input_sha256": "c673d2c104eb3eb31012154f1bd84ee81313b4fd36b61bf3913686f43e19bb0c",
+      "shared_mono_raw_bytes_sha256": "d39065b6d0fd357679c70045123447ed486bfca498e738b26398a7ab9fa0518a",
+      "system_fingerprints": {
+        "ESSENTIA": "13c4196499c2d52172937eca1f43318312dda1caaac5fe0b32d8771581e07ae4",
+        "JGA": "1834cdabc17c7cd69cddc0ad7d848c43db67f7c084f38d28b40891e81cfc8b31",
+        "LIBROSA": "858db5a981cb0b121b5362dc9dc4f6e0b0b18d94fe1c59ae85ec3c2ef0a02f07"
+      }
+    },
+    "blind_freeze_order": [
+      "JGA",
+      "LIBROSA",
+      "ESSENTIA"
+    ],
+    "combined_raw_output_fingerprint": "0b5035e7f8e722c98dab6c8bc9c0fcbbe16c004f0369b9c8b621bcb748306026",
+    "ground_truth_accessed_by_output_construction": false,
+    "replay": {
+      "ESSENTIA": "PASS_EXACT_TWO_FRESH_PROCESSES",
+      "JGA": "PASS_EXACT_TWO_FRESH_PROCESSES",
+      "LIBROSA": "PASS_EXACT_TWO_FRESH_PROCESSES"
+    },
+    "status": "FROZEN_BEFORE_GROUND_TRUTH_ACCESS"
+  },
+  "status": "PASS_COMMON_THREE_SYSTEM_SYMBOLIC_BEAT_RECOVERY_BENCHMARK",
+  "systems": {
+    "ESSENTIA": {
+      "absolute_error_population_seconds_exact": [
+        "103859/8388608",
+        "220653/16777216",
+        "58397/4194304",
+        "123261/8388608",
+        "2027/131072",
+        "34049/2097152",
+        "17833/1048576",
+        "37283/2097152",
+        "9725/524288",
+        "40517/2097152",
+        "42133/2097152",
+        "21875/1048576",
+        "21019/2097152",
+        "5659/524288",
+        "24253/2097152",
+        "12935/1048576",
+        "13743/1048576",
+        "1819/131072",
+        "15/1024",
+        "16169/1048576",
+        "16977/1048576",
+        "8893/524288",
+        "9297/524288",
+        "9701/524288",
+        "20211/1048576",
+        "21019/1048576",
+        "5457/262144",
+        "5231/524288",
+        "11271/1048576",
+        "12079/1048576",
+        "1611/131072",
+        "107/8192",
+        "1813/131072",
+        "957/65536",
+        "8061/524288",
+        "8465/524288",
+        "8869/524288",
+        "9273/524288",
+        "4839/262144",
+        "5041/262144",
+        "5243/262144",
+        "5445/262144",
+        "5647/262144",
+        "11699/524288",
+        "47/4096",
+        "1605/131072",
+        "853/65536",
+        "7229/524288",
+        "7633/524288",
+        "8037/524288",
+        "8441/524288",
+        "8845/524288",
+        "4625/262144",
+        "4827/262144",
+        "5029/262144",
+        "5231/262144",
+        "5433/262144",
+        "11271/524288",
+        "11675/524288",
+        "749/65536",
+        "1599/131072",
+        "6801/524288",
+        "7205/524288"
+      ],
+      "absolute_error_statistics": {
+        "count": 63,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "22.314071655273438",
+            "exact": "1462375/65536"
+          },
+          "mean": {
+            "decimal": "16.010088579995292",
+            "exact": "235029125/14680064"
+          },
+          "median_linear": {
+            "decimal": "16.099929809570312",
+            "exact": "1055125/65536"
+          },
+          "minimum": {
+            "decimal": "9.977340698242188",
+            "exact": "653875/65536"
+          },
+          "population_standard_deviation": "3.407344027056929",
+          "q1_linear": {
+            "decimal": "13.083934783935547",
+            "exact": "3429875/262144"
+          },
+          "q3_linear": {
+            "decimal": "18.866539001464844",
+            "exact": "2472875/131072"
+          },
+          "rmse": "16.368656928960793"
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "seconds": {
+          "maximum": {
+            "decimal": "0.022314071655273",
+            "exact": "11699/524288"
+          },
+          "mean": {
+            "decimal": "0.016010088579995",
+            "exact": "1880233/117440512"
+          },
+          "median_linear": {
+            "decimal": "0.016099929809570",
+            "exact": "8441/524288"
+          },
+          "minimum": {
+            "decimal": "0.009977340698242",
+            "exact": "5231/524288"
+          },
+          "population_standard_deviation": "0.003407344027057",
+          "q1_linear": {
+            "decimal": "0.013083934783936",
+            "exact": "27439/2097152"
+          },
+          "q3_linear": {
+            "decimal": "0.018866539001465",
+            "exact": "19783/1048576"
+          },
+          "rmse": "0.016368656928961"
+        }
+      },
+      "assignment_rule": "ORDERED_DISJOINT_CLOSED_PLUS_MINUS_ONE_EIGHTH_SECOND_NEAREST_ONE_TO_ONE/v1",
+      "exact_zero_match_count": 0,
+      "extra_output_count": 0,
+      "extras": [],
+      "f1": {
+        "decimal": "0.992125984251969",
+        "exact": "126/127"
+      },
+      "gt_count": 64,
+      "matched_count": 63,
+      "matches": [
+        {
+          "absolute_error_milliseconds_decimal": "12.380957603454590",
+          "absolute_error_seconds_exact": "103859/8388608",
+          "gt_id": "GT-BEAT-01",
+          "gt_index": 1,
+          "gt_time_seconds_exact": "1/2",
+          "signed_error_milliseconds_decimal": "-12.380957603454590",
+          "signed_error_samples_exact": "-1145045475/2097152",
+          "signed_error_seconds_exact": "-103859/8388608",
+          "system_native_output_index": 0,
+          "system_output_id": "ESSENTIA-BEAT-0000",
+          "system_time_seconds_exact": "4090445/8388608",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0000"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.151943683624268",
+          "absolute_error_seconds_exact": "220653/16777216",
+          "gt_id": "GT-BEAT-02",
+          "gt_index": 2,
+          "gt_time_seconds_exact": "1/1",
+          "signed_error_milliseconds_decimal": "-13.151943683624268",
+          "signed_error_samples_exact": "-2432699325/4194304",
+          "signed_error_seconds_exact": "-220653/16777216",
+          "system_native_output_index": 1,
+          "system_output_id": "ESSENTIA-BEAT-0001",
+          "system_time_seconds_exact": "16556563/16777216",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0001"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.922929763793945",
+          "absolute_error_seconds_exact": "58397/4194304",
+          "gt_id": "GT-BEAT-03",
+          "gt_index": 3,
+          "gt_time_seconds_exact": "3/2",
+          "signed_error_milliseconds_decimal": "-13.922929763793945",
+          "signed_error_samples_exact": "-643826925/1048576",
+          "signed_error_seconds_exact": "-58397/4194304",
+          "system_native_output_index": 2,
+          "system_output_id": "ESSENTIA-BEAT-0002",
+          "system_time_seconds_exact": "6233059/4194304",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0002"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.693856239318848",
+          "absolute_error_seconds_exact": "123261/8388608",
+          "gt_id": "GT-BEAT-04",
+          "gt_index": 4,
+          "gt_time_seconds_exact": "2/1",
+          "signed_error_milliseconds_decimal": "-14.693856239318848",
+          "signed_error_samples_exact": "-1358952525/2097152",
+          "signed_error_seconds_exact": "-123261/8388608",
+          "system_native_output_index": 3,
+          "system_output_id": "ESSENTIA-BEAT-0003",
+          "system_time_seconds_exact": "16653955/8388608",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0003"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "15.464782714843750",
+          "absolute_error_seconds_exact": "2027/131072",
+          "gt_id": "GT-BEAT-05",
+          "gt_index": 5,
+          "gt_time_seconds_exact": "5/2",
+          "signed_error_milliseconds_decimal": "-15.464782714843750",
+          "signed_error_samples_exact": "-22347675/32768",
+          "signed_error_seconds_exact": "-2027/131072",
+          "system_native_output_index": 4,
+          "system_output_id": "ESSENTIA-BEAT-0004",
+          "system_time_seconds_exact": "325653/131072",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0004"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.235828399658203",
+          "absolute_error_seconds_exact": "34049/2097152",
+          "gt_id": "GT-BEAT-06",
+          "gt_index": 6,
+          "gt_time_seconds_exact": "3/1",
+          "signed_error_milliseconds_decimal": "-16.235828399658203",
+          "signed_error_samples_exact": "-375390225/524288",
+          "signed_error_seconds_exact": "-34049/2097152",
+          "system_native_output_index": 5,
+          "system_output_id": "ESSENTIA-BEAT-0005",
+          "system_time_seconds_exact": "6257407/2097152",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0005"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.006874084472656",
+          "absolute_error_seconds_exact": "17833/1048576",
+          "gt_id": "GT-BEAT-07",
+          "gt_index": 7,
+          "gt_time_seconds_exact": "7/2",
+          "signed_error_milliseconds_decimal": "-17.006874084472656",
+          "signed_error_samples_exact": "-196608825/262144",
+          "signed_error_seconds_exact": "-17833/1048576",
+          "system_native_output_index": 6,
+          "system_output_id": "ESSENTIA-BEAT-0006",
+          "system_time_seconds_exact": "3652183/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0006"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.777919769287109",
+          "absolute_error_seconds_exact": "37283/2097152",
+          "gt_id": "GT-BEAT-08",
+          "gt_index": 8,
+          "gt_time_seconds_exact": "4/1",
+          "signed_error_milliseconds_decimal": "-17.777919769287109",
+          "signed_error_samples_exact": "-411045075/524288",
+          "signed_error_seconds_exact": "-37283/2097152",
+          "system_native_output_index": 7,
+          "system_output_id": "ESSENTIA-BEAT-0007",
+          "system_time_seconds_exact": "8351325/2097152",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0007"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "18.548965454101562",
+          "absolute_error_seconds_exact": "9725/524288",
+          "gt_id": "GT-BEAT-09",
+          "gt_index": 9,
+          "gt_time_seconds_exact": "9/2",
+          "signed_error_milliseconds_decimal": "-18.548965454101562",
+          "signed_error_samples_exact": "-107218125/131072",
+          "signed_error_seconds_exact": "-9725/524288",
+          "system_native_output_index": 8,
+          "system_output_id": "ESSENTIA-BEAT-0008",
+          "system_time_seconds_exact": "2349571/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0008"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "19.320011138916016",
+          "absolute_error_seconds_exact": "40517/2097152",
+          "gt_id": "GT-BEAT-10",
+          "gt_index": 10,
+          "gt_time_seconds_exact": "5/1",
+          "signed_error_milliseconds_decimal": "-19.320011138916016",
+          "signed_error_samples_exact": "-446699925/524288",
+          "signed_error_seconds_exact": "-40517/2097152",
+          "system_native_output_index": 9,
+          "system_output_id": "ESSENTIA-BEAT-0009",
+          "system_time_seconds_exact": "10445243/2097152",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0009"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.090579986572266",
+          "absolute_error_seconds_exact": "42133/2097152",
+          "gt_id": "GT-BEAT-11",
+          "gt_index": 11,
+          "gt_time_seconds_exact": "11/2",
+          "signed_error_milliseconds_decimal": "-20.090579986572266",
+          "signed_error_samples_exact": "-464516325/524288",
+          "signed_error_seconds_exact": "-42133/2097152",
+          "system_native_output_index": 10,
+          "system_output_id": "ESSENTIA-BEAT-0010",
+          "system_time_seconds_exact": "11492203/2097152",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0010"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.861625671386719",
+          "absolute_error_seconds_exact": "21875/1048576",
+          "gt_id": "GT-BEAT-12",
+          "gt_index": 12,
+          "gt_time_seconds_exact": "6/1",
+          "signed_error_milliseconds_decimal": "-20.861625671386719",
+          "signed_error_samples_exact": "-241171875/262144",
+          "signed_error_seconds_exact": "-21875/1048576",
+          "system_native_output_index": 11,
+          "system_output_id": "ESSENTIA-BEAT-0011",
+          "system_time_seconds_exact": "6269581/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0011"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.022640228271484",
+          "absolute_error_seconds_exact": "21019/2097152",
+          "gt_id": "GT-BEAT-13",
+          "gt_index": 13,
+          "gt_time_seconds_exact": "13/2",
+          "signed_error_milliseconds_decimal": "-10.022640228271484",
+          "signed_error_samples_exact": "-231734475/524288",
+          "signed_error_seconds_exact": "-21019/2097152",
+          "system_native_output_index": 12,
+          "system_output_id": "ESSENTIA-BEAT-0012",
+          "system_time_seconds_exact": "13610469/2097152",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0012"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.793685913085938",
+          "absolute_error_seconds_exact": "5659/524288",
+          "gt_id": "GT-BEAT-14",
+          "gt_index": 14,
+          "gt_time_seconds_exact": "7/1",
+          "signed_error_milliseconds_decimal": "-10.793685913085938",
+          "signed_error_samples_exact": "-62390475/131072",
+          "signed_error_seconds_exact": "-5659/524288",
+          "system_native_output_index": 13,
+          "system_output_id": "ESSENTIA-BEAT-0013",
+          "system_time_seconds_exact": "3664357/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0013"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.564731597900391",
+          "absolute_error_seconds_exact": "24253/2097152",
+          "gt_id": "GT-BEAT-15",
+          "gt_index": 15,
+          "gt_time_seconds_exact": "15/2",
+          "signed_error_milliseconds_decimal": "-11.564731597900391",
+          "signed_error_samples_exact": "-267389325/524288",
+          "signed_error_seconds_exact": "-24253/2097152",
+          "system_native_output_index": 14,
+          "system_output_id": "ESSENTIA-BEAT-0014",
+          "system_time_seconds_exact": "15704387/2097152",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0014"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.335777282714844",
+          "absolute_error_seconds_exact": "12935/1048576",
+          "gt_id": "GT-BEAT-16",
+          "gt_index": 16,
+          "gt_time_seconds_exact": "8/1",
+          "signed_error_milliseconds_decimal": "-12.335777282714844",
+          "signed_error_samples_exact": "-142608375/262144",
+          "signed_error_seconds_exact": "-12935/1048576",
+          "system_native_output_index": 15,
+          "system_output_id": "ESSENTIA-BEAT-0015",
+          "system_time_seconds_exact": "8375673/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0015"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.106346130371094",
+          "absolute_error_seconds_exact": "13743/1048576",
+          "gt_id": "GT-BEAT-17",
+          "gt_index": 17,
+          "gt_time_seconds_exact": "17/2",
+          "signed_error_milliseconds_decimal": "-13.106346130371094",
+          "signed_error_samples_exact": "-151516575/262144",
+          "signed_error_seconds_exact": "-13743/1048576",
+          "system_native_output_index": 16,
+          "system_output_id": "ESSENTIA-BEAT-0016",
+          "system_time_seconds_exact": "8899153/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0016"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.877868652343750",
+          "absolute_error_seconds_exact": "1819/131072",
+          "gt_id": "GT-BEAT-18",
+          "gt_index": 18,
+          "gt_time_seconds_exact": "9/1",
+          "signed_error_milliseconds_decimal": "-13.877868652343750",
+          "signed_error_samples_exact": "-20054475/32768",
+          "signed_error_seconds_exact": "-1819/131072",
+          "system_native_output_index": 17,
+          "system_output_id": "ESSENTIA-BEAT-0017",
+          "system_time_seconds_exact": "1177829/131072",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0017"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.648437500000000",
+          "absolute_error_seconds_exact": "15/1024",
+          "gt_id": "GT-BEAT-19",
+          "gt_index": 19,
+          "gt_time_seconds_exact": "19/2",
+          "signed_error_milliseconds_decimal": "-14.648437500000000",
+          "signed_error_samples_exact": "-165375/256",
+          "signed_error_seconds_exact": "-15/1024",
+          "system_native_output_index": 18,
+          "system_output_id": "ESSENTIA-BEAT-0018",
+          "system_time_seconds_exact": "9713/1024",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0018"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "15.419960021972656",
+          "absolute_error_seconds_exact": "16169/1048576",
+          "gt_id": "GT-BEAT-20",
+          "gt_index": 20,
+          "gt_time_seconds_exact": "10/1",
+          "signed_error_milliseconds_decimal": "-15.419960021972656",
+          "signed_error_samples_exact": "-178263225/262144",
+          "signed_error_seconds_exact": "-16169/1048576",
+          "system_native_output_index": 19,
+          "system_output_id": "ESSENTIA-BEAT-0019",
+          "system_time_seconds_exact": "10469591/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0019"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.190528869628906",
+          "absolute_error_seconds_exact": "16977/1048576",
+          "gt_id": "GT-BEAT-21",
+          "gt_index": 21,
+          "gt_time_seconds_exact": "21/2",
+          "signed_error_milliseconds_decimal": "-16.190528869628906",
+          "signed_error_samples_exact": "-187171425/262144",
+          "signed_error_seconds_exact": "-16977/1048576",
+          "system_native_output_index": 20,
+          "system_output_id": "ESSENTIA-BEAT-0020",
+          "system_time_seconds_exact": "10993071/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0020"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.962051391601562",
+          "absolute_error_seconds_exact": "8893/524288",
+          "gt_id": "GT-BEAT-22",
+          "gt_index": 22,
+          "gt_time_seconds_exact": "11/1",
+          "signed_error_milliseconds_decimal": "-16.962051391601562",
+          "signed_error_samples_exact": "-98045325/131072",
+          "signed_error_seconds_exact": "-8893/524288",
+          "system_native_output_index": 21,
+          "system_output_id": "ESSENTIA-BEAT-0021",
+          "system_time_seconds_exact": "5758275/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0021"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.732620239257812",
+          "absolute_error_seconds_exact": "9297/524288",
+          "gt_id": "GT-BEAT-23",
+          "gt_index": 23,
+          "gt_time_seconds_exact": "23/2",
+          "signed_error_milliseconds_decimal": "-17.732620239257812",
+          "signed_error_samples_exact": "-102499425/131072",
+          "signed_error_seconds_exact": "-9297/524288",
+          "system_native_output_index": 22,
+          "system_output_id": "ESSENTIA-BEAT-0022",
+          "system_time_seconds_exact": "6020015/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0022"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "18.503189086914062",
+          "absolute_error_seconds_exact": "9701/524288",
+          "gt_id": "GT-BEAT-24",
+          "gt_index": 24,
+          "gt_time_seconds_exact": "12/1",
+          "signed_error_milliseconds_decimal": "-18.503189086914062",
+          "signed_error_samples_exact": "-106953525/131072",
+          "signed_error_seconds_exact": "-9701/524288",
+          "system_native_output_index": 23,
+          "system_output_id": "ESSENTIA-BEAT-0023",
+          "system_time_seconds_exact": "6281755/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0023"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "19.274711608886719",
+          "absolute_error_seconds_exact": "20211/1048576",
+          "gt_id": "GT-BEAT-25",
+          "gt_index": 25,
+          "gt_time_seconds_exact": "25/2",
+          "signed_error_milliseconds_decimal": "-19.274711608886719",
+          "signed_error_samples_exact": "-222826275/262144",
+          "signed_error_seconds_exact": "-20211/1048576",
+          "system_native_output_index": 24,
+          "system_output_id": "ESSENTIA-BEAT-0024",
+          "system_time_seconds_exact": "13086989/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0024"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.045280456542969",
+          "absolute_error_seconds_exact": "21019/1048576",
+          "gt_id": "GT-BEAT-26",
+          "gt_index": 26,
+          "gt_time_seconds_exact": "13/1",
+          "signed_error_milliseconds_decimal": "-20.045280456542969",
+          "signed_error_samples_exact": "-231734475/262144",
+          "signed_error_seconds_exact": "-21019/1048576",
+          "system_native_output_index": 25,
+          "system_output_id": "ESSENTIA-BEAT-0025",
+          "system_time_seconds_exact": "13610469/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0025"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.816802978515625",
+          "absolute_error_seconds_exact": "5457/262144",
+          "gt_id": "GT-BEAT-27",
+          "gt_index": 27,
+          "gt_time_seconds_exact": "27/2",
+          "signed_error_milliseconds_decimal": "-20.816802978515625",
+          "signed_error_samples_exact": "-60163425/65536",
+          "signed_error_seconds_exact": "-5457/262144",
+          "system_native_output_index": 26,
+          "system_output_id": "ESSENTIA-BEAT-0026",
+          "system_time_seconds_exact": "3533487/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0026"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.977340698242188",
+          "absolute_error_seconds_exact": "5231/524288",
+          "gt_id": "GT-BEAT-28",
+          "gt_index": 28,
+          "gt_time_seconds_exact": "14/1",
+          "signed_error_milliseconds_decimal": "-9.977340698242188",
+          "signed_error_samples_exact": "-57671775/131072",
+          "signed_error_seconds_exact": "-5231/524288",
+          "system_native_output_index": 27,
+          "system_output_id": "ESSENTIA-BEAT-0027",
+          "system_time_seconds_exact": "7334801/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0027"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.748863220214844",
+          "absolute_error_seconds_exact": "11271/1048576",
+          "gt_id": "GT-BEAT-29",
+          "gt_index": 29,
+          "gt_time_seconds_exact": "29/2",
+          "signed_error_milliseconds_decimal": "-10.748863220214844",
+          "signed_error_samples_exact": "-124262775/262144",
+          "signed_error_seconds_exact": "-11271/1048576",
+          "system_native_output_index": 28,
+          "system_output_id": "ESSENTIA-BEAT-0028",
+          "system_time_seconds_exact": "15193081/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0028"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.519432067871094",
+          "absolute_error_seconds_exact": "12079/1048576",
+          "gt_id": "GT-BEAT-30",
+          "gt_index": 30,
+          "gt_time_seconds_exact": "15/1",
+          "signed_error_milliseconds_decimal": "-11.519432067871094",
+          "signed_error_samples_exact": "-133170975/262144",
+          "signed_error_seconds_exact": "-12079/1048576",
+          "system_native_output_index": 29,
+          "system_output_id": "ESSENTIA-BEAT-0029",
+          "system_time_seconds_exact": "15716561/1048576",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0029"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.290954589843750",
+          "absolute_error_seconds_exact": "1611/131072",
+          "gt_id": "GT-BEAT-31",
+          "gt_index": 31,
+          "gt_time_seconds_exact": "31/2",
+          "signed_error_milliseconds_decimal": "-12.290954589843750",
+          "signed_error_samples_exact": "-17761275/32768",
+          "signed_error_seconds_exact": "-1611/131072",
+          "system_native_output_index": 30,
+          "system_output_id": "ESSENTIA-BEAT-0030",
+          "system_time_seconds_exact": "2030005/131072",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0030"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.061523437500000",
+          "absolute_error_seconds_exact": "107/8192",
+          "gt_id": "GT-BEAT-32",
+          "gt_index": 32,
+          "gt_time_seconds_exact": "16/1",
+          "signed_error_milliseconds_decimal": "-13.061523437500000",
+          "signed_error_samples_exact": "-1179675/2048",
+          "signed_error_seconds_exact": "-107/8192",
+          "system_native_output_index": 31,
+          "system_output_id": "ESSENTIA-BEAT-0031",
+          "system_time_seconds_exact": "130965/8192",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0031"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.832092285156250",
+          "absolute_error_seconds_exact": "1813/131072",
+          "gt_id": "GT-BEAT-33",
+          "gt_index": 33,
+          "gt_time_seconds_exact": "33/2",
+          "signed_error_milliseconds_decimal": "-13.832092285156250",
+          "signed_error_samples_exact": "-19988325/32768",
+          "signed_error_seconds_exact": "-1813/131072",
+          "system_native_output_index": 32,
+          "system_output_id": "ESSENTIA-BEAT-0032",
+          "system_time_seconds_exact": "2160875/131072",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0032"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.602661132812500",
+          "absolute_error_seconds_exact": "957/65536",
+          "gt_id": "GT-BEAT-34",
+          "gt_index": 34,
+          "gt_time_seconds_exact": "17/1",
+          "signed_error_milliseconds_decimal": "-14.602661132812500",
+          "signed_error_samples_exact": "-10550925/16384",
+          "signed_error_seconds_exact": "-957/65536",
+          "system_native_output_index": 33,
+          "system_output_id": "ESSENTIA-BEAT-0033",
+          "system_time_seconds_exact": "1113155/65536",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0033"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "15.375137329101562",
+          "absolute_error_seconds_exact": "8061/524288",
+          "gt_id": "GT-BEAT-35",
+          "gt_index": 35,
+          "gt_time_seconds_exact": "35/2",
+          "signed_error_milliseconds_decimal": "-15.375137329101562",
+          "signed_error_samples_exact": "-88872525/131072",
+          "signed_error_seconds_exact": "-8061/524288",
+          "system_native_output_index": 34,
+          "system_output_id": "ESSENTIA-BEAT-0034",
+          "system_time_seconds_exact": "9166979/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0034"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.145706176757812",
+          "absolute_error_seconds_exact": "8465/524288",
+          "gt_id": "GT-BEAT-36",
+          "gt_index": 36,
+          "gt_time_seconds_exact": "18/1",
+          "signed_error_milliseconds_decimal": "-16.145706176757812",
+          "signed_error_samples_exact": "-93326625/131072",
+          "signed_error_seconds_exact": "-8465/524288",
+          "system_native_output_index": 35,
+          "system_output_id": "ESSENTIA-BEAT-0035",
+          "system_time_seconds_exact": "9428719/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0035"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.916275024414062",
+          "absolute_error_seconds_exact": "8869/524288",
+          "gt_id": "GT-BEAT-37",
+          "gt_index": 37,
+          "gt_time_seconds_exact": "37/2",
+          "signed_error_milliseconds_decimal": "-16.916275024414062",
+          "signed_error_samples_exact": "-97780725/131072",
+          "signed_error_seconds_exact": "-8869/524288",
+          "system_native_output_index": 36,
+          "system_output_id": "ESSENTIA-BEAT-0036",
+          "system_time_seconds_exact": "9690459/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0036"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.686843872070312",
+          "absolute_error_seconds_exact": "9273/524288",
+          "gt_id": "GT-BEAT-38",
+          "gt_index": 38,
+          "gt_time_seconds_exact": "19/1",
+          "signed_error_milliseconds_decimal": "-17.686843872070312",
+          "signed_error_samples_exact": "-102234825/131072",
+          "signed_error_seconds_exact": "-9273/524288",
+          "system_native_output_index": 37,
+          "system_output_id": "ESSENTIA-BEAT-0037",
+          "system_time_seconds_exact": "9952199/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0037"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "18.459320068359375",
+          "absolute_error_seconds_exact": "4839/262144",
+          "gt_id": "GT-BEAT-39",
+          "gt_index": 39,
+          "gt_time_seconds_exact": "39/2",
+          "signed_error_milliseconds_decimal": "-18.459320068359375",
+          "signed_error_samples_exact": "-53349975/65536",
+          "signed_error_seconds_exact": "-4839/262144",
+          "system_native_output_index": 38,
+          "system_output_id": "ESSENTIA-BEAT-0038",
+          "system_time_seconds_exact": "5106969/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0038"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "19.229888916015625",
+          "absolute_error_seconds_exact": "5041/262144",
+          "gt_id": "GT-BEAT-40",
+          "gt_index": 40,
+          "gt_time_seconds_exact": "20/1",
+          "signed_error_milliseconds_decimal": "-19.229888916015625",
+          "signed_error_samples_exact": "-55577025/65536",
+          "signed_error_seconds_exact": "-5041/262144",
+          "system_native_output_index": 39,
+          "system_output_id": "ESSENTIA-BEAT-0039",
+          "system_time_seconds_exact": "5237839/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0039"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.000457763671875",
+          "absolute_error_seconds_exact": "5243/262144",
+          "gt_id": "GT-BEAT-41",
+          "gt_index": 41,
+          "gt_time_seconds_exact": "41/2",
+          "signed_error_milliseconds_decimal": "-20.000457763671875",
+          "signed_error_samples_exact": "-57804075/65536",
+          "signed_error_seconds_exact": "-5243/262144",
+          "system_native_output_index": 40,
+          "system_output_id": "ESSENTIA-BEAT-0040",
+          "system_time_seconds_exact": "5368709/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0040"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.771026611328125",
+          "absolute_error_seconds_exact": "5445/262144",
+          "gt_id": "GT-BEAT-42",
+          "gt_index": 42,
+          "gt_time_seconds_exact": "21/1",
+          "signed_error_milliseconds_decimal": "-20.771026611328125",
+          "signed_error_samples_exact": "-60031125/65536",
+          "signed_error_seconds_exact": "-5445/262144",
+          "system_native_output_index": 41,
+          "system_output_id": "ESSENTIA-BEAT-0041",
+          "system_time_seconds_exact": "5499579/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0041"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "21.541595458984375",
+          "absolute_error_seconds_exact": "5647/262144",
+          "gt_id": "GT-BEAT-43",
+          "gt_index": 43,
+          "gt_time_seconds_exact": "43/2",
+          "signed_error_milliseconds_decimal": "-21.541595458984375",
+          "signed_error_samples_exact": "-62258175/65536",
+          "signed_error_seconds_exact": "-5647/262144",
+          "system_native_output_index": 42,
+          "system_output_id": "ESSENTIA-BEAT-0042",
+          "system_time_seconds_exact": "5630449/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0042"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "22.314071655273438",
+          "absolute_error_seconds_exact": "11699/524288",
+          "gt_id": "GT-BEAT-44",
+          "gt_index": 44,
+          "gt_time_seconds_exact": "22/1",
+          "signed_error_milliseconds_decimal": "-22.314071655273438",
+          "signed_error_samples_exact": "-128981475/131072",
+          "signed_error_seconds_exact": "-11699/524288",
+          "system_native_output_index": 43,
+          "system_output_id": "ESSENTIA-BEAT-0043",
+          "system_time_seconds_exact": "11522637/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0043"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.474609375000000",
+          "absolute_error_seconds_exact": "47/4096",
+          "gt_id": "GT-BEAT-45",
+          "gt_index": 45,
+          "gt_time_seconds_exact": "45/2",
+          "signed_error_milliseconds_decimal": "-11.474609375000000",
+          "signed_error_samples_exact": "-518175/1024",
+          "signed_error_seconds_exact": "-47/4096",
+          "system_native_output_index": 44,
+          "system_output_id": "ESSENTIA-BEAT-0044",
+          "system_time_seconds_exact": "92113/4096",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0044"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.245178222656250",
+          "absolute_error_seconds_exact": "1605/131072",
+          "gt_id": "GT-BEAT-46",
+          "gt_index": 46,
+          "gt_time_seconds_exact": "23/1",
+          "signed_error_milliseconds_decimal": "-12.245178222656250",
+          "signed_error_samples_exact": "-17695125/32768",
+          "signed_error_seconds_exact": "-1605/131072",
+          "system_native_output_index": 45,
+          "system_output_id": "ESSENTIA-BEAT-0045",
+          "system_time_seconds_exact": "3013051/131072",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0045"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.015747070312500",
+          "absolute_error_seconds_exact": "853/65536",
+          "gt_id": "GT-BEAT-47",
+          "gt_index": 47,
+          "gt_time_seconds_exact": "47/2",
+          "signed_error_milliseconds_decimal": "-13.015747070312500",
+          "signed_error_samples_exact": "-9404325/16384",
+          "signed_error_seconds_exact": "-853/65536",
+          "system_native_output_index": 46,
+          "system_output_id": "ESSENTIA-BEAT-0046",
+          "system_time_seconds_exact": "1539243/65536",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0046"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.788223266601562",
+          "absolute_error_seconds_exact": "7229/524288",
+          "gt_id": "GT-BEAT-48",
+          "gt_index": 48,
+          "gt_time_seconds_exact": "24/1",
+          "signed_error_milliseconds_decimal": "-13.788223266601562",
+          "signed_error_samples_exact": "-79699725/131072",
+          "signed_error_seconds_exact": "-7229/524288",
+          "system_native_output_index": 47,
+          "system_output_id": "ESSENTIA-BEAT-0047",
+          "system_time_seconds_exact": "12575683/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0047"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.558792114257812",
+          "absolute_error_seconds_exact": "7633/524288",
+          "gt_id": "GT-BEAT-49",
+          "gt_index": 49,
+          "gt_time_seconds_exact": "49/2",
+          "signed_error_milliseconds_decimal": "-14.558792114257812",
+          "signed_error_samples_exact": "-84153825/131072",
+          "signed_error_seconds_exact": "-7633/524288",
+          "system_native_output_index": 48,
+          "system_output_id": "ESSENTIA-BEAT-0048",
+          "system_time_seconds_exact": "12837423/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0048"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "15.329360961914062",
+          "absolute_error_seconds_exact": "8037/524288",
+          "gt_id": "GT-BEAT-50",
+          "gt_index": 50,
+          "gt_time_seconds_exact": "25/1",
+          "signed_error_milliseconds_decimal": "-15.329360961914062",
+          "signed_error_samples_exact": "-88607925/131072",
+          "signed_error_seconds_exact": "-8037/524288",
+          "system_native_output_index": 49,
+          "system_output_id": "ESSENTIA-BEAT-0049",
+          "system_time_seconds_exact": "13099163/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0049"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.099929809570312",
+          "absolute_error_seconds_exact": "8441/524288",
+          "gt_id": "GT-BEAT-51",
+          "gt_index": 51,
+          "gt_time_seconds_exact": "51/2",
+          "signed_error_milliseconds_decimal": "-16.099929809570312",
+          "signed_error_samples_exact": "-93062025/131072",
+          "signed_error_seconds_exact": "-8441/524288",
+          "system_native_output_index": 50,
+          "system_output_id": "ESSENTIA-BEAT-0050",
+          "system_time_seconds_exact": "13360903/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0050"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.870498657226562",
+          "absolute_error_seconds_exact": "8845/524288",
+          "gt_id": "GT-BEAT-52",
+          "gt_index": 52,
+          "gt_time_seconds_exact": "26/1",
+          "signed_error_milliseconds_decimal": "-16.870498657226562",
+          "signed_error_samples_exact": "-97516125/131072",
+          "signed_error_seconds_exact": "-8845/524288",
+          "system_native_output_index": 51,
+          "system_output_id": "ESSENTIA-BEAT-0051",
+          "system_time_seconds_exact": "13622643/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0051"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.642974853515625",
+          "absolute_error_seconds_exact": "4625/262144",
+          "gt_id": "GT-BEAT-53",
+          "gt_index": 53,
+          "gt_time_seconds_exact": "53/2",
+          "signed_error_milliseconds_decimal": "-17.642974853515625",
+          "signed_error_samples_exact": "-50990625/65536",
+          "signed_error_seconds_exact": "-4625/262144",
+          "system_native_output_index": 52,
+          "system_output_id": "ESSENTIA-BEAT-0052",
+          "system_time_seconds_exact": "6942191/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0052"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "18.413543701171875",
+          "absolute_error_seconds_exact": "4827/262144",
+          "gt_id": "GT-BEAT-54",
+          "gt_index": 54,
+          "gt_time_seconds_exact": "27/1",
+          "signed_error_milliseconds_decimal": "-18.413543701171875",
+          "signed_error_samples_exact": "-53217675/65536",
+          "signed_error_seconds_exact": "-4827/262144",
+          "system_native_output_index": 53,
+          "system_output_id": "ESSENTIA-BEAT-0053",
+          "system_time_seconds_exact": "7073061/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0053"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "19.184112548828125",
+          "absolute_error_seconds_exact": "5029/262144",
+          "gt_id": "GT-BEAT-55",
+          "gt_index": 55,
+          "gt_time_seconds_exact": "55/2",
+          "signed_error_milliseconds_decimal": "-19.184112548828125",
+          "signed_error_samples_exact": "-55444725/65536",
+          "signed_error_seconds_exact": "-5029/262144",
+          "system_native_output_index": 54,
+          "system_output_id": "ESSENTIA-BEAT-0054",
+          "system_time_seconds_exact": "7203931/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0054"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "19.954681396484375",
+          "absolute_error_seconds_exact": "5231/262144",
+          "gt_id": "GT-BEAT-56",
+          "gt_index": 56,
+          "gt_time_seconds_exact": "28/1",
+          "signed_error_milliseconds_decimal": "-19.954681396484375",
+          "signed_error_samples_exact": "-57671775/65536",
+          "signed_error_seconds_exact": "-5231/262144",
+          "system_native_output_index": 55,
+          "system_output_id": "ESSENTIA-BEAT-0055",
+          "system_time_seconds_exact": "7334801/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0055"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.725250244140625",
+          "absolute_error_seconds_exact": "5433/262144",
+          "gt_id": "GT-BEAT-57",
+          "gt_index": 57,
+          "gt_time_seconds_exact": "57/2",
+          "signed_error_milliseconds_decimal": "-20.725250244140625",
+          "signed_error_samples_exact": "-59898825/65536",
+          "signed_error_seconds_exact": "-5433/262144",
+          "system_native_output_index": 56,
+          "system_output_id": "ESSENTIA-BEAT-0056",
+          "system_time_seconds_exact": "7465671/262144",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0056"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "21.497726440429688",
+          "absolute_error_seconds_exact": "11271/524288",
+          "gt_id": "GT-BEAT-58",
+          "gt_index": 58,
+          "gt_time_seconds_exact": "29/1",
+          "signed_error_milliseconds_decimal": "-21.497726440429688",
+          "signed_error_samples_exact": "-124262775/131072",
+          "signed_error_seconds_exact": "-11271/524288",
+          "system_native_output_index": 57,
+          "system_output_id": "ESSENTIA-BEAT-0057",
+          "system_time_seconds_exact": "15193081/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0057"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "22.268295288085938",
+          "absolute_error_seconds_exact": "11675/524288",
+          "gt_id": "GT-BEAT-59",
+          "gt_index": 59,
+          "gt_time_seconds_exact": "59/2",
+          "signed_error_milliseconds_decimal": "-22.268295288085938",
+          "signed_error_samples_exact": "-128716875/131072",
+          "signed_error_seconds_exact": "-11675/524288",
+          "system_native_output_index": 58,
+          "system_output_id": "ESSENTIA-BEAT-0058",
+          "system_time_seconds_exact": "15454821/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0058"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.428833007812500",
+          "absolute_error_seconds_exact": "749/65536",
+          "gt_id": "GT-BEAT-60",
+          "gt_index": 60,
+          "gt_time_seconds_exact": "30/1",
+          "signed_error_milliseconds_decimal": "-11.428833007812500",
+          "signed_error_samples_exact": "-8257725/16384",
+          "signed_error_seconds_exact": "-749/65536",
+          "system_native_output_index": 59,
+          "system_output_id": "ESSENTIA-BEAT-0059",
+          "system_time_seconds_exact": "1965331/65536",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0059"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.199401855468750",
+          "absolute_error_seconds_exact": "1599/131072",
+          "gt_id": "GT-BEAT-61",
+          "gt_index": 61,
+          "gt_time_seconds_exact": "61/2",
+          "signed_error_milliseconds_decimal": "-12.199401855468750",
+          "signed_error_samples_exact": "-17628975/32768",
+          "signed_error_seconds_exact": "-1599/131072",
+          "system_native_output_index": 60,
+          "system_output_id": "ESSENTIA-BEAT-0060",
+          "system_time_seconds_exact": "3996097/131072",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0060"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.971878051757812",
+          "absolute_error_seconds_exact": "6801/524288",
+          "gt_id": "GT-BEAT-62",
+          "gt_index": 62,
+          "gt_time_seconds_exact": "31/1",
+          "signed_error_milliseconds_decimal": "-12.971878051757812",
+          "signed_error_samples_exact": "-74981025/131072",
+          "signed_error_seconds_exact": "-6801/524288",
+          "system_native_output_index": 61,
+          "system_output_id": "ESSENTIA-BEAT-0061",
+          "system_time_seconds_exact": "16246127/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0061"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.742446899414062",
+          "absolute_error_seconds_exact": "7205/524288",
+          "gt_id": "GT-BEAT-63",
+          "gt_index": 63,
+          "gt_time_seconds_exact": "63/2",
+          "signed_error_milliseconds_decimal": "-13.742446899414062",
+          "signed_error_samples_exact": "-79435125/131072",
+          "signed_error_seconds_exact": "-7205/524288",
+          "system_native_output_index": 62,
+          "system_output_id": "ESSENTIA-BEAT-0062",
+          "system_time_seconds_exact": "16507867/524288",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ESSENTIA-BEAT-0062"
+          ]
+        }
+      ],
+      "missed_gt_count": 1,
+      "misses": [
+        {
+          "gt_id": "GT-BEAT-00",
+          "gt_index": 0,
+          "gt_time_seconds_exact": "0/1"
+        }
+      ],
+      "precision": {
+        "decimal": "1.000000000000000",
+        "exact": "1/1"
+      },
+      "raw_output_count": 63,
+      "raw_output_scientific_fingerprint": "13c4196499c2d52172937eca1f43318312dda1caaac5fe0b32d8771581e07ae4",
+      "recall": {
+        "decimal": "0.984375000000000",
+        "exact": "63/64"
+      },
+      "scientific_fingerprint": "43f3b9ad787f6f2e91e26d6c99316e45545aa8e4fe4e34206656c70cbe5d7a10",
+      "signed_error_population_seconds_exact": [
+        "-103859/8388608",
+        "-220653/16777216",
+        "-58397/4194304",
+        "-123261/8388608",
+        "-2027/131072",
+        "-34049/2097152",
+        "-17833/1048576",
+        "-37283/2097152",
+        "-9725/524288",
+        "-40517/2097152",
+        "-42133/2097152",
+        "-21875/1048576",
+        "-21019/2097152",
+        "-5659/524288",
+        "-24253/2097152",
+        "-12935/1048576",
+        "-13743/1048576",
+        "-1819/131072",
+        "-15/1024",
+        "-16169/1048576",
+        "-16977/1048576",
+        "-8893/524288",
+        "-9297/524288",
+        "-9701/524288",
+        "-20211/1048576",
+        "-21019/1048576",
+        "-5457/262144",
+        "-5231/524288",
+        "-11271/1048576",
+        "-12079/1048576",
+        "-1611/131072",
+        "-107/8192",
+        "-1813/131072",
+        "-957/65536",
+        "-8061/524288",
+        "-8465/524288",
+        "-8869/524288",
+        "-9273/524288",
+        "-4839/262144",
+        "-5041/262144",
+        "-5243/262144",
+        "-5445/262144",
+        "-5647/262144",
+        "-11699/524288",
+        "-47/4096",
+        "-1605/131072",
+        "-853/65536",
+        "-7229/524288",
+        "-7633/524288",
+        "-8037/524288",
+        "-8441/524288",
+        "-8845/524288",
+        "-4625/262144",
+        "-4827/262144",
+        "-5029/262144",
+        "-5231/262144",
+        "-5433/262144",
+        "-11271/524288",
+        "-11675/524288",
+        "-749/65536",
+        "-1599/131072",
+        "-6801/524288",
+        "-7205/524288"
+      ],
+      "signed_error_statistics": {
+        "count": 63,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "-9.977340698242188",
+            "exact": "-653875/65536"
+          },
+          "mean": {
+            "decimal": "-16.010088579995292",
+            "exact": "-235029125/14680064"
+          },
+          "median_linear": {
+            "decimal": "-16.099929809570312",
+            "exact": "-1055125/65536"
+          },
+          "minimum": {
+            "decimal": "-22.314071655273438",
+            "exact": "-1462375/65536"
+          },
+          "population_standard_deviation": "3.407344027056929",
+          "q1_linear": {
+            "decimal": "-18.866539001464844",
+            "exact": "-2472875/131072"
+          },
+          "q3_linear": {
+            "decimal": "-13.083934783935547",
+            "exact": "-3429875/262144"
+          },
+          "rmse": "16.368656928960793"
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "seconds": {
+          "maximum": {
+            "decimal": "-0.009977340698242",
+            "exact": "-5231/524288"
+          },
+          "mean": {
+            "decimal": "-0.016010088579995",
+            "exact": "-1880233/117440512"
+          },
+          "median_linear": {
+            "decimal": "-0.016099929809570",
+            "exact": "-8441/524288"
+          },
+          "minimum": {
+            "decimal": "-0.022314071655273",
+            "exact": "-11699/524288"
+          },
+          "population_standard_deviation": "0.003407344027057",
+          "q1_linear": {
+            "decimal": "-0.018866539001465",
+            "exact": "-19783/1048576"
+          },
+          "q3_linear": {
+            "decimal": "-0.013083934783936",
+            "exact": "-27439/2097152"
+          },
+          "rmse": "0.016368656928961"
+        }
+      },
+      "system": "ESSENTIA",
+      "tie_count": 0
+    },
+    "JGA": {
+      "absolute_error_population_seconds_exact": [
+        "239/22050",
+        "37/3675",
+        "41/4410",
+        "94/11025",
+        "19/2450",
+        "11/1575",
+        "137/22050",
+        "4/735",
+        "103/22050",
+        "43/11025",
+        "23/7350",
+        "26/11025",
+        "1/630",
+        "137/11025",
+        "257/22050",
+        "8/735",
+        "223/22050",
+        "103/11025",
+        "3/350",
+        "86/11025",
+        "31/4410",
+        "23/3675",
+        "121/22050",
+        "52/11025",
+        "29/7350",
+        "1/315",
+        "53/22050",
+        "2/1225",
+        "11/882",
+        "43/3675",
+        "241/22050",
+        "16/1575",
+        "23/2450",
+        "19/2205",
+        "173/22050",
+        "26/3675",
+        "139/22050",
+        "61/11025",
+        "1/210",
+        "44/11025",
+        "71/22050",
+        "3/1225",
+        "37/22050",
+        "46/3675",
+        "37/3150",
+        "121/11025",
+        "1/98",
+        "104/11025",
+        "191/22050",
+        "29/3675",
+        "157/22050",
+        "2/315",
+        "41/7350",
+        "53/11025",
+        "89/22050",
+        "4/1225",
+        "11/4410",
+        "19/11025",
+        "277/22050",
+        "26/2205",
+        "27/2450",
+        "113/11025",
+        "209/22050"
+      ],
+      "absolute_error_samples": [
+        478,
+        444,
+        410,
+        376,
+        342,
+        308,
+        274,
+        240,
+        206,
+        172,
+        138,
+        104,
+        70,
+        548,
+        514,
+        480,
+        446,
+        412,
+        378,
+        344,
+        310,
+        276,
+        242,
+        208,
+        174,
+        140,
+        106,
+        72,
+        550,
+        516,
+        482,
+        448,
+        414,
+        380,
+        346,
+        312,
+        278,
+        244,
+        210,
+        176,
+        142,
+        108,
+        74,
+        552,
+        518,
+        484,
+        450,
+        416,
+        382,
+        348,
+        314,
+        280,
+        246,
+        212,
+        178,
+        144,
+        110,
+        76,
+        554,
+        520,
+        486,
+        452,
+        418
+      ],
+      "absolute_error_statistics": {
+        "count": 63,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "12.562358276643991",
+            "exact": "5540/441"
+          },
+          "mean": {
+            "decimal": "7.210164489076054",
+            "exact": "200320/27783"
+          },
+          "median_linear": {
+            "decimal": "7.120181405895692",
+            "exact": "3140/441"
+          },
+          "minimum": {
+            "decimal": "1.587301587301587",
+            "exact": "100/63"
+          },
+          "population_standard_deviation": "3.332908410425259",
+          "q1_linear": {
+            "decimal": "4.353741496598639",
+            "exact": "640/147"
+          },
+          "q3_linear": {
+            "decimal": "10.136054421768707",
+            "exact": "1490/147"
+          },
+          "rmse": "7.943220406851164"
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "seconds": {
+          "maximum": {
+            "decimal": "0.012562358276644",
+            "exact": "277/22050"
+          },
+          "mean": {
+            "decimal": "0.007210164489076",
+            "exact": "5008/694575"
+          },
+          "median_linear": {
+            "decimal": "0.007120181405896",
+            "exact": "157/22050"
+          },
+          "minimum": {
+            "decimal": "0.001587301587302",
+            "exact": "1/630"
+          },
+          "population_standard_deviation": "0.003332908410425",
+          "q1_linear": {
+            "decimal": "0.004353741496599",
+            "exact": "16/3675"
+          },
+          "q3_linear": {
+            "decimal": "0.010136054421769",
+            "exact": "149/14700"
+          },
+          "rmse": "0.007943220406851"
+        }
+      },
+      "assignment_rule": "ORDERED_DISJOINT_CLOSED_PLUS_MINUS_ONE_EIGHTH_SECOND_NEAREST_ONE_TO_ONE/v1",
+      "exact_zero_match_count": 0,
+      "extra_output_count": 0,
+      "extras": [],
+      "f1": {
+        "decimal": "0.992125984251969",
+        "exact": "126/127"
+      },
+      "gt_count": 64,
+      "matched_count": 63,
+      "matches": [
+        {
+          "absolute_error_milliseconds_decimal": "10.839002267573696",
+          "absolute_error_seconds_exact": "239/22050",
+          "gt_id": "GT-BEAT-01",
+          "gt_index": 1,
+          "gt_time_seconds_exact": "1/2",
+          "signed_error_milliseconds_decimal": "10.839002267573696",
+          "signed_error_samples_exact": "478/1",
+          "signed_error_seconds_exact": "239/22050",
+          "system_native_output_index": 0,
+          "system_output_id": "9b6c9c78-8e05-5e4c-82cb-fb657ecff93e",
+          "system_time_seconds_exact": "5632/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "9b6c9c78-8e05-5e4c-82cb-fb657ecff93e"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.068027210884354",
+          "absolute_error_seconds_exact": "37/3675",
+          "gt_id": "GT-BEAT-02",
+          "gt_index": 2,
+          "gt_time_seconds_exact": "1/1",
+          "signed_error_milliseconds_decimal": "10.068027210884354",
+          "signed_error_samples_exact": "444/1",
+          "signed_error_seconds_exact": "37/3675",
+          "system_native_output_index": 1,
+          "system_output_id": "6ee69a37-df6e-5f24-95f1-056e1d4429c3",
+          "system_time_seconds_exact": "3712/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "6ee69a37-df6e-5f24-95f1-056e1d4429c3"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.297052154195011",
+          "absolute_error_seconds_exact": "41/4410",
+          "gt_id": "GT-BEAT-03",
+          "gt_index": 3,
+          "gt_time_seconds_exact": "3/2",
+          "signed_error_milliseconds_decimal": "9.297052154195011",
+          "signed_error_samples_exact": "410/1",
+          "signed_error_seconds_exact": "41/4410",
+          "system_native_output_index": 2,
+          "system_output_id": "1e5e3c09-ec6d-589a-a158-25c5a22b29ff",
+          "system_time_seconds_exact": "3328/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "1e5e3c09-ec6d-589a-a158-25c5a22b29ff"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "8.526077097505669",
+          "absolute_error_seconds_exact": "94/11025",
+          "gt_id": "GT-BEAT-04",
+          "gt_index": 4,
+          "gt_time_seconds_exact": "2/1",
+          "signed_error_milliseconds_decimal": "8.526077097505669",
+          "signed_error_samples_exact": "376/1",
+          "signed_error_seconds_exact": "94/11025",
+          "system_native_output_index": 3,
+          "system_output_id": "d3e64ec9-9220-5d3f-9857-99bc75e68fcd",
+          "system_time_seconds_exact": "22144/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "d3e64ec9-9220-5d3f-9857-99bc75e68fcd"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "7.755102040816327",
+          "absolute_error_seconds_exact": "19/2450",
+          "gt_id": "GT-BEAT-05",
+          "gt_index": 5,
+          "gt_time_seconds_exact": "5/2",
+          "signed_error_milliseconds_decimal": "7.755102040816327",
+          "signed_error_samples_exact": "342/1",
+          "signed_error_seconds_exact": "19/2450",
+          "system_native_output_index": 4,
+          "system_output_id": "90447371-cce4-5fd9-9eac-efd5787988dc",
+          "system_time_seconds_exact": "3072/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "90447371-cce4-5fd9-9eac-efd5787988dc"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "6.984126984126984",
+          "absolute_error_seconds_exact": "11/1575",
+          "gt_id": "GT-BEAT-06",
+          "gt_index": 6,
+          "gt_time_seconds_exact": "3/1",
+          "signed_error_milliseconds_decimal": "6.984126984126984",
+          "signed_error_samples_exact": "308/1",
+          "signed_error_seconds_exact": "11/1575",
+          "system_native_output_index": 5,
+          "system_output_id": "68e0440f-0c27-571b-be2d-8a8f965e84ea",
+          "system_time_seconds_exact": "4736/1575",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "68e0440f-0c27-571b-be2d-8a8f965e84ea"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "6.213151927437642",
+          "absolute_error_seconds_exact": "137/22050",
+          "gt_id": "GT-BEAT-07",
+          "gt_index": 7,
+          "gt_time_seconds_exact": "7/2",
+          "signed_error_milliseconds_decimal": "6.213151927437642",
+          "signed_error_samples_exact": "274/1",
+          "signed_error_seconds_exact": "137/22050",
+          "system_native_output_index": 6,
+          "system_output_id": "8f6e967c-00b9-578a-a283-2f78a467a783",
+          "system_time_seconds_exact": "38656/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "8f6e967c-00b9-578a-a283-2f78a467a783"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "5.442176870748299",
+          "absolute_error_seconds_exact": "4/735",
+          "gt_id": "GT-BEAT-08",
+          "gt_index": 8,
+          "gt_time_seconds_exact": "4/1",
+          "signed_error_milliseconds_decimal": "5.442176870748299",
+          "signed_error_samples_exact": "240/1",
+          "signed_error_seconds_exact": "4/735",
+          "system_native_output_index": 7,
+          "system_output_id": "ea888054-605e-5408-b3d7-e1f1025fa70f",
+          "system_time_seconds_exact": "2944/735",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ea888054-605e-5408-b3d7-e1f1025fa70f"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "4.671201814058957",
+          "absolute_error_seconds_exact": "103/22050",
+          "gt_id": "GT-BEAT-09",
+          "gt_index": 9,
+          "gt_time_seconds_exact": "9/2",
+          "signed_error_milliseconds_decimal": "4.671201814058957",
+          "signed_error_samples_exact": "206/1",
+          "signed_error_seconds_exact": "103/22050",
+          "system_native_output_index": 8,
+          "system_output_id": "a43de7a6-3578-5621-896f-1b3e0f2a05b2",
+          "system_time_seconds_exact": "49664/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "a43de7a6-3578-5621-896f-1b3e0f2a05b2"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "3.900226757369615",
+          "absolute_error_seconds_exact": "43/11025",
+          "gt_id": "GT-BEAT-10",
+          "gt_index": 10,
+          "gt_time_seconds_exact": "5/1",
+          "signed_error_milliseconds_decimal": "3.900226757369615",
+          "signed_error_samples_exact": "172/1",
+          "signed_error_seconds_exact": "43/11025",
+          "system_native_output_index": 9,
+          "system_output_id": "c97fc835-c109-5311-845f-88147b4fe016",
+          "system_time_seconds_exact": "55168/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "c97fc835-c109-5311-845f-88147b4fe016"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "3.129251700680272",
+          "absolute_error_seconds_exact": "23/7350",
+          "gt_id": "GT-BEAT-11",
+          "gt_index": 11,
+          "gt_time_seconds_exact": "11/2",
+          "signed_error_milliseconds_decimal": "3.129251700680272",
+          "signed_error_samples_exact": "138/1",
+          "signed_error_seconds_exact": "23/7350",
+          "system_native_output_index": 10,
+          "system_output_id": "93ce55d2-62b4-5bda-a072-dd2482f1772a",
+          "system_time_seconds_exact": "20224/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "93ce55d2-62b4-5bda-a072-dd2482f1772a"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "2.358276643990930",
+          "absolute_error_seconds_exact": "26/11025",
+          "gt_id": "GT-BEAT-12",
+          "gt_index": 12,
+          "gt_time_seconds_exact": "6/1",
+          "signed_error_milliseconds_decimal": "2.358276643990930",
+          "signed_error_samples_exact": "104/1",
+          "signed_error_seconds_exact": "26/11025",
+          "system_native_output_index": 11,
+          "system_output_id": "7fdc4a86-cbb5-58fd-a1da-01f99f44b7b7",
+          "system_time_seconds_exact": "66176/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "7fdc4a86-cbb5-58fd-a1da-01f99f44b7b7"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "1.587301587301587",
+          "absolute_error_seconds_exact": "1/630",
+          "gt_id": "GT-BEAT-13",
+          "gt_index": 13,
+          "gt_time_seconds_exact": "13/2",
+          "signed_error_milliseconds_decimal": "1.587301587301587",
+          "signed_error_samples_exact": "70/1",
+          "signed_error_seconds_exact": "1/630",
+          "system_native_output_index": 12,
+          "system_output_id": "f19d9c3d-5c38-5be3-8917-60f1be9caab0",
+          "system_time_seconds_exact": "2048/315",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "f19d9c3d-5c38-5be3-8917-60f1be9caab0"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.426303854875283",
+          "absolute_error_seconds_exact": "137/11025",
+          "gt_id": "GT-BEAT-14",
+          "gt_index": 14,
+          "gt_time_seconds_exact": "7/1",
+          "signed_error_milliseconds_decimal": "12.426303854875283",
+          "signed_error_samples_exact": "548/1",
+          "signed_error_seconds_exact": "137/11025",
+          "system_native_output_index": 13,
+          "system_output_id": "d8a0e078-cf82-5c75-8c0d-6168c4bdf287",
+          "system_time_seconds_exact": "77312/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "d8a0e078-cf82-5c75-8c0d-6168c4bdf287"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.655328798185941",
+          "absolute_error_seconds_exact": "257/22050",
+          "gt_id": "GT-BEAT-15",
+          "gt_index": 15,
+          "gt_time_seconds_exact": "15/2",
+          "signed_error_milliseconds_decimal": "11.655328798185941",
+          "signed_error_samples_exact": "514/1",
+          "signed_error_seconds_exact": "257/22050",
+          "system_native_output_index": 14,
+          "system_output_id": "5d202972-8fed-5424-8892-61d263c64c67",
+          "system_time_seconds_exact": "82816/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "5d202972-8fed-5424-8892-61d263c64c67"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.884353741496599",
+          "absolute_error_seconds_exact": "8/735",
+          "gt_id": "GT-BEAT-16",
+          "gt_index": 16,
+          "gt_time_seconds_exact": "8/1",
+          "signed_error_milliseconds_decimal": "10.884353741496599",
+          "signed_error_samples_exact": "480/1",
+          "signed_error_seconds_exact": "8/735",
+          "system_native_output_index": 15,
+          "system_output_id": "8e14ecd8-e17e-5666-bcc8-058e0ccf4e6f",
+          "system_time_seconds_exact": "5888/735",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "8e14ecd8-e17e-5666-bcc8-058e0ccf4e6f"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.113378684807256",
+          "absolute_error_seconds_exact": "223/22050",
+          "gt_id": "GT-BEAT-17",
+          "gt_index": 17,
+          "gt_time_seconds_exact": "17/2",
+          "signed_error_milliseconds_decimal": "10.113378684807256",
+          "signed_error_samples_exact": "446/1",
+          "signed_error_seconds_exact": "223/22050",
+          "system_native_output_index": 16,
+          "system_output_id": "484323c9-4426-554a-bfd7-01382c06e13a",
+          "system_time_seconds_exact": "93824/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "484323c9-4426-554a-bfd7-01382c06e13a"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.342403628117914",
+          "absolute_error_seconds_exact": "103/11025",
+          "gt_id": "GT-BEAT-18",
+          "gt_index": 18,
+          "gt_time_seconds_exact": "9/1",
+          "signed_error_milliseconds_decimal": "9.342403628117914",
+          "signed_error_samples_exact": "412/1",
+          "signed_error_seconds_exact": "103/11025",
+          "system_native_output_index": 17,
+          "system_output_id": "2ba2d103-127a-5bb5-94a8-d7f4815a2d67",
+          "system_time_seconds_exact": "99328/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "2ba2d103-127a-5bb5-94a8-d7f4815a2d67"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "8.571428571428571",
+          "absolute_error_seconds_exact": "3/350",
+          "gt_id": "GT-BEAT-19",
+          "gt_index": 19,
+          "gt_time_seconds_exact": "19/2",
+          "signed_error_milliseconds_decimal": "8.571428571428571",
+          "signed_error_samples_exact": "378/1",
+          "signed_error_seconds_exact": "3/350",
+          "system_native_output_index": 18,
+          "system_output_id": "f3736843-4245-52b4-9c3d-188aef6b08ca",
+          "system_time_seconds_exact": "1664/175",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "f3736843-4245-52b4-9c3d-188aef6b08ca"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "7.800453514739229",
+          "absolute_error_seconds_exact": "86/11025",
+          "gt_id": "GT-BEAT-20",
+          "gt_index": 20,
+          "gt_time_seconds_exact": "10/1",
+          "signed_error_milliseconds_decimal": "7.800453514739229",
+          "signed_error_samples_exact": "344/1",
+          "signed_error_seconds_exact": "86/11025",
+          "system_native_output_index": 19,
+          "system_output_id": "49dd2cdb-b3c5-5468-a2eb-520dca5eaa92",
+          "system_time_seconds_exact": "110336/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "49dd2cdb-b3c5-5468-a2eb-520dca5eaa92"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "7.029478458049887",
+          "absolute_error_seconds_exact": "31/4410",
+          "gt_id": "GT-BEAT-21",
+          "gt_index": 21,
+          "gt_time_seconds_exact": "21/2",
+          "signed_error_milliseconds_decimal": "7.029478458049887",
+          "signed_error_samples_exact": "310/1",
+          "signed_error_seconds_exact": "31/4410",
+          "system_native_output_index": 20,
+          "system_output_id": "ce076d02-f5db-5591-a70f-d479c15556f8",
+          "system_time_seconds_exact": "23168/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ce076d02-f5db-5591-a70f-d479c15556f8"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "6.258503401360544",
+          "absolute_error_seconds_exact": "23/3675",
+          "gt_id": "GT-BEAT-22",
+          "gt_index": 22,
+          "gt_time_seconds_exact": "11/1",
+          "signed_error_milliseconds_decimal": "6.258503401360544",
+          "signed_error_samples_exact": "276/1",
+          "signed_error_seconds_exact": "23/3675",
+          "system_native_output_index": 21,
+          "system_output_id": "d732ec53-a45d-5383-aa9a-fd370b747296",
+          "system_time_seconds_exact": "40448/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "d732ec53-a45d-5383-aa9a-fd370b747296"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "5.487528344671202",
+          "absolute_error_seconds_exact": "121/22050",
+          "gt_id": "GT-BEAT-23",
+          "gt_index": 23,
+          "gt_time_seconds_exact": "23/2",
+          "signed_error_milliseconds_decimal": "5.487528344671202",
+          "signed_error_samples_exact": "242/1",
+          "signed_error_seconds_exact": "121/22050",
+          "system_native_output_index": 22,
+          "system_output_id": "a2033c92-3b0d-5756-b33f-471050b41475",
+          "system_time_seconds_exact": "126848/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "a2033c92-3b0d-5756-b33f-471050b41475"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "4.716553287981859",
+          "absolute_error_seconds_exact": "52/11025",
+          "gt_id": "GT-BEAT-24",
+          "gt_index": 24,
+          "gt_time_seconds_exact": "12/1",
+          "signed_error_milliseconds_decimal": "4.716553287981859",
+          "signed_error_samples_exact": "208/1",
+          "signed_error_seconds_exact": "52/11025",
+          "system_native_output_index": 23,
+          "system_output_id": "f15f65e4-5e69-5de8-bc02-e1999b74d62c",
+          "system_time_seconds_exact": "132352/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "f15f65e4-5e69-5de8-bc02-e1999b74d62c"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "3.945578231292517",
+          "absolute_error_seconds_exact": "29/7350",
+          "gt_id": "GT-BEAT-25",
+          "gt_index": 25,
+          "gt_time_seconds_exact": "25/2",
+          "signed_error_milliseconds_decimal": "3.945578231292517",
+          "signed_error_samples_exact": "174/1",
+          "signed_error_seconds_exact": "29/7350",
+          "system_native_output_index": 24,
+          "system_output_id": "52c9859b-448d-504a-8920-858231a0591b",
+          "system_time_seconds_exact": "45952/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "52c9859b-448d-504a-8920-858231a0591b"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "3.174603174603175",
+          "absolute_error_seconds_exact": "1/315",
+          "gt_id": "GT-BEAT-26",
+          "gt_index": 26,
+          "gt_time_seconds_exact": "13/1",
+          "signed_error_milliseconds_decimal": "3.174603174603175",
+          "signed_error_samples_exact": "140/1",
+          "signed_error_seconds_exact": "1/315",
+          "system_native_output_index": 25,
+          "system_output_id": "3679e64f-6448-508d-8495-463592313969",
+          "system_time_seconds_exact": "4096/315",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "3679e64f-6448-508d-8495-463592313969"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "2.403628117913832",
+          "absolute_error_seconds_exact": "53/22050",
+          "gt_id": "GT-BEAT-27",
+          "gt_index": 27,
+          "gt_time_seconds_exact": "27/2",
+          "signed_error_milliseconds_decimal": "2.403628117913832",
+          "signed_error_samples_exact": "106/1",
+          "signed_error_seconds_exact": "53/22050",
+          "system_native_output_index": 26,
+          "system_output_id": "b82c33e5-f1cb-59be-9547-958576d2be1b",
+          "system_time_seconds_exact": "148864/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "b82c33e5-f1cb-59be-9547-958576d2be1b"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "1.632653061224490",
+          "absolute_error_seconds_exact": "2/1225",
+          "gt_id": "GT-BEAT-28",
+          "gt_index": 28,
+          "gt_time_seconds_exact": "14/1",
+          "signed_error_milliseconds_decimal": "1.632653061224490",
+          "signed_error_samples_exact": "72/1",
+          "signed_error_seconds_exact": "2/1225",
+          "system_native_output_index": 27,
+          "system_output_id": "78135e94-b0d7-5e43-b8c2-fa58604d8dd6",
+          "system_time_seconds_exact": "17152/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "78135e94-b0d7-5e43-b8c2-fa58604d8dd6"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.471655328798186",
+          "absolute_error_seconds_exact": "11/882",
+          "gt_id": "GT-BEAT-29",
+          "gt_index": 29,
+          "gt_time_seconds_exact": "29/2",
+          "signed_error_milliseconds_decimal": "12.471655328798186",
+          "signed_error_samples_exact": "550/1",
+          "signed_error_seconds_exact": "11/882",
+          "system_native_output_index": 28,
+          "system_output_id": "f6f25c99-7d8f-53d8-ac80-a21e02e72373",
+          "system_time_seconds_exact": "6400/441",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "f6f25c99-7d8f-53d8-ac80-a21e02e72373"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.700680272108844",
+          "absolute_error_seconds_exact": "43/3675",
+          "gt_id": "GT-BEAT-30",
+          "gt_index": 30,
+          "gt_time_seconds_exact": "15/1",
+          "signed_error_milliseconds_decimal": "11.700680272108844",
+          "signed_error_samples_exact": "516/1",
+          "signed_error_seconds_exact": "43/3675",
+          "system_native_output_index": 29,
+          "system_output_id": "9186b7d0-3af9-5410-850f-41bd155fc924",
+          "system_time_seconds_exact": "55168/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "9186b7d0-3af9-5410-850f-41bd155fc924"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.929705215419501",
+          "absolute_error_seconds_exact": "241/22050",
+          "gt_id": "GT-BEAT-31",
+          "gt_index": 31,
+          "gt_time_seconds_exact": "31/2",
+          "signed_error_milliseconds_decimal": "10.929705215419501",
+          "signed_error_samples_exact": "482/1",
+          "signed_error_seconds_exact": "241/22050",
+          "system_native_output_index": 30,
+          "system_output_id": "39547cd5-e797-52c4-af1b-56b64e798288",
+          "system_time_seconds_exact": "171008/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "39547cd5-e797-52c4-af1b-56b64e798288"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.158730158730159",
+          "absolute_error_seconds_exact": "16/1575",
+          "gt_id": "GT-BEAT-32",
+          "gt_index": 32,
+          "gt_time_seconds_exact": "16/1",
+          "signed_error_milliseconds_decimal": "10.158730158730159",
+          "signed_error_samples_exact": "448/1",
+          "signed_error_seconds_exact": "16/1575",
+          "system_native_output_index": 31,
+          "system_output_id": "a99c21da-7987-55db-b3fa-fce72de0ef89",
+          "system_time_seconds_exact": "25216/1575",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "a99c21da-7987-55db-b3fa-fce72de0ef89"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.387755102040816",
+          "absolute_error_seconds_exact": "23/2450",
+          "gt_id": "GT-BEAT-33",
+          "gt_index": 33,
+          "gt_time_seconds_exact": "33/2",
+          "signed_error_milliseconds_decimal": "9.387755102040816",
+          "signed_error_samples_exact": "414/1",
+          "signed_error_seconds_exact": "23/2450",
+          "system_native_output_index": 32,
+          "system_output_id": "70546dab-640c-554a-abfc-3cbfb691f8a8",
+          "system_time_seconds_exact": "20224/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "70546dab-640c-554a-abfc-3cbfb691f8a8"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "8.616780045351474",
+          "absolute_error_seconds_exact": "19/2205",
+          "gt_id": "GT-BEAT-34",
+          "gt_index": 34,
+          "gt_time_seconds_exact": "17/1",
+          "signed_error_milliseconds_decimal": "8.616780045351474",
+          "signed_error_samples_exact": "380/1",
+          "signed_error_seconds_exact": "19/2205",
+          "system_native_output_index": 33,
+          "system_output_id": "541a99a5-a752-5535-b880-3312e715b1a9",
+          "system_time_seconds_exact": "37504/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "541a99a5-a752-5535-b880-3312e715b1a9"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "7.845804988662132",
+          "absolute_error_seconds_exact": "173/22050",
+          "gt_id": "GT-BEAT-35",
+          "gt_index": 35,
+          "gt_time_seconds_exact": "35/2",
+          "signed_error_milliseconds_decimal": "7.845804988662132",
+          "signed_error_samples_exact": "346/1",
+          "signed_error_seconds_exact": "173/22050",
+          "system_native_output_index": 34,
+          "system_output_id": "3504cc03-c293-5cd9-b78f-5723922bc1c2",
+          "system_time_seconds_exact": "193024/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "3504cc03-c293-5cd9-b78f-5723922bc1c2"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "7.074829931972789",
+          "absolute_error_seconds_exact": "26/3675",
+          "gt_id": "GT-BEAT-36",
+          "gt_index": 36,
+          "gt_time_seconds_exact": "18/1",
+          "signed_error_milliseconds_decimal": "7.074829931972789",
+          "signed_error_samples_exact": "312/1",
+          "signed_error_seconds_exact": "26/3675",
+          "system_native_output_index": 35,
+          "system_output_id": "703cc7e3-733c-5be9-88fe-af53cd2ebfbb",
+          "system_time_seconds_exact": "66176/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "703cc7e3-733c-5be9-88fe-af53cd2ebfbb"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "6.303854875283447",
+          "absolute_error_seconds_exact": "139/22050",
+          "gt_id": "GT-BEAT-37",
+          "gt_index": 37,
+          "gt_time_seconds_exact": "37/2",
+          "signed_error_milliseconds_decimal": "6.303854875283447",
+          "signed_error_samples_exact": "278/1",
+          "signed_error_seconds_exact": "139/22050",
+          "system_native_output_index": 36,
+          "system_output_id": "2d09b608-ed2c-5e10-80e7-a0a7d5cb76fc",
+          "system_time_seconds_exact": "204032/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "2d09b608-ed2c-5e10-80e7-a0a7d5cb76fc"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "5.532879818594104",
+          "absolute_error_seconds_exact": "61/11025",
+          "gt_id": "GT-BEAT-38",
+          "gt_index": 38,
+          "gt_time_seconds_exact": "19/1",
+          "signed_error_milliseconds_decimal": "5.532879818594104",
+          "signed_error_samples_exact": "244/1",
+          "signed_error_seconds_exact": "61/11025",
+          "system_native_output_index": 37,
+          "system_output_id": "01483f00-fa47-5e7d-b8d0-50ca82f2b842",
+          "system_time_seconds_exact": "209536/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "01483f00-fa47-5e7d-b8d0-50ca82f2b842"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "4.761904761904762",
+          "absolute_error_seconds_exact": "1/210",
+          "gt_id": "GT-BEAT-39",
+          "gt_index": 39,
+          "gt_time_seconds_exact": "39/2",
+          "signed_error_milliseconds_decimal": "4.761904761904762",
+          "signed_error_samples_exact": "210/1",
+          "signed_error_seconds_exact": "1/210",
+          "system_native_output_index": 38,
+          "system_output_id": "0fff699a-10ef-5c37-9c8f-ee9909886781",
+          "system_time_seconds_exact": "2048/105",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "0fff699a-10ef-5c37-9c8f-ee9909886781"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "3.990929705215420",
+          "absolute_error_seconds_exact": "44/11025",
+          "gt_id": "GT-BEAT-40",
+          "gt_index": 40,
+          "gt_time_seconds_exact": "20/1",
+          "signed_error_milliseconds_decimal": "3.990929705215420",
+          "signed_error_samples_exact": "176/1",
+          "signed_error_seconds_exact": "44/11025",
+          "system_native_output_index": 39,
+          "system_output_id": "c18a97be-a2f5-5bb3-96c2-ef095b7640e1",
+          "system_time_seconds_exact": "220544/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "c18a97be-a2f5-5bb3-96c2-ef095b7640e1"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "3.219954648526077",
+          "absolute_error_seconds_exact": "71/22050",
+          "gt_id": "GT-BEAT-41",
+          "gt_index": 41,
+          "gt_time_seconds_exact": "41/2",
+          "signed_error_milliseconds_decimal": "3.219954648526077",
+          "signed_error_samples_exact": "142/1",
+          "signed_error_seconds_exact": "71/22050",
+          "system_native_output_index": 40,
+          "system_output_id": "371b50fe-9b25-5d3a-9da4-d6b1a763b0a6",
+          "system_time_seconds_exact": "226048/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "371b50fe-9b25-5d3a-9da4-d6b1a763b0a6"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "2.448979591836735",
+          "absolute_error_seconds_exact": "3/1225",
+          "gt_id": "GT-BEAT-42",
+          "gt_index": 42,
+          "gt_time_seconds_exact": "21/1",
+          "signed_error_milliseconds_decimal": "2.448979591836735",
+          "signed_error_samples_exact": "108/1",
+          "signed_error_seconds_exact": "3/1225",
+          "system_native_output_index": 41,
+          "system_output_id": "51456f6b-16c7-568d-bbbd-e64eacafd423",
+          "system_time_seconds_exact": "25728/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "51456f6b-16c7-568d-bbbd-e64eacafd423"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "1.678004535147392",
+          "absolute_error_seconds_exact": "37/22050",
+          "gt_id": "GT-BEAT-43",
+          "gt_index": 43,
+          "gt_time_seconds_exact": "43/2",
+          "signed_error_milliseconds_decimal": "1.678004535147392",
+          "signed_error_samples_exact": "74/1",
+          "signed_error_seconds_exact": "37/22050",
+          "system_native_output_index": 42,
+          "system_output_id": "974a49eb-2777-5671-b0be-06026ee9eb59",
+          "system_time_seconds_exact": "237056/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "974a49eb-2777-5671-b0be-06026ee9eb59"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.517006802721088",
+          "absolute_error_seconds_exact": "46/3675",
+          "gt_id": "GT-BEAT-44",
+          "gt_index": 44,
+          "gt_time_seconds_exact": "22/1",
+          "signed_error_milliseconds_decimal": "12.517006802721088",
+          "signed_error_samples_exact": "552/1",
+          "signed_error_seconds_exact": "46/3675",
+          "system_native_output_index": 43,
+          "system_output_id": "6cc3c9a3-b09b-502f-879d-61e210e332f0",
+          "system_time_seconds_exact": "80896/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "6cc3c9a3-b09b-502f-879d-61e210e332f0"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.746031746031746",
+          "absolute_error_seconds_exact": "37/3150",
+          "gt_id": "GT-BEAT-45",
+          "gt_index": 45,
+          "gt_time_seconds_exact": "45/2",
+          "signed_error_milliseconds_decimal": "11.746031746031746",
+          "signed_error_samples_exact": "518/1",
+          "signed_error_seconds_exact": "37/3150",
+          "system_native_output_index": 44,
+          "system_output_id": "4aa56a51-f9ef-5982-9839-1f5190987385",
+          "system_time_seconds_exact": "35456/1575",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "4aa56a51-f9ef-5982-9839-1f5190987385"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.975056689342404",
+          "absolute_error_seconds_exact": "121/11025",
+          "gt_id": "GT-BEAT-46",
+          "gt_index": 46,
+          "gt_time_seconds_exact": "23/1",
+          "signed_error_milliseconds_decimal": "10.975056689342404",
+          "signed_error_samples_exact": "484/1",
+          "signed_error_seconds_exact": "121/11025",
+          "system_native_output_index": 45,
+          "system_output_id": "b1678e0c-5d50-5a4b-999b-7e1cb520ccdc",
+          "system_time_seconds_exact": "253696/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "b1678e0c-5d50-5a4b-999b-7e1cb520ccdc"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.204081632653061",
+          "absolute_error_seconds_exact": "1/98",
+          "gt_id": "GT-BEAT-47",
+          "gt_index": 47,
+          "gt_time_seconds_exact": "47/2",
+          "signed_error_milliseconds_decimal": "10.204081632653061",
+          "signed_error_samples_exact": "450/1",
+          "signed_error_seconds_exact": "1/98",
+          "system_native_output_index": 46,
+          "system_output_id": "9c615120-4f06-5ebe-a044-19624293081d",
+          "system_time_seconds_exact": "1152/49",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "9c615120-4f06-5ebe-a044-19624293081d"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.433106575963719",
+          "absolute_error_seconds_exact": "104/11025",
+          "gt_id": "GT-BEAT-48",
+          "gt_index": 48,
+          "gt_time_seconds_exact": "24/1",
+          "signed_error_milliseconds_decimal": "9.433106575963719",
+          "signed_error_samples_exact": "416/1",
+          "signed_error_seconds_exact": "104/11025",
+          "system_native_output_index": 47,
+          "system_output_id": "8b5901e6-3e28-5ad0-8913-133e58984a1f",
+          "system_time_seconds_exact": "264704/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "8b5901e6-3e28-5ad0-8913-133e58984a1f"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "8.662131519274376",
+          "absolute_error_seconds_exact": "191/22050",
+          "gt_id": "GT-BEAT-49",
+          "gt_index": 49,
+          "gt_time_seconds_exact": "49/2",
+          "signed_error_milliseconds_decimal": "8.662131519274376",
+          "signed_error_samples_exact": "382/1",
+          "signed_error_seconds_exact": "191/22050",
+          "system_native_output_index": 48,
+          "system_output_id": "fbc629ec-bc22-55de-8d3e-5c0f1ac404e2",
+          "system_time_seconds_exact": "270208/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "fbc629ec-bc22-55de-8d3e-5c0f1ac404e2"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "7.891156462585034",
+          "absolute_error_seconds_exact": "29/3675",
+          "gt_id": "GT-BEAT-50",
+          "gt_index": 50,
+          "gt_time_seconds_exact": "25/1",
+          "signed_error_milliseconds_decimal": "7.891156462585034",
+          "signed_error_samples_exact": "348/1",
+          "signed_error_seconds_exact": "29/3675",
+          "system_native_output_index": 49,
+          "system_output_id": "65e3b0ec-c176-5ff2-ab7e-99701fb0a1d2",
+          "system_time_seconds_exact": "91904/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "65e3b0ec-c176-5ff2-ab7e-99701fb0a1d2"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "7.120181405895692",
+          "absolute_error_seconds_exact": "157/22050",
+          "gt_id": "GT-BEAT-51",
+          "gt_index": 51,
+          "gt_time_seconds_exact": "51/2",
+          "signed_error_milliseconds_decimal": "7.120181405895692",
+          "signed_error_samples_exact": "314/1",
+          "signed_error_seconds_exact": "157/22050",
+          "system_native_output_index": 50,
+          "system_output_id": "368ccfe2-7ac8-56cb-9ab4-4f74751dcd6d",
+          "system_time_seconds_exact": "281216/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "368ccfe2-7ac8-56cb-9ab4-4f74751dcd6d"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "6.349206349206349",
+          "absolute_error_seconds_exact": "2/315",
+          "gt_id": "GT-BEAT-52",
+          "gt_index": 52,
+          "gt_time_seconds_exact": "26/1",
+          "signed_error_milliseconds_decimal": "6.349206349206349",
+          "signed_error_samples_exact": "280/1",
+          "signed_error_seconds_exact": "2/315",
+          "system_native_output_index": 51,
+          "system_output_id": "e39c2e92-2f74-501a-8eb3-2e6212c074f2",
+          "system_time_seconds_exact": "8192/315",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "e39c2e92-2f74-501a-8eb3-2e6212c074f2"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "5.578231292517007",
+          "absolute_error_seconds_exact": "41/7350",
+          "gt_id": "GT-BEAT-53",
+          "gt_index": 53,
+          "gt_time_seconds_exact": "53/2",
+          "signed_error_milliseconds_decimal": "5.578231292517007",
+          "signed_error_samples_exact": "246/1",
+          "signed_error_seconds_exact": "41/7350",
+          "system_native_output_index": 52,
+          "system_output_id": "d4709a47-c37c-5ff9-a134-0042a7fb6bc3",
+          "system_time_seconds_exact": "97408/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "d4709a47-c37c-5ff9-a134-0042a7fb6bc3"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "4.807256235827664",
+          "absolute_error_seconds_exact": "53/11025",
+          "gt_id": "GT-BEAT-54",
+          "gt_index": 54,
+          "gt_time_seconds_exact": "27/1",
+          "signed_error_milliseconds_decimal": "4.807256235827664",
+          "signed_error_samples_exact": "212/1",
+          "signed_error_seconds_exact": "53/11025",
+          "system_native_output_index": 53,
+          "system_output_id": "0414afb3-f8b1-50d6-b96c-039930f5f81a",
+          "system_time_seconds_exact": "297728/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "0414afb3-f8b1-50d6-b96c-039930f5f81a"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "4.036281179138322",
+          "absolute_error_seconds_exact": "89/22050",
+          "gt_id": "GT-BEAT-55",
+          "gt_index": 55,
+          "gt_time_seconds_exact": "55/2",
+          "signed_error_milliseconds_decimal": "4.036281179138322",
+          "signed_error_samples_exact": "178/1",
+          "signed_error_seconds_exact": "89/22050",
+          "system_native_output_index": 54,
+          "system_output_id": "a6765db6-f727-5bad-a203-c84b7ad6fd59",
+          "system_time_seconds_exact": "303232/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "a6765db6-f727-5bad-a203-c84b7ad6fd59"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "3.265306122448980",
+          "absolute_error_seconds_exact": "4/1225",
+          "gt_id": "GT-BEAT-56",
+          "gt_index": 56,
+          "gt_time_seconds_exact": "28/1",
+          "signed_error_milliseconds_decimal": "3.265306122448980",
+          "signed_error_samples_exact": "144/1",
+          "signed_error_seconds_exact": "4/1225",
+          "system_native_output_index": 55,
+          "system_output_id": "35fa1b54-e795-5e40-bd8f-37b490f77a4a",
+          "system_time_seconds_exact": "34304/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "35fa1b54-e795-5e40-bd8f-37b490f77a4a"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "2.494331065759637",
+          "absolute_error_seconds_exact": "11/4410",
+          "gt_id": "GT-BEAT-57",
+          "gt_index": 57,
+          "gt_time_seconds_exact": "57/2",
+          "signed_error_milliseconds_decimal": "2.494331065759637",
+          "signed_error_samples_exact": "110/1",
+          "signed_error_seconds_exact": "11/4410",
+          "system_native_output_index": 56,
+          "system_output_id": "385c3a76-8570-5897-828f-3ba54112ba03",
+          "system_time_seconds_exact": "62848/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "385c3a76-8570-5897-828f-3ba54112ba03"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "1.723356009070295",
+          "absolute_error_seconds_exact": "19/11025",
+          "gt_id": "GT-BEAT-58",
+          "gt_index": 58,
+          "gt_time_seconds_exact": "29/1",
+          "signed_error_milliseconds_decimal": "1.723356009070295",
+          "signed_error_samples_exact": "76/1",
+          "signed_error_seconds_exact": "19/11025",
+          "system_native_output_index": 57,
+          "system_output_id": "bbba20e8-da08-5de9-90c7-c4bbcce5e90e",
+          "system_time_seconds_exact": "319744/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "bbba20e8-da08-5de9-90c7-c4bbcce5e90e"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.562358276643991",
+          "absolute_error_seconds_exact": "277/22050",
+          "gt_id": "GT-BEAT-59",
+          "gt_index": 59,
+          "gt_time_seconds_exact": "59/2",
+          "signed_error_milliseconds_decimal": "12.562358276643991",
+          "signed_error_samples_exact": "554/1",
+          "signed_error_seconds_exact": "277/22050",
+          "system_native_output_index": 58,
+          "system_output_id": "ddf8ee06-d378-55a3-95cf-3fbd43582bf7",
+          "system_time_seconds_exact": "325376/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "ddf8ee06-d378-55a3-95cf-3fbd43582bf7"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.791383219954649",
+          "absolute_error_seconds_exact": "26/2205",
+          "gt_id": "GT-BEAT-60",
+          "gt_index": 60,
+          "gt_time_seconds_exact": "30/1",
+          "signed_error_milliseconds_decimal": "11.791383219954649",
+          "signed_error_samples_exact": "520/1",
+          "signed_error_seconds_exact": "26/2205",
+          "system_native_output_index": 59,
+          "system_output_id": "e0a8633b-130f-5f0d-9ede-26a5e616cfce",
+          "system_time_seconds_exact": "66176/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "e0a8633b-130f-5f0d-9ede-26a5e616cfce"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.020408163265306",
+          "absolute_error_seconds_exact": "27/2450",
+          "gt_id": "GT-BEAT-61",
+          "gt_index": 61,
+          "gt_time_seconds_exact": "61/2",
+          "signed_error_milliseconds_decimal": "11.020408163265306",
+          "signed_error_samples_exact": "486/1",
+          "signed_error_seconds_exact": "27/2450",
+          "system_native_output_index": 60,
+          "system_output_id": "fdffb882-8720-591b-b19d-c03c7d6dc56d",
+          "system_time_seconds_exact": "37376/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "fdffb882-8720-591b-b19d-c03c7d6dc56d"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.249433106575964",
+          "absolute_error_seconds_exact": "113/11025",
+          "gt_id": "GT-BEAT-62",
+          "gt_index": 62,
+          "gt_time_seconds_exact": "31/1",
+          "signed_error_milliseconds_decimal": "10.249433106575964",
+          "signed_error_samples_exact": "452/1",
+          "signed_error_seconds_exact": "113/11025",
+          "system_native_output_index": 61,
+          "system_output_id": "0fc1f829-0fc2-5a67-97fd-46069c7c0a56",
+          "system_time_seconds_exact": "341888/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "0fc1f829-0fc2-5a67-97fd-46069c7c0a56"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.478458049886621",
+          "absolute_error_seconds_exact": "209/22050",
+          "gt_id": "GT-BEAT-63",
+          "gt_index": 63,
+          "gt_time_seconds_exact": "63/2",
+          "signed_error_milliseconds_decimal": "9.478458049886621",
+          "signed_error_samples_exact": "418/1",
+          "signed_error_seconds_exact": "209/22050",
+          "system_native_output_index": 62,
+          "system_output_id": "c6a6fc5b-a629-53df-9a1b-e39919dc0a1f",
+          "system_time_seconds_exact": "347392/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "c6a6fc5b-a629-53df-9a1b-e39919dc0a1f"
+          ]
+        }
+      ],
+      "missed_gt_count": 1,
+      "misses": [
+        {
+          "gt_id": "GT-BEAT-00",
+          "gt_index": 0,
+          "gt_time_seconds_exact": "0/1"
+        }
+      ],
+      "precision": {
+        "decimal": "1.000000000000000",
+        "exact": "1/1"
+      },
+      "raw_output_count": 63,
+      "raw_output_scientific_fingerprint": "1834cdabc17c7cd69cddc0ad7d848c43db67f7c084f38d28b40891e81cfc8b31",
+      "recall": {
+        "decimal": "0.984375000000000",
+        "exact": "63/64"
+      },
+      "scientific_fingerprint": "38c618575dd569b0fde7a509574940fb56ad713acddebc93ea18f7f47a25a827",
+      "signed_error_population_seconds_exact": [
+        "239/22050",
+        "37/3675",
+        "41/4410",
+        "94/11025",
+        "19/2450",
+        "11/1575",
+        "137/22050",
+        "4/735",
+        "103/22050",
+        "43/11025",
+        "23/7350",
+        "26/11025",
+        "1/630",
+        "137/11025",
+        "257/22050",
+        "8/735",
+        "223/22050",
+        "103/11025",
+        "3/350",
+        "86/11025",
+        "31/4410",
+        "23/3675",
+        "121/22050",
+        "52/11025",
+        "29/7350",
+        "1/315",
+        "53/22050",
+        "2/1225",
+        "11/882",
+        "43/3675",
+        "241/22050",
+        "16/1575",
+        "23/2450",
+        "19/2205",
+        "173/22050",
+        "26/3675",
+        "139/22050",
+        "61/11025",
+        "1/210",
+        "44/11025",
+        "71/22050",
+        "3/1225",
+        "37/22050",
+        "46/3675",
+        "37/3150",
+        "121/11025",
+        "1/98",
+        "104/11025",
+        "191/22050",
+        "29/3675",
+        "157/22050",
+        "2/315",
+        "41/7350",
+        "53/11025",
+        "89/22050",
+        "4/1225",
+        "11/4410",
+        "19/11025",
+        "277/22050",
+        "26/2205",
+        "27/2450",
+        "113/11025",
+        "209/22050"
+      ],
+      "signed_error_samples": [
+        478,
+        444,
+        410,
+        376,
+        342,
+        308,
+        274,
+        240,
+        206,
+        172,
+        138,
+        104,
+        70,
+        548,
+        514,
+        480,
+        446,
+        412,
+        378,
+        344,
+        310,
+        276,
+        242,
+        208,
+        174,
+        140,
+        106,
+        72,
+        550,
+        516,
+        482,
+        448,
+        414,
+        380,
+        346,
+        312,
+        278,
+        244,
+        210,
+        176,
+        142,
+        108,
+        74,
+        552,
+        518,
+        484,
+        450,
+        416,
+        382,
+        348,
+        314,
+        280,
+        246,
+        212,
+        178,
+        144,
+        110,
+        76,
+        554,
+        520,
+        486,
+        452,
+        418
+      ],
+      "signed_error_statistics": {
+        "count": 63,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "12.562358276643991",
+            "exact": "5540/441"
+          },
+          "mean": {
+            "decimal": "7.210164489076054",
+            "exact": "200320/27783"
+          },
+          "median_linear": {
+            "decimal": "7.120181405895692",
+            "exact": "3140/441"
+          },
+          "minimum": {
+            "decimal": "1.587301587301587",
+            "exact": "100/63"
+          },
+          "population_standard_deviation": "3.332908410425259",
+          "q1_linear": {
+            "decimal": "4.353741496598639",
+            "exact": "640/147"
+          },
+          "q3_linear": {
+            "decimal": "10.136054421768707",
+            "exact": "1490/147"
+          },
+          "rmse": "7.943220406851164"
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "seconds": {
+          "maximum": {
+            "decimal": "0.012562358276644",
+            "exact": "277/22050"
+          },
+          "mean": {
+            "decimal": "0.007210164489076",
+            "exact": "5008/694575"
+          },
+          "median_linear": {
+            "decimal": "0.007120181405896",
+            "exact": "157/22050"
+          },
+          "minimum": {
+            "decimal": "0.001587301587302",
+            "exact": "1/630"
+          },
+          "population_standard_deviation": "0.003332908410425",
+          "q1_linear": {
+            "decimal": "0.004353741496599",
+            "exact": "16/3675"
+          },
+          "q3_linear": {
+            "decimal": "0.010136054421769",
+            "exact": "149/14700"
+          },
+          "rmse": "0.007943220406851"
+        }
+      },
+      "system": "JGA",
+      "tie_count": 0
+    },
+    "LIBROSA": {
+      "absolute_error_population_seconds_exact": [
+        "37/3675",
+        "461/22050",
+        "74/3675",
+        "19/2450",
+        "41/2205",
+        "131/7350",
+        "188/11025",
+        "359/22050",
+        "19/1225",
+        "13/882",
+        "22/1575",
+        "97/7350",
+        "137/11025",
+        "257/22050",
+        "8/735",
+        "223/22050",
+        "11/525",
+        "89/4410",
+        "214/11025",
+        "137/7350",
+        "197/11025",
+        "377/22050",
+        "4/245",
+        "7/450",
+        "163/11025",
+        "103/7350",
+        "146/11025",
+        "11/882",
+        "43/3675",
+        "241/22050",
+        "16/1575",
+        "23/2450",
+        "223/11025",
+        "143/7350",
+        "206/11025",
+        "79/4410",
+        "3/175",
+        "361/22050",
+        "172/11025",
+        "109/7350",
+        "31/2205",
+        "293/22050",
+        "46/3675",
+        "37/3150",
+        "121/11025",
+        "481/22050",
+        "104/11025",
+        "149/7350",
+        "43/2205",
+        "59/3150",
+        "22/1225",
+        "379/22050",
+        "181/11025",
+        "23/1470",
+        "164/11025",
+        "311/22050",
+        "1/75",
+        "277/22050",
+        "26/2205",
+        "27/2450",
+        "113/11025",
+        "209/22050"
+      ],
+      "absolute_error_samples": [
+        444,
+        922,
+        888,
+        342,
+        820,
+        786,
+        752,
+        718,
+        684,
+        650,
+        616,
+        582,
+        548,
+        514,
+        480,
+        446,
+        924,
+        890,
+        856,
+        822,
+        788,
+        754,
+        720,
+        686,
+        652,
+        618,
+        584,
+        550,
+        516,
+        482,
+        448,
+        414,
+        892,
+        858,
+        824,
+        790,
+        756,
+        722,
+        688,
+        654,
+        620,
+        586,
+        552,
+        518,
+        484,
+        962,
+        416,
+        894,
+        860,
+        826,
+        792,
+        758,
+        724,
+        690,
+        656,
+        622,
+        588,
+        554,
+        520,
+        486,
+        452,
+        418
+      ],
+      "absolute_error_statistics": {
+        "count": 62,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "21.814058956916100",
+            "exact": "9620/441"
+          },
+          "mean": {
+            "decimal": "15.016458196181698",
+            "exact": "22810/1519"
+          },
+          "median_linear": {
+            "decimal": "14.852607709750567",
+            "exact": "6550/441"
+          },
+          "minimum": {
+            "decimal": "7.755102040816327",
+            "exact": "380/49"
+          },
+          "population_standard_deviation": "3.564163714425768",
+          "q1_linear": {
+            "decimal": "11.950113378684807",
+            "exact": "5270/441"
+          },
+          "q3_linear": {
+            "decimal": "17.902494331065760",
+            "exact": "7895/441"
+          },
+          "rmse": "15.433641169241359"
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "seconds": {
+          "maximum": {
+            "decimal": "0.021814058956916",
+            "exact": "481/22050"
+          },
+          "mean": {
+            "decimal": "0.015016458196182",
+            "exact": "2281/151900"
+          },
+          "median_linear": {
+            "decimal": "0.014852607709751",
+            "exact": "131/8820"
+          },
+          "minimum": {
+            "decimal": "0.007755102040816",
+            "exact": "19/2450"
+          },
+          "population_standard_deviation": "0.003564163714426",
+          "q1_linear": {
+            "decimal": "0.011950113378685",
+            "exact": "527/44100"
+          },
+          "q3_linear": {
+            "decimal": "0.017902494331066",
+            "exact": "1579/88200"
+          },
+          "rmse": "0.015433641169241"
+        }
+      },
+      "assignment_rule": "ORDERED_DISJOINT_CLOSED_PLUS_MINUS_ONE_EIGHTH_SECOND_NEAREST_ONE_TO_ONE/v1",
+      "exact_zero_match_count": 0,
+      "extra_output_count": 0,
+      "extras": [],
+      "f1": {
+        "decimal": "0.984126984126984",
+        "exact": "62/63"
+      },
+      "gt_count": 64,
+      "matched_count": 62,
+      "matches": [
+        {
+          "absolute_error_milliseconds_decimal": "10.068027210884354",
+          "absolute_error_seconds_exact": "37/3675",
+          "gt_id": "GT-BEAT-02",
+          "gt_index": 2,
+          "gt_time_seconds_exact": "1/1",
+          "signed_error_milliseconds_decimal": "10.068027210884354",
+          "signed_error_samples_exact": "444/1",
+          "signed_error_seconds_exact": "37/3675",
+          "system_native_output_index": 0,
+          "system_output_id": "LIBROSA-BEAT-0000",
+          "system_time_seconds_exact": "3712/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0000"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.907029478458050",
+          "absolute_error_seconds_exact": "461/22050",
+          "gt_id": "GT-BEAT-03",
+          "gt_index": 3,
+          "gt_time_seconds_exact": "3/2",
+          "signed_error_milliseconds_decimal": "20.907029478458050",
+          "signed_error_samples_exact": "922/1",
+          "signed_error_seconds_exact": "461/22050",
+          "system_native_output_index": 1,
+          "system_output_id": "LIBROSA-BEAT-0001",
+          "system_time_seconds_exact": "16768/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0001"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.136054421768707",
+          "absolute_error_seconds_exact": "74/3675",
+          "gt_id": "GT-BEAT-04",
+          "gt_index": 4,
+          "gt_time_seconds_exact": "2/1",
+          "signed_error_milliseconds_decimal": "20.136054421768707",
+          "signed_error_samples_exact": "888/1",
+          "signed_error_seconds_exact": "74/3675",
+          "system_native_output_index": 2,
+          "system_output_id": "LIBROSA-BEAT-0002",
+          "system_time_seconds_exact": "7424/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0002"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "7.755102040816327",
+          "absolute_error_seconds_exact": "19/2450",
+          "gt_id": "GT-BEAT-05",
+          "gt_index": 5,
+          "gt_time_seconds_exact": "5/2",
+          "signed_error_milliseconds_decimal": "7.755102040816327",
+          "signed_error_samples_exact": "342/1",
+          "signed_error_seconds_exact": "19/2450",
+          "system_native_output_index": 3,
+          "system_output_id": "LIBROSA-BEAT-0003",
+          "system_time_seconds_exact": "3072/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0003"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "18.594104308390023",
+          "absolute_error_seconds_exact": "41/2205",
+          "gt_id": "GT-BEAT-06",
+          "gt_index": 6,
+          "gt_time_seconds_exact": "3/1",
+          "signed_error_milliseconds_decimal": "18.594104308390023",
+          "signed_error_samples_exact": "820/1",
+          "signed_error_seconds_exact": "41/2205",
+          "system_native_output_index": 4,
+          "system_output_id": "LIBROSA-BEAT-0004",
+          "system_time_seconds_exact": "6656/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0004"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.823129251700680",
+          "absolute_error_seconds_exact": "131/7350",
+          "gt_id": "GT-BEAT-07",
+          "gt_index": 7,
+          "gt_time_seconds_exact": "7/2",
+          "signed_error_milliseconds_decimal": "17.823129251700680",
+          "signed_error_samples_exact": "786/1",
+          "signed_error_seconds_exact": "131/7350",
+          "system_native_output_index": 5,
+          "system_output_id": "LIBROSA-BEAT-0005",
+          "system_time_seconds_exact": "12928/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0005"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.052154195011338",
+          "absolute_error_seconds_exact": "188/11025",
+          "gt_id": "GT-BEAT-08",
+          "gt_index": 8,
+          "gt_time_seconds_exact": "4/1",
+          "signed_error_milliseconds_decimal": "17.052154195011338",
+          "signed_error_samples_exact": "752/1",
+          "signed_error_seconds_exact": "188/11025",
+          "system_native_output_index": 6,
+          "system_output_id": "LIBROSA-BEAT-0006",
+          "system_time_seconds_exact": "44288/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0006"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.281179138321995",
+          "absolute_error_seconds_exact": "359/22050",
+          "gt_id": "GT-BEAT-09",
+          "gt_index": 9,
+          "gt_time_seconds_exact": "9/2",
+          "signed_error_milliseconds_decimal": "16.281179138321995",
+          "signed_error_samples_exact": "718/1",
+          "signed_error_seconds_exact": "359/22050",
+          "system_native_output_index": 7,
+          "system_output_id": "LIBROSA-BEAT-0007",
+          "system_time_seconds_exact": "49792/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0007"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "15.510204081632653",
+          "absolute_error_seconds_exact": "19/1225",
+          "gt_id": "GT-BEAT-10",
+          "gt_index": 10,
+          "gt_time_seconds_exact": "5/1",
+          "signed_error_milliseconds_decimal": "15.510204081632653",
+          "signed_error_samples_exact": "684/1",
+          "signed_error_seconds_exact": "19/1225",
+          "system_native_output_index": 8,
+          "system_output_id": "LIBROSA-BEAT-0008",
+          "system_time_seconds_exact": "6144/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0008"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.739229024943311",
+          "absolute_error_seconds_exact": "13/882",
+          "gt_id": "GT-BEAT-11",
+          "gt_index": 11,
+          "gt_time_seconds_exact": "11/2",
+          "signed_error_milliseconds_decimal": "14.739229024943311",
+          "signed_error_samples_exact": "650/1",
+          "signed_error_seconds_exact": "13/882",
+          "system_native_output_index": 9,
+          "system_output_id": "LIBROSA-BEAT-0009",
+          "system_time_seconds_exact": "2432/441",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0009"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.968253968253968",
+          "absolute_error_seconds_exact": "22/1575",
+          "gt_id": "GT-BEAT-12",
+          "gt_index": 12,
+          "gt_time_seconds_exact": "6/1",
+          "signed_error_milliseconds_decimal": "13.968253968253968",
+          "signed_error_samples_exact": "616/1",
+          "signed_error_seconds_exact": "22/1575",
+          "system_native_output_index": 10,
+          "system_output_id": "LIBROSA-BEAT-0010",
+          "system_time_seconds_exact": "9472/1575",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0010"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.197278911564626",
+          "absolute_error_seconds_exact": "97/7350",
+          "gt_id": "GT-BEAT-13",
+          "gt_index": 13,
+          "gt_time_seconds_exact": "13/2",
+          "signed_error_milliseconds_decimal": "13.197278911564626",
+          "signed_error_samples_exact": "582/1",
+          "signed_error_seconds_exact": "97/7350",
+          "system_native_output_index": 11,
+          "system_output_id": "LIBROSA-BEAT-0011",
+          "system_time_seconds_exact": "23936/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0011"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.426303854875283",
+          "absolute_error_seconds_exact": "137/11025",
+          "gt_id": "GT-BEAT-14",
+          "gt_index": 14,
+          "gt_time_seconds_exact": "7/1",
+          "signed_error_milliseconds_decimal": "12.426303854875283",
+          "signed_error_samples_exact": "548/1",
+          "signed_error_seconds_exact": "137/11025",
+          "system_native_output_index": 12,
+          "system_output_id": "LIBROSA-BEAT-0012",
+          "system_time_seconds_exact": "77312/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0012"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.655328798185941",
+          "absolute_error_seconds_exact": "257/22050",
+          "gt_id": "GT-BEAT-15",
+          "gt_index": 15,
+          "gt_time_seconds_exact": "15/2",
+          "signed_error_milliseconds_decimal": "11.655328798185941",
+          "signed_error_samples_exact": "514/1",
+          "signed_error_seconds_exact": "257/22050",
+          "system_native_output_index": 13,
+          "system_output_id": "LIBROSA-BEAT-0013",
+          "system_time_seconds_exact": "82816/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0013"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.884353741496599",
+          "absolute_error_seconds_exact": "8/735",
+          "gt_id": "GT-BEAT-16",
+          "gt_index": 16,
+          "gt_time_seconds_exact": "8/1",
+          "signed_error_milliseconds_decimal": "10.884353741496599",
+          "signed_error_samples_exact": "480/1",
+          "signed_error_seconds_exact": "8/735",
+          "system_native_output_index": 14,
+          "system_output_id": "LIBROSA-BEAT-0014",
+          "system_time_seconds_exact": "5888/735",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0014"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.113378684807256",
+          "absolute_error_seconds_exact": "223/22050",
+          "gt_id": "GT-BEAT-17",
+          "gt_index": 17,
+          "gt_time_seconds_exact": "17/2",
+          "signed_error_milliseconds_decimal": "10.113378684807256",
+          "signed_error_samples_exact": "446/1",
+          "signed_error_seconds_exact": "223/22050",
+          "system_native_output_index": 15,
+          "system_output_id": "LIBROSA-BEAT-0015",
+          "system_time_seconds_exact": "93824/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0015"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.952380952380952",
+          "absolute_error_seconds_exact": "11/525",
+          "gt_id": "GT-BEAT-18",
+          "gt_index": 18,
+          "gt_time_seconds_exact": "9/1",
+          "signed_error_milliseconds_decimal": "20.952380952380952",
+          "signed_error_samples_exact": "924/1",
+          "signed_error_seconds_exact": "11/525",
+          "system_native_output_index": 16,
+          "system_output_id": "LIBROSA-BEAT-0016",
+          "system_time_seconds_exact": "4736/525",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0016"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.181405895691610",
+          "absolute_error_seconds_exact": "89/4410",
+          "gt_id": "GT-BEAT-19",
+          "gt_index": 19,
+          "gt_time_seconds_exact": "19/2",
+          "signed_error_milliseconds_decimal": "20.181405895691610",
+          "signed_error_samples_exact": "890/1",
+          "signed_error_seconds_exact": "89/4410",
+          "system_native_output_index": 17,
+          "system_output_id": "LIBROSA-BEAT-0017",
+          "system_time_seconds_exact": "20992/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0017"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "19.410430839002268",
+          "absolute_error_seconds_exact": "214/11025",
+          "gt_id": "GT-BEAT-20",
+          "gt_index": 20,
+          "gt_time_seconds_exact": "10/1",
+          "signed_error_milliseconds_decimal": "19.410430839002268",
+          "signed_error_samples_exact": "856/1",
+          "signed_error_seconds_exact": "214/11025",
+          "system_native_output_index": 18,
+          "system_output_id": "LIBROSA-BEAT-0018",
+          "system_time_seconds_exact": "110464/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0018"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "18.639455782312925",
+          "absolute_error_seconds_exact": "137/7350",
+          "gt_id": "GT-BEAT-21",
+          "gt_index": 21,
+          "gt_time_seconds_exact": "21/2",
+          "signed_error_milliseconds_decimal": "18.639455782312925",
+          "signed_error_samples_exact": "822/1",
+          "signed_error_seconds_exact": "137/7350",
+          "system_native_output_index": 19,
+          "system_output_id": "LIBROSA-BEAT-0019",
+          "system_time_seconds_exact": "38656/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0019"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.868480725623583",
+          "absolute_error_seconds_exact": "197/11025",
+          "gt_id": "GT-BEAT-22",
+          "gt_index": 22,
+          "gt_time_seconds_exact": "11/1",
+          "signed_error_milliseconds_decimal": "17.868480725623583",
+          "signed_error_samples_exact": "788/1",
+          "signed_error_seconds_exact": "197/11025",
+          "system_native_output_index": 20,
+          "system_output_id": "LIBROSA-BEAT-0020",
+          "system_time_seconds_exact": "121472/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0020"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.097505668934240",
+          "absolute_error_seconds_exact": "377/22050",
+          "gt_id": "GT-BEAT-23",
+          "gt_index": 23,
+          "gt_time_seconds_exact": "23/2",
+          "signed_error_milliseconds_decimal": "17.097505668934240",
+          "signed_error_samples_exact": "754/1",
+          "signed_error_seconds_exact": "377/22050",
+          "system_native_output_index": 21,
+          "system_output_id": "LIBROSA-BEAT-0021",
+          "system_time_seconds_exact": "126976/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0021"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.326530612244898",
+          "absolute_error_seconds_exact": "4/245",
+          "gt_id": "GT-BEAT-24",
+          "gt_index": 24,
+          "gt_time_seconds_exact": "12/1",
+          "signed_error_milliseconds_decimal": "16.326530612244898",
+          "signed_error_samples_exact": "720/1",
+          "signed_error_seconds_exact": "4/245",
+          "system_native_output_index": 22,
+          "system_output_id": "LIBROSA-BEAT-0022",
+          "system_time_seconds_exact": "2944/245",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0022"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "15.555555555555556",
+          "absolute_error_seconds_exact": "7/450",
+          "gt_id": "GT-BEAT-25",
+          "gt_index": 25,
+          "gt_time_seconds_exact": "25/2",
+          "signed_error_milliseconds_decimal": "15.555555555555556",
+          "signed_error_samples_exact": "686/1",
+          "signed_error_seconds_exact": "7/450",
+          "system_native_output_index": 23,
+          "system_output_id": "LIBROSA-BEAT-0023",
+          "system_time_seconds_exact": "2816/225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0023"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.784580498866213",
+          "absolute_error_seconds_exact": "163/11025",
+          "gt_id": "GT-BEAT-26",
+          "gt_index": 26,
+          "gt_time_seconds_exact": "13/1",
+          "signed_error_milliseconds_decimal": "14.784580498866213",
+          "signed_error_samples_exact": "652/1",
+          "signed_error_seconds_exact": "163/11025",
+          "system_native_output_index": 24,
+          "system_output_id": "LIBROSA-BEAT-0024",
+          "system_time_seconds_exact": "143488/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0024"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.013605442176871",
+          "absolute_error_seconds_exact": "103/7350",
+          "gt_id": "GT-BEAT-27",
+          "gt_index": 27,
+          "gt_time_seconds_exact": "27/2",
+          "signed_error_milliseconds_decimal": "14.013605442176871",
+          "signed_error_samples_exact": "618/1",
+          "signed_error_seconds_exact": "103/7350",
+          "system_native_output_index": 25,
+          "system_output_id": "LIBROSA-BEAT-0025",
+          "system_time_seconds_exact": "49664/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0025"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.242630385487528",
+          "absolute_error_seconds_exact": "146/11025",
+          "gt_id": "GT-BEAT-28",
+          "gt_index": 28,
+          "gt_time_seconds_exact": "14/1",
+          "signed_error_milliseconds_decimal": "13.242630385487528",
+          "signed_error_samples_exact": "584/1",
+          "signed_error_seconds_exact": "146/11025",
+          "system_native_output_index": 26,
+          "system_output_id": "LIBROSA-BEAT-0026",
+          "system_time_seconds_exact": "154496/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0026"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.471655328798186",
+          "absolute_error_seconds_exact": "11/882",
+          "gt_id": "GT-BEAT-29",
+          "gt_index": 29,
+          "gt_time_seconds_exact": "29/2",
+          "signed_error_milliseconds_decimal": "12.471655328798186",
+          "signed_error_samples_exact": "550/1",
+          "signed_error_seconds_exact": "11/882",
+          "system_native_output_index": 27,
+          "system_output_id": "LIBROSA-BEAT-0027",
+          "system_time_seconds_exact": "6400/441",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0027"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.700680272108844",
+          "absolute_error_seconds_exact": "43/3675",
+          "gt_id": "GT-BEAT-30",
+          "gt_index": 30,
+          "gt_time_seconds_exact": "15/1",
+          "signed_error_milliseconds_decimal": "11.700680272108844",
+          "signed_error_samples_exact": "516/1",
+          "signed_error_seconds_exact": "43/3675",
+          "system_native_output_index": 28,
+          "system_output_id": "LIBROSA-BEAT-0028",
+          "system_time_seconds_exact": "55168/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0028"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.929705215419501",
+          "absolute_error_seconds_exact": "241/22050",
+          "gt_id": "GT-BEAT-31",
+          "gt_index": 31,
+          "gt_time_seconds_exact": "31/2",
+          "signed_error_milliseconds_decimal": "10.929705215419501",
+          "signed_error_samples_exact": "482/1",
+          "signed_error_seconds_exact": "241/22050",
+          "system_native_output_index": 29,
+          "system_output_id": "LIBROSA-BEAT-0029",
+          "system_time_seconds_exact": "171008/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0029"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.158730158730159",
+          "absolute_error_seconds_exact": "16/1575",
+          "gt_id": "GT-BEAT-32",
+          "gt_index": 32,
+          "gt_time_seconds_exact": "16/1",
+          "signed_error_milliseconds_decimal": "10.158730158730159",
+          "signed_error_samples_exact": "448/1",
+          "signed_error_seconds_exact": "16/1575",
+          "system_native_output_index": 30,
+          "system_output_id": "LIBROSA-BEAT-0030",
+          "system_time_seconds_exact": "25216/1575",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0030"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.387755102040816",
+          "absolute_error_seconds_exact": "23/2450",
+          "gt_id": "GT-BEAT-33",
+          "gt_index": 33,
+          "gt_time_seconds_exact": "33/2",
+          "signed_error_milliseconds_decimal": "9.387755102040816",
+          "signed_error_samples_exact": "414/1",
+          "signed_error_seconds_exact": "23/2450",
+          "system_native_output_index": 31,
+          "system_output_id": "LIBROSA-BEAT-0031",
+          "system_time_seconds_exact": "20224/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0031"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.226757369614512",
+          "absolute_error_seconds_exact": "223/11025",
+          "gt_id": "GT-BEAT-34",
+          "gt_index": 34,
+          "gt_time_seconds_exact": "17/1",
+          "signed_error_milliseconds_decimal": "20.226757369614512",
+          "signed_error_samples_exact": "892/1",
+          "signed_error_seconds_exact": "223/11025",
+          "system_native_output_index": 32,
+          "system_output_id": "LIBROSA-BEAT-0032",
+          "system_time_seconds_exact": "187648/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0032"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "19.455782312925170",
+          "absolute_error_seconds_exact": "143/7350",
+          "gt_id": "GT-BEAT-35",
+          "gt_index": 35,
+          "gt_time_seconds_exact": "35/2",
+          "signed_error_milliseconds_decimal": "19.455782312925170",
+          "signed_error_samples_exact": "858/1",
+          "signed_error_seconds_exact": "143/7350",
+          "system_native_output_index": 33,
+          "system_output_id": "LIBROSA-BEAT-0033",
+          "system_time_seconds_exact": "64384/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0033"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "18.684807256235828",
+          "absolute_error_seconds_exact": "206/11025",
+          "gt_id": "GT-BEAT-36",
+          "gt_index": 36,
+          "gt_time_seconds_exact": "18/1",
+          "signed_error_milliseconds_decimal": "18.684807256235828",
+          "signed_error_samples_exact": "824/1",
+          "signed_error_seconds_exact": "206/11025",
+          "system_native_output_index": 34,
+          "system_output_id": "LIBROSA-BEAT-0034",
+          "system_time_seconds_exact": "198656/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0034"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.913832199546485",
+          "absolute_error_seconds_exact": "79/4410",
+          "gt_id": "GT-BEAT-37",
+          "gt_index": 37,
+          "gt_time_seconds_exact": "37/2",
+          "signed_error_milliseconds_decimal": "17.913832199546485",
+          "signed_error_samples_exact": "790/1",
+          "signed_error_seconds_exact": "79/4410",
+          "system_native_output_index": 35,
+          "system_output_id": "LIBROSA-BEAT-0035",
+          "system_time_seconds_exact": "40832/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0035"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.142857142857143",
+          "absolute_error_seconds_exact": "3/175",
+          "gt_id": "GT-BEAT-38",
+          "gt_index": 38,
+          "gt_time_seconds_exact": "19/1",
+          "signed_error_milliseconds_decimal": "17.142857142857143",
+          "signed_error_samples_exact": "756/1",
+          "signed_error_seconds_exact": "3/175",
+          "system_native_output_index": 36,
+          "system_output_id": "LIBROSA-BEAT-0036",
+          "system_time_seconds_exact": "3328/175",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0036"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.371882086167800",
+          "absolute_error_seconds_exact": "361/22050",
+          "gt_id": "GT-BEAT-39",
+          "gt_index": 39,
+          "gt_time_seconds_exact": "39/2",
+          "signed_error_milliseconds_decimal": "16.371882086167800",
+          "signed_error_samples_exact": "722/1",
+          "signed_error_seconds_exact": "361/22050",
+          "system_native_output_index": 37,
+          "system_output_id": "LIBROSA-BEAT-0037",
+          "system_time_seconds_exact": "215168/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0037"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "15.600907029478458",
+          "absolute_error_seconds_exact": "172/11025",
+          "gt_id": "GT-BEAT-40",
+          "gt_index": 40,
+          "gt_time_seconds_exact": "20/1",
+          "signed_error_milliseconds_decimal": "15.600907029478458",
+          "signed_error_samples_exact": "688/1",
+          "signed_error_seconds_exact": "172/11025",
+          "system_native_output_index": 38,
+          "system_output_id": "LIBROSA-BEAT-0038",
+          "system_time_seconds_exact": "220672/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0038"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.829931972789116",
+          "absolute_error_seconds_exact": "109/7350",
+          "gt_id": "GT-BEAT-41",
+          "gt_index": 41,
+          "gt_time_seconds_exact": "41/2",
+          "signed_error_milliseconds_decimal": "14.829931972789116",
+          "signed_error_samples_exact": "654/1",
+          "signed_error_seconds_exact": "109/7350",
+          "system_native_output_index": 39,
+          "system_output_id": "LIBROSA-BEAT-0039",
+          "system_time_seconds_exact": "75392/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0039"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.058956916099773",
+          "absolute_error_seconds_exact": "31/2205",
+          "gt_id": "GT-BEAT-42",
+          "gt_index": 42,
+          "gt_time_seconds_exact": "21/1",
+          "signed_error_milliseconds_decimal": "14.058956916099773",
+          "signed_error_samples_exact": "620/1",
+          "signed_error_seconds_exact": "31/2205",
+          "system_native_output_index": 40,
+          "system_output_id": "LIBROSA-BEAT-0040",
+          "system_time_seconds_exact": "46336/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0040"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.287981859410431",
+          "absolute_error_seconds_exact": "293/22050",
+          "gt_id": "GT-BEAT-43",
+          "gt_index": 43,
+          "gt_time_seconds_exact": "43/2",
+          "signed_error_milliseconds_decimal": "13.287981859410431",
+          "signed_error_samples_exact": "586/1",
+          "signed_error_seconds_exact": "293/22050",
+          "system_native_output_index": 41,
+          "system_output_id": "LIBROSA-BEAT-0041",
+          "system_time_seconds_exact": "237184/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0041"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.517006802721088",
+          "absolute_error_seconds_exact": "46/3675",
+          "gt_id": "GT-BEAT-44",
+          "gt_index": 44,
+          "gt_time_seconds_exact": "22/1",
+          "signed_error_milliseconds_decimal": "12.517006802721088",
+          "signed_error_samples_exact": "552/1",
+          "signed_error_seconds_exact": "46/3675",
+          "system_native_output_index": 42,
+          "system_output_id": "LIBROSA-BEAT-0042",
+          "system_time_seconds_exact": "80896/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0042"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.746031746031746",
+          "absolute_error_seconds_exact": "37/3150",
+          "gt_id": "GT-BEAT-45",
+          "gt_index": 45,
+          "gt_time_seconds_exact": "45/2",
+          "signed_error_milliseconds_decimal": "11.746031746031746",
+          "signed_error_samples_exact": "518/1",
+          "signed_error_seconds_exact": "37/3150",
+          "system_native_output_index": 43,
+          "system_output_id": "LIBROSA-BEAT-0043",
+          "system_time_seconds_exact": "35456/1575",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0043"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.975056689342404",
+          "absolute_error_seconds_exact": "121/11025",
+          "gt_id": "GT-BEAT-46",
+          "gt_index": 46,
+          "gt_time_seconds_exact": "23/1",
+          "signed_error_milliseconds_decimal": "10.975056689342404",
+          "signed_error_samples_exact": "484/1",
+          "signed_error_seconds_exact": "121/11025",
+          "system_native_output_index": 44,
+          "system_output_id": "LIBROSA-BEAT-0044",
+          "system_time_seconds_exact": "253696/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0044"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "21.814058956916100",
+          "absolute_error_seconds_exact": "481/22050",
+          "gt_id": "GT-BEAT-47",
+          "gt_index": 47,
+          "gt_time_seconds_exact": "47/2",
+          "signed_error_milliseconds_decimal": "21.814058956916100",
+          "signed_error_samples_exact": "962/1",
+          "signed_error_seconds_exact": "481/22050",
+          "system_native_output_index": 45,
+          "system_output_id": "LIBROSA-BEAT-0045",
+          "system_time_seconds_exact": "259328/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0045"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.433106575963719",
+          "absolute_error_seconds_exact": "104/11025",
+          "gt_id": "GT-BEAT-48",
+          "gt_index": 48,
+          "gt_time_seconds_exact": "24/1",
+          "signed_error_milliseconds_decimal": "9.433106575963719",
+          "signed_error_samples_exact": "416/1",
+          "signed_error_seconds_exact": "104/11025",
+          "system_native_output_index": 46,
+          "system_output_id": "LIBROSA-BEAT-0046",
+          "system_time_seconds_exact": "264704/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0046"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "20.272108843537415",
+          "absolute_error_seconds_exact": "149/7350",
+          "gt_id": "GT-BEAT-49",
+          "gt_index": 49,
+          "gt_time_seconds_exact": "49/2",
+          "signed_error_milliseconds_decimal": "20.272108843537415",
+          "signed_error_samples_exact": "894/1",
+          "signed_error_seconds_exact": "149/7350",
+          "system_native_output_index": 47,
+          "system_output_id": "LIBROSA-BEAT-0047",
+          "system_time_seconds_exact": "90112/3675",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0047"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "19.501133786848073",
+          "absolute_error_seconds_exact": "43/2205",
+          "gt_id": "GT-BEAT-50",
+          "gt_index": 50,
+          "gt_time_seconds_exact": "25/1",
+          "signed_error_milliseconds_decimal": "19.501133786848073",
+          "signed_error_samples_exact": "860/1",
+          "signed_error_seconds_exact": "43/2205",
+          "system_native_output_index": 48,
+          "system_output_id": "LIBROSA-BEAT-0048",
+          "system_time_seconds_exact": "55168/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0048"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "18.730158730158730",
+          "absolute_error_seconds_exact": "59/3150",
+          "gt_id": "GT-BEAT-51",
+          "gt_index": 51,
+          "gt_time_seconds_exact": "51/2",
+          "signed_error_milliseconds_decimal": "18.730158730158730",
+          "signed_error_samples_exact": "826/1",
+          "signed_error_seconds_exact": "59/3150",
+          "system_native_output_index": 49,
+          "system_output_id": "LIBROSA-BEAT-0049",
+          "system_time_seconds_exact": "40192/1575",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0049"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.959183673469388",
+          "absolute_error_seconds_exact": "22/1225",
+          "gt_id": "GT-BEAT-52",
+          "gt_index": 52,
+          "gt_time_seconds_exact": "26/1",
+          "signed_error_milliseconds_decimal": "17.959183673469388",
+          "signed_error_samples_exact": "792/1",
+          "signed_error_seconds_exact": "22/1225",
+          "system_native_output_index": 50,
+          "system_output_id": "LIBROSA-BEAT-0050",
+          "system_time_seconds_exact": "31872/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0050"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "17.188208616780045",
+          "absolute_error_seconds_exact": "379/22050",
+          "gt_id": "GT-BEAT-53",
+          "gt_index": 53,
+          "gt_time_seconds_exact": "53/2",
+          "signed_error_milliseconds_decimal": "17.188208616780045",
+          "signed_error_samples_exact": "758/1",
+          "signed_error_seconds_exact": "379/22050",
+          "system_native_output_index": 51,
+          "system_output_id": "LIBROSA-BEAT-0051",
+          "system_time_seconds_exact": "292352/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0051"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "16.417233560090703",
+          "absolute_error_seconds_exact": "181/11025",
+          "gt_id": "GT-BEAT-54",
+          "gt_index": 54,
+          "gt_time_seconds_exact": "27/1",
+          "signed_error_milliseconds_decimal": "16.417233560090703",
+          "signed_error_samples_exact": "724/1",
+          "signed_error_seconds_exact": "181/11025",
+          "system_native_output_index": 52,
+          "system_output_id": "LIBROSA-BEAT-0052",
+          "system_time_seconds_exact": "297856/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0052"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "15.646258503401361",
+          "absolute_error_seconds_exact": "23/1470",
+          "gt_id": "GT-BEAT-55",
+          "gt_index": 55,
+          "gt_time_seconds_exact": "55/2",
+          "signed_error_milliseconds_decimal": "15.646258503401361",
+          "signed_error_samples_exact": "690/1",
+          "signed_error_seconds_exact": "23/1470",
+          "system_native_output_index": 53,
+          "system_output_id": "LIBROSA-BEAT-0053",
+          "system_time_seconds_exact": "20224/735",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0053"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.875283446712018",
+          "absolute_error_seconds_exact": "164/11025",
+          "gt_id": "GT-BEAT-56",
+          "gt_index": 56,
+          "gt_time_seconds_exact": "28/1",
+          "signed_error_milliseconds_decimal": "14.875283446712018",
+          "signed_error_samples_exact": "656/1",
+          "signed_error_seconds_exact": "164/11025",
+          "system_native_output_index": 54,
+          "system_output_id": "LIBROSA-BEAT-0054",
+          "system_time_seconds_exact": "308864/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0054"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "14.104308390022676",
+          "absolute_error_seconds_exact": "311/22050",
+          "gt_id": "GT-BEAT-57",
+          "gt_index": 57,
+          "gt_time_seconds_exact": "57/2",
+          "signed_error_milliseconds_decimal": "14.104308390022676",
+          "signed_error_samples_exact": "622/1",
+          "signed_error_seconds_exact": "311/22050",
+          "system_native_output_index": 55,
+          "system_output_id": "LIBROSA-BEAT-0055",
+          "system_time_seconds_exact": "314368/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0055"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "13.333333333333333",
+          "absolute_error_seconds_exact": "1/75",
+          "gt_id": "GT-BEAT-58",
+          "gt_index": 58,
+          "gt_time_seconds_exact": "29/1",
+          "signed_error_milliseconds_decimal": "13.333333333333333",
+          "signed_error_samples_exact": "588/1",
+          "signed_error_seconds_exact": "1/75",
+          "system_native_output_index": 56,
+          "system_output_id": "LIBROSA-BEAT-0056",
+          "system_time_seconds_exact": "2176/75",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0056"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "12.562358276643991",
+          "absolute_error_seconds_exact": "277/22050",
+          "gt_id": "GT-BEAT-59",
+          "gt_index": 59,
+          "gt_time_seconds_exact": "59/2",
+          "signed_error_milliseconds_decimal": "12.562358276643991",
+          "signed_error_samples_exact": "554/1",
+          "signed_error_seconds_exact": "277/22050",
+          "system_native_output_index": 57,
+          "system_output_id": "LIBROSA-BEAT-0057",
+          "system_time_seconds_exact": "325376/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0057"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.791383219954649",
+          "absolute_error_seconds_exact": "26/2205",
+          "gt_id": "GT-BEAT-60",
+          "gt_index": 60,
+          "gt_time_seconds_exact": "30/1",
+          "signed_error_milliseconds_decimal": "11.791383219954649",
+          "signed_error_samples_exact": "520/1",
+          "signed_error_seconds_exact": "26/2205",
+          "system_native_output_index": 58,
+          "system_output_id": "LIBROSA-BEAT-0058",
+          "system_time_seconds_exact": "66176/2205",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0058"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "11.020408163265306",
+          "absolute_error_seconds_exact": "27/2450",
+          "gt_id": "GT-BEAT-61",
+          "gt_index": 61,
+          "gt_time_seconds_exact": "61/2",
+          "signed_error_milliseconds_decimal": "11.020408163265306",
+          "signed_error_samples_exact": "486/1",
+          "signed_error_seconds_exact": "27/2450",
+          "system_native_output_index": 59,
+          "system_output_id": "LIBROSA-BEAT-0059",
+          "system_time_seconds_exact": "37376/1225",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0059"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "10.249433106575964",
+          "absolute_error_seconds_exact": "113/11025",
+          "gt_id": "GT-BEAT-62",
+          "gt_index": 62,
+          "gt_time_seconds_exact": "31/1",
+          "signed_error_milliseconds_decimal": "10.249433106575964",
+          "signed_error_samples_exact": "452/1",
+          "signed_error_seconds_exact": "113/11025",
+          "system_native_output_index": 60,
+          "system_output_id": "LIBROSA-BEAT-0060",
+          "system_time_seconds_exact": "341888/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0060"
+          ]
+        },
+        {
+          "absolute_error_milliseconds_decimal": "9.478458049886621",
+          "absolute_error_seconds_exact": "209/22050",
+          "gt_id": "GT-BEAT-63",
+          "gt_index": 63,
+          "gt_time_seconds_exact": "63/2",
+          "signed_error_milliseconds_decimal": "9.478458049886621",
+          "signed_error_samples_exact": "418/1",
+          "signed_error_seconds_exact": "209/22050",
+          "system_native_output_index": 61,
+          "system_output_id": "LIBROSA-BEAT-0061",
+          "system_time_seconds_exact": "347392/11025",
+          "tie": false,
+          "tie_resolution": null,
+          "tied_candidate_output_ids": [
+            "LIBROSA-BEAT-0061"
+          ]
+        }
+      ],
+      "missed_gt_count": 2,
+      "misses": [
+        {
+          "gt_id": "GT-BEAT-00",
+          "gt_index": 0,
+          "gt_time_seconds_exact": "0/1"
+        },
+        {
+          "gt_id": "GT-BEAT-01",
+          "gt_index": 1,
+          "gt_time_seconds_exact": "1/2"
+        }
+      ],
+      "precision": {
+        "decimal": "1.000000000000000",
+        "exact": "1/1"
+      },
+      "raw_output_count": 62,
+      "raw_output_scientific_fingerprint": "858db5a981cb0b121b5362dc9dc4f6e0b0b18d94fe1c59ae85ec3c2ef0a02f07",
+      "recall": {
+        "decimal": "0.968750000000000",
+        "exact": "31/32"
+      },
+      "scientific_fingerprint": "ebd5c1619df87de4eed87b392abccbedde9a71291a1df81c5065a0003af7a9af",
+      "signed_error_population_seconds_exact": [
+        "37/3675",
+        "461/22050",
+        "74/3675",
+        "19/2450",
+        "41/2205",
+        "131/7350",
+        "188/11025",
+        "359/22050",
+        "19/1225",
+        "13/882",
+        "22/1575",
+        "97/7350",
+        "137/11025",
+        "257/22050",
+        "8/735",
+        "223/22050",
+        "11/525",
+        "89/4410",
+        "214/11025",
+        "137/7350",
+        "197/11025",
+        "377/22050",
+        "4/245",
+        "7/450",
+        "163/11025",
+        "103/7350",
+        "146/11025",
+        "11/882",
+        "43/3675",
+        "241/22050",
+        "16/1575",
+        "23/2450",
+        "223/11025",
+        "143/7350",
+        "206/11025",
+        "79/4410",
+        "3/175",
+        "361/22050",
+        "172/11025",
+        "109/7350",
+        "31/2205",
+        "293/22050",
+        "46/3675",
+        "37/3150",
+        "121/11025",
+        "481/22050",
+        "104/11025",
+        "149/7350",
+        "43/2205",
+        "59/3150",
+        "22/1225",
+        "379/22050",
+        "181/11025",
+        "23/1470",
+        "164/11025",
+        "311/22050",
+        "1/75",
+        "277/22050",
+        "26/2205",
+        "27/2450",
+        "113/11025",
+        "209/22050"
+      ],
+      "signed_error_samples": [
+        444,
+        922,
+        888,
+        342,
+        820,
+        786,
+        752,
+        718,
+        684,
+        650,
+        616,
+        582,
+        548,
+        514,
+        480,
+        446,
+        924,
+        890,
+        856,
+        822,
+        788,
+        754,
+        720,
+        686,
+        652,
+        618,
+        584,
+        550,
+        516,
+        482,
+        448,
+        414,
+        892,
+        858,
+        824,
+        790,
+        756,
+        722,
+        688,
+        654,
+        620,
+        586,
+        552,
+        518,
+        484,
+        962,
+        416,
+        894,
+        860,
+        826,
+        792,
+        758,
+        724,
+        690,
+        656,
+        622,
+        588,
+        554,
+        520,
+        486,
+        452,
+        418
+      ],
+      "signed_error_statistics": {
+        "count": 62,
+        "milliseconds": {
+          "maximum": {
+            "decimal": "21.814058956916100",
+            "exact": "9620/441"
+          },
+          "mean": {
+            "decimal": "15.016458196181698",
+            "exact": "22810/1519"
+          },
+          "median_linear": {
+            "decimal": "14.852607709750567",
+            "exact": "6550/441"
+          },
+          "minimum": {
+            "decimal": "7.755102040816327",
+            "exact": "380/49"
+          },
+          "population_standard_deviation": "3.564163714425768",
+          "q1_linear": {
+            "decimal": "11.950113378684807",
+            "exact": "5270/441"
+          },
+          "q3_linear": {
+            "decimal": "17.902494331065760",
+            "exact": "7895/441"
+          },
+          "rmse": "15.433641169241359"
+        },
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "seconds": {
+          "maximum": {
+            "decimal": "0.021814058956916",
+            "exact": "481/22050"
+          },
+          "mean": {
+            "decimal": "0.015016458196182",
+            "exact": "2281/151900"
+          },
+          "median_linear": {
+            "decimal": "0.014852607709751",
+            "exact": "131/8820"
+          },
+          "minimum": {
+            "decimal": "0.007755102040816",
+            "exact": "19/2450"
+          },
+          "population_standard_deviation": "0.003564163714426",
+          "q1_linear": {
+            "decimal": "0.011950113378685",
+            "exact": "527/44100"
+          },
+          "q3_linear": {
+            "decimal": "0.017902494331066",
+            "exact": "1579/88200"
+          },
+          "rmse": "0.015433641169241"
+        }
+      },
+      "system": "LIBROSA",
+      "tie_count": 0
+    }
+  }
+}

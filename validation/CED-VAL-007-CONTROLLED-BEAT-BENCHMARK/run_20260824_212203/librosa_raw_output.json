@@ -1,0 +1,536 @@
+{
+  "configuration": {
+    "api": "librosa.beat.beat_track",
+    "bpm": null,
+    "hop_length": 512,
+    "onset_envelope": null,
+    "prior": null,
+    "sparse": true,
+    "sr": 44100,
+    "start_bpm": "OMITTED_LIBRARY_DEFAULT_NOT_GROUND_TRUTH_INPUT",
+    "tightness": 100,
+    "trim": true,
+    "units": "frames"
+  },
+  "environment": {
+    "numpy": "2.4.6",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "epistemic_status": "BEAT_TRACKER_OUTPUT",
+  "ground_truth_accessed": false,
+  "input_mono_raw_bytes_sha256": "d39065b6d0fd357679c70045123447ed486bfca498e738b26398a7ab9fa0518a",
+  "known_bpm_supplied": false,
+  "outputs": [
+    {
+      "beat_frame": 87,
+      "beat_sample": 44544,
+      "beat_seconds": 1.0100680272108844,
+      "beat_seconds_binary64_hex": "0x1.0293d1779b21fp+0",
+      "native_output_index": 0,
+      "output_id": "LIBROSA-BEAT-0000"
+    },
+    {
+      "beat_frame": 131,
+      "beat_sample": 67072,
+      "beat_seconds": 1.5209070294784581,
+      "beat_seconds_binary64_hex": "0x1.855a29bfddd20p+0",
+      "native_output_index": 1,
+      "output_id": "LIBROSA-BEAT-0001"
+    },
+    {
+      "beat_frame": 174,
+      "beat_sample": 89088,
+      "beat_seconds": 2.020136054421769,
+      "beat_seconds_binary64_hex": "0x1.0293d1779b21fp+1",
+      "native_output_index": 2,
+      "output_id": "LIBROSA-BEAT-0002"
+    },
+    {
+      "beat_frame": 216,
+      "beat_sample": 110592,
+      "beat_seconds": 2.507755102040816,
+      "beat_seconds_binary64_hex": "0x1.40fe1e82d23bcp+1",
+      "native_output_index": 3,
+      "output_id": "LIBROSA-BEAT-0003"
+    },
+    {
+      "beat_frame": 260,
+      "beat_sample": 133120,
+      "beat_seconds": 3.01859410430839,
+      "beat_seconds_binary64_hex": "0x1.82614aa6f393dp+1",
+      "native_output_index": 4,
+      "output_id": "LIBROSA-BEAT-0004"
+    },
+    {
+      "beat_frame": 303,
+      "beat_sample": 155136,
+      "beat_seconds": 3.517823129251701,
+      "beat_seconds_binary64_hex": "0x1.c248073e9fcccp+1",
+      "native_output_index": 5,
+      "output_id": "LIBROSA-BEAT-0005"
+    },
+    {
+      "beat_frame": 346,
+      "beat_sample": 177152,
+      "beat_seconds": 4.017052154195011,
+      "beat_seconds_binary64_hex": "0x1.011761eb2602dp+2",
+      "native_output_index": 6,
+      "output_id": "LIBROSA-BEAT-0006"
+    },
+    {
+      "beat_frame": 389,
+      "beat_sample": 199168,
+      "beat_seconds": 4.516281179138322,
+      "beat_seconds_binary64_hex": "0x1.210ac036fc1f5p+2",
+      "native_output_index": 7,
+      "output_id": "LIBROSA-BEAT-0007"
+    },
+    {
+      "beat_frame": 432,
+      "beat_sample": 221184,
+      "beat_seconds": 5.015510204081632,
+      "beat_seconds_binary64_hex": "0x1.40fe1e82d23bcp+2",
+      "native_output_index": 8,
+      "output_id": "LIBROSA-BEAT-0008"
+    },
+    {
+      "beat_frame": 475,
+      "beat_sample": 243200,
+      "beat_seconds": 5.5147392290249435,
+      "beat_seconds_binary64_hex": "0x1.60f17ccea8584p+2",
+      "native_output_index": 9,
+      "output_id": "LIBROSA-BEAT-0009"
+    },
+    {
+      "beat_frame": 518,
+      "beat_sample": 265216,
+      "beat_seconds": 6.013968253968254,
+      "beat_seconds_binary64_hex": "0x1.80e4db1a7e74bp+2",
+      "native_output_index": 10,
+      "output_id": "LIBROSA-BEAT-0010"
+    },
+    {
+      "beat_frame": 561,
+      "beat_sample": 287232,
+      "beat_seconds": 6.513197278911565,
+      "beat_seconds_binary64_hex": "0x1.a0d8396654913p+2",
+      "native_output_index": 11,
+      "output_id": "LIBROSA-BEAT-0011"
+    },
+    {
+      "beat_frame": 604,
+      "beat_sample": 309248,
+      "beat_seconds": 7.012426303854875,
+      "beat_seconds_binary64_hex": "0x1.c0cb97b22aadap+2",
+      "native_output_index": 12,
+      "output_id": "LIBROSA-BEAT-0012"
+    },
+    {
+      "beat_frame": 647,
+      "beat_sample": 331264,
+      "beat_seconds": 7.511655328798186,
+      "beat_seconds_binary64_hex": "0x1.e0bef5fe00ca2p+2",
+      "native_output_index": 13,
+      "output_id": "LIBROSA-BEAT-0013"
+    },
+    {
+      "beat_frame": 690,
+      "beat_sample": 353280,
+      "beat_seconds": 8.010884353741497,
+      "beat_seconds_binary64_hex": "0x1.00592a24eb735p+3",
+      "native_output_index": 14,
+      "output_id": "LIBROSA-BEAT-0014"
+    },
+    {
+      "beat_frame": 733,
+      "beat_sample": 375296,
+      "beat_seconds": 8.510113378684807,
+      "beat_seconds_binary64_hex": "0x1.1052d94ad6818p+3",
+      "native_output_index": 15,
+      "output_id": "LIBROSA-BEAT-0015"
+    },
+    {
+      "beat_frame": 777,
+      "beat_sample": 397824,
+      "beat_seconds": 9.02095238095238,
+      "beat_seconds_binary64_hex": "0x1.20aba453ded78p+3",
+      "native_output_index": 16,
+      "output_id": "LIBROSA-BEAT-0016"
+    },
+    {
+      "beat_frame": 820,
+      "beat_sample": 419840,
+      "beat_seconds": 9.520181405895691,
+      "beat_seconds_binary64_hex": "0x1.30a55379c9e5cp+3",
+      "native_output_index": 17,
+      "output_id": "LIBROSA-BEAT-0017"
+    },
+    {
+      "beat_frame": 863,
+      "beat_sample": 441856,
+      "beat_seconds": 10.019410430839002,
+      "beat_seconds_binary64_hex": "0x1.409f029fb4f40p+3",
+      "native_output_index": 18,
+      "output_id": "LIBROSA-BEAT-0018"
+    },
+    {
+      "beat_frame": 906,
+      "beat_sample": 463872,
+      "beat_seconds": 10.518639455782314,
+      "beat_seconds_binary64_hex": "0x1.5098b1c5a0024p+3",
+      "native_output_index": 19,
+      "output_id": "LIBROSA-BEAT-0019"
+    },
+    {
+      "beat_frame": 949,
+      "beat_sample": 485888,
+      "beat_seconds": 11.017868480725623,
+      "beat_seconds_binary64_hex": "0x1.609260eb8b107p+3",
+      "native_output_index": 20,
+      "output_id": "LIBROSA-BEAT-0020"
+    },
+    {
+      "beat_frame": 992,
+      "beat_sample": 507904,
+      "beat_seconds": 11.517097505668934,
+      "beat_seconds_binary64_hex": "0x1.708c1011761ebp+3",
+      "native_output_index": 21,
+      "output_id": "LIBROSA-BEAT-0021"
+    },
+    {
+      "beat_frame": 1035,
+      "beat_sample": 529920,
+      "beat_seconds": 12.016326530612245,
+      "beat_seconds_binary64_hex": "0x1.8085bf37612cfp+3",
+      "native_output_index": 22,
+      "output_id": "LIBROSA-BEAT-0022"
+    },
+    {
+      "beat_frame": 1078,
+      "beat_sample": 551936,
+      "beat_seconds": 12.515555555555556,
+      "beat_seconds_binary64_hex": "0x1.907f6e5d4c3b3p+3",
+      "native_output_index": 23,
+      "output_id": "LIBROSA-BEAT-0023"
+    },
+    {
+      "beat_frame": 1121,
+      "beat_sample": 573952,
+      "beat_seconds": 13.014784580498866,
+      "beat_seconds_binary64_hex": "0x1.a0791d8337496p+3",
+      "native_output_index": 24,
+      "output_id": "LIBROSA-BEAT-0024"
+    },
+    {
+      "beat_frame": 1164,
+      "beat_sample": 595968,
+      "beat_seconds": 13.514013605442177,
+      "beat_seconds_binary64_hex": "0x1.b072cca92257ap+3",
+      "native_output_index": 25,
+      "output_id": "LIBROSA-BEAT-0025"
+    },
+    {
+      "beat_frame": 1207,
+      "beat_sample": 617984,
+      "beat_seconds": 14.013242630385488,
+      "beat_seconds_binary64_hex": "0x1.c06c7bcf0d65ep+3",
+      "native_output_index": 26,
+      "output_id": "LIBROSA-BEAT-0026"
+    },
+    {
+      "beat_frame": 1250,
+      "beat_sample": 640000,
+      "beat_seconds": 14.512471655328799,
+      "beat_seconds_binary64_hex": "0x1.d0662af4f8742p+3",
+      "native_output_index": 27,
+      "output_id": "LIBROSA-BEAT-0027"
+    },
+    {
+      "beat_frame": 1293,
+      "beat_sample": 662016,
+      "beat_seconds": 15.011700680272108,
+      "beat_seconds_binary64_hex": "0x1.e05fda1ae3825p+3",
+      "native_output_index": 28,
+      "output_id": "LIBROSA-BEAT-0028"
+    },
+    {
+      "beat_frame": 1336,
+      "beat_sample": 684032,
+      "beat_seconds": 15.51092970521542,
+      "beat_seconds_binary64_hex": "0x1.f0598940ce909p+3",
+      "native_output_index": 29,
+      "output_id": "LIBROSA-BEAT-0029"
+    },
+    {
+      "beat_frame": 1379,
+      "beat_sample": 706048,
+      "beat_seconds": 16.01015873015873,
+      "beat_seconds_binary64_hex": "0x1.00299c335ccf6p+4",
+      "native_output_index": 30,
+      "output_id": "LIBROSA-BEAT-0030"
+    },
+    {
+      "beat_frame": 1422,
+      "beat_sample": 728064,
+      "beat_seconds": 16.50938775510204,
+      "beat_seconds_binary64_hex": "0x1.082673c652568p+4",
+      "native_output_index": 31,
+      "output_id": "LIBROSA-BEAT-0031"
+    },
+    {
+      "beat_frame": 1466,
+      "beat_sample": 750592,
+      "beat_seconds": 17.020226757369613,
+      "beat_seconds_binary64_hex": "0x1.1052d94ad6818p+4",
+      "native_output_index": 32,
+      "output_id": "LIBROSA-BEAT-0032"
+    },
+    {
+      "beat_frame": 1509,
+      "beat_sample": 772608,
+      "beat_seconds": 17.519455782312924,
+      "beat_seconds_binary64_hex": "0x1.184fb0ddcc08ap+4",
+      "native_output_index": 33,
+      "output_id": "LIBROSA-BEAT-0033"
+    },
+    {
+      "beat_frame": 1552,
+      "beat_sample": 794624,
+      "beat_seconds": 18.018684807256236,
+      "beat_seconds_binary64_hex": "0x1.204c8870c18fcp+4",
+      "native_output_index": 34,
+      "output_id": "LIBROSA-BEAT-0034"
+    },
+    {
+      "beat_frame": 1595,
+      "beat_sample": 816640,
+      "beat_seconds": 18.517913832199547,
+      "beat_seconds_binary64_hex": "0x1.28496003b716ep+4",
+      "native_output_index": 35,
+      "output_id": "LIBROSA-BEAT-0035"
+    },
+    {
+      "beat_frame": 1638,
+      "beat_sample": 838656,
+      "beat_seconds": 19.017142857142858,
+      "beat_seconds_binary64_hex": "0x1.30463796ac9e0p+4",
+      "native_output_index": 36,
+      "output_id": "LIBROSA-BEAT-0036"
+    },
+    {
+      "beat_frame": 1681,
+      "beat_sample": 860672,
+      "beat_seconds": 19.51637188208617,
+      "beat_seconds_binary64_hex": "0x1.38430f29a2252p+4",
+      "native_output_index": 37,
+      "output_id": "LIBROSA-BEAT-0037"
+    },
+    {
+      "beat_frame": 1724,
+      "beat_sample": 882688,
+      "beat_seconds": 20.01560090702948,
+      "beat_seconds_binary64_hex": "0x1.403fe6bc97ac4p+4",
+      "native_output_index": 38,
+      "output_id": "LIBROSA-BEAT-0038"
+    },
+    {
+      "beat_frame": 1767,
+      "beat_sample": 904704,
+      "beat_seconds": 20.514829931972788,
+      "beat_seconds_binary64_hex": "0x1.483cbe4f8d335p+4",
+      "native_output_index": 39,
+      "output_id": "LIBROSA-BEAT-0039"
+    },
+    {
+      "beat_frame": 1810,
+      "beat_sample": 926720,
+      "beat_seconds": 21.0140589569161,
+      "beat_seconds_binary64_hex": "0x1.503995e282ba7p+4",
+      "native_output_index": 40,
+      "output_id": "LIBROSA-BEAT-0040"
+    },
+    {
+      "beat_frame": 1853,
+      "beat_sample": 948736,
+      "beat_seconds": 21.51328798185941,
+      "beat_seconds_binary64_hex": "0x1.58366d7578419p+4",
+      "native_output_index": 41,
+      "output_id": "LIBROSA-BEAT-0041"
+    },
+    {
+      "beat_frame": 1896,
+      "beat_sample": 970752,
+      "beat_seconds": 22.01251700680272,
+      "beat_seconds_binary64_hex": "0x1.603345086dc8bp+4",
+      "native_output_index": 42,
+      "output_id": "LIBROSA-BEAT-0042"
+    },
+    {
+      "beat_frame": 1939,
+      "beat_sample": 992768,
+      "beat_seconds": 22.511746031746032,
+      "beat_seconds_binary64_hex": "0x1.68301c9b634fdp+4",
+      "native_output_index": 43,
+      "output_id": "LIBROSA-BEAT-0043"
+    },
+    {
+      "beat_frame": 1982,
+      "beat_sample": 1014784,
+      "beat_seconds": 23.010975056689343,
+      "beat_seconds_binary64_hex": "0x1.702cf42e58d6fp+4",
+      "native_output_index": 44,
+      "output_id": "LIBROSA-BEAT-0044"
+    },
+    {
+      "beat_frame": 2026,
+      "beat_sample": 1037312,
+      "beat_seconds": 23.521814058956917,
+      "beat_seconds_binary64_hex": "0x1.785959b2dd01fp+4",
+      "native_output_index": 45,
+      "output_id": "LIBROSA-BEAT-0045"
+    },
+    {
+      "beat_frame": 2068,
+      "beat_sample": 1058816,
+      "beat_seconds": 24.009433106575965,
+      "beat_seconds_binary64_hex": "0x1.8026a35443e53p+4",
+      "native_output_index": 46,
+      "output_id": "LIBROSA-BEAT-0046"
+    },
+    {
+      "beat_frame": 2112,
+      "beat_sample": 1081344,
+      "beat_seconds": 24.52027210884354,
+      "beat_seconds_binary64_hex": "0x1.885308d8c8103p+4",
+      "native_output_index": 47,
+      "output_id": "LIBROSA-BEAT-0047"
+    },
+    {
+      "beat_frame": 2155,
+      "beat_sample": 1103360,
+      "beat_seconds": 25.019501133786846,
+      "beat_seconds_binary64_hex": "0x1.904fe06bbd974p+4",
+      "native_output_index": 48,
+      "output_id": "LIBROSA-BEAT-0048"
+    },
+    {
+      "beat_frame": 2198,
+      "beat_sample": 1125376,
+      "beat_seconds": 25.518730158730158,
+      "beat_seconds_binary64_hex": "0x1.984cb7feb31e6p+4",
+      "native_output_index": 49,
+      "output_id": "LIBROSA-BEAT-0049"
+    },
+    {
+      "beat_frame": 2241,
+      "beat_sample": 1147392,
+      "beat_seconds": 26.01795918367347,
+      "beat_seconds_binary64_hex": "0x1.a0498f91a8a58p+4",
+      "native_output_index": 50,
+      "output_id": "LIBROSA-BEAT-0050"
+    },
+    {
+      "beat_frame": 2284,
+      "beat_sample": 1169408,
+      "beat_seconds": 26.51718820861678,
+      "beat_seconds_binary64_hex": "0x1.a84667249e2cap+4",
+      "native_output_index": 51,
+      "output_id": "LIBROSA-BEAT-0051"
+    },
+    {
+      "beat_frame": 2327,
+      "beat_sample": 1191424,
+      "beat_seconds": 27.01641723356009,
+      "beat_seconds_binary64_hex": "0x1.b0433eb793b3cp+4",
+      "native_output_index": 52,
+      "output_id": "LIBROSA-BEAT-0052"
+    },
+    {
+      "beat_frame": 2370,
+      "beat_sample": 1213440,
+      "beat_seconds": 27.515646258503402,
+      "beat_seconds_binary64_hex": "0x1.b840164a893aep+4",
+      "native_output_index": 53,
+      "output_id": "LIBROSA-BEAT-0053"
+    },
+    {
+      "beat_frame": 2413,
+      "beat_sample": 1235456,
+      "beat_seconds": 28.014875283446713,
+      "beat_seconds_binary64_hex": "0x1.c03ceddd7ec20p+4",
+      "native_output_index": 54,
+      "output_id": "LIBROSA-BEAT-0054"
+    },
+    {
+      "beat_frame": 2456,
+      "beat_sample": 1257472,
+      "beat_seconds": 28.514104308390024,
+      "beat_seconds_binary64_hex": "0x1.c839c57074492p+4",
+      "native_output_index": 55,
+      "output_id": "LIBROSA-BEAT-0055"
+    },
+    {
+      "beat_frame": 2499,
+      "beat_sample": 1279488,
+      "beat_seconds": 29.013333333333332,
+      "beat_seconds_binary64_hex": "0x1.d0369d0369d03p+4",
+      "native_output_index": 56,
+      "output_id": "LIBROSA-BEAT-0056"
+    },
+    {
+      "beat_frame": 2542,
+      "beat_sample": 1301504,
+      "beat_seconds": 29.512562358276643,
+      "beat_seconds_binary64_hex": "0x1.d83374965f575p+4",
+      "native_output_index": 57,
+      "output_id": "LIBROSA-BEAT-0057"
+    },
+    {
+      "beat_frame": 2585,
+      "beat_sample": 1323520,
+      "beat_seconds": 30.011791383219954,
+      "beat_seconds_binary64_hex": "0x1.e0304c2954de7p+4",
+      "native_output_index": 58,
+      "output_id": "LIBROSA-BEAT-0058"
+    },
+    {
+      "beat_frame": 2628,
+      "beat_sample": 1345536,
+      "beat_seconds": 30.511020408163265,
+      "beat_seconds_binary64_hex": "0x1.e82d23bc4a659p+4",
+      "native_output_index": 59,
+      "output_id": "LIBROSA-BEAT-0059"
+    },
+    {
+      "beat_frame": 2671,
+      "beat_sample": 1367552,
+      "beat_seconds": 31.010249433106576,
+      "beat_seconds_binary64_hex": "0x1.f029fb4f3fecbp+4",
+      "native_output_index": 60,
+      "output_id": "LIBROSA-BEAT-0060"
+    },
+    {
+      "beat_frame": 2714,
+      "beat_sample": 1389568,
+      "beat_seconds": 31.509478458049887,
+      "beat_seconds_binary64_hex": "0x1.f826d2e23573dp+4",
+      "native_output_index": 61,
+      "output_id": "LIBROSA-BEAT-0061"
+    }
+  ],
+  "package_authority": {
+    "callable_signature": "(*, y: Optional[numpy.ndarray] = None, sr: float = 22050, onset_envelope: Optional[numpy.ndarray] = None, hop_length: int = 512, start_bpm: float = 120.0, tightness: float = 100, trim: bool = True, bpm: Union[bool, numpy.bool, int, ForwardRef('np.integer[Any]'), float, ForwardRef('np.floating[Any]'), numpy.ndarray, NoneType] = None, prior: Optional[scipy.stats._distn_infrastructure.rv_continuous] = None, units: str = 'frames', sparse: bool = True) -> Tuple[Union[bool, numpy.bool, int, ForwardRef('np.integer[Any]'), float, ForwardRef('np.floating[Any]'), numpy.ndarray], numpy.ndarray]",
+    "distribution": "librosa==0.11.0",
+    "imported_version": "0.11.0"
+  },
+  "raw_output_count": 62,
+  "reported_tempo": [
+    {
+      "binary64_hex": "0x1.e0bdc47711dc4p+6",
+      "decimal": 120.18531976744185
+    }
+  ],
+  "scientific_fingerprint": "858db5a981cb0b121b5362dc9dc4f6e0b0b18d94fe1c59ae85ec3c2ef0a02f07",
+  "system": "LIBROSA"
+}
