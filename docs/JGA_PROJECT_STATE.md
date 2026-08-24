@@ -1,5 +1,25 @@
 # JGA Project State
 
+## Prospective Real-Audio Acquisition Authority Gate
+
+Status: **PREREGISTERED — NOT APPLIED — PI REVIEW REQUIRED**
+
+- `PR-JGA-REAL-AUDIO-ACQUISITION-AUTHORITY-01` freezes the minimum provenance
+  required before selecting a future real-human-jazz multitrack for
+  inter-source acquisition-time research.
+- PASS requires primary evidence for one acquisition system and clock domain,
+  simultaneous takes, exact common-origin mapping, timing-edit history, export
+  preservation and source identity, corroborated by checksum-bound technical
+  evidence.
+- Equal file scope, sample rate, metadata, filenames, first-nonzero geometry or
+  apparent musical alignment cannot independently establish PASS.
+- The simplest sufficient package is one attributable engineer/provider
+  declaration covering every required dimension, a source/take list, an exact
+  export/checksum manifest and independent technical verification.
+- This gate has not been applied to a dataset and does not retroactively
+  upgrade CED-VAL-005. No search, JGA, H02, strength or physical-onset
+  measurement was performed.
+
 ## CED-VAL-005 Real-Audio Observational Result
 
 Status: **PASS — FROZEN — PI REVIEW REQUIRED**
