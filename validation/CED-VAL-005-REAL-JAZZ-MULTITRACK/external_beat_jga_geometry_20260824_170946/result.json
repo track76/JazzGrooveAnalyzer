@@ -1,0 +1,305 @@
+{
+  "combined_comparison_fingerprint": "295ab6ddbf201d1d723d18e78aaff0a2ea0a04da4d17a4504b8fc4f38a4434fe",
+  "deterministic_replay": "PASS_EXACT_TWO_FRESH_PROCESS_EXECUTIONS",
+  "essentia_scientific_fingerprint": "d26e7ed126b19e100515c5b42d4d34088673ec6a6148bbaa53368d2ec7e14797",
+  "execution_id": "EXEC-CEDVAL005-EXTERNAL-BEAT-JGA-GEOMETRY-20260824-170946",
+  "firewalls": {
+    "external_trackers_rerun": false,
+    "ground_truth_created": false,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "jga_core_changed": false,
+    "jga_rerun": false,
+    "musical_interpretation_performed": false,
+    "production_code_changed": false,
+    "readme_bpm_used": false,
+    "strength_accessed": false,
+    "tracker_to_tracker_correspondence_performed": false,
+    "visualization_rendered": false
+  },
+  "librosa_scientific_fingerprint": "467d48cb4f83a78084c15d6d0fb8d977d40b5809938ef8601a804805d2a26dd1",
+  "status": "PASS_FROZEN_NEUTRAL_EXTERNAL_BEAT_TO_JGA_DRUMS_GEOMETRY",
+  "study_id": "H-CEDVAL005-EXTERNAL-BEAT-TO-JGA-DRUMS-GEOMETRY-01",
+  "summaries": {
+    "Essentia": {
+      "absolute_displacement_statistics": {
+        "count": 468,
+        "maximum": {
+          "denominator": 144506880,
+          "milliseconds_binary64": 4887.803009794412,
+          "numerator": 706321163,
+          "seconds_binary64": 4.887803009794412,
+          "seconds_binary64_hex": "0x1.38d1c3b716df2p+2"
+        },
+        "mean": {
+          "denominator": 6925232111616,
+          "milliseconds_binary64": 114.93505554476859,
+          "numerator": 795951937409,
+          "seconds_binary64": 0.11493505554476859,
+          "seconds_binary64_hex": "0x1.d6c6240ba8db1p-4"
+        },
+        "median_linear": {
+          "denominator": 963379200,
+          "milliseconds_binary64": 11.615313056374893,
+          "numerator": 11189951,
+          "seconds_binary64": 0.011615313056374893,
+          "seconds_binary64_hex": "0x1.7c9c4edadf0d0p-7"
+        },
+        "minimum": {
+          "denominator": 2890137600,
+          "milliseconds_binary64": 5.882072881235828e-06,
+          "numerator": 17,
+          "seconds_binary64": 5.8820728812358274e-09,
+          "seconds_binary64_hex": "0x1.9436853c7108ep-28"
+        },
+        "population_sd_milliseconds_binary64": 439.7333183299844,
+        "population_sd_seconds_binary64": 0.4397333183299844,
+        "population_sd_seconds_binary64_hex": "0x1.c2497374c15f6p-2",
+        "population_variance": {
+          "denominator": 29974274874848376426332160000,
+          "numerator": 5795987388595096907609378387
+        },
+        "q1_linear": {
+          "denominator": 3853516800,
+          "milliseconds_binary64": 11.60969455225938,
+          "numerator": 44738153,
+          "seconds_binary64": 0.01160969455225938,
+          "seconds_binary64_hex": "0x1.7c6d2d3591850p-7"
+        },
+        "q3_linear": {
+          "denominator": 1445068800,
+          "milliseconds_binary64": 34.827325176489865,
+          "numerator": 50327881,
+          "seconds_binary64": 0.034827325176489864,
+          "seconds_binary64_hex": "0x1.1d4e31d47c5dbp-5"
+        }
+      },
+      "availability_counts": {
+        "following": 460,
+        "nearest": 468,
+        "preceding": 468
+      },
+      "boundary_status_counts": {
+        "AFTER_LAST_JGA_OBSERVATION": 8,
+        "BEFORE_FIRST_JGA_OBSERVATION": 0,
+        "INTERIOR_OR_ENDPOINT": 460
+      },
+      "external_beat_count": 468,
+      "frame_lattice_descriptive_counts": {
+        "beyond_two_jga_frames_count": 183,
+        "disjoint_audit_bins": {
+          "equal_zero": 0,
+          "greater_one_through_two_frames": 154,
+          "greater_two_frames": 183,
+          "greater_zero_through_one_frame": 131
+        },
+        "epistemic_status": "DESCRIPTIVE_COUNTS_NOT_THRESHOLDS_OR_TOLERANCES",
+        "exact_zero_count": 0,
+        "jga_frame_duration": {
+          "denominator": 11025,
+          "milliseconds_binary64": 11.609977324263038,
+          "numerator": 128,
+          "seconds_binary64": 0.011609977324263039,
+          "seconds_binary64_hex": "0x1.7c6f8c751f177p-7"
+        },
+        "within_one_jga_frame_count": 131,
+        "within_two_jga_frames_count": 285
+      },
+      "localized_count": 468,
+      "signed_displacement_statistics": {
+        "count": 468,
+        "maximum": {
+          "denominator": 722534400,
+          "milliseconds_binary64": 1787.938820629163,
+          "numerator": 1291847303,
+          "seconds_binary64": 1.787938820629163,
+          "seconds_binary64_hex": "0x1.c9b65bc9d9df7p+0"
+        },
+        "mean": {
+          "denominator": 19236755865600,
+          "milliseconds_binary64": -45.17249393401794,
+          "numerator": -868972237649,
+          "seconds_binary64": -0.04517249393401794,
+          "seconds_binary64_hex": "-0x1.720d960402fe6p-5"
+        },
+        "median_linear": {
+          "denominator": 2890137600,
+          "milliseconds_binary64": 11.610751335853351,
+          "numerator": 33556669,
+          "seconds_binary64": 0.011610751335853351,
+          "seconds_binary64_hex": "0x1.7c760aa27e452p-7"
+        },
+        "minimum": {
+          "denominator": 144506880,
+          "milliseconds_binary64": -4887.803009794412,
+          "numerator": -706321163,
+          "seconds_binary64": -4.887803009794412,
+          "seconds_binary64_hex": "-0x1.38d1c3b716df2p+2"
+        },
+        "population_sd_milliseconds_binary64": 452.2553526873503,
+        "population_sd_seconds_binary64": 0.4522553526873503,
+        "population_sd_seconds_binary64_hex": "0x1.cf1c06f4eeb5cp-2",
+        "population_variance": {
+          "denominator": 3330474986094264047370240000,
+          "numerator": 681198381669625366150372859
+        },
+        "q1_linear": {
+          "denominator": 115605504,
+          "milliseconds_binary64": 0.00014705182203089568,
+          "numerator": 17,
+          "seconds_binary64": 1.470518220308957e-07,
+          "seconds_binary64_hex": "0x1.3bca9817384efp-23"
+        },
+        "q3_linear": {
+          "denominator": 578027520,
+          "milliseconds_binary64": 23.21922838552739,
+          "numerator": 13421353,
+          "seconds_binary64": 0.02321922838552739,
+          "seconds_binary64_hex": "0x1.7c6c80a377ee6p-6"
+        }
+      },
+      "tie_count": 0,
+      "unresolved_count": 0
+    },
+    "librosa": {
+      "absolute_displacement_statistics": {
+        "count": 464,
+        "maximum": {
+          "denominator": 11025,
+          "milliseconds_binary64": 1822.766439909297,
+          "numerator": 20096,
+          "seconds_binary64": 1.822766439909297,
+          "seconds_binary64_hex": "0x1.d2a0d247a822cp+0"
+        },
+        "mean": {
+          "denominator": 12789,
+          "milliseconds_binary64": 59.42606927828602,
+          "numerator": 760,
+          "seconds_binary64": 0.059426069278286024,
+          "seconds_binary64_hex": "0x1.e6d180028fec7p-5"
+        },
+        "median_linear": {
+          "denominator": 11025,
+          "milliseconds_binary64": 11.609977324263038,
+          "numerator": 128,
+          "seconds_binary64": 0.011609977324263039,
+          "seconds_binary64_hex": "0x1.7c6f8c751f177p-7"
+        },
+        "minimum": {
+          "denominator": 1,
+          "milliseconds_binary64": 0.0,
+          "numerator": 0,
+          "seconds_binary64": 0.0,
+          "seconds_binary64_hex": "0x0.0p+0"
+        },
+        "population_sd_milliseconds_binary64": 200.24417028055578,
+        "population_sd_seconds_binary64": 0.20024417028055577,
+        "population_sd_seconds_binary64_hex": "0x1.9a199d948ea09p-3",
+        "population_variance": {
+          "denominator": 14603439375,
+          "numerator": 585564736
+        },
+        "q1_linear": {
+          "denominator": 1,
+          "milliseconds_binary64": 0.0,
+          "numerator": 0,
+          "seconds_binary64": 0.0,
+          "seconds_binary64_hex": "0x0.0p+0"
+        },
+        "q3_linear": {
+          "denominator": 11025,
+          "milliseconds_binary64": 11.609977324263038,
+          "numerator": 128,
+          "seconds_binary64": 0.011609977324263039,
+          "seconds_binary64_hex": "0x1.7c6f8c751f177p-7"
+        }
+      },
+      "availability_counts": {
+        "following": 463,
+        "nearest": 464,
+        "preceding": 464
+      },
+      "boundary_status_counts": {
+        "AFTER_LAST_JGA_OBSERVATION": 0,
+        "BEFORE_FIRST_JGA_OBSERVATION": 0,
+        "INTERIOR_OR_ENDPOINT": 464
+      },
+      "external_beat_count": 464,
+      "frame_lattice_descriptive_counts": {
+        "beyond_two_jga_frames_count": 66,
+        "disjoint_audit_bins": {
+          "equal_zero": 229,
+          "greater_one_through_two_frames": 2,
+          "greater_two_frames": 66,
+          "greater_zero_through_one_frame": 167
+        },
+        "epistemic_status": "DESCRIPTIVE_COUNTS_NOT_THRESHOLDS_OR_TOLERANCES",
+        "exact_zero_count": 229,
+        "jga_frame_duration": {
+          "denominator": 11025,
+          "milliseconds_binary64": 11.609977324263038,
+          "numerator": 128,
+          "seconds_binary64": 0.011609977324263039,
+          "seconds_binary64_hex": "0x1.7c6f8c751f177p-7"
+        },
+        "within_one_jga_frame_count": 396,
+        "within_two_jga_frames_count": 398
+      },
+      "localized_count": 464,
+      "signed_displacement_statistics": {
+        "count": 464,
+        "maximum": {
+          "denominator": 11025,
+          "milliseconds_binary64": 1822.766439909297,
+          "numerator": 20096,
+          "seconds_binary64": 1.822766439909297,
+          "seconds_binary64_hex": "0x1.d2a0d247a822cp+0"
+        },
+        "mean": {
+          "denominator": 106575,
+          "milliseconds_binary64": 6.6807412620220505,
+          "numerator": 712,
+          "seconds_binary64": 0.00668074126202205,
+          "seconds_binary64_hex": "0x1.b5d43d3bc1934p-8"
+        },
+        "median_linear": {
+          "denominator": 1,
+          "milliseconds_binary64": 0.0,
+          "numerator": 0,
+          "seconds_binary64": 0.0,
+          "seconds_binary64_hex": "0x0.0p+0"
+        },
+        "minimum": {
+          "denominator": 735,
+          "milliseconds_binary64": -1393.1972789115646,
+          "numerator": -1024,
+          "seconds_binary64": -1.3931972789115645,
+          "seconds_binary64_hex": "-0x1.64a893adcd25fp+0"
+        },
+        "population_sd_milliseconds_binary64": 208.7691383739603,
+        "population_sd_seconds_binary64": 0.2087691383739603,
+        "population_sd_seconds_binary64_hex": "0x1.ab8f276dd7919p-3",
+        "population_variance": {
+          "denominator": 102224075625,
+          "numerator": 4455390656
+        },
+        "q1_linear": {
+          "denominator": 11025,
+          "milliseconds_binary64": -11.609977324263038,
+          "numerator": -128,
+          "seconds_binary64": -0.011609977324263039,
+          "seconds_binary64_hex": "-0x1.7c6f8c751f177p-7"
+        },
+        "q3_linear": {
+          "denominator": 1,
+          "milliseconds_binary64": 0.0,
+          "numerator": 0,
+          "seconds_binary64": 0.0,
+          "seconds_binary64_hex": "0x0.0p+0"
+        }
+      },
+      "tie_count": 3,
+      "unresolved_count": 0
+    }
+  }
+}

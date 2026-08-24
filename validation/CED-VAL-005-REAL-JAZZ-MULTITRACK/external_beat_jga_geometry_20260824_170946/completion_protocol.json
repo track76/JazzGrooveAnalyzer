@@ -1,0 +1,20 @@
+{
+  "combined_comparison_fingerprint": "295ab6ddbf201d1d723d18e78aaff0a2ea0a04da4d17a4504b8fc4f38a4434fe",
+  "deterministic_replay": "PASS_EXACT_TWO_FRESH_PROCESS_EXECUTIONS",
+  "epistemic_status": "DESCRIPTIVE_TEMPORAL_GEOMETRY_ONLY",
+  "firewalls": {
+    "external_trackers_rerun": false,
+    "ground_truth_created": false,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "jga_core_changed": false,
+    "jga_rerun": false,
+    "musical_interpretation_performed": false,
+    "production_code_changed": false,
+    "readme_bpm_used": false,
+    "strength_accessed": false,
+    "tracker_to_tracker_correspondence_performed": false,
+    "visualization_rendered": false
+  },
+  "status": "PASS_FROZEN_NEUTRAL_EXTERNAL_BEAT_TO_JGA_DRUMS_GEOMETRY"
+}

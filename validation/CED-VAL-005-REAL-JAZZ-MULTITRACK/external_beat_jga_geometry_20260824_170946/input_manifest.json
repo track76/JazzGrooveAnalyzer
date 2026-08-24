@@ -1,0 +1,18 @@
+{
+  "authorities": {
+    "external_combined_fingerprint": "accf7ae656178cb04fb798795658b7d4f6e2bd5a7616f47755d7579435100e38",
+    "external_execution_id": "EXEC-CEDVAL005-EXTERNAL-BEAT-BENCHMARK-20260824-164758",
+    "input_sha256": {
+      "essentia": "b630ba72957c2fa6ec2e67e825cc17ceb3a9c4a27a75743e08a39658ae21443d",
+      "jga_eme": "81e45700196b7f712237da5ac6bbb32324a3f782bb66022e2427b08d9e342f2d",
+      "librosa": "1ab3bed4271746300ce50d92d82cbd0a532d47ff74598b89c212b88e3010c926",
+      "preregistration": "1c3778c198cb28454dcfa5520fd642b85a1b99229a290453fa194b3e87d5f1c9"
+    },
+    "jga_drums_eme_count": 907,
+    "jga_execution_id": "EXEC-CEDVAL005-REAL-AUDIO-20260824-112305",
+    "jga_scientific_fingerprint": "074d84768f508e6ceee9c9225c34e9ea881ce50d88e0d5f930525b92e87bd9d6"
+  },
+  "authority_gate": "PASS",
+  "execution_id": "EXEC-CEDVAL005-EXTERNAL-BEAT-JGA-GEOMETRY-20260824-170946",
+  "preregistration_id": "H-CEDVAL005-EXTERNAL-BEAT-TO-JGA-DRUMS-GEOMETRY-01"
+}
