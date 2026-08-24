@@ -1,0 +1,8 @@
+{
+  "authority_gate": "PASS",
+  "blind_replay": "PASS_EXACT",
+  "classification": "INSUFFICIENT_NONVACUOUS_CANDIDATES",
+  "scientific_fingerprint": "43a0bffd72b29db6221dbeaebf72dae26f8fb11d63517e7fe17f8702352bf6d0",
+  "scoring_replay": "PASS_EXACT",
+  "study_id": "H-CEDVAL004-PULSECANDIDATE-STRENGTH-PHYSICAL-PREDICTION-01"
+}

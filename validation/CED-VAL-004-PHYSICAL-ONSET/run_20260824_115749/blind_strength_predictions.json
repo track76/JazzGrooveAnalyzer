@@ -1,0 +1,406 @@
+{
+  "blind_predictor_fingerprint": "159ab82afacc00c6b9e4f13d09bca88c8ce4fb11eafb4deea8c97c6e41b11c8d",
+  "predictions": [
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "f7884315-b3b1-51a1-910a-085ee997f64e"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "0/1",
+        "right_exact": "529200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E000-DRUMS",
+      "marker_sample": 88200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "e2ea7bc5-88f2-5456-88e5-329209c96611"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "529200/1",
+        "right_exact": "1411200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E002-DRUMS",
+      "marker_sample": 970200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "b55e449b-cda2-53a2-b3cb-ab874689a946"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "1411200/1",
+        "right_exact": "2293200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E004-DRUMS",
+      "marker_sample": 1852200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "e57fca8b-4b66-5c7b-b5e8-c90886fd88b9"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "2293200/1",
+        "right_exact": "3175200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E006-DRUMS",
+      "marker_sample": 2734200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "03a9b0a4-6832-5609-98a4-51f243dcda4f"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "3175200/1",
+        "right_exact": "4057200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E008-DRUMS",
+      "marker_sample": 3616200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "b2ed2d37-cd61-575b-a25b-e02f1051a435"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "4057200/1",
+        "right_exact": "4939200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E010-DRUMS",
+      "marker_sample": 4498200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "7626e6a3-2b2d-5be5-981b-74667e37b7be"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "4939200/1",
+        "right_exact": "5821200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E012-DRUMS",
+      "marker_sample": 5380200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "5a99a8bf-1235-54e7-86f0-874f7de877a1"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "5821200/1",
+        "right_exact": "6703200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E014-DRUMS",
+      "marker_sample": 6262200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "2f03b0c8-c3e8-5ac1-b110-46308459eb58"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "6703200/1",
+        "right_exact": "7585200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E016-DRUMS",
+      "marker_sample": 7144200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "ab384cbb-f67f-56cf-a1b1-0c772f378e64"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "7585200/1",
+        "right_exact": "8820000/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E018-DRUMS",
+      "marker_sample": 8026200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Drums",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "acb2dc35-53c8-5c3b-8d7c-8a37abf24752"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "0/1",
+        "right_exact": "970200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E001-DOUBLE-BASS",
+      "marker_sample": 529200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "b911416a-a869-50c9-bacb-7ac0f23fcd89"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "970200/1",
+        "right_exact": "1852200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E003-DOUBLE-BASS",
+      "marker_sample": 1411200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "19ca3cc8-c1c7-5e8c-966a-d38d5dcb3b6d"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "1852200/1",
+        "right_exact": "2734200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E005-DOUBLE-BASS",
+      "marker_sample": 2293200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "b1c71034-afce-53a1-9b3e-ba00b8f3a1d5"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "2734200/1",
+        "right_exact": "3616200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E007-DOUBLE-BASS",
+      "marker_sample": 3175200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "b08ec34b-f018-55c3-b38b-67bc3682d16b"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "3616200/1",
+        "right_exact": "4498200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E009-DOUBLE-BASS",
+      "marker_sample": 4057200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "84e20f22-1100-5aa7-bbc4-f407bdc4db0d"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "4498200/1",
+        "right_exact": "5380200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E011-DOUBLE-BASS",
+      "marker_sample": 4939200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "374e69f2-d22e-582c-90a4-d97675604434"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "5380200/1",
+        "right_exact": "6262200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E013-DOUBLE-BASS",
+      "marker_sample": 5821200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "5d3bd982-4c12-59cf-bd27-ccae1950312f"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "6262200/1",
+        "right_exact": "7144200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E015-DOUBLE-BASS",
+      "marker_sample": 6703200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "26991c03-ff98-5982-804d-d30995b03623"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "7144200/1",
+        "right_exact": "8026200/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E017-DOUBLE-BASS",
+      "marker_sample": 7585200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    },
+    {
+      "boundary_candidate_ids": [],
+      "candidate_count": 1,
+      "candidate_ids": [
+        "750b7478-226e-5c53-93de-2eee5774b69f"
+      ],
+      "cell": {
+        "left_closed": true,
+        "left_exact": "8026200/1",
+        "right_exact": "8820000/1",
+        "right_open": true
+      },
+      "event_id": "CED-VAL-004-E019-DOUBLE-BASS",
+      "marker_sample": 8467200,
+      "population_status": "SINGLETON_CANDIDATE_POPULATION",
+      "predicted_pulse_candidate_id": null,
+      "predictor_status": null,
+      "source": "Double Bass",
+      "strengths": []
+    }
+  ],
+  "strength_values_accessed_count": 0
+}

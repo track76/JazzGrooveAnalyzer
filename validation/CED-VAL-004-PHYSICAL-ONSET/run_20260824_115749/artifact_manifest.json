@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "blind_candidate_populations.json": "54b601f2a4007bb45b5a0832cfe5827aeca4d5d7931fb40c6ed34d5b7ffdcf22",
+    "blind_strength_predictions.json": "33e1db2c8b76ddb1eaab10f9612100a4fd4e496b369089a158145442c7b99283",
+    "completion_protocol.json": "88a7f3c382989393cd77568a7427e57d6d608872c4e41408eb3374a1e4893d29",
+    "event_level_scoring.json": "24ea8f0f9b83a77be020ab10bd778ef5493bf3a65ae5dc585778955f752a1dc2",
+    "execute.py": "bb023f884200e21db4da31ce3b9adebef4dc17839c2c7ae971808dd0bde3e35f",
+    "input_manifest.json": "105b1a569475c7844b07c32b82d0f8f96d267ef11004ca9f1ae24bf8ac4d70dc",
+    "observed_populations_without_strength.json": "6e7234f1d3043ce366693459943aa49a7940318524031e774cd0af6b919e3154",
+    "report.md": "f82a035c6b9f3850b90c1b3ee6f2894f146526ab8f6bebb82dee22b18a9fa842",
+    "result.json": "5c39811aa23ce0a89ecc6ec92c22a8513f09e4c657abbbb65ed36393007d3f4d",
+    "scientific_content.json": "ea6237962425ae0030861369ee9a75cf96b9d0fbae93f811f6e01592f063550e",
+    "source_summary.json": "fc23d2ad9b70d44432792fd39d0ce8c4abaf4cc4d416f5a73b60873b997a6245",
+    "verify.py": "f7612208b650e1e722745de77001b92579b61e6f8b185a12395a76728d9b45ed"
+  },
+  "scientific_fingerprint": "43a0bffd72b29db6221dbeaebf72dae26f8fb11d63517e7fe17f8702352bf6d0",
+  "study_id": "H-CEDVAL004-PULSECANDIDATE-STRENGTH-PHYSICAL-PREDICTION-01"
+}

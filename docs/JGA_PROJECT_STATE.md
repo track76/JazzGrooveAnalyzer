@@ -1,5 +1,31 @@
 # JGA Project State
 
+## CED-VAL-004 Strength/Physical Prediction Result
+
+Status: **FROZEN — INSUFFICIENT_NONVACUOUS_CANDIDATES — PI REVIEW REQUIRED**
+
+- The new prospective
+  `H-CEDVAL004-PULSECANDIDATE-STRENGTH-PHYSICAL-PREDICTION-01` protocol was
+  executed unchanged after complete authority verification.
+- Drums and Double Bass each produced ten singleton marker-cell populations:
+  20 total singleton cells, zero empty, zero non-vacuous and zero authority
+  conflicts. Singleton populations are not predictor successes.
+- No strength value was accessed, no strength-max predictor was generated and
+  no population was scorable. Accuracy is undefined for each source and
+  overall. The frozen classification is
+  `INSUFFICIENT_NONVACUOUS_CANDIDATES`.
+- Blind population fingerprint:
+  `25c68eb8b197b958058a814685bff8b6f37082c0fcd53dc0f898124472c7f113`;
+  blind predictor fingerprint:
+  `159ab82afacc00c6b9e4f13d09bca88c8ce4fb11eafb4deea8c97c6e41b11c8d`;
+  scientific fingerprint:
+  `43a0bffd72b29db6221dbeaebf72dae26f8fb11d63517e7fe17f8702352bf6d0`.
+- Exact replay passed. Frozen physical authority was opened only after blind
+  freeze and changed nothing. Historical evidence, H02/H03, architecture,
+  production behavior and production code remain unchanged.
+- Frozen result:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/run_20260824_115749/`.
+
 ## CED-VAL-004 New Strength/Physical Prediction Preregistration
 
 Status: **NEW PROSPECTIVE HYPOTHESIS — NOT EXECUTED**

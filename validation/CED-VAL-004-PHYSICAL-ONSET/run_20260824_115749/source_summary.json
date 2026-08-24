@@ -1,0 +1,30 @@
+{
+  "Double Bass": {
+    "accuracy_exact": null,
+    "candidate_authority_conflict_count": 0,
+    "correct_count": 0,
+    "incorrect_count": 0,
+    "no_candidate_count": 0,
+    "non_vacuous_count": 0,
+    "physical_outcome_tied_count": 0,
+    "scorable_count": 0,
+    "singleton_count": 10,
+    "strength_tied_count": 0,
+    "strength_unresolved_count": 0,
+    "total_event_cells": 10
+  },
+  "Drums": {
+    "accuracy_exact": null,
+    "candidate_authority_conflict_count": 0,
+    "correct_count": 0,
+    "incorrect_count": 0,
+    "no_candidate_count": 0,
+    "non_vacuous_count": 0,
+    "physical_outcome_tied_count": 0,
+    "scorable_count": 0,
+    "singleton_count": 10,
+    "strength_tied_count": 0,
+    "strength_unresolved_count": 0,
+    "total_event_cells": 10
+  }
+}

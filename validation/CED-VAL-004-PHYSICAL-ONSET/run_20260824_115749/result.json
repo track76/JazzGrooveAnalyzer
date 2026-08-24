@@ -1,0 +1,55 @@
+{
+  "blind_population_fingerprint": "25c68eb8b197b958058a814685bff8b6f37082c0fcd53dc0f898124472c7f113",
+  "blind_predictor_fingerprint": "159ab82afacc00c6b9e4f13d09bca88c8ce4fb11eafb4deea8c97c6e41b11c8d",
+  "classification": "INSUFFICIENT_NONVACUOUS_CANDIDATES",
+  "deterministic_replay": "PASS_EXACT",
+  "firewalls": {
+    "h02_changed": false,
+    "h03_created": false,
+    "historical_results_changed": false,
+    "jga_tuned": false,
+    "physical_authority_changed": false,
+    "production_code_changed": false
+  },
+  "overall_summary": {
+    "accuracy_exact": null,
+    "correct_count": 0,
+    "incorrect_count": 0,
+    "non_vacuous_count": 0,
+    "scorable_count": 0
+  },
+  "scientific_fingerprint": "43a0bffd72b29db6221dbeaebf72dae26f8fb11d63517e7fe17f8702352bf6d0",
+  "source_summary": {
+    "Double Bass": {
+      "accuracy_exact": null,
+      "candidate_authority_conflict_count": 0,
+      "correct_count": 0,
+      "incorrect_count": 0,
+      "no_candidate_count": 0,
+      "non_vacuous_count": 0,
+      "physical_outcome_tied_count": 0,
+      "scorable_count": 0,
+      "singleton_count": 10,
+      "strength_tied_count": 0,
+      "strength_unresolved_count": 0,
+      "total_event_cells": 10
+    },
+    "Drums": {
+      "accuracy_exact": null,
+      "candidate_authority_conflict_count": 0,
+      "correct_count": 0,
+      "incorrect_count": 0,
+      "no_candidate_count": 0,
+      "non_vacuous_count": 0,
+      "physical_outcome_tied_count": 0,
+      "scorable_count": 0,
+      "singleton_count": 10,
+      "strength_tied_count": 0,
+      "strength_unresolved_count": 0,
+      "total_event_cells": 10
+    }
+  },
+  "status": "PASS_FROZEN_PROSPECTIVE_RESULT",
+  "strength_values_accessed_count": 0,
+  "t_physical_opened_only_after_blind_freeze": true
+}
