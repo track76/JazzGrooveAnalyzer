@@ -1,0 +1,120 @@
+{
+  "authority_id": "PR-CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-001",
+  "classification": "CONTROLLED_BEAT_REFERENCE_PARTIAL",
+  "dataset_fingerprint": "cd93455778d1484067f9a3caa3037b6467d27c7e8d5a8c0df694658bad2484e9",
+  "dataset_fingerprint_procedure": {
+    "basis": "manifest_basis only",
+    "encoding": "UTF-8",
+    "hash": "SHA-256",
+    "ordering": "assets sorted by UTF-8 relative_path; JSON object keys lexicographically sorted",
+    "serialization": "JSON sort_keys=true,separators=(',',':'),ensure_ascii=false"
+  },
+  "external_roots": {
+    "ableton": "/Volumes/SSD Track/JGA/datasets/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK/ableton",
+    "raw": "/Volumes/SSD Track/JGA/datasets/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK/raw"
+  },
+  "manifest_basis": {
+    "assets": [
+      {
+        "byte_size": 21836,
+        "file_type": "ABLETON_LIVE_SET_GZIP_XML",
+        "relative_path": "ableton/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 Project/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1.als",
+        "scientific_role": "CANONICAL_SOURCE_DEFINITION",
+        "sha256": "3802990d9b2747a0ca474fe423ce4e32a74c1571599395a6fbc3332ee3f3dc97",
+        "technical_authority": "Ableton Live 11.3.43 checksum-bound source set"
+      },
+      {
+        "byte_size": 8467244,
+        "file_type": "RIFF_WAVE_PCM24_STEREO_44100",
+        "relative_path": "raw/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 A-Reverb.wav",
+        "scientific_role": "NON_SCIENTIFIC_RETURN_RENDER",
+        "sha256": "94cc340c726388ff9ecb9b1a7edecd73197bc80c3738e2cc8386ffae19473022",
+        "technical_authority": "1411200 frames/channel; scope [0,1411200); 32 seconds"
+      },
+      {
+        "byte_size": 8467244,
+        "file_type": "RIFF_WAVE_PCM24_STEREO_44100",
+        "relative_path": "raw/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 B-Delay.wav",
+        "scientific_role": "NON_SCIENTIFIC_RETURN_RENDER",
+        "sha256": "94cc340c726388ff9ecb9b1a7edecd73197bc80c3738e2cc8386ffae19473022",
+        "technical_authority": "1411200 frames/channel; scope [0,1411200); 32 seconds"
+      },
+      {
+        "byte_size": 8467244,
+        "file_type": "RIFF_WAVE_PCM24_STEREO_44100",
+        "relative_path": "raw/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 DRUM GT.wav",
+        "scientific_role": "CANDIDATE_CONTROLLED_BENCHMARK_AUDIO_INPUT",
+        "sha256": "c673d2c104eb3eb31012154f1bd84ee81313b4fd36b61bf3913686f43e19bb0c",
+        "technical_authority": "1411200 frames/channel; scope [0,1411200); 32 seconds"
+      },
+      {
+        "byte_size": 8467244,
+        "file_type": "RIFF_WAVE_PCM24_STEREO_44100",
+        "relative_path": "raw/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 MARKER GT.wav",
+        "scientific_role": "CANDIDATE_RENDERED_TEMPORAL_REFERENCE_CHANNEL",
+        "sha256": "7c8c8534944e3d901b0de47f97fab03816f47e6ab62225e63ee3ba12e1c2206f",
+        "technical_authority": "1411200 frames/channel; scope [0,1411200); 32 seconds"
+      },
+      {
+        "byte_size": 8467244,
+        "file_type": "RIFF_WAVE_PCM24_STEREO_44100",
+        "relative_path": "raw/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1.wav",
+        "scientific_role": "SUPPORTING_MASTER_RENDER_ONLY",
+        "sha256": "ef9e39e313a8579f7492e6cb90af1cc6e54523ea5c41402f17bf2b6efe2c8185",
+        "technical_authority": "1411200 frames/channel; scope [0,1411200); 32 seconds"
+      }
+    ],
+    "dataset_id": "CED-VAL-007-CONTROLLED-BEAT-BENCHMARK",
+    "schema": "JGA-CONTROLLED-BEAT-RAW-AND-SOURCE-MANIFEST/v1"
+  },
+  "raw_directory_inventory": {
+    "appledouble_sidecars": [
+      {"byte_size": 4096, "relative_path": "._CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 A-Reverb.wav", "sha256": "5b41382ec74e6f801c813e491daea49448622c74c84687e0e99b5a965b1baf2e"},
+      {"byte_size": 4096, "relative_path": "._CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 B-Delay.wav", "sha256": "5b41382ec74e6f801c813e491daea49448622c74c84687e0e99b5a965b1baf2e"},
+      {"byte_size": 4096, "relative_path": "._CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 DRUM GT.wav", "sha256": "5b41382ec74e6f801c813e491daea49448622c74c84687e0e99b5a965b1baf2e"},
+      {"byte_size": 4096, "relative_path": "._CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 MARKER GT.wav", "sha256": "5b41382ec74e6f801c813e491daea49448622c74c84687e0e99b5a965b1baf2e"},
+      {"byte_size": 4096, "relative_path": "._CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1.wav", "sha256": "5b41382ec74e6f801c813e491daea49448622c74c84687e0e99b5a965b1baf2e"}
+    ],
+    "directory_layout": "FLAT",
+    "scientific_wav_count": 5
+  },
+  "ableton_supporting_inventory": [
+    {"byte_size": 12428, "relative_path": "CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 Project/Backup/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 [2026-08-24 200453].als", "role": "SUPPORTING_BACKUP_NOT_CANONICAL", "sha256": "192ffbe56892fce6b8605e3fc125202a82818d64360dfb004023d184cfd5aaec"},
+    {"byte_size": 18475, "relative_path": "CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 Project/Backup/CED-VAL-007-CONTROLLED-BEAT-BENCHMARK-v0.1 [2026-08-24 201317].als", "role": "SUPPORTING_BACKUP_NOT_CANONICAL", "sha256": "349670d18bb4adf5006f962f24b2f18c4c43e4b8b7e78683728f3591d6168757"}
+  ],
+  "ableton_source_authority": {
+    "creator": "Ableton Live 11.3.43",
+    "drum_gt": {"event_count": 64, "midi_key": 48, "temporal_positions_beats": "integers 0..63"},
+    "groove_id": -1,
+    "marker_gt": {"event_count": 64, "midi_key": 60, "temporal_positions_beats": "integers 0..63"},
+    "meter": "4/4",
+    "pi_conflict_resolution": "ACCEPTED; earlier same-C2 description superseded by direct Live Set inspection",
+    "probability": 1,
+    "tempo_bpm": 120,
+    "temporal_schedule_identity": true,
+    "velocity": 100,
+    "velocity_deviation": 0
+  },
+  "render_authority": {
+    "declared_export": {"start": "1.1.1", "length_bars": "16.0.0", "render_as_loop": false, "convert_to_mono": false, "normalize": false, "create_analysis_file": false, "sample_rate_hz": 44100, "pcm": true, "container": "WAV", "bit_depth": 24, "dither": "NO_DITHER"},
+    "mapping": "Ableton arrangement time 0 / 1.1.1 maps to WAV sample zero",
+    "mapping_evidence": "PI prospective export declaration; Live Set events begin at arrangement time 0; all WAVs have the exact 32-second scope implied by 16 bars of 4/4 at 120 BPM",
+    "scope_samples": [0, 1411200]
+  },
+  "response_authority": {
+    "drum_response": "UNESTABLISHED",
+    "marker_response": "UNESTABLISHED",
+    "reason": "CED-VAL-004 rule is not applicable unchanged: required source-specific digital-silence controls and isolated ten-second event slots are absent",
+    "replacement_rule_created": false
+  },
+  "symbolic_reference": {
+    "authority": "SYMBOLIC_BEAT_GROUND_TRUTH",
+    "beat_count": 64,
+    "first": {"sample": 0, "seconds_exact": "0/1"},
+    "last": {"sample": 1389150, "seconds_exact": "63/2"},
+    "quarter_note_spacing_samples": 22050,
+    "quarter_note_spacing_seconds_exact": "1/2",
+    "schedule_artifact": "symbolic_beat_reference.json"
+  },
+  "firewalls": {"essentia_executed": false, "h02_used": false, "historical_authorities_changed": false, "jga_executed": false, "librosa_executed": false, "musical_interpretation": false, "production_code_changed": false, "raw_assets_changed": false, "strength_accessed": false}
+}
