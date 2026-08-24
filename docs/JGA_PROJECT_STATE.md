@@ -1,5 +1,23 @@
 # JGA Project State
 
+## CED-VAL-005 Real-Audio Observational Study Preregistered
+
+Status: **PREREGISTERED — NOT EXECUTED — PI REVIEW REQUIRED**
+
+- `H-CEDVAL005-REAL-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01` freezes the first
+  bounded real-human-jazz AD-037/AD-038/AD-040 observational protocol.
+- Inputs are exclusively `PR-CEDVAL005-ANALYTICAL-INPUTS-001`: Overheads as
+  `Drums / TEMPORAL_REFERENCE` and BassDI as
+  `Double Bass / ACCOMPANIMENT` on the distributed-file coordinate.
+- Absolute timestamps, AD-038 neutral geometry and a read-only AD-040 profile
+  are the only authorized outputs. Correspondence remains `GEOMETRIC_ONLY`;
+  calibration applicability remains `UNESTABLISHED`.
+- BPM, meter, symbolic input, H02, strength, timing correction and musical
+  interpretation are prohibited. Two exact deterministic executions are
+  required.
+- No JGA execution, EME, localization, profile or visualization has been
+  produced by this preregistration.
+
 ## CED-VAL-005 Analytical Inputs Frozen
 
 Status: **FROZEN — PI REVIEW REQUIRED — JGA NOT EXECUTED**
