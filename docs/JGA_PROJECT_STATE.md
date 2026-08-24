@@ -1,5 +1,21 @@
 # JGA Project State
 
+## CED-VAL-005 Real-Audio Observational Result
+
+Status: **PASS — FROZEN — PI REVIEW REQUIRED**
+
+- `H-CEDVAL005-REAL-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01` executed twice
+  unchanged on the frozen Overheads and BassDI inputs with exact replay.
+- AD-037 preserved 907 Drums and 1,138 Double Bass PulseCandidate/EME pairs.
+  AD-038 localized all 1,138 Bass EME against Drums with zero unresolved and
+  six equal-distance nearest ties. AD-040 represents all 2,045 EME.
+- All 1,138 relationships remain `GEOMETRIC_ONLY`; calibration applicability
+  remains `UNESTABLISHED`. No BPM, meter, symbolic input, H02, strength,
+  correction or musical interpretation was used.
+- Scientific fingerprint:
+  `074d84768f508e6ceee9c9225c34e9ea881ce50d88e0d5f930525b92e87bd9d6`.
+- The preregistered observational/frame-resolved visualization was produced.
+
 ## CED-VAL-005 Real-Audio Observational Study Preregistered
 
 Status: **PREREGISTERED — NOT EXECUTED — PI REVIEW REQUIRED**

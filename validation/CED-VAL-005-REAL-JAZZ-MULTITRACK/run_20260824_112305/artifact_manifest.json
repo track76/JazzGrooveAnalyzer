@@ -1,0 +1,21 @@
+{
+  "artifacts": {
+    "completion_protocol.json": "059be929e48d858c7526ddfe7445c364a998f072df401011abf58782b8f688c9",
+    "drum_relative_localizations.json": "cf4a8b3c00bd4ee5b102867b554ce76fda79b0c8ea8e4d0e652f8e4950228b03",
+    "elementary_metric_events.json": "81e45700196b7f712237da5ac6bbb32324a3f782bb66022e2427b08d9e342f2d",
+    "execute.py": "2d87ef7e9d46fd4651f8d7505f8ec0cceba983de9cb229c44656c0a0b4135af7",
+    "geometry_summary.json": "5e6c53dacc83f2507d7349260a542d99e847f4d8017eeeb0fbd71c5545141836",
+    "input_manifest.json": "0ed5e8cf626c2bf8a45d30f77f0cbdb63c1e43727abb11bbeb91477c16d62010",
+    "pulse_candidates.json": "07495625f3d4fd4fb68a4bd9fc6b9bd37ba8a338bb55a056c7d92839466013b9",
+    "report.md": "396ac16ccbfd1d6c584a648ba1bc3ce41a214d868843b3e5ea846f0d56c769a9",
+    "result.json": "b3f59e77c654fb8c68bc3da437ad7a213bd69de4ed5379c69c44425a2bdba194",
+    "rhythm_section_timing_profile.json": "e8f2f7061b80265c04518f43eddb3aaf6a9931e044b33ff3a33333370150f312",
+    "rhythm_section_timing_profile.png": "90897fefac6a88fe9d439e69e0fed3830801779d55d1701c9191cb2f1e373a26",
+    "scientific_content.json": "96d66269861938052b9836d2098d5a0dab90fb218f191c084b879cb0cb4afff5",
+    "source_summary.json": "74d8e3a1640f939104917ee4a155c9f23ed66a8e3d555041d2318502af1b5c54",
+    "verify.py": "321d6170efd62230e6fef5cfe501e1bcb0664d71b264851a762ae4f6e0302c3d"
+  },
+  "execution_id": "EXEC-CEDVAL005-REAL-AUDIO-20260824-112305",
+  "scientific_fingerprint": "074d84768f508e6ceee9c9225c34e9ea881ce50d88e0d5f930525b92e87bd9d6",
+  "study_id": "H-CEDVAL005-REAL-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01"
+}

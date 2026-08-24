@@ -1,0 +1,26 @@
+{
+  "analytical_input_fingerprint": "08ac45969fc449503f67ea4e8bda77495c4807e9dd0e0adbe0c37c9cb506b876",
+  "authority_gate": "PASS",
+  "dataset_fingerprint": "d9d6341f837bc5f56054ffd6c91f6be65a7bdbb8043526a9ac70d924a81335af",
+  "environment": {
+    "librosa": "0.11.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "execution_id": "EXEC-CEDVAL005-REAL-AUDIO-20260824-112305",
+  "preregistration_commit": "430dc202034b10d112bae0364572527297253487",
+  "raw_asset_checksums": {
+    "Double Bass": "2c4c06b9b5d4b18e00000bc2c036207fc68fb722c5854e0a30107ad4594a910b",
+    "Drums": "0569a396cff95b130042fc71093e8ba3460e3c0fe0034cb86d2158027d585f3a"
+  },
+  "repository_checksums": {
+    "src/jga/domain/services/elementary_metric_event_builder.py": "137e390a69c9361d5cbfd66908256b2417d76c95d503e7ad2c409cd2e1b66cc2",
+    "src/jga/pipeline/default_analysis_pipeline.py": "04ecdfee536717b977276b91b7e9416701e7a89ce9aa7bc4339917263725ef17",
+    "src/jga/representation/builders/drum_relative_eme_localization_builder.py": "bf6d61bf3c2be644047fd81553e68a73bb0b4f95e67535acc010d30e1fc465fd",
+    "src/jga/representation/builders/rhythm_section_timing_profile_builder.py": "92c63c2d19045553b09a3ca36ad2321eba348adac4cfd35cde9e3115f5f720c4",
+    "validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/analytical_input_authority.json": "f8f0d963fc0a6e9455f6f9cb36bb9b046039d0c87d22e83e64bc02a0918864c9",
+    "validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/input_authority_manifest.json": "8248368cf1ab4bdb104b5eeff37be0a28a283af68e76e07c8f622a3fbe844b46",
+    "validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/preregistrations/H-CEDVAL005-REAL-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01.md": "ee6834c2e957d120e8667fd3b3022922dae3acb4efa0625487675927efd7295c"
+  },
+  "study_id": "H-CEDVAL005-REAL-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01"
+}
