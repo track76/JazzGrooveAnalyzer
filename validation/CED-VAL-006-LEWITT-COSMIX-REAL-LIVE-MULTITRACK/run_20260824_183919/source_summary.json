@@ -1,0 +1,42 @@
+{
+  "Double Bass": {
+    "eme_count": 1055,
+    "producer_frame_scope": [
+      2488,
+      22941
+    ],
+    "producer_sample_scope": [
+      1273856,
+      11745792
+    ],
+    "pulse_candidate_count": 1055,
+    "timestamp_scope_hex": [
+      "0x1.a89e60f04c757p+4",
+      "0x1.e96872b020c4ap+7"
+    ],
+    "timestamp_scope_seconds": [
+      26.538666666666668,
+      244.704
+    ]
+  },
+  "Drums": {
+    "eme_count": 909,
+    "producer_frame_scope": [
+      2487,
+      22854
+    ],
+    "producer_sample_scope": [
+      1273344,
+      11701248
+    ],
+    "pulse_candidate_count": 909,
+    "timestamp_scope_hex": [
+      "0x1.a872b020c49bap+4",
+      "0x1.e78d4fdf3b646p+7"
+    ],
+    "timestamp_scope_seconds": [
+      26.528,
+      243.776
+    ]
+  }
+}

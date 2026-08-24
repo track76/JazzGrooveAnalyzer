@@ -1,0 +1,11 @@
+{
+  "ad037_cardinality_and_lineage": "PASS",
+  "ad038_geometry": "PASS",
+  "ad040_profile": "PASS",
+  "dataset_fingerprint_basis": "PASS_RECOVERED_SIX_FIELD_BASIS",
+  "deterministic_replay": "PASS_EXACT_TWO_FRESH_PROCESS_EXECUTIONS",
+  "scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+  "status": "PASS_FROZEN_REAL_LIVE_AUDIO_OBSERVATIONAL_PROFILE",
+  "study_id": "H-CEDVAL006-REAL-LIVE-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01",
+  "temporal_mapping_gate": "PASS"
+}

@@ -1,0 +1,34 @@
+{
+  "analytical_input_fingerprint": "cf89598f0f198cb14ee4f455b4094cffe3e4b4597da4fd92d2fffba41a233bae",
+  "authority_gate": "PASS_RECOVERED_SIX_FIELD_BASIS",
+  "clarification_commit": "ea967a153b3f561efc53c5277a18b729adc97af2",
+  "dataset_fingerprint": "9d837f710fbf3292c80490d499bc96df0a8fe1140bc9139b65de8a553c4c2eca",
+  "environment": {
+    "librosa": "0.11.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+  "preregistration_commit": "8d0435a1184c89e31907960fc3c4a95628af679d",
+  "raw_asset_checksums": {
+    "Double Bass": "c0a99f65158d12a69e062cc990e86631a0d29d7e83f30537d34eb301516855a9",
+    "Drums": "dbfc4c3c59cac2c42cb2bbd33f1e55dbb1ec8c2fe6c6d095e30efc791dd57b8d"
+  },
+  "repository_checksums": {
+    "src/jga/audio/file_audio_source.py": "3441cdf4feb8fc98280c005e1e806bdd4c34861cb33b94fd58023a8e050f0d69",
+    "src/jga/domain/services/elementary_metric_event_builder.py": "137e390a69c9361d5cbfd66908256b2417d76c95d503e7ad2c409cd2e1b66cc2",
+    "src/jga/engines/audio_preprocessor.py": "83ef6157f9b320e6f4bd659adad4f085883f1142244c47b159261e40ea33ca5f",
+    "src/jga/engines/domain_pulse_candidate_adapter.py": "6a3d276bf50534bc6823075a26787c624ab7a8d2ecca58628579fb86658a9330",
+    "src/jga/engines/source_pulse_candidate_builder.py": "5b270f352483dde91448b0958a299c08e51d064ab867bc872ef1cdde37a81c32",
+    "src/jga/pipeline/default_analysis_pipeline.py": "04ecdfee536717b977276b91b7e9416701e7a89ce9aa7bc4339917263725ef17",
+    "src/jga/representation/builders/drum_relative_eme_localization_builder.py": "bf6d61bf3c2be644047fd81553e68a73bb0b4f95e67535acc010d30e1fc465fd",
+    "src/jga/representation/builders/rhythm_section_timing_profile_builder.py": "92c63c2d19045553b09a3ca36ad2321eba348adac4cfd35cde9e3115f5f720c4",
+    "src/jga/separation/null_separator.py": "148292b92efb88c2992c828a73f569dc30d71925c2df3945b75cfe3daa5162b1",
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/analytical_input_authority.json": "3f041b70ecf12c538f024a57aeb8c28a598e1ce65090e5c016b9e8c51289cde0",
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/clarifications/CL-PR-CEDVAL006-DATASET-FINGERPRINT-BASIS-01.md": "b80eb53bb920428aad4dd5c7806f4919caacebe8c0ccbf47c67c9f03675e6315",
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/input_authority_manifest.json": "c96ad3bac2b8dbc9e5a949ae13c5a0a65a47c89bd09f8a9c369551bada12e72b",
+    "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/preregistrations/H-CEDVAL006-REAL-LIVE-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01.md": "44f94167bd3c90e6bee824dbc6f1dc038f252f11d5ff402194499875bce33b78"
+  },
+  "study_id": "H-CEDVAL006-REAL-LIVE-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01",
+  "temporal_mapping_gate": "PASS_NATIVE_48000_HZ_NO_RESAMPLING"
+}
