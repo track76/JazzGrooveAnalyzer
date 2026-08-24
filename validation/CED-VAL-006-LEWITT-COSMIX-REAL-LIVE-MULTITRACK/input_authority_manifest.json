@@ -1,0 +1,640 @@
+{
+  "acquisition_authority_audit": {
+    "applied_protocol": "PR-JGA-REAL-AUDIO-ACQUISITION-AUTHORITY-01",
+    "calibration_applicability": "UNESTABLISHED",
+    "common_acquisition_system": "UNESTABLISHED_NOT_EXPLICITLY_DOCUMENTED_AT_REQUIRED_SYSTEM_ROUTING_LEVEL",
+    "common_timeline_file_origin": "UNESTABLISHED_NOT_EXPLICITLY_DOCUMENTED",
+    "distributed_file_coordinate": "PER_FILE_SAMPLE_COORDINATES_ESTABLISHED;_14_OF_15_WAVS_HAVE_IDENTICAL_SCOPE;_CROSS_FILE_SESSION_TIME_ORIGIN_UNESTABLISHED",
+    "export_authority": "UNESTABLISHED_FILES_FOR_ALL_DAWS_IDENTIFIED_BUT_COMMON_RANGE_ORIGIN_AND_EXPORT_CONFIGURATION_NOT_DOCUMENTED",
+    "live_same_performance": "SUPPORTED_BY_PRIMARY_PROVIDER_DECLARATION_FOR_THE_LIVE_BAND_RECORDING",
+    "overall_classification": "ACQUISITION_AUTHORITY_PARTIAL",
+    "physical_onset_ground_truth": "NOT_ESTABLISHED",
+    "post_export_integrity": "PASS_CHECKSUM_BOUND_TWO_PASS_READ_ONLY_VERIFICATION",
+    "shared_hardware_clock": "UNESTABLISHED_NOT_EXPLICITLY_DOCUMENTED",
+    "simultaneous_capture": "SUPPORTED_BY_PROVIDER_LIVE_BAND_RECORDING_DESCRIPTION_BUT_TECHNICAL_CAPTURE_RECORD_NOT_SUPPLIED",
+    "source_identity": "SUPPORTED_BY_EXACT_FILENAMES_AND_PROVIDER_MICROPHONE_DI_DOCUMENTATION",
+    "timing_edit_history": "PARTIAL_PROVIDER_STATES_NO_EDITING_AND_NO_TUNING_BUT_EXHAUSTIVE_TIMING_PROCESS_AND_EXPORT_HISTORY_NOT_DOCUMENTED"
+  },
+  "analytical_source_decision": {
+    "recommendation_only": {
+      "Double Bass": "Use the original unmodified mono file BASS - DI.wav as the minimal direct Double Bass representation.",
+      "Drums": "Use the original unmodified stereo file Dums Overheads LCT 640 TS-Dual Output Mode.wav as the minimal broad Drum representation.",
+      "rationale": "Direct selection avoids derived mixing and preserves exact supplied file coordinates; the recommendation is independent of JGA output and requires PI review before authority freeze."
+    },
+    "status": "NOT_SELECTED_NOT_FROZEN"
+  },
+  "appledouble_sidecar_count": 17,
+  "authority_id": "PR-CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK-001",
+  "bounded_use_authority": {
+    "maximum_authorized_claim": "Provenance-bound, deterministic source-labelled observations may be made on immutable per-file coordinates, and neutral distributed-file geometry may be studied only with the explicit limitation that common acquisition clock and exact session-time origin remain unestablished.",
+    "scientifically_usable": true,
+    "unauthorized_claims": [
+      "acquisition-time or sample-accurate human microtiming",
+      "physical onset",
+      "event correspondence",
+      "source isolation",
+      "detector accuracy",
+      "calibration transfer",
+      "synchronization, rushing, dragging, swing, groove, intention, or performance quality"
+    ]
+  },
+  "dataset_fingerprint": "9d837f710fbf3292c80490d499bc96df0a8fe1140bc9139b65de8a553c4c2eca",
+  "dataset_id": "CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK",
+  "directory_structure": {
+    "layout": "FLAT",
+    "root": ".",
+    "subdirectories": []
+  },
+  "external_root": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/raw",
+  "filesystem_metadata_sidecars": [
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._BASS - DI.wav",
+      "relative_path": "._BASS - DI.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._BASS DTP 640 REX Dynamic Capsule.wav",
+      "relative_path": "._BASS DTP 640 REX Dynamic Capsule.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._Cosmix Video.mov",
+      "relative_path": "._Cosmix Video.mov",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+      "relative_path": "._Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._GUIT MTP 440.wav",
+      "relative_path": "._GUIT MTP 440.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._Kick DTP 640 REX Condenser Capsule.wav",
+      "relative_path": "._Kick DTP 640 REX Condenser Capsule.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._Kick DTP 640 REX Dynamic Capsule.wav",
+      "relative_path": "._Kick DTP 640 REX Dynamic Capsule.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._LEWITT_exploitation-rights.pdf",
+      "relative_path": "._LEWITT_exploitation-rights.pdf",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._ROOM LEFT LCT 640 TS.wav",
+      "relative_path": "._ROOM LEFT LCT 640 TS.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._ROOM RIGHT LCT 640 TS.wav",
+      "relative_path": "._ROOM RIGHT LCT 640 TS.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._Rhodes MTP 440.wav",
+      "relative_path": "._Rhodes MTP 440.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._Room Mono LCT 550.wav",
+      "relative_path": "._Room Mono LCT 550.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._Room Mono MTP 550.wav",
+      "relative_path": "._Room Mono MTP 550.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._Snare MTP 440.wav",
+      "relative_path": "._Snare MTP 440.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._VOX  LCT 240 PRO.wav",
+      "relative_path": "._VOX  LCT 240 PRO.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._VOX LCT 440 PURE.wav",
+      "relative_path": "._VOX LCT 440 PURE.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    },
+    {
+      "byte_size": 4096,
+      "file_type": "APPLEDOUBLE_SIDECAR",
+      "filename": "._VOX LCT 640 TS.wav",
+      "relative_path": "._VOX LCT 640 TS.wav",
+      "scientific_authority": false,
+      "sha256": "4af1d2933a1d87858fe903aafa83ec1186501eb1611f6c1e0ed7f5f26ade5e85"
+    }
+  ],
+  "firewalls": {
+    "derived_assets_created": false,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "jga_executed": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "strength_accessed": false
+  },
+  "provenance": {
+    "official_page_retrieval_date": "2026-08-24",
+    "official_page_url": "https://www.lewitt-audio.com/blog/mix-it-baby",
+    "provider": "LEWITT GmbH / LEWITT Content Team",
+    "provider_claim_limit": "Claims are preserved as provider declarations and do not establish undocumented acquisition-clock, origin, export, physical-onset, detector, correspondence, isolation, or human-microtiming authority.",
+    "provider_claims": [
+      "LEWITT describes a live recording session at COSMIX Studios in Vienna.",
+      "LEWITT describes the downloadable material as a live recording of the band, including drums and upright/double bass.",
+      "LEWITT states that no editing and no tuning was applied to these tracks and calls them the RAW tracks.",
+      "LEWITT documents the drum microphone configuration on the page.",
+      "LEWITT states that double bass used the dynamic capsule of a DTP 640 REX and a DI.",
+      "LEWITT states that a performance video is supplied and shows microphone placement at its beginning."
+    ]
+  },
+  "rights_authority": {
+    "interpretation_limit": "No permission or restriction beyond the supplied one-page document is inferred.",
+    "relative_path": "LEWITT_exploitation-rights.pdf",
+    "sha256": "ef13b10717ac28b850ec91cb61aa82e2cf6cd9e7a19fbe330d4944aaaecdd2fa",
+    "supported_summary": "Publication and public releases require naming the original artist and song. Copyright and owner rights are reserved. Commercial exploitation is not allowed, and the document states that infringement will be prosecuted by the artist."
+  },
+  "schema": "JGA-REAL-LIVE-RAW-MULTITRACK-ASSET-MANIFEST/v1",
+  "scientifically_relevant_asset_count": 17,
+  "scientifically_relevant_assets": [
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "BASS - DI.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "BASS - DI.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "c0a99f65158d12a69e062cc990e86631a0d29d7e83f30537d34eb301516855a9"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "BASS DTP 640 REX Dynamic Capsule.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "BASS DTP 640 REX Dynamic Capsule.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "db7cc748a5e8ddf96948dfc806169bff39bd5a3fb0f3239d49e9a68021421688"
+    },
+    {
+      "byte_size": 578101502,
+      "file_type": "MOV",
+      "filename": "Cosmix Video.mov",
+      "relative_path": "Cosmix Video.mov",
+      "scientific_role": "SUPPORTING_PROVENANCE_ONLY_NO_TIMING_ANALYSIS_OR_GROUND_TRUTH",
+      "sha256": "a2ab56420e605bb065aea252e91419312ae0605b75757f041750dc5b8ff899e7",
+      "technical_metadata": {
+        "container": "Apple QuickTime MOV",
+        "movie_header": {
+          "duration_seconds": 253.0,
+          "duration_units": 253000,
+          "timescale": 1000
+        },
+        "tracks": [
+          {
+            "display_height": 1080.0,
+            "display_width": 1920.0,
+            "duration_seconds": 253.0,
+            "duration_units": 3238400,
+            "sample_entry_codecs": [
+              "avc1"
+            ],
+            "timescale": 12800
+          },
+          {
+            "display_height": 0.0,
+            "display_width": 0.0,
+            "duration_seconds": 253.0,
+            "duration_units": 12144000,
+            "sample_entry_codecs": [
+              "in24"
+            ],
+            "timescale": 48000
+          },
+          {
+            "display_height": 0.0,
+            "display_width": 0.0,
+            "duration_seconds": 253.0,
+            "duration_units": 3238400,
+            "sample_entry_codecs": [
+              "tmcd"
+            ],
+            "timescale": 12800
+          }
+        ]
+      }
+    },
+    {
+      "byte_size": 71857234,
+      "channel_count": 2,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "dbfc4c3c59cac2c42cb2bbd33f1e55dbb1ec8c2fe6c6d095e30efc791dd57b8d"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "GUIT MTP 440.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "GUIT MTP 440.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "ec497555c4f1b57f0088d156842cdf5be754a0e3a1c344bf8baa7d0cacbfc562"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "Kick DTP 640 REX Condenser Capsule.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "Kick DTP 640 REX Condenser Capsule.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "b893e212982d4aef182a3a72c48fe858b99eac6c189fd2d726caa2e170bf8e07"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "Kick DTP 640 REX Dynamic Capsule.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "Kick DTP 640 REX Dynamic Capsule.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "9c1555ed41a926eff7d5923c7fa88923f3824a5e07a99dbf0feafad77c42dbb0"
+    },
+    {
+      "byte_size": 34709,
+      "container": "PDF-1.3",
+      "file_type": "PDF",
+      "filename": "LEWITT_exploitation-rights.pdf",
+      "page_count": 1,
+      "relative_path": "LEWITT_exploitation-rights.pdf",
+      "scientific_role": "SUPPLIED_RIGHTS_DOCUMENT",
+      "sha256": "ef13b10717ac28b850ec91cb61aa82e2cf6cd9e7a19fbe330d4944aaaecdd2fa"
+    },
+    {
+      "byte_size": 71857234,
+      "channel_count": 2,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "ROOM LEFT LCT 640 TS.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "ROOM LEFT LCT 640 TS.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "e52a3b22372cdae1a18748b67ce38c517a783a226574533932910ce88b45eccb"
+    },
+    {
+      "byte_size": 71857234,
+      "channel_count": 2,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "ROOM RIGHT LCT 640 TS.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "ROOM RIGHT LCT 640 TS.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "1739595d7b56b4244b94186d26afafe725ea35fe5cbcde3f73d1db6cc57eb7da"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "Rhodes MTP 440.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "Rhodes MTP 440.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "ffe3b202c7fc2f3349832b7095ba21a331306f5056a94f5382b72d0fa5dc4e6e"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "Room Mono LCT 550.wav",
+      "first_nonzero_frame_scope_diagnostic": 1218653,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "Room Mono LCT 550.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "ec9aa2608684763d5182030cd30994565e44873c9485ab5fcf55279a546c7431"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "Room Mono MTP 550.wav",
+      "first_nonzero_frame_scope_diagnostic": 1218653,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "Room Mono MTP 550.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "4e7637438128b8bcee1bd7c049fc1143c4bfd10c37187846e0c9d475f9b02ce0"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "Snare MTP 440.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "Snare MTP 440.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "6f4f345dc37054abb9c1458c46eb4985ec4ce67fadec19adc5e2d58fe4356c17"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "VOX  LCT 240 PRO.wav",
+      "first_nonzero_frame_scope_diagnostic": 1219018,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "VOX  LCT 240 PRO.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "6672bb455bbd422f6a3297e78e119037e1bc060322e0ae2b1e33bdfa1855774a"
+    },
+    {
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "file_type": "WAV",
+      "filename": "VOX LCT 440 PURE.wav",
+      "first_nonzero_frame_scope_diagnostic": 2005615,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11912868,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "VOX LCT 440 PURE.wav",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "e2554f32f29d4637719b86e252257b5e9422460d4db9c26f9d6445c69aa64804"
+    },
+    {
+      "byte_size": 71594790,
+      "channel_count": 2,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 247.27829166666666,
+      "duration_seconds_exact": "11869358/48000",
+      "file_type": "WAV",
+      "filename": "VOX LCT 640 TS.wav",
+      "first_nonzero_frame_scope_diagnostic": 0,
+      "first_nonzero_interpretation": "FILE_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_OR_PHYSICAL_ONSET",
+      "frame_count_per_channel": 11869358,
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "relative_path": "VOX LCT 640 TS.wav",
+      "sample_coordinate_scope": [
+        0,
+        11869357
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "0338b2ae3bc5e43c8225cfdee6c972871f8ce684ef95cb870ac3c611568be47b"
+    }
+  ],
+  "source_population": {
+    "Double Bass candidate observation channels": [
+      "BASS - DI.wav",
+      "BASS DTP 640 REX Dynamic Capsule.wav"
+    ],
+    "Drums candidate observation channels": [
+      "Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+      "Kick DTP 640 REX Condenser Capsule.wav",
+      "Kick DTP 640 REX Dynamic Capsule.wav",
+      "Snare MTP 440.wav"
+    ],
+    "Guitar": [
+      "GUIT MTP 440.wav"
+    ],
+    "Rhodes": [
+      "Rhodes MTP 440.wav"
+    ],
+    "Room": [
+      "ROOM LEFT LCT 640 TS.wav",
+      "Room Mono LCT 550.wav",
+      "Room Mono MTP 550.wav",
+      "ROOM RIGHT LCT 640 TS.wav"
+    ],
+    "Vocal takes": [
+      "VOX  LCT 240 PRO.wav",
+      "VOX LCT 440 PURE.wav",
+      "VOX LCT 640 TS.wav"
+    ]
+  },
+  "status": "FROZEN_CANDIDATE_REAL_LIVE_MULTITRACK_AUTHORITY",
+  "technical_scope": {
+    "all_wav_readable": true,
+    "candidate_drums_and_double_bass_frame_scope_equality": true,
+    "channel_counts_present": [
+      1,
+      2
+    ],
+    "common_pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+    "common_sample_rate_hz": 48000,
+    "first_nonzero_diagnostics_are_not_onsets": true,
+    "frame_scope_groups": {
+      "11869358_frames_247.27829166666666_seconds": 1,
+      "11912868_frames_248.184750_seconds": 14
+    },
+    "full_cross_file_frame_scope_equality": false
+  },
+  "wav_asset_count": 15
+}
