@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: CED-VAL-004 Physical-Onset Authority Frozen
+Current Milestone: CED-VAL-004 Physical-to-JGA Comparison Preregistered
 
 Current Phase: Phase II Scientific Validation
 

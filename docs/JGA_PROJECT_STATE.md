@@ -1,5 +1,23 @@
 # JGA Project State
 
+## CED-VAL-004 Physical-to-JGA Comparison Preregistration
+
+Status: FROZEN RULE — NOT EXECUTED
+
+- `H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01` freezes AD-037
+  `ElementaryMetricEvent.timestamp` as `t_JGA`, with exact 512-sample frame
+  round-trip and explicit frame-resolution authority.
+- Contributor-separated marker midpoint cells transfer the established
+  Calibration Zero correspondence framework. Zero, single, multiple,
+  boundary, tied and unconsumed observations remain explicit; strength and
+  error minimization cannot select an EME.
+- Primary signed error is `n_JGA - n_physical`; absolute error and exact marker
+  decomposition remain separate. Source-specific reporting precedes pooled
+  description.
+- JGA has not been run on CED-VAL-004 for this study. Strength remains
+  unopened, H02/H03 and historical results are unchanged, and production
+  impact is none.
+
 ## CED-VAL-004 Physical-Onset Authority
 
 Status: PASS — FROZEN PHYSICAL GROUND TRUTH — PI REVIEW REQUIRED
