@@ -1,5 +1,21 @@
 # JGA Project State
 
+## CED-VAL-004 Physical-Onset Measurement Preregistration
+
+Status: FROZEN RULE — NOT EXECUTED
+
+- `H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01` defines `t_physical` as the
+  first signed 24-bit source sample differing from exact digital-zero control
+  at or after each marker within the fixed eight-second causal window.
+- The event onset is the earlier channel response; channel-specific frames,
+  values and disagreement remain preserved. Exact two-second pre-marker zero
+  verification is mandatory, and any conflict remains unresolved rather than
+  introducing a threshold.
+- The rule is specific to the frozen no-dither, no-normalization,
+  byte-reproducible common-clock authority. It does not generalize to nonzero
+  baselines.
+- Physical onset has not been measured. JGA, strength and H02 remain unopened.
+
 ## CED-VAL-004 Marker and Raw Waveform Authority
 
 Status: FROZEN INPUT AUTHORITY — PASS — PHYSICAL ONSET NOT MEASURED

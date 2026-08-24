@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: CED-VAL-004 Marker and Raw Waveform Authority Frozen
+Current Milestone: CED-VAL-004 Physical-Onset Measurement Rule Preregistered
 
 Current Phase: Phase II Scientific Validation
 
