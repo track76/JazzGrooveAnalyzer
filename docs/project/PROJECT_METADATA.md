@@ -4,7 +4,7 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.2.0-alpha
 
-Current Milestone: CED-VAL-004 Physical-Onset Generation Protocol Reviewed and Frozen
+Current Milestone: CED-VAL-004 Marker and Raw Waveform Authority Frozen
 
 Current Phase: Phase II Scientific Validation
 
@@ -16,4 +16,4 @@ Python: 3.13
 
 Tests: 1087
 
-Last Update: 2026-08-23
+Last Update: 2026-08-24

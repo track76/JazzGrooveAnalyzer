@@ -1,0 +1,186 @@
+{
+  "schema": "JGA-CONTROLLED-PHYSICAL-ONSET-DATASET-AUTHORITY/v1",
+  "dataset_id": "CED-VAL-004-PHYSICAL-ONSET",
+  "dataset_generation_record_id": "DGR-CED-VAL-004-PHYSICAL-ONSET-001",
+  "provenance_revision_id": "PR-CED-VAL-004-PHYSICAL-ONSET-001",
+  "generation_protocol_id": "PR-CED-VAL-004-PHYSICAL-ONSET-GENERATION-01",
+  "generation_protocol_commit": "3a91c30703d42f4cedff1b0d4a7254aac1dd0b9e",
+  "status": "FROZEN_MARKER_AND_RAW_WAVEFORM_AUTHORITY",
+  "external_root_variable": "JGA_EXTERNAL_ROOT",
+  "external_dataset_path": "datasets/CED-VAL-004-PHYSICAL-ONSET",
+  "external_path_observed": "/Volumes/SSD Track/JGA/datasets/CED-VAL-004-PHYSICAL-ONSET/",
+  "appledouble_sidecars_excluded": true,
+  "event_schedule": {
+    "repository_path": "validation/CED-VAL-004-PHYSICAL-ONSET/event_schedule.json",
+    "event_count": 20,
+    "drums_event_count": 10,
+    "double_bass_event_count": 10,
+    "sample_rule": "88200 + 441000 * k for k = 0..19",
+    "schedule_fingerprint": "6d3796ac31b22f1a75defa7cc8eb1fb4ee99789ea70b83f474a1889ee0211736",
+    "verified_against_live_set_midi_schedule": true,
+    "verified_against_marker_waveform": true
+  },
+  "session_authority": {
+    "application": "Ableton Live 11 Suite",
+    "live_set_creator": "Ableton Live 11.3.43",
+    "application_version_observed": "11.3.43 (2025-10-06_b466d4f56c)",
+    "live_set_revision": "b466d4f56c257b99a64e3ce7e0d969fd407f6251",
+    "canonical_live_set": {
+      "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/ableton/CED-VAL-004-PHYSICAL-ONSET Project/CED-VAL-004-PHYSICAL-ONSET.als",
+      "sha256": "a8acdd7575ec191366b660aa5070ca10c061f200d90035517fa27ec36f566335",
+      "file_size_bytes": 31436
+    },
+    "drums_control_live_set": {
+      "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/ableton/CED-VAL-004-DRUMS Project/CED-VAL-004-DRUMS.als",
+      "sha256": "6d84d52a5aedf2c4f038c9b85e3f72739d1e7f6e85c2de40a1ae9471e74638f0",
+      "file_size_bytes": 29819,
+      "controlled_track_events_removed": "Drums"
+    },
+    "double_bass_control_live_set": {
+      "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/ableton/CED-VAL-004-DOUBLE-BASS Project/CED-VAL-004-DOUBLE-BASS.als",
+      "sha256": "9bc94ffef5bbef88a3a27a0d56487c128147826f24b7e11b2a57cec63c9b8347",
+      "file_size_bytes": 29718,
+      "controlled_track_events_removed": "Double Bass"
+    },
+    "saved_session_tempo_bpm": 120,
+    "tempo_epistemic_status": "SESSION_SCHEDULING_CONFIGURATION_ONLY",
+    "scientific_timing_authority": "EXACT_SAMPLE_SCHEDULE",
+    "all_source_tracks_audio_output": "AudioOut/Master",
+    "track_delay": 0,
+    "pi_declared_export": {
+      "sample_rate_hz": 44100,
+      "bit_depth": 24,
+      "format": "WAV PCM",
+      "dither": "OFF",
+      "normalization": "OFF",
+      "render_as_loop": "OFF",
+      "convert_to_mono": "OFF",
+      "return_and_master_effects": "EXCLUDED",
+      "render_interval_seconds_exact": "200/1",
+      "same_session_individual_track_export": true,
+      "post_render_alignment": false,
+      "post_render_trimming": false,
+      "post_render_resampling": false
+    },
+    "recoverability_limit": "Ableton export-dialog state is PI-declared and not serialized as complete export metadata in the Live Set; the checksum-bound WAV technical properties independently match the declaration. Tension ExcitatorType is serialized numerically as 3; its Plectrum label is PI-declared. All remaining saved device parameters are frozen transitively by the canonical Live Set checksum."
+  },
+  "source_configuration": {
+    "Drums": {
+      "track_name": "DRUMS",
+      "device": "Ableton OriginalSimpler",
+      "sample_name": "00DB_Kick_2.aif",
+      "mode": "1-Shot Trigger",
+      "warp": false,
+      "filter": false,
+      "lfo": false,
+      "volume_velocity_scale_percent": 0,
+      "fade_in_ms_saved": "0.1000000089",
+      "fade_out_ms_saved": "0.1000000089",
+      "device_volume_db": -12,
+      "snap": false,
+      "midi_key": 60,
+      "ableton_note_name": "C3",
+      "velocity": 100,
+      "note_duration_quarter_units": 1,
+      "midi_clip_times_quarter_units": [4, 44, 84, 124, 164, 204, 244, 284, 324, 364]
+    },
+    "Double Bass": {
+      "track_name": "DOUBLE BASS",
+      "device": "Ableton Tension (StringStudio)",
+      "preset_basis": "Upright Basic Bass.adv",
+      "exciter_pi_declared": "Plectrum",
+      "exciter_type_saved_numeric": 3,
+      "keyboard_error": 0,
+      "midi_key": 52,
+      "ableton_note_name": "E2",
+      "velocity": 100,
+      "note_duration_quarter_units": 1,
+      "midi_clip_times_quarter_units": [24, 64, 104, 144, 184, 224, 264, 304, 344, 384]
+    }
+  },
+  "collected_media": {
+    "drums_sample": {
+      "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/ableton/CED-VAL-004-PHYSICAL-ONSET Project/Samples/Imported/00DB_Kick_2.aif",
+      "sha256": "74142c5d6191c61ad86ed1135e6f7932de4de319a8d8d574503272e8cd107a0e",
+      "file_size_bytes": 32870,
+      "format": "AIFF-C",
+      "analysis_sidecar_sha256": "ac64628ec1706edefe1fbc1ea9f6fe0149e1416668bed3c72b5866d4051a61fa"
+    },
+    "mono_marker_source": {
+      "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/ableton/CED-VAL-004-PHYSICAL-ONSET Project/Samples/Imported/CED-VAL-004_marker_44100Hz_24bit_mono_200s.wav",
+      "sha256": "66f86991845196c91e8126b4ac430e22702737501d58261667b458265b364011",
+      "file_size_bytes": 26460044,
+      "sample_rate_hz": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "sample_frames": 8820000,
+      "analysis_sidecar_sha256": "c8c9cc42b13f7acba53e2b2cbf82402a0a3f75975e081ae3666e6097641948d2"
+    }
+  },
+  "wav_common_properties": {
+    "container": "WAVE",
+    "codec": "linear PCM, signed 24-bit little-endian integer",
+    "sample_rate_hz": 44100,
+    "bit_depth": 24,
+    "channels": 2,
+    "sample_frames_per_channel": 8820000,
+    "duration_seconds_exact": "200/1",
+    "file_size_bytes": 52920044
+  },
+  "canonical_assets": {
+    "Marker": {"path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CANONICAL MARKER.wav", "sha256": "9142f98a018bd9d6da04d44832763fcb1494ce5a9569593830e04ce5ebedbc8d"},
+    "Drums": {"path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CANONICAL DRUMS.wav", "sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09"},
+    "Double Bass": {"path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CANONICAL DOUBLE BASS.wav", "sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392"}
+  },
+  "control_assets": {
+    "Drums": {"path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CONTROL-DRUMS.wav", "sha256": "8558eac6099ef335f1c685ef2e871b6f5f9139ea31f16a76bb34824d43726d36", "digital_silence": true, "nonzero_audio_bytes": 0},
+    "Double Bass": {"path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CONTROL-DOUBLE-BASS.wav", "sha256": "8558eac6099ef335f1c685ef2e871b6f5f9139ea31f16a76bb34824d43726d36", "digital_silence": true, "nonzero_audio_bytes": 0}
+  },
+  "independent_rerender_assets": {
+    "Marker": {"path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-RENDER-01 MARKER.wav", "sha256": "9142f98a018bd9d6da04d44832763fcb1494ce5a9569593830e04ce5ebedbc8d", "byte_identical_to_canonical": true},
+    "Drums": {"path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-RENDER-01 DRUMS.wav", "sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09", "byte_identical_to_canonical": true},
+    "Double Bass": {"path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-RENDER-01 DOUBLE BASS.wav", "sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392", "byte_identical_to_canonical": true}
+  },
+  "marker_verification": {
+    "nonzero_frame_count": 20,
+    "indices": [88200, 529200, 970200, 1411200, 1852200, 2293200, 2734200, 3175200, 3616200, 4057200, 4498200, 4939200, 5380200, 5821200, 6262200, 6703200, 7144200, 7585200, 8026200, 8467200],
+    "left_value_at_each_nonzero_frame": 4194304,
+    "right_value_at_each_nonzero_frame": 4194304,
+    "all_other_samples_zero": true,
+    "tolerance_used": false
+  },
+  "repeatability": {
+    "performed_complete_render_count": 2,
+    "authorized_claim": "Two complete renders under the frozen session/configuration were byte-identical.",
+    "universal_render_determinism_claimed": false,
+    "Marker": {"differing_sample_count": 0, "differing_sample_fraction": 0, "maximum_absolute_difference": 0, "rms_difference": 0},
+    "Drums": {"differing_sample_count": 0, "differing_sample_fraction": 0, "maximum_absolute_difference": 0, "rms_difference": 0},
+    "Double Bass": {"differing_sample_count": 0, "differing_sample_fraction": 0, "maximum_absolute_difference": 0, "rms_difference": 0}
+  },
+  "common_clock_authority": {
+    "status": "PASS",
+    "common_sample_rate": true,
+    "common_sample_frame_count": true,
+    "common_duration": true,
+    "common_sample_zero": "PI_DECLARED_SAME_SESSION_COMMON_RENDER_INTERVAL_AND_VERIFIED_EQUAL_SCOPE",
+    "exact_marker_schedule_verified": true,
+    "same_session_source_generation": "PI_DECLARED_AND_CHECKSUM_BOUND_LIVE_SET",
+    "detected_onset_alignment_performed": false,
+    "post_render_temporal_shift_performed": false,
+    "trimming_performed": false,
+    "normalization_performed": false,
+    "resampling_performed": false
+  },
+  "firewalls": {
+    "t_physical_measured": false,
+    "source_waveform_onset_searched": false,
+    "jga_executed": false,
+    "pulse_candidate_strength_accessed": false,
+    "h02_executed": false,
+    "h03_created": false,
+    "production_code_changed": false
+  },
+  "authority_limit": "This freeze authorizes scheduled excitation, exact sample-addressable marker, common-clock raw source waveform, controls, and two-render repeatability only. It does not authorize physical acoustic onset, correspondence, detector accuracy, strength-predictor validity, or production use.",
+  "dataset_fingerprint_method": "sha256-canonical-json-excluding-dataset_fingerprint/v1",
+  "dataset_fingerprint": "704ce5926852a2ff62d9794dbee48156f875016979214cf7ef3ab93aa35ec772"
+}

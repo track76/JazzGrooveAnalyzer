@@ -1,8 +1,24 @@
 # JGA Project State
 
+## CED-VAL-004 Marker and Raw Waveform Authority
+
+Status: FROZEN INPUT AUTHORITY — PASS — PHYSICAL ONSET NOT MEASURED
+
+- `PR-CED-VAL-004-PHYSICAL-ONSET-001` freezes the PI-created Ableton Live
+  11.3.43 common-clock session, 20-event exact marker schedule, canonical
+  Marker/Drums/Double Bass assets and source-specific digital-silence controls.
+- Every WAV is stereo 44.1 kHz signed 24-bit PCM with exactly 8,820,000 frames.
+  The marker contains exactly the 20 authorized samples at amplitude
+  `+4,194,304` in both channels; canonical and second-render assets are
+  byte-identical.
+- Dataset fingerprint: `704ce592…`. Complete authority:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/input_authority_manifest.json`.
+- This freeze ends at scheduled excitation → marker → raw waveform.
+  `t_physical`, JGA, strength and H02 remain unopened.
+
 ## CED-VAL-004 Physical-Onset Generation Preregistration
 
-Status: FROZEN PROTOCOL — CONDITIONAL REVIEW INCORPORATED — NO ASSETS CREATED
+Status: FROZEN PROTOCOL — EXECUTED BY PI-CREATED ASSET AUTHORITY
 
 - `PR-CED-VAL-004-PHYSICAL-ONSET-GENERATION-01` defines a prospective
   common-clock marker-referenced dataset for Drums and Double Bass.
@@ -19,8 +35,8 @@ Status: FROZEN PROTOCOL — CONDITIONAL REVIEW INCORPORATED — NO ASSETS CREATE
   byte identity is not mandatory; any nondeterminism is retained and measured
   separately. Marker rerender identity and all common-clock checks remain
   mandatory.
-- No assets, experiment, JGA execution, H02/H03 change or production impact are
-  authorized.
+- No physical-onset measurement, JGA execution, H02/H03 change or production
+  impact is authorized.
 - Protocol:
   `validation/CED-VAL-004-PHYSICAL-ONSET/preregistrations/PR-CED-VAL-004-PHYSICAL-ONSET-GENERATION-01.md`.
 
