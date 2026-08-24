@@ -1,0 +1,73 @@
+{
+  "authority_gate": "PASS",
+  "dataset_authority_id": "PR-CED-VAL-004-PHYSICAL-ONSET-001",
+  "dataset_fingerprint": "704ce5926852a2ff62d9794dbee48156f875016979214cf7ef3ab93aa35ec772",
+  "preregistration_commit": "6c6ccde0de597b4e9c818d92eb88e814b8d9328e",
+  "preregistration_id": "H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01",
+  "repository_checksums": {
+    "validation/CED-VAL-004-PHYSICAL-ONSET/event_schedule.json": "458227636da615278d5334039630f916d1b8be200587c37ae16a4673e8afe2dc",
+    "validation/CED-VAL-004-PHYSICAL-ONSET/input_authority_manifest.json": "823893f86f5d8a8b68e5ef57dce47739454897e93321dac1b815c735330d429a",
+    "validation/CED-VAL-004-PHYSICAL-ONSET/preregistrations/H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01.md": "b9f845a94d917449e9615a46a298807d48da98b3ee1e2083259887b85b86f053"
+  },
+  "schema": "JGA-PHYSICAL-ONSET-INPUT-MANIFEST/v1",
+  "verified_input": {
+    "assets": {
+      "Double Bass": {
+        "control": {
+          "digital_silence": true,
+          "exact_digital_zero": true,
+          "nonzero_audio_bytes": 0,
+          "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CONTROL-DOUBLE-BASS.wav",
+          "properties": {
+            "channels": 2,
+            "compression": "NONE",
+            "frame_count": 8820000,
+            "sample_rate_hz": 44100,
+            "sample_width_bytes": 3
+          },
+          "sha256": "8558eac6099ef335f1c685ef2e871b6f5f9139ea31f16a76bb34824d43726d36"
+        },
+        "source": {
+          "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CANONICAL DOUBLE BASS.wav",
+          "properties": {
+            "channels": 2,
+            "compression": "NONE",
+            "frame_count": 8820000,
+            "sample_rate_hz": 44100,
+            "sample_width_bytes": 3
+          },
+          "sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392"
+        }
+      },
+      "Drums": {
+        "control": {
+          "digital_silence": true,
+          "exact_digital_zero": true,
+          "nonzero_audio_bytes": 0,
+          "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CONTROL-DRUMS.wav",
+          "properties": {
+            "channels": 2,
+            "compression": "NONE",
+            "frame_count": 8820000,
+            "sample_rate_hz": 44100,
+            "sample_width_bytes": 3
+          },
+          "sha256": "8558eac6099ef335f1c685ef2e871b6f5f9139ea31f16a76bb34824d43726d36"
+        },
+        "source": {
+          "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CANONICAL DRUMS.wav",
+          "properties": {
+            "channels": 2,
+            "compression": "NONE",
+            "frame_count": 8820000,
+            "sample_rate_hz": 44100,
+            "sample_width_bytes": 3
+          },
+          "sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09"
+        }
+      }
+    },
+    "dataset_fingerprint": "704ce5926852a2ff62d9794dbee48156f875016979214cf7ef3ab93aa35ec772",
+    "schedule_fingerprint": "6d3796ac31b22f1a75defa7cc8eb1fb4ee99789ea70b83f474a1889ee0211736"
+  }
+}

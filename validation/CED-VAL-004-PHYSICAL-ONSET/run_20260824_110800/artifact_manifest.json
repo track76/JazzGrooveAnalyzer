@@ -1,0 +1,15 @@
+{
+  "artifacts": {
+    "completion_protocol.json": "0746d86447edada8febdcddc31d3d22923c5a5fc45a9489aaa39599745c36413",
+    "event_level_physical_onsets.json": "e8860a248325f5080077f51c833f39884c63cbedaa1671f549a6a7465729d7b2",
+    "execute.py": "226a447c1669e0db6b5a73b262de02ab6c7175b8a445f0f64095e36d8d8a6a81",
+    "input_manifest.json": "cbbd5baa425e5749d129154dfa6368437ba9ebe36d2bda65ae4cb4af0f15c4b0",
+    "report.md": "29a6665d4bf34f42bc06f5aad4ecd71bcd5cc48775109fb778bcac680e0236dd",
+    "result.json": "6786020eaf5b0b1ea7c6ea0909db2c549d874ce354d3aef31be4deaa1a40d97b",
+    "source_summary.json": "4ff1d8720e562c240a948d6e06af04ddd9a8e2fe4f9c5b96305cb1d2f65a9f97",
+    "verify.py": "52ec6323f7ec750e67de2c84f65157658e4d46d90a2aaa0a0d106a021fb110dd"
+  },
+  "schema": "JGA-ARTIFACT-MANIFEST/v1",
+  "scientific_fingerprint": "7b2ec48f0ff0afca54849b5847f5ebd637c8d672eb2b88247ea6a1841af99062",
+  "study_id": "H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01"
+}

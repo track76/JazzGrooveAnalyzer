@@ -1,0 +1,1063 @@
+{
+  "provenance": {
+    "execution_id": "EXEC-CEDVAL004-PHYSICAL-ONSET-20260824-110800",
+    "h02_executed": false,
+    "jga_executed": false,
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "pre_marker_baseline_length_samples": 88200,
+    "preregistration_commit": "6c6ccde0de597b4e9c818d92eb88e814b8d9328e",
+    "python": "3.13.14",
+    "rule_id": "H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01",
+    "rule_version": "v1",
+    "sample_rate_hz": 44100,
+    "search_window_length_samples": 352800,
+    "source_specific_rule_used": false,
+    "strength_accessed": false,
+    "threshold_used": false
+  },
+  "records": [
+    {
+      "baseline": {
+        "end_exclusive": 88200,
+        "exact_zero": true,
+        "start": 0
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 88201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 88201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E000-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 88200,
+      "marker_time_exact": "2/1",
+      "n_physical": 88201,
+      "search_window": {
+        "end_exclusive": 441000,
+        "start": 88200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "2.000022675736961",
+        "seconds_exact": "88201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "2/1",
+        "continuous_time_upper_inclusive_seconds_exact": "88201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 529200,
+        "exact_zero": true,
+        "start": 441000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 529405,
+          "present": true,
+          "signed_value": -1
+        },
+        "right": {
+          "first_response_sample": 529405,
+          "present": true,
+          "signed_value": -1
+        }
+      },
+      "event_id": "CED-VAL-004-E001-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "4.648526077097506",
+        "milliseconds_exact": "2050/441",
+        "samples": 205,
+        "seconds_decimal": "0.004648526077098",
+        "seconds_exact": "41/8820"
+      },
+      "marker_sample": 529200,
+      "marker_time_exact": "12/1",
+      "n_physical": 529405,
+      "search_window": {
+        "end_exclusive": 882000,
+        "start": 529200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "12.004648526077098",
+        "seconds_exact": "105881/8820"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "44117/3675",
+        "continuous_time_upper_inclusive_seconds_exact": "105881/8820",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 970200,
+        "exact_zero": true,
+        "start": 882000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 970201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 970201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E002-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 970200,
+      "marker_time_exact": "22/1",
+      "n_physical": 970201,
+      "search_window": {
+        "end_exclusive": 1323000,
+        "start": 970200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "22.000022675736961",
+        "seconds_exact": "970201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "22/1",
+        "continuous_time_upper_inclusive_seconds_exact": "970201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 1411200,
+        "exact_zero": true,
+        "start": 1323000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 1411436,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 1411436,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E003-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "5.351473922902494",
+        "milliseconds_exact": "2360/441",
+        "samples": 236,
+        "seconds_decimal": "0.005351473922902",
+        "seconds_exact": "59/11025"
+      },
+      "marker_sample": 1411200,
+      "marker_time_exact": "32/1",
+      "n_physical": 1411436,
+      "search_window": {
+        "end_exclusive": 1764000,
+        "start": 1411200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "32.005351473922902",
+        "seconds_exact": "352859/11025"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "282287/8820",
+        "continuous_time_upper_inclusive_seconds_exact": "352859/11025",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 1852200,
+        "exact_zero": true,
+        "start": 1764000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 1852201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 1852201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E004-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 1852200,
+      "marker_time_exact": "42/1",
+      "n_physical": 1852201,
+      "search_window": {
+        "end_exclusive": 2205000,
+        "start": 1852200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "42.000022675736961",
+        "seconds_exact": "1852201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "42/1",
+        "continuous_time_upper_inclusive_seconds_exact": "1852201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 2293200,
+        "exact_zero": true,
+        "start": 2205000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 2293416,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 2293416,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E005-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "4.897959183673469",
+        "milliseconds_exact": "240/49",
+        "samples": 216,
+        "seconds_decimal": "0.004897959183673",
+        "seconds_exact": "6/1225"
+      },
+      "marker_sample": 2293200,
+      "marker_time_exact": "52/1",
+      "n_physical": 2293416,
+      "search_window": {
+        "end_exclusive": 2646000,
+        "start": 2293200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "52.004897959183673",
+        "seconds_exact": "63706/1225"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "458683/8820",
+        "continuous_time_upper_inclusive_seconds_exact": "63706/1225",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 2734200,
+        "exact_zero": true,
+        "start": 2646000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 2734201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 2734201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E006-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 2734200,
+      "marker_time_exact": "62/1",
+      "n_physical": 2734201,
+      "search_window": {
+        "end_exclusive": 3087000,
+        "start": 2734200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "62.000022675736961",
+        "seconds_exact": "2734201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "62/1",
+        "continuous_time_upper_inclusive_seconds_exact": "2734201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 3175200,
+        "exact_zero": true,
+        "start": 3087000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 3175396,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 3175396,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E007-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "4.444444444444444",
+        "milliseconds_exact": "40/9",
+        "samples": 196,
+        "seconds_decimal": "0.004444444444444",
+        "seconds_exact": "1/225"
+      },
+      "marker_sample": 3175200,
+      "marker_time_exact": "72/1",
+      "n_physical": 3175396,
+      "search_window": {
+        "end_exclusive": 3528000,
+        "start": 3175200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "72.004444444444444",
+        "seconds_exact": "16201/225"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "211693/2940",
+        "continuous_time_upper_inclusive_seconds_exact": "16201/225",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 3616200,
+        "exact_zero": true,
+        "start": 3528000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 3616201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 3616201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E008-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 3616200,
+      "marker_time_exact": "82/1",
+      "n_physical": 3616201,
+      "search_window": {
+        "end_exclusive": 3969000,
+        "start": 3616200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "82.000022675736961",
+        "seconds_exact": "3616201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "82/1",
+        "continuous_time_upper_inclusive_seconds_exact": "3616201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 4057200,
+        "exact_zero": true,
+        "start": 3969000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 4057376,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 4057376,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E009-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "3.990929705215420",
+        "milliseconds_exact": "1760/441",
+        "samples": 176,
+        "seconds_decimal": "0.003990929705215",
+        "seconds_exact": "44/11025"
+      },
+      "marker_sample": 4057200,
+      "marker_time_exact": "92/1",
+      "n_physical": 4057376,
+      "search_window": {
+        "end_exclusive": 4410000,
+        "start": 4057200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "92.003990929705215",
+        "seconds_exact": "1014344/11025"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "23185/252",
+        "continuous_time_upper_inclusive_seconds_exact": "1014344/11025",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 4498200,
+        "exact_zero": true,
+        "start": 4410000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 4498201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 4498201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E010-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 4498200,
+      "marker_time_exact": "102/1",
+      "n_physical": 4498201,
+      "search_window": {
+        "end_exclusive": 4851000,
+        "start": 4498200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "102.000022675736961",
+        "seconds_exact": "4498201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "102/1",
+        "continuous_time_upper_inclusive_seconds_exact": "4498201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 4939200,
+        "exact_zero": true,
+        "start": 4851000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 4939400,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 4939400,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E011-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "4.535147392290249",
+        "milliseconds_exact": "2000/441",
+        "samples": 200,
+        "seconds_decimal": "0.004535147392290",
+        "seconds_exact": "2/441"
+      },
+      "marker_sample": 4939200,
+      "marker_time_exact": "112/1",
+      "n_physical": 4939400,
+      "search_window": {
+        "end_exclusive": 5292000,
+        "start": 4939200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "112.004535147392290",
+        "seconds_exact": "49394/441"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "4939399/44100",
+        "continuous_time_upper_inclusive_seconds_exact": "49394/441",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 5380200,
+        "exact_zero": true,
+        "start": 5292000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 5380201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 5380201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E012-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 5380200,
+      "marker_time_exact": "122/1",
+      "n_physical": 5380201,
+      "search_window": {
+        "end_exclusive": 5733000,
+        "start": 5380200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "122.000022675736961",
+        "seconds_exact": "5380201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "122/1",
+        "continuous_time_upper_inclusive_seconds_exact": "5380201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 5821200,
+        "exact_zero": true,
+        "start": 5733000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 5821380,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 5821380,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E013-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "4.081632653061224",
+        "milliseconds_exact": "200/49",
+        "samples": 180,
+        "seconds_decimal": "0.004081632653061",
+        "seconds_exact": "1/245"
+      },
+      "marker_sample": 5821200,
+      "marker_time_exact": "132/1",
+      "n_physical": 5821380,
+      "search_window": {
+        "end_exclusive": 6174000,
+        "start": 5821200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "132.004081632653061",
+        "seconds_exact": "32341/245"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "5821379/44100",
+        "continuous_time_upper_inclusive_seconds_exact": "32341/245",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 6262200,
+        "exact_zero": true,
+        "start": 6174000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 6262201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 6262201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E014-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 6262200,
+      "marker_time_exact": "142/1",
+      "n_physical": 6262201,
+      "search_window": {
+        "end_exclusive": 6615000,
+        "start": 6262200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "142.000022675736961",
+        "seconds_exact": "6262201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "142/1",
+        "continuous_time_upper_inclusive_seconds_exact": "6262201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 6703200,
+        "exact_zero": true,
+        "start": 6615000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 6703404,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 6703404,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E015-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "4.625850340136054",
+        "milliseconds_exact": "680/147",
+        "samples": 204,
+        "seconds_decimal": "0.004625850340136",
+        "seconds_exact": "17/3675"
+      },
+      "marker_sample": 6703200,
+      "marker_time_exact": "152/1",
+      "n_physical": 6703404,
+      "search_window": {
+        "end_exclusive": 7056000,
+        "start": 6703200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "152.004625850340136",
+        "seconds_exact": "558617/3675"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "957629/6300",
+        "continuous_time_upper_inclusive_seconds_exact": "558617/3675",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 7144200,
+        "exact_zero": true,
+        "start": 7056000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 7144201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 7144201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E016-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 7144200,
+      "marker_time_exact": "162/1",
+      "n_physical": 7144201,
+      "search_window": {
+        "end_exclusive": 7497000,
+        "start": 7144200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "162.000022675736961",
+        "seconds_exact": "7144201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "162/1",
+        "continuous_time_upper_inclusive_seconds_exact": "7144201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 7585200,
+        "exact_zero": true,
+        "start": 7497000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 7585384,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 7585384,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E017-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "4.172335600907029",
+        "milliseconds_exact": "1840/441",
+        "samples": 184,
+        "seconds_decimal": "0.004172335600907",
+        "seconds_exact": "46/11025"
+      },
+      "marker_sample": 7585200,
+      "marker_time_exact": "172/1",
+      "n_physical": 7585384,
+      "search_window": {
+        "end_exclusive": 7938000,
+        "start": 7585200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "172.004172335600907",
+        "seconds_exact": "1896346/11025"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "2528461/14700",
+        "continuous_time_upper_inclusive_seconds_exact": "1896346/11025",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 8026200,
+        "exact_zero": true,
+        "start": 7938000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 8026201,
+          "present": true,
+          "signed_value": 7974
+        },
+        "right": {
+          "first_response_sample": 8026201,
+          "present": true,
+          "signed_value": 617
+        }
+      },
+      "event_id": "CED-VAL-004-E018-DRUMS",
+      "latency": {
+        "milliseconds_decimal": "0.022675736961451",
+        "milliseconds_exact": "10/441",
+        "samples": 1,
+        "seconds_decimal": "0.000022675736961",
+        "seconds_exact": "1/44100"
+      },
+      "marker_sample": 8026200,
+      "marker_time_exact": "182/1",
+      "n_physical": 8026201,
+      "search_window": {
+        "end_exclusive": 8379000,
+        "start": 8026200
+      },
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "182.000022675736961",
+        "seconds_exact": "8026201/44100"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "182/1",
+        "continuous_time_upper_inclusive_seconds_exact": "8026201/44100",
+        "width_seconds_exact": "1/44100"
+      }
+    },
+    {
+      "baseline": {
+        "end_exclusive": 8467200,
+        "exact_zero": true,
+        "start": 8379000
+      },
+      "channel_disagreement": false,
+      "channel_disagreement_status": null,
+      "channel_spread": {
+        "milliseconds_decimal": "0.000000000000000",
+        "milliseconds_exact": "0/1",
+        "samples": 0
+      },
+      "channels": {
+        "left": {
+          "first_response_sample": 8467408,
+          "present": true,
+          "signed_value": 3
+        },
+        "right": {
+          "first_response_sample": 8467408,
+          "present": true,
+          "signed_value": 3
+        }
+      },
+      "event_id": "CED-VAL-004-E019-DOUBLE-BASS",
+      "latency": {
+        "milliseconds_decimal": "4.716553287981859",
+        "milliseconds_exact": "2080/441",
+        "samples": 208,
+        "seconds_decimal": "0.004716553287982",
+        "seconds_exact": "52/11025"
+      },
+      "marker_sample": 8467200,
+      "marker_time_exact": "192/1",
+      "n_physical": 8467408,
+      "search_window": {
+        "end_exclusive": 8820000,
+        "start": 8467200
+      },
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_ONSET",
+      "t_physical": {
+        "seconds_decimal": "192.004716553287982",
+        "seconds_exact": "2116852/11025"
+      },
+      "uncertainty": {
+        "continuous_time_lower_exclusive_seconds_exact": "940823/4900",
+        "continuous_time_upper_inclusive_seconds_exact": "2116852/11025",
+        "width_seconds_exact": "1/44100"
+      }
+    }
+  ],
+  "schema": "JGA-PHYSICAL-ONSET-EVENT-AUTHORITY/v1",
+  "scientific_fingerprint": "7b2ec48f0ff0afca54849b5847f5ebd637c8d672eb2b88247ea6a1841af99062",
+  "status": "FROZEN_PHYSICAL_ONSET_AUTHORITY"
+}

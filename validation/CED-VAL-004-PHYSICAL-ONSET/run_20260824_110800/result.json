@@ -1,0 +1,361 @@
+{
+  "deterministic_replay": "PASS_EXACT",
+  "event_count": 20,
+  "execution_id": "EXEC-CEDVAL004-PHYSICAL-ONSET-20260824-110800",
+  "firewalls": {
+    "h02_executed": false,
+    "historical_results_changed": false,
+    "jga_executed": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "strength_accessed": false
+  },
+  "schema": "JGA-PHYSICAL-ONSET-RESULT/v1",
+  "scientific_fingerprint": "7b2ec48f0ff0afca54849b5847f5ebd637c8d672eb2b88247ea6a1841af99062",
+  "source_summary": {
+    "Double Bass": {
+      "authority_conflict_count": 0,
+      "channel_disagreement_count": 0,
+      "channel_spread_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "mean": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "median": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "minimum": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "q3": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "mean": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "median": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "minimum": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "q3": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          }
+        }
+      },
+      "channel_spread_milliseconds_in_event_order": [
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000"
+      ],
+      "channel_spread_samples_in_event_order": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "event_count": 10,
+      "latency_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "5.351473922902494",
+            "exact": "2360/441"
+          },
+          "mean": {
+            "decimal": "4.546485260770975",
+            "exact": "2005/441"
+          },
+          "median": {
+            "decimal": "4.580498866213152",
+            "exact": "2020/441"
+          },
+          "minimum": {
+            "decimal": "3.990929705215420",
+            "exact": "1760/441"
+          },
+          "population_standard_deviation": "0.386320295632672",
+          "q1": {
+            "decimal": "4.240362811791383",
+            "exact": "1870/441"
+          },
+          "q3": {
+            "decimal": "4.699546485260771",
+            "exact": "4145/882"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "236.000000000000000",
+            "exact": "236/1"
+          },
+          "mean": {
+            "decimal": "200.500000000000000",
+            "exact": "401/2"
+          },
+          "median": {
+            "decimal": "202.000000000000000",
+            "exact": "202/1"
+          },
+          "minimum": {
+            "decimal": "176.000000000000000",
+            "exact": "176/1"
+          },
+          "population_standard_deviation": "17.036725037400821",
+          "q1": {
+            "decimal": "187.000000000000000",
+            "exact": "187/1"
+          },
+          "q3": {
+            "decimal": "207.250000000000000",
+            "exact": "829/4"
+          }
+        }
+      },
+      "latency_milliseconds_in_event_order": [
+        "4.648526077097506",
+        "5.351473922902494",
+        "4.897959183673469",
+        "4.444444444444444",
+        "3.990929705215420",
+        "4.535147392290249",
+        "4.081632653061224",
+        "4.625850340136054",
+        "4.172335600907029",
+        "4.716553287981859"
+      ],
+      "latency_samples_in_event_order": [
+        205,
+        236,
+        216,
+        196,
+        176,
+        200,
+        180,
+        204,
+        184,
+        208
+      ],
+      "missing_response_count": 0,
+      "valid_onset_count": 10
+    },
+    "Drums": {
+      "authority_conflict_count": 0,
+      "channel_disagreement_count": 0,
+      "channel_spread_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "mean": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "median": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "minimum": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "q3": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "mean": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "median": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "minimum": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          },
+          "q3": {
+            "decimal": "0.000000000000000",
+            "exact": "0/1"
+          }
+        }
+      },
+      "channel_spread_milliseconds_in_event_order": [
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000",
+        "0.000000000000000"
+      ],
+      "channel_spread_samples_in_event_order": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "event_count": 10,
+      "latency_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "mean": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "median": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "minimum": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          },
+          "q3": {
+            "decimal": "0.022675736961451",
+            "exact": "10/441"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "mean": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "median": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "minimum": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "population_standard_deviation": "0.000000000000000",
+          "q1": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          },
+          "q3": {
+            "decimal": "1.000000000000000",
+            "exact": "1/1"
+          }
+        }
+      },
+      "latency_milliseconds_in_event_order": [
+        "0.022675736961451",
+        "0.022675736961451",
+        "0.022675736961451",
+        "0.022675736961451",
+        "0.022675736961451",
+        "0.022675736961451",
+        "0.022675736961451",
+        "0.022675736961451",
+        "0.022675736961451",
+        "0.022675736961451"
+      ],
+      "latency_samples_in_event_order": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "missing_response_count": 0,
+      "valid_onset_count": 10
+    }
+  },
+  "status": "PASS_FROZEN_PHYSICAL_ONSET_AUTHORITY",
+  "study_id": "H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01"
+}

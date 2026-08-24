@@ -1,0 +1,10 @@
+{
+  "authority_gate": "PASS",
+  "baseline_checks": "20/20 PASS",
+  "deterministic_replay": "PASS_EXACT",
+  "event_population": "20/20",
+  "execution_id": "EXEC-CEDVAL004-PHYSICAL-ONSET-20260824-110800",
+  "physical_authority_frozen": true,
+  "scientific_fingerprint": "7b2ec48f0ff0afca54849b5847f5ebd637c8d672eb2b88247ea6a1841af99062",
+  "study_id": "H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01"
+}

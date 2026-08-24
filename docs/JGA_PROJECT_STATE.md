@@ -1,8 +1,25 @@
 # JGA Project State
 
+## CED-VAL-004 Physical-Onset Authority
+
+Status: PASS — FROZEN PHYSICAL GROUND TRUTH — PI REVIEW REQUIRED
+
+- The unchanged `H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01` first-nonzero
+  rule produced 20/20 valid physical onsets with 20/20 exact-zero pre-marker
+  baselines, no missing responses and no authority conflicts.
+- Drums latency is one sample (`10/441 ms`) for all 10 events. Double Bass
+  latency ranges from 176 to 236 samples, with median 202 samples.
+- Left/right first-response samples agree for all 20 events. Two complete
+  executions reproduce identities, signed values, onsets, latency quantities,
+  statuses and fingerprint exactly.
+- Scientific fingerprint: `7b2ec48f…`; complete record:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/run_20260824_110800/`.
+- This authority establishes physical onset only. JGA, strength and H02 remain
+  unopened pending separate PI review and authorization.
+
 ## CED-VAL-004 Physical-Onset Measurement Preregistration
 
-Status: FROZEN RULE — NOT EXECUTED
+Status: FROZEN RULE — EXECUTED UNCHANGED
 
 - `H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01` defines `t_physical` as the
   first signed 24-bit source sample differing from exact digital-zero control
@@ -14,7 +31,7 @@ Status: FROZEN RULE — NOT EXECUTED
 - The rule is specific to the frozen no-dither, no-normalization,
   byte-reproducible common-clock authority. It does not generalize to nonzero
   baselines.
-- Physical onset has not been measured. JGA, strength and H02 remain unopened.
+- Physical onset is frozen downstream. JGA, strength and H02 remain unopened.
 
 ## CED-VAL-004 Marker and Raw Waveform Authority
 
