@@ -1,0 +1,102 @@
+{
+  "schema": "JGA-REAL-JAZZ-RAW-MULTITRACK-AUTHORITY/v1",
+  "authority_id": "PR-CED-VAL-005-REAL-JAZZ-MULTITRACK-001",
+  "dataset_id": "CED-VAL-005-REAL-JAZZ-MULTITRACK",
+  "status": "FROZEN_CANDIDATE_REAL_AUDIO_AUTHORITY",
+  "scientific_status": "REAL_HUMAN_JAZZ_RAW_MULTITRACK_CANDIDATE",
+  "external_root": "/Volumes/SSD Track/JGA/datasets/CED-VAL-005-REAL-JAZZ-MULTITRACK/raw/MaurizioPagnuttiSextet_AllTheGinIsGone_Full/",
+  "recording": {
+    "artist": "Maurizio Pagnutti Sextet",
+    "title": "All The Gin Is Gone",
+    "package_type": "Full Multitrack",
+    "supplied_source": "Cambridge Music Technology / Mixing Secrets Free Multitrack Download Library"
+  },
+  "provenance": {
+    "readme_relative_path": "Readme.txt",
+    "readme_sha256": "2654ce8e28c615a4ff741e603d0e49d282cceaf0f5cd3b5eda7844a3c7b1b936",
+    "readme_claim": "Raw multitrack from Maurizio Pagnutti Sextet's 'All The Gin Is Gone'; 16 WAV files at 24-bit/44.1kHz; educational use only; copyright/propriety reserved to Amerio Stefano Edizioni Musicali/Artesuono - Italy.",
+    "library_page": "https://cambridge-mt.com/ms2/mtk/",
+    "library_page_claim": "The library lists the work as an Acoustic Jazz Full Multitrack with 16 tracks and credits Stefano Amerio of Artesuono Recording Studio for contributing the multitracks.",
+    "pi_download_declaration": "PI downloaded the Full Multitrack package from the Cambridge Music Technology / Mixing Secrets multitrack library.",
+    "editing_or_acquisition_details_available": false
+  },
+  "rights_and_use": {
+    "status": "EDUCATIONAL_USE_ONLY_COPYRIGHT_RESTRICTED",
+    "commercial_use": "Requires express permission of copyright holders",
+    "copyright_holder_as_supplied": "Amerio Stefano Edizioni Musicali/Artesuono - Italy",
+    "repository_handling": "External checksum-bound authority; raw audio is not copied into Git"
+  },
+  "declared_tempo_context": {
+    "supplied_text": "approx 246bpm",
+    "scientific_use": "EXCLUDED_FROM_JGA_ANALYTICAL_INPUT"
+  },
+  "common_technical_scope": {
+    "container": "WAVE",
+    "encoding": "SIGNED_24_BIT_LITTLE_ENDIAN_PCM",
+    "sample_rate_hz": 44100,
+    "frame_count_per_channel": 10068072,
+    "duration_seconds_exact": "119858/525",
+    "duration_seconds_decimal": "228.300952380952367",
+    "cross_file_scope_equality": "PASS"
+  },
+  "timeline_authority": {
+    "identical_exported_wav_scope": "ESTABLISHED_OBSERVED_FACT",
+    "common_distributed_file_sample_zero": "ESTABLISHED_FILE_COORDINATE_AUTHORITY",
+    "common_session_or_export_timeline": "UNESTABLISHED",
+    "simultaneous_acquisition": "UNESTABLISHED",
+    "common_hardware_recording_clock": "UNESTABLISHED",
+    "absence_of_editing": "UNESTABLISHED",
+    "physical_source_onset_ground_truth": "NOT_AVAILABLE",
+    "first_nonzero_interpretation": "EXPORT_SCOPE_DIAGNOSTIC_ONLY_NOT_MUSICAL_ONSET",
+    "maximum_first_nonzero_displacement_samples": 9,
+    "maximum_first_nonzero_displacement_milliseconds_exact": "10/49",
+    "maximum_first_nonzero_displacement_milliseconds_decimal": "0.204081632653061"
+  },
+  "source_identity_authority": {
+    "basis": "Supplied filenames, package provenance, and PI-declared source grouping",
+    "raw_track_labels_authorized": true,
+    "drum_analytical_source_construction_decided": false,
+    "double_bass_analytical_source_construction_decided": false,
+    "piano_analytical_source_construction_decided": false,
+    "source_groups": {
+      "Drums components": ["KickIn", "KickOut", "SnareUp", "SnareDown", "HiHat", "Tom1", "Tom2", "Tom3", "Overheads"],
+      "Double Bass candidate channels": ["BassMic", "BassDI"],
+      "Piano candidate channels": ["PianoMics1", "PianoMics2"],
+      "Trumpet": ["Trumpet"],
+      "Trombone": ["Trombone"],
+      "Saxophone": ["Saxophone"]
+    }
+  },
+  "assets": [
+    {"filename":"01_KickIn.wav","relative_path":"01_KickIn.wav","source_label":"KickIn","sha256":"35c97979c0dce76f08563b3814544553159f51a1bd205f244751f948357b9a0f","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":5},
+    {"filename":"02_KickOut.wav","relative_path":"02_KickOut.wav","source_label":"KickOut","sha256":"14e727009eabf46f34a6dd6dc943529fa00af0c40397b4691920951eba034db2","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":0},
+    {"filename":"03_SnareUp.wav","relative_path":"03_SnareUp.wav","source_label":"SnareUp","sha256":"f1663247714103ac037a12418b360761ccb9301898ef537acffe021c67685e3e","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":2},
+    {"filename":"04_SnareDown.wav","relative_path":"04_SnareDown.wav","source_label":"SnareDown","sha256":"cf48a6447c055f67f7246a06ef495794ebb5f20302d7ea85ee1720f501e37b1d","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":4},
+    {"filename":"05_HiHat.wav","relative_path":"05_HiHat.wav","source_label":"HiHat","sha256":"0e0801cf3d57c06b524aea3e497520f79afe0e7b10401e4cb6f46654ce227253","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":7},
+    {"filename":"06_Tom1.wav","relative_path":"06_Tom1.wav","source_label":"Tom1","sha256":"dd4db86c7a735e80c94982080f7cce850898e6dfcb764af297fc637b4bb38364","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":2},
+    {"filename":"07_Tom2.wav","relative_path":"07_Tom2.wav","source_label":"Tom2","sha256":"f6e9c6b620e94e93e1d2518322e640f0a5e5b87cc94b33948e31f8838c901abe","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":4},
+    {"filename":"08_Tom3.wav","relative_path":"08_Tom3.wav","source_label":"Tom3","sha256":"6ba1a12bcf6bda4d2a440120692ad0cfbc09ea76a8e577d41d4461cf5c14b49a","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":3},
+    {"filename":"09_Overheads.wav","relative_path":"09_Overheads.wav","source_label":"Overheads","sha256":"0569a396cff95b130042fc71093e8ba3460e3c0fe0034cb86d2158027d585f3a","channels":2,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":60409086,"first_nonzero_frame":0},
+    {"filename":"10_BassMic.wav","relative_path":"10_BassMic.wav","source_label":"BassMic","sha256":"54faf7909532f89bee873e1fc022b3aaec1ce74f520a58f75d9f734c41a4a692","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":3},
+    {"filename":"11_BassDI.wav","relative_path":"11_BassDI.wav","source_label":"BassDI","sha256":"2c4c06b9b5d4b18e00000bc2c036207fc68fb722c5854e0a30107ad4594a910b","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":2},
+    {"filename":"12_PianoMics1.wav","relative_path":"12_PianoMics1.wav","source_label":"PianoMics1","sha256":"9ea5c9ce9f10a55f6bc81938592003c5612853888598ca189d128d159d2860d1","channels":2,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":60409086,"first_nonzero_frame":0},
+    {"filename":"13_PianoMics2.wav","relative_path":"13_PianoMics2.wav","source_label":"PianoMics2","sha256":"ec2068758cd619982e462e2eb7b32ef29b986e9eeb1cee076000442652009dc4","channels":2,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":60409086,"first_nonzero_frame":1},
+    {"filename":"14_Trumpet.wav","relative_path":"14_Trumpet.wav","source_label":"Trumpet","sha256":"d6b65d8fb10fa5589ba7821262a788c2edf20099daaa63b76943340ce796127f","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":2},
+    {"filename":"15_Trombone.wav","relative_path":"15_Trombone.wav","source_label":"Trombone","sha256":"8000a516f149062316dfedea74ed44aa25fd72d12ca1f94fc9881d085269d8b9","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":9},
+    {"filename":"16_Saxophone.wav","relative_path":"16_Saxophone.wav","source_label":"Saxophone","sha256":"fb9c7618b02f2b1d77faa15f13eb011b703121a2b9f40c2b97f06463d45c9f48","channels":1,"sample_rate_hz":44100,"pcm_bit_depth":24,"frame_count":10068072,"duration_seconds_exact":"119858/525","file_size_bytes":30204870,"first_nonzero_frame":2}
+  ],
+  "appledouble_sidecars": {
+    "present": true,
+    "count": 17,
+    "scientific_authority": false,
+    "action": "IGNORED_NOT_DELETED"
+  },
+  "calibration_applicability": "UNESTABLISHED",
+  "bounded_use_authority": {
+    "scientifically_usable": true,
+    "maximum_authorized_claim": "Deterministic source-labelled observations and neutral geometry on the common distributed-file sample coordinate, with no claim that this coordinate proves a common session timeline, simultaneous acquisition, hardware-clock identity, absence of editing, physical onset, event correspondence, or performance microtiming.",
+    "jga_execution_authorized_now": false,
+    "derived_source_construction_authorized_now": false
+  },
+  "dataset_fingerprint": "d9d6341f837bc5f56054ffd6c91f6be65a7bdbb8043526a9ac70d924a81335af"
+}

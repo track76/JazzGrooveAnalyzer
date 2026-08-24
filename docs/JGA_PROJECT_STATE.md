@@ -1,5 +1,29 @@
 # JGA Project State
 
+## CED-VAL-005 Real Jazz Raw Multitrack Candidate Authority
+
+Status: **FROZEN CANDIDATE AUTHORITY — PI REVIEW REQUIRED**
+
+- `PR-CED-VAL-005-REAL-JAZZ-MULTITRACK-001` binds the external Cambridge
+  Music Technology / Mixing Secrets Full Multitrack for Maurizio Pagnutti
+  Sextet's “All The Gin Is Gone.”
+- The supplied Readme and all 16 raw WAVs are checksum-bound. Every WAV is
+  readable 24-bit PCM at 44.1 kHz with an identical 10,068,072-frame scope;
+  supplied source labels and first-nonzero scope observations were verified.
+- Identical distributed-file scope and sample-zero coordinates are
+  established. Common session/export timeline, simultaneous acquisition,
+  hardware clock, absence of editing and physical onset remain unestablished.
+- Bounded use is restricted to deterministic source-labelled observations and
+  neutral geometry on the distributed-file coordinate. Calibration
+  applicability is `UNESTABLISHED`; no performance-microtiming claim or
+  controlled-dataset numerical transfer is authorized.
+- Drum, Double Bass and Piano analytical-source construction remains undecided.
+  No JGA execution, derived audio, profile, architecture or production change
+  is authorized.
+- The educational-use/copyright limitation is preserved in
+  `validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/INPUT_AUTHORITY.md` and the
+  deterministic manifest.
+
 ## CED-VAL-004 Strength/Physical Prediction Result
 
 Status: **FROZEN — INSUFFICIENT_NONVACUOUS_CANDIDATES — PI REVIEW REQUIRED**
