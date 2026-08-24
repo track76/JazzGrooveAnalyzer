@@ -1,0 +1,9 @@
+{
+  "authority_gate": "PASS",
+  "deterministic_replay": "PASS_EXACT",
+  "marker_decomposition": "PASS_ALL_VALID",
+  "producer_frame_roundtrip": "PASS_ALL",
+  "scientific_fingerprint": "cebccb70224dce4e519197e84178e11afdc1e98b8148914a7512ac6df06ef22e",
+  "status": "PASS_FROZEN_MEASUREMENT_RESULT",
+  "study_id": "H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01"
+}

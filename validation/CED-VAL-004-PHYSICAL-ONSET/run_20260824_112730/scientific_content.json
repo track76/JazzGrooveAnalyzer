@@ -1,0 +1,2268 @@
+{
+  "blind_correspondence": {
+    "boundary_eme_ids": {
+      "Double Bass": [],
+      "Drums": []
+    },
+    "records": [
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "0/1",
+          "right_exact": "529200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "12708ed5-2cae-5b46-9f12-913b9f84c564"
+        ],
+        "event_id": "CED-VAL-004-E000-DRUMS",
+        "marker_sample": 88200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "12708ed5-2cae-5b46-9f12-913b9f84c564",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 88576,
+            "observation_index": 0,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 173,
+            "pulse_candidate_id": "f7884315-b3b1-51a1-910a-085ee997f64e",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 2.0085260770975055,
+            "timestamp_hex": "0x1.011761eb2602dp+1"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "529200/1",
+          "right_exact": "1411200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "7e069fea-4789-5097-947b-05216bfa2645"
+        ],
+        "event_id": "CED-VAL-004-E002-DRUMS",
+        "marker_sample": 970200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "7e069fea-4789-5097-947b-05216bfa2645",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 970752,
+            "observation_index": 1,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 1896,
+            "pulse_candidate_id": "e2ea7bc5-88f2-5456-88e5-329209c96611",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 22.01251700680272,
+            "timestamp_hex": "0x1.603345086dc8bp+4"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "1411200/1",
+          "right_exact": "2293200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "c83f1a8f-258c-5958-8607-9f7e990108b6"
+        ],
+        "event_id": "CED-VAL-004-E004-DRUMS",
+        "marker_sample": 1852200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "c83f1a8f-258c-5958-8607-9f7e990108b6",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 1852416,
+            "observation_index": 2,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 3618,
+            "pulse_candidate_id": "b55e449b-cda2-53a2-b3cb-ab874689a946",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 42.00489795918367,
+            "timestamp_hex": "0x1.500a07f0f4169p+5"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "2293200/1",
+          "right_exact": "3175200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "427bef44-86ae-5907-be05-db842953c6b1"
+        ],
+        "event_id": "CED-VAL-004-E006-DRUMS",
+        "marker_sample": 2734200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "427bef44-86ae-5907-be05-db842953c6b1",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 2734592,
+            "observation_index": 3,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 5341,
+            "pulse_candidate_id": "e57fca8b-4b66-5c7b-b5e8-c90886fd88b9",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 62.00888888888889,
+            "timestamp_hex": "0x1.f0123456789acp+5"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "3175200/1",
+          "right_exact": "4057200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "a3a5ed5d-8306-54bf-9890-82389dc66dc4"
+        ],
+        "event_id": "CED-VAL-004-E008-DRUMS",
+        "marker_sample": 3616200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "a3a5ed5d-8306-54bf-9890-82389dc66dc4",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 3616768,
+            "observation_index": 4,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 7064,
+            "pulse_candidate_id": "03a9b0a4-6832-5609-98a4-51f243dcda4f",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 82.0128798185941,
+            "timestamp_hex": "0x1.480d305dfe8f7p+6"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "4057200/1",
+          "right_exact": "4939200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "ad5bc4af-9273-5719-a204-f3bef7da68cd"
+        ],
+        "event_id": "CED-VAL-004-E010-DRUMS",
+        "marker_sample": 4498200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "ad5bc4af-9273-5719-a204-f3bef7da68cd",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 4498432,
+            "observation_index": 5,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 8786,
+            "pulse_candidate_id": "b2ed2d37-cd61-575b-a25b-e02f1051a435",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 102.00526077097506,
+            "timestamp_hex": "0x1.980563145d289p+6"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "4939200/1",
+          "right_exact": "5821200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "8e51ffc1-3b14-5979-8061-07824a2cb1ce"
+        ],
+        "event_id": "CED-VAL-004-E012-DRUMS",
+        "marker_sample": 5380200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "8e51ffc1-3b14-5979-8061-07824a2cb1ce",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 5380608,
+            "observation_index": 6,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 10509,
+            "pulse_candidate_id": "7626e6a3-2b2d-5be5-981b-74667e37b7be",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 122.00925170068027,
+            "timestamp_hex": "0x1.e80979471f6aap+6"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "5821200/1",
+          "right_exact": "6703200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "cd00ff7e-1d35-51b7-a48a-b093ed94c0c4"
+        ],
+        "event_id": "CED-VAL-004-E014-DRUMS",
+        "marker_sample": 6262200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "cd00ff7e-1d35-51b7-a48a-b093ed94c0c4",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 6262784,
+            "observation_index": 7,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 12232,
+            "pulse_candidate_id": "5a99a8bf-1235-54e7-86f0-874f7de877a1",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 142.0132426303855,
+            "timestamp_hex": "0x1.1c06c7bcf0d66p+7"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "6703200/1",
+          "right_exact": "7585200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "fd0bf44d-6b0d-5941-a730-433e5bb531a8"
+        ],
+        "event_id": "CED-VAL-004-E016-DRUMS",
+        "marker_sample": 7144200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "fd0bf44d-6b0d-5941-a730-433e5bb531a8",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 7144448,
+            "observation_index": 8,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 13954,
+            "pulse_candidate_id": "2f03b0c8-c3e8-5ac1-b110-46308459eb58",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 162.00562358276645,
+            "timestamp_hex": "0x1.4402e1182022fp+7"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "7585200/1",
+          "right_exact": "8820000/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "403b2127-fb11-5a6c-b101-539c8f3e251e"
+        ],
+        "event_id": "CED-VAL-004-E018-DRUMS",
+        "marker_sample": 8026200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "403b2127-fb11-5a6c-b101-539c8f3e251e",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 8026624,
+            "observation_index": 9,
+            "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "producer_frame": 15677,
+            "pulse_candidate_id": "ab384cbb-f67f-56cf-a1b1-0c772f378e64",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 182.00961451247164,
+            "timestamp_hex": "0x1.6c04ec318143fp+7"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Drums",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "0/1",
+          "right_exact": "970200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "3414fe66-51e5-5eec-bdaa-58b6c549f891"
+        ],
+        "event_id": "CED-VAL-004-E001-DOUBLE-BASS",
+        "marker_sample": 529200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "3414fe66-51e5-5eec-bdaa-58b6c549f891",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 529920,
+            "observation_index": 0,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 1035,
+            "pulse_candidate_id": "acb2dc35-53c8-5c3b-8d7c-8a37abf24752",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 12.016326530612245,
+            "timestamp_hex": "0x1.8085bf37612cfp+3"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "970200/1",
+          "right_exact": "1852200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "126bd523-4432-5d89-a641-278734c5dbad"
+        ],
+        "event_id": "CED-VAL-004-E003-DOUBLE-BASS",
+        "marker_sample": 1411200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "126bd523-4432-5d89-a641-278734c5dbad",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 1412096,
+            "observation_index": 1,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 2758,
+            "pulse_candidate_id": "b911416a-a869-50c9-bacb-7ac0f23fcd89",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 32.02031746031746,
+            "timestamp_hex": "0x1.00299c335ccf6p+5"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "1852200/1",
+          "right_exact": "2734200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "9919b4fb-f8b5-5574-a4da-7805fa33b974"
+        ],
+        "event_id": "CED-VAL-004-E005-DOUBLE-BASS",
+        "marker_sample": 2293200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "9919b4fb-f8b5-5574-a4da-7805fa33b974",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 2293760,
+            "observation_index": 2,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 4480,
+            "pulse_candidate_id": "19ca3cc8-c1c7-5e8c-966a-d38d5dcb3b6d",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 52.01269841269841,
+            "timestamp_hex": "0x1.a01a01a01a01ap+5"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "2734200/1",
+          "right_exact": "3616200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "1956f234-24e6-522b-92d8-dca4ab72faaf"
+        ],
+        "event_id": "CED-VAL-004-E007-DOUBLE-BASS",
+        "marker_sample": 3175200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "1956f234-24e6-522b-92d8-dca4ab72faaf",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 3175936,
+            "observation_index": 3,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 6203,
+            "pulse_candidate_id": "b1c71034-afce-53a1-9b3e-ba00b8f3a1d5",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 72.01668934240362,
+            "timestamp_hex": "0x1.20111702cf42ep+6"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "3616200/1",
+          "right_exact": "4498200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "7b057c0e-062c-5b03-ad5d-5f07ab55e6b8"
+        ],
+        "event_id": "CED-VAL-004-E009-DOUBLE-BASS",
+        "marker_sample": 4057200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "7b057c0e-062c-5b03-ad5d-5f07ab55e6b8",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 4057600,
+            "observation_index": 4,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 7925,
+            "pulse_candidate_id": "b08ec34b-f018-55c3-b38b-67bc3682d16b",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 92.00907029478458,
+            "timestamp_hex": "0x1.700949b92ddc0p+6"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "4498200/1",
+          "right_exact": "5380200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "9a436eaa-17ba-56d9-ae73-5d6065c90817"
+        ],
+        "event_id": "CED-VAL-004-E011-DOUBLE-BASS",
+        "marker_sample": 4939200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "9a436eaa-17ba-56d9-ae73-5d6065c90817",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 4939776,
+            "observation_index": 5,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 9648,
+            "pulse_candidate_id": "84e20f22-1100-5aa7-bbc4-f407bdc4db0d",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 112.01306122448979,
+            "timestamp_hex": "0x1.c00d5febf01e1p+6"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "5380200/1",
+          "right_exact": "6262200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "aa29792d-9eb2-5012-9e02-d142126b9d9d"
+        ],
+        "event_id": "CED-VAL-004-E013-DOUBLE-BASS",
+        "marker_sample": 5821200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "aa29792d-9eb2-5012-9e02-d142126b9d9d",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 5821952,
+            "observation_index": 6,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 11371,
+            "pulse_candidate_id": "374e69f2-d22e-582c-90a4-d97675604434",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 132.017052154195,
+            "timestamp_hex": "0x1.0808bb0f59301p+7"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "6262200/1",
+          "right_exact": "7144200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "1d1e926c-e897-5136-858b-971e64a2f266"
+        ],
+        "event_id": "CED-VAL-004-E015-DOUBLE-BASS",
+        "marker_sample": 6703200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "1d1e926c-e897-5136-858b-971e64a2f266",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 6703616,
+            "observation_index": 7,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 13093,
+            "pulse_candidate_id": "5d3bd982-4c12-59cf-bd27-ccae1950312f",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 152.00943310657595,
+            "timestamp_hex": "0x1.3004d46a887cap+7"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "7144200/1",
+          "right_exact": "8026200/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "01c3a15b-38d6-5dca-b7ff-c8523aaff9a9"
+        ],
+        "event_id": "CED-VAL-004-E017-DOUBLE-BASS",
+        "marker_sample": 7585200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "01c3a15b-38d6-5dca-b7ff-c8523aaff9a9",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 7585792,
+            "observation_index": 8,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 14816,
+            "pulse_candidate_id": "26991c03-ff98-5982-804d-d30995b03623",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 172.01342403628118,
+            "timestamp_hex": "0x1.5806df83e99dbp+7"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      },
+      {
+        "cell": {
+          "left_closed": true,
+          "left_exact": "8026200/1",
+          "right_exact": "8820000/1",
+          "right_open": true
+        },
+        "eme_ids": [
+          "34be3cf6-8f34-5b93-b994-910d730ff2f5"
+        ],
+        "event_id": "CED-VAL-004-E019-DOUBLE-BASS",
+        "marker_sample": 8467200,
+        "observations": [
+          {
+            "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+            "eme_id": "34be3cf6-8f34-5b93-b994-910d730ff2f5",
+            "materialization_rule": "source-observation-event/v1",
+            "n_JGA": 8467968,
+            "observation_index": 9,
+            "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "producer_frame": 16539,
+            "pulse_candidate_id": "750b7478-226e-5c53-93de-2eee5774b69f",
+            "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+            "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+            "temporal_scope": "analysis_input",
+            "timestamp_binary64": 192.0174149659864,
+            "timestamp_hex": "0x1.8008ea9d4abecp+7"
+          }
+        ],
+        "observed_count": 1,
+        "source": "Double Bass",
+        "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE"
+      }
+    ],
+    "unmatched_observed_eme_ids": {
+      "Double Bass": [],
+      "Drums": []
+    }
+  },
+  "blind_fingerprint": "70e60d038871791153a0ef05021cef14b190fa0559706dcd77cb9c03b95361db",
+  "dataset_fingerprint": "704ce5926852a2ff62d9794dbee48156f875016979214cf7ef3ab93aa35ec772",
+  "deterministic_replay": "PASS_EXACT",
+  "event_level_results": [
+    {
+      "abs_e_ms_decimal": "8.503401360544218",
+      "abs_e_ms_exact": "1250/147",
+      "abs_e_samples": 375,
+      "abs_e_seconds_exact": "5/588",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "0/1",
+        "right_exact": "529200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "8.503401360544218",
+      "e_ms_exact": "1250/147",
+      "e_samples": 375,
+      "e_seconds_exact": "5/588",
+      "eme_ids": [
+        "12708ed5-2cae-5b46-9f12-913b9f84c564"
+      ],
+      "event_id": "CED-VAL-004-E000-DRUMS",
+      "marker_sample": 88200,
+      "marker_to_JGA_samples": 376,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 88576,
+      "n_physical": 88201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E000-DRUMS",
+      "physical_to_JGA_samples": 375,
+      "producer_frame": 173,
+      "selected_eme_id": "12708ed5-2cae-5b46-9f12-913b9f84c564",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "22144/11025",
+      "t_physical_exact": "88201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "12.494331065759637",
+      "abs_e_ms_exact": "5510/441",
+      "abs_e_samples": 551,
+      "abs_e_seconds_exact": "551/44100",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "529200/1",
+        "right_exact": "1411200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "12.494331065759637",
+      "e_ms_exact": "5510/441",
+      "e_samples": 551,
+      "e_seconds_exact": "551/44100",
+      "eme_ids": [
+        "7e069fea-4789-5097-947b-05216bfa2645"
+      ],
+      "event_id": "CED-VAL-004-E002-DRUMS",
+      "marker_sample": 970200,
+      "marker_to_JGA_samples": 552,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 970752,
+      "n_physical": 970201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E002-DRUMS",
+      "physical_to_JGA_samples": 551,
+      "producer_frame": 1896,
+      "selected_eme_id": "7e069fea-4789-5097-947b-05216bfa2645",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "80896/3675",
+      "t_physical_exact": "970201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "4.875283446712018",
+      "abs_e_ms_exact": "2150/441",
+      "abs_e_samples": 215,
+      "abs_e_seconds_exact": "43/8820",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "1411200/1",
+        "right_exact": "2293200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "4.875283446712018",
+      "e_ms_exact": "2150/441",
+      "e_samples": 215,
+      "e_seconds_exact": "43/8820",
+      "eme_ids": [
+        "c83f1a8f-258c-5958-8607-9f7e990108b6"
+      ],
+      "event_id": "CED-VAL-004-E004-DRUMS",
+      "marker_sample": 1852200,
+      "marker_to_JGA_samples": 216,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 1852416,
+      "n_physical": 1852201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E004-DRUMS",
+      "physical_to_JGA_samples": 215,
+      "producer_frame": 3618,
+      "selected_eme_id": "c83f1a8f-258c-5958-8607-9f7e990108b6",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "51456/1225",
+      "t_physical_exact": "1852201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "8.866213151927438",
+      "abs_e_ms_exact": "3910/441",
+      "abs_e_samples": 391,
+      "abs_e_seconds_exact": "391/44100",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "2293200/1",
+        "right_exact": "3175200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "8.866213151927438",
+      "e_ms_exact": "3910/441",
+      "e_samples": 391,
+      "e_seconds_exact": "391/44100",
+      "eme_ids": [
+        "427bef44-86ae-5907-be05-db842953c6b1"
+      ],
+      "event_id": "CED-VAL-004-E006-DRUMS",
+      "marker_sample": 2734200,
+      "marker_to_JGA_samples": 392,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 2734592,
+      "n_physical": 2734201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E006-DRUMS",
+      "physical_to_JGA_samples": 391,
+      "producer_frame": 5341,
+      "selected_eme_id": "427bef44-86ae-5907-be05-db842953c6b1",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "13952/225",
+      "t_physical_exact": "2734201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "12.857142857142857",
+      "abs_e_ms_exact": "90/7",
+      "abs_e_samples": 567,
+      "abs_e_seconds_exact": "9/700",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "3175200/1",
+        "right_exact": "4057200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "12.857142857142857",
+      "e_ms_exact": "90/7",
+      "e_samples": 567,
+      "e_seconds_exact": "9/700",
+      "eme_ids": [
+        "a3a5ed5d-8306-54bf-9890-82389dc66dc4"
+      ],
+      "event_id": "CED-VAL-004-E008-DRUMS",
+      "marker_sample": 3616200,
+      "marker_to_JGA_samples": 568,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 3616768,
+      "n_physical": 3616201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E008-DRUMS",
+      "physical_to_JGA_samples": 567,
+      "producer_frame": 7064,
+      "selected_eme_id": "a3a5ed5d-8306-54bf-9890-82389dc66dc4",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "904192/11025",
+      "t_physical_exact": "3616201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "5.238095238095238",
+      "abs_e_ms_exact": "110/21",
+      "abs_e_samples": 231,
+      "abs_e_seconds_exact": "11/2100",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "4057200/1",
+        "right_exact": "4939200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "5.238095238095238",
+      "e_ms_exact": "110/21",
+      "e_samples": 231,
+      "e_seconds_exact": "11/2100",
+      "eme_ids": [
+        "ad5bc4af-9273-5719-a204-f3bef7da68cd"
+      ],
+      "event_id": "CED-VAL-004-E010-DRUMS",
+      "marker_sample": 4498200,
+      "marker_to_JGA_samples": 232,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 4498432,
+      "n_physical": 4498201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E010-DRUMS",
+      "physical_to_JGA_samples": 231,
+      "producer_frame": 8786,
+      "selected_eme_id": "ad5bc4af-9273-5719-a204-f3bef7da68cd",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "1124608/11025",
+      "t_physical_exact": "4498201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "9.229024943310658",
+      "abs_e_ms_exact": "4070/441",
+      "abs_e_samples": 407,
+      "abs_e_seconds_exact": "407/44100",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "4939200/1",
+        "right_exact": "5821200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "9.229024943310658",
+      "e_ms_exact": "4070/441",
+      "e_samples": 407,
+      "e_seconds_exact": "407/44100",
+      "eme_ids": [
+        "8e51ffc1-3b14-5979-8061-07824a2cb1ce"
+      ],
+      "event_id": "CED-VAL-004-E012-DRUMS",
+      "marker_sample": 5380200,
+      "marker_to_JGA_samples": 408,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 5380608,
+      "n_physical": 5380201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E012-DRUMS",
+      "physical_to_JGA_samples": 407,
+      "producer_frame": 10509,
+      "selected_eme_id": "8e51ffc1-3b14-5979-8061-07824a2cb1ce",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "448384/3675",
+      "t_physical_exact": "5380201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "13.219954648526077",
+      "abs_e_ms_exact": "5830/441",
+      "abs_e_samples": 583,
+      "abs_e_seconds_exact": "583/44100",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "5821200/1",
+        "right_exact": "6703200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "13.219954648526077",
+      "e_ms_exact": "5830/441",
+      "e_samples": 583,
+      "e_seconds_exact": "583/44100",
+      "eme_ids": [
+        "cd00ff7e-1d35-51b7-a48a-b093ed94c0c4"
+      ],
+      "event_id": "CED-VAL-004-E014-DRUMS",
+      "marker_sample": 6262200,
+      "marker_to_JGA_samples": 584,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 6262784,
+      "n_physical": 6262201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E014-DRUMS",
+      "physical_to_JGA_samples": 583,
+      "producer_frame": 12232,
+      "selected_eme_id": "cd00ff7e-1d35-51b7-a48a-b093ed94c0c4",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "1565696/11025",
+      "t_physical_exact": "6262201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "5.600907029478458",
+      "abs_e_ms_exact": "2470/441",
+      "abs_e_samples": 247,
+      "abs_e_seconds_exact": "247/44100",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "6703200/1",
+        "right_exact": "7585200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "5.600907029478458",
+      "e_ms_exact": "2470/441",
+      "e_samples": 247,
+      "e_seconds_exact": "247/44100",
+      "eme_ids": [
+        "fd0bf44d-6b0d-5941-a730-433e5bb531a8"
+      ],
+      "event_id": "CED-VAL-004-E016-DRUMS",
+      "marker_sample": 7144200,
+      "marker_to_JGA_samples": 248,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 7144448,
+      "n_physical": 7144201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E016-DRUMS",
+      "physical_to_JGA_samples": 247,
+      "producer_frame": 13954,
+      "selected_eme_id": "fd0bf44d-6b0d-5941-a730-433e5bb531a8",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "1786112/11025",
+      "t_physical_exact": "7144201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "9.591836734693878",
+      "abs_e_ms_exact": "470/49",
+      "abs_e_samples": 423,
+      "abs_e_seconds_exact": "47/4900",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "7585200/1",
+        "right_exact": "8820000/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "9.591836734693878",
+      "e_ms_exact": "470/49",
+      "e_samples": 423,
+      "e_seconds_exact": "47/4900",
+      "eme_ids": [
+        "403b2127-fb11-5a6c-b101-539c8f3e251e"
+      ],
+      "event_id": "CED-VAL-004-E018-DRUMS",
+      "marker_sample": 8026200,
+      "marker_to_JGA_samples": 424,
+      "marker_to_physical_samples": 1,
+      "n_JGA": 8026624,
+      "n_physical": 8026201,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E018-DRUMS",
+      "physical_to_JGA_samples": 423,
+      "producer_frame": 15677,
+      "selected_eme_id": "403b2127-fb11-5a6c-b101-539c8f3e251e",
+      "source": "Drums",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "2006656/11025",
+      "t_physical_exact": "8026201/44100"
+    },
+    {
+      "abs_e_ms_decimal": "11.678004535147392",
+      "abs_e_ms_exact": "5150/441",
+      "abs_e_samples": 515,
+      "abs_e_seconds_exact": "103/8820",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "0/1",
+        "right_exact": "970200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "11.678004535147392",
+      "e_ms_exact": "5150/441",
+      "e_samples": 515,
+      "e_seconds_exact": "103/8820",
+      "eme_ids": [
+        "3414fe66-51e5-5eec-bdaa-58b6c549f891"
+      ],
+      "event_id": "CED-VAL-004-E001-DOUBLE-BASS",
+      "marker_sample": 529200,
+      "marker_to_JGA_samples": 720,
+      "marker_to_physical_samples": 205,
+      "n_JGA": 529920,
+      "n_physical": 529405,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E001-DOUBLE-BASS",
+      "physical_to_JGA_samples": 515,
+      "producer_frame": 1035,
+      "selected_eme_id": "3414fe66-51e5-5eec-bdaa-58b6c549f891",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "2944/245",
+      "t_physical_exact": "105881/8820"
+    },
+    {
+      "abs_e_ms_decimal": "14.965986394557823",
+      "abs_e_ms_exact": "2200/147",
+      "abs_e_samples": 660,
+      "abs_e_seconds_exact": "11/735",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "970200/1",
+        "right_exact": "1852200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "14.965986394557823",
+      "e_ms_exact": "2200/147",
+      "e_samples": 660,
+      "e_seconds_exact": "11/735",
+      "eme_ids": [
+        "126bd523-4432-5d89-a641-278734c5dbad"
+      ],
+      "event_id": "CED-VAL-004-E003-DOUBLE-BASS",
+      "marker_sample": 1411200,
+      "marker_to_JGA_samples": 896,
+      "marker_to_physical_samples": 236,
+      "n_JGA": 1412096,
+      "n_physical": 1411436,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E003-DOUBLE-BASS",
+      "physical_to_JGA_samples": 660,
+      "producer_frame": 2758,
+      "selected_eme_id": "126bd523-4432-5d89-a641-278734c5dbad",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "50432/1575",
+      "t_physical_exact": "352859/11025"
+    },
+    {
+      "abs_e_ms_decimal": "7.800453514739229",
+      "abs_e_ms_exact": "3440/441",
+      "abs_e_samples": 344,
+      "abs_e_seconds_exact": "86/11025",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "1852200/1",
+        "right_exact": "2734200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "7.800453514739229",
+      "e_ms_exact": "3440/441",
+      "e_samples": 344,
+      "e_seconds_exact": "86/11025",
+      "eme_ids": [
+        "9919b4fb-f8b5-5574-a4da-7805fa33b974"
+      ],
+      "event_id": "CED-VAL-004-E005-DOUBLE-BASS",
+      "marker_sample": 2293200,
+      "marker_to_JGA_samples": 560,
+      "marker_to_physical_samples": 216,
+      "n_JGA": 2293760,
+      "n_physical": 2293416,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E005-DOUBLE-BASS",
+      "physical_to_JGA_samples": 344,
+      "producer_frame": 4480,
+      "selected_eme_id": "9919b4fb-f8b5-5574-a4da-7805fa33b974",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "16384/315",
+      "t_physical_exact": "63706/1225"
+    },
+    {
+      "abs_e_ms_decimal": "12.244897959183673",
+      "abs_e_ms_exact": "600/49",
+      "abs_e_samples": 540,
+      "abs_e_seconds_exact": "3/245",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "2734200/1",
+        "right_exact": "3616200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "12.244897959183673",
+      "e_ms_exact": "600/49",
+      "e_samples": 540,
+      "e_seconds_exact": "3/245",
+      "eme_ids": [
+        "1956f234-24e6-522b-92d8-dca4ab72faaf"
+      ],
+      "event_id": "CED-VAL-004-E007-DOUBLE-BASS",
+      "marker_sample": 3175200,
+      "marker_to_JGA_samples": 736,
+      "marker_to_physical_samples": 196,
+      "n_JGA": 3175936,
+      "n_physical": 3175396,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E007-DOUBLE-BASS",
+      "physical_to_JGA_samples": 540,
+      "producer_frame": 6203,
+      "selected_eme_id": "1956f234-24e6-522b-92d8-dca4ab72faaf",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "793984/11025",
+      "t_physical_exact": "16201/225"
+    },
+    {
+      "abs_e_ms_decimal": "5.079365079365079",
+      "abs_e_ms_exact": "320/63",
+      "abs_e_samples": 224,
+      "abs_e_seconds_exact": "8/1575",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "3616200/1",
+        "right_exact": "4498200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "5.079365079365079",
+      "e_ms_exact": "320/63",
+      "e_samples": 224,
+      "e_seconds_exact": "8/1575",
+      "eme_ids": [
+        "7b057c0e-062c-5b03-ad5d-5f07ab55e6b8"
+      ],
+      "event_id": "CED-VAL-004-E009-DOUBLE-BASS",
+      "marker_sample": 4057200,
+      "marker_to_JGA_samples": 400,
+      "marker_to_physical_samples": 176,
+      "n_JGA": 4057600,
+      "n_physical": 4057376,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E009-DOUBLE-BASS",
+      "physical_to_JGA_samples": 224,
+      "producer_frame": 7925,
+      "selected_eme_id": "7b057c0e-062c-5b03-ad5d-5f07ab55e6b8",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "40576/441",
+      "t_physical_exact": "1014344/11025"
+    },
+    {
+      "abs_e_ms_decimal": "8.526077097505669",
+      "abs_e_ms_exact": "3760/441",
+      "abs_e_samples": 376,
+      "abs_e_seconds_exact": "94/11025",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "4498200/1",
+        "right_exact": "5380200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "8.526077097505669",
+      "e_ms_exact": "3760/441",
+      "e_samples": 376,
+      "e_seconds_exact": "94/11025",
+      "eme_ids": [
+        "9a436eaa-17ba-56d9-ae73-5d6065c90817"
+      ],
+      "event_id": "CED-VAL-004-E011-DOUBLE-BASS",
+      "marker_sample": 4939200,
+      "marker_to_JGA_samples": 576,
+      "marker_to_physical_samples": 200,
+      "n_JGA": 4939776,
+      "n_physical": 4939400,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E011-DOUBLE-BASS",
+      "physical_to_JGA_samples": 376,
+      "producer_frame": 9648,
+      "selected_eme_id": "9a436eaa-17ba-56d9-ae73-5d6065c90817",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "137216/1225",
+      "t_physical_exact": "49394/441"
+    },
+    {
+      "abs_e_ms_decimal": "12.970521541950113",
+      "abs_e_ms_exact": "5720/441",
+      "abs_e_samples": 572,
+      "abs_e_seconds_exact": "143/11025",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "5380200/1",
+        "right_exact": "6262200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "12.970521541950113",
+      "e_ms_exact": "5720/441",
+      "e_samples": 572,
+      "e_seconds_exact": "143/11025",
+      "eme_ids": [
+        "aa29792d-9eb2-5012-9e02-d142126b9d9d"
+      ],
+      "event_id": "CED-VAL-004-E013-DOUBLE-BASS",
+      "marker_sample": 5821200,
+      "marker_to_JGA_samples": 752,
+      "marker_to_physical_samples": 180,
+      "n_JGA": 5821952,
+      "n_physical": 5821380,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E013-DOUBLE-BASS",
+      "physical_to_JGA_samples": 572,
+      "producer_frame": 11371,
+      "selected_eme_id": "aa29792d-9eb2-5012-9e02-d142126b9d9d",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "1455488/11025",
+      "t_physical_exact": "32341/245"
+    },
+    {
+      "abs_e_ms_decimal": "4.807256235827664",
+      "abs_e_ms_exact": "2120/441",
+      "abs_e_samples": 212,
+      "abs_e_seconds_exact": "53/11025",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "6262200/1",
+        "right_exact": "7144200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "4.807256235827664",
+      "e_ms_exact": "2120/441",
+      "e_samples": 212,
+      "e_seconds_exact": "53/11025",
+      "eme_ids": [
+        "1d1e926c-e897-5136-858b-971e64a2f266"
+      ],
+      "event_id": "CED-VAL-004-E015-DOUBLE-BASS",
+      "marker_sample": 6703200,
+      "marker_to_JGA_samples": 416,
+      "marker_to_physical_samples": 204,
+      "n_JGA": 6703616,
+      "n_physical": 6703404,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E015-DOUBLE-BASS",
+      "physical_to_JGA_samples": 212,
+      "producer_frame": 13093,
+      "selected_eme_id": "1d1e926c-e897-5136-858b-971e64a2f266",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "1675904/11025",
+      "t_physical_exact": "558617/3675"
+    },
+    {
+      "abs_e_ms_decimal": "9.251700680272109",
+      "abs_e_ms_exact": "1360/147",
+      "abs_e_samples": 408,
+      "abs_e_seconds_exact": "34/3675",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "7144200/1",
+        "right_exact": "8026200/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "9.251700680272109",
+      "e_ms_exact": "1360/147",
+      "e_samples": 408,
+      "e_seconds_exact": "34/3675",
+      "eme_ids": [
+        "01c3a15b-38d6-5dca-b7ff-c8523aaff9a9"
+      ],
+      "event_id": "CED-VAL-004-E017-DOUBLE-BASS",
+      "marker_sample": 7585200,
+      "marker_to_JGA_samples": 592,
+      "marker_to_physical_samples": 184,
+      "n_JGA": 7585792,
+      "n_physical": 7585384,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E017-DOUBLE-BASS",
+      "physical_to_JGA_samples": 408,
+      "producer_frame": 14816,
+      "selected_eme_id": "01c3a15b-38d6-5dca-b7ff-c8523aaff9a9",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "1896448/11025",
+      "t_physical_exact": "1896346/11025"
+    },
+    {
+      "abs_e_ms_decimal": "12.698412698412698",
+      "abs_e_ms_exact": "800/63",
+      "abs_e_samples": 560,
+      "abs_e_seconds_exact": "4/315",
+      "cell": {
+        "left_closed": true,
+        "left_exact": "8026200/1",
+        "right_exact": "8820000/1",
+        "right_open": true
+      },
+      "decomposition_verified": true,
+      "e_ms_decimal": "12.698412698412698",
+      "e_ms_exact": "800/63",
+      "e_samples": 560,
+      "e_seconds_exact": "4/315",
+      "eme_ids": [
+        "34be3cf6-8f34-5b93-b994-910d730ff2f5"
+      ],
+      "event_id": "CED-VAL-004-E019-DOUBLE-BASS",
+      "marker_sample": 8467200,
+      "marker_to_JGA_samples": 768,
+      "marker_to_physical_samples": 208,
+      "n_JGA": 8467968,
+      "n_physical": 8467408,
+      "observed_count": 1,
+      "physical_authority_id": "CED-VAL-004-E019-DOUBLE-BASS",
+      "physical_to_JGA_samples": 560,
+      "producer_frame": 16539,
+      "selected_eme_id": "34be3cf6-8f34-5b93-b994-910d730ff2f5",
+      "source": "Double Bass",
+      "status": "VALID_PHYSICAL_JGA_CORRESPONDENCE",
+      "t_JGA_exact": "705664/3675",
+      "t_physical_exact": "2116852/11025"
+    }
+  ],
+  "firewalls": {
+    "confidence_used": false,
+    "h02_changed": false,
+    "h03_created": false,
+    "historical_results_changed": false,
+    "jga_tuned": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "strength_accessed": false
+  },
+  "frame_authority": {
+    "all_n_JGA_on_lattice": true,
+    "hop_samples": 512,
+    "sample_rate_hz": 44100,
+    "spacing_ms_decimal": "11.609977324263039",
+    "spacing_seconds_exact": "512/44100"
+  },
+  "observed": {
+    "Double Bass": {
+      "elementary_metric_events": [
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "3414fe66-51e5-5eec-bdaa-58b6c549f891",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 529920,
+          "observation_index": 0,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 1035,
+          "pulse_candidate_id": "acb2dc35-53c8-5c3b-8d7c-8a37abf24752",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 12.016326530612245,
+          "timestamp_hex": "0x1.8085bf37612cfp+3"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "126bd523-4432-5d89-a641-278734c5dbad",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 1412096,
+          "observation_index": 1,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 2758,
+          "pulse_candidate_id": "b911416a-a869-50c9-bacb-7ac0f23fcd89",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 32.02031746031746,
+          "timestamp_hex": "0x1.00299c335ccf6p+5"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "9919b4fb-f8b5-5574-a4da-7805fa33b974",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 2293760,
+          "observation_index": 2,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 4480,
+          "pulse_candidate_id": "19ca3cc8-c1c7-5e8c-966a-d38d5dcb3b6d",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 52.01269841269841,
+          "timestamp_hex": "0x1.a01a01a01a01ap+5"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "1956f234-24e6-522b-92d8-dca4ab72faaf",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 3175936,
+          "observation_index": 3,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 6203,
+          "pulse_candidate_id": "b1c71034-afce-53a1-9b3e-ba00b8f3a1d5",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 72.01668934240362,
+          "timestamp_hex": "0x1.20111702cf42ep+6"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "7b057c0e-062c-5b03-ad5d-5f07ab55e6b8",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 4057600,
+          "observation_index": 4,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 7925,
+          "pulse_candidate_id": "b08ec34b-f018-55c3-b38b-67bc3682d16b",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 92.00907029478458,
+          "timestamp_hex": "0x1.700949b92ddc0p+6"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "9a436eaa-17ba-56d9-ae73-5d6065c90817",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 4939776,
+          "observation_index": 5,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 9648,
+          "pulse_candidate_id": "84e20f22-1100-5aa7-bbc4-f407bdc4db0d",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 112.01306122448979,
+          "timestamp_hex": "0x1.c00d5febf01e1p+6"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "aa29792d-9eb2-5012-9e02-d142126b9d9d",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 5821952,
+          "observation_index": 6,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 11371,
+          "pulse_candidate_id": "374e69f2-d22e-582c-90a4-d97675604434",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 132.017052154195,
+          "timestamp_hex": "0x1.0808bb0f59301p+7"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "1d1e926c-e897-5136-858b-971e64a2f266",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 6703616,
+          "observation_index": 7,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 13093,
+          "pulse_candidate_id": "5d3bd982-4c12-59cf-bd27-ccae1950312f",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 152.00943310657595,
+          "timestamp_hex": "0x1.3004d46a887cap+7"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "01c3a15b-38d6-5dca-b7ff-c8523aaff9a9",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 7585792,
+          "observation_index": 8,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 14816,
+          "pulse_candidate_id": "26991c03-ff98-5982-804d-d30995b03623",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 172.01342403628118,
+          "timestamp_hex": "0x1.5806df83e99dbp+7"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "34be3cf6-8f34-5b93-b994-910d730ff2f5",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 8467968,
+          "observation_index": 9,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 16539,
+          "pulse_candidate_id": "750b7478-226e-5c53-93de-2eee5774b69f",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 192.0174149659864,
+          "timestamp_hex": "0x1.8008ea9d4abecp+7"
+        }
+      ],
+      "pulse_candidates": [
+        {
+          "n_JGA": 529920,
+          "observation_index": 0,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 1035,
+          "pulse_candidate_id": "acb2dc35-53c8-5c3b-8d7c-8a37abf24752",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 12.016326530612245,
+          "timestamp_hex": "0x1.8085bf37612cfp+3"
+        },
+        {
+          "n_JGA": 1412096,
+          "observation_index": 1,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 2758,
+          "pulse_candidate_id": "b911416a-a869-50c9-bacb-7ac0f23fcd89",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 32.02031746031746,
+          "timestamp_hex": "0x1.00299c335ccf6p+5"
+        },
+        {
+          "n_JGA": 2293760,
+          "observation_index": 2,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 4480,
+          "pulse_candidate_id": "19ca3cc8-c1c7-5e8c-966a-d38d5dcb3b6d",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 52.01269841269841,
+          "timestamp_hex": "0x1.a01a01a01a01ap+5"
+        },
+        {
+          "n_JGA": 3175936,
+          "observation_index": 3,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 6203,
+          "pulse_candidate_id": "b1c71034-afce-53a1-9b3e-ba00b8f3a1d5",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 72.01668934240362,
+          "timestamp_hex": "0x1.20111702cf42ep+6"
+        },
+        {
+          "n_JGA": 4057600,
+          "observation_index": 4,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 7925,
+          "pulse_candidate_id": "b08ec34b-f018-55c3-b38b-67bc3682d16b",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 92.00907029478458,
+          "timestamp_hex": "0x1.700949b92ddc0p+6"
+        },
+        {
+          "n_JGA": 4939776,
+          "observation_index": 5,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 9648,
+          "pulse_candidate_id": "84e20f22-1100-5aa7-bbc4-f407bdc4db0d",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 112.01306122448979,
+          "timestamp_hex": "0x1.c00d5febf01e1p+6"
+        },
+        {
+          "n_JGA": 5821952,
+          "observation_index": 6,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 11371,
+          "pulse_candidate_id": "374e69f2-d22e-582c-90a4-d97675604434",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 132.017052154195,
+          "timestamp_hex": "0x1.0808bb0f59301p+7"
+        },
+        {
+          "n_JGA": 6703616,
+          "observation_index": 7,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 13093,
+          "pulse_candidate_id": "5d3bd982-4c12-59cf-bd27-ccae1950312f",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 152.00943310657595,
+          "timestamp_hex": "0x1.3004d46a887cap+7"
+        },
+        {
+          "n_JGA": 7585792,
+          "observation_index": 8,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 14816,
+          "pulse_candidate_id": "26991c03-ff98-5982-804d-d30995b03623",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 172.01342403628118,
+          "timestamp_hex": "0x1.5806df83e99dbp+7"
+        },
+        {
+          "n_JGA": 8467968,
+          "observation_index": 9,
+          "observation_provenance_id": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392",
+          "producer_frame": 16539,
+          "pulse_candidate_id": "750b7478-226e-5c53-93de-2eee5774b69f",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 192.0174149659864,
+          "timestamp_hex": "0x1.8008ea9d4abecp+7"
+        }
+      ]
+    },
+    "Drums": {
+      "elementary_metric_events": [
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "12708ed5-2cae-5b46-9f12-913b9f84c564",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 88576,
+          "observation_index": 0,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 173,
+          "pulse_candidate_id": "f7884315-b3b1-51a1-910a-085ee997f64e",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 2.0085260770975055,
+          "timestamp_hex": "0x1.011761eb2602dp+1"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "7e069fea-4789-5097-947b-05216bfa2645",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 970752,
+          "observation_index": 1,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 1896,
+          "pulse_candidate_id": "e2ea7bc5-88f2-5456-88e5-329209c96611",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 22.01251700680272,
+          "timestamp_hex": "0x1.603345086dc8bp+4"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "c83f1a8f-258c-5958-8607-9f7e990108b6",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 1852416,
+          "observation_index": 2,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 3618,
+          "pulse_candidate_id": "b55e449b-cda2-53a2-b3cb-ab874689a946",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 42.00489795918367,
+          "timestamp_hex": "0x1.500a07f0f4169p+5"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "427bef44-86ae-5907-be05-db842953c6b1",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 2734592,
+          "observation_index": 3,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 5341,
+          "pulse_candidate_id": "e57fca8b-4b66-5c7b-b5e8-c90886fd88b9",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 62.00888888888889,
+          "timestamp_hex": "0x1.f0123456789acp+5"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "a3a5ed5d-8306-54bf-9890-82389dc66dc4",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 3616768,
+          "observation_index": 4,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 7064,
+          "pulse_candidate_id": "03a9b0a4-6832-5609-98a4-51f243dcda4f",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 82.0128798185941,
+          "timestamp_hex": "0x1.480d305dfe8f7p+6"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "ad5bc4af-9273-5719-a204-f3bef7da68cd",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 4498432,
+          "observation_index": 5,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 8786,
+          "pulse_candidate_id": "b2ed2d37-cd61-575b-a25b-e02f1051a435",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 102.00526077097506,
+          "timestamp_hex": "0x1.980563145d289p+6"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "8e51ffc1-3b14-5979-8061-07824a2cb1ce",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 5380608,
+          "observation_index": 6,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 10509,
+          "pulse_candidate_id": "7626e6a3-2b2d-5be5-981b-74667e37b7be",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 122.00925170068027,
+          "timestamp_hex": "0x1.e80979471f6aap+6"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "cd00ff7e-1d35-51b7-a48a-b093ed94c0c4",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 6262784,
+          "observation_index": 7,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 12232,
+          "pulse_candidate_id": "5a99a8bf-1235-54e7-86f0-874f7de877a1",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 142.0132426303855,
+          "timestamp_hex": "0x1.1c06c7bcf0d66p+7"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "fd0bf44d-6b0d-5941-a730-433e5bb531a8",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 7144448,
+          "observation_index": 8,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 13954,
+          "pulse_candidate_id": "2f03b0c8-c3e8-5ac1-b110-46308459eb58",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 162.00562358276645,
+          "timestamp_hex": "0x1.4402e1182022fp+7"
+        },
+        {
+          "contributor_id": "21487a6e-2b3d-5f83-ad6e-7270367bc0d2",
+          "eme_id": "403b2127-fb11-5a6c-b101-539c8f3e251e",
+          "materialization_rule": "source-observation-event/v1",
+          "n_JGA": 8026624,
+          "observation_index": 9,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 15677,
+          "pulse_candidate_id": "ab384cbb-f67f-56cf-a1b1-0c772f378e64",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "source_asset_sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "temporal_scope": "analysis_input",
+          "timestamp_binary64": 182.00961451247164,
+          "timestamp_hex": "0x1.6c04ec318143fp+7"
+        }
+      ],
+      "pulse_candidates": [
+        {
+          "n_JGA": 88576,
+          "observation_index": 0,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 173,
+          "pulse_candidate_id": "f7884315-b3b1-51a1-910a-085ee997f64e",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 2.0085260770975055,
+          "timestamp_hex": "0x1.011761eb2602dp+1"
+        },
+        {
+          "n_JGA": 970752,
+          "observation_index": 1,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 1896,
+          "pulse_candidate_id": "e2ea7bc5-88f2-5456-88e5-329209c96611",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 22.01251700680272,
+          "timestamp_hex": "0x1.603345086dc8bp+4"
+        },
+        {
+          "n_JGA": 1852416,
+          "observation_index": 2,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 3618,
+          "pulse_candidate_id": "b55e449b-cda2-53a2-b3cb-ab874689a946",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 42.00489795918367,
+          "timestamp_hex": "0x1.500a07f0f4169p+5"
+        },
+        {
+          "n_JGA": 2734592,
+          "observation_index": 3,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 5341,
+          "pulse_candidate_id": "e57fca8b-4b66-5c7b-b5e8-c90886fd88b9",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 62.00888888888889,
+          "timestamp_hex": "0x1.f0123456789acp+5"
+        },
+        {
+          "n_JGA": 3616768,
+          "observation_index": 4,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 7064,
+          "pulse_candidate_id": "03a9b0a4-6832-5609-98a4-51f243dcda4f",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 82.0128798185941,
+          "timestamp_hex": "0x1.480d305dfe8f7p+6"
+        },
+        {
+          "n_JGA": 4498432,
+          "observation_index": 5,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 8786,
+          "pulse_candidate_id": "b2ed2d37-cd61-575b-a25b-e02f1051a435",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 102.00526077097506,
+          "timestamp_hex": "0x1.980563145d289p+6"
+        },
+        {
+          "n_JGA": 5380608,
+          "observation_index": 6,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 10509,
+          "pulse_candidate_id": "7626e6a3-2b2d-5be5-981b-74667e37b7be",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 122.00925170068027,
+          "timestamp_hex": "0x1.e80979471f6aap+6"
+        },
+        {
+          "n_JGA": 6262784,
+          "observation_index": 7,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 12232,
+          "pulse_candidate_id": "5a99a8bf-1235-54e7-86f0-874f7de877a1",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 142.0132426303855,
+          "timestamp_hex": "0x1.1c06c7bcf0d66p+7"
+        },
+        {
+          "n_JGA": 7144448,
+          "observation_index": 8,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 13954,
+          "pulse_candidate_id": "2f03b0c8-c3e8-5ac1-b110-46308459eb58",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 162.00562358276645,
+          "timestamp_hex": "0x1.4402e1182022fp+7"
+        },
+        {
+          "n_JGA": 8026624,
+          "observation_index": 9,
+          "observation_provenance_id": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09",
+          "producer_frame": 15677,
+          "pulse_candidate_id": "ab384cbb-f67f-56cf-a1b1-0c772f378e64",
+          "sound_source_id": "4cf99f4b-bdd4-547c-8ddd-17f675910598",
+          "timestamp_binary64": 182.00961451247164,
+          "timestamp_hex": "0x1.6c04ec318143fp+7"
+        }
+      ]
+    }
+  },
+  "physical_authority_fingerprint": "7b2ec48f0ff0afca54849b5847f5ebd637c8d672eb2b88247ea6a1841af99062",
+  "source_summary": {
+    "Double Bass": {
+      "absolute_error_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "14.965986394557823",
+            "exact": "2200/147"
+          },
+          "mean": {
+            "decimal": "10.002267573696145",
+            "exact": "4411/441"
+          },
+          "median": {
+            "decimal": "10.464852607709751",
+            "exact": "4615/441"
+          },
+          "minimum": {
+            "decimal": "4.807256235827664",
+            "exact": "2120/441"
+          },
+          "population_standard_deviation": "3.276725591181593",
+          "q1": {
+            "decimal": "7.981859410430839",
+            "exact": "3520/441"
+          },
+          "q3": {
+            "decimal": "12.585034013605442",
+            "exact": "1850/147"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "660.000000000000000",
+            "exact": "660/1"
+          },
+          "mean": {
+            "decimal": "441.100000000000000",
+            "exact": "4411/10"
+          },
+          "median": {
+            "decimal": "461.500000000000000",
+            "exact": "923/2"
+          },
+          "minimum": {
+            "decimal": "212.000000000000000",
+            "exact": "212/1"
+          },
+          "population_standard_deviation": "144.503598571108256",
+          "q1": {
+            "decimal": "352.000000000000000",
+            "exact": "352/1"
+          },
+          "q3": {
+            "decimal": "555.000000000000000",
+            "exact": "555/1"
+          }
+        }
+      },
+      "absolute_error_ms_in_event_order": [
+        "11.678004535147392",
+        "14.965986394557823",
+        "7.800453514739229",
+        "12.244897959183673",
+        "5.079365079365079",
+        "8.526077097505669",
+        "12.970521541950113",
+        "4.807256235827664",
+        "9.251700680272109",
+        "12.698412698412698"
+      ],
+      "absolute_error_samples_in_event_order": [
+        515,
+        660,
+        344,
+        540,
+        224,
+        376,
+        572,
+        212,
+        408,
+        560
+      ],
+      "ambiguous_boundary_count": 0,
+      "ambiguous_multiple_observed_count": 0,
+      "exact_zero_count": 0,
+      "negative_early_count": 0,
+      "observed_eme_count": 10,
+      "observed_pulse_candidate_count": 10,
+      "physical_event_count": 10,
+      "positive_late_count": 10,
+      "signed_error_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "14.965986394557823",
+            "exact": "2200/147"
+          },
+          "mean": {
+            "decimal": "10.002267573696145",
+            "exact": "4411/441"
+          },
+          "median": {
+            "decimal": "10.464852607709751",
+            "exact": "4615/441"
+          },
+          "minimum": {
+            "decimal": "4.807256235827664",
+            "exact": "2120/441"
+          },
+          "population_standard_deviation": "3.276725591181593",
+          "q1": {
+            "decimal": "7.981859410430839",
+            "exact": "3520/441"
+          },
+          "q3": {
+            "decimal": "12.585034013605442",
+            "exact": "1850/147"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "660.000000000000000",
+            "exact": "660/1"
+          },
+          "mean": {
+            "decimal": "441.100000000000000",
+            "exact": "4411/10"
+          },
+          "median": {
+            "decimal": "461.500000000000000",
+            "exact": "923/2"
+          },
+          "minimum": {
+            "decimal": "212.000000000000000",
+            "exact": "212/1"
+          },
+          "population_standard_deviation": "144.503598571108256",
+          "q1": {
+            "decimal": "352.000000000000000",
+            "exact": "352/1"
+          },
+          "q3": {
+            "decimal": "555.000000000000000",
+            "exact": "555/1"
+          }
+        }
+      },
+      "signed_error_ms_in_event_order": [
+        "11.678004535147392",
+        "14.965986394557823",
+        "7.800453514739229",
+        "12.244897959183673",
+        "5.079365079365079",
+        "8.526077097505669",
+        "12.970521541950113",
+        "4.807256235827664",
+        "9.251700680272109",
+        "12.698412698412698"
+      ],
+      "signed_error_samples_in_event_order": [
+        515,
+        660,
+        344,
+        540,
+        224,
+        376,
+        572,
+        212,
+        408,
+        560
+      ],
+      "unmatched_observed_count": 0,
+      "unmatched_physical_event_count": 0,
+      "valid_correspondence_count": 10
+    },
+    "Drums": {
+      "absolute_error_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "13.219954648526077",
+            "exact": "5830/441"
+          },
+          "mean": {
+            "decimal": "9.047619047619048",
+            "exact": "190/21"
+          },
+          "median": {
+            "decimal": "9.047619047619048",
+            "exact": "190/21"
+          },
+          "minimum": {
+            "decimal": "4.875283446712018",
+            "exact": "2150/441"
+          },
+          "population_standard_deviation": "2.970850408480257",
+          "q1": {
+            "decimal": "6.326530612244898",
+            "exact": "310/49"
+          },
+          "q3": {
+            "decimal": "11.768707482993197",
+            "exact": "1730/147"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "583.000000000000000",
+            "exact": "583/1"
+          },
+          "mean": {
+            "decimal": "399.000000000000000",
+            "exact": "399/1"
+          },
+          "median": {
+            "decimal": "399.000000000000000",
+            "exact": "399/1"
+          },
+          "minimum": {
+            "decimal": "215.000000000000000",
+            "exact": "215/1"
+          },
+          "population_standard_deviation": "131.014503013979334",
+          "q1": {
+            "decimal": "279.000000000000000",
+            "exact": "279/1"
+          },
+          "q3": {
+            "decimal": "519.000000000000000",
+            "exact": "519/1"
+          }
+        }
+      },
+      "absolute_error_ms_in_event_order": [
+        "8.503401360544218",
+        "12.494331065759637",
+        "4.875283446712018",
+        "8.866213151927438",
+        "12.857142857142857",
+        "5.238095238095238",
+        "9.229024943310658",
+        "13.219954648526077",
+        "5.600907029478458",
+        "9.591836734693878"
+      ],
+      "absolute_error_samples_in_event_order": [
+        375,
+        551,
+        215,
+        391,
+        567,
+        231,
+        407,
+        583,
+        247,
+        423
+      ],
+      "ambiguous_boundary_count": 0,
+      "ambiguous_multiple_observed_count": 0,
+      "exact_zero_count": 0,
+      "negative_early_count": 0,
+      "observed_eme_count": 10,
+      "observed_pulse_candidate_count": 10,
+      "physical_event_count": 10,
+      "positive_late_count": 10,
+      "signed_error_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "13.219954648526077",
+            "exact": "5830/441"
+          },
+          "mean": {
+            "decimal": "9.047619047619048",
+            "exact": "190/21"
+          },
+          "median": {
+            "decimal": "9.047619047619048",
+            "exact": "190/21"
+          },
+          "minimum": {
+            "decimal": "4.875283446712018",
+            "exact": "2150/441"
+          },
+          "population_standard_deviation": "2.970850408480257",
+          "q1": {
+            "decimal": "6.326530612244898",
+            "exact": "310/49"
+          },
+          "q3": {
+            "decimal": "11.768707482993197",
+            "exact": "1730/147"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "583.000000000000000",
+            "exact": "583/1"
+          },
+          "mean": {
+            "decimal": "399.000000000000000",
+            "exact": "399/1"
+          },
+          "median": {
+            "decimal": "399.000000000000000",
+            "exact": "399/1"
+          },
+          "minimum": {
+            "decimal": "215.000000000000000",
+            "exact": "215/1"
+          },
+          "population_standard_deviation": "131.014503013979334",
+          "q1": {
+            "decimal": "279.000000000000000",
+            "exact": "279/1"
+          },
+          "q3": {
+            "decimal": "519.000000000000000",
+            "exact": "519/1"
+          }
+        }
+      },
+      "signed_error_ms_in_event_order": [
+        "8.503401360544218",
+        "12.494331065759637",
+        "4.875283446712018",
+        "8.866213151927438",
+        "12.857142857142857",
+        "5.238095238095238",
+        "9.229024943310658",
+        "13.219954648526077",
+        "5.600907029478458",
+        "9.591836734693878"
+      ],
+      "signed_error_samples_in_event_order": [
+        375,
+        551,
+        215,
+        391,
+        567,
+        231,
+        407,
+        583,
+        247,
+        423
+      ],
+      "unmatched_observed_count": 0,
+      "unmatched_physical_event_count": 0,
+      "valid_correspondence_count": 10
+    }
+  },
+  "study_id": "H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01"
+}

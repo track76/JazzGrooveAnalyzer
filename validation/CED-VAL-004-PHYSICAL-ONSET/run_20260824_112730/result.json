@@ -1,0 +1,373 @@
+{
+  "blind_fingerprint": "70e60d038871791153a0ef05021cef14b190fa0559706dcd77cb9c03b95361db",
+  "deterministic_replay": "PASS_EXACT",
+  "firewalls": {
+    "confidence_used": false,
+    "h02_changed": false,
+    "h03_created": false,
+    "historical_results_changed": false,
+    "jga_tuned": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "strength_accessed": false
+  },
+  "schema": "JGA-PHYSICAL-TO-JGA-RESULT/v1",
+  "scientific_fingerprint": "cebccb70224dce4e519197e84178e11afdc1e98b8148914a7512ac6df06ef22e",
+  "source_summary": {
+    "Double Bass": {
+      "absolute_error_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "14.965986394557823",
+            "exact": "2200/147"
+          },
+          "mean": {
+            "decimal": "10.002267573696145",
+            "exact": "4411/441"
+          },
+          "median": {
+            "decimal": "10.464852607709751",
+            "exact": "4615/441"
+          },
+          "minimum": {
+            "decimal": "4.807256235827664",
+            "exact": "2120/441"
+          },
+          "population_standard_deviation": "3.276725591181593",
+          "q1": {
+            "decimal": "7.981859410430839",
+            "exact": "3520/441"
+          },
+          "q3": {
+            "decimal": "12.585034013605442",
+            "exact": "1850/147"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "660.000000000000000",
+            "exact": "660/1"
+          },
+          "mean": {
+            "decimal": "441.100000000000000",
+            "exact": "4411/10"
+          },
+          "median": {
+            "decimal": "461.500000000000000",
+            "exact": "923/2"
+          },
+          "minimum": {
+            "decimal": "212.000000000000000",
+            "exact": "212/1"
+          },
+          "population_standard_deviation": "144.503598571108256",
+          "q1": {
+            "decimal": "352.000000000000000",
+            "exact": "352/1"
+          },
+          "q3": {
+            "decimal": "555.000000000000000",
+            "exact": "555/1"
+          }
+        }
+      },
+      "absolute_error_ms_in_event_order": [
+        "11.678004535147392",
+        "14.965986394557823",
+        "7.800453514739229",
+        "12.244897959183673",
+        "5.079365079365079",
+        "8.526077097505669",
+        "12.970521541950113",
+        "4.807256235827664",
+        "9.251700680272109",
+        "12.698412698412698"
+      ],
+      "absolute_error_samples_in_event_order": [
+        515,
+        660,
+        344,
+        540,
+        224,
+        376,
+        572,
+        212,
+        408,
+        560
+      ],
+      "ambiguous_boundary_count": 0,
+      "ambiguous_multiple_observed_count": 0,
+      "exact_zero_count": 0,
+      "negative_early_count": 0,
+      "observed_eme_count": 10,
+      "observed_pulse_candidate_count": 10,
+      "physical_event_count": 10,
+      "positive_late_count": 10,
+      "signed_error_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "14.965986394557823",
+            "exact": "2200/147"
+          },
+          "mean": {
+            "decimal": "10.002267573696145",
+            "exact": "4411/441"
+          },
+          "median": {
+            "decimal": "10.464852607709751",
+            "exact": "4615/441"
+          },
+          "minimum": {
+            "decimal": "4.807256235827664",
+            "exact": "2120/441"
+          },
+          "population_standard_deviation": "3.276725591181593",
+          "q1": {
+            "decimal": "7.981859410430839",
+            "exact": "3520/441"
+          },
+          "q3": {
+            "decimal": "12.585034013605442",
+            "exact": "1850/147"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "660.000000000000000",
+            "exact": "660/1"
+          },
+          "mean": {
+            "decimal": "441.100000000000000",
+            "exact": "4411/10"
+          },
+          "median": {
+            "decimal": "461.500000000000000",
+            "exact": "923/2"
+          },
+          "minimum": {
+            "decimal": "212.000000000000000",
+            "exact": "212/1"
+          },
+          "population_standard_deviation": "144.503598571108256",
+          "q1": {
+            "decimal": "352.000000000000000",
+            "exact": "352/1"
+          },
+          "q3": {
+            "decimal": "555.000000000000000",
+            "exact": "555/1"
+          }
+        }
+      },
+      "signed_error_ms_in_event_order": [
+        "11.678004535147392",
+        "14.965986394557823",
+        "7.800453514739229",
+        "12.244897959183673",
+        "5.079365079365079",
+        "8.526077097505669",
+        "12.970521541950113",
+        "4.807256235827664",
+        "9.251700680272109",
+        "12.698412698412698"
+      ],
+      "signed_error_samples_in_event_order": [
+        515,
+        660,
+        344,
+        540,
+        224,
+        376,
+        572,
+        212,
+        408,
+        560
+      ],
+      "unmatched_observed_count": 0,
+      "unmatched_physical_event_count": 0,
+      "valid_correspondence_count": 10
+    },
+    "Drums": {
+      "absolute_error_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "13.219954648526077",
+            "exact": "5830/441"
+          },
+          "mean": {
+            "decimal": "9.047619047619048",
+            "exact": "190/21"
+          },
+          "median": {
+            "decimal": "9.047619047619048",
+            "exact": "190/21"
+          },
+          "minimum": {
+            "decimal": "4.875283446712018",
+            "exact": "2150/441"
+          },
+          "population_standard_deviation": "2.970850408480257",
+          "q1": {
+            "decimal": "6.326530612244898",
+            "exact": "310/49"
+          },
+          "q3": {
+            "decimal": "11.768707482993197",
+            "exact": "1730/147"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "583.000000000000000",
+            "exact": "583/1"
+          },
+          "mean": {
+            "decimal": "399.000000000000000",
+            "exact": "399/1"
+          },
+          "median": {
+            "decimal": "399.000000000000000",
+            "exact": "399/1"
+          },
+          "minimum": {
+            "decimal": "215.000000000000000",
+            "exact": "215/1"
+          },
+          "population_standard_deviation": "131.014503013979334",
+          "q1": {
+            "decimal": "279.000000000000000",
+            "exact": "279/1"
+          },
+          "q3": {
+            "decimal": "519.000000000000000",
+            "exact": "519/1"
+          }
+        }
+      },
+      "absolute_error_ms_in_event_order": [
+        "8.503401360544218",
+        "12.494331065759637",
+        "4.875283446712018",
+        "8.866213151927438",
+        "12.857142857142857",
+        "5.238095238095238",
+        "9.229024943310658",
+        "13.219954648526077",
+        "5.600907029478458",
+        "9.591836734693878"
+      ],
+      "absolute_error_samples_in_event_order": [
+        375,
+        551,
+        215,
+        391,
+        567,
+        231,
+        407,
+        583,
+        247,
+        423
+      ],
+      "ambiguous_boundary_count": 0,
+      "ambiguous_multiple_observed_count": 0,
+      "exact_zero_count": 0,
+      "negative_early_count": 0,
+      "observed_eme_count": 10,
+      "observed_pulse_candidate_count": 10,
+      "physical_event_count": 10,
+      "positive_late_count": 10,
+      "signed_error_descriptive": {
+        "milliseconds": {
+          "maximum": {
+            "decimal": "13.219954648526077",
+            "exact": "5830/441"
+          },
+          "mean": {
+            "decimal": "9.047619047619048",
+            "exact": "190/21"
+          },
+          "median": {
+            "decimal": "9.047619047619048",
+            "exact": "190/21"
+          },
+          "minimum": {
+            "decimal": "4.875283446712018",
+            "exact": "2150/441"
+          },
+          "population_standard_deviation": "2.970850408480257",
+          "q1": {
+            "decimal": "6.326530612244898",
+            "exact": "310/49"
+          },
+          "q3": {
+            "decimal": "11.768707482993197",
+            "exact": "1730/147"
+          }
+        },
+        "n": 10,
+        "quartile_method": "linear_interpolation_at_(n-1)*p",
+        "samples": {
+          "maximum": {
+            "decimal": "583.000000000000000",
+            "exact": "583/1"
+          },
+          "mean": {
+            "decimal": "399.000000000000000",
+            "exact": "399/1"
+          },
+          "median": {
+            "decimal": "399.000000000000000",
+            "exact": "399/1"
+          },
+          "minimum": {
+            "decimal": "215.000000000000000",
+            "exact": "215/1"
+          },
+          "population_standard_deviation": "131.014503013979334",
+          "q1": {
+            "decimal": "279.000000000000000",
+            "exact": "279/1"
+          },
+          "q3": {
+            "decimal": "519.000000000000000",
+            "exact": "519/1"
+          }
+        }
+      },
+      "signed_error_ms_in_event_order": [
+        "8.503401360544218",
+        "12.494331065759637",
+        "4.875283446712018",
+        "8.866213151927438",
+        "12.857142857142857",
+        "5.238095238095238",
+        "9.229024943310658",
+        "13.219954648526077",
+        "5.600907029478458",
+        "9.591836734693878"
+      ],
+      "signed_error_samples_in_event_order": [
+        375,
+        551,
+        215,
+        391,
+        567,
+        231,
+        407,
+        583,
+        247,
+        423
+      ],
+      "unmatched_observed_count": 0,
+      "unmatched_physical_event_count": 0,
+      "valid_correspondence_count": 10
+    }
+  },
+  "status": "PASS_FROZEN_MEASUREMENT_RESULT"
+}

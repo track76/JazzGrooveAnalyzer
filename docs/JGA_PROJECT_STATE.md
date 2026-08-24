@@ -1,5 +1,30 @@
 # JGA Project State
 
+## CED-VAL-004 Physical-to-JGA Comparison Result
+
+Status: **FROZEN — PI REVIEW REQUIRED**
+
+- `H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01` executed unchanged against
+  `PR-CED-VAL-004-PHYSICAL-ONSET-001`; dataset and frozen physical-onset
+  authority verification passed.
+- Untuned AD-037 observation produced 10 PulseCandidates / 10 EME per source.
+  All 10 Drums and all 10 Double Bass physical events had exactly one EME in
+  their frozen marker-midpoint cell; there were no missing, ambiguous,
+  boundary, or unmatched observations.
+- Every signed physical-to-JGA displacement was positive. Drums had median
+  399 samples (9.047619047619048 ms); Double Bass had median 461.5 samples
+  (10.464852607709751 ms). These are descriptive measurements, not
+  corrections or tolerances.
+- Producer-frame round-trip, exact marker decomposition, full cardinality,
+  lineage, firewalls, and two complete deterministic executions passed.
+- Scientific fingerprint:
+  `cebccb70224dce4e519197e84178e11afdc1e98b8148914a7512ac6df06ef22e`.
+- Strength and confidence were not used or emitted. H02, historical results,
+  raw assets, architecture, production semantics, and production code remain
+  unchanged. No correction is authorized.
+- Frozen evidence is in
+  `validation/CED-VAL-004-PHYSICAL-ONSET/run_20260824_112730/`.
+
 ## CED-VAL-004 Physical-to-JGA Comparison Preregistration
 
 Status: FROZEN RULE — NOT EXECUTED

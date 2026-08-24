@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "blind_correspondence.json": "e463ad8d680b53cd34b0191ad938868f30e91a962b98fde9517b4da2d0ca8ce2",
+    "completion_protocol.json": "97109ccb05066a3fa898198bd95333ad66535565f7833cce56bc4d9457a604ab",
+    "event_level_results.json": "0c10255bd2db9625db5f62dabddda0bd6abc0e5550f7ac78e986a24a0b97bcd1",
+    "execute.py": "eaaa5d0c735e537ddab7c70727fcbd22ddd6dc9c182ee3c94cfaaa1ec7e21425",
+    "input_manifest.json": "a2fd123306fadc48b910c41e3f0f8b34ce58009e57db9a1eef79639c1535616a",
+    "observed_populations.json": "6c666d2801c6611a047b80de41a5000835d1a928b46d1f4b607dbb0d2161ecef",
+    "report.md": "104ec9ff51dce7fc40ff1953c9079485f2697318d71d8b13ff9d8ae400151672",
+    "result.json": "9b6b196748bf30ea72ea39c1dbb0076ec542259fcb6913891351baad1776ef8a",
+    "scientific_content.json": "4db4df89aedb224703bf7f06b44bdd4d839221714c7a367552915f9d7d55e39e",
+    "source_summary.json": "73571e0b9c214bb2215c8f268287e0a80eee8a78b53862f27337e76351d8b3db",
+    "verify.py": "f989637a45d960cb0e4a18565dd5057b394257485a47965ab6cc11831682474f"
+  },
+  "scientific_fingerprint": "cebccb70224dce4e519197e84178e11afdc1e98b8148914a7512ac6df06ef22e",
+  "study_id": "H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01"
+}

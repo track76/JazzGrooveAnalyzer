@@ -1,0 +1,48 @@
+{
+  "authority_gate": "PASS",
+  "canonical_assets": {
+    "Double Bass": {
+      "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CANONICAL DOUBLE BASS.wav",
+      "properties": {
+        "channels": 2,
+        "compression": "NONE",
+        "frame_count": 8820000,
+        "sample_rate_hz": 44100,
+        "sample_width_bytes": 3
+      },
+      "sha256": "5cb9bbe102efae2f15f7d34af4adc4a707e0a5f748dfcd1de03086153fb09392"
+    },
+    "Drums": {
+      "path": "datasets/CED-VAL-004-PHYSICAL-ONSET/renders/CED-VAL-004-CANONICAL DRUMS.wav",
+      "properties": {
+        "channels": 2,
+        "compression": "NONE",
+        "frame_count": 8820000,
+        "sample_rate_hz": 44100,
+        "sample_width_bytes": 3
+      },
+      "sha256": "207c86c412058e16e593cd9cbc98f4612415fd58f5ae16e98d5367b7b4c41c09"
+    }
+  },
+  "dataset_authority_id": "PR-CED-VAL-004-PHYSICAL-ONSET-001",
+  "dataset_fingerprint": "704ce5926852a2ff62d9794dbee48156f875016979214cf7ef3ab93aa35ec772",
+  "environment": {
+    "librosa": "0.11.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "physical_authority_fingerprint": "7b2ec48f0ff0afca54849b5847f5ebd637c8d672eb2b88247ea6a1841af99062",
+  "preregistration_commit": "7338985a100d51b0d21de802f8b2befc6acb0bba",
+  "preregistration_id": "H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01",
+  "repository_and_authority_checksums": {
+    "src/jga/domain/elementary_metric_event.py": "d9066db4bfe6ca75e2ce8e1d0a2b8a71ab86853f35d0fc04b8414632fab7da7b",
+    "src/jga/domain/services/elementary_metric_event_builder.py": "137e390a69c9361d5cbfd66908256b2417d76c95d503e7ad2c409cd2e1b66cc2",
+    "src/jga/engines/domain_pulse_candidate_adapter.py": "6a3d276bf50534bc6823075a26787c624ab7a8d2ecca58628579fb86658a9330",
+    "src/jga/engines/source_pulse_candidate_builder.py": "5b270f352483dde91448b0958a299c08e51d064ab867bc872ef1cdde37a81c32",
+    "src/jga/pipeline/default_analysis_pipeline.py": "04ecdfee536717b977276b91b7e9416701e7a89ce9aa7bc4339917263725ef17",
+    "validation/CED-VAL-004-PHYSICAL-ONSET/event_schedule.json": "458227636da615278d5334039630f916d1b8be200587c37ae16a4673e8afe2dc",
+    "validation/CED-VAL-004-PHYSICAL-ONSET/input_authority_manifest.json": "823893f86f5d8a8b68e5ef57dce47739454897e93321dac1b815c735330d429a",
+    "validation/CED-VAL-004-PHYSICAL-ONSET/preregistrations/H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01.md": "161d60f088462df54b07f1919f01a05c5fbed367ee6e9942a6a850a63299fcd5",
+    "validation/CED-VAL-004-PHYSICAL-ONSET/run_20260824_110800/event_level_physical_onsets.json": "e8860a248325f5080077f51c833f39884c63cbedaa1671f549a6a7465729d7b2"
+  }
+}
