@@ -1,5 +1,22 @@
 # JGA Project State
 
+## CED-VAL-005 Analytical Inputs Frozen
+
+Status: **FROZEN — PI REVIEW REQUIRED — JGA NOT EXECUTED**
+
+- `PR-CEDVAL005-ANALYTICAL-INPUTS-001` binds the original checksum-authorized
+  `09_Overheads.wav` to `Drums / TEMPORAL_REFERENCE` and
+  `11_BassDI.wav` to `Double Bass / ACCOMPANIMENT` for this experiment only.
+- Two independent read-only verification passes reproduced the paths,
+  identities, formats and complete 44.1 kHz / 10,068,072-frame scope.
+- Shared timeline authority is limited to
+  `COMMON_DISTRIBUTED_FILE_SAMPLE_COORDINATE`; acquisition clock, simultaneous
+  capture, editing history, physical onset and sample-accurate human
+  microtiming remain unestablished.
+- Calibration applicability is `UNESTABLISHED`; correspondence is
+  `GEOMETRIC_ONLY`. No JGA, EME, AD-038, AD-040, H02 or strength operation was
+  executed.
+
 ## CED-VAL-005 Raw-Track Analytical-Source Construction Preregistration
 
 Status: **PREREGISTERED — NOT EXECUTED — PI REVIEW REQUIRED**

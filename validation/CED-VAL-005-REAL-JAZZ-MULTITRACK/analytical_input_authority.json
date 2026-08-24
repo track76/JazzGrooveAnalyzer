@@ -1,0 +1,98 @@
+{
+  "schema": "JGA-REAL-AUDIO-ANALYTICAL-INPUT-AUTHORITY/v1",
+  "authority_id": "PR-CEDVAL005-ANALYTICAL-INPUTS-001",
+  "status": "FROZEN_ANALYTICAL_INPUT_AUTHORITY",
+  "dataset_authority": {
+    "id": "PR-CED-VAL-005-REAL-JAZZ-MULTITRACK-001",
+    "fingerprint": "d9d6341f837bc5f56054ffd6c91f6be65a7bdbb8043526a9ac70d924a81335af",
+    "authority_commit": "5d9f8a9fdbd617737656958c1e1eddb29281c85e"
+  },
+  "analytical_source_rule": {
+    "id": "PR-CEDVAL005-RAW-TRACK-ANALYTICAL-SOURCE-CONSTRUCTION-01",
+    "preregistration_commit": "0cbd4cfec3999072af6471197ab981f1d583de18"
+  },
+  "execution_identity": "CEDVAL005-ANALYTICAL-INPUT-VERIFY-20260824-01",
+  "external_root": "/Volumes/SSD Track/JGA/datasets/CED-VAL-005-REAL-JAZZ-MULTITRACK/raw/MaurizioPagnuttiSextet_AllTheGinIsGone_Full/",
+  "selected_inputs": [
+    {
+      "analytical_source": "Drums",
+      "analytical_role": "TEMPORAL_REFERENCE",
+      "source_label": "Overheads",
+      "filename": "09_Overheads.wav",
+      "original_relative_path": "09_Overheads.wav",
+      "absolute_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-005-REAL-JAZZ-MULTITRACK/raw/MaurizioPagnuttiSextet_AllTheGinIsGone_Full/09_Overheads.wav",
+      "sha256": "0569a396cff95b130042fc71093e8ba3460e3c0fe0034cb86d2158027d585f3a",
+      "container": "WAVE",
+      "encoding": "SIGNED_24_BIT_LITTLE_ENDIAN_PCM",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "frame_count_per_channel": 10068072,
+      "duration_seconds_exact": "119858/525",
+      "duration_seconds_decimal": "228.300952380952367",
+      "asset_handling": "ORIGINAL_RAW_FILE_SELECTED_WITHOUT_DERIVATION"
+    },
+    {
+      "analytical_source": "Double Bass",
+      "analytical_role": "ACCOMPANIMENT",
+      "source_label": "BassDI",
+      "filename": "11_BassDI.wav",
+      "original_relative_path": "11_BassDI.wav",
+      "absolute_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-005-REAL-JAZZ-MULTITRACK/raw/MaurizioPagnuttiSextet_AllTheGinIsGone_Full/11_BassDI.wav",
+      "sha256": "2c4c06b9b5d4b18e00000bc2c036207fc68fb722c5854e0a30107ad4594a910b",
+      "container": "WAVE",
+      "encoding": "SIGNED_24_BIT_LITTLE_ENDIAN_PCM",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "frame_count_per_channel": 10068072,
+      "duration_seconds_exact": "119858/525",
+      "duration_seconds_decimal": "228.300952380952367",
+      "asset_handling": "ORIGINAL_RAW_FILE_SELECTED_WITHOUT_DERIVATION"
+    }
+  ],
+  "verification": {
+    "pass_count": 2,
+    "pass_1": "PYTHON_STDLIB_WAVE_AND_HASHLIB_SHA256",
+    "pass_2": "SHASUM_FILE_AND_MACOS_AFINFO",
+    "absolute_paths_identical": true,
+    "checksums_identical": true,
+    "technical_properties_identical": true,
+    "source_labels_and_relative_paths_match_frozen_manifest": true,
+    "result": "PASS"
+  },
+  "timeline_authority": {
+    "status": "COMMON_DISTRIBUTED_FILE_SAMPLE_COORDINATE",
+    "sample_zero": 0,
+    "sample_rate_hz": 44100,
+    "frame_count_per_channel": 10068072,
+    "common_hardware_acquisition_clock": "UNESTABLISHED",
+    "simultaneous_capture": "UNESTABLISHED",
+    "absence_of_editing": "UNESTABLISHED",
+    "physical_onset_ground_truth": "UNESTABLISHED",
+    "sample_accurate_human_microtiming_ground_truth": "UNESTABLISHED"
+  },
+  "scientific_firewalls": {
+    "calibration_applicability": "UNESTABLISHED",
+    "correspondence_status": "GEOMETRIC_ONLY",
+    "controlled_dataset_calibration_transfer": false,
+    "h02_used": false,
+    "strength_used": false,
+    "authorized_event_relation_created": false,
+    "jga_executed": false,
+    "eme_created": false,
+    "ad038_created": false,
+    "ad040_created": false
+  },
+  "maximum_authorized_claim": "The exact original Overheads and BassDI raw files are provenance-bound analytical inputs for a bounded real-audio JGA study on their common distributed-file sample coordinate.",
+  "not_established": [
+    "physical onset",
+    "common hardware clock",
+    "event correspondence",
+    "true performance microtiming",
+    "groove",
+    "rushing or dragging",
+    "source isolation"
+  ],
+  "raw_assets_changed": false,
+  "production_code_changed": false,
+  "analytical_input_fingerprint": "08ac45969fc449503f67ea4e8bda77495c4807e9dd0e0adbe0c37c9cb506b876"
+}
