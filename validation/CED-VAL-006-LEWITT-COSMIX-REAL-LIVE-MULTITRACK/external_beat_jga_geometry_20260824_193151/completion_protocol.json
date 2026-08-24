@@ -1,0 +1,23 @@
+{
+  "combined_comparison_fingerprint": "84c309becd9ac31e9adec8f8e17fb8184069ef4e7831bf53a6a2117d866ec26a",
+  "deterministic_replay": "PASS_EXACT_TWO_FRESH_PROCESS_EXECUTIONS",
+  "epistemic_status": "DESCRIPTIVE_TEMPORAL_GEOMETRY_ONLY",
+  "firewalls": {
+    "beat_validation_claimed": false,
+    "bpm_used_as_comparison_input": false,
+    "external_trackers_rerun": false,
+    "ground_truth_created": false,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "jga_core_changed": false,
+    "jga_rerun": false,
+    "musical_interpretation_performed": false,
+    "preferred_tracker_selected": false,
+    "production_code_changed": false,
+    "strength_accessed": false,
+    "tracker_to_tracker_comparison_performed": false,
+    "tracker_to_tracker_correspondence_performed": false,
+    "visualization_rendered": false
+  },
+  "status": "PASS_FROZEN_NEUTRAL_EXTERNAL_BEAT_TO_JGA_DRUMS_GEOMETRY"
+}

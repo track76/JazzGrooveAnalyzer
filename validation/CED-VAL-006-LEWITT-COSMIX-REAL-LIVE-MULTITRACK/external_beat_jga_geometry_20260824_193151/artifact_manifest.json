@@ -1,0 +1,14 @@
+{
+  "artifacts": {
+    "completion_protocol.json": "8a0f130996ac30377c56b883ad611bda2779086f7dfabcaf5cc5740615afb0fa",
+    "execute.py": "37f288e521c50e5206b884317aec0a10b668486fee43fadb4991c1e16376acf9",
+    "input_manifest.json": "d26600af1abdfc6e4c90885d921c9620d4e61d9bd6f7867cffbd31a076123ff3",
+    "report.md": "1ccce30754cf7e7bf2d962619ec6427fc38dde1126972ba1645a79d7e970364b",
+    "result.json": "0a13b74c7f75c12738a1bbd0d34fc8788d060c23a2098662e21c3ea5968a7b6e",
+    "scientific_content.json": "b2abde2e8369718e3312965777643f041b9683fc1753f00ffe0ee6e6374fbe20",
+    "verify.py": "be48b8a7e6f512e3736817b8e2133d7007063eff9a40119912ee25ed3edb23f5"
+  },
+  "combined_comparison_fingerprint": "84c309becd9ac31e9adec8f8e17fb8184069ef4e7831bf53a6a2117d866ec26a",
+  "execution_id": "EXEC-CEDVAL006-EXTERNAL-BEAT-JGA-GEOMETRY-20260824-193151",
+  "study_id": "H-CEDVAL006-EXTERNAL-BEAT-TO-JGA-DRUMS-GEOMETRY-01"
+}

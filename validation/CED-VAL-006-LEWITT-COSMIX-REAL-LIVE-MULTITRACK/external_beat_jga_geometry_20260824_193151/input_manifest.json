@@ -1,0 +1,22 @@
+{
+  "authorities": {
+    "essentia_beat_count": 527,
+    "essentia_scientific_fingerprint": "1e52e479e9be6bb80f7b36a781031ab343523c4e6d7d248eecfaf4cb9bd284dd",
+    "external_combined_fingerprint": "d3e5ea9c6bea7bd0a9c81cb6044fa469dc1f33bc2f70788cd4a027f30491ee6a",
+    "external_execution_id": "EXEC-CEDVAL006-EXTERNAL-BEAT-BENCHMARK-20260824-191341",
+    "input_sha256": {
+      "essentia": "3f3ff0e855b646c29ee56e775c3d2a20a0cf37468242137e3406dc9203cb9b45",
+      "jga_eme": "64db95d8feeb6ab7ca22aa8081e177c57d6ab57c9f0aaf3bb4a5650db28329f5",
+      "librosa": "8ff07eb46d7f8c734d64c37874e595d1c4172cab1a9d66d03b930bf3cec6dea0",
+      "preregistration": "df54e09ac64f9611248f5b2de1f4d7208ef03ab8e149540c4f78b069c056cc72"
+    },
+    "jga_drums_eme_count": 909,
+    "jga_execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+    "jga_scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c",
+    "librosa_beat_count": 466,
+    "librosa_scientific_fingerprint": "780f9691dd13bb7bf30858ff8a7d76628958f42b8e56430798554981ef65b318"
+  },
+  "authority_gate": "PASS",
+  "execution_id": "EXEC-CEDVAL006-EXTERNAL-BEAT-JGA-GEOMETRY-20260824-193151",
+  "preregistration_id": "H-CEDVAL006-EXTERNAL-BEAT-TO-JGA-DRUMS-GEOMETRY-01"
+}
