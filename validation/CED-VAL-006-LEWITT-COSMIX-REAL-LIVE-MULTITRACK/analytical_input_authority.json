@@ -1,0 +1,125 @@
+{
+  "analytical_input_fingerprint": "cf89598f0f198cb14ee4f455b4094cffe3e4b4597da4fd92d2fffba41a233bae",
+  "authority_id": "PR-CEDVAL006-ANALYTICAL-INPUTS-001",
+  "dataset_authority": {
+    "authority_commit": "0ac756e1abef8e1c25fe4cc501db008e064210b1",
+    "fingerprint": "9d837f710fbf3292c80490d499bc96df0a8fe1140bc9139b65de8a553c4c2eca",
+    "id": "PR-CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK-001"
+  },
+  "external_root": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/raw/",
+  "maximum_authorized_claim": "The exact original unmodified Drum overhead and Bass DI files are provenance-bound analytical inputs for a future bounded CED-VAL-006 observational study on their equal distributed-file sample-index scope, without common-clock, session-origin, physical-onset, calibration, correspondence, or human-microtiming authority.",
+  "preserved_dataset_authority": {
+    "calibration_applicability": "UNESTABLISHED",
+    "common_acquisition_system": "UNESTABLISHED_WHERE_NOT_DOCUMENTED",
+    "live_performance": "SUPPORTED_BY_PRIMARY_LEWITT_PROVIDER_DECLARATION_FOR_THE_LIVE_BAND_RECORDING",
+    "overall_acquisition_authority": "ACQUISITION_AUTHORITY_PARTIAL",
+    "physical_onset_ground_truth": "NOT_ESTABLISHED",
+    "raw_no_editing_no_tuning": "SUPPORTED_EXACTLY_TO_THE_EXTENT_DECLARED_BY_LEWITT"
+  },
+  "processing_firewall": {
+    "alignment": false,
+    "compression": false,
+    "denoising": false,
+    "derived_analytical_assets_created": false,
+    "eq": false,
+    "filtering": false,
+    "gating": false,
+    "mixing": false,
+    "normalization": false,
+    "quantization": false,
+    "resampling": false,
+    "shifting": false,
+    "source_separation": false,
+    "timing_correction": false,
+    "transient_processing": false,
+    "trimming": false,
+    "warping": false
+  },
+  "schema": "JGA-REAL-AUDIO-ANALYTICAL-INPUT-AUTHORITY/v1",
+  "scientific_firewalls": {
+    "cedval005_compared": false,
+    "external_tracker_executed": false,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "jga_executed": false,
+    "musical_interpretation_performed": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "readme_or_external_bpm_used": false,
+    "strength_accessed": false
+  },
+  "selected_inputs": [
+    {
+      "absolute_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/raw/Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+      "analytical_role": "TEMPORAL_REFERENCE",
+      "analytical_source": "Drums",
+      "asset_handling": "ORIGINAL_RAW_FILE_SELECTED_WITHOUT_DERIVATION_OR_PROCESSING",
+      "bleed_handling": "PRESERVED_UNCHANGED_IF_PRESENT",
+      "byte_size": 71857234,
+      "channel_count": 2,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "filename": "Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+      "frame_count_per_channel": 11912868,
+      "original_relative_path": "Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "dbfc4c3c59cac2c42cb2bbd33f1e55dbb1ec8c2fe6c6d095e30efc791dd57b8d",
+      "source_label": "Dums Overheads LCT 640 TS-Dual Output Mode"
+    },
+    {
+      "absolute_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/raw/BASS - DI.wav",
+      "analytical_role": "ACCOMPANIMENT",
+      "analytical_source": "Double Bass",
+      "asset_handling": "ORIGINAL_RAW_FILE_SELECTED_WITHOUT_DERIVATION_OR_PROCESSING",
+      "bleed_handling": "PRESERVED_UNCHANGED_IF_PRESENT",
+      "byte_size": 35929248,
+      "channel_count": 1,
+      "codec": "LINEAR_PCM",
+      "container": "RIFF/WAVE",
+      "duration_seconds_decimal": 248.18475,
+      "duration_seconds_exact": "11912868/48000",
+      "filename": "BASS - DI.wav",
+      "frame_count_per_channel": 11912868,
+      "original_relative_path": "BASS - DI.wav",
+      "pcm_representation": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER",
+      "sample_coordinate_scope": [
+        0,
+        11912867
+      ],
+      "sample_rate_hz": 48000,
+      "sha256": "c0a99f65158d12a69e062cc990e86631a0d29d7e83f30537d34eb301516855a9",
+      "source_label": "BASS - DI"
+    }
+  ],
+  "selection_authority": "PI_APPROVED_MINIMAL_DIRECT_RAW_SOURCE_SELECTION",
+  "status": "FROZEN_ANALYTICAL_INPUT_AUTHORITY",
+  "timeline_authority": {
+    "common_hardware_acquisition_clock": "UNESTABLISHED_NOT_EXPLICITLY_DOCUMENTED",
+    "common_session_time_sample_zero_origin": "UNESTABLISHED_NOT_EXPLICITLY_DOCUMENTED",
+    "duration_seconds_exact": "11912868/48000",
+    "file_local_sample_zero": 0,
+    "frame_count_per_channel": 11912868,
+    "sample_coordinate_scope": [
+      0,
+      11912867
+    ],
+    "sample_rate_hz": 48000,
+    "status": "COMMON_DISTRIBUTED_FILE_SAMPLE_INDEX_SCOPE"
+  },
+  "verification": {
+    "checksums_match_frozen_dataset_manifest": true,
+    "common_distributed_scope_verified": true,
+    "method": "TWO_FRESH_PROCESS_READ_ONLY_SHA256_RIFF_HEADER_AND_LIBSNDFILE_TECHNICAL_VERIFICATION",
+    "paths_match_frozen_dataset_manifest": true,
+    "required_pass_count": 2,
+    "result": "PASS",
+    "technical_properties_match_frozen_dataset_manifest": true
+  }
+}
