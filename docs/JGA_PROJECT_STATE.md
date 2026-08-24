@@ -1,5 +1,27 @@
 # JGA Project State
 
+## CED-VAL-004 New Strength/Physical Prediction Preregistration
+
+Status: **NEW PROSPECTIVE HYPOTHESIS — NOT EXECUTED**
+
+- `H-CEDVAL004-PULSECANDIDATE-STRENGTH-PHYSICAL-PREDICTION-01` freezes a new,
+  explicitly non-historical question: within a non-vacuous same-source
+  marker-midpoint cell, does exact maximum Domain PulseCandidate strength
+  predict the candidate uniquely nearest to independently frozen
+  `t_physical`?
+- Candidate populations are frozen before strength access and depend only on
+  source, the existing marker cells and immutable PulseCandidate frame
+  authority. Singleton and empty populations are not successes; candidates
+  cannot be manufactured.
+- Strength-max predictors are frozen and replayed before physical authority is
+  opened. Physical-nearest identity is scoring authority only, exact-distance
+  ties remain unscorable, and source-specific accuracy is the primary metric.
+- No numerical success threshold, JGA tuning, timing correction, H02/H03
+  change, historical reinterpretation, architecture change, production
+  behavior or production-code change is authorized.
+- Frozen preregistration:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/preregistrations/H-CEDVAL004-PULSECANDIDATE-STRENGTH-PHYSICAL-PREDICTION-01.md`.
+
 ## CED-VAL-004 Physical-to-JGA Comparison Result
 
 Status: **FROZEN — PI REVIEW REQUIRED**
