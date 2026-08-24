@@ -1,5 +1,23 @@
 # JGA Project State
 
+## CED-VAL-005 Raw-Track Analytical-Source Construction Preregistration
+
+Status: **PREREGISTERED — NOT EXECUTED — PI REVIEW REQUIRED**
+
+- `PR-CEDVAL005-RAW-TRACK-ANALYTICAL-SOURCE-CONSTRUCTION-01` freezes a
+  no-derivation input-selection rule for the bounded real-audio study.
+- Drums uses the original checksum-bound `09_Overheads.wav`; Double Bass uses
+  the original checksum-bound `11_BassDI.wav`. Both remain unchanged on the
+  complete 44.1 kHz, 10,068,072-frame distributed-file coordinate.
+- The rule is frozen before JGA inspection. No mix, gain, normalization,
+  timing operation, derived asset, calibration transfer, H02 use, strength
+  use or correspondence authority is introduced.
+- The selected channels are analytical representations, not isolated-source
+  or physical-onset Ground Truth. Bleed remains present, calibration
+  applicability is `UNESTABLISHED`, and correspondence remains
+  `GEOMETRIC_ONLY`.
+- JGA execution and profile construction require subsequent PI review.
+
 ## CED-VAL-005 Real Jazz Raw Multitrack Candidate Authority
 
 Status: **FROZEN CANDIDATE AUTHORITY — PI REVIEW REQUIRED**
