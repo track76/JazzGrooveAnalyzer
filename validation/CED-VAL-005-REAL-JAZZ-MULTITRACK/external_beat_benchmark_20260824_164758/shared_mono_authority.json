@@ -1,0 +1,20 @@
+{
+  "construction": "float32((int64(L)+int64(R))/(2*8388608))",
+  "dtype": "float32",
+  "maximum": {
+    "binary32_hex_bytes": "b278363f",
+    "decimal": 0.71277916431427
+  },
+  "minimum": {
+    "binary32_hex_bytes": "8a54f4be",
+    "decimal": -0.4772074818611145
+  },
+  "npy_temporary_file_sha256": "1a9b998b46a9fb09d0348d5834f0d0c0132c808e7840c851f702e936e67a4dd7",
+  "raw_bytes_sha256": "febeccc0e4c2781ab354783c96354448be35a21466e8f40b88cce8e692e32432",
+  "sample_count": 10068072,
+  "sample_rate_hz": 44100,
+  "shape": [
+    10068072
+  ],
+  "temporal_origin": "distributed-file sample zero"
+}

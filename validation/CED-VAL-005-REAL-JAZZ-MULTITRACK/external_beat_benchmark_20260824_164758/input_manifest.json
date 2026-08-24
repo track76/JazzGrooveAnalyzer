@@ -1,0 +1,21 @@
+{
+  "essentia_wheel_sha256": "84e5167b95d9e74b2ddd928555d5a1e11997a458dae25e653544a953bc3068b9",
+  "execution_id": "EXEC-CEDVAL005-EXTERNAL-BEAT-BENCHMARK-20260824-164758",
+  "input_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-005-REAL-JAZZ-MULTITRACK/raw/MaurizioPagnuttiSextet_AllTheGinIsGone_Full/09_Overheads.wav",
+  "input_properties": {
+    "channels": 2,
+    "sample_count": 10068072,
+    "sample_rate_hz": 44100,
+    "sample_width_bytes": 3
+  },
+  "input_sha256": "0569a396cff95b130042fc71093e8ba3460e3c0fe0034cb86d2158027d585f3a",
+  "orchestrator_environment": {
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "preregistration_commit": "c08dacabf2ca276636fd61ae6b0689d8b186a79c",
+  "preregistration_sha256": "b0269880bda305ed59ddef3353e60eab28d1a98ceaa0ce5cd7cde4ca193d042b",
+  "study_id": "H-CEDVAL005-EXTERNAL-BEAT-POSITION-FEASIBILITY-01"
+}

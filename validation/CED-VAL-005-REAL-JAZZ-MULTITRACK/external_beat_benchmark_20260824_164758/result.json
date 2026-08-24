@@ -1,0 +1,121 @@
+{
+  "blind_freeze_completed_before_jga_access": true,
+  "combined_benchmark_fingerprint": "accf7ae656178cb04fb798795658b7d4f6e2bd5a7616f47755d7579435100e38",
+  "epistemic_status": "CANDIDATE_EXTERNAL_TEMPORAL_REFERENCE",
+  "essentia_scientific_fingerprint": "3e4db3c7e7e607d06ccdba3bb2ae9c760cd009e93199748764d6de94f57f4e95",
+  "essentia_summary": {
+    "beat_count": 468,
+    "beat_time_scope_seconds": [
+      {
+        "binary64_hex": "0x1.c3c4760000000p-2",
+        "decimal": 0.4411791265010834
+      },
+      {
+        "binary64_hex": "0x1.c77b8e0000000p+7",
+        "decimal": 227.74131774902344
+      }
+    ],
+    "confidence": {
+      "binary64_hex": "0x1.9d925a0000000p-1",
+      "decimal": 0.8077571988105774,
+      "semantics": "TRACK_LEVEL_MULTIFEATURE_CONFIDENCE_NOT_PER_BEAT"
+    },
+    "inter_beat_interval_summary_seconds": {
+      "count": 467,
+      "max": 0.68499755859375,
+      "mean": 0.486724065572853,
+      "median": 0.48761749267578125,
+      "min": 0.4295654296875,
+      "population_sd": 0.030671307829988767
+    },
+    "reported_bpm": {
+      "binary64_hex": "0x1.eeea940000000p+6",
+      "decimal": 123.72908020019531
+    },
+    "status": "VALID_TRACKER_OUTPUT"
+  },
+  "execution_id": "EXEC-CEDVAL005-EXTERNAL-BEAT-BENCHMARK-20260824-164758",
+  "firewalls": {
+    "constant_bpm_grid_constructed": false,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "human_validation_performed": false,
+    "jga_comparison_performed": false,
+    "jga_core_changed": false,
+    "jga_eme_accessed": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "readme_bpm_used": false,
+    "strength_accessed": false
+  },
+  "input_sha256": "0569a396cff95b130042fc71093e8ba3460e3c0fe0034cb86d2158027d585f3a",
+  "librosa_scientific_fingerprint": "fe06c64d6b4352ee19bc876e6a45c368d1d899e917ae142b3504481efba19749",
+  "librosa_summary": {
+    "beat_count": 464,
+    "beat_frame_scope": [
+      34,
+      19195
+    ],
+    "beat_sample_scope": [
+      17408,
+      9827840
+    ],
+    "beat_time_scope_seconds": [
+      {
+        "binary64_hex": "0x1.9436853c7108ep-2",
+        "decimal": 0.3947392290249433
+      },
+      {
+        "binary64_hex": "0x1.bdb4ffe247490p+7",
+        "decimal": 222.853514739229
+      }
+    ],
+    "inter_beat_interval_summary_seconds": {
+      "count": 463,
+      "max": 0.6153287981859421,
+      "mean": 0.48047251730065677,
+      "median": 0.47600907029479345,
+      "min": 0.35990929705215446,
+      "population_sd": 0.033267660407794004
+    },
+    "reported_tempo": {
+      "dtype": "float64",
+      "native_type": "ndarray",
+      "semantics": "TRACKER_REPORTED_GLOBAL_TEMPO_DESCRIPTIVE_ONLY",
+      "shape": [
+        1
+      ],
+      "values": [
+        {
+          "binary64_hex": "0x1.ec30000000000p+6",
+          "decimal": 123.046875
+        }
+      ]
+    },
+    "status": "VALID_TRACKER_OUTPUT"
+  },
+  "preregistration_commit": "c08dacabf2ca276636fd61ae6b0689d8b186a79c",
+  "schema": "JGA-EXTERNAL-BEAT-POSITION-FEASIBILITY/v1",
+  "shared_mono_authority": {
+    "construction": "float32((int64(L)+int64(R))/(2*8388608))",
+    "dtype": "float32",
+    "maximum": {
+      "binary32_hex_bytes": "b278363f",
+      "decimal": 0.71277916431427
+    },
+    "minimum": {
+      "binary32_hex_bytes": "8a54f4be",
+      "decimal": -0.4772074818611145
+    },
+    "npy_temporary_file_sha256": "1a9b998b46a9fb09d0348d5834f0d0c0132c808e7840c851f702e936e67a4dd7",
+    "raw_bytes_sha256": "febeccc0e4c2781ab354783c96354448be35a21466e8f40b88cce8e692e32432",
+    "sample_count": 10068072,
+    "sample_rate_hz": 44100,
+    "shape": [
+      10068072
+    ],
+    "temporal_origin": "distributed-file sample zero"
+  },
+  "status": "PASS_FROZEN_EXTERNAL_TWO_TRACKER_OUTPUTS",
+  "study_id": "H-CEDVAL005-EXTERNAL-BEAT-POSITION-FEASIBILITY-01"
+}

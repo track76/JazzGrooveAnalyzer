@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "completion_protocol.json": "4469e771fd3140187e17e74756ac1c561477a09c40b16a2d86b8f2da8042ce06",
+    "essentia_output.json": "b630ba72957c2fa6ec2e67e825cc17ceb3a9c4a27a75743e08a39658ae21443d",
+    "execute.py": "378e9154bf0d799ce410d28e2937a7cd889eebb84693e0f94e45830165aeb986",
+    "input_manifest.json": "8246048d17c2df51f12b337506ce8985c72ce668733b6c74f9a92630a8128efa",
+    "librosa_output.json": "1ab3bed4271746300ce50d92d82cbd0a532d47ff74598b89c212b88e3010c926",
+    "report.md": "53efd1d30f912d2f15d14f9d33be0ceec40c8d77f1913539fac037069abedf04",
+    "result.json": "3c8ab65d4d38c0c8c01397c6e2facdc2b83b0517e795f01ec22f249bf842ef4b",
+    "run_essentia.py": "9b8d294bd47a82b7f8d0d334513aefa420c927574c80c402e0cb35b4fc1a8e1c",
+    "run_librosa.py": "42bcdf003c6d96f5d46f74d8a4da0048b234c8a1b7a5731db2fbafb175687374",
+    "shared_mono_authority.json": "67ed2a028ca78d5ecacc61087a44a3d060c42f2c67ce1426fea89e303113f6b0",
+    "verify.py": "4a9c619fbe370b8bd9da12f412d3f0afa7c0ccfd0c9fa27750ec0711de76bd89"
+  },
+  "combined_benchmark_fingerprint": "accf7ae656178cb04fb798795658b7d4f6e2bd5a7616f47755d7579435100e38",
+  "execution_id": "EXEC-CEDVAL005-EXTERNAL-BEAT-BENCHMARK-20260824-164758",
+  "study_id": "H-CEDVAL005-EXTERNAL-BEAT-POSITION-FEASIBILITY-01"
+}

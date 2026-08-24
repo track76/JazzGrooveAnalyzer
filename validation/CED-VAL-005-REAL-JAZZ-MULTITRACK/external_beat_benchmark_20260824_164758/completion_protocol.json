@@ -1,0 +1,18 @@
+{
+  "authority_gate": "PASS",
+  "combined_benchmark_fingerprint": "accf7ae656178cb04fb798795658b7d4f6e2bd5a7616f47755d7579435100e38",
+  "constant_bpm_grid_constructed": false,
+  "essentia_replay": "PASS_EXACT_TWO_FRESH_PROCESS_EXECUTIONS",
+  "h02_used": false,
+  "historical_authorities_changed": false,
+  "human_validation_performed": false,
+  "jga_comparison_performed": false,
+  "jga_core_changed": false,
+  "jga_eme_accessed": false,
+  "librosa_replay": "PASS_EXACT_TWO_FRESH_PROCESS_EXECUTIONS",
+  "production_code_changed": false,
+  "raw_assets_changed": false,
+  "readme_bpm_used": false,
+  "status": "PASS_FROZEN_EXTERNAL_TWO_TRACKER_OUTPUTS",
+  "strength_accessed": false
+}
