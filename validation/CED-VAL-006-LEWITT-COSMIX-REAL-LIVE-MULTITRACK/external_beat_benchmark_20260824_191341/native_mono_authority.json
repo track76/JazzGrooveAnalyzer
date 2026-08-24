@@ -1,0 +1,25 @@
+{
+  "construction": "float32((int64(L)+int64(R))/(2*8388608))",
+  "dtype": "float32",
+  "filtering": false,
+  "gain_modification": false,
+  "maximum": {
+    "binary32_hex_bytes": "d04a213f",
+    "decimal": 0.6300477981567383
+  },
+  "minimum": {
+    "binary32_hex_bytes": "0c000abf",
+    "decimal": -0.5390632152557373
+  },
+  "normalization": false,
+  "raw_bytes_sha256": "ddc207eeb7504a8f8b8b21606756f2cd6f507646ced8ed4353946e3446a51904",
+  "sample_count": 11912868,
+  "sample_rate_hz": 48000,
+  "scientific_fingerprint": "1d7d7c874fe7422693082f2d136451dd05b7148f730ac6d2c296c3405c6614c4",
+  "scope": "[0,11912868)",
+  "shape": [
+    11912868
+  ],
+  "temporal_origin": "original distributed-file sample zero",
+  "trimming": false
+}

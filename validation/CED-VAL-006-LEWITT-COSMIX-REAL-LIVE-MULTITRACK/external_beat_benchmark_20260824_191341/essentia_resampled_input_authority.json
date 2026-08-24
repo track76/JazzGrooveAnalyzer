@@ -1,0 +1,49 @@
+{
+  "call": {
+    "axis": 0,
+    "cval": 0.0,
+    "down": 160,
+    "padtype": "constant",
+    "up": 147,
+    "window": [
+      "kaiser",
+      5.0
+    ]
+  },
+  "ceiling_excess_seconds": {
+    "decimal": 1.1904761904761905e-05,
+    "exact": "1/84000"
+  },
+  "dtype": "float32",
+  "duration_seconds": {
+    "decimal": 248.1847619047619,
+    "exact": "130297/525"
+  },
+  "implementation": {
+    "distribution": "scipy==1.18.0",
+    "numpy": "2.4.6",
+    "source": "scipy/signal/_signaltools.py",
+    "source_sha256": "ae162c8d1c43ee90fae826ab9f9232425bf66042b84d97fcd808b270d9309a51"
+  },
+  "maximum": {
+    "binary32_hex_bytes": "8631213f",
+    "decimal": 0.6296619176864624
+  },
+  "minimum": {
+    "binary32_hex_bytes": "a1380abf",
+    "decimal": -0.5399265885353088
+  },
+  "native_mono_scientific_fingerprint": "1d7d7c874fe7422693082f2d136451dd05b7148f730ac6d2c296c3405c6614c4",
+  "origin_mapping": "output sample zero equals original sample zero; sample m time=m/44100 and nominal original coordinate=m*160/147",
+  "original_duration_seconds": {
+    "decimal": 248.18475,
+    "exact": "992739/4000"
+  },
+  "raw_bytes_sha256": "458057d068576a2d90b0529cd06c15ae68f6c0cd89f7183e305d75e244f9c6e3",
+  "sample_count": 10944948,
+  "sample_rate_hz": 44100,
+  "scientific_fingerprint": "f073e8cf60739858a87c70e9e5d082ea9faa0a191ebea2522b76b2caa96b364c",
+  "shape": [
+    10944948
+  ]
+}

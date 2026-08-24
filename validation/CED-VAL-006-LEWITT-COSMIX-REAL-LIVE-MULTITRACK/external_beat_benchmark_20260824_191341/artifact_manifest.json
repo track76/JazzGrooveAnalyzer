@@ -1,0 +1,19 @@
+{
+  "artifacts": {
+    "completion_protocol.json": "02654defec6ecfe14342d19bc06612db9b367556d5daa34a3ab9ed0ae9ebe8b3",
+    "essentia_output.json": "3f3ff0e855b646c29ee56e775c3d2a20a0cf37468242137e3406dc9203cb9b45",
+    "essentia_resampled_input_authority.json": "088e60977776e16a4784f8d6f740e00304eda2e8bc6d3fed1b3282489f39af2a",
+    "execute.py": "24cc2da383f5d431895eb19d4d9e83d70daae252d14734adc4a2aeea5a1a5337",
+    "input_manifest.json": "6b45c04040af8c1c6e52d3cd97b1e1b3fe1c774c1d0bc327572142b075820d74",
+    "librosa_output.json": "8ff07eb46d7f8c734d64c37874e595d1c4172cab1a9d66d03b930bf3cec6dea0",
+    "native_mono_authority.json": "0c426b0570385337f3119e8c493876fbe7e95379d926b3ff513bc82d745ce270",
+    "report.md": "20d814533b2c4dcc2bac81c103e012baeff80bbab56811911ea24c42f5eddd29",
+    "result.json": "b7c588ef1d4e829e7158a2a0f45bb1e53f82dad4a3d2d33539643f952dc75e8d",
+    "run_essentia.py": "f64a1ff609493fc0c7e284e99bd51a20d12612d49e2ee1208588f70920cf8038",
+    "run_librosa.py": "a77af321e86adba61c358fbe96c82d60e8475de4d4f236b540ef30aa287a3151",
+    "verify.py": "585ec01aeb46a80e23d76924a3652afc36003555607109d838a869b3613de6b2"
+  },
+  "combined_benchmark_fingerprint": "d3e5ea9c6bea7bd0a9c81cb6044fa469dc1f33bc2f70788cd4a027f30491ee6a",
+  "execution_id": "EXEC-CEDVAL006-EXTERNAL-BEAT-BENCHMARK-20260824-191341",
+  "study_id": "H-CEDVAL006-EXTERNAL-BEAT-POSITION-FEASIBILITY-01"
+}

@@ -1,0 +1,22 @@
+{
+  "essentia_wheel_sha256": "84e5167b95d9e74b2ddd928555d5a1e11997a458dae25e653544a953bc3068b9",
+  "execution_id": "EXEC-CEDVAL006-EXTERNAL-BEAT-BENCHMARK-20260824-191341",
+  "input_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/raw/Dums Overheads LCT 640 TS-Dual Output Mode.wav",
+  "input_properties": {
+    "channels": 2,
+    "sample_count": 11912868,
+    "sample_rate_hz": 48000,
+    "sample_width_bytes": 3
+  },
+  "input_sha256": "dbfc4c3c59cac2c42cb2bbd33f1e55dbb1ec8c2fe6c6d095e30efc791dd57b8d",
+  "orchestrator_environment": {
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "scipy": "1.18.0"
+  },
+  "preregistration_commit": "7f39c115a3fe8c96d9a8d1cc6ce8dc5496e1a5da",
+  "preregistration_sha256": "11358b62a021c0f7b70d0297d375d0b24da4971a6540af9196d56afdcb1c5daa",
+  "study_id": "H-CEDVAL006-EXTERNAL-BEAT-POSITION-FEASIBILITY-01"
+}

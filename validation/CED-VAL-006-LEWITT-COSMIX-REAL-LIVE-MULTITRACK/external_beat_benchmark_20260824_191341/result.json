@@ -1,0 +1,104 @@
+{
+  "blind_freeze_completed_before_jga_access": true,
+  "combined_benchmark_fingerprint": "d3e5ea9c6bea7bd0a9c81cb6044fa469dc1f33bc2f70788cd4a027f30491ee6a",
+  "epistemic_status": "CANDIDATE_EXTERNAL_TEMPORAL_REFERENCE",
+  "essentia_resampled_input_scientific_fingerprint": "f073e8cf60739858a87c70e9e5d082ea9faa0a191ebea2522b76b2caa96b364c",
+  "essentia_scientific_fingerprint": "1e52e479e9be6bb80f7b36a781031ab343523c4e6d7d248eecfaf4cb9bd284dd",
+  "essentia_summary": {
+    "beat_count": 527,
+    "beat_time_scope_seconds": [
+      {
+        "binary64_hex": "0x1.c3c4760000000p-2",
+        "decimal": 0.4411791265010834
+      },
+      {
+        "binary64_hex": "0x1.ef77a60000000p+7",
+        "decimal": 247.7336883544922
+      }
+    ],
+    "confidence": {
+      "binary64_hex": "0x1.57d1a00000000p+1",
+      "decimal": 2.686084747314453,
+      "semantics": "TRACK_LEVEL_MULTIFEATURE_CONFIDENCE_NOT_PER_BEAT"
+    },
+    "inter_beat_interval_summary_seconds": {
+      "count": 526,
+      "maximum": 0.5572795867919922,
+      "mean": 0.4701378502433291,
+      "median": 0.4644012451171875,
+      "minimum": 0.41795921325683594,
+      "population_standard_deviation": 0.01540002426607318
+    },
+    "reported_bpm": {
+      "binary64_hex": "0x1.011e120000000p+7",
+      "decimal": 128.55873107910156
+    },
+    "status": "VALID_TRACKER_OUTPUT"
+  },
+  "execution_id": "EXEC-CEDVAL006-EXTERNAL-BEAT-BENCHMARK-20260824-191341",
+  "firewalls": {
+    "constant_bpm_grid_constructed": false,
+    "external_or_manual_bpm_used": false,
+    "h02_used": false,
+    "historical_authorities_changed": false,
+    "jga_comparison_performed": false,
+    "jga_core_changed": false,
+    "jga_eme_accessed": false,
+    "lewitt_video_used_for_timing": false,
+    "musical_interpretation_performed": false,
+    "production_code_changed": false,
+    "raw_assets_changed": false,
+    "strength_accessed": false
+  },
+  "input_sha256": "dbfc4c3c59cac2c42cb2bbd33f1e55dbb1ec8c2fe6c6d095e30efc791dd57b8d",
+  "librosa_scientific_fingerprint": "780f9691dd13bb7bf30858ff8a7d76628958f42b8e56430798554981ef65b318",
+  "librosa_summary": {
+    "beat_count": 466,
+    "beat_frame_scope": [
+      2487,
+      22855
+    ],
+    "beat_sample_scope": [
+      1273344,
+      11701760
+    ],
+    "beat_time_scope_seconds": [
+      {
+        "binary64_hex": "0x1.a872b020c49bap+4",
+        "decimal": 26.528
+      },
+      {
+        "binary64_hex": "0x1.e792c5f92c5f9p+7",
+        "decimal": 243.78666666666666
+      }
+    ],
+    "inter_beat_interval_summary_seconds": {
+      "count": 465,
+      "maximum": 0.5120000000000005,
+      "mean": 0.46722293906810036,
+      "median": 0.4693333333333385,
+      "minimum": 0.4373333333333278,
+      "population_standard_deviation": 0.009989062092774937
+    },
+    "reported_tempo": {
+      "dtype": "float64",
+      "native_type": "ndarray",
+      "semantics": "TRACKER_REPORTED_GLOBAL_TEMPO_DESCRIPTIVE_ONLY",
+      "shape": [
+        1
+      ],
+      "values": [
+        {
+          "binary64_hex": "0x1.ff5d1745d1746p+6",
+          "decimal": 127.8409090909091
+        }
+      ]
+    },
+    "status": "VALID_TRACKER_OUTPUT"
+  },
+  "native_mono_scientific_fingerprint": "1d7d7c874fe7422693082f2d136451dd05b7148f730ac6d2c296c3405c6614c4",
+  "preregistration_commit": "7f39c115a3fe8c96d9a8d1cc6ce8dc5496e1a5da",
+  "schema": "JGA-CEDVAL006-EXTERNAL-BEAT-POSITION-FEASIBILITY/v1",
+  "status": "PASS_FROZEN_EXTERNAL_TWO_TRACKER_OUTPUTS",
+  "study_id": "H-CEDVAL006-EXTERNAL-BEAT-POSITION-FEASIBILITY-01"
+}

@@ -1,0 +1,21 @@
+{
+  "authority_gate": "PASS",
+  "combined_benchmark_fingerprint": "d3e5ea9c6bea7bd0a9c81cb6044fa469dc1f33bc2f70788cd4a027f30491ee6a",
+  "constant_bpm_grid_constructed": false,
+  "essentia_replay": "PASS_EXACT_TWO_FRESH_PROCESS_EXECUTIONS",
+  "external_or_manual_bpm_used": false,
+  "h02_used": false,
+  "historical_authorities_changed": false,
+  "jga_comparison_performed": false,
+  "jga_core_changed": false,
+  "jga_eme_accessed": false,
+  "lewitt_video_used_for_timing": false,
+  "librosa_replay": "PASS_EXACT_TWO_FRESH_PROCESS_EXECUTIONS",
+  "musical_interpretation_performed": false,
+  "native_mono_gate": "PASS",
+  "production_code_changed": false,
+  "raw_assets_changed": false,
+  "resampled_input_gate": "PASS",
+  "status": "PASS_FROZEN_EXTERNAL_TWO_TRACKER_OUTPUTS",
+  "strength_accessed": false
+}
