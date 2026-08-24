@@ -1,0 +1,17 @@
+{
+  "authority_checksums": {
+    "validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/preregistrations/CL-H-CEDVAL005-FIVE-WINDOW-COORDINATE-AUTHORITY-01.md": "42b41897e1c7e4123a0783a71debbe65138f2efb680a1c6534fbcb5217bd5e8c",
+    "validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/preregistrations/H-CEDVAL005-FIVE-WINDOW-LOCAL-NEUTRAL-VISUALIZATION-01.md": "83beb4287dfa2224b8e4dcb72a94cfc5dd87f38dfe7ecb91c98986610f9f31c7"
+  },
+  "authority_gate": "PASS",
+  "clarification_id": "CL-H-CEDVAL005-FIVE-WINDOW-COORDINATE-AUTHORITY-01",
+  "execution_id": "EXEC-CEDVAL005-LOCAL-VISUALIZATION-20260824-160657",
+  "input_checksums": {
+    "drum_relative_localizations.json": "cf4a8b3c00bd4ee5b102867b554ce76fda79b0c8ea8e4d0e652f8e4950228b03",
+    "elementary_metric_events.json": "81e45700196b7f712237da5ac6bbb32324a3f782bb66022e2427b08d9e342f2d",
+    "rhythm_section_timing_profile.json": "e8f2f7061b80265c04518f43eddb3aaf6a9931e044b33ff3a33333370150f312"
+  },
+  "source_execution_id": "EXEC-CEDVAL005-REAL-AUDIO-20260824-112305",
+  "source_scientific_fingerprint": "074d84768f508e6ceee9c9225c34e9ea881ce50d88e0d5f930525b92e87bd9d6",
+  "study_id": "H-CEDVAL005-FIVE-WINDOW-LOCAL-NEUTRAL-VISUALIZATION-01"
+}

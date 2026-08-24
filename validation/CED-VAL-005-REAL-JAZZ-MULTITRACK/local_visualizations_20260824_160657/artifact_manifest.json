@@ -1,0 +1,19 @@
+{
+  "aggregate_visualization_fingerprint": "0dcf8fe6692269bf96675a96d1654b20931e96768edea729bbce6401c922ded5",
+  "artifacts": {
+    "cedval005_w1_observational.png": "2cf35b9a17dd022118ae6aa220c26e48aebf4191b663a763f0c686a7c991ab90",
+    "cedval005_w2_observational.png": "23bd9d215040f0a63f8390213feb2a3e6e8d7c2ce232873fae5d25f556e5244f",
+    "cedval005_w3_observational.png": "642b13ccafb47b23accbf486e8ee90be36ccde5a7fbec1116ff2db0f32cd3d1c",
+    "cedval005_w4_observational.png": "425e6844fb576e8c2d073ee085de52e41787bff6a7ef1edae6bc000e1055aa77",
+    "cedval005_w5_observational.png": "cd46eb435de6d5adde07389f4a91719e9f670b6199bafc904641c9bf22c4bcb1",
+    "completion_protocol.json": "847969683de0b23bcfde2e5deb91e2ffe166cb1c65452d15d232c378eebe9696",
+    "execute.py": "db1a6b4b5ab1ff7364b14e773b567e825e34ddb996aad72d98023dca44b64e95",
+    "input_manifest.json": "ece609946697bb6f80b8496377346b39e73e2623bc9cbb7007c00a40d6ffe100",
+    "report.md": "536958c441b40b19bf85d4318c33ec3a383a5d086bd2dde66f9b40a50cd4ff1b",
+    "result.json": "92461b7ae60a2bb380d5359a287bd0d3b41b89408d826aa7d412d41f73d9d892",
+    "scientific_content.json": "2c858f827d00f69628a84fb8b4a866f2a9092179b25ea68fce12575a05232fa6",
+    "verify.py": "576f2447e410333bf1a7a86794f29664727ef9b5e226dcd1f0690dbefe509fb4"
+  },
+  "execution_id": "EXEC-CEDVAL005-LOCAL-VISUALIZATION-20260824-160657",
+  "study_id": "H-CEDVAL005-FIVE-WINDOW-LOCAL-NEUTRAL-VISUALIZATION-01"
+}

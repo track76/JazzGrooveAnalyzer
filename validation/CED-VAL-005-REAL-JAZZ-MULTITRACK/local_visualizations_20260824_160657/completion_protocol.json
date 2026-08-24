@@ -1,0 +1,11 @@
+{
+  "aggregate_visualization_fingerprint": "0dcf8fe6692269bf96675a96d1654b20931e96768edea729bbce6401c922ded5",
+  "h02_used": false,
+  "jga_rerun": false,
+  "musical_interpretation_performed": false,
+  "png_byte_replay": "PASS_BYTE_IDENTICAL_TWO_COMPLETE_EXECUTIONS",
+  "production_code_changed": false,
+  "scientific_content_replay": "PASS_EXACT_TWO_COMPLETE_EXECUTIONS",
+  "status": "PASS_FROZEN_FIVE_WINDOW_LOCAL_NEUTRAL_VISUALIZATIONS",
+  "strength_accessed": false
+}
