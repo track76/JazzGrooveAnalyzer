@@ -1,0 +1,93 @@
+{
+  "acceptance_authority": {
+    "commit": "97de373869a4577e216efc847b69f3ae22f453c1",
+    "execution_id": "EXEC-CEDVAL006-CANONICAL-REPORT-ACCEPTANCE-02",
+    "fingerprint": "ea1490dc0171631381186b6728ee1b49ce5549041c38410b06132d021ee7e100",
+    "id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02",
+    "status": "PASS_REAL_AUDIO_ACCEPTED"
+  },
+  "canonical_invocation": {
+    "entry_point": "tools/run_rhythm_section_timing_report.py",
+    "required_authority_fields": [
+      "source",
+      "execution-id",
+      "provenance-id",
+      "role-authority-id",
+      "role-authority-fingerprint",
+      "calibration-applicability",
+      "calibration-authority-id",
+      "calibration-authority-fingerprint",
+      "jga-revision",
+      "output"
+    ],
+    "source_checksum_gate": "expected-sha256",
+    "source_syntax": "ROLE=LABEL=PATH"
+  },
+  "canonical_output": {
+    "fingerprint_rule": "sha256-canonical-json-scientific-content/v1",
+    "schema_id": "JGA_RHYTHM_SECTION_TIMING_REPORT_V1",
+    "schema_version": 1,
+    "serialization": "ascii-json/sorted-keys/no-nan/compact-separators/newline/v1"
+  },
+  "claim_firewall": [
+    "beat_identity",
+    "musical_correspondence",
+    "tempo",
+    "bpm",
+    "meter",
+    "downbeat",
+    "swing",
+    "groove",
+    "rushing",
+    "dragging",
+    "intention",
+    "human_microtiming",
+    "physical_onset_ground_truth",
+    "calibrated_timing_correction",
+    "ACQUISITION_CLOCK_SYNCHRONY_NOT_ESTABLISHED"
+  ],
+  "implementation_authority": {
+    "canonical_workflow_commit": "39620901048053e4159faad78065a2703a586b5e",
+    "reporting_correction_commit": "c1990328a08976de21c5e712d6fce9a8cde9abe2"
+  },
+  "known_blockers": [
+    {
+      "classification": "KNOWN_EXTERNAL_ENVIRONMENT_TEST_BLOCKER",
+      "reason": "Configured JGA_EXTERNAL_ROOT is not writable for the unchanged real-Demucs integration test.",
+      "test": "tests/integration/test_m31_real_demucs_separator.py"
+    }
+  ],
+  "package_version": "0.3.0a0",
+  "predecessor_tag": "v0.2.0-alpha",
+  "publication_evidence_index": {
+    "commit": "dfb143a7926582597133d918dde74fcac53402fa",
+    "id": "JGA-SCIENTIFIC-EVIDENCE-INDEX-001",
+    "path": "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+    "version": "1.0"
+  },
+  "release_commit_binding": "annotated-tag:v0.3.0-alpha^{commit}",
+  "release_gate_id": "REL-JGA-FIRST-SCIENTIFICALLY-USABLE-01",
+  "release_tag": "v0.3.0-alpha",
+  "scientific_scope": [
+    "PROVENANCE_BOUND_FRAME_RESOLVED_OBSERVATIONS",
+    "AD_037_EME_MATERIALIZATION",
+    "AD_038_GEOMETRIC_ONLY_TEMPORAL_GEOMETRY",
+    "AD_040_RHYTHM_SECTION_TIMING_PROFILE",
+    "DETERMINISTIC_IMMUTABLE_ANALYST_JSON"
+  ],
+  "status": "PASS_FIRST_SCIENTIFICALLY_USABLE_RELEASE_GATE",
+  "test_authority": {
+    "adjacent_and_focused": "27 passed, 2 warnings",
+    "broad": "1100 passed, 1 known external-environment failure, 3 warnings",
+    "canonical_controlled_replay": "PASS",
+    "cli_help": "PASS",
+    "cli_missing-required-authority_error": "PASS_EXIT_2",
+    "real_audio_acceptance_replay": "PASS"
+  },
+  "version_authority": {
+    "governing_lineage": "certified-bootstrap-and-annotated-git-tags",
+    "pi_adjudication": "PI_VERSION_AUTHORITY_ADJUDICATION",
+    "release_identity": "v0.3.0-alpha",
+    "release_to_pep440_mapping": "v0.3.0-alpha -> 0.3.0a0"
+  }
+}

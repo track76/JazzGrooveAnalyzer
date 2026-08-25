@@ -74,6 +74,28 @@ Every claim below is limited by its cited scope and firewall.
 | `CL-JGA-015` | Frozen external-tracker populations can be related reproducibly to JGA Drum observations through neutral geometry. | B | CED-VAL-005/006 geometry chains below | No musical correspondence, correctness, or tracker accuracy follows. |
 | `CL-JGA-016` | Calibration experiments characterize bounded measurement behavior without authorizing correction of immutable observations. | A | VAL-001/CED-VAL-002/003/004 calibration chains | Descriptive calibration evidence only; transfer is prohibited. |
 
+### First scientifically usable release traceability addendum
+
+Release `v0.3.0-alpha` packages, without expanding, the evidence-bearing
+workflow supporting `CL-JGA-001`, `CL-JGA-002`, and `CL-JGA-014`. Its Python
+package version is the PEP 440 equivalent `0.3.0a0`. The release authority and
+deterministic verifier are in
+[`validation/releases/JGA-v0.3.0-alpha`](../validation/releases/JGA-v0.3.0-alpha/).
+
+The real-audio integration gate is
+[`ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`](../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/acceptance_20260825_113950/),
+fingerprint
+`ea1490dc0171631381186b6728ee1b49ce5549041c38410b06132d021ee7e100`.
+Its predecessor
+[`ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-01`](../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/acceptance_20260825_112627/)
+remains immutable negative evidence of the calibration-provenance and
+acquisition-clock-firewall defects; the successful repeat does not erase it.
+
+Release scope remains provenance-bound observation, AD-037 materialization,
+AD-038 `GEOMETRIC_ONLY` geometry, AD-040 projection, and deterministic
+`JGA_RHYTHM_SECTION_TIMING_REPORT_V1` serialization. The unsupported claims in
+Section 10 remain unchanged and bind the release.
+
 ## 3. Complete scientific-process inventory
 
 The inventory consolidates repeated executions under their scientific process.

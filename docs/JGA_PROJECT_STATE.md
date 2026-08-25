@@ -1,8 +1,39 @@
 # JGA Project State
 
+## First Scientifically Usable Release Gate
+
+Status: **PASS — v0.3.0-alpha**
+
+- Governing release lineage: certified bootstrap and annotated Git tags.
+  Predecessor: `v0.2.0-alpha`; current bounded release: `v0.3.0-alpha`.
+  Python package metadata uses the exact PEP 440 equivalent `0.3.0a0`.
+- Release commit authority is the commit referenced by the local annotated
+  `v0.3.0-alpha` tag. No remote release or push is authorized by this gate.
+- Canonical workflow:
+  `tools/run_rhythm_section_timing_report.py` from explicit checksum-bound
+  roles through unchanged observations, AD-037, AD-038, AD-040, and immutable
+  JSON.
+- Canonical output: `JGA_RHYTHM_SECTION_TIMING_REPORT_V1`, schema version `1`,
+  fingerprint rule `sha256-canonical-json-scientific-content/v1`.
+- Real-audio acceptance authority:
+  `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`, execution
+  `EXEC-CEDVAL006-CANONICAL-REPORT-ACCEPTANCE-02`, fingerprint
+  `ea1490dc0171631381186b6728ee1b49ce5549041c38410b06132d021ee7e100`.
+- Scientific scope is provenance-bound frame-resolved observations, AD-037
+  EME, AD-038 `GEOMETRIC_ONLY` temporal geometry, and an AD-040 profile.
+  Calibration applicability/application/correction remain distinct.
+- Known blocker: the unchanged real-Demucs integration test requires writable
+  configured external storage and is classified
+  `KNOWN_EXTERNAL_ENVIRONMENT_TEST_BLOCKER`; it does not affect the canonical
+  report workflow or accepted scientific content.
+- Deferred beyond this release: autonomous BPM/tempo, meter/downbeat, musical
+  correspondence, groove/swing/rushing/dragging, human microtiming,
+  acquisition-clock synchrony, automatic role inference, calibration
+  correction, external trackers/adapters, GUI and interactive visualization.
+
 ## Canonical End-to-End Rhythm Section Timing Report
 
-Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTANCE PENDING**
+Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTED**
 
 - `JGA_RHYTHM_SECTION_TIMING_REPORT_V1` is the minimum normal-use JSON workflow
   from checksum-bound source inputs through unchanged JGA observation,
@@ -28,9 +59,10 @@ Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTANCE PENDING**
   its negative evidence remains immutable.
 - Core, Translation scientific semantics, Domain scientific semantics,
   Candidate Period semantics and historical evidence are unchanged.
-- Controlled tests establish software behavior and exact replay only. They are
-  not a new scientific experiment. Real-audio acceptance remains unexecuted
-  pending separate PI approval.
+- Controlled tests establish software behavior and exact replay only. Real
+  audio is accepted by
+  `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`; this does not expand its
+  scientific claims.
 
 ## Prospective Real-Audio Acquisition Authority Gate
 
