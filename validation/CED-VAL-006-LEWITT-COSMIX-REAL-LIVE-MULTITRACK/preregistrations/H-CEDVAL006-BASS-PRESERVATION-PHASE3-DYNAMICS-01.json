@@ -1,0 +1,61 @@
+{
+  "preregistration_id": "H-CEDVAL006-BASS-PRESERVATION-PHASE3-DYNAMICS-01",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "scientific_question": "Can one fixed post-separation Bass-only dynamics transformation materially restore original Bass-event observability to the unchanged JGA frontend while preserving recovered-event timing?",
+  "authorities": {
+    "jga_release": "v0.3.0-alpha",
+    "controlled_mix_authority": "PR-CEDVAL006-CONTROLLED-MIXDOWN-001",
+    "original_bass_sha256": "c0a99f65158d12a69e062cc990e86631a0d29d7e83f30537d34eb301516855a9",
+    "original_bass_eme_count": 1055,
+    "phase2_execution": "EXEC-CEDVAL006-BASS-PRESERVATION-PHASE2-01",
+    "phase2_result_commit": "56757d9a483aef9616ee965a952ab9cf82923845",
+    "phase2_result_fingerprint": "dec665338136d6d17565220fe31df006c427e6ad627f4f7edea52c70fe4aa48b",
+    "unprocessed_model": "htdemucs_ft",
+    "unprocessed_bass_sha256": "a9949d98dd914de8a7aaa330b7a149340929c31b2665bc00d55eac8df230fe6b",
+    "unprocessed_drums_sha256": "eeefac2a4a9a580a8858ee0daa8acc6a79046f4c65de39a1cfd08e28389cad1a",
+    "unprocessed_bass_metrics": {"eme_count": 646, "matched": 619, "recall": 0.5867298578199052, "precision": 0.958204334365325, "f1": 0.7278071722516166, "original_only": 436, "separated_only": 27, "median_absolute_seconds": 0.0068208616780045354, "rmse_seconds": 0.017893173606420704, "maximum_absolute_seconds": 0.18692063492063493}
+  },
+  "read_only_characterization": {
+    "method": "Per-channel decode to float64; mono arithmetic mean for descriptive sample magnitudes; non-overlapping 1024-sample mono RMS frames; no filtering, detection, JGA, or parameter search.",
+    "original": {"sample_rate": 48000, "channels": 1, "peak": 0.7373018264770508, "global_rms": 0.04713588840782366, "median_frame_rms_dbfs": -30.417779922049352, "frame_fraction_below_minus30_dbfs": 0.5182669990544142, "frame_fraction_minus60_to_minus30_dbfs": 0.3647382446488438},
+    "separated": {"sample_rate": 44100, "channels": 2, "peak": 0.2268853262066841, "global_rms": 0.028038420390857882, "median_frame_rms_dbfs": -36.59771203555581, "frame_fraction_below_minus30_dbfs": 0.7264221556886228, "frame_fraction_minus60_to_minus30_dbfs": 0.5207709580838323},
+    "interpretation": "The frozen separated Bass contains a substantially larger low-level frame population, so a single memoryless upward-dynamics condition remains a plausible test of attenuated residual event observability. This does not establish event identity or causal mechanism."
+  },
+  "single_processing_condition": {
+    "id": "STATIC_UPWARD_COMPRESSION_MINUS30DB_RATIO2_V1",
+    "input": "Exact checksum-bound htdemucs_ft bass.wav independently for each frozen identical Phase-2 run",
+    "threshold_dbfs": -30.0,
+    "threshold_linear": "10**(-30/20)",
+    "below_threshold_ratio": "2:1 upward compression",
+    "sample_transfer": "For a=abs(x): y=0 when a=0; y=sign(x)*T*(a/T)**(1/2) when 0<a<T; y=x when a>=T.",
+    "channel_rule": "Apply independently to every channel with no channel mixing.",
+    "time_behavior": "MEMORYLESS_SAMPLE_SYNCHRONOUS; no attack, release, lookahead, delay, or temporal shift.",
+    "internal_precision": "IEEE_FLOAT64",
+    "output": "Stereo 44,100 Hz IEEE float32 WAV, 10,944,947 frames, scope [0,10944947), no dither.",
+    "peak_rule": "Samples at or above threshold are unchanged; peak cannot increase; clipping is prohibited.",
+    "normalization": "NONE",
+    "makeup_gain": "NONE",
+    "limiter": "NONE",
+    "implementation": "apply_phase3_dynamics.py",
+    "implementation_dependencies": {"python": "3.13.14", "numpy": "2.4.6", "soundfile": "0.14.0"}
+  },
+  "future_execution": {
+    "transform_runs": 2,
+    "require_byte_identical_output": true,
+    "preserve": ["input and output SHA-256", "technical properties", "complete output WAV", "environment", "execution identity"],
+    "conditions": ["frozen unprocessed htdemucs_ft Bass", "identical htdemucs_ft Bass plus STATIC_UPWARD_COMPRESSION_MINUS30DB_RATIO2_V1"],
+    "drums_control": "Use the identical frozen htdemucs_ft drums.wav without processing.",
+    "jga": "Unchanged JGA v0.3.0-alpha after processed outputs are frozen.",
+    "scoring": "Reuse exactly the frozen CED-VAL-006 Level-1, Level-2 original-EME Voronoi assignment, AD-038, and AD-040 scoring infrastructure."
+  },
+  "decision_criteria": {
+    "priority": "Event-population recovery first; timing preservation independently mandatory; no weighted composite score.",
+    "CLEAR_DYNAMICS_IMPROVEMENT": "Both processed runs must exceed unprocessed htdemucs_ft for matched (>619), recall (>0.5867298578199052), F1 (>0.7278071722516166), and original-only (<436), while median absolute displacement, RMSE, and maximum absolute displacement are each no worse than the frozen unprocessed values; Drum control and AD-038/AD-040 statuses must not materially collapse.",
+    "POPULATION_IMPROVEMENT_WITH_TIMING_DEGRADATION": "Both runs improve the complete population tuple but fail at least one mandatory frozen timing-preservation bound.",
+    "NO_MATERIAL_RESTORATION": "Both runs fail to improve the complete population tuple over unprocessed htdemucs_ft.",
+    "INDETERMINATE": "Transformation, JGA, or scoring replay disagreement, authority failure, or discordant run categories prevents interpretation.",
+    "baseline_context": "Report independently whether both processed runs also exceed the frozen stochastic baseline-best tuple: matched >625, recall >0.5924170616113744, F1 >0.7212925562608193, original-only <430."
+  },
+  "firewall": {"phase3_executed": false, "jga_executed_for_parameter_choice": false, "demucs_executed": false, "parameter_search": false, "production_code_changed": false, "h02": false, "strength": false, "eq": false, "latency_correction": false, "temporal_alignment": false, "stem_recombination": false, "normalization_for_agreement": false, "onset_detector_tuning": false},
+  "preregistration_fingerprint": "17f7d3ea16de1cb2aefdd117290970b5b4057f27ec7d9f6c5dc5e5f8b06947a0"
+}
