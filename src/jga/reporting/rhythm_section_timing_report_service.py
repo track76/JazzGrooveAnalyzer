@@ -51,7 +51,13 @@ FIREWALL = (
     "human_microtiming",
     "physical_onset_ground_truth",
     "calibrated_timing_correction",
+    "ACQUISITION_CLOCK_SYNCHRONY_NOT_ESTABLISHED",
 )
+CALIBRATION_APPLICABILITY_VALUES = {
+    "APPLICABLE",
+    "NOT_APPLICABLE",
+    "UNESTABLISHED",
+}
 
 
 class RhythmSectionTimingReportService:
@@ -70,6 +76,9 @@ class RhythmSectionTimingReportService:
         provenance_id: str,
         role_authority_id: str,
         role_authority_fingerprint: str,
+        calibration_applicability: str,
+        calibration_authority_id: str,
+        calibration_authority_fingerprint: str,
         jga_revision: str,
     ) -> RhythmSectionTimingReport:
         self._validate_invocation(
@@ -78,8 +87,15 @@ class RhythmSectionTimingReportService:
             provenance_id,
             role_authority_id,
             role_authority_fingerprint,
+            calibration_authority_id,
+            calibration_authority_fingerprint,
             jga_revision,
         )
+        if calibration_applicability not in CALIBRATION_APPLICABILITY_VALUES:
+            raise RhythmSectionTimingReportError(
+                "UNSUPPORTED_CALIBRATION_APPLICABILITY:"
+                f"{calibration_applicability}"
+            )
         ordered_sources = tuple(
             sorted(sources, key=lambda item: (item.role, item.label, str(item.path)))
         )
@@ -219,6 +235,10 @@ class RhythmSectionTimingReportService:
                 "provenance_id": provenance_id,
                 "role_authority_id": role_authority_id,
                 "role_authority_fingerprint": role_authority_fingerprint,
+                "calibration_authority_id": calibration_authority_id,
+                "calibration_authority_fingerprint": (
+                    calibration_authority_fingerprint
+                ),
                 "source_order_rule": "role-label-path-lexicographic/v1",
             },
             "environment": self._environment(jga_revision),
@@ -242,7 +262,13 @@ class RhythmSectionTimingReportService:
                     "AD_040_RHYTHM_SECTION_TIMING_PROFILE",
                 ),
                 "default_correspondence_status": "GEOMETRIC_ONLY",
-                "calibration_status": "NOT_APPLIED",
+                "calibration": {
+                    "applicability": calibration_applicability,
+                    "application": "NOT_APPLIED",
+                    "correction": "NONE",
+                    "authority_id": calibration_authority_id,
+                    "authority_fingerprint": calibration_authority_fingerprint,
+                },
                 "timestamp_correction": "NONE",
                 "unsupported_claims": FIREWALL,
             },

@@ -16,8 +16,16 @@ Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTANCE PENDING**
   environment authority and explicit claim firewalls.
 - Canonical sorted-key JSON and SHA-256 scientific-content fingerprinting are
   deterministic. Existing output files are not overwritten.
-- Default correspondence remains `GEOMETRIC_ONLY`; calibration is
-  `NOT_APPLIED`; timestamp correction is `NONE`.
+- Default correspondence remains `GEOMETRIC_ONLY`. Calibration applicability,
+  application and correction are preserved separately and provenance-bound;
+  application remains `NOT_APPLIED` and correction remains `NONE`.
+- The serialized claim firewall explicitly states that acquisition-clock
+  synchrony is not established.
+- These bounded Reporting/Application corrections are motivated by the frozen
+  failed acceptance
+  `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-01` at
+  `validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/acceptance_20260825_112627/`;
+  its negative evidence remains immutable.
 - Core, Translation scientific semantics, Domain scientific semantics,
   Candidate Period semantics and historical evidence are unchanged.
 - Controlled tests establish software behavior and exact replay only. They are

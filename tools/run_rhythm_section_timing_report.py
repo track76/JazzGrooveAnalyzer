@@ -61,6 +61,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--provenance-id", required=True)
     parser.add_argument("--role-authority-id", required=True)
     parser.add_argument("--role-authority-fingerprint", required=True)
+    parser.add_argument(
+        "--calibration-applicability",
+        required=True,
+        choices=("APPLICABLE", "NOT_APPLICABLE", "UNESTABLISHED"),
+    )
+    parser.add_argument("--calibration-authority-id", required=True)
+    parser.add_argument("--calibration-authority-fingerprint", required=True)
     parser.add_argument("--jga-revision", required=True)
     parser.add_argument("--output", required=True, type=Path)
     return parser
@@ -93,6 +100,11 @@ def main(argv: list[str] | None = None) -> int:
             provenance_id=args.provenance_id,
             role_authority_id=args.role_authority_id,
             role_authority_fingerprint=args.role_authority_fingerprint,
+            calibration_applicability=args.calibration_applicability,
+            calibration_authority_id=args.calibration_authority_id,
+            calibration_authority_fingerprint=(
+                args.calibration_authority_fingerprint
+            ),
             jga_revision=args.jga_revision,
         )
         report.write(args.output)

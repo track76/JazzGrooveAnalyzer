@@ -106,6 +106,9 @@ PYTHONPATH=src .venv/bin/python tools/run_rhythm_section_timing_report.py \
   --provenance-id <input-authority-id> \
   --role-authority-id <role-authority-id> \
   --role-authority-fingerprint <role-authority-fingerprint> \
+  --calibration-applicability <APPLICABLE|NOT_APPLICABLE|UNESTABLISHED> \
+  --calibration-authority-id <calibration-authority-id> \
+  --calibration-authority-fingerprint <calibration-authority-fingerprint> \
   --jga-revision <git-commit> \
   --output rhythm-section-timing-report.json
 ```
@@ -118,6 +121,9 @@ the fingerprint field is added. Existing output files are not overwritten.
 The report establishes only provenance-bound frame-resolved observations,
 neutral temporal geometry, and an AD-040 profile. Its default correspondence
 status is `GEOMETRIC_ONLY`; no calibration or timestamp correction is applied.
+Calibration applicability is supplied through a separate provenance-bound
+authority and is never inferred from the fixed `NOT_APPLIED` application and
+`NONE` correction statuses.
 It does not establish beat identity, musical correspondence, tempo, BPM,
 meter, downbeat, swing, groove, rushing/dragging, intention, human microtiming,
-or physical-onset Ground Truth.
+physical-onset Ground Truth, or acquisition-clock synchrony.

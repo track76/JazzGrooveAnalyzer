@@ -15,6 +15,11 @@ from tools.run_rhythm_section_timing_report import main
 DRUMS = Path("recordings/validation/stems/drums.wav")
 BASS = Path("recordings/validation/stems/double_bass.wav")
 JGA_REVISION = "dfb143a7926582597133d918dde74fcac53402fa"
+CALIBRATION_AUTHORITY = {
+    "calibration_applicability": "UNESTABLISHED",
+    "calibration_authority_id": "TEST-CALIBRATION-AUTHORITY",
+    "calibration_authority_fingerprint": "test-calibration-authority-fingerprint",
+}
 
 
 def inputs():
@@ -31,6 +36,7 @@ def build_report(sources=None):
         provenance_id="VAL-001-CONTROLLED-STEMS",
         role_authority_id="AD-040-CONTROLLED-ROLE-AUTHORITY",
         role_authority_fingerprint="b8983e8",
+        **CALIBRATION_AUTHORITY,
         jga_revision=JGA_REVISION,
     )
 
@@ -66,10 +72,23 @@ def test_complete_workflow_replays_exactly_and_preserves_firewalls():
         and item["calibration_status"] == "NOT_APPLIED"
         for item in document["ad038_localizations"]
     )
-    assert document["scientific_status"]["timestamp_correction"] == "NONE"
-    assert set(document["scientific_status"]["unsupported_claims"]) >= {
-        "beat_identity", "musical_correspondence", "human_microtiming", "groove"
+    calibration = document["scientific_status"]["calibration"]
+    assert calibration == {
+        "applicability": "UNESTABLISHED",
+        "application": "NOT_APPLIED",
+        "correction": "NONE",
+        "authority_id": "TEST-CALIBRATION-AUTHORITY",
+        "authority_fingerprint": "test-calibration-authority-fingerprint",
     }
+    assert profile["calibration_status"] == "NOT_APPLIED"
+    assert document["scientific_status"]["timestamp_correction"] == "NONE"
+    assert document["scientific_status"]["unsupported_claims"] == [
+        "beat_identity", "musical_correspondence", "tempo", "bpm", "meter",
+        "downbeat", "swing", "groove", "rushing", "dragging", "intention",
+        "human_microtiming", "physical_onset_ground_truth",
+        "calibrated_timing_correction",
+        "ACQUISITION_CLOCK_SYNCHRONY_NOT_ESTABLISHED",
+    ]
     assert all(
         item["producer_sample_coordinate"] == item["producer_frame"] * 512
         for records in document["observations"].values()
@@ -87,6 +106,9 @@ def test_cli_writes_the_canonical_json_report(tmp_path):
             "--provenance-id", "VAL-001-CONTROLLED-STEMS",
             "--role-authority-id", "AD-040-CONTROLLED-ROLE-AUTHORITY",
             "--role-authority-fingerprint", "b8983e8",
+            "--calibration-applicability", "UNESTABLISHED",
+            "--calibration-authority-id", "TEST-CALIBRATION-AUTHORITY",
+            "--calibration-authority-fingerprint", "test-calibration-authority-fingerprint",
             "--jga-revision", JGA_REVISION,
             "--output", str(destination),
         ]
@@ -106,6 +128,9 @@ def test_cli_writes_the_canonical_json_report(tmp_path):
             "--provenance-id", "VAL-001-CONTROLLED-STEMS",
             "--role-authority-id", "AD-040-CONTROLLED-ROLE-AUTHORITY",
             "--role-authority-fingerprint", "b8983e8",
+            "--calibration-applicability", "UNESTABLISHED",
+            "--calibration-authority-id", "TEST-CALIBRATION-AUTHORITY",
+            "--calibration-authority-fingerprint", "test-calibration-authority-fingerprint",
             "--jga-revision", JGA_REVISION,
             "--output", str(destination),
         ]
@@ -123,6 +148,7 @@ def test_ad038_and_ad040_failures_are_bounded(monkeypatch):
         service.build(
             inputs(), execution_id="FAIL-AD038", provenance_id="TEST",
             role_authority_id="TEST", role_authority_fingerprint="TEST",
+            **CALIBRATION_AUTHORITY,
             jga_revision=JGA_REVISION,
         )
 
@@ -136,5 +162,6 @@ def test_ad038_and_ad040_failures_are_bounded(monkeypatch):
         service.build(
             inputs(), execution_id="FAIL-AD040", provenance_id="TEST",
             role_authority_id="TEST", role_authority_fingerprint="TEST",
+            **CALIBRATION_AUTHORITY,
             jga_revision=JGA_REVISION,
         )
