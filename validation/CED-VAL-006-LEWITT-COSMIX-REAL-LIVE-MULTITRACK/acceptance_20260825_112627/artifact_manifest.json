@@ -1,0 +1,21 @@
+{
+  "acceptance_result_fingerprint": "68778f240a91e57cca92d5e30b5849bcc7ad160a569e7c9439847d52480cb811",
+  "acceptance_validation_id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-01",
+  "artifacts": {
+    "canonical_report_execution_1.json": "1ff484307d39bda8e4e05f0f65581ec1bae09b3481603c5dbb9d37bc86429cef",
+    "canonical_report_execution_2.json": "1ff484307d39bda8e4e05f0f65581ec1bae09b3481603c5dbb9d37bc86429cef",
+    "preregistration_freeze.json": "f4b0939e7cd7cfa274f17363ea3b942c41df678677d55f8b7bbe15bbd36baf76",
+    "report.md": "e641b2cf7d24356bbcc0d5d4c2774dd9d57822140d6e84613c67daf5f87d87cd",
+    "result.json": "4e56468414523ba5d7dfac6272c13da9224438bedee915806669732626929189",
+    "scientific_comparison.json": "8d945acb22632ba58c42c1c0cfa53c4a0b0ddcdf4fb160872b8ca4bcadb6bd35",
+    "verification.json": "0ea8b892b57cefd0bf89a8713db236ad6620aa74cd49dc47fafb9f5dc4f7c2f2"
+  },
+  "canonical_report_fingerprint": "e804977be05d0f9eba8f578be495d796c3549464ff620fa7574e73dc54f51ddb",
+  "implementation_commit": "39620901048053e4159faad78065a2703a586b5e",
+  "preregistration": {
+    "git_blob_id": "629955946fb448460381521afb1bd110fe24e512",
+    "id": "H-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-ACCEPTANCE-01",
+    "sha256": "b013b2d1cffb38c9a7c501fc71ee9afdb1d7e2f6eaabad5a99042f551935c628"
+  },
+  "status": "FAIL_SCIENTIFIC_INTEGRATION_CONFLICT"
+}

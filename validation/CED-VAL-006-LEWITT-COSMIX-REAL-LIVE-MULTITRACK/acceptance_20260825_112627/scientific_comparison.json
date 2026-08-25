@@ -1,0 +1,65 @@
+{
+  "acceptance_validation_id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-01",
+  "calibration_comparison": {
+    "historical_applicability": "UNESTABLISHED",
+    "new_report_application_status": "NOT_APPLIED",
+    "new_report_preserves_historical_applicability": false,
+    "timestamp_correction": "NONE"
+  },
+  "claim_firewall_comparison": {
+    "acquisition_clock_synchrony_explicitly_forbidden_by_historical_authority": true,
+    "new_report_contains_acquisition_clock_synchrony_firewall": false,
+    "other_required_firewall_terms_present": true
+  },
+  "correspondence_comparison": {
+    "historical_status": "GEOMETRIC_ONLY",
+    "new_geometric_only_count": 1055,
+    "new_other_accompaniment_status_count": 0,
+    "status": "MATCH"
+  },
+  "historical_authority": {
+    "execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+    "scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c"
+  },
+  "invariant_counts": {
+    "ad038": {
+      "expected_eligible": 1055,
+      "expected_localized": 1055,
+      "expected_ties": 4,
+      "expected_unresolved": 0,
+      "observed_eligible": 1055,
+      "observed_localized": 1055,
+      "observed_ties": 4,
+      "observed_unresolved": 0,
+      "status": "MATCH"
+    },
+    "ad040": {
+      "expected_double_bass": 1055,
+      "expected_drums": 909,
+      "expected_total": 1964,
+      "observed_double_bass": 1055,
+      "observed_drums": 909,
+      "observed_total": 1964,
+      "status": "MATCH"
+    },
+    "eme": {
+      "expected_double_bass": 1055,
+      "expected_drums": 909,
+      "observed_double_bass": 1055,
+      "observed_drums": 909,
+      "status": "MATCH"
+    }
+  },
+  "overall_status": "FAIL_SCIENTIFIC_INTEGRATION_CONFLICT",
+  "replay": {
+    "canonical_json_byte_identical": true,
+    "execution_1_report_fingerprint": "e804977be05d0f9eba8f578be495d796c3549464ff620fa7574e73dc54f51ddb",
+    "execution_2_report_fingerprint": "e804977be05d0f9eba8f578be495d796c3549464ff620fa7574e73dc54f51ddb",
+    "report_file_sha256": "1ff484307d39bda8e4e05f0f65581ec1bae09b3481603c5dbb9d37bc86429cef",
+    "status": "PASS"
+  },
+  "scientific_integration_conflicts": [
+    "CALIBRATION_APPLICABILITY_AUTHORITY_NOT_PRESERVED",
+    "ACQUISITION_CLOCK_SYNCHRONY_CLAIM_FIREWALL_NOT_PRESERVED"
+  ]
+}

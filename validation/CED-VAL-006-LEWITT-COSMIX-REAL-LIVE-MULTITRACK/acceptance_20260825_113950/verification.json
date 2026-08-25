@@ -1,0 +1,37 @@
+{
+  "authority_verification": {
+    "analytical_input_authority": "PASS",
+    "dataset_authority": "PASS",
+    "double_bass_sha256": "PASS",
+    "drum_sha256": "PASS",
+    "historical_result": "PASS",
+    "implementation_commit": "PASS"
+  },
+  "canonical_report_verification": {
+    "ad037_eme_complete": true,
+    "ad038_complete": true,
+    "ad040_complete": true,
+    "calibration_application_preserved": true,
+    "calibration_applicability_preserved": true,
+    "calibration_authority_preserved": true,
+    "calibration_correction_preserved": true,
+    "canonical_fingerprint_recomputed": true,
+    "claim_firewall_complete": true,
+    "eme_identities_and_timestamps_replayed": true,
+    "environment_provenance_present": true,
+    "execution_and_provenance_identities_present": true,
+    "explicit_role_assignments_present": true,
+    "reports_independently_json_readable": true,
+    "schema_id": "JGA_RHYTHM_SECTION_TIMING_REPORT_V1",
+    "schema_version": 1,
+    "source_authorities_and_checksums_present": true
+  },
+  "failed_gates": [],
+  "focused_report_verification": "PASS",
+  "historical_negative_evidence_unchanged": true,
+  "preregistration_frozen_before_execution": true,
+  "production_code_changed_during_acceptance": false,
+  "raw_assets_changed": false,
+  "replay": "PASS_BYTE_IDENTICAL",
+  "status": "PASS"
+}

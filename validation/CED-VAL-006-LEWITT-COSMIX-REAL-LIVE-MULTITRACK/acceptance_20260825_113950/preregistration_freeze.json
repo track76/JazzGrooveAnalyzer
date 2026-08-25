@@ -1,0 +1,11 @@
+{
+  "correction_commit": "c1990328a08976de21c5e712d6fce9a8cde9abe2",
+  "execution_id": "EXEC-CEDVAL006-CANONICAL-REPORT-ACCEPTANCE-02",
+  "failed_acceptance_result_fingerprint": "68778f240a91e57cca92d5e30b5849bcc7ad160a569e7c9439847d52480cb811",
+  "frozen_at_utc": "2026-08-25T09:39:50Z",
+  "original_preregistration_sha256": "b013b2d1cffb38c9a7c501fc71ee9afdb1d7e2f6eaabad5a99042f551935c628",
+  "preregistration_id": "H-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-ACCEPTANCE-02",
+  "preregistration_path": "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/preregistrations/H-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-ACCEPTANCE-02.md",
+  "sha256": "b09e50459d7d4ea279fd30e0ea09a64a9eeb997fa1cc5a6e84f93e607787577b",
+  "status": "FROZEN_BEFORE_REPEAT_CANONICAL_WORKFLOW_EXECUTION"
+}

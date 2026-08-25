@@ -1,0 +1,64 @@
+{
+  "acceptance_validation_id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02",
+  "calibration_comparison": {
+    "application": "NOT_APPLIED",
+    "applicability": "UNESTABLISHED",
+    "applicability_authority_fingerprint": "cf89598f0f198cb14ee4f455b4094cffe3e4b4597da4fd92d2fffba41a233bae",
+    "applicability_authority_id": "PR-CEDVAL006-ANALYTICAL-INPUTS-001",
+    "correction": "NONE",
+    "status": "MATCH"
+  },
+  "claim_firewall_comparison": {
+    "acquisition_clock_synchrony_not_established": true,
+    "all_preexisting_firewall_terms_preserved": true,
+    "status": "MATCH"
+  },
+  "correspondence_comparison": {
+    "expected_status": "GEOMETRIC_ONLY",
+    "observed_geometric_only_count": 1055,
+    "observed_other_accompaniment_status_count": 0,
+    "status": "MATCH"
+  },
+  "historical_authority": {
+    "execution_id": "EXEC-CEDVAL006-REAL-LIVE-AUDIO-20260824-183919",
+    "scientific_fingerprint": "8c5723fbeabe2031516b2eeee0c83fb42ad84f46824cf65f5d485c6cf6c82b5c"
+  },
+  "invariant_counts": {
+    "ad038": {
+      "expected_eligible": 1055,
+      "expected_localized": 1055,
+      "expected_ties": 4,
+      "expected_unresolved": 0,
+      "observed_eligible": 1055,
+      "observed_localized": 1055,
+      "observed_ties": 4,
+      "observed_unresolved": 0,
+      "status": "MATCH"
+    },
+    "ad040": {
+      "expected_double_bass": 1055,
+      "expected_drums": 909,
+      "expected_total": 1964,
+      "observed_double_bass": 1055,
+      "observed_drums": 909,
+      "observed_total": 1964,
+      "status": "MATCH"
+    },
+    "eme": {
+      "expected_double_bass": 1055,
+      "expected_drums": 909,
+      "observed_double_bass": 1055,
+      "observed_drums": 909,
+      "status": "MATCH"
+    }
+  },
+  "overall_status": "PASS_REAL_AUDIO_ACCEPTED",
+  "replay": {
+    "canonical_json_byte_identical": true,
+    "execution_1_report_fingerprint": "4968788f882da23d0e6762d344f8d34adc56ca917bd29470e48a703cedc84291",
+    "execution_2_report_fingerprint": "4968788f882da23d0e6762d344f8d34adc56ca917bd29470e48a703cedc84291",
+    "report_file_sha256": "e4557a028fc681299b1778f2aa8036b7257e1cf3dab196ed26b8cc28256d1a72",
+    "status": "PASS"
+  },
+  "scientific_integration_conflicts": []
+}

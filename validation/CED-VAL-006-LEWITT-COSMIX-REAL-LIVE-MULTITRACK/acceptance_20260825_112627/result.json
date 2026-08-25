@@ -1,0 +1,16 @@
+{
+  "acceptance_validation_id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-01",
+  "acceptance_result_fingerprint": "68778f240a91e57cca92d5e30b5849bcc7ad160a569e7c9439847d52480cb811",
+  "canonical_report_fingerprint": "e804977be05d0f9eba8f578be495d796c3549464ff620fa7574e73dc54f51ddb",
+  "classification": "FAIL_SCIENTIFIC_INTEGRATION_CONFLICT",
+  "conflicts": [
+    "CALIBRATION_APPLICABILITY_AUTHORITY_NOT_PRESERVED",
+    "ACQUISITION_CLOCK_SYNCHRONY_CLAIM_FIREWALL_NOT_PRESERVED"
+  ],
+  "implementation_commit": "39620901048053e4159faad78065a2703a586b5e",
+  "preregistration_id": "H-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-ACCEPTANCE-01",
+  "real_audio_accepted": false,
+  "release_gate_ready": false,
+  "replay_status": "PASS_BYTE_IDENTICAL",
+  "status": "FAIL_STOP_NO_REPAIR"
+}
