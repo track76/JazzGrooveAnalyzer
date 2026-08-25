@@ -1,5 +1,29 @@
 # JGA Project State
 
+## Canonical End-to-End Rhythm Section Timing Report
+
+Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTANCE PENDING**
+
+- `JGA_RHYTHM_SECTION_TIMING_REPORT_V1` is the minimum normal-use JSON workflow
+  from checksum-bound source inputs through unchanged JGA observation,
+  AD-037 EME, AD-038 neutral geometry and the AD-040 profile.
+- The caller must supply exactly one provenance-bound `TEMPORAL_REFERENCE` and
+  at least one provenance-bound `ACCOMPANIMENT`. Roles are never inferred from
+  source or instrument names.
+- The report preserves invocation/source authority, technical audio facts,
+  frame-lattice observation coordinates, EME and PulseCandidate lineage,
+  complete AD-038 localization records, the complete AD-040 profile,
+  environment authority and explicit claim firewalls.
+- Canonical sorted-key JSON and SHA-256 scientific-content fingerprinting are
+  deterministic. Existing output files are not overwritten.
+- Default correspondence remains `GEOMETRIC_ONLY`; calibration is
+  `NOT_APPLIED`; timestamp correction is `NONE`.
+- Core, Translation scientific semantics, Domain scientific semantics,
+  Candidate Period semantics and historical evidence are unchanged.
+- Controlled tests establish software behavior and exact replay only. They are
+  not a new scientific experiment. Real-audio acceptance remains unexecuted
+  pending separate PI approval.
+
 ## Prospective Real-Audio Acquisition Authority Gate
 
 Status: **PREREGISTERED — NOT APPLIED — PI REVIEW REQUIRED**

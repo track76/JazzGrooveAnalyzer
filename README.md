@@ -86,3 +86,38 @@ Behaviour Profile
 Behaviour Quantification
 
 E0F
+```
+
+## Canonical Rhythm Section Timing Report
+
+The first normal-use scientific reporting workflow composes unchanged JGA
+observations with AD-037 EME materialization, AD-038 neutral Drum-relative
+geometry, and the AD-040 Rhythm Section Timing Profile. Analytical roles are
+always supplied explicitly and bound to source checksums; instrument names do
+not assign roles.
+
+```bash
+PYTHONPATH=src .venv/bin/python tools/run_rhythm_section_timing_report.py \
+  --source "TEMPORAL_REFERENCE=Drums=/path/to/drums.wav" \
+  --source "ACCOMPANIMENT=Double Bass=/path/to/bass.wav" \
+  --expected-sha256 "Drums=<sha256>" \
+  --expected-sha256 "Double Bass=<sha256>" \
+  --execution-id <stable-execution-id> \
+  --provenance-id <input-authority-id> \
+  --role-authority-id <role-authority-id> \
+  --role-authority-fingerprint <role-authority-fingerprint> \
+  --jga-revision <git-commit> \
+  --output rhythm-section-timing-report.json
+```
+
+The output schema is `JGA_RHYTHM_SECTION_TIMING_REPORT_V1`. JSON is serialized
+with sorted keys, ASCII encoding, no NaN values, and compact separators. Its
+scientific fingerprint is SHA-256 over the canonical scientific content before
+the fingerprint field is added. Existing output files are not overwritten.
+
+The report establishes only provenance-bound frame-resolved observations,
+neutral temporal geometry, and an AD-040 profile. Its default correspondence
+status is `GEOMETRIC_ONLY`; no calibration or timestamp correction is applied.
+It does not establish beat identity, musical correspondence, tempo, BPM,
+meter, downbeat, swing, groove, rushing/dragging, intention, human microtiming,
+or physical-onset Ground Truth.
