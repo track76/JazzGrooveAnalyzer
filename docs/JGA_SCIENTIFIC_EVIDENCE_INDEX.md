@@ -96,6 +96,14 @@ AD-038 `GEOMETRIC_ONLY` geometry, AD-040 projection, and deterministic
 `JGA_RHYTHM_SECTION_TIMING_REPORT_V1` serialization. The unsupported claims in
 Section 10 remain unchanged and bind the release.
 
+Post-release derived-input authority
+[`PR-CEDVAL006-CONTROLLED-MIXDOWN-001`](../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/controlled_mixdown_authority/)
+binds a byte-reproducible controlled mix of all 15 frozen CED-VAL-006 musical
+WAV sources. It is a `DETERMINISTIC_CONTROLLED_DERIVED_MIX`, not a provider
+mix or Ground Truth. The preceding `MIX_INPUT_AUTHORITY_MISSING` stop remains
+valid procedural chronology; no separation or JGA result is created by the
+mix authority.
+
 ## 3. Complete scientific-process inventory
 
 The inventory consolidates repeated executions under their scientific process.

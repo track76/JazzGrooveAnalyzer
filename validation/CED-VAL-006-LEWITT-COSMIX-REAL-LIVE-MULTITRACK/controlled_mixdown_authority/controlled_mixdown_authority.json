@@ -1,0 +1,81 @@
+{
+  "authority_fingerprint": "ed01d1d09b62cec41c36214d45027eb246e765dcec21d18456a9452cbba3e40c",
+  "authority_id": "PR-CEDVAL006-CONTROLLED-MIXDOWN-001",
+  "dataset_authority": {
+    "fingerprint": "9d837f710fbf3292c80490d499bc96df0a8fe1140bc9139b65de8a553c4c2eca",
+    "id": "PR-CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK-001"
+  },
+  "excluded_provider_musical_wav_sources": [],
+  "firewalls": {
+    "candidate_period_changed": false,
+    "core_changed": false,
+    "effects_or_artistic_mixing": false,
+    "historical_evidence_changed": false,
+    "jga_executed_on_mix": false,
+    "production_code_changed": false,
+    "provider_raw_assets_changed": false,
+    "reporting_application_semantics_changed": false,
+    "source_separation_executed": false,
+    "translation_or_domain_semantics_changed": false
+  },
+  "included_provider_musical_wav_count": 15,
+  "jga_release_authority": {
+    "commit": "c7b9b65362303ff17c48897c4d26a518595fe9c5",
+    "release_authority_id": "REL-JGA-FIRST-SCIENTIFICALLY-USABLE-01",
+    "tag": "v0.3.0-alpha"
+  },
+  "mix_algorithm": {
+    "generator_sha256": "d6fcd68f031fb9813e124073f28c58c6a2ab037e5517105132c9b24a1e5a03bb",
+    "global_gain_rational": "8388607/21047280",
+    "internal_representation": "SIGNED_INT64_EXACT_INTEGER_SUM",
+    "mix_plan_sha256": "3b0a7c2d933a4abb2c2b582bfeb1af90d2546defa98c97d500b2deb02d50fbf8",
+    "raw_summed_absolute_peak": 21047280,
+    "source_manifest_sha256": "7527e0577e782e968baa407e8c2ec6f12891b1a07acd959de86e0f56bbf362b1"
+  },
+  "output_asset": {
+    "absolute_operational_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/PR-CEDVAL006-CONTROLLED-MIXDOWN-001/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.wav",
+    "bit_depth": 24,
+    "byte_size": 71477252,
+    "channels": 2,
+    "codec": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER_PCM",
+    "container": "RIFF/WAVE",
+    "duration_seconds_decimal": 248.18475,
+    "duration_seconds_exact": "11912868/48000",
+    "filename": "CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.wav",
+    "frame_count": 11912868,
+    "output_absolute_peak": 8388607,
+    "relative_dataset_path": "derived/PR-CEDVAL006-CONTROLLED-MIXDOWN-001/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.wav",
+    "sample_rate_hz": 48000,
+    "sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0",
+    "temporal_scope": "[0,11912868)"
+  },
+  "reference_acceptance": {
+    "fingerprint": "ea1490dc0171631381186b6728ee1b49ce5549041c38410b06132d021ee7e100",
+    "id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02"
+  },
+  "replay": {
+    "classification": "BYTE_IDENTICAL_REPLAY",
+    "execution_1_sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0",
+    "execution_2_sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0",
+    "sample_population_byte_identical": true,
+    "technical_properties_identical": true
+  },
+  "scientific_classification": "DETERMINISTIC_CONTROLLED_DERIVED_MIX",
+  "scientific_firewall": [
+    "NOT_PROVIDER_SUPPLIED_MIX",
+    "NOT_ORIGINAL_COMMERCIAL_MIX",
+    "NOT_GROUND_TRUTH",
+    "NOT_PHYSICAL_ONSET_AUTHORITY",
+    "NOT_ACQUISITION_CLOCK_AUTHORITY",
+    "NOT_ARTIST_OR_ENGINEER_INTENDED_BALANCE",
+    "NOT_PERCEPTUALLY_OPTIMAL_MIX",
+    "NOT_REPRESENTATIVE_OF_ALL_REAL_WORLD_MIXES"
+  ],
+  "source_manifest": {
+    "included_count": 15,
+    "ordered_population_complete": true,
+    "path": "source_manifest.json",
+    "sha256": "7527e0577e782e968baa407e8c2ec6f12891b1a07acd959de86e0f56bbf362b1"
+  },
+  "status": "FROZEN_VERIFIED"
+}

@@ -1,0 +1,32 @@
+{
+  "authority_id": "PR-CEDVAL006-CONTROLLED-MIXDOWN-001",
+  "channel_mapping": {
+    "mono": "duplicate each exact mono PCM sample to Left and Right",
+    "stereo": "preserve exact Left and Right PCM samples"
+  },
+  "clipping_policy": "The one exact global rational coefficient scales the complete integer sum so its largest absolute output is signed-24-bit maximum; clipping is forbidden.",
+  "decoding": "RIFF/WAVE signed 24-bit little-endian integer PCM decoded exactly to int64",
+  "effects_processing": "NONE",
+  "frozen_before_wav_generation": true,
+  "generator_sha256": "d6fcd68f031fb9813e124073f28c58c6a2ab037e5517105132c9b24a1e5a03bb",
+  "global_gain_denominator": 21047280,
+  "global_gain_numerator": 8388607,
+  "global_gain_rational": "8388607/21047280",
+  "individual_source_gain": "NONE; exact coefficient 1/1 for every source before complete-sum global scaling",
+  "internal_representation": "signed int64 exact integer summation",
+  "output": {
+    "bit_depth": 24,
+    "channels": 2,
+    "codec": "signed little-endian integer PCM",
+    "container": "RIFF/WAVE",
+    "filename": "CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.wav",
+    "frame_count": 11912868,
+    "sample_rate_hz": 48000
+  },
+  "quantization": "Apply exact rational gain using integer round-to-nearest with half cases away from zero, then encode signed 24-bit little-endian PCM",
+  "raw_summed_absolute_peak": 21047280,
+  "source_manifest_sha256": "7527e0577e782e968baa407e8c2ec6f12891b1a07acd959de86e0f56bbf362b1",
+  "summation": "Exact int64 addition in frozen UTF-8 filename-byte lexicographic order; integer addition is order-independent within the proven range",
+  "temporal_processing": "NONE; source sample zero preserved; contribution is zero only beyond a source's authoritative end",
+  "type": "DETERMINISTIC_CONTROLLED_DERIVED_MIX"
+}
