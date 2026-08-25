@@ -1,0 +1,188 @@
+{
+  "architectural_firewall": {
+    "ad037_change": false,
+    "ad038_change": false,
+    "ad040_change": false,
+    "candidate_period_change": false,
+    "core_change": false,
+    "domain_change": false,
+    "production_code_change": false,
+    "translation_change": false
+  },
+  "baseline_authority": {
+    "execution_id": "EXEC-CEDVAL006-CONTROLLED-MIX-SEPARATION-JGA-ROBUSTNESS-01",
+    "result_commit": "e6bb9cec6a6432c11b29f7643e1d7e1d9a43407f",
+    "result_fingerprint": "02e2522497ae7ec822b9c176cc45c1c2daeda53872f73a0529039ea174922bba",
+    "runs": {
+      "run_1": {
+        "bass_eme_count": 602,
+        "f1": 0.6964393482196741,
+        "matched": 577,
+        "original_only": 478,
+        "precision": 0.9584717607973422,
+        "recall": 0.5469194312796208,
+        "separated_only": 25
+      },
+      "run_2": {
+        "bass_eme_count": 678,
+        "f1": 0.7212925562608193,
+        "matched": 625,
+        "original_only": 430,
+        "precision": 0.9218289085545722,
+        "recall": 0.5924170616113744,
+        "separated_only": 53
+      }
+    },
+    "use": "IMMUTABLE_BASELINE_NO_BASELINE_RERUN"
+  },
+  "blind_freeze_order": [
+    "verify all frozen input, release, baseline-result, Demucs executable, runner, and checkpoint authorities",
+    "execute configuration B twice in independent fresh processes and freeze each complete four-stem population",
+    "execute configuration C twice in independent fresh processes and freeze each complete four-stem population",
+    "classify byte replay independently for B and C without selecting or averaging runs",
+    "execute unchanged canonical JGA v0.3.0-alpha independently on drums.wav and bass.wav from every frozen run",
+    "freeze all four JGA reports before accessing complete original-stem event and relation records",
+    "score Level-1, Level-2, and Level-3 independently twice using the previously frozen rules",
+    "require exact scoring replay and only then apply the prospective Phase-1 decision gate"
+  ],
+  "ced_val_006_authorities": {
+    "controlled_mix_authority_id": "PR-CEDVAL006-CONTROLLED-MIXDOWN-001",
+    "controlled_mix_fingerprint": "ed01d1d09b62cec41c36214d45027eb246e765dcec21d18456a9452cbba3e40c",
+    "controlled_mix_sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0",
+    "original_stem_acceptance_fingerprint": "ea1490dc0171631381186b6728ee1b49ce5549041c38410b06132d021ee7e100",
+    "original_stem_acceptance_id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02",
+    "original_bass_eme_count": 1055
+  },
+  "configurations": {
+    "A_FROZEN_BASELINE": {
+      "clip_mode": "rescale",
+      "device": "cpu",
+      "jobs": 0,
+      "model": "htdemucs",
+      "output_encoding": "SIGNED_16_BIT_PCM_WAV",
+      "overlap": 0.25,
+      "segment": null,
+      "shifts": 1,
+      "split": true,
+      "source": "FROZEN_BASELINE_RESULT_ONLY_NO_NEW_EXECUTION"
+    },
+    "B_DETERMINISTIC_CANDIDATE": {
+      "clip_mode": "rescale",
+      "command_arguments": ["-n", "htdemucs", "-d", "cpu", "--shifts", "0", "--overlap", "0.25", "-j", "0"],
+      "device": "cpu",
+      "fresh_process_runs": 2,
+      "jobs": 0,
+      "model": "htdemucs",
+      "output_encoding": "SIGNED_16_BIT_PCM_WAV",
+      "overlap": 0.25,
+      "segment": null,
+      "shifts": 0,
+      "split": true
+    },
+    "C_DETERMINISTIC_HIGH_PRECISION_CANDIDATE": {
+      "clip_mode": "rescale",
+      "command_arguments": ["-n", "htdemucs", "-d", "cpu", "--shifts", "0", "--overlap", "0.25", "-j", "0", "--float32"],
+      "device": "cpu",
+      "fresh_process_runs": 2,
+      "jobs": 0,
+      "model": "htdemucs",
+      "output_encoding": "FLOAT32_WAV",
+      "overlap": 0.25,
+      "segment": null,
+      "shifts": 0,
+      "split": true
+    }
+  },
+  "decision_gate": {
+    "alternative_model_gate": "Alternative models require separate PI approval and prospective checkpoint/checksum authority after Phase-1 review.",
+    "indeterminate": "If results fall between the improvement and persistence definitions, report MIXED_OR_INDETERMINATE and stop for scientific review.",
+    "material_improvement_signal": "A candidate configuration supplies a material Bass-population improvement signal only when BOTH fresh runs exceed the best frozen baseline run for matched count (>625), recall (>0.5924170616113744), and F1 (>0.7212925562608193), while reducing original-only count below 430. Timing metrics are reported but cannot compensate for failure of these population conditions.",
+    "persistent_severe_deficit_signal": "The severe deficit substantially persists if EVERY B/C run has recall <=0.5924170616113744 and absolute Bass EME count deficit >=377. This does not establish that Demucs is unsuitable; it only supports PI review of a separately preregistered model comparison.",
+    "stop_after_improvement": "If either B or C meets the material-improvement signal, stop for scientific review before any alternative-model work."
+  },
+  "deferred_models": {
+    "download_authorized": false,
+    "models": ["htdemucs_ft", "htdemucs_6s", "mdx_extra"],
+    "phase_1_execution_authorized": false,
+    "status": "EXPLICITLY_DEFERRED_PENDING_SEPARATE_PI_APPROVAL_AND_CHECKPOINT_AUTHORITY"
+  },
+  "demucs_authority": {
+    "checkpoint_file": "955717e8-8726e21a.th",
+    "checkpoint_sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4",
+    "demucs_executable": "/Users/StarTrack/Development/JGA-Demucs-env/bin/demucs",
+    "demucs_executable_sha256": "dc9e6af3797b48da772e55b4e2179928e32efd5746100977a9ae85c086d37de1",
+    "demucs_version": "4.1.0",
+    "model": "htdemucs",
+    "model_signature": "955717e8",
+    "production_runner_sha256": "bb06291cfb01ebfe05bbae42ab38195d5403b95fb8655ff686feb48f48845ddc",
+    "thread_environment": {"MKL_NUM_THREADS": "1", "OMP_NUM_THREADS": "1", "VECLIB_MAXIMUM_THREADS": "1"}
+  },
+  "experiment_firewall": {
+    "alternative_model_acquisition": false,
+    "alternative_model_execution": false,
+    "averaging_runs": false,
+    "experiment_executed_in_this_objective": false,
+    "fixed_latency_correction": false,
+    "ground_truth_derived_tuning": false,
+    "h02": false,
+    "preferred_run_selection": false,
+    "strength": false
+  },
+  "jga_authority": {
+    "release_commit": "c7b9b65362303ff17c48897c4d26a518595fe9c5",
+    "release_tag": "v0.3.0-alpha",
+    "schema": "JGA_RHYTHM_SECTION_TIMING_REPORT_V1"
+  },
+  "level_3_contract": {
+    "ad038": [
+      "eligible/localized/unresolved/tie counts",
+      "signed and absolute nearest-displacement distributions",
+      "mapped nearest/predecessor/follower identity stability through the frozen Bass and Drum Level-2 mappings",
+      "unscorable unmatched-reference population",
+      "paired nearest-displacement differences"
+    ],
+    "ad040": [
+      "temporal-reference EME count",
+      "accompaniment relationship count",
+      "total represented EME count",
+      "profile structure and temporal scope",
+      "relationship and correspondence-status populations",
+      "calibration applicability/application/correction"
+    ],
+    "rule": "Reuse the exact frozen Level-3 comparison in EXEC-CEDVAL006-CONTROLLED-MIX-SEPARATION-JGA-ROBUSTNESS-01; temporal geometry is not musical correspondence."
+  },
+  "primary_bass_metrics": [
+    "Bass EME count",
+    "matched original Bass EME count",
+    "original-only count and identities",
+    "separated-only count and identities",
+    "descriptive precision",
+    "descriptive recall",
+    "descriptive F1",
+    "complete signed and absolute displacement populations",
+    "median absolute displacement",
+    "timing RMSE",
+    "maximum absolute displacement",
+    "within-configuration two-run population/assignment/metric/fingerprint stability"
+  ],
+  "preregistration_fingerprint": "b6d497595f07a3a68472a39419a18579b28ba3501188e04c8ac90d27da6711f8",
+  "preregistration_id": "H-CEDVAL006-BASS-PRESERVATION-PHASE1-01",
+  "replay_requirement": {
+    "generated_outputs_per_run": ["drums.wav", "bass.wav", "other.wav", "vocals.wav"],
+    "preserve": ["SHA-256", "sample rate", "channels", "encoding", "frame count", "duration", "scope", "environment", "execution identity"],
+    "runs_per_candidate": 2,
+    "scoring_executions": 2,
+    "scoring_replay": "EXACT_ASSIGNMENT_METRIC_AND_FINGERPRINT_REPLAY_REQUIRED",
+    "separation_replay_classification": ["BYTE_IDENTICAL", "SCIENTIFICALLY_NONIDENTICAL"]
+  },
+  "scientific_question": "Can removal of Demucs random shift and/or preservation of float32 output materially reduce the frozen CED-VAL-006 Bass EME population deficit without changing model family or JGA?",
+  "secondary_drum_control_metrics": [
+    "Drum EME count and count differences",
+    "matched/original-only/separated-only",
+    "precision/recall/F1",
+    "complete timing-displacement population and summary statistics",
+    "AD-038 reference-population and geometry effects",
+    "two-run stability"
+  ],
+  "status": "FROZEN_PREREGISTRATION_NOT_EXECUTED"
+}
