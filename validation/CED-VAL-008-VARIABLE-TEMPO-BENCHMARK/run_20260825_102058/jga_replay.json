@@ -1,0 +1,13 @@
+{
+  "exact_coordinate_replay": true,
+  "exact_population_replay": true,
+  "exact_scientific_content_replay": true,
+  "frozen_sha256": "aa88c7893cac05247c922d13cd264e77de99e85883bfaadceb38ad1cf6b185c1",
+  "ground_truth_accessed": false,
+  "raw_output_count": 63,
+  "run_1_sha256": "aa88c7893cac05247c922d13cd264e77de99e85883bfaadceb38ad1cf6b185c1",
+  "run_2_sha256": "aa88c7893cac05247c922d13cd264e77de99e85883bfaadceb38ad1cf6b185c1",
+  "scientific_fingerprint": "1c511d30b165e4c493fefad73099924570c51c00bd965556031a1f3f0b640003",
+  "status": "PASS",
+  "system": "JGA"
+}

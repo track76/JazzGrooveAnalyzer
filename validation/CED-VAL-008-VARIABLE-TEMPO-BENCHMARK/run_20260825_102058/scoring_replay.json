@@ -1,0 +1,10 @@
+{
+  "combined_benchmark_fingerprint": "0118157aceb2effcd8655f3ab29e314c01f92fd80152b3fead7c882acb13880b",
+  "exact_assignment_replay": true,
+  "exact_fingerprint_replay": true,
+  "exact_metric_replay": true,
+  "result_sha256": "ec6164bcee5ce83faa2458df942b7955114528441a2f0b2aede5f47783f29d7e",
+  "run_1_sha256": "ec6164bcee5ce83faa2458df942b7955114528441a2f0b2aede5f47783f29d7e",
+  "run_2_sha256": "ec6164bcee5ce83faa2458df942b7955114528441a2f0b2aede5f47783f29d7e",
+  "status": "PASS"
+}

@@ -1,0 +1,28 @@
+{
+  "assets": [
+    {
+      "file": "jga_raw_output.json",
+      "raw_output_count": 63,
+      "scientific_fingerprint": "1c511d30b165e4c493fefad73099924570c51c00bd965556031a1f3f0b640003",
+      "sha256": "aa88c7893cac05247c922d13cd264e77de99e85883bfaadceb38ad1cf6b185c1",
+      "system": "JGA"
+    },
+    {
+      "file": "librosa_raw_output.json",
+      "raw_output_count": 63,
+      "scientific_fingerprint": "9ae0f44b5681e39b5b7a2a51c16f54776303024cd0143110a35ebb5dc6895403",
+      "sha256": "a8297bc18eba785ab49bd357d34fe510a06b4ae61c59d71e9fa91a4cad50a808",
+      "system": "LIBROSA"
+    },
+    {
+      "file": "essentia_raw_output.json",
+      "raw_output_count": 64,
+      "scientific_fingerprint": "8189841b08d5e9034dc94c6b32d683fc975afb8e4ed4737518f9668046f67851",
+      "sha256": "f02a539015153624225715f54d2ce05a2bd109a57ac5d6d6aaee462ca92ba524",
+      "system": "ESSENTIA"
+    }
+  ],
+  "blind_freeze_fingerprint": "8faeac955645a2345ef9c67c21725931605c6d22b40adba5b8302eccaccfe176",
+  "ground_truth_accessed": false,
+  "status": "PASS_FROZEN_BEFORE_GT_ACCESS"
+}

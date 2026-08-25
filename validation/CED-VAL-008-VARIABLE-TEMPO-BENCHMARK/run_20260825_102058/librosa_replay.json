@@ -1,0 +1,13 @@
+{
+  "exact_coordinate_replay": true,
+  "exact_population_replay": true,
+  "exact_scientific_content_replay": true,
+  "frozen_sha256": "a8297bc18eba785ab49bd357d34fe510a06b4ae61c59d71e9fa91a4cad50a808",
+  "ground_truth_accessed": false,
+  "raw_output_count": 63,
+  "run_1_sha256": "a8297bc18eba785ab49bd357d34fe510a06b4ae61c59d71e9fa91a4cad50a808",
+  "run_2_sha256": "a8297bc18eba785ab49bd357d34fe510a06b4ae61c59d71e9fa91a4cad50a808",
+  "scientific_fingerprint": "9ae0f44b5681e39b5b7a2a51c16f54776303024cd0143110a35ebb5dc6895403",
+  "status": "PASS",
+  "system": "LIBROSA"
+}

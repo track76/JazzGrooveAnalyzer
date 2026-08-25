@@ -1,0 +1,164 @@
+{
+  "assets": [
+    {
+      "byte_size": 1073,
+      "file": "blind_raw_freeze_manifest.json",
+      "sha256": "53c7f08868fa2588db9541bdf3ed080ca276b7d379fbfb8fd728b289b37e89e8"
+    },
+    {
+      "byte_size": 927,
+      "file": "build_artifact_manifest.py",
+      "sha256": "181c439674dbf27748dcaddbd8e45add0b0b88205482ba6994875536aafe945e"
+    },
+    {
+      "byte_size": 1263,
+      "file": "completion_protocol.json",
+      "sha256": "a8a18f15bfd9edbc50a59815472a1e26e021c340e26f63b39e36ca6fa6647fc6"
+    },
+    {
+      "byte_size": 20676,
+      "file": "essentia_raw_output.json",
+      "sha256": "f02a539015153624225715f54d2ce05a2bd109a57ac5d6d6aaee462ca92ba524"
+    },
+    {
+      "byte_size": 575,
+      "file": "essentia_replay.json",
+      "sha256": "8d60bdfb507d20b0fb0e86c870c002d6d1d80e95d3db6caf8340b1e6948c148e"
+    },
+    {
+      "byte_size": 20676,
+      "file": "essentia_run_1.json",
+      "sha256": "f02a539015153624225715f54d2ce05a2bd109a57ac5d6d6aaee462ca92ba524"
+    },
+    {
+      "byte_size": 20676,
+      "file": "essentia_run_2.json",
+      "sha256": "f02a539015153624225715f54d2ce05a2bd109a57ac5d6d6aaee462ca92ba524"
+    },
+    {
+      "byte_size": 857,
+      "file": "freeze_blind_manifest.py",
+      "sha256": "3263c88fd53c724b0428634be5a7028aea1cc12abd37c144d9da2ba748065d0b"
+    },
+    {
+      "byte_size": 934,
+      "file": "freeze_raw.py",
+      "sha256": "c5487cfe7798083b9fc251eddfb695b2d1e29313f777850a8e95487f89d2a918"
+    },
+    {
+      "byte_size": 862,
+      "file": "freeze_score.py",
+      "sha256": "f39f3d34f5e433aec2d46dcf98826f6854bfc8f9d9afe0c5fd4a11f36f571803"
+    },
+    {
+      "byte_size": 85786,
+      "file": "jga_raw_output.json",
+      "sha256": "aa88c7893cac05247c922d13cd264e77de99e85883bfaadceb38ad1cf6b185c1"
+    },
+    {
+      "byte_size": 570,
+      "file": "jga_replay.json",
+      "sha256": "1829bd76f978319f8ccc747a35bfb54d2ffd9f7955cbc980c747a95e7beef523"
+    },
+    {
+      "byte_size": 85786,
+      "file": "jga_run_1.json",
+      "sha256": "aa88c7893cac05247c922d13cd264e77de99e85883bfaadceb38ad1cf6b185c1"
+    },
+    {
+      "byte_size": 85786,
+      "file": "jga_run_2.json",
+      "sha256": "aa88c7893cac05247c922d13cd264e77de99e85883bfaadceb38ad1cf6b185c1"
+    },
+    {
+      "byte_size": 17104,
+      "file": "librosa_raw_output.json",
+      "sha256": "a8297bc18eba785ab49bd357d34fe510a06b4ae61c59d71e9fa91a4cad50a808"
+    },
+    {
+      "byte_size": 574,
+      "file": "librosa_replay.json",
+      "sha256": "d54486dd583941ed1ba591a8879bddff973c380ad8d59f1e4b3f328c8735365a"
+    },
+    {
+      "byte_size": 17104,
+      "file": "librosa_run_1.json",
+      "sha256": "a8297bc18eba785ab49bd357d34fe510a06b4ae61c59d71e9fa91a4cad50a808"
+    },
+    {
+      "byte_size": 17104,
+      "file": "librosa_run_2.json",
+      "sha256": "a8297bc18eba785ab49bd357d34fe510a06b4ae61c59d71e9fa91a4cad50a808"
+    },
+    {
+      "byte_size": 1657,
+      "file": "prepare_mono.py",
+      "sha256": "363d5fc487387b6d788084df6b5092951e59e7bffeea2ce67299335778d83469"
+    },
+    {
+      "byte_size": 6619,
+      "file": "report.md",
+      "sha256": "629d6fcf692b08e387ffda978dd86e2abc9202096639b62d46d1b2b6f9690b45"
+    },
+    {
+      "byte_size": 892552,
+      "file": "result.json",
+      "sha256": "ec6164bcee5ce83faa2458df942b7955114528441a2f0b2aede5f47783f29d7e"
+    },
+    {
+      "byte_size": 2230,
+      "file": "run_essentia.py",
+      "sha256": "ab58ce98d45d362357ebf8a94c7eb1548c5257e70f42d0eef813f22d597494d1"
+    },
+    {
+      "byte_size": 3084,
+      "file": "run_jga.py",
+      "sha256": "5f734e7b7cd2a55f3e35513147e98612e3d6bc61ff2d846e831f572b0e7965e6"
+    },
+    {
+      "byte_size": 2234,
+      "file": "run_librosa.py",
+      "sha256": "1c8f288bf26b7692151d165d9a7b9d67da01219392af994c691c8fc4d8c8f3db"
+    },
+    {
+      "byte_size": 9215,
+      "file": "score.py",
+      "sha256": "ec753e66f55bbc2c1e89d1e1dca31c88c6cf8d82e8c57f480127f0920cc920da"
+    },
+    {
+      "byte_size": 892552,
+      "file": "score_run_1.json",
+      "sha256": "ec6164bcee5ce83faa2458df942b7955114528441a2f0b2aede5f47783f29d7e"
+    },
+    {
+      "byte_size": 892552,
+      "file": "score_run_2.json",
+      "sha256": "ec6164bcee5ce83faa2458df942b7955114528441a2f0b2aede5f47783f29d7e"
+    },
+    {
+      "byte_size": 488,
+      "file": "scoring_replay.json",
+      "sha256": "fce80d08f6deafc4c32789af663254ac27c0feab71afa0bda53e193ec783cd2e"
+    },
+    {
+      "byte_size": 5853860,
+      "file": "shared_mono.npy",
+      "sha256": "4931b7da195594773c728fdfa0462428a2e040acaf3067215547f5d24c349c79"
+    },
+    {
+      "byte_size": 690,
+      "file": "shared_mono_manifest.json",
+      "sha256": "5c5d89c3fcfe07e11086410c3250cdd7d2865be1900226b552993b189e4036e9"
+    },
+    {
+      "byte_size": 1757,
+      "file": "verify.py",
+      "sha256": "d13d0d6786d242fcd1408c53d350f89d20af2c546bee49315aba5b32dcc365bf"
+    }
+  ],
+  "combined_benchmark_fingerprint": "0118157aceb2effcd8655f3ab29e314c01f92fd80152b3fead7c882acb13880b",
+  "dataset_fingerprint": "9aab028fb1ac6740f1e257d0254afea485225879be888d0e4b60c20ba46ee86d",
+  "execution_id": "EXEC-CEDVAL008-THREE-SYSTEM-BENCHMARK-20260825-102058",
+  "manifest_fingerprint": "f40b4fe647de71bed14f922318fc94ca330e3d1489e2b03f550c350a86a13c39",
+  "study_id": "H-CEDVAL008-THREE-SYSTEM-VARIABLE-TEMPO-SYMBOLIC-BEAT-RECOVERY-01"
+}

@@ -1,0 +1,13 @@
+{
+  "exact_coordinate_replay": true,
+  "exact_population_replay": true,
+  "exact_scientific_content_replay": true,
+  "frozen_sha256": "f02a539015153624225715f54d2ce05a2bd109a57ac5d6d6aaee462ca92ba524",
+  "ground_truth_accessed": false,
+  "raw_output_count": 64,
+  "run_1_sha256": "f02a539015153624225715f54d2ce05a2bd109a57ac5d6d6aaee462ca92ba524",
+  "run_2_sha256": "f02a539015153624225715f54d2ce05a2bd109a57ac5d6d6aaee462ca92ba524",
+  "scientific_fingerprint": "8189841b08d5e9034dc94c6b32d683fc975afb8e4ed4737518f9668046f67851",
+  "status": "PASS",
+  "system": "ESSENTIA"
+}

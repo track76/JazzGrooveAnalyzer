@@ -1,0 +1,33 @@
+{
+  "execution_id": "EXEC-CEDVAL008-THREE-SYSTEM-BENCHMARK-20260825-102058",
+  "status": "PASS_FROZEN_RESULT_PI_REVIEW_REQUIRED",
+  "dataset_authority_verified": true,
+  "blind_raw_freeze_before_ground_truth_access": true,
+  "fresh_process_runs_per_system": 2,
+  "raw_replay": "PASS",
+  "independent_scoring_runs": 2,
+  "scoring_replay": "PASS",
+  "global_analysis_complete": true,
+  "segment_analyses_complete": ["S1", "S2", "S3", "S4"],
+  "transition_analyses_complete": ["T1", "T2", "T3"],
+  "interval_analysis_complete": true,
+  "native_tracker_metadata_preserved": true,
+  "known_bpm_supplied": false,
+  "latency_correction_applied": false,
+  "marker_correction_applied": false,
+  "h02_used": false,
+  "strength_accessed": false,
+  "production_code_changed": false,
+  "raw_assets_changed": false,
+  "historical_authorities_changed": false,
+  "external_temporal_reference_adapter_implemented": false,
+  "architecture_changed": false,
+  "weighted_composite_score": false,
+  "universal_superiority_claim": false,
+  "checks": {
+    "execution_verifier_replays": 2,
+    "non_integration_tests": "1023_PASS_2_WARNINGS",
+    "complete_suite": "ENVIRONMENT_BLOCKED_AFTER_413_PASS_JGA_EXTERNAL_ROOT_NOT_WRITABLE",
+    "staged_diff_required_before_commit": true
+  }
+}
