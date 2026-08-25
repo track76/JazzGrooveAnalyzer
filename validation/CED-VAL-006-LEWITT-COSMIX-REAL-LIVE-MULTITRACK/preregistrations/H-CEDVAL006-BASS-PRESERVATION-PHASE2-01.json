@@ -1,0 +1,134 @@
+{
+  "preregistration_id": "H-CEDVAL006-BASS-PRESERVATION-PHASE2-01",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "scientific_question": "Can a different existing Demucs model materially improve preservation of the original Double-Bass JGA temporal evidence from the frozen CED-VAL-006 controlled mix?",
+  "authorities": {
+    "jga_release": "v0.3.0-alpha",
+    "jga_release_commit": "c7b9b65362303ff17c48897c4d26a518595fe9c5",
+    "controlled_mix_authority": "PR-CEDVAL006-CONTROLLED-MIXDOWN-001",
+    "controlled_mix_fingerprint": "ed01d1d09b62cec41c36214d45027eb246e765dcec21d18456a9452cbba3e40c",
+    "controlled_mix_sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0",
+    "original_reference": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02",
+    "original_bass_eme_count": 1055,
+    "phase1_execution": "EXEC-CEDVAL006-BASS-PRESERVATION-PHASE1-01",
+    "phase1_commit": "feb912e4343fec9a5ef356c6b2d29c4a4e7cfa4b",
+    "phase1_fingerprint": "7312b5d9dbbf30aa45e9d01c5e7134a45c81bfb15dc938db30d92529d106f848",
+    "baseline_best": {"matched": 625, "recall": 0.5924170616113744, "f1": 0.7212925562608193, "original_only": 430}
+  },
+  "environment": {
+    "demucs": "4.1.0",
+    "python": "3.13.14",
+    "torch": "2.13.0",
+    "torchaudio": "2.11.0",
+    "safetensors": "0.8.0",
+    "huggingface_hub": "1.26.0",
+    "device": "cpu",
+    "backend": "CPU",
+    "thread_environment": {"OMP_NUM_THREADS": "1", "MKL_NUM_THREADS": "1", "VECLIB_MAXIMUM_THREADS": "1"}
+  },
+  "models": {
+    "M1": {
+      "name": "htdemucs_ft",
+      "registry_repository": "adefossez/HTDemucs-ft",
+      "registry_revision": "478be8a68f85418addd6f7baefd4be76522a4034",
+      "manifest": {"file": "htdemucs_ft.yaml", "sha256": "69470b8c1bbd674437b51bc9fb491327a10ab0396b702c93389b9cf750016346"},
+      "checkpoints": [
+        {"signature": "f7e0c4bc", "file": "f7e0c4bc.safetensors", "sha256": "2c85ab3c62dd6edd8e0b965e38b16fd1cdde357cc25de6b6bc9ce7c83f60925f"},
+        {"signature": "d12395a8", "file": "d12395a8.safetensors", "sha256": "5b01a97567ae9a3178a6236fb520251045c03eb8834bc8c24a4eec11d6c8fb56"},
+        {"signature": "92cfc3b6", "file": "92cfc3b6.safetensors", "sha256": "a241863551f30d01c42bd7b97da40839922ead3acb0f1fcab25682f55b4eeb59"},
+        {"signature": "04573f0d", "file": "04573f0d.safetensors", "sha256": "68854b0d7c2b3274723b5761f6fd9f5aec5f1bcd3f0de7c1669546fdb7871b7c"}
+      ],
+      "taxonomy": ["drums", "bass", "other", "vocals"],
+      "native_sample_rate": 44100,
+      "audio_channels": 2,
+      "native_segment_seconds": "39/5",
+      "drum_mapping": "drums.wav -> TEMPORAL_REFERENCE",
+      "bass_mapping": "bass.wav -> Double Bass / ACCOMPANIMENT"
+    },
+    "M2": {
+      "name": "htdemucs_6s",
+      "registry_repository": "adefossez/HTDemucs-6s",
+      "registry_revision": "053e1404489b3dc58bf718224fac4b7316de8c93",
+      "manifest": {"file": "htdemucs_6s.yaml", "sha256": "207405151270af8fd81c2373c25d27950916682ac91dca7884a11ce13dad6f58"},
+      "checkpoints": [
+        {"signature": "5c90dfd2", "file": "5c90dfd2.safetensors", "sha256": "d2a1745f0744721f6b8ca5bf469b67c651ea5ed1b52998cab033b2158609d411"}
+      ],
+      "taxonomy": ["drums", "bass", "other", "vocals", "guitar", "piano"],
+      "native_sample_rate": 44100,
+      "audio_channels": 2,
+      "native_segment_seconds": "39/5",
+      "drum_mapping": "drums.wav -> TEMPORAL_REFERENCE",
+      "bass_mapping": "bass.wav only -> Double Bass / ACCOMPANIMENT",
+      "mapping_firewall": "guitar, piano, and other stems must not be combined with bass"
+    },
+    "M3": {
+      "name": "mdx_extra",
+      "registry_repository": "adefossez/Demucs-mdx_extra",
+      "registry_revision": "878043a2fbced47a17d05c790a361a9f01599a6e",
+      "manifest": {"file": "mdx_extra.yaml", "sha256": "5e079e0b6f9b5a6c737b5a5c95b590a292f0c7a683323c7d0cde3860a0828356"},
+      "checkpoints": [
+        {"signature": "e51eebcc", "file": "e51eebcc.safetensors", "sha256": "ba0cbc87afe8aa82cbd76c2a30550ce5295c80de3b3c7a1de06bf08d1e895aea"},
+        {"signature": "a1d90b5c", "file": "a1d90b5c.safetensors", "sha256": "2faecee4d300f34cace5538cdcd40c5171c2d62928a49e9abdb067aaba0e825b"},
+        {"signature": "5d2d6c55", "file": "5d2d6c55.safetensors", "sha256": "ee6539eb64248fd482efd96a8e74c3c9ccda8474f3b005e4e813832c35445535"},
+        {"signature": "cfa93e08", "file": "cfa93e08.safetensors", "sha256": "c389cac09918b28bca083cecc295e925cee03cd25ee0ff9c8be4f62b7b70f739"}
+      ],
+      "taxonomy": ["drums", "bass", "other", "vocals"],
+      "native_sample_rate": 44100,
+      "audio_channels": 2,
+      "native_segment_seconds": "44",
+      "drum_mapping": "drums.wav -> TEMPORAL_REFERENCE",
+      "bass_mapping": "bass.wav -> Double Bass / ACCOMPANIMENT"
+    }
+  },
+  "execution_contract": {
+    "runs_per_model": 2,
+    "fresh_processes": true,
+    "common_arguments": ["-d", "cpu", "--shifts", "0", "--overlap", "0.25", "-j", "0", "--float32"],
+    "split": true,
+    "segment_override": null,
+    "clip_mode": "rescale",
+    "preprocessing": "Demucs native input decoding, stereo channel handling, and internal 48 kHz to model-native 44.1 kHz resampling only; no experiment-authored preprocessing",
+    "postprocessing": "Demucs native reconstruction and float32 WAV serialization only",
+    "preserve_every_native_stem": true,
+    "replay_classification": ["BYTE_IDENTICAL", "SCIENTIFICALLY_NONIDENTICAL"],
+    "no_best_run_selection": true,
+    "no_averaging": true
+  },
+  "scoring_contract": {
+    "reuse": "Exact Level-1/Level-2/Level-3 rules frozen by H-CEDVAL006-CONTROLLED-MIX-SEPARATION-JGA-ROBUSTNESS-01 and H-CEDVAL006-BASS-PRESERVATION-PHASE1-01",
+    "priority": ["matched count and recall", "original-only count", "F1", "run-to-run reproducibility", "timing stability among recovered events", "AD-038 and AD-040 preservation", "Drum control"],
+    "primary_bass_metrics": ["EME count", "matched", "original-only", "separated-only", "precision", "recall", "F1", "complete signed displacement", "complete absolute displacement", "median absolute displacement", "RMSE", "maximum absolute displacement", "run-to-run stability"],
+    "secondary_drum_metrics": ["EME count", "matched", "original-only", "separated-only", "precision", "recall", "F1", "timing displacement statistics", "run-to-run stability"],
+    "ad038": ["eligible", "localized", "unresolved", "ties", "signed and absolute displacement distributions", "nearest/predecessor/follower identity stability through frozen Level-2 mappings", "unscorable identities", "paired displacement differences"],
+    "ad040": ["represented source counts", "total represented EME", "profile structure", "temporal scope", "relationship population", "correspondence status", "calibration applicability/application/correction"]
+  },
+  "outcome_categories": {
+    "CLEAR_MODEL_IMPROVEMENT": "At least one model exceeds matched 625, recall 0.5924170616113744, F1 0.7212925562608193, and has original-only below 430 in both runs, without material Drum-control collapse.",
+    "MODEL_DEPENDENT_MIXED_RESULT": "At least one model improves some primary population metrics but does not satisfy the complete clear-improvement gate in both runs.",
+    "PERSISTENT_CROSS_MODEL_BASS_DEFICIT": "All tested model runs fail to exceed the frozen baseline-best Bass recovery gate materially.",
+    "INDETERMINATE": "Authority, replay, or model behavior prevents interpretable comparison."
+  },
+  "deferred_hypothesis": {
+    "status": "DEFERRED_TO_PHASE_3",
+    "hypothesis": "Fixed prospectively frozen Bass-only dynamics processing after separation may recover attenuated residual attacks.",
+    "phase2_execution": false
+  },
+  "firewall": {
+    "experiment_executed": false,
+    "jga_executed": false,
+    "demucs_separation_executed": false,
+    "production_code_changed": false,
+    "core_changed": false,
+    "translation_changed": false,
+    "domain_changed": false,
+    "candidate_period_changed": false,
+    "h02": false,
+    "strength": false,
+    "latency_correction": false,
+    "manual_alignment": false,
+    "stem_recombination": false,
+    "compression": false,
+    "weighted_composite_score": false
+  },
+  "preregistration_fingerprint": "8c17046b5b0ef8ea4bc6a88e3b2334e56b07b3ffaff9b5fea7a8b42d0acc1f48"
+}
