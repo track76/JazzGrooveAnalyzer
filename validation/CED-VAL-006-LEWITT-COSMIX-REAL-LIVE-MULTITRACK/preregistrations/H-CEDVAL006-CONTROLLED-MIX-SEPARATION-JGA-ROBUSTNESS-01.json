@@ -1,0 +1,222 @@
+{
+  "architectural_firewall": {
+    "candidate_period_change": false,
+    "controlled_mix_change": false,
+    "core_change": false,
+    "domain_change": false,
+    "experimental_execution": false,
+    "production_code_change": false,
+    "raw_provider_asset_change": false,
+    "reporting_application_change": false,
+    "source_separation_implementation_change": false,
+    "translation_change": false
+  },
+  "blind_freeze_order": [
+    "verify release, controlled-mix, separator, checkpoint, environment, and original acceptance authorities",
+    "execute separation run 1 in a fresh process and freeze all four generated stems and authority",
+    "execute separation run 2 in a fresh process and freeze all four generated stems and authority",
+    "classify separation replay from complete frozen stem populations without selecting or averaging",
+    "execute canonical JGA report independently on drums.wav and bass.wav from each frozen separation run",
+    "freeze both complete canonical reports and verify execution replay properties",
+    "only then access complete original-stem event/relation records for Level-1/2/3 scoring",
+    "score independently twice and require exact assignment, metric, and fingerprint replay"
+  ],
+  "controlled_mix_authority": {
+    "absolute_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/PR-CEDVAL006-CONTROLLED-MIXDOWN-001/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.wav",
+    "authority_fingerprint": "ed01d1d09b62cec41c36214d45027eb246e765dcec21d18456a9452cbba3e40c",
+    "authority_id": "PR-CEDVAL006-CONTROLLED-MIXDOWN-001",
+    "sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0"
+  },
+  "environment_authority": {
+    "architecture": "arm64",
+    "cpu_thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "demucs_executable": "/Users/StarTrack/Development/JGA-Demucs-env/bin/demucs",
+    "demucs_executable_sha256": "dc9e6af3797b48da772e55b4e2179928e32efd5746100977a9ae85c086d37de1",
+    "demucs_version": "4.1.0",
+    "device": "cpu",
+    "einops_version": "0.8.2",
+    "huggingface_hub_version": "1.26.0",
+    "julius_version": "0.2.8",
+    "macos": "26.5.2 build 25F84",
+    "numpy_version": "2.5.1",
+    "python_version": "3.13.14",
+    "safetensors_version": "0.8.0",
+    "sphn_version": "0.2.1",
+    "torch_version": "2.13.0",
+    "torchaudio_version": "2.11.0"
+  },
+  "jga_execution_contract": {
+    "calibration_applicability": "UNESTABLISHED",
+    "calibration_application": "NOT_APPLIED",
+    "calibration_correction": "NONE",
+    "canonical_entry_point": "tools/run_rhythm_section_timing_report.py",
+    "release_commit": "c7b9b65362303ff17c48897c4d26a518595fe9c5",
+    "release_tag": "v0.3.0-alpha",
+    "roles": {
+      "bass.wav": "ACCOMPANIMENT / Double Bass",
+      "drums.wav": "TEMPORAL_REFERENCE / Drums"
+    },
+    "schema": "JGA_RHYTHM_SECTION_TIMING_REPORT_V1"
+  },
+  "level_1": {
+    "metrics_per_source": [
+      "original_eme_count",
+      "separated_eme_count",
+      "signed_count_difference=separated-original",
+      "absolute_count_difference",
+      "relative_count_difference=(separated-original)/original",
+      "first_eme_time_seconds",
+      "last_eme_time_seconds",
+      "eme_temporal_span_seconds",
+      "scope_duration_seconds",
+      "event_density=count/scope_duration"
+    ],
+    "scope": "Report Drums and Bass independently; equality of counts is not event identity."
+  },
+  "level_2": {
+    "admissibility": {
+      "first_left_boundary": "exact original analytical scope time zero",
+      "final_right_boundary": "11912868/48000 seconds",
+      "interior_cell": "[(original[i-1]+original[i])/2, (original[i]+original[i+1])/2)",
+      "outside_scope": "separated events outside [0,11912868/48000) are separated-only",
+      "precision": "preserve exact rational midpoint authority where possible",
+      "rule": "original-event Voronoi cells with half-open [left,right) boundaries"
+    },
+    "assignment": {
+      "eligibility": "unmatched separated EME inside the original event's frozen Voronoi cell",
+      "order": "original EME chronological order; native immutable index breaks identical-time ordering",
+      "selection": "minimum exact absolute displacement",
+      "tie_breaks": [
+        "earlier separated timestamp",
+        "lower frozen separated native index"
+      ],
+      "uniqueness": "each original and separated EME may be selected at most once"
+    },
+    "metrics_per_source": [
+      "raw_original_count",
+      "raw_separated_count",
+      "matched_count",
+      "original_only_count",
+      "separated_only_count",
+      "descriptive_precision=matched/raw_separated_count",
+      "descriptive_recall=matched/raw_original_count",
+      "descriptive_f1=2PR/(P+R)",
+      "complete_signed_displacement_seconds=separated-original",
+      "complete_absolute_displacement_seconds",
+      "exact_zero_count",
+      "minimum",
+      "linear_interpolated_q1",
+      "median",
+      "linear_interpolated_q3",
+      "maximum",
+      "mean",
+      "population_sd",
+      "rmse"
+    ],
+    "scientific_status": "CROSS_CONDITION_TEMPORAL_STABILITY_ONLY_NOT_PHYSICAL_ONSET_ERROR"
+  },
+  "level_3": {
+    "ad038_metrics": [
+      "eligible_count",
+      "localized_count",
+      "unresolved_count",
+      "equal_distance_tie_count",
+      "complete_signed_nearest_displacement_population",
+      "complete_absolute_nearest_displacement_population",
+      "mapped_nearest_reference_stable_count_and_rate",
+      "mapped_predecessor_reference_stable_count_and_rate",
+      "mapped_follower_reference_stable_count_and_rate",
+      "unscorable_relation_identity_count",
+      "paired_nearest_displacement_difference_population_and descriptive statistics"
+    ],
+    "ad040_metrics": [
+      "temporal_reference_eme_count",
+      "accompaniment_relationship_count",
+      "total_represented_eme_count",
+      "temporal_scope",
+      "relationship_population_count",
+      "correspondence_status_counts",
+      "calibration_applicability",
+      "calibration_application",
+      "calibration_correction",
+      "profile structural field equality and explicitly differing fields"
+    ],
+    "comparison_rule": "For every Level-2-matched Bass target, map each original AD-038 predecessor/follower/nearest Drum EME through the frozen Drum Level-2 mapping; compare identity only when every required reference is mapped, otherwise preserve UNSCORABLE_UNMATCHED_REFERENCE. Compare geometry values without converting proximity into correspondence."
+  },
+  "outcome_policy": "QUANTITATIVE_CHARACTERIZATION_WITHOUT_ARBITRARY_PASS_THRESHOLD_OR_UNIVERSAL_CLASSIFICATION",
+  "preregistration_fingerprint": "5c22ae45dcee9aee180a058e4015f4e748fa0acccf4dc374bfb1ae5af61fc62c",
+  "preregistration_id": "H-CEDVAL006-CONTROLLED-MIX-SEPARATION-JGA-ROBUSTNESS-01",
+  "reference_authority": {
+    "acceptance_fingerprint": "ea1490dc0171631381186b6728ee1b49ce5549041c38410b06132d021ee7e100",
+    "acceptance_id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02",
+    "ad038": {"eligible":1055,"localized":1055,"ties":4,"unresolved":0},
+    "ad040": {"double_bass":1055,"drums":909,"total":1964},
+    "calibration_application": "NOT_APPLIED",
+    "calibration_applicability": "UNESTABLISHED",
+    "calibration_correction": "NONE",
+    "correspondence": "GEOMETRIC_ONLY",
+    "double_bass_eme_count": 1055,
+    "drums_eme_count": 909
+  },
+  "scientific_firewall": [
+    "NO_UNIVERSAL_SEPARATOR_QUALITY",
+    "NO_UNIVERSAL_JGA_ROBUSTNESS",
+    "NO_BEAT_IDENTITY_OR_TEMPO_BPM_METER_DOWNBEAT",
+    "NO_MUSICAL_CORRESPONDENCE",
+    "NO_SWING_GROOVE_RUSHING_DRAGGING_INTENTION_HUMAN_MICROTIMING",
+    "NO_PHYSICAL_ONSET_ACCURACY_OR_ACQUISITION_CLOCK_SYNCHRONY",
+    "NO_CALIBRATION_CORRECTION"
+  ],
+  "separation_contract": {
+    "channel_behavior": "Input is model-compatible stereo; outputs are stereo.",
+    "checkpoint": {
+      "byte_size": 84141911,
+      "cache_path": "/Users/StarTrack/.cache/torch/hub/checkpoints/955717e8-8726e21a.th",
+      "file": "955717e8-8726e21a.th",
+      "model_signature": "955717e8",
+      "sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4"
+    },
+    "command_contract": "DemucsRunner(executable=<frozen executable>).separate(controlled_mix, run_output, device='cpu')",
+    "demucs_defaults_preserved": {
+      "clip_mode": "rescale",
+      "jobs": 0,
+      "output_bit_depth": 16,
+      "output_format": "WAV signed integer PCM",
+      "overlap": 0.25,
+      "segment": null,
+      "shifts": 1,
+      "split": true
+    },
+    "determinism_classification": "POTENTIALLY_NONDETERMINISTIC_RANDOM_SHIFT_AND_NUMERIC_RUNTIME;_MEASURE_TWO_RUNS",
+    "device": "cpu",
+    "model": "htdemucs BagOfModels containing signature 955717e8",
+    "model_audio_channels": 2,
+    "model_sample_rate_hz": 44100,
+    "output_directory_rule": "<run_output>/htdemucs/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1/",
+    "output_taxonomy": ["drums.wav","bass.wav","other.wav","vocals.wav"],
+    "postprocessing": "Per-stem Demucs default rescale clipping prevention, then deterministic 16-bit PCM WAV encoding at 44.1 kHz; no experiment-authored processing.",
+    "preprocessing": "sphn decode; preserve stereo; Julius rational resampling 48 kHz to model 44.1 kHz; Demucs reference-channel mean/std normalization before inference and inverse scaling after inference.",
+    "production_runner_sha256": "bb06291cfb01ebfe05bbae42ab38195d5403b95fb8655ff686feb48f48845ddc",
+    "role_mapping": {
+      "bass.wav": "Double Bass / ACCOMPANIMENT",
+      "drums.wav": "Drums / TEMPORAL_REFERENCE"
+    }
+  },
+  "separation_replay": {
+    "classification_rule": "BYTE_IDENTICAL only if the complete four-stem filename population, technical properties, sample bytes, and SHA-256 values agree pairwise; otherwise SCIENTIFICALLY_NONIDENTICAL.",
+    "fresh_process_count": 2,
+    "preserve_each_run": [
+      "execution identity and environment",
+      "input controlled-mix identity and SHA-256",
+      "separator/model/checkpoint authority",
+      "complete drums/bass/other/vocals stem identities",
+      "each stem SHA-256, sample rate, channels, frame count, duration, codec and scope"
+    ],
+    "selection_or_averaging": "PROHIBITED"
+  },
+  "status": "FROZEN_PREREGISTRATION_NOT_EXECUTED"
+}
