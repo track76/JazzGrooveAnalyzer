@@ -104,6 +104,17 @@ mix or Ground Truth. The preceding `MIX_INPUT_AUTHORITY_MISSING` stop remains
 valid procedural chronology; no separation or JGA result is created by the
 mix authority.
 
+Post-release robustness execution
+[`EXEC-CEDVAL006-CONTROLLED-MIX-SEPARATION-JGA-ROBUSTNESS-01`](../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/separation_robustness_20260825_01/)
+characterizes the effect of inserting the frozen Demucs 4.1.0 `htdemucs`
+separation path before unchanged JGA `v0.3.0-alpha`. Result fingerprint
+`02e2522497ae7ec822b9c176cc45c1c2daeda53872f73a0529039ea174922bba`.
+The two separation populations were scientifically nonidentical; both are
+preserved and scored without selection, averaging, alignment, or correction.
+This is bounded robustness evidence for the derived CED-VAL-006 condition,
+not general separator quality, universal JGA robustness, physical-onset
+accuracy, or musical correspondence.
+
 ## 3. Complete scientific-process inventory
 
 The inventory consolidates repeated executions under their scientific process.
