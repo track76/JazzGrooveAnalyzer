@@ -1,0 +1,70 @@
+{
+  "authority_id": "PR-CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-001",
+  "classification": "PASS_FROZEN_PROSPECTIVE_SYMBOLIC_BEAT_GROUND_TRUTH",
+  "dataset_fingerprint": "9aab028fb1ac6740f1e257d0254afea485225879be888d0e4b60c20ba46ee86d",
+  "dataset_fingerprint_procedure": {
+    "basis": "manifest_basis only",
+    "encoding": "UTF-8",
+    "hash": "SHA-256",
+    "serialization": "JSON sort_keys=true,separators=(',',':'),ensure_ascii=false"
+  },
+  "dataset_root": "/Volumes/SSD Track/JGA/datasets/CED-VAL-008-VARIABLE-TEMPO-BENCHMARK",
+  "manifest_basis": {
+    "assets": [
+      {
+        "byte_size": 19228,
+        "file_type": "ABLETON_LIVE_SET_GZIP_XML",
+        "relative_path": "ableton/CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-v0.1 Project/CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-v0.1 .als",
+        "scientific_role": "CANONICAL_PROSPECTIVE_SOURCE_DEFINITION",
+        "sha256": "c15a80ac9fa04d52d49f09bd91f905d25012b50f36e904da1c047aabfa9c8288"
+      },
+      {
+        "byte_size": 8780642,
+        "file_type": "RIFF_WAVE_SIGNED_PCM24_STEREO_44100",
+        "relative_path": "raw/CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-v0.1  DRUM GT.wav",
+        "scientific_role": "CANDIDATE_CONTROLLED_BENCHMARK_AUDIO_INPUT",
+        "sha256": "cfeb385ab00320f654453a1ff64c6dce9d1d0e80c2008dade847df671a744848",
+        "technical_authority": {"audio_format_code":1,"bits_per_sample":24,"block_align_bytes":6,"channels":2,"data_bytes":8780598,"duration_seconds_exact":"487811/14700","frame_count":1463433,"sample_rate_hz":44100,"sample_scope_half_open":[0,1463433]}
+      },
+      {
+        "byte_size": 8780642,
+        "file_type": "RIFF_WAVE_SIGNED_PCM24_STEREO_44100",
+        "relative_path": "raw/CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-v0.1  MARKER GT.wav",
+        "scientific_role": "CANDIDATE_RENDERED_TEMPORAL_REFERENCE_CHANNEL_NOT_GROUND_TRUTH",
+        "sha256": "835c13219c240c9aba1914e17990c0987183796b731ceee6a7d0b499d02e3428",
+        "technical_authority": {"audio_format_code":1,"bits_per_sample":24,"block_align_bytes":6,"channels":2,"data_bytes":8780598,"duration_seconds_exact":"487811/14700","frame_count":1463433,"sample_rate_hz":44100,"sample_scope_half_open":[0,1463433]}
+      }
+    ],
+    "dataset_id": "CED-VAL-008-VARIABLE-TEMPO-BENCHMARK",
+    "meter": "4/4",
+    "musical_scope": {"beat_count":64,"beat_index_scope":[0,63],"measure_count":16,"quarter_note_beats_per_measure":4},
+    "render_authority": {"bit_depth":24,"channels":2,"container":"WAV","dither":"NO_DITHER","length_measures":16,"mono_conversion":false,"normalization":false,"origin":"1.1.1 = symbolic time zero = exported sample zero","pcm":true,"sample_rate_hz":44100,"symbolic_end_sample_exact":"16097760/11","wav_scope_samples_half_open":[0,1463433]},
+    "symbolic_beat_reference": {"artifact":"symbolic_beat_reference.json","sha256":"ed2c95445ec187b04b1228ec6500b71ed220be090c86dc0dee1569499bee5666"},
+    "tempo_map": [
+      {"bpm":120,"beat_index_scope":[0,15],"measure_scope":[1,4],"start_arrangement_beat":0,"start_position":"1.1.1"},
+      {"bpm":100,"beat_index_scope":[16,31],"measure_scope":[5,8],"start_arrangement_beat":16,"start_position":"5.1.1"},
+      {"bpm":140,"beat_index_scope":[32,47],"measure_scope":[9,12],"start_arrangement_beat":32,"start_position":"9.1.1"},
+      {"bpm":110,"beat_index_scope":[48,63],"measure_scope":[13,16],"start_arrangement_beat":48,"start_position":"13.1.1"}
+    ]
+  },
+  "ableton_source_authority": {
+    "creator": "Ableton Live 11.3.43",
+    "master_tempo_automation_events": [["-63072000",120],["16",120],["16",100],["32",100],["32",140],["48",140],["48",110]],
+    "transport_loop_length_beats": 64,
+    "transport_loop_start_beats": 0
+  },
+  "filename_adjudication": {
+    "authoritative_classification": "AUTHORITATIVE_RAW_ASSET_IDENTITIES",
+    "decision": "ACCEPTED",
+    "superseded_classification": "SUPERSEDED_DESCRIPTIVE_FILENAME_DECLARATION",
+    "superseded_names": ["CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-v0.1 DRUM GT.wav","CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-v0.1 MARKER GT.wav"]
+  },
+  "raw_directory_inventory": {
+    "appledouble_sidecars": ["._CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-v0.1  DRUM GT.wav","._CED-VAL-008-VARIABLE-TEMPO-BENCHMARK-v0.1  MARKER GT.wav"],
+    "appledouble_scientific_asset_count": 0,
+    "scientific_wav_count": 2
+  },
+  "response_authority": {"drum_rendered_onset":"UNESTABLISHED","marker_rendered_onset":"UNESTABLISHED","latency":"UNESTABLISHED","measurement_performed":false},
+  "future_comparative_purpose": "Compare JGA observational temporal population, librosa beat_track, and Essentia RhythmExtractor2013 against this same frozen 64-event variable-tempo SYMBOLIC_BEAT_GROUND_TRUTH; no winner is selected here.",
+  "firewalls": {"beat_detection_performed":false,"essentia_executed":false,"h02_used":false,"historical_authorities_changed":false,"jga_executed":false,"librosa_executed":false,"musical_correspondence_performed":false,"onset_detection_performed":false,"production_code_changed":false,"raw_assets_changed":false,"rendered_response_measured":false,"strength_accessed":false}
+}
