@@ -1,0 +1,21 @@
+{
+  "schema": "JGA-CEDVAL006-PHASE3-WAV-REMEDIATION-RESULT/v1",
+  "remediation_id": "PR-CEDVAL006-PHASE3-DETERMINISTIC-WAV-SERIALIZATION-01",
+  "status": "PASS",
+  "preregistration": {"commit": "e4a4f7f", "fingerprint": "f97ecdf3bb48156cc05468ef8d95f74b1a979f4305434ba27870c929bd3e189a"},
+  "prior_failed_phase3_authority": {"verified": true, "commit": "4f5d2e6", "result_fingerprint": "ae4a3c5efb3514e81ca7d65e3ce07c3f2b731a340eeb1c9732ee40f94dcbd6cb", "failure_cause_confirmed": "The only whole-file difference was byte 61 in the libsndfile RIFF/WAVE PEAK timestamp field; decoded float32 samples were identical."},
+  "serialization_method": "python-soundfile SoundFile WAV/FLOAT writer with libsndfile SFC_SET_ADD_PEAK_CHUNK (0x1050) set to SF_FALSE before sample write",
+  "container_policy": {"container": "RIFF_WAVE_LITTLE_ENDIAN", "format": "IEEE_FLOAT32", "channels": 2, "sample_rate_hz": 44100, "frame_count": 10944947, "chunk_order": ["fmt ", "fact", "PAD ", "data"], "chunk_sizes": [16, 4, 24, 87559576], "peak_policy": "ABSENT", "metadata_policy": "NO_METADATA_CHUNKS", "pad_policy": "24_ZERO_BYTES"},
+  "runs": {
+    "run_1": {"output_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-PHASE3-DETERMINISTIC-WAV-SERIALIZATION-01/run_1/bass.wav", "decoded_samples_sha256": "433a07f34719abd1432080c4773185af89c4b91c01a4d11387db43ca46593c0c", "whole_file_sha256": "ac612091d963bcd5673b96cf5b906589decf8f0c7201599a5c0903bbf3cddc91"},
+    "run_2": {"output_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-PHASE3-DETERMINISTIC-WAV-SERIALIZATION-01/run_2/bass.wav", "decoded_samples_sha256": "433a07f34719abd1432080c4773185af89c4b91c01a4d11387db43ca46593c0c", "whole_file_sha256": "ac612091d963bcd5673b96cf5b906589decf8f0c7201599a5c0903bbf3cddc91"}
+  },
+  "byte_identical_replay": true,
+  "scientific_sample_population_changed": false,
+  "phase3_transform_changed": false,
+  "jga_changed": false,
+  "production_code_changed": false,
+  "bounded_validation_serialization_utility_added": true,
+  "pass_consequence": "UNCHANGED_PHASE3_JGA_AND_FROZEN_LEVEL_1_LEVEL_2_LEVEL_3_SCORING_AUTHORIZED",
+  "result_fingerprint": "44eeedd466541d2b4228fe2f8897a288dad8277ca4d71902ad66fc238e48effa"
+}

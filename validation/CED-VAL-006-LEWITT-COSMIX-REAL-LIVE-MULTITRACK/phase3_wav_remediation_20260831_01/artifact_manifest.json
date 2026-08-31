@@ -1,0 +1,13 @@
+{
+  "remediation_id": "PR-CEDVAL006-PHASE3-DETERMINISTIC-WAV-SERIALIZATION-01",
+  "result_fingerprint": "44eeedd466541d2b4228fe2f8897a288dad8277ca4d71902ad66fc238e48effa",
+  "repository_artifacts": {
+    "result.json": "3d7a6c21c6217aa8fc2b849ac9b3ee997ecca79913ff8d3b0d767bba607219fb",
+    "report.md": "e28fdb07f8aa869204b62552916d595934e0d909e5ccdd81b79127e86a630650",
+    "verify.py": "b484e0c99ab591d7d0a031fcd5b3ffc05f4bf214973ea7d62dc942c85afd11df"
+  },
+  "external_outputs": {
+    "run_1": "ac612091d963bcd5673b96cf5b906589decf8f0c7201599a5c0903bbf3cddc91",
+    "run_2": "ac612091d963bcd5673b96cf5b906589decf8f0c7201599a5c0903bbf3cddc91"
+  }
+}
