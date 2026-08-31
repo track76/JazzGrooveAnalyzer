@@ -1,0 +1,21 @@
+{
+  "audit_id": "AUD-CEDVAL006-PHASE3-TEMPORAL-CELL-COMPETITION-01",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "parent_audit": {"id": "AUD-CEDVAL006-PHASE3-POPULATION-TRANSITION-01", "commit": "170e2b2", "fingerprint": "09158d6d2918f8950c9804e0971d013af170ff2c1b88f8da20dad586a1eb0d90"},
+  "scientific_question": "How did candidates exposed by frozen Phase-3 upward compression alter candidate availability and selection inside frozen original-EME temporal cells?",
+  "authorities": {"phase2_scoring_sha256": "8534734ccb2eb84e18e80a92b54f801d0aff812bd59d12b32cb588aa6b1cc163", "phase3_scoring_sha256": "3923f17b1859204bfd6aa68b6843e99209cb35eba634b0dfb099311e9e321f48", "unprocessed_report_sha256": "ac6a92c05c953cd25e911da9df5bc09fbaf86872ed70b2d39e301380a0508f17", "processed_report_sha256": "744b53a3cfeb30c1650892f27845f2a5e0d6d54dc92ab1075f03316f0c2cc542"},
+  "canonical_populations": {"A": 606, "B": 140, "C1": 296, "C2": 13, "D": 188, "E_overlapping_A": 232, "net_matches": 127},
+  "cell_authority": {"boundaries": "frozen original-EME Voronoi cells from Level-2 scorer", "interval": "half-open [left,right)", "selection_replay": "minimum absolute original-time displacement, earlier timestamp, native observation index", "production_authority": false},
+  "candidate_identity": "exact producer_sample_coordinate at 44100 Hz",
+  "metrics": ["complete candidate timestamps and producer coordinates per cell", "candidate count distributions before and after", "serialized strength/evidence availability", "signed distance to original EME", "selected coordinate before and after", "retained/new/disappeared coordinate sets", "previous selection remains observable", "new candidate displaced previous selection", "processed displacement distributions", "processed squared-displacement share"],
+  "C2_categories": ["after cell empty", "previous selected coordinate disappeared", "previous selected coordinate remains but is unselected"],
+  "E_categories": ["previous remains and new coordinate displaces", "previous disappears and new coordinate selected", "previous remains and pre-existing other coordinate selected", "after cell has multiple candidates"],
+  "D_relationships": ["retained-match cell", "gross-recovery cell", "lost-match cell", "changed-selection cell", "no authorized original cell", "cell where previous selection remains observable"],
+  "timing_attribution": {"exclusive_groups": ["B gross recovery", "E changed selection", "A minus E stable selection"], "metrics": ["count", "signed and absolute displacement", "RMSE", "squared-displacement sum", "share of processed matched squared displacement"], "dominance": "largest squared-displacement share, interpreted alongside categorical C2/E evidence"},
+  "future_intervention_gate": {"YES": "dominant mechanism plus at least one serialized candidate attribute available without original Ground Truth supports a bounded operating principle", "NO": "no stable evidence-supported mechanism", "INDETERMINATE": "mechanism is evidenced but no non-Ground-Truth discriminating attribute is preserved, or authority/replay fails", "original_eme_distance_prohibited_for_production": true},
+  "strength_policy": "Report exact serialized strength when present; otherwise UNAVAILABLE_NOT_SERIALIZED_BY_CANONICAL_REPORT",
+  "implementation": {"script": "audit_phase3_temporal_cell_competition.py", "sha256": "411e0257d5acf8938b587c803e6609c11eebd6c5dbf75e42cb5b76b31b6645da", "python": "3.13.14"},
+  "replay": {"executions": 2, "complete_output_byte_identity_required": true, "audit_fingerprint_identity_required": true},
+  "firewall": {"audio_modified": false, "processing_executed": false, "demucs_rerun": false, "jga_rerun": false, "matching_changed": false, "detector_tuned": false, "ground_truth_selection_rule_created": false, "timing_correction": false, "core_changed": false, "translation_changed": false, "domain_changed": false, "candidate_period_changed": false, "ad037_changed": false, "ad038_changed": false, "ad040_changed": false, "phase3_changed": false, "production_code_changed": false, "historical_evidence_changed": false, "phase4_started": false},
+  "preregistration_fingerprint": "5e1fe86d3dd438d3f280dfe56b994ff5e73557bedce60b47aeacebd38bea658f"
+}
