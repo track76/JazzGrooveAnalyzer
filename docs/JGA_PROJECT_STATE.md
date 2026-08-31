@@ -84,6 +84,31 @@ Status: **PREREGISTERED — NOT APPLIED — PI REVIEW REQUIRED**
   upgrade CED-VAL-005. No search, JGA, H02, strength or physical-onset
   measurement was performed.
 
+## CED-VAL-005 Provider Documentary Evidence
+
+Status: **PRESERVED — ACQUISITION AUTHORITY PARTIAL**
+
+- `PE-CEDVAL005-AMERIO-ACQUISITION-DECLARATION-01` preserves the PI-supplied
+  substantive transcription of a direct written response from recording
+  engineer Stefano Amerio / Artesuono. The repository does not hold the
+  original message or its headers.
+- Provider authority establishes that `09_Overheads.wav` and
+  `11_BassDI.wav` represent one simultaneous, no-overdub performance recorded
+  together in one Pro Tools / Digi 192 operation. It establishes a provider
+  declaration of no quantization and no warp and strengthens preservation of
+  the musical-performance temporal relationship.
+- The provider also discloses possible minimal alignment operations and
+  explicit phase alignment of BassDI with the Bass microphone. Cleaned export
+  beginnings/endings are declared, without exact acquisition-origin offsets.
+- Shared recording-system provenance is established; a single hardware-clock
+  topology, exact sample-zero acquisition mapping, absence of every
+  sample-level transformation, physical-onset Ground Truth and sample-accurate
+  human-microtiming Ground Truth remain unestablished.
+- The prospective gate classification is
+  `ACQUISITION_AUTHORITY_PARTIAL`. Frozen CED-VAL-005 experiments and their
+  historical results remain unchanged. Evidence fingerprint:
+  `d062ab6fdfd7dd863677edda8b7d398dfd85a3166e2efa2516a24794262b29fb`.
+
 ## CED-VAL-005 Real-Audio Observational Result
 
 Status: **PASS — FROZEN — PI REVIEW REQUIRED**

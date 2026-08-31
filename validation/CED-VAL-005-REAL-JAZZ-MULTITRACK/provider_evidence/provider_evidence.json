@@ -1,0 +1,52 @@
+{
+  "schema": "JGA-PROVIDER-DOCUMENTARY-EVIDENCE/v1",
+  "evidence_id": "PE-CEDVAL005-AMERIO-ACQUISITION-DECLARATION-01",
+  "status": "PRESERVED_BOUNDED_PROVIDER_DOCUMENTARY_EVIDENCE",
+  "repository_record_date": "2026-08-31",
+  "dataset_authority_id": "PR-CED-VAL-005-REAL-JAZZ-MULTITRACK-001",
+  "subject": "Cambridge Music Technology multitrack of Maurizio Pagnutti Sextet — All The Gin Is Gone",
+  "declarant": {
+    "name": "Stefano Amerio",
+    "role": "recording engineer / Artesuono",
+    "evidence_form": "direct written response substantively transcribed by the Principal Investigator",
+    "original_correspondence_in_repository": false,
+    "original_message_date": "NOT_SUPPLIED",
+    "message_headers": "NOT_SUPPLIED"
+  },
+  "statements": {
+    "performance": "Recorded live/direct with musicians in separate rooms and no overdubs; the distributed material represents the recorded performance.",
+    "recording_operation": "Tracks were recorded together into Pro Tools through Digi 192 interfaces in one recording operation.",
+    "export_relationship": "Distributed WAV files preserve the original musical temporal relationship; track beginnings and endings were cleaned before portal export.",
+    "quantization": "NONE_DECLARED",
+    "warp": "NONE_DECLARED",
+    "possible_alignment": "Perhaps one or two very small alignment operations may have occurred; described as minimal.",
+    "selected_track_relationship": "09_Overheads.wav and 11_BassDI.wav belong to the same direct performance.",
+    "bass_di_identity": "11_BassDI.wav is the direct Bass signal.",
+    "bass_di_processing": "BassDI was phase-aligned with the Bass microphone to avoid frequency cancellation.",
+    "exact_clarification": "le registrazioni non hanno nulla di alterato a livello di timing"
+  },
+  "authority_assessment": {
+    "same_performance": "ESTABLISHED_BY_PROVIDER_DECLARATION",
+    "simultaneous_acquisition": "ESTABLISHED_BY_PROVIDER_DECLARATION",
+    "shared_recording_system": "ESTABLISHED_BY_PROVIDER_DECLARATION",
+    "shared_hardware_clock": "UNESTABLISHED_CLOCK_TOPOLOGY_NOT_SUPPLIED",
+    "musical_performance_temporal_relationship_preserved": "ESTABLISHED_BY_PROVIDER_DECLARATION_WITH_DISCLOSED_ALIGNMENT_LIMITATION",
+    "quantization_absent": "ESTABLISHED_BY_PROVIDER_DECLARATION",
+    "warp_absent": "ESTABLISHED_BY_PROVIDER_DECLARATION",
+    "all_sample_level_transformations_absent": "NOT_ESTABLISHED",
+    "exact_common_acquisition_origin_mapping": "UNESTABLISHED",
+    "bass_di_phase_alignment_provenance": "ESTABLISHED_BY_PROVIDER_DECLARATION",
+    "physical_onset_ground_truth": "UNESTABLISHED",
+    "sample_accurate_human_microtiming_ground_truth": "UNESTABLISHED"
+  },
+  "prospective_gate_assessment": "ACQUISITION_AUTHORITY_PARTIAL",
+  "historical_evidence_modified": false,
+  "core_modified": false,
+  "translation_modified": false,
+  "domain_modified": false,
+  "candidate_period_modified": false,
+  "ad037_modified": false,
+  "ad038_modified": false,
+  "ad040_modified": false,
+  "evidence_fingerprint": "d062ab6fdfd7dd863677edda8b7d398dfd85a3166e2efa2516a24794262b29fb"
+}
