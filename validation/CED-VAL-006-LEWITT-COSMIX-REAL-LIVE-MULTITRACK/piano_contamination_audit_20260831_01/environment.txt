@@ -1,0 +1,6 @@
+Python 3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]
+macOS-26.5.2-arm64-arm-64bit-Mach-O
+arm64
+Temporary venv with .pth reference to unchanged JGA environment; no package installation
+numpy==2.4.6
+scipy==1.18.0

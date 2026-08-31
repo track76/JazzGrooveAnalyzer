@@ -1,0 +1,27 @@
+{
+  "protocol_id":"H-CROSSDATASET-KICK-BASS-PRESERVATION-ASSOCIATION-01",
+  "status":"PREREGISTERED_NOT_EXECUTED",
+  "protocol_fingerprint":"064e956a27be8ddf3f452d45033abf04b8f143e38d074c672c4feff15add5a22",
+  "primary_question":"Is original Double Bass observation preservation by frozen htdemucs_ft to JGA associated with temporal coincidence with original isolated-Kick observations?",
+  "primary_dataset":"CED-VAL-005",
+  "kick_authority":{
+    "primary":{"asset":"01_KickIn.wav","sha256":"35c97979c0dce76f08563b3814544553159f51a1bd205f244751f948357b9a0f","rule":"sole primary Kick authority; unchanged JGA observation; chosen before outcome linkage because the in-drum close microphone is the attack-oriented isolated Kick channel","KickOut_status":"excluded from primary authority prospectively because its outside/resonant representation can add path/envelope differences; no outcome-based choice"},
+    "secondary":{"dataset":"CED-VAL-006","asset":"Kick DTP 640 REX Dynamic Capsule.wav","sha256":"9c1555ed41a926eff7d5923c7fa88923f3824a5e07a99dbf0feafad77c42dbb0","rule":"sole secondary close dynamic Kick authority observed by unchanged JGA; analogous isolated close Kick evidence, not identical acquisition"}
+  },
+  "bass_and_preservation_authorities":{
+    "CED-VAL-005":{"original":"1138 BassDI EME in frozen execution 074d84768f508e6ceee9c9225c34e9ea881ce50d88e0d5f930525b92e87bd9d6","preservation":"frozen result 548d6c0efd1c411695db037eeabd08683095994649bf8271050cacb596011de0; 782 recovered, 356 missed"},
+    "CED-VAL-006":{"original":"1055 Double Bass EME in frozen acceptance authority","preservation":"frozen htdemucs_ft M1 correspondence; 619 recovered, 436 missed"}
+  },
+  "observation":{"implementation":"unchanged JGA AnalysisPipeline","hop_samples":512,"runs_per_kick_asset":2,"replay":"exact Kick EME producer coordinates and scientific population must agree","forbidden":["strength","confidence","parameter change","manual inspection","audio example selection"]},
+  "coincidence":{
+    "distance":"minimum absolute difference between an original Bass EME and any Kick EME on the shared distributed-file coordinate",
+    "primary_binary":"BASS_WITH_KICK if nearest distance <= 0.030 seconds; otherwise BASS_WITHOUT_KICK",
+    "descriptive_mutually_exclusive_bands":["0 to 0.010 seconds inclusive","greater than 0.010 through 0.030 seconds inclusive","greater than 0.030 through 0.060 seconds inclusive","greater than 0.060 seconds"],
+    "boundary_rule":"exact Fraction coordinates; closed upper boundary assigned to the nearer/earlier listed band; no optimization"
+  },
+  "core_analysis":{"table":"Kick coincidence by recovered/missed","measures":["group preservation probabilities","risk difference P(with)-P(without)","relative risk P(with)/P(without)","odds ratio","phi coefficient"],"uncertainty":"95% Wilson intervals for each probability; Newcombe unpooled Wilson interval for risk difference; log-Wald 95% intervals for relative risk and odds ratio, with 0.5 Haldane correction only if a cell is zero","test":"two-sided Fisher exact test; descriptive association only"},
+  "controls":{"event_density":"for each Bass EME count other original Bass EME and Kick EME within closed +/-0.5 seconds; report coincidence/preservation within prospectively computed quartiles of each count; quartile edges derive from the full labelled-time population without preservation outcomes","temporal_position":"four equal-duration quarters of authoritative file scope; report stratum tables","adjusted_model":"fixed logistic regression by deterministic IRLS: recovered outcome; predictors Kick<=30ms, normalized time in [0,1], local Bass count, local Kick count; report adjusted Kick odds ratio, Wald 95% CI, convergence; no variable selection or interactions","stratified":"Mantel-Haenszel common odds ratio across temporal quarters and across joint density strata where tables are informative"},
+  "substantial_negative_gate":"primary CED-VAL-005 risk difference <= -0.10, its 95% Newcombe upper bound < 0, and two-sided Fisher p < 0.05",
+  "interpretation_firewall":"Association only. No physical causation, production detector, onset change, genre/swing/walking-bass/kick-behavior/recording-practice/instrumentation cause, physical-onset, or harmonic recovery claim.",
+  "next_if_gate":"Recommend exactly one separately approved post-transient pitched/harmonic-evidence experiment restricted to MISSED BASS_WITH_KICK; do not execute it here."
+}

@@ -1,0 +1,58 @@
+{
+  "preservation_id": "JGA-EVIDENCE-PRESERVATION-20260831-01",
+  "status": "FINALIZED_EVIDENCE_IMPORTED_BYTE_IDENTICALLY",
+  "evidence_sets": [
+    {
+      "destination": "CED-VAL-005-REAL-JAZZ-MULTITRACK/htdemucsft_replication_20260831_01",
+      "isolated_commit": "fd90d237492467448e442045adce6636af30fc73",
+      "tree": "91c3ac3e39bde975ae92152bca39410cee3ed2e3",
+      "protocol_fingerprint": "4cede9fe9494df949b64af4998a02df3bd57bcc2048bf4d77834aa09dbb1bef5",
+      "result_fingerprint": "548d6c0efd1c411695db037eeabd08683095994649bf8271050cacb596011de0"
+    },
+    {
+      "destination": "CED-VAL-005-REAL-JAZZ-MULTITRACK/mixed_audio_pitched_bass_20260831_01",
+      "isolated_commit": "322ea2f2514733e8e556100371923b77c37c405d",
+      "tree": "ef9bf434bab6e5ec828b0ac5cb164a8a93e58333",
+      "protocol_fingerprint": "12a5f79ca02165752b711c25a9e4966a5b2da187b63b11d71aaced01934bf5ba",
+      "result_fingerprint": "8a1fd4dc0364d4f399e81778cf493e524079e83fc555f2723652a0c5127f0d41"
+    },
+    {
+      "destination": "CED-VAL-005-REAL-JAZZ-MULTITRACK/kick_bass_preservation_association_20260831_01",
+      "isolated_commit": "a77f60ecec7cb6611482b47c3f1c2fe04d0aead5",
+      "tree": "a24d6823ef2460d6372995e718499ac64b3219a7",
+      "protocol_fingerprint": "064e956a27be8ddf3f452d45033abf04b8f143e38d074c672c4feff15add5a22",
+      "result_fingerprint": "49b8145b406d20da08cc669e94989fe0c9ca68de79d993401b2dcd30b4c4fb1f"
+    },
+    {
+      "destination": "CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/event_blind_pitched_bass_recovery_20260831_01",
+      "isolated_commit": "f1031698ab01e9f33ecf6bf44d43021074f9cdb9",
+      "tree": "8a95ee078c6dc9f0e332d77a2f10d352336e09d3",
+      "protocol_fingerprint": "eda2bbe72c7a870e00c3d0d1ec5b90e100c29d93bf0d81d33a4141de729c9672",
+      "result_fingerprint": "6cbcf9e29629ba2322d554382de6be11e2c746122f1b3beb28db61ad7835f4ce"
+    },
+    {
+      "destination": "CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/piano_contamination_audit_20260831_01",
+      "isolated_commit": "0f56a6b0695472a45a27333b1141c28e7eec0924",
+      "tree": "b360190e81174713591857aa2542d91cae17a9fd",
+      "protocol_fingerprint": "61e568108ea6dceb179932fd6abf0a0da0e85d0714241a27b5014a23d015a894",
+      "result_fingerprint": "887f14f2d489653cce2465b32a97afa4889fc2009746662ede2150f832617f5c"
+    },
+    {
+      "destination": "CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/yourmt3_direct_mix_benchmark_20260831_01",
+      "isolated_commit": "006e62bb55dd2c57098c13c1bd09dca3b03feb50",
+      "source_tree": "2e82deae4eca84dac7eeec3afad913753f2ad4be",
+      "protocol_fingerprint": "8794858b0569a80ac62751be8bd07ce7e3a7164ff87d1fbe68133e72e21e6b1f",
+      "result_fingerprint": "ff34eda3b4f0ec3811da8495388fc6ede99cee67ad0abefe667fc69140f5583d",
+      "additional_frozen_candidate_authority": {
+        "path": "candidate_authority/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.mid",
+        "sha256": "934fc1e413fbc6b8a47b2437467f705c774728059cc46fafb0ae0417be4b7848"
+      }
+    }
+  ],
+  "excluded": {
+    "interrupted_post_onset_harmonic_pilot": "NOT_FINALIZED_NO_ANALYTICAL_ARTIFACT_NO_COMPLETED_EVIDENCE_COMMIT",
+    "temporary_environments_caches_audio_dependencies": true
+  },
+  "scientific_behavior_modified": false,
+  "new_experiment_started": false
+}

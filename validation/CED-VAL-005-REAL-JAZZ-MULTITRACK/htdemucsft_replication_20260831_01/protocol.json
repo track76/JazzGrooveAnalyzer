@@ -1,0 +1,73 @@
+{
+  "protocol_id": "H-CEDVAL005-CONTROLLED-MIX-HTDEMUCSFT-JGA-PRESERVATION-01",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "protocol_fingerprint": "4cede9fe9494df949b64af4998a02df3bd57bcc2048bf4d77834aa09dbb1bef5",
+  "scientific_question": "Does the frozen htdemucs_ft to unchanged JGA path preserve source-labelled Double Bass and Drum temporal observations from a deterministic CED-VAL-005 controlled mix at a level comparable to CED-VAL-006?",
+  "authorities": {
+    "dataset_fingerprint": "d9d6341f837bc5f56054ffd6c91f6be65a7bdbb8043526a9ac70d924a81335af",
+    "analytical_input_fingerprint": "08ac45969fc449503f67ea4e8bda77495c4807e9dd0e0adbe0c37c9cb506b876",
+    "original_execution_fingerprint": "074d84768f508e6ceee9c9225c34e9ea881ce50d88e0d5f930525b92e87bd9d6",
+    "original_bass": "11_BassDI.wav only; 1138 frozen EME; BassMic is prohibited as reference",
+    "original_drums": "09_Overheads.wav only; 907 frozen EME",
+    "scope": "[0,10068072) samples at 44100 Hz",
+    "provider_evidence_fingerprint": "d062ab6fdfd7dd863677edda8b7d398dfd85a3166e2efa2516a24794262b29fb",
+    "reference_files": {
+      "dataset": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/input_authority_manifest.json",
+      "analytical": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/analytical_input_authority.json",
+      "original_scientific_content": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/run_20260824_112305/scientific_content.json",
+      "cedval006_scoring": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/bass_preservation_phase2_20260825_01/scoring_execution_1.json"
+    }
+  },
+  "controlled_mix": {
+    "population": "all 16 checksum-authorized musical WAVs; exclude Readme and AppleDouble sidecars",
+    "decode": "exact signed 24-bit little-endian PCM to int64",
+    "channel_mapping": "preserve stereo; duplicate mono exactly to left and right",
+    "summation": "exact int64 addition in UTF-8 filename-byte lexicographic order over unchanged common sample coordinates",
+    "individual_gain": "1/1 for every source",
+    "planning": "dry pass determines complete unscaled absolute peak; freeze sole coefficient 8388607/peak before WAV generation",
+    "quantization": "exact round-to-nearest, half away from zero",
+    "output": "stereo signed 24-bit PCM, 44100 Hz, 10068072 frames",
+    "forbidden": ["panning", "artistic balance", "EQ", "compression", "limiting", "per-track normalization", "resampling", "alignment", "trimming", "listening-based decisions"],
+    "replay": "two independent generations must be byte-identical"
+  },
+  "separator": {
+    "name": "htdemucs_ft",
+    "demucs": "4.1.0",
+    "python": "3.13.14",
+    "torch": "2.13.0",
+    "torchaudio": "2.11.0",
+    "registry_revision": "478be8a68f85418addd6f7baefd4be76522a4034",
+    "manifest_sha256": "69470b8c1bbd674437b51bc9fb491327a10ab0396b702c93389b9cf750016346",
+    "checkpoint_sha256": ["2c85ab3c62dd6edd8e0b965e38b16fd1cdde357cc25de6b6bc9ce7c83f60925f", "5b01a97567ae9a3178a6236fb520251045c03eb8834bc8c24a4eec11d6c8fb56", "a241863551f30d01c42bd7b97da40839922ead3acb0f1fcab25682f55b4eeb59", "68854b0d7c2b3274723b5761f6fd9f5aec5f1bcd3f0de7c1669546fdb7871b7c"],
+    "environment": {"device":"cpu", "OMP_NUM_THREADS":"1", "MKL_NUM_THREADS":"1", "VECLIB_MAXIMUM_THREADS":"1"},
+    "arguments": ["-n", "htdemucs_ft", "-d", "cpu", "--shifts", "0", "--overlap", "0.25", "-j", "0", "--float32"],
+    "runs": 2,
+    "fresh_processes": true,
+    "preserve_all_stems": true,
+    "mapping": {"bass.wav":"Double Bass / ACCOMPANIMENT", "drums.wav":"Drums / TEMPORAL_REFERENCE"},
+    "selection_or_averaging": "NONE"
+  },
+  "jga_observation": {
+    "configuration": "unchanged production observation configuration; 44100 Hz; hop 512",
+    "implementation_sha256": {"default_analysis_pipeline.py":"04ecdfee536717b977276b91b7e9416701e7a89ce9aa7bc4339917263725ef17", "elementary_metric_event_builder.py":"137e390a69c9361d5cbfd66908256b2417d76c95d503e7ad2c409cd2e1b66cc2", "drum_relative_eme_localization_builder.py":"bf6d61bf3c2be644047fd81553e68a73bb0b4f95e67535acc010d30e1fc465fd", "rhythm_section_timing_profile_builder.py":"92c63c2d19045553b09a3ca36ad2321eba348adac4cfd35cde9e3115f5f720c4"},
+    "forbidden": ["parameter change", "strength", "confidence", "latency correction", "calibration transfer", "BPM", "meter", "symbolic input", "H02"]
+  },
+  "matching": {
+    "method": "exact frozen CED-VAL-006 one-to-one temporal assignment independently for Bass and Drums",
+    "cells": "half-open original-event Voronoi cells [left,right), bounded by 0 and 10068072/44100 seconds",
+    "selection": "chronological originals; unused in-cell candidate with minimum absolute displacement, then earlier time, then lower native identity",
+    "tolerance": "Voronoi cell authority only; no correction or added tolerance",
+    "pitch_or_duration_used": false
+  },
+  "metrics": ["counts, density, coverage", "matched, original-only, separated-only", "precision, recall, F1", "signed and absolute displacement distributions including median, RMSE, maximum", "AD-038 population and reference preservation", "AD-040 represented populations", "run-to-run stability"],
+  "cedval006_reference": {"bass_recall":0.5867298578199052, "bass_f1":0.7278071722516166, "bass_precision":0.958204334365325, "drum_recall":0.9570957095709571},
+  "authorized_descriptive_deltas": {"DELTA_BASS_RECALL":"CED-VAL-005 recall minus 0.5867298578199052, with relative percentage change", "DELTA_BASS_F1":"CED-VAL-005 F1 minus 0.7278071722516166, with relative percentage change", "gate_effect":"NONE"},
+  "outcome_gates_priority": {
+    "INDETERMINATE":"any authority, checksum, execution, correspondence, or replay invariant fails",
+    "PRESERVATION_REPLICATED_WITHIN_MARGIN":"both runs Bass recall >= 0.5367298578199052 and F1 >= 0.6778071722516166; run-to-run differences <= 0.02; Drum recall >= 0.90",
+    "MIXED_REPLICATION":"Bass recall or F1 satisfies its margin but not both in both runs, or Drum recall < 0.90",
+    "LOWER_BASS_PRESERVATION":"both runs fall below both Bass margins",
+    "INDETERMINATE_CROSS_RUN_VARIABILITY":"run-to-run Bass recall or F1 differs by more than 0.02"
+  },
+  "interpretation_firewall": "Separate genre/material, recording/acquisition, separation, and JGA observation. No physical-onset, causal genre/swing/walking-bass/kick/recording/instrumentation, production-fitness, or universal-generalization claim."
+}

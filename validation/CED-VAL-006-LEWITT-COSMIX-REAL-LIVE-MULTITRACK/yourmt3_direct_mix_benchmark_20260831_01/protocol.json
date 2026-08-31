@@ -1,0 +1,95 @@
+{
+  "benchmark_id": "CED-VAL-006-YOURMT3-DIRECT-MIX-BASS-BENCHMARK-20260831-01",
+  "status": "PROSPECTIVELY_FROZEN_BEFORE_CANDIDATE_TIMESTAMP_EXAMINATION",
+  "protocol_fingerprint": "8794858b0569a80ac62751be8bd07ce7e3a7164ff87d1fbe68133e72e21e6b1f",
+  "candidate_authority": {
+    "model": "YPTF.MoE+Multi (noPS)",
+    "checkpoint_sha256": "ae38e415c79efd5592dcb9b658cdb99ddb11d4c4e1eaa364cab04a052473fc25",
+    "controlled_mix_sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0",
+    "midi_path": "/private/tmp/jga-yourmt3-feasibility.5niH0p/primary_source/model_output/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.mid",
+    "midi_sha256": "934fc1e413fbc6b8a47b2437467f705c774728059cc46fafb0ae0417be4b7848",
+    "expected_total_notes": 4942,
+    "population": "all note_on events with velocity > 0 in the MIDI track named Bass while GM program 33 is active",
+    "expected_population_count": 274,
+    "preserved_instrument_classification": "ELECTRIC_BASS_LABEL",
+    "forbidden_interpretation": "candidate events are not relabelled as Contrabass"
+  },
+  "reference_authority": {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/acceptance_20260825_113950/canonical_report_execution_1.json",
+    "sha256": "e4557a028fc681299b1778f2aa8036b7257e1cf3dab196ed26b8cc28256d1a72",
+    "label": "Double Bass",
+    "expected_eme_count": 1055,
+    "scope_end_seconds_fraction": "11912868/48000"
+  },
+  "timestamp_extraction": {
+    "authority": "serialized frozen MIDI bytes",
+    "method": "accumulate delta ticks independently per track; accept note_on velocity > 0 on track Bass under active program 33; convert absolute ticks with 480 ticks/beat and constant 500000 microseconds/beat",
+    "required_ticks_per_beat": 480,
+    "required_tempo_microseconds_per_beat": 500000,
+    "serialized_timestamp_fraction": "absolute_tick/960 seconds",
+    "serialized_resolution_seconds": 0.0010416666666666667,
+    "native_model_lattice_seconds": 0.01,
+    "latency_or_offset_correction": "NONE",
+    "ordering": "onset fraction, track index, native message index"
+  },
+  "matching": {
+    "framework": "exact frozen CED-VAL-006 one-to-one temporal Voronoi-cell assignment",
+    "scorer_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/separation_robustness_20260825_01/score.py",
+    "scorer_sha256": "1ee3649859761fcc66096bc00e327b764a38455c93a614280fa27628f08f3416",
+    "cells": "half-open original-event Voronoi cells [left,right), bounded by 0 and 11912868/48000 seconds",
+    "assignment": "for each original in time order choose an unused in-cell candidate by minimum absolute displacement, then earlier candidate time, then lower native index",
+    "tolerance_authority": "original-event Voronoi cells; no additional tolerance and no accommodation for the YourMT3 10 ms lattice",
+    "pitch_used": false,
+    "duration_used": false
+  },
+  "metrics": [
+    "population counts, densities, and temporal coverage",
+    "matched, original-only, candidate-only",
+    "descriptive precision, recall, and F1",
+    "median absolute displacement, timing RMSE, and maximum displacement",
+    "matched-original partition counts across BOTH, HTDEMUCS_FT_ONLY, RX_ONLY, NEITHER",
+    "YOURMT3_RECOVERY_OF_NEITHER",
+    "oracle retrospective union recall"
+  ],
+  "comparison_authorities": {
+    "htdemucs_ft": {
+      "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/bass_preservation_phase2_20260825_01/scoring_execution_1.json",
+      "sha256": "8534734ccb2eb84e18e80a92b54f801d0aff812bd59d12b32cb588aa6b1cc163",
+      "run": "M1_run_1"
+    },
+    "rx11": {
+      "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/rx11_bass_separation_benchmark_20260831_01/scoring_execution_1.json",
+      "sha256": "e1da7f654f02858bc422d8ed2a12e4ac54cc9ffc7c36f8610705a2e7bfe9fe29",
+      "run": "run_1"
+    },
+    "complementarity": {
+      "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/rx_htdemucsft_complementarity_audit_20260831_01/audit_execution_1.json",
+      "sha256": "a99b9cd8190a350f34f174635e86084c8ce592b3a9853035384fd1fc2703883d",
+      "expected_partition": {"BOTH": 555, "HTDEMUCS_FT_ONLY": 64, "RX_ONLY": 38, "NEITHER": 398},
+      "existing_union_count": 657
+    }
+  },
+  "decision_gates_in_priority_order": [
+    {
+      "classification": "INDETERMINATE",
+      "gate": "any authority checksum/count/schema invariant or byte-identical two-execution replay requirement fails"
+    },
+    {
+      "classification": "CLEAR_IMPROVEMENT",
+      "gate": "YourMT3 F1 and recall are each >= htdemucs_ft; median absolute displacement and RMSE are each <= htdemucs_ft; and NEITHER recovery count >= 22"
+    },
+    {
+      "classification": "COMPLEMENTARY_BUT_INSUFFICIENT",
+      "gate": "NEITHER recovery count >= 22 (the frozen complementarity material-count threshold), global median absolute displacement <= 0.050 s, and global RMSE <= 0.100 s, while CLEAR_IMPROVEMENT is not met"
+    },
+    {
+      "classification": "WORSE_THAN_DEMUCS",
+      "gate": "YourMT3 F1 and recall are each < htdemucs_ft; median absolute displacement and RMSE are each > htdemucs_ft; and NEITHER recovery count < 22"
+    },
+    {
+      "classification": "NO_MATERIAL_UTILITY",
+      "gate": "all remaining determinate outcomes"
+    }
+  ],
+  "firewall": "oracle union is explanatory only; no Ground-Truth-driven production selector; no inference rerun; no MIDI, authority, JGA, Demucs, or RX modification"
+}

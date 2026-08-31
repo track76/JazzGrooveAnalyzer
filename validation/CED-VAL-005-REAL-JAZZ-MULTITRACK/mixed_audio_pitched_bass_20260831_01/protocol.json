@@ -1,0 +1,32 @@
+{
+  "protocol_id": "H-CEDVAL005-MIXED-AUDIO-PITCHED-BASS-EVIDENCE-01",
+  "protocol_fingerprint": "12a5f79ca02165752b711c25a9e4966a5b2da187b63b11d71aaced01934bf5ba",
+  "status": "PREREGISTERED_BEFORE_CANDIDATE_GENERATION",
+  "scientific_question": "Do original BassDI EME missed by the frozen htdemucs_ft-to-JGA correspondence retain signal-grounded pitched/harmonic evidence in the controlled full mix compatible with an independently estimated BassDI pitch?",
+  "authorities": {
+    "controlled_mix": {"path": "/private/tmp/cedval005-htdemucsft-replication-20260831-01/mix_run_1/CED-VAL-005-CONTROLLED-MIXDOWN-v0.1.wav", "sha256": "7d9d3f1f07f7760152ce560ae0bbb6f1706b443278a41af4a31dfb2638396a0f"},
+    "bassdi_evaluation_only": {"path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-005-REAL-JAZZ-MULTITRACK/raw/MaurizioPagnuttiSextet_AllTheGinIsGone_Full/11_BassDI.wav", "sha256": "2c4c06b9b5d4b18e00000bc2c036207fc68fb722c5854e0a30107ad4594a910b"},
+    "frozen_correspondence": {"path": "/private/tmp/cedval005-htdemucsft-replication-20260831-01/scoring_1.json", "sha256": "f5f7fe410cea8bd68ff0a5e0f40528642adc9c6576a823447622e481e191f2d4", "bass_total": 1138, "recovered": 782, "missed": 356},
+    "frozen_kick_subdivision": {"path": "/private/tmp/cedval-kick-bass-preservation-20260831-01/result_1.json", "sha256": "7c36c0f12b0a665e2f5a0133003f10ccedf18ec86443b73d24ef41d313cb980a", "kick_events_path": "/private/tmp/cedval-kick-bass-preservation-20260831-01/ced005_kick_run_1.json", "kick_events_sha256": "482910b15d815278056d74744d1a4953b77fdffde46d74f6bfb0366f078fd901", "coincidence_seconds": 0.03}
+  },
+  "ground_truth_firewall": {
+    "candidate_stage_inputs": ["controlled mix", "frozen original EME timestamps and IDs solely as observation locations", "frozen recovered/missed and Kick labels solely as labels"],
+    "candidate_stage_prohibited": ["BassDI audio", "BassDI-derived pitch", "neighboring Bass pitch", "metric or walking-bass prediction", "manual listening or example selection"],
+    "stage_lock": "candidate_outputs.json is SHA-256 hashed and locally committed before the evaluation program may read BassDI"
+  },
+  "audio_frontend": {"decode": "stdlib wave exact PCM", "channel_rule": "arithmetic mean to mono float64", "sample_rate_hz": 44100, "analysis_start_after_eme_seconds": 0.04, "analysis_end_after_eme_seconds": 0.30, "frame_length_samples": 4096, "frame_length_seconds": 0.09287981859410431, "hop_samples": 1024, "hop_seconds": 0.023219954648526078, "window": "periodic Hann", "fft_size": 16384, "detrend": "frame mean subtraction"},
+  "f0_search": {"minimum_hz": 41.20344461410875, "maximum_hz": 195.99771799087463, "register": "sounding E1 through G3; broad plausible Double Bass fundamental register", "grid_cents": 5, "harmonics": 8, "spectral_sample": "linear interpolation of power spectrum", "local_noise_reference": "median power from +/-100 to +/-200 cents around each harmonic, excluding +/-35 cents", "supported_partial_min_prominence_db": 6.0, "frame_harmonic_score": "mean of the four largest log1p(harmonic_power/local_noise) values among available partials", "missing_fundamental": "permitted; a frame requires at least 3 supported partials but does not require harmonic 1", "top_candidate_set": "up to 3 local F0-score maxima at least 35 cents apart and at least 95% of the best aggregate score"},
+  "evidence_decision": {"frame_eligible": "at least 3 supported partials and harmonic-to-total spectral energy ratio at least 0.12", "track_stability": "at least 3 consecutive eligible frames whose best F0 values span no more than 35 cents", "present": "stable run exists and at least half of available frames are eligible", "absent": "no eligible frame", "indeterminate": "all other cases", "no_forced_pitch": true},
+  "note_mapping": {"midi": "69 + 12*log2(F0/440)", "nearest_note": "nearest integer MIDI, ties toward lower integer", "deviation_cents": "100*(continuous MIDI - nearest MIDI)"},
+  "independent_bassdi_evaluation": {"timing_and_frontend": "identical fixed windows/frontend/F0 grid and signal method applied independently to BassDI only after candidate lock", "reference_evaluable": "BassDI yields PITCHED_EVIDENCE_PRESENT with a stable candidate set", "agreement": "minimum absolute cents between any frozen mix candidate and any BassDI reference candidate <= 50 cents; octave differences are not collapsed", "limitation": "BassDI is an isolated microphone observation and estimator-derived pitch proxy, not symbolic note or physical-onset Ground Truth"},
+  "metrics": {"primary": "compatible frozen mix evidence / BassDI-evaluable MISSED_BASS", "control": "same proportion for RECOVERED_BASS", "uncertainty": "Wilson 95% binomial intervals", "subdivisions": ["with Kick", "without Kick"], "additional": ["candidate status counts", "BassDI evaluability", "pitch-error median, quartiles and RMSE for compatible events"]},
+  "classification_gates": {
+    "STRONG": "all replay/authority/firewall invariants pass; at least 80% of MISSED_BASS are BassDI-evaluable; compatible proportion among evaluable MISSED_BASS >=0.50 and Wilson lower bound >=0.40",
+    "PARTIAL": "all invariants pass; at least 80% evaluability; compatible proportion >=0.20 and Wilson lower bound >=0.10, without meeting STRONG",
+    "INSUFFICIENT": "all invariants pass and evaluability >=80%, but PARTIAL is not met",
+    "INDETERMINATE": "any authority/firewall/replay invariant fails or MISSED_BASS BassDI evaluability is below 80%"
+  },
+  "replay": {"candidate_generation_runs": 2, "evaluation_runs": 2, "requirement": "canonical JSON byte identity within each stage"},
+  "interpretation_firewall": "Explanatory association only. No physical-onset Ground Truth, complete transcription, causal masking, groove/swing interpretation, production readiness, or recovery implementation claim.",
+  "software": {"python": "3.13.14", "architecture": "arm64", "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O", "numpy": "2.4.6", "scipy": "1.18.0", "environment": "temporary venv outside JGA with system-site-packages referencing the unchanged frozen JGA environment"}
+}
