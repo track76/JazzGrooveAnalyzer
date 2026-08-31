@@ -64,6 +64,38 @@ Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTED**
   `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`; this does not expand its
   scientific claims.
 
+## CED-VAL-006 Phase-3 Temporal-Cell Competition Audit
+
+Status: **COMPLETE — READ-ONLY — REPLAY VERIFIED**
+
+- `AUD-CEDVAL006-PHASE3-TEMPORAL-CELL-COMPETITION-01` replays the frozen
+  original-EME Voronoi cells and historical selection rule without changing
+  matching or creating production authority.
+- All 13 C2 cells changed from one candidate to zero and every previous
+  selected coordinate disappeared. Of 232 E cells, 222 lost the previous
+  selection and selected a newly observable coordinate, three selected a
+  previously observable alternate after the prior selection disappeared, and
+  seven retained the previous selection but selected a newly observable
+  competitor.
+- Processed cell counts changed from 436/592/27 cells with 0/1/2 candidates
+  before processing to 309/582/141/22/1 cells with 0/1/2/3/4 candidates after
+  processing. Of 188 D candidates, 159 occupy retained-match cells, 29 gross-
+  recovery cells, 80 changed-selection cells and none lack an authorized
+  original cell; these categories overlap as documented.
+- Gross recoveries contribute 72.22790457342819% of processed matched squared
+  displacement. Direct new-candidate displacement of a still-observable prior
+  selection occurs in only 7/232 E cases. Candidate disappearance, gross
+  recovery with wide displacement and secondary multi-candidate competition
+  are the bounded mechanisms.
+- A future intervention operating without original-stem Ground Truth is
+  `INDETERMINATE`: the frozen reports serialize no candidate strength or other
+  non-Ground-Truth discriminator. Closest-to-original selection is explicitly
+  prohibited. Audit fingerprint:
+  `1adc78a5f99fa76e2fd168191b5abfc8c26658d57b544fc791a829be53fae7f4`.
+- Two complete executions replayed byte-identically. No audio, processing,
+  Demucs, detector, JGA, matching, production code, historical evidence or
+  Phase-3 decision criterion changed. No Phase 4 occurred.
+
 ## CED-VAL-006 Phase-3 Population Transition Audit
 
 Status: **COMPLETE — READ-ONLY — REPLAY VERIFIED**
