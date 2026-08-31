@@ -1,0 +1,38 @@
+{
+  "study_id": "ST-CEDVAL006-PHASE3-DETECTOR-NATIVE-EVIDENCE-CAPTURE-01",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "parent_audit": {"id": "AUD-CEDVAL006-PHASE3-TEMPORAL-CELL-COMPETITION-01", "commit": "e8fa0ff", "fingerprint": "1adc78a5f7823ba2e4ff9c8fca876002863ecec463146a412696ab0ee4ae7f4"},
+  "scientific_question": "Does unchanged detector-native evidence distinguish the frozen Phase-3 Bass population transitions without original-stem Ground Truth at operation time?",
+  "input_authorities": {
+    "unprocessed_sha256": "a9949d98dd914de8a7aaa330b7a149340929c31b2665bc00d55eac8df230fe6b",
+    "processed_sha256": "ac612091d963bcd5673b96cf5b906589decf8f0c7201599a5c0903bbf3cddc91"
+  },
+  "detector": {
+    "production_component": "jga.engines.source_pulse_candidate_builder.SourcePulseCandidateBuilder",
+    "configuration": "librosa.onset.onset_detect(y=unchanged_normalized_mono_stem,sr=44100,units=frames) and librosa.onset.onset_strength(y=same,sr=44100), all library defaults otherwise",
+    "hop_length_samples": 512,
+    "preprocessing": "unchanged AudioPreprocessor stereo mean followed by peak normalization",
+    "candidate_filter_applied": false,
+    "parameters_changed": false,
+    "semantics_changed": false
+  },
+  "native_evidence": ["onset timestamp and hexadecimal float representation", "native onset frame index", "frame-start sample coordinate", "native onset-envelope value at the detected frame and hexadecimal float representation", "existing constant candidate confidence", "canonical observation and EME association"],
+  "unavailable_policy": "Any quantity not carried or directly computed by the unchanged frontend is UNAVAILABLE; no score is reconstructed or invented.",
+  "association": "The unchanged production builder candidate sequence is zipped in native order with the same frontend frame and envelope arrays; timestamp and strength equality plus exact canonical observation index/frame/sample/timestamp equality are mandatory.",
+  "serialization": "canonical ASCII JSON: sorted keys, compact separators, no NaN, one trailing LF; runtime timestamps and nondeterministic identities excluded",
+  "canonical_populations": {"A": 606, "B": 140, "C1": 296, "C2": 13, "D": 188, "E_overlapping_A": 232},
+  "descriptive_metrics": ["count/minimum/linear quartiles/median/maximum/mean/population SD of native strength", "paired strength difference only at exact retained coordinates", "strength of disappearing and newly observable coordinates", "selected versus maximum nonselected strength in processed multi-candidate cells", "B-versus-D Cliff's delta"],
+  "prospective_discriminator_gate": {
+    "YES": "At least one fixed candidate-only criterion holds: absolute B-versus-D Cliff's delta is at least 0.474 (conventional large effect), or the frozen selected candidate is the unique native-strength maximum in at least 75% of processed multi-candidate cells.",
+    "NO": "Absolute B-versus-D Cliff's delta is below 0.147 (conventional negligible effect) and unique-maximum alignment is no greater than 50%.",
+    "INDETERMINATE": "Neither YES nor NO criterion holds, native evidence is unavailable, or authority/replay fails.",
+    "large_absolute_cliffs_delta": 0.474,
+    "negligible_absolute_cliffs_delta": 0.147,
+    "unique_maximum_alignment_rate": 0.75,
+    "threshold_optimization": false,
+    "ground_truth_use": "retrospective labels and evaluation only"
+  },
+  "replay": {"executions": 2, "complete_output_byte_identity_required": true, "study_fingerprint_identity_required": true},
+  "firewall": {"audio_modified": false, "demucs_rerun": false, "phase3_transform_changed": false, "eq_or_new_processing": false, "detector_changed": false, "candidate_selection_changed": false, "matching_changed": false, "temporal_cells_changed": false, "ground_truth_used_for_generation_or_selection": false, "threshold_optimized": false, "production_rule_created": false, "production_code_changed": false, "core_changed": false, "translation_changed": false, "domain_changed": false, "candidate_period_changed": false, "ad037_changed": false, "ad038_changed": false, "ad040_changed": false, "historical_evidence_changed": false, "new_processing_or_selection_experiment_started": false},
+  "preregistration_fingerprint": "88a1f864b61a70156c879a1d07ab033939c6b48f45ddff8e08ac12a597bb26fa"
+}
