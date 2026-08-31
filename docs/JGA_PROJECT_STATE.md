@@ -64,6 +64,33 @@ Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTED**
   `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`; this does not expand its
   scientific claims.
 
+## CED-VAL-006 Phase-3 Population Transition Audit
+
+Status: **COMPLETE — READ-ONLY — REPLAY VERIFIED**
+
+- `AUD-CEDVAL006-PHASE3-POPULATION-TRANSITION-01` preserves the canonical
+  partition: A=606, B=140, C=309 (296 never matched plus 13 previously
+  matched and lost), D=188 and overlapping E=232. The prior description of
+  127 as gross recovery is an explicitly resolved Evidence Conflict: 140
+  gross recoveries minus 13 losses equals +127 net matches.
+- Recovered B windows were predominantly weak before processing: median
+  unprocessed local RMS was -39.12763791293628 dBFS and 125/140 were below
+  -30 dBFS. Processed-only D windows had median -33.789454411474196 dBFS and
+  127/188 were below threshold. This supports amplification of existing weak
+  residual evidence and additional neutral onset-candidate structure.
+- Recovered matches had 0.031092970521541953-second median absolute
+  displacement and 0.06348290398089844-second RMSE. Within A, 232 selected
+  producer timestamps changed. Their median absolute displacement increased
+  from 0.007727891156462585 to 0.011102040816326531 seconds. These populations
+  explain the frozen aggregate timing degradation.
+- No fixed band passed the preregistered B-versus-D descriptive spectral
+  separation gate; a subsequent spectral/EQ hypothesis is not justified.
+  Audit fingerprint:
+  `09158d6d2918f8950c9804e0971d013af170ff2c1b88f8da20dad586a1eb0d90`.
+- Two complete audit executions replayed byte-identically. No audio, Demucs,
+  detector, matching, JGA, production code, historical evidence or Phase-3
+  decision criterion changed. No Phase 4 occurred.
+
 ## CED-VAL-006 Bass Preservation Phase 3 — Remediated Result
 
 Status: **FROZEN RESULT — POPULATION IMPROVEMENT WITH TIMING DEGRADATION**
