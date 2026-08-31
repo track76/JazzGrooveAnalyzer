@@ -1,0 +1,64 @@
+{
+  "audit_id": "AUD-CEDVAL006-DIRECT-MIX-NEITHER-OBSERVABILITY-01",
+  "authorities": {
+    "complementarity_result": {"path": "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/rx_htdemucsft_complementarity_audit_20260831_01/result.json", "sha256": "1be257eae0a37c70f73de986d23781c9f9507faba55a98580cee20b51ef3211b"},
+    "controlled_mix": {"path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/PR-CEDVAL006-CONTROLLED-MIXDOWN-001/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.wav", "sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0"},
+    "htdemucs_ft_bass": {"path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-BASS-PRESERVATION-PHASE2-01/M1_run_1/htdemucs_ft/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1/bass.wav", "sha256": "a9949d98dd914de8a7aaa330b7a149340929c31b2665bc00d55eac8df230fe6b"},
+    "original_bass": {"path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/raw/BASS - DI.wav", "sha256": "c0a99f65158d12a69e062cc990e86631a0d29d7e83f30537d34eb301516855a9"},
+    "original_drum_overheads": {"path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/raw/Dums Overheads LCT 640 TS-Dual Output Mode.wav", "sha256": "dbfc4c3c59cac2c42cb2bbd33f1e55dbb1ec8c2fe6c6d095e30efc791dd57b8d"},
+    "rx_bass": {"path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01/CED-VAL-006-RX11.2.0-MUSIC-REBALANCE-BASS-v0.1.wav", "sha256": "5588acd3d88e99a8aaca2c762b9a6a9a4fa263cdda03c7a56e2bc9b90b0fa26b"}
+  },
+  "configuration": {
+    "absolute_amplitude": "power dBFS, 10*log10(max(power,1e-12)); no event normalization; fixed plot range -100 to 0 dBFS",
+    "analysis_window_seconds": [-0.1, 0.1],
+    "attack_interval_seconds": [-0.02, 0.03],
+    "baseline_interval_seconds": [-0.1, -0.05],
+    "channels": "arithmetic mono mean for descriptive analysis only",
+    "frequency_grid_hz": {"minimum": 20, "maximum": 2000, "step": 5},
+    "frequency_regions_hz": [[30,80],[80,160],[160,320],[320,500],[500,1000],[1000,2000]],
+    "stft": {"fft_size": 2048, "hop_duration_seconds": 0.001, "window_duration_seconds": 0.012, "window": "periodic Hann", "center": false, "native-rate analysis": true, "frequency_interpolation": "linear power onto frozen 5-Hz grid"},
+    "transient_map": "positive dB excursion above per-frequency baseline median",
+    "visual_axes": "all sources share -100..100 ms, 20..2000 Hz, -100..0 dBFS"
+  },
+  "descriptors": [
+    "attack power and attack/full-window concentration by frozen frequency region",
+    "attack-to-baseline contrast dB by region",
+    "positive spectral flux magnitude, strongest-flux time, and frequency of maximum positive change",
+    "original-Bass versus mix transient-map cosine in 30..500 Hz",
+    "absolute time difference between original-Bass and mix strongest 30..500-Hz flux",
+    "mix low-frequency transient-to-surrounding-activity contrast"
+  ],
+  "drum_control": {
+    "coincidence": "nearest already-authorized Drum EME within 0.030 seconds",
+    "strong_drum": "coincident Drum EME whose original-overhead 20..2000-Hz peak spectral flux is at or above the prospectively specified median across all 909 Drum EME",
+    "report": "observable NEITHER fractions overall, without Drum coincidence, and without strong Drum coincidence"
+  },
+  "firewall": {
+    "audio_written_or_modified": false,
+    "detector_or_matching_executed": false,
+    "instrument_identity_claim_from_spectrum": false,
+    "original_authority_role": "RETROSPECTIVE_COMPARISON_ONLY",
+    "production_rule_or_classifier": false,
+    "source_separation_or_processing": false
+  },
+  "observability_criterion": {
+    "event_observable": "original Bass 30..500-Hz attack contrast >= 6 dB AND mix 30..500-Hz attack contrast >= 3 dB AND original/mix transient-map cosine >= 0.50 AND strongest low-frequency flux times differ <= 0.020 s",
+    "interpretation": "potentially usable location-associated mixed-audio structure; not instrument identity or physical-onset Ground Truth"
+  },
+  "outcome_gates": {
+    "precedence": ["INDETERMINATE", "YES", "NO", "INDETERMINATE_INTERMEDIATE"],
+    "YES": "NEITHER observable fraction >= 0.25 AND NEITHER observable-without-strong-Drum fraction >= 0.10 AND NEITHER observable fraction >= 0.50 * BOTH observable fraction",
+    "NO": "NEITHER observable fraction < 0.10 OR NEITHER observable-without-strong-Drum fraction < 0.05",
+    "INDETERMINATE": "authority, partition, computation, visualization, or replay failure; otherwise intermediate evidence not satisfying YES or NO"
+  },
+  "populations": {"A_BOTH": 555, "B_HTDEMUCSFT_ONLY": 64, "C_RX_ONLY": 38, "D_NEITHER": 398},
+  "protocol_fingerprint": "a9043f51d115cbcc47fc049035ec1e0e2e6db76f85d353d6cc95498fe125459c",
+  "protocol_fingerprint_method": "SHA256_CANONICAL_JSON_EXCLUDING_PROTOCOL_FINGERPRINT",
+  "protocol_id": "H-CEDVAL006-DIRECT-MIX-NEITHER-OBSERVABILITY-AUDIT-01",
+  "replay": {"complete_numeric_and_png_outputs": true, "independent_runs": 2, "require_byte_identity": true},
+  "visualization_selection": {
+    "aggregate": "population median absolute dBFS maps for Original Bass, controlled Mix, htdemucs_ft Bass, and RX Bass for BOTH and NEITHER",
+    "examples": "two identities per BOTH and NEITHER having the smallest SHA-256(identity) values; selection is independent of descriptors and outcome",
+    "png_metadata": "fixed Software and Creation Time"
+  }
+}
