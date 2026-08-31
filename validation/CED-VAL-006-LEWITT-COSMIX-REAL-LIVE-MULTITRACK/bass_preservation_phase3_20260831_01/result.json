@@ -1,0 +1,71 @@
+{
+  "schema": "JGA-CEDVAL006-BASS-PRESERVATION-PHASE3-RESULT/v1",
+  "execution_id": "EXEC-CEDVAL006-BASS-PRESERVATION-PHASE3-DYNAMICS-01",
+  "status": "COMPLETE_FROZEN_AUTHORITY_FAILURE",
+  "preregistration": {
+    "id": "H-CEDVAL006-BASS-PRESERVATION-PHASE3-DYNAMICS-01",
+    "commit": "a6a8ed1fed6919cae9c1982602a6b9ac6b85fdda",
+    "fingerprint": "17f7d3ea16de1cb2aefdd117290970b5b4057f27ec7d9f6c5dc5e5f8b06947a0",
+    "json_sha256": "8dac448d497999aa939620316d9b51944579a10661c15bec16c897d7b700139f"
+  },
+  "processing_condition": "STATIC_UPWARD_COMPRESSION_MINUS30DB_RATIO2_V1",
+  "transform_script_sha256": "724c06886623314d848d173937d20144b07afb8ad3c09ac772b698f0d006ab4e",
+  "environment": {
+    "python": "3.13.14",
+    "numpy": "2.4.6",
+    "soundfile": "0.14.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "runs": {
+    "run_1": {
+      "input_sha256": "a9949d98dd914de8a7aaa330b7a149340929c31b2665bc00d55eac8df230fe6b",
+      "output_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-BASS-PRESERVATION-PHASE3-DYNAMICS-01/run_1/bass.wav",
+      "output_sha256": "fdaae9c1f6baf16db21200f5edbe6e2c65135ac7cdee1a02dab6da5e7a55c41c",
+      "decoded_samples_sha256": "433a07f34719abd1432080c4773185af89c4b91c01a4d11387db43ca46593c0c",
+      "technical_audio": {"format": "WAV", "subtype": "FLOAT", "sample_rate_hz": 44100, "channels": 2, "frame_count": 10944947, "sample_scope": "[0,10944947)", "peak": 0.2277388870716095}
+    },
+    "run_2": {
+      "input_sha256": "a9949d98dd914de8a7aaa330b7a149340929c31b2665bc00d55eac8df230fe6b",
+      "output_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-BASS-PRESERVATION-PHASE3-DYNAMICS-01/run_2/bass.wav",
+      "output_sha256": "8b2f61c5c8fbcff51a93a2ee0644c663ad50390ba44cc27ad24f61e5f165171c",
+      "decoded_samples_sha256": "433a07f34719abd1432080c4773185af89c4b91c01a4d11387db43ca46593c0c",
+      "technical_audio": {"format": "WAV", "subtype": "FLOAT", "sample_rate_hz": 44100, "channels": 2, "frame_count": 10944947, "sample_scope": "[0,10944947)", "peak": 0.2277388870716095}
+    }
+  },
+  "transform_replay": {
+    "required_byte_identical_output": true,
+    "whole_file_byte_identical": false,
+    "decoded_sample_arrays_identical": true,
+    "differing_byte_positions_one_based": [61],
+    "difference_location": "RIFF/WAVE PEAK chunk timestamp field",
+    "run_1_peak_timestamp_hex": "dd0d956a",
+    "run_2_peak_timestamp_hex": "de0d956a",
+    "scientific_status": "TRANSFORMATION_REPLAY_DISAGREEMENT"
+  },
+  "jga_execution": "NOT_PERFORMED_AFTER_MANDATORY_REPLAY_FAILURE",
+  "scoring_execution": "NOT_PERFORMED_AFTER_MANDATORY_REPLAY_FAILURE",
+  "quantitative_result": {
+    "original_bass_eme_authority": 1055,
+    "unprocessed_htdemucs_ft": {"eme_count": 646, "matched": 619, "original_only": 436, "separated_only": 27, "precision": 0.958204334365325, "recall": 0.5867298578199052, "f1": 0.7278071722516166, "median_absolute_seconds": 0.0068208616780045354, "rmse_seconds": 0.017893173606420704, "maximum_absolute_seconds": 0.18692063492063493},
+    "processed_run_1": "NOT_AVAILABLE",
+    "processed_run_2": "NOT_AVAILABLE",
+    "bass_eme_recovery": "NOT_EVALUATED",
+    "ad038_effect": "NOT_EVALUATED",
+    "ad040_effect": "NOT_EVALUATED"
+  },
+  "decision_classification": "INDETERMINATE",
+  "dynamics_hypothesis_recovered_additional_original_bass_temporal_evidence": "NOT_ESTABLISHED",
+  "firewall": {
+    "detector_tuned": false,
+    "additional_condition_tested": false,
+    "eq_performed": false,
+    "additional_model_tested": false,
+    "preferred_run_selected": false,
+    "runs_averaged": false,
+    "historical_evidence_modified": false,
+    "production_code_modified": false,
+    "phase4_started": false
+  },
+  "result_fingerprint": "ae4a3c5efb3514e81ca7d65e3ce07c3f2b731a340eeb1c9732ee40f94dcbd6cb"
+}

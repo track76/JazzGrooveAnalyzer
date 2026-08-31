@@ -64,6 +64,25 @@ Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTED**
   `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`; this does not expand its
   scientific claims.
 
+## CED-VAL-006 Bass Preservation Phase 3
+
+Status: **FROZEN RESULT — INDETERMINATE**
+
+- The two preregistered
+  `STATIC_UPWARD_COMPRESSION_MINUS30DB_RATIO2_V1` transforms completed from
+  the checksum-bound htdemucs_ft Bass inputs with the required stereo 44.1-kHz
+  float32 format and identical decoded sample arrays.
+- Whole-file output SHA-256 values disagreed because libsndfile emitted
+  different `PEAK`-chunk timestamps. The preregistration requires
+  byte-identical output; transformation replay therefore failed.
+- Under the frozen criteria the decision is `INDETERMINATE`. JGA and scoring
+  were not executed after the mandatory replay failure, so processed Bass EME
+  recovery, population, timing, AD-038 and AD-040 effects are not established.
+- Result fingerprint:
+  `ae4a3c5efb3514e81ca7d65e3ce07c3f2b731a340eeb1c9732ee40f94dcbd6cb`.
+  No detector tuning, alternative condition/model, run selection, averaging,
+  production change or Phase 4 occurred.
+
 ## Prospective Real-Audio Acquisition Authority Gate
 
 Status: **PREREGISTERED — NOT APPLIED — PI REVIEW REQUIRED**

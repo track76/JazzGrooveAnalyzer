@@ -1,0 +1,17 @@
+{
+  "execution_id": "EXEC-CEDVAL006-BASS-PRESERVATION-PHASE3-DYNAMICS-01",
+  "result_fingerprint": "ae4a3c5efb3514e81ca7d65e3ce07c3f2b731a340eeb1c9732ee40f94dcbd6cb",
+  "repository_artifacts": {
+    "result.json": "58b623a62ebb9ed9910898934d1647f0766182f5446189453b31f5c742476175",
+    "report.md": "991093acc359f075c2d5e01fdcc2fad1a1afe0666a2d21282e807940efed6ecc",
+    "verify.py": "b97baf210ef5de9d7542ce3c16c90a56d34d770c4e356ffcc1de4a933f325942"
+  },
+  "frozen_transform_authority": {
+    "preregistration_json_sha256": "8dac448d497999aa939620316d9b51944579a10661c15bec16c897d7b700139f",
+    "transform_script_sha256": "724c06886623314d848d173937d20144b07afb8ad3c09ac772b698f0d006ab4e"
+  },
+  "external_complete_outputs": {
+    "run_1": "fdaae9c1f6baf16db21200f5edbe6e2c65135ac7cdee1a02dab6da5e7a55c41c",
+    "run_2": "8b2f61c5c8fbcff51a93a2ee0644c663ad50390ba44cc27ad24f61e5f165171c"
+  }
+}
