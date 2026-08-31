@@ -1,0 +1,30 @@
+{
+  "audit_id": "AUD-CEDVAL006-PHASE3-POPULATION-TRANSITION-01",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "scientific_question": "What existing amplitude, fixed-band spectral and timing evidence explains the Phase-3 transition from the unprocessed htdemucs_ft Bass population to the upward-compressed Bass population?",
+  "authorities": {
+    "phase3_result_commit": "9652c53",
+    "phase3_result_fingerprint": "153857928ec81d9f81ed35d1b644d763215cf065f3de3bff23ab584532cea639",
+    "phase2_scoring_sha256": "8534734ccb2eb84e18e80a92b54f801d0aff812bd59d12b32cb588aa6b1cc163",
+    "phase3_scoring_sha256": "3923f17b1859204bfd6aa68b6843e99209cb35eba634b0dfb099311e9e321f48",
+    "original_bass_sha256": "c0a99f65158d12a69e062cc990e86631a0d29d7e83f30537d34eb301516855a9",
+    "unprocessed_bass_sha256": "a9949d98dd914de8a7aaa330b7a149340929c31b2665bc00d55eac8df230fe6b",
+    "processed_bass_sha256": "ac612091d963bcd5673b96cf5b906589decf8f0c7201599a5c0903bbf3cddc91"
+  },
+  "populations": {
+    "A": "original EME matched both before and after processing",
+    "B": "original EME unmatched before and matched after processing",
+    "C": "original EME unmatched after processing",
+    "D": "processed EME unused by the frozen original-EME Voronoi assignment",
+    "E": "population-A original EME whose selected separated-event producer timestamp differs before versus after processing"
+  },
+  "window": {"duration_seconds": 0.05, "sample_count_rule": "round(duration * native sample rate)", "centering_rule": "round(timestamp * native sample rate), zero-pad only at asset boundary", "anchor_A_B_C_E": "original EME timestamp", "anchor_D": "processed EME timestamp"},
+  "amplitude": {"channel_rule": "all channel samples", "metrics": ["RMS", "RMS dBFS", "absolute peak", "peak dBFS", "fraction of nonzero samples below threshold", "RMS-below-threshold count", "peak-below-threshold count"], "threshold": "10**(-30/20)", "low_level_representation_rule": "0 < unprocessed local RMS < threshold"},
+  "spectrum": {"status": "DESCRIPTIVE_ONLY", "channel_rule": "arithmetic-mean mono", "window": "Hann", "transform": "numpy rfft float64", "power": "squared magnitude", "denominator": "total energy at frequencies >=20 Hz", "bands_hz": [[20,80],[80,250],[250,1000],[1000,4000],[4000,"NYQUIST"]], "summary": "per-band energy fraction distributions"},
+  "eq_hypothesis_gate": {"minimum_population_each": 20, "comparison": "B_RECOVERED versus D_PROCESSED_ONLY", "requirements": ["absolute unprocessed median band-energy-fraction difference >= 0.10", "absolute unprocessed Cliff's delta >= 0.474", "median-difference direction agrees in processed audio"], "YES": "one or more fixed bands pass all requirements", "NO": "adequate valid populations and no band passes", "INDETERMINATE": "authority, replay, population-size or numeric failure"},
+  "timing": {"metrics": ["original timestamp", "unprocessed timestamp", "processed timestamp", "signed displacement", "absolute displacement"], "identity_rule": "selected separated-event producer timestamp equality"},
+  "implementation": {"script": "audit_phase3_population_transition.py", "sha256": "acceb4958981d546f55e3540683279f0cf2bf0c5496b220128bf7ee551c3d13d", "python": "3.13.14", "numpy": "2.4.6", "soundfile": "0.14.0"},
+  "replay": {"executions": 2, "require_byte_identical_complete_output": true, "require_identical_audit_fingerprint": true},
+  "firewall": {"audio_modified": false, "demucs_rerun": false, "jga_rerun": false, "matching_changed": false, "detector_tuned": false, "eq_executed": false, "new_compressor": false, "core_changed": false, "translation_changed": false, "domain_changed": false, "candidate_period_changed": false, "ad037_changed": false, "ad038_changed": false, "ad040_changed": false, "phase3_criteria_changed": false, "production_code_changed": false, "historical_evidence_changed": false, "phase4_started": false},
+  "preregistration_fingerprint": "e893f8e0e63ba1cca956e29f082c9b69e950373607fe9ef56350a66c1d9cf28b"
+}
