@@ -1,0 +1,40 @@
+{
+  "preregistration_id": "H-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01",
+  "status": "PREREGISTERED_AWAITING_MANUAL_RX_EXPORT",
+  "scientific_question": "Does a single prospectively frozen iZotope RX Music Rebalance Bass export preserve the authorized original-Bass JGA event population and temporal localization materially better than frozen htdemucs_ft?",
+  "input_authority": {"authority_id": "PR-CEDVAL006-CONTROLLED-MIXDOWN-001", "path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/PR-CEDVAL006-CONTROLLED-MIXDOWN-001/CED-VAL-006-CONTROLLED-MIXDOWN-v0.1.wav", "sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0", "sample_rate_hz": 48000, "channels": 2, "encoding": "SIGNED_24_BIT_LITTLE_ENDIAN_INTEGER_PCM", "frame_count": 11912868},
+  "ground_truth_comparison_authority": {"original_bass_eme_count": 1055, "use": "RETROSPECTIVE_EVALUATION_ONLY", "processing_or_detection_access": false},
+  "rx_authority": {"product": "iZotope RX 11 Audio Editor", "version": "11.2.0", "build": "11.2.0.4231", "bundle_identifier": "com.izotope.RX11", "module": "Music Rebalance", "proprietary_manual_separator": true},
+  "rx_configuration": {
+    "workflow": "Music Rebalance Render with Bass Solo; Stem Split button not used",
+    "quality": "Best",
+    "stems": {
+      "Vocals": {"gain_db": 0.0, "sensitivity": 5.0, "solo": false, "mute": false},
+      "Bass": {"gain_db": 0.0, "sensitivity": 5.0, "solo": true, "mute": false},
+      "Percussion": {"gain_db": 0.0, "sensitivity": 5.0, "solo": false, "mute": false},
+      "Other": {"gain_db": 0.0, "sensitivity": 5.0, "solo": false, "mute": false}
+    },
+    "selection": "entire file [0,11912868) before Render",
+    "preview_or_listening_before_render": "PROHIBITED",
+    "multiple_settings_or_exports": "PROHIBITED",
+    "unexpected_control_policy": "STOP_WITHOUT_RENDER if any named control/value is unavailable or any additional processing control lacks a neutral/off setting"
+  },
+  "export": {"container": "RIFF/WAVE", "encoding": "IEEE_FLOAT_32", "sample_rate_hz": 48000, "channels": 2, "channel_configuration": "stereo left/right preserved", "normalization": "OFF", "dither": "NONE/OFF", "resampling": "NONE", "sample_rate_conversion": "NONE", "additional_metadata": "RX_DEFAULT_ONLY; output SHA-256 governs exact identity", "filename": "CED-VAL-006-RX11.2.0-MUSIC-REBALANCE-BASS-v0.1.wav", "absolute_path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01/CED-VAL-006-RX11.2.0-MUSIC-REBALANCE-BASS-v0.1.wav"},
+  "operator_evidence_required_before_analysis": ["operator identity", "operation UTC timestamp", "RX version/build screenshot or Info panel record", "Music Rebalance configuration screenshot showing every control", "Export dialog screenshot", "input SHA-256 verification", "output SHA-256", "output technical properties: container/encoding/rate/channels/frame count/duration", "statement that no preview/listening, tuning, alternate setting, or alternate export occurred"],
+  "reference_htdemucs_ft": {"stem_sha256": "a9949d98dd914de8a7aaa330b7a149340929c31b2665bc00d55eac8df230fe6b", "eme_count": 646, "matched": 619, "original_only": 436, "separated_only": 27, "precision": 0.958204334365325, "recall": 0.5867298578199052, "f1": 0.7278071722516166, "median_absolute_displacement_seconds": 0.0068208616780045354, "timing_rmse_seconds": 0.017893173606420704, "maximum_displacement_seconds": 0.18692063492063493},
+  "evaluation": {"jga_release_commit": "c7b9b65362303ff17c48897c4d26a518595fe9c5", "detector": "UNCHANGED", "canonical_report_acceptance_id": "ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02", "matching_and_scoring_method": "exact frozen Level-1/2/3 method", "scoring_method_sha256": "1ee3649859761fcc66096bc00e327b764a38455c93a614280fa27628f08f3416", "required_metrics": ["RX Bass EME count", "matched original EME", "original-only", "RX-only", "precision", "recall", "F1", "median absolute displacement", "timing RMSE", "maximum displacement", "AD-038 population/localization", "AD-040 population/status"], "rx_output_sha256_must_be_recorded_before_jga": true, "original_authority_access_during_rx_or_jga_detection": false},
+  "decision_gates": {
+    "material_population_delta": {"matched_count": 53, "recall": 0.05, "f1": 0.025, "original_only": 53},
+    "precision_floor_for_improvement": 0.933204334365325,
+    "timing_no_material_degradation_multipliers": {"median_absolute_displacement": 1.10, "timing_rmse": 1.10, "maximum_displacement": 1.10},
+    "CLEAR_RX_IMPROVEMENT": "matched >=672; recall >=0.6367298578199052; F1 >=0.7528071722516166; original-only <=383; precision >=0.933204334365325; and median/RMSE/maximum displacement each <=110% of htdemucs_ft",
+    "WORSE_THAN_DEMUCS": "any material population worsening: matched <=566, recall <=0.5367298578199052, F1 <=0.7028071722516166, or original-only >=489; OR, absent material population improvement, any timing metric exceeds 125% of htdemucs_ft",
+    "NO_MATERIAL_IMPROVEMENT": "no material population improvement; every population metric remains within its +/- material delta; precision is not below 0.933204334365325; and every timing metric is <=110% of htdemucs_ft",
+    "MIXED_RESULT": "authority valid and result is neither CLEAR, WORSE, nor NO_MATERIAL; includes population improvement with timing degradation, timing improvement without material population improvement, or conflicting directional metrics",
+    "INDETERMINATE": "output/protocol authority, unchanged-JGA execution, matching authority, or required replay/verification fails",
+    "precedence": ["INDETERMINATE", "CLEAR_RX_IMPROVEMENT", "WORSE_THAN_DEMUCS", "NO_MATERIAL_IMPROVEMENT", "MIXED_RESULT"]
+  },
+  "reproducibility": {"computational": "canonical JGA/report/scoring outputs require exact replay", "operator_protocol": "single documented manual execution under frozen controls", "exact_output_identity": "SHA-256 recorded before analysis; no claim that independent RX renders are byte-identical unless separately demonstrated"},
+  "scientific_firewalls": {"physical_onset_ground_truth_claim": false, "human_microtiming_ground_truth_claim": false, "musical_correspondence_claim": false, "acquisition_clock_synchrony_claim": false, "perceptual_quality_claim": false, "commercial_superiority_claim": false, "demucs_rerun_or_tuning": false, "rx_setting_optimization": false, "jga_modified": false, "historical_evidence_modified": false},
+  "preregistration_fingerprint": "2c7b80b385df6bdae0bc4dcd75e90f9f28ea3eae196110a63b1c47122f05417b"
+}
