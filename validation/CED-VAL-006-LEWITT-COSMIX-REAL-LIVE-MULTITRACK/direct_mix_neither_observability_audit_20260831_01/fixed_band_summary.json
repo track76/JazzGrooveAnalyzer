@@ -1,0 +1,106 @@
+{
+  "A_BOTH": {
+    "1000_2000_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 4.48260277591421,
+      "original_bass_attack_baseline_contrast_db_median": 12.924483198569002
+    },
+    "160_320_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 9.863573436773116,
+      "original_bass_attack_baseline_contrast_db_median": 11.324697042296219
+    },
+    "30_80_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 9.570139804340185,
+      "original_bass_attack_baseline_contrast_db_median": 12.972500810127796
+    },
+    "320_500_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 5.9496447399393135,
+      "original_bass_attack_baseline_contrast_db_median": 11.927585297578862
+    },
+    "500_1000_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 3.327889918878296,
+      "original_bass_attack_baseline_contrast_db_median": 10.528042583664877
+    },
+    "80_160_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 9.318658627145934,
+      "original_bass_attack_baseline_contrast_db_median": 12.357545013426934
+    }
+  },
+  "B_HTDEMUCSFT_ONLY": {
+    "1000_2000_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 5.247384217999444,
+      "original_bass_attack_baseline_contrast_db_median": 11.043324827063143
+    },
+    "160_320_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 10.265963328463648,
+      "original_bass_attack_baseline_contrast_db_median": 6.511049848158363
+    },
+    "30_80_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 9.474198693334131,
+      "original_bass_attack_baseline_contrast_db_median": 5.852762537355918
+    },
+    "320_500_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 5.473698741968205,
+      "original_bass_attack_baseline_contrast_db_median": 5.663190662785136
+    },
+    "500_1000_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 4.114743959570491,
+      "original_bass_attack_baseline_contrast_db_median": 3.9950681769235588
+    },
+    "80_160_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 9.926703125988233,
+      "original_bass_attack_baseline_contrast_db_median": 4.620936720692217
+    }
+  },
+  "C_RX_ONLY": {
+    "1000_2000_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 0.2525542503661193,
+      "original_bass_attack_baseline_contrast_db_median": 6.819694683548494
+    },
+    "160_320_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 2.933664207441363,
+      "original_bass_attack_baseline_contrast_db_median": 0.7057378381223931
+    },
+    "30_80_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": -0.23488540609987926,
+      "original_bass_attack_baseline_contrast_db_median": -1.7062011426537245
+    },
+    "320_500_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 1.896538473148129,
+      "original_bass_attack_baseline_contrast_db_median": 0.31831631959987716
+    },
+    "500_1000_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 0.6657554511719495,
+      "original_bass_attack_baseline_contrast_db_median": 0.6653537715205495
+    },
+    "80_160_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": -0.10666098634402316,
+      "original_bass_attack_baseline_contrast_db_median": -2.0743386056129554
+    }
+  },
+  "D_NEITHER": {
+    "1000_2000_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 0.4819650919897679,
+      "original_bass_attack_baseline_contrast_db_median": 4.984727176415552
+    },
+    "160_320_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 3.770313644781536,
+      "original_bass_attack_baseline_contrast_db_median": -2.0510469932830246
+    },
+    "30_80_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": -0.9657477189251105,
+      "original_bass_attack_baseline_contrast_db_median": -4.177766203044323
+    },
+    "320_500_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 0.9287828738762478,
+      "original_bass_attack_baseline_contrast_db_median": -2.077160164972616
+    },
+    "500_1000_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 0.12936112321207285,
+      "original_bass_attack_baseline_contrast_db_median": -1.5799378257523522
+    },
+    "80_160_hz": {
+      "controlled_mix_attack_baseline_contrast_db_median": 0.30146098005087635,
+      "original_bass_attack_baseline_contrast_db_median": -3.7259898231367234
+    }
+  }
+}
