@@ -1,0 +1,51 @@
+{
+  "audit_id": "AUD-CEDVAL006-RX-HTDEMUCSFT-COMPLEMENTARITY-01",
+  "authority": {
+    "demucs_scoring_path": "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/bass_preservation_phase2_20260825_01/scoring_execution_1.json",
+    "demucs_scoring_sha256": "8534734ccb2eb84e18e80a92b54f801d0aff812bd59d12b32cb588aa6b1cc163",
+    "original_bass_eme_count": 1055,
+    "rx_scoring_path": "validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/rx11_bass_separation_benchmark_20260831_01/scoring_execution_1.json",
+    "rx_scoring_sha256": "e1da7f654f02858bc422d8ed2a12e4ac54cc9ffc7c36f8610705a2e7bfe9fe29"
+  },
+  "classification_gates": {
+    "precedence": ["INDETERMINATE", "HIGH_COMPLEMENTARITY", "LIMITED_COMPLEMENTARITY", "NEGLIGIBLE_COMPLEMENTARITY"],
+    "high_complementarity": "union_increment_over_best_count >= 106 AND jaccard <= 0.75 AND both conditional recovery rates >= 0.20",
+    "limited_complementarity": "not HIGH and (union_increment_over_best_count >= 22 OR jaccard < 0.90 OR either conditional recovery rate >= 0.05)",
+    "negligible_complementarity": "authority valid and neither HIGH nor LIMITED",
+    "indeterminate": "authority, identity, partition, or replay verification failure"
+  },
+  "descriptive_metrics": {
+    "both_timing": ["per-separator signed and absolute displacement summaries", "closer/tied counts", "rx_absolute_minus_demucs_absolute summary"],
+    "conditional_recovery": ["RX among Demucs-missed", "Demucs among RX-missed"],
+    "overlap": ["union count and recall", "intersection count and recall", "Jaccard"],
+    "partition_percent_denominator": 1055,
+    "separator_specific_timing": ["signed and absolute displacement summaries"]
+  },
+  "firewall": {
+    "audio_access": false,
+    "ground_truth_use": "RETROSPECTIVE_POPULATION_LABELING_AND_LOCALIZATION_EVALUATION_ONLY",
+    "matching_recomputed": false,
+    "oracle_fusion_constructed": false,
+    "production_rule_constructed": false
+  },
+  "fusion_gate": {
+    "YES": "complementarity is HIGH or LIMITED, each separator uniquely recovers at least 22 original EME, and neither unique population is empty; principle must be operable without original-stem authority",
+    "NO": "complementarity is NEGLIGIBLE or one separator-specific population is empty",
+    "INDETERMINATE": "audit authority/replay is indeterminate or evidence does not satisfy YES/NO"
+  },
+  "population_definitions": {
+    "A_BOTH": "original_eme_id occurs in both frozen matched lists",
+    "B_DEMUCS_ONLY": "original_eme_id occurs only in frozen htdemucs_ft matched list",
+    "C_RX_ONLY": "original_eme_id occurs only in frozen RX matched list",
+    "D_NEITHER": "original authority ID occurs in neither frozen matched list",
+    "sets_are_mutually_exclusive_and_exhaustive": true
+  },
+  "protocol_fingerprint_method": "SHA256_CANONICAL_JSON_EXCLUDING_PROTOCOL_FINGERPRINT",
+  "protocol_id": "H-CEDVAL006-RX-HTDEMUCSFT-COMPLEMENTARITY-AUDIT-01",
+  "replay": {
+    "independent_executions": 2,
+    "require_byte_identical_complete_outputs": true,
+    "serialization": "UTF-8 canonical JSON; sorted keys; compact separators; trailing LF"
+  },
+  "protocol_fingerprint": "5d5718e6be95e3ac5db63f37dd4744bc5d5085983b09848d670d373b79c950a8"
+}
