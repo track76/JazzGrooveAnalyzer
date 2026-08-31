@@ -64,7 +64,32 @@ Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTED**
   `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`; this does not expand its
   scientific claims.
 
-## CED-VAL-006 Bass Preservation Phase 3
+## CED-VAL-006 Bass Preservation Phase 3 — Remediated Result
+
+Status: **FROZEN RESULT — POPULATION IMPROVEMENT WITH TIMING DEGRADATION**
+
+- `PR-CEDVAL006-PHASE3-DETERMINISTIC-WAV-SERIALIZATION-01` removed the
+  run-dependent libsndfile `PEAK` timestamp through the existing
+  `SFC_SET_ADD_PEAK_CHUNK=SF_FALSE` control. Two deterministic WAVs preserve
+  the exact frozen decoded sample population and replay byte-identically.
+- Unchanged JGA and frozen Level-1/2/3 scoring replayed exactly. Each run
+  produced 934 processed Bass EME: 746 matched, 309 original-only and 188
+  processed-only. Precision/recall/F1 are 0.7987152034261242,
+  0.7071090047393365 and 0.7501256913021619.
+- Median absolute displacement, RMSE and maximum displacement are
+  0.009360544217687075, 0.03235928234165152 and 0.19352380952380951 seconds.
+  The complete population tuple improved, but every mandatory timing bound
+  degraded. Frozen decision:
+  `POPULATION_IMPROVEMENT_WITH_TIMING_DEGRADATION`.
+- Additional original Bass temporal evidence was recovered in the bounded
+  original-EME-cell sense; clear dynamics improvement is prohibited because
+  timing preservation failed. Result fingerprint:
+  `153857928ec81d9f81ed35d1b644d763215cf065f3de3bff23ab584532cea639`.
+- Transform, JGA, Core, Translation, Domain, Candidate Period, AD-037,
+  AD-038, AD-040, decision criteria, production code and historical evidence
+  remain unchanged. No Phase 4 occurred.
+
+## CED-VAL-006 Bass Preservation Phase 3 — Initial Failed Execution
 
 Status: **FROZEN RESULT — INDETERMINATE**
 
