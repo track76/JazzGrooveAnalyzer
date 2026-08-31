@@ -1,0 +1,12 @@
+{
+  "canonical_report_run_1.json": "1495816310d5d129dbf588e6dfa9a5bc471a3a03e8fe171587f4fde02361aca8",
+  "canonical_report_run_2.json": "1495816310d5d129dbf588e6dfa9a5bc471a3a03e8fe171587f4fde02361aca8",
+  "finalize.py": "e363c05833718f9ea2c2dc53c2e01eac3d20b612d0f4c6494ba2ff6415ba119b",
+  "operator_evidence.json": "80166ca3993981f4792c2b4476cac907eb57b175115319f27f258e41cad06cc2",
+  "report.md": "086b16d0808c880bb872497fb944146e63ae24f761089fb3d66e01713c1ef9c3",
+  "result.json": "92f2220e2e2a7fa2930ab384375b983dd5e72daf028a3ede200735fc9e6fef5a",
+  "score.py": "ae8520bf45c1b7f66025b60e4fb58cebe816a701b384a30b0ab2b56c133d0792",
+  "scoring_execution_1.json": "e1da7f654f02858bc422d8ed2a12e4ac54cc9ffc7c36f8610705a2e7bfe9fe29",
+  "scoring_execution_2.json": "e1da7f654f02858bc422d8ed2a12e4ac54cc9ffc7c36f8610705a2e7bfe9fe29",
+  "verify.py": "b9804d724617abeb55ef9a8c3e31b5d4aed0f919e7d57bc80a05cb0874ca9f80"
+}

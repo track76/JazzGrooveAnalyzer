@@ -1,0 +1,239 @@
+{
+  "ad038": {
+    "rx": {
+      "absolute_nearest_displacement_statistics": {
+        "count": 653,
+        "maximum": 0.7053061224489738,
+        "mean": 0.03998685987922471,
+        "median": 0.020825396825387088,
+        "minimum": 7.256235826957891e-05,
+        "population_sd": 0.06891547089602211,
+        "q1_linear": 0.008997732426308858,
+        "q3_linear": 0.038675736961451435,
+        "rmse": 0.07967616388745898
+      },
+      "eligible": 653,
+      "localized": 653,
+      "mapped_relation_identity": {
+        "follower": {
+          "rate": 0.7837370242214533,
+          "scorable": 578,
+          "stable": 453
+        },
+        "nearest": {
+          "rate": 0.9827288428324698,
+          "scorable": 579,
+          "stable": 569
+        },
+        "predecessor": {
+          "rate": 0.7890222984562607,
+          "scorable": 583,
+          "stable": 460
+        }
+      },
+      "paired_nearest_displacement_difference_statistics": {
+        "count": 593,
+        "maximum": 0.238657596371894,
+        "mean": 0.0019340988784498619,
+        "median": 0.001378684807249897,
+        "minimum": -0.24308390022676463,
+        "population_sd": 0.04289474305332718,
+        "q1_linear": -0.009287981859415595,
+        "q3_linear": 0.012480725623589706,
+        "rmse": 0.04293832460730835
+      },
+      "ties": 0,
+      "unresolved": 0,
+      "unscorable_relation_identity_count": 24
+    }
+  },
+  "ad040": {
+    "calibration_triad": {
+      "applicability": "UNESTABLISHED",
+      "application": "NOT_APPLIED",
+      "authority_fingerprint": "6484ebe976e9f9e698e5af18a18e50b4e36c213eac9904f04f2a5ad015a008fe",
+      "authority_id": "H-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01-R1",
+      "correction": "NONE"
+    },
+    "correspondence_status_preserved": true,
+    "field_comparison": {
+      "accompaniment_relationship_count": {
+        "equal": false,
+        "original": 1055,
+        "separated": 653
+      },
+      "calibration_status": {
+        "equal": true,
+        "original": "NOT_APPLIED",
+        "separated": "NOT_APPLIED"
+      },
+      "correspondence_status_counts": {
+        "equal": false,
+        "original": {
+          "AUTHORIZED_EVENT_RELATION": 0,
+          "GEOMETRIC_ONLY": 1055,
+          "NOT_APPLICABLE": 909,
+          "UNRESOLVED": 0
+        },
+        "separated": {
+          "AUTHORIZED_EVENT_RELATION": 0,
+          "GEOMETRIC_ONLY": 653,
+          "NOT_APPLICABLE": 882,
+          "UNRESOLVED": 0
+        }
+      },
+      "projection_rule": {
+        "equal": true,
+        "original": "rhythm-section-timing-profile/v1",
+        "separated": "rhythm-section-timing-profile/v1"
+      },
+      "represented_eme_count": {
+        "equal": false,
+        "original": 1964,
+        "separated": 1535
+      },
+      "temporal_origin_seconds": {
+        "equal": true,
+        "original": 0.0,
+        "separated": 0.0
+      },
+      "temporal_reference_eme_count": {
+        "equal": false,
+        "original": 909,
+        "separated": 882
+      },
+      "temporal_scope": {
+        "equal": true,
+        "original": "analysis_input",
+        "separated": "analysis_input"
+      }
+    },
+    "profile_structural_fields_compared": [
+      "temporal_reference_eme_count",
+      "accompaniment_relationship_count",
+      "represented_eme_count",
+      "temporal_origin_seconds",
+      "temporal_scope",
+      "projection_rule",
+      "calibration_status",
+      "correspondence_status_counts"
+    ],
+    "relationship_population_count": {
+      "original": 1055,
+      "separated": 653
+    }
+  },
+  "comparison": {
+    "rx_minus_demucs": {
+      "eme_count": 7,
+      "f1": -0.03342778115091405,
+      "matched": -26,
+      "maximum_displacement": -0.04825396825396827,
+      "median_absolute_displacement": 0.003845804988662131,
+      "original_only": 26,
+      "precision": -0.05008794845414588,
+      "recall": -0.024644549763033097,
+      "timing_rmse": 0.0025350690308117915
+    },
+    "timing_ratios": {
+      "maximum_displacement": 0.7418478260869564,
+      "median_absolute_displacement": 1.5638297872340425,
+      "timing_rmse": 1.1416779989158614
+    }
+  },
+  "decision": {
+    "classification": "WORSE_THAN_DEMUCS",
+    "frozen_gates": {
+      "clear_rx_improvement": {
+        "f1_min": 0.7528071722516166,
+        "matched_min": 672,
+        "original_only_max": 383,
+        "precision_min": 0.933204334365325,
+        "recall_min": 0.6367298578199052,
+        "timing_ratio_max": 1.1
+      },
+      "material_population_worsening": {
+        "f1_max": 0.7028071722516166,
+        "matched_max": 566,
+        "original_only_min": 489,
+        "recall_max": 0.5367298578199052
+      },
+      "timing_worsening_ratio": 1.25
+    },
+    "reasons": [
+      "RX F1 is at or below the frozen material-population-worsening cutoff.",
+      "Absent material population improvement, median displacement exceeds 125% of the frozen Demucs value."
+    ]
+  },
+  "evidence_gate": {
+    "source_record": "EV-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01",
+    "status": "PASS"
+  },
+  "frozen_htdemucs_ft_reference": {
+    "eme_count": 646,
+    "f1": 0.7278071722516166,
+    "matched": 619,
+    "maximum_displacement": 0.18692063492063493,
+    "median_absolute_displacement": 0.0068208616780045354,
+    "original_only": 436,
+    "precision": 0.958204334365325,
+    "recall": 0.5867298578199052,
+    "separated_only": 27,
+    "timing_rmse": 0.017893173606420704
+  },
+  "operator_evidence": {
+    "filesystem_export_timestamp_utc": {
+      "birth_time": "2026-08-31T07:08:53.940000+00:00",
+      "classification": "FILESYSTEM_EXPORT_TIMESTAMP_UTC_NOT_MANUALLY_OBSERVED_OPERATOR_TIMESTAMP",
+      "modification_time": "2026-08-31T07:08:54.290000+00:00"
+    },
+    "operator": "Angelo Tracanna",
+    "timestamp_classification": "FILESYSTEM_EXPORT_TIMESTAMP_UTC_NOT_MANUALLY_OBSERVED_OPERATOR_TIMESTAMP"
+  },
+  "preregistration_fingerprint": "6484ebe976e9f9e698e5af18a18e50b4e36c213eac9904f04f2a5ad015a008fe",
+  "preregistration_id": "H-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01-R1",
+  "replay": {
+    "canonical_report_scientific_fingerprint": "b69b151bba3fbf78d799fdaa9c3b4a486ddcff2bcd6f20d0fa85ec6f7139bdff",
+    "canonical_report_sha256": "1495816310d5d129dbf588e6dfa9a5bc471a3a03e8fe171587f4fde02361aca8",
+    "jga_runs": 2,
+    "scoring_execution_sha256": "e1da7f654f02858bc422d8ed2a12e4ac54cc9ffc7c36f8610705a2e7bfe9fe29",
+    "scoring_fingerprint": "9ffbfe58e2bfc69eb62804e8ddb4b587d868387c480361fd868da92b4ee1abd1",
+    "scoring_runs": 2,
+    "status": "PASS_BYTE_IDENTICAL"
+  },
+  "result_fingerprint": "f655be823596f0d406768223dee707e6bb313cdf3943da90c314066e6615b340",
+  "result_id": "RES-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01",
+  "rx_file_authority": {
+    "bits_per_sample": 32,
+    "channels": 2,
+    "duration_seconds": 248.18475,
+    "encoding": "IEEE_FLOAT",
+    "frame_count": 11912868,
+    "path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01/CED-VAL-006-RX11.2.0-MUSIC-REBALANCE-BASS-v0.1.wav",
+    "riff_audio_format_code": 3,
+    "sample_rate_hz": 48000,
+    "sha256": "5588acd3d88e99a8aaca2c762b9a6a9a4fa263cdda03c7a56e2bc9b90b0fa26b"
+  },
+  "rx_metrics": {
+    "eme_count": 653,
+    "f1": 0.6943793911007026,
+    "matched": 593,
+    "maximum_displacement": 0.13866666666666666,
+    "median_absolute_displacement": 0.010666666666666666,
+    "original_only": 462,
+    "precision": 0.9081163859111792,
+    "recall": 0.5620853080568721,
+    "rx_only": 60,
+    "timing_rmse": 0.020428242637232495
+  },
+  "scientific_firewall": {
+    "h02_used": false,
+    "latency_correction": "NONE",
+    "musical_correspondence_claim": false,
+    "physical_onset_error_claim": false,
+    "strength_accessed": false,
+    "universal_jga_robustness_claim": false,
+    "universal_separator_quality_claim": false
+  },
+  "scope": "frozen RX11 Bass output; unchanged JGA; frozen Level-1/2/3 retrospective comparison"
+}

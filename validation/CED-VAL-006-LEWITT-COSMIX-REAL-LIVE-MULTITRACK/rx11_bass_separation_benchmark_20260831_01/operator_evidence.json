@@ -1,0 +1,28 @@
+{
+  "evidence_record_id": "EV-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01",
+  "operator_identity": "Angelo Tracanna",
+  "operator_attestation": {
+    "product": "iZotope RX 11 Advanced",
+    "version_build": "11.2.0.4231",
+    "module": "Music Rebalance",
+    "quality": "Best",
+    "gains_db": {"Vocal": 0.0, "Bass": 0.0, "Drums": 0.0, "Other": 0.0},
+    "sensitivities_0_100": {"Vocal": 50, "Bass": 50, "Drums": 50, "Other": 50},
+    "sensitivity_state": "RESET_DEFAULT_MIDPOINT",
+    "solo": {"Vocal": false, "Bass": true, "Drums": false, "Other": false},
+    "all_mutes_off": true,
+    "stem_split_used": false,
+    "entire_file_processed": true,
+    "preview_compare_auditioning": false,
+    "successful_render_count": 1,
+    "export_count": 1,
+    "export": {"container": "WAV", "encoding": "IEEE_FLOAT_32", "sample_rate_hz": 48000, "channels": 2, "dither": "NONE", "bwf": false, "preserve_non_audio_data": false, "resampling": false},
+    "exported_audio_auditioned_or_inspected": false
+  },
+  "screenshot_attestation": {"rx_version_build_visible": true, "complete_music_rebalance_configuration_visible": true, "export_dialog_configuration_visible": true, "screenshot_binary_files_preserved_in_repository": false, "authority": "PI_WRITTEN_EVIDENCE_COMPLETION"},
+  "filesystem_export_timestamp_utc": {"classification": "FILESYSTEM_EXPORT_TIMESTAMP_UTC_NOT_MANUALLY_OBSERVED_OPERATOR_TIMESTAMP", "birth_time": "2026-08-31T07:08:53.940000+00:00", "modification_time": "2026-08-31T07:08:54.290000+00:00"},
+  "input_sha256": "32845a5d05538524b19c8f857b0a908f6618cc4b95110a14169f1e450ddfe6e0",
+  "output": {"path": "/Volumes/SSD Track/JGA/datasets/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/derived/EXEC-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01/CED-VAL-006-RX11.2.0-MUSIC-REBALANCE-BASS-v0.1.wav", "sha256": "5588acd3d88e99a8aaca2c762b9a6a9a4fa263cdda03c7a56e2bc9b90b0fa26b", "riff_audio_format_code": 3, "encoding": "IEEE_FLOAT", "bits_per_sample": 32, "sample_rate_hz": 48000, "channels": 2, "frame_count": 11912868, "duration_seconds": 248.18475},
+  "protocol": {"id": "H-CEDVAL006-RX11-BASS-SEPARATION-BENCHMARK-01-R1", "commit": "536e276", "fingerprint": "6484ebe976e9f9e698e5af18a18e50b4e36c213eac9904f04f2a5ad015a008fe"},
+  "conformity": "PASS_BEFORE_JGA_ANALYSIS"
+}
