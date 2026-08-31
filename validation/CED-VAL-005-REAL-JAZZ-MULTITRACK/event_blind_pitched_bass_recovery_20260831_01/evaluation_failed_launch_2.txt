@@ -1,0 +1,13 @@
+PRE_SERIALIZATION_TECHNICAL_FAILURE
+
+Traceback (most recent call last):
+  File "evaluate.py", line 44, in <module>
+    if __name__=='__main__':main()
+  File "evaluate.py", line 43, in main
+    'interpretation_firewall':p['interpretation_firewall']
+KeyError: 'interpretation_firewall'
+
+Authority verification passed and evaluation calculations were performed in
+memory. Execution failed before result serialization, fingerprinting, or
+printing. No outcome was displayed, logged, written, or inspected, and no
+result_1.json was created. The frozen candidate authority was unchanged.

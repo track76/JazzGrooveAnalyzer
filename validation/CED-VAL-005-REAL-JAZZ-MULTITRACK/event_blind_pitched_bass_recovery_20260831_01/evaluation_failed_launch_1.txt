@@ -1,0 +1,12 @@
+PRE_OUTCOME_TECHNICAL_FAILURE
+
+Traceback (most recent call last):
+  File "evaluate.py", line 44, in <module>
+    if __name__=='__main__':main()
+  File "evaluate.py", line 12, in main
+    auth=p['authorities_locked_until_evaluation']
+KeyError: 'authorities_locked_until_evaluation'
+
+Execution stopped during protocol dictionary lookup before source-authority
+checksum evaluation, candidate loading, correspondence loading, BassDI
+decoding, matching, metric calculation, output printing, or result writing.
