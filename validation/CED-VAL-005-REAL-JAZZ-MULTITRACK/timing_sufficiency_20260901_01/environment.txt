@@ -1,0 +1,6 @@
+Execution date: 2026-09-01
+Architecture: Apple Silicon arm64
+Runtime: /Users/StarTrack/Development/JazzGrooveAnalyzer/.venv/bin/python
+Analysis implementation: analyze.py
+Deterministic RNG: NumPy PCG64 seed 20260901
+No source analysis, Demucs, JGA, event recovery, candidate generation, or production implementation was executed or modified.

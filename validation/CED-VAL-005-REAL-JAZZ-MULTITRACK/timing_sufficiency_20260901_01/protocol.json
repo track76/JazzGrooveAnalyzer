@@ -1,0 +1,106 @@
+{
+  "authorities": {
+    "correspondence_sha256": "f5f7fe410cea8bd68ff0a5e0f40528642adc9c6576a823447622e481e191f2d4",
+    "counts": {
+      "missed_original_bass": 356,
+      "original_bass": 1138,
+      "original_drums": 907,
+      "preserved_original_bass": 782,
+      "separated_bass": 825,
+      "separated_only_bass": 43
+    },
+    "observation_fingerprint": "074d84768f508e6ceee9c9225c34e9ea881ce50d88e0d5f930525b92e87bd9d6",
+    "original_eme_sha256": "81e45700196b7f712237da5ac6bbb32324a3f782bb66022e2427b08d9e342f2d",
+    "original_localizations_sha256": "cf4a8b3c00bd4ee5b102867b554ce76fda79b0c8ea8e4d0e652f8e4950228b03",
+    "original_profile_sha256": "e8f2f7061b80265c04518f43eddb3aaf6a9931e044b33ff3a33333370150f312",
+    "separated_jga_sha256": "f76f71769fed2bbb70e3b483732a96ea676a579799e3346f5e9a0159c73983e7"
+  },
+  "coverage_gate": {
+    "bins_density_ratio_0.40_to_1.25_min": 9,
+    "empty_bins_max": 0,
+    "minimum_preserved_retention": 0.4,
+    "retention_cv_max": 0.2
+  },
+  "decision_gates": {
+    "INDETERMINATE": "authority/integrity/replay failure prevents valid classification",
+    "INSUFFICIENT": "neither prior gate passes",
+    "PARTIALLY_SUFFICIENT": "global pass; no empty bin and minimum retention >=0.25; >=6/10 local bins pass and <=2 severe; neither comparand exceeds p99 on more than one primary metric",
+    "SUFFICIENT": "global pass; coverage pass; >=8/10 local bins pass and zero severe; missingness not material; neither actual comparand exceeds subsampling p95 on any primary metric"
+  },
+  "firewall": [
+    "no event recovery",
+    "no candidate stream",
+    "no JGA/Demucs rerun or tuning",
+    "no beat/meter/groove/swing/rushing/dragging interpretation",
+    "no physical-onset or causal claim",
+    "bounded to CED-VAL-005"
+  ],
+  "geometry": "AD-038 GEOMETRIC_ONLY nearest Drum-relative signed displacement; AD-040 read-only profile; absolute recording time only",
+  "global_gate": {
+    "directional_balance_difference_max": 0.1,
+    "iqr_relative_change_max": 0.25,
+    "median_shift_max_s": 0.011609977324263039,
+    "q1_q3_shift_max_s": 0.023219954648526078,
+    "wasserstein_max_s": 0.011609977324263039
+  },
+  "global_metrics": [
+    "signed median/q1/q3/IQR/MAD",
+    "absolute median/q1/q3/IQR",
+    "Wasserstein-1 seconds",
+    "two-sample KS statistic",
+    "negative/zero/positive directional proportions"
+  ],
+  "local_stability": {
+    "metrics": [
+      "signed median shift",
+      "Wasserstein-1",
+      "directional-balance difference"
+    ],
+    "pass": "median shift and W1 <= 0.023219954648526078 s and directional difference <= 0.15",
+    "segments": 10,
+    "severe": "median shift or W1 > 0.046439909297052155 s"
+  },
+  "missingness_bias": {
+    "comparison": "782 preserved original Bass versus 356 missed original Bass, each under original Drum geometry",
+    "material": "W1 or median shift > 0.023219954648526078 s, or directional difference > 0.15, or KS > 0.20"
+  },
+  "protocol_fingerprint": "309a10fdf93aaf20b8dbaca2ffd414e461835be7c672992a45807e9fad38e4e3",
+  "protocol_id": "H-CEDVAL005-RHYTHM-SECTION-TIMING-SUFFICIENCY-01",
+  "question": "Whether the frozen controlled-mix to htdemucs_ft to JGA observations preserve the bounded neutral RhythmSectionTimingProfile information of the original-source authority.",
+  "replay": {
+    "canonical_json": "UTF-8, sorted keys, separators comma/colon, trailing LF",
+    "requirement": "byte-identical result artifacts",
+    "runs": 2
+  },
+  "status": "PREREGISTERED_BEFORE_COMPARATIVE_OUTCOME_ACCESS",
+  "subsampling": {
+    "actual_comparands": [
+      "preserved-original subset",
+      "end-to-end separated profile"
+    ],
+    "beyond_expected": "actual metric exceeds deterministic 95th percentile; extreme exceeds 99th percentile",
+    "iterations": 1000,
+    "metrics": [
+      "W1",
+      "absolute signed-median shift",
+      "absolute IQR relative change",
+      "directional-balance difference"
+    ],
+    "numpy_generator": "PCG64",
+    "population": "original 1138 Bass localizations",
+    "seed": 20260901,
+    "subset_size": 782,
+    "without_replacement": true
+  },
+  "temporal_coverage": {
+    "metrics": [
+      "counts",
+      "density ratio separated/original",
+      "preserved-original retention",
+      "empty bins",
+      "retention CV"
+    ],
+    "rule": "equal-duration half-open bins spanning the original common recording scope; final bin right-closed",
+    "segments": 10
+  }
+}

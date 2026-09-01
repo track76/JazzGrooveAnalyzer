@@ -1,0 +1,7 @@
+Failure classification: PRE_RESULT_TECHNICAL_SERIALIZATION_FAILURE
+Stage: canonical JSON serialization
+Exception: TypeError: Object of type bool is not JSON serializable
+Scientific calculations completed in memory: YES
+Scientific outcome displayed, printed, logged, serialized, written, or inspected: NO
+Result artifact produced: NO
+Scientific or analytical parameter changed by remediation: NO
