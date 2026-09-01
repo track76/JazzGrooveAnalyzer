@@ -1,0 +1,102 @@
+{
+  "protocol_id":"H-CEDVAL010-EVENT-BLIND-UPPER-PARTIAL-HARMONIC-STRUCTURE-REPLICATION-01",
+  "status":"PREREGISTERED_BEFORE_AUDIO_ANALYSIS",
+  "study_type":"INDEPENDENT_PROSPECTIVE_EVENT_BLIND_VALIDATION",
+  "scientific_question":"On CED-VAL-010, does an event-blind continuous representation of upper-partial harmonic structure preserve the same PRESERVED-greater-than-MISSED directional association independently observed retrospectively across CED-VAL-005, CED-VAL-006 and CED-VAL-009?",
+  "dataset":{
+    "id":"CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS",
+    "root":"/Volumes/SSD Track/JGA/datasets/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/Spektakulatius_IsYouIsOrIsYouAint_Full",
+    "archive_sha256":"5a7e139e8be234f70e6f3fb22d2373de4f6f8c59641d234cb259f77fe44e3d9d",
+    "readme_sha256":"94393d05974f2839b72b562d1ede7704bc53aef5695ab41036fcd10a25bc574b",
+    "sample_rate":44100,
+    "format":"signed 24-bit little-endian PCM"
+  },
+  "input_authorities":[
+    {"file":"01_Kick.wav","sha256":"42e04d4549054ce4dfa920b1d339e000571187ebebb50f7862efe8b0828a39e4","channels":1,"frames":9119107,"role":"provider-labelled Drum material"},
+    {"file":"02_Snare.wav","sha256":"e2985d59bd9b979a33361cd057562b9e5f32331166625d465cdf85410cbc9732","channels":1,"frames":9119107,"role":"provider-labelled Drum material"},
+    {"file":"03_Overheads.wav","sha256":"f3f6712be5713fb62336e2ff6a5e573d38934c72a7acace2f63b4d2b1a7ae0c6","channels":2,"frames":9119107,"role":"provider-labelled Drum material"},
+    {"file":"04_Toms.wav","sha256":"e309a2b9243c508609658432fe4af10ce99b3f297df486d8dc163018cee7f3eb","channels":2,"frames":9119107,"role":"provider-labelled Drum material"},
+    {"file":"05_BassMic.wav","sha256":"65118c808f129b3c08181a5731ae5293d29146d28b3b60f33fd8630bc5a8514e","channels":1,"frames":9160573,"role":"secondary non-decisional Bass evidence only"},
+    {"file":"06_BassDI.wav","sha256":"990f69207ca891e4691a37277f6675a5fcafb86d0777ce9e2ed77685c350a1f0","channels":1,"frames":9160573,"role":"sole primary original Bass observation authority"},
+    {"file":"07_Piano.wav","sha256":"69f4a1f1bc1cf086aa2d7d2ef888f0fb9d1e2e843baac258c85150993caf831c","channels":2,"frames":9163042,"role":"provider-labelled accompaniment"},
+    {"file":"08_Sax1.wav","sha256":"bd6388672e548f59ea6131ab009bb53f3ef12e5ad1bb52d88155d411fdfe2fd7","channels":1,"frames":9095714,"role":"provider-labelled accompaniment"},
+    {"file":"09_Sax2_OD.wav","sha256":"d467a55adda62eb7f55972ca836b8723800b2f4f22f3469863976eccc67a5ea4","channels":1,"frames":8641771,"role":"provider-labelled accompaniment"},
+    {"file":"10_LeadVox.wav","sha256":"415178b5ea29479a0d7f0942dd679340b7eb97400030ae0f935e106de06bbfc1","channels":1,"frames":7422225,"role":"provider-labelled accompaniment"}
+  ],
+  "authority_limitations":"No physical-onset, shared-hardware-clock, simultaneous-acquisition, sample-accurate-synchronization or undocumented-editing authority is asserted. Sample-zero coordinates are preserved exactly as supplied.",
+  "controlled_mix":{
+    "population":"all ten checksum-authorized musical WAVs; exclude README and AppleDouble sidecars",
+    "scope":"common observed intersection [0,7422225) samples",
+    "decode":"exact signed 24-bit little-endian PCM to int64",
+    "channel_mapping":"preserve stereo; duplicate mono exactly to left and right",
+    "summation":"exact int64 addition in UTF-8 filename-byte lexicographic order over unchanged common sample coordinates",
+    "individual_gain":"1/1 for every source",
+    "planning":"dry pass determines complete unscaled absolute peak; sole coefficient 8388607/peak is frozen before WAV generation",
+    "quantization":"round to nearest, half away from zero",
+    "output":"stereo signed 24-bit PCM, 44100 Hz, 7422225 frames",
+    "replay":"two independent generations must be byte-identical",
+    "forbidden":["per-source gain","panning","EQ","compression","limiting","normalization","resampling","alignment","timing correction","listening-based decisions"]
+  },
+  "separator":{
+    "name":"htdemucs_ft","demucs":"4.1.0","python":"3.13.14","torch":"2.13.0","torchaudio":"2.11.0",
+    "registry_revision":"478be8a68f85418addd6f7baefd4be76522a4034",
+    "checkpoint_sha256":["2c85ab3c62dd6edd8e0b965e38b16fd1cdde357cc25de6b6bc9ce7c83f60925f","5b01a97567ae9a3178a6236fb520251045c03eb8834bc8c24a4eec11d6c8fb56","a241863551f30d01c42bd7b97da40839922ead3acb0f1fcab25682f55b4eeb59","68854b0d7c2b3274723b5761f6fd9f5aec5f1bcd3f0de7c1669546fdb7871b7c"],
+    "environment":{"device":"cpu","OMP_NUM_THREADS":"1","MKL_NUM_THREADS":"1","VECLIB_MAXIMUM_THREADS":"1"},
+    "arguments":["-n","htdemucs_ft","-d","cpu","--shifts","0","--overlap","0.25","-j","0","--float32"],
+    "runs":2,"fresh_processes":true,"preserve_all_stems":true,"selection_or_averaging":"NONE","required_bass_output":"bass.wav byte-identical across runs"
+  },
+  "pre_gt_continuous_evidence":{
+    "input":"checksum-frozen htdemucs_ft bass.wav only",
+    "channel_rule":"float64 arithmetic mean, no normalization",
+    "resolution":"LONG_AUTHORITY","frame_samples":4096,"hop_samples":1024,"fft_size":16384,"window":"periodic Hann",
+    "f0_hz":[41.20344461410875,195.99771799087463],"f0_grid_cents":5,"spectral_scope_hz":[0,2000],"harmonics":8,
+    "interpolation":"linear power-spectrum interpolation","background_offsets_cents":[-200,-175,-150,-125,-100,100,125,150,175,200],
+    "epsilon":"max(float64 tiny, median positive frame power * 1e-12)",
+    "harmonic_score":"mean across eight partials of log1p(interpolated partial power/(median local-background power+epsilon))",
+    "local_maximum":"interior F0-grid score >= both adjacent scores and > at least one; endpoints excluded/range-censored; no magnitude cutoff",
+    "node_dimensions":{"maximum_harmonic_score_source":"node harmonic_score","missing_fundamental_balance":"upper_partial_evidence minus fundamental_prominence","upper_partial_evidence":"mean prominence across partials 2-8","partial_prominence_dispersion":"population standard deviation across the eight per-partial prominence values"},
+    "preservation":"every measurable local-F0 maximum and all four separate continuous dimensions; no composite, threshold, pruning or event formation",
+    "chunking":{"frames_per_chunk":512,"global_frame":"frame i samples [i*1024,i*1024+4096)","sample_overlap":3072,"ownership":"disjoint global frame-index ranges","integrity":"whole versus artificial chunk boundary must be exactly equal"},
+    "canonical_replay":"two complete acquisitions; all canonical artifacts byte-identical; runtime excluded from canonical serialization",
+    "freeze":"canonical evidence serialized, hashed, fingerprinted and committed before BassDI is opened for event analysis"
+  },
+  "ground_truth_firewall":"Before the PRE-GT evidence commit, do not open BassDI or BassMic for outcome/event analysis; do not derive Bass events, correspondence, PRESERVED/MISSED labels or inspect any outcome. Controlled-mix byte reading includes BassDI and BassMic only as blind summands and may not produce source-specific measurements.",
+  "post_freeze_original_observation":{
+    "primary":"unchanged production JGA observation of 06_BassDI.wav over [0,7422225); sole Bass GT observation authority",
+    "candidate":"unchanged production JGA observation of frozen separated bass.wav over the same scope",
+    "bassmic":"05_BassMic.wav may be observed only after the primary evaluation is serialized; descriptive non-decisional comparison only; cannot replace BassDI, alter a population, rescue a result or select parameters"
+  },
+  "correspondence":{
+    "method":"frozen one-to-one temporal assignment",
+    "cells":"half-open original-event Voronoi cells [left,right), bounded by 0 and 7422225/44100 seconds",
+    "selection":"chronological originals; unused in-cell separated candidate with minimum absolute displacement, then earlier time, then lower native identity",
+    "tolerance":"Voronoi-cell authority only; no correction or added tolerance","pitch_or_duration_used":false,
+    "populations":{"PRESERVED":"original BassDI observations receiving one match","MISSED":"original BassDI observations receiving no match"}
+  },
+  "negative_population":{
+    "role":"descriptive specificity/context only; no decision-gate effect",
+    "bins":20,"count":"same per-bin count as original BassDI EME","lattice":"10000 equally spaced interior midpoints per bin","exclusion":"inclusive +/-0.050 seconds from every original BassDI EME","selection":"first eligible coordinates in increasing order; no evidence access"
+  },
+  "event_centered_evaluation":{
+    "window":"inclusive +/-0.050 seconds by LONG frame-start coordinate; no correction",
+    "maximum_harmonic_score":"maximum node harmonic_score in window",
+    "missing_fundamental_balance":"maximum node (upper_partial_evidence-fundamental_prominence) in window",
+    "upper_partial_evidence":"maximum node upper_partial_evidence in window",
+    "partial_prominence_dispersion":"dispersion at maximum-harmonic-score node; ties earliest global frame then lowest F0 index",
+    "unavailable":"null with explicit reason when no complete LONG frame or local maximum exists; no imputation",
+    "statistics":"for PRESERVED, MISSED and NEGATIVE: n available/unavailable, minimum, Q1, median, Q3, maximum; PRESERVED versus MISSED and descriptive comparisons versus NEGATIVE: Cliff's delta, rank AUC and two-sided Mann-Whitney U",
+    "uncertainty":"95 percent percentile bootstrap CI for Cliff's delta, 10000 deterministic resamples, NumPy PCG64 seeds 20260901 plus measurement ordinal",
+    "orientation":"positive delta and AUC above 0.5 mean PRESERVED is higher than MISSED"
+  },
+  "decision_rule_priority":{
+    "INDETERMINATE":"any authority, checksum, pre-GT firewall, separation replay, chunk-integrity, evidence replay, GT derivation, correspondence or evaluation replay invariant fails; or either PRESERVED/MISSED availability is below 80 percent for any primary dimension",
+    "INDEPENDENT_HARMONIC_STRUCTURE_REPLICATION_SUPPORTED":"all four PRESERVED-versus-MISSED Cliff's deltas are >= +0.147",
+    "INDEPENDENT_HARMONIC_STRUCTURE_REPLICATION_PARTIAL":"SUPPORTED is not met, at least three of four deltas are > 0, and at least two of four deltas are >= +0.147",
+    "INDEPENDENT_HARMONIC_STRUCTURE_REPLICATION_NOT_SUPPORTED":"otherwise"
+  },
+  "decision_authority":"Only the four separate BassDI-based PRESERVED-versus-MISSED effects enter the decision. P-values, NEGATIVE comparisons, BassMic, prior datasets and secondary descriptions cannot change or rescue classification.",
+  "interpretation":"Directional replication is association with observation preservation in this bounded material, not causation, source identity, physical onset, recovery validation or a production rule.",
+  "prohibitions":["threshold fitting","weight fitting","composite score","classifier","detector","dataset-specific tuning","post-GT adaptation","rescue endpoint","JGA modification","push"],
+  "protocol_fingerprint_method":"SHA-256 of jq -cS JSON after deleting protocol_fingerprint, including one trailing LF",
+  "protocol_fingerprint":"ba22ab942cd3fb519308ad7e3274372cfe83c4dacde07fa529114cb2dfacaeef"
+}

@@ -1,0 +1,9 @@
+{
+  "protocol_id":"H-CEDVAL010-EVENT-BLIND-UPPER-PARTIAL-HARMONIC-STRUCTURE-REPLICATION-01",
+  "protocol_fingerprint":"ba22ab942cd3fb519308ad7e3274372cfe83c4dacde07fa529114cb2dfacaeef",
+  "ground_truth_accessed":false,
+  "controlled_mix":{"sha256":"ae79c61aa3e09eae3ee770e0b850bc3c59c89efa91f51b5f4f32fc3fa124a490","frames":7422225,"replay":"BYTE_IDENTICAL"},
+  "separator":{"model":"htdemucs_ft","runs":2,"bass_stem_sha256":"5a495376875e68358988e26e636c61c46863d5de3d89ed2a878c718844d4fa1a","replay":"BYTE_IDENTICAL"},
+  "continuous_evidence":{"frames":7245,"nodes":426345,"dimensions":["harmonic_score","missing_fundamental_balance","upper_partial_evidence","partial_prominence_dispersion"],"fingerprint":"39625b741d438816eb64b412ea6da4c351766e8496df540ef88fc4427f931c36","chunk_integrity":"PASS","replay":"BYTE_IDENTICAL"},
+  "firewall":"BassDI and BassMic were not opened for source-specific observation, event derivation, correspondence or outcome analysis before this authority was committed. Their samples participated only as undifferentiated checksum-authorized integer-domain controlled-mix summands."
+}
