@@ -1,0 +1,54 @@
+{
+  "protocol_id":"H-CROSSDATASET-BASS-PRESERVED-MISSED-OBSERVATIONAL-CHARACTERIZATION-01",
+  "status":"PREREGISTERED_BEFORE_COMPARATIVE_OUTCOME_EXTRACTION",
+  "question":"Which continuous, signal-grounded LONG spectro-temporal measurements differ consistently between original Bass observations preserved versus missed by the frozen controlled-mix to htdemucs_ft to JGA path across CED-VAL-005, CED-VAL-006 and CED-VAL-009?",
+  "study_type":"DESCRIPTIVE_EXPLANATORY_NOT_DETECTOR_DEVELOPMENT",
+  "authorities":{
+    "CED-VAL-005":{"pre_gt_evidence_commit":"d1dcbbc9f4445603c00afb05381c3e87988b974a","evidence_root":"/private/tmp/cedval005_max_recoverable_bass_20260901/complete_1/LONG_AUTHORITY","evidence_fingerprint":"b685efe98cc19000d46e3fab9667e27bc9c0ef7a8643ffe40b0fe5fe2550362d"},
+    "CED-VAL-006":{"pre_gt_evidence_commit":"1268f1333ddf561ab648afac0c275a24bdbee774","evidence_root":"/private/tmp/cedval006_long_emergence_clean_restart_20260901/evidence_1","evidence_fingerprint":"ab3c5c9866426f92671879524269ae1e33f0a35d25b39c58e0ca161eeb14b84c"},
+    "CED-VAL-009":{"pre_gt_evidence_commit":"f359f018d68a82f80a9328acdd86fdc29b761ba2","evidence_root":"/private/tmp/cedval009_long_emergence_blinded_replication_20260901/evidence_1","evidence_fingerprint":"cfcdb58f783c8c5cabccd45c8b3526d37e97dd50a49c54be0312bfc15734b088"}
+  },
+  "population_authority":"Use each dataset's already-frozen original-event identifiers and frozen one-to-one correspondence labels without redefining timestamps, matching, PRESERVED or MISSED.",
+  "coordinate_window":"Inclusive +/-0.050 seconds around each frozen original Bass observation, using LONG global frame-start coordinates; no timestamp correction.",
+  "long_representation":{"sample_rate":44100,"frame_samples":4096,"hop_samples":1024,"fft_size":16384,"window":"periodic Hann","f0_scope_hz":[41.20344461410875,195.99771799087463],"f0_grid_cents":5,"harmonics":8,"spectral_scope_hz":[0,2000]},
+  "measurements":{
+    "local_log_spectral_level_max":"maximum across window frames of log10(sum frozen 0-2000 Hz power + float64 tiny)",
+    "local_log_spectral_level_median":"median across window frames of log10(sum frozen 0-2000 Hz power + float64 tiny)",
+    "local_time_frequency_contrast":"window maximum minus window median log spectral level",
+    "maximum_harmonic_score":"maximum node aggregate harmonic score",
+    "maximum_harmonic_energy_relation":"maximum node harmonic_energy_relation",
+    "maximum_fundamental_prominence":"maximum node fundamental_prominence",
+    "maximum_upper_partial_evidence":"maximum node upper_partial_evidence",
+    "maximum_missing_fundamental_balance":"maximum node (upper_partial_evidence minus fundamental_prominence)",
+    "partial_prominence_dispersion_at_max_score":"population standard deviation across eight partial_prominence values at the node with maximum score; tie earliest frame then lowest F0 index",
+    "partial_prominence_entropy_at_max_score":"Shannon entropy of the eight nonnegative partial_prominence values normalized by their sum at the maximum-score node; zero if sum is zero",
+    "maximum_emergence_change":"maximum node score_change",
+    "fixed_f0_persistence_mean":"mean score_lattice value at the maximum-emergence node's F0 index across frames [f-4,f+4] clipped to available frames",
+    "maximum_fullband_positive_spectral_flux":"maximum across window frames of sum(max(spectrum[f]-spectrum[f-1],0))/(sum(spectrum[f-1])+epsilon); first global frame value zero",
+    "maximum_lowband_positive_spectral_flux":"same normalized positive flux restricted to frozen spectrum bins <=250 Hz",
+    "competing_node_count":"number of local-F0 nodes in the window",
+    "f0_hypothesis_count":"number of unique F0 grid indices in the window",
+    "node_per_f0_crowding":"competing_node_count divided by f0_hypothesis_count; unavailable when denominator zero"
+  },
+  "tie_policy":"For any node-selected measurement, ties are earliest global frame then lowest F0-grid index.",
+  "unavailable_measurement":"Preserve as null with explicit reason when no complete LONG frame or no mathematical local maximum exists; do not impute. A feature is INDETERMINATE if either population has less than 80 percent availability in any dataset.",
+  "statistics":{
+    "per_dataset_population_summary":"n available, n unavailable, minimum, Q1, median, Q3, maximum",
+    "comparison":"PRESERVED minus MISSED direction; Cliff's delta; rank AUC=P(PRESERVED>MISSED)+0.5*P(tie); two-sided Mann-Whitney U reported descriptively",
+    "uncertainty":"95 percent percentile bootstrap CI for Cliff's delta, 10000 deterministic resamples within each population, NumPy PCG64 seed 20260901 plus dataset ordinal times 1000 plus feature ordinal",
+    "no_selection":"No multiplicity-driven feature deletion, p-value selection, classifier, composite score or threshold fitting"
+  },
+  "cross_dataset_classification":{
+    "magnitude_authority":"absolute Cliff's delta: negligible <0.147; small 0.147-<0.33; medium 0.33-<0.474; large >=0.474",
+    "CONSISTENT":"all three dataset deltas are non-negligible and have the same sign",
+    "MATERIAL_DEPENDENT":"at least one dataset delta is non-negligible and CONSISTENT is not satisfied",
+    "WEAK":"all three dataset deltas are negligible",
+    "INDETERMINATE":"availability gate fails or a required authority/integrity/replay invariant fails",
+    "priority":"INDETERMINATE, then CONSISTENT, then MATERIAL_DEPENDENT, then WEAK"
+  },
+  "interpretation":"Effects describe association with preservation status within these frozen materials. They do not establish causation, source identity, physical onset, a detector, a recovery rule, or general applicability.",
+  "replay":"two byte-identical canonical analyses",
+  "prohibitions":["JGA modification","Demucs rerun","audio modification","detector fitting","threshold fitting","feature combination into production score","best-feature optimization","production rule","push"],
+  "protocol_fingerprint_method":"SHA-256 of jq -cS JSON after deleting protocol_fingerprint, including one trailing LF",
+  "protocol_fingerprint":"b113e56f41ff3051b3c172d0d85fc7630e34b679a82359f566b371107e6a6106"
+}
