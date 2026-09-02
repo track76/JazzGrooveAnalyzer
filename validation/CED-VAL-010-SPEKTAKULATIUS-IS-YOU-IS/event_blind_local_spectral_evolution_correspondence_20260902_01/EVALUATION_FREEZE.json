@@ -1,0 +1,15 @@
+{
+  "protocol_id":"H-CEDVAL010-EVENT-BLIND-LOCAL-SPECTRAL-EVOLUTION-CORRESPONDENCE-01",
+  "protocol_fingerprint":"dd434d28d8c57818c74e0157b3a630553fa664b0a4b405e0a02d0f9e54581996",
+  "pre_gt_commit":"e07e83fe9a568aa600dfa5ef4aa72eb5e4640f30",
+  "pre_gt_fingerprint":"f5f8fbb5456735d086659ada34edfdc60f0aa0db044451c3056baf4d4a1568d9",
+  "compatibility":"PASS",
+  "population_counts":{"PRESERVED":416,"MISSED":220,"NEGATIVE":636},
+  "signed_availability":{"PRESERVED":{"available":416,"unavailable":0},"MISSED":{"available":220,"unavailable":0},"NEGATIVE":{"available":613,"unavailable":23}},
+  "canonical_artifacts":{"rows.json":{"sha256":"edc74c3acece3b271a9e69a835d8191cacf60dcf80119f3ffb9fa0a8b59e6d63"},"result.json":{"sha256":"94d1d995a5fbcd27259954685f5178626cf3de09e1e3bc69479e6d8dc4d620be"}},
+  "evaluation_fingerprint":"ecb0cb299e6d862aec5046c3c0f1bdd73aa631910237a2a58cb5a6286ca43b48",
+  "fresh_process_replay":"BYTE_IDENTICAL",
+  "classification":"LOCAL_SPECTRAL_EVOLUTION_ATTRIBUTION_INDETERMINATE",
+  "decision_authority":"SIGNED_LOCAL_SPECTRAL_EVOLUTION_CORRESPONDENCE_ONLY",
+  "descriptive_observables_cannot_alter_classification":true
+}
