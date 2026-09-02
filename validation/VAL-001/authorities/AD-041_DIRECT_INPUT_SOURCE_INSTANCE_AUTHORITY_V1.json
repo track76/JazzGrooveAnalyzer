@@ -1,0 +1,52 @@
+{
+  "authority_status": "PROSPECTIVE_AUTHORITY",
+  "binding_authority": {
+    "path": "validation/VAL-001/run_20260823_070702/calibration_symbolic_events.json",
+    "sha256": "038a970994dcb42961d115c6b5c7dd2a05c714b52f5fec3a1756133b5cdedd9f"
+  },
+  "bindings": [
+    {
+      "asset_sha256": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+      "existing_asset_authority_entry": "rendered_stems.Drums",
+      "source_instance_key": "VAL001_SOURCE_001"
+    },
+    {
+      "asset_sha256": "26fa1158f375598cc7c01e04379c00547ef1787f6862eb2f29a36aafd9007c7e",
+      "existing_asset_authority_entry": "rendered_stems.Piano",
+      "source_instance_key": "VAL001_SOURCE_002"
+    },
+    {
+      "asset_sha256": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
+      "existing_asset_authority_entry": "rendered_stems.Double Bass",
+      "source_instance_key": "VAL001_SOURCE_003"
+    }
+  ],
+  "decision_authority": "AD-041",
+  "identity_semantics": {
+    "asset_identity": "Each asset_sha256 is the independent checksum-bound identity of the exact authorized audio bytes. It is binding evidence and is not an input to the source UUID derivation.",
+    "derivation_inputs": [
+      "source_authority_id",
+      "source_instance_key"
+    ],
+    "ordinal_semantics": "The numeric suffixes distinguish opaque instances only. They encode no instrument, musical, processing-order, priority, or temporal meaning.",
+    "prohibited_derivation_inputs": [
+      "instrument_name",
+      "filename_or_path",
+      "asset_sha256",
+      "event_count",
+      "musical_semantics",
+      "ground_truth",
+      "processing_order"
+    ],
+    "separation": [
+      "source-instance key != instrument identity",
+      "source-instance key != asset identity",
+      "source-instance key != filename/path"
+    ],
+    "source_identity": "The AD-041 direct-input source UUID is derived only from the shared source_authority_id and the bound opaque source_instance_key under jga-direct-input-source-identity/v1."
+  },
+  "replay_invariant": "Replaying the same authorized binding under AD-041 MUST reproduce the same source identity. A different independently authorized source instance MUST receive a different opaque key even when its display or stem name is also Mix.",
+  "schema_id": "JGA_VAL001_DIRECT_INPUT_SOURCE_INSTANCE_AUTHORITY",
+  "schema_version": 1,
+  "source_authority_id": "VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1"
+}
