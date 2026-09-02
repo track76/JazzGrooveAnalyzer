@@ -1,0 +1,15 @@
+{
+  "protocol_id":"H-CEDVAL010-EVENT-BLIND-ATTACK-TIMBRAL-OBSERVABILITY-01",
+  "protocol_fingerprint":"fdc9b6edd3645af674d8d0d102b90e686e820291fbd90f8b52a70a9ff562fe53",
+  "pre_gt_commit":"2089815f912d7b69c0eaa709df54bc8938bdce85",
+  "pre_gt_evidence_fingerprint":"ae07bed9904a9d9d067c62d10ed1567fb70ae2be630c778c1d2fbf36f6819f0d",
+  "outcome_authority_sha256":"29e45036d5c2afcbc4152c7e2764e823b8ac9f1ef4ee125f50d5145eba1def33",
+  "population_counts":{"PRESERVED":416,"MISSED":220,"NEGATIVE":636},
+  "artifact_sha256":{"rows.json":"ae184ae89a452573618d8f44c15894d4f484653c51adc635a4f8782386613497","result.json":"43df81ab4098d08584ffb53889d286eb2a09a530b55e6520d51e1bf043394684"},
+  "evaluation_fingerprint":"6aab59043f94082a1933c8cf8197cb8d344715c0dd3b8bae3a59dd728e4e75f8",
+  "fresh_process_replay":"BYTE_IDENTICAL",
+  "classification":"SOURCE_ATTRIBUTION_INDETERMINATE",
+  "threshold_fitted":false,
+  "composite_score":false,
+  "classifier":false
+}
