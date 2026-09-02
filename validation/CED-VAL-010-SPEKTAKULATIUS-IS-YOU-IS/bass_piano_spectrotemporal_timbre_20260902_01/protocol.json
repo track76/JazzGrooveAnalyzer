@@ -1,0 +1,145 @@
+{
+  "protocol_id": "H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01",
+  "status": "PREREGISTERED_BEFORE_PRIMARY_OUTCOME_INSPECTION",
+  "study_type": "TIGHTLY_BOUNDED_KNOWN_SOURCE_EXPLORATORY_CHARACTERIZATION",
+  "scientific_question": "Do the provider-labelled BassDI and Piano sources in CED-VAL-010 exhibit observationally distinguishable spectro-temporal structure across separately reported timbral dimensions?",
+  "mission_alignment": {
+    "direct_contribution": "Tests whether source/timbre evidence could eventually supplement onset and harmonic evidence in JGA timing observation.",
+    "missing_evidence": "CED-VAL-010 harmonic observables were associated with event preservation but were not Bass-source-specific; known-source Bass-versus-Piano spectro-temporal structure has not been characterized.",
+    "smallest_experiment": "One deterministic within-dataset characterization of two provider-labelled isolated sources, followed only after primary freeze by an optional same-provider BassMic check.",
+    "architectural_impact": "NONE",
+    "complexity": "Isolated validation-only scripts and evidence; no production implementation."
+  },
+  "dataset": {
+    "id": "CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS",
+    "root": "/Volumes/SSD Track/JGA/datasets/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/Spektakulatius_IsYouIsOrIsYouAint_Full",
+    "sample_rate": 44100,
+    "format": "signed 24-bit little-endian PCM",
+    "primary_common_scope_samples": [0, 9160573],
+    "input_authorities": {
+      "BassDI": {"file": "06_BassDI.wav", "sha256": "990f69207ca891e4691a37277f6675a5fcafb86d0777ce9e2ed77685c350a1f0", "channels": 1, "frames": 9160573, "role": "primary provider-labelled Bass source"},
+      "Piano": {"file": "07_Piano.wav", "sha256": "69f4a1f1bc1cf086aa2d7d2ef888f0fb9d1e2e843baac258c85150993caf831c", "channels": 2, "frames": 9163042, "role": "primary provider-labelled Piano source"},
+      "BassMic": {"file": "05_BassMic.wav", "sha256": "65118c808f129b3c08181a5731ae5293d29146d28b3b60f33fd8630bc5a8514e", "channels": 1, "frames": 9160573, "role": "secondary non-decisional same-provider-labelled Bass capture; outcome analysis forbidden until primary result freeze"}
+    },
+    "authority_limitations": "Provider labels are source authority only. No physical-onset, note-identity, score-correspondence, shared-clock, isolation-quality, microphone-transfer, performance-equivalence, or human-perception authority is asserted."
+  },
+  "primary_populations": {
+    "BassDI": "One deterministic source-local observation window per jointly eligible fixed block from 06_BassDI.wav.",
+    "Piano": "One deterministic source-local observation window per jointly eligible fixed block from 07_Piano.wav.",
+    "comparison_unit": "Source-local window; equal counts and common block identities are retained, but inferential statistics are unpaired because local anchors need not represent corresponding musical events.",
+    "scope_prohibition": "Windows are neither notes nor physical onsets and may contain overlap, sustain, leakage, noise, silence-adjacent material, or multiple acoustic events."
+  },
+  "signal_decode": {
+    "library": "soundfile 0.14.0",
+    "dtype": "float64",
+    "channel_rule": "arithmetic mean to mono in float64; no normalization, filtering, resampling, or alignment",
+    "checksum_verification": "required before decode"
+  },
+  "spectrotemporal_representation": {
+    "stft": {"frame_samples": 2048, "hop_samples": 256, "fft_size": 4096, "window": "periodic Hann", "centering": false, "detrend": false, "scaling": "unscaled squared magnitude"},
+    "preserved_frequency_scope_hz": [0, 8000],
+    "canonical_dtype": "little-endian float64",
+    "preservation": "For each source, serialize every retained frequency-bin center, every complete-frame start sample, and the complete power matrix over the declared scope. Serialize episode-to-frame index ranges separately. Derived measurements do not replace this evidence.",
+    "canonical_container": "NumPy NPZ with fixed member names; canonical scientific fingerprint is SHA-256 over explicitly ordered little-endian array bytes plus canonical metadata JSON, not over ZIP container bytes.",
+    "replay": "Two fresh-process acquisitions must have identical scientific fingerprints and identical canonical derived-result serialization."
+  },
+  "episode_construction": {
+    "purpose": "Observation-window mechanism controlling long silence/activity confounding only; it is not a detector, classifier, source-identity rule, or physical-onset procedure.",
+    "fixed_blocks": "Half-open one-second blocks [k*44100,(k+1)*44100) wholly inside the primary common scope.",
+    "flux": "For each STFT frame, sum max(power[t,f]-power[t-1,f],0) over retained 20-8000 Hz bins; first frame flux is zero.",
+    "joint_eligibility": "A block is eligible only when both primary sources have at least one complete STFT frame whose frame start permits the full observation window and whose decoded samples in that block contain at least one nonzero value. Exact nonzero is a measurability condition, not a fitted magnitude threshold.",
+    "source_local_anchor": "Within each jointly eligible block and source, choose the eligible frame with maximum broadband positive spectral flux; ties choose the earliest frame start.",
+    "window": "Frames with start coordinates from anchor-8820 through anchor+35280 samples inclusive where available, corresponding nominally to -0.200 through +0.800 seconds.",
+    "selection_preservation": "Serialize every block identity, eligibility fact, anchor frame/sample, flux value, and selected frame range.",
+    "limitations": "One maximum per second imposes a sampling cadence, can select noise or sustain changes, can omit additional events, and does not equalize playing technique, pitch, dynamics, register, polyphony, articulation, room/microphone response, or musical content."
+  },
+  "trajectory_intervals_relative_to_anchor_seconds": {
+    "pre": [-0.200, -0.025],
+    "attack": [0.000, 0.075],
+    "early_decay": [0.075, 0.250],
+    "late": [0.250, 0.750],
+    "interval_rule": "Half-open intervals selected by STFT frame-start coordinate; unavailable values remain null with reasons and are never imputed."
+  },
+  "descriptive_measurements": {
+    "attack_rise_morphology_and_broadbandness": {
+      "log_power_rise_db": "10*log10((maximum total power in attack + epsilon)/(median total power in pre + epsilon))",
+      "attack_time_to_peak_seconds": "time from anchor to earliest maximum total-power frame in attack",
+      "attack_spectral_flatness": "median across attack frames of geometric-mean power divided by arithmetic-mean power over 20-8000 Hz",
+      "attack_high_low_log_ratio_db": "median attack 2000-8000 Hz power versus 20-250 Hz power in dB"
+    },
+    "spectral_centroid_trajectory": {
+      "attack_centroid_hz": "total-power-weighted frequency centroid median in attack",
+      "centroid_change_hz": "late median minus attack median"
+    },
+    "spectral_bandwidth_trajectory": {
+      "attack_bandwidth_hz": "power-weighted population standard deviation around each frame centroid, median in attack",
+      "bandwidth_change_hz": "late median minus attack median"
+    },
+    "regional_spectral_flux_trajectories": {
+      "bands_hz": {"low": [20, 250], "mid": [250, 2000], "high": [2000, 8000]},
+      "per_band_attack_flux": "maximum positive spectral flux in attack divided by preceding-frame total band power plus epsilon",
+      "per_band_flux_persistence": "median normalized positive flux in late divided by median normalized positive flux in attack plus epsilon"
+    },
+    "spectral_slope_evolution": {
+      "frame_slope": "ordinary least-squares slope of log10(power+epsilon) on log10(frequency) over 80-8000 Hz bins",
+      "attack_slope": "median frame slope in attack",
+      "slope_change": "late median minus attack median"
+    },
+    "harmonic_partial_decay_and_persistence": {
+      "f0_estimate": "Per frame, choose the earliest lag maximizing normalized autocorrelation over integer lags corresponding to 41.2-1046.5 Hz; zero-energy frames are unavailable. No confidence cutoff.",
+      "partial_power": "Linear interpolation of power at integer multiples 1-6 of estimated F0 that lie at or below 8000 Hz.",
+      "harmonic_decay_db_per_second": "OLS slope of each available partial's dB power versus time from attack through late; window summary is median across available partial slopes.",
+      "harmonic_persistence": "late median summed available-partial power divided by attack median summed available-partial power plus epsilon"
+    },
+    "f0_continuity_availability": {
+      "availability_fraction": "fraction of nonzero-energy window frames for which an autocorrelation F0 estimate and at least two in-range partials are measurable",
+      "continuity_cents": "median absolute adjacent-frame F0 difference in cents over available consecutive pairs",
+      "interpretation_limit": "Availability is measurability under the frozen estimator, not proof of pitch, harmonicity, or missing-fundamental perception."
+    },
+    "epsilon": "max(float64 tiny, median strictly positive power across the source representation times 1e-12)"
+  },
+  "endpoint_policy": {
+    "all_frozen_endpoints_reported": true,
+    "dimensions_remain_separate": true,
+    "no_composite": true,
+    "no_endpoint_selection": true,
+    "no_fitted_or_optimized_threshold": true
+  },
+  "primary_comparison": {
+    "order": "BassDI minus Piano",
+    "per_endpoint_distributions": ["available", "unavailable", "minimum", "Q1 linear", "median", "Q3 linear", "maximum"],
+    "effect_sizes": ["Cliff's delta", "rank AUC"],
+    "uncertainty": "95 percent percentile bootstrap interval for Cliff's delta using 2000 deterministic independent-within-source resamples and NumPy PCG64 seed 20260902 plus endpoint ordinal",
+    "test": "two-sided Mann-Whitney U, descriptive only and never a classification gate",
+    "orientation": "Positive delta and AUC above 0.5 mean BassDI is higher; negative means Piano is higher.",
+    "multiplicity": "No multiplicity correction and no confirmatory significance claim; all endpoints, p-values, and effect intervals remain descriptive."
+  },
+  "classification_rule_priority": {
+    "TIMBRAL_SOURCE_STRUCTURE_INDETERMINATE": "Any authority/checksum, representation, episode-construction, primary-freeze, or replay invariant fails; or either primary source has below 80 percent endpoint availability for more than half the frozen endpoints.",
+    "DISTINCT_TIMBRAL_STRUCTURE_OBSERVED": "At least five of the seven frozen dimension families contain at least one endpoint whose absolute Cliff's delta is at least 0.147 and whose 95 percent bootstrap interval excludes zero, and qualifying families include attack morphology/broadbandness plus at least one trajectory or decay/persistence family.",
+    "PARTIAL_TIMBRAL_STRUCTURE_OBSERVED": "Indeterminate does not apply and at least two dimension families contain at least one endpoint meeting the same effect and interval condition, but the DISTINCT rule is not met.",
+    "TIMBRAL_SOURCE_STRUCTURE_INDETERMINATE_OTHERWISE": "Indeterminate does not otherwise apply and fewer than two families qualify."
+  },
+  "classification_interpretation": "A classification describes observational structure only in the bounded known-source material and frozen representation. It does not establish recognizable source identity, uniqueness, generalization, or a decision rule.",
+  "primary_freeze": "Serialize and fingerprint the complete BassDI-versus-Piano result, episode authority, measurement rows, and replay evidence; commit them before opening BassMic for secondary outcome analysis.",
+  "secondary_bassmic": {
+    "timing": "Only after primary result commit.",
+    "procedure": "Apply the identical frozen representation, one-second-block source-local episode construction, endpoints, and descriptive statistics to BassMic without altering any primary artifact or rule.",
+    "comparison": "Report BassMic versus Piano and BassMic versus BassDI descriptively with the same orientation and all endpoints.",
+    "authority": "Secondary non-decisional evidence; cannot rescue, redefine, overturn, or enter the primary classification."
+  },
+  "scientific_firewalls": [
+    "No unique Bass identification in a mixture.",
+    "No Bass-event recovery or physical-onset authority.",
+    "No human auditory equivalence.",
+    "No source-separation claim or Demucs execution.",
+    "No classifier, detector, threshold, weight, or production validity.",
+    "No causal timbre mechanism.",
+    "No musical correspondence beyond provider source labels.",
+    "No architecture or JGA production-code modification.",
+    "No BassMic outcome access before primary freeze.",
+    "No push and no preservation into canonical scientific documentation."
+  ],
+  "protocol_fingerprint_method": "SHA-256 of jq -cS JSON after deleting protocol_fingerprint, including one trailing LF",
+  "protocol_fingerprint": "0504d3745ee1ab06cdab1ecb82efc1244f19c13ed112b9b89af0c92e5d153332"
+}
