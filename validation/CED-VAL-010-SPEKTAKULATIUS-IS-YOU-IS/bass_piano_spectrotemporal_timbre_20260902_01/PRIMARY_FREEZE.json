@@ -1,0 +1,22 @@
+{
+  "protocol_id": "H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01",
+  "protocol_fingerprint": "0504d3745ee1ab06cdab1ecb82efc1244f19c13ed112b9b89af0c92e5d153332",
+  "primary_sources": ["06_BassDI.wav", "07_Piano.wav"],
+  "bassmic_outcome_accessed": false,
+  "population_counts": {"BassDI": 206, "Piano": 206},
+  "representation_fingerprints": {
+    "BassDI": "e221d8de17a11eabfffd604500bcb4d06cd4fc5184fc0742c1188a148e0f4c0e",
+    "Piano": "b64ed674574c26153f78a0a107e727cd150eebff1bb700db39d54892887615c4"
+  },
+  "artifact_sha256": {
+    "primary_episodes.json": "b844ff4b61451b5ee2d734b47ab20245e73a6bfedf904441cc12e3ff525baaee",
+    "primary_measurements.json": "ca8b054f88bbd59ab438b6c8136d5beb8f796bac8ebb44875c3b493939e6cc7b",
+    "primary_result.json": "4e7b14d8e247dcfc9f72138f7feac0d1100f8499cba0fa7694cd6b8262766b7a"
+  },
+  "result_fingerprint": "bde797f90f556213fd0aa9cd9b46d02ae04be4c961f80d6dc978846a1e1ff40d",
+  "classification": "DISTINCT_TIMBRAL_STRUCTURE_OBSERVED",
+  "complete_fresh_process_replay": "BYTE_IDENTICAL",
+  "replay_scope": ["BassDI representation", "Piano representation", "episode authority", "measurement rows", "primary result"],
+  "implementation_note": "SciPy returned an undefined asymptotic Mann-Whitney p-value for the constant combined F0-availability population. The serializer preserves null plus an explicit reason; the frozen effect is zero and this descriptive p-value does not enter classification.",
+  "firewall": "This freezes bounded known-source observational structure only. BassMic remained unopened for secondary outcome analysis."
+}
