@@ -1,0 +1,17 @@
+{
+  "protocol_id":"H-CEDVAL010-EVENT-BLIND-LOCAL-SPECTRAL-EVOLUTION-CORRESPONDENCE-01",
+  "protocol_fingerprint":"dd434d28d8c57818c74e0157b3a630553fa664b0a4b405e0a02d0f9e54581996",
+  "protocol_commit":"f7c87f3ee171dd080016eb64d510d41063d0d4d2",
+  "ground_truth_accessed":false,
+  "bassdi_representation_accessed":false,
+  "outcome_populations_accessed":false,
+  "authoritative_mix_stft":{"reused_in_place":true,"recomputed":false,"duplicated":false,"sha256":"4f6a972470f701d147c20ae9d3841d663ebb37b732b924ca1a7d8c48f437d82f","scientific_fingerprint":"9bb372e243c5fb7f354823e8f59edb986a1eaacc59c2fcf766b2f5b2760c2ed4","byte_size":172763288,"external_relative_to_JGA_EXTERNAL_ROOT":"experiments/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/H-CEDVAL010-EVENT-BLIND-ATTACK-TIMBRAL-OBSERVABILITY-01/pre_gt/replay_1/mix_representation.npz"},
+  "native_geometry":{"frames":28986,"relations":28985,"frame_origin_sample":0,"adjacent_displacement_samples":256,"temporal_aggregation":false,"candidate_selection":false,"thresholding":false,"pruning":false,"smoothing":false,"source_inference":false},
+  "availability":{"state_pair":{"available":28665,"unavailable":320},"signed_evolution":{"available":28665,"unavailable":320},"positive_rearticulation":{"available":28665,"unavailable":320},"negative_decay":{"available":28665,"unavailable":320},"unavailable_preserved_explicitly":true},
+  "reconstructible_evidence_fingerprints":{"spectral_state":"31f5a945d2011777dcc234da773fb288caa136b5a4e5261d8dbe83994decdf31","signed_evolution":"1fca538f737ee50bd458cfa1dceba4a926d2a3a48bb5c5d8783ba170bb604888","positive_rearticulation":"4947392d553d7b5e072a0d9a6f0058daf3ed0d10806ef907b96a54239def70ea","negative_decay":"688bb22f56405c73a4aa3c0bea486705bc96acd9e58254fce89c5a2da1840112"},
+  "relation_chain":{"repository_path":"pre_gt_run_1/relations.json","byte_size":7762454,"sha256":"974def4e1daa12f686508830ab309cc97ca7fe5d48d3a4d3bdb328bf86509747","fingerprint":"a5a685bfe8c5ddb38764b64712a38fac139c3592c0acb7bf0e4de4cd5264b31e"},
+  "authority":{"repository_path":"pre_gt_run_1/authority.json","byte_size":2114,"sha256":"0674ad11cef1e838680518c070ad289eb4c778ccd7fe45da97bf39fb51c5089c","fingerprint":"7b44e515d164853fc4f2301a436421719cb8cbd257dc0bd2b47481be5a6c712b"},
+  "fresh_process_replay":{"relation_chain":"BYTE_IDENTICAL","authority":"BYTE_IDENTICAL","all_reconstructible_evidence_fingerprints":"IDENTICAL"},
+  "pre_gt_fingerprint_method":"SHA-256 of jq -cS JSON after deleting pre_gt_fingerprint, including one trailing LF",
+  "pre_gt_fingerprint":"f5f8fbb5456735d086659ada34edfdc60f0aa0db044451c3056baf4d4a1568d9"
+}
