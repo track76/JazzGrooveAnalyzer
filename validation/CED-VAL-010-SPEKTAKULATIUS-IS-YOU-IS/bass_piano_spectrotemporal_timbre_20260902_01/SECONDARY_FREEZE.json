@@ -1,0 +1,17 @@
+{
+  "protocol_id": "H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01",
+  "protocol_fingerprint": "0504d3745ee1ab06cdab1ecb82efc1244f19c13ed112b9b89af0c92e5d153332",
+  "primary_freeze_commit": "ed55745",
+  "source": "05_BassMic.wav",
+  "population_count": 206,
+  "representation_fingerprint": "c5c528bdc10acd283c11ca03ff71686d337abd2642f239502138c74ea2d3b5d6",
+  "artifact_sha256": {
+    "secondary_episodes.json": "f08d57245394689651201b73d8c6000edc333af3f5b7300c1bd4644f50367d9e",
+    "secondary_measurements.json": "978daa2a1351c2d0fe830dc5beec0a331fa2d26e77033a10e0ce71ee845fbe9a",
+    "secondary_result.json": "f12a1be336e7ce8fad94f0926ebd5470b6f4d988503757fea4009ef65254d1d8"
+  },
+  "result_fingerprint": "51f670d37689d0cb95e43bbc0940aeb52e0c8e911181f5b5b057773c6956b6f7",
+  "complete_fresh_process_replay": "BYTE_IDENTICAL",
+  "decision_authority": "SECONDARY_NON_DECISIONAL",
+  "primary_classification_unchanged": "DISTINCT_TIMBRAL_STRUCTURE_OBSERVED"
+}

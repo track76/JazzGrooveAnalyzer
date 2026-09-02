@@ -334,13 +334,51 @@ def primary(out: Path) -> None:
     write_json(out / "primary_result.json", result)
 
 
+def secondary(out: Path, primary_dir: Path) -> None:
+    label = "BassMic"
+    audio, starts, power, representation_fingerprint = acquire(label, out)
+    episodes = construct_episodes({label: audio}, {label: starts}, {label: flux(power)}, [label])[label]
+    primary_episodes = json.loads((primary_dir / "primary_episodes.json").read_text())["sources"]
+    primary_blocks = {item["block_id"] for item in primary_episodes["BassDI"]}
+    episodes = [item for item in episodes if item["block_id"] in primary_blocks]
+    write_json(out / "secondary_episodes.json", {"protocol_id": PROTOCOL["protocol_id"], "source": label, "episodes": episodes})
+    positive = power[power > 0]
+    epsilon = max(np.finfo(np.float64).tiny, float(np.median(positive)) * 1e-12)
+    secondary_rows = measurements(label, audio, starts, power, episodes, epsilon)
+    write_json(out / "secondary_measurements.json", {"protocol_id": PROTOCOL["protocol_id"], "rows": {label: secondary_rows}})
+    primary_rows = json.loads((primary_dir / "primary_measurements.json").read_text())["rows"]
+    comparisons = {}
+    for other in ("Piano", "BassDI"):
+        combined = {label: secondary_rows, other: primary_rows[other]}
+        comparisons[f"BassMic_minus_{other}"] = summarize(combined, label, other)
+    result = {
+        "protocol_id": PROTOCOL["protocol_id"],
+        "protocol_fingerprint": PROTOCOL["protocol_fingerprint"],
+        "primary_result_fingerprint": json.loads((primary_dir / "primary_result.json").read_text())["result_fingerprint"],
+        "population_counts": {label: len(secondary_rows), "BassDI": len(primary_rows["BassDI"]), "Piano": len(primary_rows["Piano"])},
+        "representation_fingerprint": representation_fingerprint,
+        "epsilon": epsilon,
+        "comparisons": comparisons,
+        "decision_authority": "SECONDARY_NON_DECISIONAL",
+        "primary_classification_unchanged": json.loads((primary_dir / "primary_result.json").read_text())["classification"],
+    }
+    result["result_fingerprint"] = hashlib.sha256(canonical_bytes(result)).hexdigest()
+    write_json(out / "secondary_result.json", result)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=("primary",), default="primary")
+    parser.add_argument("--mode", choices=("primary", "secondary"), default="primary")
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--primary-dir", type=Path)
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
-    primary(args.output)
+    if args.mode == "primary":
+        primary(args.output)
+    else:
+        if args.primary_dir is None:
+            parser.error("--primary-dir is required for secondary mode")
+        secondary(args.output, args.primary_dir)
 
 
 if __name__ == "__main__":
