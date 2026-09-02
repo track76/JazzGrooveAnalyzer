@@ -1,0 +1,61 @@
+{
+  "authority_id": "ERA-H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01-v1",
+  "status": "AUTHORITATIVE_EXTERNAL_SCIENTIFIC_EVIDENCE",
+  "experiment_id": "H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01",
+  "protocol_fingerprint": "0504d3745ee1ab06cdab1ecb82efc1244f19c13ed112b9b89af0c92e5d153332",
+  "original_finalized_isolated_commit": "f09d707aa9f92a5bff475470cf33cc3b59260bc9",
+  "original_commit_relationship": "The original finalized isolated commit contains these exact three NPZ container bytes. It was never pushed. The corrected pushable history removes only these oversized Git blobs after verified external preservation; every lightweight experiment artifact remains byte-for-byte unchanged.",
+  "corrected_preservation_commit": "THE_COMMIT_CONTAINING_THIS_AUTHORITY_MANIFEST",
+  "history_correction_scope": "Only the three representation NPZ blobs listed below are removed from the unpushed commits descended from 7f7b478437b001a2c6f580ed71673979965de666. No already-pushed history is rewritten.",
+  "external_root_authority": "JGA_EXTERNAL_ROOT",
+  "external_storage_policy": "docs/TOOLCHAIN/EXTERNAL_STORAGE.md",
+  "representation_schema": {
+    "identity": "H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01-STFT-POWER-v1",
+    "container": "NumPy NPZ with members frame_starts, frequency_hz and power",
+    "frame_samples": 2048,
+    "hop_samples": 256,
+    "fft_size": 4096,
+    "window": "periodic Hann",
+    "centering": false,
+    "frequency_scope_hz": [0, 8000],
+    "canonical_dtype": "little-endian float64",
+    "generating_script": "validation/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/bass_piano_spectrotemporal_timbre_20260902_01/analyze.py"
+  },
+  "artifacts": [
+    {
+      "filename": "bassdi_representation.npz",
+      "original_repository_path": "validation/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/bass_piano_spectrotemporal_timbre_20260902_01/primary_run_1/bassdi_representation.npz",
+      "external_relative_path": "experiments/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01/finalized_f09d707/representations/bassdi_representation.npz",
+      "sha256": "0f8355b49666d87689b6b4903601b344046d3228ef2513669de15f187c3e7cb1",
+      "byte_size": 213231688,
+      "scientific_role": "Complete primary BassDI continuous time-frequency power representation",
+      "scientific_representation_fingerprint": "e221d8de17a11eabfffd604500bcb4d06cd4fc5184fc0742c1188a148e0f4c0e",
+      "generation_and_replay_provenance": "Generated deterministically by analyze.py under the frozen protocol; complete fresh-process primary replay was byte-identical as recorded by PRIMARY_FREEZE.json."
+    },
+    {
+      "filename": "piano_representation.npz",
+      "original_repository_path": "validation/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/bass_piano_spectrotemporal_timbre_20260902_01/primary_run_1/piano_representation.npz",
+      "external_relative_path": "experiments/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01/finalized_f09d707/representations/piano_representation.npz",
+      "sha256": "46d7e49bec9036c6fc9d496736e5d7a77148dad68a70433c17528fb6d0698697",
+      "byte_size": 213231688,
+      "scientific_role": "Complete primary Piano continuous time-frequency power representation",
+      "scientific_representation_fingerprint": "b64ed674574c26153f78a0a107e727cd150eebff1bb700db39d54892887615c4",
+      "generation_and_replay_provenance": "Generated deterministically by analyze.py under the frozen protocol; complete fresh-process primary replay was byte-identical as recorded by PRIMARY_FREEZE.json."
+    },
+    {
+      "filename": "bassmic_representation.npz",
+      "original_repository_path": "validation/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/bass_piano_spectrotemporal_timbre_20260902_01/secondary_run_1/bassmic_representation.npz",
+      "external_relative_path": "experiments/CED-VAL-010-SPEKTAKULATIUS-IS-YOU-IS/H-CEDVAL010-BASS-PIANO-SPECTROTEMPORAL-TIMBRE-01/finalized_f09d707/representations/bassmic_representation.npz",
+      "sha256": "4860dd6016795eef50aadc9ce744eb9225a086d6cdf7571c40b9251e8400a169",
+      "byte_size": 213231688,
+      "scientific_role": "Complete SECONDARY / NON-DECISIONAL BassMic continuous time-frequency power representation",
+      "scientific_representation_fingerprint": "c5c528bdc10acd283c11ca03ff71686d337abd2642f239502138c74ea2d3b5d6",
+      "generation_and_replay_provenance": "Generated only after primary freeze by analyze.py under the frozen protocol; complete fresh-process secondary replay was byte-identical as recorded by SECONDARY_FREEZE.json; it cannot alter the primary result."
+    }
+  ],
+  "external_authority_statement": "Each externally located file listed here is authoritative scientific evidence. It is intentionally not stored as a Git blob because its 213231688-byte size exceeds repository hosting limits. Git preserves its exact identity, location, scientific role, schema, provenance and deterministic reconstruction authority.",
+  "copy_integrity_verification": "Before history correction, each external file was compared byte-for-byte with its f09d707 working-tree artifact using cmp and independently verified by SHA-256 and byte size.",
+  "primary_result_fingerprint": "bde797f90f556213fd0aa9cd9b46d02ae04be4c961f80d6dc978846a1e1ff40d",
+  "secondary_result_fingerprint": "51f670d37689d0cb95e43bbc0940aeb52e0c8e911181f5b5b057773c6956b6f7",
+  "scientific_firewall": "Externalization changes storage only. It does not change scientific content, classifications, decision authority, measurements, results, limitations or firewalls. BassMic remains SECONDARY / NON-DECISIONAL."
+}
