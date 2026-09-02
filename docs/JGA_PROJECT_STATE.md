@@ -1,5 +1,24 @@
 # JGA Project State
 
+## JGA v1.0 Scientific Scope and Bass-Research Freeze
+
+Status: **LOCKED SCOPE — BASS BRANCH STOPPED**
+
+- JGA v1.0 focuses on quantitative observation of timing relationships within
+  the jazz rhythm section for reconstructing the historical evolution of jazz
+  timing.
+- Primary v1.0 analytical scope is Drums, Double Bass and Piano. Voice / Lead
+  Vocal and lead/solo instruments are outside v1.0 scope. Inclusion does not
+  imply equal validation status or automatic analytical-role assignment.
+- The Bass-recovery branch is frozen at `STOP — MAXIMUM DEFENSIBLE OBSERVATION
+  BOUNDARY REACHED WITH CURRENT CED DATASETS AND REPRESENTATIONS`.
+- No production change is authorized. Reopening requires genuinely new
+  scientific evidence or authority.
+- Authorities: [v1.0 scope decision](scientific/JGA_V1_SCIENTIFIC_SCOPE_DECISION.md),
+  [Bass synthesis](../validation/BASS-RECOVERY-EVIDENCE-SYNTHESIS-20260902/BASS_RESEARCH_SYNTHESIS.md),
+  [authority-gap audit](../validation/BASS-RECOVERY-EVIDENCE-SYNTHESIS-20260902/AUTHORITY_GAP_AUDIT.md),
+  and [branch freeze](../validation/BASS-RECOVERY-EVIDENCE-SYNTHESIS-20260902/BRANCH_FREEZE.md).
+
 ## First Scientifically Usable Release Gate
 
 Status: **PASS — v0.3.0-alpha**
