@@ -246,9 +246,16 @@ class AnalysisPipeline:
         declared_quarter_phase_origin: DeclaredQuarterPhaseOrigin | None = None,
         declared_analysis_scope: DeclaredAnalysisScope | None = None,
         declared_meter: DeclaredMeter | None = None,
+        *,
+        source_authority_id: str | None = None,
+        source_instance_key: str | None = None,
+        expected_sha256: str | None = None,
     ) -> AnalysisContext:
 
-        audio = self.loader.load(filepath)
+        audio = self.loader.load(
+            filepath, source_authority_id=source_authority_id,
+            source_instance_key=source_instance_key, expected_sha256=expected_sha256,
+        )
 
         context = AnalysisContext(
             audio=audio,

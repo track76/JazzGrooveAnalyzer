@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime
+from uuid import UUID, uuid4
 
 from jga.source_understanding.instrument_classification import (
     InstrumentClassification,
@@ -23,12 +24,14 @@ def make_observed_sources(
     stem_id: str = "bass",
     family: InstrumentFamily = InstrumentFamily.BASS,
     instrument: str = "Double Bass",
+    source_identity: UUID | None = None,
 ) -> ObservedSourceCollection:
     """
     Canonical test builder for semantic observations.
     """
 
     observed = ObservedSource(
+        source_identity=source_identity if source_identity is not None else uuid4(),
         stem_id=stem_id,
         classification=InstrumentClassification(
             family=family,

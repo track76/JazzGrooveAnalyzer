@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from datetime import datetime
-from uuid import uuid5, NAMESPACE_URL
 
 from jga.domain.sound_source import SoundSource
 from jga.source_understanding.observed_source_collection import (
@@ -25,7 +24,7 @@ class DummySemanticBridge(SemanticBridge):
 
         return tuple(
             SoundSource(
-                id=uuid5(NAMESPACE_URL, source.stem_id),
+                id=source.source_identity,
                 name=source.stem_id,
                 family=source.classification.family.value,
                 description=None,

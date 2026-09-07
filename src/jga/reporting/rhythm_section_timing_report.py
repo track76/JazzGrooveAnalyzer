@@ -20,6 +20,8 @@ class AuthorizedSourceInput:
     label: str
     role: AnalyticalRole
     expected_sha256: str | None = None
+    source_authority_id: str | None = None
+    source_instance_key: str | None = None
 
 
 @dataclass(frozen=True, slots=True)

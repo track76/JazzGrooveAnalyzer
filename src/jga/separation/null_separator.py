@@ -40,6 +40,8 @@ class NullSeparator(BaseSeparator):
     ) -> AnalysisContext:
 
         stem = AudioStem(
+            id=context.audio.source_identity,
+            source_identity_rule=context.audio.source_identity_rule,
             name="Mix",
             signal=context.processed_audio,
             sample_rate=context.audio.sample_rate,

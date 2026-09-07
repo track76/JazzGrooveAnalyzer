@@ -32,7 +32,7 @@ from jga.reporting.rhythm_section_timing_report import (
 
 
 SCHEMA_ID = "JGA_RHYTHM_SECTION_TIMING_REPORT_V1"
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 ROLE_RULE = "caller-authorized-analytical-role/v1"
 FINGERPRINT_RULE = "sha256-canonical-json-scientific-content/v1"
 FRAME_COORDINATE_RULE = "verified-timestamp-frame-roundtrip/v1"
@@ -108,7 +108,12 @@ class RhythmSectionTimingReportService:
         for source in ordered_sources:
             authority = self._source_authority(source)
             try:
-                context = self._pipeline_factory().analyze(str(authority["path_used"]))
+                context = self._pipeline_factory().analyze(
+                    str(authority["path_used"]),
+                    source_authority_id=source.source_authority_id,
+                    source_instance_key=source.source_instance_key,
+                    expected_sha256=source.expected_sha256,
+                )
             except Exception as exc:
                 raise RhythmSectionTimingReportError(
                     f"SOURCE_ANALYSIS_FAILURE:{source.label}:{type(exc).__name__}:{exc}"
@@ -134,6 +139,13 @@ class RhythmSectionTimingReportService:
                     f"AMBIGUOUS_EME_TEMPORAL_SCOPE:{source.label}"
                 )
             source_id = next(iter(source_ids))
+            if (source_id != context.audio.source_identity
+                    or context.audio.source_identity_rule != "jga-direct-input-source-identity/v1"
+                    or any(stem.id != source_id or stem.source_identity_rule != context.audio.source_identity_rule
+                           for stem in context.audio_stems)):
+                raise RhythmSectionTimingReportError("AD041_UNAUTHORIZED_SOURCE_IDENTITY")
+            if any(item["source_identity"] == str(source_id) for item in authorities):
+                raise RhythmSectionTimingReportError("AD041_SOURCE_IDENTITY_COLLISION")
             scope = next(iter(temporal_scopes))
             assignment_id = uuid5(
                 NAMESPACE_URL,
@@ -166,6 +178,9 @@ class RhythmSectionTimingReportService:
             )
             observation_records = self._observation_records(context, source.label)
             authority["source_identity"] = str(source_id)
+            authority["source_authority_id"] = source.source_authority_id
+            authority["source_instance_key"] = source.source_instance_key
+            authority["source_identity_rule"] = context.audio.source_identity_rule
             authority["technical_audio"] = {
                 "format": context.audio.format,
                 "sample_rate_hz": context.audio.sample_rate,
@@ -252,7 +267,13 @@ class RhythmSectionTimingReportService:
                 )
             ],
             "ad038_localizations": [
-                self._localization_record(item) for item in localizations
+                {
+                    **self._localization_record(item),
+                    "target_asset_sha256": next(
+                        event.source_asset_sha256 for event in target_events
+                        if event.id == item.target_eme_id
+                    ),
+                } for item in localizations
             ],
             "ad040_profile": self._profile_record(profile),
             "scientific_status": {
@@ -271,6 +292,15 @@ class RhythmSectionTimingReportService:
                 },
                 "timestamp_correction": "NONE",
                 "unsupported_claims": FIREWALL,
+                "analyzable_only_contract": {
+                    "meaning": "Temporal geometry of ANALYZABLE observations relative to the authorized Drum reference.",
+                    "complete_performance_coverage_claimed": False,
+                    "missing_events_reconstructed": False,
+                    "not_analyzable_timing_inferred": False,
+                    "missing_evidence_is_musical_absence": False,
+                    "tactus_inferred": False,
+                    "non_null_separator_ad041_status": "DEFERRED_SEPARATION_AUTHORITY_NOT_ESTABLISHED",
+                },
             },
             "fingerprint_rule": FINGERPRINT_RULE,
         }
@@ -315,6 +345,9 @@ class RhythmSectionTimingReportService:
             )
         if not any(item.role == "ACCOMPANIMENT" for item in sources):
             raise RhythmSectionTimingReportError("MISSING_ACCOMPANIMENT_AUTHORITY")
+        if any(not item.source_authority_id or not item.source_instance_key
+               or not item.expected_sha256 for item in sources):
+            raise RhythmSectionTimingReportError("AD041_MISSING_DIRECT_INPUT_AUTHORITY")
 
     @staticmethod
     def _source_authority(source: AuthorizedSourceInput) -> dict:
@@ -365,6 +398,8 @@ class RhythmSectionTimingReportService:
                     "producer_frame": frame,
                     "producer_sample_coordinate": sample,
                     "timestamp_seconds": candidate.timestamp,
+                    "strength": candidate.strength,
+                    "confidence": candidate.confidence,
                     "observation_index": candidate.observation_index,
                     "observation_provenance_id": candidate.observation_provenance_id,
                     "frame_coordinate_rule": FRAME_COORDINATE_RULE,
@@ -395,6 +430,7 @@ class RhythmSectionTimingReportService:
             "eme_id": str(item.eme_id),
             "source_identity": str(item.sound_source_id),
             "timestamp_seconds": item.timestamp_seconds,
+            "timestamp_ms": item.timestamp_seconds * 1000.0,
             "supporting_pulse_candidate_ids": tuple(
                 str(lineage.pulse_candidate_id) for lineage in item.supporting_observations
             ),
@@ -406,15 +442,23 @@ class RhythmSectionTimingReportService:
             "target_eme_id": str(item.target_eme_id),
             "target_source_identity": str(item.target_sound_source_id),
             "target_timestamp_seconds": item.target_timestamp_seconds,
+            "target_timestamp_ms": item.target_timestamp_seconds * 1000.0,
             "preceding_reference": cls._drum_reference_record(item.preceding_drum_eme),
             "following_reference": cls._drum_reference_record(item.following_drum_eme),
             "nearest_reference": cls._drum_reference_record(item.nearest_drum_eme),
             "distance_from_preceding_seconds": item.distance_from_preceding_seconds,
+            "distance_from_preceding_ms": item.distance_from_preceding_ms,
             "distance_from_following_seconds": item.distance_from_following_seconds,
+            "distance_from_following_ms": item.distance_from_following_ms,
             "nearest_displacement_seconds": item.nearest_displacement_seconds,
+            "nearest_displacement_ms": item.nearest_displacement_ms,
             "nearest_absolute_displacement_seconds": (
                 None if item.nearest_displacement_seconds is None
                 else abs(item.nearest_displacement_seconds)
+            ),
+            "nearest_absolute_displacement_ms": (
+                None if item.nearest_displacement_seconds is None
+                else abs(item.nearest_displacement_seconds) * 1000.0
             ),
             "nearest_selection_status": item.nearest_selection_status,
             "observed_interval_fraction": item.observed_interval_fraction,

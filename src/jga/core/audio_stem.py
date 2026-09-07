@@ -17,7 +17,7 @@ All Rights Reserved.
 """
 
 from dataclasses import dataclass, field
-from uuid import UUID, uuid5, NAMESPACE_URL
+from uuid import UUID, uuid4
 
 import numpy as np
 
@@ -44,12 +44,7 @@ class AudioStem:
     confidence: float = 1.0
 
     # Identità stabile della sorgente
-    id: UUID = field(
-        init=False
-    )
-
-    def __post_init__(self) -> None:
-        self.id = uuid5(
-            NAMESPACE_URL,
-            self.name,
-        )
+    # Compatibility objects are execution-local and explicitly unauthorized.
+    # No name-derived identity fallback is permitted by AD-041.
+    id: UUID = field(default_factory=uuid4)
+    source_identity_rule: str = "UNAUTHORIZED"

@@ -14,6 +14,9 @@ All Rights Reserved.
 """
 
 from pathlib import Path
+from hashlib import sha256
+import json
+from uuid import NAMESPACE_URL, uuid5
 
 import librosa
 
@@ -39,7 +42,30 @@ class FileAudioSource:
     l'oggetto AudioFile utilizzato dal JGA.
     """
 
-    def load(self, filepath: str) -> AudioFile:
+    def load(
+        self, filepath: str, *, source_authority_id: str | None = None,
+        source_instance_key: str | None = None,
+        expected_sha256: str | None = None,
+    ) -> AudioFile:
+
+        identity = {}
+        if source_authority_id is not None or source_instance_key is not None:
+            if any(not isinstance(value, str) or not value.strip()
+                   for value in (source_authority_id, source_instance_key)):
+                raise ValueError("AD041_MISSING_DIRECT_INPUT_AUTHORITY")
+            if (not isinstance(expected_sha256, str) or len(expected_sha256) != 64
+                    or any(c not in "0123456789abcdef" for c in expected_sha256)):
+                raise ValueError("AD041_MISSING_ASSET_BINDING")
+            rule = "jga-direct-input-source-identity/v1"
+            identity = dict(
+                source_identity=uuid5(NAMESPACE_URL, json.dumps({
+                    "rule": rule, "source_authority_id": source_authority_id,
+                    "source_instance_key": source_instance_key,
+                }, sort_keys=True, separators=(",", ":"))),
+                source_authority_id=source_authority_id,
+                source_instance_key=source_instance_key,
+                source_identity_rule=rule,
+            )
 
         path = Path(filepath)
 
@@ -52,6 +78,14 @@ class FileAudioSource:
             raise ValueError(
                 f"\nFormato non supportato: {path.suffix}"
             )
+
+        with path.open("rb") as stream:
+            digest = sha256()
+            for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                digest.update(chunk)
+        asset_sha256 = digest.hexdigest()
+        if expected_sha256 is not None and expected_sha256 != asset_sha256:
+            raise ValueError("AD041_ASSET_BINDING_MISMATCH")
 
         raw_audio, sample_rate = librosa.load(
             path,
@@ -72,7 +106,9 @@ class FileAudioSource:
             sample_rate=sample_rate,
             duration=duration,
             channels=channels,
-            format=path.suffix.lower().replace(".", "")
+            format=path.suffix.lower().replace(".", ""),
+            asset_sha256=asset_sha256,
+            **identity,
         )
 
 

@@ -13,8 +13,9 @@ All Rights Reserved.
 =========================================================
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
+from uuid import UUID, uuid4
 
 import numpy as np
 
@@ -43,6 +44,13 @@ class AudioFile:
 
     # Formato del file
     format: str
+
+    # Unbound legacy inputs have execution-local identity only, never AD-041 authority.
+    source_identity: UUID = field(default_factory=uuid4)
+    source_authority_id: str | None = None
+    source_instance_key: str | None = None
+    asset_sha256: str | None = None
+    source_identity_rule: str = "UNAUTHORIZED"
 
     @property
     def filename(self) -> str:

@@ -64,7 +64,7 @@ class Tau8Translator:
                 (
                     item
                     for item in sound_sources
-                    if item.name == sequence.source.name
+                    if item.id == sequence.source.source_id
                 ),
                 None,
             )

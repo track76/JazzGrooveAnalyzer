@@ -39,6 +39,13 @@ def analyze(filename: str, checksum: str):
     )
     return AnalysisPipeline().analyze(
         f"recordings/validation/stems/{filename}",
+        # Opaque test-only instance bindings; not a new VAL-001 scientific authority.
+        source_authority_id="TEST-AD037-DIRECT-INPUT-FIXTURES-V1",
+        source_instance_key={
+            "drums.wav": "FIXTURE_001", "piano.wav": "FIXTURE_002",
+            "double_bass.wav": "FIXTURE_003", "tenor_sax.wav": "FIXTURE_004",
+        }[filename],
+        expected_sha256=checksum,
         declared_metric_reference=DeclaredMetricReference(
             Decimal("78"), "quarter", tempo_provenance
         ),

@@ -55,9 +55,13 @@ def build_parser() -> argparse.ArgumentParser:
         action="append",
         default=[],
         type=_checksum,
-        help="optional repeat LABEL=SHA256 source-authority gate",
+        help="repeat LABEL=SHA256; required checksum binding for every direct input",
     )
     parser.add_argument("--execution-id", required=True)
+    parser.add_argument(
+        "--source-identity", action="append", default=[],
+        help="repeat LABEL=SOURCE_AUTHORITY_ID=SOURCE_INSTANCE_KEY; opaque caller-issued binding",
+    )
     parser.add_argument("--provenance-id", required=True)
     parser.add_argument("--role-authority-id", required=True)
     parser.add_argument("--role-authority-fingerprint", required=True)
@@ -80,6 +84,16 @@ def main(argv: list[str] | None = None) -> int:
         print("ERROR:DUPLICATE_EXPECTED_CHECKSUM_LABEL", file=sys.stderr)
         return 2
     known_labels = {item.label for item in args.source}
+    identities = {}
+    for binding in args.source_identity:
+        parts = binding.split("=", 2)
+        if len(parts) != 3 or not all(parts) or parts[0] in identities or parts[0] not in known_labels:
+            print("ERROR:INVALID_OR_DUPLICATE_SOURCE_IDENTITY_BINDING", file=sys.stderr)
+            return 2
+        identities[parts[0]] = parts[1:]
+    if set(identities) != known_labels:
+        print("ERROR:AD041_MISSING_DIRECT_INPUT_AUTHORITY", file=sys.stderr)
+        return 2
     unknown = sorted(set(expected) - known_labels)
     if unknown:
         print(f"ERROR:CHECKSUM_LABEL_WITHOUT_SOURCE:{unknown[0]}", file=sys.stderr)
@@ -90,6 +104,8 @@ def main(argv: list[str] | None = None) -> int:
             label=item.label,
             role=item.role,
             expected_sha256=expected.get(item.label),
+            source_authority_id=identities[item.label][0],
+            source_instance_key=identities[item.label][1],
         )
         for item in args.source
     )

@@ -1,4 +1,5 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from uuid import UUID, uuid4
 
 from jga.source_understanding.instrument_classification import (
     InstrumentClassification,
@@ -20,3 +21,5 @@ class ObservedSource:
     stem_id: str
     classification: InstrumentClassification
     provenance: ObservationProvenance
+    source_identity: UUID = field(default_factory=uuid4)
+    source_identity_rule: str = "UNAUTHORIZED"

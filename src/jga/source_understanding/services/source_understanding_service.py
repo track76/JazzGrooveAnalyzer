@@ -35,6 +35,8 @@ class SourceUnderstandingService:
 
             observed_sources.append(
                 ObservedSource(
+                    source_identity=stem.id,
+                    source_identity_rule=stem.source_identity_rule,
                     stem_id=stem.name,
                     classification=classification,
                     provenance=ObservationProvenance(

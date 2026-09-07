@@ -26,7 +26,14 @@ AUTHORITY = {
 
 
 def source(path, label, role, expected_sha256=None):
-    return AuthorizedSourceInput(path, label, role, expected_sha256)
+    # Explicit fixture bindings; label is not an identity input.
+    digest, key = (
+        ("31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5", "VAL001_SOURCE_003")
+        if path == BASS else
+        ("d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd", "VAL001_SOURCE_001")
+    )
+    return AuthorizedSourceInput(path, label, role, expected_sha256 or digest,
+                                 "VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1", key)
 
 
 @pytest.mark.parametrize(
@@ -113,7 +120,7 @@ def test_empty_eme_population_is_a_bounded_failure():
         elementary_metric_events = ()
 
     class EmptyPipeline:
-        def analyze(self, _):
+        def analyze(self, _, **kwargs):
             return EmptyContext()
 
     sources = (

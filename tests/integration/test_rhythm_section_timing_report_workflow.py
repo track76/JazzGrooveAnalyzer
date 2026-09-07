@@ -24,8 +24,8 @@ CALIBRATION_AUTHORITY = {
 
 def inputs():
     return (
-        AuthorizedSourceInput(DRUMS, "Drums", "TEMPORAL_REFERENCE"),
-        AuthorizedSourceInput(BASS, "Double Bass", "ACCOMPANIMENT"),
+        AuthorizedSourceInput(DRUMS, "Drums", "TEMPORAL_REFERENCE", "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd", "VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1", "VAL001_SOURCE_001"),
+        AuthorizedSourceInput(BASS, "Double Bass", "ACCOMPANIMENT", "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5", "VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1", "VAL001_SOURCE_003"),
     )
 
 
@@ -59,7 +59,7 @@ def test_complete_workflow_replays_exactly_and_preserves_firewalls():
     assert fingerprint == first.scientific_fingerprint
     assert document["schema"] == {
         "id": "JGA_RHYTHM_SECTION_TIMING_REPORT_V1",
-        "version": 1,
+        "version": 2,
     }
     profile = document["ad040_profile"]
     assert profile["temporal_reference_eme_count"] == 63
@@ -94,6 +94,16 @@ def test_complete_workflow_replays_exactly_and_preserves_firewalls():
         for records in document["observations"].values()
         for item in records
     )
+    for item in document["ad038_localizations"]:
+        for seconds_key, milliseconds_key in (
+            ("distance_from_preceding_seconds", "distance_from_preceding_ms"),
+            ("distance_from_following_seconds", "distance_from_following_ms"),
+            ("nearest_displacement_seconds", "nearest_displacement_ms"),
+        ):
+            seconds = item[seconds_key]
+            assert item[milliseconds_key] == (
+                None if seconds is None else seconds * 1000.0
+            )
 
 
 def test_cli_writes_the_canonical_json_report(tmp_path):
@@ -102,6 +112,10 @@ def test_cli_writes_the_canonical_json_report(tmp_path):
         [
             "--source", f"TEMPORAL_REFERENCE=Drums={DRUMS}",
             "--source", f"ACCOMPANIMENT=Double Bass={BASS}",
+            "--source-identity", "Drums=VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1=VAL001_SOURCE_001",
+            "--source-identity", "Double Bass=VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1=VAL001_SOURCE_003",
+            "--expected-sha256", "Drums=d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+            "--expected-sha256", "Double Bass=31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
             "--execution-id", "CONTROLLED-REPORT-CLI-001",
             "--provenance-id", "VAL-001-CONTROLLED-STEMS",
             "--role-authority-id", "AD-040-CONTROLLED-ROLE-AUTHORITY",
@@ -124,6 +138,10 @@ def test_cli_writes_the_canonical_json_report(tmp_path):
         [
             "--source", f"TEMPORAL_REFERENCE=Drums={DRUMS}",
             "--source", f"ACCOMPANIMENT=Double Bass={BASS}",
+            "--source-identity", "Drums=VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1=VAL001_SOURCE_001",
+            "--source-identity", "Double Bass=VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1=VAL001_SOURCE_003",
+            "--expected-sha256", "Drums=d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+            "--expected-sha256", "Double Bass=31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5",
             "--execution-id", "CONTROLLED-REPORT-CLI-001",
             "--provenance-id", "VAL-001-CONTROLLED-STEMS",
             "--role-authority-id", "AD-040-CONTROLLED-ROLE-AUTHORITY",

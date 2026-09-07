@@ -71,6 +71,7 @@ def test_m4_complete_domain_translation_flow():
         source=MetricSource(
             name="bass",
             family="strings",
+            source_id=stem.id,
         ),
         pulse_candidates=[
             candidate,
@@ -80,7 +81,7 @@ def test_m4_complete_domain_translation_flow():
     context = AnalysisContext(
         audio=None,
         observed_sources=make_observed_sources(
-            stem_id=stem.name
+            stem_id=stem.name, source_identity=stem.id
         ),
         audio_stems=AudioStemCollection(
             (
@@ -138,6 +139,7 @@ def test_m4_metric_source_sound_source_contract():
         source=MetricSource(
             name="Mix",
             family="unknown",
+            source_id=stem.id,
         ),
         pulse_candidates=[
             candidate,
@@ -147,7 +149,7 @@ def test_m4_metric_source_sound_source_contract():
     context = AnalysisContext(
         audio=None,
         observed_sources=make_observed_sources(
-            stem_id=stem.name
+            stem_id=stem.name, source_identity=stem.id
         ),
         audio_stems=AudioStemCollection(
             (

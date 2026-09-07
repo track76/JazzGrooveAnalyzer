@@ -14,12 +14,13 @@ from jga.domain.pulse_candidate import PulseCandidate
 from jga.translation.tau8_translator import Tau8Translator
 
 
-def create_metric_context():
+def create_metric_context(source_id=None):
 
     sequence = SourcePulseSequence(
         source=MetricSource(
             name="bass",
             family="strings",
+            source_id=source_id,
         ),
         pulse_candidates=[
             CorePulseCandidate(
@@ -97,7 +98,7 @@ def test_tau8_creates_domain_pulse_candidate():
     source = create_sound_source()
 
     result = translator.translate(
-        create_metric_context(),
+        create_metric_context(source.id),
         (source,),
     )
 
@@ -136,8 +137,9 @@ def test_tau8_preserves_multiple_source_provenance():
         source_pulse_sequences=(
             SourcePulseSequence(
                 source=MetricSource(
-                    name="bass",
+                    name="Mix",
                     family="strings",
+                    source_id=bass.id,
                 ),
                 pulse_candidates=[
                     CorePulseCandidate(
@@ -149,8 +151,9 @@ def test_tau8_preserves_multiple_source_provenance():
             ),
             SourcePulseSequence(
                 source=MetricSource(
-                    name="trumpet",
+                    name="Mix",
                     family="brass",
+                    source_id=trumpet.id,
                 ),
                 pulse_candidates=[
                     CorePulseCandidate(
