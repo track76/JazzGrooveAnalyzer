@@ -1,5 +1,20 @@
 # JGA Project State
 
+## Prospective AD-041 direct-input continuation — 2026-09-07
+
+Observed result: the [controlled VAL-001 direct-input acceptance](../validation/VAL-001/ad041_direct_input_acceptance_20260907/SUMMARY.md)
+preserves the exact 63 / 49 / 27 EME populations and 76 GEOMETRIC_ONLY
+relationships under corrected source provenance. Canonical schema version 2
+adds deterministic millisecond projections and the explicit ANALYZABLE-only
+contract. The [protocol](../validation/VAL-001/ad041_direct_input_acceptance_20260907/PROTOCOL.md)
+records the user-resolved stale-bootstrap conflict and authoritative baseline.
+
+Direct-input AD-041 is implemented. Derived identity for non-null separators is
+deferred because separator authority is not yet established; no AD-041
+authorization is claimed for those paths. Earlier release and milestone records
+below retain their historical scope and fingerprints. The direct-input work
+does not reopen Bass recovery, JTD or BPM research.
+
 ## JGA v1.0 Scientific Scope and Bass-Research Freeze
 
 Status: **LOCKED SCOPE — BASS BRANCH STOPPED**

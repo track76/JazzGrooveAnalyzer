@@ -1,0 +1,22 @@
+........................................................................ [  9%]
+........................................................................ [ 19%]
+........................................................................ [ 28%]
+........................................................................ [ 38%]
+........................................................................ [ 48%]
+........................................................................ [ 57%]
+........................................................................ [ 67%]
+........................................................................ [ 77%]
+........................................................................ [ 86%]
+........................................................................ [ 96%]
+...........................                                              [100%]
+=============================== warnings summary ===============================
+tests/analysis_representation/test_completed_analysis_materializer.py::test_materializes_real_completed_analysis_with_provenance
+  /Users/StarTrack/Development/JazzGrooveAnalyzer/.venv/lib/python3.13/site-packages/audioread/rawread.py:16: DeprecationWarning: aifc was removed in Python 3.13. Please be aware that you are currently NOT using standard 'aifc', but instead a separately installed 'standard-aifc'.
+    import aifc
+
+tests/analysis_representation/test_completed_analysis_materializer.py::test_materializes_real_completed_analysis_with_provenance
+  /Users/StarTrack/Development/JazzGrooveAnalyzer/.venv/lib/python3.13/site-packages/audioread/rawread.py:19: DeprecationWarning: sunau was removed in Python 3.13. Please be aware that you are currently NOT using standard 'sunau', but instead a separately installed 'standard-sunau'.
+    import sunau
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+747 passed, 2 warnings in 30.96s

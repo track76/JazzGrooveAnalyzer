@@ -2,6 +2,30 @@
 
 Status: PROPOSED CLARIFICATION — NOT IMPLEMENTED
 
+## Prospective direct-input implementation — 2026-09-07
+
+The status above records the original clarification. The user subsequently
+authorized the direct-input/NullSeparator implementation and controlled VAL-001
+acceptance in the [prospective continuation protocol](../../validation/VAL-001/ad041_direct_input_acceptance_20260907/PROTOCOL.md).
+Direct-input identity is now assigned by `FileAudioSource` from the explicit
+authority ID and opaque instance key, with an independently verified asset
+binding. `AudioFile`, `NullSeparator`, `AudioStem`, Source Understanding and the
+semantic bridge preserve that identity; Tau8 joins by source UUID.
+
+AD-041 DERIVED IDENTITY FOR NON-NULL SEPARATORS:
+DEFERRED — SEPARATOR AUTHORITY NOT YET ESTABLISHED.
+
+Compatibility objects without a binding carry execution-local UUIDs and the
+explicit identity rule `UNAUTHORIZED`. These identifiers are not deterministic
+AD-041 source identities and provide no scientific authorization. No name-derived
+fallback remains. The canonical direct-input report requires bound inputs and
+rejects missing authority, identity collisions and non-preserved identities.
+No separated-output identity is authorized or validated by this implementation.
+
+The original decision and historical identity rules below remain historical
+authority; their reports and fingerprints are not rewritten. Current validation
+is recorded in the [acceptance result](../../validation/VAL-001/ad041_direct_input_acceptance_20260907/result.json).
+
 ## Decision Scope
 
 This decision defines provenance identity only. It clarifies the identity of
