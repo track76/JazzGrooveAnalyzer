@@ -52,6 +52,8 @@ class AudioFile:
     asset_sha256: str | None = None
     source_identity_rule: str = "UNAUTHORIZED"
 
+    transformation_provenance: dict | None = None
+
     @property
     def filename(self) -> str:
         return self.path.name

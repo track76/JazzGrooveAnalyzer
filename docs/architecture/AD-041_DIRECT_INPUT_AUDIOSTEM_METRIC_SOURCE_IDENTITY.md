@@ -1,5 +1,15 @@
 # AD-041 — Direct-Input AudioStem and Metric Source Identity
 
+## Prospective htdemucs_6s continuation — 2026-09-07
+
+The PI subsequently authorized one frozen six-source Demucs configuration and
+the historical per-file stereo preparation. Its implemented, conditional
+operational acceptance is recorded in
+[AD-041 htdemucs_6s operational binding](AD-041_HTDEMUCS6S_OPERATIONAL_BINDING.md).
+The non-null deferral recorded below remains historical and still applies to
+configurations without their own authority. Historical identities and evidence
+are unchanged.
+
 Status: PROPOSED CLARIFICATION — NOT IMPLEMENTED
 
 ## Prospective direct-input implementation — 2026-09-07

@@ -257,6 +257,17 @@ class AnalysisPipeline:
             source_instance_key=source_instance_key, expected_sha256=expected_sha256,
         )
 
+        return self.analyze_audio(
+            audio, declared_metric_reference, declared_quarter_phase_origin,
+            declared_analysis_scope, declared_meter,
+        )
+
+    def analyze_audio(
+        self, audio, declared_metric_reference=None,
+        declared_quarter_phase_origin=None, declared_analysis_scope=None,
+        declared_meter=None,
+    ) -> AnalysisContext:
+        """Analyze an acquired audio object without reconstructing source identity."""
         context = AnalysisContext(
             audio=audio,
             declared_metric_reference=declared_metric_reference,

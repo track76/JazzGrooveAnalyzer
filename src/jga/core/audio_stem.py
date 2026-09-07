@@ -48,3 +48,7 @@ class AudioStem:
     # No name-derived identity fallback is permitted by AD-041.
     id: UUID = field(default_factory=uuid4)
     source_identity_rule: str = "UNAUTHORIZED"
+
+    asset_sha256: str | None = None
+    asset_path: str | None = None
+    transformation_provenance: dict | None = None

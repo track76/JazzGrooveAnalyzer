@@ -80,6 +80,7 @@ class RhythmSectionTimingReportService:
         calibration_authority_id: str,
         calibration_authority_fingerprint: str,
         jga_revision: str,
+        _contexts: dict | None = None,
     ) -> RhythmSectionTimingReport:
         self._validate_invocation(
             sources,
@@ -108,12 +109,17 @@ class RhythmSectionTimingReportService:
         for source in ordered_sources:
             authority = self._source_authority(source)
             try:
-                context = self._pipeline_factory().analyze(
-                    str(authority["path_used"]),
-                    source_authority_id=source.source_authority_id,
-                    source_instance_key=source.source_instance_key,
-                    expected_sha256=source.expected_sha256,
-                )
+                if source.separation_provenance is not None:
+                    if _contexts is None:
+                        raise ValueError("Separated sources require production analysis contexts")
+                    context = _contexts[source.label]
+                else:
+                    context = self._pipeline_factory().analyze(
+                        str(authority["path_used"]),
+                        source_authority_id=source.source_authority_id,
+                        source_instance_key=source.source_instance_key,
+                        expected_sha256=source.expected_sha256,
+                    )
             except Exception as exc:
                 raise RhythmSectionTimingReportError(
                     f"SOURCE_ANALYSIS_FAILURE:{source.label}:{type(exc).__name__}:{exc}"
@@ -140,10 +146,21 @@ class RhythmSectionTimingReportService:
                 )
             source_id = next(iter(source_ids))
             if (source_id != context.audio.source_identity
-                    or context.audio.source_identity_rule != "jga-direct-input-source-identity/v1"
+                    or context.audio.source_identity_rule != (
+                        "jga-separated-source-identity/v1" if source.separation_provenance
+                        else "jga-direct-input-source-identity/v1")
                     or any(stem.id != source_id or stem.source_identity_rule != context.audio.source_identity_rule
                            for stem in context.audio_stems)):
                 raise RhythmSectionTimingReportError("AD041_UNAUTHORIZED_SOURCE_IDENTITY")
+            if source.separation_provenance is not None:
+                from jga.separation.authorized_demucs import separated_identity
+                lineage = source.separation_provenance
+                if (source_id != separated_identity(lineage["parent_source_identity"],
+                        lineage["separator_authority_id"], lineage["output_source_key"])
+                        or context.audio.asset_sha256 != authority["sha256"]
+                        or context.audio.transformation_provenance != lineage):
+                    raise RhythmSectionTimingReportError("AD041_SEPARATED_LINEAGE_MISMATCH")
+                authority["separation_provenance"] = lineage
             if any(item["source_identity"] == str(source_id) for item in authorities):
                 raise RhythmSectionTimingReportError("AD041_SOURCE_IDENTITY_COLLISION")
             scope = next(iter(temporal_scopes))
@@ -299,7 +316,10 @@ class RhythmSectionTimingReportService:
                     "not_analyzable_timing_inferred": False,
                     "missing_evidence_is_musical_absence": False,
                     "tactus_inferred": False,
-                    "non_null_separator_ad041_status": "DEFERRED_SEPARATION_AUTHORITY_NOT_ESTABLISHED",
+                    "non_null_separator_ad041_status": (
+                        "AUTHORIZED_EXPLICIT_SEPARATION_LINEAGE" if any(s.separation_provenance for s in sources)
+                        else "DEFERRED_SEPARATION_AUTHORITY_NOT_ESTABLISHED"
+                    ),
                 },
             },
             "fingerprint_rule": FINGERPRINT_RULE,
@@ -345,8 +365,8 @@ class RhythmSectionTimingReportService:
             )
         if not any(item.role == "ACCOMPANIMENT" for item in sources):
             raise RhythmSectionTimingReportError("MISSING_ACCOMPANIMENT_AUTHORITY")
-        if any(not item.source_authority_id or not item.source_instance_key
-               or not item.expected_sha256 for item in sources):
+        if any(not item.expected_sha256 or (item.separation_provenance is None and
+               (not item.source_authority_id or not item.source_instance_key)) for item in sources):
             raise RhythmSectionTimingReportError("AD041_MISSING_DIRECT_INPUT_AUTHORITY")
 
     @staticmethod

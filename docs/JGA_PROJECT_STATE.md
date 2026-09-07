@@ -1,5 +1,18 @@
 # JGA Project State
 
+## Prospective Demucs operational continuation — 2026-09-07
+
+The explicitly authorized htdemucs_6s path now preserves AD-041 source identity,
+original WAV identity and deterministic per-file signal preparation through
+canonical GEOMETRIC_ONLY reporting. The controlled acceptance is conditional:
+874 Drums, 534 Double Bass, 381 Piano EME; 915 accompaniment relationships.
+Piano independent preservation remains NOT_ESTABLISHED. See the
+[operational binding](architecture/AD-041_HTDEMUCS6S_OPERATIONAL_BINDING.md) and
+[prospective result](../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/demucs_operational_reintroduction_20260907/result.json).
+Earlier non-null deferral notices below are historical; other configurations
+remain unauthorized. VAL-001 evidence is unchanged. No BPM work is authorized
+or begun by this continuation.
+
 ## Prospective AD-041 direct-input continuation — 2026-09-07
 
 Observed result: the [controlled VAL-001 direct-input acceptance](../validation/VAL-001/ad041_direct_input_acceptance_20260907/SUMMARY.md)

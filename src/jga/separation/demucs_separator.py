@@ -55,6 +55,13 @@ class DemucsSeparator(BaseSeparator):
             else DemucsRunner()
         )
 
+    def separate_authorized(self, audio, output_directory):
+        """Preserve native assets and derived identities for the bound report path."""
+        from .authorized_demucs import AuthorizedDemucsRunner
+        if not isinstance(self.runner, AuthorizedDemucsRunner):
+            raise ValueError("AD041 requires an explicitly authorized Demucs runner")
+        return self.runner.separate(audio, output_directory)
+
     def process(
         self,
         context: AnalysisContext,
