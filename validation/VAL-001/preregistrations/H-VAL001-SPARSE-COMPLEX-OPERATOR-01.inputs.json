@@ -1,0 +1,20 @@
+{
+  "authority_id": "H-VAL001-SPARSE-COMPLEX-OPERATOR-01-CONSTRUCTION-V1",
+  "classification": "EXACT_SYNTHETIC_SPARSE_MEASURES_NOT_AUDIO",
+  "time_unit": "normalized_time_unit",
+  "base_period": "1/1",
+  "measures": {
+    "MU": [["MU-0", "-2/1", "1/1"], ["MU-1", "-1/1", "1/1"], ["MU-2", "0/1", "1/1"], ["MU-3", "1/1", "1/1"], ["MU-4", "2/1", "1/1"]],
+    "NU": [["NU-0", "-3/2", "1/2"], ["NU-1", "-1/2", "1/2"], ["NU-2", "1/2", "1/2"], ["NU-3", "3/2", "1/2"]],
+    "RHO": [["RHO-0", "-2/1", "1/2"], ["RHO-1", "0/1", "1/2"], ["RHO-2", "2/1", "1/2"]]
+  },
+  "scoring_query_authority": {
+    "center": "0/1",
+    "window_lengths": ["4/1", "8/1"],
+    "frequencies": ["1/4", "1/2", "1/1", "2/1"],
+    "translation": "1/4",
+    "dilation": "3/2",
+    "superposition_multiplier": "2/1"
+  },
+  "prohibition": "These queries are mathematical test coordinates, not production search or beat authority."
+}

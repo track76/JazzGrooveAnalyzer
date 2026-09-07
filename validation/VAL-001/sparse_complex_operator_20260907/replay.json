@@ -1,0 +1,1 @@
+{"operator_byte_identical":true,"operator_evaluations_including_replay":128,"operator_sha256":"72c213a605c63f01b62fa36dc4bb5a12bfa677066432064bd26f6571e2fb0f77","process_policy":"two independent CPython invocations per operator/scorer","scorer_byte_identical":true,"scoring_sha256":"2e3044e57ece8e77084fa68122e4b33cbd3ff1e28a19668e1ac9eccd4aeb2f04","unique_queries":64}
