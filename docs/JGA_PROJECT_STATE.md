@@ -1,15 +1,19 @@
 # JGA Project State
 
-## Current scientific frontier — PI decision 2026-09-10
+## Current accepted checkpoint — 2026-09-10 consolidation
 
-Authoritative priority: [Ride-first timing research decision](scientific/JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md). This current section supersedes only earlier roadmap priority statements; historical results below retain their bounded scope.
+Canonical [timing checkpoint and separation-first workflow](scientific/JGA_TIMING_CHECKPOINT_20260910.md), [frozen Hi-Hat 2&4 domain rule](scientific/JGA_HIHAT_2_4_TIMING_RULE_20260910.md), and [report hash inventory](project/TIMING_CHECKPOINT_20260910.json). The checkpoint supersedes earlier priority statements, not historical evidence.
 
-- Last accepted timing evidence: global real-Drum EXACT_RELATION_RECURRENCE_OBSERVED; 368 repeated exact relations, 1,265 recurrent witnesses, independent checking and byte-identical fresh-process replay. Complete map and V1/V2 audit history are preserved.
-- Primary BPM research path: Ride identity → Ride event recognition → Ride-conditioned recurrence/periodicity → separate BeatReference research → internal BPM. R1 research/design preparation is next authorized; no Ride identity result, BeatReference inference or BPM computation exists or is authorized here.
-- Global recurrence-sufficiency null track: **DEFERRED_PARALLEL**, supporting validation, not cancelled or a mandatory sequential gate. Its decisive criterion still lacks independent authority; RECURRENCE_SUFFICIENCY_NOT_ESTABLISHED.
-- Global recurrence evidence remains separately preserved supporting/comparative evidence; no statistical independence or forced agreement is implied.
-- Double-Bass: active independent capture preparation, draft 0.5; DPA adapter resolved; NT5 ordered (PI declaration), delivery/mounting and capture-day checks pending. DB-MTO remains blocked/unexecuted; ontology provisional; Identity Card not frozen. No recording authorization.
-- Next scientific task: **RIDE IDENTITY RESEARCH DESIGN**, after this preservation handoff. Subsequent recognition, timing, fallback and experimental stages need separate authorization.
+- Mandatory primary real/full-mix pipeline: full audio → approved source separation → relevant stem → instrument/event recognition → timing → domain interpretation → BPM/behaviour. Direct full-mix recognition requires explicit control authorization. This also applies to future Double-Bass full-mix work.
+- GMD controlled discrimination worked; GMD→MDB and ENST→MDB transfer failed. ENST's modest diagnostic pass did not establish useful acoustic transfer. MDB independence is model-relative and prior project exposure remains documented.
+- Vogl 2018 CRNN_8 is an externally pretrained recognizer, not JGA-trained. RD differs from CY/Crash and HH. MDB Ride precision96.31%, recall40.60%, F1 57.12% are not independent transfer because the supplied ensemble includes MDB-trained members.
+- CED-VAL-009: 113 Ride candidates, repeated relations but no unique reference; ten HH candidates, no repeated exact relation. CED-VAL-005: 29 sparse Ride candidates versus 141 HH candidates; HH 0.500s local support in 6/6 primary and 5/5 shifted regions. Cross-source result remains insufficient; practical channel alignment is supported and synchronization is no longer its primary limitation.
+- Original internal CED-VAL-005 result remains 0.500s→120 BPM with unresolved half/double ambiguity. Subsequent 240 BPM under the new 2&4 rule versus external approximately246 is RETROSPECTIVE motivation only, not prospective validation.
+- Current primary domain hypothesis: qualified jazz HH timekeeping → 2&4 reference → T_BEAT=T_HH/2 → internal BPM. Mere detection never activates it; insufficient evidence requires HIHAT_2_4_REFERENCE_UNAVAILABLE. Distinguish observations, qualified anchors and inferred intermediate beats. Generic BeatReference is FALLBACK; Ride remains separate articulation/timing evidence.
+- Chet direct-full-mix control: zero HH candidates. Complete approved htdemucs_6s/Demucs4.1.0→Drums→Vogl pipeline also gives zero HH, gate FAIL and no BPM. Likely brush-condition recognition-domain limitation; physical HH absence is not established. The mathematical rule was not tested because recognition failed upstream. No external Chet tempo check occurred.
+- Earlier ~15GB/run job: complete numerical real-Drum complex-periodicity map plus streaming validation/replay, not training. Two runs remain external; 15,157,480,854 canonical bytes each. Global map/witness evidence remains reusable supporting evidence; null/sufficiency track DEFERRED_PARALLEL.
+- Double-Bass remains independent, provisional identity/capture preparation; DB-MTO blocked/unexecuted. Draft0.5 records DPA resolved, second-airborne mounting/availability and capture-day checks unresolved. No delivery/readiness/recording inferred here.
+- Next source: local Ray Brown Trio - Easy Does It.m4a. PI-observed HH2&4 context, no tempo input. **Next experiment requires separate PI authorization**: full separation-first pipeline, freeze internal result before external comparison. Do not execute from this checkpoint.
 
 ## Historical state and milestone records
 

@@ -4,11 +4,11 @@ Project Name: Jazz Groove Analyzer
 
 Version: v0.3.0-alpha
 
-Current Milestone: Accepted exact Drum recurrence preserved; Ride-first timing research priority
+Current Milestone: Hi-Hat 2&4 and separation-first workflow frozen; Chet full pipeline abstained upstream
 
-Current Phase: Ride identity research/design preparation; independent Double-Bass capture preparation
+Current Phase: Awaiting separate Ray Brown full-pipeline blind-test authorization; independent Double-Bass capture preparation
 
-Status: Active Research — no BeatReference or BPM inference authorized
+Status: Active Research — source-conditioned Hi-Hat 2&4 rule only; BPM prospective validation only; no new execution in this update
 
 Main Branch: scientific/translation-layer-finalization
 
@@ -18,12 +18,14 @@ Tests: No new full-suite execution; recurrence V2 records 30 synthetic/integrity
 
 Last Update: 2026-09-10
 
-Scientific Roadmap: docs/scientific/JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md
+Scientific Roadmap: docs/scientific/JGA_TIMING_CHECKPOINT_20260910.md
 
 Global Recurrence-Sufficiency Track: DEFERRED_PARALLEL; decisive criterion lacks independent authority
 
 Double-Bass Track: Capture specification draft 0.5; NT5 ordered (PI-declared), availability/mounting pending; DB-MTO blocked/unexecuted
 
-Next Authorized Scientific Task: RIDE IDENTITY RESEARCH DESIGN
+Next Scientific Task (separate PI authorization required): Ray Brown Trio - Easy Does It, full separation-first blind Hi-Hat 2&4 validation
 
-Evidence Index: docs/project/CURRENT_STATE_PRESERVATION_20260910.json
+Current Evidence Index: docs/project/TIMING_CHECKPOINT_20260910.json
+
+Historical Preservation Index: docs/project/CURRENT_STATE_PRESERVATION_20260910.json

@@ -2,7 +2,7 @@
 
 # Roadmap
 
-Current scientific roadmap: [Official Roadmap](JGA_ROADMAP.md) and [PI Ride-first decision, 2026-09-10](scientific/JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md). The phase list below is a historical roadmap snapshot, not the current research frontier.
+Current scientific roadmap: [Official Roadmap](JGA_ROADMAP.md) and [consolidated timing checkpoint](scientific/JGA_TIMING_CHECKPOINT_20260910.md). The phase list below is historical, not the current research frontier.
 
 ## Historical phase snapshot
 

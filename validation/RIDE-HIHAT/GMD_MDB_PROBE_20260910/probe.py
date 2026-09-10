@@ -1,0 +1,206 @@
+"""Bounded PI-authorized GMD development / frozen MDB validation. No timing inference."""
+import os
+for key in ('OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','VECLIB_MAXIMUM_THREADS','NUMEXPR_NUM_THREADS'):
+    os.environ[key]='1'
+import sys, pathlib, hashlib, json, csv, collections, io, math, platform, importlib.metadata
+BASE=pathlib.Path('/Volumes/SSD Track/JGA')
+OUT=BASE/'experiments/RIDE-HIHAT-GMD-MDB-01'
+sys.path.insert(0,str(OUT/'dependencies'))
+os.environ['NUMBA_CACHE_DIR']=str(OUT/'cache')
+import numpy as np
+import scipy.signal
+import sklearn
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import precision_recall_curve,average_precision_score,roc_auc_score,balanced_accuracy_score
+from sklearn.exceptions import ConvergenceWarning
+import soundfile as sf
+import librosa
+import mido
+import warnings
+HERE=pathlib.Path(__file__).resolve().parent
+GMD=BASE/'datasets/RIDE-HIHAT-EXTERNAL/GMD-v1.0.0'
+MDB=BASE/'datasets/RIDE-HIHAT-EXTERNAL/MDB-original-b29e2d63'
+GM={51:'RIDE_BOW',59:'RIDE_EDGE',53:'RIDE_BELL',42:'HH_CLOSED_BOW',22:'HH_CLOSED_EDGE',46:'HH_OPEN_BOW',26:'HH_OPEN_EDGE',44:'HH_PEDAL',49:'CRASH_BOW_1',55:'CRASH_EDGE_1',57:'CRASH_BOW_2',52:'CRASH_EDGE_2',38:'SNARE_HEAD',40:'SNARE_RIM',37:'SNARE_XSTICK'}
+MM={'RDC':'RIDE_UNSPECIFIED','RDB':'RIDE_BELL','CHH':'HH_CLOSED','OHH':'HH_OPEN','PHH':'HH_PEDAL'}
+SR=44100; N=11025
+MEL=librosa.filters.mel(sr=SR,n_fft=2048,n_mels=32,fmin=20,fmax=20000,htk=False,norm='slaney')
+WIN=scipy.signal.get_window('hann',2048,fftbins=True)
+def digest(p):
+    with pathlib.Path(p).open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
+def write(name,obj):
+    p=OUT/name;p.parent.mkdir(parents=True,exist_ok=True)
+    with p.open('x') as f:json.dump(obj,f,sort_keys=True,indent=2,allow_nan=False);f.write('\n')
+    return p
+def environment():
+    return {'python':sys.version,'platform':platform.platform(),'executable':sys.executable,'packages':{k:importlib.metadata.version(k) for k in ['numpy','scipy','scikit-learn','soundfile','librosa','mido']},'threads':1}
+def checked(path,sha):
+    data=path.read_bytes();assert hashlib.sha256(data).hexdigest()==sha,str(path);return data
+def subtype(p):return GM.get(p,'OTHER_MIDI_'+str(p))
+def eligible(ts,index,duration):
+    t=ts[index]
+    if t<.125 or t+.125>duration:return 'BOUNDARY'
+    if (index and t-ts[index-1]<=.125) or (index+1<len(ts) and ts[index+1]-t<=.125):return 'OTHER_ONSET_IN_WINDOW'
+    return None
+def patch(audio,t):
+    center=int(np.rint(t*SR));start=center-N//2
+    if start<0 or start+N>len(audio):return None
+    x=audio[start:start+N].astype(np.float64)
+    rms=np.sqrt(np.mean(x*x))
+    if rms==0:return None
+    x=x/rms
+    frames=np.lib.stride_tricks.sliding_window_view(np.pad(x,(1024,1024)),2048)[::441]
+    mag=np.abs(np.fft.rfft(frames*WIN,axis=1)).T
+    z=np.log1p(MEL@mag).astype(np.float32)
+    assert z.shape==(32,26) and np.isfinite(z).all()
+    return z.ravel()
+def inventory(which):
+    root=GMD if which=='gmd' else MDB
+    manifest_path=root/'authority/admission_manifest.json'
+    if which=='mdb':assert digest(manifest_path)=='3c66085a119419d21d8268b8aac37f8bc16cb613c399af825d7b248c87d92421'
+    manifest=json.loads(manifest_path.read_text());sha={r['path']:r['sha256'] for r in manifest['files']}
+    events=[];excluded=[];available=collections.Counter();missing=[]
+    if which=='gmd':
+        checked(root/'groove/info.csv',sha['groove/info.csv'])
+        rows=list(csv.DictReader((root/'groove/info.csv').open()))
+        for row in rows:
+            rel='groove/'+row['audio_filename']
+            if not row['audio_filename'] or rel not in sha:
+                missing.append(row['id']);continue
+            group=row['drummer']
+            split='train' if group in ['drummer1','drummer3','drummer4','drummer5','drummer6'] else ('calibration' if group=='drummer7' else 'development_evaluation')
+            mp='groove/'+row['midi_filename'];data=checked(root/mp,sha[mp])
+            # MIDI tempo serves ONLY file-clock conversion; meta/velocity/controller values never become features.
+            notes=[];t=0.
+            for msg in mido.MidiFile(file=io.BytesIO(data)):
+                t+=msg.time
+                if msg.type=='note_on' and msg.velocity>0:notes.append((t,str(msg.note),subtype(msg.note)))
+            dur=sf.info(str(root/rel)).duration
+            add_events(events,excluded,available,notes,dur,rel,group,split,sha[rel],which)
+    else:
+        rows=[r for r in manifest['files'] if '/subclass/' in r['path']]
+        for row in rows:
+            text=checked(root/row['path'],row['sha256']).decode()
+            b=pathlib.Path(row['path']).name.removesuffix('_subclass.txt')
+            rel='original/MDB Drums/audio/drum_only/'+b+'_Drum.wav'
+            notes=[]
+            for line in text.splitlines():
+                if not line.strip():continue
+                t,label=line.split();notes.append((float(t),label,MM.get(label,'OTHER_'+label)))
+            dur=sf.info(str(root/rel)).duration
+            add_events(events,excluded,available,notes,dur,rel,b,'independent_validation',sha[rel],which)
+    if which=='gmd':
+        buckets=collections.defaultdict(list);retained=[]
+        for e in events:
+            if e['split']=='train':buckets[(e['group'],e['subtype'])].append(e)
+            else:retained.append(e)
+        for bucket in buckets.values():
+            bucket.sort(key=lambda e:hashlib.sha256(e['id'].encode()).hexdigest())
+            retained.extend(bucket[:250]);excluded.extend(dict(e,reason='TRAIN_RESOURCE_CAP') for e in bucket[250:])
+        events=retained
+    events.sort(key=lambda e:e['id'])
+    result={'dataset':which,'input_manifest_sha256':digest(manifest_path),'available_native_counts':dict(available),'missing_audio_performances':missing,'selected_counts':dict(collections.Counter(e['subtype'] for e in events)),'exclusion_counts':dict(collections.Counter(e['reason'] for e in excluded)),'events':events,'excluded':excluded}
+    write(which+'/inventory.json',result)
+    print(which,'selected',len(events),'counts',result['selected_counts'],'excluded',result['exclusion_counts'],flush=True)
+    return events,root
+def add_events(events,excluded,available,notes,duration,rel,group,split,sha,which):
+    assert all(math.isfinite(n[0]) and n[0]>=0 for n in notes)
+    assert notes==sorted(notes,key=lambda n:n[0])
+    ts=[n[0] for n in notes]
+    for i,(t,label,sub) in enumerate(notes):
+        available[sub]+=1
+        e={'id':which+':'+rel+':'+str(i),'path':rel,'source_sha256':sha,'time':t,'native_label':label,'subtype':sub,'group':group,'split':split,'ride':sub.startswith('RIDE_')}
+        reason=eligible(ts,i,duration)
+        if reason:excluded.append(dict(e,reason=reason))
+        else:events.append(e)
+def features(which,events,root):
+    byfile=collections.defaultdict(list)
+    for e in events:byfile[e['path']].append(e)
+    xs=[];kept=[];unresolved=[]
+    for i,(path,es) in enumerate(sorted(byfile.items())):
+        data=checked(root/path,es[0]['source_sha256'])
+        audio,rate=sf.read(io.BytesIO(data),dtype='float64',always_2d=True);audio=audio.mean(axis=1)
+        if rate!=SR:
+            g=math.gcd(rate,SR);audio=scipy.signal.resample_poly(audio,SR//g,rate//g)
+        for e in es:
+            v=patch(audio,e['time'])
+            if v is None:unresolved.append(dict(e,reason='ZERO_OR_INCOMPLETE_CROP'))
+            else:xs.append(v);kept.append(e)
+        if i%100==0:print(which,'features files',i+1,'/',len(byfile),flush=True)
+    assert xs,'No usable features'
+    X=np.stack(xs);write(which+'/feature_lineage.json',{'events':kept,'unresolved':unresolved})
+    np.save(OUT/which/'features.npy',X)
+    return X,kept
+def scores(X,params):
+    Z=(X-params['mean'])/params['scale']
+    from scipy.special import expit
+    return expit(Z@params['coef']+params['intercept'])
+def metrics(y,p,low,high):
+    y=np.asarray(y,dtype=bool);p=np.asarray(p);pred=p>=.5
+    tp=int(np.sum(y&pred));fp=int(np.sum(~y&pred));fn=int(np.sum(y&~pred));tn=int(np.sum(~y&~pred))
+    both=len(np.unique(y))==2
+    pos=p>=high;neg=p<=low;covered=pos|neg
+    return {'n':len(y),'ride':int(y.sum()),'precision':tp/(tp+fp) if tp+fp else None,'recall':tp/(tp+fn) if tp+fn else None,'tp':tp,'fp':fp,'fn':fn,'tn':tn,'balanced_accuracy':float(balanced_accuracy_score(y,pred)) if both else None,'AP':float(average_precision_score(y,p)) if both else None,'ROC_AUC':float(roc_auc_score(y,p)) if both else None,'prevalence':float(y.mean()) if len(y) else None,'selective':{'ride_admitted':int(pos.sum()),'ride_true':int((pos&y).sum()),'ride_false':int((pos&~y).sum()),'not_ride_admitted':int(neg.sum()),'not_ride_false':int((neg&y).sum()),'abstained':int((~covered).sum()),'coverage':float(covered.mean()) if len(y) else None,'precision':float((pos&y).sum()/pos.sum()) if pos.any() else None,'ride_recall':float((pos&y).sum()/y.sum()) if y.any() else None}}
+def evaluate(which,es,p,low,high):
+    y=np.array([e['ride'] for e in es]);result=metrics(y,p,low,high)
+    result['by_subtype']={};result['by_group']={}
+    rh=np.array([e['subtype'].startswith(('RIDE_','HH_')) for e in es])
+    result['ride_vs_hihat']=metrics(y[rh],p[rh],low,high)
+    for key,target in [('subtype','by_subtype'),('group','by_group')]:
+        for val in sorted({e[key] for e in es}):
+            ix=np.array([e[key]==val for e in es]);result[target][val]=metrics(y[ix],p[ix],low,high)
+    pr,re,th=precision_recall_curve(y,p)
+    write(which+'/precision_recall.json',{'precision':pr.tolist(),'recall':re.tolist(),'thresholds':th.tolist()})
+    write(which+'/predictions.json',[{'event_id':e['id'],'probability_score_not_calibrated':float(v),'truth':e['ride'],'decision':'RIDE_COMPATIBLE' if v>=high else ('NOT_RIDE_COMPATIBLE' if v<=low else 'ABSTAIN')} for e,v in zip(es,p)])
+    return result
+def dev():
+    assert not (OUT/'gmd/inventory.json').exists(),'No overwriting real results'
+    write('execution_binding.json',{'implementation_sha256':digest(__file__),'protocol_sha256':digest(HERE/'PROTOCOL.md'),'environment':environment(),'phase':'BEFORE_GMD_FEATURES'})
+    es,root=inventory('gmd');X,es=features('gmd',es,root)
+    splits=np.array([e['split'] for e in es]);y=np.array([e['ride'] for e in es])
+    for split in ['train','calibration','development_evaluation']:assert len(np.unique(y[splits==split]))==2,split+' missing class'
+    train=splits=='train';cal=splits=='calibration';test=splits=='development_evaluation'
+    scaler=StandardScaler().fit(X[train])
+    with warnings.catch_warnings():
+        warnings.simplefilter('error',ConvergenceWarning)
+        model=LogisticRegression(C=1,class_weight='balanced',solver='lbfgs',max_iter=2000,tol=1e-6).fit(scaler.transform(X[train]),y[train])
+    params={'mean':scaler.mean_,'scale':scaler.scale_,'coef':model.coef_[0],'intercept':model.intercept_[0]}
+    cp=scores(X[cal],params)
+    high=max(.5,float(np.nextafter(np.max(cp[~y[cal]]),np.inf)));low=min(.5,float(np.nextafter(np.min(cp[y[cal]]),-np.inf)))
+    np.savez(OUT/'gmd/model.npz',**params)
+    tes=[e for e in es if e['split']=='development_evaluation'];p=scores(X[test],params)
+    result=evaluate('gmd',tes,p,low,high)
+    works=(result['balanced_accuracy']>.5 and result['AP']>result['prevalence'] and result['ride_vs_hihat']['balanced_accuracy'] is not None and result['ride_vs_hihat']['balanced_accuracy']>.5 and result['ride_vs_hihat']['AP']>result['ride_vs_hihat']['prevalence'])
+    result.update({'outcome':'GMD_DISCRIMINATION_WORKS' if works else 'GMD_DISCRIMINATION_INSUFFICIENT','low':low,'high':high,'training_counts':dict(collections.Counter(e['subtype'] for e in es if e['split']=='train')),'calibration_counts':dict(collections.Counter(e['subtype'] for e in es if e['split']=='calibration')),'model_iterations':model.n_iter_.tolist(),'calibration_result':metrics(y[cal],cp,low,high)})
+    write('gmd/result.json',result)
+    if works:
+        write('freeze.json',{'implementation_sha256':digest(__file__),'protocol_sha256':digest(HERE/'PROTOCOL.md'),'model_sha256':digest(OUT/'gmd/model.npz'),'GMD_result_sha256':digest(OUT/'gmd/result.json'),'GMD_manifest_sha256':digest(GMD/'authority/admission_manifest.json'),'MDB_manifest_sha256':'3c66085a119419d21d8268b8aac37f8bc16cb613c399af825d7b248c87d92421','environment':environment(),'low':low,'high':high,'MDB_NOT_EXECUTED_AT_FREEZE':True})
+    print(json.dumps({k:v for k,v in result.items() if k not in ['by_subtype','by_group','training_counts','calibration_counts']},indent=2),flush=True)
+def validate():
+    f=json.loads((OUT/'freeze.json').read_text())
+    assert f['implementation_sha256']==digest(__file__) and f['protocol_sha256']==digest(HERE/'PROTOCOL.md')
+    assert f['environment']==environment() and f['model_sha256']==digest(OUT/'gmd/model.npz')
+    assert f['GMD_result_sha256']==digest(OUT/'gmd/result.json')
+    es,root=inventory('mdb');X,es=features('mdb',es,root)
+    params=dict(np.load(OUT/'gmd/model.npz'));p=scores(X,params)
+    result=evaluate('mdb',es,p,f['low'],f['high'])
+    if result['balanced_accuracy'] is None:outcome='INSUFFICIENT_EVIDENCE'
+    else:outcome='GMD_WORKS_MDB_TRANSFER_WORKS' if (result['balanced_accuracy']>.5 and result['AP']>result['prevalence'] and result['ride_vs_hihat']['balanced_accuracy'] is not None and result['ride_vs_hihat']['balanced_accuracy']>.5 and result['ride_vs_hihat']['AP']>result['ride_vs_hihat']['prevalence']) else 'GMD_WORKS_MDB_TRANSFER_FAILS'
+    result['outcome']=outcome;result['freeze_sha256']=digest(OUT/'freeze.json');write('mdb/result.json',result)
+    print(json.dumps({k:v for k,v in result.items() if k not in ['by_subtype','by_group']},indent=2),flush=True)
+def test():
+    assert GM[59]=='RIDE_EDGE' and GM[53]=='RIDE_BELL' and GM[44]=='HH_PEDAL'
+    assert eligible([.5,.5],0,2)=='OTHER_ONSET_IN_WINDOW'
+    assert eligible([.5,.6],1,2)=='OTHER_ONSET_IN_WINDOW'
+    assert eligible([.5,1.],0,2) is None
+    assert eligible([.01],0,2)=='BOUNDARY'
+    x=np.random.default_rng(1).normal(size=44100);a=patch(x,.5);b=patch(x*7,.5)
+    assert a.shape==(832,) and np.allclose(a,b,rtol=1e-6,atol=1e-6)
+    assert patch(np.zeros(44100),.5) is None
+    # MIDI clock decoding fixture; no real scientific input.
+    mf=mido.MidiFile();tr=mido.MidiTrack();mf.tracks.append(tr);tr.append(mido.Message('note_on',note=51,velocity=100,time=480))
+    assert abs(sum(m.time for m in mf)-.5)<1e-12
+    print('8 synthetic mapping/eligibility/representation/clock checks PASS')
+if __name__=='__main__':
+    OUT.mkdir(parents=True,exist_ok=True)
+    {'test':test,'gmd':dev,'mdb':validate}[sys.argv[1]]()

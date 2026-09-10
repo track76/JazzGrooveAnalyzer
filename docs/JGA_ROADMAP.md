@@ -2,13 +2,19 @@
 
 # Official Roadmap
 
-## Current scientific priority — 2026-09-10
+## Current scientific priority — 2026-09-10 consolidated checkpoint
 
-The [PI Ride-first timing decision](scientific/JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md) is the current scientific route: R1 physical/perceptual Ride identity research → R2 observability → R3 controlled identity/discrimination with abstention → R4 real-audio event recognition → R5 Ride-conditioned recurrence/periodicity → R6 independent BeatReference research → R7 internal BPM after reference authority. Only R1 research/design preparation is next authorized. No Ride result, BeatReference or BPM is claimed.
+Canonical [checkpoint and workflow](scientific/JGA_TIMING_CHECKPOINT_20260910.md) and [prospective Hi-Hat 2&4 rule](scientific/JGA_HIHAT_2_4_TIMING_RULE_20260910.md).
 
-Global Drum map/recurrence evidence is accepted and preserved for supporting/comparative use. Its null/sufficiency track is DEFERRED_PARALLEL, not cancelled and no longer a mandatory prior gate. Double-Bass capture preparation remains active independently. Ride absence/uncertainty requires abstention; fallback needs separate authorization. See the decision for all claim boundaries and evidence links.
+**Real/full mix → approved source separation → relevant stem → instrument/event recognition → timing evidence → domain interpretation → internal BPM/behaviour.** Direct-full-mix recognition is an explicit control only. This applies to future Double-Bass full-mix analysis as well.
 
-The milestones below retain their historical scope; they do not override this current scientific priority.
+Where qualified: jazz Drums → Hi-Hat identity → recurrent/local timekeeping qualification → 2&4 reference → T_BEAT=T_HH/2 → internal BPM → freeze → later external comparison. Abstain when qualification is unavailable. Generic BeatReference remains fallback; Ride remains separate articulation/swing/microtiming evidence. Do not pool sources or quantize Bass events onto the reference.
+
+CED-VAL-005 motivates the rule retrospectively; it does not prospectively validate it. Chet full-pipeline recognition yielded zero HH candidates, so the 2&4 mapping was not tested. Neither custom training nor a new model search follows automatically.
+
+**Next minimal experiment, only after separate PI authorization:** Ray Brown Trio - Easy Does It.m4a through this full pipeline, with external/PI tempo hidden until internal result freeze. File availability is not execution authorization. No new experiment occurs in this consolidation.
+
+Global Drum periodicity/recurrence and DEFERRED_PARALLEL null work remain preserved. Double-Bass capture/identity work remains independent and unexecuted. Historical milestones below do not override this current checkpoint.
 
 ---
 

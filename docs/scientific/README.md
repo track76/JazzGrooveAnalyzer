@@ -4,7 +4,11 @@ Status: Draft
 
 ## Current research navigation — 2026-09-10
 
-- [PI Ride-first timing roadmap and preserved evidence](JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md): R1 research/design next; no Ride result or BeatReference/BPM authority.
+- [Consolidated timing checkpoint and separation-first workflow](JGA_TIMING_CHECKPOINT_20260910.md): all current results, Chet upstream abstention, ~15GB job identity and next Ray Brown task; no new execution authorized.
+- [Current report/hash inventory](../project/TIMING_CHECKPOINT_20260910.json).
+
+- [Current PI jazz Hi-Hat 2&4 timing rule](JGA_HIHAT_2_4_TIMING_RULE_20260910.md): prospective domain hypothesis, activation/abstention and blind-validation roadmap; CED-VAL-005 retrospective only.
+- [Historical Ride-first decision](JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md): preserved evidence and former priority; current route superseded by the Hi-Hat rule.
 - [Accepted exact-recurrence report](../../validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/REPORT.md): complete unranked population remains preserved.
 - [Global recurrence-sufficiency design](rfc/DRUM_RECURRENCE_SUFFICIENCY_VALIDATION_DESIGN.md): DEFERRED_PARALLEL priority under the new decision; original findings unchanged.
 - [Double-Bass capture preparation](rfc/DOUBLE_BASS_SINGLE_SESSION_CAPTURE_SPECIFICATION.md): independent, recording/pilot unexecuted.

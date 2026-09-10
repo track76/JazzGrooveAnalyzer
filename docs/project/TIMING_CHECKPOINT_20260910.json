@@ -1,0 +1,117 @@
+{
+  "bootstrap_policy": "Explicitly preserve lightweight derived bootstrap in Git for fresh checkout; canonical sources remain decision/checkpoint/project state.",
+  "checkpoint": "PI-STATE-CONSOLIDATION-20260910",
+  "complete_map_lightweight_SHA256SUMS": "6886501b836d8d8e2a0d99c8e6918e857a021cc568ca8e91cf289ffe91c47200",
+  "excluded": {
+    "paths": [
+      "AGENTS.md",
+      "output/",
+      "recordings/03 THE COST OF LIVING versione intro + 8 bar.sib",
+      "validation/VAL-001/visualizations/"
+    ],
+    "reason": "Pre-existing unrelated instructions, plot edits/deletions, score edit and visualization work; not restored/deleted/staged"
+  },
+  "external_candidate_hashes_verified": {
+    "VOGL-CEDVAL005-0028-0128-20260910/ride_predictions.json": "faeb572d71a7b39f39e0e4e6843b511ea8a07f7119b51652b145a2cbafc6638b",
+    "VOGL-CEDVAL009-FIRST60-20260910/ride_predictions.json": "c386e9c28e84ce5e929cec1937f69e7b9ddecd174ebc36cfdf14f2d55715369a",
+    "VOGL-HIHAT-CEDVAL005-20260910/hihat_predictions.json": "5dbdf4b2984d9f5ca5bfc2bac7da21e191bf1188506a8446b445bb8b3a3b55e3"
+  },
+  "large_external_work": {
+    "canonical_bytes_per_run": 15157480854,
+    "classification": "exact numerical periodicity-map computation, streaming validation and fresh-process replay; not model training or source separation",
+    "path": "/Volumes/SSD Track/JGA/experiments/H-VAL001-COMPLETE-REAL-DRUM-PERIODICITY-01",
+    "runs": 2,
+    "verification": "Lightweight acceptance checksums verified; external production directories present; bulk shards not reread/recomputed"
+  },
+  "new_audio_or_experiments": false,
+  "preserved_scientific_files": {
+    "docs/scientific/JGA_HIHAT_2_4_TIMING_RULE_20260910.md": "0c9e921b835c33047afaef47ee3252d9f2fcbbb536dc0d9c7751f2a7baa6a244",
+    "docs/scientific/JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md": "610b115b374af839b0e0821101f6c24f3ffdb5d748c8a7038664ae5eb4d8c50c",
+    "docs/scientific/rfc/DB_MTO_PILOT_01_PREREGISTRATION_DESIGN.md": "3acbb23a70f921c0c403f02f6ff87b4ae6e6036616ddeff2c7990dd7a17d1385",
+    "docs/scientific/rfc/DOUBLE_BASS_EXISTING_ASSET_REUSE_AUDIT_DB_MTO_PILOT_01.md": "269b38daed88aeaaa529a7dd5dcc7f7f69030ae1da5315ed5a4be6101358d169",
+    "docs/scientific/rfc/DOUBLE_BASS_IDENTITY_CARD_COMPLETENESS_RECONSTRUCTION_AUDIT.md": "723eb1c92f4e4b25b9ae176a383142fd975177da2c97d2c1ddb2907cfff12907",
+    "docs/scientific/rfc/DOUBLE_BASS_INSTRUMENT_IDENTITY_PHASE_I_RESEARCH.md": "d11166600f7d910a5bd86a708132aaf4b9c4f49789e872506c36b2a0a8325d0c",
+    "docs/scientific/rfc/DOUBLE_BASS_SINGLE_SESSION_CAPTURE_SPECIFICATION.md": "cd33fea5e0d403d1e0abbec99bc1359ba61be1cbe90b1c0d958f528316a81e42",
+    "docs/scientific/rfc/RIDE_HIHAT_EXISTING_ASSET_SUFFICIENCY_AUDIT.md": "7c1fd3e86a8279183fa2d17ec11f06ee4de4ddd459c0280b355f0e06f0ded15a",
+    "docs/scientific/rfc/RIDE_HIHAT_EXTERNAL_DATASET_EVENT_AUTHORITY_AUDIT.md": "7fec3be42e9a14b652b80a47aa77eac4b34e25ed0b8fc6b620682f183f833abe",
+    "docs/scientific/rfc/RIDE_HIHAT_SIMPLIFIED_EMPIRICAL_RESEARCH_DESIGN.md": "0e0de13354e60d3f56d54d5542b4550a25f0fd16b2f2f9d179e56cd32904ebf3",
+    "validation/RIDE-HIHAT/ADTOF_QUALIFICATION_20260910/REPORT.md": "dce6eedc23b75a90d60dcf218704436665f29aac5b30fb5cdbaa581e8e08632a",
+    "validation/RIDE-HIHAT/CEDVAL005_CROSS_SOURCE_20260910/REPORT.md": "6a66d7598c5836859d6a8d6e284a1c2837f804a5e44d7a3ebceafe3adc433f9c",
+    "validation/RIDE-HIHAT/CEDVAL005_INTERNAL_PULSE_20260910/REPORT.md": "225d014ca2fe2f7dadd9617a87fde48d3f379a7d3825c0e87bc36999c45e9910",
+    "validation/RIDE-HIHAT/CEDVAL005_RIDE_RECURRENCE_20260910/REPORT.md": "9bcc40b9a125892af643de3a86cff2ece6c449306fd80ba64f1b13fb9697baa2",
+    "validation/RIDE-HIHAT/CEDVAL005_SYNC_20260910/REPORT.md": "dab98518bfc58211834adba08d110f399324d94886d0894e7d8d60c4e1d575bb",
+    "validation/RIDE-HIHAT/CEDVAL009_RIDE_RECURRENCE_20260910/REPORT.md": "b80e59397965e74831679499ecfe68bb11f91fe256eb7f2d0636d4161005015b",
+    "validation/RIDE-HIHAT/CHET_FULL_PIPELINE_20260910/REPORT.md": "1f169d75453deadf94881a865dbc34e33491307c647cb9f716124e1d6f94fa3e",
+    "validation/RIDE-HIHAT/CHET_HIHAT_24_BLIND_20260910/REPORT.md": "a0ed99113a07741215cae180877c2ad7f2d73f95974bde96a20e44982647d344",
+    "validation/RIDE-HIHAT/ENST_MDB_PROBE_02_20260910/PROTOCOL.md": "7bf87111fe674b8a2cf25cb1ca85318f50f4b04c574ac93a04f01a98e4b539ab",
+    "validation/RIDE-HIHAT/ENST_MDB_PROBE_02_20260910/REPORT.md": "17631ce43a866d741af63cd808b83e2226db45d7cdcd254ad55b51777e1d3387",
+    "validation/RIDE-HIHAT/ENST_MDB_PROBE_02_20260910/probe.py": "de97bc598dd16818c2cf78f64a94aa78530135314dace81d78ab3a4a96763603",
+    "validation/RIDE-HIHAT/GMD_MDB_PROBE_20260910/PROTOCOL.md": "70a6a8dcf2845d506febe299318197b6ffe742480a98db8e3165c1a406ca761d",
+    "validation/RIDE-HIHAT/GMD_MDB_PROBE_20260910/REPORT.md": "a748d39b63a9807e7c5a4408ac4bef6cadacd27e1689c38cf8afe14b9db20ec0",
+    "validation/RIDE-HIHAT/GMD_MDB_PROBE_20260910/probe.py": "094a19784dc267876b858537647a3da2dbbc5bf03989931cabda4a860db3bb69",
+    "validation/RIDE-HIHAT/HIHAT_JAZZ_COMPARISON_20260910/REPORT.md": "1b7c5d12d081af728aabdb362501e7f11c2e57720aca0cc43b48051c6bf0dbc4",
+    "validation/RIDE-HIHAT/HIHAT_LOCAL_PERSISTENCE_20260910/REPORT.md": "e3fb48286033accf07657d793791c7a6c895df3f130ae1db2998118afcf66ea0",
+    "validation/RIDE-HIHAT/VOGL_2018_QUALIFICATION_20260910/PROTOCOL.md": "a9fbf643fd03ef1d692ab626df7840b9b4ced1fb960057a0181a8bd5ea2c3450",
+    "validation/RIDE-HIHAT/VOGL_2018_QUALIFICATION_20260910/REPORT.md": "cd43262c0149ec732eb3613e0bf2486e5e246630df8dd5abd49dc6500c140a07",
+    "validation/RIDE-HIHAT/VOGL_2018_QUALIFICATION_20260910/qualify.py": "732f37fe533d137d1a1367709b6516145711f01c120668f938dc9cdd22087283",
+    "validation/RIDE-HIHAT/VOGL_JGA_QUALIFICATION_20260910/REPORT.md": "8f6e00f7f4330de6028ed4d26daf26163c9d07b76836f1f647b744c0e5f3e5c1"
+  },
+  "report_records": {
+    "validation/RIDE-HIHAT/ADTOF_QUALIFICATION_20260910/REPORT.md": {
+      "bytes": 6829,
+      "sha256": "dce6eedc23b75a90d60dcf218704436665f29aac5b30fb5cdbaa581e8e08632a"
+    },
+    "validation/RIDE-HIHAT/CEDVAL005_CROSS_SOURCE_20260910/REPORT.md": {
+      "bytes": 9326,
+      "sha256": "6a66d7598c5836859d6a8d6e284a1c2837f804a5e44d7a3ebceafe3adc433f9c"
+    },
+    "validation/RIDE-HIHAT/CEDVAL005_INTERNAL_PULSE_20260910/REPORT.md": {
+      "bytes": 4480,
+      "sha256": "225d014ca2fe2f7dadd9617a87fde48d3f379a7d3825c0e87bc36999c45e9910"
+    },
+    "validation/RIDE-HIHAT/CEDVAL005_RIDE_RECURRENCE_20260910/REPORT.md": {
+      "bytes": 7806,
+      "sha256": "9bcc40b9a125892af643de3a86cff2ece6c449306fd80ba64f1b13fb9697baa2"
+    },
+    "validation/RIDE-HIHAT/CEDVAL005_SYNC_20260910/REPORT.md": {
+      "bytes": 6185,
+      "sha256": "dab98518bfc58211834adba08d110f399324d94886d0894e7d8d60c4e1d575bb"
+    },
+    "validation/RIDE-HIHAT/CEDVAL009_RIDE_RECURRENCE_20260910/REPORT.md": {
+      "bytes": 6220,
+      "sha256": "b80e59397965e74831679499ecfe68bb11f91fe256eb7f2d0636d4161005015b"
+    },
+    "validation/RIDE-HIHAT/CHET_FULL_PIPELINE_20260910/REPORT.md": {
+      "bytes": 6636,
+      "sha256": "1f169d75453deadf94881a865dbc34e33491307c647cb9f716124e1d6f94fa3e"
+    },
+    "validation/RIDE-HIHAT/CHET_HIHAT_24_BLIND_20260910/REPORT.md": {
+      "bytes": 5559,
+      "sha256": "a0ed99113a07741215cae180877c2ad7f2d73f95974bde96a20e44982647d344"
+    },
+    "validation/RIDE-HIHAT/ENST_MDB_PROBE_02_20260910/REPORT.md": {
+      "bytes": 10533,
+      "sha256": "17631ce43a866d741af63cd808b83e2226db45d7cdcd254ad55b51777e1d3387"
+    },
+    "validation/RIDE-HIHAT/GMD_MDB_PROBE_20260910/REPORT.md": {
+      "bytes": 10248,
+      "sha256": "a748d39b63a9807e7c5a4408ac4bef6cadacd27e1689c38cf8afe14b9db20ec0"
+    },
+    "validation/RIDE-HIHAT/HIHAT_JAZZ_COMPARISON_20260910/REPORT.md": {
+      "bytes": 8534,
+      "sha256": "1b7c5d12d081af728aabdb362501e7f11c2e57720aca0cc43b48051c6bf0dbc4"
+    },
+    "validation/RIDE-HIHAT/HIHAT_LOCAL_PERSISTENCE_20260910/REPORT.md": {
+      "bytes": 7845,
+      "sha256": "e3fb48286033accf07657d793791c7a6c895df3f130ae1db2998118afcf66ea0"
+    },
+    "validation/RIDE-HIHAT/VOGL_2018_QUALIFICATION_20260910/REPORT.md": {
+      "bytes": 11569,
+      "sha256": "cd43262c0149ec732eb3613e0bf2486e5e246630df8dd5abd49dc6500c140a07"
+    },
+    "validation/RIDE-HIHAT/VOGL_JGA_QUALIFICATION_20260910/REPORT.md": {
+      "bytes": 6571,
+      "sha256": "8f6e00f7f4330de6028ed4d26daf26163c9d07b76836f1f647b744c0e5f3e5c1"
+    }
+  }
+}
