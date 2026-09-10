@@ -1,0 +1,62 @@
+{
+  "accepted_map_logical_fingerprint": "1e5030acfa48d976832c31ebff220c5094ff14a7567bc67648cdbd01de8d54a9",
+  "accepted_map_scientific_fingerprint": "03146e8794151bb91faa938eb3f0f8ea1cfda34a12faaaf84158e820c39e96fc",
+  "asset_sha256_reference_only": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+  "execution_binding_required": "Future generator, independent checker, orchestration and exact runtime/transitive source hashes must be frozen in a separate implementation binding before execution; none exists or is fabricated here.",
+  "experiment": "H-VAL001-DRUM-EXACT-RELATION-WITNESS-AUDIT-01",
+  "external_files": {
+    "index.json": "38c0021c01f4f44143b947bbb361d7250af8ac148087c68f1902f608f57d2a8b",
+    "inputs.json": "14d7bbec1d12c1dde65cca970d1122bdb26ebcc66456b7005fe10098b56a4ec5",
+    "periods.json": "7cfcdc719141f1b1c7bc429558cac47e2cb0cb5373b8c11ceed94cf12644689b",
+    "root.json": "0e9290e7cf47f9c87abfbadf5df92e1099b4c870429b6cb3723df2d8d85df4d2",
+    "windows.jsonl": "80227cbb2d84eacb23a4671b512bf355e8f47b367a7f62e0473209456bda13e1"
+  },
+  "external_read_only_root": "/Volumes/SSD Track/JGA/experiments/H-VAL001-COMPLETE-REAL-DRUM-PERIODICITY-01/run_1/production",
+  "frozen_counts": {
+    "center_specific_windows": 3864,
+    "distinct_centers": 63,
+    "events": 63,
+    "positive_period_coordinates": 1056,
+    "unordered_pairs": 1953
+  },
+  "hash_only_or_governance_records": "Other named records establish authority or previous negative limits; their musical/response data are not discovery inputs. Do not read raw audio, response shards, accompaniment or metric/reference fields.",
+  "measurement_input_allowlist": [
+    "bound complete-map input freeze: events, scope, source identity and numerical/measurement lineage",
+    "external inputs catalogue: bound input provenance only",
+    "external periods catalogue: exact T/f, pairs, parents, timestamps, coincident pairs and content IDs",
+    "external windows catalogue: centers, scales, membership, coverage, generation lineage and content IDs"
+  ],
+  "repository_files": {
+    "docs/JGA_DECISIONS.md": "18a00cf68330f33bcb9ddf5349f84d96f4260c631ccf669044409047ac5051e6",
+    "docs/architecture/AD-032_M89_PULSE_STRENGTH_PRESERVATION.md": "ea80d6703010327480cfd4552bb230c5ea1ba8b793e55bc0d682051d55bb09fc",
+    "docs/architecture/AD-037_EME_MATERIALIZATION_METRIC_LOCALIZATION.md": "d8df29981d7c0bdae9ea422b620151ee0138159fbb2a38ef47a77ab349ae4729",
+    "docs/architecture/AD-038_DRUM_RELATIVE_EME_LOCALIZATION.md": "3dff7713a6197f8791c1edb79e8304a647f6d789496c81805053381d2941e2a0",
+    "docs/architecture/AD-040_RHYTHM_SECTION_TIMING_PROFILE.md": "e45e9e80f0ebabf01eaed12287560e06cdd1e7b1a8e9fd52bb8c87460f61904a",
+    "docs/architecture/AD-041_DIRECT_INPUT_AUDIOSTEM_METRIC_SOURCE_IDENTITY.md": "30836a0b40722c460324931a2c2cc828afcf34bf7765996a8d2da53ab02684a3",
+    "docs/architecture/AD-041_HTDEMUCS6S_OPERATIONAL_BINDING.md": "af7a6c4962478bc39048a0be963df9c00e2d6213ef111a66a24b826d6c5711ea",
+    "docs/scientific/JGA_SCIENTIFIC_RESEARCH_CONSTITUTION.md": "ee64ab7988141cdfb56ac816d9441b4f8c5d3bff538f48db132ff1c031b1d778",
+    "docs/scientific/JGA_SCIENTIFIC_VALIDATION_PROTOCOL.md": "35f0ae4fadfd8fe66e0605108ca801c7a544b198570d9611bb98d7fa8af62a8b",
+    "docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md": "9c2c5235a1c9b6bcbbec964adab8a1cc6eea7ccfbe47cf0c6b3d411187fe98f2",
+    "docs/scientific/foundations/F-032_CANDIDATE_PERIODS.md": "d8a17444e89d87ac5d00239fb2325ac7c61ec62e877ee257d2a89221261af29a",
+    "docs/scientific/rfc/DRUM_PERIODICITY_RECURRENCE_SUFFICIENCY_RESEARCH_DESIGN.md": "9a2a48381675ae9013afd04799257b2d238887c07e7cd4f586481036c1cbea10",
+    "validation/VAL-001/authorities/AD-041_DIRECT_INPUT_SOURCE_INSTANCE_AUTHORITY_V1.json": "b3a76361f30a0dbbc0b79cd15b4a7485ec66b95c42d2cd2c076cb783ee9da347",
+    "validation/VAL-001/binary64_certified_input_20260908/adapter.py": "a4730d6f651257326519f87e3809134abf1a375cddb51b45142a7b8cca1e9312",
+    "validation/VAL-001/complete_real_drum_periodicity_20260908/README.md": "7d6176a50fdb9972663978ffcfa2948d5afa6d870a28e20f71ba67838f3f8d59",
+    "validation/VAL-001/complete_real_drum_periodicity_20260908/SHA256SUMS": "6886501b836d8d8e2a0d99c8e6918e857a021cc568ca8e91cf289ffe91c47200",
+    "validation/VAL-001/complete_real_drum_periodicity_20260908/implementation_binding.json": "e91b5d2b961f0274706732f46e0ec274fd0b839b921ebaaf7e7e71ce87dcb2f5",
+    "validation/VAL-001/complete_real_drum_periodicity_20260908/replay.json": "0360779603ffc1b3982d06cc01da00ae428e205fc95e52106bd1b433e15733cb",
+    "validation/VAL-001/complete_real_drum_periodicity_20260908/score_1.json": "09dd82b496d1ee2a0fc9484bc0dbc58b9fb4942ffe2a6f905177ba286ae6f80f",
+    "validation/VAL-001/complete_real_drum_periodicity_20260908/score_2.json": "09dd82b496d1ee2a0fc9484bc0dbc58b9fb4942ffe2a6f905177ba286ae6f80f",
+    "validation/VAL-001/preregistrations/H-VAL001-COMPLETE-REAL-DRUM-PERIODICITY-01.authorities.json": "6ac578c7ea5e8f9367682ca3a46e8ce0e7d0733c1b95eab9ad8937c91575c9b4",
+    "validation/VAL-001/preregistrations/H-VAL001-COMPLETE-REAL-DRUM-PERIODICITY-01.inputs.json": "ba21b73d7fe122b29b522f442a3724a89b8fec96549a34b39db62bb7830b29e7",
+    "validation/VAL-001/preregistrations/H-VAL001-COMPLETE-REAL-DRUM-PERIODICITY-01.md": "d36995de8fa9c24046eb1d4a56dd81abe7d6ad367238bba4006d98d1391130e0",
+    "validation/VAL-001/run_20260809_192908/report.md": "238380b1a5dca4377fb58ba1f6e1a0b2802a29b87df9dd4dee2d2b1ef53e89eb",
+    "validation/VAL-001/run_20260810_065939/report.md": "5a210f669f03c30735f5e467f29aa127fae9bf993e15793d1d103e4853f6fe52"
+  },
+  "repository_head_at_design": "2856c95952ea078fb01d179c2f94e5cb6bd697e3",
+  "schema": "JGA-EXACT-RELATION-WITNESS-PREREG-AUTHORITY-V1",
+  "source_authority_id": "VAL-001-DIRECT-INPUT-SOURCE-AUTHORITY-V1",
+  "source_instance_key": "VAL001_SOURCE_001",
+  "source_uuid": "c46d6cb9-b99c-5bd6-8d81-656dc1ad48ec",
+  "status": "FROZEN_INPUT_AUTHORITY_NO_EXECUTION"
+}

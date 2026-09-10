@@ -1,0 +1,13 @@
+{
+  "experiment_id": "H-VAL001-EME-DRUM-01",
+  "artifacts": {
+    "manifest.json": "f73fa9afc3601d987ca8996793e4fab26249c97331ed996b368425905e1b8983",
+    "experiment.py": "56ab074d399cc6706ef26c247b9403ac5325870c8cea2bb4361a83cd779a0fca",
+    "blind_observations.json": "b520defd03703f695cffd5815c1d182fcbae7e517f3ce75179eee5fc578a7893",
+    "post_blind_correspondence.json": "8e5bc199c4d9cb57ca5b71f02cfe08552d3fb1a8f1e7aaa7f46866214dcd08c0",
+    "report.md": "5753be3edcb4969019f8dcaa3520b1f8190b9828f62a406017bb3ed6fe0cdc2e",
+    "completion_protocol.json": "b37abc1eac68d8bb4de78bb0c6d500322d621e7b634ff026d3eb7da882afea80"
+  },
+  "source_assets_copied": false,
+  "production_code_modified": false
+}

@@ -1,5 +1,20 @@
 # JGA Project State
 
+## Current scientific frontier — PI decision 2026-09-10
+
+Authoritative priority: [Ride-first timing research decision](scientific/JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md). This current section supersedes only earlier roadmap priority statements; historical results below retain their bounded scope.
+
+- Last accepted timing evidence: global real-Drum EXACT_RELATION_RECURRENCE_OBSERVED; 368 repeated exact relations, 1,265 recurrent witnesses, independent checking and byte-identical fresh-process replay. Complete map and V1/V2 audit history are preserved.
+- Primary BPM research path: Ride identity → Ride event recognition → Ride-conditioned recurrence/periodicity → separate BeatReference research → internal BPM. R1 research/design preparation is next authorized; no Ride identity result, BeatReference inference or BPM computation exists or is authorized here.
+- Global recurrence-sufficiency null track: **DEFERRED_PARALLEL**, supporting validation, not cancelled or a mandatory sequential gate. Its decisive criterion still lacks independent authority; RECURRENCE_SUFFICIENCY_NOT_ESTABLISHED.
+- Global recurrence evidence remains separately preserved supporting/comparative evidence; no statistical independence or forced agreement is implied.
+- Double-Bass: active independent capture preparation, draft 0.5; DPA adapter resolved; NT5 ordered (PI declaration), delivery/mounting and capture-day checks pending. DB-MTO remains blocked/unexecuted; ontology provisional; Identity Card not frozen. No recording authorization.
+- Next scientific task: **RIDE IDENTITY RESEARCH DESIGN**, after this preservation handoff. Subsequent recognition, timing, fallback and experimental stages need separate authorization.
+
+## Historical state and milestone records
+
+The sections below are retained historical layers, not competing current research-frontier declarations.
+
 ## Prospective Demucs operational continuation — 2026-09-07
 
 The explicitly authorized htdemucs_6s path now preserves AD-041 source identity,

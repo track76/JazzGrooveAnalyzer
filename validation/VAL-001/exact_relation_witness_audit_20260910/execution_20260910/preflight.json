@@ -1,0 +1,27 @@
+{
+  "all_bound_implementation_environment_upstream_external_hashes_match": true,
+  "counts_from_frozen_authority": {
+    "center_specific_windows": 3864,
+    "distinct_centers": 63,
+    "events": 63,
+    "positive_period_coordinates": 1056,
+    "unordered_pairs": 1953
+  },
+  "environment_fingerprint": "13bd11b30796d461ef2cfd73053bb725e26bdd7a9c093226da0a21999911ca2c",
+  "implementation_sha256": "418d6f71f855414a0aed06d02e6906ede42efba3bab1a7f2044fac3b4df29dfe",
+  "input_freeze_sha256": "ba21b73d7fe122b29b522f442a3724a89b8fec96549a34b39db62bb7830b29e7",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "producer_counts": {
+    "accumulations": 133195392,
+    "center_scales": 3864,
+    "centers": 63,
+    "periods": 1056,
+    "queries": 4080384
+  },
+  "python_version": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "recurrence_separations_computed_in_preflight": false,
+  "source_uuid": "c46d6cb9-b99c-5bd6-8d81-656dc1ad48ec",
+  "status": "HASHES_AND_POPULATION_METADATA_VERIFIED",
+  "unique_eme_count": 63,
+  "unique_parent_count": 63
+}

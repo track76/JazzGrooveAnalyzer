@@ -2,6 +2,14 @@
 
 # Official Roadmap
 
+## Current scientific priority — 2026-09-10
+
+The [PI Ride-first timing decision](scientific/JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md) is the current scientific route: R1 physical/perceptual Ride identity research → R2 observability → R3 controlled identity/discrimination with abstention → R4 real-audio event recognition → R5 Ride-conditioned recurrence/periodicity → R6 independent BeatReference research → R7 internal BPM after reference authority. Only R1 research/design preparation is next authorized. No Ride result, BeatReference or BPM is claimed.
+
+Global Drum map/recurrence evidence is accepted and preserved for supporting/comparative use. Its null/sufficiency track is DEFERRED_PARALLEL, not cancelled and no longer a mandatory prior gate. Double-Bass capture preparation remains active independently. Ride absence/uncertainty requires abstention; fallback needs separate authorization. See the decision for all claim boundaries and evidence links.
+
+The milestones below retain their historical scope; they do not override this current scientific priority.
+
 ---
 
 ## Vision

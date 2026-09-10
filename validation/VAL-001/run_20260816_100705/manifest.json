@@ -1,0 +1,45 @@
+{
+  "experiment_id": "H-VAL001-EME-DRUM-01",
+  "run_id": "run_20260816_100705",
+  "status": "PREREGISTERED",
+  "scientific_question": "Are the 63 independently detected controlled-drum PulseCandidates the same events as the 63 authoritative symbolic drum onset positions?",
+  "scope": "controlled drum source only",
+  "source_revision": "602c2794468afca81bafa0a7a03d9f2d352fd6fd",
+  "blind_asset": {
+    "path": "recordings/validation/stems/drums.wav",
+    "sha256": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd"
+  },
+  "ground_truth_asset": {
+    "path": "recordings/validation/ground_truth/03 THE COST OF LIVING versione intro + 8 bar.musicxml",
+    "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "access": "post-blind validation only"
+  },
+  "declared_rendering_context": {
+    "temporal_origin": "MusicXML score time zero = WAV sample zero",
+    "quarter_bpm": 78,
+    "sample_rate_hz": 44100
+  },
+  "measurement": {
+    "hop_length_samples": 512,
+    "timestamp_resolution_seconds": 0.011609977324263039,
+    "correspondence_bound_seconds": 0.011609977324263039,
+    "derivation": "One detector timestamp cell: hop_length_samples / sample_rate_hz."
+  },
+  "correspondence_rule": {
+    "expected_timestamp": "absolute quarter-note score position * 60 / 78",
+    "edge": "absolute detected-minus-expected error <= one timestamp-resolution cell",
+    "assignment": "A correspondence exists only where each symbolic onset has exactly one candidate edge and each candidate has exactly one symbolic edge; observations are never reused.",
+    "exact_match": "detected timestamp equals expected timestamp exactly",
+    "complete": "All symbolic onsets and all PulseCandidates participate in the unique one-to-one correspondence.",
+    "partial": "At least one unique one-to-one correspondence exists, but unmatched symbolic onsets or candidates remain.",
+    "failed": "No unique correspondence exists.",
+    "not_yet_knowable": "Declared origin or measurement information is insufficient to evaluate correspondence."
+  },
+  "prohibited": [
+    "Ground Truth access before blind observation freeze",
+    "parameter tuning",
+    "detector modification",
+    "post-hoc tolerance adjustment",
+    "other instruments"
+  ]
+}

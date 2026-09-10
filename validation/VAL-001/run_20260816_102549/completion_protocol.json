@@ -1,0 +1,11 @@
+{
+  "experiment_id": "H-VAL001-EME-BASS-01",
+  "blind_independence": "PASSED — all configurations were executed twice and frozen byte-identically before Ground Truth access.",
+  "scientific_validation": "PASSED — the preregistered test falsified count-based acceptance and classified the result FAILED.",
+  "production_tests": "NOT APPLICABLE — production code and defaults were not modified.",
+  "full_suite": "NOT APPLICABLE — production and test code were not modified.",
+  "repository_consistency": "PASSED — checksum-bound source assets were unchanged and unrelated working-tree changes were preserved.",
+  "storage_impact": "Lightweight non-overwriting JSON, Python and Markdown validation records only; no audio copied.",
+  "commit": "NOT CREATED",
+  "push": "NOT PERFORMED"
+}

@@ -1,0 +1,1113 @@
+{
+  "branch": "scientific/translation-layer-finalization",
+  "commit_identity": "The Git commit containing this record supplies the preservation identity; no self-referential commit hash is embedded.",
+  "entries": [
+    {
+      "bytes": 117597,
+      "category": "C",
+      "initial_git_status": " M",
+      "path": "output/chet_baker_metric_plot.png",
+      "reason": "Pre-existing user plot/score modification; unrelated and excluded.",
+      "sha256": "15dacf9df5301edac996f394977d40f48739879ecb8210c19f04f46310aeb0c8",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/jazz_groove_map.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/jazz_groove_map_v2.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/jga_absolute_timeline_measure1.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/jga_analytical_score_measure1.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/jga_groove_deviation_measure1.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/jga_measure112_groove_score.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/jga_measure1_groove_score.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/jga_measure1_groove_score_10x.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measure_1_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measure_26_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measure_26_score.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_100_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_101_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_102_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_103_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_104_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_105_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_10_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_12_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_13_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_15_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_19_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_1_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_26_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_42_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_43_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_44_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_48_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_49_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_4_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_52_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_59_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_64_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_67_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_70_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_72_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_80_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_81_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_83_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/measures/measure_94_groove.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/multistem_groove_score.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/multistem_measure1_score.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "category": "D",
+      "initial_git_status": " D",
+      "path": "output/multistem_real_timeline_measure1.png",
+      "reason": "Pre-existing historical plot deletion; not restored or staged.",
+      "stage": false
+    },
+    {
+      "bytes": 346513,
+      "category": "C",
+      "initial_git_status": " M",
+      "path": "recordings/03 THE COST OF LIVING versione intro + 8 bar.sib",
+      "reason": "Pre-existing user plot/score modification; unrelated and excluded.",
+      "sha256": "4888411ba56cb862823e73e584c3ba321a2be604e7d6ee62e87fa7401fbb2a83",
+      "stage": false
+    },
+    {
+      "bytes": 3285,
+      "category": "C",
+      "initial_git_status": "??",
+      "path": "AGENTS.md",
+      "reason": "Pre-existing operating guide, inspected but not modified; excluded from scientific preservation scope.",
+      "sha256": "af6d61f628aef9603583cd6fa206b5a0f602231dbd21b1671443ca5cc5b9f81c",
+      "stage": false
+    },
+    {
+      "bytes": 55121,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "docs/scientific/rfc/DB_MTO_PILOT_01_PREREGISTRATION_DESIGN.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "3acbb23a70f921c0c403f02f6ff87b4ae6e6036616ddeff2c7990dd7a17d1385",
+      "stage": true
+    },
+    {
+      "bytes": 76439,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "docs/scientific/rfc/DOUBLE_BASS_EXISTING_ASSET_REUSE_AUDIT_DB_MTO_PILOT_01.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "269b38daed88aeaaa529a7dd5dcc7f7f69030ae1da5315ed5a4be6101358d169",
+      "stage": true
+    },
+    {
+      "bytes": 88718,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "docs/scientific/rfc/DOUBLE_BASS_IDENTITY_CARD_COMPLETENESS_RECONSTRUCTION_AUDIT.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "723eb1c92f4e4b25b9ae176a383142fd975177da2c97d2c1ddb2907cfff12907",
+      "stage": true
+    },
+    {
+      "bytes": 69030,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "docs/scientific/rfc/DOUBLE_BASS_INSTRUMENT_IDENTITY_PHASE_I_RESEARCH.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "d11166600f7d910a5bd86a708132aaf4b9c4f49789e872506c36b2a0a8325d0c",
+      "stage": true
+    },
+    {
+      "bytes": 80311,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "docs/scientific/rfc/DOUBLE_BASS_SINGLE_SESSION_CAPTURE_SPECIFICATION.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "cd33fea5e0d403d1e0abbec99bc1359ba61be1cbe90b1c0d958f528316a81e42",
+      "stage": true
+    },
+    {
+      "bytes": 38278,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "docs/scientific/rfc/DRUM_PERIODICITY_RECURRENCE_SUFFICIENCY_RESEARCH_DESIGN.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "9a2a48381675ae9013afd04799257b2d238887c07e7cd4f586481036c1cbea10",
+      "stage": true
+    },
+    {
+      "bytes": 38831,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "docs/scientific/rfc/DRUM_RECURRENCE_SUFFICIENCY_VALIDATION_DESIGN.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "7d381c67cdf90cb324e550428b44df89fb01f2021d31530beaf1b44302f231a1",
+      "stage": true
+    },
+    {
+      "bytes": 3303,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/canonical_timing_report_millisecond_acceptance_20260902/PROTOCOL.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "fc4ffbc22d2209ee2e16b15e6ca97e2f349ce8616ca91dc766548b500f00b9e3",
+      "stage": true
+    },
+    {
+      "bytes": 9431,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/canonical_timing_report_millisecond_acceptance_20260902/acceptance.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "11ece41b3819cb69cf3feca062fee8be7c6f24479d23c306c949f74999e26b62",
+      "stage": true
+    },
+    {
+      "bytes": 273971,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/canonical_timing_report_millisecond_acceptance_20260902/canonical_report_run_1.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "e4fcca94c2ee2e7c348a11a245da6a507e9c01e40e37844da291393052585b96",
+      "stage": true
+    },
+    {
+      "bytes": 273971,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/canonical_timing_report_millisecond_acceptance_20260902/canonical_report_run_2.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "e4fcca94c2ee2e7c348a11a245da6a507e9c01e40e37844da291393052585b96",
+      "stage": true
+    },
+    {
+      "bytes": 9728,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/INDEPENDENT_CODE_REVIEW.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "f3703b2127dd16b0aff07b9322622825260af18793f9ed68ba42b838c1b669c3",
+      "stage": true
+    },
+    {
+      "bytes": 19950,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/INDEPENDENT_CODE_REVIEW_V2.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "87564d731c940ec5fa255a550bfc82b56a6551f78058c61ee2870c8a4bb0008b",
+      "stage": true
+    },
+    {
+      "bytes": 14346,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/README.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "13b9d14757cc0e5699f9b08b73790ce3475196003deb105df6e4cf1a87671fc8",
+      "stage": true
+    },
+    {
+      "bytes": 9110,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/REPLACEMENT_FREEZE_REVIEW.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "66d19aacbf59f87cfcc7b39ab059dabda1d04b01a69975b0e0dce3405e2efc62",
+      "stage": true
+    },
+    {
+      "bytes": 21038,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/checker.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "e9128cfd412a2f085de5a4ce582d048bcd4810e2dcffd873e5cd51f119fb9b30",
+      "stage": true
+    },
+    {
+      "bytes": 11848,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/REPORT.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "2df4d006c0a1b3f515b66ea5cdef3f09aa5ce049d1c75ff0d41c509347e9d5bc",
+      "stage": true
+    },
+    {
+      "bytes": 959,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/SHA256SUMS",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "5a5fc5daf321b86c747f5cfadc59d4fb57fa648ddf2410833d226c15291b2c22",
+      "stage": true
+    },
+    {
+      "bytes": 14244,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/descriptive_summary.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "02414b226980858843fd7094a5c3eba40f5e2888566f40354457bce373d58423",
+      "stage": true
+    },
+    {
+      "bytes": 1247,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/pi_execution_authorization.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "efd76f0c53081f5962479b2a034fde0df044c678af337936c52038b6c79169d9",
+      "stage": true
+    },
+    {
+      "bytes": 137868,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/post_execution_authority_verification.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "070127ff5ff8eb4408908e4ec2a16f701b4230c87b5cd8a09b512d4d93f5a34c",
+      "stage": true
+    },
+    {
+      "bytes": 1100,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/preflight.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "30c754937cdf954ae6c91d4d6e66c0d4201da808ec52d683a9f61b597a4f51ec",
+      "stage": true
+    },
+    {
+      "bytes": 400,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/replay_operation.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "84bdf87945080e74be049bc06c16fe126132d0691d0b834a77284a79a49d9b43",
+      "stage": true
+    },
+    {
+      "bytes": 1004,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/review_authority.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "cd9f08c80828ed21f08b151fd23ab6e83b7f933f3853108c8f229ae4186e959d",
+      "stage": true
+    },
+    {
+      "bytes": 281,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/run_1_completion.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "c514c0183c926a7079928c70f9cf80fd838570c792437add139566b9672fb34b",
+      "stage": true
+    },
+    {
+      "bytes": 236,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/run_2_completion.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "8181518df46d97c0739d4ec45b7e97d182ae24ec7b63a5610359bc5c1affd57b",
+      "stage": true
+    },
+    {
+      "bytes": 5484,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/fixtures.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "e5454d47160c0b3f20c97b1dbc1978e82152d93939f817dd296712e5579920e7",
+      "stage": true
+    },
+    {
+      "bytes": 18052,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/generator.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "289f5e83671a0f6deb4426f012b58b78635a0d6e0d300bbfa62dd48962070eed",
+      "stage": true
+    },
+    {
+      "bytes": 12919,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/history/v1/runner.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "45e3acdd63180d88a914f4fe35b5e870b816cbc3a63b2cd7aa18180a69546850",
+      "stage": true
+    },
+    {
+      "bytes": 3098,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/history/v1/test_results.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "24d42bebdd28af7d2884df242f375b6f6d05dd09c5ed413d7668d102528b041c",
+      "stage": true
+    },
+    {
+      "bytes": 14740,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/history/v1/test_witness_audit.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "bd4185ddddb9c8e52647465fb234db80b1dcef42956016596b10ea2a7c92857b",
+      "stage": true
+    },
+    {
+      "bytes": 114759,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/implementation_binding.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "c303a6a13874573b811b4be6317c97889d321890301f9936007688146c042a33",
+      "stage": true
+    },
+    {
+      "bytes": 115487,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/implementation_binding_v2.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "418d6f71f855414a0aed06d02e6906ede42efba3bab1a7f2044fac3b4df29dfe",
+      "stage": true
+    },
+    {
+      "bytes": 17690,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/runner.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "64c59d7564749af33f63a41ac89a50b1c69dcbe57b9aa919cb250d646e638778",
+      "stage": true
+    },
+    {
+      "bytes": 3165,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/test_results.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "085c1cf0095489edaeb8f8da7f0bf1fa8d495eeb5d1f527667cddc365e0c5e69",
+      "stage": true
+    },
+    {
+      "bytes": 18216,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/test_witness_audit.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "2b1531f496776bcfd27ed9ab70889abb58eadf9b080585dc926e82b6e7154734",
+      "stage": true
+    },
+    {
+      "bytes": 2242,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/transport.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "3185aeb9a6b94715db85640826475d88575232c4bbfbbe2d929b020d9936465b",
+      "stage": true
+    },
+    {
+      "bytes": 5986,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/preregistrations/H-VAL001-DRUM-EXACT-RELATION-WITNESS-AUDIT-01.authorities.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "477cd53b11778091907058ad6157bd0a881b85240d8fd13fa5e9dc3ef676e059",
+      "stage": true
+    },
+    {
+      "bytes": 28722,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/preregistrations/H-VAL001-DRUM-EXACT-RELATION-WITNESS-AUDIT-01.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "c609cfabdfd31f5122cd0883da861c2b742aa2af7a659cf691dbe0d56161e48a",
+      "stage": true
+    },
+    {
+      "bytes": 2580,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/preregistrations/H-VAL001-DRUM-RECURRENCE-STRUCTURE-01.authorities.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "73f8415d4fd6234be276acc2158e498aadbdb0c7b1caa9248882a89e256a9136",
+      "stage": true
+    },
+    {
+      "bytes": 12615,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/preregistrations/H-VAL001-DRUM-RECURRENCE-STRUCTURE-01.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "a5c4caf9db3979f363e9776bcb274b9ee95be6c6961c97e6a8a511844479c82b",
+      "stage": true
+    },
+    {
+      "bytes": 1862,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/preregistrations/H-VAL001-DRUM-STRUCTURAL-TRANSITION-01.authorities.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "8de42067ebfc0381fac5e6fd5795965d9964da7202b6e0f3feca3df152f89fda",
+      "stage": true
+    },
+    {
+      "bytes": 10926,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/preregistrations/H-VAL001-DRUM-STRUCTURAL-TRANSITION-01.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "9a67ea26debd7119abe28712495e88cb6d89df6b9da5353d55771fd89d104d7e",
+      "stage": true
+    },
+    {
+      "bytes": 9666,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/preregistrations/H-VAL001-TEMPORAL-CELL-SINGLETON-01.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "6507a69c33247da87afe6f5445db0f4d475e7de8386c97b7b6b4fc61fda56ac8",
+      "stage": true
+    },
+    {
+      "bytes": 3357,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260809_065633/baseline.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "9f219660d933b9084190708b8b7ae9ef092c987aff767390750351e83a93090d",
+      "stage": true
+    },
+    {
+      "bytes": 306197,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260809_065633/diagnostics.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "8063519bae4d60696515194d9982af755635b29cefc89ffbc6cb98cd82f86198",
+      "stage": true
+    },
+    {
+      "bytes": 18766,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260809_065633/notes.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "3845d5e2825a94ffc5147adf5cc70c198470d5fbde201e31c75a41cab1359f40",
+      "stage": true
+    },
+    {
+      "bytes": 1828,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260809_065633/report.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "1b62a7eed9b213a29b64e1ea557da7d7406734478d5bee5198db0dda3937ba9d",
+      "stage": true
+    },
+    {
+      "bytes": 705,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_100705/artifact_manifest.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "163ff22d84a735f8ca3c123fe63fdf17d096af3390402eaf912ca768dcbf16c0",
+      "stage": true
+    },
+    {
+      "bytes": 9117,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_100705/blind_observations.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "b520defd03703f695cffd5815c1d182fcbae7e517f3ce75179eee5fc578a7893",
+      "stage": true
+    },
+    {
+      "bytes": 805,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_100705/completion_protocol.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "b37abc1eac68d8bb4de78bb0c6d500322d621e7b634ff026d3eb7da882afea80",
+      "stage": true
+    },
+    {
+      "bytes": 7158,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_100705/experiment.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "56ab074d399cc6706ef26c247b9403ac5325870c8cea2bb4361a83cd779a0fca",
+      "stage": true
+    },
+    {
+      "bytes": 2273,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_100705/manifest.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "f73fa9afc3601d987ca8996793e4fab26249c97331ed996b368425905e1b8983",
+      "stage": true
+    },
+    {
+      "bytes": 8372,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_100705/post_blind_correspondence.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "8e5bc199c4d9cb57ca5b71f02cfe08552d3fb1a8f1e7aaa7f46866214dcd08c0",
+      "stage": true
+    },
+    {
+      "bytes": 2381,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_100705/report.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "5753be3edcb4969019f8dcaa3520b1f8190b9828f62a406017bb3ed6fe0cdc2e",
+      "stage": true
+    },
+    {
+      "bytes": 700,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_102549/artifact_manifest.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "cc8c0e19846fdc79dc4a4b2f7a351eed97dcb756d8990be1da06b5077b97d29f",
+      "stage": true
+    },
+    {
+      "bytes": 17696,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_102549/blind_populations.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "5bf64d265bb2ccc6bf32651b37b88c5256d9a27847d47fd9ce9420364ca55ada",
+      "stage": true
+    },
+    {
+      "bytes": 794,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_102549/completion_protocol.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "668df6c0e04817797138d43a083fe1212cfa2b8fa2758157896a56c7c81b7767",
+      "stage": true
+    },
+    {
+      "bytes": 8999,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_102549/experiment.py",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "471011f35e03e8a83bdd82d4745e0a11fc18068e8f540eea71015f048ff8f571",
+      "stage": true
+    },
+    {
+      "bytes": 2529,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_102549/manifest.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "566cd8ee7c337c3e886e8509518bbecefb21c9a5c942e7855279e96701051fac",
+      "stage": true
+    },
+    {
+      "bytes": 2331,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_102549/post_blind_validation.json",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "256a7615c541dab1a0b607064763190e153dc2ce1ce5147f97b645f45472dbff",
+      "stage": true
+    },
+    {
+      "bytes": 2465,
+      "category": "A",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/run_20260816_102549/report.md",
+      "reason": "Existing lightweight scientific record/source/authority; preserve unchanged at its recorded status, without re-execution or promotion.",
+      "sha256": "ebd63fcfad32b728307674c2c54dbaf5b0902ae6a8bb5a049eeadf6374da3dba",
+      "stage": true
+    },
+    {
+      "bytes": 163922,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/jga_absolute_eme_timeline_drum_relative.png",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "85588754dab9de6ab1a9c342fc2f4045bd010c36a17ef9e1c14ca25f79ba4dea",
+      "stage": false
+    },
+    {
+      "bytes": 39693,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/jga_absolute_nearest_drum_distance_data.json",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "bb0577cbdaacfb78a8a1861eac07ca8914fbd23412d93c240cf41fe0adac4103",
+      "stage": false
+    },
+    {
+      "bytes": 197033,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/jga_absolute_nearest_drum_distance_distribution.png",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "bb3d7bd011ed756cd7ba98da78bc4f4e8b95da64035d7c56b0b2390b871181b8",
+      "stage": false
+    },
+    {
+      "bytes": 220432,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/jga_drum_relative_detail_10s_15s.png",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "db0e5c41654f43c99cc9a7dea96e96b24992e8a41b76754e65bc2c64c3c75a9d",
+      "stage": false
+    },
+    {
+      "bytes": 405552,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/jga_rhythm_section_timing_profile_absolute.png",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "785b1f3a17af80d9011f4e8b48440384728ebd785cf099bd45b412fb0bdbe067",
+      "stage": false
+    },
+    {
+      "bytes": 394433,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/jga_rhythm_section_timing_profile_detail_10s_15s.png",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "21652b10bb5d191261a8c693bc6c71759e4f5bfbd8d88951d0e427c1552ee491",
+      "stage": false
+    },
+    {
+      "bytes": 5867,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/render_absolute_eme_timeline.py",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "dbc58ceac12e05781471c70b92e4bab84c88369c3834509bbefbd826c2ba1d97",
+      "stage": false
+    },
+    {
+      "bytes": 9652,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/render_absolute_nearest_drum_distance_distribution.py",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "80fd21a8c9ec4701f3f206ff185f8babd66e62c182c5b885b1cc04d3334e4d1a",
+      "stage": false
+    },
+    {
+      "bytes": 7034,
+      "category": "E",
+      "initial_git_status": "??",
+      "path": "validation/VAL-001/visualizations/render_drum_relative_detail_10s_15s.py",
+      "reason": "Unclassified generated visualization/script output; no preservation authority established in this task.",
+      "sha256": "64e78ecd81d77f41a774c0ba1eba4876f61fae22931a7083aa5548881081fbf4",
+      "stage": false
+    },
+    {
+      "category": "B",
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "reason": "Current PI-authorized state/roadmap/navigation/preservation update.",
+      "stage": true
+    },
+    {
+      "category": "B",
+      "path": "docs/JGA_ROADMAP.md",
+      "reason": "Current PI-authorized state/roadmap/navigation/preservation update.",
+      "stage": true
+    },
+    {
+      "category": "B",
+      "path": "docs/ROADMAP.md",
+      "reason": "Current PI-authorized state/roadmap/navigation/preservation update.",
+      "stage": true
+    },
+    {
+      "category": "B",
+      "path": "docs/project/PROJECT_METADATA.md",
+      "reason": "Current PI-authorized state/roadmap/navigation/preservation update.",
+      "stage": true
+    },
+    {
+      "category": "B",
+      "path": "docs/scientific/README.md",
+      "reason": "Current PI-authorized state/roadmap/navigation/preservation update.",
+      "stage": true
+    },
+    {
+      "category": "B",
+      "path": "docs/scientific/JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md",
+      "reason": "Current PI-authorized state/roadmap/navigation/preservation update.",
+      "stage": true
+    },
+    {
+      "category": "B",
+      "path": "docs/project/CURRENT_STATE_PRESERVATION_20260910.json",
+      "reason": "Current PI-authorized state/roadmap/navigation/preservation update.",
+      "stage": true
+    },
+    {
+      "category": "B",
+      "path": "artifacts/JGA_BOOTSTRAP.md",
+      "reason": "PI-authorized derived snapshot; remains Git-ignored. Canonical knowledge is committed in source decision/state/metadata.",
+      "stage": false
+    },
+    {
+      "bytes": 0,
+      "category": "A",
+      "initial_git_status": "IGNORED",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/run_1.log",
+      "reason": "Small original execution log retained for complete lightweight package/checksum preservation. Explicit file-only ignore override.",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stage": true
+    },
+    {
+      "bytes": 0,
+      "category": "A",
+      "initial_git_status": "IGNORED",
+      "path": "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/run_2.log",
+      "reason": "Small original execution log retained for complete lightweight package/checksum preservation. Explicit file-only ignore override.",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stage": true
+    },
+    {
+      "bytes": 3710,
+      "category": "A",
+      "initial_git_status": "IGNORED",
+      "path": "validation/VAL-001/run_20260809_065633/runtime.log",
+      "reason": "Small original execution log retained for complete lightweight package/checksum preservation. Explicit file-only ignore override.",
+      "sha256": "ceaa3d6adaef444de4a0240b16a9bb7e785038bd23c6abe70724190fe765efeb",
+      "stage": true
+    }
+  ],
+  "external_authorities": {
+    "SHA256SUMS": "6991aab5b43d0727c9a5ddecfb9004d43fd04e8b49af30ba4d6869154ee44402",
+    "replay.json": "f313975acdc4dda71a37bdc40e2134e3e4fcb26d5245d5563ddab690a3bc9d86",
+    "root": "/Volumes/SSD Track/JGA/experiments/H-VAL001-DRUM-EXACT-RELATION-WITNESS-AUDIT-01",
+    "run_1/candidate_population.json": "b933c5ab50b18b4732f49ea33e3b60d7bfc183f1ae845771d981f704bdd6ca5e"
+  },
+  "precommit_checks": {
+    "external_candidate_replay_checksum_index": "VERIFIED",
+    "full_suite": "NOT_RUN; no implementation changed; historical test evidence retained",
+    "git_diff_check": "Tracked new edits PASS; staged check reports only two pre-existing hash-bound blank-at-EOF warnings",
+    "historical_august_artifact_manifests": "VERIFIED",
+    "immutable_whitespace_exceptions": [
+      "validation/VAL-001/run_20260816_100705/report.md:53",
+      "validation/VAL-001/run_20260816_102549/report.md:53"
+    ],
+    "navigation_links": "VERIFIED for current roadmap/navigation",
+    "new_scientific_execution": "NONE",
+    "production_changes": "NONE; existing experiment sources preserved byte-for-byte",
+    "protected_hashes": "VERIFIED_UNCHANGED",
+    "staged_scope": "72 exact A+B paths; no audio/images/score/bytecode or heavy outputs"
+  },
+  "preservation_policy": "No heavy external data copied; ignored caches/bytecode excluded; no source modification or new scientific execution. Historical state labels/hashes remain immutable. Frozen publication evidence index and v1 scientific scope unchanged.",
+  "protected_repository_hashes": {
+    "docs/scientific/rfc/DB_MTO_PILOT_01_PREREGISTRATION_DESIGN.md": "3acbb23a70f921c0c403f02f6ff87b4ae6e6036616ddeff2c7990dd7a17d1385",
+    "docs/scientific/rfc/DOUBLE_BASS_EXISTING_ASSET_REUSE_AUDIT_DB_MTO_PILOT_01.md": "269b38daed88aeaaa529a7dd5dcc7f7f69030ae1da5315ed5a4be6101358d169",
+    "docs/scientific/rfc/DOUBLE_BASS_IDENTITY_CARD_COMPLETENESS_RECONSTRUCTION_AUDIT.md": "723eb1c92f4e4b25b9ae176a383142fd975177da2c97d2c1ddb2907cfff12907",
+    "docs/scientific/rfc/DOUBLE_BASS_INSTRUMENT_IDENTITY_PHASE_I_RESEARCH.md": "d11166600f7d910a5bd86a708132aaf4b9c4f49789e872506c36b2a0a8325d0c",
+    "docs/scientific/rfc/DOUBLE_BASS_SINGLE_SESSION_CAPTURE_SPECIFICATION.md": "cd33fea5e0d403d1e0abbec99bc1359ba61be1cbe90b1c0d958f528316a81e42",
+    "docs/scientific/rfc/DRUM_PERIODICITY_RECURRENCE_SUFFICIENCY_RESEARCH_DESIGN.md": "9a2a48381675ae9013afd04799257b2d238887c07e7cd4f586481036c1cbea10",
+    "docs/scientific/rfc/DRUM_RECURRENCE_SUFFICIENCY_VALIDATION_DESIGN.md": "7d381c67cdf90cb324e550428b44df89fb01f2021d31530beaf1b44302f231a1",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/INDEPENDENT_CODE_REVIEW.md": "f3703b2127dd16b0aff07b9322622825260af18793f9ed68ba42b838c1b669c3",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/INDEPENDENT_CODE_REVIEW_V2.md": "87564d731c940ec5fa255a550bfc82b56a6551f78058c61ee2870c8a4bb0008b",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/README.md": "13b9d14757cc0e5699f9b08b73790ce3475196003deb105df6e4cf1a87671fc8",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/REPLACEMENT_FREEZE_REVIEW.md": "66d19aacbf59f87cfcc7b39ab059dabda1d04b01a69975b0e0dce3405e2efc62",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/checker.py": "e9128cfd412a2f085de5a4ce582d048bcd4810e2dcffd873e5cd51f119fb9b30",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/REPORT.md": "2df4d006c0a1b3f515b66ea5cdef3f09aa5ce049d1c75ff0d41c509347e9d5bc",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/SHA256SUMS": "5a5fc5daf321b86c747f5cfadc59d4fb57fa648ddf2410833d226c15291b2c22",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/descriptive_summary.json": "02414b226980858843fd7094a5c3eba40f5e2888566f40354457bce373d58423",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/pi_execution_authorization.json": "efd76f0c53081f5962479b2a034fde0df044c678af337936c52038b6c79169d9",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/post_execution_authority_verification.json": "070127ff5ff8eb4408908e4ec2a16f701b4230c87b5cd8a09b512d4d93f5a34c",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/preflight.json": "30c754937cdf954ae6c91d4d6e66c0d4201da808ec52d683a9f61b597a4f51ec",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/replay_operation.json": "84bdf87945080e74be049bc06c16fe126132d0691d0b834a77284a79a49d9b43",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/review_authority.json": "cd9f08c80828ed21f08b151fd23ab6e83b7f933f3853108c8f229ae4186e959d",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/run_1.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/run_1_completion.json": "c514c0183c926a7079928c70f9cf80fd838570c792437add139566b9672fb34b",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/run_2.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/run_2_completion.json": "8181518df46d97c0739d4ec45b7e97d182ae24ec7b63a5610359bc5c1affd57b",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/fixtures.py": "e5454d47160c0b3f20c97b1dbc1978e82152d93939f817dd296712e5579920e7",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/generator.py": "289f5e83671a0f6deb4426f012b58b78635a0d6e0d300bbfa62dd48962070eed",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/history/v1/runner.py": "45e3acdd63180d88a914f4fe35b5e870b816cbc3a63b2cd7aa18180a69546850",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/history/v1/test_results.json": "24d42bebdd28af7d2884df242f375b6f6d05dd09c5ed413d7668d102528b041c",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/history/v1/test_witness_audit.py": "bd4185ddddb9c8e52647465fb234db80b1dcef42956016596b10ea2a7c92857b",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/implementation_binding.json": "c303a6a13874573b811b4be6317c97889d321890301f9936007688146c042a33",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/implementation_binding_v2.json": "418d6f71f855414a0aed06d02e6906ede42efba3bab1a7f2044fac3b4df29dfe",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/runner.py": "64c59d7564749af33f63a41ac89a50b1c69dcbe57b9aa919cb250d646e638778",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/test_results.json": "085c1cf0095489edaeb8f8da7f0bf1fa8d495eeb5d1f527667cddc365e0c5e69",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/test_witness_audit.py": "2b1531f496776bcfd27ed9ab70889abb58eadf9b080585dc926e82b6e7154734",
+    "validation/VAL-001/exact_relation_witness_audit_20260910/transport.py": "3185aeb9a6b94715db85640826475d88575232c4bbfbbe2d929b020d9936465b",
+    "validation/VAL-001/preregistrations/H-VAL001-DRUM-EXACT-RELATION-WITNESS-AUDIT-01.authorities.json": "477cd53b11778091907058ad6157bd0a881b85240d8fd13fa5e9dc3ef676e059",
+    "validation/VAL-001/preregistrations/H-VAL001-DRUM-EXACT-RELATION-WITNESS-AUDIT-01.md": "c609cfabdfd31f5122cd0883da861c2b742aa2af7a659cf691dbe0d56161e48a"
+  },
+  "record_id": "JGA-STATE-PRESERVATION-20260910",
+  "remote_head_verified_before_changes": "2856c95952ea078fb01d179c2f94e5cb6bd697e3",
+  "starting_head": "2856c95952ea078fb01d179c2f94e5cb6bd697e3",
+  "status": "PI_AUTHORIZED_PRESERVATION_SCOPE"
+}

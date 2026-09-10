@@ -1,0 +1,388 @@
+{
+  "asset_path": "recordings/validation/stems/drums.wav",
+  "asset_sha256": "d09401036a750de70d8d7b14e4f508bc14f7b8ace2b0f629d6b707c00b33aafd",
+  "experiment_id": "H-VAL001-EME-DRUM-01",
+  "ground_truth_loaded": false,
+  "pulse_candidate_count": 63,
+  "pulse_candidates": [
+    {
+      "confidence": 1.0,
+      "index": 0,
+      "strength": 7.308899402618408,
+      "timestamp_seconds": 0.4295691609977324
+    },
+    {
+      "confidence": 1.0,
+      "index": 1,
+      "strength": 10.970926284790039,
+      "timestamp_seconds": 1.207437641723356
+    },
+    {
+      "confidence": 1.0,
+      "index": 2,
+      "strength": 7.753572940826416,
+      "timestamp_seconds": 1.5905668934240362
+    },
+    {
+      "confidence": 1.0,
+      "index": 3,
+      "strength": 10.118642807006836,
+      "timestamp_seconds": 2.7399546485260773
+    },
+    {
+      "confidence": 1.0,
+      "index": 4,
+      "strength": 6.616000652313232,
+      "timestamp_seconds": 3.5062131519274375
+    },
+    {
+      "confidence": 1.0,
+      "index": 5,
+      "strength": 2.742086410522461,
+      "timestamp_seconds": 4.272471655328798
+    },
+    {
+      "confidence": 1.0,
+      "index": 6,
+      "strength": 7.90908145904541,
+      "timestamp_seconds": 4.667210884353741
+    },
+    {
+      "confidence": 1.0,
+      "index": 7,
+      "strength": 7.779242515563965,
+      "timestamp_seconds": 5.433469387755102
+    },
+    {
+      "confidence": 1.0,
+      "index": 8,
+      "strength": 9.056015968322754,
+      "timestamp_seconds": 5.8165986394557825
+    },
+    {
+      "confidence": 1.0,
+      "index": 9,
+      "strength": 2.9192628860473633,
+      "timestamp_seconds": 7.349115646258503
+    },
+    {
+      "confidence": 1.0,
+      "index": 10,
+      "strength": 2.5612235069274902,
+      "timestamp_seconds": 7.732244897959184
+    },
+    {
+      "confidence": 1.0,
+      "index": 11,
+      "strength": 9.207874298095703,
+      "timestamp_seconds": 8.893242630385487
+    },
+    {
+      "confidence": 1.0,
+      "index": 12,
+      "strength": 6.78436279296875,
+      "timestamp_seconds": 9.659501133786849
+    },
+    {
+      "confidence": 1.0,
+      "index": 13,
+      "strength": 11.720101356506348,
+      "timestamp_seconds": 10.437369614512471
+    },
+    {
+      "confidence": 1.0,
+      "index": 14,
+      "strength": 8.187986373901367,
+      "timestamp_seconds": 10.820498866213152
+    },
+    {
+      "confidence": 1.0,
+      "index": 15,
+      "strength": 7.514431953430176,
+      "timestamp_seconds": 11.586757369614512
+    },
+    {
+      "confidence": 1.0,
+      "index": 16,
+      "strength": 7.996313571929932,
+      "timestamp_seconds": 11.969886621315192
+    },
+    {
+      "confidence": 1.0,
+      "index": 17,
+      "strength": 5.995666027069092,
+      "timestamp_seconds": 12.701315192743763
+    },
+    {
+      "confidence": 1.0,
+      "index": 18,
+      "strength": 12.728561401367188,
+      "timestamp_seconds": 13.514013605442177
+    },
+    {
+      "confidence": 1.0,
+      "index": 19,
+      "strength": 16.56793975830078,
+      "timestamp_seconds": 13.862312925170068
+    },
+    {
+      "confidence": 1.0,
+      "index": 20,
+      "strength": 8.885088920593262,
+      "timestamp_seconds": 14.628571428571428
+    },
+    {
+      "confidence": 1.0,
+      "index": 21,
+      "strength": 16.785486221313477,
+      "timestamp_seconds": 15.011700680272108
+    },
+    {
+      "confidence": 1.0,
+      "index": 22,
+      "strength": 8.569080352783203,
+      "timestamp_seconds": 15.777959183673469
+    },
+    {
+      "confidence": 1.0,
+      "index": 23,
+      "strength": 11.107841491699219,
+      "timestamp_seconds": 16.590657596371884
+    },
+    {
+      "confidence": 1.0,
+      "index": 24,
+      "strength": 4.162052154541016,
+      "timestamp_seconds": 16.92734693877551
+    },
+    {
+      "confidence": 1.0,
+      "index": 25,
+      "strength": 8.23598575592041,
+      "timestamp_seconds": 17.705215419501133
+    },
+    {
+      "confidence": 1.0,
+      "index": 26,
+      "strength": 16.295320510864258,
+      "timestamp_seconds": 18.088344671201813
+    },
+    {
+      "confidence": 1.0,
+      "index": 27,
+      "strength": 7.560239315032959,
+      "timestamp_seconds": 18.854603174603174
+    },
+    {
+      "confidence": 1.0,
+      "index": 28,
+      "strength": 3.3738784790039062,
+      "timestamp_seconds": 19.237732426303854
+    },
+    {
+      "confidence": 1.0,
+      "index": 29,
+      "strength": 10.183510780334473,
+      "timestamp_seconds": 19.667301587301587
+    },
+    {
+      "confidence": 1.0,
+      "index": 30,
+      "strength": 10.278707504272461,
+      "timestamp_seconds": 20.01560090702948
+    },
+    {
+      "confidence": 1.0,
+      "index": 31,
+      "strength": 8.377656936645508,
+      "timestamp_seconds": 20.78185941043084
+    },
+    {
+      "confidence": 1.0,
+      "index": 32,
+      "strength": 11.05053997039795,
+      "timestamp_seconds": 21.16498866213152
+    },
+    {
+      "confidence": 1.0,
+      "index": 33,
+      "strength": 3.779994010925293,
+      "timestamp_seconds": 21.93124716553288
+    },
+    {
+      "confidence": 1.0,
+      "index": 34,
+      "strength": 3.5767784118652344,
+      "timestamp_seconds": 22.31437641723356
+    },
+    {
+      "confidence": 1.0,
+      "index": 35,
+      "strength": 10.186138153076172,
+      "timestamp_seconds": 22.743945578231294
+    },
+    {
+      "confidence": 1.0,
+      "index": 36,
+      "strength": 10.59616470336914,
+      "timestamp_seconds": 23.092244897959183
+    },
+    {
+      "confidence": 1.0,
+      "index": 37,
+      "strength": 8.631402015686035,
+      "timestamp_seconds": 23.475374149659864
+    },
+    {
+      "confidence": 1.0,
+      "index": 38,
+      "strength": 16.646671295166016,
+      "timestamp_seconds": 24.241632653061224
+    },
+    {
+      "confidence": 1.0,
+      "index": 39,
+      "strength": 7.557652950286865,
+      "timestamp_seconds": 24.624761904761904
+    },
+    {
+      "confidence": 1.0,
+      "index": 40,
+      "strength": 3.238544225692749,
+      "timestamp_seconds": 25.007891156462584
+    },
+    {
+      "confidence": 1.0,
+      "index": 41,
+      "strength": 6.548889636993408,
+      "timestamp_seconds": 25.820589569160997
+    },
+    {
+      "confidence": 1.0,
+      "index": 42,
+      "strength": 11.359067916870117,
+      "timestamp_seconds": 26.16888888888889
+    },
+    {
+      "confidence": 1.0,
+      "index": 43,
+      "strength": 5.846974849700928,
+      "timestamp_seconds": 26.93514739229025
+    },
+    {
+      "confidence": 1.0,
+      "index": 44,
+      "strength": 13.451519966125488,
+      "timestamp_seconds": 27.31827664399093
+    },
+    {
+      "confidence": 1.0,
+      "index": 45,
+      "strength": 12.094964981079102,
+      "timestamp_seconds": 28.096145124716553
+    },
+    {
+      "confidence": 1.0,
+      "index": 46,
+      "strength": 11.234682083129883,
+      "timestamp_seconds": 28.897233560090704
+    },
+    {
+      "confidence": 1.0,
+      "index": 47,
+      "strength": 20.342683792114258,
+      "timestamp_seconds": 29.245532879818594
+    },
+    {
+      "confidence": 1.0,
+      "index": 48,
+      "strength": 7.082009315490723,
+      "timestamp_seconds": 30.011791383219954
+    },
+    {
+      "confidence": 1.0,
+      "index": 49,
+      "strength": 14.073233604431152,
+      "timestamp_seconds": 30.394920634920634
+    },
+    {
+      "confidence": 1.0,
+      "index": 50,
+      "strength": 12.1950044631958,
+      "timestamp_seconds": 31.172789115646257
+    },
+    {
+      "confidence": 1.0,
+      "index": 51,
+      "strength": 13.262733459472656,
+      "timestamp_seconds": 31.555918367346937
+    },
+    {
+      "confidence": 1.0,
+      "index": 52,
+      "strength": 10.082388877868652,
+      "timestamp_seconds": 31.973877551020408
+    },
+    {
+      "confidence": 1.0,
+      "index": 53,
+      "strength": 9.826684951782227,
+      "timestamp_seconds": 32.3221768707483
+    },
+    {
+      "confidence": 1.0,
+      "index": 54,
+      "strength": 7.585390567779541,
+      "timestamp_seconds": 33.08843537414966
+    },
+    {
+      "confidence": 1.0,
+      "index": 55,
+      "strength": 13.198392868041992,
+      "timestamp_seconds": 33.47156462585034
+    },
+    {
+      "confidence": 1.0,
+      "index": 56,
+      "strength": 12.280399322509766,
+      "timestamp_seconds": 34.249433106575964
+    },
+    {
+      "confidence": 1.0,
+      "index": 57,
+      "strength": 3.877088785171509,
+      "timestamp_seconds": 34.62095238095238
+    },
+    {
+      "confidence": 1.0,
+      "index": 58,
+      "strength": 8.662038803100586,
+      "timestamp_seconds": 35.05052154195011
+    },
+    {
+      "confidence": 1.0,
+      "index": 59,
+      "strength": 9.473258972167969,
+      "timestamp_seconds": 35.398820861678004
+    },
+    {
+      "confidence": 1.0,
+      "index": 60,
+      "strength": 12.018484115600586,
+      "timestamp_seconds": 35.781950113378684
+    },
+    {
+      "confidence": 1.0,
+      "index": 61,
+      "strength": 13.316054344177246,
+      "timestamp_seconds": 36.548208616780045
+    },
+    {
+      "confidence": 1.0,
+      "index": 62,
+      "strength": 5.165666103363037,
+      "timestamp_seconds": 36.931337868480725
+    }
+  ],
+  "sample_rate_hz": 44100
+}

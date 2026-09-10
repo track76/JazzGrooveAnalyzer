@@ -1,0 +1,11 @@
+{
+  "experiment_id": "H-VAL001-EME-DRUM-01",
+  "repository_consistency": "PASSED — authoritative asset checksums matched and unrelated working-tree changes were not modified.",
+  "blind_independence": "PASSED — two byte-identical drum observations were generated and frozen before MusicXML access.",
+  "scientific_validation": "PASSED — the preregistered rule produced PARTIAL correspondence without parameter adjustment.",
+  "focused_tests": "NOT APPLICABLE — no production code was modified; experiment replay and artifact invariants were verified directly.",
+  "full_suite": "NOT APPLICABLE — no production or test code was modified.",
+  "storage_impact": "Lightweight JSON and Markdown records only; no audio was copied or generated.",
+  "commit": "NOT CREATED",
+  "push": "NOT PERFORMED"
+}

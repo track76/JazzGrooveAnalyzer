@@ -1,0 +1,52 @@
+{
+  "experiment_id": "H-VAL001-EME-BASS-01",
+  "run_id": "run_20260816_102549",
+  "status": "PREREGISTERED",
+  "scientific_question": "Can the existing onset-detection process recover the complete controlled double-bass event population under a scientifically defensible configuration without additional detections or changed ordering?",
+  "source_revision": "602c2794468afca81bafa0a7a03d9f2d352fd6fd",
+  "blind_asset": {
+    "path": "recordings/validation/stems/double_bass.wav",
+    "sha256": "31d6f2e34d360c6f8f75362187433f2a2c1f5eb5cbbfe627305e99d07d8be6c5"
+  },
+  "ground_truth_asset": {
+    "path": "recordings/validation/ground_truth/03 THE COST OF LIVING versione intro + 8 bar.musicxml",
+    "sha256": "809a6ef276c4c3b9042c71d40a71763dcbf90d47e654e784af371eb53d073778",
+    "access": "post-blind validation only"
+  },
+  "baseline": {
+    "normalize": true,
+    "pre_max_frames": 2,
+    "post_max_frames": 1,
+    "pre_avg_frames": 8,
+    "post_avg_frames": 9,
+    "wait_frames": 2,
+    "delta": 0.07,
+    "hop_length_samples": 512,
+    "sample_rate_hz": 44100
+  },
+  "sensitivity_configurations": [
+    {"id": "DELTA_HALF", "delta": 0.035},
+    {"id": "BASELINE", "delta": 0.07},
+    {"id": "DELTA_DOUBLE", "delta": 0.14}
+  ],
+  "sensitivity_justification": "Delta is the normalized peak-above-local-average requirement and directly governs admission of weak local maxima. A factor-of-two set around the installed 0.07 default is scale-symmetric, fixed before execution, and does not use the known missing event. All temporal windows and post-filter parameters remain unchanged.",
+  "unchanged_post_filter": {
+    "minimum_strength": 0.10,
+    "minimum_separation_seconds": 0.030
+  },
+  "post_blind_mapping": {
+    "temporal_origin": "MusicXML score time zero = WAV sample zero",
+    "expected_seconds": "absolute quarter-note position * 60 / 78",
+    "correspondence_bound_seconds": 0.011609977324263039,
+    "bound_derivation": "One 512-sample timestamp-resolution cell at 44,100 Hz.",
+    "correspondence": "Unique edge in both directions within the fixed bound; no observation or symbolic onset may be reused."
+  },
+  "success_rule": "PASS only for 28 filtered PulseCandidates, 28 derived EME, deterministic replay, stable ordering, no excess or duplicate detection, and unique correspondence to all 28 authoritative events.",
+  "prohibited": [
+    "Ground Truth access before blind freeze",
+    "post-hoc configurations",
+    "post-hoc tolerance changes",
+    "production-default changes",
+    "other sources"
+  ]
+}

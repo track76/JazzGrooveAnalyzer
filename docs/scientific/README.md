@@ -2,6 +2,14 @@
 
 Status: Draft
 
+## Current research navigation — 2026-09-10
+
+- [PI Ride-first timing roadmap and preserved evidence](JGA_RIDE_FIRST_TIMING_RESEARCH_DECISION_20260910.md): R1 research/design next; no Ride result or BeatReference/BPM authority.
+- [Accepted exact-recurrence report](../../validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/REPORT.md): complete unranked population remains preserved.
+- [Global recurrence-sufficiency design](rfc/DRUM_RECURRENCE_SUFFICIENCY_VALIDATION_DESIGN.md): DEFERRED_PARALLEL priority under the new decision; original findings unchanged.
+- [Double-Bass capture preparation](rfc/DOUBLE_BASS_SINGLE_SESSION_CAPTURE_SPECIFICATION.md): independent, recording/pilot unexecuted.
+- [Project state](../JGA_PROJECT_STATE.md) and [preservation inventory](../project/CURRENT_STATE_PRESERVATION_20260910.json). The frozen publication evidence index remains historical and unchanged.
+
 ## Purpose
 
 This directory contains the scientific foundations of the Jazz Groove Analyzer.

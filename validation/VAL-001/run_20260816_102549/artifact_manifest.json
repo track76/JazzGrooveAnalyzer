@@ -1,0 +1,13 @@
+{
+  "experiment_id": "H-VAL001-EME-BASS-01",
+  "artifacts": {
+    "manifest.json": "566cd8ee7c337c3e886e8509518bbecefb21c9a5c942e7855279e96701051fac",
+    "experiment.py": "471011f35e03e8a83bdd82d4745e0a11fc18068e8f540eea71015f048ff8f571",
+    "blind_populations.json": "5bf64d265bb2ccc6bf32651b37b88c5256d9a27847d47fd9ce9420364ca55ada",
+    "post_blind_validation.json": "256a7615c541dab1a0b607064763190e153dc2ce1ce5147f97b645f45472dbff",
+    "report.md": "ebd63fcfad32b728307674c2c54dbaf5b0902ae6a8bb5a049eeadf6374da3dba",
+    "completion_protocol.json": "668df6c0e04817797138d43a083fe1212cfa2b8fa2758157896a56c7c81b7767"
+  },
+  "production_code_modified": false,
+  "source_assets_copied": false
+}

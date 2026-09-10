@@ -1,0 +1,46 @@
+{
+  "comparator_states": {
+    "instrumentation": "NOT_PRODUCED",
+    "sections": "NOT_PRODUCED",
+    "tempo": "NOT_PRODUCED",
+    "time_signature": "NOT_PRODUCED"
+  },
+  "experiment_id": "H-VAL001-C1-01",
+  "iar_output_states": {
+    "instrumentation": "NOT_PRODUCED",
+    "sections": "NOT_PRODUCED",
+    "tempo": "NOT_PRODUCED",
+    "time_signature": "NOT_PRODUCED"
+  },
+  "mp3_beat_reference_event_rate_equivalent_per_minute": 123.51120283018861,
+  "mp3_beat_reference_interval_statistics": {
+    "count": 76,
+    "maximum": 0.4857858933046941,
+    "mean": 0.4857858933046903,
+    "median": 0.4857858933046906,
+    "minimum": 0.48578589330468347,
+    "population_standard_deviation": 1.6483388224980871e-15,
+    "q25": 0.48578589330469035,
+    "q75": 0.4857858933046906
+  },
+  "post_analysis_quantitative_comparison": {
+    "absolute_differences_to_candidates_seconds": {
+      "half_quarter_note": 0.10117050868930594,
+      "quarter_note": 0.2834448759260787,
+      "twice_quarter_note": 1.052675645156848
+    },
+    "absolute_temporal_difference_seconds": 0.2834448759260787,
+    "candidate_simple_relationships": {
+      "half_quarter_note": 0.38461538461538464,
+      "quarter_note": 0.7692307692307693,
+      "twice_quarter_note": 1.5384615384615385
+    },
+    "ground_truth_quarter_duration_divided_by_observed_median": 1.5834769593613924,
+    "ground_truth_quarter_note_duration_seconds": 0.7692307692307693,
+    "observed_median_divided_by_ground_truth_quarter_duration": 0.6315216612960977,
+    "relative_numerical_difference": 0.3684783387039023
+  },
+  "run_id": "run_20260809_065633",
+  "scientific_validation_record_fingerprint": "57cb96f8a9d644872234702fc5c9470a4aa49f24095f4e78f4f0b6786f8df986",
+  "scientific_validation_record_id": "JGA-SVR-57cb96f8a9d644872234702fc5c9470a4aa49f24095f4e78f4f0b6786f8df986"
+}

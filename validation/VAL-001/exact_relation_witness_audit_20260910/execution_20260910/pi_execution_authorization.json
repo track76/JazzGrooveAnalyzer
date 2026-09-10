@@ -1,0 +1,19 @@
+{
+  "action": "REAL_INPUT_GENERATOR_CHECKER_AND_REPLAY",
+  "authorized_runs": [
+    "run_1",
+    "run_2"
+  ],
+  "beat_reference_authorized": false,
+  "bpm_authorized": false,
+  "decision_reference": "PI AUTHORIZATION \u2014 REAL-INPUT EXECUTION \u2014 DRUM-EXACT-RELATION-WITNESS-AUDIT-01 \u2014 REPLACEMENT FREEZE V2; current session user decision 2026-09-10",
+  "execution_authority_directory": "/Volumes/SSD Track/JGA/experiments/H-VAL001-DRUM-EXACT-RELATION-WITNESS-AUDIT-01/custody_ledger",
+  "experiment": "H-VAL001-DRUM-EXACT-RELATION-WITNESS-AUDIT-01",
+  "implementation_sha256": "418d6f71f855414a0aed06d02e6906ede42efba3bab1a7f2044fac3b4df29dfe",
+  "independent_review_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/validation/VAL-001/exact_relation_witness_audit_20260910/execution_20260910/review_authority.json",
+  "independent_review_sha256": "cd9f08c80828ed21f08b151fd23ab6e83b7f933f3853108c8f229ae4186e959d",
+  "input_authority_sha256": "477cd53b11778091907058ad6157bd0a881b85240d8fd13fa5e9dc3ef676e059",
+  "pi_authorized": true,
+  "pi_identity": "JGA Principal Investigator, author of the current explicit PI authorization",
+  "preregistration_sha256": "c609cfabdfd31f5122cd0883da861c2b742aa2af7a659cf691dbe0d56161e48a"
+}
