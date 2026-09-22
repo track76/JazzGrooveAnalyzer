@@ -1,3 +1,7 @@
+# Current recovery entry point
+
+Use root [JGA_BOOTSTRAP.md](../JGA_BOOTSTRAP.md). The artifacts bootstrap is a non-authoritative historical-link redirect. Canonical records prevail; historical instructions below do not authorize regeneration or execution.
+
 # Current authoritative checkpoint — Tempo Authority phase closure · 2026-09-22
 
 **Historical independent experiment: FAIL, unchanged (10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 PI responses).** Independent result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You PLP 5/5 is development evidence, not part of this denominator.

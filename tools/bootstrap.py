@@ -26,6 +26,15 @@ from bootstrap.report import print_report
 
 def main():
 
+    import argparse
+    parser = argparse.ArgumentParser(description="JGA recovery and export tools")
+    parser.add_argument("--recovery-only", action="store_true",
+                        help="Generate root bootstrap only; no tests, doc updates or exports")
+    args = parser.parse_args()
+    if args.recovery_only:
+        print(generate_bootstrap())
+        return
+
     print()
     print("=" * 60)
     print("Jazz Groove Analyzer Bootstrap")

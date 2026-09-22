@@ -1,3 +1,7 @@
+# Current recovery entry point
+
+Use root [JGA_BOOTSTRAP.md](../JGA_BOOTSTRAP.md). The artifacts bootstrap is a non-authoritative historical-link redirect. Canonical records prevail; historical instructions below do not authorize regeneration or execution.
+
 # Current authoritative checkpoint — Tempo Authority phase closure · 2026-09-22
 
 **Historical independent experiment: FAIL, unchanged (10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 PI responses).** Independent result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You PLP 5/5 is development evidence, not part of this denominator.
@@ -33,7 +37,7 @@ Authoritative [frozen report method](../docs/scientific/rfc/JGA_V1_OBSERVABLE_GR
 
 ## Historical v1 recovery state — 2026-09-20 (superseded above)
 
-**Next task:** `JGA-BASS-DRUM-MICROTIMING-001`; no analysis launched by this state sync. **Source:** Ray Brown Trio — “Exactly Like You,” `/Volumes/SSD Track/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a`, SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. **Recovery:** [certified bootstrap](../artifacts/JGA_BOOTSTRAP.md) and [frozen session closure](../docs/scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md).
+**Next task:** `JGA-BASS-DRUM-MICROTIMING-001`; no analysis launched by this state sync. **Source:** Ray Brown Trio — “Exactly Like You,” `/Volumes/SSD Track/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a`, SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. **Recovery:** [certified bootstrap](../JGA_BOOTSTRAP.md) and [frozen session closure](../docs/scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md).
 
 Parent inventory freeze `a76c0533d5e3e7e7572a593cfc2b762fa5bf418ea13cf3e69425afbc74fd34e6` (496 Bass, 500 generic Drum HIGH+MEDIUM); grid freeze `18e5d3283f9de9b878fbfe4e956805717e86a55da91a9c7c2494ca595cf0941d` (164.76 BPM initial, 164.09 BPM median local). PI manual tap is ~162 BPM approximate; Easy Does It is ~120 BPM. Automatic phase support was partial; PI subsequently confirmed by listening that the frozen click follows the quarter pulse through 01:55–02:10. The 127 / 118 / 9 slot counts are exploratory. Use observable events only; UNKNOWN is valid. The runtime structure below is a preserved software snapshot, not an instruction to restart historical research.
 

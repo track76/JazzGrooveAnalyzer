@@ -10,14 +10,15 @@ def print_report():
 
     print()
     print("=" * 60)
-    print("Artifacts generated")
+    print("Current recovery entry:", ROOT / "JGA_BOOTSTRAP.md")
+    print("Additional export artifacts (not bootstrap authorities)")
     print()
 
     if artifacts.exists():
 
         for path in sorted(artifacts.iterdir()):
 
-            if path.is_file():
+            if path.is_file() and path.name != "JGA_BOOTSTRAP.md":
 
                 print(path)
 

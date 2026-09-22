@@ -1,7 +1,3 @@
-# Current recovery entry point
-
-Use root [JGA_BOOTSTRAP.md](../JGA_BOOTSTRAP.md). The artifacts bootstrap is a non-authoritative historical-link redirect. Canonical records prevail; historical instructions below do not authorize regeneration or execution.
-
 # Current authoritative checkpoint — Tempo Authority phase closure · 2026-09-22
 
 **Historical independent experiment: FAIL, unchanged (10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 PI responses).** Independent result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You PLP 5/5 is development evidence, not part of this denominator.
@@ -12,19 +8,19 @@ Use root [JGA_BOOTSTRAP.md](../JGA_BOOTSTRAP.md). The artifacts bootstrap is a n
 
 **Instrument attacks remain independent from the frozen quarter reference.** PLP may constrain search regions/confidence, never force attacks onto the grid. DELTA_T = independent attack time − frozen quarter; +27 ms remains +27 ms. Source identity is active. JGA-ATTACK-REFINEMENT-001 (Double Bass / Ride / Hi-Hat) is next downstream priority after temporal-reference completion. No groove recalculation authorized.
 
-[Scientific recovery chain](scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/README.md) · [PI decision](scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/PI_ARCHITECTURE_DOMAIN_DECISION.md) · [authority paths and hashes](scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/AUTHORITY_REFERENCES.json).
+Derived from [canonical project state](docs/JGA_PROJECT_STATE.md) and [PI closure decision](docs/scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/PI_ARCHITECTURE_DOMAIN_DECISION.md). [Recovery chain and authoritative study hashes](docs/scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/AUTHORITY_REFERENCES.json). Corpus `7bea25daeeaf44245703f8546a38f1e635a6e930d34b1db88894200c7e36471b`; pre-evaluation cohort `9984b2792494d7e1986e48bb839f9d1695c37392a7b1755bc4c585fe64cdc32e`; development perceptual freeze `168a446698da79375a36e65031b8c0c7c97278119fb46c0658f324cf749c11c7`.
 
-Next scientific action: separately authorize bounded Tempo-Existence / Confidence Gate preregistration. No new science is authorized by this closure.
+Next action requires separate PI authorization: bounded Tempo-Existence / Confidence Gate preregistration. No new experiment or implementation executed.
 
 ---
 
-## Preserved historical checkpoints (superseded as current instructions)
+## Preserved historical checkpoints (not current execution authority)
 
 # Current coverage validation and JGA v1 research coordinate — 2026-09-22
 
 Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. **JGA-QUARTER-NEAREST-ONSET-COVERAGE-SENSITIVITY-001: PASS; decision B — SUPPORTED WITH QUALIFICATION.** Scientific result frozen; awaiting PI review.
 
-[Result and limitations](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/RESULT.md); [result freeze](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_RESULT_FREEZE.json) SHA-256 `52835f8ab186bc7218167e80b0e75603384f491d702a8a2ae2bd553d9b9233db`; [preregistration](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/JGA_QUARTER_NEAREST_ONSET_COVERAGE_PREREGISTRATION.json) SHA-256 `07fa4d086571c6747f8bac09afe003ac309617cddd8d6fc8376beabdb68b0700`.
+[Result and limitations](docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/RESULT.md); [result freeze](docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_RESULT_FREEZE.json) SHA-256 `52835f8ab186bc7218167e80b0e75603384f491d702a8a2ae2bd553d9b9233db`; [preregistration](docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/JGA_QUARTER_NEAREST_ONSET_COVERAGE_PREREGISTRATION.json) SHA-256 `07fa4d086571c6747f8bac09afe003ac309617cddd8d6fc8376beabdb68b0700`.
 
 **Preferred current NON-PHYSICAL JGA v1 research representation: QUARTER-ANCHORED NEAREST-OBSERVABLE-ONSET GEOMETRY — YES-WITH-QUALIFICATION. Basic descriptive groove-coordinate problem CLOSED FOR JGA v1 RESEARCH WITH QUALIFICATION**, subject to new falsifying evidence. No canonical production change. Frozen quarter → unique midpoint cell → temporally nearest existing native event; UNKNOWN remains eligible; all other events remain context. No event-stream unwrapping.
 
@@ -32,7 +28,7 @@ Preserved boundaries: **continuous mixed-source trajectory NOT ESTABLISHED / INS
 
 **ONE next recommended scientific phase:** PREDEFINED MUSICAL-SECTION GROOVE COMPARISON using the frozen quarter-anchored representation and independently supplied form boundaries; do not derive boundaries from groove curves. Recommendation only; NOT EXECUTED. Use the frozen coordinate; do not redesign it absent new falsifying evidence. STOP for PI review. No staging, commit or push.
 
-Full evidence and status: [scientific state](JGA_SCIENTIFIC_STATE.md) and the result above.
+Full evidence and status: [scientific state](docs/JGA_SCIENTIFIC_STATE.md) and the result above.
 
 ---
 
@@ -44,7 +40,7 @@ Older active-task recommendations below are historical. Their scientific results
 
 Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed pilot: **JGA-QUARTER-NEAREST-ONSET-GROOVE-001 — PASS; decision B, SUPPORTED WITH QUALIFICATION**. Additive NONCANONICAL research representation; awaiting PI review.
 
-[Result](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/RESULT.md); [preregistration](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/JGA_QUARTER_NEAREST_ONSET_PREREGISTRATION.json) SHA-256 `2ed3d1d7a8c064f61ed24c1e8a04292c6494cacdf8c2f4f766f2eff8fe61c71e`; [result freeze](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/JGA_QUARTER_NEAREST_ONSET_GROOVE_RESULT_FREEZE.json) SHA-256 `923d34e68b70ea35b63c6502384c496fe72ad0fd4fd8efa9a8480f5da71b2fc5`. [Whole-track view](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/QUARTER_NEAREST_GROOVE_WHOLE_TRACK.png); [reference view](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/QUARTER_NEAREST_REFERENCE_WINDOW.png).
+[Result](docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/RESULT.md); [preregistration](docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/JGA_QUARTER_NEAREST_ONSET_PREREGISTRATION.json) SHA-256 `2ed3d1d7a8c064f61ed24c1e8a04292c6494cacdf8c2f4f766f2eff8fe61c71e`; [result freeze](docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/JGA_QUARTER_NEAREST_ONSET_GROOVE_RESULT_FREEZE.json) SHA-256 `923d34e68b70ea35b63c6502384c496fe72ad0fd4fd8efa9a8480f5da71b2fc5`. [Whole-track view](docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/QUARTER_NEAREST_GROOVE_WHOLE_TRACK.png); [reference view](docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/QUARTER_NEAREST_REFERENCE_WINDOW.png).
 
 The frozen quarter sequence is the continuous index. Each midpoint-defined cell selects its temporally nearest existing native event, irrespective of source identity. No event reuse or borrowing; EMPTY quarters retained; non-selected markers remain gray context. No phase unwrapping or event-to-event cycle correspondence is required for this primary local measure. JGA owns unchanged timestamps/grid/BPM. External identity remains qualified evidence only.
 
@@ -52,13 +48,13 @@ The frozen quarter sequence is the continuous index. Each midpoint-defined cell 
 
 Reference122–128.5 s:17 quarters/17 selected/0 empty;median−13.26 ms,IQR41.77;halves−4.00→−45.37 ms,shift−41.38 ms,slope−11.14 ms/s. Different question from the preserved all-event reference−50.24 ms/−11.64 ms/s. Whole-track selected BPM rank associations are weak for signed/absolute distances(rho+0.009/−0.007,N898); no causal or independence claim.
 
-**Preserved prior limitation:** continuous mixed-source trajectory remains **NOT ESTABLISHED / INSUFFICIENT**, decisionD in [trajectory validation](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/RESULT.md). That result is not erased or superseded as evidence about event-stream continuity. The new quarter-indexed representation avoids requiring that continuity; it does not recover a true event trajectory. Parent freezes/data/figures unchanged.
+**Preserved prior limitation:** continuous mixed-source trajectory remains **NOT ESTABLISHED / INSUFFICIENT**, decisionD in [trajectory validation](docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/RESULT.md). That result is not erased or superseded as evidence about event-stream continuity. The new quarter-indexed representation avoids requiring that continuity; it does not recover a true event trajectory. Parent freezes/data/figures unchanged.
 
 Qualifications: nearest selection structurally favors small distances and depends on candidate coverage; empty cells do not prove silence. Source states are provisional; dual support does not independently time two attacks. Grid numerical continuity does not establish physical/perceptual pulse Ground Truth. No physical performer early/late, true beat, full-mix Bass attack timing or independent Bass–Drum microtiming claims. Drum attack timing and controlled Fishman T0 remain PROMISING. No canonical production behavior change.
 
 **ONE next recommended action:** preregister a bounded candidate-coverage sensitivity audit of the quarter-nearest representation. Recommendation only; NOT EXECUTED. STOP for PI review. No staging,commit or push.
 
-[Documentation-only research decision](architecture/RESEARCH_QUARTER_NEAREST_GROOVE_DECISION_20260921.md).
+[Documentation-only research decision](docs/architecture/RESEARCH_QUARTER_NEAREST_GROOVE_DECISION_20260921.md).
 
 ---
 
@@ -70,7 +66,7 @@ Prior freezes and scientific findings remain authoritative for their stated scop
 
 Project Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed study: **JGA-WHOLE-TRACK-GROOVE-TRAJECTORY-VALIDATION-001 — PARTIAL; decision D, INSUFFICIENT**. Awaiting PI review; no automatic next-phase execution.
 
-[Validation result](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/RESULT.md); [validation freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_RESULT_FREEZE.json) SHA-256 `e92494915085a69b215be80ea3834f01450f45a873d4a843b9be5e0020cbae13`; [preregistration](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/TRAJECTORY_VALIDATION_PREREGISTRATION.json) SHA-256 `30efe6235372ab890a78d530491055d3848a82d003c3746f69f618ab73869fc3`.
+[Validation result](docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/RESULT.md); [validation freeze](docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_RESULT_FREEZE.json) SHA-256 `e92494915085a69b215be80ea3834f01450f45a873d4a843b9be5e0020cbae13`; [preregistration](docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/TRAJECTORY_VALIDATION_PREREGISTRATION.json) SHA-256 `30efe6235372ab890a78d530491055d3848a82d003c3746f69f618ab73869fc3`.
 
 The parent whole-track frozen arithmetic/data remain unchanged and usable under their original qualifications. This validation **does not establish a representation-robust continuous groove trajectory** from the mixed-source candidate stream. Minimum-jump is an assumption-dependent diagnostic, not unique/physical cycle recovery or canonical timing.
 
@@ -82,7 +78,7 @@ JGA continues to own native timestamps, the unchanged frozen grid/BPM and native
 
 **ONE next recommended action:** preregister a bounded event-stream/cycle-correspondence validation using preserved evidence before further unwrapped-trajectory claims. Recommendation only; NOT EXECUTED. STOP for PI review. No staging, commit or push.
 
-[Parent scientific checkpoint](JGA_SCIENTIFIC_STATE.md) retains the original whole-track findings and all earlier measurement limits. [Parent result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) remains `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`.
+[Parent scientific checkpoint](docs/JGA_SCIENTIFIC_STATE.md) retains the original whole-track findings and all earlier measurement limits. [Parent result freeze](docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) remains `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`.
 
 ---
 
@@ -94,7 +90,7 @@ The following records retain historical results and prior recommendations. The l
 
 Branch `scientific/translation-layer-finalization`. Current scientific phase: **whole-track frozen groove-analysis validation completed (PASS); awaiting PI review**.
 
-Recover [current scientific state](JGA_SCIENTIFIC_STATE.md), [procedure freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_PROCEDURE_FREEZE.json) SHA-256 `1f34654b693ef01af2b93348d3ffcff05e9c93d60eaa82fa3583d0911e17fd2a`, and [result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) SHA-256 `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`. The current state document records architecture, measured results, all qualifications, historical pilot findings and unresolved questions. This pointer supersedes older active milestones below without rewriting their historical evidence.
+Recover [current scientific state](docs/JGA_SCIENTIFIC_STATE.md), [procedure freeze](docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_PROCEDURE_FREEZE.json) SHA-256 `1f34654b693ef01af2b93348d3ffcff05e9c93d60eaa82fa3583d0911e17fd2a`, and [result freeze](docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) SHA-256 `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`. The current state document records architecture, measured results, all qualifications, historical pilot findings and unresolved questions. This pointer supersedes older active milestones below without rewriting their historical evidence.
 
 Research path: full mix → JGA-native observability → qualified modular identity evidence → frozen JGA quarter/grid → native marker geometry → groove analysis. **JGA owns timing.** YourMT3 is historical/comparator only in this research path. Production runtime behavior is unchanged. Dual source support is not independent physical attack simultaneity. Full-mix Bass attack timing and physical Bass-versus-Drum microtiming remain NOT ESTABLISHED.
 
@@ -107,13 +103,13 @@ Next recommended phase: **WHOLE-TRACK GROOVE TRAJECTORY VALIDATION**. Not author
 
 Earlier scientific-status/next-task statements below are historical wherever superseded by the checkpoint above. General theory and production contracts remain unchanged.
 
-# JGA RUNTIME STATE
+# Jazz Groove Analyzer — Bootstrap
 
 ## Authoritative final session state — 2026-09-20
 
 **PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** Current work on Ray Brown Trio — “Exactly Like You” is **FROZEN / AWAITING PI DECISION**. `JGA-BASS-DRUM-MICROTIMING-001` has reached an integrated **PARTIAL** qualification result; it is not the next automatically executable experiment. **Next session: recover state → report the single blocker to PI → wait for separate PI authorization.** No new scientific experiment is authorized by this closure. Older “next task” or “next experiment” text below is historical and must not be executed from this document.
 
-Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen inventory SHA-256 `a76c0533d5e3e7e7572a593cfc2b762fa5bf418ea13cf3e69425afbc74fd34e6`: 496 Bass and 500 generic-Drum HIGH+MEDIUM events. Frozen grid SHA-256 `18e5d3283f9de9b878fbfe4e956805717e86a55da91a9c7c2494ca595cf0941d`: 164.76 BPM initial, 164.09 BPM whole-grid median; PI manual tap ~162 BPM is approximate, not numerical Ground Truth. PI click listening confirmed the quarter through 01:55–02:10, while the automatic phase audit remains `QUARTER_PULSE_PARTIALLY_SUPPORTED`.
+Authoritative [frozen report method](docs/scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](docs/scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](docs/scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen inventory SHA-256 `a76c0533d5e3e7e7572a593cfc2b762fa5bf418ea13cf3e69425afbc74fd34e6`: 496 Bass and 500 generic-Drum HIGH+MEDIUM events. Frozen grid SHA-256 `18e5d3283f9de9b878fbfe4e956805717e86a55da91a9c7c2494ca595cf0941d`: 164.76 BPM initial, 164.09 BPM whole-grid median; PI manual tap ~162 BPM is approximate, not numerical Ground Truth. PI click listening confirmed the quarter through 01:55–02:10, while the automatic phase audit remains `QUARTER_PULSE_PARTIALLY_SUPPORTED`.
 
 **Measurement semantics:** the frozen internal quarter is the primary reference. For assigned events, `MARKER_TO_GRID_MS = (t_EVENT_MARKER − t_QUARTER) × 1000` (positive = marker after quarter). Bass and Drum markers are detector landmarks, **not automatically performer attacks**. Keep OFF_GRID events as observable subdivisions without moving them or refitting the grid. The 01:55–02:10 pilot has 42 quarters, 32 assigned Bass markers, 19 assigned Drum markers and seven displayed OFF_GRID events. Its marker-to-grid statistics are preserved in the frozen report method and pilot artifacts. PI observations at ~01:57, ~02:06, ~02:07 and ~02:11 are listening annotations, not numerical Ground Truth.
 
@@ -122,46 +118,80 @@ Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REP
 **Anti-scope-creep:** no automatic Gallegati, Virtual Tap, external model search, Essentia/YourMT3 benchmarking, fusion, source separation, Rubner/Yamaha, universal recognition, Ride/Hi-Hat prerequisite, or new BPM/downbeat research. Preserve all historical records. Current state and architecture links take precedence over old active wording below.
 
 
-## Historical v1 recovery state — 2026-09-20 (superseded above)
+> **Current recovery pointer, 2026-09-20:** The certified active bootstrap is
+> [artifacts/JGA_BOOTSTRAP.md](artifacts/JGA_BOOTSTRAP.md), as specified in
+> AGENTS.md. The [observable-groove session closure](docs/scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md)
+> defines the next milestone, **JGA-BASS-DRUM-MICROTIMING-001**. Older workflow
+> and commit/push instructions below are historical where they conflict with
+> the current PI directive. This closure made no commit or push.
 
-**Next task:** `JGA-BASS-DRUM-MICROTIMING-001`; no analysis launched by this state sync. **Source:** Ray Brown Trio — “Exactly Like You,” `/Volumes/SSD Track/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a`, SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. **Recovery:** [certified bootstrap](../JGA_BOOTSTRAP.md) and [frozen session closure](../docs/scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md).
+> Bootstrap document for initializing a new development session.
+>
+> In future releases this document will be generated automatically by
+> `tools/export_chat_context.py`.
+>
+> It is **not** the source of truth.
+>
+> If any information conflicts with the repository, **the repository always prevails**.
 
-Parent inventory freeze `a76c0533d5e3e7e7572a593cfc2b762fa5bf418ea13cf3e69425afbc74fd34e6` (496 Bass, 500 generic Drum HIGH+MEDIUM); grid freeze `18e5d3283f9de9b878fbfe4e956805717e86a55da91a9c7c2494ca595cf0941d` (164.76 BPM initial, 164.09 BPM median local). PI manual tap is ~162 BPM approximate; Easy Does It is ~120 BPM. Automatic phase support was partial; PI subsequently confirmed by listening that the frozen click follows the quarter pulse through 01:55–02:10. The 127 / 118 / 9 slot counts are exploratory. Use observable events only; UNKNOWN is valid. The runtime structure below is a preserved software snapshot, not an instruction to restart historical research.
+---
 
-Automatically generated.
+## Purpose
 
-============================================================
+This document provides the minimum context required to continue the development of the Jazz Groove Analyzer (JGA) from the current project state.
 
-AnalysisContext
+When used together with **JGA_CONTEXT.zip**, it enables the project to resume from the current milestone without restating development rules or architectural decisions.
 
-Audio
+---
 
-Metric Context
+## Project
 
-Elementary Metric Events
+- **Project:** Jazz Groove Analyzer (JGA)
+- **Repository:** Single source of truth.
 
-Beat References
+---
 
-Metric Clusters
+## Historical Development Rules (superseded where conflicting)
 
-Internal Metric Timeline
+1. Verify the repository before proposing any modification.
+2. Reason about architecture and layer responsibilities before implementation.
+3. Design before implementation.
+4. One atomic change at a time.
+5. After every modification:
+   - `git diff`
+   - `pytest`
+   - `git commit`
+   - `git push`
+6. Do not perform unnecessary refactoring.
+7. Update documentation only when the architecture or the project status actually changes.
 
-Behaviour Profile
+---
 
-Behaviour Analytics Result
+## Official Documentation
 
-Scientific Geometric Plane
+- `docs/JGA_PROJECT_STATE.md`
+- `docs/JGA_ARCHITECTURE.md`
+- `docs/JGA_THEORETICAL_FRAMEWORK.md`
+- `docs/JGA_DOMAIN_MODEL.md`
+- `docs/ROADMAP.md`
+- `docs/CHANGELOG.md`
 
-Scientific Behaviour Space
+---
 
-Behaviour Observation Frames
+## Working Instructions
 
-Behaviour Change Events
+Continue development from the current milestone.
 
-Representation Result
+Do not reconsider architectural decisions that have already been approved and documented.
 
-============================================================
+Always use the repository as the primary reference for every technical decision.
 
-Pipeline
+If documentation and code differ, **the repository always prevails**.
 
-Integrated
+---
+
+## Context
+
+The accompanying **JGA_CONTEXT.zip** contains the project snapshot associated with this bootstrap.
+
+Use this bootstrap together with **JGA_CONTEXT.zip** to initialize a new development session.

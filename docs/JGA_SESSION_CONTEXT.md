@@ -1,3 +1,7 @@
+# Current recovery entry point
+
+Use root [JGA_BOOTSTRAP.md](../JGA_BOOTSTRAP.md). The artifacts bootstrap is a non-authoritative historical-link redirect. Canonical records prevail; historical instructions below do not authorize regeneration or execution.
+
 # Current authoritative checkpoint — Tempo Authority phase closure · 2026-09-22
 
 **Historical independent experiment: FAIL, unchanged (10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 PI responses).** Independent result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You PLP 5/5 is development evidence, not part of this denominator.
@@ -142,7 +146,7 @@ Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REP
 
 ## Historical recovery context — observable groove, 2026-09-20 (superseded above)
 
-**Primary goal:** complete JGA v1 as an observable groove analyzer. **Active track:** Ray Brown Trio — “Exactly Like You.” **Next executable milestone, after separate PI authorization:** `JGA-BASS-DRUM-MICROTIMING-001`. Read the [certified bootstrap](../artifacts/JGA_BOOTSTRAP.md), [session closure](scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md), and [next-session target](scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/NEXT_SESSION_TARGET.md). The M31/M32 context below is a historical milestone snapshot, not the current task.
+**Primary goal:** complete JGA v1 as an observable groove analyzer. **Active track:** Ray Brown Trio — “Exactly Like You.” **Next executable milestone, after separate PI authorization:** `JGA-BASS-DRUM-MICROTIMING-001`. Read the [certified bootstrap](../JGA_BOOTSTRAP.md), [session closure](scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md), and [next-session target](scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/NEXT_SESSION_TARGET.md). The M31/M32 context below is a historical milestone snapshot, not the current task.
 
 Frozen evidence: inventory SHA-256 `a76c0533d5e3e7e7572a593cfc2b762fa5bf418ea13cf3e69425afbc74fd34e6` (496 Bass and 500 generic-Drum HIGH+MEDIUM candidates); grid-freeze SHA-256 `18e5d3283f9de9b878fbfe4e956805717e86a55da91a9c7c2494ca595cf0941d` (initial 164.76 BPM, median local 164.09 BPM). PI manual tap for this track is ~162 BPM, approximate; ~120 BPM belongs to “Easy Does It.” The automatic phase audit remains PARTIALLY_SUPPORTED while PI click listening confirms the quarter pulse through 01:55–02:10. The 127 same-quarter opportunities (118 single-candidate, nine ambiguous) are exploratory, not performer timing.
 

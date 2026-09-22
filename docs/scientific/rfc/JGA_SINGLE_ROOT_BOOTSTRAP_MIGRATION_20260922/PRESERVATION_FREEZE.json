@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-22T19:35:50.211200+00:00",
+  "records": [
+    {
+      "original_path": "JGA_BOOTSTRAP.md",
+      "snapshot": "docs/scientific/rfc/JGA_SINGLE_ROOT_BOOTSTRAP_MIGRATION_20260922/PRE_MIGRATION/JGA_BOOTSTRAP.md",
+      "sha256": "f9527379cce653c8a57a439fe051c932e38e60ff577ff0dfde1075992488b7ea",
+      "previous_role": "Legacy root recovery document"
+    },
+    {
+      "original_path": "artifacts/JGA_BOOTSTRAP.md",
+      "snapshot": "docs/scientific/rfc/JGA_SINGLE_ROOT_BOOTSTRAP_MIGRATION_20260922/PRE_MIGRATION/artifacts/JGA_BOOTSTRAP.md",
+      "sha256": "69fe085ecd7fbe302193888e133cf93c5f4f1264c7c7526a8725c21e8c89c736",
+      "previous_role": "AGENTS-certified generated and manually overlaid recovery entry"
+    }
+  ],
+  "historical_reference_rule": "Resolve original path plus matching hash to preserved snapshot; older hashes require the recorded historical commit/snapshot. Do not rewrite historical manifests.",
+  "AGENTS_previously_tracked": false
+}

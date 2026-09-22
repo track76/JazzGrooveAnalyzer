@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "focused_tests": 8,
+  "existing_relevant_tests": 13,
+  "pytest_result": "21 passed",
+  "scientific_RFC_files_unchanged": 3523,
+  "preserved_bootstrap_hashes": "PASS",
+  "root_links": 14,
+  "current_authority": "JGA_BOOTSTRAP.md",
+  "compatibility": "NON_AUTHORITATIVE_REDIRECT",
+  "no_new_science": true,
+  "AGENTS_tracking": "Previously untracked; explicitly staged in authorized migration commit",
+  "files": [
+    "AGENTS.md",
+    "JGA_BOOTSTRAP.md",
+    "artifacts/JGA_BOOTSTRAP.md",
+    "tools/bootstrap.py",
+    "tools/bootstrap/bootstrap_generator.py",
+    "tools/bootstrap/report.py",
+    "tests/tooling/test_bootstrap_recovery.py",
+    "docs/project/BOOTSTRAP_SOURCES.json",
+    "docs/architecture/BOOTSTRAP_SINGLE_ROOT_DECISION_20260922.md",
+    "docs/TOOLCHAIN/DEVELOPER_TOOLCHAIN.md",
+    "docs/JGA_SESSION_CONTEXT.md",
+    "docs/JGA_RUNTIME_STATE.md",
+    "artifacts/JGA_SESSION_CONTEXT.md",
+    "artifacts/JGA_RUNTIME_STATE.md"
+  ]
+}

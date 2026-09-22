@@ -1,3 +1,7 @@
+# Current recovery entry point
+
+Use root [JGA_BOOTSTRAP.md](../../JGA_BOOTSTRAP.md). The artifacts bootstrap is a non-authoritative historical-link redirect. Canonical records prevail; historical instructions below do not authorize regeneration or execution.
+
 # Current authoritative checkpoint — Tempo Authority phase closure · 2026-09-22
 
 **Historical independent experiment: FAIL, unchanged (10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 PI responses).** Independent result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You PLP 5/5 is development evidence, not part of this denominator.
@@ -107,7 +111,7 @@ Earlier scientific-status/next-task statements below are historical wherever sup
 
 ## Active recovery instruction — 2026-09-20
 
-For the observable-groove session handoff, **read [the certified bootstrap](../../artifacts/JGA_BOOTSTRAP.md) required by AGENTS.md**, then the [frozen session closure](../scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md) and [current project state](../JGA_PROJECT_STATE.md). The next bounded milestone is `JGA-BASS-DRUM-MICROTIMING-001` on “Exactly Like You,” after separate PI authorization. The PI explicitly ordered **no commit or push** for this sync. The export/commit workflow below is historical default guidance where it conflicts with the current PI instruction. Do not rerun a generator merely to replace the certified active recovery overlay; current source metadata is in `docs/project/PROJECT_METADATA.md`.
+For the observable-groove session handoff, **read [the certified bootstrap](../../JGA_BOOTSTRAP.md) required by AGENTS.md**, then the [frozen session closure](../scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md) and [current project state](../JGA_PROJECT_STATE.md). The next bounded milestone is `JGA-BASS-DRUM-MICROTIMING-001` on “Exactly Like You,” after separate PI authorization. The PI explicitly ordered **no commit or push** for this sync. The export/commit workflow below is historical default guidance where it conflicts with the current PI instruction. Do not rerun a generator merely to replace the certified active recovery overlay; current source metadata is in `docs/project/PROJECT_METADATA.md`.
 
 This document describes the development tools used by the Jazz Groove Analyzer.
 

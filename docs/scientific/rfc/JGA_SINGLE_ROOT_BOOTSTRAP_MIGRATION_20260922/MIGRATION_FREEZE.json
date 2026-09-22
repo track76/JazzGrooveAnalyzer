@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-09-22T19:38:46.299576+00:00",
+  "status": "VALIDATED_FOR_COMMIT",
+  "current_authority": "JGA_BOOTSTRAP.md",
+  "scientific_results": "UNCHANGED",
+  "independent_PLP_acceptance": "FAIL_UNCHANGED",
+  "PLP_v1_evidence_engine_acceptance": "UNCHANGED",
+  "final_quarter_authority": "NOT_YET_COMPLETE",
+  "updated_files": {
+    "AGENTS.md": "467b8933fc9c08fd3e77b8dd3ac3b07c5e265e2779a029bdfc21489d4343ac22",
+    "JGA_BOOTSTRAP.md": "09f7489bfa963cf1eb4dbfa43614efb3c908c372aa8daf07736b1939415d50c8",
+    "artifacts/JGA_BOOTSTRAP.md": "c6de8152f9203129fdac0e9abd5803b34dbc8f7a7b0f57f2620c964c68f0782c",
+    "tools/bootstrap.py": "026f8759e0ddb6d89a08cd283457313c175acdc5848470a4169e3431388b0c1f",
+    "tools/bootstrap/bootstrap_generator.py": "13023c1b90c79823c2d7c74b44776d2bd73e8e22ef7853b0900bf9f30d20a753",
+    "tools/bootstrap/report.py": "5aefcb4dec5138082c0bbc24e83056221a520763f30e4caeeebae512075d7894",
+    "tests/tooling/test_bootstrap_recovery.py": "47f30911f7371ab76cd981acf9405bd3c5645d57cd020861594d1ffaa63e20af",
+    "docs/project/BOOTSTRAP_SOURCES.json": "c6505eca866cf81865834dba3f02aaeaf021e53817788bef45756a53ce548095",
+    "docs/architecture/BOOTSTRAP_SINGLE_ROOT_DECISION_20260922.md": "95b5db74efc949db8572701afde8561d8bd60a738bc77ed7f0e92a14e21f5d57",
+    "docs/TOOLCHAIN/DEVELOPER_TOOLCHAIN.md": "2a0748b06e96316d1526b073f865e937b232cd28a3f98736dd35b0cdac1f5848",
+    "docs/JGA_SESSION_CONTEXT.md": "0193250895992452b0e85da4255ec9463b2a9a4ad55d2529667209dd88f68381",
+    "docs/JGA_RUNTIME_STATE.md": "38a759ddd4badd7a036613b47cf299a371c4c4140ef005828efd879e5b00d447",
+    "artifacts/JGA_SESSION_CONTEXT.md": "ef7a4bad97617f8ee10564102866e0618ba24ffc421f920bf6866eef69d655a4",
+    "artifacts/JGA_RUNTIME_STATE.md": "ba7f351601f196691afdf8b0270933d05be7c38edf3791498387ffbc77aea529"
+  },
+  "preservation_and_validation": {
+    "PRESERVATION_FREEZE.json": "be2038d21a26ef80fba8cb62bd4a718a6fddb10233165b841e342b15b861a14f",
+    "PREEXISTING_STATUS.txt": "1adc74eec7514f675dfcc120128c11aad72cb3872d7ea7d41c059a6177f5448b",
+    "README.md": "633db918182f99a5e31ba9052e2a15c9de67aad94d82a19efa78d02efc95b890",
+    "SCIENTIFIC_BASELINE_HASHES.json": "84f873460f4db3077830b1677a369423e173343ddbba9f02af67dd4811ed6cd8",
+    "VALIDATION.json": "0dd8474e6cb1e28440ec3b7922d149419d2cae6499d5213e461ec7bbd68c37f7",
+    "PRE_MIGRATION/JGA_BOOTSTRAP.md": "f9527379cce653c8a57a439fe051c932e38e60ff577ff0dfde1075992488b7ea",
+    "PRE_MIGRATION/artifacts/JGA_BOOTSTRAP.md": "69fe085ecd7fbe302193888e133cf93c5f4f1264c7c7526a8725c21e8c89c736"
+  }
+}

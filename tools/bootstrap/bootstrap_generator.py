@@ -1,193 +1,64 @@
+"""Generate the single current recovery entry from canonical repository records."""
 from pathlib import Path
-import subprocess
-
-from project_metadata import load_project_metadata
+import json
+import os
+import re
 
 ROOT = Path(__file__).resolve().parents[2]
+SOURCE_INDEX = "docs/project/BOOTSTRAP_SOURCES.json"
 
 
-def git(cmd):
-    return subprocess.check_output(
-        cmd,
-        text=True,
-    ).strip()
+def _root_links(text: str, source: Path, root: Path) -> str:
+    def replace(match):
+        target = match.group(1)
+        if target.startswith(("https://", "http://", "#", "mailto:")):
+            return match.group(0)
+        path, separator, fragment = target.partition("#")
+        absolute = (source.parent / path).resolve()
+        if not absolute.is_relative_to(root.resolve()) or not absolute.exists():
+            raise ValueError(f"Invalid recovery link in {source}: {target}")
+        return "](" + os.path.relpath(absolute, root) + separator + fragment + ")"
+    return re.sub(r"\]\(([^)]+)\)", replace, text)
 
 
-CANONICAL_DOCUMENTS = [
+def render_bootstrap(root: Path = ROOT) -> str:
+    """Pure rendering; unchanged canonical inputs produce identical bytes."""
+    root = Path(root)
+    config = json.loads((root / SOURCE_INDEX).read_text(encoding="utf-8"))
+    parts = ["""# Jazz Groove Analyzer — single current bootstrap
 
-    # =====================================================
-    # Scientific Documentation
-    # =====================================================
+This ROOT file is the sole current session recovery entry point.
+Canonical repository scientific/project records remain the source of truth.
+If this bootstrap conflicts with them, canonical records prevail: report the
+conflict and stop dependent work. Historical bootstrap snapshots are provenance
+records, not competing current authorities.
 
-    "docs/scientific/README.md",
-    "docs/scientific/JGA_SCIENTIFIC_RESEARCH_CONSTITUTION.md",
-    "docs/JGA_DEVELOPMENT_CONSTITUTION.md",
-    "docs/scientific/JGA_SCIENTIFIC_MANIFESTO.md",
-    "docs/scientific/JGA_OBSERVATION_MODEL.md",
-    "docs/scientific/JGA_METRIC_CONTEXT.md",
-    "docs/scientific/JGA_TAC_OBSERVATION_MODEL.md",
-    "docs/scientific/JGA_TAC_DOMAIN_MAPPING.md",
-    "docs/scientific/foundations/JGA_KNOWLEDGE_MODEL.md",
-
-    # =====================================================
-    # Scientific Foundations
-    # =====================================================
-
-    "docs/scientific/foundations/F-001_SCIENTIFIC_OBSERVATION.md",
-    "docs/scientific/foundations/F-002_OBSERVABLE_MUSICAL_FACTS.md",
-    "docs/scientific/foundations/F-003_OBSERVABLE_METRIC_CONTEXT.md",
-    "docs/scientific/foundations/F-004_METRIC_PROJECTION.md",
-    "docs/scientific/foundations/F-005_ENSEMBLE_BEHAVIOUR.md",
-    "docs/scientific/foundations/F-006_HISTORICAL_COMPARISON.md",
-    "docs/scientific/foundations/F-030_SCIENTIFIC_KNOWLEDGE_RECORD.md",
-    "docs/scientific/foundations/F-031_HIERARCHICAL_METRIC_PERIODICITY.md",
-    "docs/scientific/foundations/F-032_CANDIDATE_PERIODS.md",
-    "docs/scientific/PHASE_II_VALIDATION_BLOCK_1_COMPLETION_REPORT.md",
-
-    # =====================================================
-    # Canonical Theory
-    # =====================================================
-
-    "docs/JGA_THEORETICAL_FRAMEWORK.md",
-    "docs/JGA_METHOD.md",
-    "docs/JGA_PRINCIPLES.md",
-
-    # =====================================================
-    # Architecture
-    # =====================================================
-
-    "docs/JGA_ARCHITECTURE.md",
-    "docs/architecture/CORE_DOMAIN_BOUNDARY.md",
-    "docs/architecture/REPRESENTATION_TRANSLATION.md",
-
-    # =====================================================
-    # Domain
-    # =====================================================
-
-    "docs/JGA_DOMAIN_MODEL.md",
-    "docs/domain/DOMAIN_MODEL_MAP.md",
-
-    # =====================================================
-    # Project
-    # =====================================================
-
-    "docs/JGA_DECISIONS.md",
-    "docs/JGA_PROJECT_STATE.md",
-]
+Generated from [canonical recovery sources](docs/project/BOOTSTRAP_SOURCES.json).
+Do not edit or prepend state here. Update canonical sources, then run
+`python tools/bootstrap.py --recovery-only` when generation is authorized.
+Startup requires reading this file, not running generators or experiments.
+The next scientific action requires separate PI authorization; recovery grants none.
+Consult Git for current branch/commit; no commit identity is embedded here.
+"""]
+    for section in config["sections"]:
+        source = root / section["path"]
+        text = source.read_text(encoding="utf-8")
+        if section["current_section_only"]:
+            text = text.split("\n---\n", 1)[0]
+        parts.append(_root_links(text.strip(), source, root))
+    links = []
+    for name in config["recovery_links"]:
+        if not (root / name).is_file():
+            raise ValueError(f"Missing canonical recovery document: {name}")
+        links.append(f"- [{name}]({name})")
+    parts.append("## Recovery references\n\n" + "\n".join(links))
+    return "\n\n".join(parts).rstrip() + "\n"
 
 
-def generate_bootstrap():
-
-    metadata = load_project_metadata()
-
-    branch = git(["git", "branch", "--show-current"])
-    commit = git(["git", "rev-parse", "--short", "HEAD"])
-
-    docs = "\n".join(f"- {d}" for d in CANONICAL_DOCUMENTS)
-
-    text = f"""# Jazz Groove Analyzer (JGA)
-
-Version: {metadata["Version"]}
-
-Current Milestone: {metadata["Current Milestone"]}
-
-Current Phase: {metadata["Current Phase"]}
-
-Branch: {branch}
-
-Commit: {commit}
-
-Tests: {metadata["Tests"]}
-
-Last Update: {metadata["Last Update"]}
-
-Repository is the source of truth.
-
-Run
-
-python tools/bootstrap.py
-
-before every ChatGPT session.
-
-============================================================
-Mandatory Reading and Knowledge Hierarchy
-============================================================
-
-Scientific Mission
-        ↓
-Scientific Research Constitution
-        ↓
-Scientific Manifesto and Philosophy
-        ↓
-Scientific Foundations
-        ↓
-Scientific Observation Model
-        ↓
-Architecture
-        ↓
-Domain Model
-        ↓
-Implementation
-
-Theory precedes implementation.
-
-============================================================
-Constitutional Authority
-============================================================
-
-Always follow:
-
-- docs/scientific/JGA_SCIENTIFIC_RESEARCH_CONSTITUTION.md
-- docs/JGA_DEVELOPMENT_CONSTITUTION.md
-
-The Scientific Research Constitution is the highest
-authority governing scientific mission, research direction,
-scientific scope and scientific evolution.
-
-The Development Constitution defines the
-mandatory development methodology and execution of JGA.
-It is subordinate to the Scientific Research Constitution
-where scientific direction is concerned.
-
-When implementation convenience conflicts with either
-applicable Constitution, constitutional authority prevails.
-
-============================================================
-Canonical Documents
-============================================================
-
-{docs}
-
-============================================================
-Development Workflow
-============================================================
-
-Theory
-        ↓
-Architecture
-        ↓
-Implementation
-        ↓
-Tests
-        ↓
-Validation
-
-============================================================
-Current Project State
-============================================================
-
-Always refer to:
-
-- docs/JGA_PROJECT_STATE.md
-
-for the current implementation status.
-"""
-
-    (
-        ROOT
-        / "artifacts"
-        / "JGA_BOOTSTRAP.md"
-    ).write_text(
-        text,
-        encoding="utf-8",
-    )
+def generate_bootstrap(root: Path = ROOT) -> Path:
+    """Write root only; never recreate a second mutable artifacts bootstrap."""
+    root = Path(root)
+    text = render_bootstrap(root)  # Validate before replacing the existing output.
+    output = root / "JGA_BOOTSTRAP.md"
+    output.write_text(text, encoding="utf-8")
+    return output

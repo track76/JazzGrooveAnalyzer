@@ -1,0 +1,137 @@
+ M docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md
+ M output/chet_baker_metric_plot.png
+ D output/jazz_groove_map.png
+ D output/jazz_groove_map_v2.png
+ D output/jga_absolute_timeline_measure1.png
+ D output/jga_analytical_score_measure1.png
+ D output/jga_groove_deviation_measure1.png
+ D output/jga_measure112_groove_score.png
+ D output/jga_measure1_groove_score.png
+ D output/jga_measure1_groove_score_10x.png
+ D output/measure_1_groove.png
+ D output/measure_26_groove.png
+ D output/measure_26_score.png
+ D output/measures/measure_100_groove.png
+ D output/measures/measure_101_groove.png
+ D output/measures/measure_102_groove.png
+ D output/measures/measure_103_groove.png
+ D output/measures/measure_104_groove.png
+ D output/measures/measure_105_groove.png
+ D output/measures/measure_10_groove.png
+ D output/measures/measure_12_groove.png
+ D output/measures/measure_13_groove.png
+ D output/measures/measure_15_groove.png
+ D output/measures/measure_19_groove.png
+ D output/measures/measure_1_groove.png
+ D output/measures/measure_26_groove.png
+ D output/measures/measure_42_groove.png
+ D output/measures/measure_43_groove.png
+ D output/measures/measure_44_groove.png
+ D output/measures/measure_48_groove.png
+ D output/measures/measure_49_groove.png
+ D output/measures/measure_4_groove.png
+ D output/measures/measure_52_groove.png
+ D output/measures/measure_59_groove.png
+ D output/measures/measure_64_groove.png
+ D output/measures/measure_67_groove.png
+ D output/measures/measure_70_groove.png
+ D output/measures/measure_72_groove.png
+ D output/measures/measure_80_groove.png
+ D output/measures/measure_81_groove.png
+ D output/measures/measure_83_groove.png
+ D output/measures/measure_94_groove.png
+ D output/multistem_groove_score.png
+ D output/multistem_measure1_score.png
+ D output/multistem_real_timeline_measure1.png
+ M "recordings/03 THE COST OF LIVING versione intro + 8 bar.sib"
+?? AGENTS.md
+?? docs/architecture/RESEARCH_MODULAR_GROOVE_DECISION_20260921.md
+?? docs/architecture/RESEARCH_QUARTER_NEAREST_COVERAGE_CLOSURE_20260922.md
+?? docs/architecture/RESEARCH_QUARTER_NEAREST_GROOVE_DECISION_20260921.md
+?? docs/scientific/PI_CONFESSIN_LISTENING_CONTEXT_20260921.md
+?? docs/scientific/rfc/DB_GAL_RB_FULLMIX_TRANSFER_001_20260919/
+?? docs/scientific/rfc/DB_TIMBRE_ID_V2_1_DEVELOPMENT_ROBUSTNESS_20260919/
+?? docs/scientific/rfc/DB_TIMBRE_ID_V2_DATA_QUALIFICATION_20260919/
+?? docs/scientific/rfc/DB_TIMBRE_ID_V2_TRIO_001_20260919/
+?? docs/scientific/rfc/DOUBLE_BASS_GALLEGATI_CAPTURE_AUDIT_20260919/
+?? docs/scientific/rfc/DOUBLE_BASS_GALLEGATI_EVENT_RESOLUTION_20260919/
+?? docs/scientific/rfc/DOUBLE_BASS_PROVENANCE_RIGHTS_RESOLUTION_20260917/
+?? docs/scientific/rfc/DOUBLE_BASS_SOURCE_IDENTITY_CLOSURE_20260919/
+?? docs/scientific/rfc/DOUBLE_BASS_TARGET_DIVERSITY_RESCUE_20260917/
+?? docs/scientific/rfc/DOUBLE_BASS_WORLD_CORPUS_AUDIT_20260917/
+?? docs/scientific/rfc/DOUBLE_BASS_WORLD_MVC_20260917/
+?? docs/scientific/rfc/INTERNAL_TEMPO_METRIC_RESEARCH_20260913/
+?? docs/scientific/rfc/JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/
+?? docs/scientific/rfc/JGA_ADAPTIVE_MEASURE_GRID_001_EXACTLY_LIKE_YOU_20260920/
+?? docs/scientific/rfc/JGA_ADTOF_BASS_ONLY_NEGATIVE_CONTROL_001_20260921/
+?? docs/scientific/rfc/JGA_ADTOF_BASS_ONLY_NEGATIVE_CONTROL_001_BLIND_CONFIRMATION_20260921/
+?? docs/scientific/rfc/JGA_ADTOF_BASS_ONLY_NEGATIVE_CONTROL_001_BLIND_CONFIRMATION_COMPARISON_20260921/
+?? docs/scientific/rfc/JGA_BASS_DRUM_MICROTIMING_001_EXACTLY_LIKE_YOU_20260920/
+?? docs/scientific/rfc/JGA_BLIND_SOURCE_EXPOSURE_VALIDATION_001_20260921/
+?? docs/scientific/rfc/JGA_BLIND_SOURCE_EXPOSURE_VALIDATION_001_COMPARISON_20260921/
+?? docs/scientific/rfc/JGA_CLEAN_QUARTER_PERIOD_SWEEP_001_20260922/
+?? docs/scientific/rfc/JGA_COMPLETE_ALL_EVENT_TIMING_MAP_001_20260921/
+?? docs/scientific/rfc/JGA_COMPLETE_TIMING_MAP_NEAR_PULSE_20260921/
+?? docs/scientific/rfc/JGA_COMPLETE_TIMING_MAP_NEAR_PULSE_REVISION_002_20260921/
+?? docs/scientific/rfc/JGA_CONTROLLED_DOUBLE_BASS_ATTACK_REFERENCE_001_20260921/
+?? docs/scientific/rfc/JGA_CONTROLLED_DOUBLE_BASS_ATTACK_REFERENCE_REREVIEW_001_20260921/
+?? docs/scientific/rfc/JGA_DOUBLE_BASS_FINAL_001_20260920/
+?? docs/scientific/rfc/JGA_DOUBLE_BASS_RECORDED_ACOUSTIC_ONSET_VALIDATION_001_20260922/
+?? docs/scientific/rfc/JGA_DRUM_TIMING_GRADE_PROSPECTIVE_001_20260920/
+?? docs/scientific/rfc/JGA_DRUM_VISIBILITY_IDENTITY_REVISION_20260921/
+?? docs/scientific/rfc/JGA_DUAL_SOURCE_TIMING_WITNESS_AUDIT_001_20260921/
+?? docs/scientific/rfc/JGA_ESSENTIA_SOURCE_IDENTITY_001_20260921/
+?? docs/scientific/rfc/JGA_EXTERNAL_DB_BASELINE_ESSENTIA_001_20260920/
+?? docs/scientific/rfc/JGA_EXTERNAL_DB_BASELINE_YOURMT3_001_20260920/
+?? docs/scientific/rfc/JGA_EXTERNAL_EVENT_IDENTITY_BENCHMARK_001_20260921/
+?? docs/scientific/rfc/JGA_EXTERNAL_EVENT_IDENTITY_BENCHMARK_001_COMPLETION_20260921/
+?? docs/scientific/rfc/JGA_FINALIZATION_DIRECTIVE_001_20260920/
+?? docs/scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/
+?? docs/scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/
+?? docs/scientific/rfc/JGA_FISHMAN_DPA_NT5_ONSET_RELATION_001_20260922/
+?? docs/scientific/rfc/JGA_FISHMAN_PRIMARY_BASS_ONSET_REFERENCE_001_20260921/
+?? docs/scientific/rfc/JGA_GENERIC_DRUM_OBSERVABILITY_GAP_001_20260921/
+?? docs/scientific/rfc/JGA_GENERIC_DRUM_OBSERVABILITY_GAP_001_NATIVE_IDENTITY_ADDENDUM_20260921/
+?? docs/scientific/rfc/JGA_GROOVE_DESCRIPTIVE_ANALYSIS_001_20260921/
+?? docs/scientific/rfc/JGA_GROOVE_MULTISECTION_COMPARISON_001_20260921/
+?? docs/scientific/rfc/JGA_HYBRID_OBSERVABILITY_ATTRIBUTION_ARCHITECTURE_001_20260921/
+?? docs/scientific/rfc/JGA_MARKER_ATTACK_CALIBRATION_001_EXACTLY_LIKE_YOU_20260920/
+?? docs/scientific/rfc/JGA_METRIC_EVIDENCE_BAR_LOCKED_PULSE_001_20260922/
+?? docs/scientific/rfc/JGA_MICROPHONE_SIGNAL_SHAPE_TO_FISHMAN_T0_FEASIBILITY_001_20260922/
+?? docs/scientific/rfc/JGA_MODULAR_EVIDENCE_ADAPTER_INTEGRATION_001_20260921/
+?? docs/scientific/rfc/JGA_MODULAR_SOURCE_IDENTITY_ADAPTER_001_20260921/
+?? docs/scientific/rfc/JGA_MULTI_EVIDENCE_DB_FUSION_001_20260920/
+?? docs/scientific/rfc/JGA_NATIVE_DRUM_ATTRIBUTION_001_20260921/
+?? docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/
+?? docs/scientific/rfc/JGA_NT5_DPA_AIRBORNE_ONSET_DIFFERENCE_001_20260922/
+?? docs/scientific/rfc/JGA_OBSERVABLE_EVENT_INVENTORY_001_EXACTLY_LIKE_YOU_20260920/
+?? docs/scientific/rfc/JGA_OBSERVABLE_GROOVE_ANALYSIS_001_EXACTLY_LIKE_YOU_20260920/
+?? docs/scientific/rfc/JGA_OBSERVABLE_GROOVE_ANALYSIS_001_OPERATIONAL_REVISION_20260920/
+?? docs/scientific/rfc/JGA_PIANO_DRUM_EXCHANGE_QUARTER_PULSE_VALIDATION_001_20260922/
+?? docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/
+?? docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/
+?? docs/scientific/rfc/JGA_QUARTER_PULSE_PHASE_AUDIT_001_EXACTLY_LIKE_YOU_20260920/
+?? docs/scientific/rfc/JGA_REALMUSIC_DB_REPLICATION_002_EXACTLY_LIKE_YOU_20260920/
+?? docs/scientific/rfc/JGA_RECOVERY_STATE_SYNC_20260920/
+?? docs/scientific/rfc/JGA_ROBUST_MUSICOLOGICAL_TIMING_001_20260921/
+?? docs/scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/
+?? docs/scientific/rfc/JGA_SINGLE_ROOT_BOOTSTRAP_MIGRATION_20260922/
+?? docs/scientific/rfc/JGA_SOURCE_ASSOCIATED_ATTACK_REFINEMENT_001_Q318_20260920/
+?? docs/scientific/rfc/JGA_SOURCE_ASSOCIATED_ATTACK_TIMING_CALIBRATION_001_20260921/
+?? docs/scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/
+?? docs/scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/
+?? docs/scientific/rfc/JGA_VIRTUAL_TAP_001_RAY_BROWN_20260920/
+?? docs/scientific/rfc/JGA_VIRTUAL_TAP_V2_001_20260920/
+?? docs/scientific/rfc/JGA_VIRTUAL_TAP_V2_1_001_20260920/
+?? docs/scientific/rfc/JGA_VS_YOURMT3_GLOBAL_OBSERVABILITY_BENCHMARK_001_20260921/
+?? docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/
+?? docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/
+?? docs/scientific/rfc/REAL_JAZZ_FULLMIX_001_RAY_BROWN_20260919/
+?? docs/scientific/rfc/REAL_JAZZ_GT_001_RAY_BROWN_20260919/
+?? docs/scientific/rfc/REAL_JAZZ_RB_ENDING_001_20260920/
+?? docs/scientific/rfc/REAL_JAZZ_RB_PULSE_001_20260920/
+?? docs/scientific/rfc/REAL_JAZZ_RB_QUICKLOOK_PCM_CAL_001_20260920/
+?? docs/scientific/rfc/TIMBRE_SOURCE_IDENTITY_RESEARCH_20260912/
+?? validation/RIDE-HIHAT/RAY_BROWN_FULL_MIX_60S_CONTROL_20260911/
+?? validation/RIDE-HIHAT/RAY_BROWN_FULL_PIPELINE_20260910/
+?? validation/VAL-001/visualizations/
