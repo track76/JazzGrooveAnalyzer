@@ -1,0 +1,43 @@
+# Tempo Authority scientific closure and recovery chain
+
+Completed research phase; future implementation is not complete. Read the separate [PI decision](PI_ARCHITECTURE_DOMAIN_DECISION.md) alongside the experimental result.
+
+- **Previous pulse problem:** [PULSE_LISTENING_RESULT_FREEZE.json](../JGA_PIANO_DRUM_EXCHANGE_QUARTER_PULSE_VALIDATION_001_20260922/PULSE_LISTENING_RESULT_FREEZE.json). Frozen current JGA pulse failed perceptual validation in 186–232 s. Render precision did not explain the failure; parent groove calculations remain valid relative to their computational grid and qualified musically.
+- **Controlled metric/bar-lock investigation:** [DIAGNOSTIC_LISTENING_RESULT_FREEZE.json](../JGA_METRIC_EVIDENCE_BAR_LOCKED_PULSE_001_20260922/DIAGNOSTIC_LISTENING_RESULT_FREEZE.json). Period, phase and pulse-density mechanisms investigated separately; not an accepted canonical repair.
+- **Canonical Ableton input equivalence:** [CANONICAL_INPUT](../JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/CANONICAL_INPUT). Previous MP3-derived AIFF failed equivalence. Canonical WAV was decoded from the exact JGA M4A, with zero sample temporal deviation. Old analysis preserved, excluded as authority.
+- **LiveAPI acquisition:** [ABLETON_RAW_MARKER_ACQUISITION_FREEZE.json](../JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/ABLETON_RAW_MARKER_ACQUISITION_FREEZE.json). Two runtime reads yielded identical 122-marker payloads. Raw API wrapper parsing was resolved without rewriting original exports.
+- **Tempo derivation and pulse semantics:** [CANONICAL_TEMPO_RESULT_FREEZE.json](../JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/CANONICAL_TEMPO_RESULT_FREEZE.json). 121 raw segments; structural HALF-TIME interpretation supports separate candidate quarter = 2 × raw. No smoothing or raw-value overwrite.
+- **Primary blind validation:** [CANONICAL_LISTENING_RESULT_FREEZE.json](../JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/CANONICAL_LISTENING_RESULT_FREEZE.json). 186–232 s: Ableton aligned throughout, current JGA misaligned. Response freeze precedes unblinding.
+- **Held-out Ableton validation:** [HELD_OUT_FINAL_RESULT_FREEZE.json](../JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/HELD_OUT_FINAL_RESULT_FREEZE.json). Recording-specific external benchmark accepted with local qualifications; not universal authority.
+- **Cohort-1 preregistration:** [BASELINE_PREREGISTRATION.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/BASELINE_PREREGISTRATION.json). Three librosa baselines with fixed source, library and parameters.
+- **Pre-benchmark freeze:** [PRE_BENCHMARK_COHORT_FREEZE.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/COHORT_1/PRE_BENCHMARK_COHORT_FREEZE.json). Default DP, audio-derived time-varying DP and PLP outputs frozen before Ableton quantitative comparison; no Ableton tuning.
+- **Cohort-1 numerical comparison:** [COHORT_1_RESULT_FREEZE.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/COHORT_1_RESULT_FREEZE.json). Period, phase, continuity and metric level considered separately. Numerical resemblance is not perceptual validation.
+- **Development blind validation:** [PERCEPTUAL_RESULT_FREEZE.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/PLP_PERCEPTUAL_VALIDATION/PERCEPTUAL_RESULT_FREEZE.json). Exactly Like You: PLP 5/5 aligned; Ableton 4 aligned/1 mostly; JGA 1 aligned/4 misaligned. Development only.
+- **Independent preregistration:** [INDEPENDENT_VALIDATION_PREREGISTRATION.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/INDEPENDENT_VALIDATION_PREREGISTRATION.json). Prospective eight-recording independent validation; no success-based selection.
+- **Corpus and 24 passages:** [FINAL_CORPUS_FREEZE.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/FINAL_CORPUS/FINAL_CORPUS_FREEZE.json). Eight exact sources; algorithm-independent EARLY/MIDDLE/LATE acoustic-domain windows. Easy Does It secondary, not counted. Known prior exposures and metadata conflicts retained.
+- **Independent native execution:** [PRE_EVALUATION_FREEZE.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/EXECUTION/PRE_EVALUATION_FREEZE.json). Full recordings processed with unchanged PLP; eight exact deterministic replays; outputs frozen before evaluation. No Ableton/current-JGA inputs.
+- **Independent PI acquisition:** [FORMAL_ACQUISITION_FREEZE.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/PI_ACQUISITION/FORMAL_ACQUISITION_FREEZE.json). 24 real PI judgments acquired byte-for-byte; formal response freeze before mapping opened; test responses excluded.
+- **Independent result and diagnosis:** [FINAL_RESULT_FREEZE.json](../JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/INDEPENDENT_RESULT/FINAL_RESULT_FREEZE.json). Historical FAIL remains; architecture B was a qualified research direction, not acceptance of raw maxima.
+- **Subsequent PI decision:** [PI_ARCHITECTURE_DOMAIN_DECISION.md](PI_ARCHITECTURE_DOMAIN_DECISION.md). Separate prospective selection of PLP as temporal evidence engine, bounded v1 metric scope and required confidence/metric layers.
+
+The clean quarter-period sweep remains an independent preregistered study; its sealed mapping and unfinished review are not opened, merged or invalidated by this closure.
+
+## Evidence classification and limits
+
+**EXPERIMENTAL FACT:** the independent gate failed (10/10/3/1). Five of eight recordings met the all-three-at-least-mostly requirement. Development observations are not pooled. Raw outputs, negatives and precise PI notes remain in their original freezes.
+
+**PI PERCEPTUAL OBSERVATION:** convincing temporal tracking was reported across varied material including medium/up-tempo passages, walking and reduced textures, a Bass-solo passage and the drumless Ellington/Blanton duo. PI described tracking of performer acceleration/local tempo evolution. These are qualitative observations, not independently measured tempo-error bounds or universal accuracy. My Favorite Things (3/4) had EARLY/MIDDLE aligned and LATE mostly aligned. Unsupported meter/texture labels remain UNKNOWN.
+
+**SCIENTIFIC INTERPRETATION:** PLP supplies useful local-pulse/period evidence across diverse independent jazz material; uniformly robust general tempo tracking is not established. The frozen diagnostic report's partial-support qualification remains unchanged. Principal limitations are metric-level ambiguity, low-evidence/coda maxima, substantial Take Five 5/4 instability, and perceptual masking in Armando's Rhumba. Clap/palmas temporal coincidence and causation remain INSUFFICIENT. Some exported ALIGNED categories contain subdivision/half-level/initial-instability notes; neither category nor wording is changed.
+
+**ENGINEERING / PRODUCT-SCOPE DECISION:** PI selects PLP for v1 development, with 4/4 primary and 3/4 supported. This does not establish a post-hoc validation success or remove odd-meter evidence.
+
+**FUTURE HYPOTHESIS:** confidence/pulse-existence gating and metric-level selection/lock may address the observed limitations. No demonstrated solution is claimed. A genuine metric-level change must remain possible.
+
+**FUTURE WORK:** bounded prospective temporal-layer studies, final quarter-authority freeze, source identity integration, then independent instrument attack refinement and only subsequently authorized new-generation groove analysis. The current parent musicological figures remain frozen and pulse-reference-qualified.
+
+## Preservation and repository scope
+
+PRESERVATION_INVENTORY.json hashes the existing complete native/Ableton and relevant predecessor packages before documentation changes. INITIAL_INTEGRITY_AUDIT.json verifies known authority hashes and stored file maps. No scientific package is edited. The closure commit contains the new closure records and authorized recovery documentation; existing untracked scientific packages and large audio/array assets remain at their original paths and are preserved through the established external backup. This is not a claim that Git alone contains all scientific evidence. No commercial audio is added to Git by this task.
+
+Backup policy: /Volumes/HD BackUp/JGA_BACKUP/JGA_BACKUP_POLICY.md. Internal workspace maps to /Volumes/HD BackUp/JGA_BACKUP/INTERNAL_MAC/JazzGrooveAnalyzer/; SSD working data maps to /Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/. Non-destructive synchronization, no propagated deletions, hash verification. Closure receipt must record actual commit/push/backup outcomes separately from the pre-commit scientific closure to avoid self-referential hashes.

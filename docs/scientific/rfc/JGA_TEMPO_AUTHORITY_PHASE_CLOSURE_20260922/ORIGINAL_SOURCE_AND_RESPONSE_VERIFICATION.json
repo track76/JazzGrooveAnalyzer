@@ -1,0 +1,92 @@
+[
+  {
+    "path": "/Volumes/SSD Track/JGA/downloads/Confessin' (Rudy Van Gelder Edition   Remastered 2007).mp3",
+    "sha256": "bbfccfc9d97d512399e6ca6b67a817850a8fbca6a9e1575e6c45f75b6960aab0",
+    "bytes": 4137354
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/downloads/Pitter Panther Patter (1999 Remastered - Take 1).mp3",
+    "sha256": "83ba52c7d0a4356bff26c66ead5043deb333ad8669bfbd165f7682cb49e150d3",
+    "bytes": 3039350
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/downloads/III_Chet Baker - I fall in love too easily.mp3",
+    "sha256": "3906369e80a62cf202e1c27e2574ef42dec84b6033f69522c3da47d9db8db0e1",
+    "bytes": 4874694
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/downloads/Armando's Rhumba.m4a",
+    "sha256": "820d684cec25774c0c12baf3591095a1530c53179bb71a79b17342328ffef248",
+    "bytes": 5161492
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/downloads/John Coltrane - Giant Steps (2020 Remaster) [Official Audio].m4a",
+    "sha256": "2fa1edc589c33d56038f47f9b24a69a51966bec5e9eef468cb37b7442337eed8",
+    "bytes": 4656959
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/downloads/Dave Brubeck - Take Five.m4a",
+    "sha256": "68c1d3e61a748fbde1dc38a7ed30c6836b615d5453ed793f0f544fe973886fb1",
+    "bytes": 5330734
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/downloads/My Favorite Things (Stereo) (2022 Remaster).m4a",
+    "sha256": "4acb2a4eea1be5da20782d2d91aeb2155b0f0b30e2564b1f2657b6bc1034b2fd",
+    "bytes": 13366151
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/downloads/Miles Davis - Trane's Blues.m4a",
+    "sha256": "c7b7b1e2d71dc4c913c938f58bb446b4c66a2e2fb81225a768757621fa642db7",
+    "bytes": 8330427
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_C1_PLP_PI_RESPONSES.json",
+    "sha256": "2f4dc2c2844bb9d0c3a99508faf6a9ed2a9e9ecc51e848a5bce846cb99f07171",
+    "bytes": 4061
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_C1_PLP_PI_RESPONSE_FREEZE.json",
+    "sha256": "1dfffc323de4821375bc583f3c9db5df4898ef2ed2e6b6f45a3c021a437e33c5",
+    "bytes": 367
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_INDEPENDENT_PLP_PI_RESPONSES.json",
+    "sha256": "9aa1aa1261c166814899894b1a2a91f360a120666c06ae766beae29b3ae4e26a",
+    "bytes": 10388
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_INDEPENDENT_PLP_PI_RESPONSE_FREEZE.json",
+    "sha256": "5752d993c23ab52679960221ee94638969949b7723a65d91897f8d8396f459a2",
+    "bytes": 379
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_CANONICAL_ABLETON_API_EXPORT_1790086953970.json",
+    "sha256": "5241603df3c54ce9644b408a0040a59d34df537d1a0fe4fcf263ecd2a13bb12d",
+    "bytes": 17453
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_CANONICAL_ABLETON_API_EXPORT_1790086974009.json",
+    "sha256": "44a285646f911179277c7f05a0db74f633a21b50328176e875abd514cf6ef8ba",
+    "bytes": 17453
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_ABLETON_PI_RESPONSES.json",
+    "sha256": "9cd713ffb5f0b58cd192b10fd9957bead28e837ea2ab4903f2614ca73e8223bd",
+    "bytes": 738
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_ABLETON_PI_RESPONSE_FREEZE.json",
+    "sha256": "2ffbcc1a071b7279e8978c5c2af672c14dc143c2538e8123f7bd07abf4ff21c0",
+    "bytes": 378
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_ABLETON_HELD_OUT_PI_RESPONSE_FREEZE.json",
+    "sha256": "73a0697250e3ab26d146df36fdfdb89fa0a9001670a9cb1c2898ae205f3cfeb9",
+    "bytes": 390
+  },
+  {
+    "path": "/Volumes/SSD Track/JGA/JGA_ABLETON_HELD_OUT_PI_RESPONSES.json",
+    "sha256": "f6640f53ff0dd06b53889fa16076cbadc485ae9ed1b5fa1fb70d090ce26a951f",
+    "bytes": 2991
+  }
+]
