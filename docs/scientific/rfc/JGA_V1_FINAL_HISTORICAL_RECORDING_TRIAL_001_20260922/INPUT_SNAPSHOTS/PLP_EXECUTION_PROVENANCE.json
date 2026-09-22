@@ -1,0 +1,31 @@
+{
+  "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "executable": "/Users/StarTrack/Development/JazzGrooveAnalyzer/.venv/bin/python",
+  "packages": {
+    "librosa": "0.11.0",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "numba": "0.65.1",
+    "soxr": "1.1.0",
+    "soundfile": "0.14.0"
+  },
+  "code_sha256": "618256e4d261891a7a0ed6577880f36eedfd87e34dd4458925427bc3e3331529",
+  "command": ".venv/bin/python /private/tmp/run_native_c1.py",
+  "source": {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/CANONICAL_INPUT/Exactly_Like_You_JGA_CANONICAL_FLOAT32.wav",
+    "sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+    "sr": 44100,
+    "channels": 2,
+    "frames": 15338496,
+    "duration_s": 347.8117006802721
+  },
+  "input_allowlist": [
+    "BASELINE_PREREGISTRATION.json",
+    "LOCAL_IMPLEMENTATION_FREEZE.json",
+    "installed library files",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/CANONICAL_INPUT/Exactly_Like_You_JGA_CANONICAL_FLOAT32.wav"
+  ],
+  "benchmark_access": "NONE; no benchmark paths or coordinates loaded",
+  "prior_exposure": "Known investigator context disclosed in preregistration; not used for parameters"
+}

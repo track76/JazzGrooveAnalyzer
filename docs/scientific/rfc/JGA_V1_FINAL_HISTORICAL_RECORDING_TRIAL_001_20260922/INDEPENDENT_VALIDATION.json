@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "native_rows": 1627,
+  "included": 1606,
+  "preserved_attack_records": 10,
+  "historical_inventory_files": 637,
+  "nearest_peak_independently_checked": true,
+  "source_states_and_timestamps_unchanged": true,
+  "serialization_adapter_tables_identical": true
+}

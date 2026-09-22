@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-22T16:02:58.467283+00:00",
+  "status": "EXECUTED",
+  "baseline": "B3_PLP",
+  "code_sha256": "618256e4d261891a7a0ed6577880f36eedfd87e34dd4458925427bc3e3331529",
+  "preregistration_sha256": "5589903f8e2268b6d3f5445a1990a9624cf92ac066b48468dd18ef803e403d80",
+  "common_frontend_hashes": {
+    "ONSET_STRENGTH.npy": "b3f8af29c35fbb03218cbee3904993b28af932e18fb21d820722ff47734c0c36",
+    "ANALYSIS_MONO_22050.npy": "10faf732267c6686c900dd4947f3641d9e4240645caa6b102a5afda2e1efa5ca",
+    "FRONTEND.json": "037c55d92315ace26158b1e408edf7f187485dc92a9e78e0628808e3415f92fd",
+    "EXECUTION_PROVENANCE.json": "723f9cf070850d08ac2cd02839a2137457a557a7754fe0f9ed40627bb69e1c70"
+  },
+  "files": {
+    "BEATS.csv": "6b821fb7c3aff02fd7dafb36b3d5120022793010a1f76d2c1f5269d49d0e3000",
+    "BEAT_FRAMES.npy": "44c5bbf7fb6aa3b7489095eca00e77dbb03f86a9cea8dc6908f3826b58f3547d",
+    "BEAT_TIMESTAMPS.npy": "177b358fae34c0f707c35fbfd9ab33b9f6609aa51058f4c6947a0e82ed87f306",
+    "LOCAL_PULSE.npy": "f45aa8a9dae8951fac1777dff4c5b54767f5bd9e79397f4c033acfd34a6aa4dd",
+    "PERIOD_TRAJECTORY.csv": "5bbe373aef26e3a5e5c64599fa18fba38b8b053d079c56ff4d67199ad2b0eec3",
+    "PRE_BENCHMARK_SANITY.json": "1cb2b663a3b052885f752b5d0f45be6dfbb48d70f690f989a6550c93b285ad14"
+  },
+  "benchmark_loaded": false
+}

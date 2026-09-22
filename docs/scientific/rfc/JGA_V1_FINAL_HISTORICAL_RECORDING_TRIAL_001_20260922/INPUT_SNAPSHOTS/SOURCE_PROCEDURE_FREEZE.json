@@ -1,0 +1,264 @@
+{
+  "study": "JGA-WHOLE-TRACK-GROOVE-FROZEN-PIPELINE-001",
+  "created_utc": "2026-09-21T20:40:52.134573+00:00",
+  "status": "FROZEN_BEFORE_COMPATIBILITY_AND_NEW_INFERENCE",
+  "complete_authorization": "Original Phases1\u201313 plus continuations14\u201321,22\u201326 incorporated",
+  "source": {
+    "path": "/Volumes/SSD Track/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a",
+    "sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+    "decode": "ffmpeg first audio stream; native44100 stereo; float PCM, no EQ/normalization; source audit decoded15338496 frames; model-input WAV float32 matches established benchmark extraction",
+    "acoustic_start_s": 0.0,
+    "acoustic_end_s": 342.6568707482993,
+    "terminal_zero_start_sample": 15111168,
+    "terminal_zero_handling": "exclude samples at/after15111168; preserve quiet nonzero tail; no loudness-based re-trimming"
+  },
+  "input_hashes": {
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_REALMUSIC_DB_REPLICATION_002_EXACTLY_LIKE_YOU_20260920/FULLMIX_EVENT_SEQUENCE.json": "0e1ba3dd6316b53b78e8c7141deac159683fbe082d7d9cca2b8638a2382e0868",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_REALMUSIC_DB_REPLICATION_002_EXACTLY_LIKE_YOU_20260920/EXACTLY_LIKE_YOU_BLIND_FREEZE.json": "550392ac65b02fdf30d94334415616c1ab3c401f761bfcca25317d285829bf0a",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_REALMUSIC_DB_REPLICATION_002_EXACTLY_LIKE_YOU_20260920/SOURCE_AUDIT.md": "74c6b60f5c50e43cd8841529f4d1824c5751c466acac259f36f975a9a6438dea",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_ADAPTIVE_MEASURE_GRID_001_EXACTLY_LIKE_YOU_20260920/ADAPTIVE_4_4_GRID.json": "64703ccc5c4cae8c5c15316976d54c54f901f6972c76ec6c49873e9b8d04dfdd",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_MODULAR_EVIDENCE_ADAPTER_INTEGRATION_001_20260921/ADAPTER_PREREGISTRATION.json": "c7efaf8d2029ed140d67b7cbfff1c23fd33e0ffcae18f285566266c063f78e1c",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_EXTERNAL_EVENT_IDENTITY_BENCHMARK_001_COMPLETION_20260921/NORMALIZED_EVENTS.json": "111511f31ec560b05f7616dd540426117e0c33e136d443ce6c750cb5029371be",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_MODULAR_SOURCE_IDENTITY_ADAPTER_001_20260921/EXTERNAL_EVENTS.json": "7972f66d5e892f9f2362b6e6394a95db40aceb06267b9a48db572d0749df26fd",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_OBSERVABLE_EVENT_INVENTORY_001_EXACTLY_LIKE_YOU_20260920/BASS_EVENT_INVENTORY.json": "8cd5bd718b5ac4345d54d94279741ece6f3e4b2f647cf34e408457327f1f332a",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GROOVE_MULTISECTION_COMPARISON_001_20260921/EXPANDED_ANALYSIS_EVENTS.csv": "6dae73b152fa1af6b2af74df5bfa8fad48f7f7ae94804849e0fbd5472a28b36c"
+  },
+  "native": "Existing FULLMIX_EVENT_SEQUENCE.json family F_MIX only; preserve every candidate, no regeneration. Out-of-domain candidates retained with flag and excluded only from acoustic-domain statistics.",
+  "grid": {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_ADAPTIVE_MEASURE_GRID_001_EXACTLY_LIKE_YOU_20260920/ADAPTIVE_4_4_GRID.json",
+    "sha256": "64703ccc5c4cae8c5c15316976d54c54f901f6972c76ec6c49873e9b8d04dfdd",
+    "BPM": "unchanged local_bpm of frozen reference quarter",
+    "nearest": "Decimal timestamp nearest stored quarter, exact tie earlier quarter; flag missing side, no extrapolation",
+    "quantity": "JGA_NATIVE_EVENT_TO_QUARTER_MS=(native_timestamp-quarter_timestamp)*1000",
+    "sign": "negative before, zero exact at stored precision, positive after"
+  },
+  "ADTOF": {
+    "version": "0.1.0",
+    "torch": "2.14.0",
+    "device": "cpu",
+    "weights_path": "/private/tmp/jga_event_identity_001/muscriptor_env/lib/python3.13/site-packages/adtof_pytorch/data/adtof_frame_rnn_pytorch_weights.pth",
+    "weights_sha256": "1bc986e596ec47ba0b44916f87cd4a39f0b2bec23596df3fb5d0e87749217320",
+    "thresholds": [
+      0.22,
+      0.24,
+      0.32,
+      0.22,
+      0.3
+    ],
+    "labels": [
+      35,
+      38,
+      47,
+      42,
+      49
+    ],
+    "fps": 100,
+    "call": "transcribe_to_midi(return_activations=True,device=cpu); PeakPicker(FRAME_RNN_THRESHOLDS,fps=100).pick(labels=LABELS_5,label_offset=0)"
+  },
+  "MuScriptor": {
+    "weights": {
+      "model_id": "MuScriptor/muscriptor-medium",
+      "revision": "f32236969308476e01fd3aae67357de5feb05a2d",
+      "url": "https://huggingface.co/MuScriptor/muscriptor-medium/resolve/f32236969308476e01fd3aae67357de5feb05a2d/model.safetensors",
+      "filename": "model.safetensors",
+      "path": "/private/tmp/jga_event_identity_001/muscriptor_medium/model.safetensors",
+      "size": 1228144472,
+      "sha256": "ac80adbdf85d87231735fd948af7013441c0afced316c4e9067fd5d8a7fb97ec",
+      "official_lfs_sha256_match": true,
+      "license": "cc-by-nc-4.0",
+      "wall_s": 23.048385791997134
+    },
+    "device": "mps",
+    "dtype": "float16 (official MPS default)",
+    "torch": "2.14.0",
+    "conditions": {
+      "UNCONSTRAINED": null,
+      "TRIO_CONDITIONED": [
+        "acoustic_piano",
+        "acoustic_bass",
+        "contrabass",
+        "drums"
+      ]
+    },
+    "sampling": false,
+    "beam_size": 1,
+    "batch_size": 1,
+    "cfg_coef": 1.0,
+    "prelude_forcing": true,
+    "strict_eos": true,
+    "source_plan": "parent BENCHMARK_PLAN.json unchanged",
+    "quantization": false,
+    "seed": 0
+  },
+  "adapter": {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_MODULAR_EVIDENCE_ADAPTER_INTEGRATION_001_20260921/ADAPTER_PREREGISTRATION.json",
+    "sha256": "c7efaf8d2029ed140d67b7cbfff1c23fd33e0ffcae18f285566266c063f78e1c",
+    "frozen_logic": {
+      "status": "NONCANONICAL_PROVISIONAL_EVIDENCE_ONLY",
+      "created_utc": "2026-09-21T17:42:57.466566+00:00",
+      "timing": "Unchanged JGA-native timestamps. Quarter reference unresolved pending PI clarification. No timing-dependent source rules.",
+      "readout_tolerances_ms": [
+        10,
+        20,
+        35,
+        50
+      ],
+      "primary_tolerance_ms": 35,
+      "drum_rule": "ADTOF nearest DRUM within35ms OR MuScriptor U and C each nearest DRUM within35ms.",
+      "bass_rule": "MuScriptor UNCONSTRAINED nearest BASS within35ms AND at least one countable HIGH/MEDIUM frozen Bass inventory record whose preserved fmix_nearest_s equals this native timestamp. Conditioned Bass alone cannot establish support.",
+      "states": "Both booleans -> BASS_AND_DRUM_SUPPORTED; only drum -> DRUM_SUPPORTED; only bass -> BASS_SUPPORTED; neither -> UNKNOWN.",
+      "conflict_handling": "Bass+Drum or Piano coexistence is not a conflict. Model disagreement is retained in separate flags. No negative-source/exclusivity evidence is supplied by missing predictions; absent a demonstrated incompatible assignment, do not infer CONFLICTING_EVIDENCE.",
+      "matching": "Nearest across preserved common_115_130 outputs; ties earlier timestamp then event ID. Inclusive comparisons with 1e-9 ms floating-point tolerance.",
+      "muscriptor_conditions": "U=unconstrained; C=trio-conditioned. Both are same model, not independent confirmations. Concordance is exploratory supporting evidence, not separately validated specificity.",
+      "bass_limitations": "Frozen inventory association is historical model-assisted evidence, not independent source ground truth. Exact stored native link required; proximity alone not sufficient.",
+      "model_versions": {
+        "ADTOF": "0.1.0; pinned benchmark weights 1bc986e596ec47ba0b44916f87cd4a39f0b2bec23596df3fb5d0e87749217320",
+        "MuScriptor": "0.3.0 Medium revision f32236969308476e01fd3aae67357de5feb05a2d weights ac80adbdf85d87231735fd948af7013441c0afced316c4e9067fd5d8a7fb97ec"
+      },
+      "no_target_tuning": true,
+      "new_independent_validation": "None; qualified existing component validation, no claim of held-out combined-adapter validation."
+    },
+    "extension": "Context eligibility expanded only; logical rules,35ms tolerance and1e-9ms comparison epsilon unchanged. Preserve historical69 states and timings after compatibility check.",
+    "states": [
+      "DRUM_SUPPORTED",
+      "BASS_SUPPORTED",
+      "BASS_AND_DRUM_SUPPORTED",
+      "CONFLICTING_EVIDENCE",
+      "UNKNOWN"
+    ],
+    "missing": "Missing stream is unavailable, not negative evidence. Preserve any support established by complete rule clause; otherwise UNKNOWN with MISSING_EVIDENCE. Record stream failure separately. No manual identities.",
+    "conflict": "No conflict from coexistence or missing prediction; preserve original conflict behavior.",
+    "abstention": "Undefined metrics NA; failed inference not retried with altered settings; no alternate model or tuning."
+  },
+  "evidence_contexts": [
+    {
+      "name": "common_115_130",
+      "start": 115,
+      "end": 130,
+      "normalized": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_EXTERNAL_EVENT_IDENTITY_BENCHMARK_001_COMPLETION_20260921/NORMALIZED_EVENTS.json",
+      "priority": 0
+    },
+    {
+      "name": "control_drums_217_221",
+      "start": 217,
+      "end": 221,
+      "normalized": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_EXTERNAL_EVENT_IDENTITY_BENCHMARK_001_COMPLETION_20260921/NORMALIZED_EVENTS.json",
+      "priority": 1
+    },
+    {
+      "name": "control_155_165",
+      "start": 155,
+      "end": 165,
+      "normalized": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_MODULAR_SOURCE_IDENTITY_ADAPTER_001_20260921/EXTERNAL_EVENTS.json",
+      "priority": 2
+    },
+    {
+      "name": "control_170_180",
+      "start": 170,
+      "end": 180,
+      "normalized": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_MODULAR_SOURCE_IDENTITY_ADAPTER_001_20260921/EXTERNAL_EVENTS.json",
+      "priority": 2
+    },
+    {
+      "name": "control_200_210",
+      "start": 200,
+      "end": 210,
+      "normalized": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_MODULAR_SOURCE_IDENTITY_ADAPTER_001_20260921/EXTERNAL_EVENTS.json",
+      "priority": 2
+    },
+    {
+      "name": "control_225_235",
+      "start": 225,
+      "end": 235,
+      "normalized": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_MODULAR_SOURCE_IDENTITY_ADAPTER_001_20260921/EXTERNAL_EVENTS.json",
+      "priority": 2
+    },
+    {
+      "name": "control_330_340",
+      "start": 330,
+      "end": 340,
+      "normalized": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_MODULAR_SOURCE_IDENTITY_ADAPTER_001_20260921/EXTERNAL_EVENTS.json",
+      "priority": 2
+    }
+  ],
+  "context_rule": "For each native timestamp choose first priority then start/name preserved context containing timestamp with50ms margins. common115130 always authoritative for original69. Otherwise use15s cores anchored0 with0.5s padding each side, clipped to acoustic domain; choose solely by candidate timestamp. Only infer cores owning uncovered candidates. No pooling/selection across alternate contexts. New hypotheses outside core retained as witnesses but queried only by owning candidates.",
+  "new_core_s": 15,
+  "padding_s": 0.5,
+  "context_edges": "Native events within50ms of acoustic boundary flagged; no extrapolated audio.",
+  "normalization": "same benchmark raw start/end events; drums=DRUM, acoustic_bass/electric_bass/contrabass=BASS, acoustic_piano/electric_piano=PIANO, elseOTHER. ADTOF labelsallDRUM; no score quantization; external timing witness only.",
+  "windows": {
+    "origin": 0.30210128529869795,
+    "duration": 6.5,
+    "half": 3.25,
+    "closure": "left closed/right open",
+    "complete": "all complete tiles inside acoustic domain; preserve leading interval and final remainder separately; no result-based rejection",
+    "reference": [
+      122,
+      128.5
+    ],
+    "local_controls": "preserve previously frozen W01/W02; reference overlap explicitly excluded from recurrence count"
+  },
+  "metrics": {
+    "all_events": "N,density,IEI median/min/max; offset min/max/median/mean/Q1/Q3/IQR; before/zero/after countspercent; halvesmedian/IQR/N/densitychange;Theil-Sen slope",
+    "BPM": "regional-quarter min/max/median/range, within-window largest rise/fall (none=>NA), netchange, Theil-Sen BPMslope; assigned-quarter BPM and its previous-step delta for event associations",
+    "quantile": "numpy linear; zero exact noaddedtolerance",
+    "associations": "Spearman,N; only >=3 nonconstant paired values; no pvalues, causal or independence claims",
+    "source": "same summaries SOURCE_SUPPORTED,DRUM_INCLUSIVE,BASS_INCLUSIVE,UNKNOWN; dualcountsone perpopulation overlapping populations not summed",
+    "small_populations": "N0statsNA; medianIEI N>=2; slope N>=2; leave-one-out N>=3; all windows retained"
+  },
+  "sensitivity": {
+    "unknown_excluded": "identical to source-supported when no conflicts; report separately without treating as independent confirmation",
+    "high_unknown": "strict majority UNKNOWN fraction>0.5; secondary window exclusion only; keep primaryallwindows",
+    "LOO": "leave one native marker out; range and whether sign crosseszero; not confidenceinterval",
+    "source_vs_all": "pairedwindow Spearman medians and shifts; same chronological summaries; no primary replacement"
+  },
+  "recurrence": {
+    "direction": "negative/positive/exact zero; no arbitrary near-zero threshold",
+    "magnitude": "raw windowmagnitudes plus separate counts negative shift<=frozenreference shift and negative slope<=frozenreference slope; jointcountdescriptive notscore",
+    "overlap": "exclude any primary tile intersecting122\u2013128.5 for recurrence, including anysharedreferenceevents",
+    "no_significance": "rankpercentile descriptive only; no significance claims"
+  },
+  "figures": "five requested three-format figures; all native markers, UNKNOWN visible,horizontalquarterzero, no physicalattack semantics; chronology and overlappingevidence explicit",
+  "claim_boundaries": {
+    "usable": [
+      "storedgrid/BPM",
+      "nativeobservability",
+      "qualifiedsource-supportedmarkergeometry"
+    ],
+    "qualified": [
+      "ADTOFidentity",
+      "MuScriptoridentity",
+      "groovetrajectoryproceduralgeneralization"
+    ],
+    "promising": [
+      "JGA Drumattack timing",
+      "controlledFishmanT0"
+    ],
+    "not_established": [
+      "fullmixBassphysicalattack",
+      "independentphysicalBassDrummicrotiming"
+    ],
+    "prohibited": [
+      "performerearlylatefromnativemarkers",
+      "causality",
+      "dualmarkermeansphysicalsimultaneity",
+      "sample-resolutionequalsaccuracy"
+    ]
+  },
+  "phase_order": [
+    "thisfreeze",
+    "compatibility32and69andboundedmetrics",
+    "missinginferenceonly",
+    "adapterandquarterreferences",
+    "frozenwindowdefinitionbeforewindowstats",
+    "numericalfreeze",
+    "existingPI/formcontextjoin",
+    "complianceandsensitivity",
+    "figuresandscientificinterpretation",
+    "resultfreeze",
+    "documentationauthorityauditandupdates",
+    "documentation-onlyrecoverytest",
+    "finalintegrityandworktreeaudit"
+  ],
+  "documentation": "After resultfreeze only: actual authoritative bootstrap/projectstate/roadmap/scientificindexes/decisionandhandoff; recordpre/posthashes; preservehistoricalconclusions; Confessin PI annotations verbatimcontext notGT; one nextphase notexecuted. No productioncode changes, stage,commit,push."
+}

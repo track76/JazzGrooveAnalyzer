@@ -1,0 +1,33 @@
+time_s,label,section_id,provenance,boundary_type,precision,notes
+0,Opening theme including solo-launch transition,M1,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+48,Piano solo / walking Bass,M2,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+141,Piano–Bass four-bar exchanges,M3,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+186,Piano–Drum four-bar exchanges,M4,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+232,Final theme plus unspecified turnaround / crescendo,M56,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+330,Stop / Bass phrase / final hit / decay,M7,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+0,Opening A1 / Bass in two,A1,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+12,Opening A2 / Bass in two,A2,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+24,Opening B / walking Bass,B,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+36,Opening final A / Bass in two,A3,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+141,Piano–Bass A1 Piano,PB_P1,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+146,Piano–Bass A1 Bass; Ride removed / Hi-Hat retained,PB_B1,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+152,Piano–Bass A2 Piano,PB_P2,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+158,Piano–Bass A2 Bass; Ride removed / Hi-Hat retained,PB_B2,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+164,Piano–Bass B Piano,PB_P3,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+169,Piano–Bass B Bass,PB_B3,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+175,Piano–Bass final A Piano,PB_P4,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+181,Piano–Bass final A Bass,PB_B4,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+186,Piano–Drum A1 Piano,PD_P1,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+193,Piano–Drum A1 Drum,PD_D1,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+198,Piano–Drum A2 Piano,PD_P2,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+204,Piano–Drum A2 Drum,PD_D2,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+210,Piano–Drum B Piano,PD_P3,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+216,Piano–Drum B Drum,PD_D3,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+222,Piano–Drum final A Piano,PD_P4,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+227,Piano–Drum final A Drum,PD_D4,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+330,Final Bass phrase after collective stop,END_BASS,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+333,Final hit and decay,DECAY,PI_LISTENING,section_start,approximate whole-second listening annotation,Not inferred from JGA curves; no confirmed bar/downbeat alignment
+46,Collective stop; Bass slide; Piano solo launch,M1,PI_LISTENING,transition,approximate,Not a new principal section
+,Final-theme to two turnarounds / crescendo,M56,PI_LISTENING,unlocalized_transition,unspecified,No numerical boundary; do not infer one
+342,Approximate perceived silence begins,M7,PI_LISTENING,perceptual_annotation,approximate,Does not replace frozen acoustic end
+342.6568707482993,Frozen acoustic end,M7,FROZEN_ACOUSTIC_AUTHORITY,analysis_end,preserved authority,Terminal digital zeros excluded

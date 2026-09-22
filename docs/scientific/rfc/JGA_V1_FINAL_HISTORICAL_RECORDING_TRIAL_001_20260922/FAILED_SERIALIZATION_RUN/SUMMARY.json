@@ -1,0 +1,13 @@
+{
+  "native_total_frozen": 1627,
+  "native_in_scope": 1606,
+  "excluded_native": 21,
+  "source_states": {
+    "BASS_AND_DRUM_SUPPORTED": 196,
+    "DRUM_SUPPORTED": 895,
+    "UNKNOWN": 506,
+    "BASS_SUPPORTED": 9
+  },
+  "Bass_inclusive": 205,
+  "Drum_inclusive": 1091,
+  "marker_reference_available": 

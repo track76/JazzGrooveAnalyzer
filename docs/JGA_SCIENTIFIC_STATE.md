@@ -1,3 +1,19 @@
+# Current authoritative checkpoint — final historical-recording trial · 2026-09-22
+
+**JGA v1 final trial on Exactly Like You: PARTIALLY_USABLE.** [Report](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT.md) · [result freeze](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT_FREEZE.json), SHA-256 `64979a72bf7c878bdea445d94c03dad417e4dd170d384999e3a5bb2172e23953`. This is the newly authorized additive readout, not a rewrite of historical groove studies. Analysis [0,330) s; PI-defined ending excluded. 1,606 native markers; Bass-inclusive 205, Drum-inclusive 1,091 (196 shared dual markers), UNKNOWN 506. Nine preserved qualified exposed-Drum acoustic estimates; one historical refinement abstention. No new detector/model/PLP execution, no snapping, no restrictive PLP proximity prior. The single material blocker is transferable full-mix attack-timing qualification, most decisively Double Bass. Marker geometry is usable exploratory evidence, not established performer microtiming.
+
+**Historical independent PLP experiment: FAIL, unchanged:** 10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 responses. Result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You 5/5 remains development evidence, outside that denominator.
+
+**Separate PI engineering adoption:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE, adopted internal BPM/local-pulse context for bounded JGA v1. Input: ORIGINAL FULL MIX. Raw maxima are evidence, not final musical-quarter Ground Truth. FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE. 4/4 PRIMARY; 3/4 SUPPORTED; 5/4 and other odd meters EXPERIMENTAL and outside current operational scope. Open/free endings excluded from this trial; negative evidence preserved.
+
+Tempo-Existence / Confidence Gate (YES / LOW_CONFIDENCE / NO), Metric-Level Selection and Metric-Level Lock / Continuity remain unimplemented architectural proposals; this task does not authorize their development or reopen excluded ending/odd-meter work. Ableton: external benchmark, not Ground Truth and not a required runtime dependency. Essentia / BeatNet / madmom / Beat This!: DEFERRED.
+
+Instrument timestamps remain independent: DELTA_T = independent attack time minus frozen reference. +27 ms must remain +27 ms. PLP cannot force attacks onto the grid. Source Identity remains separate; Double Bass, Ride and Hi-Hat remain qualified future targets. Precise recorded Bass onset and independent physical Bass–Drum microtiming remain unestablished. Generic Drum evidence does not establish Ride/Hi-Hat results. No groove recalculation authorized beyond the completed additive trial; historical outputs remain frozen.
+
+Next action: PI review of this trial and its single attack-timing qualification blocker. Further scientific work requires separate PI authorization. Historical checkpoints below retain their original scope and do not authorize automatic continuation.
+
+---
+
 # Current authoritative checkpoint — Tempo Authority phase closure · 2026-09-22
 
 **Historical independent experiment: FAIL, unchanged (10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 PI responses).** Independent result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You PLP 5/5 is development evidence, not part of this denominator.

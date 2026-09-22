@@ -1,0 +1,1 @@
+First readout stopped while serializing NumPy int64 in SUMMARY.json. Tables completed; SUMMARY.json is incomplete and not scientific authority. Preserved verbatim. run_readout.py changes JSON scalar serialization only; frozen trial.py and rules remain unchanged.

@@ -1,0 +1,74 @@
+[
+  {
+    "event": {
+      "event_id": "F_MIX_01024",
+      "anchor_s": 205.8100680272109,
+      "clip_id": "CLIP_009",
+      "source": "DRUM",
+      "split": "DERIVATION",
+      "review_lo_s": 205.79,
+      "review_hi_s": 205.798,
+      "reference_origin": "docs/scientific/rfc/JGA_MARKER_ATTACK_CALIBRATION_001_EXACTLY_LIKE_YOU_20260920/CALIBRATION_EVENTS.json",
+      "reference_event_id": "DRUM_00591",
+      "review_reason": "Drums-only interior; sharp broadband attack after quiet lead-in.",
+      "PI_source_evidence": "Drum fill only. Hi-hat maintains 2 and 4."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 205.795283446712,
+      "crossings": [
+        205.795283446712,
+        205.795283446712
+      ],
+      "details": [
+        {
+          "baseline": 2.3432581707539223e-05,
+          "p95": 0.03186866773791414,
+          "threshold": 0.00034188493326960524
+        },
+        {
+          "baseline": 2.552640885429679e-05,
+          "p95": 0.06102176968558852,
+          "threshold": 0.000635488841621639
+        }
+      ]
+    }
+  },
+  {
+    "event": {
+      "event_id": "F_MIX_01027",
+      "anchor_s": 206.50666666666666,
+      "clip_id": "CLIP_036",
+      "source": "DRUM",
+      "split": "DERIVATION",
+      "review_lo_s": 206.494,
+      "review_hi_s": 206.502,
+      "reference_origin": "docs/scientific/rfc/JGA_MARKER_ATTACK_CALIBRATION_001_EXACTLY_LIKE_YOU_20260920/CALIBRATION_EVENTS.json",
+      "reference_event_id": "DRUM_00594",
+      "review_reason": "Drums-only interior; sharp broadband attack after quiet lead-in.",
+      "PI_source_evidence": "Drum fill only. No Bass and no Piano. Ends with an open hi-hat articulation."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 206.49768707482994,
+      "crossings": [
+        206.49768707482994,
+        206.49768707482994
+      ],
+      "details": [
+        {
+          "baseline": 1.9896680073940888e-05,
+          "p95": 0.08487682502050306,
+          "threshold": 0.000868465963478232
+        },
+        {
+          "baseline": 3.995517005356485e-05,
+          "p95": 0.2041421724537525,
+          "threshold": 0.0020809773428905544
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "native_total_frozen": 1627,
+  "native_in_scope": 1606,
+  "excluded_native": 21,
+  "source_states": {
+    "BASS_AND_DRUM_SUPPORTED": 196,
+    "DRUM_SUPPORTED": 895,
+    "UNKNOWN": 506,
+    "BASS_SUPPORTED": 9
+  },
+  "Bass_inclusive": 205,
+  "Drum_inclusive": 1091,
+  "marker_reference_available": 1606,
+  "qualified_Drum_estimates": 9,
+  "attempted_Drum_refinement": 10,
+  "Drum_refinement_abstentions": 1,
+  "other_events_refinement_status": "NOT_ESTABLISHED_NOT_EXECUTED; not counted as algorithm abstentions",
+  "qualified_Bass_estimates": 0,
+  "independent_Bass_Drum_pairs": 0,
+  "distinct_single_support_cells": 7,
+  "PLP_peaks_in_scope": 905,
+  "PLP_segment_covered_s": 329.93034013605444,
+  "PLP_leading_unbracketed_s": 0.06965986394557823,
+  "PLP_duration_weighted_Q1_BPM": 161.4990234374967,
+  "PLP_duration_weighted_median_BPM": 161.49902343750287,
+  "PLP_duration_weighted_Q3_BPM": 172.2656249999956,
+  "PLP_min_BPM": 151.99908088233408,
+  "PLP_max_BPM": 172.26562500001668,
+  "confidence_distribution": {
+    "marker_only": 1606,
+    "additional_qualified_acoustic_estimate": 9,
+    "numerically_calibrated_physical_attack_uncertainty": 0
+  },
+  "conditional_refined_signs": {
+    "AHEAD_OF_FIXED_PLP_COORDINATE": 7,
+    "BEHIND_FIXED_PLP_COORDINATE": 2
+  },
+  "performer_ahead_on_behind": "INDETERMINATE; no calibrated attack/reference uncertainty or intended-beat assignment",
+  "JGA_V1_HISTORICAL_ANALYSIS": "PARTIALLY_USABLE",
+  "single_blocker": "Transferable qualification of source-associated full-mix attack timing, most decisively Double Bass; marker coordinates alone do not establish performer microtiming.",
+  "scope": "Useful reproducible exploratory temporal/source geometry and limited exposed-Drum acoustic timing; not a completed Bass-Drum attack/microtiming pipeline or independent corpus validation."
+}

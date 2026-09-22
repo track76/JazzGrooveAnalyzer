@@ -1,0 +1,476 @@
+{
+  "target": "Ray Brown Trio \u2014 Exactly Like You",
+  "provenance": "PI corrected listening annotation supplied 2026-09-22",
+  "supersedes": "Only erroneous Confessin form attribution in this study; Confessin annotation remains valid for its own recording",
+  "markers": [
+    {
+      "time_s": 0,
+      "label": "Opening theme including solo-launch transition",
+      "section_id": "M1",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 48,
+      "label": "Piano solo / walking Bass",
+      "section_id": "M2",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 141,
+      "label": "Piano\u2013Bass four-bar exchanges",
+      "section_id": "M3",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 186,
+      "label": "Piano\u2013Drum four-bar exchanges",
+      "section_id": "M4",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 232,
+      "label": "Final theme plus unspecified turnaround / crescendo",
+      "section_id": "M56",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 330,
+      "label": "Stop / Bass phrase / final hit / decay",
+      "section_id": "M7",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 0,
+      "label": "Opening A1 / Bass in two",
+      "section_id": "A1",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 12,
+      "label": "Opening A2 / Bass in two",
+      "section_id": "A2",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 24,
+      "label": "Opening B / walking Bass",
+      "section_id": "B",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 36,
+      "label": "Opening final A / Bass in two",
+      "section_id": "A3",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 141,
+      "label": "Piano\u2013Bass A1 Piano",
+      "section_id": "PB_P1",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 146,
+      "label": "Piano\u2013Bass A1 Bass; Ride removed / Hi-Hat retained",
+      "section_id": "PB_B1",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 152,
+      "label": "Piano\u2013Bass A2 Piano",
+      "section_id": "PB_P2",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 158,
+      "label": "Piano\u2013Bass A2 Bass; Ride removed / Hi-Hat retained",
+      "section_id": "PB_B2",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 164,
+      "label": "Piano\u2013Bass B Piano",
+      "section_id": "PB_P3",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 169,
+      "label": "Piano\u2013Bass B Bass",
+      "section_id": "PB_B3",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 175,
+      "label": "Piano\u2013Bass final A Piano",
+      "section_id": "PB_P4",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 181,
+      "label": "Piano\u2013Bass final A Bass",
+      "section_id": "PB_B4",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 186,
+      "label": "Piano\u2013Drum A1 Piano",
+      "section_id": "PD_P1",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 193,
+      "label": "Piano\u2013Drum A1 Drum",
+      "section_id": "PD_D1",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 198,
+      "label": "Piano\u2013Drum A2 Piano",
+      "section_id": "PD_P2",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 204,
+      "label": "Piano\u2013Drum A2 Drum",
+      "section_id": "PD_D2",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 210,
+      "label": "Piano\u2013Drum B Piano",
+      "section_id": "PD_P3",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 216,
+      "label": "Piano\u2013Drum B Drum",
+      "section_id": "PD_D3",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 222,
+      "label": "Piano\u2013Drum final A Piano",
+      "section_id": "PD_P4",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 227,
+      "label": "Piano\u2013Drum final A Drum",
+      "section_id": "PD_D4",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 330,
+      "label": "Final Bass phrase after collective stop",
+      "section_id": "END_BASS",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 333,
+      "label": "Final hit and decay",
+      "section_id": "DECAY",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "section_start",
+      "precision": "approximate whole-second listening annotation",
+      "notes": "Not inferred from JGA curves; no confirmed bar/downbeat alignment"
+    },
+    {
+      "time_s": 46,
+      "label": "Collective stop; Bass slide; Piano solo launch",
+      "section_id": "M1",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "transition",
+      "precision": "approximate",
+      "notes": "Not a new principal section"
+    },
+    {
+      "time_s": null,
+      "label": "Final-theme to two turnarounds / crescendo",
+      "section_id": "M56",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "unlocalized_transition",
+      "precision": "unspecified",
+      "notes": "No numerical boundary; do not infer one"
+    },
+    {
+      "time_s": 342,
+      "label": "Approximate perceived silence begins",
+      "section_id": "M7",
+      "provenance": "PI_LISTENING",
+      "boundary_type": "perceptual_annotation",
+      "precision": "approximate",
+      "notes": "Does not replace frozen acoustic end"
+    },
+    {
+      "time_s": 342.6568707482993,
+      "label": "Frozen acoustic end",
+      "section_id": "M7",
+      "provenance": "FROZEN_ACOUSTIC_AUTHORITY",
+      "boundary_type": "analysis_end",
+      "precision": "preserved authority",
+      "notes": "Terminal digital zeros excluded"
+    }
+  ],
+  "macro_sections": [
+    [
+      "M1",
+      "Opening theme including solo-launch transition",
+      0,
+      48
+    ],
+    [
+      "M2",
+      "Piano solo / walking Bass",
+      48,
+      141
+    ],
+    [
+      "M3",
+      "Piano\u2013Bass four-bar exchanges",
+      141,
+      186
+    ],
+    [
+      "M4",
+      "Piano\u2013Drum four-bar exchanges",
+      186,
+      232
+    ],
+    [
+      "M56",
+      "Final theme plus unspecified turnaround / crescendo",
+      232,
+      330
+    ],
+    [
+      "M7",
+      "Stop / Bass phrase / final hit / decay",
+      330,
+      342.6568707482993
+    ]
+  ],
+  "micro_sections": [
+    [
+      "A1",
+      "Opening A1 / Bass in two",
+      0,
+      12
+    ],
+    [
+      "A2",
+      "Opening A2 / Bass in two",
+      12,
+      24
+    ],
+    [
+      "B",
+      "Opening B / walking Bass",
+      24,
+      36
+    ],
+    [
+      "A3",
+      "Opening final A / Bass in two",
+      36,
+      48
+    ],
+    [
+      "PB_P1",
+      "Piano\u2013Bass A1 Piano",
+      141,
+      146
+    ],
+    [
+      "PB_B1",
+      "Piano\u2013Bass A1 Bass; Ride removed / Hi-Hat retained",
+      146,
+      152
+    ],
+    [
+      "PB_P2",
+      "Piano\u2013Bass A2 Piano",
+      152,
+      158
+    ],
+    [
+      "PB_B2",
+      "Piano\u2013Bass A2 Bass; Ride removed / Hi-Hat retained",
+      158,
+      164
+    ],
+    [
+      "PB_P3",
+      "Piano\u2013Bass B Piano",
+      164,
+      169
+    ],
+    [
+      "PB_B3",
+      "Piano\u2013Bass B Bass",
+      169,
+      175
+    ],
+    [
+      "PB_P4",
+      "Piano\u2013Bass final A Piano",
+      175,
+      181
+    ],
+    [
+      "PB_B4",
+      "Piano\u2013Bass final A Bass",
+      181,
+      186
+    ],
+    [
+      "PD_P1",
+      "Piano\u2013Drum A1 Piano",
+      186,
+      193
+    ],
+    [
+      "PD_D1",
+      "Piano\u2013Drum A1 Drum",
+      193,
+      198
+    ],
+    [
+      "PD_P2",
+      "Piano\u2013Drum A2 Piano",
+      198,
+      204
+    ],
+    [
+      "PD_D2",
+      "Piano\u2013Drum A2 Drum",
+      204,
+      210
+    ],
+    [
+      "PD_P3",
+      "Piano\u2013Drum B Piano",
+      210,
+      216
+    ],
+    [
+      "PD_D3",
+      "Piano\u2013Drum B Drum",
+      216,
+      222
+    ],
+    [
+      "PD_P4",
+      "Piano\u2013Drum final A Piano",
+      222,
+      227
+    ],
+    [
+      "PD_D4",
+      "Piano\u2013Drum final A Drum",
+      227,
+      232
+    ],
+    [
+      "END_BASS",
+      "Final Bass phrase after collective stop",
+      330,
+      333
+    ],
+    [
+      "DECAY",
+      "Final hit and decay",
+      333,
+      342.6568707482993
+    ]
+  ],
+  "context": {
+    "opening_A": "Piano theme; Bass in two; Hi-Hat in two; Ride in four. Final A returns to opening behavior.",
+    "opening_B": "Piano theme; Bass walking in four; Hi-Hat in two; Ride in four.",
+    "piano_solo": "Piano solo; walking Bass; Hi-Hat in two; Ride in four. Ride more open/sonorous/resonant: PI observation. Broader cymbal playing area: PI hypothesis only.",
+    "exchange_semantics": "Four measures per PI; durations approximate, not grid-confirmed bar boundaries. Ride removal explicitly annotated at146 and158 only.",
+    "final_theme": "Same basic characteristics as opening; AABA noted without internal timestamps.",
+    "turnaround": "Two repetitions; walking Bass; progressive crescendo; boundary unspecified.",
+    "ending": "330 collective stop; Bass phrase330\u2013333; final Drum hit/ensemble closure333; decay until approximately342; silence reported to348."
+  }
+}

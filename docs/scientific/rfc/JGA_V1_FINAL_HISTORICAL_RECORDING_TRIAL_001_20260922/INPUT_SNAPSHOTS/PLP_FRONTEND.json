@@ -1,0 +1,19 @@
+{
+  "analysis_frames": 7669248,
+  "analysis_sr": 22050,
+  "duration_s": 347.8117006802721,
+  "hop_length": 512,
+  "feature_frames": 14980,
+  "feature_time": "frame*512/22050",
+  "default_onset_parameters": {
+    "lag": 1,
+    "max_size": 1,
+    "center": true,
+    "aggregate": "mean",
+    "detrend": false,
+    "feature": "default melspectrogram",
+    "n_fft": 2048
+  },
+  "normalization": false,
+  "source_sample_time_transform": "t unchanged; resampled representation only"
+}

@@ -1,0 +1,281 @@
+[
+  {
+    "event": {
+      "event_id": "F_MIX_01085",
+      "anchor_s": 218.1863038548753,
+      "clip_id": "CLIP_021",
+      "source": "DRUM",
+      "split": "VALIDATION",
+      "review_lo_s": 218.166,
+      "review_hi_s": 218.174,
+      "reference_origin": "docs/scientific/rfc/JGA_DRUM_TIMING_GRADE_PROSPECTIVE_001_20260920/VALIDATION_EVENT_REVIEW.json",
+      "reference_event_id": "DRUM_00630",
+      "review_reason": "Drums-only secure interior; isolated sharp broadband attack.",
+      "PI_source_evidence": "Initial Piano stop/chord with audible tail; Drum fill; later a light Piano chord is audible. No Bass."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 218.17215419501133,
+      "crossings": [
+        218.17215419501133,
+        218.17215419501133
+      ],
+      "details": [
+        {
+          "baseline": 0.001268325888545977,
+          "p95": 0.04533895026150086,
+          "threshold": 0.005073303554183908
+        },
+        {
+          "baseline": 0.0021852914837531563,
+          "p95": 0.08728704643628821,
+          "threshold": 0.008741165935012625
+        }
+      ]
+    }
+  },
+  {
+    "event": {
+      "event_id": "F_MIX_01088",
+      "anchor_s": 218.70875283446713,
+      "clip_id": "CLIP_017",
+      "source": "DRUM",
+      "split": "VALIDATION",
+      "review_lo_s": 218.684,
+      "review_hi_s": 218.692,
+      "reference_origin": "docs/scientific/rfc/JGA_MARKER_ATTACK_CALIBRATION_001_EXACTLY_LIKE_YOU_20260920/CALIBRATION_EVENTS.json",
+      "reference_event_id": "DRUM_00636",
+      "review_reason": "Drums-only interior; sharp broadband onset within ongoing drum texture.",
+      "PI_source_evidence": "Drum fill; hi-hat continues on 2 and 4; light Piano chords are audible. No Bass."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 218.68798185941043,
+      "crossings": [
+        218.68798185941043,
+        218.68798185941043
+      ],
+      "details": [
+        {
+          "baseline": 0.00042870400621703217,
+          "p95": 0.007862996967978927,
+          "threshold": 0.0017148160248681287
+        },
+        {
+          "baseline": 0.0002618684764859528,
+          "p95": 0.022551471707564524,
+          "threshold": 0.0010474739059438112
+        }
+      ]
+    }
+  },
+  {
+    "event": {
+      "event_id": "F_MIX_01091",
+      "anchor_s": 218.94095238095238,
+      "clip_id": "CLIP_026",
+      "source": "DRUM",
+      "split": "VALIDATION",
+      "review_lo_s": 218.923,
+      "review_hi_s": 218.931,
+      "reference_origin": "docs/scientific/rfc/JGA_DRUM_TIMING_GRADE_PROSPECTIVE_001_20260920/VALIDATION_EVENT_REVIEW.json",
+      "reference_event_id": "DRUM_00639",
+      "review_reason": "Drums-only secure interior; sharp attack amid drum decay.",
+      "PI_source_evidence": "Drum fill only with one Piano chord behind it. No Bass."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 218.92743764172334,
+      "crossings": [
+        218.92743764172334,
+        218.92643990929705
+      ],
+      "details": [
+        {
+          "baseline": 0.004207687518540988,
+          "p95": 0.19224154632116236,
+          "threshold": 0.01683075007416395
+        },
+        {
+          "baseline": 0.0041533375222698515,
+          "p95": 0.2776473091311607,
+          "threshold": 0.016613350089079406
+        }
+      ]
+    }
+  },
+  {
+    "event": {
+      "event_id": "F_MIX_01092",
+      "anchor_s": 219.19637188208617,
+      "clip_id": "CLIP_003",
+      "source": "DRUM",
+      "split": "VALIDATION",
+      "review_lo_s": 219.173,
+      "review_hi_s": 219.181,
+      "reference_origin": "docs/scientific/rfc/JGA_MARKER_ATTACK_CALIBRATION_001_EXACTLY_LIKE_YOU_20260920/CALIBRATION_EVENTS.json",
+      "reference_event_id": "DRUM_00642",
+      "review_reason": "Drums-only interior; sharp onset followed by low periodic energy.",
+      "PI_source_evidence": "Drum fill only. Hi-hat continues marking 2 and 4."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 219.17786848072564,
+      "crossings": [
+        219.17786848072564,
+        219.1768707482993
+      ],
+      "details": [
+        {
+          "baseline": 0.0007134738681134382,
+          "p95": 0.2807410415643895,
+          "threshold": 0.0035137495450761986
+        },
+        {
+          "baseline": 0.0008031894664553729,
+          "p95": 0.39426171678669225,
+          "threshold": 0.0047377747396577415
+        }
+      ]
+    }
+  },
+  {
+    "event": {
+      "event_id": "F_MIX_01094",
+      "anchor_s": 219.61433106575964,
+      "clip_id": "CLIP_001",
+      "source": "DRUM",
+      "split": "VALIDATION",
+      "review_lo_s": 219.587,
+      "review_hi_s": 219.595,
+      "reference_origin": "docs/scientific/rfc/JGA_DRUM_TIMING_GRADE_PROSPECTIVE_001_20260920/VALIDATION_EVENT_REVIEW.json",
+      "reference_event_id": "DRUM_00647",
+      "review_reason": "Drums-only secure interior; distinct sharp attack.",
+      "PI_source_evidence": "Drum fill only. Hi-hat continues marking 2 and 4."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 219.59492063492064,
+      "crossings": [
+        219.59492063492064,
+        219.59192743764171
+      ],
+      "details": [
+        {
+          "baseline": 0.0008670452698477675,
+          "p95": 0.017823574761836377,
+          "threshold": 0.00346818107939107
+        },
+        {
+          "baseline": 0.0005860586775423306,
+          "p95": 0.05796986961930773,
+          "threshold": 0.0023442347101693224
+        }
+      ]
+    }
+  },
+  {
+    "event": {
+      "event_id": "F_MIX_01132",
+      "anchor_s": 227.99673469387756,
+      "clip_id": "CLIP_035",
+      "source": "DRUM",
+      "split": "VALIDATION",
+      "review_lo_s": 227.978,
+      "review_hi_s": 227.986,
+      "reference_origin": "docs/scientific/rfc/JGA_MARKER_ATTACK_CALIBRATION_001_EXACTLY_LIKE_YOU_20260920/CALIBRATION_EVENTS.json",
+      "reference_event_id": "DRUM_00688",
+      "review_reason": "Drums-only interior; sharp new attack after quiet lead-in.",
+      "PI_source_evidence": "Piano and Bass strike together on the initial downbeat and stop. A free Drum fill follows. Bass is therefore present in the clip, but PI does not identify a Bass attack near the central candidate."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 227.98185941043084,
+      "crossings": [
+        227.98185941043084,
+        227.98185941043084
+      ],
+      "details": [
+        {
+          "baseline": 0.00013226839920019932,
+          "p95": 0.14108887087860975,
+          "threshold": 0.0015418344239942947
+        },
+        {
+          "baseline": 9.727973843275494e-05,
+          "p95": 0.1896401443679816,
+          "threshold": 0.0019927083847282433
+        }
+      ]
+    }
+  },
+  {
+    "event": {
+      "event_id": "F_MIX_01134",
+      "anchor_s": 228.76299319727892,
+      "clip_id": "CLIP_031",
+      "source": "DRUM",
+      "split": "VALIDATION",
+      "review_lo_s": 228.751,
+      "review_hi_s": 228.759,
+      "reference_origin": "docs/scientific/rfc/JGA_MARKER_ATTACK_CALIBRATION_001_EXACTLY_LIKE_YOU_20260920/CALIBRATION_EVENTS.json",
+      "reference_event_id": "DRUM_00694",
+      "review_reason": "Drums-only interior; sharp broadband attack.",
+      "PI_source_evidence": "First Piano chord in stop, then free Drum fill. No Bass."
+    },
+    "result": {
+      "status": "ESTIMATED",
+      "reason": "first sustained sharp energy emergence in both channels",
+      "estimate_s": 228.75510204081633,
+      "crossings": [
+        228.75510204081633,
+        228.75510204081633
+      ],
+      "details": [
+        {
+          "baseline": 7.39938537137268e-05,
+          "p95": 0.0376856851392818,
+          "threshold": 0.0004501107665694075
+        },
+        {
+          "baseline": 0.00013251913855550994,
+          "p95": 0.09774065539415715,
+          "threshold": 0.0011086005011115264
+        }
+      ]
+    }
+  },
+  {
+    "event": {
+      "event_id": "F_MIX_01136",
+      "anchor_s": 229.13451247165534,
+      "clip_id": "CLIP_007",
+      "source": "DRUM",
+      "split": "VALIDATION",
+      "review_lo_s": 229.116,
+      "review_hi_s": 229.124,
+      "reference_origin": "docs/scientific/rfc/JGA_MARKER_ATTACK_CALIBRATION_001_EXACTLY_LIKE_YOU_20260920/CALIBRATION_EVENTS.json",
+      "reference_event_id": "DRUM_FMIX_00965",
+      "review_reason": "Drums-only interior; sharp mixture attack; alternate F_MIX-substitution marker path.",
+      "PI_source_evidence": "Piano stop on first beat, then Drum fill. Hi-hat continues marking 2 and 4."
+    },
+    "result": {
+      "status": "ABSTAIN",
+      "reason": "insufficient sharp rise relative to baseline",
+      "estimate_s": null,
+      "details": [
+        {
+          "baseline": 0.00023079201205353285,
+          "p95": 0.0014672411627968418,
+          "threshold": 0.0009231680482141314
+        }
+      ]
+    }
+  }
+]

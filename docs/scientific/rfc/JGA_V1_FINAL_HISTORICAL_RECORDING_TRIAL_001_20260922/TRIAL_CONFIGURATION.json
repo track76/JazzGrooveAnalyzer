@@ -1,0 +1,40 @@
+{
+  "study": "JGA-V1-FINAL-HISTORICAL-RECORDING-TRIAL-001",
+  "utc": "2026-09-22T20:44:43.433183+00:00",
+  "source_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+  "analysis_s": [
+    0,
+    330
+  ],
+  "excluded_s": [
+    330,
+    347.8117006802721
+  ],
+  "bounds": "half-open; existing PI M7 stop/phrase/ending boundary, approximate whole seconds",
+  "PLP": "Frozen B3 maxima/intervals, no inference, interpolation, smoothing, snapping or attack prior",
+  "native_and_identity": "Exact frozen F_MIX rows and qualified ADTOF/MuScriptor/Bass-link states. No detector/model execution or selection by proximity.",
+  "reference_assignment": "Nearest ORIGINAL frozen PLP maximum to native marker; ties earlier; no extrapolation outside first/last peak. Fixed native assignment reused for that event's qualified acoustic estimate to avoid hidden reassignment.",
+  "local_BPM": "60/delta of consecutive frozen PLP maxima. Summary duration-weighted over intersecting source-time segments; not stored BPM or a new tracker.",
+  "marker_statistics": "All in-scope events; separate disjoint source states and overlapping Bass-inclusive/Drum-inclusive groups. Native offset is marker geometry, not performer attack. Do not replace native markers with refined values.",
+  "attack_statistics": "Only preserved non-null exposed-Drum estimates; preserve 2 derivation / 8 historical-validation records and one abstention. Do not apply estimator to new events. No accepted full-mix Bass refinement.",
+  "uncertainty": "Provisional categorical source support, numerical marker coordinate, UNKNOWN numerical attack uncertainty. Refined estimates carry original fixed acoustic review interval, not physical confidence interval. No calibrated PLP phase uncertainty. Lattice spacing is not accuracy.",
+  "sign": "Numerical sign of coordinate is descriptive. Refined interval relative to fixed peak: AHEAD if upper<peak; BEHIND if lower>peak; otherwise COMPATIBLE_WITH_FIXED_COORDINATE. Performer intended-beat category remains INDETERMINATE because intended-beat assignment/reference uncertainty unestablished.",
+  "pairwise": "No independent Bass-Drum physical pair admitted. Count shared-reference distinct Bass-only/Drum-only markers as co-coverage, without selecting an arbitrary event pair or inferring simultaneity from dual support.",
+  "sections": [
+    "M1:0-48",
+    "M2:48-141",
+    "M3:141-186",
+    "M4:186-232",
+    "M56:232-330"
+  ],
+  "zoom_s": [
+    216,
+    220
+  ],
+  "zoom_reason": "Existing PI exposed-Drum form interval and preserved qualified references; fixed before trial statistics, not result-picked.",
+  "summary_definition": "N, population coverage, median, mean, Q1/Q3, IQR, median absolute deviation from median, sample SD ddof=1, median absolute offset, min/max. Empty => null; source-marker and refined estimates never pooled.",
+  "assessment": "USABLE_WITH_QUALIFICATION requires defensible source-associated attack timing sufficient for intended Bass/Drum microtiming, not sample-perfect truth. PARTIALLY_USABLE if reproducible source-supported geometry and limited acoustic timing exist but transferable source-associated attack qualification remains unavailable. NOT_YET_USABLE if reproducible temporal/source geometry cannot be assembled.",
+  "independence": "Development recording reused; not independent validation for future historical corpus. No new human judgments.",
+  "historical_results": "Independent PLP FAIL and all prior results unchanged. This is a new additive authorized readout, not historical report regeneration.",
+  "code_sha256": "da32116cea0309597d52966a350764813fae7553f66a1164c2987e59f5aead11"
+}

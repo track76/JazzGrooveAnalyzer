@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-09-21T18:17:56.815619+00:00",
+  "status": "PREREGISTERED_BEFORE_HELD_OUT_ESTIMATOR_EVALUATION",
+  "Drum": {
+    "input": "original decoded44.1kHz stereo full mix; PI Drum-exposed candidates only",
+    "anchor": "unchanged frozen F_MIX timestamp; no external timestamp input",
+    "local_window_s": [
+      -0.08,
+      0.04
+    ],
+    "search_s": [
+      -0.04,
+      0.02
+    ],
+    "representation": "per-channel mean squared original PCM in absolute44-sample nonoverlapping bins; no filters or modified audio",
+    "baseline": "median bin energy in anchor[-60,-40)ms",
+    "dynamic_reference": "95th percentile energy in search window",
+    "threshold": "max(4*baseline, baseline+0.01*(p95-baseline)); sustained3bins",
+    "rule": "first below-to-above threshold crossing sustained3bins in each channel; p95>=16baseline in both channels; stereo crossings within3ms; return later crossing block start",
+    "tie_break": "earliest valid chronological crossing; later of two channel crossings",
+    "abstention": "nonpositive baseline, insufficient dynamic rise, missing sustained crossing or stereo disagreement>3ms",
+    "operational_semantics": "beginning of sustained sharp broadband energy emergence in source-exposed context; not largest sample/flux or exact physical attack",
+    "uncertainty": "bin spacing is numerical resolution only. Do not assign +/-1ms. Compare with preserved8ms review intervals; report empirical interval misses/midpoint residuals and reference widths; no universal uncertainty bound.",
+    "failure": "cannot generalize to gradual/overlapping attacks; source exposure is required; one outside-reference output blocks ESTABLISHED, partial coverage limits PROMISING",
+    "derivation_ids": [
+      "F_MIX_01024",
+      "F_MIX_01027"
+    ],
+    "validation": "remaining8 PI Drum-exposed controls in two separate later passages; no retuning"
+  },
+  "Bass": {
+    "status": "NOT_ESTABLISHED_NO_ESTIMATOR",
+    "rule": null,
+    "reason": "No defensible disjoint source-exposed bounded reference population established.15 historical bounded visual estimates are source-context-qualified, not validated Drum-absent references. Confessin10 exact-onset judgments remain uncertain without bounded reference intervals.",
+    "returned_timestamp": null,
+    "abstention": "all unavailable source-exposed reference cases",
+    "uncertainty": null
+  },
+  "independence_limit": "Reference intervals were previously visible in repository; independent by unused event/PCM and passage, not blinded reference review. PI source judgments are not numerical onset GT.",
+  "estimator_code_sha256": "82e3a48cc70095d0d90790f1e659ca8cac6cdd7b7ae2419f6ef4ff5600a95fc8",
+  "simultaneous_application_gate": "Both sources at least PROMISING with held-out evidence; Bass insufficient so forbidden in this study"
+}

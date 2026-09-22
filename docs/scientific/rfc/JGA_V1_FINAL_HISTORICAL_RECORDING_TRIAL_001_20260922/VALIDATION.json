@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-22T20:47:59.572568+00:00",
+  "source_hash_pass": true,
+  "parent_hashes_unchanged": true,
+  "native_rows_preserved": 1627,
+  "in_scope_rows": 1606,
+  "excluded_rows": 21,
+  "source_states_unchanged": true,
+  "timestamp_changes": 0,
+  "PLP_rerun": false,
+  "model_inference": false,
+  "new_attack_estimates": 0,
+  "preserved_refinement_outputs_reused": 10,
+  "synthetic_uncertainty_bounds": 0,
+  "physical_pair_estimates_fabricated": 0,
+  "status": "PASS"
+}
