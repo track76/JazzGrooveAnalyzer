@@ -6,9 +6,12 @@ Original full mix remains primary audio and native timestamp authority. Frozen f
 
 Historical independent PLP FAIL (10/10/3/1; 24/24) and all earlier qualifications remain unchanged. This is subsequent PI operational adoption, not new experimental proof. 4/4 primary; 3/4 supported/secondary; odd meters and free endings outside v1 scope. Universal physical timing, Bass identity and component-specific Ride/Hi-Hat remain future questions. Earlier temporal-layer proposals remain unimplemented and are not reopened as v1 prerequisites. Runtime code is unchanged; this freezes the report architecture and evidence rules, not a newly implemented automated fusion system.
 
-Next action: Prepare the first historical-jazz analysis/report batch using the frozen JGA v1 operational architecture. No batch or new methodology is executed here. Earlier instructions below are superseded for current operation, retained as historical evidence only.
+Next action: Select/prepare Historical Report 002 using the frozen JGA Historical Report Template v1. Report 002 and new methodology are not executed here. Earlier instructions below are superseded for current operation, retained as historical evidence only.
 
 Recovery: start at root [JGA_BOOTSTRAP.md](../JGA_BOOTSTRAP.md). The artifacts bootstrap remains a non-authoritative redirect. Read the operational decision before historical checkpoints. No generator or experiment is required merely to recover a session.
+
+
+**Historical Report 001 completed — Ray Brown Trio, Exactly Like You.** [Report](historical_reports/JGA_HISTORICAL_REPORT_001/REPORT.md) · [summary](historical_reports/JGA_HISTORICAL_REPORT_001/SUMMARY.json) · [JGA Historical Report Template v1](historical_reports/JGA_HISTORICAL_REPORT_TEMPLATE_V1.md). Existing frozen evidence and figures reused; no methodology change or audio inference. Analysis [0,330) s, 905 PLP cells, 1,606 native events, 891 global selections (98.45%). Bass primary non-shared N=23, median −34.83 ms; Drum N=654, +11.61 ms; 21 distinct pairs, Drum−Bass median +46.44 ms. Provenance and small-N limitations remain explicit. Central raw/discrete interval-BPM median 161.50 (904 intervals), not a continuous performer-tempo estimate. The v1 architecture freeze remains unchanged; current status documents evolve without rewriting its historical versions.
 
 ---
 

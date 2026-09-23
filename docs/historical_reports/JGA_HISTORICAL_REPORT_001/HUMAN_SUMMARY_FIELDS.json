@@ -1,0 +1,20 @@
+{
+  "REPORT ID": "JGA HISTORICAL REPORT 001",
+  "ARTIST / ENSEMBLE": "Ray Brown Trio",
+  "TRACK": "Exactly Like You",
+  "ANALYZED DURATION": "330 s; [0,330)",
+  "PRIMARY METER DOMAIN": "4/4 \u2014 PI operational domain",
+  "CENTRAL INTERNAL BPM": "161.50; median raw/discrete interval BPM, N=904",
+  "QUARTER CELLS": 905,
+  "EVENT COVERAGE": "891/905 \u2014 98.45%",
+  "BASS OBSERVABILITY": "205 inclusive events; 203/905 cells; 23 non-shared observations; stem 672/905 cells",
+  "DRUM OBSERVABILITY": "1,091 inclusive events; 834/905 cells; 654 non-shared observations; stem 868/905 cells",
+  "DUAL / AMBIGUITY RATE": "196/1,606 native events (12.20%); 180/905 shared cells (19.89%); 0 ambiguous temporal matches",
+  "BASS MEDIAN \u0394t": "\u221234.83 ms; PRIMARY_NONSHARED N=23",
+  "DRUM MEDIAN \u0394t": "+11.61 ms; PRIMARY_NONSHARED N=654",
+  "BASS\u2194DRUM MEDIAN": "Drum \u2212 Bass +46.44 ms; 21 distinct selected pairs",
+  "SECTION WITH NARROWEST DISPERSION": "Final theme / turnaround \u2014 global selected IQR 34.83 ms",
+  "SECTION WITH WIDEST DISPERSION": "Piano\u2013Drum exchanges \u2014 global selected IQR 69.66 ms",
+  "PRIMARY MUSICAL OBSERVATION": "Piano\u2013Drum exchanges show the widest selected-landmark dispersion; final theme/turnaround the narrowest. This is reference-dependent observable geometry, not performer intention.",
+  "PRIMARY LIMITATION": "Sparse non-shared Bass support and shared Dual ambiguity constrain Bass\u2013Drum interpretation; stem labels are not independent identity truth."
+}

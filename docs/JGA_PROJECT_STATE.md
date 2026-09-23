@@ -1,4 +1,4 @@
-# Current authoritative checkpoint — JGA v1 hybrid operational adoption · 2026-09-23
+# Current authoritative checkpoint — Historical Report 001 completed · 2026-09-23
 
 **JGA v1 methodological development: CLOSED for operational historical analysis. Operational format: USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** This PI engineering decision supersedes earlier next-research instructions below, without rewriting any experimental result. [Final operational decision](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) · [frozen reporting workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) · [evidence paths/hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json) · [closure package](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/README.md).
 
@@ -14,7 +14,10 @@
 
 Ableton: external benchmark, not Ground Truth and not a required runtime dependency. Essentia / BeatNet / madmom / Beat This!: DEFERRED. No historical groove recalculation, detector/model execution, runtime redesign or new experiment is performed by this closure. Research limits remain limits, not blockers invented for operational marker reporting.
 
-**Next action: Prepare the first historical-jazz analysis/report batch using the frozen JGA v1 operational architecture.** Do not execute it in this closure. Any renewed methodological experiment requires separate PI authorization. Earlier checkpoints below are historical records, not current continuation instructions.
+**Next action: Select/prepare Historical Report 002 using the frozen JGA Historical Report Template v1.** Report 002 is not executed here. Any renewed methodological experiment requires separate PI authorization. Earlier checkpoints below are historical records, not current continuation instructions.
+
+
+**Historical Report 001 completed — Ray Brown Trio, Exactly Like You.** [Report](historical_reports/JGA_HISTORICAL_REPORT_001/REPORT.md) · [summary](historical_reports/JGA_HISTORICAL_REPORT_001/SUMMARY.json) · [JGA Historical Report Template v1](historical_reports/JGA_HISTORICAL_REPORT_TEMPLATE_V1.md). Existing frozen evidence and figures reused; no methodology change or audio inference. Analysis [0,330) s, 905 PLP cells, 1,606 native events, 891 global selections (98.45%). Bass primary non-shared N=23, median −34.83 ms; Drum N=654, +11.61 ms; 21 distinct pairs, Drum−Bass median +46.44 ms. Provenance and small-N limitations remain explicit. Central raw/discrete interval-BPM median 161.50 (904 intervals), not a continuous performer-tempo estimate. The v1 architecture freeze remains unchanged; current status documents evolve without rewriting its historical versions.
 
 ---
 

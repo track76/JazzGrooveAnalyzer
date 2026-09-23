@@ -1,0 +1,138 @@
+{
+  "utc": "2026-09-23T12:17:11.678095+00:00",
+  "source": {
+    "path": "/Volumes/SSD Track/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a",
+    "sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+    "source_identity": "ec592665-9224-50c8-b862-07e9e7e920b5",
+    "source_authority_id": "PI-JGA-FULLMIX-VS-STEMS-20260923",
+    "source_instance_key": "EXACTLY-LIKE-YOU-CANONICAL-M4A",
+    "identity_scope": "New study-scoped AD041 binding to SAME registered asset, not replacement historical UUID",
+    "sample_rate": 44100,
+    "frames": 15338496,
+    "channels": 2
+  },
+  "separator_authority_sha256": "7bc3f90203f2dc57a28fa94bf78a6a84f0c510d523ed9d271431d74138991f9e",
+  "execution_script_sha256": "b30cce05d82e85063609a2840ab27d5ca8960e4b55dc80a463a8545f64d524aa",
+  "stems": [
+    {
+      "key": "drums",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/drums.wav",
+      "sha256": "88faa9bd504e4253b9e17da5e8ddd3b5fdc310abb542c2ac493a656752546290",
+      "source_identity": "1cfc00dd-5652-5792-83a6-c1195da87b63",
+      "lineage": {
+        "parent_source_identity": "ec592665-9224-50c8-b862-07e9e7e920b5",
+        "parent_source_authority_id": "PI-JGA-FULLMIX-VS-STEMS-20260923",
+        "parent_source_instance_key": "EXACTLY-LIKE-YOU-CANONICAL-M4A",
+        "parent_asset_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+        "separator_authority_id": "PI-JGA-EXACTLY-LIKE-YOU-HTDEMUCS6S-20260923",
+        "separator_authority_sha256": "7bc3f90203f2dc57a28fa94bf78a6a84f0c510d523ed9d271431d74138991f9e",
+        "output_source_key": "drums",
+        "output_asset_sha256": "88faa9bd504e4253b9e17da5e8ddd3b5fdc310abb542c2ac493a656752546290",
+        "source_identity_rule": "jga-separated-source-identity/v1"
+      },
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2
+    },
+    {
+      "key": "bass",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/bass.wav",
+      "sha256": "8ca185528ce4c50f7a318fb21e9e49ee68b76c7fbede9e7dace5b61120c46952",
+      "source_identity": "d5f2440b-872e-5ed1-a582-134444ebff00",
+      "lineage": {
+        "parent_source_identity": "ec592665-9224-50c8-b862-07e9e7e920b5",
+        "parent_source_authority_id": "PI-JGA-FULLMIX-VS-STEMS-20260923",
+        "parent_source_instance_key": "EXACTLY-LIKE-YOU-CANONICAL-M4A",
+        "parent_asset_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+        "separator_authority_id": "PI-JGA-EXACTLY-LIKE-YOU-HTDEMUCS6S-20260923",
+        "separator_authority_sha256": "7bc3f90203f2dc57a28fa94bf78a6a84f0c510d523ed9d271431d74138991f9e",
+        "output_source_key": "bass",
+        "output_asset_sha256": "8ca185528ce4c50f7a318fb21e9e49ee68b76c7fbede9e7dace5b61120c46952",
+        "source_identity_rule": "jga-separated-source-identity/v1"
+      },
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2
+    },
+    {
+      "key": "other",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/other.wav",
+      "sha256": "178f69b9483c722f1cb1e882324fc77ed85b904e714989805eb2924f701aeca0",
+      "source_identity": "3361b4e7-72dc-517e-bf94-95aea90b23e9",
+      "lineage": {
+        "parent_source_identity": "ec592665-9224-50c8-b862-07e9e7e920b5",
+        "parent_source_authority_id": "PI-JGA-FULLMIX-VS-STEMS-20260923",
+        "parent_source_instance_key": "EXACTLY-LIKE-YOU-CANONICAL-M4A",
+        "parent_asset_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+        "separator_authority_id": "PI-JGA-EXACTLY-LIKE-YOU-HTDEMUCS6S-20260923",
+        "separator_authority_sha256": "7bc3f90203f2dc57a28fa94bf78a6a84f0c510d523ed9d271431d74138991f9e",
+        "output_source_key": "other",
+        "output_asset_sha256": "178f69b9483c722f1cb1e882324fc77ed85b904e714989805eb2924f701aeca0",
+        "source_identity_rule": "jga-separated-source-identity/v1"
+      },
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2
+    },
+    {
+      "key": "vocals",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/vocals.wav",
+      "sha256": "e83a372dd3cbcae8c15dc275482f13f0f68c2561f85c359c6aa80d1af463d52a",
+      "source_identity": "0087ba92-1e4f-5f30-833f-d14d900a1841",
+      "lineage": {
+        "parent_source_identity": "ec592665-9224-50c8-b862-07e9e7e920b5",
+        "parent_source_authority_id": "PI-JGA-FULLMIX-VS-STEMS-20260923",
+        "parent_source_instance_key": "EXACTLY-LIKE-YOU-CANONICAL-M4A",
+        "parent_asset_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+        "separator_authority_id": "PI-JGA-EXACTLY-LIKE-YOU-HTDEMUCS6S-20260923",
+        "separator_authority_sha256": "7bc3f90203f2dc57a28fa94bf78a6a84f0c510d523ed9d271431d74138991f9e",
+        "output_source_key": "vocals",
+        "output_asset_sha256": "e83a372dd3cbcae8c15dc275482f13f0f68c2561f85c359c6aa80d1af463d52a",
+        "source_identity_rule": "jga-separated-source-identity/v1"
+      },
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2
+    },
+    {
+      "key": "guitar",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/guitar.wav",
+      "sha256": "ac43f0141580206a176e237f52880034b5feb488afa001d84644e4fe492eee66",
+      "source_identity": "cefad16e-3cbc-5526-87d2-2a80ce6a796c",
+      "lineage": {
+        "parent_source_identity": "ec592665-9224-50c8-b862-07e9e7e920b5",
+        "parent_source_authority_id": "PI-JGA-FULLMIX-VS-STEMS-20260923",
+        "parent_source_instance_key": "EXACTLY-LIKE-YOU-CANONICAL-M4A",
+        "parent_asset_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+        "separator_authority_id": "PI-JGA-EXACTLY-LIKE-YOU-HTDEMUCS6S-20260923",
+        "separator_authority_sha256": "7bc3f90203f2dc57a28fa94bf78a6a84f0c510d523ed9d271431d74138991f9e",
+        "output_source_key": "guitar",
+        "output_asset_sha256": "ac43f0141580206a176e237f52880034b5feb488afa001d84644e4fe492eee66",
+        "source_identity_rule": "jga-separated-source-identity/v1"
+      },
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2
+    },
+    {
+      "key": "piano",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/piano.wav",
+      "sha256": "6d76cc47473c26a220cc096f032c7af700e70524f9173eef68d712b123120109",
+      "source_identity": "965beb3e-cdec-52cb-b232-037021b593d8",
+      "lineage": {
+        "parent_source_identity": "ec592665-9224-50c8-b862-07e9e7e920b5",
+        "parent_source_authority_id": "PI-JGA-FULLMIX-VS-STEMS-20260923",
+        "parent_source_instance_key": "EXACTLY-LIKE-YOU-CANONICAL-M4A",
+        "parent_asset_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+        "separator_authority_id": "PI-JGA-EXACTLY-LIKE-YOU-HTDEMUCS6S-20260923",
+        "separator_authority_sha256": "7bc3f90203f2dc57a28fa94bf78a6a84f0c510d523ed9d271431d74138991f9e",
+        "output_source_key": "piano",
+        "output_asset_sha256": "6d76cc47473c26a220cc096f032c7af700e70524f9173eef68d712b123120109",
+        "source_identity_rule": "jga-separated-source-identity/v1"
+      },
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2
+    }
+  ]
+}

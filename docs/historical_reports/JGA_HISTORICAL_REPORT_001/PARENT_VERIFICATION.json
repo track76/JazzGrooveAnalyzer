@@ -1,0 +1,26 @@
+{
+  "source": "PASS",
+  "six_stem_assets": "PASS",
+  "parent_manifests": [
+    {
+      "path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/RESULT_FREEZE.json",
+      "sha256": "02b603c6c641b6eb6453bcb39362269710be7f58853a99e18be09ba9915fa6ab",
+      "members_verified": 54
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/RESULT_FREEZE.json",
+      "sha256": "6482feb0820ddd929b292fb4a0393d4f9eebf30e2fe00bcfeb86023de011231e",
+      "members_verified": 46
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/RESULT_FREEZE.json",
+      "sha256": "079633a7869b2c22827e6c7ee28b8477fe9d50077826b4097313e36684ec9d08",
+      "members_verified": 75
+    }
+  ],
+  "v1_decision_sha256": "d7a51678fc4b8424872b55a73a964c8ccd818d146d13bcb3e24f30b450fd01cf",
+  "v1_members_verified_before_current_status_update": true,
+  "historical_files_verified": 1112,
+  "historical_document_version_commit": "08ccd3f7907284f0ae8996b601d7e08e1d48ca1f",
+  "note": "Later authorized current project/session/bootstrap completion entries do not rewrite the frozen decision or its historical document version."
+}

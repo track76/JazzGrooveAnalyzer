@@ -1,0 +1,7 @@
+section,cells,full_mix_Bass_cells,full_mix_Drum_cells,full_mix_distinct_pairs,stem_both_cells,stem_resolved_pairs,bass_events,bass_covered_cells,bass_EMPTY,bass_full_mix_supported_events,bass_supported_FM_MATCHED,bass_supported_FM_ONLY,bass_supported_FM_AMBIGUOUS,bass_stem_matches_any_FM,bass_STEM_ONLY,bass_STEM_AMBIGUOUS,drums_events,drums_covered_cells,drums_EMPTY,drums_full_mix_supported_events,drums_supported_FM_MATCHED,drums_supported_FM_ONLY,drums_supported_FM_AMBIGUOUS,drums_stem_matches_any_FM,drums_STEM_ONLY,drums_STEM_AMBIGUOUS
+WHOLE,905,203,834,21,654,340,827,672,233,205,148,57,0,548,279,0,1227,868,37,1091,923,168,0,1071,156,0
+M1,131,44,120,7,80,49,110,87,44,44,36,8,0,84,26,0,180,117,14,162,132,30,0,156,24,0
+M2,257,82,243,7,219,103,254,221,36,83,61,22,0,159,95,0,343,255,2,313,264,49,0,298,45,0
+M3,125,0,113,0,109,70,159,111,14,0,0,0,0,113,46,0,186,123,2,149,121,28,0,161,25,0
+M4,127,8,113,1,60,29,71,63,64,8,5,3,0,43,28,0,185,114,13,164,144,20,0,160,25,0
+M56,265,69,245,6,186,89,233,190,75,70,46,24,0,149,84,0,333,259,6,303,262,41,0,296,37,0

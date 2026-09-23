@@ -1,0 +1,65 @@
+{
+  "utc": "2026-09-23T12:11:43.145151+00:00",
+  "stage": "FROZEN_AFTER_STEM_ACQUISITION_BEFORE_EVENT_DETECTION_OR_COMPARISON",
+  "source_hash": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+  "separator_authority_sha256": "7bc3f90203f2dc57a28fa94bf78a6a84f0c510d523ed9d271431d74138991f9e",
+  "stem_hashes": {
+    "drums": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/drums.wav",
+      "sha256": "88faa9bd504e4253b9e17da5e8ddd3b5fdc310abb542c2ac493a656752546290",
+      "source_identity": "1cfc00dd-5652-5792-83a6-c1195da87b63"
+    },
+    "bass": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/bass.wav",
+      "sha256": "8ca185528ce4c50f7a318fb21e9e49ee68b76c7fbede9e7dace5b61120c46952",
+      "source_identity": "d5f2440b-872e-5ed1-a582-134444ebff00"
+    },
+    "other": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/other.wav",
+      "sha256": "178f69b9483c722f1cb1e882324fc77ed85b904e714989805eb2924f701aeca0",
+      "source_identity": "3361b4e7-72dc-517e-bf94-95aea90b23e9"
+    },
+    "vocals": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/vocals.wav",
+      "sha256": "e83a372dd3cbcae8c15dc275482f13f0f68c2561f85c359c6aa80d1af463d52a",
+      "source_identity": "0087ba92-1e4f-5f30-833f-d14d900a1841"
+    },
+    "guitar": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/guitar.wav",
+      "sha256": "ac43f0141580206a176e237f52880034b5feb488afa001d84644e4fe492eee66",
+      "source_identity": "cefad16e-3cbc-5526-87d2-2a80ce6a796c"
+    },
+    "piano": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/piano.wav",
+      "sha256": "6d76cc47473c26a220cc096f032c7af700e70524f9173eef68d712b123120109",
+      "source_identity": "965beb3e-cdec-52cb-b232-037021b593d8"
+    }
+  },
+  "domain": [
+    0,
+    330
+  ],
+  "reference": {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/PLP_REFERENCE.csv",
+    "sha256": "b6ed2a669b4e7d9b9fbcdd43618d0c801f5d4bfd60225b54e81415edee8e1666",
+    "N": 905
+  },
+  "onset": "Same BasicOnsetDetector,full-length signal,no cropping before detection; same f64 FFmpeg stereo mean, no additional normalization, then restrict[0,330). No PLP detector input.",
+  "geometry": "Exact parent cells,tie distance/earlier timestamp/ID,no borrowing or reuse; source labels separator hypotheses",
+  "matching": "All full-mix native events versus each stem separately, inclusive tolerance ONE hop=512/44100 seconds (11.609977ms), sample-index arithmetic <=512. This is a resolution-based association, not calibrated physical accuracy. Bipartite connected components: mutual degree1 edges unique MATCH;degree0 unmatched;all other components AMBIGUOUS/MULTIPLE, no nearest forced resolution. No cross-cell constraint for matching. Preserve all edges and all unmatched.",
+  "matching_rationale": "One analysis hop is existing detector timestamp resolution; uncertainty is not equated to this tolerance. Displacements >one hop remain unmatched, not repaired. Conditional matched statistics are tolerance-truncated and cannot alone prove timing preservation.",
+  "stem_pair": "Same-cell selected Bass/Drums separate observations; abs difference>512samples distinguishes; <=512 unresolved, including equal times; no physical independence inference",
+  "Dual_classification": "Per full-mix shared-Dual cell: neither E;onlyBass A;onlyDrum B;both >1 candidate in either stem F(multiple) primary,retain secondary selected-pair distinguishability;otherwise C if selected difference>512samples,D if<=512. No automatic deblending claim.",
+  "metrics": "Full populations, source-state crossmatch classes, coverage, unique/ambiguous/unmatched, conditional matched FM-minus-stem displacement; selected offsets all and resolvedpair signs; section summaries; no threshold fitting",
+  "decisions": "More candidates/coverage is observability gain, not true-source accuracy. COMPLEMENTARY when both unmatched fullmix-supported and stem-only activity exist; cleaner labels cannot establish STEMS_BETTER. FULL_MIX_BETTER/STEMS_BETTER require independent supporting accuracy/preservation evidence; otherwise INSUFFICIENT. Timing SUPPORTED only with complete unambiguous event preservation at native resolution; mixed missing/new/ambiguous => MIXED, physical degradation not inferred without reference. Dual USEFUL/LIMITED means diagnostic distinguishable observations, not physical split truth. Overall default FULL_MIX operational;HYBRID_DIAGNOSTIC_ONLY if stems add localized diagnostic observability while ambiguity/loss remains. No adoption.",
+  "expectation": "REPRODUCED if Bassnegative majority,Drumpositive majority andresolvedpairsBassfirst majority;PARTIALLY_REPRODUCED if only subset;NOT_REPRODUCED if none;INSUFFICIENT if no required observations. Also disclose fullmixmatchedpairqualification.",
+  "figures": "Existing colors/shapes/graycontext; fullmixcopied; aligned stemscomparison,sharedDualaudit,PianoBass141\u2013186,preexistingzoom122\u2013128.5;rawPLPlatticewarning",
+  "stop": "Source/model/config mismatch, unproven temporal alignment, detector/preparation mismatch or changed parents stops dependent evaluation.",
+  "decode_equivalence_sha256": "eaa8d87beb29a205a3253618e813c3d12992695674ed58ba3f8f469776f2791f",
+  "detector_code_sha256": "d4ab4c4a7b3d4c74b5022000414ebf3e4a147046cfee176a2bce0410f76d7ff5",
+  "detector_runtime": {
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "librosa": "0.11.0",
+    "numpy": "2.4.6"
+  }
+}

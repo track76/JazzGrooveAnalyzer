@@ -1,0 +1,254 @@
+[
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/RESULT_FREEZE.json",
+    "report_path": "data/global__RESULT_FREEZE.json",
+    "sha256": "02b603c6c641b6eb6453bcb39362269710be7f58853a99e18be09ba9915fa6ab",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/PLP_REFERENCE.csv",
+    "report_path": "data/global__PLP_REFERENCE.csv",
+    "sha256": "b6ed2a669b4e7d9b9fbcdd43618d0c801f5d4bfd60225b54e81415edee8e1666",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/ALL_EVENT_ROLES.csv",
+    "report_path": "data/global__ALL_EVENT_ROLES.csv",
+    "sha256": "8010f6e1af61ad808570b92ce50e6669770aca91ce3aef5986874bff41c60737",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/QUARTER_CELLS.csv",
+    "report_path": "data/global__QUARTER_CELLS.csv",
+    "sha256": "c528890250a34d859edb438db7103609a81e63eb45e3fdc086325988db7f2f6a",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/QUARTER_NEAREST_ONSETS.csv",
+    "report_path": "data/global__QUARTER_NEAREST_ONSETS.csv",
+    "sha256": "1a9919797a4f0d5a9c91b09e08a4c95719e05aaf7480429099ef3d25600e3483",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/QUARTER_CONTEXT_EVENTS.csv",
+    "report_path": "data/global__QUARTER_CONTEXT_EVENTS.csv",
+    "sha256": "49680bc50bfb920e4d5e3f24db6c12fb689df830450385e555d3e0bde028be9a",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/SELECTED_STATISTICS.csv",
+    "report_path": "data/global__SELECTED_STATISTICS.csv",
+    "sha256": "3717d57217e27035e8b0ddda298ff7d8fd02602c1997f818b58514a0395e9bfe",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/SECTIONS.json",
+    "report_path": "data/global__SECTIONS.json",
+    "sha256": "db2794f0d49415c39b7d3f7d06d9c03a375a83ea9b1f78afa7c078997ab1285a",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/CONFIGURATION.json",
+    "report_path": "data/global__CONFIGURATION.json",
+    "sha256": "7165a2f3bb997501e7df3b41b428337de2382cb5614ab84983bd7c37fed46974",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/INPUT_LINEAGE.json",
+    "report_path": "data/global__INPUT_LINEAGE.json",
+    "sha256": "519a2289f0154e220d4454ac094d77b5d91560ef441ef6c76068c9193bd29b0d",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/RESULT_FREEZE.json",
+    "report_path": "data/source__RESULT_FREEZE.json",
+    "sha256": "6482feb0820ddd929b292fb4a0393d4f9eebf30e2fe00bcfeb86023de011231e",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/SOURCE_CONDITIONED_ASSIGNMENTS.csv",
+    "report_path": "data/source__SOURCE_CONDITIONED_ASSIGNMENTS.csv",
+    "sha256": "2baeeb04f6a6a0f04ea9a30965ca7c8995ecf85127553f41b93c92689ec3ae90",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/SOURCE_CANDIDATES.csv",
+    "report_path": "data/source__SOURCE_CANDIDATES.csv",
+    "sha256": "bfab8c26ff92642f1f267e7204ef9b12e87e2db51e346dfab7fb156a58234ff3",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/TIMING_STATISTICS.csv",
+    "report_path": "data/source__TIMING_STATISTICS.csv",
+    "sha256": "3b428736a75f070787d26c6cf68d45a2a297aa6c34951df90f709c88dae3d114",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/SECTION_COVERAGE.csv",
+    "report_path": "data/source__SECTION_COVERAGE.csv",
+    "sha256": "699c7ca8540d21fd987c82da738a9dda3d8b2f8a04fc03ea815633207c8adc70",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/CONFIGURATION.json",
+    "report_path": "data/source__CONFIGURATION.json",
+    "sha256": "67bdee07a0c06373fba1486f3a33887796c56965c79ab909fbe84a4d477beb36",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/RESULT_FREEZE.json",
+    "report_path": "data/hybrid__RESULT_FREEZE.json",
+    "sha256": "079633a7869b2c22827e6c7ee28b8477fe9d50077826b4097313e36684ec9d08",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/EVENT_MATCHING.csv",
+    "report_path": "data/hybrid__EVENT_MATCHING.csv",
+    "sha256": "923517fcc4afafdc33399598a94a8579096c8702ecc26832ac20a8b39ce1fac8",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/UNIQUE_MATCHES.csv",
+    "report_path": "data/hybrid__UNIQUE_MATCHES.csv",
+    "sha256": "6a1371ef30e04aec05148105b7286cab82cb20a8af76cdcd944630f431960aa8",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/MATCHING_EDGES.csv",
+    "report_path": "data/hybrid__MATCHING_EDGES.csv",
+    "sha256": "6a1371ef30e04aec05148105b7286cab82cb20a8af76cdcd944630f431960aa8",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/BASS_EVENTS.csv",
+    "report_path": "data/hybrid__BASS_EVENTS.csv",
+    "sha256": "3555fc791994952c9eab8ec512ce549551dd08e851f423cdf2b4c1771d39d06a",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/DRUMS_EVENTS.csv",
+    "report_path": "data/hybrid__DRUMS_EVENTS.csv",
+    "sha256": "b14ef9a252dd47ad01373942424788962284e654d7009082bd0898a58c7f972f",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/STEM_ASSIGNMENTS.csv",
+    "report_path": "data/hybrid__STEM_ASSIGNMENTS.csv",
+    "sha256": "fbab78b820872c81e5ec25b5d0f5ec9c74bdaf057eabca7d20a9bfee0f4fc683",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/STEM_EVENT_ROLES.csv",
+    "report_path": "data/hybrid__STEM_EVENT_ROLES.csv",
+    "sha256": "2e7d5b7b18df18bbf5252a8d4616c2b753a763b7613273128593841be467995a",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/STEM_PAIRS.csv",
+    "report_path": "data/hybrid__STEM_PAIRS.csv",
+    "sha256": "11cc500014ceb4850f434b68f14a3fbb6c67f39f700fade30755ec5f8b181a9f",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/DUAL_AUDIT.csv",
+    "report_path": "data/hybrid__DUAL_AUDIT.csv",
+    "sha256": "8532870b5e4533f892be59da8cf46709ab4d470f52170de29dbeff9ee2b043e4",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/SECTION_COMPARISON.csv",
+    "report_path": "data/hybrid__SECTION_COMPARISON.csv",
+    "sha256": "f69b1409449bd4aa0e9d9875ca317a4e5a3b00d76146005b15e5325ef0a63924",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/STATISTICS.csv",
+    "report_path": "data/hybrid__STATISTICS.csv",
+    "sha256": "2a80af78a3c80b08834fca72cf09d2791cafdb3b9b5e48d03fc00eaca01b1692",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/SUMMARY.json",
+    "report_path": "data/hybrid__SUMMARY.json",
+    "sha256": "1b6c347bcb97932f6911938c6d2245f5d5a74e249c9dad597ef683c2f041e2c4",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/SEPARATION_RESULT.json",
+    "report_path": "data/hybrid__SEPARATION_RESULT.json",
+    "sha256": "b248ec393de2a18f96571bbab624608a50c4d03a46cf15416419c7fc7a76296e",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/PREREGISTRATION.json",
+    "report_path": "data/hybrid__PREREGISTRATION.json",
+    "sha256": "c3062c646b28225f4756de426937b5cdc0e942ce722e94046abcce10617f2ac3",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/DECISION_FREEZE.json",
+    "report_path": "data/JGA_V1_DECISION_FREEZE.json",
+    "sha256": "d7a51678fc4b8424872b55a73a964c8ccd818d146d13bcb3e24f30b450fd01cf",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/REVISED_GLOBAL_SOURCE_SHAPED_CONTEXT.png",
+    "report_path": "figures/FIGURE_1_GLOBAL.png",
+    "sha256": "527e6422d4d7bea61f335abe172a56c560dfacc3cc6a3912dc42c19c22a1d409",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/REVISED_GLOBAL_SOURCE_SHAPED_CONTEXT.pdf",
+    "report_path": "figures/FIGURE_1_GLOBAL.pdf",
+    "sha256": "374347c23826c64a99a3dfd3c34aff73266fe0eeeb1506baaed88f5cfe30b2f8",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/SOURCE_CONDITIONED_WHOLE.png",
+    "report_path": "figures/FIGURE_2_SOURCE_CONDITIONED.png",
+    "sha256": "e3c724856c0251cd0aafa015c15969a42e9cc7e918035268bea3240721bd86ba",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/SOURCE_CONDITIONED_WHOLE.pdf",
+    "report_path": "figures/FIGURE_2_SOURCE_CONDITIONED.pdf",
+    "sha256": "80ba29a970c2efd23dac46fd66ccc05629ea5be026333e6a228b054cffba2bea",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/FULLMIX_VS_STEMS.png",
+    "report_path": "figures/FIGURE_3_HYBRID.png",
+    "sha256": "3ec1a6d9f5c7a4df6b5d07a59867ece062db31b59d725cf40e807e851719fc9b",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/FULLMIX_VS_STEMS.pdf",
+    "report_path": "figures/FIGURE_3_HYBRID.pdf",
+    "sha256": "2f29cd5d4f03e15fc8de66e41cfec8efef792bd22df66340e4582c8e25fdc276",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/SOURCE_CONDITIONED_ZOOM.png",
+    "report_path": "figures/FIGURE_4_REFERENCE_ZOOM.png",
+    "sha256": "283d85800247ae2dc8f442e8e3f7c2bc9a3875f7423c05a1b5392601b472f13c",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/SOURCE_CONDITIONED_ZOOM.pdf",
+    "report_path": "figures/FIGURE_4_REFERENCE_ZOOM.pdf",
+    "sha256": "f6af7db7255ceef78ec639443952849af81eedb1eb5c2eb6c889086230fa57ba",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/PIANO_BASS_EXCHANGES.png",
+    "report_path": "figures/FIGURE_5_PIANO_BASS.png",
+    "sha256": "f5731d4f4e6e0a74db6cd3390b1f444204658cb90d5a563e2d699695b4800571",
+    "transformation": "NONE_BYTE_COPY"
+  },
+  {
+    "original_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/PIANO_BASS_EXCHANGES.pdf",
+    "report_path": "figures/FIGURE_5_PIANO_BASS.pdf",
+    "sha256": "6bbeb810ac5718c09808e014f07e5cddefbbec542284d1a2ef72543977405f7d",
+    "transformation": "NONE_BYTE_COPY"
+  }
+]

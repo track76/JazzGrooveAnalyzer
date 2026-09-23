@@ -1,0 +1,38 @@
+{
+  "study": "JGA-QUARTER-CENTERED-BASS-DRUM-GEOMETRY-001",
+  "source": "/Volumes/SSD Track/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a",
+  "source_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+  "domain": [
+    0,
+    330
+  ],
+  "global_parent_freeze_sha256": "02b603c6c641b6eb6453bcb39362269710be7f58853a99e18be09ba9915fa6ab",
+  "PLP_reference_sha256": "b6ed2a669b4e7d9b9fbcdd43618d0c801f5d4bfd60225b54e81415edee8e1666",
+  "native_parent_sha256": "f4ca881a37ad6241eafac34963709a651756ac9adaddd2ff6bb7cf58ec76e1e4",
+  "source_states_parent_sha256": "7d5ced889b068c5328afd81b1ff02d04b682639aa4f47410e45e21f689bf2547",
+  "cells": "Reuse exact parent cell IDs, reference timestamps and boundaries; no rebinning",
+  "eligibility": {
+    "BASS": [
+      "BASS_SUPPORTED",
+      "BASS_AND_DRUM_SUPPORTED"
+    ],
+    "DRUM": [
+      "DRUM_SUPPORTED",
+      "BASS_AND_DRUM_SUPPORTED"
+    ]
+  },
+  "winner": "min(abs(Decimal(native)-Decimal(reference)), Decimal(native), event_ID); no sign or identity-strength preference",
+  "shared": "Same winning ID => SHARED_DUAL_MARKER, unresolved pair, null difference. Distinct IDs with identical stored timestamps => SAME_TIMESTAMP_UNRESOLVED; never a zero independent pair. Do not select second-best to manufacture pair.",
+  "alternative_audit": "Count distinct ID/timestamp candidate combinations even when nearest winner is shared; label separately from actual selected pairs",
+  "no_reuse": "One cell per ID. Dual ID can occupy both evidence slots within that cell, rendered once; not two independent events.",
+  "statistics": "Freeze assignments before signed statistics. Primary source distributions exclude shared/same-timestamp unresolved winners; include valid source-only cells and distinct selected pairs. Also report all supported slot distributions (shared explicitly not independent) and distinct-pair-only distributions separately.",
+  "pair_sign": "Drum native time minus Bass native time; positive means Bass precedes Drum. Only distinct IDs AND distinct timestamps admitted.",
+  "coverage_denominator": "905 cells or all cells in section; source-coverage counts include shared support, primary timing counts exclude shared.",
+  "recovered": "New source-conditioned winning IDs whose old global role was CONTEXT; report shared evidence separately; no new native event or source inference.",
+  "section_membership": "By frozen reference timestamp as parent; retain native timestamps even across form boundary",
+  "zero": "Exact Decimal sign, no ON tolerance",
+  "zoom": "Existing independent 122\u2013128.5 s reference, all intersecting cells and neighbors retained",
+  "graphics": "Reuse parent plotting body, exact source styles/sizes/opacity and guide/EMPTY styling; gray context adopts existing source-specific shapes per PI. Selected Dual stays purple square even if only one source slot won. Shared drawn once plus text/count flag. Pair connectors link only distinct within-cell selected landmarks; not a continuous stream.",
+  "BPM": "Unchanged raw/discrete inter-peak descriptor. Explicit quantization warning; no smoothing or tempo interpretation added.",
+  "scope": "Observable supported landmarks; no physical attack claims. No canonical adoption, commit or push."
+}

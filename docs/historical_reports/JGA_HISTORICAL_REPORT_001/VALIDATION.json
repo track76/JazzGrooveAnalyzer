@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "source_verified": true,
+  "parent_manifests_verified": 3,
+  "methodology_decision_unchanged": true,
+  "historical_files_unchanged": 1112,
+  "historical_methodology_document_versions_verified_in_git": true,
+  "byte_copied_table_figure_records": 42,
+  "figures_byte_preserved": 10,
+  "native_event_provenance_rows_verified": 1606,
+  "stem_only_rows_verified": 435,
+  "global_statistics_reconciled_to_frozen_assignments": true,
+  "source_primary_statistics_reconciled": true,
+  "tempo_descriptor_intervals": 904,
+  "human_summary_matches_machine_and_parent_data": true,
+  "template_track_specific_values": "NONE",
+  "methodological_computation": "NONE",
+  "new_audio_inference": "NONE",
+  "tooling_tests": "13 passed: tests/tooling",
+  "visual_review": "Existing frozen figures reused; whole-performance global and reference zoom inspected; exact figure hashes verified"
+}

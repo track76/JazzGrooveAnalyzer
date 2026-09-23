@@ -48,7 +48,8 @@ def test_hybrid_operational_adoption_preserves_authority_boundaries():
                      'GLOBAL QUARTER-NEAREST', 'QUARTER-CENTERED BASS/DRUM',
                      'light-gray source-shaped CONTEXT', 'No snapping',
                      'not current v1 development prerequisites',
-                     'Prepare the first historical-jazz analysis/report batch']:
+                     'Historical Report 001 completed',
+                     'Select/prepare Historical Report 002']:
         assert required in text, required
     config = json.loads((ROOT / 'docs/project/BOOTSTRAP_SOURCES.json').read_text())
     assert config['sections'] == [

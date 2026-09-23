@@ -1,0 +1,87 @@
+[
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/analyze.py",
+    "snapshot": "INPUT_SNAPSHOTS/selection_original.py",
+    "sha256": "81f3104c554f9d56f72931cb380b2d3e45ac5e28a336b10c8b841aa5c6bdbfca"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/figures.py",
+    "snapshot": "INPUT_SNAPSHOTS/figures_original.py",
+    "sha256": "23e42bd9378dd519d0ebd17e25f3d7bb6c431fff60c9c58fef93990d4bb64406"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/JGA_QUARTER_NEAREST_ONSET_PREREGISTRATION.json",
+    "snapshot": "INPUT_SNAPSHOTS/SELECTION_CONTRACT.json",
+    "sha256": "2ed3d1d7a8c064f61ed24c1e8a04292c6494cacdf8c2f4f766f2eff8fe61c71e"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/QUARTER_NEAREST_ONSETS.csv",
+    "snapshot": "INPUT_SNAPSHOTS/HISTORICAL_QUARTERS.csv",
+    "sha256": "cb54db7ee2b83c14d523d24eaf252294abe87fd4d63790dc8e0d8532dfffe1d6"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/ALL_EVENT_ROLES.csv",
+    "snapshot": "INPUT_SNAPSHOTS/HISTORICAL_ROLES.csv",
+    "sha256": "5c48c347771dd8dec1b9bab93d1eb6fbf1eff7f1839123337abcecce7299ca50"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/SUMMARY.json",
+    "snapshot": "INPUT_SNAPSHOTS/HISTORICAL_SUMMARY.json",
+    "sha256": "270b72e23c0c297cb5b0ab49523611d3043f33de1fb20c71e2ebd3e07d6a1880"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/CONCLUSIONS.json",
+    "snapshot": "INPUT_SNAPSHOTS/COVERAGE_CONCLUSIONS.json",
+    "sha256": "bf2aeaecc762a122fbeba1e63435c971ec03c2fdefc7c02abd8e537e0d4d9985"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/WHOLE_TRACK_JOINED_EVENTS.csv",
+    "snapshot": "INPUT_SNAPSHOTS/NATIVE_JOINED.csv",
+    "sha256": "810dead183772c6ee3c2ffed01cb79b2a05045abb2aea4e4c8903c180932a4a5"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/WHOLE_TRACK_SOURCE_STATES.csv",
+    "snapshot": "INPUT_SNAPSHOTS/SOURCE_STATES.csv",
+    "sha256": "7d5ced889b068c5328afd81b1ff02d04b682639aa4f47410e45e21f689bf2547"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/WHOLE_TRACK_NATIVE_EVENTS.csv",
+    "snapshot": "INPUT_SNAPSHOTS/NATIVE_EVENTS.csv",
+    "sha256": "f4ca881a37ad6241eafac34963709a651756ac9adaddd2ff6bb7cf58ec76e1e4"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/COHORT_1/B3_PLP/BEAT_TIMESTAMPS.npy",
+    "snapshot": "INPUT_SNAPSHOTS/PLP_TIMESTAMPS.npy",
+    "sha256": "177b358fae34c0f707c35fbfd9ab33b9f6609aa51058f4c6947a0e82ed87f306"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/COHORT_1/B3_PLP/OUTPUT_FREEZE.json",
+    "snapshot": "INPUT_SNAPSHOTS/PLP_FREEZE.json",
+    "sha256": "4384911f6086ba8a1a6f9deaa8370ae9ba22f6339ae42b3b0b4a015204efa7ac"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/COHORT_1/FRONTEND.json",
+    "snapshot": "INPUT_SNAPSHOTS/PLP_FRONTEND.json",
+    "sha256": "037c55d92315ace26158b1e408edf7f187485dc92a9e78e0628808e3415f92fd"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/PI_MUSICAL_FORM_ANNOTATION.json",
+    "snapshot": "INPUT_SNAPSHOTS/FORM.json",
+    "sha256": "d713e77066d2d5612276e36cea1e8d78a9fa752e8b81615113072d2e2d52a685"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/MUSICAL_FORM_MARKERS.csv",
+    "snapshot": "INPUT_SNAPSHOTS/FORM_MARKERS.csv",
+    "sha256": "704f59107f4f4259bebcaa5e1fccf2e7361ce9c5115862c219922b914d25b848"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/figures.py",
+    "snapshot": "INPUT_SNAPSHOTS/FORM_FIGURES.py",
+    "sha256": "d3df813cf33990e13cf33c4a07c44e4a1c72e78c92dfb434e2c7795c91c4b084"
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_ADAPTIVE_MEASURE_GRID_001_EXACTLY_LIKE_YOU_20260920/ADAPTIVE_4_4_GRID.json",
+    "snapshot": "INPUT_SNAPSHOTS/HISTORICAL_GRID.json",
+    "sha256": "64703ccc5c4cae8c5c15316976d54c54f901f6972c76ec6c49873e9b8d04dfdd"
+  }
+]
