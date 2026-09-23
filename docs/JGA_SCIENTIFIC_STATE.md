@@ -1,3 +1,17 @@
+# Current authority — JGA v1 hybrid operational adoption · 2026-09-23
+
+**Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) · [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) · [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json).
+
+Original full mix remains primary audio and native timestamp authority. Frozen full-mix PLP supplies internal BPM/local-pulse/operational quarter reference. Qualified full-mix source support plus authorized Demucs Bass/Drums are complementary evidence. Compatible stem evidence uses the corresponding full-mix timestamp; unmatched stems stay SEPARATOR_DERIVED / STEM_ONLY. UNKNOWN and ambiguity remain; a shared DUAL is one event, never two attacks. Both quarter-centered views, exact geometry, gray context and graphical standards are preserved. No snapping or physical attack claim.
+
+Historical independent PLP FAIL (10/10/3/1; 24/24) and all earlier qualifications remain unchanged. This is subsequent PI operational adoption, not new experimental proof. 4/4 primary; 3/4 supported/secondary; odd meters and free endings outside v1 scope. Universal physical timing, Bass identity and component-specific Ride/Hi-Hat remain future questions. Earlier temporal-layer proposals remain unimplemented and are not reopened as v1 prerequisites. Runtime code is unchanged; this freezes the report architecture and evidence rules, not a newly implemented automated fusion system.
+
+Next action: Prepare the first historical-jazz analysis/report batch using the frozen JGA v1 operational architecture. No batch or new methodology is executed here. Earlier instructions below are superseded for current operation, retained as historical evidence only.
+
+---
+
+## Archived pre-adoption checkpoints — retained verbatim; not current instructions
+
 # Current authoritative checkpoint — final historical-recording trial · 2026-09-22
 
 **JGA v1 final trial on Exactly Like You: PARTIALLY_USABLE.** [Report](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT.md) · [result freeze](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT_FREEZE.json), SHA-256 `64979a72bf7c878bdea445d94c03dad417e4dd170d384999e3a5bb2172e23953`. This is the newly authorized additive readout, not a rewrite of historical groove studies. Analysis [0,330) s; PI-defined ending excluded. 1,606 native markers; Bass-inclusive 205, Drum-inclusive 1,091 (196 shared dual markers), UNKNOWN 506. Nine preserved qualified exposed-Drum acoustic estimates; one historical refinement abstention. No new detector/model/PLP execution, no snapping, no restrictive PLP proximity prior. The single material blocker is transferable full-mix attack-timing qualification, most decisively Double Bass. Marker geometry is usable exploratory evidence, not established performer microtiming.

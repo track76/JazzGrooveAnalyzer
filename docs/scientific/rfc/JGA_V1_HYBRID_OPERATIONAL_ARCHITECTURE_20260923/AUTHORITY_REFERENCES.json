@@ -1,0 +1,473 @@
+{
+  "records": [
+    {
+      "role": "tempo_closure",
+      "canonical_path": "docs/scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/CLOSURE_FREEZE.json",
+      "sha256": "d94dfb5446928058143616e8f931cd73c54d8bcd8ed0a1553263d38e21639359",
+      "bytes": 8083,
+      "tracked_before": true,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/tempo_closure__CLOSURE_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "tempo_closure_context",
+      "canonical_path": "docs/scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/README.md",
+      "sha256": "9cbc8227644d5141404cfe422410e501c928b94861a569c42d0cd9f1a2a33831",
+      "bytes": 8610,
+      "tracked_before": true,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/tempo_closure__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "tempo_PI_decision",
+      "canonical_path": "docs/scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/PI_ARCHITECTURE_DOMAIN_DECISION.md",
+      "sha256": "ae82807b8823c59f19c1d543a15f221a308430d1248e584870828eb049f3ce1d",
+      "bytes": 3854,
+      "tracked_before": true,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/tempo_PI_decision__PI_ARCHITECTURE_DOMAIN_DECISION.md",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "tempo_PI_decision_context",
+      "canonical_path": "docs/scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/README.md",
+      "sha256": "9cbc8227644d5141404cfe422410e501c928b94861a569c42d0cd9f1a2a33831",
+      "bytes": 8610,
+      "tracked_before": true,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/tempo_PI_decision__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "independent_FAIL",
+      "canonical_path": "docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/INDEPENDENT_RESULT/FINAL_RESULT_FREEZE.json",
+      "sha256": "0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f",
+      "bytes": 44724,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/independent_FAIL__FINAL_RESULT_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "independent_FAIL_context",
+      "canonical_path": "docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/INDEPENDENT_RESULT/RESULT.md",
+      "sha256": "738b1bc490c2a695ad0e005bf59bf43a20439664afa11a98a209fc16593e5e49",
+      "bytes": 19074,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/independent_FAIL__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "PLP_development",
+      "canonical_path": "docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/PLP_PERCEPTUAL_VALIDATION/PERCEPTUAL_RESULT_FREEZE.json",
+      "sha256": "168a446698da79375a36e65031b8c0c7c97278119fb46c0658f324cf749c11c7",
+      "bytes": 20943,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/PLP_development__PERCEPTUAL_RESULT_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "PLP_development_context",
+      "canonical_path": "docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/PLP_PERCEPTUAL_VALIDATION/README.md",
+      "sha256": "97436a7787e06ab04ea38789354e793f4d4035b1684eeefe64c07960f0b758ea",
+      "bytes": 1181,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/PLP_development__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "quarter_nearest",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/JGA_QUARTER_NEAREST_ONSET_GROOVE_RESULT_FREEZE.json",
+      "sha256": "923d34e68b70ea35b63c6502384c496fe72ad0fd4fd8efa9a8480f5da71b2fc5",
+      "bytes": 9101,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/quarter_nearest__JGA_QUARTER_NEAREST_ONSET_GROOVE_RESULT_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "quarter_nearest_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/RESULT.md",
+      "sha256": "1e1cc6fea38a3411f98884b8d87d24d55cee3eadcf376bdbbe56e63b20316d6c",
+      "bytes": 11312,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/quarter_nearest__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "quarter_nearest_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/README.md",
+      "sha256": "6437a70725ad61fbae0a672289307506184217fb1b91b7bfc4232baa77eeb689",
+      "bytes": 1442,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/quarter_nearest__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "coverage",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_RESULT_FREEZE.json",
+      "sha256": "52835f8ab186bc7218167e80b0e75603384f491d702a8a2ae2bd553d9b9233db",
+      "bytes": 8379,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/coverage__JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_RESULT_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "coverage_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/RESULT.md",
+      "sha256": "2bfb9cf5027c6d7deb843e7e61e8dd39cc79b624d141757b0fa5e42decdb88e5",
+      "bytes": 8987,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/coverage__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "coverage_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/README.md",
+      "sha256": "288231a676b672f7bb1947cb96400ab86b0b9ccd605a4d84425137ad747492ae",
+      "bytes": 1843,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/coverage__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "operational_PLP",
+      "canonical_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/RESULT_FREEZE.json",
+      "sha256": "02b603c6c641b6eb6453bcb39362269710be7f58853a99e18be09ba9915fa6ab",
+      "bytes": 5901,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/operational_PLP__RESULT_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "operational_PLP_context",
+      "canonical_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/RESULT.md",
+      "sha256": "0bac61a51434afae6acac037be1c1f289d8900ad999e0bf8cbb9cd49547165aa",
+      "bytes": 9965,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/operational_PLP__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "operational_PLP_context",
+      "canonical_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/README.md",
+      "sha256": "29b1943216d17d59a1345a89815ddfc2367dd565db580c821c72c37e53662ce5",
+      "bytes": 567,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/operational_PLP__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "operational_PLP_context",
+      "canonical_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/CONFIGURATION.json",
+      "sha256": "7165a2f3bb997501e7df3b41b428337de2382cb5614ab84983bd7c37fed46974",
+      "bytes": 2353,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/operational_PLP__CONFIGURATION.json",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "source_conditioned",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/RESULT_FREEZE.json",
+      "sha256": "6482feb0820ddd929b292fb4a0393d4f9eebf30e2fe00bcfeb86023de011231e",
+      "bytes": 5063,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/source_conditioned__RESULT_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "source_conditioned_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/RESULT.md",
+      "sha256": "d0b77291d33a681a140b978a5a0e988f58e7e24807bbdca407ac2caaad843145",
+      "bytes": 11038,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/source_conditioned__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "source_conditioned_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/README.md",
+      "sha256": "73d48fb058fa140e2c4fc9b661fe2d721834eeec8921eb571edfef3f299a3093",
+      "bytes": 475,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/source_conditioned__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "source_conditioned_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/CONFIGURATION.json",
+      "sha256": "67bdee07a0c06373fba1486f3a33887796c56965c79ab909fbe84a4d477beb36",
+      "bytes": 3267,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/source_conditioned__CONFIGURATION.json",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "PLP_prior",
+      "canonical_path": "docs/scientific/rfc/JGA_PLP_ASSISTED_BASS_DRUM_001_EXACTLY_LIKE_YOU_20260922/FINAL_RESULT_FREEZE.json",
+      "sha256": "3bf40d8bc71b071e1bed42eee3ec19fd44ee52760e308cabb7b71df3ff4f02f0",
+      "bytes": 4153,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/PLP_prior__FINAL_RESULT_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "PLP_prior_context",
+      "canonical_path": "docs/scientific/rfc/JGA_PLP_ASSISTED_BASS_DRUM_001_EXACTLY_LIKE_YOU_20260922/RESULT.md",
+      "sha256": "b5f4d6568dd0ee6afe51e4b291b1e5e129b5c985dd61db3a617c9fb5c51bf8c5",
+      "bytes": 4767,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/PLP_prior__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "PLP_prior_context",
+      "canonical_path": "docs/scientific/rfc/JGA_PLP_ASSISTED_BASS_DRUM_001_EXACTLY_LIKE_YOU_20260922/README.md",
+      "sha256": "bcf72efbadcde8222423119d27ccd618af40d0b2d495b549d1f1dbc09b8bc83c",
+      "bytes": 405,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/PLP_prior__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "PLP_prior_decisions",
+      "canonical_path": "docs/scientific/rfc/JGA_PLP_ASSISTED_BASS_DRUM_001_EXACTLY_LIKE_YOU_20260922/DECISIONS.json",
+      "sha256": "44c7ed06cc2deceea589d9c881858491b87d5250e14fccc933451e5b1c67054d",
+      "bytes": 437,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/PLP_prior_decisions__DECISIONS.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "PLP_prior_decisions_context",
+      "canonical_path": "docs/scientific/rfc/JGA_PLP_ASSISTED_BASS_DRUM_001_EXACTLY_LIKE_YOU_20260922/RESULT.md",
+      "sha256": "b5f4d6568dd0ee6afe51e4b291b1e5e129b5c985dd61db3a617c9fb5c51bf8c5",
+      "bytes": 4767,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/PLP_prior_decisions__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "PLP_prior_decisions_context",
+      "canonical_path": "docs/scientific/rfc/JGA_PLP_ASSISTED_BASS_DRUM_001_EXACTLY_LIKE_YOU_20260922/README.md",
+      "sha256": "bcf72efbadcde8222423119d27ccd618af40d0b2d495b549d1f1dbc09b8bc83c",
+      "bytes": 405,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/PLP_prior_decisions__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "stems",
+      "canonical_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/RESULT_FREEZE.json",
+      "sha256": "079633a7869b2c22827e6c7ee28b8477fe9d50077826b4097313e36684ec9d08",
+      "bytes": 16489,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/stems__RESULT_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "stems_context",
+      "canonical_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/RESULT.md",
+      "sha256": "8f53b832cce8b971e1151ec5033ebbbadc628e8f89fa422ae127b70ff6d25c1e",
+      "bytes": 16006,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/stems__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "stems_context",
+      "canonical_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/README.md",
+      "sha256": "55eda04328676284438e292c6e16daee30e3ea7660a5dfc9ed88d40c507a7311",
+      "bytes": 2104,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/stems__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "Bass_identity",
+      "canonical_path": "docs/scientific/rfc/DOUBLE_BASS_SOURCE_IDENTITY_CLOSURE_20260919/DOUBLE_BASS_SPECIFICITY_FREEZE.json",
+      "sha256": "23207dfa5deaacb34a958b2f15115cebc069a8b8850b2ba2985e67c2b3990640",
+      "bytes": 57230,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/Bass_identity__DOUBLE_BASS_SPECIFICITY_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "Bass_identity_context",
+      "canonical_path": "docs/scientific/rfc/DOUBLE_BASS_SOURCE_IDENTITY_CLOSURE_20260919/README.md",
+      "sha256": "f4bb9dbb771768e4aea1eaffcf55655b43c3ba68953d302cfcdec54d391ec30a",
+      "bytes": 2796,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/Bass_identity__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "Bass_identity_context",
+      "canonical_path": "docs/scientific/rfc/DOUBLE_BASS_SOURCE_IDENTITY_CLOSURE_20260919/DOUBLE_BASS_PHASE_CLOSURE.md",
+      "sha256": "9995174d169fe06fd416917900d97ad3e56c7e910c5a3ffea16ad1e4baa012c8",
+      "bytes": 2422,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/Bass_identity__DOUBLE_BASS_PHASE_CLOSURE.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "Drum_identity",
+      "canonical_path": "docs/scientific/rfc/JGA_GENERIC_DRUM_OBSERVABILITY_GAP_001_NATIVE_IDENTITY_ADDENDUM_20260921/ARTIFACT_HASHES.json",
+      "sha256": "f3f5ad69dc01788ce26158d25fbe51ad0bbf4e5e580abae13c09eeaad1d45480",
+      "bytes": 2897,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/Drum_identity__ARTIFACT_HASHES.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "Fishman_reference",
+      "canonical_path": "docs/scientific/rfc/JGA_CONTROLLED_DOUBLE_BASS_ATTACK_REFERENCE_REREVIEW_001_20260921/REVIEW_COMPARISON_FREEZE.json",
+      "sha256": "3bbf3e42e85f503ef1d5a609f593cafd62259f9e6c381501b145469564e16c10",
+      "bytes": 853,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/Fishman_reference__REVIEW_COMPARISON_FREEZE.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "Fishman_reference_context",
+      "canonical_path": "docs/scientific/rfc/JGA_CONTROLLED_DOUBLE_BASS_ATTACK_REFERENCE_REREVIEW_001_20260921/RESULT.md",
+      "sha256": "5d2b82a5f5da2c6fb0b3e08e070fa6673376a76bce7d8a89480e9f40132b3c40",
+      "bytes": 7722,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/Fishman_reference__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "Fishman_reference_context",
+      "canonical_path": "docs/scientific/rfc/JGA_CONTROLLED_DOUBLE_BASS_ATTACK_REFERENCE_REREVIEW_001_20260921/README.md",
+      "sha256": "661b54b6cda346b7a8696a9295f23d0b994e6bf150371dddd15a3b22d9e5134c",
+      "bytes": 774,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/Fishman_reference__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "attack_calibration",
+      "canonical_path": "docs/scientific/rfc/JGA_SOURCE_ASSOCIATED_ATTACK_TIMING_CALIBRATION_001_20260921/ARTIFACT_HASHES.json",
+      "sha256": "0b90d6a5911c26dc0e721d7cbae2714c5838e8ff79aaa9bb9ca6b6fc36f23292",
+      "bytes": 2874,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/attack_calibration__ARTIFACT_HASHES.json",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "attack_calibration_context",
+      "canonical_path": "docs/scientific/rfc/JGA_SOURCE_ASSOCIATED_ATTACK_TIMING_CALIBRATION_001_20260921/RESULT.md",
+      "sha256": "cbb852ffffc41604c7a6d8c7103d8fea769c9f6f5bf193139086865892fcc5f6",
+      "bytes": 5014,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/attack_calibration__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "attack_calibration_context",
+      "canonical_path": "docs/scientific/rfc/JGA_SOURCE_ASSOCIATED_ATTACK_TIMING_CALIBRATION_001_20260921/README.md",
+      "sha256": "e2f79aa0ddc1e385bd39c56bd23896985f1a22e5cc5579ced9c4a4681c346667",
+      "bytes": 408,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/attack_calibration__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "global_plot",
+      "canonical_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/figures.py",
+      "sha256": "d739091229dce63df859f8db1608d4e8fefac85451938c0f321594f65786c336",
+      "bytes": 5075,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/global_plot__figures.py",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "global_plot_context",
+      "canonical_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/RESULT.md",
+      "sha256": "0bac61a51434afae6acac037be1c1f289d8900ad999e0bf8cbb9cd49547165aa",
+      "bytes": 9965,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/global_plot__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "global_plot_context",
+      "canonical_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/README.md",
+      "sha256": "29b1943216d17d59a1345a89815ddfc2367dd565db580c821c72c37e53662ce5",
+      "bytes": 567,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/global_plot__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "global_plot_context",
+      "canonical_path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/CONFIGURATION.json",
+      "sha256": "7165a2f3bb997501e7df3b41b428337de2382cb5614ab84983bd7c37fed46974",
+      "bytes": 2353,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/global_plot__CONFIGURATION.json",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "source_plot",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/figures.py",
+      "sha256": "782d2a89b2f5b6edf8f22e697beb57b70394efddb4193b80761b109df8bff70c",
+      "bytes": 6915,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/source_plot__figures.py",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "source_plot_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/RESULT.md",
+      "sha256": "d0b77291d33a681a140b978a5a0e988f58e7e24807bbdca407ac2caaad843145",
+      "bytes": 11038,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/source_plot__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "source_plot_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/README.md",
+      "sha256": "73d48fb058fa140e2c4fc9b661fe2d721834eeec8921eb571edfef3f299a3093",
+      "bytes": 475,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/source_plot__README.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "source_plot_context",
+      "canonical_path": "docs/scientific/rfc/JGA_QUARTER_CENTERED_BASS_DRUM_GEOMETRY_001_20260923/CONFIGURATION.json",
+      "sha256": "67bdee07a0c06373fba1486f3a33887796c56965c79ab909fbe84a4d477beb36",
+      "bytes": 3267,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/source_plot__CONFIGURATION.json",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "stem_plot",
+      "canonical_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/figures.py",
+      "sha256": "703cb8182a5b4b2ace3fd774424e1e057c77e8e36b427089416f77c87c59d139",
+      "bytes": 7412,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/stem_plot__figures.py",
+      "snapshot_role": "byte-preserved provenance, not independent mutable authority"
+    },
+    {
+      "role": "stem_plot_context",
+      "canonical_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/RESULT.md",
+      "sha256": "8f53b832cce8b971e1151ec5033ebbbadc628e8f89fa422ae127b70ff6d25c1e",
+      "bytes": 16006,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/stem_plot__RESULT.md",
+      "snapshot_role": "historical context only"
+    },
+    {
+      "role": "stem_plot_context",
+      "canonical_path": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/README.md",
+      "sha256": "55eda04328676284438e292c6e16daee30e3ea7660a5dfc9ed88d40c507a7311",
+      "bytes": 2104,
+      "tracked_before": false,
+      "preserved_snapshot": "EVIDENCE_SNAPSHOTS/stem_plot__README.md",
+      "snapshot_role": "historical context only"
+    }
+  ],
+  "storage_note": "Some complete historical studies are untracked local scientific holdings. Compact exact manifests/reports/plot definitions are committed here for decision recovery; this is not a backup of all raw artifacts. Canonical paths and hashes remain unchanged."
+}

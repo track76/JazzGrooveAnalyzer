@@ -32,10 +32,29 @@ def test_checkpoint_preserves_fail_and_distinct_engineering_decision():
                      'Metric-Level Lock / Continuity', 'YES / LOW_CONFIDENCE / NO',
                      'not Ground Truth and not a required runtime dependency',
                      'Beat This!', 'DEFERRED', 'independent', '+27 ms',
-                     'Double Bass, Ride and Hi-Hat', 'Precise recorded Bass onset',
+                     'Ride/Hi-Hat', 'Precise recorded Bass onset',
                      'physical Bass–Drum microtiming remain unestablished',
-                     'No groove recalculation authorized', 'separate PI authorization']:
+                     'No historical groove recalculation', 'separate PI authorization']:
         assert required in text, required
+
+
+def test_hybrid_operational_adoption_preserves_authority_boundaries():
+    text = render_bootstrap(ROOT)
+    for required in ['CLOSED for operational historical analysis',
+                     'HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION',
+                     'primary historical audio and operational signal authority',
+                     'INTERNAL BPM / LOCAL-PULSE / operational QUARTER REFERENCE',
+                     'SEPARATOR_DERIVED / STEM_ONLY', 'SHARED_DUAL_MARKER / UNRESOLVED',
+                     'GLOBAL QUARTER-NEAREST', 'QUARTER-CENTERED BASS/DRUM',
+                     'light-gray source-shaped CONTEXT', 'No snapping',
+                     'not current v1 development prerequisites',
+                     'Prepare the first historical-jazz analysis/report batch']:
+        assert required in text, required
+    config = json.loads((ROOT / 'docs/project/BOOTSTRAP_SOURCES.json').read_text())
+    assert config['sections'] == [
+        {'path': 'docs/JGA_PROJECT_STATE.md', 'current_section_only': True}]
+    # Superseded research orders must not be re-exported as active instructions.
+    assert 'Next scientific action: separately authorize bounded Tempo-Existence' not in text
 
 
 def test_snapshot_bytes_preserved():

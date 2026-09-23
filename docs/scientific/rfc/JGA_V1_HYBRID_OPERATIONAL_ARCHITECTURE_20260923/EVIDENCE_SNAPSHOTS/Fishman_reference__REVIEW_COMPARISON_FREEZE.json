@@ -1,0 +1,11 @@
+{
+  "completed_utc": "2026-09-21T18:49:05.247554+00:00",
+  "fresh_review_freeze_sha256": "38935840d1b88e77ad6d604e1834608aab32dd5504494462cf3d3f5ef3873e04",
+  "comparison_files": {
+    "OLD_VS_NEW_INTERVALS.csv": "454a2f7747073aae4ee86524e267c84f42b3a645fdcc3bc22a568fd326e1b919",
+    "REPRODUCIBILITY_SUMMARY.csv": "bddbcbfda474d36c8a0a06862f91b1452405c7fdef691d8379c05acf669be50c",
+    "MULTI_WITNESS_COMPARISON.csv": "03d2157fc46c7265ca1a314e52ceb8532af997051ad3a6f0235358de797b1c69"
+  },
+  "estimator_evaluation_not_yet_performed": true,
+  "ordering_note": "Old state comparison reads MULTI_WITNESS_RESULTS.csv, which also carries consensus columns; only state fields were used before this comparison freeze. Estimator-specific extraction/evaluation followed this freeze. Fresh review had already been frozen before any parent comparison access."
+}

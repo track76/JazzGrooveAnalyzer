@@ -1,3 +1,17 @@
+# Current authority — JGA v1 hybrid operational adoption · 2026-09-23
+
+**Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) · [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) · [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json).
+
+Original full mix remains primary audio and native timestamp authority. Frozen full-mix PLP supplies internal BPM/local-pulse/operational quarter reference. Qualified full-mix source support plus authorized Demucs Bass/Drums are complementary evidence. Compatible stem evidence uses the corresponding full-mix timestamp; unmatched stems stay SEPARATOR_DERIVED / STEM_ONLY. UNKNOWN and ambiguity remain; a shared DUAL is one event, never two attacks. Both quarter-centered views, exact geometry, gray context and graphical standards are preserved. No snapping or physical attack claim.
+
+Historical independent PLP FAIL (10/10/3/1; 24/24) and all earlier qualifications remain unchanged. This is subsequent PI operational adoption, not new experimental proof. 4/4 primary; 3/4 supported/secondary; odd meters and free endings outside v1 scope. Universal physical timing, Bass identity and component-specific Ride/Hi-Hat remain future questions. Earlier temporal-layer proposals remain unimplemented and are not reopened as v1 prerequisites. Runtime code is unchanged; this freezes the report architecture and evidence rules, not a newly implemented automated fusion system.
+
+Next action: Prepare the first historical-jazz analysis/report batch using the frozen JGA v1 operational architecture. No batch or new methodology is executed here. Earlier instructions below are superseded for current operation, retained as historical evidence only.
+
+---
+
+## Archived pre-adoption checkpoints — retained verbatim; not current instructions
+
 # Current authoritative checkpoint — Tempo Authority phase closure · 2026-09-22
 
 **Historical independent experiment: FAIL, unchanged (10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 PI responses).** Independent result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You PLP 5/5 is development evidence, not part of this denominator.

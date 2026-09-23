@@ -1,0 +1,33 @@
+{
+  "authority": "PI operational onset-landmark authorization; not physical attack validation",
+  "source": "/Volumes/SSD Track/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a",
+  "source_sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+  "domain_s": [
+    0,
+    330
+  ],
+  "excluded_s": [
+    330,
+    347.8117006802721
+  ],
+  "domain_authority": "PI form M7; approximate whole-second boundary",
+  "reference": "Exactly frozen PLP maxima in [0,330), unchanged timestamps, zero-based index; no interpolation, extrapolated peaks or normalization",
+  "BPM": "60/consecutive frozen maxima interval; final included maximum uses its next ORIGINAL frozen maximum for BPM context only",
+  "cell_boundary": "Original Decimal/bisect_left midpoint rule; domain outer boundaries 0 and330; no peak added at either boundary",
+  "comparison": "Historical full preserved; matched-domain historical grid rerun through SAME frozen selection core with same [0,330) native population. Last-cell clipping applied to both. No historical mutation.",
+  "sections": "Membership by reference timestamp, as frozen; record original event timestamp even if across reporting boundary",
+  "plot_authority": "Original quarter-nearest figures.py colors/shapes/sizes/alpha. PI form figures.py boundary styling only. Later differing source colors NOT substituted.",
+  "on_tolerance": "NONE introduced; signed offsets and exact numerical zero only",
+  "operational_semantics": {
+    "BASS_SUPPORTED": "BASS_ONSET",
+    "DRUM_SUPPORTED": "DRUM_ONSET",
+    "BASS_AND_DRUM_SUPPORTED": "DUAL",
+    "UNKNOWN": "UNKNOWN"
+  },
+  "dual": "One timestamp, not two attacks",
+  "context": "All unselected events retained light gray independent of source",
+  "pairwise": "No invented event matching. Report within-section Bass-only minus Drum-only median offsets as distribution contrast, not paired attack lag. DUAL excluded from this contrast.",
+  "acceptance": "Reproducible source-associated observable landmark geometry, qualified by source coverage and temporal resolution; physical attack Ground Truth not required. This recording cannot establish corpus generalization.",
+  "next": "PI review; no automatic new research or deployment",
+  "configuration_changes": "Only reference input and explicit shared domain adapter; no downstream selection-rule change"
+}

@@ -3,10 +3,6 @@
     {
       "path": "docs/JGA_PROJECT_STATE.md",
       "current_section_only": true
-    },
-    {
-      "path": "docs/scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/PI_ARCHITECTURE_DOMAIN_DECISION.md",
-      "current_section_only": false
     }
   ],
   "recovery_links": [
@@ -19,6 +15,9 @@
     "docs/project/PROJECT_METADATA.md",
     "docs/architecture/BOOTSTRAP_SINGLE_ROOT_DECISION_20260922.md",
     "docs/scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/AUTHORITY_REFERENCES.json",
-    "docs/scientific/rfc/JGA_SINGLE_ROOT_BOOTSTRAP_MIGRATION_20260922/PRESERVATION_FREEZE.json"
+    "docs/scientific/rfc/JGA_SINGLE_ROOT_BOOTSTRAP_MIGRATION_20260922/PRESERVATION_FREEZE.json",
+    "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/README.md",
+    "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md",
+    "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json"
   ]
 }

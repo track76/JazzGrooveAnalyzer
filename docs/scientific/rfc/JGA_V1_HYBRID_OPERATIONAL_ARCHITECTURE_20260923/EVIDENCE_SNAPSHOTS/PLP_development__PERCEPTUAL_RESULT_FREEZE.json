@@ -1,0 +1,523 @@
+{
+  "study": "JGA-NATIVE-TEMPO-AUTHORITY-001",
+  "subtask": "COHORT-1-PLP-PERCEPTUAL-VALIDATION-001",
+  "created_utc": "2026-09-22T16:43:17.661346+00:00",
+  "status": "FROZEN_PERCEPTUAL_RESULT",
+  "response_sha256": "2f4dc2c2844bb9d0c3a99508faf6a9ed2a9e9ecc51e848a5bce846cb99f07171",
+  "exported_freeze_sha256": "1dfffc323de4821375bc583f3c9db5df4898ef2ed2e6b6f45a3c021a437e33c5",
+  "formal_acquisition_freeze_sha256": "361d6f157b29322b619d744ed5ef31607b8b2445367dfa933de9b978d3a4d8c1",
+  "mapping_sha256": "ba60eead9c2b045b2108b810b02d24b90adc29b75e2a0a2cfda5cca2f6cf153b",
+  "preregistration_sha256": "d120e356ae06e2268267cef9549d213c2dd77521d4dc4ed8c5fc96c9f557272b",
+  "package_freeze_sha256": "6ea2b5d0ccf0c4b34eb86fc7d60d937cc3bf3856605a06dd5b94a1cedfbc6b4f",
+  "candidates": [
+    {
+      "id": "PULSE_A01",
+      "region": {
+        "id": "A",
+        "start_s": 0,
+        "end_s": 48,
+        "context": "Opening"
+      },
+      "method": "FROZEN_CURRENT_JGA",
+      "audio_sha256": "6ee5273c240c2fe0935ce87ab4af66d0d4e267a25abf80e2280f0759027c43de"
+    },
+    {
+      "id": "PULSE_A02",
+      "region": {
+        "id": "A",
+        "start_s": 0,
+        "end_s": 48,
+        "context": "Opening"
+      },
+      "method": "FROZEN_PLP",
+      "audio_sha256": "10cccfc55490a2f16d393dee3e1c38b0883ee7a2fe69190f04f489721a16fd94"
+    },
+    {
+      "id": "PULSE_A03",
+      "region": {
+        "id": "A",
+        "start_s": 0,
+        "end_s": 48,
+        "context": "Opening"
+      },
+      "method": "FROZEN_ABLETON",
+      "audio_sha256": "903a1dca62f355ec792a5c68852ff74296bffe0148ea0937c3872f30b0325d46"
+    },
+    {
+      "id": "PULSE_B01",
+      "region": {
+        "id": "B",
+        "start_s": 60,
+        "end_s": 106,
+        "context": "Piano solo / walking Bass"
+      },
+      "method": "FROZEN_PLP",
+      "audio_sha256": "f9767b9202a88d53e248e6b76263ba793dadfadc8d443f4db53dc9cc896b65f8"
+    },
+    {
+      "id": "PULSE_B02",
+      "region": {
+        "id": "B",
+        "start_s": 60,
+        "end_s": 106,
+        "context": "Piano solo / walking Bass"
+      },
+      "method": "FROZEN_ABLETON",
+      "audio_sha256": "b229d0010120d458c640e59d2af146df78f175104558b822ee9b4700694e4d4b"
+    },
+    {
+      "id": "PULSE_B03",
+      "region": {
+        "id": "B",
+        "start_s": 60,
+        "end_s": 106,
+        "context": "Piano solo / walking Bass"
+      },
+      "method": "FROZEN_CURRENT_JGA",
+      "audio_sha256": "7629e4e52ddc626025116b83822461b2e534e51cf3d3f69d697feb54d15b70ed"
+    },
+    {
+      "id": "PULSE_C01",
+      "region": {
+        "id": "C",
+        "start_s": 141,
+        "end_s": 186,
+        "context": "Piano–Bass exchanges"
+      },
+      "method": "FROZEN_PLP",
+      "audio_sha256": "a713ce6bf7fc2cdc10c76368fb8f34d13f098ea6fbaa7d3a90c1284e739dabed"
+    },
+    {
+      "id": "PULSE_C02",
+      "region": {
+        "id": "C",
+        "start_s": 141,
+        "end_s": 186,
+        "context": "Piano–Bass exchanges"
+      },
+      "method": "FROZEN_ABLETON",
+      "audio_sha256": "9a6292a24aeada756063eaf410a93cd5b130ea084a64b92d914a19fc30d396ac"
+    },
+    {
+      "id": "PULSE_C03",
+      "region": {
+        "id": "C",
+        "start_s": 141,
+        "end_s": 186,
+        "context": "Piano–Bass exchanges"
+      },
+      "method": "FROZEN_CURRENT_JGA",
+      "audio_sha256": "4dccda66477402a4fd07393186f9bd7f862fafdf745440260e157a82adba0339"
+    },
+    {
+      "id": "PULSE_D01",
+      "region": {
+        "id": "D",
+        "start_s": 186,
+        "end_s": 232,
+        "context": "Piano–Drum exchanges"
+      },
+      "method": "FROZEN_PLP",
+      "audio_sha256": "962f751326cb5fad9504698190c4f30252c9f1c483a121f32d60897b58f08d3c"
+    },
+    {
+      "id": "PULSE_D02",
+      "region": {
+        "id": "D",
+        "start_s": 186,
+        "end_s": 232,
+        "context": "Piano–Drum exchanges"
+      },
+      "method": "FROZEN_ABLETON",
+      "audio_sha256": "2feec84bd97b76f267b3cc33b6eb902d67d7868bd7a659bf32d80ac8baaae917"
+    },
+    {
+      "id": "PULSE_D03",
+      "region": {
+        "id": "D",
+        "start_s": 186,
+        "end_s": 232,
+        "context": "Piano–Drum exchanges"
+      },
+      "method": "FROZEN_CURRENT_JGA",
+      "audio_sha256": "2b67530f80c3439f4a585d044f639db29edc3eff6b05ecf4f253223c1864517f"
+    },
+    {
+      "id": "PULSE_E01",
+      "region": {
+        "id": "E",
+        "start_s": 260,
+        "end_s": 306,
+        "context": "Final theme / turnaround"
+      },
+      "method": "FROZEN_ABLETON",
+      "audio_sha256": "b3ca0d6a7923813c606c092d812f44d203fae7fdbb60fc559b3dc7f38f34a0b3"
+    },
+    {
+      "id": "PULSE_E02",
+      "region": {
+        "id": "E",
+        "start_s": 260,
+        "end_s": 306,
+        "context": "Final theme / turnaround"
+      },
+      "method": "FROZEN_PLP",
+      "audio_sha256": "d1068963b8049126876c2f5ed3b510104284cf1f47c9f8d8cba8deea23d6f65a"
+    },
+    {
+      "id": "PULSE_E03",
+      "region": {
+        "id": "E",
+        "start_s": 260,
+        "end_s": 306,
+        "context": "Final theme / turnaround"
+      },
+      "method": "FROZEN_CURRENT_JGA",
+      "audio_sha256": "ae19ee3d7f64933a764e712d12de91c6bed83f7f81aa3669fcea8eda39682ab6"
+    }
+  ],
+  "all_PI_judgments": [
+    {
+      "presentation_order": "1",
+      "anonymous_id": "PULSE_A01",
+      "region_id": "A",
+      "start_s": "0",
+      "end_s": "48",
+      "method": "FROZEN_CURRENT_JGA",
+      "judgment": "MISALIGNED",
+      "note_verbatim": "Il click risulta leggermente più veloce del quarter musicale percepito, indicativamente di circa 2–3 BPM, e tende progressivamente a perdere l’allineamento.",
+      "played_complete": "True",
+      "phenomena": "PERCEIVED_FASTER|PROGRESSIVE_DRIFT"
+    },
+    {
+      "presentation_order": "2",
+      "anonymous_id": "PULSE_A02",
+      "region_id": "A",
+      "start_s": "0",
+      "end_s": "48",
+      "method": "FROZEN_PLP",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "3",
+      "anonymous_id": "PULSE_A03",
+      "region_id": "A",
+      "start_s": "0",
+      "end_s": "48",
+      "method": "FROZEN_ABLETON",
+      "judgment": "MOSTLY_ALIGNED_LOCAL_ISSUES",
+      "note_verbatim": "Prima dell’ingresso effettivo dell’audio percepisco 3–4 click ravvicinati/più veloci. Intorno a 4 secondi il click si stabilizza sul quarter musicale e da quel momento rimane allineato fino alla fine.",
+      "played_complete": "True",
+      "phenomena": "PERCEIVED_FASTER|INITIAL_DENSE_CLICK_PATTERN|LOCAL_REALIGNMENT"
+    },
+    {
+      "presentation_order": "4",
+      "anonymous_id": "PULSE_B01",
+      "region_id": "B",
+      "start_s": "60",
+      "end_s": "106",
+      "method": "FROZEN_PLP",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "5",
+      "anonymous_id": "PULSE_B02",
+      "region_id": "B",
+      "start_s": "60",
+      "end_s": "106",
+      "method": "FROZEN_ABLETON",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "6",
+      "anonymous_id": "PULSE_B03",
+      "region_id": "B",
+      "start_s": "60",
+      "end_s": "106",
+      "method": "FROZEN_CURRENT_JGA",
+      "judgment": "MISALIGNED",
+      "note_verbatim": "Il click risulta più veloce di qualche BPM rispetto al quarter musicale percepito e accumula progressivamente disallineamento.",
+      "played_complete": "True",
+      "phenomena": "PERCEIVED_FASTER|PROGRESSIVE_DRIFT"
+    },
+    {
+      "presentation_order": "7",
+      "anonymous_id": "PULSE_C01",
+      "region_id": "C",
+      "start_s": "141",
+      "end_s": "186",
+      "method": "FROZEN_PLP",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "8",
+      "anonymous_id": "PULSE_C02",
+      "region_id": "C",
+      "start_s": "141",
+      "end_s": "186",
+      "method": "FROZEN_ABLETON",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "9",
+      "anonymous_id": "PULSE_C03",
+      "region_id": "C",
+      "start_s": "141",
+      "end_s": "186",
+      "method": "FROZEN_CURRENT_JGA",
+      "judgment": "MISALIGNED",
+      "note_verbatim": "Il click risulta più veloce di qualche BPM rispetto al quarter musicale percepito e accumula progressivamente disallineamento.",
+      "played_complete": "True",
+      "phenomena": "PERCEIVED_FASTER|PROGRESSIVE_DRIFT"
+    },
+    {
+      "presentation_order": "10",
+      "anonymous_id": "PULSE_D01",
+      "region_id": "D",
+      "start_s": "186",
+      "end_s": "232",
+      "method": "FROZEN_PLP",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "11",
+      "anonymous_id": "PULSE_D02",
+      "region_id": "D",
+      "start_s": "186",
+      "end_s": "232",
+      "method": "FROZEN_ABLETON",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "12",
+      "anonymous_id": "PULSE_D03",
+      "region_id": "D",
+      "start_s": "186",
+      "end_s": "232",
+      "method": "FROZEN_CURRENT_JGA",
+      "judgment": "MISALIGNED",
+      "note_verbatim": "Il click risulta più veloce di qualche BPM rispetto al quarter musicale percepito e accumula progressivamente disallineamento.",
+      "played_complete": "True",
+      "phenomena": "PERCEIVED_FASTER|PROGRESSIVE_DRIFT"
+    },
+    {
+      "presentation_order": "13",
+      "anonymous_id": "PULSE_E01",
+      "region_id": "E",
+      "start_s": "260",
+      "end_s": "306",
+      "method": "FROZEN_ABLETON",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "14",
+      "anonymous_id": "PULSE_E02",
+      "region_id": "E",
+      "start_s": "260",
+      "end_s": "306",
+      "method": "FROZEN_PLP",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    },
+    {
+      "presentation_order": "15",
+      "anonymous_id": "PULSE_E03",
+      "region_id": "E",
+      "start_s": "260",
+      "end_s": "306",
+      "method": "FROZEN_CURRENT_JGA",
+      "judgment": "ALIGNED_THROUGHOUT",
+      "note_verbatim": "Perfettamente allineato al quarter musicale percepito per tutta la sezione. Nessuna deriva o perdita di allineamento percepibile.",
+      "played_complete": "True",
+      "phenomena": "STABLE_ALIGNMENT"
+    }
+  ],
+  "method_summaries": {
+    "FROZEN_PLP": {
+      "ALIGNED_THROUGHOUT": 5,
+      "MOSTLY_ALIGNED_LOCAL_ISSUES": 0,
+      "MISALIGNED": 0,
+      "UNCERTAIN": 0
+    },
+    "FROZEN_ABLETON": {
+      "ALIGNED_THROUGHOUT": 4,
+      "MOSTLY_ALIGNED_LOCAL_ISSUES": 1,
+      "MISALIGNED": 0,
+      "UNCERTAIN": 0
+    },
+    "FROZEN_CURRENT_JGA": {
+      "ALIGNED_THROUGHOUT": 1,
+      "MOSTLY_ALIGNED_LOCAL_ISSUES": 0,
+      "MISALIGNED": 4,
+      "UNCERTAIN": 0
+    }
+  },
+  "decision": {
+    "primary": "A. PLP PERCEPTUALLY APPROACHES ABLETON",
+    "rule_application": {
+      "missing_or_uncertain": 0,
+      "unresolved_category_note_contradictions": 0,
+      "PLP_at_least_mostly": 5,
+      "PLP_no_worse_Ableton": 5,
+      "PLP_strictly_better_current": 4,
+      "PLP_ties_current": 1
+    },
+    "PLP_remaining_failure": "None reported in tested regions. Untested ending/low-evidence robustness and independent-recording generalization remain open.",
+    "cohort_2_required_before_native_development": true,
+    "cohort_2_rationale": "Prospective research gate, not a failed PLP criterion: audit and test existing alternatives before inventing a native system, particularly for known numerical tail irregularities and transferable robustness. No Cohort 2 execution authorized here.",
+    "cohort_2_priority": [
+      "Essentia MultiFeature after separate license/dependency audit",
+      "Essentia Degara under the same audit",
+      "BeatNet",
+      "madmom DBN",
+      "Beat This! subject to checkpoint provenance"
+    ],
+    "future_PLP_role": [
+      "LOCAL_PULSE_EVIDENCE",
+      "PERIOD_HYPOTHESIS_EVIDENCE",
+      "PHASE_HYPOTHESIS_EVIDENCE"
+    ],
+    "architecture": "audio evidence -> competing period hypotheses -> competing phase hypotheses -> contextual/global inference -> confidence -> metric lock -> slow tempo tracking -> quarter grid -> freeze",
+    "native_development": "NOT_STARTED",
+    "limitations": [
+      "Single PI; repeated listening to familiar development recording; no inter-rater or independent-recording generalization.",
+      "Categorical alignment is not a sample-accurate human timing reference or proof of every quarter.",
+      "Ending after 306 s is outside this review; frozen PLP tail irregularities remain unvalidated perceptually.",
+      "Benchmark disagreement is descriptive, not ground-truth error; subjective BPM estimates remain qualitative.",
+      "Blinding supported by PI attestation and unchanged identity-free interface; external viewing history is not independently recoverable.",
+      "No causal distinction of period versus phase from alignment judgments alone; no proprietary Ableton mechanism inferred."
+    ]
+  },
+  "opening_audit": {
+    "dense_candidate": "PULSE_A03",
+    "method": "FROZEN_ABLETON",
+    "source_leading_exact_zero_frames": 27648,
+    "source_leading_exact_zero_seconds": 0.626938775510204,
+    "source_render_start_s": 0,
+    "source_inserted_padding_or_shift": false,
+    "PCM_exact": "PASS_ALL15",
+    "interpretation": "Actual denser pulse schedule from frozen Ableton map; not extra render clicks. Exact digital zero test does not locate perceptual acoustic emergence. User effective-audio-entry timing remains qualitative. No acquisition mechanism inferred for Ableton.",
+    "PLP_opening": "PULSE_A02 ALIGNED_THROUGHOUT, frozen first timestamp0.06965986394557823; no native retrospective acquisition implemented",
+    "no_repair": true
+  },
+  "region_comparisons": [
+    {
+      "region": "A",
+      "PLP_judgment": "ALIGNED_THROUGHOUT",
+      "Ableton_judgment": "MOSTLY_ALIGNED_LOCAL_ISSUES",
+      "current_judgment": "MISALIGNED",
+      "PLP_count": "131",
+      "Ableton_count": "134",
+      "current_count": "129",
+      "PLP_median_abs_wrapped_phase_difference_ms": "34.92063492063479",
+      "current_median_abs_wrapped_phase_difference_ms": "85.63932013063892",
+      "PLP_quarter_rate_fraction": "0.8884052212908153",
+      "current_quarter_rate_fraction": "0.942389518626966",
+      "PLP_failure_diagnosis": "INSUFFICIENT_TO_ASSIGN_FAILURE: no perceptual failure reported",
+      "evidence_scope": "Frozen numerical comparison; differences are not ground-truth error"
+    },
+    {
+      "region": "B",
+      "PLP_judgment": "ALIGNED_THROUGHOUT",
+      "Ableton_judgment": "ALIGNED_THROUGHOUT",
+      "current_judgment": "MISALIGNED",
+      "PLP_count": "127",
+      "Ableton_count": "127",
+      "current_count": "126",
+      "PLP_median_abs_wrapped_phase_difference_ms": "19.285714285700802",
+      "current_median_abs_wrapped_phase_difference_ms": "95.95730708658579",
+      "PLP_quarter_rate_fraction": "0.9914187124125012",
+      "current_quarter_rate_fraction": "1.0",
+      "PLP_failure_diagnosis": "INSUFFICIENT_TO_ASSIGN_FAILURE: no perceptual failure reported",
+      "evidence_scope": "Frozen numerical comparison; differences are not ground-truth error"
+    },
+    {
+      "region": "C",
+      "PLP_judgment": "ALIGNED_THROUGHOUT",
+      "Ableton_judgment": "ALIGNED_THROUGHOUT",
+      "current_judgment": "MISALIGNED",
+      "PLP_count": "125",
+      "Ableton_count": "125",
+      "current_count": "127",
+      "PLP_median_abs_wrapped_phase_difference_ms": "25.124716553278866",
+      "current_median_abs_wrapped_phase_difference_ms": "49.10135502100844",
+      "PLP_quarter_rate_fraction": "0.9912280171327792",
+      "current_quarter_rate_fraction": "0.7112450079711241",
+      "PLP_failure_diagnosis": "INSUFFICIENT_TO_ASSIGN_FAILURE: no perceptual failure reported",
+      "evidence_scope": "Frozen numerical comparison; differences are not ground-truth error"
+    },
+    {
+      "region": "D",
+      "PLP_judgment": "ALIGNED_THROUGHOUT",
+      "Ableton_judgment": "ALIGNED_THROUGHOUT",
+      "current_judgment": "MISALIGNED",
+      "PLP_count": "127",
+      "Ableton_count": "130",
+      "current_count": "135",
+      "PLP_median_abs_wrapped_phase_difference_ms": "32.517006802720516",
+      "current_median_abs_wrapped_phase_difference_ms": "101.78707924617927",
+      "PLP_quarter_rate_fraction": "0.7874240513970541",
+      "current_quarter_rate_fraction": "0.6695458841460187",
+      "PLP_failure_diagnosis": "INSUFFICIENT_TO_ASSIGN_FAILURE: no perceptual failure reported",
+      "evidence_scope": "Frozen numerical comparison; differences are not ground-truth error"
+    },
+    {
+      "region": "E",
+      "PLP_judgment": "ALIGNED_THROUGHOUT",
+      "Ableton_judgment": "ALIGNED_THROUGHOUT",
+      "current_judgment": "ALIGNED_THROUGHOUT",
+      "PLP_count": "125",
+      "Ableton_count": "125",
+      "current_count": "125",
+      "PLP_median_abs_wrapped_phase_difference_ms": "14.835600907019849",
+      "current_median_abs_wrapped_phase_difference_ms": "45.19429718840228",
+      "PLP_quarter_rate_fraction": "1.0",
+      "current_quarter_rate_fraction": "1.0",
+      "PLP_failure_diagnosis": "INSUFFICIENT_TO_ASSIGN_FAILURE: no perceptual failure reported",
+      "evidence_scope": "Frozen numerical comparison; differences are not ground-truth error"
+    }
+  ],
+  "frozen_numerical_comparison_sha256": "1ee34107dba3fe69e59c287a211ccdae221956f9c76370637e842c961af2ec66",
+  "files": {
+    "RESPONSE_ACQUISITION/DECISION.json": "6bc54b7d1e08d89ee7193ddce22119c0371d3cfb637663c0dcb3befa0030a8b4",
+    "RESPONSE_ACQUISITION/FORMAL_ACQUISITION_FREEZE.json": "361d6f157b29322b619d744ed5ef31607b8b2445367dfa933de9b978d3a4d8c1",
+    "RESPONSE_ACQUISITION/JGA_C1_PLP_PI_RESPONSES.json": "2f4dc2c2844bb9d0c3a99508faf6a9ed2a9e9ecc51e848a5bce846cb99f07171",
+    "RESPONSE_ACQUISITION/JGA_C1_PLP_PI_RESPONSE_FREEZE.json": "1dfffc323de4821375bc583f3c9db5df4898ef2ed2e6b6f45a3c021a437e33c5",
+    "RESPONSE_ACQUISITION/METHOD_SUMMARY.csv": "171ac0b770f7143080b4ebb60fd1275b0ebcee85396044516030baad411c467a",
+    "RESPONSE_ACQUISITION/OPENING_AUDIT.json": "f32d80944d48b4b6393136a8721ca1a87db1f55b80c874e2b318b8914cb356e1",
+    "RESPONSE_ACQUISITION/OPENING_TIMESTAMP_AUDIT.csv": "c2e16d3370f9d4154c8c0785e3c7252c667aa34834c4c2953f3d5fc0ac740cf1",
+    "RESPONSE_ACQUISITION/REGION_COMPARISON.csv": "ccd46aeaf16403036344b5a167d5084b3b4c0d94cf700cee0a5a5d32bda45c48",
+    "RESPONSE_ACQUISITION/RENDER_AUDIT.csv": "12fd5e9b04ba61d138a410519d47385c31b8b7eca1da4c8e58645469f95c208d",
+    "RESPONSE_ACQUISITION/RESULT_VALIDATION.json": "1912038b3311b44cdb2caa93836e9953705fa20e573475e33639d52c89b26db8",
+    "RESPONSE_ACQUISITION/UNBLINDED_RESPONSES.csv": "5eafce4de58e696c80d673234878a8b0720f1bf9e68d353cdd9baff576f3d1c7",
+    "RESPONSE_ACQUISITION/audit_plp_perceptual.py": "1a5197649282f8f4e467e616467dde4814cf9a3264d74d02a6eefcc33cef19d2",
+    "RESPONSE_ACQUISITION/finalize_plp_review.py": "4140df2eb0a0c1b2a7581d5cfdc5bb0d68ec863925a9d98fdf615962a75b3bd0",
+    "PERCEPTUAL_RESULT.md": "2af94c83718a51ecfa4976dba3895fbe12b2671ac12a758dccd01fba0a4242b9"
+  }
+}

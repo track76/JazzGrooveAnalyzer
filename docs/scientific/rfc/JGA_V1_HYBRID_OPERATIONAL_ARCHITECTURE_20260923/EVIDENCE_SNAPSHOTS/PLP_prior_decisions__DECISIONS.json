@@ -1,0 +1,12 @@
+{
+  "H1_by_source": {
+    "BASS": "DEGRADES",
+    "DRUM": "INSUFFICIENT_EVIDENCE"
+  },
+  "H1_overall": "INSUFFICIENT_EVIDENCE",
+  "H2_BASS": "INSUFFICIENT_EVIDENCE",
+  "H2_DRUM": "DEGRADES",
+  "H2_overall": "INSUFFICIENT_EVIDENCE",
+  "engineering": "DO_NOT_INTEGRATE_TESTED_PRIOR; no positive adoption gate demonstrated",
+  "scope": "Only the registered pulse-proximity prior; not all PLP-derived context. PLP BPM adoption unchanged."
+}
