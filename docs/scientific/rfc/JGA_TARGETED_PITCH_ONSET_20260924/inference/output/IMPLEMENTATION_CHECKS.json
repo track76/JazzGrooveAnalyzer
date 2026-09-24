@@ -1,0 +1,6 @@
+{
+  "zero_energy_not_observable": true,
+  "constant_energy_continuous": true,
+  "known_energy_step_preserves_grid_crossing": true,
+  "scope": "state logic checks only, not physical onset validation"
+}

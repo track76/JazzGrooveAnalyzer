@@ -1,0 +1,880 @@
+[
+  {
+    "episode_id": "HF001",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      47.757460317460314
+    ],
+    "query_ids": [
+      "HF001_BP_0003_39"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF002",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      48.11065759637188
+    ],
+    "query_ids": [
+      "HF002_BP_0004_43"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF003",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      48.13061224489796,
+      48.132607709750566,
+      48.11365079365079
+    ],
+    "query_ids": [
+      "HF003_BP_0005_31",
+      "HF003_BP_0006_31",
+      "HF003_BP_0006_43"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF004",
+    "status": "TARGET_ACTIVITY_CONTINUOUS",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF004_BP_0007_44"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF005",
+    "status": "TARGET_ACTIVITY_CONTINUOUS",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF005_BP_0008_32"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF006",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      48.92181405895692
+    ],
+    "query_ids": [
+      "HF006_BP_0009_33"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF007",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      49.32390022675737
+    ],
+    "query_ids": [
+      "HF007_BP_0010_34"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF008",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      49.67809523809524,
+      49.67809523809524,
+      49.64916099773242
+    ],
+    "query_ids": [
+      "HF008_BP_0012_35",
+      "HF008_BP_0011_35",
+      "HF008_BP_0011_47"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF009",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      50.04925170068027
+    ],
+    "query_ids": [
+      "HF009_BP_0013_36"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF010",
+    "status": "TARGET_ONSET_MULTIPLE",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF010_BP_0014_28",
+      "HF010_BP_0015_28",
+      "HF010_BP_0015_47",
+      "HF010_BP_0016_28",
+      "HF010_BP_0016_40"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF011",
+    "status": "TARGET_ACTIVITY_CONTINUOUS",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF011_BP_0017_29"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF012",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      51.5308843537415,
+      51.5308843537415,
+      51.49995464852608
+    ],
+    "query_ids": [
+      "HF012_BP_0019_33",
+      "HF012_BP_0018_33",
+      "HF012_BP_0018_45"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF013",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      51.88607709750567,
+      51.88607709750567,
+      51.86512471655329
+    ],
+    "query_ids": [
+      "HF013_BP_0021_38",
+      "HF013_BP_0020_38",
+      "HF013_BP_0020_50"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF014",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF014_BP_0022_39",
+      "HF014_BP_0023_39",
+      "HF014_BP_0023_51"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF015",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      52.623401360544214,
+      52.623401360544214,
+      52.59646258503401,
+      52.623401360544214
+    ],
+    "query_ids": [
+      "HF015_BP_0024_36",
+      "HF015_BP_0025_36",
+      "HF015_BP_0025_48",
+      "HF015_BP_0026_36"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF016",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": true,
+    "clear_query_coordinates_s": [
+      52.980589569161,
+      52.981587301587304
+    ],
+    "query_ids": [
+      "HF016_BP_0027_43",
+      "HF016_BP_0028_43"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF017",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      53.347755102040814
+    ],
+    "query_ids": [
+      "HF017_BP_0029_41"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF018",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      53.71591836734694
+    ],
+    "query_ids": [
+      "HF018_BP_0030_46"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF019",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      54.41233560090703
+    ],
+    "query_ids": [
+      "HF019_BP_0031_44"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF020",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      54.78349206349206
+    ],
+    "query_ids": [
+      "HF020_BP_0032_43"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF021",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      55.16462585034014
+    ],
+    "query_ids": [
+      "HF021_BP_0033_41"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF022",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      55.53578231292517
+    ],
+    "query_ids": [
+      "HF022_BP_0034_35"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF023",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      55.90494331065759,
+      55.90494331065759,
+      55.87700680272109
+    ],
+    "query_ids": [
+      "HF023_BP_0035_34",
+      "HF023_BP_0036_34",
+      "HF023_BP_0036_46"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF024",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      56.22721088435374
+    ],
+    "query_ids": [
+      "HF024_BP_0037_44"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF025",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      56.60834467120181
+    ],
+    "query_ids": [
+      "HF025_BP_0038_43"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF026",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF026_BP_0039_47"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF027",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      56.9924716553288
+    ],
+    "query_ids": [
+      "HF027_BP_0040_35"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF028",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      57.206984126984125
+    ],
+    "query_ids": [
+      "HF028_BP_0041_48"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF029",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      57.36163265306122
+    ],
+    "query_ids": [
+      "HF029_BP_0042_36",
+      "HF029_BP_0043_36",
+      "HF029_BP_0043_64"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF030",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      57.680907029478455,
+      57.680907029478455,
+      57.6918820861678
+    ],
+    "query_ids": [
+      "HF030_BP_0044_28",
+      "HF030_BP_0045_28",
+      "HF030_BP_0045_47",
+      "HF030_BP_0046_28",
+      "HF030_BP_0047_28",
+      "HF030_BP_0047_40"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF031",
+    "status": "TARGET_ACTIVITY_CONTINUOUS",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF031_BP_0048_29"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF032",
+    "status": "TARGET_NOT_OBSERVABLE",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF032_BP_0049_33"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF033",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      58.80335600907029
+    ],
+    "query_ids": [
+      "HF033_BP_0050_46"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF034",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      58.816326530612244,
+      59.13759637188208
+    ],
+    "query_ids": [
+      "HF034_BP_0051_34",
+      "HF034_BP_0052_34",
+      "HF034_BP_0052_46"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF035",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      59.519727891156464
+    ],
+    "query_ids": [
+      "HF035_BP_0053_39",
+      "HF035_BP_0054_39"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF036",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      59.90485260770975
+    ],
+    "query_ids": [
+      "HF036_BP_0055_34"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF037",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      60.23609977324263
+    ],
+    "query_ids": [
+      "HF037_BP_0056_41"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF038",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      60.60526077097506
+    ],
+    "query_ids": [
+      "HF038_BP_0057_42"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF039",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": true,
+    "clear_query_coordinates_s": [
+      60.96344671201814,
+      60.964444444444446
+    ],
+    "query_ids": [
+      "HF039_BP_0058_43",
+      "HF039_BP_0059_43"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF040",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      61.33160997732426
+    ],
+    "query_ids": [
+      "HF040_BP_0060_47",
+      "HF040_BP_0061_47"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF041",
+    "status": "TARGET_ONSET_MULTIPLE",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF041_BP_0062_48",
+      "HF041_BP_0063_48"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF042",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      62.051972789115645
+    ],
+    "query_ids": [
+      "HF042_BP_0064_52"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF043",
+    "status": "TARGET_ACTIVITY_CONTINUOUS",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF043_BP_0065_52"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF044",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      63.173424036281176
+    ],
+    "query_ids": [
+      "HF044_BP_0066_53"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF045",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      63.90775510204082
+    ],
+    "query_ids": [
+      "HF045_BP_0067_57"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF046",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF046_BP_0069_43",
+      "HF046_BP_0068_43",
+      "HF046_BP_0068_55"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF047",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      64.61015873015873
+    ],
+    "query_ids": [
+      "HF047_BP_0070_53"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF048",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      64.96634920634921
+    ],
+    "query_ids": [
+      "HF048_BP_0071_47",
+      "HF048_BP_0072_47"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF049",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      65.33052154195012
+    ],
+    "query_ids": [
+      "HF049_BP_0073_46"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF050",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      66.05786848072562
+    ],
+    "query_ids": [
+      "HF050_BP_0074_50"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF051",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [],
+    "query_ids": [
+      "HF051_BP_0075_46"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF052",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      66.79020408163265,
+      66.7742403628118,
+      66.79020408163265
+    ],
+    "query_ids": [
+      "HF052_BP_0076_38",
+      "HF052_BP_0077_38",
+      "HF052_BP_0077_50",
+      "HF052_BP_0078_38"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF053",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      67.13142857142857
+    ],
+    "query_ids": [
+      "HF053_BP_0079_43",
+      "HF053_BP_0080_43"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF054",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      67.48861678004535
+    ],
+    "query_ids": [
+      "HF054_BP_0081_41"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF055",
+    "status": "TARGET_ONSET_MULTIPLE",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      67.85877551020408
+    ],
+    "query_ids": [
+      "HF055_BP_0082_35",
+      "HF055_BP_0083_35",
+      "HF055_BP_0083_47",
+      "HF055_BP_0084_35"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF056",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      68.222947845805,
+      68.222947845805,
+      68.19501133786848,
+      68.2239455782313
+    ],
+    "query_ids": [
+      "HF056_BP_0085_34",
+      "HF056_BP_0086_34",
+      "HF056_BP_0086_46",
+      "HF056_BP_0087_34"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF057",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      68.59809523809524,
+      68.59809523809524,
+      68.59809523809524,
+      68.57215419501134
+    ],
+    "query_ids": [
+      "HF057_BP_0088_36",
+      "HF057_BP_0090_36",
+      "HF057_BP_0089_36",
+      "HF057_BP_0089_48"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF058",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      68.96426303854875
+    ],
+    "query_ids": [
+      "HF058_BP_0091_37"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF059",
+    "status": "TARGET_ONSET_UNRESOLVED",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      69.30049886621315,
+      69.28154195011338
+    ],
+    "query_ids": [
+      "HF059_BP_0093_38",
+      "HF059_BP_0092_38",
+      "HF059_BP_0092_50"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF060",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": true,
+    "clear_query_coordinates_s": [
+      69.66766439909297,
+      69.66766439909297
+    ],
+    "query_ids": [
+      "HF060_BP_0094_39",
+      "HF060_BP_0095_39"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF061",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      70.00589569160998
+    ],
+    "query_ids": [
+      "HF061_BP_0096_46",
+      "HF061_BP_0097_46"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF062",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": true,
+    "clear_query_coordinates_s": [
+      70.36907029478458,
+      70.36907029478458
+    ],
+    "query_ids": [
+      "HF062_BP_0098_43",
+      "HF062_BP_0099_43"
+    ],
+    "identity_ambiguity": true,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  },
+  {
+    "episode_id": "HF063",
+    "status": "TARGET_ONSET_CLEAR",
+    "shared_target_onset": false,
+    "clear_query_coordinates_s": [
+      70.72526077097505
+    ],
+    "query_ids": [
+      "HF063_BP_0100_39"
+    ],
+    "identity_ambiguity": false,
+    "note": "No coordinate averaging; all query outcomes retained. Shared means within one hop only, not physical identity proof."
+  }
+]

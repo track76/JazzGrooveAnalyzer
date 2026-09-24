@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-24T17:03:08.265328+00:00",
+  "files": {
+    "EVALUATION_POPULATIONS.json": "4e8ad4ab335ac0403f531bdeecf5312bbff1afc5a3a18f545e30a726c1137965",
+    "PROTOCOL.json": "acec2aa60f8944266c695eae88ea0d9c6b293dfc42e08cac62a174367b178b97",
+    "INPUT_AUDIT.json": "ec961c26ef98967e8cf33fbe588f9441551cfc402cba3f524a25dda9d62d0fbd",
+    "inference/input/CANDIDATES.json": "1b26fda3e0ffef8632cc8bd8d1a8231c927c05d02a4b98c0cd7425f5acc8b2a9",
+    "inference/input/MODEL.joblib": "6523e71a1788b05b8c112570b1dc5a20736bea33942f68ad00ffd70359fb2474",
+    "inference/input/SELECTOR_RULE.json": "db998eaed9485edf913fd78d0698ad2fc9896a13d896dbffd5504e922dbc0a42",
+    "inference/selector.py": "c20687006752d2ec07c0de6be12d1f7055669e387d6f8c746c76c245686c3433",
+    "inference/morphology.py": "ac003cdaf4799e696204d95c527ee8cb747d262d4a9e17ca80aa3669b1570b70"
+  }
+}

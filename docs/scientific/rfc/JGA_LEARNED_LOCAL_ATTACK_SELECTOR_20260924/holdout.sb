@@ -1,0 +1,8 @@
+(version 1)
+(allow default)
+(deny network*)
+(deny file-read* (subpath "/Users") (subpath "/Volumes") (subpath "/private/tmp"))
+(allow file-read* (subpath "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/holdout"))
+(allow file-read* (subpath "/Users/StarTrack/Development/JazzGrooveAnalyzer/.venv"))
+(allow file-read* (subpath "/private/tmp/jga_selector_cache"))
+(allow file-read-metadata)

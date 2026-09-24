@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-24T17:20:58.176431+00:00",
+  "scope": "Same13 natural and35 masked cohort; previously exposed investigator; process-isolated inference. Fishman observable onset, not string release.",
+  "hypothesis_membership": "Exact prior BP-only operational membership retained as bookkeeping, NOT a merged search region. No GT-selected narrowing or restoration of secure matched BP ID for masked cohort. Every original window evaluated independently.",
+  "decision": "Unchanged frozen decide per native window. Zero successful queries: ABSTAIN_NO_SELECTED_ATTACK (NO_CANDIDATE if every window empty). One successful query: ATTACK_SELECTED_IDENTITY_UNRESOLVED. Multiple successful queries with identical original PCM sample coordinate: SHARED_ATTACK_IDENTITY_UNRESOLVED. Multiple distinct coordinates: ABSTAIN_MULTIPLE_DISTINCT_ATTACKS.",
+  "shared_definition": "Exact native PCM sample equality only, round(time*44100) to identify stored coordinate, not to change timestamp. No proximity tolerance, physical-identity certainty or averaging. Retain an actual original candidate timestamp.",
+  "scoring": "Same prior >100ms catastrophic threshold. \u00b110ms useful recovery. Preserve all failures, abstentions and exact cohort membership."
+}

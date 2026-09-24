@@ -1,0 +1,26 @@
+{
+  "historical_transfer_completed": "YES",
+  "frozen_selector_modified": "NO",
+  "selected_unique_attacks": 17,
+  "abstentions": 46,
+  "SECURE_ROUTE": {
+    "selected": 3,
+    "abstain": 25
+  },
+  "AMBIGUOUS_ROUTE": {
+    "selected": 14,
+    "abstain": 21
+  },
+  "shared_attacks": 0,
+  "ZERO_ONE_MULTIPLE": [
+    47,
+    17,
+    0
+  ],
+  "catastrophic_cross_event": "CANNOT VERIFY WITHOUT HISTORICAL GT",
+  "median_delta_ms": -1.723356009065924,
+  "mean_delta_ms": 4.689875950382446,
+  "walking_structure_interpretable": "NO",
+  "historical_result_usable": "PARTIAL",
+  "milestone_ready": "NO"
+}

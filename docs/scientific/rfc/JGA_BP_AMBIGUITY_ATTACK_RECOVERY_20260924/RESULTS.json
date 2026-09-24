@@ -1,0 +1,100 @@
+{
+  "natural_ambiguous": {
+    "events": 13,
+    "counts": {
+      "ATTACK_SELECTED_IDENTITY_UNRESOLVED": 13
+    },
+    "metrics": {
+      "N": 13,
+      "total": 13,
+      "coverage_pct": 100.0,
+      "median_signed_ms": -4.766439909303699,
+      "mean_signed_ms": 1179.4021454735753,
+      "median_absolute_ms": 4.817460317458,
+      "IQR_signed_ms": 0.32539682539578507,
+      "P95_absolute_ms": 6159.515873015851,
+      "maximum_absolute_ms": 15390.56349206349,
+      "within_5_pct": 69.23076923076923,
+      "within_10_pct": 92.3076923076923,
+      "within_20_pct": 92.3076923076923,
+      "within_30_pct": 92.3076923076923,
+      "useful_yield_10_pct": 92.3076923076923
+    },
+    "catastrophic_over100ms": 1,
+    "errors_over20ms": 1,
+    "errors_over30ms": 1,
+    "interval_counts": {
+      "BEFORE": 12,
+      "AFTER": 1
+    }
+  },
+  "masked_holdout": {
+    "events": 35,
+    "counts": {
+      "ATTACK_SELECTED_IDENTITY_UNRESOLVED": 35
+    },
+    "metrics": {
+      "N": 35,
+      "total": 35,
+      "coverage_pct": 100.0,
+      "median_signed_ms": -5.202947845802441,
+      "mean_signed_ms": 417.84149659863897,
+      "median_absolute_ms": 5.2267573696269665,
+      "IQR_signed_ms": 0.6020408163274205,
+      "P95_absolute_ms": 1666.794217687058,
+      "maximum_absolute_ms": 9250.056689342407,
+      "within_5_pct": 37.142857142857146,
+      "within_10_pct": 94.28571428571428,
+      "within_20_pct": 94.28571428571428,
+      "within_30_pct": 94.28571428571428,
+      "useful_yield_10_pct": 94.28571428571429
+    },
+    "catastrophic_over100ms": 2,
+    "errors_over20ms": 2,
+    "errors_over30ms": 2,
+    "interval_counts": {
+      "BEFORE": 33,
+      "AFTER": 2
+    }
+  },
+  "secure_same_holdout": {
+    "N": 35,
+    "total": 35,
+    "coverage_pct": 100.0,
+    "median_signed_ms": -5.213151927435433,
+    "mean_signed_ms": -5.083025591189586,
+    "median_absolute_ms": 5.213151927435433,
+    "IQR_signed_ms": 0.5204081632661506,
+    "P95_absolute_ms": 5.620521541948165,
+    "maximum_absolute_ms": 5.914965986391962,
+    "within_5_pct": 40.0,
+    "within_10_pct": 100.0,
+    "within_20_pct": 100.0,
+    "within_30_pct": 100.0,
+    "useful_yield_10_pct": 100.0
+  },
+  "BP_blind": {
+    "executable": false,
+    "reason": "No pre-existing compatible BP-independent region rule; frozen BP-relative feature inputs undefined."
+  },
+  "raw60_audit": {
+    "N": 60,
+    "counts": {
+      "UNVERIFIED_RAW_SELECTION": 42,
+      "REFERENCE_TEMPORALLY_COMPATIBLE": 18
+    },
+    "unique_selected_coordinates": 58,
+    "distinct_GT_compatible": 15,
+    "direct_natural_cohort": 8,
+    "group_membership_natural": 8,
+    "group_membership_masked": 41
+  },
+  "operational_population": {
+    "native_BP_hypotheses": 760,
+    "groups": 137,
+    "status_counts": {
+      "ABSTAIN_AMBIGUOUS": 15,
+      "ATTACK_SELECTED_IDENTITY_UNRESOLVED": 122
+    }
+  }
+}

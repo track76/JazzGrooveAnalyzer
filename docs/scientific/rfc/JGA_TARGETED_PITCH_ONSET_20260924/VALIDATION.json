@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "method_inputs_observations_hash_verified": true,
+  "original_fullmix_hash_verified": true,
+  "frozen63_episodes_hash_verified": true,
+  "all98_native_members_preserved": true,
+  "117_independent_target_queries": true,
+  "onset_candidates_are_original_frame_coordinates_within_exact_windows": true,
+  "no_timing_correction": true,
+  "filesystem_probes_denied": 2,
+  "no_Bass_PCM_or_model_or_historical_selection_in_inference_inputs": true,
+  "PDF_pages": {
+    "JGA_TARGETED_PITCH_ONSET_63.pdf": 63,
+    "JGA_TARGETED_PITCH_ONSET_SUMMARY.pdf": 1,
+    "JGA_TARGETED_PITCH_SPECIAL_CASES.pdf": 9
+  },
+  "visual_review": "HF044 enlarged rendered panel inspected; aligned original waveform/target trace/BP/crossing and post-freeze comparison marker visible; no PLP.",
+  "observation_freeze_sha256": "80711041115375e51390adbd07b055ded3f5e8e0da84e515ed3f75c566714814"
+}

@@ -1,0 +1,20 @@
+{
+  "window": "BP native onset \u00b10.150s, clipped to audio extent. Global initial design; local-context scale, not per-event GT centered. Development coverage is checked before training; inadequate coverage stops study. No holdout-dependent widening.",
+  "candidate": "Local maxima >1e-12 of positive magnitude flux 30<=f<250, Hann1024 hop44 @44100; exact frame-center coordinates. Only peaks in BP windows evaluated. No refractory.",
+  "features": "Preserved 19 morphology descriptors from prior controlled study plus signed BP distance, absolute BP distance, relative BP duration position. Fixed context extends up to 150ms beyond search window. No pitch/string/dynamic/GT features.",
+  "labels": "Inside human plausible interval = interval-compatible (weight1). Else within 5ms of interval = near-interval proxy (weight0.5), explicitly not GT-exact. Others negative. Multiple compatible candidates remain compatible; no nearest-to-GT target choice.",
+  "models": [
+    "LOGISTIC_C0.1",
+    "LOGISTIC_C1",
+    "TREE_DEPTH3_LEAF5"
+  ],
+  "thresholds": [
+    0.5,
+    0.75
+  ],
+  "abstention": "No peaks: NO_CANDIDATE. Max score below threshold or exactly tied top scores: ABSTAIN_AMBIGUOUS. Else select single highest-scoring native coordinate.",
+  "CV": "Leave one development take out. Balanced class weights; scaler fit on training folds only. All candidates from unique correct/octave BP correspondences in training take. Choose maximum CV useful yield within10ms per recognized note; then lowest P95 absolute error; then simpler model/threshold order.",
+  "candidate_gate": "All defensibly recognized development notes must have a candidate within20ms; otherwise stop. Report 5/10/20ms coverage both over recognized notes and 80 GT population.",
+  "evaluation": "Reuse frozen native BP matching protocol only AFTER predictions. Unique correct/octave matches define common baseline cohort. Multiple BP remains unresolved, all raw per-hypothesis predictions retained. Correct association within100ms scoring only; useful-event yield within10ms / all40GT, not just selected.",
+  "scope": "Fishman observable onset, NOT physical string release. Previously exposed investigator; strict process isolation for new development. No Ray Brown, PLP, corrections or model retuning after holdout."
+}

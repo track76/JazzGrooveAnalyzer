@@ -1,0 +1,105 @@
+{
+  "development": [
+    "20260914_0028",
+    "20260914_0029",
+    "20260914_0030",
+    "20260914_0033",
+    "20260914_0034",
+    "20260914_0036",
+    "20260914_0039",
+    "20260914_0040"
+  ],
+  "holdout": [
+    "20260914_0031",
+    "20260914_0035",
+    "20260914_0037",
+    "20260914_0038"
+  ],
+  "takes": {
+    "20260914_0028": {
+      "take_id": "20260914_0028",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0028 [2026-09-14 170910].wav",
+      "source_sha256": "3666e5e5d426fb4d70684020357d01f491582d1e764cda3387109cbd130824dc",
+      "string": "E",
+      "dynamic": "mf"
+    },
+    "20260914_0029": {
+      "take_id": "20260914_0029",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0029 [2026-09-14 171327].wav",
+      "source_sha256": "62e17f5b05b8ea007cb1592fac3eb68bc72d27a476fb337f1e2aab9f2a28dfd5",
+      "string": "A",
+      "dynamic": "mf"
+    },
+    "20260914_0030": {
+      "take_id": "20260914_0030",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0030 [2026-09-14 171340].wav",
+      "source_sha256": "35749ba227176914306bdef7a08784f50878c678367bcf40809af06159e35cfb",
+      "string": "D",
+      "dynamic": "mf"
+    },
+    "20260914_0031": {
+      "take_id": "20260914_0031",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0031 [2026-09-14 171635].wav",
+      "source_sha256": "6dc976e30bb436a1eadc9f9c97eeeb8d4bf57023fbcf95d06b9dedc300d3e39e",
+      "string": "G",
+      "dynamic": "mf"
+    },
+    "20260914_0033": {
+      "take_id": "20260914_0033",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0033 [2026-09-14 172532].wav",
+      "source_sha256": "43d2e14d8f406afa5b1d5b62e05ec8a90c4a57ddfce6c079372c2ef337cff58a",
+      "string": "E",
+      "dynamic": "COMFORTABLE_NATURAL"
+    },
+    "20260914_0034": {
+      "take_id": "20260914_0034",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0034 [2026-09-14 172540].wav",
+      "source_sha256": "d617573185e1d653dcd16e96d9c0fceb5816320c501a90c19aa3cf6404465d7b",
+      "string": "A",
+      "dynamic": "COMFORTABLE_NATURAL"
+    },
+    "20260914_0035": {
+      "take_id": "20260914_0035",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0035 [2026-09-14 172741].wav",
+      "source_sha256": "1f0b4fff9cf0ecc4ba0cdb3f6b7b5180de4a7c9466cf9b99874d8faa5ed0a5ce",
+      "string": "D",
+      "dynamic": "COMFORTABLE_NATURAL"
+    },
+    "20260914_0036": {
+      "take_id": "20260914_0036",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0036 [2026-09-14 173009].wav",
+      "source_sha256": "a809a218bcbe08ce0210e322998980156616c1ca094528dfb815665b2268fe22",
+      "string": "G",
+      "dynamic": "COMFORTABLE_NATURAL"
+    },
+    "20260914_0037": {
+      "take_id": "20260914_0037",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0037 [2026-09-14 173227].wav",
+      "source_sha256": "af23c44d3aa5e22965a6e6ba1132905929663de923345e8ae92f66f76d9d9bfe",
+      "string": "E",
+      "dynamic": "f"
+    },
+    "20260914_0038": {
+      "take_id": "20260914_0038",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0038 [2026-09-14 173542].wav",
+      "source_sha256": "ccf5323f5c7de0867a8ff2ad8bc1d98942d6b526462dfe78b82259f493685a91",
+      "string": "A",
+      "dynamic": "f"
+    },
+    "20260914_0039": {
+      "take_id": "20260914_0039",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0039 [2026-09-14 173828].wav",
+      "source_sha256": "7fe9058c85aa9e5d53e6632173afea4e30f15a5dbee5faafdfca28b2d3d5eaa4",
+      "string": "D",
+      "dynamic": "f"
+    },
+    "20260914_0040": {
+      "take_id": "20260914_0040",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0040 [2026-09-14 174102].wav",
+      "source_sha256": "856a8ac04628b65828bb573f063ccd4b093cece3c98707b6058abb8fadebb15b",
+      "string": "G",
+      "dynamic": "f"
+    }
+  },
+  "limitation": "Previously inspected corpus, including native BP errors. Process-isolated development holdout, not investigator-blind or pristine corpus holdout."
+}

@@ -1,0 +1,38 @@
+{
+  "verified_freezes": {
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_BASS_V1_HISTORICAL_TRANSFER_20260924/inference/output/HISTORICAL_ACOUSTIC_FREEZE.json": "9cbec2834049b83d66fa12936da39fa746435f60c12259793c970857f518f42a",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_BASS_V1_HISTORICAL_TRANSFER_20260924/ROUTING_FREEZE.json": "fd49dac07ba9c969ece6dadebefcb84f5ce37098f5e1461b7e06183ef49f1fc3",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/development/output/SELECTOR_FREEZE.json": "68b04a4efc74655e88c10b813a71c96d2385c52bca76cb7219d728d9b1e3566e"
+  },
+  "source_PCM": [
+    {
+      "signal": "mix",
+      "source": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/CANONICAL_INPUT/Exactly_Like_You_JGA_CANONICAL_FLOAT32.wav",
+      "sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2,
+      "subtype": "FLOAT",
+      "crop_start_sample": 1984500,
+      "crop_end_sample_exclusive": 3263400,
+      "crop_identical_samples": true,
+      "coordinate_offset_samples": 0
+    },
+    {
+      "signal": "bass",
+      "source": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/bass.wav",
+      "sha256": "8ca185528ce4c50f7a318fb21e9e49ee68b76c7fbede9e7dace5b61120c46952",
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2,
+      "subtype": "FLOAT",
+      "crop_start_sample": 1984500,
+      "crop_end_sample_exclusive": 3263400,
+      "crop_identical_samples": true,
+      "coordinate_offset_samples": 0
+    }
+  ],
+  "routing_unchanged": true,
+  "no_model_weights_copied_to_inference": true,
+  "controlled_reference": "Previously labelled developmental feature distributions only; no GT coordinates."
+}

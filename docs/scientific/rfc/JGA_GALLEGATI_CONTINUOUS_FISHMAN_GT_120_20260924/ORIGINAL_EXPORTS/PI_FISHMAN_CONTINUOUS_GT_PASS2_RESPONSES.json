@@ -1,0 +1,251 @@
+{
+  "study": "JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_PASS1_INGESTION_20260924",
+  "pass": 2,
+  "interface_version": "fishman_continuous_repeat_v1",
+  "started_utc": "2026-09-24T10:23:33.266Z",
+  "exported_utc": "2026-09-24T10:34:22.110Z",
+  "time_basis": "LOCAL_EXCERPT_SECONDS",
+  "recording_step_s": 0.001,
+  "items": [
+    {
+      "item_id": "R001",
+      "center_local_s": 2.364,
+      "earliest_local_s": 2.363,
+      "latest_local_s": 2.365,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:24:41.694Z"
+    },
+    {
+      "item_id": "R002",
+      "center_local_s": 2.129,
+      "earliest_local_s": 2.128,
+      "latest_local_s": 2.13,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:25:21.178Z"
+    },
+    {
+      "item_id": "R003",
+      "center_local_s": 1.964,
+      "earliest_local_s": 1.963,
+      "latest_local_s": 1.965,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:25:40.226Z"
+    },
+    {
+      "item_id": "R004",
+      "center_local_s": 2.008,
+      "earliest_local_s": 2.007,
+      "latest_local_s": 2.009,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:26:08.477Z"
+    },
+    {
+      "item_id": "R005",
+      "center_local_s": 2.676,
+      "earliest_local_s": 2.675,
+      "latest_local_s": 2.677,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:26:29.044Z"
+    },
+    {
+      "item_id": "R006",
+      "center_local_s": 2.434,
+      "earliest_local_s": 2.433,
+      "latest_local_s": 2.435,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:28:00.626Z"
+    },
+    {
+      "item_id": "R007",
+      "center_local_s": 2.398,
+      "earliest_local_s": 2.397,
+      "latest_local_s": 2.399,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:28:18.677Z"
+    },
+    {
+      "item_id": "R008",
+      "center_local_s": 1.664,
+      "earliest_local_s": 1.663,
+      "latest_local_s": 1.665,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:28:36.709Z"
+    },
+    {
+      "item_id": "R009",
+      "center_local_s": 2.407,
+      "earliest_local_s": 2.406,
+      "latest_local_s": 2.408,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:28:57.227Z"
+    },
+    {
+      "item_id": "R010",
+      "center_local_s": 1.129,
+      "earliest_local_s": 1.128,
+      "latest_local_s": 1.13,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:29:18.259Z"
+    },
+    {
+      "item_id": "R011",
+      "center_local_s": 3.056,
+      "earliest_local_s": 3.055,
+      "latest_local_s": 3.057,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:29:36.944Z"
+    },
+    {
+      "item_id": "R012",
+      "center_local_s": 1.889,
+      "earliest_local_s": 1.888,
+      "latest_local_s": 1.89,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:29:58.593Z"
+    },
+    {
+      "item_id": "R013",
+      "center_local_s": 2.533,
+      "earliest_local_s": 2.532,
+      "latest_local_s": 2.534,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:30:21.943Z"
+    },
+    {
+      "item_id": "R014",
+      "center_local_s": 1.802,
+      "earliest_local_s": 1.801,
+      "latest_local_s": 1.803,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:30:41.742Z"
+    },
+    {
+      "item_id": "R015",
+      "center_local_s": 1.716,
+      "earliest_local_s": 1.715,
+      "latest_local_s": 1.717,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:30:58.226Z"
+    },
+    {
+      "item_id": "R016",
+      "center_local_s": 1.834,
+      "earliest_local_s": 1.833,
+      "latest_local_s": 1.835,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:31:13.511Z"
+    },
+    {
+      "item_id": "R017",
+      "center_local_s": 2.726,
+      "earliest_local_s": 2.725,
+      "latest_local_s": 2.727,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:31:45.126Z"
+    },
+    {
+      "item_id": "R018",
+      "center_local_s": 2.349,
+      "earliest_local_s": 2.348,
+      "latest_local_s": 2.35,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:32:10.743Z"
+    },
+    {
+      "item_id": "R019",
+      "center_local_s": 2.43,
+      "earliest_local_s": 2.429,
+      "latest_local_s": 2.431,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:32:25.676Z"
+    },
+    {
+      "item_id": "R020",
+      "center_local_s": 1.746,
+      "earliest_local_s": 1.745,
+      "latest_local_s": 1.747,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:32:40.409Z"
+    },
+    {
+      "item_id": "R021",
+      "center_local_s": 2.219,
+      "earliest_local_s": 2.218,
+      "latest_local_s": 2.22,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:32:54.692Z"
+    },
+    {
+      "item_id": "R022",
+      "center_local_s": 2.072,
+      "earliest_local_s": 2.071,
+      "latest_local_s": 2.073,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:33:38.710Z"
+    },
+    {
+      "item_id": "R023",
+      "center_local_s": 2.28,
+      "earliest_local_s": 2.279,
+      "latest_local_s": 2.281,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:33:54.826Z"
+    },
+    {
+      "item_id": "R024",
+      "center_local_s": 1.917,
+      "earliest_local_s": 1.916,
+      "latest_local_s": 1.918,
+      "uncertain": false,
+      "annotation_difficulty": false,
+      "notes": "",
+      "updated_utc": "2026-09-24T10:34:17.775Z"
+    }
+  ]
+}

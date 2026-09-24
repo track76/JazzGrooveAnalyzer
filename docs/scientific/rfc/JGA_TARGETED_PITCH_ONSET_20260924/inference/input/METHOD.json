@@ -1,0 +1,46 @@
+{
+  "label": "PROCESS-BLINDED DIAGNOSTIC AFTER INVESTIGATOR PLP EXPOSURE",
+  "scope": "Conditional observation of pitched activity given frozen Bass/BP hypothesis. No source proof, no physical onset accuracy claim. No stem audio, model, historical selections or PLP given to inference.",
+  "targets": "Every exact member pitch at its native onset; also frozen fundamental pitch at each member onset if different. Preserve all63 frozen families/98members and ambiguity. Never merge or bridge windows.",
+  "window": {
+    "pre_s": 0.15,
+    "post_s": 0.15
+  },
+  "method": {
+    "name": "local complex-demodulated Hann energy",
+    "cycles": 4,
+    "frequency_offsets_cents": [
+      -35,
+      0,
+      35
+    ],
+    "hop_samples": 44,
+    "sample_rate": 44100,
+    "harmonics_support_only": [
+      2,
+      3
+    ],
+    "Hann": "symmetric odd-length kernel N=2*round(2*sr/f)+1, normalized sum; coefficient amplitude 2*abs(sum(window*x*exp(-i2pi*f*t))); target power=maximum amplitude squared over three tuning channels",
+    "frame_centers": "original recording sample multiples of44; centered signal support outside observation allowed solely for filtering, no outside-window onset search",
+    "resolution": "finite support N/sr; exact equivalent-noise bandwidth sr*sum(w*w)/sum(w)^2; Hann main-lobe first-null width approximately \u00b12sr/(N-1) around each tuning center. Tuning range is not total effective passband. Centered smoothing can precede an abrupt physical start by up to half support; no correction."
+  },
+  "observation_rule": {
+    "energy_floor": 1e-08,
+    "target_to_fullmix_energy_min": 0.01,
+    "dynamic_ratio_min": 4,
+    "baseline": "10th percentile local target power",
+    "peak": "maximum local target power",
+    "low": "baseline+0.2*(peak-baseline)",
+    "high": "baseline+0.6*(peak-baseline)",
+    "candidate": "When armed by observed power<=low, save first subsequent frame >low. Confirm only if power then reaches>=high and remains>=high for at least one target period. Emit saved existing low-crossing frame; rearm only after <=low. No extension beyond BP window; incomplete rise unresolved. No generic spectral peaks.",
+    "initial_high": "No inferred onset before window; await low state. Continuous if observable but dynamic ratio<4 or begins above low with no complete new rise and no incomplete rise.",
+    "not_observable": "peak<energy_floor or median(target power)/(4*median(centered Hann full-mix power))<.01; proxy criterion not proof of absent target.",
+    "unresolved": "Observable dynamic activity but no confirmed rise and not continuous; incomplete edge rises remain unresolved.",
+    "multiple": "more than one confirmed target rise; keep all coordinates",
+    "clear": "exactly one confirmed target rise; incomplete additional rise => unresolved rather thanclear"
+  },
+  "harmonic_support": "Same independent tracking at2f0 and3f0. A harmonic supports a primary candidate if observable and has confirmed rise within half the primary window support of it. These broad-resolution support matches are not timestamps to average. No harmonics required.",
+  "episode_aggregation": "All candidate coordinates retained. Any query MULTIPLE => episode MULTIPLE. Otherwise clear coordinates within one hop of each other (complete range<=44samples) => CLEAR, SHARED_TARGET_ONSET if >one pitch/member; no averaging and preserve each coordinate. Distinct clear structures from different pitches => UNRESOLVED identity, same pitch => MULTIPLE. No clear: all NOT_OBSERVABLE =>NOT; all CONTINUOUS or NOT with at leastoneCONTINUOUS =>CONTINUOUS; elseUNRESOLVED. Incomplete/unresolved queries with a clear alternative =>episodeUNRESOLVED.",
+  "diagnostic_thresholds": "Fixed engineering conventions defined before historical outcomes; unvalidated. No historical adjustment.",
+  "report_metric": "Median absolute native FM target crossing minus its own BP origin over clear target-query records in CLEAR episodes; report denominator. Not onset accuracy or Bass microtiming."
+}

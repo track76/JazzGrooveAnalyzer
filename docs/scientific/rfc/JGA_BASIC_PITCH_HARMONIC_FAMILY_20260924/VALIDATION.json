@@ -1,0 +1,19 @@
+{
+  "label": "PROCESS-BLINDED RESTART AFTER INVESTIGATOR PLP EXPOSURE",
+  "input_schema_allowlist_pass": true,
+  "all_native_hypotheses_preserved": true,
+  "hashes_unchanged_after_crosscheck": true,
+  "freeze_precedes_crosscheck": true,
+  "both_process_exclusion_probes_pass": true,
+  "native_detector_blocked_during_tracking": true,
+  "bass_source_hash_unchanged": true,
+  "no_reference_grid_evaluation": true,
+  "no_new_model_inference": true,
+  "episode_table_sha256": "52aff9d008fe108d747a529e925ba7e12af940088e75439e8e040ed786e6b5ef",
+  "membership_sha256": "3f85ea1ac413be102b5d073a9a71a82381cc6c5fadffa59e8d3ff93c15fc87f2",
+  "profiles": {
+    "tracking": "9f999bbcf0694885aea2cfe3b6da8906d74758f9be483df8c34528af440f957c",
+    "crosscheck": "d18c0fb8b1a3068c613be3a288d57dad4c67d5a1fde7253010b4204d3306d2ed"
+  },
+  "human_musical_identity_validation": false
+}

@@ -1,0 +1,13 @@
+{
+  "authority": "Explicit PI approval in current conversation",
+  "scope": "Operational Bass-v1 historical routing; not GT-correct identity",
+  "rule": "28 frozen UNFLAGGED \u2192 SECURE_ROUTE, native root only.35 frozen FLAGGED \u2192 AMBIGUOUS_ROUTE, exact frozen family members independently. No outcome-dependent changes.",
+  "excluded_inputs": [
+    "PLP",
+    "Report001 timing",
+    "PI-selected attack timestamps",
+    "historical acoustic outcomes"
+  ],
+  "routing_inputs": "Frozen episode identity/flags/member IDs only",
+  "timing_source": "Unchanged preserved Demucs Bass PCM; original mix is PLP source, not a replacement attack coordinate. No independent Demucs latency validation."
+}

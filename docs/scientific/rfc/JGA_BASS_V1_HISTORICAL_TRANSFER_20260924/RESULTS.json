@@ -1,0 +1,105 @@
+{
+  "processed_episodes": 63,
+  "native_hypotheses": 98,
+  "selected_unique_attacks": 17,
+  "abstentions": 46,
+  "shared_unique_attacks": 0,
+  "quarters": 64,
+  "quarter_counts": {
+    "ZERO": 47,
+    "ONE": 17
+  },
+  "outside_target_quarters": 0,
+  "combined": {
+    "N": 17,
+    "median_ms": -1.723356009065924,
+    "mean_ms": 4.689875950382446,
+    "IQR_ms": 145.75963718821328,
+    "P95_absolute_ms": 158.9841269841301,
+    "before_count": 9,
+    "after_count": 8,
+    "exact_count": 0,
+    "before_pct": 52.94117647058824,
+    "after_pct": 47.05882352941176,
+    "exact_pct": 0.0,
+    "beat_medians": {
+      "1": 54.87528344671588,
+      "2": 83.67346938775455,
+      "3": -2.2675736961303983,
+      "4": -95.14739229025082
+    },
+    "within_ms_counts": {
+      "10": 3,
+      "20": 4,
+      "30": 6,
+      "50": 6,
+      "100": 9
+    }
+  },
+  "routes": {
+    "SECURE_ROUTE": {
+      "episodes": 28,
+      "selected_episodes": 3,
+      "abstain_episodes": 25,
+      "abstention_rate_pct": 89.28571428571429,
+      "unique_attack_stats": {
+        "N": 3,
+        "median_ms": 130.24943310657733,
+        "mean_ms": 89.76568405140266,
+        "IQR_ms": 71.79138321994571,
+        "P95_absolute_ms": 140.20861678004266,
+        "before_count": 1,
+        "after_count": 2,
+        "exact_count": 0,
+        "before_pct": 33.33333333333333,
+        "after_pct": 66.66666666666666,
+        "exact_pct": 0.0,
+        "beat_medians": {
+          "1": null,
+          "2": null,
+          "3": 130.24943310657733,
+          "4": null
+        },
+        "within_ms_counts": {
+          "10": 1,
+          "20": 1,
+          "30": 1,
+          "50": 1,
+          "100": 1
+        }
+      }
+    },
+    "AMBIGUOUS_ROUTE": {
+      "episodes": 35,
+      "selected_episodes": 14,
+      "abstain_episodes": 21,
+      "abstention_rate_pct": 60.0,
+      "unique_attack_stats": {
+        "N": 14,
+        "median_ms": -13.696145124711734,
+        "mean_ms": -13.540654356979028,
+        "IQR_ms": 189.56916099773656,
+        "P95_absolute_ms": 160.19501133787094,
+        "before_count": 8,
+        "after_count": 6,
+        "exact_count": 0,
+        "before_pct": 57.14285714285714,
+        "after_pct": 42.857142857142854,
+        "exact_pct": 0.0,
+        "beat_medians": {
+          "1": 54.87528344671588,
+          "2": 83.67346938775455,
+          "3": -87.66439909297219,
+          "4": -95.14739229025082
+        },
+        "within_ms_counts": {
+          "10": 2,
+          "20": 3,
+          "30": 5,
+          "50": 5,
+          "100": 8
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "stage": "manifest, bootstrap and precommit audit",
+  "final_baseline_freeze_sha256": "31d865a6d8b48f41cab7e147b01c336bde0bc2c4ceb211a101399994bf9772d4",
+  "bootstrap_sha256": "3d5d59c4ccd8f6343af7017c189a42cc1395bfc43636595ed1745da403a1abac",
+  "all_manifest_entries_verified": 516,
+  "bootstrap_exact_generator_output": true,
+  "all_bootstrap_links_exist": true,
+  "scientific_reruns": 0,
+  "scope": "Only root bootstrap and canonical generating state section modified among pre-existing tracked files; unrelated changes excluded from intended staging."
+}

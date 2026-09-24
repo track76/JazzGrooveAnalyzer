@@ -1,0 +1,17 @@
+{
+  "INPUT_FREEZE.json": "PASS",
+  "inference/output/DIAGNOSTIC_FREEZE.json": "PASS",
+  "sources_and_prior_freezes_unchanged": "PASS",
+  "exact_prior_windows_candidates_decisions": "PASS",
+  "all_fronts_inside_exact_independent_windows": "PASS",
+  "execution_isolation_negative_reads": "PASS (3/3)",
+  "PDF_pages": {
+    "JGA_STEM_VS_FULLMIX_63_EPISODES.pdf": 63,
+    "JGA_FULLMIX_ABSTENTION_RECOVERY_DIAGNOSTIC.pdf": 46,
+    "JGA_SELECTED_STEM_ATTACKS_FULLMIX_CROSSCHECK.pdf": 17
+  },
+  "visual_review": "HF044 synchronized four-panel render inspected; no PLP, unchanged BP/stem markers and all bounded full-mix peaks visible.",
+  "classification_freeze_sha256": "b7542eec56212081ff7295abed78fdf5992204c4645aa6ca34a4edf3f2ef2edb",
+  "no_fullmix_logistic_or_attack_selection": true,
+  "status": "PASS"
+}

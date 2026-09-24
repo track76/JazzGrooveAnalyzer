@@ -1,0 +1,342 @@
+[
+  {
+    "event_id": "BASS_00108",
+    "timestamp_s": "45.11637188208617",
+    "sample_index": "1989632"
+  },
+  {
+    "event_id": "BASS_00109",
+    "timestamp_s": "47.658956916099775",
+    "sample_index": "2101760"
+  },
+  {
+    "event_id": "BASS_00110",
+    "timestamp_s": "48.042086167800456",
+    "sample_index": "2118656"
+  },
+  {
+    "event_id": "BASS_00111",
+    "timestamp_s": "48.12335600907029",
+    "sample_index": "2122240"
+  },
+  {
+    "event_id": "BASS_00112",
+    "timestamp_s": "48.576145124716554",
+    "sample_index": "2142208"
+  },
+  {
+    "event_id": "BASS_00113",
+    "timestamp_s": "48.92444444444445",
+    "sample_index": "2157568"
+  },
+  {
+    "event_id": "BASS_00114",
+    "timestamp_s": "49.30757369614513",
+    "sample_index": "2174464"
+  },
+  {
+    "event_id": "BASS_00115",
+    "timestamp_s": "49.66748299319728",
+    "sample_index": "2190336"
+  },
+  {
+    "event_id": "BASS_00116",
+    "timestamp_s": "50.02739229024943",
+    "sample_index": "2206208"
+  },
+  {
+    "event_id": "BASS_00117",
+    "timestamp_s": "50.39891156462585",
+    "sample_index": "2222592"
+  },
+  {
+    "event_id": "BASS_00118",
+    "timestamp_s": "50.43374149659864",
+    "sample_index": "2224128"
+  },
+  {
+    "event_id": "BASS_00119",
+    "timestamp_s": "51.04907029478458",
+    "sample_index": "2251264"
+  },
+  {
+    "event_id": "BASS_00120",
+    "timestamp_s": "51.5134693877551",
+    "sample_index": "2271744"
+  },
+  {
+    "event_id": "BASS_00121",
+    "timestamp_s": "51.88498866213152",
+    "sample_index": "2288128"
+  },
+  {
+    "event_id": "BASS_00122",
+    "timestamp_s": "52.61641723356009",
+    "sample_index": "2320384"
+  },
+  {
+    "event_id": "BASS_00123",
+    "timestamp_s": "52.97632653061225",
+    "sample_index": "2336256"
+  },
+  {
+    "event_id": "BASS_00124",
+    "timestamp_s": "53.35945578231293",
+    "sample_index": "2353152"
+  },
+  {
+    "event_id": "BASS_00125",
+    "timestamp_s": "53.730975056689346",
+    "sample_index": "2369536"
+  },
+  {
+    "event_id": "BASS_00126",
+    "timestamp_s": "54.427573696145124",
+    "sample_index": "2400256"
+  },
+  {
+    "event_id": "BASS_00127",
+    "timestamp_s": "54.78748299319728",
+    "sample_index": "2416128"
+  },
+  {
+    "event_id": "BASS_00128",
+    "timestamp_s": "55.1590022675737",
+    "sample_index": "2432512"
+  },
+  {
+    "event_id": "BASS_00129",
+    "timestamp_s": "55.414421768707484",
+    "sample_index": "2443776"
+  },
+  {
+    "event_id": "BASS_00130",
+    "timestamp_s": "55.89043083900227",
+    "sample_index": "2464768"
+  },
+  {
+    "event_id": "BASS_00131",
+    "timestamp_s": "56.62185941043084",
+    "sample_index": "2497024"
+  },
+  {
+    "event_id": "BASS_00132",
+    "timestamp_s": "56.91210884353742",
+    "sample_index": "2509824"
+  },
+  {
+    "event_id": "BASS_00133",
+    "timestamp_s": "57.68997732426304",
+    "sample_index": "2544128"
+  },
+  {
+    "event_id": "BASS_00134",
+    "timestamp_s": "58.44462585034014",
+    "sample_index": "2577408"
+  },
+  {
+    "event_id": "BASS_00135",
+    "timestamp_s": "58.80453514739229",
+    "sample_index": "2593280"
+  },
+  {
+    "event_id": "BASS_00136",
+    "timestamp_s": "59.5243537414966",
+    "sample_index": "2625024"
+  },
+  {
+    "event_id": "BASS_00137",
+    "timestamp_s": "59.895873015873015",
+    "sample_index": "2641408"
+  },
+  {
+    "event_id": "BASS_00138",
+    "timestamp_s": "60.232562358276645",
+    "sample_index": "2656256"
+  },
+  {
+    "event_id": "BASS_00139",
+    "timestamp_s": "60.615691609977326",
+    "sample_index": "2673152"
+  },
+  {
+    "event_id": "BASS_00140",
+    "timestamp_s": "60.97560090702948",
+    "sample_index": "2689024"
+  },
+  {
+    "event_id": "BASS_00141",
+    "timestamp_s": "61.265850340136055",
+    "sample_index": "2701824"
+  },
+  {
+    "event_id": "BASS_00142",
+    "timestamp_s": "61.3471201814059",
+    "sample_index": "2705408"
+  },
+  {
+    "event_id": "BASS_00143",
+    "timestamp_s": "61.718639455782316",
+    "sample_index": "2721792"
+  },
+  {
+    "event_id": "BASS_00144",
+    "timestamp_s": "61.9740589569161",
+    "sample_index": "2733056"
+  },
+  {
+    "event_id": "BASS_00145",
+    "timestamp_s": "62.09015873015873",
+    "sample_index": "2738176"
+  },
+  {
+    "event_id": "BASS_00146",
+    "timestamp_s": "62.20625850340136",
+    "sample_index": "2743296"
+  },
+  {
+    "event_id": "BASS_00147",
+    "timestamp_s": "62.83319727891156",
+    "sample_index": "2770944"
+  },
+  {
+    "event_id": "BASS_00148",
+    "timestamp_s": "62.94929705215419",
+    "sample_index": "2776064"
+  },
+  {
+    "event_id": "BASS_00149",
+    "timestamp_s": "63.7968253968254",
+    "sample_index": "2813440"
+  },
+  {
+    "event_id": "BASS_00150",
+    "timestamp_s": "63.901315192743766",
+    "sample_index": "2818048"
+  },
+  {
+    "event_id": "BASS_00151",
+    "timestamp_s": "64.63274376417233",
+    "sample_index": "2850304"
+  },
+  {
+    "event_id": "BASS_00152",
+    "timestamp_s": "64.96943310657596",
+    "sample_index": "2865152"
+  },
+  {
+    "event_id": "BASS_00153",
+    "timestamp_s": "65.34095238095239",
+    "sample_index": "2881536"
+  },
+  {
+    "event_id": "BASS_00154",
+    "timestamp_s": "65.70086167800453",
+    "sample_index": "2897408"
+  },
+  {
+    "event_id": "BASS_00155",
+    "timestamp_s": "66.07238095238095",
+    "sample_index": "2913792"
+  },
+  {
+    "event_id": "BASS_00156",
+    "timestamp_s": "66.43229024943311",
+    "sample_index": "2929664"
+  },
+  {
+    "event_id": "BASS_00157",
+    "timestamp_s": "66.780589569161",
+    "sample_index": "2945024"
+  },
+  {
+    "event_id": "BASS_00158",
+    "timestamp_s": "67.14049886621315",
+    "sample_index": "2960896"
+  },
+  {
+    "event_id": "BASS_00159",
+    "timestamp_s": "67.48879818594105",
+    "sample_index": "2976256"
+  },
+  {
+    "event_id": "BASS_00160",
+    "timestamp_s": "67.83709750566894",
+    "sample_index": "2991616"
+  },
+  {
+    "event_id": "BASS_00161",
+    "timestamp_s": "68.20861678004535",
+    "sample_index": "3008000"
+  },
+  {
+    "event_id": "BASS_00162",
+    "timestamp_s": "68.59174603174603",
+    "sample_index": "3024896"
+  },
+  {
+    "event_id": "BASS_00163",
+    "timestamp_s": "68.95165532879818",
+    "sample_index": "3040768"
+  },
+  {
+    "event_id": "BASS_00164",
+    "timestamp_s": "69.29995464852608",
+    "sample_index": "3056128"
+  },
+  {
+    "event_id": "BASS_00165",
+    "timestamp_s": "69.67147392290249",
+    "sample_index": "3072512"
+  },
+  {
+    "event_id": "BASS_00166",
+    "timestamp_s": "70.00816326530612",
+    "sample_index": "3087360"
+  },
+  {
+    "event_id": "BASS_00167",
+    "timestamp_s": "70.37968253968253",
+    "sample_index": "3103744"
+  },
+  {
+    "event_id": "BASS_00168",
+    "timestamp_s": "70.72798185941043",
+    "sample_index": "3119104"
+  },
+  {
+    "event_id": "BASS_00169",
+    "timestamp_s": "71.09950113378684",
+    "sample_index": "3135488"
+  },
+  {
+    "event_id": "BASS_00170",
+    "timestamp_s": "71.35492063492063",
+    "sample_index": "3146752"
+  },
+  {
+    "event_id": "BASS_00171",
+    "timestamp_s": "71.44780045351474",
+    "sample_index": "3150848"
+  },
+  {
+    "event_id": "BASS_00172",
+    "timestamp_s": "72.16761904761904",
+    "sample_index": "3182592"
+  },
+  {
+    "event_id": "BASS_00173",
+    "timestamp_s": "72.88743764172335",
+    "sample_index": "3214336"
+  },
+  {
+    "event_id": "BASS_00174",
+    "timestamp_s": "73.25895691609978",
+    "sample_index": "3230720"
+  },
+  {
+    "event_id": "BASS_00175",
+    "timestamp_s": "73.60725623582766",
+    "sample_index": "3246080"
+  }
+]

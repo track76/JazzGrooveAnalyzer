@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-24T16:36:46.739714+00:00",
+  "GT_hashes_unchanged": true,
+  "complete_take_outputs": 12,
+  "native_hypotheses": 760,
+  "all_model_values_finite": true,
+  "all_output_and_result_hashes_verified": true,
+  "unique_GT_rows": 120,
+  "unique_unmoved_native_matches": 107,
+  "PDF_pages": {
+    "GALLEGATI_NATIVE_BP_TIMING_EXAMPLES.pdf": 6,
+    "GALLEGATI_NATIVE_BP_ERROR_BY_STRING_CONDITION.pdf": 1,
+    "GALLEGATI_NATIVE_BP_ONSET_VS_GT_120.pdf": 1
+  },
+  "no_timing_correction": true
+}

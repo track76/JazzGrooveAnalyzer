@@ -1,0 +1,45 @@
+{
+  "episodes": 63,
+  "primary_N": 34,
+  "primary_status": {
+    "UNRESOLVED_ATTRIBUTION": 34
+  },
+  "all_status": {
+    "UNRESOLVED_ATTRIBUTION": 63
+  },
+  "previous17_counterpart": 0,
+  "previous17_earlier": 0,
+  "previous17_later": 0,
+  "template_evaluations": 117,
+  "resolved_templates": 0,
+  "candidate_note_evaluations": 4532,
+  "class_counts": {
+    "UNRESOLVED": 4532
+  },
+  "special": [
+    {
+      "episode_id": "HF044",
+      "status": "UNRESOLVED_ATTRIBUTION",
+      "compatible_fronts_s": [],
+      "mixed_fronts_s": [],
+      "pitch_coherent_coordinates": 0,
+      "previous_multiple_cue_abstention": false,
+      "previous_selected_s": 63.31174603174603,
+      "counterpart": false,
+      "earlier_compatible": [],
+      "later_compatible": []
+    },
+    {
+      "episode_id": "HF047",
+      "status": "UNRESOLVED_ATTRIBUTION",
+      "compatible_fronts_s": [],
+      "mixed_fronts_s": [],
+      "pitch_coherent_coordinates": 0,
+      "previous_multiple_cue_abstention": false,
+      "previous_selected_s": 64.76244897959184,
+      "counterpart": false,
+      "earlier_compatible": [],
+      "later_compatible": []
+    }
+  ]
+}

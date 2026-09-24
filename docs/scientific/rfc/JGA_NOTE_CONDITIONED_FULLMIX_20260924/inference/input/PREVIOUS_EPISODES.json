@@ -1,0 +1,1150 @@
+[
+  {
+    "episode_id": "HF001",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0003"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      47.672290249433104,
+      47.76707482993197,
+      47.78004535147392
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF002",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 48.16816326530612,
+    "hypothesis_ids": [
+      "BP_0004"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      48.02748299319728,
+      48.04244897959184,
+      48.08834467120182,
+      48.11229024943311,
+      48.12825396825397
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF003",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0005",
+      "BP_0006"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      48.027482993197275,
+      48.04244897959183,
+      48.08834467120182,
+      48.11229024943311,
+      48.12825396825397
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF004",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0007"
+    ],
+    "salient_front_count": 0,
+    "salient_fronts_s": [],
+    "diagnostic_class": "NO_CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF005",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 48.761814058956915,
+    "hypothesis_ids": [
+      "BP_0008"
+    ],
+    "salient_front_count": 0,
+    "salient_fronts_s": [],
+    "diagnostic_class": "NO_CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": "FULLMIX_NO_SUPPORT",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF006",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0009"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      48.91646258503401,
+      48.98829931972789
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF007",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0010"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      49.29560090702948
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF008",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0012",
+      "BP_0011"
+    ],
+    "salient_front_count": 4,
+    "salient_fronts_s": [
+      49.608888888888885,
+      49.64780045351474,
+      49.6627664399093,
+      49.678730158730154
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF009",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0013"
+    ],
+    "salient_front_count": 0,
+    "salient_fronts_s": [],
+    "diagnostic_class": "NO_CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF010",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0014",
+      "BP_0015",
+      "BP_0016"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      50.37913832199546,
+      50.403083900226754,
+      50.42802721088435
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF011",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0017"
+    ],
+    "salient_front_count": 0,
+    "salient_fronts_s": [],
+    "diagnostic_class": "NO_CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF012",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 51.71111111111111,
+    "hypothesis_ids": [
+      "BP_0019",
+      "BP_0018"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      51.447709750566894,
+      51.49560090702948,
+      51.51455782312925,
+      51.56544217687075,
+      51.583401360544215
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF013",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0021",
+      "BP_0020"
+    ],
+    "salient_front_count": 0,
+    "salient_fronts_s": [],
+    "diagnostic_class": "NO_CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF014",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 52.31174603174603,
+    "hypothesis_ids": [
+      "BP_0022",
+      "BP_0023"
+    ],
+    "salient_front_count": 0,
+    "salient_fronts_s": [],
+    "diagnostic_class": "NO_CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": "FULLMIX_NO_SUPPORT",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF015",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_MULTIPLE_DISTINCT_ATTACKS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0024",
+      "BP_0025",
+      "BP_0026"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      52.593106575963716
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF016",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      52.941315192743765,
+      52.963265306122445,
+      52.980226757369614,
+      53.0021768707483,
+      53.012154195011334
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF017",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0029"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      53.30748299319728,
+      53.35138321995465,
+      53.36535147392291,
+      53.38131519274376,
+      53.39528344671202
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF018",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0030"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      53.718548752834465
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF019",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0031"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      54.41696145124717,
+      54.43492063492064,
+      54.44390022675737
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF020",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0032"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      54.788117913832195,
+      54.80807256235828
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF021",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0033"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      55.139319727891156,
+      55.16226757369615,
+      55.2021768707483
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF022",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0034"
+    ],
+    "salient_front_count": 8,
+    "salient_fronts_s": [
+      55.39074829931973,
+      55.41369614512472,
+      55.42367346938776,
+      55.466575963718824,
+      55.487528344671205,
+      55.50448979591837,
+      55.51646258503401,
+      55.52843537414966
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF023",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0035",
+      "BP_0036"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      55.884625850340136
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF024",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0037"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      56.15102040816326,
+      56.23582766439909
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF025",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0038"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      56.61496598639456,
+      56.63891156462585
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF026",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0039"
+    ],
+    "salient_front_count": 6,
+    "salient_fronts_s": [
+      56.89233560090703,
+      56.90829931972789,
+      56.91827664399093,
+      56.92925170068027,
+      56.94222222222222,
+      56.96716553287982
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF027",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 57.181678004535144,
+    "hypothesis_ids": [
+      "BP_0040"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      56.892335600907025,
+      56.96716553287982
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF028",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0041"
+    ],
+    "salient_front_count": 0,
+    "salient_fronts_s": [],
+    "diagnostic_class": "NO_CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF029",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 57.51292517006803,
+    "hypothesis_ids": [
+      "BP_0042",
+      "BP_0043"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      57.212607709750564
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": "FULLMIX_SUPPORTS_DIFFERENT_EARLIER_FRONT",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF030",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_MULTIPLE_DISTINCT_ATTACKS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0044",
+      "BP_0045",
+      "BP_0046",
+      "BP_0047"
+    ],
+    "salient_front_count": 7,
+    "salient_fronts_s": [
+      57.587755102040816,
+      57.615691609977326,
+      57.64562358276644,
+      57.67655328798186,
+      57.70049886621315,
+      57.71945578231293,
+      57.72544217687075
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF031",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0048"
+    ],
+    "salient_front_count": 0,
+    "salient_fronts_s": [],
+    "diagnostic_class": "NO_CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF032",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0049"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      58.429841269841276,
+      58.447800453514745,
+      58.4637641723356
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF033",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0050"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      58.80798185941043
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF034",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0051",
+      "BP_0052"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      59.054421768707485,
+      59.1092970521542
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF035",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      59.50539682539682,
+      59.5243537414966,
+      59.54730158730158
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF036",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0055"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      59.86956916099773,
+      59.883537414965986
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF037",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0056"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      60.203809523809525,
+      60.22077097505669,
+      60.24671201814059
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF038",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0057"
+    ],
+    "salient_front_count": 4,
+    "salient_fronts_s": [
+      60.52907029478458,
+      60.58993197278912,
+      60.60888888888889,
+      60.639818594104305
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF039",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 61.06585034013606,
+    "hypothesis_ids": [
+      "BP_0058",
+      "BP_0059"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      60.967074829931974,
+      60.98702947845805,
+      60.998004535147395
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF040",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 61.66848072562358,
+    "hypothesis_ids": [
+      "BP_0060",
+      "BP_0061"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      61.607619047619046
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": "FULLMIX_SUPPORTS_DIFFERENT_EARLIER_FRONT",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF041",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 62.015691609977324,
+    "hypothesis_ids": [
+      "BP_0062",
+      "BP_0063"
+    ],
+    "salient_front_count": 8,
+    "salient_fronts_s": [
+      61.607619047619046,
+      61.68643990929705,
+      61.70340136054422,
+      61.725351473922906,
+      61.784217687074836,
+      61.86603174603175,
+      61.88997732426304,
+      62.01668934240363
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF042",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0064"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      62.05260770975057,
+      62.06956916099773
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF043",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0065"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      62.79591836734694,
+      62.811882086167806
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF044",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ATTACK_SELECTED",
+    "historical_selected_s": 63.31174603174603,
+    "hypothesis_ids": [
+      "BP_0066"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      63.13115646258504,
+      63.172063492063494
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF045",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0067"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      63.791655328798186,
+      63.81061224489796
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF046",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 64.43020408163265,
+    "hypothesis_ids": [
+      "BP_0069",
+      "BP_0068"
+    ],
+    "salient_front_count": 4,
+    "salient_fronts_s": [
+      64.17278911564625,
+      64.19374149659863,
+      64.21269841269842,
+      64.25260770975056
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF047",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ATTACK_SELECTED",
+    "historical_selected_s": 64.76244897959184,
+    "hypothesis_ids": [
+      "BP_0070"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      64.50004535147391,
+      64.61079365079365,
+      64.62575963718821
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF048",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 64.96698412698413,
+    "hypothesis_ids": [
+      "BP_0071",
+      "BP_0072"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      64.89315192743764,
+      64.96698412698413
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF049",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0073"
+    ],
+    "salient_front_count": 6,
+    "salient_fronts_s": [
+      65.2962358276644,
+      65.30621315192744,
+      65.32816326530613,
+      65.3471201814059,
+      65.35809523809525,
+      65.54566893424037
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF050",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ATTACK_SELECTED",
+    "historical_selected_s": 66.05850340136055,
+    "hypothesis_ids": [
+      "BP_0074"
+    ],
+    "salient_front_count": 7,
+    "salient_fronts_s": [
+      65.97968253968254,
+      65.9946485260771,
+      66.01560090702948,
+      66.03156462585035,
+      66.05850340136055,
+      66.0704761904762,
+      66.07945578231293
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF051",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0075"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      66.37179138321996,
+      66.38775510204083,
+      66.41768707482994
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF052",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 66.77886621315193,
+    "hypothesis_ids": [
+      "BP_0076",
+      "BP_0077",
+      "BP_0078"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      66.77886621315193,
+      66.79183673469387,
+      66.7968253968254,
+      66.80281179138322,
+      66.81678004535146
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF053",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "salient_front_count": 4,
+    "salient_fronts_s": [
+      67.06122448979592,
+      67.07818594104307,
+      67.10113378684807,
+      67.12807256235827
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF054",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0081"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      67.44136054421769,
+      67.48126984126984,
+      67.4952380952381,
+      67.50820861678004,
+      67.52916099773242
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF055",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 67.94321995464853,
+    "hypothesis_ids": [
+      "BP_0082",
+      "BP_0083",
+      "BP_0084"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      67.72870748299319
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": "FULLMIX_SUPPORTS_DIFFERENT_EARLIER_FRONT",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF056",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_MULTIPLE_DISTINCT_ATTACKS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0085",
+      "BP_0086",
+      "BP_0087"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      68.18965986394558,
+      68.20562358276644,
+      68.22158730158729,
+      68.23555555555555,
+      68.2515192743764
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF057",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0088",
+      "BP_0090",
+      "BP_0089"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      68.60571428571428
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF058",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0091"
+    ],
+    "salient_front_count": 3,
+    "salient_fronts_s": [
+      68.83419501133787,
+      68.942947845805,
+      68.9748752834467
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF059",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0093",
+      "BP_0092"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      69.28117913832199,
+      69.30013605442176
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF060",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ATTACK_SELECTED_IDENTITY_UNRESOLVED",
+    "historical_selected_s": 69.65632653061225,
+    "hypothesis_ids": [
+      "BP_0094",
+      "BP_0095"
+    ],
+    "salient_front_count": 1,
+    "salient_fronts_s": [
+      69.67727891156463
+    ],
+    "diagnostic_class": "CLEAR_LOCAL_FRONT_CUE",
+    "selected_crosscheck_class": "FULLMIX_SUPPORTS_DIFFERENT_LATER_FRONT",
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF061",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_MULTIPLE_DISTINCT_ATTACKS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      70.0075283446712,
+      70.25396825396827
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF062",
+    "route": "AMBIGUOUS_ROUTE",
+    "historical_status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "salient_front_count": 5,
+    "salient_fronts_s": [
+      70.25396825396827,
+      70.35972789115647,
+      70.3707029478458,
+      70.38965986394558,
+      70.40861678004536
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  },
+  {
+    "episode_id": "HF063",
+    "route": "SECURE_ROUTE",
+    "historical_status": "ABSTAIN_AMBIGUOUS",
+    "historical_selected_s": null,
+    "hypothesis_ids": [
+      "BP_0100"
+    ],
+    "salient_front_count": 2,
+    "salient_fronts_s": [
+      70.63310657596372,
+      70.71791383219954
+    ],
+    "diagnostic_class": "MULTIPLE_LOCAL_FRONT_CUES",
+    "selected_crosscheck_class": null,
+    "reason": "Prospective descriptive salience/energy flags across exact independent query windows; no source identity or selected full-mix attack is asserted."
+  }
+]

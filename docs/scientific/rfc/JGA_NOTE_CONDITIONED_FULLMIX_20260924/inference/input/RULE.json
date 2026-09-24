@@ -1,0 +1,26 @@
+{
+  "label": "PROCESS-BLINDED RESTART AFTER INVESTIGATOR PLP EXPOSURE",
+  "prior_exposure": "Two legacy TARGET_NOTES.csv rows with PLP fields exposed before original identity-region freeze; mandatory bootstrap also contains historical reference facts. No such values used in attribution.",
+  "representation": {
+    "sr": 44100,
+    "hann": 1024,
+    "hop": 44,
+    "frequency_max_hz": 2000,
+    "harmonic_halfwidth_hz": 43.06640625,
+    "frame_convention": "original global hop grid; no candidate regeneration"
+  },
+  "template": "Each exact frozen member pitch and frozen root pitch preserved. Candidate evaluated for member pitch and frozen root separately inside that member exact prior window. Harmonics k*f0 up to 2000 Hz, \u00b1one FFT bin. All harmonics retained; not all required present. Overlap means insufficient harmonic resolution (f0<=2 bin widths); no source classification from overlapping bands.",
+  "signature": "Mean stem magnitude-squared spectrum over native member activity intersection frozen episode; normalize harmonic-band energy vector. Background equal-duration interval immediately before native member onset. No acoustic onset selection. Observable harmonics exceed uniform spectral-density expectation for their bin count. At least3 observable nonoverlapping bands required.",
+  "candidate_features": "At preserved FM candidate frame use mean power in previous12 frames and next12 frames excluding center; nonnegative post-pre harmonic-energy vector; target enrichment = union-band positive change fraction / union-bin fraction of 30..2000Hz. Cosine of FM change vector with stem signature and synchronous positive stem change; target onset coherence fraction of observable harmonics with positive change and a positive derivative peak within \u00b16 frames of center. Temporal coherence is descriptive (23.22ms smoothing), not onset GT. Also store derivative-pattern cosine, harmonic-rank correlation, f0 rise, pre/post vectors and nonsignature-band energy fraction.",
+  "gates": {
+    "cosine_min": 0.8,
+    "enrichment_min": 1.5,
+    "coherent_fraction_min": 0.5,
+    "minimum_observable_harmonics": 3
+  },
+  "classes": "Insufficient resolution/energy/observable bands => INSUFFICIENT and UNRESOLVED. Coherent fraction>=.5 and enrichment>=1.5 => PITCH_COHERENT. enrichment<=1 and coherent fraction<.5 => BROADBAND_DOMINATED. Else MIXED. PITCH_COHERENT with signature cosine>=.8 and synchronous stem/FM change cosine>=.8 => BASS_COMPATIBLE; PITCH_COHERENT failing source evidence or MIXED with signature cosine>=.8 => MIXED_SOURCE; BROADBAND_DOMINATED and signature cosine<.8 => NON_BASS_COMPATIBLE; otherwise UNRESOLVED. No composite learned score. These thresholds are prospective descriptive conventions, not validated accuracy thresholds.",
+  "episode": "Deduplicate exact FM PCM sample only across independent member/root evaluations. >=2 BASS_COMPATIBLE coordinates => MULTIPLE;1 compatible and any distinct MIXED_SOURCE coordinate => UNRESOLVED_ATTRIBUTION;1 otherwise => UNIQUE;0 and any UNRESOLVED or MIXED_SOURCE => UNRESOLVED;else NO. Preserve all competing hypotheses and classifications.",
+  "selected_crosscheck": "Any BASS_COMPATIBLE FM coordinate within one hop of previous selection => counterpart. Also count earlier/later compatible coordinates separately (nonexclusive). Never replace timestamp.",
+  "counterfactual": "Compare pitch-coherent candidates before empirical signature/synchronous gates with compatible candidates afterward; descriptive added discrimination only, not accuracy.",
+  "prohibitions": "No PLP, no model run, no BP/Demucs rerun, no time correction or physical correctness claim."
+}

@@ -1,0 +1,8 @@
+{
+  "study": "JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_PASS1_INGESTION_20260924",
+  "completed_pass": 2,
+  "items_complete": 24,
+  "response_filename": "PI_FISHMAN_CONTINUOUS_GT_PASS2_RESPONSES.json",
+  "response_sha256": "4bbd28299f28c4c163db7bfebdf57db30a868b4189a6ba514d9dc64f82b0d6c0",
+  "exported_utc": "2026-09-24T10:34:22.110Z"
+}

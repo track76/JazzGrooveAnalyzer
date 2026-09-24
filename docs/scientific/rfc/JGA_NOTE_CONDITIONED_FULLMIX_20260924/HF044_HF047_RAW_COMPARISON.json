@@ -1,0 +1,93 @@
+[
+  {
+    "episode_id": "HF044",
+    "candidate_s": 63.13115646258504,
+    "candidate_minus_BP_ms": -50.0131519274305,
+    "harmonic_coherence": 1.0,
+    "target_enrichment": 1.1178977360797124,
+    "stem_signature_similarity": 0.9969802931965375,
+    "synchronous_stem_mix_similarity": 0.9999998068290158,
+    "temporal_rise_similarity": 0.8459877554846986,
+    "non_target_change_fraction": 0.4653532566575288,
+    "source_classification": "UNRESOLVED",
+    "comparison_role": "earlier prior salience cues"
+  },
+  {
+    "episode_id": "HF044",
+    "candidate_s": 63.172063492063494,
+    "candidate_minus_BP_ms": -9.10612244897635,
+    "harmonic_coherence": 1.0,
+    "target_enrichment": 0.7069473735973872,
+    "stem_signature_similarity": 0.9990058203510247,
+    "synchronous_stem_mix_similarity": 0.9917376110621948,
+    "temporal_rise_similarity": 0.5717123184399625,
+    "non_target_change_fraction": 0.6618947343664668,
+    "source_classification": "UNRESOLVED",
+    "comparison_role": "earlier prior salience cues"
+  },
+  {
+    "episode_id": "HF044",
+    "candidate_s": 63.30975056689343,
+    "candidate_minus_BP_ms": 128.58095238095757,
+    "harmonic_coherence": 1.0,
+    "target_enrichment": 1.4961715057959515,
+    "stem_signature_similarity": 0.9931477889856994,
+    "synchronous_stem_mix_similarity": 0.995861486749867,
+    "temporal_rise_similarity": 0.933038596327365,
+    "non_target_change_fraction": 0.2844397146193273,
+    "source_classification": "UNRESOLVED",
+    "comparison_role": "nearest existing FM candidate to old stem selection (diagnostic only)"
+  },
+  {
+    "episode_id": "HF047",
+    "candidate_s": 64.50004535147391,
+    "candidate_minus_BP_ms": -143.9814058957012,
+    "harmonic_coherence": 1.0,
+    "target_enrichment": 1.697718551943461,
+    "stem_signature_similarity": 0.999740205724366,
+    "synchronous_stem_mix_similarity": 0.004576182097432043,
+    "temporal_rise_similarity": 0.001382256687625753,
+    "non_target_change_fraction": 0.18804764907051882,
+    "source_classification": "UNRESOLVED",
+    "comparison_role": "earlier prior salience cues"
+  },
+  {
+    "episode_id": "HF047",
+    "candidate_s": 64.61079365079365,
+    "candidate_minus_BP_ms": -33.233106575963234,
+    "harmonic_coherence": 1.0,
+    "target_enrichment": 0.9018978371973924,
+    "stem_signature_similarity": 0.9995054701454462,
+    "synchronous_stem_mix_similarity": 0.9998853602632835,
+    "temporal_rise_similarity": 0.48802377308856754,
+    "non_target_change_fraction": 0.5686575561229862,
+    "source_classification": "UNRESOLVED",
+    "comparison_role": "earlier prior salience cues"
+  },
+  {
+    "episode_id": "HF047",
+    "candidate_s": 64.62575963718821,
+    "candidate_minus_BP_ms": -18.26712018140597,
+    "harmonic_coherence": 0.0,
+    "target_enrichment": 0.21081260121028195,
+    "stem_signature_similarity": 0.0010044012891208595,
+    "synchronous_stem_mix_similarity": 0.0008955488842558951,
+    "temporal_rise_similarity": 0.29490279088663274,
+    "non_target_change_fraction": 0.8991765820298652,
+    "source_classification": "UNRESOLVED",
+    "comparison_role": "earlier prior salience cues"
+  },
+  {
+    "episode_id": "HF047",
+    "candidate_s": 64.75945578231293,
+    "candidate_minus_BP_ms": 115.42902494331031,
+    "harmonic_coherence": 0.0,
+    "target_enrichment": 0.1706353148303712,
+    "stem_signature_similarity": 0.0010207528055028762,
+    "synchronous_stem_mix_similarity": 8.977374789999768e-05,
+    "temporal_rise_similarity": 0.026027946244413933,
+    "non_target_change_fraction": 0.9183918059506918,
+    "source_classification": "UNRESOLVED",
+    "comparison_role": "nearest existing FM candidate to old stem selection (diagnostic only)"
+  }
+]

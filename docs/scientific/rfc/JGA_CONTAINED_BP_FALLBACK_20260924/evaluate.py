@@ -1,0 +1,15 @@
+from pathlib import Path
+import sys,json,csv,hashlib,datetime,collections,os
+W=Path(__file__).resolve().parent;I=W/'inference';U=W.parent/'JGA_BP_AMBIGUITY_ATTACK_RECOVERY_20260924';sys.path.insert(0,str(I));from selector import metrics
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+def save(p,x):p.write_text(json.dumps(x,indent=2)+'\n')
+f=json.loads((I/'output/PREDICTION_FREEZE.json').read_text());assert all(sha(I/p)==h for p,h in f['files'].items());G=W.parent/'JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/GROUND_TRUTH';assert sha(G/'GT_FREEZE.json')=='535e3d3d930db323320a5959da3999bc605ba278234671d0540d04b281b3ebd7';assert sha(G/'GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1.json')=='a4047bf252f28fa3289279bdcaa5e90226dcf0af994a51e0dd5df05174484631'
+save(W/'GT_REVEAL.json',{'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'prediction_freeze_sha256':sha(I/'output/PREDICTION_FREEZE.json')});gt={g['event_id']:g for g in json.loads((G/'GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1.json').read_text())['events']};prior=json.loads((U/'EVENT_RESULTS.json').read_text());pred={p['set_id']:p for p in json.loads((I/'output/CONTAINED_PREDICTIONS.json').read_text())};rows=[]
+for old in prior:
+ ids=old['recovery_group_ids'].split(';');assert len(ids)==1;p=pred[ids[0]];g=gt[old['event_id']];t=float(g['final_center_s']);e=(p['selected_s']-t)*1000 if p['selected_s'] is not None else None
+ rows.append({'event_id':old['event_id'],'cohort':old['cohort'],'take':old['take'],'string':old['string'],'condition':old['condition'],'hypothesis_set_id':p['set_id'],'BP_ids':';'.join(p['BP_ids']),'status':p['status'],'successful_windows':p['successful_windows'],'distinct_selected_coordinates':p['distinct_selected_coordinates'],'selected_s':p['selected_s'],'GT_onset_s':t,'signed_error_ms':e,'absolute_error_ms':abs(e) if e is not None else None,'catastrophic_wrong_event':abs(e)>100 if e is not None else False,'prior_union_error_ms':old['signed_error_ms'],'prior_catastrophic':old['catastrophic_wrong_event'],'previous_catastrophic_outcome':('ABSTAIN' if e is None else 'CORRECT' if abs(e)<=10 else 'STILL WRONG') if old['catastrophic_wrong_event'] else ''})
+with (W/'CONTAINED_FALLBACK_RESULTS.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+save(W/'EVENT_RESULTS.json',rows);result={}
+for cohort in ['natural_ambiguous','masked_holdout']:
+ rs=[r for r in rows if r['cohort']==cohort];result[cohort]={'counts':dict(collections.Counter(r['status'] for r in rs)),'metrics':metrics([r['signed_error_ms'] for r in rs if r['signed_error_ms'] is not None],len(rs)),'catastrophic':sum(r['catastrophic_wrong_event'] for r in rs)}
+result['previous_catastrophic_cases']=[r for r in rows if r['prior_catastrophic']];save(W/'RESULTS.json',result);save(W/'EVALUATION_FREEZE.json',{'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'files':{p:sha(W/p) for p in ['CONTAINED_FALLBACK_RESULTS.csv','EVENT_RESULTS.json','RESULTS.json','evaluate.py']}});print(json.dumps(result,indent=2))

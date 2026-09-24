@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-24T17:34:49.761220+00:00",
+  "files": {
+    "inference/input/NOTES.json": "db5b58497ab961d818662f4c1046ac99193f35a05a64da70f8d32d4e04e1b7b3",
+    "inference/input/MANIFEST.json": "acaffcabf91b9c2e514add0bfcf1cf187be1fdb07e3047ccc97aa9b209b396d5",
+    "inference/input/MODEL.joblib": "6523e71a1788b05b8c112570b1dc5a20736bea33942f68ad00ffd70359fb2474",
+    "inference/input/SELECTOR_RULE.json": "db998eaed9485edf913fd78d0698ad2fc9896a13d896dbffd5504e922dbc0a42",
+    "inference/selector.py": "c20687006752d2ec07c0de6be12d1f7055669e387d6f8c746c76c245686c3433",
+    "inference/morphology.py": "ac003cdaf4799e696204d95c527ee8cb747d262d4a9e17ca80aa3669b1570b70",
+    "INPUT_AUDIT.json": "8efcac636b00ee25d9e104bc05a5347a8263e2e5d525aa7780bbfbae2b9973ad"
+  }
+}

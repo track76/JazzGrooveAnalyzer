@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "events": 120,
+  "takes": 12,
+  "per_take": 10,
+  "GT36_preserved_exact_JSON_and_CSV": true,
+  "all_parent_and_source_hashes_verified": true,
+  "independent_final_arithmetic_check": true,
+  "repeatability_recomputed_from_source_coordinates": true,
+  "uncertain": 0,
+  "excluded": 0,
+  "expanded_GT_JSON_sha256": "a4047bf252f28fa3289279bdcaa5e90226dcf0af994a51e0dd5df05174484631",
+  "freeze_sha256": "535e3d3d930db323320a5959da3999bc605ba278234671d0540d04b281b3ebd7",
+  "no_detector_run": true,
+  "no_canonical_changes": true
+}

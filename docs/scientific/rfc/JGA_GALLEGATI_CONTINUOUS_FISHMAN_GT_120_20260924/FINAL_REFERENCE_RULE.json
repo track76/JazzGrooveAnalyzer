@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-24T10:35:35.564195+00:00",
+  "before_pass2_inspection": true,
+  "authority": "Current PI instruction, using previous GT midpoint/envelope methodology for repeat-annotated events. Supersedes earlier preparation-only prohibition on automatic averaging for this conditional GT construction.",
+  "original_36": "Preserve exact existing adjudicated final values and original provenance.",
+  "new_60_single_pass": "Final center/earliest/latest = primary annotation, explicitly PRIMARY_ONLY with cohort repeatability audit qualification.",
+  "new_24_repeat": "If no adjudication required: final center = midpoint of restored Pass1/Pass2 centers; earliest = minimum human earliest; latest = maximum human latest. Preserve both complete annotations.",
+  "review_gate": "Stop for uncertainty, missing/invalid bounds, explicit difficulty/notes needing review, interval width >=5ms (existing routing rule), nonoverlapping plausible intervals, or disagreement beyond previous pilot demonstrated <=2ms envelope. This is a conservative adjudication trigger, not a claimed accuracy threshold. Review overall and grouped repeatability before construction.",
+  "precision": "1ms interface marker steps; fractional restored coordinates and midpoints do not establish sub-millisecond human accuracy.",
+  "target": "Channel-specific observable onset in the Fishman Full Circle pickup signal; NOT physical string-release Ground Truth."
+}

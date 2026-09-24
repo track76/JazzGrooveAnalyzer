@@ -1,0 +1,16 @@
+[
+  {
+    "note_id": "BP_0052",
+    "parent_family": "HF034",
+    "new_family": "HF035",
+    "transition_s": 59.41696916099773,
+    "new_root_below_harmonic": true
+  },
+  {
+    "note_id": "BP_0077",
+    "parent_family": "HF052",
+    "new_family": "HF053",
+    "transition_s": 66.96859002267574,
+    "new_root_below_harmonic": true
+  }
+]

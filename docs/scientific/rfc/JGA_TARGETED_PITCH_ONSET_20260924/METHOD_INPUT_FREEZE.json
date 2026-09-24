@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-24T18:25:52.010941+00:00",
+  "files": {
+    "inference/input/EPISODES.json": "52aff9d008fe108d747a529e925ba7e12af940088e75439e8e040ed786e6b5ef",
+    "inference/input/FULLMIX.wav": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+    "inference/input/MEMBERSHIP.csv": "e573e0f75f91501a64f17c26582241b3221519a009ed1d56e9a58c28750b9608",
+    "inference/input/METHOD.json": "20bbcc2685033ab872fd90193eb7b5c89ad30a1e3278fe73d3a96249153ec7d3"
+  },
+  "audit_sha256": "9c466aefe1f47b0422da576787a6b2738de573f48f1e86d225173b4c8b5af9cd"
+}

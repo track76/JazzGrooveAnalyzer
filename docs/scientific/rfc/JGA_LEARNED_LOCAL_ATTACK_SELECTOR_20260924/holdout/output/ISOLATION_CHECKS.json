@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/EVALUATION_MAP.json",
+    "read_denied": true
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/GROUND_TRUTH/GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1.json",
+    "read_denied": true
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/EVENT_RESULTS.json",
+    "read_denied": true
+  }
+]

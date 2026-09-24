@@ -1,0 +1,22 @@
+{
+  "FUNDAMENTAL_EPISODES.json": {
+    "source": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_BASIC_PITCH_HARMONIC_FAMILY_20260924/tracking/output/FUNDAMENTAL_EPISODES.json",
+    "sha256": "52aff9d008fe108d747a529e925ba7e12af940088e75439e8e040ed786e6b5ef"
+  },
+  "HYPOTHESIS_MEMBERSHIP.json": {
+    "source": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_BASIC_PITCH_HARMONIC_FAMILY_20260924/tracking/output/HYPOTHESIS_MEMBERSHIP.json",
+    "sha256": "3f85ea1ac413be102b5d073a9a71a82381cc6c5fadffa59e8d3ff93c15fc87f2"
+  },
+  "SYNCHRONIZED_TF.npz": {
+    "source": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_CROSS_REPRESENTATION_TRANSIENT_ATTRIBUTION_20260924/blind/output/SYNCHRONIZED_TF.npz",
+    "sha256": "7bbcc99b610c99c141089cb01e7ab6460fede4a983f14f4272c0b4b1aa6160c9"
+  },
+  "bass.wav": {
+    "source": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_CROSS_REPRESENTATION_TRANSIENT_ATTRIBUTION_20260924/blind/input/bass.wav",
+    "sha256": "5e6290ad1521079c14e152ec13a5054c3ccfdbcbe57b70c5ea8a5f37c5ae7087"
+  },
+  "mix.wav": {
+    "source": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_CROSS_REPRESENTATION_TRANSIENT_ATTRIBUTION_20260924/blind/input/mix.wav",
+    "sha256": "bf53302a9545b7ee7ff49cf742f9bf81f0a25c4e354abcad1be684db3f0f4108"
+  }
+}

@@ -1,0 +1,866 @@
+[
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R01",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R01",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R02",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.2120181405896915
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R02",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.2120181405896915
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R03",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R03",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R04",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R04",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R05",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R05",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R06",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R06",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R07",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R07",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R08",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R08",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R09",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_E_MF_R09",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R01",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.244897959183703
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R01",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.244897959183703
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R02",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.163265306123321
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R02",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.163265306123321
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R04",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.446712018143728
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R04",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.446712018143728
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R05",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.637188208619136
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R05",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.637188208619136
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R06",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.845804988647728
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R06",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.845804988647728
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R07",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.616780045353153
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R07",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.616780045353153
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R08",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.349206349208657
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R08",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.349206349208657
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R09",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.165532879829016
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_A_MF_R09",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.165532879829016
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R01",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R01",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R02",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.04421768707175
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R02",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.04421768707175
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R03",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.492063492065768
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R03",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.492063492065768
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R04",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.2630385487546505
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R04",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.2630385487546505
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R05",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.007936507936961
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R05",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.007936507936961
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R06",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.594104308395686
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R06",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.594104308395686
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R07",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.13151927438571
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R07",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.13151927438571
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R08",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.490929705217695
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R08",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.490929705217695
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R09",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.629251700663417
+  },
+  {
+    "GT_id": "GAL09_20260914_S1_D_MF_R09",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.629251700663417
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R01",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.200680272109182
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R01",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.200680272109182
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R02",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.461451247164462
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R02",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.461451247164462
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R05",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.148526077093152
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R05",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.148526077093152
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R06",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -6.061224489798178
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R06",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -6.061224489798178
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R07",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.027210884350097
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R07",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.027210884350097
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R08",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.971655328787961
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R08",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.971655328787961
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R09",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.882086167796729
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R09",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.882086167796729
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R10",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.090702947853742
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_E_CN_R10",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.090702947853742
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R02",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.075963718823573
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R02",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.075963718823573
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R03",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.174603174605608
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R03",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.174603174605608
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R04",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.022675736960025
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R04",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.022675736960025
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R05",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.879818594112351
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R05",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.879818594112351
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R06",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.367346938783157
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R06",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.367346938783157
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R07",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.944444444447527
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R07",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.944444444447527
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R08",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.826530612234592
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R08",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.826530612234592
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R09",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.126984126988532
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_A_CN_R09",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.126984126988532
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R01",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R01",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R02",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.6609977324253435
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R02",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.6609977324253435
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R03",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.992063492064602
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R03",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.992063492064602
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R04",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.981859410428058
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R04",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.981859410428058
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R05",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.8673469387736645
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R05",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.8673469387736645
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R06",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.668934240361523
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R06",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.668934240361523
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R07",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.239229024937231
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R07",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.239229024937231
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R08",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.287981859410706
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R08",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.287981859410706
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R09",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.367346938783157
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R09",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.367346938783157
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R10",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.709750566902926
+  },
+  {
+    "GT_id": "GAL09_20260914_S2_G_CN_R10",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -4.709750566902926
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R01",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R01",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R02",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.29931972788944
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R02",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.29931972788944
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R03",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.510204081637937
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R03",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.510204081637937
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R04",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.342403628119996
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R04",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.342403628119996
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R05",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.281179138322045
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R05",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.281179138322045
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R06",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R06",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R07",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.374149659857608
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R07",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.374149659857608
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R08",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R08",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R09",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.13151927438571
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R09",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.13151927438571
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R10",
+    "threshold": 0.5,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.138321995445949
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_D_F_R10",
+    "threshold": 0.75,
+    "status": "ATTACK_SELECTED",
+    "error_ms": -5.138321995445949
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R01",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R01",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R02",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R02",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R03",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R03",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R04",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R04",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R05",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R05",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R06",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R06",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R07",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R07",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R08",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R08",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R09",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R09",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R10",
+    "threshold": 0.5,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  },
+  {
+    "GT_id": "GAL09_20260914_S3_G_F_R10",
+    "threshold": 0.75,
+    "status": "ABSTAIN_AMBIGUOUS",
+    "error_ms": null
+  }
+]

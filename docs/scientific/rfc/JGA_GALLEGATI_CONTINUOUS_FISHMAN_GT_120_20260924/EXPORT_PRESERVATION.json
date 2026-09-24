@@ -1,0 +1,18 @@
+{
+  "before_parsing": true,
+  "utc": "2026-09-24T10:35:35.563648+00:00",
+  "files": [
+    {
+      "source": "/Volumes/SSD Track/JGA/PI_FISHMAN_CONTINUOUS_GT_PASS2_RESPONSES.json",
+      "copy": "docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/ORIGINAL_EXPORTS/PI_FISHMAN_CONTINUOUS_GT_PASS2_RESPONSES.json",
+      "sha256": "4bbd28299f28c4c163db7bfebdf57db30a868b4189a6ba514d9dc64f82b0d6c0",
+      "bytes": 6652
+    },
+    {
+      "source": "/Volumes/SSD Track/JGA/PI_FISHMAN_CONTINUOUS_GT_PASS2_RECEIPT.json",
+      "copy": "docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/ORIGINAL_EXPORTS/PI_FISHMAN_CONTINUOUS_GT_PASS2_RECEIPT.json",
+      "sha256": "5c176e63d1fa6365d62805ab69637f26bdf3fe3dfea5255ced82ebe617b09948",
+      "bytes": 331
+    }
+  ]
+}

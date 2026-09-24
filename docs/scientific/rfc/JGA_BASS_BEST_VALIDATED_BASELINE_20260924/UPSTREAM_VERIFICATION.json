@@ -1,0 +1,57 @@
+{
+  "GT_hash_verified": true,
+  "no_scientific_reexecution": true,
+  "performance_verified": {
+    "IQR_signed_ms": 0.5204081632661506,
+    "N": 35,
+    "P95_absolute_ms": 5.620521541948165,
+    "coverage_pct": 87.5,
+    "maximum_absolute_ms": 5.914965986391962,
+    "mean_signed_ms": -5.083025591189586,
+    "median_absolute_ms": 5.213151927435433,
+    "median_signed_ms": -5.213151927435433,
+    "total": 40,
+    "useful_yield_10_pct": 87.5,
+    "within_10_pct": 100.0,
+    "within_20_pct": 100.0,
+    "within_30_pct": 100.0,
+    "within_5_pct": 40.0
+  },
+  "prior_freezes": [
+    {
+      "path": "docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/development/output/SELECTOR_FREEZE.json",
+      "sha256": "68b04a4efc74655e88c10b813a71c96d2385c52bca76cb7219d728d9b1e3566e"
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/holdout/output/PREDICTIONS_FREEZE.json",
+      "sha256": "9104836b2083e0f54b20f27a601cad2fd68d717b9c959ec4d2d8418df6d10f1b"
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/EVALUATION_FREEZE.json",
+      "sha256": "98cd528cb97ff8082ca34421e3fbd6499c0764378b7d2ac342cc39f9b09be6f8"
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_CONTAINED_BP_FALLBACK_20260924/INPUT_FREEZE.json",
+      "sha256": "10ee8bc26409cc11d7a64b9b08d1bf1762d9b2dc88a001a37aecd9f4b259bf14"
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_CONTAINED_BP_FALLBACK_20260924/inference/output/PREDICTION_FREEZE.json",
+      "sha256": "0f4a0bf00948922aaafe1a491258ee223f563336b32a9eb383093bdc3f6c148a"
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_CONTAINED_BP_FALLBACK_20260924/EVALUATION_FREEZE.json",
+      "sha256": "f290f33b9fdec876f06dac9e62708ebfc912bbc870f70224664883e2e82b7430"
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/GROUND_TRUTH/GT_FREEZE.json",
+      "sha256": "535e3d3d930db323320a5959da3999bc605ba278234671d0540d04b281b3ebd7"
+    },
+    {
+      "path": "docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/RAW_RESULTS_FREEZE.json",
+      "sha256": "5f9f60e1c825f9dacd4c23970539aea41e7fd55d4409e400df18a7d5de06518a"
+    }
+  ],
+  "source_audio_hashes_verified": 12,
+  "split_hash_verified": true,
+  "status": "PASS"
+}

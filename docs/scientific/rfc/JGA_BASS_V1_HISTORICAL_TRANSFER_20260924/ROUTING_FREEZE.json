@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-24T17:34:49.212313+00:00",
+  "files": {
+    "ROUTING_AUTHORITY.json": "89569bc6fa146f19615dbd34f990ef57f16352316ec6bf1503e307f72acc5fc6",
+    "ROUTING_TABLE.csv": "3e08cdb7592850dc6f7a9c3f13e2dfb31e9689f64285685b3643a6c90067dafd",
+    "inference/input/ROUTING.json": "0711bcbe06ca75ede009d414a47dc2a6b783764ded639870494d7aff4a3b5f27"
+  },
+  "episodes": 63,
+  "SECURE_ROUTE": 28,
+  "AMBIGUOUS_ROUTE": 35
+}

@@ -1,0 +1,1250 @@
+[
+  {
+    "episode_id": "HF001",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0003"
+    ],
+    "frozen_member_ids": [
+      "BP_0003"
+    ],
+    "root_ids": [
+      "BP_0003"
+    ],
+    "frozen_root_onset_s": 47.79928843537415,
+    "fundamental_midi": 39,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF002",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0004"
+    ],
+    "frozen_member_ids": [
+      "BP_0004"
+    ],
+    "root_ids": [
+      "BP_0004"
+    ],
+    "frozen_root_onset_s": 48.019878004535144,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF003",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0005",
+      "BP_0006"
+    ],
+    "frozen_member_ids": [
+      "BP_0005",
+      "BP_0006"
+    ],
+    "root_ids": [
+      "BP_0005"
+    ],
+    "frozen_root_onset_s": 48.10114784580499,
+    "fundamental_midi": 31,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF004",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0007"
+    ],
+    "frozen_member_ids": [
+      "BP_0007"
+    ],
+    "root_ids": [
+      "BP_0007"
+    ],
+    "frozen_root_onset_s": 48.577156916099774,
+    "fundamental_midi": 44,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF005",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0008"
+    ],
+    "frozen_member_ids": [
+      "BP_0008"
+    ],
+    "root_ids": [
+      "BP_0008"
+    ],
+    "frozen_root_onset_s": 48.61198684807256,
+    "fundamental_midi": 32,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF006",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0009"
+    ],
+    "frozen_member_ids": [
+      "BP_0009"
+    ],
+    "root_ids": [
+      "BP_0009"
+    ],
+    "frozen_root_onset_s": 48.97189614512472,
+    "fundamental_midi": 33,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF007",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0010"
+    ],
+    "frozen_member_ids": [
+      "BP_0010"
+    ],
+    "root_ids": [
+      "BP_0010"
+    ],
+    "frozen_root_onset_s": 49.35630929705216,
+    "fundamental_midi": 34,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF008",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0012",
+      "BP_0011"
+    ],
+    "frozen_member_ids": [
+      "BP_0012",
+      "BP_0011"
+    ],
+    "root_ids": [
+      "BP_0012"
+    ],
+    "frozen_root_onset_s": 49.669778684807255,
+    "fundamental_midi": 35,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ]
+  },
+  {
+    "episode_id": "HF009",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0013"
+    ],
+    "frozen_member_ids": [
+      "BP_0013"
+    ],
+    "root_ids": [
+      "BP_0013"
+    ],
+    "frozen_root_onset_s": 50.052907936507935,
+    "fundamental_midi": 36,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF010",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0014",
+      "BP_0015",
+      "BP_0016"
+    ],
+    "frozen_member_ids": [
+      "BP_0014",
+      "BP_0015",
+      "BP_0016"
+    ],
+    "root_ids": [
+      "BP_0014"
+    ],
+    "frozen_root_onset_s": 50.35476734693877,
+    "fundamental_midi": 28,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ]
+  },
+  {
+    "episode_id": "HF011",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0017"
+    ],
+    "frozen_member_ids": [
+      "BP_0017"
+    ],
+    "root_ids": [
+      "BP_0017"
+    ],
+    "frozen_root_onset_s": 51.18035963718821,
+    "fundamental_midi": 29,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF012",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0019",
+      "BP_0018"
+    ],
+    "frozen_member_ids": [
+      "BP_0019",
+      "BP_0018"
+    ],
+    "root_ids": [
+      "BP_0019"
+    ],
+    "frozen_root_onset_s": 51.586708843537416,
+    "fundamental_midi": 33,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF013",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0021",
+      "BP_0020"
+    ],
+    "frozen_member_ids": [
+      "BP_0021",
+      "BP_0020"
+    ],
+    "root_ids": [
+      "BP_0021"
+    ],
+    "frozen_root_onset_s": 51.87695827664399,
+    "fundamental_midi": 38,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF014",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0022",
+      "BP_0023"
+    ],
+    "frozen_member_ids": [
+      "BP_0022",
+      "BP_0023"
+    ],
+    "root_ids": [
+      "BP_0022"
+    ],
+    "frozen_root_onset_s": 52.16720770975057,
+    "fundamental_midi": 39,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ]
+  },
+  {
+    "episode_id": "HF015",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0024",
+      "BP_0025",
+      "BP_0026"
+    ],
+    "frozen_member_ids": [
+      "BP_0024",
+      "BP_0025",
+      "BP_0026"
+    ],
+    "root_ids": [
+      "BP_0024",
+      "BP_0026"
+    ],
+    "frozen_root_onset_s": 52.573556916099776,
+    "fundamental_midi": 36,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF016",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "frozen_member_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "root_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "frozen_root_onset_s": 52.887026303854874,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF017",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0029"
+    ],
+    "frozen_member_ids": [
+      "BP_0029"
+    ],
+    "root_ids": [
+      "BP_0029"
+    ],
+    "frozen_root_onset_s": 53.37592925170068,
+    "fundamental_midi": 41,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF018",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0030"
+    ],
+    "frozen_member_ids": [
+      "BP_0030"
+    ],
+    "root_ids": [
+      "BP_0030"
+    ],
+    "frozen_root_onset_s": 53.72422857142857,
+    "fundamental_midi": 46,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF019",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0031"
+    ],
+    "frozen_member_ids": [
+      "BP_0031"
+    ],
+    "root_ids": [
+      "BP_0031"
+    ],
+    "frozen_root_onset_s": 54.40921723356009,
+    "fundamental_midi": 44,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF020",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0032"
+    ],
+    "frozen_member_ids": [
+      "BP_0032"
+    ],
+    "root_ids": [
+      "BP_0032"
+    ],
+    "frozen_root_onset_s": 54.88522630385488,
+    "fundamental_midi": 43,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF021",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0033"
+    ],
+    "frozen_member_ids": [
+      "BP_0033"
+    ],
+    "root_ids": [
+      "BP_0033"
+    ],
+    "frozen_root_onset_s": 55.188369614512474,
+    "fundamental_midi": 41,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF022",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0034"
+    ],
+    "frozen_member_ids": [
+      "BP_0034"
+    ],
+    "root_ids": [
+      "BP_0034"
+    ],
+    "frozen_root_onset_s": 55.49022902494331,
+    "fundamental_midi": 35,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF023",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0035",
+      "BP_0036"
+    ],
+    "frozen_member_ids": [
+      "BP_0035",
+      "BP_0036"
+    ],
+    "root_ids": [
+      "BP_0035"
+    ],
+    "frozen_root_onset_s": 55.87335827664399,
+    "fundamental_midi": 34,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ]
+  },
+  {
+    "episode_id": "HF024",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0037"
+    ],
+    "frozen_member_ids": [
+      "BP_0037"
+    ],
+    "root_ids": [
+      "BP_0037"
+    ],
+    "frozen_root_onset_s": 56.29131746031746,
+    "fundamental_midi": 44,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF025",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0038"
+    ],
+    "frozen_member_ids": [
+      "BP_0038"
+    ],
+    "root_ids": [
+      "BP_0038"
+    ],
+    "frozen_root_onset_s": 56.65122675736961,
+    "fundamental_midi": 43,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF026",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0039"
+    ],
+    "frozen_member_ids": [
+      "BP_0039"
+    ],
+    "root_ids": [
+      "BP_0039"
+    ],
+    "frozen_root_onset_s": 56.95437006802721,
+    "fundamental_midi": 47,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF027",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0040"
+    ],
+    "frozen_member_ids": [
+      "BP_0040"
+    ],
+    "root_ids": [
+      "BP_0040"
+    ],
+    "frozen_root_onset_s": 57.03563990929705,
+    "fundamental_midi": 35,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF028",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0041"
+    ],
+    "frozen_member_ids": [
+      "BP_0041"
+    ],
+    "root_ids": [
+      "BP_0041"
+    ],
+    "frozen_root_onset_s": 57.314279365079365,
+    "fundamental_midi": 48,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF029",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0042",
+      "BP_0043"
+    ],
+    "frozen_member_ids": [
+      "BP_0042",
+      "BP_0043"
+    ],
+    "root_ids": [
+      "BP_0042"
+    ],
+    "frozen_root_onset_s": 57.34910929705215,
+    "fundamental_midi": 36,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF030",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0044",
+      "BP_0045",
+      "BP_0046",
+      "BP_0047"
+    ],
+    "frozen_member_ids": [
+      "BP_0044",
+      "BP_0045",
+      "BP_0046",
+      "BP_0047"
+    ],
+    "root_ids": [
+      "BP_0044",
+      "BP_0046"
+    ],
+    "frozen_root_onset_s": 57.56969886621315,
+    "fundamental_midi": 28,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF031",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0048"
+    ],
+    "frozen_member_ids": [
+      "BP_0048"
+    ],
+    "root_ids": [
+      "BP_0048"
+    ],
+    "frozen_root_onset_s": 58.12697777777778,
+    "fundamental_midi": 29,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF032",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0049"
+    ],
+    "frozen_member_ids": [
+      "BP_0049"
+    ],
+    "root_ids": [
+      "BP_0049"
+    ],
+    "frozen_root_onset_s": 58.44044716553288,
+    "fundamental_midi": 33,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF033",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0050"
+    ],
+    "frozen_member_ids": [
+      "BP_0050"
+    ],
+    "root_ids": [
+      "BP_0050"
+    ],
+    "frozen_root_onset_s": 58.846796371882085,
+    "fundamental_midi": 46,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF034",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0051",
+      "BP_0052"
+    ],
+    "frozen_member_ids": [
+      "BP_0051",
+      "BP_0052"
+    ],
+    "root_ids": [
+      "BP_0051"
+    ],
+    "frozen_root_onset_s": 58.88162630385487,
+    "fundamental_midi": 34,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF035",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "frozen_member_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "root_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "frozen_root_onset_s": 59.41696916099773,
+    "fundamental_midi": 39,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ]
+  },
+  {
+    "episode_id": "HF036",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0055"
+    ],
+    "frozen_member_ids": [
+      "BP_0055"
+    ],
+    "root_ids": [
+      "BP_0055"
+    ],
+    "frozen_root_onset_s": 59.927808163265304,
+    "fundamental_midi": 34,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF037",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0056"
+    ],
+    "frozen_member_ids": [
+      "BP_0056"
+    ],
+    "root_ids": [
+      "BP_0056"
+    ],
+    "frozen_root_onset_s": 60.21805759637188,
+    "fundamental_midi": 41,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF038",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0057"
+    ],
+    "frozen_member_ids": [
+      "BP_0057"
+    ],
+    "root_ids": [
+      "BP_0057"
+    ],
+    "frozen_root_onset_s": 60.67084671201814,
+    "fundamental_midi": 42,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF039",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0058",
+      "BP_0059"
+    ],
+    "frozen_member_ids": [
+      "BP_0058",
+      "BP_0059"
+    ],
+    "root_ids": [
+      "BP_0058",
+      "BP_0059"
+    ],
+    "frozen_root_onset_s": 60.91594013605442,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ]
+  },
+  {
+    "episode_id": "HF040",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0060",
+      "BP_0061"
+    ],
+    "frozen_member_ids": [
+      "BP_0060",
+      "BP_0061"
+    ],
+    "root_ids": [
+      "BP_0060",
+      "BP_0061"
+    ],
+    "frozen_root_onset_s": 61.33389931972789,
+    "fundamental_midi": 47,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ]
+  },
+  {
+    "episode_id": "HF041",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0062",
+      "BP_0063"
+    ],
+    "frozen_member_ids": [
+      "BP_0062",
+      "BP_0063"
+    ],
+    "root_ids": [
+      "BP_0062",
+      "BP_0063"
+    ],
+    "frozen_root_onset_s": 61.70541859410431,
+    "fundamental_midi": 48,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ]
+  },
+  {
+    "episode_id": "HF042",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0064"
+    ],
+    "frozen_member_ids": [
+      "BP_0064"
+    ],
+    "root_ids": [
+      "BP_0064"
+    ],
+    "frozen_root_onset_s": 62.181427664399095,
+    "fundamental_midi": 52,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF043",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0065"
+    ],
+    "frozen_member_ids": [
+      "BP_0065"
+    ],
+    "root_ids": [
+      "BP_0065"
+    ],
+    "frozen_root_onset_s": 62.92575011337868,
+    "fundamental_midi": 52,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF044",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0066"
+    ],
+    "frozen_member_ids": [
+      "BP_0066"
+    ],
+    "root_ids": [
+      "BP_0066"
+    ],
+    "frozen_root_onset_s": 63.18116961451247,
+    "fundamental_midi": 53,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF045",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0067"
+    ],
+    "frozen_member_ids": [
+      "BP_0067"
+    ],
+    "root_ids": [
+      "BP_0067"
+    ],
+    "frozen_root_onset_s": 63.90098820861678,
+    "fundamental_midi": 57,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF046",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0069",
+      "BP_0068"
+    ],
+    "frozen_member_ids": [
+      "BP_0069",
+      "BP_0068"
+    ],
+    "root_ids": [
+      "BP_0069"
+    ],
+    "frozen_root_onset_s": 64.29572743764172,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ]
+  },
+  {
+    "episode_id": "HF047",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0070"
+    ],
+    "frozen_member_ids": [
+      "BP_0070"
+    ],
+    "root_ids": [
+      "BP_0070"
+    ],
+    "frozen_root_onset_s": 64.64402675736962,
+    "fundamental_midi": 53,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF048",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0071",
+      "BP_0072"
+    ],
+    "frozen_member_ids": [
+      "BP_0071",
+      "BP_0072"
+    ],
+    "root_ids": [
+      "BP_0071",
+      "BP_0072"
+    ],
+    "frozen_root_onset_s": 64.97039002267573,
+    "fundamental_midi": 47,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ]
+  },
+  {
+    "episode_id": "HF049",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0073"
+    ],
+    "frozen_member_ids": [
+      "BP_0073"
+    ],
+    "root_ids": [
+      "BP_0073"
+    ],
+    "frozen_root_onset_s": 65.423179138322,
+    "fundamental_midi": 46,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF050",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0074"
+    ],
+    "frozen_member_ids": [
+      "BP_0074"
+    ],
+    "root_ids": [
+      "BP_0074"
+    ],
+    "frozen_root_onset_s": 66.06172789115647,
+    "fundamental_midi": 50,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF051",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0075"
+    ],
+    "frozen_member_ids": [
+      "BP_0075"
+    ],
+    "root_ids": [
+      "BP_0075"
+    ],
+    "frozen_root_onset_s": 66.42163718820862,
+    "fundamental_midi": 46,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF052",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0076",
+      "BP_0077",
+      "BP_0078"
+    ],
+    "frozen_member_ids": [
+      "BP_0076",
+      "BP_0077",
+      "BP_0078"
+    ],
+    "root_ids": [
+      "BP_0076",
+      "BP_0078"
+    ],
+    "frozen_root_onset_s": 66.66544671201814,
+    "fundamental_midi": 38,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF053",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "frozen_member_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "root_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "frozen_root_onset_s": 66.96859002267574,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF054",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0081"
+    ],
+    "frozen_member_ids": [
+      "BP_0081"
+    ],
+    "root_ids": [
+      "BP_0081"
+    ],
+    "frozen_root_onset_s": 67.47942902494331,
+    "fundamental_midi": 41,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF055",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0082",
+      "BP_0083",
+      "BP_0084"
+    ],
+    "frozen_member_ids": [
+      "BP_0082",
+      "BP_0083",
+      "BP_0084"
+    ],
+    "root_ids": [
+      "BP_0082",
+      "BP_0084"
+    ],
+    "frozen_root_onset_s": 67.80450839002268,
+    "fundamental_midi": 35,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ]
+  },
+  {
+    "episode_id": "HF056",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0085",
+      "BP_0086",
+      "BP_0087"
+    ],
+    "frozen_member_ids": [
+      "BP_0085",
+      "BP_0086",
+      "BP_0087"
+    ],
+    "root_ids": [
+      "BP_0085",
+      "BP_0087"
+    ],
+    "frozen_root_onset_s": 68.16441768707483,
+    "fundamental_midi": 34,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF057",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0088",
+      "BP_0090",
+      "BP_0089"
+    ],
+    "frozen_member_ids": [
+      "BP_0088",
+      "BP_0090",
+      "BP_0089"
+    ],
+    "root_ids": [
+      "BP_0088",
+      "BP_0090"
+    ],
+    "frozen_root_onset_s": 68.50110702947846,
+    "fundamental_midi": 36,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF058",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0091"
+    ],
+    "frozen_member_ids": [
+      "BP_0091"
+    ],
+    "root_ids": [
+      "BP_0091"
+    ],
+    "frozen_root_onset_s": 68.94357006802721,
+    "fundamental_midi": 37,
+    "frozen_flags": []
+  },
+  {
+    "episode_id": "HF059",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0093",
+      "BP_0092"
+    ],
+    "frozen_member_ids": [
+      "BP_0093",
+      "BP_0092"
+    ],
+    "root_ids": [
+      "BP_0093"
+    ],
+    "frozen_root_onset_s": 69.28025941043084,
+    "fundamental_midi": 38,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ]
+  },
+  {
+    "episode_id": "HF060",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0094",
+      "BP_0095"
+    ],
+    "frozen_member_ids": [
+      "BP_0094",
+      "BP_0095"
+    ],
+    "root_ids": [
+      "BP_0094",
+      "BP_0095"
+    ],
+    "frozen_root_onset_s": 69.54728888888889,
+    "fundamental_midi": 39,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF061",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "frozen_member_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "root_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "frozen_root_onset_s": 70.01168798185941,
+    "fundamental_midi": 46,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF062",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "frozen_member_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "root_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "frozen_root_onset_s": 70.29032743764172,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ]
+  },
+  {
+    "episode_id": "HF063",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0100"
+    ],
+    "frozen_member_ids": [
+      "BP_0100"
+    ],
+    "root_ids": [
+      "BP_0100"
+    ],
+    "frozen_root_onset_s": 70.71989659863945,
+    "fundamental_midi": 39,
+    "frozen_flags": []
+  }
+]

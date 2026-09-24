@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "model_features_generator_thresholds_unchanged": true,
+  "approved_routing_63_28_35_verified": true,
+  "exact_frozen_flagged_members_verified": true,
+  "source_PCM_and_historical_tracker_unchanged": true,
+  "PLP_unchanged": true,
+  "isolated_queries": 98,
+  "episodes": 63,
+  "unique_selected_attacks": 17,
+  "abstentions": 46,
+  "quarter_counts": [
+    47,
+    17,
+    0
+  ],
+  "timing_coordinates_native_and_unshifted": true,
+  "freeze_sequence": [
+    "2026-09-24T17:34:49.212313+00:00",
+    "2026-09-24T17:34:49.761220+00:00",
+    "2026-09-24T17:36:32.346887+00:00",
+    "2026-09-24T17:38:10.224484+00:00",
+    "2026-09-24T17:38:19.322692+00:00"
+  ],
+  "PDF_pages": {
+    "JGA_BASS_V1_MEASURE_BY_MEASURE.pdf": 1,
+    "JGA_BASS_V1_HISTORICAL_ATTACK_AUDIT.pdf": 63,
+    "JGA_BASS_V1_EXACTLY_LIKE_YOU_GROOVE.pdf": 1,
+    "JGA_BASS_V1_HISTORICAL_REPORT.pdf": 6
+  },
+  "scope": "Technical validation, not independent historical timing/identity validation."
+}

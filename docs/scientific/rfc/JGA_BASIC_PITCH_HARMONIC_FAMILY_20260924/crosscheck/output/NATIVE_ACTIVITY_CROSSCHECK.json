@@ -1,0 +1,771 @@
+[
+  {
+    "episode_id": "HF001",
+    "activity_start_s": 47.79928843537415,
+    "root_onset_s": 47.79928843537415,
+    "activity_end_s": 48.00826802721088,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00109",
+    "nearest_native_timestamp_s": 47.658956916099775,
+    "native_minus_episode_start_ms": -140.33151927437615,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF002",
+    "activity_start_s": 48.019878004535144,
+    "root_onset_s": 48.019878004535144,
+    "activity_end_s": 48.194027664399094,
+    "native_event_ids_inside": [
+      "BASS_00110",
+      "BASS_00111"
+    ],
+    "nearest_native_id": "BASS_00110",
+    "nearest_native_timestamp_s": 48.042086167800456,
+    "native_minus_episode_start_ms": 22.208163265311498,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF003",
+    "activity_start_s": 48.10114784580499,
+    "root_onset_s": 48.10114784580499,
+    "activity_end_s": 48.61198684807256,
+    "native_event_ids_inside": [
+      "BASS_00111",
+      "BASS_00112"
+    ],
+    "nearest_native_id": "BASS_00111",
+    "nearest_native_timestamp_s": 48.12335600907029,
+    "native_minus_episode_start_ms": 22.208163265304393,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF004",
+    "activity_start_s": 48.577156916099774,
+    "root_onset_s": 48.577156916099774,
+    "activity_end_s": 48.797746485260774,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00112",
+    "nearest_native_timestamp_s": 48.576145124716554,
+    "native_minus_episode_start_ms": -1.011791383220384,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF005",
+    "activity_start_s": 48.61198684807256,
+    "root_onset_s": 48.61198684807256,
+    "activity_end_s": 48.77452653061224,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00112",
+    "nearest_native_timestamp_s": 48.576145124716554,
+    "native_minus_episode_start_ms": -35.84172335600755,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF006",
+    "activity_start_s": 48.97189614512472,
+    "root_onset_s": 48.97189614512472,
+    "activity_end_s": 49.20537959183673,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00113",
+    "nearest_native_timestamp_s": 48.92444444444445,
+    "native_minus_episode_start_ms": -47.45170068026994,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF007",
+    "activity_start_s": 49.35630929705216,
+    "root_onset_s": 49.35630929705216,
+    "activity_end_s": 49.54206893424036,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00114",
+    "nearest_native_timestamp_s": 49.30757369614513,
+    "native_minus_episode_start_ms": -48.735600907029664,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF008",
+    "activity_start_s": 49.65816870748299,
+    "root_onset_s": 49.669778684807255,
+    "activity_end_s": 49.92519818594104,
+    "native_event_ids_inside": [
+      "BASS_00115"
+    ],
+    "nearest_native_id": "BASS_00115",
+    "nearest_native_timestamp_s": 49.66748299319728,
+    "native_minus_episode_start_ms": 9.314285714289383,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF009",
+    "activity_start_s": 50.052907936507935,
+    "root_onset_s": 50.052907936507935,
+    "activity_end_s": 50.34315736961451,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00116",
+    "nearest_native_timestamp_s": 50.02739229024943,
+    "native_minus_episode_start_ms": -25.515646258504887,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF010",
+    "activity_start_s": 50.35476734693877,
+    "root_onset_s": 50.35476734693877,
+    "activity_end_s": 51.18035963718821,
+    "native_event_ids_inside": [
+      "BASS_00117",
+      "BASS_00118",
+      "BASS_00119"
+    ],
+    "nearest_native_id": "BASS_00117",
+    "nearest_native_timestamp_s": 50.39891156462585,
+    "native_minus_episode_start_ms": 44.14421768707655,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF011",
+    "activity_start_s": 51.18035963718821,
+    "root_onset_s": 51.18035963718821,
+    "activity_end_s": 51.38933922902494,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00119",
+    "nearest_native_timestamp_s": 51.04907029478458,
+    "native_minus_episode_start_ms": -131.2893424036332,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF012",
+    "activity_start_s": 51.56348888888889,
+    "root_onset_s": 51.586708843537416,
+    "activity_end_s": 51.95822811791383,
+    "native_event_ids_inside": [
+      "BASS_00121"
+    ],
+    "nearest_native_id": "BASS_00120",
+    "nearest_native_timestamp_s": 51.5134693877551,
+    "native_minus_episode_start_ms": -50.01950113378939,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF013",
+    "activity_start_s": 51.86534829931973,
+    "root_onset_s": 51.87695827664399,
+    "activity_end_s": 52.16720770975057,
+    "native_event_ids_inside": [
+      "BASS_00121"
+    ],
+    "nearest_native_id": "BASS_00121",
+    "nearest_native_timestamp_s": 51.88498866213152,
+    "native_minus_episode_start_ms": 19.640362811792045,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF014",
+    "activity_start_s": 52.16720770975057,
+    "root_onset_s": 52.16720770975057,
+    "activity_end_s": 52.38779727891156,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00121",
+    "nearest_native_timestamp_s": 51.88498866213152,
+    "native_minus_episode_start_ms": -282.21904761905137,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF015",
+    "activity_start_s": 52.573556916099776,
+    "root_onset_s": 52.573556916099776,
+    "activity_end_s": 52.95797006802721,
+    "native_event_ids_inside": [
+      "BASS_00122"
+    ],
+    "nearest_native_id": "BASS_00122",
+    "nearest_native_timestamp_s": 52.61641723356009,
+    "native_minus_episode_start_ms": 42.86031746031682,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF016",
+    "activity_start_s": 52.887026303854874,
+    "root_onset_s": 52.887026303854874,
+    "activity_end_s": 53.317879365079364,
+    "native_event_ids_inside": [
+      "BASS_00123"
+    ],
+    "nearest_native_id": "BASS_00123",
+    "nearest_native_timestamp_s": 52.97632653061225,
+    "native_minus_episode_start_ms": 89.30022675737348,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF017",
+    "activity_start_s": 53.37592925170068,
+    "root_onset_s": 53.37592925170068,
+    "activity_end_s": 53.701008616780044,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00124",
+    "nearest_native_timestamp_s": 53.35945578231293,
+    "native_minus_episode_start_ms": -16.473469387754847,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF018",
+    "activity_start_s": 53.72422857142857,
+    "root_onset_s": 53.72422857142857,
+    "activity_end_s": 54.362777324263035,
+    "native_event_ids_inside": [
+      "BASS_00125"
+    ],
+    "nearest_native_id": "BASS_00125",
+    "nearest_native_timestamp_s": 53.730975056689346,
+    "native_minus_episode_start_ms": 6.746485260777035,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF019",
+    "activity_start_s": 54.40921723356009,
+    "root_onset_s": 54.40921723356009,
+    "activity_end_s": 54.757516553287985,
+    "native_event_ids_inside": [
+      "BASS_00126"
+    ],
+    "nearest_native_id": "BASS_00126",
+    "nearest_native_timestamp_s": 54.427573696145124,
+    "native_minus_episode_start_ms": 18.356462585032318,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF020",
+    "activity_start_s": 54.88522630385488,
+    "root_onset_s": 54.88522630385488,
+    "activity_end_s": 55.130319727891155,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00127",
+    "nearest_native_timestamp_s": 54.78748299319728,
+    "native_minus_episode_start_ms": -97.74331065759867,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF021",
+    "activity_start_s": 55.188369614512474,
+    "root_onset_s": 55.188369614512474,
+    "activity_end_s": 55.37412925170068,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00128",
+    "nearest_native_timestamp_s": 55.1590022675737,
+    "native_minus_episode_start_ms": -29.36734693877696,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF022",
+    "activity_start_s": 55.49022902494331,
+    "root_onset_s": 55.49022902494331,
+    "activity_end_s": 55.80369841269841,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00129",
+    "nearest_native_timestamp_s": 55.414421768707484,
+    "native_minus_episode_start_ms": -75.80725623582651,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF023",
+    "activity_start_s": 55.87335827664399,
+    "root_onset_s": 55.87335827664399,
+    "activity_end_s": 56.221657596371884,
+    "native_event_ids_inside": [
+      "BASS_00130"
+    ],
+    "nearest_native_id": "BASS_00130",
+    "nearest_native_timestamp_s": 55.89043083900227,
+    "native_minus_episode_start_ms": 17.072562358279697,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF024",
+    "activity_start_s": 56.29131746031746,
+    "root_onset_s": 56.29131746031746,
+    "activity_end_s": 56.558346938775514,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00131",
+    "nearest_native_timestamp_s": 56.62185941043084,
+    "native_minus_episode_start_ms": 330.5419501133784,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF025",
+    "activity_start_s": 56.65122675736961,
+    "root_onset_s": 56.65122675736961,
+    "activity_end_s": 56.89503628117914,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00131",
+    "nearest_native_timestamp_s": 56.62185941043084,
+    "native_minus_episode_start_ms": -29.36734693877696,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF026",
+    "activity_start_s": 56.95437006802721,
+    "root_onset_s": 56.95437006802721,
+    "activity_end_s": 57.16334965986395,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00132",
+    "nearest_native_timestamp_s": 56.91210884353742,
+    "native_minus_episode_start_ms": -42.26122448979197,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF027",
+    "activity_start_s": 57.03563990929705,
+    "root_onset_s": 57.03563990929705,
+    "activity_end_s": 57.209789569160996,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00132",
+    "nearest_native_timestamp_s": 56.91210884353742,
+    "native_minus_episode_start_ms": -123.5310657596358,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF028",
+    "activity_start_s": 57.314279365079365,
+    "root_onset_s": 57.314279365079365,
+    "activity_end_s": 57.581308843537414,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00133",
+    "nearest_native_timestamp_s": 57.68997732426304,
+    "native_minus_episode_start_ms": 375.6979591836753,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF029",
+    "activity_start_s": 57.34910929705215,
+    "root_onset_s": 57.34910929705215,
+    "activity_end_s": 57.581308843537414,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00133",
+    "nearest_native_timestamp_s": 57.68997732426304,
+    "native_minus_episode_start_ms": 340.86802721088816,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF030",
+    "activity_start_s": 57.56969886621315,
+    "root_onset_s": 57.56969886621315,
+    "activity_end_s": 58.12697777777778,
+    "native_event_ids_inside": [
+      "BASS_00133"
+    ],
+    "nearest_native_id": "BASS_00133",
+    "nearest_native_timestamp_s": 57.68997732426304,
+    "native_minus_episode_start_ms": 120.27845804988857,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF031",
+    "activity_start_s": 58.12697777777778,
+    "root_onset_s": 58.12697777777778,
+    "activity_end_s": 58.3707873015873,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00134",
+    "nearest_native_timestamp_s": 58.44462585034014,
+    "native_minus_episode_start_ms": 317.6480725623563,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF032",
+    "activity_start_s": 58.44044716553288,
+    "root_onset_s": 58.44044716553288,
+    "activity_end_s": 58.75391655328798,
+    "native_event_ids_inside": [
+      "BASS_00134"
+    ],
+    "nearest_native_id": "BASS_00134",
+    "nearest_native_timestamp_s": 58.44462585034014,
+    "native_minus_episode_start_ms": 4.178684807257582,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF033",
+    "activity_start_s": 58.846796371882085,
+    "root_onset_s": 58.846796371882085,
+    "activity_end_s": 59.173159637188206,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00135",
+    "nearest_native_timestamp_s": 58.80453514739229,
+    "native_minus_episode_start_ms": -42.26122448979197,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF034",
+    "activity_start_s": 58.88162630385487,
+    "root_onset_s": 58.88162630385487,
+    "activity_end_s": 59.44018911564626,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00135",
+    "nearest_native_timestamp_s": 58.80453514739229,
+    "native_minus_episode_start_ms": -77.09115646257914,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF035",
+    "activity_start_s": 59.41696916099773,
+    "root_onset_s": 59.41696916099773,
+    "activity_end_s": 59.881368253968255,
+    "native_event_ids_inside": [
+      "BASS_00136"
+    ],
+    "nearest_native_id": "BASS_00136",
+    "nearest_native_timestamp_s": 59.5243537414966,
+    "native_minus_episode_start_ms": 107.38458049886646,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF036",
+    "activity_start_s": 59.927808163265304,
+    "root_onset_s": 59.927808163265304,
+    "activity_end_s": 60.20644761904762,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00137",
+    "nearest_native_timestamp_s": 59.895873015873015,
+    "native_minus_episode_start_ms": -31.93514739228931,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF037",
+    "activity_start_s": 60.21805759637188,
+    "root_onset_s": 60.21805759637188,
+    "activity_end_s": 60.55474693877551,
+    "native_event_ids_inside": [
+      "BASS_00138"
+    ],
+    "nearest_native_id": "BASS_00138",
+    "nearest_native_timestamp_s": 60.232562358276645,
+    "native_minus_episode_start_ms": 14.50476190476735,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF038",
+    "activity_start_s": 60.67084671201814,
+    "root_onset_s": 60.67084671201814,
+    "activity_end_s": 60.91594013605442,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00139",
+    "nearest_native_timestamp_s": 60.615691609977326,
+    "native_minus_episode_start_ms": -55.155102040814086,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF039",
+    "activity_start_s": 60.91594013605442,
+    "root_onset_s": 60.91594013605442,
+    "activity_end_s": 61.26423945578232,
+    "native_event_ids_inside": [
+      "BASS_00140"
+    ],
+    "nearest_native_id": "BASS_00140",
+    "nearest_native_timestamp_s": 60.97560090702948,
+    "native_minus_episode_start_ms": 59.66077097506428,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF040",
+    "activity_start_s": 61.33389931972789,
+    "root_onset_s": 61.33389931972789,
+    "activity_end_s": 61.67058866213152,
+    "native_event_ids_inside": [
+      "BASS_00142"
+    ],
+    "nearest_native_id": "BASS_00142",
+    "nearest_native_timestamp_s": 61.3471201814059,
+    "native_minus_episode_start_ms": 13.220861678007623,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF041",
+    "activity_start_s": 61.70541859410431,
+    "root_onset_s": 61.70541859410431,
+    "activity_end_s": 62.04210793650793,
+    "native_event_ids_inside": [
+      "BASS_00143",
+      "BASS_00144"
+    ],
+    "nearest_native_id": "BASS_00143",
+    "nearest_native_timestamp_s": 61.718639455782316,
+    "native_minus_episode_start_ms": 13.220861678007623,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF042",
+    "activity_start_s": 62.181427664399095,
+    "root_onset_s": 62.181427664399095,
+    "activity_end_s": 62.42523718820861,
+    "native_event_ids_inside": [
+      "BASS_00146"
+    ],
+    "nearest_native_id": "BASS_00146",
+    "nearest_native_timestamp_s": 62.20625850340136,
+    "native_minus_episode_start_ms": 24.830839002262906,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF043",
+    "activity_start_s": 62.92575011337868,
+    "root_onset_s": 62.92575011337868,
+    "activity_end_s": 63.16955963718821,
+    "native_event_ids_inside": [
+      "BASS_00148"
+    ],
+    "nearest_native_id": "BASS_00148",
+    "nearest_native_timestamp_s": 62.94929705215419,
+    "native_minus_episode_start_ms": 23.546938775510284,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF044",
+    "activity_start_s": 63.18116961451247,
+    "root_onset_s": 63.18116961451247,
+    "activity_end_s": 63.34370929705216,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00148",
+    "nearest_native_timestamp_s": 62.94929705215419,
+    "native_minus_episode_start_ms": -231.87256235827647,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF045",
+    "activity_start_s": 63.90098820861678,
+    "root_onset_s": 63.90098820861678,
+    "activity_end_s": 64.10996780045352,
+    "native_event_ids_inside": [
+      "BASS_00150"
+    ],
+    "nearest_native_id": "BASS_00150",
+    "nearest_native_timestamp_s": 63.901315192743766,
+    "native_minus_episode_start_ms": 0.32698412698550783,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF046",
+    "activity_start_s": 64.27250748299319,
+    "root_onset_s": 64.29572743764172,
+    "activity_end_s": 64.50470702947845,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00151",
+    "nearest_native_timestamp_s": 64.63274376417233,
+    "native_minus_episode_start_ms": 360.23628117914086,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF047",
+    "activity_start_s": 64.64402675736962,
+    "root_onset_s": 64.64402675736962,
+    "activity_end_s": 64.86590022675738,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00151",
+    "nearest_native_timestamp_s": 64.63274376417233,
+    "native_minus_episode_start_ms": -11.282993197283986,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF048",
+    "activity_start_s": 64.97039002267573,
+    "root_onset_s": 64.97039002267573,
+    "activity_end_s": 65.30707936507937,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00152",
+    "nearest_native_timestamp_s": 64.96943310657596,
+    "native_minus_episode_start_ms": -0.9569160997671133,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF049",
+    "activity_start_s": 65.423179138322,
+    "root_onset_s": 65.423179138322,
+    "activity_end_s": 65.69020861678004,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00153",
+    "nearest_native_timestamp_s": 65.34095238095239,
+    "native_minus_episode_start_ms": -82.22675736961094,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF050",
+    "activity_start_s": 66.06172789115647,
+    "root_onset_s": 66.06172789115647,
+    "activity_end_s": 66.37519727891157,
+    "native_event_ids_inside": [
+      "BASS_00155"
+    ],
+    "nearest_native_id": "BASS_00155",
+    "nearest_native_timestamp_s": 66.07238095238095,
+    "native_minus_episode_start_ms": 10.65306122448817,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF051",
+    "activity_start_s": 66.42163718820862,
+    "root_onset_s": 66.42163718820862,
+    "activity_end_s": 66.73510657596373,
+    "native_event_ids_inside": [
+      "BASS_00156"
+    ],
+    "nearest_native_id": "BASS_00156",
+    "nearest_native_timestamp_s": 66.43229024943311,
+    "native_minus_episode_start_ms": 10.65306122448817,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF052",
+    "activity_start_s": 66.66544671201814,
+    "root_onset_s": 66.66544671201814,
+    "activity_end_s": 67.22400952380953,
+    "native_event_ids_inside": [
+      "BASS_00157",
+      "BASS_00158"
+    ],
+    "nearest_native_id": "BASS_00157",
+    "nearest_native_timestamp_s": 66.780589569161,
+    "native_minus_episode_start_ms": 115.14285714285677,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF053",
+    "activity_start_s": 66.96859002267574,
+    "root_onset_s": 66.96859002267574,
+    "activity_end_s": 67.44459909297052,
+    "native_event_ids_inside": [
+      "BASS_00158"
+    ],
+    "nearest_native_id": "BASS_00158",
+    "nearest_native_timestamp_s": 67.14049886621315,
+    "native_minus_episode_start_ms": 171.90884353740898,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF054",
+    "activity_start_s": 67.47942902494331,
+    "root_onset_s": 67.47942902494331,
+    "activity_end_s": 67.68840861678004,
+    "native_event_ids_inside": [
+      "BASS_00159"
+    ],
+    "nearest_native_id": "BASS_00159",
+    "nearest_native_timestamp_s": 67.48879818594105,
+    "native_minus_episode_start_ms": 9.369160997735548,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF055",
+    "activity_start_s": 67.80450839002268,
+    "root_onset_s": 67.80450839002268,
+    "activity_end_s": 68.16441768707483,
+    "native_event_ids_inside": [
+      "BASS_00160"
+    ],
+    "nearest_native_id": "BASS_00160",
+    "nearest_native_timestamp_s": 67.83709750566894,
+    "native_minus_episode_start_ms": 32.589115646260325,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF056",
+    "activity_start_s": 68.16441768707483,
+    "root_onset_s": 68.16441768707483,
+    "activity_end_s": 68.51271700680272,
+    "native_event_ids_inside": [
+      "BASS_00161"
+    ],
+    "nearest_native_id": "BASS_00161",
+    "nearest_native_timestamp_s": 68.20861678004535,
+    "native_minus_episode_start_ms": 44.19909297051561,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF057",
+    "activity_start_s": 68.50110702947846,
+    "root_onset_s": 68.50110702947846,
+    "activity_end_s": 68.8855201814059,
+    "native_event_ids_inside": [
+      "BASS_00162"
+    ],
+    "nearest_native_id": "BASS_00162",
+    "nearest_native_timestamp_s": 68.59174603174603,
+    "native_minus_episode_start_ms": 90.63900226756516,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF058",
+    "activity_start_s": 68.94357006802721,
+    "root_onset_s": 68.94357006802721,
+    "activity_end_s": 69.22220952380952,
+    "native_event_ids_inside": [
+      "BASS_00163"
+    ],
+    "nearest_native_id": "BASS_00163",
+    "nearest_native_timestamp_s": 68.95165532879818,
+    "native_minus_episode_start_ms": 8.085260770968716,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF059",
+    "activity_start_s": 69.26864943310657,
+    "root_onset_s": 69.28025941043084,
+    "activity_end_s": 69.54728888888889,
+    "native_event_ids_inside": [
+      "BASS_00164"
+    ],
+    "nearest_native_id": "BASS_00164",
+    "nearest_native_timestamp_s": 69.29995464852608,
+    "native_minus_episode_start_ms": 31.305215419507704,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF060",
+    "activity_start_s": 69.54728888888889,
+    "root_onset_s": 69.54728888888889,
+    "activity_end_s": 70.02329795918368,
+    "native_event_ids_inside": [
+      "BASS_00165",
+      "BASS_00166"
+    ],
+    "nearest_native_id": "BASS_00165",
+    "nearest_native_timestamp_s": 69.67147392290249,
+    "native_minus_episode_start_ms": 124.18503401360681,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF061",
+    "activity_start_s": 70.01168798185941,
+    "root_onset_s": 70.01168798185941,
+    "activity_end_s": 70.32515736961452,
+    "native_event_ids_inside": [],
+    "nearest_native_id": "BASS_00166",
+    "nearest_native_timestamp_s": 70.00816326530612,
+    "native_minus_episode_start_ms": -3.5247165532865665,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF062",
+    "activity_start_s": 70.29032743764172,
+    "root_onset_s": 70.29032743764172,
+    "activity_end_s": 70.68506666666667,
+    "native_event_ids_inside": [
+      "BASS_00167"
+    ],
+    "nearest_native_id": "BASS_00167",
+    "nearest_native_timestamp_s": 70.37968253968253,
+    "native_minus_episode_start_ms": 89.35510204081254,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  },
+  {
+    "episode_id": "HF063",
+    "activity_start_s": 70.71989659863945,
+    "root_onset_s": 70.71989659863945,
+    "activity_end_s": 71.1043097505669,
+    "native_event_ids_inside": [
+      "BASS_00168",
+      "BASS_00169"
+    ],
+    "nearest_native_id": "BASS_00168",
+    "nearest_native_timestamp_s": 70.72798185941043,
+    "native_minus_episode_start_ms": 8.085260770982927,
+    "qualification": "same-source detector evidence only; not validation or a boundary correction"
+  }
+]

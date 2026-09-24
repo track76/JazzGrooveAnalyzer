@@ -1,0 +1,183 @@
+[
+  {
+    "event_id": "GAL09_20260914_S3_A_F_R02",
+    "group_id": "RG0113",
+    "error_ms": 15390.56349206349,
+    "selected_BP_query": "T10_N011",
+    "selected_query_native_onset": 32.94643809523809,
+    "search_intervals": [
+      [
+        17.39133696145125,
+        17.8306566893424
+      ],
+      [
+        26.093629478458052,
+        26.39362947845805
+      ],
+      [
+        32.796438095238095,
+        33.23575782312925
+      ]
+    ],
+    "BP_activity_intervals": [
+      {
+        "native_note_id": "T10_N014",
+        "onset_local_s": 17.541336961451247,
+        "offset_local_s": 17.680656689342403,
+        "midi_pitch": 33
+      },
+      {
+        "native_note_id": "T10_N013",
+        "onset_local_s": 17.680656689342403,
+        "offset_local_s": 26.24362947845805,
+        "midi_pitch": 33
+      },
+      {
+        "native_note_id": "T10_N012",
+        "onset_local_s": 26.24362947845805,
+        "offset_local_s": 32.80711836734694,
+        "midi_pitch": 33
+      },
+      {
+        "native_note_id": "T10_N011",
+        "onset_local_s": 32.94643809523809,
+        "offset_local_s": 33.08575782312925,
+        "midi_pitch": 33
+      },
+      {
+        "native_note_id": "T10_N010",
+        "onset_local_s": 33.08575782312925,
+        "offset_local_s": 47.29374739229025,
+        "midi_pitch": 33
+      }
+    ],
+    "selected_score": 0.9999981034585239,
+    "compatible_other_GT_ids": [
+      "GAL09_20260914_S3_A_F_R03"
+    ],
+    "mechanism": "Native BP activity persistence linked disjoint onset windows into one component; the unchanged maximum-score selector chose a later front outside the target note neighborhood. This is region/group ownership failure, not timestamp correction or lack of local front evidence.",
+    "qualification": "A compatible different GT event proves wrong-target association only when independently present; otherwise late front remains unverified rather than labelled a true attack."
+  },
+  {
+    "event_id": "GAL09_20260914_S3_E_F_R04",
+    "group_id": "RG0102",
+    "error_ms": 9250.056689342407,
+    "selected_BP_query": "T09_N061",
+    "selected_query_native_onset": 46.5855387755102,
+    "search_intervals": [
+      [
+        37.280457142857145,
+        37.60367709750567
+      ],
+      [
+        42.49718866213152,
+        42.79718866213152
+      ],
+      [
+        42.89192789115646,
+        43.19192789115646
+      ],
+      [
+        46.4355387755102,
+        46.7355387755102
+      ],
+      [
+        46.74900816326531,
+        47.049008163265306
+      ]
+    ],
+    "BP_activity_intervals": [
+      {
+        "native_note_id": "T09_N016",
+        "onset_local_s": 37.43045714285714,
+        "offset_local_s": 47.5607768707483,
+        "midi_pitch": 28
+      },
+      {
+        "native_note_id": "T09_N015",
+        "onset_local_s": 37.45367709750567,
+        "offset_local_s": 37.74392653061224,
+        "midi_pitch": 40
+      },
+      {
+        "native_note_id": "T09_N014",
+        "onset_local_s": 42.64718866213152,
+        "offset_local_s": 42.85616825396826,
+        "midi_pitch": 40
+      },
+      {
+        "native_note_id": "T09_N040",
+        "onset_local_s": 43.04192789115646,
+        "offset_local_s": 47.49111700680272,
+        "midi_pitch": 40
+      },
+      {
+        "native_note_id": "T09_N061",
+        "onset_local_s": 46.5855387755102,
+        "offset_local_s": 46.73646848072562,
+        "midi_pitch": 33
+      },
+      {
+        "native_note_id": "T09_N049",
+        "onset_local_s": 46.89900816326531,
+        "offset_local_s": 47.1195977324263,
+        "midi_pitch": 33
+      }
+    ],
+    "selected_score": 0.9482466929957158,
+    "compatible_other_GT_ids": [],
+    "mechanism": "Native BP activity persistence linked disjoint onset windows into one component; the unchanged maximum-score selector chose a later front outside the target note neighborhood. This is region/group ownership failure, not timestamp correction or lack of local front evidence.",
+    "qualification": "A compatible different GT event proves wrong-target association only when independently present; otherwise late front remains unverified rather than labelled a true attack."
+  },
+  {
+    "event_id": "GAL09_20260914_S3_E_F_R10",
+    "group_id": "RG0109",
+    "error_ms": 5542.179138321998,
+    "selected_BP_query": "T09_N057",
+    "selected_query_native_onset": 108.40202902494332,
+    "search_intervals": [
+      [
+        102.84953786848072,
+        103.19597777777778
+      ],
+      [
+        107.57865034013605,
+        107.87865034013606
+      ],
+      [
+        108.25202902494331,
+        108.55202902494332
+      ]
+    ],
+    "BP_activity_intervals": [
+      {
+        "native_note_id": "T09_N002",
+        "onset_local_s": 102.99953786848073,
+        "offset_local_s": 103.44200090702948,
+        "midi_pitch": 40
+      },
+      {
+        "native_note_id": "T09_N001",
+        "onset_local_s": 103.04597777777778,
+        "offset_local_s": 113.1879074829932,
+        "midi_pitch": 28
+      },
+      {
+        "native_note_id": "T09_N036",
+        "onset_local_s": 107.72865034013606,
+        "offset_local_s": 113.17629750566893,
+        "midi_pitch": 40
+      },
+      {
+        "native_note_id": "T09_N057",
+        "onset_local_s": 108.40202902494332,
+        "offset_local_s": 108.54134875283448,
+        "midi_pitch": 33
+      }
+    ],
+    "selected_score": 0.98069810097728,
+    "compatible_other_GT_ids": [],
+    "mechanism": "Native BP activity persistence linked disjoint onset windows into one component; the unchanged maximum-score selector chose a later front outside the target note neighborhood. This is region/group ownership failure, not timestamp correction or lack of local front evidence.",
+    "qualification": "A compatible different GT event proves wrong-target association only when independently present; otherwise late front remains unverified rather than labelled a true attack."
+  }
+]

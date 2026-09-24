@@ -1,0 +1,102 @@
+{
+  "artifact": "GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1",
+  "created_utc": "2026-09-24T10:38:10.353040+00:00",
+  "scope": "PI-authorized validation artifact only",
+  "definition": "Channel-specific observable onset in the Fishman Full Circle pickup signal; NOT physical string-release Ground Truth.",
+  "included": 120,
+  "excluded": 0,
+  "uncertain": 0,
+  "files": {
+    "ANNOTATION_PROVENANCE.json": "30d45c0327b5c2aaf8fc1803839c767069cc7f6f6b9f46862a502c583c75f78b",
+    "GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1.csv": "6f30db7b6ccc44151fe2fd68f68b4f013cb7a76ec8da169f71ba3813b5fc3cbf",
+    "GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1.json": "a4047bf252f28fa3289279bdcaa5e90226dcf0af994a51e0dd5df05174484631",
+    "README.md": "44e0bfc8f88354bd03fd7f10fe85e11774b9435eedc1b33191d8b1d470006167"
+  },
+  "parents": {
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_BASIC_PITCH_GALLEGATI_TIMING_VALIDATION_20260924/GROUND_TRUTH/GT_FREEZE.json": "7b62b71cf41051c73eee85590c4f4a88b42030c2dfd618c302dc39ac88a75832",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/FINAL_REFERENCE_RULE.json": "17b02f510f003bb86c12b6b7a8159da60061b64f972e477f5b3a53254e8268ca",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/REPEATABILITY_SUMMARY.json": "e24bb6dcb5a04d4c7ee3b964eb42c18c9c687a77fb545227effbaa10445b9dd1",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/EVENT_REPEATABILITY.csv": "7eb144335ede1a25b567edb7b6c19eaf10a8ed79f813463f2bef0c9be5be8286",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_PASS1_INGESTION_20260924/SELECTION_RULE_FREEZE.json": "63a0985f2a6cc3cd337e2b20bc8a3ce612860c17e375f82a5be25e9c569feb6d",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_PASS1_INGESTION_20260924/SELECTION_RULE.json": "b2011fce50e0d9fd3b9dc11e2a9f2019605b6ecae752b3cc70d6bfd675987760",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_COMPLETION_20260924/TECHNICAL/PRIVATE_EXCERPT_MANIFEST.csv": "dddb8dc4f08f45006660a626d83465d9a839804f8e01c484ba579f5bb72260ec",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_PASS1_INGESTION_20260924/TECHNICAL/PASS2_PRIVATE_MANIFEST.csv": "0b66b70ef9de4d27ff35a2a1437f51a1a5f75ea7859847ff2f07e186d7b6aad1",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/DOUBLE_BASS_GALLEGATI_EVENT_RESOLUTION_20260919/EVENT_RESOLUTION_MANIFEST.csv": "b27db39db6b2ac49fd45940e3e3bcc383a7293b4a1177c9648e29d8793b6367a",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/ORIGINAL_EXPORTS/PI_FISHMAN_CONTINUOUS_GT_PASS2_RESPONSES.json": "4bbd28299f28c4c163db7bfebdf57db30a868b4189a6ba514d9dc64f82b0d6c0",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/ORIGINAL_EXPORTS/PI_FISHMAN_CONTINUOUS_GT_PASS2_RECEIPT.json": "5c176e63d1fa6365d62805ab69637f26bdf3fe3dfea5255ced82ebe617b09948",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_PASS1_INGESTION_20260924/ORIGINAL_EXPORTS/PI_FISHMAN_CONTINUOUS_GT_PASS1_RESPONSES.json": "6d8bcdbf193b5fe63322fcc2ad5efcd94b1cbb178dffd2701fc149ce05ceabb4",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_PASS1_INGESTION_20260924/ORIGINAL_EXPORTS/PI_FISHMAN_CONTINUOUS_GT_PASS1_RECEIPT.json": "c9a9a1bf48efbc683699da047d93a8082036e51e02d1c4af626f1284035ac403"
+  },
+  "sources": {
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0028 [2026-09-14 170910].wav": {
+      "sha256": "3666e5e5d426fb4d70684020357d01f491582d1e764cda3387109cbd130824dc",
+      "duration": 145.3365986394558
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0029 [2026-09-14 171327].wav": {
+      "sha256": "62e17f5b05b8ea007cb1592fac3eb68bc72d27a476fb337f1e2aab9f2a28dfd5",
+      "duration": 165.61197278911564
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0030 [2026-09-14 171340].wav": {
+      "sha256": "35749ba227176914306bdef7a08784f50878c678367bcf40809af06159e35cfb",
+      "duration": 169.57823129251702
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0031 [2026-09-14 171635].wav": {
+      "sha256": "6dc976e30bb436a1eadc9f9c97eeeb8d4bf57023fbcf95d06b9dedc300d3e39e",
+      "duration": 154.53024943310658
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0033 [2026-09-14 172532].wav": {
+      "sha256": "43d2e14d8f406afa5b1d5b62e05ec8a90c4a57ddfce6c079372c2ef337cff58a",
+      "duration": 118.21569160997733
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0034 [2026-09-14 172540].wav": {
+      "sha256": "d617573185e1d653dcd16e96d9c0fceb5816320c501a90c19aa3cf6404465d7b",
+      "duration": 141.27891156462584
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0035 [2026-09-14 172741].wav": {
+      "sha256": "1f0b4fff9cf0ecc4ba0cdb3f6b7b5180de4a7c9466cf9b99874d8faa5ed0a5ce",
+      "duration": 130.6296598639456
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0036 [2026-09-14 173009].wav": {
+      "sha256": "a809a218bcbe08ce0210e322998980156616c1ca094528dfb815665b2268fe22",
+      "duration": 118.94857142857143
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0037 [2026-09-14 173227].wav": {
+      "sha256": "af23c44d3aa5e22965a6e6ba1132905929663de923345e8ae92f66f76d9d9bfe",
+      "duration": 113.96353741496598
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0038 [2026-09-14 173542].wav": {
+      "sha256": "ccf5323f5c7de0867a8ff2ad8bc1d98942d6b526462dfe78b82259f493685a91",
+      "duration": 141.71863945578232
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0039 [2026-09-14 173828].wav": {
+      "sha256": "7fe9058c85aa9e5d53e6632173afea4e30f15a5dbee5faafdfca28b2d3d5eaa4",
+      "duration": 140.59972789115648
+    },
+    "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0040 [2026-09-14 174102].wav": {
+      "sha256": "856a8ac04628b65828bb573f063ccd4b093cece3c98707b6058abb8fadebb15b",
+      "duration": 128.27138321995466
+    }
+  },
+  "validation": {
+    "unique_events": 120,
+    "takes": {
+      "20260914_0028": 10,
+      "20260914_0029": 10,
+      "20260914_0030": 10,
+      "20260914_0031": 10,
+      "20260914_0033": 10,
+      "20260914_0034": 10,
+      "20260914_0035": 10,
+      "20260914_0036": 10,
+      "20260914_0037": 10,
+      "20260914_0038": 10,
+      "20260914_0039": 10,
+      "20260914_0040": 10
+    },
+    "all_metadata_and_bounds_verified": true,
+    "old36_JSON_values_exact": true,
+    "old36_CSV_field_strings_exact": true,
+    "source_hashes_verified": 12,
+    "no_detector_executed": true
+  }
+}

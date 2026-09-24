@@ -1,0 +1,13 @@
+{
+  "scope": "Diagnostic only; not cohort-matched",
+  "old_cohort": "Report001 BASS PRIMARY_NONSHARED, whole accepted performance",
+  "old_N": 23,
+  "old_median_ms": -34.83,
+  "old_mean_ms": -22.72,
+  "new_N": 17,
+  "new_median_ms": -1.723356009065924,
+  "new_mean_ms": 4.689875950382446,
+  "conclusion": "CANNOT_DIRECTLY_COMPARE",
+  "reason": "Different time scope, source population, source-identity rules and timing landmarks; current M33\u2013M48 uses frozen-selector Bass-stem coordinates, prior Report001 uses its frozen native source-supported cohort. No confirmation or refutation from pooled medians.",
+  "report001_summary_sha256": "0156355d3435596b677a0f52237fcd617a602cf6b63df4cf6f6b300eac61b3f2"
+}

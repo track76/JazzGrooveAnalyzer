@@ -1,0 +1,213 @@
+{
+  "episodes": 63,
+  "previous_selected": 17,
+  "previous_abstained": 46,
+  "abstention_classes": {
+    "MULTIPLE_LOCAL_FRONT_CUES": 34,
+    "NO_CLEAR_LOCAL_FRONT_CUE": 6,
+    "CLEAR_LOCAL_FRONT_CUE": 6
+  },
+  "secure_abstention_classes": {
+    "MULTIPLE_LOCAL_FRONT_CUES": 20,
+    "CLEAR_LOCAL_FRONT_CUE": 2,
+    "NO_CLEAR_LOCAL_FRONT_CUE": 3
+  },
+  "selected_crosscheck": {
+    "FULLMIX_AMBIGUOUS": 11,
+    "FULLMIX_NO_SUPPORT": 2,
+    "FULLMIX_SUPPORTS_DIFFERENT_EARLIER_FRONT": 3,
+    "FULLMIX_SUPPORTS_DIFFERENT_LATER_FRONT": 1
+  },
+  "raw_fullmix_query_fronts": 3842,
+  "stem_query_candidates": 4030,
+  "salient_fullmix_query_fronts": 219,
+  "late_selections_audited": 15,
+  "domain_summary": {
+    "SELECTED": {
+      "N": 17,
+      "features": {
+        "log_flux_peak": {
+          "median": -2.260573723412386,
+          "median_contribution": 0.5293353524576544
+        },
+        "log_prominence": {
+          "median": -2.3784974490880817,
+          "median_contribution": 0.29615030153761046
+        },
+        "log_width_ms": {
+          "median": 2.015084859248894,
+          "median_contribution": -0.12416508200477129
+        },
+        "log_rise_ms": {
+          "median": 2.7059315562419246,
+          "median_contribution": -0.4354456462560005
+        },
+        "rise_slope_norm": {
+          "median": 0.06666666666666667,
+          "median_contribution": 0.6632480667599925
+        },
+        "decay_slope_norm": {
+          "median": 0.125,
+          "median_contribution": -0.17826628654542157
+        },
+        "log_flux_integral": {
+          "median": -3.80511275200397,
+          "median_contribution": 0.04255513873244085
+        },
+        "flux_post_pre_logratio": {
+          "median": -0.0565026485864375,
+          "median_contribution": 0.12420483859943321
+        },
+        "peak_local_mean_ratio": {
+          "median": 2.692764380859251,
+          "median_contribution": 1.2296104197420465
+        },
+        "peak_local_max_ratio": {
+          "median": 0.8792264694579011,
+          "median_contribution": 1.130799752470666
+        },
+        "rms_pre_log": {
+          "median": -1.6489292836217464,
+          "median_contribution": 0.08908937949608317
+        },
+        "rms_post_pre_logratio": {
+          "median": -0.027141463025899037,
+          "median_contribution": 0.0045853920097704065
+        },
+        "low_energy_pre_log": {
+          "median": -3.359900306863616,
+          "median_contribution": -0.06539084117384714
+        },
+        "low_energy_post_pre_logratio": {
+          "median": -0.05642398533866633,
+          "median_contribution": -0.3017029799658504
+        },
+        "broad_energy_post_pre_logratio": {
+          "median": -0.056857675715602074,
+          "median_contribution": -0.2278669696916286
+        },
+        "centroid_change": {
+          "median": 0.0019936782799646266,
+          "median_contribution": -0.2330776123550132
+        },
+        "spectral_slope_change": {
+          "median": -0.011160354810404671,
+          "median_contribution": -0.3927813761325778
+        },
+        "late_low_energy_persistence": {
+          "median": -0.13922054514520887,
+          "median_contribution": 0.08924580830332185
+        },
+        "low_spectral_concentration_change": {
+          "median": 0.00414109614931512,
+          "median_contribution": -0.4169681551324799
+        },
+        "BP_signed_distance_ms": {
+          "median": 138.71156462585077,
+          "median_contribution": 0.08940513295976987
+        },
+        "BP_absolute_distance_ms": {
+          "median": 138.71156462585077,
+          "median_contribution": -0.33128521486581325
+        },
+        "BP_relative_activity_position": {
+          "median": 0.8483125000000215,
+          "median_contribution": 7.983799968420006
+        }
+      }
+    },
+    "ABSTAINED": {
+      "N": 46,
+      "features": {
+        "log_flux_peak": {
+          "median": -2.076655058030945,
+          "median_contribution": 0.6290473007534512
+        },
+        "log_prominence": {
+          "median": -2.2169164948585918,
+          "median_contribution": 0.3324382847397874
+        },
+        "log_width_ms": {
+          "median": 2.0073964814908933,
+          "median_contribution": -0.12278252175415451
+        },
+        "log_rise_ms": {
+          "median": 2.5628540188216826,
+          "median_contribution": -0.37343658695655413
+        },
+        "rise_slope_norm": {
+          "median": 0.07134028902251491,
+          "median_contribution": 0.6431270912398133
+        },
+        "decay_slope_norm": {
+          "median": 0.07640335445089062,
+          "median_contribution": -0.3459247132998633
+        },
+        "log_flux_integral": {
+          "median": -3.7204233661108095,
+          "median_contribution": 0.04814669209858667
+        },
+        "flux_post_pre_logratio": {
+          "median": -0.06848617016302372,
+          "median_contribution": 0.1275272073644989
+        },
+        "peak_local_mean_ratio": {
+          "median": 2.476079083393868,
+          "median_contribution": 1.0322985230407449
+        },
+        "peak_local_max_ratio": {
+          "median": 0.9419114822453558,
+          "median_contribution": 1.2676757958963174
+        },
+        "rms_pre_log": {
+          "median": -1.2321731120036763,
+          "median_contribution": -0.24012191323494342
+        },
+        "rms_post_pre_logratio": {
+          "median": -0.04410720101480825,
+          "median_contribution": 0.004888928187558003
+        },
+        "low_energy_pre_log": {
+          "median": -2.601801391498516,
+          "median_contribution": -0.5403447562435806
+        },
+        "low_energy_post_pre_logratio": {
+          "median": -0.0815553162060072,
+          "median_contribution": -0.3147155450155506
+        },
+        "broad_energy_post_pre_logratio": {
+          "median": -0.08059499587534247,
+          "median_contribution": -0.2391446524243187
+        },
+        "centroid_change": {
+          "median": 0.0015883453571359496,
+          "median_contribution": -0.24450401323263654
+        },
+        "spectral_slope_change": {
+          "median": -0.05134066583301777,
+          "median_contribution": -0.3272823063971211
+        },
+        "late_low_energy_persistence": {
+          "median": -0.10186985906107293,
+          "median_contribution": 0.08488302803777834
+        },
+        "low_spectral_concentration_change": {
+          "median": -0.001369807965566444,
+          "median_contribution": -0.4400949088915798
+        },
+        "BP_signed_distance_ms": {
+          "median": 126.01315192743101,
+          "median_contribution": 0.08164347231920137
+        },
+        "BP_absolute_distance_ms": {
+          "median": 126.01315192743101,
+          "median_contribution": -0.26255188146068364
+        },
+        "BP_relative_activity_position": {
+          "median": 0.47530590611644674,
+          "median_contribution": 4.475651670237266
+        }
+      }
+    }
+  }
+}

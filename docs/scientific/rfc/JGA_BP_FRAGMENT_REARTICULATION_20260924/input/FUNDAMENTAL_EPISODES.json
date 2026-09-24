@@ -1,0 +1,1938 @@
+[
+  {
+    "root_onset_s": 47.79928843537415,
+    "fundamental_midi": 39,
+    "fundamental_hz": 77.78174593052023,
+    "root_note_ids": [
+      "BP_0003"
+    ],
+    "member_ids": [
+      "BP_0003"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 0,
+    "opening_reason": "first observed root proposal",
+    "flags": [],
+    "start_s": 47.79928843537415,
+    "end_s": 48.00826802721088,
+    "fundamental_support_end_s": 48.00826802721088,
+    "episode_id": "HF001",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 48.019878004535144,
+    "display_current_end_s": 48.00826802721088,
+    "bass_rms_context": 0.037595406706569585,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 48.019878004535144,
+    "fundamental_midi": 43,
+    "fundamental_hz": 97.99885899543733,
+    "root_note_ids": [
+      "BP_0004"
+    ],
+    "member_ids": [
+      "BP_0004"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 1,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 48.019878004535144,
+    "end_s": 48.194027664399094,
+    "fundamental_support_end_s": 48.194027664399094,
+    "episode_id": "HF002",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF003"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 48.10114784580499,
+    "display_current_end_s": 48.10114784580499,
+    "bass_rms_context": 0.1486179138242321,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 48.10114784580499,
+    "fundamental_midi": 31,
+    "fundamental_hz": 48.999429497718666,
+    "root_note_ids": [
+      "BP_0005"
+    ],
+    "member_ids": [
+      "BP_0005",
+      "BP_0006"
+    ],
+    "harmonic_ids": [
+      "BP_0006"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 2,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 48.10114784580499,
+    "end_s": 48.61198684807256,
+    "fundamental_support_end_s": 48.61198684807256,
+    "episode_id": "HF003",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF002",
+      "HF004"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 48.577156916099774,
+    "display_current_end_s": 48.577156916099774,
+    "bass_rms_context": 0.09708574615320714,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 48.577156916099774,
+    "fundamental_midi": 44,
+    "fundamental_hz": 103.82617439498628,
+    "root_note_ids": [
+      "BP_0007"
+    ],
+    "member_ids": [
+      "BP_0007"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 4,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 48.577156916099774,
+    "end_s": 48.797746485260774,
+    "fundamental_support_end_s": 48.797746485260774,
+    "episode_id": "HF004",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF003",
+      "HF005"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 48.61198684807256,
+    "display_current_end_s": 48.61198684807256,
+    "bass_rms_context": 0.019723616844987857,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 48.61198684807256,
+    "fundamental_midi": 32,
+    "fundamental_hz": 51.91308719749314,
+    "root_note_ids": [
+      "BP_0008"
+    ],
+    "member_ids": [
+      "BP_0008"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 5,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 48.61198684807256,
+    "end_s": 48.77452653061224,
+    "fundamental_support_end_s": 48.77452653061224,
+    "episode_id": "HF005",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF004"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 48.97189614512472,
+    "display_current_end_s": 48.77452653061224,
+    "bass_rms_context": 0.018646734433752588,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 48.97189614512472,
+    "fundamental_midi": 33,
+    "fundamental_hz": 55.0,
+    "root_note_ids": [
+      "BP_0009"
+    ],
+    "member_ids": [
+      "BP_0009"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 6,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 48.97189614512472,
+    "end_s": 49.20537959183673,
+    "fundamental_support_end_s": 49.20537959183673,
+    "episode_id": "HF006",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 49.35630929705216,
+    "display_current_end_s": 49.20537959183673,
+    "bass_rms_context": 0.06273366941897304,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 49.35630929705216,
+    "fundamental_midi": 34,
+    "fundamental_hz": 58.27047018976124,
+    "root_note_ids": [
+      "BP_0010"
+    ],
+    "member_ids": [
+      "BP_0010"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 7,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 49.35630929705216,
+    "end_s": 49.54206893424036,
+    "fundamental_support_end_s": 49.54206893424036,
+    "episode_id": "HF007",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 49.669778684807255,
+    "display_current_end_s": 49.54206893424036,
+    "bass_rms_context": 0.050800091397068016,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 49.669778684807255,
+    "fundamental_midi": 35,
+    "fundamental_hz": 61.7354126570155,
+    "root_note_ids": [
+      "BP_0012"
+    ],
+    "member_ids": [
+      "BP_0012",
+      "BP_0011"
+    ],
+    "harmonic_ids": [
+      "BP_0011"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 8,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "start_s": 49.65816870748299,
+    "end_s": 49.92519818594104,
+    "fundamental_support_end_s": 49.92519818594104,
+    "episode_id": "HF008",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 50.052907936507935,
+    "display_current_end_s": 49.92519818594104,
+    "bass_rms_context": 0.06282115878632635,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 50.052907936507935,
+    "fundamental_midi": 36,
+    "fundamental_hz": 65.40639132514966,
+    "root_note_ids": [
+      "BP_0013"
+    ],
+    "member_ids": [
+      "BP_0013"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 9,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 50.052907936507935,
+    "end_s": 50.34315736961451,
+    "fundamental_support_end_s": 50.34315736961451,
+    "episode_id": "HF009",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 50.35476734693877,
+    "display_current_end_s": 50.34315736961451,
+    "bass_rms_context": 0.07404891280322709,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 50.35476734693877,
+    "fundamental_midi": 28,
+    "fundamental_hz": 41.20344461410875,
+    "root_note_ids": [
+      "BP_0014"
+    ],
+    "member_ids": [
+      "BP_0014",
+      "BP_0015",
+      "BP_0016"
+    ],
+    "harmonic_ids": [
+      "BP_0015",
+      "BP_0016"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 10,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "start_s": 50.35476734693877,
+    "end_s": 51.18035963718821,
+    "fundamental_support_end_s": 51.18035963718821,
+    "episode_id": "HF010",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 51.18035963718821,
+    "display_current_end_s": 51.18035963718821,
+    "bass_rms_context": 0.1403989007750829,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 51.18035963718821,
+    "fundamental_midi": 29,
+    "fundamental_hz": 43.653528929125486,
+    "root_note_ids": [
+      "BP_0017"
+    ],
+    "member_ids": [
+      "BP_0017"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 13,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 51.18035963718821,
+    "end_s": 51.38933922902494,
+    "fundamental_support_end_s": 51.38933922902494,
+    "episode_id": "HF011",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 51.586708843537416,
+    "display_current_end_s": 51.38933922902494,
+    "bass_rms_context": 0.03403400009354156,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 51.586708843537416,
+    "fundamental_midi": 33,
+    "fundamental_hz": 55.0,
+    "root_note_ids": [
+      "BP_0019"
+    ],
+    "member_ids": [
+      "BP_0019",
+      "BP_0018"
+    ],
+    "harmonic_ids": [
+      "BP_0018"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 14,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 51.56348888888889,
+    "end_s": 51.95822811791383,
+    "fundamental_support_end_s": 51.95822811791383,
+    "episode_id": "HF012",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF013"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 51.87695827664399,
+    "display_current_end_s": 51.87695827664399,
+    "bass_rms_context": 0.07392662639701339,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 51.87695827664399,
+    "fundamental_midi": 38,
+    "fundamental_hz": 73.41619197935188,
+    "root_note_ids": [
+      "BP_0021"
+    ],
+    "member_ids": [
+      "BP_0021",
+      "BP_0020"
+    ],
+    "harmonic_ids": [
+      "BP_0020"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 15,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 51.86534829931973,
+    "end_s": 52.16720770975057,
+    "fundamental_support_end_s": 52.16720770975057,
+    "episode_id": "HF013",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF012"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 52.16720770975057,
+    "display_current_end_s": 52.16720770975057,
+    "bass_rms_context": 0.07732667083059992,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 52.16720770975057,
+    "fundamental_midi": 39,
+    "fundamental_hz": 77.78174593052023,
+    "root_note_ids": [
+      "BP_0022"
+    ],
+    "member_ids": [
+      "BP_0022",
+      "BP_0023"
+    ],
+    "harmonic_ids": [
+      "BP_0023"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 16,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "start_s": 52.16720770975057,
+    "end_s": 52.38779727891156,
+    "fundamental_support_end_s": 52.38779727891156,
+    "episode_id": "HF014",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 52.573556916099776,
+    "display_current_end_s": 52.38779727891156,
+    "bass_rms_context": 0.05568960754888396,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 52.573556916099776,
+    "fundamental_midi": 36,
+    "fundamental_hz": 65.40639132514966,
+    "root_note_ids": [
+      "BP_0024",
+      "BP_0026"
+    ],
+    "member_ids": [
+      "BP_0024",
+      "BP_0025",
+      "BP_0026"
+    ],
+    "harmonic_ids": [
+      "BP_0025"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 17,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 52.573556916099776,
+    "end_s": 52.95797006802721,
+    "fundamental_support_end_s": 52.95797006802721,
+    "episode_id": "HF015",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF016"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 52.887026303854874,
+    "display_current_end_s": 52.887026303854874,
+    "bass_rms_context": 0.058994575095968255,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 52.887026303854874,
+    "fundamental_midi": 43,
+    "fundamental_hz": 97.99885899543733,
+    "root_note_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "member_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 19,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 52.887026303854874,
+    "end_s": 53.317879365079364,
+    "fundamental_support_end_s": 53.317879365079364,
+    "episode_id": "HF016",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF015"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 53.37592925170068,
+    "display_current_end_s": 53.317879365079364,
+    "bass_rms_context": 0.07776416397590302,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 53.37592925170068,
+    "fundamental_midi": 41,
+    "fundamental_hz": 87.30705785825097,
+    "root_note_ids": [
+      "BP_0029"
+    ],
+    "member_ids": [
+      "BP_0029"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 21,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 53.37592925170068,
+    "end_s": 53.701008616780044,
+    "fundamental_support_end_s": 53.701008616780044,
+    "episode_id": "HF017",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 53.72422857142857,
+    "display_current_end_s": 53.701008616780044,
+    "bass_rms_context": 0.09005019522636305,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 53.72422857142857,
+    "fundamental_midi": 46,
+    "fundamental_hz": 116.54094037952248,
+    "root_note_ids": [
+      "BP_0030"
+    ],
+    "member_ids": [
+      "BP_0030"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 22,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 53.72422857142857,
+    "end_s": 54.362777324263035,
+    "fundamental_support_end_s": 54.362777324263035,
+    "episode_id": "HF018",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 54.40921723356009,
+    "display_current_end_s": 54.362777324263035,
+    "bass_rms_context": 0.059525868749354394,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 54.40921723356009,
+    "fundamental_midi": 44,
+    "fundamental_hz": 103.82617439498628,
+    "root_note_ids": [
+      "BP_0031"
+    ],
+    "member_ids": [
+      "BP_0031"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 23,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 54.40921723356009,
+    "end_s": 54.757516553287985,
+    "fundamental_support_end_s": 54.757516553287985,
+    "episode_id": "HF019",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 54.88522630385488,
+    "display_current_end_s": 54.757516553287985,
+    "bass_rms_context": 0.07359237405012198,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 54.88522630385488,
+    "fundamental_midi": 43,
+    "fundamental_hz": 97.99885899543733,
+    "root_note_ids": [
+      "BP_0032"
+    ],
+    "member_ids": [
+      "BP_0032"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 24,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 54.88522630385488,
+    "end_s": 55.130319727891155,
+    "fundamental_support_end_s": 55.130319727891155,
+    "episode_id": "HF020",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 55.188369614512474,
+    "display_current_end_s": 55.130319727891155,
+    "bass_rms_context": 0.04964071280822353,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 55.188369614512474,
+    "fundamental_midi": 41,
+    "fundamental_hz": 87.30705785825097,
+    "root_note_ids": [
+      "BP_0033"
+    ],
+    "member_ids": [
+      "BP_0033"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 25,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 55.188369614512474,
+    "end_s": 55.37412925170068,
+    "fundamental_support_end_s": 55.37412925170068,
+    "episode_id": "HF021",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 55.49022902494331,
+    "display_current_end_s": 55.37412925170068,
+    "bass_rms_context": 0.1004494482998086,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 55.49022902494331,
+    "fundamental_midi": 35,
+    "fundamental_hz": 61.7354126570155,
+    "root_note_ids": [
+      "BP_0034"
+    ],
+    "member_ids": [
+      "BP_0034"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 26,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 55.49022902494331,
+    "end_s": 55.80369841269841,
+    "fundamental_support_end_s": 55.80369841269841,
+    "episode_id": "HF022",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 55.87335827664399,
+    "display_current_end_s": 55.80369841269841,
+    "bass_rms_context": 0.09267859188103868,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 55.87335827664399,
+    "fundamental_midi": 34,
+    "fundamental_hz": 58.27047018976124,
+    "root_note_ids": [
+      "BP_0035"
+    ],
+    "member_ids": [
+      "BP_0035",
+      "BP_0036"
+    ],
+    "harmonic_ids": [
+      "BP_0036"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 27,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "start_s": 55.87335827664399,
+    "end_s": 56.221657596371884,
+    "fundamental_support_end_s": 56.221657596371884,
+    "episode_id": "HF023",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 56.29131746031746,
+    "display_current_end_s": 56.221657596371884,
+    "bass_rms_context": 0.07319028957235511,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 56.29131746031746,
+    "fundamental_midi": 44,
+    "fundamental_hz": 103.82617439498628,
+    "root_note_ids": [
+      "BP_0037"
+    ],
+    "member_ids": [
+      "BP_0037"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 28,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 56.29131746031746,
+    "end_s": 56.558346938775514,
+    "fundamental_support_end_s": 56.558346938775514,
+    "episode_id": "HF024",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 56.65122675736961,
+    "display_current_end_s": 56.558346938775514,
+    "bass_rms_context": 0.07288043586299608,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 56.65122675736961,
+    "fundamental_midi": 43,
+    "fundamental_hz": 97.99885899543733,
+    "root_note_ids": [
+      "BP_0038"
+    ],
+    "member_ids": [
+      "BP_0038"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 29,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 56.65122675736961,
+    "end_s": 56.89503628117914,
+    "fundamental_support_end_s": 56.89503628117914,
+    "episode_id": "HF025",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 56.95437006802721,
+    "display_current_end_s": 56.89503628117914,
+    "bass_rms_context": 0.0719776419590465,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 56.95437006802721,
+    "fundamental_midi": 47,
+    "fundamental_hz": 123.47082531403103,
+    "root_note_ids": [
+      "BP_0039"
+    ],
+    "member_ids": [
+      "BP_0039"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 30,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 56.95437006802721,
+    "end_s": 57.16334965986395,
+    "fundamental_support_end_s": 57.16334965986395,
+    "episode_id": "HF026",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF027"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 57.03563990929705,
+    "display_current_end_s": 57.03563990929705,
+    "bass_rms_context": 0.11301980323987845,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 57.03563990929705,
+    "fundamental_midi": 35,
+    "fundamental_hz": 61.7354126570155,
+    "root_note_ids": [
+      "BP_0040"
+    ],
+    "member_ids": [
+      "BP_0040"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 31,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 57.03563990929705,
+    "end_s": 57.209789569160996,
+    "fundamental_support_end_s": 57.209789569160996,
+    "episode_id": "HF027",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF026"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 57.314279365079365,
+    "display_current_end_s": 57.209789569160996,
+    "bass_rms_context": 0.09131274589337432,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 57.314279365079365,
+    "fundamental_midi": 48,
+    "fundamental_hz": 130.8127826502993,
+    "root_note_ids": [
+      "BP_0041"
+    ],
+    "member_ids": [
+      "BP_0041"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 32,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 57.314279365079365,
+    "end_s": 57.581308843537414,
+    "fundamental_support_end_s": 57.581308843537414,
+    "episode_id": "HF028",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF029",
+      "HF030"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 57.34910929705215,
+    "display_current_end_s": 57.34910929705215,
+    "bass_rms_context": 0.04149568926551275,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 57.34910929705215,
+    "fundamental_midi": 36,
+    "fundamental_hz": 65.40639132514966,
+    "root_note_ids": [
+      "BP_0042"
+    ],
+    "member_ids": [
+      "BP_0042",
+      "BP_0043"
+    ],
+    "harmonic_ids": [
+      "BP_0043"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 33,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 57.34910929705215,
+    "end_s": 57.581308843537414,
+    "fundamental_support_end_s": 57.581308843537414,
+    "episode_id": "HF029",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF028",
+      "HF030"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 57.56969886621315,
+    "display_current_end_s": 57.56969886621315,
+    "bass_rms_context": 0.038281365166213305,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 57.56969886621315,
+    "fundamental_midi": 28,
+    "fundamental_hz": 41.20344461410875,
+    "root_note_ids": [
+      "BP_0044",
+      "BP_0046"
+    ],
+    "member_ids": [
+      "BP_0044",
+      "BP_0045",
+      "BP_0046",
+      "BP_0047"
+    ],
+    "harmonic_ids": [
+      "BP_0045",
+      "BP_0047"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 34,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 57.56969886621315,
+    "end_s": 58.12697777777778,
+    "fundamental_support_end_s": 58.12697777777778,
+    "episode_id": "HF030",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF028",
+      "HF029"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 58.12697777777778,
+    "display_current_end_s": 58.12697777777778,
+    "bass_rms_context": 0.15598433779778897,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 58.12697777777778,
+    "fundamental_midi": 29,
+    "fundamental_hz": 43.653528929125486,
+    "root_note_ids": [
+      "BP_0048"
+    ],
+    "member_ids": [
+      "BP_0048"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 37,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 58.12697777777778,
+    "end_s": 58.3707873015873,
+    "fundamental_support_end_s": 58.3707873015873,
+    "episode_id": "HF031",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 58.44044716553288,
+    "display_current_end_s": 58.3707873015873,
+    "bass_rms_context": 0.06510941630077828,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 58.44044716553288,
+    "fundamental_midi": 33,
+    "fundamental_hz": 55.0,
+    "root_note_ids": [
+      "BP_0049"
+    ],
+    "member_ids": [
+      "BP_0049"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 38,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 58.44044716553288,
+    "end_s": 58.75391655328798,
+    "fundamental_support_end_s": 58.75391655328798,
+    "episode_id": "HF032",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 58.846796371882085,
+    "display_current_end_s": 58.75391655328798,
+    "bass_rms_context": 0.13573530381412063,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 58.846796371882085,
+    "fundamental_midi": 46,
+    "fundamental_hz": 116.54094037952248,
+    "root_note_ids": [
+      "BP_0050"
+    ],
+    "member_ids": [
+      "BP_0050"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 39,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 58.846796371882085,
+    "end_s": 59.173159637188206,
+    "fundamental_support_end_s": 59.173159637188206,
+    "episode_id": "HF033",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF034"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 58.88162630385487,
+    "display_current_end_s": 58.88162630385487,
+    "bass_rms_context": 0.07902086084839842,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 58.88162630385487,
+    "fundamental_midi": 34,
+    "fundamental_hz": 58.27047018976124,
+    "root_note_ids": [
+      "BP_0051"
+    ],
+    "member_ids": [
+      "BP_0051",
+      "BP_0052"
+    ],
+    "harmonic_ids": [
+      "BP_0052"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 40,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 58.88162630385487,
+    "end_s": 59.44018911564626,
+    "fundamental_support_end_s": 59.207989569161,
+    "episode_id": "HF034",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF033"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 59.41696916099773,
+    "display_current_end_s": 59.207989569161,
+    "bass_rms_context": 0.06839957954821202,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 59.41696916099773,
+    "fundamental_midi": 39,
+    "fundamental_hz": 77.78174593052023,
+    "root_note_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "member_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 42,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ],
+    "start_s": 59.41696916099773,
+    "end_s": 59.881368253968255,
+    "fundamental_support_end_s": 59.881368253968255,
+    "episode_id": "HF035",
+    "inherited_previous_family_hypotheses": [
+      "BP_0052"
+    ],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 59.927808163265304,
+    "display_current_end_s": 59.881368253968255,
+    "bass_rms_context": 0.062252775622314294,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 59.927808163265304,
+    "fundamental_midi": 34,
+    "fundamental_hz": 58.27047018976124,
+    "root_note_ids": [
+      "BP_0055"
+    ],
+    "member_ids": [
+      "BP_0055"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 44,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 59.927808163265304,
+    "end_s": 60.20644761904762,
+    "fundamental_support_end_s": 60.20644761904762,
+    "episode_id": "HF036",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 60.21805759637188,
+    "display_current_end_s": 60.20644761904762,
+    "bass_rms_context": 0.0649292326328169,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 60.21805759637188,
+    "fundamental_midi": 41,
+    "fundamental_hz": 87.30705785825097,
+    "root_note_ids": [
+      "BP_0056"
+    ],
+    "member_ids": [
+      "BP_0056"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 45,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 60.21805759637188,
+    "end_s": 60.55474693877551,
+    "fundamental_support_end_s": 60.55474693877551,
+    "episode_id": "HF037",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 60.67084671201814,
+    "display_current_end_s": 60.55474693877551,
+    "bass_rms_context": 0.08145176581673712,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 60.67084671201814,
+    "fundamental_midi": 42,
+    "fundamental_hz": 92.4986056779086,
+    "root_note_ids": [
+      "BP_0057"
+    ],
+    "member_ids": [
+      "BP_0057"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 46,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 60.67084671201814,
+    "end_s": 60.91594013605442,
+    "fundamental_support_end_s": 60.91594013605442,
+    "episode_id": "HF038",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 60.91594013605442,
+    "display_current_end_s": 60.91594013605442,
+    "bass_rms_context": 0.11423813519783574,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 60.91594013605442,
+    "fundamental_midi": 43,
+    "fundamental_hz": 97.99885899543733,
+    "root_note_ids": [
+      "BP_0058",
+      "BP_0059"
+    ],
+    "member_ids": [
+      "BP_0058",
+      "BP_0059"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 47,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ],
+    "start_s": 60.91594013605442,
+    "end_s": 61.26423945578232,
+    "fundamental_support_end_s": 61.26423945578232,
+    "episode_id": "HF039",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 61.33389931972789,
+    "display_current_end_s": 61.26423945578232,
+    "bass_rms_context": 0.07065664111140377,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 61.33389931972789,
+    "fundamental_midi": 47,
+    "fundamental_hz": 123.47082531403103,
+    "root_note_ids": [
+      "BP_0060",
+      "BP_0061"
+    ],
+    "member_ids": [
+      "BP_0060",
+      "BP_0061"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 49,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ],
+    "start_s": 61.33389931972789,
+    "end_s": 61.67058866213152,
+    "fundamental_support_end_s": 61.67058866213152,
+    "episode_id": "HF040",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 61.70541859410431,
+    "display_current_end_s": 61.67058866213152,
+    "bass_rms_context": 0.06607575651444131,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 61.70541859410431,
+    "fundamental_midi": 48,
+    "fundamental_hz": 130.8127826502993,
+    "root_note_ids": [
+      "BP_0062",
+      "BP_0063"
+    ],
+    "member_ids": [
+      "BP_0062",
+      "BP_0063"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 51,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ],
+    "start_s": 61.70541859410431,
+    "end_s": 62.04210793650793,
+    "fundamental_support_end_s": 62.04210793650793,
+    "episode_id": "HF041",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 62.181427664399095,
+    "display_current_end_s": 62.04210793650793,
+    "bass_rms_context": 0.05723258106794348,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 62.181427664399095,
+    "fundamental_midi": 52,
+    "fundamental_hz": 164.81377845643496,
+    "root_note_ids": [
+      "BP_0064"
+    ],
+    "member_ids": [
+      "BP_0064"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 53,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 62.181427664399095,
+    "end_s": 62.42523718820861,
+    "fundamental_support_end_s": 62.42523718820861,
+    "episode_id": "HF042",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 62.92575011337868,
+    "display_current_end_s": 62.42523718820861,
+    "bass_rms_context": 0.02262681029455819,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 62.92575011337868,
+    "fundamental_midi": 52,
+    "fundamental_hz": 164.81377845643496,
+    "root_note_ids": [
+      "BP_0065"
+    ],
+    "member_ids": [
+      "BP_0065"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 54,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 62.92575011337868,
+    "end_s": 63.16955963718821,
+    "fundamental_support_end_s": 63.16955963718821,
+    "episode_id": "HF043",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 63.18116961451247,
+    "display_current_end_s": 63.16955963718821,
+    "bass_rms_context": 0.026632564726732918,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 63.18116961451247,
+    "fundamental_midi": 53,
+    "fundamental_hz": 174.61411571650194,
+    "root_note_ids": [
+      "BP_0066"
+    ],
+    "member_ids": [
+      "BP_0066"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 55,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 63.18116961451247,
+    "end_s": 63.34370929705216,
+    "fundamental_support_end_s": 63.34370929705216,
+    "episode_id": "HF044",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 63.90098820861678,
+    "display_current_end_s": 63.34370929705216,
+    "bass_rms_context": 0.008094036854406248,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 63.90098820861678,
+    "fundamental_midi": 57,
+    "fundamental_hz": 220.0,
+    "root_note_ids": [
+      "BP_0067"
+    ],
+    "member_ids": [
+      "BP_0067"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 56,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 63.90098820861678,
+    "end_s": 64.10996780045352,
+    "fundamental_support_end_s": 64.10996780045352,
+    "episode_id": "HF045",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 64.29572743764172,
+    "display_current_end_s": 64.10996780045352,
+    "bass_rms_context": 0.022015445573164098,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 64.29572743764172,
+    "fundamental_midi": 43,
+    "fundamental_hz": 97.99885899543733,
+    "root_note_ids": [
+      "BP_0069"
+    ],
+    "member_ids": [
+      "BP_0069",
+      "BP_0068"
+    ],
+    "harmonic_ids": [
+      "BP_0068"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 57,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "start_s": 64.27250748299319,
+    "end_s": 64.50470702947845,
+    "fundamental_support_end_s": 64.4582671201814,
+    "episode_id": "HF046",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 64.64402675736962,
+    "display_current_end_s": 64.4582671201814,
+    "bass_rms_context": 0.009183560082466798,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 64.64402675736962,
+    "fundamental_midi": 53,
+    "fundamental_hz": 174.61411571650194,
+    "root_note_ids": [
+      "BP_0070"
+    ],
+    "member_ids": [
+      "BP_0070"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 58,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 64.64402675736962,
+    "end_s": 64.86590022675738,
+    "fundamental_support_end_s": 64.86590022675738,
+    "episode_id": "HF047",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 64.97039002267573,
+    "display_current_end_s": 64.86590022675738,
+    "bass_rms_context": 0.012471895900164169,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 64.97039002267573,
+    "fundamental_midi": 47,
+    "fundamental_hz": 123.47082531403103,
+    "root_note_ids": [
+      "BP_0071",
+      "BP_0072"
+    ],
+    "member_ids": [
+      "BP_0071",
+      "BP_0072"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 59,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ],
+    "start_s": 64.97039002267573,
+    "end_s": 65.30707936507937,
+    "fundamental_support_end_s": 65.30707936507937,
+    "episode_id": "HF048",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 65.423179138322,
+    "display_current_end_s": 65.30707936507937,
+    "bass_rms_context": 0.1411800896332735,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 65.423179138322,
+    "fundamental_midi": 46,
+    "fundamental_hz": 116.54094037952248,
+    "root_note_ids": [
+      "BP_0073"
+    ],
+    "member_ids": [
+      "BP_0073"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 61,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 65.423179138322,
+    "end_s": 65.69020861678004,
+    "fundamental_support_end_s": 65.69020861678004,
+    "episode_id": "HF049",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 66.06172789115647,
+    "display_current_end_s": 65.69020861678004,
+    "bass_rms_context": 0.06632487458455442,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 66.06172789115647,
+    "fundamental_midi": 50,
+    "fundamental_hz": 146.8323839587038,
+    "root_note_ids": [
+      "BP_0074"
+    ],
+    "member_ids": [
+      "BP_0074"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 62,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 66.06172789115647,
+    "end_s": 66.37519727891157,
+    "fundamental_support_end_s": 66.37519727891157,
+    "episode_id": "HF050",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 66.42163718820862,
+    "display_current_end_s": 66.37519727891157,
+    "bass_rms_context": 0.059696125133583855,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 66.42163718820862,
+    "fundamental_midi": 46,
+    "fundamental_hz": 116.54094037952248,
+    "root_note_ids": [
+      "BP_0075"
+    ],
+    "member_ids": [
+      "BP_0075"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 63,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 66.42163718820862,
+    "end_s": 66.73510657596373,
+    "fundamental_support_end_s": 66.73510657596373,
+    "episode_id": "HF051",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF052"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 66.66544671201814,
+    "display_current_end_s": 66.66544671201814,
+    "bass_rms_context": 0.09246389743696173,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 66.66544671201814,
+    "fundamental_midi": 38,
+    "fundamental_hz": 73.41619197935188,
+    "root_note_ids": [
+      "BP_0076",
+      "BP_0078"
+    ],
+    "member_ids": [
+      "BP_0076",
+      "BP_0077",
+      "BP_0078"
+    ],
+    "harmonic_ids": [
+      "BP_0077"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 64,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 66.66544671201814,
+    "end_s": 67.22400952380953,
+    "fundamental_support_end_s": 67.22400952380953,
+    "episode_id": "HF052",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF051",
+      "HF053"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 66.96859002267574,
+    "display_current_end_s": 66.96859002267574,
+    "bass_rms_context": 0.11387588659385786,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 66.96859002267574,
+    "fundamental_midi": 43,
+    "fundamental_hz": 97.99885899543733,
+    "root_note_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "member_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 67,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 66.96859002267574,
+    "end_s": 67.44459909297052,
+    "fundamental_support_end_s": 67.44459909297052,
+    "episode_id": "HF053",
+    "inherited_previous_family_hypotheses": [
+      "BP_0077"
+    ],
+    "overlapping_root_episodes": [
+      "HF052"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 67.47942902494331,
+    "display_current_end_s": 67.44459909297052,
+    "bass_rms_context": 0.1069854509467153,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 67.47942902494331,
+    "fundamental_midi": 41,
+    "fundamental_hz": 87.30705785825097,
+    "root_note_ids": [
+      "BP_0081"
+    ],
+    "member_ids": [
+      "BP_0081"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 69,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 67.47942902494331,
+    "end_s": 67.68840861678004,
+    "fundamental_support_end_s": 67.68840861678004,
+    "episode_id": "HF054",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 67.80450839002268,
+    "display_current_end_s": 67.68840861678004,
+    "bass_rms_context": 0.13284606416814498,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 67.80450839002268,
+    "fundamental_midi": 35,
+    "fundamental_hz": 61.7354126570155,
+    "root_note_ids": [
+      "BP_0082",
+      "BP_0084"
+    ],
+    "member_ids": [
+      "BP_0082",
+      "BP_0083",
+      "BP_0084"
+    ],
+    "harmonic_ids": [
+      "BP_0083"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 70,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "start_s": 67.80450839002268,
+    "end_s": 68.16441768707483,
+    "fundamental_support_end_s": 68.16441768707483,
+    "episode_id": "HF055",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 68.16441768707483,
+    "display_current_end_s": 68.16441768707483,
+    "bass_rms_context": 0.08991255117608249,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 68.16441768707483,
+    "fundamental_midi": 34,
+    "fundamental_hz": 58.27047018976124,
+    "root_note_ids": [
+      "BP_0085",
+      "BP_0087"
+    ],
+    "member_ids": [
+      "BP_0085",
+      "BP_0086",
+      "BP_0087"
+    ],
+    "harmonic_ids": [
+      "BP_0086"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 72,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 68.16441768707483,
+    "end_s": 68.51271700680272,
+    "fundamental_support_end_s": 68.51271700680272,
+    "episode_id": "HF056",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF057"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 68.50110702947846,
+    "display_current_end_s": 68.50110702947846,
+    "bass_rms_context": 0.07977958472686587,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 68.50110702947846,
+    "fundamental_midi": 36,
+    "fundamental_hz": 65.40639132514966,
+    "root_note_ids": [
+      "BP_0088",
+      "BP_0090"
+    ],
+    "member_ids": [
+      "BP_0088",
+      "BP_0090",
+      "BP_0089"
+    ],
+    "harmonic_ids": [
+      "BP_0089"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 75,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 68.50110702947846,
+    "end_s": 68.8855201814059,
+    "fundamental_support_end_s": 68.8855201814059,
+    "episode_id": "HF057",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF056"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 68.94357006802721,
+    "display_current_end_s": 68.8855201814059,
+    "bass_rms_context": 0.0693613544313962,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 68.94357006802721,
+    "fundamental_midi": 37,
+    "fundamental_hz": 69.29565774421802,
+    "root_note_ids": [
+      "BP_0091"
+    ],
+    "member_ids": [
+      "BP_0091"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 77,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 68.94357006802721,
+    "end_s": 69.22220952380952,
+    "fundamental_support_end_s": 69.22220952380952,
+    "episode_id": "HF058",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": 69.28025941043084,
+    "display_current_end_s": 69.22220952380952,
+    "bass_rms_context": 0.06278014075902318,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 69.28025941043084,
+    "fundamental_midi": 38,
+    "fundamental_hz": 73.41619197935188,
+    "root_note_ids": [
+      "BP_0093"
+    ],
+    "member_ids": [
+      "BP_0093",
+      "BP_0092"
+    ],
+    "harmonic_ids": [
+      "BP_0092"
+    ],
+    "possible_member_ids": [],
+    "opening_group": 78,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "start_s": 69.26864943310657,
+    "end_s": 69.54728888888889,
+    "fundamental_support_end_s": 69.54728888888889,
+    "episode_id": "HF059",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": true,
+    "next_root_onset_s": 69.54728888888889,
+    "display_current_end_s": 69.54728888888889,
+    "bass_rms_context": 0.056990958937920035,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 69.54728888888889,
+    "fundamental_midi": 39,
+    "fundamental_hz": 77.78174593052023,
+    "root_note_ids": [
+      "BP_0094",
+      "BP_0095"
+    ],
+    "member_ids": [
+      "BP_0094",
+      "BP_0095"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 79,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 69.54728888888889,
+    "end_s": 70.02329795918368,
+    "fundamental_support_end_s": 70.02329795918368,
+    "episode_id": "HF060",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF061"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 70.01168798185941,
+    "display_current_end_s": 70.01168798185941,
+    "bass_rms_context": 0.05693512871525943,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 70.01168798185941,
+    "fundamental_midi": 46,
+    "fundamental_hz": 116.54094037952248,
+    "root_note_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "member_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 81,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 70.01168798185941,
+    "end_s": 70.32515736961452,
+    "fundamental_support_end_s": 70.32515736961452,
+    "episode_id": "HF061",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF060",
+      "HF062"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 70.29032743764172,
+    "display_current_end_s": 70.29032743764172,
+    "bass_rms_context": 0.05929537177290209,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 70.29032743764172,
+    "fundamental_midi": 43,
+    "fundamental_hz": 97.99885899543733,
+    "root_note_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "member_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 83,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "start_s": 70.29032743764172,
+    "end_s": 70.68506666666667,
+    "fundamental_support_end_s": 70.68506666666667,
+    "episode_id": "HF062",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [
+      "HF061"
+    ],
+    "ambiguity": true,
+    "next_root_onset_s": 70.71989659863945,
+    "display_current_end_s": 70.68506666666667,
+    "bass_rms_context": 0.07721759528661978,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  },
+  {
+    "root_onset_s": 70.71989659863945,
+    "fundamental_midi": 39,
+    "fundamental_hz": 77.78174593052023,
+    "root_note_ids": [
+      "BP_0100"
+    ],
+    "member_ids": [
+      "BP_0100"
+    ],
+    "harmonic_ids": [],
+    "possible_member_ids": [],
+    "opening_group": 85,
+    "opening_reason": "new observed pitch incompatible with active harmonic families",
+    "flags": [],
+    "start_s": 70.71989659863945,
+    "end_s": 71.1043097505669,
+    "fundamental_support_end_s": 71.1043097505669,
+    "episode_id": "HF063",
+    "inherited_previous_family_hypotheses": [],
+    "overlapping_root_episodes": [],
+    "ambiguity": false,
+    "next_root_onset_s": null,
+    "display_current_end_s": 71.1043097505669,
+    "bass_rms_context": 0.07106047548048362,
+    "provenance": "saved official BP0.4.0 native hypotheses; exploratory frequency-family interpretation; not timing authority"
+  }
+]

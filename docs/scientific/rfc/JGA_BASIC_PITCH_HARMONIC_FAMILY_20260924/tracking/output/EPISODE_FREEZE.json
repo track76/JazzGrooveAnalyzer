@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-24T13:03:26.610050+00:00",
+  "files": {
+    "SUMMARY.json": "ca74853f7db172fc1c67aa667ff0664136dc89b95d09d3f7ddc3194904cccdbc",
+    "HYPOTHESIS_MEMBERSHIP.json": "3f85ea1ac413be102b5d073a9a71a82381cc6c5fadffa59e8d3ff93c15fc87f2",
+    "LINGERING_CASES.json": "e56acf410cd6ef41729afcf3ab4b2ce758020064edc985a39cf2370ac57bf222",
+    "ISOLATION_PROBE.json": "fa73160b4e6a05208f9880fa6cd7a2ab10cbab51ac5404a3d744c7f49ca4d0d5",
+    "NAIVE_LOWEST_EPISODES.json": "ce4f2891f41392a68d76b6efd4ad30c9cc98f49e45894d848c16e716caf3b059",
+    "FUNDAMENTAL_EPISODES.json": "52aff9d008fe108d747a529e925ba7e12af940088e75439e8e040ed786e6b5ef"
+  },
+  "input_hashes": {
+    "alignment.json": "de8f888144af99d63835f7ad9a7ddf30a6ffc6fa21fd728094c950f735a542bc",
+    "notes.csv": "6d1dc1d2ce86a21b953f9ece652446a8222e9a392db6c9b7701f3cf147dd21e4",
+    "bass.wav": "5e6290ad1521079c14e152ec13a5054c3ccfdbcbe57b70c5ea8a5f37c5ae7087"
+  },
+  "implementation_sha256": "a556c8d82b9aacce2308df20f8679cb88dbdaf3f83226124a60d167284931892"
+}

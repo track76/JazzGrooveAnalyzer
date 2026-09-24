@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-09-24T16:32:44.888882+00:00",
+  "package_version": "0.4.0",
+  "runtime": "9.0",
+  "model": "/private/tmp/jga_basic_pitch_benchmark_env/lib/python3.11/site-packages/basic_pitch/saved_models/icassp_2022/nmp.mlpackage",
+  "model_hashes": {
+    "Manifest.json": "c1fa5ef8acc34703edcd4e90e9a8640bd4673d9f3a68753c3b9d1ca0365e2928",
+    "Data/com.apple.CoreML/model.mlmodel": "af7bf7d49bc167e0bf0c30aa2ca6b432c3e10df048d2dd4173ff3a738c020858",
+    "Data/com.apple.CoreML/weights/weight.bin": "691a6b63c7ddcdde0ee131ff3986dcb1250df47cd738612efde966ba9b4c99cd"
+  },
+  "predict_signature": "(audio_path: Union[pathlib.Path, str], model_or_model_path: Union[basic_pitch.inference.Model, pathlib.Path, str] = PosixPath('/private/tmp/jga_basic_pitch_benchmark_env/lib/python3.11/site-packages/basic_pitch/saved_models/icassp_2022/nmp.mlpackage'), onset_threshold: float = 0.5, frame_threshold: float = 0.3, minimum_note_length: float = 127.7, minimum_frequency: Optional[float] = None, maximum_frequency: Optional[float] = None, multiple_pitch_bends: bool = False, melodia_trick: bool = True, debug_file: Optional[pathlib.Path] = None, midi_tempo: float = 120) -> Tuple[Dict[str, <built-in function array>], pretty_midi.pretty_midi.PrettyMIDI, List[Tuple[float, float, int, float, Optional[List[int]]]]]",
+  "defaults_used": true,
+  "input_manifest_sha256": "175e6d8acab610ecc0d0db38f0eda5e29b260bd6acbcb4adb949928dc0ad9a71",
+  "script_sha256": "ece4b508e9690ce6a6b5b96dc51dac63532e3cc185f00a3eedafff51dc7255d7",
+  "guard": "Python file-open audit hook blocks repository and /Volumes reads during this process; isolated opaque audio inputs only. This is not an OS-level sandbox."
+}

@@ -1,0 +1,35 @@
+{
+  "raw_hypotheses": 98,
+  "naive_episodes": 73,
+  "harmonic_family_episodes": 63,
+  "lingering_harmonic_hypotheses": 2,
+  "lingering_transition_pairs": 2,
+  "new_roots_under_lingering_harmonics": 2,
+  "fragments_collapsed": 16,
+  "harmonic_hypotheses": 19,
+  "unresolved_hypothesis_ownership": 0,
+  "ambiguous_episodes": 35,
+  "late_starting_harmonics": 13,
+  "line_descriptors": {
+    "root_pitch_range": [
+      28,
+      57
+    ],
+    "median_absolute_successive_pitch_change_semitones": 4.0,
+    "successive_leaps_greater_than_octave": 4,
+    "same_pitch_adjacent_root_episodes": 1,
+    "median_root_support_duration_s": 0.290249433106581
+  },
+  "naive_offset_only_starts": 9,
+  "raw_overlapping_hypothesis_pairs": 47,
+  "flag_counts": {
+    "OVERLAPPING_FUNDAMENTAL_HYPOTHESES": 23,
+    "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL": 17,
+    "FRAGMENT_OR_REARTICULATION": 16
+  },
+  "native_event_inside": 34,
+  "native_event_outside": 29,
+  "fundamental_sequence_musically_coherent": "PARTIAL",
+  "suitable_local_search_regions": "PARTIAL",
+  "qualification": "Exploratory identity/search hypotheses only. No attack-timing validation, no independently verified melody, no PLP comparison."
+}

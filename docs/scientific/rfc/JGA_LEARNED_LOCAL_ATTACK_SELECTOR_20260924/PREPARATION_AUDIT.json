@@ -1,0 +1,11 @@
+{
+  "source_hashes_verified": 12,
+  "GT_hashes_verified": true,
+  "BP_native_outputs_verified": true,
+  "BP_rerun": false,
+  "split_sha256": "151f1433d48ff99b1eafc48023ffd5424ba1bfd4349b2da9177dd3cf6fb84047",
+  "protocol_sha256": "15346bfbe441c33239d74f41597745067e922192a3b298850270de6ae6edeeb0",
+  "devGT_events": 80,
+  "holdoutGT_in_processing_dirs": false,
+  "coordinator": "Routed GT into development-only file; no holdout coordinates printed or provided to development process. Investigator previously exposed; no claim of investigator blindness."
+}

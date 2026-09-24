@@ -1,0 +1,676 @@
+[
+  {
+    "quarter": "Q131",
+    "quarter_index": 131,
+    "measure": 33,
+    "beat": 1,
+    "PLP_time_s": 47.78666666666667,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q132",
+    "quarter_index": 132,
+    "measure": 33,
+    "beat": 2,
+    "PLP_time_s": 48.15818594104309,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_001"
+    ]
+  },
+  {
+    "quarter": "Q133",
+    "quarter_index": 133,
+    "measure": 33,
+    "beat": 3,
+    "PLP_time_s": 48.529705215419504,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q134",
+    "quarter_index": 134,
+    "measure": 33,
+    "beat": 4,
+    "PLP_time_s": 48.901224489795915,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_002"
+    ]
+  },
+  {
+    "quarter": "Q135",
+    "quarter_index": 135,
+    "measure": 34,
+    "beat": 1,
+    "PLP_time_s": 49.27274376417233,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q136",
+    "quarter_index": 136,
+    "measure": 34,
+    "beat": 2,
+    "PLP_time_s": 49.64426303854875,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q137",
+    "quarter_index": 137,
+    "measure": 34,
+    "beat": 3,
+    "PLP_time_s": 50.01578231292517,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q138",
+    "quarter_index": 138,
+    "measure": 34,
+    "beat": 4,
+    "PLP_time_s": 50.387301587301586,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q139",
+    "quarter_index": 139,
+    "measure": 35,
+    "beat": 1,
+    "PLP_time_s": 50.758820861678004,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q140",
+    "quarter_index": 140,
+    "measure": 35,
+    "beat": 2,
+    "PLP_time_s": 51.1071201814059,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q141",
+    "quarter_index": 141,
+    "measure": 35,
+    "beat": 3,
+    "PLP_time_s": 51.478639455782314,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q142",
+    "quarter_index": 142,
+    "measure": 35,
+    "beat": 4,
+    "PLP_time_s": 51.85015873015873,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_003"
+    ]
+  },
+  {
+    "quarter": "Q143",
+    "quarter_index": 143,
+    "measure": 36,
+    "beat": 1,
+    "PLP_time_s": 52.22167800453515,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_004"
+    ]
+  },
+  {
+    "quarter": "Q144",
+    "quarter_index": 144,
+    "measure": 36,
+    "beat": 2,
+    "PLP_time_s": 52.59319727891157,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q145",
+    "quarter_index": 145,
+    "measure": 36,
+    "beat": 3,
+    "PLP_time_s": 52.964716553287985,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q146",
+    "quarter_index": 146,
+    "measure": 36,
+    "beat": 4,
+    "PLP_time_s": 53.336235827664396,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q147",
+    "quarter_index": 147,
+    "measure": 37,
+    "beat": 1,
+    "PLP_time_s": 53.707755102040814,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q148",
+    "quarter_index": 148,
+    "measure": 37,
+    "beat": 2,
+    "PLP_time_s": 54.07927437641723,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q149",
+    "quarter_index": 149,
+    "measure": 37,
+    "beat": 3,
+    "PLP_time_s": 54.427573696145124,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q150",
+    "quarter_index": 150,
+    "measure": 37,
+    "beat": 4,
+    "PLP_time_s": 54.79909297052154,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q151",
+    "quarter_index": 151,
+    "measure": 38,
+    "beat": 1,
+    "PLP_time_s": 55.17061224489796,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q152",
+    "quarter_index": 152,
+    "measure": 38,
+    "beat": 2,
+    "PLP_time_s": 55.54213151927438,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q153",
+    "quarter_index": 153,
+    "measure": 38,
+    "beat": 3,
+    "PLP_time_s": 55.89043083900227,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q154",
+    "quarter_index": 154,
+    "measure": 38,
+    "beat": 4,
+    "PLP_time_s": 56.26195011337869,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q155",
+    "quarter_index": 155,
+    "measure": 39,
+    "beat": 1,
+    "PLP_time_s": 56.610249433106574,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q156",
+    "quarter_index": 156,
+    "measure": 39,
+    "beat": 2,
+    "PLP_time_s": 56.98176870748299,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q157",
+    "quarter_index": 157,
+    "measure": 39,
+    "beat": 3,
+    "PLP_time_s": 57.330068027210885,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_005"
+    ]
+  },
+  {
+    "quarter": "Q158",
+    "quarter_index": 158,
+    "measure": 39,
+    "beat": 4,
+    "PLP_time_s": 57.67836734693878,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_006"
+    ]
+  },
+  {
+    "quarter": "Q159",
+    "quarter_index": 159,
+    "measure": 40,
+    "beat": 1,
+    "PLP_time_s": 58.026666666666664,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q160",
+    "quarter_index": 160,
+    "measure": 40,
+    "beat": 2,
+    "PLP_time_s": 58.39818594104308,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q161",
+    "quarter_index": 161,
+    "measure": 40,
+    "beat": 3,
+    "PLP_time_s": 58.746485260770974,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q162",
+    "quarter_index": 162,
+    "measure": 40,
+    "beat": 4,
+    "PLP_time_s": 59.11800453514739,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q163",
+    "quarter_index": 163,
+    "measure": 41,
+    "beat": 1,
+    "PLP_time_s": 59.466303854875285,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q164",
+    "quarter_index": 164,
+    "measure": 41,
+    "beat": 2,
+    "PLP_time_s": 59.8378231292517,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q165",
+    "quarter_index": 165,
+    "measure": 41,
+    "beat": 3,
+    "PLP_time_s": 60.20934240362812,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q166",
+    "quarter_index": 166,
+    "measure": 41,
+    "beat": 4,
+    "PLP_time_s": 60.58086167800454,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q167",
+    "quarter_index": 167,
+    "measure": 42,
+    "beat": 1,
+    "PLP_time_s": 60.929160997732424,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_007"
+    ]
+  },
+  {
+    "quarter": "Q168",
+    "quarter_index": 168,
+    "measure": 42,
+    "beat": 2,
+    "PLP_time_s": 61.32390022675737,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q169",
+    "quarter_index": 169,
+    "measure": 42,
+    "beat": 3,
+    "PLP_time_s": 61.695419501133784,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_008"
+    ]
+  },
+  {
+    "quarter": "Q170",
+    "quarter_index": 170,
+    "measure": 42,
+    "beat": 4,
+    "PLP_time_s": 62.0669387755102,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_009"
+    ]
+  },
+  {
+    "quarter": "Q171",
+    "quarter_index": 171,
+    "measure": 43,
+    "beat": 1,
+    "PLP_time_s": 62.43845804988662,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q172",
+    "quarter_index": 172,
+    "measure": 43,
+    "beat": 2,
+    "PLP_time_s": 62.80997732426304,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q173",
+    "quarter_index": 173,
+    "measure": 43,
+    "beat": 3,
+    "PLP_time_s": 63.181496598639455,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_010"
+    ]
+  },
+  {
+    "quarter": "Q174",
+    "quarter_index": 174,
+    "measure": 43,
+    "beat": 4,
+    "PLP_time_s": 63.52979591836735,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q175",
+    "quarter_index": 175,
+    "measure": 44,
+    "beat": 1,
+    "PLP_time_s": 63.901315192743766,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q176",
+    "quarter_index": 176,
+    "measure": 44,
+    "beat": 2,
+    "PLP_time_s": 64.27283446712018,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_011"
+    ]
+  },
+  {
+    "quarter": "Q177",
+    "quarter_index": 177,
+    "measure": 44,
+    "beat": 3,
+    "PLP_time_s": 64.62113378684808,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_012"
+    ]
+  },
+  {
+    "quarter": "Q178",
+    "quarter_index": 178,
+    "measure": 44,
+    "beat": 4,
+    "PLP_time_s": 64.99265306122449,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_013"
+    ]
+  },
+  {
+    "quarter": "Q179",
+    "quarter_index": 179,
+    "measure": 45,
+    "beat": 1,
+    "PLP_time_s": 65.34095238095239,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q180",
+    "quarter_index": 180,
+    "measure": 45,
+    "beat": 2,
+    "PLP_time_s": 65.68925170068027,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q181",
+    "quarter_index": 181,
+    "measure": 45,
+    "beat": 3,
+    "PLP_time_s": 66.06077097505668,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_014"
+    ]
+  },
+  {
+    "quarter": "Q182",
+    "quarter_index": 182,
+    "measure": 45,
+    "beat": 4,
+    "PLP_time_s": 66.40907029478458,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q183",
+    "quarter_index": 183,
+    "measure": 46,
+    "beat": 1,
+    "PLP_time_s": 66.780589569161,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_015"
+    ]
+  },
+  {
+    "quarter": "Q184",
+    "quarter_index": 184,
+    "measure": 46,
+    "beat": 2,
+    "PLP_time_s": 67.1288888888889,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q185",
+    "quarter_index": 185,
+    "measure": 46,
+    "beat": 3,
+    "PLP_time_s": 67.47718820861678,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q186",
+    "quarter_index": 186,
+    "measure": 46,
+    "beat": 4,
+    "PLP_time_s": 67.84870748299319,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_016"
+    ]
+  },
+  {
+    "quarter": "Q187",
+    "quarter_index": 187,
+    "measure": 47,
+    "beat": 1,
+    "PLP_time_s": 68.19700680272109,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q188",
+    "quarter_index": 188,
+    "measure": 47,
+    "beat": 2,
+    "PLP_time_s": 68.5685260770975,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q189",
+    "quarter_index": 189,
+    "measure": 47,
+    "beat": 3,
+    "PLP_time_s": 68.9168253968254,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q190",
+    "quarter_index": 190,
+    "measure": 47,
+    "beat": 4,
+    "PLP_time_s": 69.28834467120181,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q191",
+    "quarter_index": 191,
+    "measure": 48,
+    "beat": 1,
+    "PLP_time_s": 69.6366439909297,
+    "count": 1,
+    "classification": "ONE",
+    "attack_ids": [
+      "BASS_V1_017"
+    ]
+  },
+  {
+    "quarter": "Q192",
+    "quarter_index": 192,
+    "measure": 48,
+    "beat": 2,
+    "PLP_time_s": 69.9849433106576,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q193",
+    "quarter_index": 193,
+    "measure": 48,
+    "beat": 3,
+    "PLP_time_s": 70.35646258503401,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  },
+  {
+    "quarter": "Q194",
+    "quarter_index": 194,
+    "measure": 48,
+    "beat": 4,
+    "PLP_time_s": 70.70476190476191,
+    "count": 0,
+    "classification": "ZERO",
+    "attack_ids": []
+  }
+]

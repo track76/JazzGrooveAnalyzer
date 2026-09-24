@@ -1,0 +1,281 @@
+[
+  {
+    "episode_id": "HF002",
+    "selected_stem_s": 48.16816326530612,
+    "stem_minus_successful_BP_ms": {
+      "BP_0004": 148.28526077097592
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      48.02748299319728,
+      48.04244897959184,
+      48.08834467120182,
+      48.11229024943311,
+      48.12825396825397
+    ],
+    "all_salient_fronts_s": [
+      48.02748299319728,
+      48.04244897959184,
+      48.08834467120182,
+      48.11229024943311,
+      48.12825396825397
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF005",
+    "selected_stem_s": 48.761814058956915,
+    "stem_minus_successful_BP_ms": {
+      "BP_0008": 149.8272108843537
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [],
+    "all_salient_fronts_s": [],
+    "selected_crosscheck_class": "FULLMIX_NO_SUPPORT",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF012",
+    "selected_stem_s": 51.71111111111111,
+    "stem_minus_successful_BP_ms": {
+      "BP_0018": 147.62222222221766
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      51.447709750566894,
+      51.49560090702948,
+      51.51455782312925,
+      51.56544217687075,
+      51.583401360544215
+    ],
+    "all_salient_fronts_s": [
+      51.447709750566894,
+      51.49560090702948,
+      51.51455782312925,
+      51.56544217687075,
+      51.583401360544215
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF014",
+    "selected_stem_s": 52.31174603174603,
+    "stem_minus_successful_BP_ms": {
+      "BP_0023": 144.53832199546213
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [],
+    "all_salient_fronts_s": [],
+    "selected_crosscheck_class": "FULLMIX_NO_SUPPORT",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF027",
+    "selected_stem_s": 57.181678004535144,
+    "stem_minus_successful_BP_ms": {
+      "BP_0040": 146.0380952380902
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      56.892335600907025,
+      56.96716553287982
+    ],
+    "all_salient_fronts_s": [
+      56.892335600907025,
+      56.96716553287982
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF029",
+    "selected_stem_s": 57.51292517006803,
+    "stem_minus_successful_BP_ms": {
+      "BP_0043": 140.59591836735308
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      57.212607709750564
+    ],
+    "all_salient_fronts_s": [
+      57.212607709750564
+    ],
+    "selected_crosscheck_class": "FULLMIX_SUPPORTS_DIFFERENT_EARLIER_FRONT",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF039",
+    "selected_stem_s": 61.06585034013606,
+    "stem_minus_successful_BP_ms": {
+      "BP_0058": 149.91020408164246
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      60.967074829931974,
+      60.98702947845805,
+      60.998004535147395
+    ],
+    "all_salient_fronts_s": [
+      60.967074829931974,
+      60.98702947845805,
+      60.998004535147395
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF040",
+    "selected_stem_s": 61.66848072562358,
+    "stem_minus_successful_BP_ms": {
+      "BP_0061": 137.2117913832227
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      61.607619047619046
+    ],
+    "all_salient_fronts_s": [
+      61.607619047619046
+    ],
+    "selected_crosscheck_class": "FULLMIX_SUPPORTS_DIFFERENT_EARLIER_FRONT",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF041",
+    "selected_stem_s": 62.015691609977324,
+    "stem_minus_successful_BP_ms": {
+      "BP_0063": 147.73333333333483
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      61.607619047619046,
+      61.68643990929705,
+      61.70340136054422,
+      61.725351473922906,
+      61.784217687074836,
+      61.86603174603175,
+      61.88997732426304
+    ],
+    "all_salient_fronts_s": [
+      61.607619047619046,
+      61.68643990929705,
+      61.70340136054422,
+      61.725351473922906,
+      61.784217687074836,
+      61.86603174603175,
+      61.88997732426304,
+      62.01668934240363
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF044",
+    "selected_stem_s": 63.31174603174603,
+    "stem_minus_successful_BP_ms": {
+      "BP_0066": 130.57641723356284
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      63.13115646258504,
+      63.172063492063494
+    ],
+    "all_salient_fronts_s": [
+      63.13115646258504,
+      63.172063492063494
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF046",
+    "selected_stem_s": 64.43020408163265,
+    "stem_minus_successful_BP_ms": {
+      "BP_0069": 134.4766439909364
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      64.17278911564625,
+      64.19374149659863,
+      64.21269841269842,
+      64.25260770975056
+    ],
+    "all_salient_fronts_s": [
+      64.17278911564625,
+      64.19374149659863,
+      64.21269841269842,
+      64.25260770975056
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF047",
+    "selected_stem_s": 64.76244897959184,
+    "stem_minus_successful_BP_ms": {
+      "BP_0070": 118.42222222222176
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      64.50004535147391,
+      64.61079365079365,
+      64.62575963718821
+    ],
+    "all_salient_fronts_s": [
+      64.50004535147391,
+      64.61079365079365,
+      64.62575963718821
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF052",
+    "selected_stem_s": 66.77886621315193,
+    "stem_minus_successful_BP_ms": {
+      "BP_0076": 113.41950113379085
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [],
+    "all_salient_fronts_s": [
+      66.77886621315193,
+      66.79183673469387,
+      66.7968253968254,
+      66.80281179138322,
+      66.81678004535146
+    ],
+    "selected_crosscheck_class": "FULLMIX_AMBIGUOUS",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF055",
+    "selected_stem_s": 67.94321995464853,
+    "stem_minus_successful_BP_ms": {
+      "BP_0082": 138.71156462585077
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [
+      67.72870748299319
+    ],
+    "all_salient_fronts_s": [
+      67.72870748299319
+    ],
+    "selected_crosscheck_class": "FULLMIX_SUPPORTS_DIFFERENT_EARLIER_FRONT",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  },
+  {
+    "episode_id": "HF060",
+    "selected_stem_s": 69.65632653061225,
+    "stem_minus_successful_BP_ms": {
+      "BP_0094": 109.03764172336139
+    },
+    "late_beyond_Hann_support": true,
+    "earlier_salient_FM_fronts_s": [],
+    "all_salient_fronts_s": [
+      69.67727891156463
+    ],
+    "selected_crosscheck_class": "FULLMIX_SUPPORTS_DIFFERENT_LATER_FRONT",
+    "qualification": "Earlier cue not automatically the beginning of this Bass event; mix may contain other sources."
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "GT_BP_and_parent_selector_hashes_unchanged": true,
+  "new_freeze_hashes_verified": true,
+  "isolation_negative_checks": 3,
+  "native_queries": 760,
+  "union_groups": 137,
+  "population_rows": 48,
+  "raw_selection_audit_rows": 60,
+  "selected_coordinates_unchanged": true,
+  "prediction_before_GT_order": [
+    "2026-09-24T17:03:08.265328+00:00",
+    "2026-09-24T17:04:31.063244+00:00",
+    "2026-09-24T17:04:31.379669+00:00",
+    "2026-09-24T17:05:48.356689+00:00",
+    "2026-09-24T17:05:48.385886+00:00"
+  ],
+  "PDF_pages": {
+    "JGA_AMBIGUOUS_BP_ATTACK_RECOVERY.pdf": 13,
+    "JGA_SECURE_VS_MASKED_BP_HOLDOUT.pdf": 4
+  }
+}

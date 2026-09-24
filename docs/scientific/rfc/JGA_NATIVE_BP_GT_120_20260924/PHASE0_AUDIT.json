@@ -1,0 +1,82 @@
+{
+  "GT_hash_verified": true,
+  "freeze_hash_verified": true,
+  "complete_take_outputs_found": false,
+  "prior_output": "JGA_BASIC_PITCH_GALLEGATI_TIMING_VALIDATION_20260924/NATIVE_BASIC_PITCH",
+  "prior_scope": "36 isolated excerpts; not reusable for complete-take inference",
+  "sources_verified": [
+    {
+      "clip_id": "T01",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0028 [2026-09-14 170910].wav",
+      "sha256": "3666e5e5d426fb4d70684020357d01f491582d1e764cda3387109cbd130824dc",
+      "duration": 145.3365986394558
+    },
+    {
+      "clip_id": "T02",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0029 [2026-09-14 171327].wav",
+      "sha256": "62e17f5b05b8ea007cb1592fac3eb68bc72d27a476fb337f1e2aab9f2a28dfd5",
+      "duration": 165.61197278911564
+    },
+    {
+      "clip_id": "T03",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0030 [2026-09-14 171340].wav",
+      "sha256": "35749ba227176914306bdef7a08784f50878c678367bcf40809af06159e35cfb",
+      "duration": 169.57823129251702
+    },
+    {
+      "clip_id": "T04",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0031 [2026-09-14 171635].wav",
+      "sha256": "6dc976e30bb436a1eadc9f9c97eeeb8d4bf57023fbcf95d06b9dedc300d3e39e",
+      "duration": 154.53024943310658
+    },
+    {
+      "clip_id": "T05",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0033 [2026-09-14 172532].wav",
+      "sha256": "43d2e14d8f406afa5b1d5b62e05ec8a90c4a57ddfce6c079372c2ef337cff58a",
+      "duration": 118.21569160997733
+    },
+    {
+      "clip_id": "T06",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0034 [2026-09-14 172540].wav",
+      "sha256": "d617573185e1d653dcd16e96d9c0fceb5816320c501a90c19aa3cf6404465d7b",
+      "duration": 141.27891156462584
+    },
+    {
+      "clip_id": "T07",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0035 [2026-09-14 172741].wav",
+      "sha256": "1f0b4fff9cf0ecc4ba0cdb3f6b7b5180de4a7c9466cf9b99874d8faa5ed0a5ce",
+      "duration": 130.6296598639456
+    },
+    {
+      "clip_id": "T08",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0036 [2026-09-14 173009].wav",
+      "sha256": "a809a218bcbe08ce0210e322998980156616c1ca094528dfb815665b2268fe22",
+      "duration": 118.94857142857143
+    },
+    {
+      "clip_id": "T09",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0037 [2026-09-14 173227].wav",
+      "sha256": "af23c44d3aa5e22965a6e6ba1132905929663de923345e8ae92f66f76d9d9bfe",
+      "duration": 113.96353741496598
+    },
+    {
+      "clip_id": "T10",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0038 [2026-09-14 173542].wav",
+      "sha256": "ccf5323f5c7de0867a8ff2ad8bc1d98942d6b526462dfe78b82259f493685a91",
+      "duration": 141.71863945578232
+    },
+    {
+      "clip_id": "T11",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0039 [2026-09-14 173828].wav",
+      "sha256": "7fe9058c85aa9e5d53e6632173afea4e30f15a5dbee5faafdfca28b2d3d5eaa4",
+      "duration": 140.59972789115648
+    },
+    {
+      "clip_id": "T12",
+      "source_wav": "/Volumes/SSD Track/JGA/recordings/double_bass/GALLEGATI_2009/session_20260914/metadata/JGA_DB_GALLEGATI_2009_SESSION_20260914 Project/Samples/Recorded/FISHMAN 0040 [2026-09-14 174102].wav",
+      "sha256": "856a8ac04628b65828bb573f063ccd4b093cece3c98707b6058abb8fadebb15b",
+      "duration": 128.27138321995466
+    }
+  ],
+  "created_utc": "2026-09-24T16:31:51.594036+00:00"
+}

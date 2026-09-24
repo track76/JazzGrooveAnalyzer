@@ -1,0 +1,7 @@
+from pathlib import Path
+import json,hashlib,datetime,numpy as np
+B=Path(__file__).resolve().parents[1];I=B/'input';O=B/'output';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+episodes=json.loads((I/'FUNDAMENTAL_EPISODES.json').read_text());native=json.loads((I/'bass_native.json').read_text());out=[]
+for e in episodes:
+ near=min(native,key=lambda n:abs(float(n['timestamp_s'])-e['start_s']));inside=[n['event_id'] for n in native if e['start_s']<=float(n['timestamp_s'])<=e['end_s']];out.append({'episode_id':e['episode_id'],'activity_start_s':e['start_s'],'root_onset_s':e['root_onset_s'],'activity_end_s':e['end_s'],'native_event_ids_inside':inside,'nearest_native_id':near['event_id'],'nearest_native_timestamp_s':float(near['timestamp_s']),'native_minus_episode_start_ms':1000*(float(near['timestamp_s'])-e['start_s']),'qualification':'same-source detector evidence only; not validation or a boundary correction'})
+(O/'NATIVE_ACTIVITY_CROSSCHECK.json').write_text(json.dumps(out,indent=2)+'\n');(O/'CROSSCHECK_AUDIT.json').write_text(json.dumps({'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'inputs':{p.name:sha(p) for p in I.iterdir()},'output_sha256':sha(O/'NATIVE_ACTIVITY_CROSSCHECK.json'),'implementation_sha256':sha(Path(__file__)),'episode_N':len(out),'episodes_with_native_event_inside':sum(bool(r['native_event_ids_inside']) for r in out),'episodes_without_native_event_inside':sum(not r['native_event_ids_inside'] for r in out)},indent=2)+'\n');print((O/'CROSSCHECK_AUDIT.json').read_text())

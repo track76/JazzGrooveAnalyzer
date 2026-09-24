@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-24T22:11:46.570292+00:00",
+  "status": "STOPPED_BOOTSTRAP_DEPENDENCY_FAILURE",
+  "reason": "Root bootstrap generator rejected reference to MANIFEST.json before package manifest had been created. Build-order error; no root bootstrap replacement occurred. PI stop-on-failure policy applied.",
+  "canonical_state_source_restored": true,
+  "root_bootstrap_sha256": "b67ee4d162ab0df62f8e4c9b0d247cbac989c1c0ff0b93e6ecbb9084b5674115",
+  "partial_payload_freeze_sha256": "fd768ec83bc77a5e32938bed743edef10d1355d0c1a961c623be5ea4728b850d",
+  "complete_package_verified": false,
+  "commit": "NONE",
+  "push": "NOT RUN",
+  "backup": "NOT RUN",
+  "resume_work": "Complete outer MANIFEST/SHA256SUMS and verify package before reapplying canonical state source and generating root bootstrap; then commit/push and new versioned HD BackUp backup."
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-24T17:57:15.241237+00:00",
+  "PLP_access": false,
+  "fullmix_logistic_execution": false,
+  "fullmix_attack_timestamps_selected": false,
+  "files": {
+    "output/SUMMARY.json": "9131500dd2af7a31c82b96e077d76678b0595a0b1b522fb6ac222922f8b1aab8",
+    "output/STEM_FULLMIX_ATTACK_INTERROGATION.csv": "50c01a9b6dfc5f90866aef5c83332d2e505199cd56f4e97c1586ee88d0c4f56a",
+    "output/ISOLATION_CHECKS.json": "6298d9ce4b1ce8f3eb5d22cdedba7a2c8f3d761d1cd736f924e26485d8ee7a14",
+    "output/LATE_SELECTION_AUDIT.json": "c24fc38dabedfe7ae6620ef1264ae49d26e9835fea0fb5daf43e892796c4c835",
+    "output/QUERY_EVIDENCE.json": "88ecdfc131c90774d95cfb2fc6a0e4286f113b941f250eb3deb64be77fda1c29",
+    "output/ALL_FULLMIX_FRONTS.json": "7fab835f6130a057ecda5c4f92977447988d987197fd2f375a38778b0aa89f48",
+    "output/SYNCHRONIZED_CURVES.npz": "101b14abf96a9e249dd074735720dbc22d05acddf8ed1ff6c52d32a7b0e13794",
+    "output/STEM_DOMAIN_REPRESENTATIVES.json": "d189fd23fa0a9aafbbd0aba72354ce21633bb0db9de3b409ccc69176b8f0c6c4",
+    "output/EPISODE_DIAGNOSTICS.json": "495c9f7606d2dbab0186ef79619afe5d2d2d22d73ed8fc8e424fef6e8256e061"
+  },
+  "implementation_sha256": "9928cb4cbd33c628b0ba31086895c392398156eb6a40d2d802ea36a18d623088"
+}

@@ -1,0 +1,29 @@
+from pathlib import Path
+import json,hashlib,shutil,datetime
+W=Path(__file__).resolve().parent;R=W.parent;B=R/'JGA_NATIVE_BP_GT_120_20260924';G=R/'JGA_GALLEGATI_CONTINUOUS_FISHMAN_GT_120_20260924/GROUND_TRUTH'
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+def save(p,x):p.write_text(json.dumps(x,indent=2)+'\n')
+assert sha(G/'GT_FREEZE.json')=='535e3d3d930db323320a5959da3999bc605ba278234671d0540d04b281b3ebd7'
+assert sha(G/'GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1.json')=='a4047bf252f28fa3289279bdcaa5e90226dcf0af994a51e0dd5df05174484631'
+c=json.loads((B/'inference/output/TRANSCRIPTION_COMPLETE.json').read_text());assert all(sha(B/'inference/output'/f)==h for f,h in c['files'].items())
+# Fixed prior take allocation, no outcome-driven split search. All previous take exposure disclosed.
+sp=json.loads((R/'JGA_CONTINUOUS_FISHMAN_DETECTOR_20260924/TAKE_SPLIT.json').read_text()); split={k:sp[k] for k in ['development','holdout','takes']};split['limitation']='Previously inspected corpus, including native BP errors. Process-isolated development holdout, not investigator-blind or pristine corpus holdout.';save(W/'TAKE_SPLIT.json',split);save(W/'SPLIT_FREEZE.json',{'sha256':sha(W/'TAKE_SPLIT.json'),'utc':datetime.datetime.now(datetime.timezone.utc).isoformat()})
+plan={'window':'BP native onset ±0.150s, clipped to audio extent. Global initial design; local-context scale, not per-event GT centered. Development coverage is checked before training; inadequate coverage stops study. No holdout-dependent widening.','candidate':'Local maxima >1e-12 of positive magnitude flux 30<=f<250, Hann1024 hop44 @44100; exact frame-center coordinates. Only peaks in BP windows evaluated. No refractory.','features':'Preserved 19 morphology descriptors from prior controlled study plus signed BP distance, absolute BP distance, relative BP duration position. Fixed context extends up to 150ms beyond search window. No pitch/string/dynamic/GT features.','labels':'Inside human plausible interval = interval-compatible (weight1). Else within 5ms of interval = near-interval proxy (weight0.5), explicitly not GT-exact. Others negative. Multiple compatible candidates remain compatible; no nearest-to-GT target choice.','models':['LOGISTIC_C0.1','LOGISTIC_C1','TREE_DEPTH3_LEAF5'],'thresholds':[0.5,0.75],'abstention':'No peaks: NO_CANDIDATE. Max score below threshold or exactly tied top scores: ABSTAIN_AMBIGUOUS. Else select single highest-scoring native coordinate.','CV':'Leave one development take out. Balanced class weights; scaler fit on training folds only. All candidates from unique correct/octave BP correspondences in training take. Choose maximum CV useful yield within10ms per recognized note; then lowest P95 absolute error; then simpler model/threshold order.','candidate_gate':'All defensibly recognized development notes must have a candidate within20ms; otherwise stop. Report 5/10/20ms coverage both over recognized notes and 80 GT population.','evaluation':'Reuse frozen native BP matching protocol only AFTER predictions. Unique correct/octave matches define common baseline cohort. Multiple BP remains unresolved, all raw per-hypothesis predictions retained. Correct association within100ms scoring only; useful-event yield within10ms / all40GT, not just selected.','scope':'Fishman observable onset, NOT physical string release. Previously exposed investigator; strict process isolation for new development. No Ray Brown, PLP, corrections or model retuning after holdout.'}
+save(W/'PROSPECTIVE_PROTOCOL.json',plan)
+# Split written and hashed before GT parsing. Coordinator routes reference records; development can read only its 80.
+gt=json.loads((G/'GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1.json').read_text())['events'];sources=json.loads((B/'SOURCE_MAP.json').read_text());notes=json.loads((B/'inference/output/ALL_NATIVE_NOTES.json').read_text());mapping={}
+for phase in ['development','holdout']:
+ d=W/phase; (d/'input').mkdir(parents=True,exist_ok=True);(d/'output').mkdir(exist_ok=True);mn=[]
+ for take in split[phase]:
+  meta=split['takes'][take];src=next(s for s in sources if s['source_wav']==meta['source_wav']);clip=src['clip_id'];p=B/'inference/input'/f'{clip}.wav';assert sha(p)==meta['source_sha256'];shutil.copyfile(p,d/'input'/f'{clip}.wav');ns=[n for n in notes if n['clip_id']==clip];save(d/'input'/f'{clip}_notes.json',ns);mn.append({'clip_id':clip,'audio':f'{clip}.wav','notes':f'{clip}_notes.json','sha256':sha(p)});mapping[clip]=take
+ save(d/'input/MANIFEST.json',mn)
+ if phase=='development':save(d/'input/GT_DEVELOPMENT.json',[dict(g,clip_id=next(k for k,v in mapping.items() if v==g['take_id'])) for g in gt if g['take_id'] in split[phase]])
+save(W/'EVALUATION_MAP.json',mapping)
+shutil.copyfile(R/'JGA_FISHMAN_CANDIDATE_MORPHOLOGY_20260924/core.py',W/'development/morphology.py')
+shutil.copyfile(W/'development/morphology.py',W/'holdout/morphology.py')
+for phase in ['development','holdout']:
+ d=(W/phase).resolve();s='(version 1)\n(allow default)\n(deny network*)\n(deny file-read* (subpath "/Users") (subpath "/Volumes") (subpath "/private/tmp"))\n'
+ for p in [str(d),str(Path('.venv').resolve()),'/private/tmp/jga_selector_cache'] :s+=f'(allow file-read* (subpath "{p}"))\n'
+ s+='(allow file-read-metadata)\n';(W/f'{phase}.sb').write_text(s)
+save(W/'PREPARATION_AUDIT.json',{'source_hashes_verified':12,'GT_hashes_verified':True,'BP_native_outputs_verified':True,'BP_rerun':False,'split_sha256':sha(W/'TAKE_SPLIT.json'),'protocol_sha256':sha(W/'PROSPECTIVE_PROTOCOL.json'),'devGT_events':80,'holdoutGT_in_processing_dirs':False,'coordinator':'Routed GT into development-only file; no holdout coordinates printed or provided to development process. Investigator previously exposed; no claim of investigator blindness.'})
+print('Prepared isolated development and holdout inputs; hashes verified.')

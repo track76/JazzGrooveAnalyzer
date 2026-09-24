@@ -1,0 +1,6 @@
+{
+  "rule": "Partition each take into chronological GT territories at midpoints between consecutive human centers, with take endpoints outer bounds. Native hypotheses whose onset lies in a territory and whose offset reaches its GT earliest plausible bound are associated candidates. Use expected pitch first, octave-equivalent second, other pitch last. Exactly one hypothesis in the highest available pitch tier permits matching; multiple remain MULTIPLE_BP_CANDIDATES with no timestamp choice. All native hypotheses retained including pre-target-ending fragments and unmatched extras. This is conservative reference-assisted correspondence, not an deployable onset selector. No nearest-GT ranking, amplitude ranking, or duration ranking.",
+  "reason": "Known controlled pitch plus chronological correspondence and persistence; no hypothesis selected for small timing error. Native timestamps never changed.",
+  "additional_definition": "Native hypotheses not in any event association set; ambiguous-associated hypotheses reported separately, not asserted false notes.",
+  "created_utc": "2026-09-24T16:31:51.594612+00:00"
+}

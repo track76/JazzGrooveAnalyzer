@@ -1,0 +1,16 @@
+{
+  "same_pitch_boundaries": 18,
+  "within_same_family": 16,
+  "cross_family_ambiguous": 2,
+  "SAME_NOTE_FRAGMENT": 13,
+  "TRUE_REARTICULATION": 0,
+  "AMBIGUOUS": 5,
+  "native_root_segments_before": 79,
+  "experimental_root_identity_units_after": 66,
+  "all_native_hypotheses_before": 98,
+  "all_identity_units_after": 85,
+  "frozen_fundamental_episodes_before": 63,
+  "frozen_fundamental_episodes_after": 63,
+  "fragmentation_explains_excess": "PARTIAL",
+  "classification_sha256": "22f1843c0e101c772bc255f5f94518ce6d24a8ae0be8f1c9b525c62996a71016"
+}

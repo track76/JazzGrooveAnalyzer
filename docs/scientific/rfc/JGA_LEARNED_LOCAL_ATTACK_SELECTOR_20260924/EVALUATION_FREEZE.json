@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-24T16:51:18.379809+00:00",
+  "files": {
+    "HOLDOUT_ATTACK_SELECTIONS.csv": "c0e7e4de5e3dbfe14413c082401d6ae037a7dd6038f7cbe16073cf8aa766c65d",
+    "HOLDOUT_RESULTS.json": "de3fc3c46c1cccda9222404e6508a456645f3fc39bb826c942ae9ea69493ffcc",
+    "EVALUATION.json": "a6b77e437676fa34355e4cae49109e0667a253e9b8eda9fe9bd2628dc1fdc06c",
+    "evaluate.py": "d91c0793eb3a3056061b4f875acf815d4cc3ae5e6a67c38a7bcb4508dffdf27d"
+  }
+}

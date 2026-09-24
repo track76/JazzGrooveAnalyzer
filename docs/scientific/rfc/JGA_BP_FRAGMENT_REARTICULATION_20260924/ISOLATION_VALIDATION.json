@@ -1,0 +1,5 @@
+{
+  "PLP_reads_denied": true,
+  "investigator_previously_exposed_to_PLP": true,
+  "classification_inputs": "sanitized native notes, families, PCM and saved spectral tensor only"
+}

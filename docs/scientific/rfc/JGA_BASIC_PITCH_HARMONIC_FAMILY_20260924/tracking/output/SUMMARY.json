@@ -1,0 +1,13 @@
+{
+  "raw_hypotheses": 98,
+  "naive_episodes": 73,
+  "harmonic_family_episodes": 63,
+  "lingering_harmonic_hypotheses": 2,
+  "lingering_transition_pairs": 2,
+  "new_roots_under_lingering_harmonics": 2,
+  "fragments_collapsed": 16,
+  "harmonic_hypotheses": 19,
+  "unresolved_hypothesis_ownership": 0,
+  "ambiguous_episodes": 35,
+  "late_starting_harmonics": 13
+}

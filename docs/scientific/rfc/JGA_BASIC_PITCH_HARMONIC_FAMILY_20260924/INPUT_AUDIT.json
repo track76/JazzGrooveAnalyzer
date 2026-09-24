@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-24T12:59:24.465603+00:00",
+  "protocol_sha256": "47a412dd6dd4fdb45199e8d5b11b2282c81ebb3f7fa1adcb5ad7132c95c30052",
+  "files": {
+    "tracking/input/alignment.json": "de8f888144af99d63835f7ad9a7ddf30a6ffc6fa21fd728094c950f735a542bc",
+    "tracking/input/notes.csv": "6d1dc1d2ce86a21b953f9ece652446a8222e9a392db6c9b7701f3cf147dd21e4",
+    "tracking/input/bass.wav": "5e6290ad1521079c14e152ec13a5054c3ccfdbcbe57b70c5ea8a5f37c5ae7087",
+    "crosscheck/input/bass_native.json": "f5c1b01f6c65c7a3bebb4ac1df04ea95a1d062845978bb2b4c6f2f80282538ef"
+  },
+  "source_audit": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_CROSS_REPRESENTATION_TRANSIENT_ATTRIBUTION_20260924/ALIGNMENT_AUDIT.json",
+  "source_audit_sha256": "49ec734f210c0e727e18b45ce2936a328795f48a09cf1d7de5031c039f29d436",
+  "tracking_schema": [
+    "note_id",
+    "onset_s",
+    "offset_s",
+    "midi_pitch",
+    "amplitude",
+    "pitch_bends"
+  ],
+  "no_native_detector_input_to_tracking": true
+}

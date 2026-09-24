@@ -1,0 +1,10 @@
+{
+  "root_pitch_range": [
+    28,
+    57
+  ],
+  "median_absolute_successive_pitch_change_semitones": 4.0,
+  "successive_leaps_greater_than_octave": 4,
+  "same_pitch_adjacent_root_episodes": 1,
+  "median_root_support_duration_s": 0.290249433106581
+}

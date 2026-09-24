@@ -1,0 +1,16 @@
+{
+  "GT_events": 80,
+  "recognized_unique": 72,
+  "window_GT_coverage": 72,
+  "candidate_covered_5ms": 38,
+  "candidate_covered_10ms": 72,
+  "candidate_covered_20ms": 72,
+  "candidate_count": {
+    "mean": 40.236111111111114,
+    "min": 25,
+    "Q25": 37.0,
+    "median": 41.0,
+    "Q75": 43.25,
+    "max": 49
+  }
+}

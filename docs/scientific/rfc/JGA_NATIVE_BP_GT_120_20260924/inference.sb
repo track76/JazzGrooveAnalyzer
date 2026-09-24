@@ -1,0 +1,7 @@
+(version 1)
+(allow default)
+(deny network*)
+(deny file-read* (subpath "/Users") (subpath "/Volumes") (subpath "/private/tmp"))
+(allow file-read* (subpath "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference"))
+(allow file-read* (subpath "/private/tmp/jga_basic_pitch_benchmark_env"))
+(allow file-read-metadata)

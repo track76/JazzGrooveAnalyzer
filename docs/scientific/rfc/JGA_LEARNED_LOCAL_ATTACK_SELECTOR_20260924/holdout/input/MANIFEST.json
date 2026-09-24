@@ -1,0 +1,26 @@
+[
+  {
+    "clip_id": "T04",
+    "audio": "T04.wav",
+    "notes": "T04_notes.json",
+    "sha256": "6dc976e30bb436a1eadc9f9c97eeeb8d4bf57023fbcf95d06b9dedc300d3e39e"
+  },
+  {
+    "clip_id": "T07",
+    "audio": "T07.wav",
+    "notes": "T07_notes.json",
+    "sha256": "1f0b4fff9cf0ecc4ba0cdb3f6b7b5180de4a7c9466cf9b99874d8faa5ed0a5ce"
+  },
+  {
+    "clip_id": "T09",
+    "audio": "T09.wav",
+    "notes": "T09_notes.json",
+    "sha256": "af23c44d3aa5e22965a6e6ba1132905929663de923345e8ae92f66f76d9d9bfe"
+  },
+  {
+    "clip_id": "T10",
+    "audio": "T10.wav",
+    "notes": "T10_notes.json",
+    "sha256": "ccf5323f5c7de0867a8ff2ad8bc1d98942d6b526462dfe78b82259f493685a91"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-24T17:22:11.724856+00:00",
+  "files": {
+    "CONTAINED_FALLBACK_RESULTS.csv": "0694acea3420bef97db51df7f75a04006ea767dbf9438bd049d5deb05557be5c",
+    "EVENT_RESULTS.json": "d857f638f4a5f4eb778cfe5d3a3b1c87a679be7b26d3049269842a0694e2082f",
+    "RESULTS.json": "b5bb2ab8dd7732efd0a6e05796f5fdbe0180f9c525e7aa8f54d70a07f33bed51",
+    "evaluate.py": "f3c75bdd85a7a71cc8bbafdeef2c99c603dea3df44a20729e7224dd84a111b36"
+  }
+}

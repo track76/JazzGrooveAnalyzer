@@ -1,0 +1,389 @@
+[
+  {
+    "attack_id": "BASS_V1_001",
+    "selected_s": 48.16816326530612,
+    "native_sample_coordinate": 2124216,
+    "episode_ids": [
+      "HF002"
+    ],
+    "hypothesis_ids": [
+      "BP_0004"
+    ],
+    "selected_BP_ids": [
+      "BP_0004"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      43
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_002",
+    "selected_s": 48.761814058956915,
+    "native_sample_coordinate": 2150396,
+    "episode_ids": [
+      "HF005"
+    ],
+    "hypothesis_ids": [
+      "BP_0008"
+    ],
+    "selected_BP_ids": [
+      "BP_0008"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      32
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_003",
+    "selected_s": 51.71111111111111,
+    "native_sample_coordinate": 2280460,
+    "episode_ids": [
+      "HF012"
+    ],
+    "hypothesis_ids": [
+      "BP_0018",
+      "BP_0019"
+    ],
+    "selected_BP_ids": [
+      "BP_0018"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      33
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_004",
+    "selected_s": 52.31174603174603,
+    "native_sample_coordinate": 2306948,
+    "episode_ids": [
+      "HF014"
+    ],
+    "hypothesis_ids": [
+      "BP_0022",
+      "BP_0023"
+    ],
+    "selected_BP_ids": [
+      "BP_0023"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      39
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_005",
+    "selected_s": 57.181678004535144,
+    "native_sample_coordinate": 2521712,
+    "episode_ids": [
+      "HF027"
+    ],
+    "hypothesis_ids": [
+      "BP_0040"
+    ],
+    "selected_BP_ids": [
+      "BP_0040"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      35
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_006",
+    "selected_s": 57.51292517006803,
+    "native_sample_coordinate": 2536320,
+    "episode_ids": [
+      "HF029"
+    ],
+    "hypothesis_ids": [
+      "BP_0042",
+      "BP_0043"
+    ],
+    "selected_BP_ids": [
+      "BP_0043"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      36
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_007",
+    "selected_s": 61.06585034013606,
+    "native_sample_coordinate": 2693004,
+    "episode_ids": [
+      "HF039"
+    ],
+    "hypothesis_ids": [
+      "BP_0058",
+      "BP_0059"
+    ],
+    "selected_BP_ids": [
+      "BP_0058"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      43
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_008",
+    "selected_s": 61.66848072562358,
+    "native_sample_coordinate": 2719580,
+    "episode_ids": [
+      "HF040"
+    ],
+    "hypothesis_ids": [
+      "BP_0060",
+      "BP_0061"
+    ],
+    "selected_BP_ids": [
+      "BP_0061"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      47
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_009",
+    "selected_s": 62.015691609977324,
+    "native_sample_coordinate": 2734892,
+    "episode_ids": [
+      "HF041"
+    ],
+    "hypothesis_ids": [
+      "BP_0062",
+      "BP_0063"
+    ],
+    "selected_BP_ids": [
+      "BP_0063"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      48
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_010",
+    "selected_s": 63.31174603174603,
+    "native_sample_coordinate": 2792048,
+    "episode_ids": [
+      "HF044"
+    ],
+    "hypothesis_ids": [
+      "BP_0066"
+    ],
+    "selected_BP_ids": [
+      "BP_0066"
+    ],
+    "routes": [
+      "SECURE_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      53
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_011",
+    "selected_s": 64.43020408163265,
+    "native_sample_coordinate": 2841372,
+    "episode_ids": [
+      "HF046"
+    ],
+    "hypothesis_ids": [
+      "BP_0068",
+      "BP_0069"
+    ],
+    "selected_BP_ids": [
+      "BP_0069"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      43
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_012",
+    "selected_s": 64.76244897959184,
+    "native_sample_coordinate": 2856024,
+    "episode_ids": [
+      "HF047"
+    ],
+    "hypothesis_ids": [
+      "BP_0070"
+    ],
+    "selected_BP_ids": [
+      "BP_0070"
+    ],
+    "routes": [
+      "SECURE_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      53
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_013",
+    "selected_s": 64.96698412698413,
+    "native_sample_coordinate": 2865044,
+    "episode_ids": [
+      "HF048"
+    ],
+    "hypothesis_ids": [
+      "BP_0071",
+      "BP_0072"
+    ],
+    "selected_BP_ids": [
+      "BP_0071"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      47
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_014",
+    "selected_s": 66.05850340136055,
+    "native_sample_coordinate": 2913180,
+    "episode_ids": [
+      "HF050"
+    ],
+    "hypothesis_ids": [
+      "BP_0074"
+    ],
+    "selected_BP_ids": [
+      "BP_0074"
+    ],
+    "routes": [
+      "SECURE_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      50
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_015",
+    "selected_s": 66.77886621315193,
+    "native_sample_coordinate": 2944948,
+    "episode_ids": [
+      "HF052"
+    ],
+    "hypothesis_ids": [
+      "BP_0076",
+      "BP_0077",
+      "BP_0078"
+    ],
+    "selected_BP_ids": [
+      "BP_0076"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      38
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_016",
+    "selected_s": 67.94321995464853,
+    "native_sample_coordinate": 2996296,
+    "episode_ids": [
+      "HF055"
+    ],
+    "hypothesis_ids": [
+      "BP_0082",
+      "BP_0083",
+      "BP_0084"
+    ],
+    "selected_BP_ids": [
+      "BP_0082"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      35
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  },
+  {
+    "attack_id": "BASS_V1_017",
+    "selected_s": 69.65632653061225,
+    "native_sample_coordinate": 3071844,
+    "episode_ids": [
+      "HF060"
+    ],
+    "hypothesis_ids": [
+      "BP_0094",
+      "BP_0095"
+    ],
+    "selected_BP_ids": [
+      "BP_0094"
+    ],
+    "routes": [
+      "AMBIGUOUS_ROUTE"
+    ],
+    "pitch_hypotheses": [
+      39
+    ],
+    "shared_attack": false,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER"
+  }
+]

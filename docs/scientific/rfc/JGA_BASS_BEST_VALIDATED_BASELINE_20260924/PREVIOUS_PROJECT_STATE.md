@@ -1,0 +1,2111 @@
+# Current authoritative checkpoint — Historical Report 001 completed · 2026-09-23
+
+**Final musicological output frozen — 2026-09-23.** [JGA Musicological Report Format v1](historical_reports/formats/JGA_MUSICOLOGICAL_REPORT_FORMAT_V1/JGA_MUSICOLOGICAL_REPORT_FORMAT_V1.md) is the standard musician-facing output; [Historical Report 001 final report](historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_SCORE_V1/FINAL_MUSICOLOGICAL_REPORT.md) and its 15-page A4 Microtiming Score are the reference example. PI_METRIC_ANCHOR: unchanged PLP Q3 at 0.8126984126984127 s is M1/Beat 1. PI-authorized 32-quarter elapsed-span BPM provides the local tempo curve, separate from the existing central statistic. Native/source evidence and P01–P21 remain unchanged; unresolved Dual stays gray. No form analysis or new inference. JGA v1 methodology remains CLOSED. Next: historical-jazz corpus analysis using the frozen format; non-specialist explanatory page remains deferred. Earlier endpoint/metric ambiguity is superseded by this explicit PI annotation, not silently revised.
+
+**JGA v1 methodological development: CLOSED for operational historical analysis. Operational format: USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** This PI engineering decision supersedes earlier next-research instructions below, without rewriting any experimental result. [Final operational decision](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) · [frozen reporting workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) · [evidence paths/hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json) · [closure package](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/README.md).
+
+**ORIGINAL FULL MIX is the primary historical audio and operational signal authority. PLP is JGA v1 INTERNAL BPM / LOCAL-PULSE / operational QUARTER REFERENCE**, derived only from that full mix. Native full-mix timestamps remain primary when a compatible event exists. Existing full-mix source support and authorized Demucs Bass/Drums evidence are complementary: stems may help answer WHO, full mix should answer WHEN. No stems as Ground Truth, independent BPM ruler or automatic replacement timing. Preserve FULL-MIX + STEM CONFIRMED (compatible evidence, not independent truth), FULL-MIX SOURCE-SUPPORTED ONLY, SEPARATOR_DERIVED / STEM_ONLY, DUAL and UNKNOWN/AMBIGUOUS. Reuse frozen matching; no retuning or forced match.
+
+**DUAL is one native timestamp with multiple source hypotheses, never two attacks.** Distinct operational source events require distinct compatible native IDs AND timestamps; otherwise SHARED_DUAL_MARKER / UNRESOLVED. Preserve original labels as evidence; added separator support is separately traceable. Keep both GLOBAL QUARTER-NEAREST and QUARTER-CENTERED BASS/DRUM views, the same PLP cells, exact midpoint/tie/no-borrowing/no-reuse/EMPTY rules and all light-gray source-shaped CONTEXT. Preserve existing graphic definitions; raw/discrete BPM includes timestamp-lattice effects.
+
+**Measurement: DELTA_T = observable source-associated onset − PLP temporal reference.** No snapping. +27 ms remains +27 ms. This is source-associated observable onset geometry, not exact finger release/stick contact or physical performer Ground Truth. Precise recorded Bass onset and independent physical Bass–Drum microtiming remain unestablished. Generic Drum does not establish Ride/Hi-Hat. Provenance is not calibrated numerical confidence; retain uncertainty and no invented ON tolerance.
+
+**Historical independent PLP experiment: FAIL, unchanged:** 10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 responses; SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You 5/5 development evidence remains outside the denominator. PLP remains ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE; present operational adoption does not convert FAIL to PASS. Raw maxima are not final musical-quarter Ground Truth. General-purpose physical/metric authority is NOT YET COMPLETE; v1 adopts a bounded operational ruler without claiming the unimplemented layers exist.
+
+**4/4 PRIMARY; 3/4 SUPPORTED / SECONDARY.** 5/4 and other odd meters EXPERIMENTAL / FUTURE JGA v2, outside v1 requirements. Open/free endings without useful metric authority are excluded using independent boundaries; historical negative evidence is preserved. Tempo-Existence / Confidence Gate (YES / LOW_CONFIDENCE / NO), Metric-Level Selection and Metric-Level Lock / Continuity remain unimplemented proposals, not current v1 development prerequisites. Physical Bass metrology, universal Bass identity, Ride/Hi-Hat timing, alternative separators/models and PLP attack-prior work are future research unless corpus evidence creates a material blocker. The failed restrictive PLP proximity prior is not integrated.
+
+Ableton: external benchmark, not Ground Truth and not a required runtime dependency. Essentia / BeatNet / madmom / Beat This!: DEFERRED. No historical groove recalculation, detector/model execution, runtime redesign or new experiment is performed by this closure. Research limits remain limits, not blockers invented for operational marker reporting.
+
+**Next action: Select/prepare Historical Report 002 using the frozen JGA Historical Report Template v1.** Report 002 is not executed here. Any renewed methodological experiment requires separate PI authorization. Earlier checkpoints below are historical records, not current continuation instructions.
+
+
+**Historical Report 001 completed — Ray Brown Trio, Exactly Like You.** [Report](historical_reports/JGA_HISTORICAL_REPORT_001/REPORT.md) · [summary](historical_reports/JGA_HISTORICAL_REPORT_001/SUMMARY.json) · [JGA Historical Report Template v1](historical_reports/JGA_HISTORICAL_REPORT_TEMPLATE_V1.md). Existing frozen evidence and figures reused; no methodology change or audio inference. Analysis [0,330) s, 905 PLP cells, 1,606 native events, 891 global selections (98.45%). Bass primary non-shared N=23, median −34.83 ms; Drum N=654, +11.61 ms; 21 distinct pairs, Drum−Bass median +46.44 ms. Provenance and small-N limitations remain explicit. Central raw/discrete interval-BPM median 161.50 (904 intervals), not a continuous performer-tempo estimate. The v1 architecture freeze remains unchanged; current status documents evolve without rewriting its historical versions.
+
+---
+
+## Archived pre-adoption checkpoints — retained verbatim; not current instructions
+
+# Current authoritative checkpoint — final historical-recording trial · 2026-09-22
+
+**JGA v1 final trial on Exactly Like You: PARTIALLY_USABLE.** [Report](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT.md) · [result freeze](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT_FREEZE.json), SHA-256 `64979a72bf7c878bdea445d94c03dad417e4dd170d384999e3a5bb2172e23953`. This is the newly authorized additive readout, not a rewrite of historical groove studies. Analysis [0,330) s; PI-defined ending excluded. 1,606 native markers; Bass-inclusive 205, Drum-inclusive 1,091 (196 shared dual markers), UNKNOWN 506. Nine preserved qualified exposed-Drum acoustic estimates; one historical refinement abstention. No new detector/model/PLP execution, no snapping, no restrictive PLP proximity prior. The single material blocker is transferable full-mix attack-timing qualification, most decisively Double Bass. Marker geometry is usable exploratory evidence, not established performer microtiming.
+
+**Historical independent PLP experiment: FAIL, unchanged:** 10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 responses. Result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You 5/5 remains development evidence, outside that denominator.
+
+**Separate PI engineering adoption:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE, adopted internal BPM/local-pulse context for bounded JGA v1. Input: ORIGINAL FULL MIX. Raw maxima are evidence, not final musical-quarter Ground Truth. FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE. 4/4 PRIMARY; 3/4 SUPPORTED; 5/4 and other odd meters EXPERIMENTAL and outside current operational scope. Open/free endings excluded from this trial; negative evidence preserved.
+
+Tempo-Existence / Confidence Gate (YES / LOW_CONFIDENCE / NO), Metric-Level Selection and Metric-Level Lock / Continuity remain unimplemented architectural proposals; this task does not authorize their development or reopen excluded ending/odd-meter work. Ableton: external benchmark, not Ground Truth and not a required runtime dependency. Essentia / BeatNet / madmom / Beat This!: DEFERRED.
+
+Instrument timestamps remain independent: DELTA_T = independent attack time minus frozen reference. +27 ms must remain +27 ms. PLP cannot force attacks onto the grid. Source Identity remains separate; Double Bass, Ride and Hi-Hat remain qualified future targets. Precise recorded Bass onset and independent physical Bass–Drum microtiming remain unestablished. Generic Drum evidence does not establish Ride/Hi-Hat results. No groove recalculation authorized beyond the completed additive trial; historical outputs remain frozen.
+
+Next action: PI review of this trial and its single attack-timing qualification blocker. Further scientific work requires separate PI authorization. Historical checkpoints below retain their original scope and do not authorize automatic continuation.
+
+---
+
+# Current authoritative checkpoint — Tempo Authority phase closure · 2026-09-22
+
+**Historical independent experiment: FAIL, unchanged (10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 PI responses).** Independent result SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You PLP 5/5 is development evidence, not part of this denominator.
+
+**Subsequent PI engineering decision:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE for JGA v1. **FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE.** Full mix is the analysis input; unchanged frozen librosa PLP is evidence, not raw-maxima Ground Truth. Required, unimplemented next layers: Tempo-Existence / Confidence Gate; Metric-Level Selection; Metric-Level Lock / Continuity. TEMPO_EXISTS may be YES / LOW_CONFIDENCE / NO; do not force quarters in free endings.
+
+**Metric scope:** 4/4 primary; 3/4 supported; 5/4/odd meters experimental. Preserve Take Five negative stress evidence. Scope does not rewrite the failed acceptance gate. Ableton is an external benchmark only, not Ground Truth or required runtime. Essentia / BeatNet / madmom / Beat This! deferred. Previous JGA temporal path: HISTORICAL / SUPERSEDED FOR NEW DEVELOPMENT; runtime and historical results unchanged.
+
+**Instrument attacks remain independent from the frozen quarter reference.** PLP may constrain search regions/confidence, never force attacks onto the grid. DELTA_T = independent attack time − frozen quarter; +27 ms remains +27 ms. Source identity is active. JGA-ATTACK-REFINEMENT-001 (Double Bass / Ride / Hi-Hat) is next downstream priority after temporal-reference completion. No groove recalculation authorized.
+
+[Scientific recovery chain](scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/README.md) · [PI decision](scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/PI_ARCHITECTURE_DOMAIN_DECISION.md) · [authority paths and hashes](scientific/rfc/JGA_TEMPO_AUTHORITY_PHASE_CLOSURE_20260922/AUTHORITY_REFERENCES.json).
+
+Next scientific action: separately authorize bounded Tempo-Existence / Confidence Gate preregistration. No new science is authorized by this closure.
+
+---
+
+## Preserved historical checkpoints (superseded as current instructions)
+
+# Current scientific checkpoint — first complete musicological performance analysis · 2026-09-22
+
+**JGA-FIRST-COMPLETE-MUSICOLOGICAL-PERFORMANCE-ANALYSIS-001: PASS with documented qualifications.** Target: Ray Brown Trio — “Exactly Like You”. Branch: `scientific/translation-layer-finalization`. Scientific result frozen; awaiting PI review. No commit or push.
+
+[Musicological report](scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/MUSICOLOGICAL_ANALYSIS.md) · [technical appendix](scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/TECHNICAL_APPENDIX.md) · [result](scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/RESULT.md) · [result freeze](scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/JGA_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_RESULT_FREEZE.json), SHA-256 `3fe103ee2a20348e89395b1557e8ef3275b08df151e2e95f2dc49a7f34341bf1`. Preregistration SHA-256 `aac8d1f76785dda4b8e68a73ca8517202f8fee3864853cc61eb9b61ff490acfa`.
+
+The **FIRST COMPLETE JGA MUSICOLOGICAL PERFORMANCE ANALYSIS** uses the frozen quarter-anchored nearest-observable-onset representation and corrected independent PI form. Source/grid/candidates/selections unchanged: 0–342.656870748299 s;946 quarters;1627 native events;898 selected;729 context;48 EMPTY. M1 opening0–48;M2 Piano solo48–141;M3 Piano/Bass exchanges141–186;M4 Piano/Drum exchanges186–232;M56 final theme plus unspecified turnaround232–330;M7 ending330–acoustic end. Approximate listening boundaries, not numerical discoveries. Final-theme/turnaround boundary is NOT known; pure final-theme comparison remains insufficient. The former Confessin form attribution is not used for this recording.
+
+Measured: opening B minus opening A median−16.57 ms/IQR+33.03 ms. Piano-solo versus opening A IQR+26.98 ms/median absolute distance+16.70 ms, directions retained in all35 preserved thinning scenarios. Piano/Bass signed pair differences split2negative/2positive; no universal signed role contrast. Piano/Drum all4 paired median contrasts negative; pooled−53.54 ms, pooled direction retained35/35. Explicit Ride-removed2-pair contrast−28.54 ms, confounded with solo role. Reference122–128.5 s lies in Piano solo at23.08th percentile for shift/slope among13 original contained windows, not an extreme or independent replication. Recurrence first2windows M2; third M56. Stored BPM alone does not explain these descriptive findings; causality and independence unestablished. Ending coverage is poor. See report for denominators and limitations.
+
+Architecture unchanged: full mix → native observability → qualified external identity evidence → frozen internal pulse → quarter-anchored geometry → form-linked description. JGA owns timing. ADTOF qualified Drum evidence; MuScriptor complementary evidence; YourMT3 historical, not mandatory gate. Dual support is one marker, not two timed attacks. Preferred research coordinate remains supported WITH QUALIFICATION and closed to redesign absent falsifying evidence; not newly promoted to canonical production behavior.
+
+**Preserved limitations:** precise recorded-acoustic Bass onset NOT ESTABLISHED; physical Bass onset and physical Bass–Drum microtiming NOT ESTABLISHED; continuous mixed-source trajectory NOT ESTABLISHED. Final audio-only within-PI reference decision D — INSUFFICIENT (6/17 bounded both, all6 overlapping, below prospective minimum12). The620 mathematical comparator records remain STILL BLINDED. Earlier negative/partial studies remain historical authorities, not erased. No estimator or commercial transfer is authorized by this checkpoint.
+
+**ONE next recommended action, NOT EXECUTED:** independent listening validation of the frozen internal quarter pulse during the Piano–Drum exchange chorus (03:06–03:52), without changing the grid or groove coordinate. PI approval of that next action is pending. This checkpoint records the current completed study, not automatic authorization to continue.
+
+---
+
+## Preserved historical state below
+
+Earlier current-task labels and recommendations below are historical checkpoints; their evidence remains valid within its original scope.
+
+# Current coverage validation and JGA v1 research coordinate — 2026-09-22
+
+Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. **JGA-QUARTER-NEAREST-ONSET-COVERAGE-SENSITIVITY-001: PASS; decision B — SUPPORTED WITH QUALIFICATION.** Scientific result frozen; awaiting PI review.
+
+[Result and limitations](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/RESULT.md); [result freeze](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_RESULT_FREEZE.json) SHA-256 `52835f8ab186bc7218167e80b0e75603384f491d702a8a2ae2bd553d9b9233db`; [preregistration](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_COVERAGE_SENSITIVITY_001_20260922/JGA_QUARTER_NEAREST_ONSET_COVERAGE_PREREGISTRATION.json) SHA-256 `07fa4d086571c6747f8bac09afe003ac309617cddd8d6fc8376beabdb68b0700`.
+
+**Preferred current NON-PHYSICAL JGA v1 research representation: QUARTER-ANCHORED NEAREST-OBSERVABLE-ONSET GEOMETRY — YES-WITH-QUALIFICATION. Basic descriptive groove-coordinate problem CLOSED FOR JGA v1 RESEARCH WITH QUALIFICATION**, subject to new falsifying evidence. No canonical production change. Frozen quarter → unique midpoint cell → temporally nearest existing native event; UNKNOWN remains eligible; all other events remain context. No event-stream unwrapping.
+
+Observed: all 946 quarters / 1,627 candidates / 898 selected / 729 context / 48 EMPTY preserved (94.93% selection coverage). There are 308 singleton and 590 multi-candidate nonempty cells; 381 bilateral. Median selection margin 63.60 ms (590 evaluable). Single-winner loss has 590 replacements, 308 newly empty cells and 348/590 replacement sign reversals. Individual markers are not generally loss-stable. Both window shift/slope directions survive 89.13%, 83.08% and 74.62% of all periodic 5%, 10% and 20% thinning scenarios. These phase/window cases are not independent samples. Reference and all three recurrence examples retain negative directions in every tested thinning phase and every individual winner removal. Other windows can change substantially, even at 5% loss; see W050 in the result. Of 199 >100-ms selections, 118 are singleton cells and 81 have alternatives.
+
+Research architecture: FULL MIX → JGA-native observability → modular external identity evidence → frozen internal quarter/BPM → quarter-anchored marker geometry → descriptive groove analysis. JGA owns timestamps and pulse. ADTOF supplies qualified Drum evidence; MuScriptor complementary evidence; YourMT3 is historical/comparator, not a mandatory Drum gate. Coverage fields and EMPTY/source provenance must accompany interpretation. Candidate loss does not test unobserved candidate addition.
+
+Preserved boundaries: **continuous mixed-source trajectory NOT ESTABLISHED / INSUFFICIENT; physical full-mix Bass timing NOT ESTABLISHED; independent physical Bass-vs-Drum microtiming NOT ESTABLISHED.** Dual support is one marker with two identity hypotheses, not two independently timed attacks. Drum attack timing and controlled Fishman T0 remain PROMISING. No physical early/late, intended-beat or Ground Truth claims. Grid continuity is numerical, not whole-track perceptual pulse validation. Parent freezes, earlier negative/partial studies and candidate/source states remain unchanged.
+
+**ONE next recommended scientific phase:** PREDEFINED MUSICAL-SECTION GROOVE COMPARISON using the frozen quarter-anchored representation and independently supplied form boundaries; do not derive boundaries from groove curves. Recommendation only; NOT EXECUTED. Use the frozen coordinate; do not redesign it absent new falsifying evidence. STOP for PI review. No staging, commit or push.
+
+Full evidence and status: [scientific state](JGA_SCIENTIFIC_STATE.md) and the result above.
+
+---
+
+## Preserved historical checkpoints
+
+Older active-task recommendations below are historical. Their scientific results remain valid for their stated scopes; the current phase and recommendation are above.
+
+# Current quarter-nearest groove pilot — 2026-09-21
+
+Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed pilot: **JGA-QUARTER-NEAREST-ONSET-GROOVE-001 — PASS; decision B, SUPPORTED WITH QUALIFICATION**. Additive NONCANONICAL research representation; awaiting PI review.
+
+[Result](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/RESULT.md); [preregistration](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/JGA_QUARTER_NEAREST_ONSET_PREREGISTRATION.json) SHA-256 `2ed3d1d7a8c064f61ed24c1e8a04292c6494cacdf8c2f4f766f2eff8fe61c71e`; [result freeze](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/JGA_QUARTER_NEAREST_ONSET_GROOVE_RESULT_FREEZE.json) SHA-256 `923d34e68b70ea35b63c6502384c496fe72ad0fd4fd8efa9a8480f5da71b2fc5`. [Whole-track view](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/QUARTER_NEAREST_GROOVE_WHOLE_TRACK.png); [reference view](scientific/rfc/JGA_QUARTER_NEAREST_ONSET_GROOVE_001_20260921/QUARTER_NEAREST_REFERENCE_WINDOW.png).
+
+The frozen quarter sequence is the continuous index. Each midpoint-defined cell selects its temporally nearest existing native event, irrespective of source identity. No event reuse or borrowing; EMPTY quarters retained; non-selected markers remain gray context. No phase unwrapping or event-to-event cycle correspondence is required for this primary local measure. JGA owns unchanged timestamps/grid/BPM. External identity remains qualified evidence only.
+
+946 quarters;1627 original events;898 selected markers(94.93% coverage),48 EMPTY,729 CONTEXT;0 ties,0 reuse. Selected states:513 Drum,6 Bass,122 dual,0 conflict,257 UNKNOWN. UNKNOWN remains primary even when farther supported context exists(186 cases). Median offset+0.17 ms,IQR98.77;median absolute distance49.73 ms. Adjacent selected-quarter absolute change median29.60 ms;missing-quarter differences are not bridged.
+
+Reference122–128.5 s:17 quarters/17 selected/0 empty;median−13.26 ms,IQR41.77;halves−4.00→−45.37 ms,shift−41.38 ms,slope−11.14 ms/s. Different question from the preserved all-event reference−50.24 ms/−11.64 ms/s. Whole-track selected BPM rank associations are weak for signed/absolute distances(rho+0.009/−0.007,N898); no causal or independence claim.
+
+**Preserved prior limitation:** continuous mixed-source trajectory remains **NOT ESTABLISHED / INSUFFICIENT**, decisionD in [trajectory validation](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/RESULT.md). That result is not erased or superseded as evidence about event-stream continuity. The new quarter-indexed representation avoids requiring that continuity; it does not recover a true event trajectory. Parent freezes/data/figures unchanged.
+
+Qualifications: nearest selection structurally favors small distances and depends on candidate coverage; empty cells do not prove silence. Source states are provisional; dual support does not independently time two attacks. Grid numerical continuity does not establish physical/perceptual pulse Ground Truth. No physical performer early/late, true beat, full-mix Bass attack timing or independent Bass–Drum microtiming claims. Drum attack timing and controlled Fishman T0 remain PROMISING. No canonical production behavior change.
+
+**ONE next recommended action:** preregister a bounded candidate-coverage sensitivity audit of the quarter-nearest representation. Recommendation only; NOT EXECUTED. STOP for PI review. No staging,commit or push.
+
+[Documentation-only research decision](architecture/RESEARCH_QUARTER_NEAREST_GROOVE_DECISION_20260921.md).
+
+---
+
+## Preserved prior checkpoints
+
+Prior freezes and scientific findings remain authoritative for their stated scope. Older active-task recommendations below are historical; the current recommendation is above.
+
+# Current trajectory-validation qualification — 2026-09-21
+
+Project Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed study: **JGA-WHOLE-TRACK-GROOVE-TRAJECTORY-VALIDATION-001 — PARTIAL; decision D, INSUFFICIENT**. Awaiting PI review; no automatic next-phase execution.
+
+[Validation result](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/RESULT.md); [validation freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_RESULT_FREEZE.json) SHA-256 `e92494915085a69b215be80ea3834f01450f45a873d4a843b9be5e0020cbae13`; [preregistration](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_TRAJECTORY_VALIDATION_001_20260921/TRAJECTORY_VALIDATION_PREREGISTRATION.json) SHA-256 `30efe6235372ab890a78d530491055d3848a82d003c3746f69f618ab73869fc3`.
+
+The parent whole-track frozen arithmetic/data remain unchanged and usable under their original qualifications. This validation **does not establish a representation-robust continuous groove trajectory** from the mixed-source candidate stream. Minimum-jump is an assumption-dependent diagnostic, not unique/physical cycle recovery or canonical timing.
+
+1627 events and52 windows preserved. Numerical grid continuity PASS(946 quarters), but independent pulse/phase qualification is not strengthened. 1626 cycle transitions admit alternatives; the first assignment is a fixed gauge, not a scientifically unique cycle. All52 windows are MIXED / UNCERTAIN under the preregistered conservative alternatives. There are no algorithmic half-cycle ties; scientific ambiguity is distinct from a numerical tie.
+
+Conditional selected-path result: the reference122–128.5 s retains negative direction(−49.94 ms-equivalent half-shift,−11.62 ms-equivalent/s slope);W011 andW012 remain negative,W038 reverses. Alternatives prevent robust recurrence/continuous-trajectory claims. Across52 windows,22 half-shift and15 slope directions change under the selected representation. Descriptive source-supported agreement is high but uses subsets of the same lift; it is not independent validation. A primary coverage explanation is not supported by the rank audit. BPM-reduction conclusions cannot be validated across cycle alternatives.
+
+JGA continues to own native timestamps, the unchanged frozen grid/BPM and native marker-to-quarter arithmetic. External ADTOF/MuScriptor identity remains qualified evidence; YourMT3 remains historical/comparator in this research path. Dual support is one marker, not two independently timed physical attacks. Physical full-mix Bass onset and independent Bass–Drum microtiming remain NOT ESTABLISHED; Drum timing and controlled Fishman T0 remain PROMISING. Production runtime and canonical data unchanged.
+
+**ONE next recommended action:** preregister a bounded event-stream/cycle-correspondence validation using preserved evidence before further unwrapped-trajectory claims. Recommendation only; NOT EXECUTED. STOP for PI review. No staging, commit or push.
+
+[Parent scientific checkpoint](JGA_SCIENTIFIC_STATE.md) retains the original whole-track findings and all earlier measurement limits. [Parent result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) remains `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`.
+
+---
+
+## Preserved parent checkpoint — qualification above applies to continuous-trajectory interpretation
+
+The following records retain historical results and prior recommendations. The latest validation qualification and next-action status are given above; no parent scientific artifact has been rewritten.
+
+# Current recovery pointer — 2026-09-21
+
+Branch `scientific/translation-layer-finalization`. Current scientific phase: **whole-track frozen groove-analysis validation completed (PASS); awaiting PI review**.
+
+Recover [current scientific state](JGA_SCIENTIFIC_STATE.md), [procedure freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_PROCEDURE_FREEZE.json) SHA-256 `1f34654b693ef01af2b93348d3ffcff05e9c93d60eaa82fa3583d0911e17fd2a`, and [result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) SHA-256 `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`. The current state document records architecture, measured results, all qualifications, historical pilot findings and unresolved questions. This pointer supersedes older active milestones below without rewriting their historical evidence.
+
+Research path: full mix → JGA-native observability → qualified modular identity evidence → frozen JGA quarter/grid → native marker geometry → groove analysis. **JGA owns timing.** YourMT3 is historical/comparator only in this research path. Production runtime behavior is unchanged. Dual source support is not independent physical attack simultaneity. Full-mix Bass attack timing and physical Bass-versus-Drum microtiming remain NOT ESTABLISHED.
+
+Next recommended phase: **WHOLE-TRACK GROOVE TRAJECTORY VALIDATION**. Not authorized to execute automatically. STOP for PI review. No commit/push was performed by this study.
+
+
+---
+
+## Preserved previous documentation
+
+Earlier scientific-status/next-task statements below are historical wherever superseded by the checkpoint above. General theory and production contracts remain unchanged.
+
+# JGA Project State
+
+## Authoritative final session state — 2026-09-20
+
+**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** Current work on Ray Brown Trio — “Exactly Like You” is **FROZEN / AWAITING PI DECISION**. `JGA-BASS-DRUM-MICROTIMING-001` has reached an integrated **PARTIAL** qualification result; it is not the next automatically executable experiment. **Next session: recover state → report the single blocker to PI → wait for separate PI authorization.** No new scientific experiment is authorized by this closure. Older “next task” or “next experiment” text below is historical and must not be executed from this document.
+
+Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen inventory SHA-256 `a76c0533d5e3e7e7572a593cfc2b762fa5bf418ea13cf3e69425afbc74fd34e6`: 496 Bass and 500 generic-Drum HIGH+MEDIUM events. Frozen grid SHA-256 `18e5d3283f9de9b878fbfe4e956805717e86a55da91a9c7c2494ca595cf0941d`: 164.76 BPM initial, 164.09 BPM whole-grid median; PI manual tap ~162 BPM is approximate, not numerical Ground Truth. PI click listening confirmed the quarter through 01:55–02:10, while the automatic phase audit remains `QUARTER_PULSE_PARTIALLY_SUPPORTED`.
+
+**Measurement semantics:** the frozen internal quarter is the primary reference. For assigned events, `MARKER_TO_GRID_MS = (t_EVENT_MARKER − t_QUARTER) × 1000` (positive = marker after quarter). Bass and Drum markers are detector landmarks, **not automatically performer attacks**. Keep OFF_GRID events as observable subdivisions without moving them or refitting the grid. The 01:55–02:10 pilot has 42 quarters, 32 assigned Bass markers, 19 assigned Drum markers and seven displayed OFF_GRID events. Its marker-to-grid statistics are preserved in the frozen report method and pilot artifacts. PI observations at ~01:57, ~02:06, ~02:07 and ~02:11 are listening annotations, not numerical Ground Truth.
+
+**Integrated timing tiers (full frozen populations):** Bass T1/T2/T3/T4/T5 = **4/0/0/328/164**; generic Drum = **7/0/0/284/209**. T1 is an individual bounded review, not a transferable class rule. Drum timing-grade is **partially validated** (26 prospective PASS selected, six admitted, 20 abstained); Bass timing-grade is **not established**. T4 and T5 are valid observable events, not false detections. The **one primary blocker** is a prospectively supported source-associated attack uncertainty/qualification model with adequate admission coverage, especially for Bass. This prevents broad performer-level before/on/after or millisecond claims; marker-to-grid analysis remains valid.
+
+**Anti-scope-creep:** no automatic Gallegati, Virtual Tap, external model search, Essentia/YourMT3 benchmarking, fusion, source separation, Rubner/Yamaha, universal recognition, Ride/Hi-Hat prerequisite, or new BPM/downbeat research. Preserve all historical records. Current state and architecture links take precedence over old active wording below.
+
+
+## Historical recovery state — observable-groove closure, 2026-09-20 (superseded above)
+
+**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER. NEXT MILESTONE: JGA-BASS-DRUM-MICROTIMING-001.** Use the [session closure](scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md) as the current state and the [PI finalization directive](scientific/rfc/JGA_FINALIZATION_DIRECTIVE_001_20260920/README.md) as product authority. “Exactly Like You” has 496 frozen Bass and 500 frozen generic-Drum HIGH+MEDIUM candidates, an unchanged Bass-derived ~164 BPM quarter grid, 127 same-slot opportunities (118 single-candidate, nine ambiguous), and **no certified performer microtiming yet**. Automatic local phase audit remains PARTIALLY_SUPPORTED; the PI subsequently confirmed by listening that the unchanged clicks follow the musical quarter pulse through 01:55–02:10 despite reduced acoustic support. Downbeat and the cause of dynamic attenuation remain unknown. Use observable excerpts and abstention; see [next-session target](scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/NEXT_SESSION_TARGET.md). Earlier milestone statements below are historical.
+
+## PI tempo attribution correction — 2026-09-20
+
+The PI approximate manual tap estimate **~120 BPM belongs to Ray Brown Trio, “Easy Does It.”** The PI approximate mobile-app manual tap estimate for **“Exactly Like You” is ~162 BPM.** The “Exactly Like You” grid was frozen without a PI BPM target: initial 164.76 BPM, median local 164.09 BPM. These central values are approximately compatible with the PI estimate. The frozen grid and pair populations are unchanged; its 151.49–187.31 BPM local extremes and bar phase remain uncertain. See the [additive correction](scientific/rfc/JGA_ADAPTIVE_MEASURE_GRID_001_EXACTLY_LIKE_YOU_20260920/PI_BPM_CORRECTION_20260920.md) and [range audit](scientific/rfc/JGA_ADAPTIVE_MEASURE_GRID_001_EXACTLY_LIKE_YOU_20260920/LOCAL_TEMPO_RANGE_AUDIT_20260920.md). The old PI comparison in that package's TEMPO_ESTIMATION.md is superseded, not rewritten.
+
+## Historical directive-adoption checkpoint — 2026-09-20
+
+**COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** The PI-authorized [finalization directive](scientific/rfc/JGA_FINALIZATION_DIRECTIVE_001_20260920/README.md) supersedes the 2026-09-10 checkpoint's active priority and separation-first requirement for this product path; that checkpoint remains historical evidence. Analyze reliable Bass–Ride, Bass–Hi-Hat and Ride–Hi-Hat event intersections on original audio, including selected excerpts and abstention. Produce signed millisecond offsets, musical summaries, listening timestamps, book-ready scatter graphics and historical-corpus export. Universal full-recording instrument recognition is not a v1 gate. Next milestone: JGA-OBSERVABLE-GROOVE-ANALYSIS-001 on the exposed development recording “Exactly Like You.” Frozen fusion 001 is CONFOUNDED / DO NOT INTEGRATE; Gallegati is not required for v1; Rubner/Yamaha remain sealed. No code implementation or timing measurement is claimed by this documentation decision.
+
+## Historical accepted checkpoint — 2026-09-10 consolidation
+
+Canonical [timing checkpoint and separation-first workflow](scientific/JGA_TIMING_CHECKPOINT_20260910.md), [frozen Hi-Hat 2&4 domain rule](scientific/JGA_HIHAT_2_4_TIMING_RULE_20260910.md), and [report hash inventory](project/TIMING_CHECKPOINT_20260910.json). The checkpoint supersedes earlier priority statements, not historical evidence.
+
+- Mandatory primary real/full-mix pipeline: full audio → approved source separation → relevant stem → instrument/event recognition → timing → domain interpretation → BPM/behaviour. Direct full-mix recognition requires explicit control authorization. This also applies to future Double-Bass full-mix work.
+- GMD controlled discrimination worked; GMD→MDB and ENST→MDB transfer failed. ENST's modest diagnostic pass did not establish useful acoustic transfer. MDB independence is model-relative and prior project exposure remains documented.
+- Vogl 2018 CRNN_8 is an externally pretrained recognizer, not JGA-trained. RD differs from CY/Crash and HH. MDB Ride precision96.31%, recall40.60%, F1 57.12% are not independent transfer because the supplied ensemble includes MDB-trained members.
+- CED-VAL-009: 113 Ride candidates, repeated relations but no unique reference; ten HH candidates, no repeated exact relation. CED-VAL-005: 29 sparse Ride candidates versus 141 HH candidates; HH 0.500s local support in 6/6 primary and 5/5 shifted regions. Cross-source result remains insufficient; practical channel alignment is supported and synchronization is no longer its primary limitation.
+- Original internal CED-VAL-005 result remains 0.500s→120 BPM with unresolved half/double ambiguity. Subsequent 240 BPM under the new 2&4 rule versus external approximately246 is RETROSPECTIVE motivation only, not prospective validation.
+- Current primary domain hypothesis: qualified jazz HH timekeeping → 2&4 reference → T_BEAT=T_HH/2 → internal BPM. Mere detection never activates it; insufficient evidence requires HIHAT_2_4_REFERENCE_UNAVAILABLE. Distinguish observations, qualified anchors and inferred intermediate beats. Generic BeatReference is FALLBACK; Ride remains separate articulation/timing evidence.
+- Chet direct-full-mix control: zero HH candidates. Complete approved htdemucs_6s/Demucs4.1.0→Drums→Vogl pipeline also gives zero HH, gate FAIL and no BPM. Likely brush-condition recognition-domain limitation; physical HH absence is not established. The mathematical rule was not tested because recognition failed upstream. No external Chet tempo check occurred.
+- Earlier ~15GB/run job: complete numerical real-Drum complex-periodicity map plus streaming validation/replay, not training. Two runs remain external; 15,157,480,854 canonical bytes each. Global map/witness evidence remains reusable supporting evidence; null/sufficiency track DEFERRED_PARALLEL.
+- Double-Bass remains independent, provisional identity/capture preparation; DB-MTO blocked/unexecuted. Draft0.5 records DPA resolved, second-airborne mounting/availability and capture-day checks unresolved. No delivery/readiness/recording inferred here.
+- Next source: local Ray Brown Trio - Easy Does It.m4a. PI-observed HH2&4 context, no tempo input. **Next experiment requires separate PI authorization**: full separation-first pipeline, freeze internal result before external comparison. Do not execute from this checkpoint.
+
+## Historical state and milestone records
+
+The sections below are retained historical layers, not competing current research-frontier declarations.
+
+## Prospective Demucs operational continuation — 2026-09-07
+
+The explicitly authorized htdemucs_6s path now preserves AD-041 source identity,
+original WAV identity and deterministic per-file signal preparation through
+canonical GEOMETRIC_ONLY reporting. The controlled acceptance is conditional:
+874 Drums, 534 Double Bass, 381 Piano EME; 915 accompaniment relationships.
+Piano independent preservation remains NOT_ESTABLISHED. See the
+[operational binding](architecture/AD-041_HTDEMUCS6S_OPERATIONAL_BINDING.md) and
+[prospective result](../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/demucs_operational_reintroduction_20260907/result.json).
+Earlier non-null deferral notices below are historical; other configurations
+remain unauthorized. VAL-001 evidence is unchanged. No BPM work is authorized
+or begun by this continuation.
+
+## Prospective AD-041 direct-input continuation — 2026-09-07
+
+Observed result: the [controlled VAL-001 direct-input acceptance](../validation/VAL-001/ad041_direct_input_acceptance_20260907/SUMMARY.md)
+preserves the exact 63 / 49 / 27 EME populations and 76 GEOMETRIC_ONLY
+relationships under corrected source provenance. Canonical schema version 2
+adds deterministic millisecond projections and the explicit ANALYZABLE-only
+contract. The [protocol](../validation/VAL-001/ad041_direct_input_acceptance_20260907/PROTOCOL.md)
+records the user-resolved stale-bootstrap conflict and authoritative baseline.
+
+Direct-input AD-041 is implemented. Derived identity for non-null separators is
+deferred because separator authority is not yet established; no AD-041
+authorization is claimed for those paths. Earlier release and milestone records
+below retain their historical scope and fingerprints. The direct-input work
+does not reopen Bass recovery, JTD or BPM research.
+
+## JGA v1.0 Scientific Scope and Bass-Research Freeze
+
+Status: **LOCKED SCOPE — BASS BRANCH STOPPED**
+
+- JGA v1.0 focuses on quantitative observation of timing relationships within
+  the jazz rhythm section for reconstructing the historical evolution of jazz
+  timing.
+- Primary v1.0 analytical scope is Drums, Double Bass and Piano. Voice / Lead
+  Vocal and lead/solo instruments are outside v1.0 scope. Inclusion does not
+  imply equal validation status or automatic analytical-role assignment.
+- The Bass-recovery branch is frozen at `STOP — MAXIMUM DEFENSIBLE OBSERVATION
+  BOUNDARY REACHED WITH CURRENT CED DATASETS AND REPRESENTATIONS`.
+- No production change is authorized. Reopening requires genuinely new
+  scientific evidence or authority.
+- Authorities: [v1.0 scope decision](scientific/JGA_V1_SCIENTIFIC_SCOPE_DECISION.md),
+  [Bass synthesis](../validation/BASS-RECOVERY-EVIDENCE-SYNTHESIS-20260902/BASS_RESEARCH_SYNTHESIS.md),
+  [authority-gap audit](../validation/BASS-RECOVERY-EVIDENCE-SYNTHESIS-20260902/AUTHORITY_GAP_AUDIT.md),
+  and [branch freeze](../validation/BASS-RECOVERY-EVIDENCE-SYNTHESIS-20260902/BRANCH_FREEZE.md).
+
+## First Scientifically Usable Release Gate
+
+Status: **PASS — v0.3.0-alpha**
+
+- Governing release lineage: certified bootstrap and annotated Git tags.
+  Predecessor: `v0.2.0-alpha`; current bounded release: `v0.3.0-alpha`.
+  Python package metadata uses the exact PEP 440 equivalent `0.3.0a0`.
+- Release commit authority is the commit referenced by the local annotated
+  `v0.3.0-alpha` tag. No remote release or push is authorized by this gate.
+- Canonical workflow:
+  `tools/run_rhythm_section_timing_report.py` from explicit checksum-bound
+  roles through unchanged observations, AD-037, AD-038, AD-040, and immutable
+  JSON.
+- Canonical output: `JGA_RHYTHM_SECTION_TIMING_REPORT_V1`, schema version `1`,
+  fingerprint rule `sha256-canonical-json-scientific-content/v1`.
+- Real-audio acceptance authority:
+  `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`, execution
+  `EXEC-CEDVAL006-CANONICAL-REPORT-ACCEPTANCE-02`, fingerprint
+  `ea1490dc0171631381186b6728ee1b49ce5549041c38410b06132d021ee7e100`.
+- Scientific scope is provenance-bound frame-resolved observations, AD-037
+  EME, AD-038 `GEOMETRIC_ONLY` temporal geometry, and an AD-040 profile.
+  Calibration applicability/application/correction remain distinct.
+- Known blocker: the unchanged real-Demucs integration test requires writable
+  configured external storage and is classified
+  `KNOWN_EXTERNAL_ENVIRONMENT_TEST_BLOCKER`; it does not affect the canonical
+  report workflow or accepted scientific content.
+- Deferred beyond this release: autonomous BPM/tempo, meter/downbeat, musical
+  correspondence, groove/swing/rushing/dragging, human microtiming,
+  acquisition-clock synchrony, automatic role inference, calibration
+  correction, external trackers/adapters, GUI and interactive visualization.
+
+## Canonical End-to-End Rhythm Section Timing Report
+
+Status: **IMPLEMENTED — SOFTWARE VERIFIED — REAL-AUDIO ACCEPTED**
+
+- `JGA_RHYTHM_SECTION_TIMING_REPORT_V1` is the minimum normal-use JSON workflow
+  from checksum-bound source inputs through unchanged JGA observation,
+  AD-037 EME, AD-038 neutral geometry and the AD-040 profile.
+- The caller must supply exactly one provenance-bound `TEMPORAL_REFERENCE` and
+  at least one provenance-bound `ACCOMPANIMENT`. Roles are never inferred from
+  source or instrument names.
+- The report preserves invocation/source authority, technical audio facts,
+  frame-lattice observation coordinates, EME and PulseCandidate lineage,
+  complete AD-038 localization records, the complete AD-040 profile,
+  environment authority and explicit claim firewalls.
+- Canonical sorted-key JSON and SHA-256 scientific-content fingerprinting are
+  deterministic. Existing output files are not overwritten.
+- Default correspondence remains `GEOMETRIC_ONLY`. Calibration applicability,
+  application and correction are preserved separately and provenance-bound;
+  application remains `NOT_APPLIED` and correction remains `NONE`.
+- The serialized claim firewall explicitly states that acquisition-clock
+  synchrony is not established.
+- These bounded Reporting/Application corrections are motivated by the frozen
+  failed acceptance
+  `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-01` at
+  `validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/acceptance_20260825_112627/`;
+  its negative evidence remains immutable.
+- Core, Translation scientific semantics, Domain scientific semantics,
+  Candidate Period semantics and historical evidence are unchanged.
+- Controlled tests establish software behavior and exact replay only. Real
+  audio is accepted by
+  `ACC-CEDVAL006-CANONICAL-RHYTHM-SECTION-REPORT-02`; this does not expand its
+  scientific claims.
+
+## CED-VAL-006 Phase-3 Temporal-Cell Competition Audit
+
+Status: **COMPLETE — READ-ONLY — REPLAY VERIFIED**
+
+- `AUD-CEDVAL006-PHASE3-TEMPORAL-CELL-COMPETITION-01` replays the frozen
+  original-EME Voronoi cells and historical selection rule without changing
+  matching or creating production authority.
+- All 13 C2 cells changed from one candidate to zero and every previous
+  selected coordinate disappeared. Of 232 E cells, 222 lost the previous
+  selection and selected a newly observable coordinate, three selected a
+  previously observable alternate after the prior selection disappeared, and
+  seven retained the previous selection but selected a newly observable
+  competitor.
+- Processed cell counts changed from 436/592/27 cells with 0/1/2 candidates
+  before processing to 309/582/141/22/1 cells with 0/1/2/3/4 candidates after
+  processing. Of 188 D candidates, 159 occupy retained-match cells, 29 gross-
+  recovery cells, 80 changed-selection cells and none lack an authorized
+  original cell; these categories overlap as documented.
+- Gross recoveries contribute 72.22790457342819% of processed matched squared
+  displacement. Direct new-candidate displacement of a still-observable prior
+  selection occurs in only 7/232 E cases. Candidate disappearance, gross
+  recovery with wide displacement and secondary multi-candidate competition
+  are the bounded mechanisms.
+- A future intervention operating without original-stem Ground Truth is
+  `INDETERMINATE`: the frozen reports serialize no candidate strength or other
+  non-Ground-Truth discriminator. Closest-to-original selection is explicitly
+  prohibited. Audit fingerprint:
+  `1adc78a5f99fa76e2fd168191b5abfc8c26658d57b544fc791a829be53fae7f4`.
+- Two complete executions replayed byte-identically. No audio, processing,
+  Demucs, detector, JGA, matching, production code, historical evidence or
+  Phase-3 decision criterion changed. No Phase 4 occurred.
+
+## CED-VAL-006 Phase-3 Population Transition Audit
+
+Status: **COMPLETE — READ-ONLY — REPLAY VERIFIED**
+
+- `AUD-CEDVAL006-PHASE3-POPULATION-TRANSITION-01` preserves the canonical
+  partition: A=606, B=140, C=309 (296 never matched plus 13 previously
+  matched and lost), D=188 and overlapping E=232. The prior description of
+  127 as gross recovery is an explicitly resolved Evidence Conflict: 140
+  gross recoveries minus 13 losses equals +127 net matches.
+- Recovered B windows were predominantly weak before processing: median
+  unprocessed local RMS was -39.12763791293628 dBFS and 125/140 were below
+  -30 dBFS. Processed-only D windows had median -33.789454411474196 dBFS and
+  127/188 were below threshold. This supports amplification of existing weak
+  residual evidence and additional neutral onset-candidate structure.
+- Recovered matches had 0.031092970521541953-second median absolute
+  displacement and 0.06348290398089844-second RMSE. Within A, 232 selected
+  producer timestamps changed. Their median absolute displacement increased
+  from 0.007727891156462585 to 0.011102040816326531 seconds. These populations
+  explain the frozen aggregate timing degradation.
+- No fixed band passed the preregistered B-versus-D descriptive spectral
+  separation gate; a subsequent spectral/EQ hypothesis is not justified.
+  Audit fingerprint:
+  `09158d6d2918f8950c9804e0971d013af170ff2c1b88f8da20dad586a1eb0d90`.
+- Two complete audit executions replayed byte-identically. No audio, Demucs,
+  detector, matching, JGA, production code, historical evidence or Phase-3
+  decision criterion changed. No Phase 4 occurred.
+
+## CED-VAL-006 Bass Preservation Phase 3 — Remediated Result
+
+Status: **FROZEN RESULT — POPULATION IMPROVEMENT WITH TIMING DEGRADATION**
+
+- `PR-CEDVAL006-PHASE3-DETERMINISTIC-WAV-SERIALIZATION-01` removed the
+  run-dependent libsndfile `PEAK` timestamp through the existing
+  `SFC_SET_ADD_PEAK_CHUNK=SF_FALSE` control. Two deterministic WAVs preserve
+  the exact frozen decoded sample population and replay byte-identically.
+- Unchanged JGA and frozen Level-1/2/3 scoring replayed exactly. Each run
+  produced 934 processed Bass EME: 746 matched, 309 original-only and 188
+  processed-only. Precision/recall/F1 are 0.7987152034261242,
+  0.7071090047393365 and 0.7501256913021619.
+- Median absolute displacement, RMSE and maximum displacement are
+  0.009360544217687075, 0.03235928234165152 and 0.19352380952380951 seconds.
+  The complete population tuple improved, but every mandatory timing bound
+  degraded. Frozen decision:
+  `POPULATION_IMPROVEMENT_WITH_TIMING_DEGRADATION`.
+- Additional original Bass temporal evidence was recovered in the bounded
+  original-EME-cell sense; clear dynamics improvement is prohibited because
+  timing preservation failed. Result fingerprint:
+  `153857928ec81d9f81ed35d1b644d763215cf065f3de3bff23ab584532cea639`.
+- Transform, JGA, Core, Translation, Domain, Candidate Period, AD-037,
+  AD-038, AD-040, decision criteria, production code and historical evidence
+  remain unchanged. No Phase 4 occurred.
+
+## CED-VAL-006 Bass Preservation Phase 3 — Initial Failed Execution
+
+Status: **FROZEN RESULT — INDETERMINATE**
+
+- The two preregistered
+  `STATIC_UPWARD_COMPRESSION_MINUS30DB_RATIO2_V1` transforms completed from
+  the checksum-bound htdemucs_ft Bass inputs with the required stereo 44.1-kHz
+  float32 format and identical decoded sample arrays.
+- Whole-file output SHA-256 values disagreed because libsndfile emitted
+  different `PEAK`-chunk timestamps. The preregistration requires
+  byte-identical output; transformation replay therefore failed.
+- Under the frozen criteria the decision is `INDETERMINATE`. JGA and scoring
+  were not executed after the mandatory replay failure, so processed Bass EME
+  recovery, population, timing, AD-038 and AD-040 effects are not established.
+- Result fingerprint:
+  `ae4a3c5efb3514e81ca7d65e3ce07c3f2b731a340eeb1c9732ee40f94dcbd6cb`.
+  No detector tuning, alternative condition/model, run selection, averaging,
+  production change or Phase 4 occurred.
+
+## Prospective Real-Audio Acquisition Authority Gate
+
+Status: **PREREGISTERED — NOT APPLIED — PI REVIEW REQUIRED**
+
+- `PR-JGA-REAL-AUDIO-ACQUISITION-AUTHORITY-01` freezes the minimum provenance
+  required before selecting a future real-human-jazz multitrack for
+  inter-source acquisition-time research.
+- PASS requires primary evidence for one acquisition system and clock domain,
+  simultaneous takes, exact common-origin mapping, timing-edit history, export
+  preservation and source identity, corroborated by checksum-bound technical
+  evidence.
+- Equal file scope, sample rate, metadata, filenames, first-nonzero geometry or
+  apparent musical alignment cannot independently establish PASS.
+- The simplest sufficient package is one attributable engineer/provider
+  declaration covering every required dimension, a source/take list, an exact
+  export/checksum manifest and independent technical verification.
+- This gate has not been applied to a dataset and does not retroactively
+  upgrade CED-VAL-005. No search, JGA, H02, strength or physical-onset
+  measurement was performed.
+
+## CED-VAL-005 Provider Documentary Evidence
+
+Status: **PRESERVED — ACQUISITION AUTHORITY PARTIAL**
+
+- `PE-CEDVAL005-AMERIO-ACQUISITION-DECLARATION-01` preserves the PI-supplied
+  substantive transcription of a direct written response from recording
+  engineer Stefano Amerio / Artesuono. The repository does not hold the
+  original message or its headers.
+- Provider authority establishes that `09_Overheads.wav` and
+  `11_BassDI.wav` represent one simultaneous, no-overdub performance recorded
+  together in one Pro Tools / Digi 192 operation. It establishes a provider
+  declaration of no quantization and no warp and strengthens preservation of
+  the musical-performance temporal relationship.
+- The provider also discloses possible minimal alignment operations and
+  explicit phase alignment of BassDI with the Bass microphone. Cleaned export
+  beginnings/endings are declared, without exact acquisition-origin offsets.
+- Shared recording-system provenance is established; a single hardware-clock
+  topology, exact sample-zero acquisition mapping, absence of every
+  sample-level transformation, physical-onset Ground Truth and sample-accurate
+  human-microtiming Ground Truth remain unestablished.
+- The prospective gate classification is
+  `ACQUISITION_AUTHORITY_PARTIAL`. Frozen CED-VAL-005 experiments and their
+  historical results remain unchanged. Evidence fingerprint:
+  `d062ab6fdfd7dd863677edda8b7d398dfd85a3166e2efa2516a24794262b29fb`.
+
+## CED-VAL-005 Real-Audio Observational Result
+
+Status: **PASS — FROZEN — PI REVIEW REQUIRED**
+
+- `H-CEDVAL005-REAL-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01` executed twice
+  unchanged on the frozen Overheads and BassDI inputs with exact replay.
+- AD-037 preserved 907 Drums and 1,138 Double Bass PulseCandidate/EME pairs.
+  AD-038 localized all 1,138 Bass EME against Drums with zero unresolved and
+  six equal-distance nearest ties. AD-040 represents all 2,045 EME.
+- All 1,138 relationships remain `GEOMETRIC_ONLY`; calibration applicability
+  remains `UNESTABLISHED`. No BPM, meter, symbolic input, H02, strength,
+  correction or musical interpretation was used.
+- Scientific fingerprint:
+  `074d84768f508e6ceee9c9225c34e9ea881ce50d88e0d5f930525b92e87bd9d6`.
+- The preregistered observational/frame-resolved visualization was produced.
+
+## CED-VAL-005 Real-Audio Observational Study Preregistered
+
+Status: **PREREGISTERED — NOT EXECUTED — PI REVIEW REQUIRED**
+
+- `H-CEDVAL005-REAL-AUDIO-RHYTHM-SECTION-TIMING-PROFILE-01` freezes the first
+  bounded real-human-jazz AD-037/AD-038/AD-040 observational protocol.
+- Inputs are exclusively `PR-CEDVAL005-ANALYTICAL-INPUTS-001`: Overheads as
+  `Drums / TEMPORAL_REFERENCE` and BassDI as
+  `Double Bass / ACCOMPANIMENT` on the distributed-file coordinate.
+- Absolute timestamps, AD-038 neutral geometry and a read-only AD-040 profile
+  are the only authorized outputs. Correspondence remains `GEOMETRIC_ONLY`;
+  calibration applicability remains `UNESTABLISHED`.
+- BPM, meter, symbolic input, H02, strength, timing correction and musical
+  interpretation are prohibited. Two exact deterministic executions are
+  required.
+- No JGA execution, EME, localization, profile or visualization has been
+  produced by this preregistration.
+
+## CED-VAL-005 Analytical Inputs Frozen
+
+Status: **FROZEN — PI REVIEW REQUIRED — JGA NOT EXECUTED**
+
+- `PR-CEDVAL005-ANALYTICAL-INPUTS-001` binds the original checksum-authorized
+  `09_Overheads.wav` to `Drums / TEMPORAL_REFERENCE` and
+  `11_BassDI.wav` to `Double Bass / ACCOMPANIMENT` for this experiment only.
+- Two independent read-only verification passes reproduced the paths,
+  identities, formats and complete 44.1 kHz / 10,068,072-frame scope.
+- Shared timeline authority is limited to
+  `COMMON_DISTRIBUTED_FILE_SAMPLE_COORDINATE`; acquisition clock, simultaneous
+  capture, editing history, physical onset and sample-accurate human
+  microtiming remain unestablished.
+- Calibration applicability is `UNESTABLISHED`; correspondence is
+  `GEOMETRIC_ONLY`. No JGA, EME, AD-038, AD-040, H02 or strength operation was
+  executed.
+
+## CED-VAL-005 Raw-Track Analytical-Source Construction Preregistration
+
+Status: **PREREGISTERED — NOT EXECUTED — PI REVIEW REQUIRED**
+
+- `PR-CEDVAL005-RAW-TRACK-ANALYTICAL-SOURCE-CONSTRUCTION-01` freezes a
+  no-derivation input-selection rule for the bounded real-audio study.
+- Drums uses the original checksum-bound `09_Overheads.wav`; Double Bass uses
+  the original checksum-bound `11_BassDI.wav`. Both remain unchanged on the
+  complete 44.1 kHz, 10,068,072-frame distributed-file coordinate.
+- The rule is frozen before JGA inspection. No mix, gain, normalization,
+  timing operation, derived asset, calibration transfer, H02 use, strength
+  use or correspondence authority is introduced.
+- The selected channels are analytical representations, not isolated-source
+  or physical-onset Ground Truth. Bleed remains present, calibration
+  applicability is `UNESTABLISHED`, and correspondence remains
+  `GEOMETRIC_ONLY`.
+- JGA execution and profile construction require subsequent PI review.
+
+## CED-VAL-005 Real Jazz Raw Multitrack Candidate Authority
+
+Status: **FROZEN CANDIDATE AUTHORITY — PI REVIEW REQUIRED**
+
+- `PR-CED-VAL-005-REAL-JAZZ-MULTITRACK-001` binds the external Cambridge
+  Music Technology / Mixing Secrets Full Multitrack for Maurizio Pagnutti
+  Sextet's “All The Gin Is Gone.”
+- The supplied Readme and all 16 raw WAVs are checksum-bound. Every WAV is
+  readable 24-bit PCM at 44.1 kHz with an identical 10,068,072-frame scope;
+  supplied source labels and first-nonzero scope observations were verified.
+- Identical distributed-file scope and sample-zero coordinates are
+  established. Common session/export timeline, simultaneous acquisition,
+  hardware clock, absence of editing and physical onset remain unestablished.
+- Bounded use is restricted to deterministic source-labelled observations and
+  neutral geometry on the distributed-file coordinate. Calibration
+  applicability is `UNESTABLISHED`; no performance-microtiming claim or
+  controlled-dataset numerical transfer is authorized.
+- Drum, Double Bass and Piano analytical-source construction remains undecided.
+  No JGA execution, derived audio, profile, architecture or production change
+  is authorized.
+- The educational-use/copyright limitation is preserved in
+  `validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/INPUT_AUTHORITY.md` and the
+  deterministic manifest.
+
+## CED-VAL-004 Strength/Physical Prediction Result
+
+Status: **FROZEN — INSUFFICIENT_NONVACUOUS_CANDIDATES — PI REVIEW REQUIRED**
+
+- The new prospective
+  `H-CEDVAL004-PULSECANDIDATE-STRENGTH-PHYSICAL-PREDICTION-01` protocol was
+  executed unchanged after complete authority verification.
+- Drums and Double Bass each produced ten singleton marker-cell populations:
+  20 total singleton cells, zero empty, zero non-vacuous and zero authority
+  conflicts. Singleton populations are not predictor successes.
+- No strength value was accessed, no strength-max predictor was generated and
+  no population was scorable. Accuracy is undefined for each source and
+  overall. The frozen classification is
+  `INSUFFICIENT_NONVACUOUS_CANDIDATES`.
+- Blind population fingerprint:
+  `25c68eb8b197b958058a814685bff8b6f37082c0fcd53dc0f898124472c7f113`;
+  blind predictor fingerprint:
+  `159ab82afacc00c6b9e4f13d09bca88c8ce4fb11eafb4deea8c97c6e41b11c8d`;
+  scientific fingerprint:
+  `43a0bffd72b29db6221dbeaebf72dae26f8fb11d63517e7fe17f8702352bf6d0`.
+- Exact replay passed. Frozen physical authority was opened only after blind
+  freeze and changed nothing. Historical evidence, H02/H03, architecture,
+  production behavior and production code remain unchanged.
+- Frozen result:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/run_20260824_115749/`.
+
+## CED-VAL-004 New Strength/Physical Prediction Preregistration
+
+Status: **NEW PROSPECTIVE HYPOTHESIS — NOT EXECUTED**
+
+- `H-CEDVAL004-PULSECANDIDATE-STRENGTH-PHYSICAL-PREDICTION-01` freezes a new,
+  explicitly non-historical question: within a non-vacuous same-source
+  marker-midpoint cell, does exact maximum Domain PulseCandidate strength
+  predict the candidate uniquely nearest to independently frozen
+  `t_physical`?
+- Candidate populations are frozen before strength access and depend only on
+  source, the existing marker cells and immutable PulseCandidate frame
+  authority. Singleton and empty populations are not successes; candidates
+  cannot be manufactured.
+- Strength-max predictors are frozen and replayed before physical authority is
+  opened. Physical-nearest identity is scoring authority only, exact-distance
+  ties remain unscorable, and source-specific accuracy is the primary metric.
+- No numerical success threshold, JGA tuning, timing correction, H02/H03
+  change, historical reinterpretation, architecture change, production
+  behavior or production-code change is authorized.
+- Frozen preregistration:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/preregistrations/H-CEDVAL004-PULSECANDIDATE-STRENGTH-PHYSICAL-PREDICTION-01.md`.
+
+## CED-VAL-004 Physical-to-JGA Comparison Result
+
+Status: **FROZEN — PI REVIEW REQUIRED**
+
+- `H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01` executed unchanged against
+  `PR-CED-VAL-004-PHYSICAL-ONSET-001`; dataset and frozen physical-onset
+  authority verification passed.
+- Untuned AD-037 observation produced 10 PulseCandidates / 10 EME per source.
+  All 10 Drums and all 10 Double Bass physical events had exactly one EME in
+  their frozen marker-midpoint cell; there were no missing, ambiguous,
+  boundary, or unmatched observations.
+- Every signed physical-to-JGA displacement was positive. Drums had median
+  399 samples (9.047619047619048 ms); Double Bass had median 461.5 samples
+  (10.464852607709751 ms). These are descriptive measurements, not
+  corrections or tolerances.
+- Producer-frame round-trip, exact marker decomposition, full cardinality,
+  lineage, firewalls, and two complete deterministic executions passed.
+- Scientific fingerprint:
+  `cebccb70224dce4e519197e84178e11afdc1e98b8148914a7512ac6df06ef22e`.
+- Strength and confidence were not used or emitted. H02, historical results,
+  raw assets, architecture, production semantics, and production code remain
+  unchanged. No correction is authorized.
+- Frozen evidence is in
+  `validation/CED-VAL-004-PHYSICAL-ONSET/run_20260824_112730/`.
+
+## CED-VAL-004 Physical-to-JGA Comparison Preregistration
+
+Status: FROZEN RULE — NOT EXECUTED
+
+- `H-CEDVAL004-PHYSICAL-TO-JGA-COMPARISON-01` freezes AD-037
+  `ElementaryMetricEvent.timestamp` as `t_JGA`, with exact 512-sample frame
+  round-trip and explicit frame-resolution authority.
+- Contributor-separated marker midpoint cells transfer the established
+  Calibration Zero correspondence framework. Zero, single, multiple,
+  boundary, tied and unconsumed observations remain explicit; strength and
+  error minimization cannot select an EME.
+- Primary signed error is `n_JGA - n_physical`; absolute error and exact marker
+  decomposition remain separate. Source-specific reporting precedes pooled
+  description.
+- JGA has not been run on CED-VAL-004 for this study. Strength remains
+  unopened, H02/H03 and historical results are unchanged, and production
+  impact is none.
+
+## CED-VAL-004 Physical-Onset Authority
+
+Status: PASS — FROZEN PHYSICAL GROUND TRUTH — PI REVIEW REQUIRED
+
+- The unchanged `H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01` first-nonzero
+  rule produced 20/20 valid physical onsets with 20/20 exact-zero pre-marker
+  baselines, no missing responses and no authority conflicts.
+- Drums latency is one sample (`10/441 ms`) for all 10 events. Double Bass
+  latency ranges from 176 to 236 samples, with median 202 samples.
+- Left/right first-response samples agree for all 20 events. Two complete
+  executions reproduce identities, signed values, onsets, latency quantities,
+  statuses and fingerprint exactly.
+- Scientific fingerprint: `7b2ec48f…`; complete record:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/run_20260824_110800/`.
+- This authority establishes physical onset only. JGA, strength and H02 remain
+  unopened pending separate PI review and authorization.
+
+## CED-VAL-004 Physical-Onset Measurement Preregistration
+
+Status: FROZEN RULE — EXECUTED UNCHANGED
+
+- `H-CEDVAL004-PHYSICAL-ONSET-MEASUREMENT-01` defines `t_physical` as the
+  first signed 24-bit source sample differing from exact digital-zero control
+  at or after each marker within the fixed eight-second causal window.
+- The event onset is the earlier channel response; channel-specific frames,
+  values and disagreement remain preserved. Exact two-second pre-marker zero
+  verification is mandatory, and any conflict remains unresolved rather than
+  introducing a threshold.
+- The rule is specific to the frozen no-dither, no-normalization,
+  byte-reproducible common-clock authority. It does not generalize to nonzero
+  baselines.
+- Physical onset is frozen downstream. JGA, strength and H02 remain unopened.
+
+## CED-VAL-004 Marker and Raw Waveform Authority
+
+Status: FROZEN INPUT AUTHORITY — PASS — PHYSICAL ONSET NOT MEASURED
+
+- `PR-CED-VAL-004-PHYSICAL-ONSET-001` freezes the PI-created Ableton Live
+  11.3.43 common-clock session, 20-event exact marker schedule, canonical
+  Marker/Drums/Double Bass assets and source-specific digital-silence controls.
+- Every WAV is stereo 44.1 kHz signed 24-bit PCM with exactly 8,820,000 frames.
+  The marker contains exactly the 20 authorized samples at amplitude
+  `+4,194,304` in both channels; canonical and second-render assets are
+  byte-identical.
+- Dataset fingerprint: `704ce592…`. Complete authority:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/input_authority_manifest.json`.
+- This freeze ends at scheduled excitation → marker → raw waveform.
+  `t_physical`, JGA, strength and H02 remain unopened.
+
+## CED-VAL-004 Physical-Onset Generation Preregistration
+
+Status: FROZEN PROTOCOL — EXECUTED BY PI-CREATED ASSET AUTHORITY
+
+- `PR-CED-VAL-004-PHYSICAL-ONSET-GENERATION-01` defines a prospective
+  common-clock marker-referenced dataset for Drums and Double Bass.
+- A single offline render must preserve one exact marker channel, separate
+  unmodified source waveforms, equal-scope no-event controls and a canonical
+  event/sample manifest.
+- Twenty fixed 10-second isolated slots contain 10 excitations per source,
+  balanced 5/5 across temporal halves, and place each marker two seconds after
+  slot start. Generation is fixed at 44.1 kHz/24-bit PCM with a one-sample
+  marker amplitude of 4,194,304.
+  Marker authority remains distinct from a later separately preregistered
+  non-JGA first-causal-response authority.
+- The first technically valid render is frozen as canonical. Source rerender
+  byte identity is not mandatory; any nondeterminism is retained and measured
+  separately. Marker rerender identity and all common-clock checks remain
+  mandatory.
+- No physical-onset measurement, JGA execution, H02/H03 change or production
+  impact is authorized.
+- Protocol:
+  `validation/CED-VAL-004-PHYSICAL-ONSET/preregistrations/PR-CED-VAL-004-PHYSICAL-ONSET-GENERATION-01.md`.
+
+## CED-VAL-003 Strength-Max Correspondence Validation
+
+Status: PASS EXECUTION — INSUFFICIENT SCORABLE EVIDENCE
+
+- All 56 unique-strength predictors were frozen before Ground Truth and joined
+  deterministically to frozen Calibration Zero authority.
+- Drums 0/54 and Double Bass 0/2 were scorable; all 56 remain
+  `AMBIGUOUS_MULTIPLE_OBSERVED`, so correct/incorrect and accuracy are
+  undefined rather than zero-performance evidence.
+- The study neither supports nor contradicts strength as a correspondence
+  predictor. Unique physical discrimination is not independent scoring
+  authority.
+- Historical H02 results, the three-dataset conclusion, Calibration Zero, raw
+  observations and production authority remain unchanged.
+- Scientific fingerprint `f9dd0c08…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_212608/`.
+
+## CED-VAL-003 Strength-Max Correspondence Validation Preregistration
+
+Status: FROZEN — NOT YET SCORED
+
+- The 56 already-frozen unique-strength maximum identities are preserved in a
+  Ground-Truth-free predictor manifest before scoring.
+- Frozen Calibration Zero may score only where its existing authority uniquely
+  adjudicates a contained EME; unresolved authority remains `UNSCORABLE`.
+- No predictor recomputation, threshold, rematching, H02 rescoring or
+  production effect is authorized.
+
+## CED-VAL-003 Within-Cell Strength Discriminability
+
+Status: PASS — FROZEN PHYSICAL DISCRIMINABILITY
+
+- Exact binary64 strength produced `UNIQUE_STRENGTH_MAXIMUM` in 56/56 cells:
+  Drums 54/54 and Double Bass 2/2; ties and unresolved cases are zero.
+- The result demonstrates deterministic physical distinction only. It does not
+  identify correct correspondence, resolve historical ambiguity or authorize
+  H02 rescoring/production use.
+- Ground Truth, thresholds, tolerances and cross-source comparisons were not
+  used. H02, H03, Calibration Zero and raw observations remain unchanged.
+- Scientific fingerprint `902c9a7d…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_212023/`.
+
+## CED-VAL-003 Within-Cell Strength Discriminability Preregistration
+
+Status: FROZEN — NOT YET EXECUTED
+
+- `H-CEDVAL003-WITHIN-CELL-STRENGTH-DISCRIMINABILITY-01` freezes exact
+  binary64 within-cell ordering over the accepted 56-cell strength artifact.
+- Unique maximum, exact tie and unresolved classifications are physical
+  discriminability only; they cannot select correspondence or change H02.
+- Ground Truth, thresholds, tolerances and cross-source comparisons are
+  prohibited.
+
+## CED-VAL-003 PulseCandidate Strength Measurement Authority
+
+Status: PASS — FROZEN MEASUREMENT AUTHORITY
+
+- Exact lineage-bound strength was recovered for all 112 observations in all
+  56 frozen ambiguous cells: Drums 108/108, Double Bass 4/4, Piano 0/0.
+- Two executions and a second complete run reproduced identities, frames,
+  indices, binary64 values, memberships and fingerprint exactly; lineage
+  failures are zero.
+- Strength is now authoritative only as a provenance-bound within-source
+  physical measurement for this population. Cross-source comparability and
+  discrimination/selection authority remain unauthorized.
+- Ground Truth and H02 scoring were not accessed. No rank, selection or
+  threshold was produced; historical H02/Calibration Zero evidence remains
+  unchanged.
+- Scientific fingerprint `6903decb…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_211259/`.
+
+## CED-VAL-003 PulseCandidate Strength Authority Preregistration
+
+Status: FROZEN — NOT YET EXECUTED
+
+- `H-CEDVAL003-PULSECANDIDATE-STRENGTH-AUTHORITY-01` freezes exact recovery of
+  lineage-bound strength for 112 observations in 56 ambiguous cells.
+- Recovery is WAV → unchanged observation pipeline → exact PulseCandidate/EME
+  identity join. Two exact replays are mandatory.
+- The study establishes within-source measurement authority only. It cannot
+  rank/select observations, access Ground Truth, rescore H02 or establish
+  cross-source comparability.
+- Preregistration:
+  `validation/CED-VAL-003-SWING-3-4/preregistrations/H-CEDVAL003-PULSECANDIDATE-STRENGTH-AUTHORITY-01.md`.
+
+## CED-VAL-003 Ambiguous-Cell Physical-Authority Evidence Gap
+
+Status: FROZEN EVIDENCE GAP — NO EXPERIMENT PREREGISTERED
+
+- The complete population is 56 `AMBIGUOUS_MULTIPLE_OBSERVED` cells containing
+  112 observations: Drums 54/108, Double Bass 2/4 and Piano 0/0.
+- Frozen authority preserves exact identities, timestamps, lineage,
+  source/asset provenance and temporal-sequence context, but none currently
+  authorizes a Ground-Truth-independent preference among observations inside a
+  cell.
+- Numeric PulseCandidate strength/confidence and EME confidence are not
+  retained in the frozen CED-VAL-003 artifacts; strength also lacks validated
+  within-cell discrimination semantics. No transient, spectral, envelope or
+  Drum-component descriptor is authoritative.
+- No experiment is forced. The minimum next evidence is lineage-bound numeric
+  PulseCandidate strength plus independent deterministic within-source
+  repeatability/measurement validation; this does not itself authorize a
+  selection rule.
+- Symbolic proximity is excluded. H02, H03, Calibration Zero, frozen scores,
+  raw observations, AD-040 and production code remain unchanged;
+  `GEOMETRIC_ONLY` remains authoritative.
+- Frozen record:
+  `validation/CED-VAL-003-SWING-3-4/preregistrations/EG-CEDVAL003-AMBIGUOUS-PHYSICAL-AUTHORITY-01.md`.
+
+## CED-VAL-003 H02 Scorability Authority Audit
+
+Status: FROZEN READ-ONLY AUDIT — PASS
+
+- Complete deterministic audit explains all 56 unscorable candidates: 54 are
+  blocked by Drum `AMBIGUOUS_MULTIPLE_OBSERVED` authority and 2 by Double Bass
+  `AMBIGUOUS_MULTIPLE_OBSERVED` authority.
+- Candidate-discovery limitations, mixed limitations, indeterminate cases and
+  identity/provenance join failures are all zero. Blind candidate evidence
+  exists; the limitation primarily affects validation.
+- All 55 unscorable symbolic relations remain individually preserved. Frozen
+  precision/recall/F1 remain unchanged and apply only to 33 scorable candidates.
+- Audit fingerprint `34dafe33…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_205731/`.
+
+- `AUD-CEDVAL003-H02-SCORABILITY-01` freezes a read-only, deterministic audit
+  of all 89 candidates, including 56 unscorable candidates and 55 unscorable
+  symbolic relations.
+- Exact identity joins trace frozen blind/scoring evidence through Calibration
+  Zero event and pair authority without rematching or rescoring.
+- H02, Calibration Zero, raw observations, frozen metrics, AD-040 and
+  production code remain immutable.
+- Preregistration:
+  `validation/CED-VAL-003-SWING-3-4/preregistrations/AUD-CEDVAL003-H02-SCORABILITY-01.md`.
+
+## H02 Three-Dataset Scientific Conclusion
+
+Status: FROZEN — PI-AUTHORIZED EVIDENCE SYNTHESIS
+
+- H02 is `EXPERIMENTALLY_SUPPORTED`, `SOURCE_SENSITIVE`,
+  `REPLICATED_FOR_DOUBLE_BASS_DRUMS_UNDER_TESTED_CONTROLLED_CONDITIONS`,
+  `NOT_GENERALIZED_FOR_PIANO_DRUMS` and `NOT_PRODUCTION_AUTHORIZED`.
+- Strong Double Bass–Drums behavior replicated on CED-VAL-002 and CED-VAL-003
+  within tested controlled conditions. Piano–Drums did not show stable
+  conservative behavior across datasets.
+- CED-VAL-003's 56 ambiguous/unscorable candidates and 55 unscorable symbolic
+  relations remain preserved and materially limit its generalization evidence.
+- Aggregate performance cannot replace source-specific evidence. No causal
+  claim about 3/4, swing, density or analytical role is authorized.
+- Calibration remains separate context; no correction is authorized. H02 and
+  AD-040 are unchanged, no H03 exists, and `GEOMETRIC_ONLY` remains production
+  authority.
+- Frozen conclusion:
+  `validation/H02_THREE_DATASET_SCIENTIFIC_CONCLUSION.md`.
+
+## CED-VAL-003-SWING-3-4 H02 Independent Replication
+
+Status: FROZEN RESULT — PARTIAL CORRESPONDENCE EVIDENCE
+
+- The unchanged `H-VAL001-RHYTHM-CORRESPONDENCE-02` rule executed blind on
+  `PR-CED-VAL-003-SWING-3-4-001`, without symbolic, calibration, meter or tempo
+  input. Two complete blind executions replayed byte-identically.
+- Blind result: 89 candidates (Piano 14; Double Bass 75), 61 unresolved;
+  fingerprint `a76e37ed…`.
+- Post-freeze scoring: Piano 3 TP / 2 FP / 9 FN from 5 scorable candidates;
+  Double Bass 26 TP / 2 FP / 6 FN from 28 scorable candidates; overall 29 TP /
+  4 FP / 15 FN, precision 0.878788, recall 0.659091 and F1 0.753247.
+- Fifty-six blind candidates remain ambiguous/unscorable under frozen
+  Ground-Truth correspondence authority and are preserved.
+- Frozen classification: `PARTIAL_CORRESPONDENCE_EVIDENCE`; three-dataset
+  generalization is `MIXED`. Double Bass supplies supporting replication,
+  while Piano behavior and scorable coverage remain source/dataset-sensitive.
+- H02 remains experimental and is not promoted. `GEOMETRIC_ONLY` remains
+  production authority; raw observations and production code are unchanged.
+- Scientific fingerprint: `374ab02a…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_204545/`.
+
+## CED-VAL-003-SWING-3-4 Controlled Dataset
+
+Status: CALIBRATION ZERO FROZEN RESULT — PI REVIEW REQUIRED
+
+- `H-CEDVAL003-CALIBRATION-ZERO-01` executed exactly against
+  `PR-CED-VAL-003-SWING-3-4-001`; all checksum authority passed.
+- Observed EME populations are Drums 155, Double Bass 100 and Piano 50. The
+  frozen midpoint rule produced 193 valid absolute correspondences.
+- Absolute outcome is `SOURCE_SPECIFIC_CANDIDATE_BIAS`; measurement structure
+  is `MIXED_MEASUREMENT_BEHAVIOUR`. Drums are `INSUFFICIENT_EVIDENCE` after
+  mandatory ambiguity sensitivity; Double Bass and Piano retain stable
+  candidate systematic bias.
+- Exact symbolic authority produced 12 valid Piano–Drums and 32 valid Double
+  Bass–Drums JGA pairs. Both are `INSUFFICIENT_EVIDENCE` after the frozen
+  ambiguity-sensitivity support gate.
+- Two complete executions replayed deterministically; independent arithmetic,
+  cardinality and lineage verification passed. Raw observations remain
+  immutable, no correction is authorized, and H02 was neither executed nor
+  inspected.
+- Scientific fingerprint: `589ee3c1…`; complete record:
+  `validation/CED-VAL-003-SWING-3-4/run_20260823_203324/`.
+
+- `H-CEDVAL003-CALIBRATION-ZERO-01` binds exclusively to frozen authority
+  `PR-CED-VAL-003-SWING-3-4-001` and fingerprint `9345f592…`.
+- Exact-rational symbolic authority, contributor-separated midpoint cells,
+  exact-equality symbolic pair authority, absolute/pairwise quantities,
+  512/44100 frame description, fixed WAV-scope halves `512/21`, minimum
+  support 10/5, deterministic 10,000-resample bootstrap, sensitivity and
+  classification criteria are frozen before result access.
+- No prior numerical calibration result transfers. Dataset assets, raw
+  observations and H02 remain immutable; no correction or execution is
+  authorized.
+- Preregistration:
+  `validation/CED-VAL-003-SWING-3-4/preregistrations/H-CEDVAL003-CALIBRATION-ZERO-01.md`.
+
+- The initial failed discovery remains preserved. Following PI correction,
+  assets were discovered under actual external root
+  `datasets/CED-VAL-003-SWING/`, with scientific filenames retaining
+  `CED-VAL-003-SWING-3-4` and audio directory `steams/`.
+- Three equal stereo 24-bit PCM 44.1 kHz stems each contain 2,150,400 frames
+  (`1024/21` seconds) with PI-declared common export-from-beginning origin.
+- Explicit checksum-bound MusicXML Ground Truth declares 3/4 and quarter =
+  140/minute and yields Drums 155, Double Bass 100 and Piano 57 exact-rational
+  symbolic onset groups. No declaration entered JGA or H02.
+- Complete symbolic scope `306/7` seconds is contained within the WAV scope;
+  the untrimmed rendered tail is `106/21` seconds.
+- A new independent Calibration Zero is mandatory before separately authorized
+  unchanged blind H02 execution. No production behavior changed.
+- Authority:
+  `docs/scientific/controlled_datasets/CED-VAL-003-SWING-3-4.md` and
+  `validation/CED-VAL-003-SWING-3-4/input_authority_manifest.json`.
+- Dataset fingerprint: `9345f592…`.
+
+## H02 Independent Out-of-Sample Validation
+
+Status: MIXED GENERALIZATION — SCIENTIFIC CONCLUSION FROZEN
+
+- The unchanged `H-VAL001-RHYTHM-CORRESPONDENCE-02` rule executed blind on
+  corrected `PR-CED-VAL-002-SWING-002`, separately from Calibration Zero.
+- Blind result: 125 candidates (Piano 11; Double Bass 114), fingerprint
+  `c053888a…`, with deterministic replay before Ground Truth access.
+- Post-freeze: Piano 4 TP / 7 FP / 20 FN; Double Bass 109 TP / 3 FP / 9 FN;
+  overall 113 TP / 10 FP / 29 FN, precision 0.918699, recall 0.795775 and F1
+  0.852830.
+- Frozen classification: `PARTIAL_CORRESPONDENCE_EVIDENCE`; out-of-sample
+  generalization evidence is `MIXED` because source-specific performance differs
+  materially.
+- No correction or production promotion is authorized. `GEOMETRIC_ONLY`
+  remains production authority. Complete record:
+  `validation/CED-VAL-002-SWING/run_20260823_192726/`.
+- PI acceptance freezes H02 as experimentally supported, source-sensitive,
+  conservative in some conditions and not production-authorized. At least one
+  further genuinely independent controlled replication is mandatory before
+  production promotion may be reconsidered.
+- Frozen conclusion:
+  `validation/CED-VAL-002-SWING/H02_OUT_OF_SAMPLE_SCIENTIFIC_CONCLUSION.md`.
+
+## CED-VAL-002-SWING Calibration Zero Execution
+
+Status: FROZEN RESULT — PI REVIEW REQUIRED
+
+- `H-CEDVAL002-CALIBRATION-ZERO-01` executed exactly against corrected
+  `PR-CED-VAL-002-SWING-002`; all checksum authority passed.
+- Observed EME populations are Drums 192, Double Bass 127 and Piano 63. The
+  frozen midpoint rule produced 378 valid absolute correspondences.
+- Absolute outcome: `SOURCE_SPECIFIC_CANDIDATE_BIAS`; measurement structure:
+  `MIXED_MEASUREMENT_BEHAVIOUR`.
+- Exact symbolic authority produced 24 valid Piano–Drums and 118 valid Double
+  Bass–Drums JGA pairs. Both are `CANDIDATE_PAIRWISE_BIAS` under the frozen
+  criterion.
+- Raw observations remain immutable. No correction is authorized. H02 remains
+  frozen and was neither executed nor inspected.
+- Scientific fingerprint: `d4b0b187…`; complete record:
+  `validation/CED-VAL-002-SWING/run_20260823_170857/`.
+
+## CED-VAL-002-SWING Calibration Zero Preregistration
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-CEDVAL002-CALIBRATION-ZERO-01` binds exclusively to corrected provenance
+  `PR-CED-VAL-002-SWING-002` and dataset fingerprint `631eaf01…`; the
+  superseded pre-correction authority remains historical evidence only.
+- Before EME comparison, execution must freeze exact-rational symbolic-event
+  and exact-equality symbolic-pair authorities from corrected MusicXML.
+- Contributor-separated midpoint-cell correspondence, absolute and pairwise
+  quantities, 512/44100 frame description, exact WAV-scope halves, minimum
+  support 10/5, deterministic 10,000-resample median bootstrap, ambiguity
+  sensitivity, bias/stability criteria and outcome vocabularies are frozen
+  before result access.
+- CED-VAL-001 numerical calibration evidence does not transfer. No correction,
+  production behavior or H02 execution is authorized.
+- Preregistration:
+  `validation/CED-VAL-002-SWING/preregistrations/H-CEDVAL002-CALIBRATION-ZERO-01.md`.
+
+## CED-VAL-002-SWING Corrected Controlled Dataset
+
+Status: CORRECTED INPUT AUTHORITY FROZEN — CALIBRATION PENDING
+
+- PI correction after commit `64c8c93` changed the MusicXML and Sibelius
+  assets; the three WAV assets remain byte-identical. The prior manifest and
+  documentation remain preserved as superseded/pre-correction evidence.
+- Corrected MusicXML remains well formed with Piano 64, Double Bass 127 and
+  Drums 192 exact-rational symbolic onset groups. Symbolic scope is exactly
+  128 quarter units / `256/5` seconds, first onset 0 and last onset 48 seconds.
+- All three WAVs remain equal stereo 24-bit PCM, 44.1 kHz, 2,478,080 frames
+  and `123904/2205` seconds. Their `11008/2205`-second tail beyond symbolic
+  scope is neutral, preserved and temporally coherent with the PI-declared
+  common export-from-beginning origin.
+- Corrected authority supersedes revision 1 for all future Calibration Zero
+  and H02 work. A new Calibration Zero remains mandatory; H02 was not executed
+  and can later be applied unchanged after separate approval.
+- Corrected records:
+  `docs/scientific/controlled_datasets/CED-VAL-002-SWING_CORRECTED.md` and
+  `validation/CED-VAL-002-SWING/input_authority_manifest_v2_corrected.json`.
+- Corrected dataset/manifest fingerprint:
+  `631eaf017cfaf335ee2945bfbe0df19221a0a0d069fee3602880eda7a851ade1`.
+
+## CED-VAL-002-SWING Independent Controlled Dataset
+
+Status: SUPERSEDED PRE-CORRECTION INPUT AUTHORITY
+
+- The new external controlled dataset is checksum-bound at
+  `$JGA_EXTERNAL_ROOT/datasets/CED-VAL-002-SWING/` without copying or altering
+  its three WAV stems or symbolic sources.
+- Drums, Double Bass and Piano WAV assets independently verify as stereo
+  24-bit little-endian PCM at 44.1 kHz with identical 2,478,080-frame counts
+  and exact duration `123904/2205` seconds. Sibelius `Export from beginning`
+  is preserved as declared common-origin procedure; no onset alignment or
+  trimming occurred.
+- Well-formed MusicXML contains Piano, Bass and Drums and supports a later
+  deterministic exact-rational event-authority build. Input-only
+  characterization found 64, 127 and 192 symbolic onset groups respectively;
+  no JGA observation or H02 outcome entered that characterization.
+- Dataset identity and all asset checksums differ from `CED-VAL-001`. PI
+  provenance establishes non-use in H01/H02 development; no statistical
+  independence claim is made.
+- A new Calibration Zero and pairwise applicability characterization is
+  required before H02 execution. The frozen H02 rule can later be applied
+  unchanged; it was not executed.
+- Canonical records:
+  `docs/scientific/controlled_datasets/CED-VAL-002-SWING.md` and
+  `validation/CED-VAL-002-SWING/input_authority_manifest.json`.
+- Dataset/manifest fingerprint:
+  `8a32b9296056d465312ede6cb7de5a8ccf2decc323aa289dbc7b4200ec73afd4`.
+
+## Blind Rhythm-Section Event-Correspondence Hypothesis 02
+
+Status: LOW_RECALL — SCIENTIFIC CONCLUSION FROZEN
+
+- `H-VAL001-RHYTHM-CORRESPONDENCE-02` preserves Hypothesis 01 as a frozen
+  negative result and removed exactly its scientifically unjustified
+  cross-source signature-equality requirement.
+- A candidate still requires mutual unique nearest geometry, valid exact
+  two-sided frame signatures independently recurrent at least twice within
+  each event's own source, and complete boundary, tie, frame-authority,
+  provenance and replay integrity.
+- Blind execution froze 13 candidates before Ground Truth access: 12
+  Piano–Drums and 1 Double Bass–Drums. Deterministic replay was byte-identical;
+  63 relationships remain unresolved.
+- Post-freeze scoring reports Piano TP/FP/FN 11/1/25 and Double Bass 1/0/17;
+  overall precision is 0.9230769231, recall 0.2222222222 and F1
+  0.3582089552. No blind candidate is ambiguous/unscorable.
+- Frozen classification: `LOW_RECALL`. The evidence is conservative and
+  potentially useful, but production promotion remains unauthorized. No raw
+  observation or production behavior changed.
+- PI acceptance freezes Hypothesis 02 as a conservative candidate-discovery
+  rule, not a complete correspondence model. It demonstrates limited blind
+  temporal-comparison discovery but no generalization beyond the controlled
+  render.
+- Before production promotion may be considered, the unchanged rule requires
+  one separately preregistered, checksum-bound, out-of-sample controlled
+  validation with blind freeze before Ground Truth reveal, deterministic
+  replay, complete provenance, contributor-specific evidence and applicable
+  Calibration Zero characterization. A controlled swing/walking-bass render
+  is preferred for representative out-of-sample evaluation without assuming
+  improved performance.
+- No numerical precision threshold is authorized. AD-040 `GEOMETRIC_ONLY`
+  remains production authority; candidates remain experimental evidence.
+- Blind/result fingerprints:
+  `259246226fee627934708eeb9aafc8bd8eb8e3ebbe7340b76935f2a4c0d8b674` /
+  `2bf5ddb3c40620c3ddf5ebf8cbf7aad6d6ed74d770481d8eb921b579ad96c082`.
+- Preregistration and record:
+  `validation/VAL-001/preregistrations/H-VAL001-RHYTHM-CORRESPONDENCE-02.md`,
+  `validation/VAL-001/run_20260823_115555/`.
+- Frozen conclusion:
+  `validation/VAL-001/H-VAL001-RHYTHM-CORRESPONDENCE-02_SCIENTIFIC_CONCLUSION.md`.
+
+## Blind Rhythm-Section Event-Correspondence Experiment
+
+Status: INSUFFICIENT_CANDIDATES
+
+- `H-VAL001-RHYTHM-CORRESPONDENCE-01` executed unchanged against the frozen
+  populations of 63 Drums, 27 Double Bass and 49 Piano EME.
+- Exact producer round-trip established unique frame authority for every EME.
+  The complete blind result and checksum manifest froze before any symbolic
+  authority was opened; deterministic replay was byte-identical.
+- The frozen rule produced zero blind candidates. All 76 accompaniment
+  relationships remain `UNRESOLVED / GEOMETRIC_ONLY`: 27 Double Bass and 49
+  Piano. No relation was promoted to `AUTHORIZED_EVENT_RELATION`.
+- Post-freeze scoring reports Piano–Drums TP=0, FP=0, FN=36 and Double
+  Bass–Drums TP=0, FP=0, FN=18. Overall precision and F1 are undefined and
+  recall is 0.0. One Double Bass symbolic relation is unscorable; no blind
+  candidate is ambiguous/unscorable.
+- Frozen classification: `INSUFFICIENT_CANDIDATES`. Raw observations and all
+  AD-038, AD-040 and Calibration Zero authority remain unchanged. Production
+  impact is NONE.
+- Blind/result fingerprints:
+  `7a11a950a60d79f1a75099bdf9e083b7fc35a3f3845d5041304f8ec637c2f3d6` /
+  `471664e57ace2a21ffbf6e1a54940bfe773d99f5baa3023eefc3fc1e1a67d045`.
+- Record: `validation/VAL-001/run_20260823_111348/`.
+
+## Blind Rhythm-Section Event-Correspondence Preregistration
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-VAL001-RHYTHM-CORRESPONDENCE-01` freezes one Ground-Truth-blind candidate
+  relation rule over the complete AD-040 Drums, Double Bass and Piano
+  populations.
+- A candidate requires mutual unique geometric nearest status, an identical
+  exact two-sided integer-frame interval signature, independent recurrence of
+  that signature at least twice within each source, and no boundary, duplicate
+  frame or tie condition.
+- Exact frame identity must be recovered by unique bitwise producer
+  round-trip. No rounding, tolerance, millisecond threshold, PulseCandidate
+  strength, Calibration Zero correspondence evidence or metric information is
+  authorized.
+- The complete blind population and fingerprint must freeze before any
+  symbolic authority is opened. Post-freeze validation may score but never
+  retune or modify blind relations.
+- The experiment is not executed. Production impact is NONE; raw EME,
+  PulseCandidates, AD-038 localizations, AD-040 profiles, calibration artifacts
+  and visualizations remain unchanged.
+- Preregistration:
+  `validation/VAL-001/preregistrations/H-VAL001-RHYTHM-CORRESPONDENCE-01.md`.
+
+## Rhythm Section Timing Profile Authority
+
+Status: IMPLEMENTED
+
+- AD-040 reserves `RhythmSectionTimingProfile` as a provenance-bound,
+  read-only downstream projection over existing immutable EME, AD-038 neutral
+  Drum-relative geometry and separately referenced Calibration Zero evidence.
+- For the current controlled dataset, Drums are assigned
+  `TEMPORAL_REFERENCE`; Double Bass and Piano are assigned `ACCOMPANIMENT`;
+  Tenor Sax remains outside the core in a melodic/lead analytical role and
+  Voice remains `DEFERRED`.
+- Analytical role is explicitly bound to source/asset, scope, rule/version,
+  execution and scientific authority. Instrument identity does not imply role;
+  no automatic role inference is authorized.
+- `GEOMETRIC_ONLY`, `AUTHORIZED_EVENT_RELATION`, `UNRESOLVED` and
+  `NOT_APPLICABLE` form the minimum correspondence vocabulary. Calibration
+  applicability remains separate.
+- Raw observation, calibration context and future interpretation are
+  non-overwriting levels. Absolute recording time remains authoritative; no
+  correction is authorized.
+- The minimum immutable implementation stores direct references to authorized
+  EME and AD-038 localizations, explicit source/asset role assignments,
+  independent correspondence evidence and separate calibration references.
+  Deterministic profile identity and scientific fingerprinting depend on
+  canonical referenced authority; no timestamp or displacement is copied or
+  corrected.
+- Controlled integration preserves 63 Drum EME and projects 49 Piano plus 27
+  Double Bass relationships. All 16 Tenor Sax EME remain outside the current
+  core and Voice remains `DEFERRED`. Focused contracts: 18 passed. Full suite:
+  1087 passed, 1 unchanged environment-dependent Demucs external-storage
+  failure, 3 warnings.
+- Canonical decision:
+  `docs/architecture/AD-040_RHYTHM_SECTION_TIMING_PROFILE.md`.
+
+## Pairwise Calibration Zero Measurement Characterization
+
+Status: PASS — MIXED SOURCE-SPECIFIC OUTCOME
+
+- `H-VAL001-CALIBRATION-PAIRWISE-01` executed unchanged after checksum
+  verification and independent freeze/verification of exact-equality symbolic
+  pair authority.
+- Symbolic/valid JGA pair populations are Piano–Drums 36/36, Double
+  Bass–Drums 19/18 and Tenor Sax–Drums 9/5. Unmatched symbolic relationships
+  are 13, 9 and 3; unresolved JGA pairs are 0, 1 and 4; symbolic ambiguity is
+  zero throughout. All evidence remains preserved.
+- Piano–Drums and Double Bass–Drums are
+  `NO_DETECTABLE_PAIRWISE_BIAS` under the frozen stability rule. Tenor
+  Sax–Drums is `INSUFFICIENT_EVIDENCE`; therefore the overall classification
+  is `MIXED_SOURCE_SPECIFIC_OUTCOME`.
+- All 59 valid errors occur at integer frame offsets to within exact
+  stored-timestamp residuals no greater than `6.0771e-12 ms`. This is
+  descriptive structure only and establishes no causal mechanism.
+- Common absolute candidate behaviour is compatible with cancellation for
+  Piano–Drums and Double Bass–Drums; Tenor Sax–Drums remains partial because
+  minimum support is absent.
+- No correction is authorized. Raw observations are unchanged; Voice remains
+  `DEFERRED`. Deterministic replay and independent verification: PASS.
+- Scientific fingerprint:
+  `38740f74ab22c5c17b4400a6fac3823cbf4ead8650f77d6a5ab81e8ee7921b27`.
+- Record: `validation/VAL-001/run_20260823_095617/`.
+
+## Pairwise Calibration Zero Preregistration
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-VAL001-CALIBRATION-PAIRWISE-01` freezes a distinct downstream experiment
+  measuring error in Ground-Truth-authorized Piano–Drums, Double Bass–Drums
+  and Tenor Sax–Drums temporal relationships.
+- Symbolic pairs are constructed by exact equal authoritative symbolic time
+  and frozen before JGA pairwise quantities are calculated. Geometrically
+  nearest Drum observations, tolerances and result-informed matching are not
+  authorized.
+- The protocol freezes pairwise quantities, contributor-separated descriptive
+  outputs, deterministic bootstrap and stability criteria, frame-resolution
+  description, allowed outcomes and reproducibility artifacts.
+- The completed absolute Calibration Zero study remains unchanged. No
+  correction, production behavior or experiment execution is authorized.
+- Voice remains `DEFERRED`; raw Ground Truth, EME, PulseCandidates,
+  Drum-relative localizations and existing calibration artifacts are immutable.
+- Preregistration:
+  `validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-PAIRWISE-01.md`.
+
+## Calibration Zero Measurement Characterization
+
+Status: PASS — SOURCE-INDEPENDENT CANDIDATE BIAS / MIXED MEASUREMENT BEHAVIOUR
+
+- `H-VAL001-CALIBRATION-ZERO-01` executed unchanged from the frozen
+  preregistration after sufficient symbolic-event authority was constructed
+  without prior access to JGA event-level differences.
+- Frozen symbolic/observed/valid populations are Drums 63/63/63, Piano
+  49/49/49, Double Bass 28/27/27 and Tenor Sax 12/16/8. One Bass symbolic event
+  is unmatched; four Sax cells contain multiple observed EME. All ambiguous
+  evidence remains preserved.
+- Drums, Piano and Double Bass satisfy the frozen candidate-bias criterion;
+  Tenor Sax has insufficient valid support. Qualifying-source pairwise
+  intervals include zero and the pooled median interval excludes zero, yielding
+  `SOURCE_INDEPENDENT_CANDIDATE_BIAS` under the preregistered rule.
+- Frame offsets concentrate at one and two frames, but no valid error is an
+  exact frame multiple and residuals span nearly the full nearest-frame range.
+  Frame-related evidence is `PARTIAL`; measurement structure is
+  `MIXED_MEASUREMENT_BEHAVIOUR`, not quantization-dominated.
+- The result characterizes combined controlled rendering/measurement behavior.
+  Rendering and detection contributions are not separately identified.
+- No correction, tolerance, threshold or production integration is authorized.
+  Raw observations are unchanged; Voice remains `DEFERRED`.
+- Deterministic replay: PASS. Scientific fingerprint:
+  `d9ff1dba90cdb8b96e0412d05dd10c8b972f9dd2c2194187addcff4d6bd2050f`.
+- Record: `validation/VAL-001/run_20260823_070702/`.
+
+## Calibration Zero Experiment Preregistration
+
+Status: FROZEN — NOT EXECUTED
+
+- `H-VAL001-CALIBRATION-ZERO-01` freezes the event-authority construction,
+  deterministic midpoint-cell correspondence rule, event-level measurement
+  quantities, descriptive outputs, frame-offset analysis, candidate-bias
+  criteria, source/pairwise analysis and allowed outcomes before access to
+  symbolic-vs-JGA timing differences.
+- AD-028 does not currently establish event-level Ground Truth. The future
+  execution must first construct and freeze provenance-bound symbolic event
+  authority without accessing JGA timing differences; insufficient authority
+  stops execution before error calculation.
+- The experiment is not executed. No calibration result, bias, correction,
+  tolerance, threshold or production behavior is authorized.
+- Voice remains `DEFERRED`. Raw EME, PulseCandidate, Drum-relative and existing
+  validation artifacts remain unchanged.
+- Preregistration:
+  `validation/VAL-001/preregistrations/H-VAL001-CALIBRATION-ZERO-01.md`.
+
+## Calibration Zero and Measurement Baseline Authority
+
+Status: AUTHORIZED — EXPERIMENT NOT EXECUTED
+
+- AD-039 establishes `CED-VAL-001` and its provenance-bound symbolic authority
+  as the JGA Calibration Zero / Controlled Measurement Baseline.
+- JGA must characterize controlled rendering and measurement behaviour before
+  temporal deviation may be interpreted as human performance behaviour.
+- The current 512-sample hop at 44.1 kHz is approximately 11.609977 ms frame
+  spacing. It is not established accuracy, measurement error, systematic bias,
+  correction or a microtiming threshold.
+- Raw observation, calibration baseline and any future baseline-aware evidence
+  must remain separate. Raw EME timestamps are immutable.
+- Source-specific and pairwise calibration are conceptually reserved, but no
+  bias value, correction, tolerance or production behavior is authorized.
+- Existing AD-037 EME and AD-038 Drum-relative results remain valid, unchanged
+  neutral observations. Their descriptive distributions are motivating
+  evidence only.
+- Exactly one future experiment is reserved as
+  `H-VAL001-CALIBRATION-ZERO-01`; it is not preregistered or executed.
+- Production impact: NONE.
+
+## Neutral Drum-Relative EME Localization
+
+Status: PASS
+
+- AD-038 establishes the immediate minimum path as absolute audio timeline →
+  authorized EME → neutral Drum-relative localization → later comparison.
+- The separate downstream Representation projection preserves all 63 Drum EME
+  and produces one immutable localization for every authorized Piano (49),
+  Double Bass (27) and Tenor Sax (16) EME: 92 records from 155 preserved EME.
+- Losses, merges and creations are zero. Exact timestamps, contributor/source,
+  target and selected Drum PulseCandidate lineage, asset, scope, origin, rule
+  and execution provenance are retained. Voice remains `DEFERRED`.
+- Independent validation reproduced all localization arithmetic. Three targets
+  precede the first Drum event, one follows the last, 88 records have an
+  observed interval fraction, and two geometric nearest-selection ties are
+  explicitly preserved.
+- No declared BPM, meter or BeatReference input enters the new projection. The
+  existing validated metric path remains unchanged and independently callable.
+- Scientific fingerprint:
+  `92a6b2e467d0b0b7fe465e9ccb8d9eb6d6e03ed9fb3e7435a2f0fd53bb4c2c62`.
+- Focused validation: 17 passed, 2 dependency deprecation warnings.
+- Complete automated suite: 1078 passed, 1 environment-dependent Demucs
+  external-storage failure, 3 warnings. The configured external root was not
+  writable; no heavy write was attempted.
+- Record: `validation/VAL-001/run_20260823_060808/`.
+
+## Complete Neutral EME Timing Validation
+
+Status: PASS
+
+- `H-VAL001-EME-NEUTRAL-01` represents all 155 authorized Drums, Piano,
+  Double Bass and Tenor Sax EME against the provenance-bound declared quarter
+  timeline. Losses, merges and creations are zero; Voice remains `DEFERRED`.
+- Every record preserves exact frame-derived timestamp, contributor/source,
+  preceding/following BeatReference, elapsed time, normalized phase, neutral
+  nearest-reference displacement, PulseCandidate lineage/strength, and full
+  declared timeline provenance without musical classification.
+- Validation exposed and corrected nondeterministic `MetricContributor` UUID
+  creation. Contributor identity is now deterministic from existing source and
+  function evidence. Timing and cardinality are unchanged.
+- Scientific fingerprint:
+  `a8b39d18139fec26c2b3da7bee02942a1bd3a619143208b7d0bafca9129f8500`.
+- Record: `validation/VAL-001/run_20260816_200807/`.
+
+## Rhythm-Section Strength Role Discrimination
+
+Status: COMPLETED — HIERARCHICALLY UNRESOLVED
+
+- `H-VAL001-RHYTHM-STRENGTH-01` tested AD-032-preserved onset strength over
+  the immutable SHORT/LONG families and complete Drums, Double Bass and Piano
+  EME populations. All 139 supporting PulseCandidate identities reproduced.
+- Full/early/late centered-strength phase association did not satisfy the
+  frozen source or equal-source preference rules. Blind classification is
+  `EQUIVALENT_UNRESOLVED`; Ground Truth was accessed only after freeze.
+- Strength did not resolve metric role. Autonomous BPM remains `PARTIAL` and
+  production integration is not authorized. Scientific fingerprint:
+  `24c89394f846c579e46f6c796a181b7ffb35dc3f8cafc948cb5ca687194b43fd`.
+- Record: `validation/VAL-001/run_20260816_195601/`.
+
+## Rhythm-Section Metric-Role Discrimination
+
+Status:
+
+COMPLETED — HIERARCHICALLY UNRESOLVED
+
+- `H-VAL001-RHYTHM-ROLE-01` tested only the immutable SHORT and LONG
+  common-period families from `H-VAL001-RHYTHM-TEMPO-01`, using the same
+  complete AD-037 Drums, Double Bass and Piano EME populations.
+- Candidate origin was an exhaustively evaluated nuisance parameter. Neutral
+  cycle-occupancy recurrence was selected by a preregistered BIC rule over
+  full, early and late scopes, with equal-source consensus.
+- Drums preferred SHORT. Double Bass and Piano were unresolved under the
+  frozen source rule, so neither family received the required two independent
+  source votes.
+- Blind classification is `EQUIVALENT_HIERARCHICALLY_UNRESOLVED`. The result
+  was frozen before Ground Truth access and does not assign metric role.
+- Post-freeze validation confirms that the authoritative reference lies in the
+  LONG family; the blind criterion did not select it. Autonomous BPM remains
+  `PARTIAL`, and production integration is not authorized.
+- Voice remains `DEFERRED`. No production or architectural behavior changed.
+- Scientific fingerprint:
+  `02912d34d5a5aeafa00b41131863a79b7ece77934e338bb3c923ff174298f5c7`.
+- Complete record: `validation/VAL-001/run_20260816_193800/`.
+
+## Rhythm-Section Common-Period Validation
+
+Status:
+
+COMPLETED — AUTONOMOUS BPM PARTIAL
+
+- `H-VAL001-RHYTHM-TEMPO-01` applies the AD-035 exact consecutive-frame
+  recurrence rule independently to complete AD-037 Drums, Double Bass and
+  Piano EME timestamps. Declared BPM, meter, BeatReferences, normalized phase,
+  melodic sources and Ground Truth do not enter blind discovery.
+- The frozen blind result contains eight independently cross-supported common
+  period tuples and is classified `MULTIPLE_COMMON_PERIODS`.
+- Candidate families near 33 and 66 observation frames retain twelve
+  measurement-supported 1:2 relationships. No metric role is assigned.
+- All common candidates recur in both source-scope halves under the
+  preregistered persistence rule. Continuous drift and local tempo remain
+  unmeasured.
+- Post-freeze Ground Truth validates correspondence of two long-period tuples
+  and doubled correspondence of two short-period tuples with the authoritative
+  reference. It does not alter the blind population.
+- Rhythm-section consensus materially improves source independence and common
+  recurrence evidence but does not resolve hierarchical role ambiguity.
+  Metric-reference inference remains scientifically unresolved and autonomous
+  BPM status is `PARTIAL`.
+- Voice remains `DEFERRED`. Production implementation is not authorized.
+- Scientific fingerprint:
+  `238be4910504e6d2b570a47b6cb1d4ded21a280fddbe300c9f09f88af4b11d38`.
+- Complete record: `validation/VAL-001/run_20260816_192519/`.
+
+## Complete EME Phase-Population Analysis
+
+Status:
+
+COMPLETED
+
+- `H-VAL001-EME-PHASE-01` executed its frozen contributor-separated circular
+  analysis of the complete AD-037 normalized-phase populations without
+  Ground Truth access or musical interpretation.
+- The candidate models are a uniform circular null and finite von Mises
+  mixtures selected by BIC, with deterministic replay and preregistered
+  bootstrap stability and uncertainty criteria.
+- No EME may be removed, merged, duplicated or initially pooled across
+  contributors. No phase center, component count or musical label is assumed.
+- Voice remains `DEFERRED`, not excluded, and shall receive the same contract
+  after an authorized Voice EME population exists. Basic Pitch and SOME are
+  excluded from this analysis.
+- The unchanged preregistration is authoritative at
+  `validation/VAL-001/preregistrations/H-VAL001-EME-PHASE-01.md`.
+- Double Bass supports two stable phase populations under the preregistered
+  95% bootstrap rule. Drums, Piano and Tenor Sax are `INSUFFICIENT_EVIDENCE`
+  because their selected component counts do not reach that stability rule.
+- No pair of contributors has independently stable structure, so no
+  shared-center comparison is authorized. Musical interpretation remains
+  prohibited pending a separate PI decision.
+- The immutable result is preserved at
+  `validation/VAL-001/run_20260816_182736/` with scientific fingerprint
+  `75fea68e4e3d6af29241e49a37d9bfd9ec2d0fb1ca822ff02a5466f4a4a1f8c2`.
+
+## EME Materialization and Metric Localization
+
+Status:
+
+COMPLETED
+
+- AD-037 supersedes AD-018's movement-dependent EME existence and
+  one-EME-per-contributor/movement cardinality rules while preserving their
+  scientific history.
+- The production order is now source evidence → EME → metric localization →
+  future interpretation. Metric association does not suppress, merge or create
+  EME.
+- Controlled cardinalities are Drums 63→63, Piano 49→49, Double Bass 27→27
+  and Tenor Sax 16→16 from materialized EME through MetricPoint output.
+- Multiple same-contributor EME per quarter interval are preserved. Maximum
+  interval populations are 2, 3, 2 and 3 respectively.
+- Every localizable EME retains preceding/following reference identity,
+  elapsed seconds and raw normalized quarter phase in `[0,1)` without musical
+  or subdivision interpretation.
+- EME and Domain PulseCandidate identities are deterministic and asset-bound;
+  observation lineage, metric provenance and Core observations are preserved.
+- `H-VAL001-EME-CARDINALITY-01` status is `PASS`. Voice remains deferred.
+- Focused Domain, Translation, Representation and controlled-real-audio
+  validation: 101 passed, 2 dependency deprecation warnings.
+- Complete automated suite excluding the environment-dependent Demucs
+  integration test: 1069 passed, 3 warnings. No heavy write was attempted.
+
+## Neutral Signed EME Displacement Validation
+
+Status:
+
+COMPLETED
+
+- `H-VAL001-EME-DISPLACEMENT-01` validates the neutral quantity `EME timestamp
+  - associated BeatReference timestamp` in seconds and milliseconds against
+  the authorized 55-reference controlled quarter timeline.
+- Every authorized EME retains exactly one MetricCluster membership and its
+  AD-018 movement identity. No inclusion threshold, deletion, duplication or
+  musical interpretation is applied.
+- Controlled authorized EME populations are Drums 27, Piano 9, Double Bass 25
+  and Tenor Sax 10. All preserve source, contributor, supporting-observation,
+  movement and declared-timeline provenance.
+- Raw quarter-normalized phase values reveal numerical populations near zero
+  and near minus one-half for several sources. No categorical tolerance or
+  subdivision meaning is assigned.
+- Scientific replay fingerprints are identical across two executions per
+  source. Runtime observation and EME UUIDs remain execution-local while
+  within-analysis identity and lineage are preserved unchanged.
+- The controlled status is `PASS`. The remaining limitation is that a
+  quarter-only reference cannot separate temporal displacement from other
+  metric phases without independently authorized subdivision evidence.
+- Focused Domain, Representation and controlled-real-audio validation: 26
+  passed, 2 dependency deprecation warnings.
+- Complete automated suite excluding the environment-blocked Demucs
+  integration test: 1059 passed, 3 warnings. No heavy write was attempted.
+
+## Controlled BeatReference Timeline Validation
+
+Status:
+
+COMPLETED
+
+- The authoritative controlled asset declares quarter phase `0.0` seconds as
+  score time zero = audio sample zero, bound to the controlled WAV checksum.
+- The declared path carries exact numeric start/end scope and independent
+  provenance for rate, phase and audio-asset scope across Translation into
+  Domain reconstruction.
+- The quarter period is `10/13` seconds. BeatReferences are generated from
+  `origin + index * period`, never recursive floating-point accumulation.
+- The 1,865,728-sample, 44.1 kHz controlled WAV scope produces 55 common
+  BeatReferences: index 0 at `0/1` seconds through index 54 at `540/13`
+  seconds. The next reference lies beyond the scope and is not produced.
+- BeatReference identity is deterministic from declared authority, numeric
+  scope, exact timestamp and index. Consensus observations are associated
+  afterward and do not determine identity, timestamp or cardinality.
+- Source-density and EME independence are validated; Core observations remain
+  unchanged. The timeline result is `PASS`.
+- Focused Domain and controlled-real-audio validation: 21 passed.
+- Complete automated suite excluding the environment-blocked Demucs
+  integration test: 1057 passed, 3 warnings. The excluded test could not
+  write to the configured `JGA_EXTERNAL_ROOT`; no heavy write was attempted.
+- Autonomous BPM, meter, measures, downbeat, pickup, sections, Voice AI,
+  groove and behaviour interpretation remain outside this validation.
+
+## Total EME Projection
+
+Status:
+
+COMPLETED
+
+- `MetricClusterBuilder` now projects every ElementaryMetricEvent to exactly
+  one nearest BeatReference through the existing `BeatProjectionEngine`.
+- BeatReferences are ordered by timestamp and index before projection; an exact
+  temporal midpoint therefore resolves deterministically to the earlier
+  reference.
+- The former ±10 ms inclusion window and exclusion behavior are removed. No
+  EME is discarded because of temporal distance, and signed offsets remain the
+  unchanged event timestamp minus its selected reference timestamp.
+- The earlier 71-EME result used the superseded consensus-count BeatReference
+  sequence. With the corrected declared quarter timeline, all 77 observations
+  remain preserved and are associated only after movement reconstruction;
+  EME authorization is a downstream question and is not timeline evidence.
+- No offset was interpreted musically. Measure-grid reconstruction, pickup,
+  downbeat, sections and timing-behaviour interpretation remain outside this
+  milestone.
+- Focused Domain, Translation, representation and controlled-audio validation:
+  720 passed.
+- Complete automated suite: 1058 passed, 1 environment-blocked Demucs test,
+  3 warnings. The blocked test could not write to the configured
+  `JGA_EXTERNAL_ROOT`; no heavy write was attempted.
+
+## Declared Meter Vertical Slice
+
+Status:
+
+COMPLETED
+
+- Analysis input may supply an immutable meter independently from the declared
+  metric reference, with explicit `DECLARED` origin and authority provenance.
+- The controlled VAL-001 context supplies 4/4 from `GT-VAL-001-v1`; this is
+  authoritative context and is never represented as detected or inferred from
+  audio.
+- Declared meter crosses the existing Translation boundary and produces the
+  Domain `InternalMetricSignature` consumed by reconstructed-measure grouping.
+  The existing `pulses_per_beat` reconstruction setting remains separate and
+  is not evidence for the declared meter.
+- Reconstructed, immutable, analytical and reporting outputs preserve declared
+  meter origin and source identity. Without declared meter, time signature is
+  `NOT_PRODUCED` and reconstructed measures are absent; no active silent 4/4
+  fallback remains.
+- Autonomous meter recognition remains `DEFERRED`, not solved. Measure
+  boundaries, pickup, measure count, sections and EME correctness were not
+  validated by this milestone.
+- Focused Domain, Translation, representation, reporting and controlled-audio
+  validation: 612 passed.
+- Complete automated suite: 1052 passed, 1 environment-blocked Demucs test,
+  3 warnings. The blocked test could not write to the configured
+  `JGA_EXTERNAL_ROOT`; no heavy write was attempted.
+
+## Declared Metric-Reference Vertical Slice
+
+Status:
+
+COMPLETED
+
+- The analysis input may supply an immutable metric reference with explicit
+  `DECLARED` origin, authority identity, source kind, SHA-256 identity and
+  temporal scope.
+- The controlled VAL-001 context supplies 78 quarter BPM from
+  `GT-VAL-001-v1`; this value is contextual validation authority and is never
+  represented as detected or inferred from audio.
+- The declared reference crosses the existing Translation boundary and drives
+  Domain beat-period and reconstructed-measure timing without entering or
+  changing Core observation.
+- Validation-facing immutable and analytical outputs preserve the declared
+  origin and source identity. Without declared context, tempo and reconstructed
+  measures are not produced; no silent 120 BPM fallback remains active.
+- Autonomous BPM inference remains `DEFERRED`, not solved.
+- Meter interpretation remains outside this milestone and is the next separate
+  development item.
+- Focused Domain, Translation, representation, reporting and controlled-audio
+  validation: 593 passed.
+- Complete automated suite excluding the environment-blocked Demucs integration
+  test: 1043 passed, 3 warnings. The excluded test could not access the
+  configured `JGA_EXTERNAL_ROOT`; no heavy write was attempted.
+
+## M93 — Validation Dataset Generalization
+
+Status:
+
+COMPLETED
+
+- AD-036 defines the operational generalization without changing scientific
+  validation architecture or schemas.
+- `recordings/validation/catalog.json` owns data-defined catalogue registration.
+- MusicXML-adjacent `.ground_truth.json` data owns the existing Ground Truth
+  identity, provenance and approved normalization values for each source.
+- Repository loading verifies registered asset identities and materializes the
+  existing immutable Validation Catalog and Ground Truth models.
+- Complete validation execution selects a registered item by identity and
+  composes the unchanged analysis materializer, Comparator and Scientific
+  Validation Record boundaries.
+- VAL-001 retains identical identities, checksums, Ground Truth content,
+  availability states, Candidate Period population and scientific comparison
+  behaviour.
+- Focused operational and scientific regression validation: 56 passed.
+- Complete automated suite: 1003 passed, 1 known environment-dependent Demucs
+  MPS failure, 3 warnings.
+
+## Phase II Validation Block 1
+
+Status:
+
+COMPLETED
+
+- The completed block is summarized by
+  `docs/scientific/PHASE_II_VALIDATION_BLOCK_1_COMPLETION_REPORT.md`.
+- F-031 and F-032 provide the governing scientific foundations.
+- H-VAL001-C1-03 and H-VAL001-C1-04 preserve the controlled experimental
+  evidence.
+- M91, M91.1 and M92 complete the minimum representation and production
+  discovery responsibility supported by that evidence.
+- The post-M92 Repository Authority Review found no remaining scientifically
+  demonstrated insufficiency requiring implementation.
+- No further implementation milestone is currently scientifically justified;
+  future implementation requires new reproducible evidence demonstrating an
+  actual insufficiency.
+
+## M92 — Candidate Period Discovery
+
+Status:
+
+COMPLETED
+
+- AD-035 defines the first production Candidate Period discovery rule.
+- Input is limited to the existing filtered Core PulseCandidate population.
+- Discovery preserves every exact consecutive positive frame interval
+  occurring at least twice and every supporting adjacent observation pair.
+- Frame length is explicit PulseCandidate observation/discovery configuration;
+  no library default is recovered silently.
+- The immutable CandidatePeriodPopulation is preserved on AnalysisContext
+  immediately after filtering and does not feed or alter metric reconstruction.
+- No selection, ranking, metric interpretation, phase, non-consecutive lag or
+  cross-source candidate abstraction is introduced.
+- Focused immutable/discovery validation: 19 passed.
+- VAL-001 full mix and all five canonical WAV stems reproduce the complete
+  accepted C1-03/C1-04 candidate inventories exactly.
+
+## M91.1 — Candidate Period Representation Responsibility Correction
+
+Status:
+
+COMPLETED
+
+- AD-034 now separates intrinsic Candidate evidence, runtime provenance and
+  experimental-validation metadata.
+- Experiment ID, validation run ID, validation protocol ID and repeated-run
+  fingerprints are no longer mandatory Core representation fields.
+- Asset identity and explicit discovery configuration preserve runtime
+  traceability; source revision is retained only when available.
+- Temporal unit remains population evidence. Frame length is not an intrinsic
+  Candidate Period field and may only appear as explicit discovery
+  configuration when a discovery procedure requires it.
+- H-VAL001-C1-03 and H-VAL001-C1-04 retain their experimental identities and
+  reproduction fingerprints in their F-030/SVP-001 records.
+- Focused M91 compatibility validation: 12 passed.
+
+## M91 — Scientific Representation of Candidate Periods
+
+Status:
+
+COMPLETED
+
+- AD-034 places already-produced, pre-interpretive Candidate Period evidence
+  in the existing Core observational representation location.
+- The immutable representation preserves duration, recurrence occurrences,
+  observation scope, provenance and reproducibility metadata only.
+- It performs no discovery, generation, selection, consumption or metric
+  interpretation.
+- `H-VAL001-C1-03` is used only as controlled preserved evidence; its
+  experiment-local recurrence protocol is not production authority.
+- The current `MetricContext`, analysis pipeline, `BeatPeriodEstimator`,
+  reconstruction path and validation schemas remain unchanged.
+- Focused immutable-representation and preserved-evidence validation:
+  10 passed for the VAL-001 full mix and five canonical WAV sources.
+- Complete automated suite: 991 passed, 1 known environment-dependent Demucs
+  MPS failure, 3 warnings.
+
+## Phase II — Candidate Period Foundation
+
+Status:
+
+CANONICAL
+
+- F-032 defines Recurrence, Candidate Period and Candidate Population.
+- Its experimental basis is Campaign 1 experiment `H-VAL001-C1-03`.
+- H-VAL001-C1-07 provides the experimental basis for the narrow
+  cross-condition correspondence clarification: numerical proximity after a
+  controlled transformation is insufficient without an explicitly justified,
+  measurement-condition-aware criterion. No such criterion is defined.
+- Candidate Periods remain observation-derived and pre-interpretive.
+- Blind discovery remains independent from post-blind Ground Truth evaluation.
+- No candidate selection, metric interpretation, architecture or implementation
+  is introduced.
+
+## Phase II — Hierarchical Metric Periodicity Foundation
+
+Status:
+
+CANONICAL
+
+- F-031 defines observation-derived periodicity, candidate period, metric
+  level, metric interpretation, metric reconstruction and hierarchical metric
+  periodicity.
+- Observation remains free of musical interpretation under AD-006.
+- Metric-level interpretation remains owned by the Domain under AD-008.
+- Observable Metric Context preserves temporal evidence and organization but
+  does not identify meter, tempo, ensemble Pulse or metric level.
+- The authoritative `ElementaryMetricEvent → BeatReference → MetricCluster →
+  Pulse → InternalMetricTimeline` lineage remains unchanged.
+- No production architecture, implementation, validation schema, metric,
+  tolerance or algorithm is introduced.
+
+## M89 — PulseCandidate Strength Preservation
+
+Status:
+
+COMPLETED
+
+- AD-032 restores the Translation observation-preservation invariant.
+- Core `PulseCandidate.strength` is preserved unchanged in immutable Domain
+  PulseCandidate representations.
+- No downstream scientific or analytical semantics are introduced.
+- Focused and real VAL-001 validation: 20 passed.
+- Complete automated suite: 981 passed, 1 known environment-dependent Demucs
+  MPS failure, 3 warnings.
+
+## Current Branch
+
+scientific/translation-layer-finalization
+
+## Current Milestone
+
+M42 — Scientific Visualization Evolution
+
+Status:
+
+COMPLETED
+
+## Completed
+
+### M42.1
+
+- Scientific Visualization Semantics
+- Multi-Trajectory Visualization
+- ScientificVisualizationScene
+- VisualizationTrajectoryDescriptor
+
+### M42.2
+
+- TemporalVisualizationWindow
+- VisualPoint temporal contract
+- TemporalVisualizationProjector
+- DefaultTemporalVisualizationProjector
+- VisualizationProjectionPipeline
+
+### Consensus Layer Integration
+
+- Ensemble Metric Consensus Layer operational
+- DomainPulseCandidateAdapter introduced
+- Core PulseCandidate → Domain PulseCandidate translation boundary
+- Source identity propagation through:
+  AudioStem → MetricSource → MetricContributor → Domain PulseCandidate
+- VAL-001 to VAL-004 validation flows completed
+
+## Validation
+
+- 108 tests passed
+- No architectural regressions
+
+## Notes
+
+The Visualization Layer now supports immutable,
+composable projection stages operating on
+ScientificVisualizationScene objects.
+
+Real audio visualization validation is intentionally
+deferred until the visualization layer supports
+interactive temporal exploration.
+
+------------------------------------------------------------
+M33 — COMPLETE OBSERVATION MODEL
+------------------------------------------------------------
+
+Status:
+IN PROGRESS
+
+Architectural Direction
+
+The project is evaluating the complete removal of the
+Analysis Start Filtering mechanism.
+
+Current hypothesis:
+
+The complete observable audio signal shall always be
+processed.
+
+Metric Stability is considered an observable property
+of the performance rather than a prerequisite for
+analysis.
+
+Architectural Decision
+
+AD-021
+Status: PROPOSED
+
+Validation
+
+VAL-001
+
+
+------------------------------------------------------------
+M35 — COMPLETE OBSERVATION MODEL
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Summary
+
+AD-021 has been accepted.
+
+The analytical pipeline now processes the complete
+observable musical signal.
+
+No component of the pipeline discards observations based
+on an estimated analysis starting point.
+
+Validation
+
+926 tests passed.
+
+VAL-001 passed.
+
+
+------------------------------------------------------------
+M81 — SCIENTIFIC VALIDATION ARCHITECTURE
+------------------------------------------------------------
+
+Status
+
+IN PROGRESS
+
+Completed
+
+- AD-027 Immutable Analysis Representation approved and specified.
+- Immutable boundary contract introduced between completed analysis and
+  scientific validation.
+
+Pending
+
+- Validation comparator integration.
+
+Validation
+
+- Immutable Analysis Representation contract tests passed.
+- VAL-001 scientific validation passed.
+- Full suite: 925 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
+
+
+------------------------------------------------------------
+M83 — GROUND TRUTH LAYER
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-028 M83 Ground Truth Reference approved and specified.
+- GT-VAL-001-v1 identity and VAL-001 binding preserved.
+- Authoritative MusicXML identity and checksum enforced.
+- Immutable time signature, tempo, section, instrumentation and minimum
+  metric-position representations implemented.
+- Pickup and full-measure identity mapping preserved.
+- Original MusicXML and canonical instrument designations preserved.
+- Ground Truth loader remains independent from analysis, runtime, Comparator
+  and validation outputs.
+
+Pending
+
+- Ground Truth Comparator implementation under a separate approved decision.
+
+Validation
+
+- Ground Truth focused tests: 11 passed.
+- Ground Truth plus VAL-001 scientific validation: 19 passed.
+- Full suite: 936 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
+
+
+------------------------------------------------------------
+M84 — SCIENTIFIC VALIDATION CATALOG
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-029 Scientific Validation Catalog approved and specified.
+- `JGA-VALIDATION-CATALOG-v1` introduced as an immutable asset catalogue.
+- `VAL-001` established as the first Validation Item.
+- M83 Ground Truth binding corrected from Validation Dataset identity to
+  Validation Item identity.
+- GT-VAL-001-v1, authoritative MusicXML and MP3 identities bound without
+  duplicating Ground Truth content.
+- Asset checksums and definitive repository revisions preserved.
+- Licensing status preserved explicitly as `not_specified` for both assets.
+- Existing observational `ValidationDataset` retained unchanged and
+  scientifically distinct.
+
+Pending
+
+- Comparator and validation metrics under separate approved decisions.
+
+Validation
+
+- Validation Catalog plus Ground Truth focused tests: 21 passed.
+- Validation Catalog, Ground Truth and VAL-001 scientific validation:
+  29 passed.
+- Full suite: 946 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
+
+
+------------------------------------------------------------
+M85 — SCIENTIFIC COMPARATOR
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-030 Scientific Comparator approved and specified.
+- Immutable Analysis Representation schema revision `1` and typed
+  validation-facing outputs recorded.
+- `JGA-COMPARATOR-001` schema compatibility and mandatory bindings enforced.
+- Tempo differences and incompatible beat-unit evidence preserved.
+- Exact time-signature evidence preserved without scoring.
+- Exact-name section correspondence and signed boundary/length differences
+  preserved without inference.
+- Instrument categories compared as sets without aggregate accuracy.
+- Availability states preserved without value inference.
+- Unique execution, result and evidence identities introduced.
+- Comparator output remains immutable and suitable for a later Scientific
+  Validation Record.
+
+Pending
+
+- Scientific metrics, tolerances, classifications and conclusions under
+  separate approved decisions.
+
+Validation
+
+- Comparator and validation-boundary focused tests: 23 passed.
+- Comparator through VAL-001 scientific validation: 52 passed.
+- Full suite: 967 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
+
+
+------------------------------------------------------------
+M86 — END-TO-END SCIENTIFIC VALIDATION
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- Completed Analysis to Immutable Analysis Representation materialization
+  boundary implemented for schema revision `1`.
+- Real VAL-001 audio checksum, execution provenance, configuration,
+  completeness, limitations and deterministic content fingerprint preserved.
+- Current pipeline defaults excluded from scientific outputs; all four scoped
+  quantities are explicitly represented as `NOT_PRODUCED`.
+- Runtime state does not escape the deeply immutable representation.
+
+Validation
+
+- Materializer and immutable-boundary focused tests: 12 passed.
+- Materializer through VAL-001 comparison validation: 58 passed.
+- Full suite: 973 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
+
+
+------------------------------------------------------------
+M87 — SCIENTIFIC VALIDATION RECORD
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-031 Scientific Validation Record approved and specified.
+- Immutable preservation of Comparator evidence, result and input provenance
+  implemented.
+- Validation Item, Ground Truth, analysis execution, Comparator execution,
+  protocol and schema identities preserved.
+- Analysis limitations and all Comparator availability states preserved.
+- Deterministic record identity and SHA-256 content fingerprint implemented.
+- Identity and content binding enforced before record creation.
+- Real VAL-001 end-to-end chain completed through the Scientific Validation
+  Record without metrics, tolerances, classification or conclusions.
+
+Validation
+
+- Scientific Validation Record focused and real-chain tests: 7 passed.
+- M87 boundary through VAL-001 scientific validation: 65 passed.
+- Full suite: 980 passed; one pre-existing Demucs/MPS environment integration
+  test could not execute successfully because its configured backend requires
+  macOS 14 or later.
+
+
+------------------------------------------------------------
+M90 — CONTROLLED DATASET PROVENANCE
+------------------------------------------------------------
+
+Status
+
+COMPLETED
+
+Completed
+
+- AD-033 Controlled Dataset Provenance approved and specified.
+- `CED-VAL-001`, `DGR-CED-VAL-001-001` and `PR-CED-VAL-001-001`
+  established as canonical identities.
+- Five authoritative controlled WAV stems preserved by repository-relative
+  identity and SHA-256 checksum.
+- PCM format, 24-bit depth, 44.1 kHz sample rate, stereo channel configuration,
+  sample count and duration preserved as measured Observed Facts.
+- Dataset generation and MusicXML-score-time-zero to WAV-sample-zero alignment
+  preserved explicitly as Declared Experimental Procedure.
+- Unavailable date, software-version and rendering details preserved as
+  `not specified` without inference.
+- Obsolete MP3 stems excluded from the canonical controlled dataset.
+- Ground Truth, Validation Catalog, validation execution and F-030 ownership
+  boundaries remain unchanged.
+
+Validation
+
+- Controlled asset identities, checksums and measured format verified against
+  all five repository WAV assets.
+- M85 focused validation: 23 passed.
+- M86 focused validation through the Comparator boundary: 29 passed.
+- M87 focused and real VAL-001 chain validation: 7 passed.
+- Full suite: 981 passed, one known Demucs/MPS environment integration failure,
+  and three warnings. The configured MPS backend requires macOS 14 or later.

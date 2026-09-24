@@ -1,0 +1,1630 @@
+[
+  {
+    "episode_id": "HF001",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0003"
+    ],
+    "frozen_member_ids": [
+      "BP_0003"
+    ],
+    "root_ids": [
+      "BP_0003"
+    ],
+    "frozen_root_onset_s": 47.79928843537415,
+    "fundamental_midi": 39,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q131",
+      "quarter_index": 131,
+      "measure": 33,
+      "beat": 1,
+      "PLP_time_s": 47.78666666666667,
+      "delta_B_ms": 12.621768707482772
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF003",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0005",
+      "BP_0006"
+    ],
+    "frozen_member_ids": [
+      "BP_0005",
+      "BP_0006"
+    ],
+    "root_ids": [
+      "BP_0005"
+    ],
+    "frozen_root_onset_s": 48.10114784580499,
+    "fundamental_midi": 31,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q132",
+      "quarter_index": 132,
+      "measure": 33,
+      "beat": 2,
+      "PLP_time_s": 48.15818594104309,
+      "delta_B_ms": -57.03809523809866
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF004",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0007"
+    ],
+    "frozen_member_ids": [
+      "BP_0007"
+    ],
+    "root_ids": [
+      "BP_0007"
+    ],
+    "frozen_root_onset_s": 48.577156916099774,
+    "fundamental_midi": 44,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q133",
+      "quarter_index": 133,
+      "measure": 33,
+      "beat": 3,
+      "PLP_time_s": 48.529705215419504,
+      "delta_B_ms": 47.45170068026994
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF006",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0009"
+    ],
+    "frozen_member_ids": [
+      "BP_0009"
+    ],
+    "root_ids": [
+      "BP_0009"
+    ],
+    "frozen_root_onset_s": 48.97189614512472,
+    "fundamental_midi": 33,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q134",
+      "quarter_index": 134,
+      "measure": 33,
+      "beat": 4,
+      "PLP_time_s": 48.901224489795915,
+      "delta_B_ms": 70.67165532880182
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF007",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0010"
+    ],
+    "frozen_member_ids": [
+      "BP_0010"
+    ],
+    "root_ids": [
+      "BP_0010"
+    ],
+    "frozen_root_onset_s": 49.35630929705216,
+    "fundamental_midi": 34,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q135",
+      "quarter_index": 135,
+      "measure": 34,
+      "beat": 1,
+      "PLP_time_s": 49.27274376417233,
+      "delta_B_ms": 83.56553287982393
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF008",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0012",
+      "BP_0011"
+    ],
+    "frozen_member_ids": [
+      "BP_0012",
+      "BP_0011"
+    ],
+    "root_ids": [
+      "BP_0012"
+    ],
+    "frozen_root_onset_s": 49.669778684807255,
+    "fundamental_midi": 35,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q136",
+      "quarter_index": 136,
+      "measure": 34,
+      "beat": 2,
+      "PLP_time_s": 49.64426303854875,
+      "delta_B_ms": 25.515646258504887
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF009",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0013"
+    ],
+    "frozen_member_ids": [
+      "BP_0013"
+    ],
+    "root_ids": [
+      "BP_0013"
+    ],
+    "frozen_root_onset_s": 50.052907936507935,
+    "fundamental_midi": 36,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q137",
+      "quarter_index": 137,
+      "measure": 34,
+      "beat": 3,
+      "PLP_time_s": 50.01578231292517,
+      "delta_B_ms": 37.125623582767275
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF010",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0014",
+      "BP_0015",
+      "BP_0016"
+    ],
+    "frozen_member_ids": [
+      "BP_0014",
+      "BP_0015",
+      "BP_0016"
+    ],
+    "root_ids": [
+      "BP_0014"
+    ],
+    "frozen_root_onset_s": 50.35476734693877,
+    "fundamental_midi": 28,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q138",
+      "quarter_index": 138,
+      "measure": 34,
+      "beat": 4,
+      "PLP_time_s": 50.387301587301586,
+      "delta_B_ms": -32.53424036281416
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF011",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0017"
+    ],
+    "frozen_member_ids": [
+      "BP_0017"
+    ],
+    "root_ids": [
+      "BP_0017"
+    ],
+    "frozen_root_onset_s": 51.18035963718821,
+    "fundamental_midi": 29,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q140",
+      "quarter_index": 140,
+      "measure": 35,
+      "beat": 2,
+      "PLP_time_s": 51.1071201814059,
+      "delta_B_ms": 73.23945578231417
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF013",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0021",
+      "BP_0020"
+    ],
+    "frozen_member_ids": [
+      "BP_0021",
+      "BP_0020"
+    ],
+    "root_ids": [
+      "BP_0021"
+    ],
+    "frozen_root_onset_s": 51.87695827664399,
+    "fundamental_midi": 38,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q142",
+      "quarter_index": 142,
+      "measure": 35,
+      "beat": 4,
+      "PLP_time_s": 51.85015873015873,
+      "delta_B_ms": 26.79954648525751
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF015",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0024",
+      "BP_0025",
+      "BP_0026"
+    ],
+    "frozen_member_ids": [
+      "BP_0024",
+      "BP_0025",
+      "BP_0026"
+    ],
+    "root_ids": [
+      "BP_0024",
+      "BP_0026"
+    ],
+    "frozen_root_onset_s": 52.573556916099776,
+    "fundamental_midi": 36,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_MULTIPLE_DISTINCT_ATTACKS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 2,
+    "distinct_candidate_coordinates": 2,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q144",
+      "quarter_index": 144,
+      "measure": 36,
+      "beat": 2,
+      "PLP_time_s": 52.59319727891157,
+      "delta_B_ms": -19.640362811792045
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF016",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "frozen_member_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "root_ids": [
+      "BP_0027",
+      "BP_0028"
+    ],
+    "frozen_root_onset_s": 52.887026303854874,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q145",
+      "quarter_index": 145,
+      "measure": 36,
+      "beat": 3,
+      "PLP_time_s": 52.964716553287985,
+      "delta_B_ms": -77.69024943311109
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF017",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0029"
+    ],
+    "frozen_member_ids": [
+      "BP_0029"
+    ],
+    "root_ids": [
+      "BP_0029"
+    ],
+    "frozen_root_onset_s": 53.37592925170068,
+    "fundamental_midi": 41,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q146",
+      "quarter_index": 146,
+      "measure": 36,
+      "beat": 4,
+      "PLP_time_s": 53.336235827664396,
+      "delta_B_ms": 39.69342403628673
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF018",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0030"
+    ],
+    "frozen_member_ids": [
+      "BP_0030"
+    ],
+    "root_ids": [
+      "BP_0030"
+    ],
+    "frozen_root_onset_s": 53.72422857142857,
+    "fundamental_midi": 46,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q147",
+      "quarter_index": 147,
+      "measure": 37,
+      "beat": 1,
+      "PLP_time_s": 53.707755102040814,
+      "delta_B_ms": 16.473469387754847
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF019",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0031"
+    ],
+    "frozen_member_ids": [
+      "BP_0031"
+    ],
+    "root_ids": [
+      "BP_0031"
+    ],
+    "frozen_root_onset_s": 54.40921723356009,
+    "fundamental_midi": 44,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q149",
+      "quarter_index": 149,
+      "measure": 37,
+      "beat": 3,
+      "PLP_time_s": 54.427573696145124,
+      "delta_B_ms": -18.356462585032318
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF020",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0032"
+    ],
+    "frozen_member_ids": [
+      "BP_0032"
+    ],
+    "root_ids": [
+      "BP_0032"
+    ],
+    "frozen_root_onset_s": 54.88522630385488,
+    "fundamental_midi": 43,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q150",
+      "quarter_index": 150,
+      "measure": 37,
+      "beat": 4,
+      "PLP_time_s": 54.79909297052154,
+      "delta_B_ms": 86.13333333333628
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF021",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0033"
+    ],
+    "frozen_member_ids": [
+      "BP_0033"
+    ],
+    "root_ids": [
+      "BP_0033"
+    ],
+    "frozen_root_onset_s": 55.188369614512474,
+    "fundamental_midi": 41,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q151",
+      "quarter_index": 151,
+      "measure": 38,
+      "beat": 1,
+      "PLP_time_s": 55.17061224489796,
+      "delta_B_ms": 17.757369614514573
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF022",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0034"
+    ],
+    "frozen_member_ids": [
+      "BP_0034"
+    ],
+    "root_ids": [
+      "BP_0034"
+    ],
+    "frozen_root_onset_s": 55.49022902494331,
+    "fundamental_midi": 35,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q152",
+      "quarter_index": 152,
+      "measure": 38,
+      "beat": 2,
+      "PLP_time_s": 55.54213151927438,
+      "delta_B_ms": -51.90249433106686
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF023",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0035",
+      "BP_0036"
+    ],
+    "frozen_member_ids": [
+      "BP_0035",
+      "BP_0036"
+    ],
+    "root_ids": [
+      "BP_0035"
+    ],
+    "frozen_root_onset_s": 55.87335827664399,
+    "fundamental_midi": 34,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q153",
+      "quarter_index": 153,
+      "measure": 38,
+      "beat": 3,
+      "PLP_time_s": 55.89043083900227,
+      "delta_B_ms": -17.072562358279697
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF024",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0037"
+    ],
+    "frozen_member_ids": [
+      "BP_0037"
+    ],
+    "root_ids": [
+      "BP_0037"
+    ],
+    "frozen_root_onset_s": 56.29131746031746,
+    "fundamental_midi": 44,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q154",
+      "quarter_index": 154,
+      "measure": 38,
+      "beat": 4,
+      "PLP_time_s": 56.26195011337869,
+      "delta_B_ms": 29.367346938769856
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF025",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0038"
+    ],
+    "frozen_member_ids": [
+      "BP_0038"
+    ],
+    "root_ids": [
+      "BP_0038"
+    ],
+    "frozen_root_onset_s": 56.65122675736961,
+    "fundamental_midi": 43,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q155",
+      "quarter_index": 155,
+      "measure": 39,
+      "beat": 1,
+      "PLP_time_s": 56.610249433106574,
+      "delta_B_ms": 40.97732426303935
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF026",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0039"
+    ],
+    "frozen_member_ids": [
+      "BP_0039"
+    ],
+    "root_ids": [
+      "BP_0039"
+    ],
+    "frozen_root_onset_s": 56.95437006802721,
+    "fundamental_midi": 47,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q156",
+      "quarter_index": 156,
+      "measure": 39,
+      "beat": 2,
+      "PLP_time_s": 56.98176870748299,
+      "delta_B_ms": -27.39863945578236
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF028",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0041"
+    ],
+    "frozen_member_ids": [
+      "BP_0041"
+    ],
+    "root_ids": [
+      "BP_0041"
+    ],
+    "frozen_root_onset_s": 57.314279365079365,
+    "fundamental_midi": 48,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q157",
+      "quarter_index": 157,
+      "measure": 39,
+      "beat": 3,
+      "PLP_time_s": 57.330068027210885,
+      "delta_B_ms": -15.78866213151997
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF030",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0044",
+      "BP_0045",
+      "BP_0046",
+      "BP_0047"
+    ],
+    "frozen_member_ids": [
+      "BP_0044",
+      "BP_0045",
+      "BP_0046",
+      "BP_0047"
+    ],
+    "root_ids": [
+      "BP_0044",
+      "BP_0046"
+    ],
+    "frozen_root_onset_s": 57.56969886621315,
+    "fundamental_midi": 28,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_MULTIPLE_DISTINCT_ATTACKS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 2,
+    "distinct_candidate_coordinates": 2,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q158",
+      "quarter_index": 158,
+      "measure": 39,
+      "beat": 4,
+      "PLP_time_s": 57.67836734693878,
+      "delta_B_ms": -108.66848072562618
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF031",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0048"
+    ],
+    "frozen_member_ids": [
+      "BP_0048"
+    ],
+    "root_ids": [
+      "BP_0048"
+    ],
+    "frozen_root_onset_s": 58.12697777777778,
+    "fundamental_midi": 29,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q159",
+      "quarter_index": 159,
+      "measure": 40,
+      "beat": 1,
+      "PLP_time_s": 58.026666666666664,
+      "delta_B_ms": 100.31111111111812
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF032",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0049"
+    ],
+    "frozen_member_ids": [
+      "BP_0049"
+    ],
+    "root_ids": [
+      "BP_0049"
+    ],
+    "frozen_root_onset_s": 58.44044716553288,
+    "fundamental_midi": 33,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q160",
+      "quarter_index": 160,
+      "measure": 40,
+      "beat": 2,
+      "PLP_time_s": 58.39818594104308,
+      "delta_B_ms": 42.261224489799076
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF033",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0050"
+    ],
+    "frozen_member_ids": [
+      "BP_0050"
+    ],
+    "root_ids": [
+      "BP_0050"
+    ],
+    "frozen_root_onset_s": 58.846796371882085,
+    "fundamental_midi": 46,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q161",
+      "quarter_index": 161,
+      "measure": 40,
+      "beat": 3,
+      "PLP_time_s": 58.746485260770974,
+      "delta_B_ms": 100.31111111111102
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF034",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0051",
+      "BP_0052"
+    ],
+    "frozen_member_ids": [
+      "BP_0051",
+      "BP_0052"
+    ],
+    "root_ids": [
+      "BP_0051"
+    ],
+    "frozen_root_onset_s": 58.88162630385487,
+    "fundamental_midi": 34,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q161",
+      "quarter_index": 161,
+      "measure": 40,
+      "beat": 3,
+      "PLP_time_s": 58.746485260770974,
+      "delta_B_ms": 135.14104308389818
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF035",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "frozen_member_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "root_ids": [
+      "BP_0053",
+      "BP_0054"
+    ],
+    "frozen_root_onset_s": 59.41696916099773,
+    "fundamental_midi": 39,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q163",
+      "quarter_index": 163,
+      "measure": 41,
+      "beat": 1,
+      "PLP_time_s": 59.466303854875285,
+      "delta_B_ms": -49.334693877554514
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF036",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0055"
+    ],
+    "frozen_member_ids": [
+      "BP_0055"
+    ],
+    "root_ids": [
+      "BP_0055"
+    ],
+    "frozen_root_onset_s": 59.927808163265304,
+    "fundamental_midi": 34,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q164",
+      "quarter_index": 164,
+      "measure": 41,
+      "beat": 2,
+      "PLP_time_s": 59.8378231292517,
+      "delta_B_ms": 89.98503401360125
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF037",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0056"
+    ],
+    "frozen_member_ids": [
+      "BP_0056"
+    ],
+    "root_ids": [
+      "BP_0056"
+    ],
+    "frozen_root_onset_s": 60.21805759637188,
+    "fundamental_midi": 41,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q165",
+      "quarter_index": 165,
+      "measure": 41,
+      "beat": 3,
+      "PLP_time_s": 60.20934240362812,
+      "delta_B_ms": 8.715192743757427
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF038",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0057"
+    ],
+    "frozen_member_ids": [
+      "BP_0057"
+    ],
+    "root_ids": [
+      "BP_0057"
+    ],
+    "frozen_root_onset_s": 60.67084671201814,
+    "fundamental_midi": 42,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q166",
+      "quarter_index": 166,
+      "measure": 41,
+      "beat": 4,
+      "PLP_time_s": 60.58086167800454,
+      "delta_B_ms": 89.98503401360125
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF042",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0064"
+    ],
+    "frozen_member_ids": [
+      "BP_0064"
+    ],
+    "root_ids": [
+      "BP_0064"
+    ],
+    "frozen_root_onset_s": 62.181427664399095,
+    "fundamental_midi": 52,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q170",
+      "quarter_index": 170,
+      "measure": 42,
+      "beat": 4,
+      "PLP_time_s": 62.0669387755102,
+      "delta_B_ms": 114.48888888889286
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF043",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0065"
+    ],
+    "frozen_member_ids": [
+      "BP_0065"
+    ],
+    "root_ids": [
+      "BP_0065"
+    ],
+    "frozen_root_onset_s": 62.92575011337868,
+    "fundamental_midi": 52,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q172",
+      "quarter_index": 172,
+      "measure": 43,
+      "beat": 2,
+      "PLP_time_s": 62.80997732426304,
+      "delta_B_ms": 115.77278911564548
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF045",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0067"
+    ],
+    "frozen_member_ids": [
+      "BP_0067"
+    ],
+    "root_ids": [
+      "BP_0067"
+    ],
+    "frozen_root_onset_s": 63.90098820861678,
+    "fundamental_midi": 57,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q175",
+      "quarter_index": 175,
+      "measure": 44,
+      "beat": 1,
+      "PLP_time_s": 63.901315192743766,
+      "delta_B_ms": -0.32698412698550783
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF049",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0073"
+    ],
+    "frozen_member_ids": [
+      "BP_0073"
+    ],
+    "root_ids": [
+      "BP_0073"
+    ],
+    "frozen_root_onset_s": 65.423179138322,
+    "fundamental_midi": 46,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q179",
+      "quarter_index": 179,
+      "measure": 45,
+      "beat": 1,
+      "PLP_time_s": 65.34095238095239,
+      "delta_B_ms": 82.22675736961094
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF051",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0075"
+    ],
+    "frozen_member_ids": [
+      "BP_0075"
+    ],
+    "root_ids": [
+      "BP_0075"
+    ],
+    "frozen_root_onset_s": 66.42163718820862,
+    "fundamental_midi": 46,
+    "frozen_flags": [
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q182",
+      "quarter_index": 182,
+      "measure": 45,
+      "beat": 4,
+      "PLP_time_s": 66.40907029478458,
+      "delta_B_ms": 12.566893424036607
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF053",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "frozen_member_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "root_ids": [
+      "BP_0079",
+      "BP_0080"
+    ],
+    "frozen_root_onset_s": 66.96859002267574,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q184",
+      "quarter_index": 184,
+      "measure": 46,
+      "beat": 2,
+      "PLP_time_s": 67.1288888888889,
+      "delta_B_ms": -160.2988662131537
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF054",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0081"
+    ],
+    "frozen_member_ids": [
+      "BP_0081"
+    ],
+    "root_ids": [
+      "BP_0081"
+    ],
+    "frozen_root_onset_s": 67.47942902494331,
+    "fundamental_midi": 41,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q185",
+      "quarter_index": 185,
+      "measure": 46,
+      "beat": 3,
+      "PLP_time_s": 67.47718820861678,
+      "delta_B_ms": 2.2408163265339454
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF056",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0085",
+      "BP_0086",
+      "BP_0087"
+    ],
+    "frozen_member_ids": [
+      "BP_0085",
+      "BP_0086",
+      "BP_0087"
+    ],
+    "root_ids": [
+      "BP_0085",
+      "BP_0087"
+    ],
+    "frozen_root_onset_s": 68.16441768707483,
+    "fundamental_midi": 34,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_MULTIPLE_DISTINCT_ATTACKS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 2,
+    "distinct_candidate_coordinates": 2,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q187",
+      "quarter_index": 187,
+      "measure": 47,
+      "beat": 1,
+      "PLP_time_s": 68.19700680272109,
+      "delta_B_ms": -32.589115646260325
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF057",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0088",
+      "BP_0090",
+      "BP_0089"
+    ],
+    "frozen_member_ids": [
+      "BP_0088",
+      "BP_0090",
+      "BP_0089"
+    ],
+    "root_ids": [
+      "BP_0088",
+      "BP_0090"
+    ],
+    "frozen_root_onset_s": 68.50110702947846,
+    "fundamental_midi": 36,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q188",
+      "quarter_index": 188,
+      "measure": 47,
+      "beat": 2,
+      "PLP_time_s": 68.5685260770975,
+      "delta_B_ms": -67.41904761904038
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF058",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0091"
+    ],
+    "frozen_member_ids": [
+      "BP_0091"
+    ],
+    "root_ids": [
+      "BP_0091"
+    ],
+    "frozen_root_onset_s": 68.94357006802721,
+    "fundamental_midi": 37,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q189",
+      "quarter_index": 189,
+      "measure": 47,
+      "beat": 3,
+      "PLP_time_s": 68.9168253968254,
+      "delta_B_ms": 26.744671201811343
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF059",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0093",
+      "BP_0092"
+    ],
+    "frozen_member_ids": [
+      "BP_0093",
+      "BP_0092"
+    ],
+    "root_ids": [
+      "BP_0093"
+    ],
+    "frozen_root_onset_s": 69.28025941043084,
+    "fundamental_midi": 38,
+    "frozen_flags": [
+      "HARMONIC_VS_NEW_HIGHER_FUNDAMENTAL"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q190",
+      "quarter_index": 190,
+      "measure": 47,
+      "beat": 4,
+      "PLP_time_s": 69.28834467120181,
+      "delta_B_ms": -8.085260770968716
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF061",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "frozen_member_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "root_ids": [
+      "BP_0096",
+      "BP_0097"
+    ],
+    "frozen_root_onset_s": 70.01168798185941,
+    "fundamental_midi": 46,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_MULTIPLE_DISTINCT_ATTACKS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 2,
+    "distinct_candidate_coordinates": 2,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q192",
+      "quarter_index": 192,
+      "measure": 48,
+      "beat": 2,
+      "PLP_time_s": 69.9849433106576,
+      "delta_B_ms": 26.744671201811343
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF062",
+    "route": "AMBIGUOUS_ROUTE",
+    "frozen_flag": "FLAGGED",
+    "hypothesis_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "frozen_member_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "root_ids": [
+      "BP_0098",
+      "BP_0099"
+    ],
+    "frozen_root_onset_s": 70.29032743764172,
+    "fundamental_midi": 43,
+    "frozen_flags": [
+      "FRAGMENT_OR_REARTICULATION",
+      "OVERLAPPING_FUNDAMENTAL_HYPOTHESES"
+    ],
+    "status": "ABSTAIN_NO_SELECTED_ATTACK",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q193",
+      "quarter_index": 193,
+      "measure": 48,
+      "beat": 3,
+      "PLP_time_s": 70.35646258503401,
+      "delta_B_ms": -66.13514739228776
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  },
+  {
+    "episode_id": "HF063",
+    "route": "SECURE_ROUTE",
+    "frozen_flag": "UNFLAGGED",
+    "hypothesis_ids": [
+      "BP_0100"
+    ],
+    "frozen_member_ids": [
+      "BP_0100"
+    ],
+    "root_ids": [
+      "BP_0100"
+    ],
+    "frozen_root_onset_s": 70.71989659863945,
+    "fundamental_midi": 39,
+    "frozen_flags": [],
+    "status": "ABSTAIN_AMBIGUOUS",
+    "selected_s": null,
+    "selected_BP_ids": [],
+    "successful_window_count": 0,
+    "distinct_candidate_coordinates": 0,
+    "timing_provenance": "DEMUCS_BASS_STEM_NATIVE_SPECTRAL_FRAME_CENTER",
+    "shared_within_episode": false,
+    "display_context": {
+      "nearest_PLP_quarter": "Q194",
+      "quarter_index": 194,
+      "measure": 48,
+      "beat": 4,
+      "PLP_time_s": 70.70476190476191,
+      "delta_B_ms": 15.13469387754185
+    },
+    "display_qualification": "Native BP-root location only; no acoustic timestamp or measured delta assigned."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Overtone hypothesis starts after its root",
+    "start_s": 47.98114784580499,
+    "end_s": 48.604277097505665,
+    "ids": [
+      "BP_0006"
+    ]
+  },
+  {
+    "title": "New lower root under a lingering prior-family harmonic",
+    "start_s": 58.731626303854874,
+    "end_s": 59.86696916099773,
+    "ids": [
+      "BP_0052",
+      "HF035"
+    ]
+  },
+  {
+    "title": "New lower root under a lingering prior-family harmonic",
+    "start_s": 66.51544671201813,
+    "end_s": 67.41859002267573,
+    "ids": [
+      "BP_0077",
+      "HF053"
+    ]
+  },
+  {
+    "title": "Possible same-pitch fragments; rearticulation remains uncertain",
+    "start_s": 52.45355691609978,
+    "end_s": 53.077970068027206,
+    "ids": [
+      "BP_0024",
+      "BP_0026"
+    ]
+  },
+  {
+    "title": "Possible same-pitch fragments; rearticulation remains uncertain",
+    "start_s": 52.76702630385488,
+    "end_s": 53.43787936507936,
+    "ids": [
+      "BP_0027",
+      "BP_0028"
+    ]
+  }
+]

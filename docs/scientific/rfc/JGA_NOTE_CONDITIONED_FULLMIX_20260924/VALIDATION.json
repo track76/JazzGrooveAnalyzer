@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "all_input_output_freezes_verified": true,
+  "all_original_sources_unchanged": true,
+  "native_membership_CSV_equals_frozen_JSON": true,
+  "episodes": 63,
+  "exact_native_members": 98,
+  "all_previous_query_candidate_records_retained": 3842,
+  "candidate_note_evaluations": 4532,
+  "no_candidates_regenerated_or_moved": true,
+  "all_candidates_within_original_windows": true,
+  "no_model_execution": true,
+  "PLP_denied": true,
+  "resolution_limited_templates": 59,
+  "remaining_templates_insufficient_observable_bands": 58,
+  "PDF_pages": {
+    "JGA_NOTE_CONDITIONED_FULLMIX_ATTRIBUTION_63.pdf": 63,
+    "JGA_MULTIPLE_CUE_BASS_ATTRIBUTION.pdf": 34,
+    "JGA_HF044_HF047_NOTE_ATTRIBUTION.pdf": 2
+  },
+  "pre_result_freeze_sha256": "0d7b74d4813e4d506a73c915ee5c704e21d09dbc60abe285b0afb1960359d1ba"
+}

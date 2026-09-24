@@ -1,0 +1,13 @@
+{
+  "all_entries_verified": true,
+  "authority_sha256": "2a33d8026846b83ea4e0b61b4b9d9589174f53b834e302418c0c2fe93e84f70e",
+  "checksum_set_sha256": "a81ae563cb8b7b28e8c1b4fa1fa701df299d4692f9994ae0933eb7562799dfa6",
+  "final_baseline_freeze_sha256": "31d865a6d8b48f41cab7e147b01c336bde0bc2c4ceb211a101399994bf9772d4",
+  "hash_algorithm": "SHA-256 of exact final MANIFEST.json bytes",
+  "incomplete_payload_sha256_not_final": "fd768ec83bc77a5e32938bed743edef10d1355d0c1a961c623be5ea4728b850d",
+  "manifest_entries": 516,
+  "manifest_sha256": "31d865a6d8b48f41cab7e147b01c336bde0bc2c4ceb211a101399994bf9772d4",
+  "scientific_experiments_rerun": false,
+  "status": "VERIFIED_FINAL_BASELINE_FREEZE",
+  "verification_utc": "2026-09-24T22:17:49.042641+00:00"
+}

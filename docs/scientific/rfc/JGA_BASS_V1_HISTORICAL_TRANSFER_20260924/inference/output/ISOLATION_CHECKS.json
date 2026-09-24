@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/PLP_REFERENCE.csv",
+    "read_denied": true
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_SCORE_V1/METRIC_REFERENCE.csv",
+    "read_denied": true
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_FUNDAMENTALS_NEAREST_RAW_PLP_20260924/FUNDAMENTALS_NEAREST_PLP.csv",
+    "read_denied": true
+  },
+  {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_FUNDAMENTAL_GUIDED_BASS_PROTOTYPE_20260924/JGA_BASS_ATTACKS_VS_RAW_PLP.csv",
+    "read_denied": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "clip_id": "T01",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T01.wav",
+    "audio_sha256": "3666e5e5d426fb4d70684020357d01f491582d1e764cda3387109cbd130824dc"
+  },
+  {
+    "clip_id": "T02",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T02.wav",
+    "audio_sha256": "62e17f5b05b8ea007cb1592fac3eb68bc72d27a476fb337f1e2aab9f2a28dfd5"
+  },
+  {
+    "clip_id": "T03",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T03.wav",
+    "audio_sha256": "35749ba227176914306bdef7a08784f50878c678367bcf40809af06159e35cfb"
+  },
+  {
+    "clip_id": "T04",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T04.wav",
+    "audio_sha256": "6dc976e30bb436a1eadc9f9c97eeeb8d4bf57023fbcf95d06b9dedc300d3e39e"
+  },
+  {
+    "clip_id": "T05",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T05.wav",
+    "audio_sha256": "43d2e14d8f406afa5b1d5b62e05ec8a90c4a57ddfce6c079372c2ef337cff58a"
+  },
+  {
+    "clip_id": "T06",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T06.wav",
+    "audio_sha256": "d617573185e1d653dcd16e96d9c0fceb5816320c501a90c19aa3cf6404465d7b"
+  },
+  {
+    "clip_id": "T07",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T07.wav",
+    "audio_sha256": "1f0b4fff9cf0ecc4ba0cdb3f6b7b5180de4a7c9466cf9b99874d8faa5ed0a5ce"
+  },
+  {
+    "clip_id": "T08",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T08.wav",
+    "audio_sha256": "a809a218bcbe08ce0210e322998980156616c1ca094528dfb815665b2268fe22"
+  },
+  {
+    "clip_id": "T09",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T09.wav",
+    "audio_sha256": "af23c44d3aa5e22965a6e6ba1132905929663de923345e8ae92f66f76d9d9bfe"
+  },
+  {
+    "clip_id": "T10",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T10.wav",
+    "audio_sha256": "ccf5323f5c7de0867a8ff2ad8bc1d98942d6b526462dfe78b82259f493685a91"
+  },
+  {
+    "clip_id": "T11",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T11.wav",
+    "audio_sha256": "7fe9058c85aa9e5d53e6632173afea4e30f15a5dbee5faafdfca28b2d3d5eaa4"
+  },
+  {
+    "clip_id": "T12",
+    "audio_path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_NATIVE_BP_GT_120_20260924/inference/input/T12.wav",
+    "audio_sha256": "856a8ac04628b65828bb573f063ccd4b093cece3c98707b6058abb8fadebb15b"
+  }
+]

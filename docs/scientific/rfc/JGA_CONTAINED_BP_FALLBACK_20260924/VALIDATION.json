@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "hashes_verified": true,
+  "native_windows_and_coordinates_preserved": true,
+  "independent_queries": 760,
+  "cohort_rows": 48,
+  "catastrophic_outputs": 0,
+  "previous3_all_abstain": true,
+  "GT_reveal_after_prediction_freeze": true,
+  "PDF_pages": 4
+}

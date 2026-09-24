@@ -1,0 +1,61 @@
+{
+  "utc": "2026-09-24T17:34:49.761056+00:00",
+  "verified_authorities": [
+    {
+      "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/development/output/SELECTOR_FREEZE.json",
+      "sha256": "68b04a4efc74655e88c10b813a71c96d2385c52bca76cb7219d728d9b1e3566e",
+      "files_verified": true
+    },
+    {
+      "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_CONTAINED_BP_FALLBACK_20260924/inference/output/PREDICTION_FREEZE.json",
+      "sha256": "0f4a0bf00948922aaafe1a491258ee223f563336b32a9eb383093bdc3f6c148a",
+      "files_verified": true
+    },
+    {
+      "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_BASIC_PITCH_HARMONIC_FAMILY_20260924/tracking/output/EPISODE_FREEZE.json",
+      "sha256": "ad3aa024de3b67df167e842b6b52b720fb5e8381f1739b6136005142771a49b2",
+      "files_verified": true
+    },
+    {
+      "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_BP_FRAGMENT_REARTICULATION_20260924/CLASSIFICATION_FREEZE.json",
+      "sha256": "cdfef38501c4dffa3d40ded8b3dd4ae634536b19b50bd9bde849dfdef9aa30fa",
+      "classification_verified": true,
+      "used_to_change_routing": false
+    }
+  ],
+  "source_pcm": [
+    {
+      "signal": "mix",
+      "source": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_ABLETON_TEMPO_AUTHORITY_INTEGRATION_001_20260922/CANONICAL_INPUT/Exactly_Like_You_JGA_CANONICAL_FLOAT32.wav",
+      "sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2,
+      "subtype": "FLOAT",
+      "crop_start_sample": 1984500,
+      "crop_end_sample_exclusive": 3263400,
+      "crop_identical_samples": true,
+      "coordinate_offset_samples": 0
+    },
+    {
+      "signal": "bass",
+      "source": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/bass.wav",
+      "sha256": "8ca185528ce4c50f7a318fb21e9e49ee68b76c7fbede9e7dace5b61120c46952",
+      "sample_rate": 44100,
+      "frames": 15338496,
+      "channels": 2,
+      "subtype": "FLOAT",
+      "crop_start_sample": 1984500,
+      "crop_end_sample_exclusive": 3263400,
+      "crop_identical_samples": true,
+      "coordinate_offset_samples": 0
+    }
+  ],
+  "source_origin_s": 0,
+  "source_sample_rate": 44100,
+  "native_BP_hypotheses": 98,
+  "episodes": 63,
+  "original_source_alignment": "Full stem preserves original sample coordinates; no crop-origin shift, no time or amplitude normalization added. Native frozen generator downmixes stereo by arithmetic mean exactly as during controlled study.",
+  "scope": "PROCESS-BLINDED RESTART AFTER INVESTIGATOR PLP EXPOSURE. No claim of investigator blindness. No PLP loaded during preparation.",
+  "upstream_rerun": false
+}

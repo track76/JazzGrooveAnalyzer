@@ -1,0 +1,99 @@
+{
+  "episodes": 63,
+  "counts": {
+    "TARGET_ONSET_CLEAR": 37,
+    "TARGET_ONSET_UNRESOLVED": 17,
+    "TARGET_ACTIVITY_CONTINUOUS": 5,
+    "TARGET_ONSET_MULTIPLE": 3,
+    "TARGET_NOT_OBSERVABLE": 1
+  },
+  "clear_coverage_percent": 58.73015873015873,
+  "clear_query_records_in_clear_episodes": 41,
+  "median_absolute_FM_minus_BP_ms": 42.88208616780054,
+  "secure_abstentions_with_clear": 21,
+  "secure_abstention_population": 25,
+  "previous34_multiple_cue_statuses": {
+    "TARGET_ONSET_CLEAR": 22,
+    "TARGET_ONSET_UNRESOLVED": 9,
+    "TARGET_ONSET_MULTIPLE": 1,
+    "TARGET_NOT_OBSERVABLE": 1,
+    "TARGET_ACTIVITY_CONTINUOUS": 1
+  },
+  "shared_target_onset_episodes": [
+    "HF016",
+    "HF039",
+    "HF060",
+    "HF062"
+  ],
+  "special": [
+    {
+      "episode_id": "HF044",
+      "status": "TARGET_ONSET_CLEAR",
+      "old_stem_s": 63.31174603174603,
+      "targets": [
+        {
+          "pitch": "F3",
+          "BP_onset_s": 63.18116961451247,
+          "clear_target_s": 63.173424036281176,
+          "target_minus_BP_ms": -7.745578231293848,
+          "target_minus_old_stem_ms": -138.32199546485668
+        }
+      ]
+    },
+    {
+      "episode_id": "HF045",
+      "status": "TARGET_ONSET_CLEAR",
+      "old_stem_s": null,
+      "targets": [
+        {
+          "pitch": "A3",
+          "BP_onset_s": 63.90098820861678,
+          "clear_target_s": 63.90775510204082,
+          "target_minus_BP_ms": 6.7668934240359135,
+          "target_minus_old_stem_ms": null
+        }
+      ]
+    },
+    {
+      "episode_id": "HF047",
+      "status": "TARGET_ONSET_CLEAR",
+      "old_stem_s": 64.76244897959184,
+      "targets": [
+        {
+          "pitch": "F3",
+          "BP_onset_s": 64.64402675736962,
+          "clear_target_s": 64.61015873015873,
+          "target_minus_BP_ms": -33.868027210886,
+          "target_minus_old_stem_ms": -152.29024943310776
+        }
+      ]
+    },
+    {
+      "episode_id": "HF050",
+      "status": "TARGET_ONSET_CLEAR",
+      "old_stem_s": 66.05850340136055,
+      "targets": [
+        {
+          "pitch": "D3",
+          "BP_onset_s": 66.06172789115647,
+          "clear_target_s": 66.05786848072562,
+          "target_minus_BP_ms": -3.8594104308486976,
+          "target_minus_old_stem_ms": -0.6349206349369751
+        }
+      ]
+    }
+  ],
+  "observation_freeze_sha256": "80711041115375e51390adbd07b055ded3f5e8e0da84e515ed3f75c566714814",
+  "postfreeze_acoustic_context_sha256": "495c9f7606d2dbab0186ef79619afe5d2d2d22d73ed8fc8e424fef6e8256e061",
+  "special_figure_episode_ids": [
+    "HF044",
+    "HF045",
+    "HF047",
+    "HF050",
+    "HF001",
+    "HF003",
+    "HF011",
+    "HF010",
+    "HF032"
+  ]
+}

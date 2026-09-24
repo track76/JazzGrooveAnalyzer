@@ -1,0 +1,15 @@
+{
+  "authority_hashes": {
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/development/output/SELECTOR_FREEZE.json": "68b04a4efc74655e88c10b813a71c96d2385c52bca76cb7219d728d9b1e3566e",
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_LEARNED_LOCAL_ATTACK_SELECTOR_20260924/holdout/output/PREDICTIONS_FREEZE.json": "9104836b2083e0f54b20f27a601cad2fd68d717b9c959ec4d2d8418df6d10f1b",
+    "GALLEGATI_FISHMAN_CONTINUOUS_ONSET_GT_120_V1.json": "a4047bf252f28fa3289279bdcaa5e90226dcf0af994a51e0dd5df05174484631",
+    "GT_FREEZE.json": "535e3d3d930db323320a5959da3999bc605ba278234671d0540d04b281b3ebd7"
+  },
+  "native_BP_verified": true,
+  "all_source_audio_hashes_verified": 12,
+  "candidate_population": 760,
+  "model_sha256": "6523e71a1788b05b8c112570b1dc5a20736bea33942f68ad00ffd70359fb2474",
+  "feature_and_generator_code_sha256": "ac003cdaf4799e696204d95c527ee8cb747d262d4a9e17ca80aa3669b1570b70",
+  "selector_code_sha256": "c20687006752d2ec07c0de6be12d1f7055669e387d6f8c746c76c245686c3433",
+  "reuse": "All frozen native candidate coordinates/features, no BP rerun or acoustic re-extraction. Native BP pitch fields remain untrusted hypotheses; no GT/secure label fields."
+}

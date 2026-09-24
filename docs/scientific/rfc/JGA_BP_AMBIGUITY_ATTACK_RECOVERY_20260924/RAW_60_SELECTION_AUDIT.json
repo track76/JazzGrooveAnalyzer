@@ -1,0 +1,1272 @@
+[
+  {
+    "BP_id": "T04_N020",
+    "take": "20260914_0031",
+    "selected_timestamp": 111.41541950113378,
+    "operational_group": "RG0048",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R07"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N054",
+    "take": "20260914_0031",
+    "selected_timestamp": 0.015600907029478459,
+    "operational_group": "RG0041",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N057",
+    "take": "20260914_0031",
+    "selected_timestamp": 4.529342403628117,
+    "operational_group": "RG0041",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N062",
+    "take": "20260914_0031",
+    "selected_timestamp": 0.015600907029478459,
+    "operational_group": "RG0041",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N072",
+    "take": "20260914_0031",
+    "selected_timestamp": 0.7140136054421768,
+    "operational_group": "RG0041",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N084",
+    "take": "20260914_0031",
+    "selected_timestamp": 4.676009070294785,
+    "operational_group": "RG0041",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N097",
+    "take": "20260914_0031",
+    "selected_timestamp": 2.3133786848072564,
+    "operational_group": "RG0041",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N098",
+    "take": "20260914_0031",
+    "selected_timestamp": 1.8334693877551018,
+    "operational_group": "RG0041",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N113",
+    "take": "20260914_0031",
+    "selected_timestamp": 12.924263038548753,
+    "operational_group": "RG0042",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N127",
+    "take": "20260914_0031",
+    "selected_timestamp": 12.464308390022676,
+    "operational_group": "RG0042",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N128",
+    "take": "20260914_0031",
+    "selected_timestamp": 150.6901587301587,
+    "operational_group": "RG0051",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R10"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N131",
+    "take": "20260914_0031",
+    "selected_timestamp": 10.114648526077097,
+    "operational_group": "RG0042",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N134",
+    "take": "20260914_0031",
+    "selected_timestamp": 38.00126984126984,
+    "operational_group": "RG0044",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R03"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N135",
+    "take": "20260914_0031",
+    "selected_timestamp": 44.07446712018141,
+    "operational_group": "RG0044",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R03"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N137",
+    "take": "20260914_0031",
+    "selected_timestamp": 78.25278911564625,
+    "operational_group": "RG0046",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R05"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N140",
+    "take": "20260914_0031",
+    "selected_timestamp": 99.45460317460316,
+    "operational_group": "RG0048",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R07"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N144",
+    "take": "20260914_0031",
+    "selected_timestamp": 38.86530612244898,
+    "operational_group": "RG0044",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R03"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N147",
+    "take": "20260914_0031",
+    "selected_timestamp": 105.13968253968254,
+    "operational_group": "RG0048",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R07"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N149",
+    "take": "20260914_0031",
+    "selected_timestamp": 40.70312925170068,
+    "operational_group": "RG0044",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R03"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T04_N155",
+    "take": "20260914_0031",
+    "selected_timestamp": 85.72181405895692,
+    "operational_group": "RG0047",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S1_G_MF_R06"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N002",
+    "take": "20260914_0035",
+    "selected_timestamp": 102.55455782312926,
+    "operational_group": "RG0086",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R09"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S2_D_CN_R09"
+    ],
+    "GT_errors_ms": [
+      -5.002267573686936
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N007",
+    "take": "20260914_0035",
+    "selected_timestamp": 63.425487528344675,
+    "operational_group": "RG0083",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R06"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S2_D_CN_R06"
+    ],
+    "GT_errors_ms": [
+      -4.365079365072688
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N015",
+    "take": "20260914_0035",
+    "selected_timestamp": 2.5797732426303854,
+    "operational_group": "RG0078",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S2_D_CN_R01"
+    ],
+    "GT_errors_ms": [
+      -4.252834467120437
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N017",
+    "take": "20260914_0035",
+    "selected_timestamp": 116.81814058956917,
+    "operational_group": "RG0087",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R10"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S2_D_CN_R10"
+    ],
+    "GT_errors_ms": [
+      -4.904761904754196
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N028",
+    "take": "20260914_0035",
+    "selected_timestamp": 42.71555555555556,
+    "operational_group": "RG0081",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R04"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N031",
+    "take": "20260914_0035",
+    "selected_timestamp": 116.24444444444444,
+    "operational_group": "RG0086",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R09"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N032",
+    "take": "20260914_0035",
+    "selected_timestamp": 41.39455782312925,
+    "operational_group": "RG0081",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R04"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N035",
+    "take": "20260914_0035",
+    "selected_timestamp": 18.491609977324263,
+    "operational_group": "RG0079",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R02"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T07_N036",
+    "take": "20260914_0035",
+    "selected_timestamp": 128.579410430839,
+    "operational_group": "RG0087",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S2_D_CN_R10"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N002",
+    "take": "20260914_0037",
+    "selected_timestamp": 103.00353741496598,
+    "operational_group": "RG0109",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R10"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_E_F_R10"
+    ],
+    "GT_errors_ms": [
+      -5.213151927449644
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N004",
+    "take": "20260914_0037",
+    "selected_timestamp": 91.79401360544217,
+    "operational_group": "RG0107",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R09"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_E_F_R09"
+    ],
+    "GT_errors_ms": [
+      -5.498866213159204
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N008",
+    "take": "20260914_0037",
+    "selected_timestamp": 73.94757369614513,
+    "operational_group": "RG0105",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R07"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N013",
+    "take": "20260914_0037",
+    "selected_timestamp": 47.80897959183674,
+    "operational_group": "RG0103",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R05"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_E_F_R05"
+    ],
+    "GT_errors_ms": [
+      -5.346938775502963
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N014",
+    "take": "20260914_0037",
+    "selected_timestamp": 42.78839002267574,
+    "operational_group": "RG0102",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R04"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N015",
+    "take": "20260914_0037",
+    "selected_timestamp": 37.459501133786844,
+    "operational_group": "RG0102",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R04"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_E_F_R04"
+    ],
+    "GT_errors_ms": [
+      -4.909297052158479
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N019",
+    "take": "20260914_0037",
+    "selected_timestamp": 26.200090702947847,
+    "operational_group": "RG0101",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R03"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_E_F_R03"
+    ],
+    "GT_errors_ms": [
+      -5.2244897959177194
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N027",
+    "take": "20260914_0037",
+    "selected_timestamp": 5.073106575963719,
+    "operational_group": "RG0099",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N029",
+    "take": "20260914_0037",
+    "selected_timestamp": 2.0020861678004533,
+    "operational_group": "RG0099",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_E_F_R01"
+    ],
+    "GT_errors_ms": [
+      -4.734693877550988
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N030",
+    "take": "20260914_0037",
+    "selected_timestamp": 1.476281179138322,
+    "operational_group": "RG0098",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N049",
+    "take": "20260914_0037",
+    "selected_timestamp": 47.00680272108844,
+    "operational_group": "RG0102",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R04"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N054",
+    "take": "20260914_0037",
+    "selected_timestamp": 13.71047619047619,
+    "operational_group": "RG0099",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N055",
+    "take": "20260914_0037",
+    "selected_timestamp": 97.51201814058957,
+    "operational_group": "RG0107",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R09"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N057",
+    "take": "20260914_0037",
+    "selected_timestamp": 108.55092970521542,
+    "operational_group": "RG0109",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R10"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N060",
+    "take": "20260914_0037",
+    "selected_timestamp": 79.01804988662133,
+    "operational_group": "RG0105",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R07"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N061",
+    "take": "20260914_0037",
+    "selected_timestamp": 46.71446712018141,
+    "operational_group": "RG0102",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R04"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N063",
+    "take": "20260914_0037",
+    "selected_timestamp": 1.5860317460317461,
+    "operational_group": "RG0098",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N065",
+    "take": "20260914_0037",
+    "selected_timestamp": 9.559909297052153,
+    "operational_group": "RG0099",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N069",
+    "take": "20260914_0037",
+    "selected_timestamp": 81.43455782312925,
+    "operational_group": "RG0106",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R08"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T09_N071",
+    "take": "20260914_0037",
+    "selected_timestamp": 7.401814058956917,
+    "operational_group": "RG0099",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_E_F_R01"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N002",
+    "take": "20260914_0038",
+    "selected_timestamp": 126.98004535147392,
+    "operational_group": "RG0120",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R10"
+      ],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R10"
+      ],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_A_F_R10"
+    ],
+    "GT_errors_ms": [
+      -4.766439909303699
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N004",
+    "take": "20260914_0038",
+    "selected_timestamp": 114.48244897959184,
+    "operational_group": "RG0119",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R09"
+      ],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R09"
+      ],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_A_F_R09"
+    ],
+    "GT_errors_ms": [
+      -5.471655328804559
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N006",
+    "take": "20260914_0038",
+    "selected_timestamp": 88.3548299319728,
+    "operational_group": "RG0117",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R07"
+      ],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R07"
+      ],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_A_F_R07"
+    ],
+    "GT_errors_ms": [
+      -4.74376417231781
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N010",
+    "take": "20260914_0038",
+    "selected_timestamp": 33.05351473922903,
+    "operational_group": "RG0113",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R03"
+      ],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R02",
+        "GAL09_20260914_S3_A_F_R03"
+      ],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_A_F_R03"
+    ],
+    "GT_errors_ms": [
+      -5.029478458041581
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N011",
+    "take": "20260914_0038",
+    "selected_timestamp": 33.05351473922902,
+    "operational_group": "RG0113",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R03"
+      ],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R02",
+        "GAL09_20260914_S3_A_F_R03"
+      ],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_A_F_R03"
+    ],
+    "GT_errors_ms": [
+      -5.029478458048686
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N013",
+    "take": "20260914_0038",
+    "selected_timestamp": 17.657505668934242,
+    "operational_group": "RG0113",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R02"
+      ],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R02",
+        "GAL09_20260914_S3_A_F_R03"
+      ],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_A_F_R02"
+    ],
+    "GT_errors_ms": [
+      -5.445578231292103
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N014",
+    "take": "20260914_0038",
+    "selected_timestamp": 17.657505668934242,
+    "operational_group": "RG0113",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R02"
+      ],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R02",
+        "GAL09_20260914_S3_A_F_R03"
+      ],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_A_F_R02"
+    ],
+    "GT_errors_ms": [
+      -5.445578231292103
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N016",
+    "take": "20260914_0038",
+    "selected_timestamp": 88.35482993197279,
+    "operational_group": "RG0117",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R07"
+      ],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [
+        "GAL09_20260914_S3_A_F_R07"
+      ],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [
+      "GAL09_20260914_S3_A_F_R07"
+    ],
+    "GT_errors_ms": [
+      -4.743764172332021
+    ],
+    "audit_state": "REFERENCE_TEMPORALLY_COMPATIBLE",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N017",
+    "take": "20260914_0038",
+    "selected_timestamp": 0.6810884353741496,
+    "operational_group": "RG0110",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N020",
+    "take": "20260914_0038",
+    "selected_timestamp": 78.94820861678005,
+    "operational_group": "RG0116",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": [
+        "GAL09_20260914_S3_A_F_R06"
+      ]
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  },
+  {
+    "BP_id": "T10_N024",
+    "take": "20260914_0038",
+    "selected_timestamp": 0.595283446712018,
+    "operational_group": "RG0110",
+    "cohort_direct_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "cohort_component_membership": {
+      "natural_ambiguous": [],
+      "masked_holdout": []
+    },
+    "GT_temporally_compatible_ids": [],
+    "GT_errors_ms": [],
+    "audit_state": "UNVERIFIED_RAW_SELECTION",
+    "qualification": "Temporal compatibility is supporting evidence only, not proof of independent physical attack. Raw query multiplicity retained."
+  }
+]

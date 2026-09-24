@@ -1,3 +1,21 @@
+# Current authoritative checkpoint — best validated Bass baseline · 2026-09-25
+
+**BEST VALIDATED BASS BASELINE — CURRENT BEST VALIDATED BASS ATTACK BASELINE.** PI-selected [baseline authority](scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924.md). Audio → Spotify Basic Pitch → native note identity and approximate onset → fixed ±150 ms local window → acoustic candidates → frozen JGA Learned Local Attack Selector → selected attack / abstain.
+
+**Controlled Gallegati/Fishman holdout: 35/40 = 87.5%; median absolute error 5.213 ms; P95 absolute error 5.621 ms; 100% of selected within ±10 ms.** This validates recognized-note-conditioned local selection, not autonomous Bass identity or cross-domain generalization. [Contained fallback](scientific/rfc/JGA_CONTAINED_BP_FALLBACK_20260924/RESULT.md) is secondary validation: independent windows only; distinct attacks trigger abstention. Do not pool its statistics with the primary35/40baseline.
+
+**Definitive baseline freeze SHA-256:** `31d865a6d8b48f41cab7e147b01c336bde0bc2c4ceb211a101399994bf9772d4`. [Final manifest](scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924/MANIFEST.json) · [verified digest receipt](scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924/FINAL_FREEZE.json). The older fd768ec83bc77a5e32938bed743edef10d1355d0c1a961c623be5ea4728b850d hash is an incomplete payload, NOT this milestone.
+
+**Historical Bass microtiming NOT finalized.** [Direct Exactly Like You transfer](scientific/rfc/JGA_BASS_V1_HISTORICAL_TRANSFER_20260924/JGA_BASS_V1_HISTORICAL_REPORT.md) recovered only17/63episodes with46abstentions; its walking structure is insufficiently recovered. Fishman→historical/Demucs domain shift remains important. [Targeted-pitch full-mix diagnostic](scientific/rfc/JGA_TARGETED_PITCH_ONSET_20260924/RESULT.md) reached37/63CLEAR=58.73%, explicitly NOT GT validated. These are research evidence, not replacement authorities. Bass-v1 historical milestone is NOT complete; prior Report001 stays unchanged within its historical operational scope.
+
+**Do not restart Bass development from scratch.** Preserve the frozen Learned Local Attack Selector as the mandatory comparison baseline. Future methods are extensions/improvements and must report baseline modification, controlled coverage, median/P95 absolute error,±10ms, abstention, cross-domain/historical coverage and any timing-precision cost. Visual plausibility cannot supersede independent controlled validation. **Next scientific goal: improve cross-domain/historical coverage while preserving the frozen controlled baseline.** New scientific execution requires separate PI authorization.
+
+RAW PLP remains temporal authority for quarter reference; PLP must not guide acoustic attack selection. Historical attack timestamps must be frozen before PLP evaluation. Full mix remains original audio authority; stems are complementary source/identity evidence. This closure changes documentary authority/preservation only; no scientific rerun, model update or timestamp correction.
+
+---
+
+## Preserved prior checkpoints — historical scopes unchanged
+
 # Current authoritative checkpoint — Historical Report 001 completed · 2026-09-23
 
 **Final musicological output frozen — 2026-09-23.** [JGA Musicological Report Format v1](historical_reports/formats/JGA_MUSICOLOGICAL_REPORT_FORMAT_V1/JGA_MUSICOLOGICAL_REPORT_FORMAT_V1.md) is the standard musician-facing output; [Historical Report 001 final report](historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_SCORE_V1/FINAL_MUSICOLOGICAL_REPORT.md) and its 15-page A4 Microtiming Score are the reference example. PI_METRIC_ANCHOR: unchanged PLP Q3 at 0.8126984126984127 s is M1/Beat 1. PI-authorized 32-quarter elapsed-span BPM provides the local tempo curve, separate from the existing central statistic. Native/source evidence and P01–P21 remain unchanged; unresolved Dual stays gray. No form analysis or new inference. JGA v1 methodology remains CLOSED. Next: historical-jazz corpus analysis using the frozen format; non-specialist explanatory page remains deferred. Earlier endpoint/metric ambiguity is superseded by this explicit PI annotation, not silently revised.
