@@ -1,0 +1,28 @@
+{
+  "source": "docs/historical_reports/JGA_HISTORICAL_REPORT_001/data/global__PLP_REFERENCE.csv",
+  "field": "local_bpm",
+  "selection": "native rows with time_seconds in [Q131,Q195)",
+  "start_s": 47.78666666666667,
+  "end_exclusive_s": 71.07628117913832,
+  "first_native_row": {
+    "beat_index": "130",
+    "time_seconds": "47.78666666666667",
+    "local_bpm": "161.49902343749977",
+    "original_PLP_index": "130"
+  },
+  "last_native_row": {
+    "beat_index": "193",
+    "time_seconds": "70.70476190476191",
+    "local_bpm": "161.49902343750287",
+    "original_PLP_index": "193"
+  },
+  "first_BPM": 161.49902343749977,
+  "last_BPM": 161.49902343750287,
+  "delta_BPM": 3.097966327914037e-12,
+  "reader_text": "BPM interno: 161.50 → 161.50 · invariato",
+  "global_median_BPM": 161.49902343750287,
+  "global_median_definition": "median904elementaryintervalBPM",
+  "rolling32interval_BPM_not_substituted": true,
+  "delta_at_display_precision_BPM": 0.0,
+  "precision_note": "Native first/last values and raw difference retained; invariato refers only to approved 0.01BPM display precision, avoiding floating-point +0.00 increase."
+}

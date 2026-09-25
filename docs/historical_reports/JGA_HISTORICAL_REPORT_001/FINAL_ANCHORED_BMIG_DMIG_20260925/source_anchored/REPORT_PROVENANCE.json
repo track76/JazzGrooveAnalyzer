@@ -1,0 +1,24 @@
+{
+  "UTC": "2026-09-25T19:19:07.812837+00:00",
+  "git_HEAD": "44c2b8ac2f0413d6b0a549ca1629acc750b0f5e6",
+  "input_hashes": {
+    "docs/scientific/rfc/JGA_MEASURE_INTERNAL_PULSE_GRID_20260925/MANIFEST.json": "d9171eee1cd8ef6b20a69f41a1f835a0e44fefa0173c8d5d87a3c7f3dd02398c",
+    "docs/scientific/rfc/JGA_CONTINUOUS_BMIG_DMIG_16_MEASURES_20260925/MANIFEST.json": "da1d704b8716aed7abc30b8f94f42c932c671ad72d95a16d21088e5e633272e7",
+    "docs/scientific/rfc/JGA_BMIG_DMIG_FINAL_SCORE_REVIEW_20260925/MANIFEST.json": "3655ca6e0402ba456319d4b8dde6852eb180a3c00406b0d5c3e7d02653a92087",
+    "docs/scientific/rfc/JGA_MEASURE_INTERNAL_PULSE_GRID_20260925/EVENT_PROVENANCE_127.csv": "9290ab62ae70ea29694d99980083c562c4263c954569e6d45c2aeb841027e8b9",
+    "docs/scientific/rfc/JGA_MEASURE_INTERNAL_PULSE_GRID_20260925/MEASURE_INTERNAL_GRID_M33_M48.csv": "da0c97f339624bd9b1c642e4ab8bfda0454eee7150ecc26a435b380d6e159538",
+    "docs/scientific/rfc/JGA_MEASURE_INTERNAL_PULSE_GRID_20260925/MEASURE_INTERNAL_GRID_RESULTS.csv": "41819021b01a5402858f8d8287670bc9f2956ece91b78e0079abefe1d1224e1b",
+    "docs/scientific/rfc/JGA_CONTINUOUS_BMIG_DMIG_16_MEASURES_20260925/CONTINUOUS_BMIG_DMIG_Q131_Q194.csv": "df537d30b9d4b57a8b402009260d047edd91e5e8cb1ffe75e229770760d6a32b",
+    "docs/scientific/rfc/JGA_BMIG_DMIG_FINAL_SCORE_REVIEW_20260925/JGA_BMIG_DMIG_FINAL_SCORE_REVIEW.pdf": "ffd4ec308cebf15dc9940977d258af8fa17fcd674b39b52a87b33ac5abc7b4c5",
+    "docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_SCORE_V1/METRIC_REFERENCE.csv": "15aca782227893092b962fe8b9ea9d67e2194f9f967a6634f80b2fbf92b00fd6",
+    "docs/historical_reports/JGA_HISTORICAL_REPORT_001/data/global__PLP_REFERENCE.csv": "b6ed2a669b4e7d9b9fbcdd43618d0c801f5d4bfd60225b54e81415edee8e1666",
+    "JGA_BOOTSTRAP.md": "60a13d455f88a0e58e473310e5cc3b0d8f5f0608bb82150fa044fefca99b2d36"
+  },
+  "protocol_sha256": "bde8fb3fde2a33afc648668b5e5d5ad0e8e028311c37bc092d668ccb71b0bf2b",
+  "independent_receipt": "INDEPENDENT_GRID_RECEIPT.json",
+  "all_observed_strings_preserved": true,
+  "new_audio_inference": false,
+  "no_final_authority_promotion": true,
+  "candidate_generation_stopped": true,
+  "stop_reason": "Approved six-measure +1.6ms sentence not supported by new result"
+}

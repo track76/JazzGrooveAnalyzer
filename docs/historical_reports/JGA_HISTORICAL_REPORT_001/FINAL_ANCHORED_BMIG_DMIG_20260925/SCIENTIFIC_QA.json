@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "coordinates_equal_adopted_source": true,
+  "fits_rerun": false,
+  "BMIG_count": 64,
+  "DMIG_count": 64,
+  "BMIG_monotonic": true,
+  "DMIG_monotonic": true,
+  "midpoint_arithmetic": "PASS",
+  "clean_six_median_ms": 8.886246628359018,
+  "source_integrity_audit": "source_anchored/SCIENTIFIC_QA.json",
+  "previous_text_gate_superseded_by_explicit_PI_adoption": true,
+  "no_physical_validation_claim": true,
+  "normal_equations_without_refitting": "PASS",
+  "all_rendered_positions_match_source": true,
+  "reader_text_exact": true,
+  "source_and_mirror_hashes_verified": true
+}

@@ -1,0 +1,100 @@
+{
+  "model": "Quarter soft anchors with local second-difference penalty lambda=1/16; fixed before results",
+  "BMIG_coverage": 64,
+  "DMIG_coverage": 64,
+  "measures_each": 16,
+  "integrity_gate": "PASS",
+  "independence_counterpart_perturbation_test": "PASS",
+  "instruments": {
+    "BASS": {
+      "anchors": 56,
+      "median_signed_residual_ms": -0.6489235924291847,
+      "median_absolute_residual_ms": 6.9113066391963685,
+      "MAD_ms": 7.2687574380090325,
+      "max_absolute_residual_ms": 36.07968545800588,
+      "min_quarter_ms": 234.40675705171543,
+      "median_quarter_ms": 362.6005126233878,
+      "max_quarter_ms": 508.87101860431727,
+      "implied_BPM_min": 117.90807062379433,
+      "implied_BPM_max": 255.96531753034168,
+      "max_duration_change_ms": 227.4971971757509,
+      "strictly_increasing": true
+    },
+    "DRUM": {
+      "anchors": 49,
+      "median_signed_residual_ms": 0.29940199254241406,
+      "median_absolute_residual_ms": 1.731880599763258,
+      "MAD_ms": 1.7366155447646747,
+      "max_absolute_residual_ms": 23.732351672371976,
+      "min_quarter_ms": 295.96638794269836,
+      "median_quarter_ms": 367.1305163500591,
+      "max_quarter_ms": 427.45008414255636,
+      "implied_BPM_min": 140.36726678942412,
+      "implied_BPM_max": 202.7257230696633,
+      "max_duration_change_ms": 116.93442425031719,
+      "strictly_increasing": true
+    }
+  },
+  "comparison_all_existing_old_grids": {
+    "BASS": {
+      "N": 56,
+      "median_signed_ms": -0.8980687876132265,
+      "median_absolute_ms": 10.961753123801543,
+      "Q1_absolute_ms": 4.267272306273995,
+      "Q3_absolute_ms": 26.04574027824036,
+      "max_absolute_ms": 93.57586208223267,
+      "max_measure": "M46",
+      "max_quarter": "Q183"
+    },
+    "DRUM": {
+      "N": 40,
+      "median_signed_ms": -0.5358781421556102,
+      "median_absolute_ms": 3.618231229008728,
+      "Q1_absolute_ms": 1.6273080462116951,
+      "Q3_absolute_ms": 8.858408113660232,
+      "max_absolute_ms": 66.81438683119012,
+      "max_measure": "M39",
+      "max_quarter": "Q157"
+    }
+  },
+  "comparison_previous_common10": {
+    "BASS": {
+      "N": 40,
+      "median_signed_ms": -0.8980687876132265,
+      "median_absolute_ms": 10.961753123801543,
+      "Q1_absolute_ms": 5.34558530492113,
+      "Q3_absolute_ms": 28.43323526492547,
+      "max_absolute_ms": 93.57586208223267,
+      "max_measure": "M46",
+      "max_quarter": "Q183"
+    },
+    "DRUM": {
+      "N": 40,
+      "median_signed_ms": -0.5358781421556102,
+      "median_absolute_ms": 3.618231229008728,
+      "Q1_absolute_ms": 1.6273080462116951,
+      "Q3_absolute_ms": 8.858408113660232,
+      "max_absolute_ms": 66.81438683119012,
+      "max_measure": "M39",
+      "max_quarter": "Q157"
+    }
+  },
+  "six_complete": {
+    "N": 6,
+    "old_median_ms": 1.5783824640962507,
+    "anchored_median_ms": 8.886246628359018,
+    "signed_change_ms": 7.307864164262767,
+    "Bass_ahead": 2,
+    "Bass_behind": 4,
+    "exact": 0
+  },
+  "all16": {
+    "median_ms": 17.812112077741915,
+    "Bass_ahead": 2,
+    "Bass_behind": 14,
+    "exact": 0
+  },
+  "candidate_report_gate": "BLOCKED_APPROVED_PLUS_1_6_STATEMENT_NOT_SUPPORTED",
+  "musicological_reading_preserved": "NOT_ESTABLISHED_NO_AUTHORIZATION_TO_REUSE_TEXT",
+  "final_report_candidate_generated": false
+}

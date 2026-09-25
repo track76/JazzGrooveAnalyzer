@@ -12,6 +12,27 @@
 
 RAW PLP remains temporal authority for quarter reference; PLP must not guide acoustic attack selection. Historical attack timestamps must be frozen before PLP evaluation. Full mix remains original audio authority; stems are complementary source/identity evidence. This closure changes documentary authority/preservation only; no scientific rerun, model update or timestamp correction.
 
+## CONTINUOUS EXTERNAL BACKUP AUTHORITY
+
+**Permanent PI operational directive, effective 2026-09-25.** Approved external root:
+`/Volumes/HD BackUp/JGA_BACKUP`; persistent current mirror:
+`/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_CURRENT/`. Preserve repository-relative
+paths. [Complete policy](project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md) and
+[completion-gate utility](../tools/continuous_backup.py).
+
+Before writing, verify the external volume is mounted and writable. Every relevant
+completed, closed, atomically written local file must immediately be copied and
+SHA-256 verified against its external copy before continuing dependent work.
+Back up multi-file outputs incrementally, then verify inventory. Maintain append-only
+`BACKUP_LOG.jsonl` in the mirror. Before commit verify intended staged files.
+Copy/update only: no automatic deletion of orphaned backups, no destructive sync.
+
+If unavailable, report **CONTINUOUS EXTERNAL BACKUP UNAVAILABLE** and ask PI to
+authorize explicit local backup debt or stop until available. Do not choose silently.
+Hash mismatch: **BACKUP VERIFICATION FAILURE**, stop dependent work and report.
+CURRENT protects between commits; separate immutable/versioned milestone backups
+remain mandatory at major freezes. This supplements Git, never replaces it.
+
 ---
 
 ## Preserved prior checkpoints — historical scopes unchanged

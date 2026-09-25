@@ -14,6 +14,18 @@ The next scientific action requires separate PI authorization; recovery grants n
 Consult Git for current branch/commit; no commit identity is embedded here.
 
 
+# Current authority — final anchored Historical Report 001 · 2026-09-25
+
+The PI closed BMIG/DMIG model experimentation and adopted the completed anchored quarter-level, instrument-independent reconstruction. The [final report](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_ANCHORED_BMIG_DMIG_20260925/JGA_FINAL_REPORT.pdf) is the current final visual/report authority for Ray Brown Trio — Exactly Like You, M33–M48, Q131–Q194. [Freeze record](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_ANCHORED_BMIG_DMIG_20260925/FREEZE_RECORD.json) and [manifest](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_ANCHORED_BMIG_DMIG_20260925/MANIFEST.json) certify the payload following PDF, visual, scientific-integrity and external-backup verification.
+
+BMIG64/64; DMIG64/64; 16/16measures. Bass56anchors, Drum49anchors. Clean complete-observation six-measure median **+8.886246628359018ms**, positive = Bass behind. Reader interpretation: strongly cohesive, closely aligned pulse, Bass slightly behind within this subset only. The earlier +1.578ms belongs exclusively to the previous measure-level model and is not the final anchored result. No new fitting or audio inference was performed for finalization.
+
+Final architecture: A4 portrait, four measures per system, frozen global BPM curve and extrema, Mediana BPM161.5 (exact161.49902343750287), BMIGblue solid, DMIGorange dashed, original observed○/◆, lowerQ/time references, B/D midpoint labels. First/last selected native BPM both161.50at display precision: invariato. No event-levelΔBD principal score. All mathematical grid points remain distinct from observed onsets.
+
+**Canonical software requirement — ANALYSIS RANGE:** [ TUTTO IL BRANO ] or [ DA MM:SS.xx ] → [ A MM:SS.xx ]. All subsequent analysis/reporting respects and identifies the selected interval. No GUI implementation is authorized by this record.
+
+This supersedes prior report-status statements only for this selected passage/report authority. Historical experiments and prior report freezes remain evidence. It does not claim historical attack Ground Truth validation, replace the controlled Learned Selector baseline, or promote the Drum diagnostic cohort to validated detector authority. [Technical method and limitations](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_ANCHORED_BMIG_DMIG_20260925/FINAL_TECHNICAL_METHOD.md). Further model experimentation requires a new PI decision.
+
 # Current authoritative checkpoint — best validated Bass baseline · 2026-09-25
 
 **BEST VALIDATED BASS BASELINE — CURRENT BEST VALIDATED BASS ATTACK BASELINE.** PI-selected [baseline authority](docs/scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924.md). Audio → Spotify Basic Pitch → native note identity and approximate onset → fixed ±150 ms local window → acoustic candidates → frozen JGA Learned Local Attack Selector → selected attack / abstain.
@@ -27,6 +39,27 @@ Consult Git for current branch/commit; no commit identity is embedded here.
 **Do not restart Bass development from scratch.** Preserve the frozen Learned Local Attack Selector as the mandatory comparison baseline. Future methods are extensions/improvements and must report baseline modification, controlled coverage, median/P95 absolute error,±10ms, abstention, cross-domain/historical coverage and any timing-precision cost. Visual plausibility cannot supersede independent controlled validation. **Next scientific goal: improve cross-domain/historical coverage while preserving the frozen controlled baseline.** New scientific execution requires separate PI authorization.
 
 RAW PLP remains temporal authority for quarter reference; PLP must not guide acoustic attack selection. Historical attack timestamps must be frozen before PLP evaluation. Full mix remains original audio authority; stems are complementary source/identity evidence. This closure changes documentary authority/preservation only; no scientific rerun, model update or timestamp correction.
+
+## CONTINUOUS EXTERNAL BACKUP AUTHORITY
+
+**Permanent PI operational directive, effective 2026-09-25.** Approved external root:
+`/Volumes/HD BackUp/JGA_BACKUP`; persistent current mirror:
+`/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_CURRENT/`. Preserve repository-relative
+paths. [Complete policy](docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md) and
+[completion-gate utility](tools/continuous_backup.py).
+
+Before writing, verify the external volume is mounted and writable. Every relevant
+completed, closed, atomically written local file must immediately be copied and
+SHA-256 verified against its external copy before continuing dependent work.
+Back up multi-file outputs incrementally, then verify inventory. Maintain append-only
+`BACKUP_LOG.jsonl` in the mirror. Before commit verify intended staged files.
+Copy/update only: no automatic deletion of orphaned backups, no destructive sync.
+
+If unavailable, report **CONTINUOUS EXTERNAL BACKUP UNAVAILABLE** and ask PI to
+authorize explicit local backup debt or stop until available. Do not choose silently.
+Hash mismatch: **BACKUP VERIFICATION FAILURE**, stop dependent work and report.
+CURRENT protects between commits; separate immutable/versioned milestone backups
+remain mandatory at major freezes. This supplements Git, never replaces it.
 
 ## Recovery references
 
@@ -43,3 +76,4 @@ RAW PLP remains temporal authority for quarter reference; PLP must not guide aco
 - [docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/README.md](docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/README.md)
 - [docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md](docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md)
 - [docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json](docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json)
+- [docs/project/JGA_FINAL_ANCHORED_REPORT_CHECKPOINT_20260925.md](docs/project/JGA_FINAL_ANCHORED_REPORT_CHECKPOINT_20260925.md)

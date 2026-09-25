@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "black_and_white": "PASS",
+  "review": "All two PDF-rendered pages inspected, plus grayscale page 1. Page 2 is monochrome. Native line/event positions checked from render logs.",
+  "pages": 2,
+  "A4_portrait": true,
+  "four_measures_per_system": true,
+  "grid_lines": 128,
+  "onsets_rendered": 127,
+  "B_D_font_pt": 5.5,
+  "onset_sizes_points_squared": [
+    15,
+    8
+  ],
+  "BPM_curve_and_extrema_preserved": true,
+  "native_temporal_geometry": true,
+  "no_full_height_quarter_lines": true,
+  "no_event_delta_labels": true,
+  "all_64_B_D_labels": true,
+  "no_clipping_or_label_overlap_observed": true,
+  "reader_text_exact": true
+}

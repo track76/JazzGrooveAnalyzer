@@ -1,6 +1,10 @@
 {
   "sections": [
     {
+      "path": "docs/project/JGA_FINAL_ANCHORED_REPORT_CHECKPOINT_20260925.md",
+      "current_section_only": false
+    },
+    {
       "path": "docs/JGA_PROJECT_STATE.md",
       "current_section_only": true
     }
@@ -18,6 +22,7 @@
     "docs/scientific/rfc/JGA_SINGLE_ROOT_BOOTSTRAP_MIGRATION_20260922/PRESERVATION_FREEZE.json",
     "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/README.md",
     "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md",
-    "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json"
+    "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json",
+    "docs/project/JGA_FINAL_ANCHORED_REPORT_CHECKPOINT_20260925.md"
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "preregistered_protocol_sha256": "908c1995150bc3290a7eab8bbf28813c6eb96313abf8ca90f2afd1bcccb67568",
+  "selected": [
+    {
+      "kind": "MAX",
+      "index": 517,
+      "time_s": 194.10721088435375,
+      "BPM": 169.78952772073907,
+      "prominence_BPM": 9.542434697483316,
+      "label_visible": true
+    },
+    {
+      "kind": "MIN",
+      "index": 670,
+      "time_s": 250.20662131519276,
+      "BPM": 159.3208092485543,
+      "prominence_BPM": 5.724100931086781,
+      "label_visible": true
+    },
+    {
+      "kind": "MIN",
+      "index": 109,
+      "time_s": 46.60244897959184,
+      "BPM": 160.24709302325576,
+      "prominence_BPM": 4.797817156385008,
+      "label_visible": true
+    },
+    {
+      "kind": "MAX",
+      "index": 278,
+      "time_s": 107.84507936507937,
+      "BPM": 167.72312373225162,
+      "prominence_BPM": 3.3344557402042483,
+      "label_visible": true
+    }
+  ],
+  "central_line_definition": "Median of 904 raw inter-reference BPM = median(60/diff(reference_seconds)); not median or mean of plotted 32-quarter BPM curve.",
+  "central_BPM": 161.49902343750287,
+  "curve_values_unchanged": true
+}

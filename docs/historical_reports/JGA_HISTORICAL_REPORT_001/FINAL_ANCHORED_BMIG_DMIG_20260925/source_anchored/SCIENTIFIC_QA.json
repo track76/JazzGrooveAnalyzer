@@ -1,0 +1,19 @@
+{
+  "objective_integrity": "PASS",
+  "coverage_each": 64,
+  "measures_each": 16,
+  "strictly_increasing_each": true,
+  "independent_augmented_least_squares_verification": "PASS",
+  "observed_timestamps_preserved": true,
+  "observed_events_invented": false,
+  "mixed_support_logic_verified": true,
+  "M42_Q1_Q2_Q3_verified": true,
+  "M47_Q3_verified": true,
+  "cross_instrument_input": false,
+  "direct_delta_interpolation": false,
+  "preregistered_before_comparison": true,
+  "midpoint_arithmetic": "PASS",
+  "candidate_report_gate": "BLOCKED",
+  "physical_pulse_validity": "NOT_ESTABLISHED",
+  "abrupt_duration_changes_preserved": true
+}

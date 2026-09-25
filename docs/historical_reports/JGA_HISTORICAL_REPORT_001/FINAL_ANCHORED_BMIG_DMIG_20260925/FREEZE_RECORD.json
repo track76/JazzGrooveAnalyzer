@@ -1,0 +1,28 @@
+{
+  "status": "FROZEN",
+  "UTC": "2026-09-25T19:43:16.698313+00:00",
+  "authority": "Explicit final PI adoption 2026-09-25",
+  "manifest_sha256": "e13293034b1226a0771546b4332552f4aaa4d9e50d0a9ccab4344eeba0be975c",
+  "checksum_file_sha256": "e559bb6c26b7a1f7119cf50a4016b5e3dfd4d836b25a4a13eb783e1a8f364042",
+  "PDF_sha256": "90bad28b7a1ed801cb30ea6ee803bf8ccd0eb7763dbc8c124cae3dcbca57d836",
+  "visual_QA": "PASS",
+  "black_and_white_QA": "PASS",
+  "scientific_integrity_QA": "PASS",
+  "source_and_external_mirror_payload_verification": "PASS",
+  "method": "ANCHORED BMIG/DMIG; exact adopted protocol; no new fit",
+  "coverage_each": 64,
+  "measures_each": 16,
+  "clean_six_median_ms": 8.886246628359018,
+  "frozen_scope": [
+    "protocol",
+    "coordinates",
+    "sign convention",
+    "midpoint display",
+    "visual grammar",
+    "frozen BPM authority",
+    "approved reader text",
+    "analysis range requirement"
+  ],
+  "physical_GT_validation_claim": false,
+  "history_preserved": true
+}

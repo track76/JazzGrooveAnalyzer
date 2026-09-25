@@ -87,3 +87,15 @@ cross-reference verification and unresolved inconsistencies.
 - `docs/JGA_DECISIONS.md`
 - `docs/JGA_PROJECT_STATE.md`
 - `docs/TOOLCHAIN/DEVELOPER_TOOLCHAIN.md`
+
+## Permanent continuous external backup gate
+
+Before every writing workflow, read
+`docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md` and run
+`python3 tools/continuous_backup.py check`. After each relevant file is fully
+closed and atomically installed, immediately copy/hash-verify it with
+`python3 tools/continuous_backup.py files <repository-relative-path>` before
+dependent work. Back up batch outputs incrementally and inventory after the batch.
+Before commit run `python3 tools/continuous_backup.py staged`. Never delete mirror
+orphans. If unavailable, report CONTINUOUS EXTERNAL BACKUP UNAVAILABLE and ask PI
+about stopping versus explicit backup debt; never silently continue.
