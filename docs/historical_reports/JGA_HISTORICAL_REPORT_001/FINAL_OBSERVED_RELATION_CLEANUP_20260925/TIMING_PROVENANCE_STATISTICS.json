@@ -1,0 +1,23 @@
+{
+  "scope": "Technical stratification of observed-support grid relations; C approximate physical timing, no superiority inferred from smaller distance",
+  "classes": {
+    "A": {
+      "N": 9,
+      "median_ms": 48.01651147815278,
+      "Bass_ahead": 0,
+      "Bass_behind": 9
+    },
+    "B": {
+      "N": 23,
+      "median_ms": -0.5010366254367682,
+      "Bass_ahead": 12,
+      "Bass_behind": 11
+    },
+    "C": {
+      "N": 11,
+      "median_ms": -2.0852828779638344,
+      "Bass_ahead": 6,
+      "Bass_behind": 5
+    }
+  }
+}

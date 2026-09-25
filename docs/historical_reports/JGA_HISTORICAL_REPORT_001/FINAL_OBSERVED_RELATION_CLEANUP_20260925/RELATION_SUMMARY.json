@@ -1,0 +1,17 @@
+{
+  "observed_N": 43,
+  "total_quarters": 64,
+  "observed_median_GRID_DELTA_ms": 16.93349208519379,
+  "Bass_ahead": 18,
+  "Bass_behind": 25,
+  "exact": 0,
+  "reconstructed_context_only": 4,
+  "unsupported_relations_removed": 17,
+  "previously_unsupported_normal_values_reclassified": 21,
+  "reconstructed_in_primary": false,
+  "sign": "BMIG-DMIG; negative Bass ahead, positive Bass behind",
+  "primary_unit": "one quarter with both observed representatives; model-derived grid difference, not an observed onset difference",
+  "stable_directional_inference": "No inferential stability test; descriptive median positive with both signs present",
+  "reader_paragraph": "Nella selezione analizzata, le pulsazioni di contrabbasso e batteria risultano complessivamente ravvicinate. Nei 43 quarti con attacchi osservati di entrambi gli strumenti, la differenza mediana tra le griglie è +16,9 ms, con il contrabbasso leggermente arretrato. La presenza di anticipi e ritardi non indica una posizione uniformemente avanzata o arretrata.",
+  "top_summary": "BPM interno medio: 164,5 · Variazione BPM: +6,8 BPM · Contrabbasso–Batteria: mediana +16,9 ms, Bass dietro"
+}

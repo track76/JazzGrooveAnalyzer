@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN — STOP",
+  "UTC": "2026-09-25T20:46:19.416508+00:00",
+  "PI_final_relation_rule": "Observed Bass+Drum same-quarter representatives; exactly3of4 permits single reconstructed contextual quarter; reconstructed excluded from primary stats",
+  "manifest_sha256": "f1fba593cc39dcce4f2ac6344123181ed7b8a9c2bd5711068c5e435d59178fdd",
+  "checksum_file_sha256": "6d26e5ee20cecac8e17cc60e052c264e7fba152bb841ca6a252147ed2f0c04c5",
+  "PDF_sha256": "7cb2ef38897703cd33d4ab423250a02f23c0bb387ca344c5a392a0883884e450",
+  "scientific_QA": "PASS",
+  "visual_QA": "PASS",
+  "BW_QA": "PASS",
+  "completed_payload_external_hash_verification": "PASS",
+  "observed_N": 43,
+  "reconstructed_N": 4,
+  "primary_median_ms": 16.93349208519379,
+  "square_definition": "reconstructed quarter",
+  "model_reopened": false,
+  "BPM_unchanged": true,
+  "next_scientific_work": "2026-09-30 TARGETED DRUM ATTACK RECOVERY",
+  "execute_next_task_now": false
+}

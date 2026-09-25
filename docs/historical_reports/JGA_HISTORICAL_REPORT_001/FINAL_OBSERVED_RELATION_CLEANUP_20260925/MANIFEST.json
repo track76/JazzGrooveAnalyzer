@@ -1,0 +1,131 @@
+{
+  "entries": [
+    {
+      "relative_path": "BPM_AUTHORITY_SNAPSHOT.json",
+      "sha256": "e25a2d2f0f6ce6a5a52a618ba45b593d82feff55b36101cfe830a25b282f8d4a",
+      "size_bytes": 1848
+    },
+    {
+      "relative_path": "COMPLETION_AUDIT.csv",
+      "sha256": "4cf233b3fc46c0428611d02721c5154ae1a7d809e14129d2a2091b5afaf42523",
+      "size_bytes": 732
+    },
+    {
+      "relative_path": "FINAL_BPM_SUMMARY.json",
+      "sha256": "ca74022dc89db853e1790b6433dade962b893d30c7b2fc24f9a5c86b62c223f1",
+      "size_bytes": 1906
+    },
+    {
+      "relative_path": "FINAL_READER_SUMMARY.md",
+      "sha256": "397bb2182f6eeb5f310ce4db2329dba850b044ca8b2cbb671460077d60caab21",
+      "size_bytes": 454
+    },
+    {
+      "relative_path": "JGA_FINAL_REPORT.pdf",
+      "sha256": "7cb2ef38897703cd33d4ab423250a02f23c0bb387ca344c5a392a0883884e450",
+      "size_bytes": 63784
+    },
+    {
+      "relative_path": "MEASURE_SUPPORT.csv",
+      "sha256": "1a1de5fff2939bea3718f6b1386518e508f4b654164734b0f3571f1edf920213",
+      "size_bytes": 250
+    },
+    {
+      "relative_path": "NEXT_SCIENTIFIC_TASK.md",
+      "sha256": "9c97b14b6ca8db59c72fd07adadcd313dd0d8f25f88d70dc819464d4c20c3885",
+      "size_bytes": 300
+    },
+    {
+      "relative_path": "QUARTER_RELATIONS.csv",
+      "sha256": "2b09477372aaaf014d59adaaf97eff8c9605e75fb2e07bac3c5c141ba2055ebc",
+      "size_bytes": 12552
+    },
+    {
+      "relative_path": "RELATION_RULE.md",
+      "sha256": "ce48109784e76c00cdbe064e3488835775134bea3a2dfc95e91099202ae0067a",
+      "size_bytes": 2193
+    },
+    {
+      "relative_path": "RELATION_SUMMARY.json",
+      "sha256": "980b2f61a5ebd0c61d7e0da8022f530a5ea67916c1f9c570aa27a69cd8c10ec7",
+      "size_bytes": 1162
+    },
+    {
+      "relative_path": "RENDERED_EVENTS.csv",
+      "sha256": "e52979d7df09874c39e0113049901050bdd3f3e738350217375b9ffb71533226",
+      "size_bytes": 13675
+    },
+    {
+      "relative_path": "RENDERED_GRIDS.csv",
+      "sha256": "1c2a7a844f943a777a6ba6e440dd050635a9f4f1b5f85861145334842b3137d2",
+      "size_bytes": 4480
+    },
+    {
+      "relative_path": "RENDERED_SQUARES.csv",
+      "sha256": "3308ceb2d6315619f6b52a87439a4e550932a49bd198a6ccbb6e19ff7a443681",
+      "size_bytes": 142
+    },
+    {
+      "relative_path": "REPORT_PROVENANCE.json",
+      "sha256": "7d0457fb202132da2cc376a19a7cecae10773d19075b394acd4d68f691634101",
+      "size_bytes": 869
+    },
+    {
+      "relative_path": "RESULT.md",
+      "sha256": "befe2958a2bfc3382d854fd91ec479b7ac68fa454fdd0ee3de87a9415fd8efcd",
+      "size_bytes": 904
+    },
+    {
+      "relative_path": "SCIENTIFIC_VISUAL_QA.json",
+      "sha256": "da303bcbdd00de4e01414d28c9b82857f9718020cd1620e27e1a30df239ec93d",
+      "size_bytes": 831
+    },
+    {
+      "relative_path": "TIMING_PROVENANCE_STATISTICS.json",
+      "sha256": "fd0763f30b45a288d54a6edee1f5ff3c8f96f889f7d713c7212ead95bc523187",
+      "size_bytes": 530
+    },
+    {
+      "relative_path": "completion_source/MEASURE_INTERNAL_GRID_M33_M48.csv",
+      "sha256": "da0c97f339624bd9b1c642e4ab8bfda0454eee7150ecc26a435b380d6e159538",
+      "size_bytes": 20405
+    },
+    {
+      "relative_path": "completion_source/PROTOCOL.md",
+      "sha256": "a968cfbf172c624c96cda30e4b4299b93b18b210777ec93fe0c8c5314ec9c344",
+      "size_bytes": 3411
+    },
+    {
+      "relative_path": "qa/PAGE_01.png",
+      "sha256": "e6005ed319b7c95e7f1888c58f88f014e3b19207a7b0ebb3f2f031b6461afd3e",
+      "size_bytes": 319779
+    },
+    {
+      "relative_path": "qa/PAGE_01_GRAYSCALE.png",
+      "sha256": "d08e9c35e932000470283631d2bc96074481f0a117ef5fb1cf24b0f640231b96",
+      "size_bytes": 131276
+    },
+    {
+      "relative_path": "qa/PAGE_02.png",
+      "sha256": "dc456290e3259824108986435175586a7f1ce52e7af8acc06573275af86d444f",
+      "size_bytes": 95480
+    },
+    {
+      "relative_path": "qa/PDF_PAGES.json",
+      "sha256": "da83e3eb6841ecb8f3515d6a593224a84e761d298ea71d9304a66b5b4bc513dd",
+      "size_bytes": 3236
+    },
+    {
+      "relative_path": "render_final_report.py",
+      "sha256": "eb5d841b5512c902f775c064e1de9fdf5ca98221bbd7b46ef5f2e63b6f7b6327",
+      "size_bytes": 7991
+    }
+  ],
+  "base_scientific_manifest_sha256": "e13293034b1226a0771546b4332552f4aaa4d9e50d0a9ccab4344eeba0be975c",
+  "base_visual_manifest_sha256": "803bc73d8fd7b4ca23c1463e986650baa2e393d372686ce6a83a5f645699c462",
+  "closure_exclusions": [
+    "MANIFEST.json",
+    "SHA256SUMS.txt",
+    "FREEZE_RECORD.json"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "anchored_authority": "docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_ANCHORED_BMIG_DMIG_20260925",
+  "anchored_manifest_sha256": "e13293034b1226a0771546b4332552f4aaa4d9e50d0a9ccab4344eeba0be975c",
+  "BPM_visual_authority": "docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_BPM_TEXT_CORRECTION_20260925",
+  "BPM_visual_manifest_sha256": "803bc73d8fd7b4ca23c1463e986650baa2e393d372686ce6a83a5f645699c462",
+  "completion_protocol_sha256": "a968cfbf172c624c96cda30e4b4299b93b18b210777ec93fe0c8c5314ec9c344",
+  "completion_grid_table_sha256": "da0c97f339624bd9b1c642e4ab8bfda0454eee7150ecc26a435b380d6e159538",
+  "normal_coordinates_changed": false,
+  "existing_completion_coordinates_reused_without_fit": true,
+  "new_audio_inference": false,
+  "BPM_changed": false,
+  "next_scientific_work": "2026-09-30 TARGETED DRUM ATTACK RECOVERY; not executed"
+}

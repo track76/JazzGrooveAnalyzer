@@ -1,0 +1,44 @@
+{
+  "source": "docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_ANCHORED_BMIG_DMIG_20260925/source_visual/BPM_EVOLUTION.csv",
+  "source_sha256": "2d7e7b7ebdb2c9f2790fa5f7722b4c95628dc8fb9a7d440c50579711709f0d2c",
+  "semantics": "Frozen 32-quarter elapsed-span BPM series used by approved report; use native center_s to select rows, no interpolation or new BPM computation. These are saved window estimates, not individual detected attacks.",
+  "region": "M33–M48 / Q131–Q194",
+  "interval_s": [
+    47.78666666666667,
+    71.07628117913832
+  ],
+  "selection": "start <= center_s < end",
+  "N": 63,
+  "mean_definition": "unweighted arithmetic mean of all selected saved curve BPM values",
+  "arithmetic_mean_BPM": 164.50074335007832,
+  "first": {
+    "start_index": "115",
+    "end_index": "147",
+    "start_Q": "Q116",
+    "end_Q": "Q148",
+    "start_s": "42.09777777777778",
+    "end_s": "54.07927437641723",
+    "center_s": "48.088526077097505",
+    "intervals": "32",
+    "BPM": "160.2470930232559"
+  },
+  "last": {
+    "start_index": "177",
+    "end_index": "209",
+    "start_Q": "Q178",
+    "end_Q": "Q210",
+    "start_s": "64.99265306122449",
+    "end_s": "76.48653061224489",
+    "center_s": "70.73959183673469",
+    "intervals": "32",
+    "BPM": "167.04545454545467"
+  },
+  "first_BPM": 160.2470930232559,
+  "last_BPM": 167.04545454545467,
+  "delta_BPM": 6.798361522198775,
+  "top_summary": "BPM interno medio: 164,5 · Variazione BPM: +6,8 BPM · Contrabbasso–Batteria: mediana +16,9 ms, Bass dietro",
+  "page2_BPM_text": "BPM interno: 160,2 → 167,0 · incremento +6,8 BPM",
+  "global_median_unchanged": 161.49902343750287,
+  "previous_source_error": "Previous summary used elementary-interval BPM endpoints instead of endpoints of report curve. They happened to equal median numerically; no median substitution occurred.",
+  "relation_summary_authority": "RELATION_SUMMARY.json"
+}
