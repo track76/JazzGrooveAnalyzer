@@ -1,6 +1,6 @@
 # Current final anchored report authority
 
-The PI-adopted final M33–M48 report is [JGA_FINAL_REPORT.pdf](FINAL_ANCHORED_BMIG_DMIG_20260925/JGA_FINAL_REPORT.pdf); [freeze record](FINAL_ANCHORED_BMIG_DMIG_20260925/FREEZE_RECORD.json). Earlier report versions below remain historical evidence and are not overwritten.
+The PI-adopted final M33–M48 report is [JGA_FINAL_REPORT.pdf](FINAL_BPM_TEXT_CORRECTION_20260925/JGA_FINAL_REPORT.pdf); [freeze record](FINAL_BPM_TEXT_CORRECTION_20260925/FREEZE_RECORD.json). Earlier report versions below remain historical evidence and are not overwritten.
 
 # JGA HISTORICAL REPORT 001 — Ray Brown Trio, Exactly Like You
 

@@ -1,0 +1,12 @@
+{
+  "scope": "BPM text correction only, two text positions; no grid/event/geometry/reconstruction/scientific relation change",
+  "base_final_authority": "docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_ANCHORED_BMIG_DMIG_20260925",
+  "base_freeze_sha256": "e5c5ed33a397ed3ed855775824a0bfc92b6bf8162167e5ee6d8ca646df9267e3",
+  "base_manifest_sha256": "e13293034b1226a0771546b4332552f4aaa4d9e50d0a9ccab4344eeba0be975c",
+  "source_renderer_sha256": "7c8ed4db83ead006dc23db78b9bbdd37d396a474926ae5c6610c8cc084d88de1",
+  "BMIG_DMIG_source_sha256": "a4a4f64b46e0ab9d30d1b9221b6ea0167a0e6dd26b6d684a1d2c2a5520943206",
+  "onset_source_sha256": "9290ab62ae70ea29694d99980083c562c4263c954569e6d45c2aeb841027e8b9",
+  "frozen_BPM_series_sha256": "2d7e7b7ebdb2c9f2790fa5f7722b4c95628dc8fb9a7d440c50579711709f0d2c",
+  "top_summary": "BPM interno medio: 164,5 · Variazione BPM: +6,8 BPM · Contrabbasso–Batteria: mediana +8,9 ms, Bass dietro",
+  "page2_BPM_text": "BPM interno: 160,2 → 167,0 · incremento +6,8 BPM"
+}

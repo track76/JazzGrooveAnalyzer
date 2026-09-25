@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "every_page_inspected": true,
+  "image_differences_bounding_boxes": [
+    [
+      84,
+      89,
+      857,
+      104
+    ],
+    [
+      226,
+      525,
+      516,
+      540
+    ]
+  ],
+  "all_pixels_outside_authorized_BPM_text_rows_identical": true,
+  "BMIG_DMIG_changed": false,
+  "B_D_changed": false,
+  "onsets_changed": false,
+  "render_logs_byte_identical": true,
+  "Bass_Drum_paragraph_unchanged": true,
+  "arithmetic_mean_not_median": true,
+  "native_saved_curve_first_last": true,
+  "no_interpolation": true,
+  "graph_median_unchanged": true,
+  "A4": true,
+  "no_clipping_or_overlap": true
+}

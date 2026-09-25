@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN_BPM_TEXT_CORRECTION_ONLY",
+  "UTC": "2026-09-25T20:22:03.456041+00:00",
+  "manifest_sha256": "803bc73d8fd7b4ca23c1463e986650baa2e393d372686ce6a83a5f645699c462",
+  "checksum_file_sha256": "2969bef51772c2aa5c589405008e2d66bb1a476e653ccec1f3e7fe35ce00455e",
+  "PDF_sha256": "ab609ec9a4ab2313e469e7ae40a0609807e5a3777f1534c9243595ccd07e5b3e",
+  "prior_scientific_freeze_unchanged": "e5c5ed33a397ed3ed855775824a0bfc92b6bf8162167e5ee6d8ca646df9267e3",
+  "QA": "PASS",
+  "completed_revision_payload_external_hash_check": "PASS",
+  "method_or_grid_refrozen": false
+}
