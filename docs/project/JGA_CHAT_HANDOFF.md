@@ -5,11 +5,11 @@
 ## Project, PI and recovery snapshot
 
 - Project: Jazz Groove Analyzer (JGA). PI: Angelo Tracanna. Role authority: `docs/project/AGENT_REGISTRY.json`; PI decisions: `docs/project/PI_DECISION_LOG.jsonl`.
-- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T08:24:03.557846+00:00 (UTC).
+- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T08:48:05.819336+00:00 (UTC).
 - Repository root: `/Users/StarTrack/Development/JazzGrooveAnalyzer`.
 - Current branch: `scientific/translation-layer-finalization`.
 - Publication HEAD: $Format:%H$
-- Preparation baseline HEAD: `a5eb987d5742bed31e4b5ef02ccda9a17c5ab093` (historical; not the final publication identity).
+- Preparation baseline HEAD: `6fa61b7954a509cbcaba4c63b959dac246ff67a7` (historical; not the final publication identity).
 - The repository file is a Git export-subst template. The commit-addressed NEW CHAT RECOVERY export substitutes the exact final published HEAD above. If a raw `$Format` token is visible, the PI should attach the exported pair; do not pretend that token is a verified hash.
 - Working tree: pre-existing scientific/output/recording modifications and untracked experiments were preserved outside governance staging. Governance closure does not authorize committing, hiding or reverting those files. Report global worktree status separately from clean published governance.
 - PI final approval authorizes the infrastructure freeze and focused commit/push, not scientific execution.
@@ -135,3 +135,9 @@ HISTORICAL SSD INVENTORY: **NOT FULLY CERTIFIED**. Three registered external inp
 New-chat package: export the final committed root bootstrap and this handoff using `tools/export_chat_recovery.py`. Its `EXPORT_MANIFEST.json` records final HEAD, verified remote HEAD, file SHA-256 and backup destination. It is a distribution receipt, not a new authority. Versioned infrastructure backup is GOVERNANCE ONLY. Publication receipts and current task status are in the task ledger. No new scientific task follows automatically.
 
 Approved governance freeze: `docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_RECORD.json`. Infrastructure self-audit: 13/13 PASS; isolated guard/recovery tests: 20/20 PASS. Publication and remote verification are required closure steps, not scientific authorization.
+
+## Verified publication checkpoint
+
+Infrastructure content commit `6fa61b7954a509cbcaba4c63b959dac246ff67a7` was pushed to `scientific/translation-layer-finalization`; remote HEAD equality verified. Its 26-file governance-only versioned backup was SHA-256 verified at `/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_GOVERNANCE_FREEZE_20260927/6fa61b7954a509cbcaba4c63b959dac246ff67a7/`. The repository batch checkpoint verified 10,274 files (7,661,157,788 bytes), with no backup deletion. This metadata closure has immediate per-file backup; the final exported `EXPORT_MANIFEST.json` records the containing publication HEAD and remote verification. Final post-publication batch verification is required before the agent declares completion; this checkpoint does not preclaim that later result.
+
+Codex completes only publication receipts/backup and then STOP FOR PI REVIEW. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.

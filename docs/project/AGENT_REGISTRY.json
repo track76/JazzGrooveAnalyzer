@@ -50,13 +50,13 @@
       "current_mode": "AUTHORIZED_WRITER",
       "write_authority_status": "AUTHORIZED_FOR_CURRENT_TASK",
       "current_task": "GOV-INFRA-CLOSURE-001-20260927",
-      "current_status": "INFRASTRUCTURE_PUBLICATION_ONLY",
-      "last_authority_sync": "2026-09-27T08:20:09.200994+00:00",
+      "current_status": "STOP_FOR_PI_REVIEW_AFTER_PUBLICATION",
+      "last_authority_sync": "2026-09-27T08:48:05.819336+00:00",
       "last_known_branch": "scientific/translation-layer-finalization",
-      "last_known_HEAD": "a5eb987d5742bed31e4b5ef02ccda9a17c5ab093",
+      "last_known_HEAD": "6fa61b7954a509cbcaba4c63b959dac246ff67a7",
       "current_embargo_restrictions": [],
       "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
-      "notes": "PI-approved infrastructure freeze/publication only; no scientific task. Embargo unchanged."
+      "notes": "Closure publication only under existing lease; no new writer or scientific task authorized. Final publication HEAD is the commit containing the current handoff and its verified recovery export."
     },
     {
       "agent_id": "copilot",
