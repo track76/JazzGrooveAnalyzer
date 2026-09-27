@@ -14,6 +14,18 @@ The next scientific action requires separate PI authorization; recovery grants n
 Consult Git for current branch/commit; no commit identity is embedded here.
 
 
+## Multi-agent coordination gate — infrastructure lock
+
+Read [protocol](docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md) and [ownership/operating contract](docs/project/INFRASTRUCTURE_ARCHITECTURE.md) before scientific searches. Root JGA_BOOTSTRAP.md is the only recovery entry.
+
+**NO NEW SCIENTIFIC WORK AUTHORIZED.** PI-INFRA-FINAL-APPROVAL-20260927 approves the infrastructure and authorizes its freeze, backup and focused publication. This does not authorize a scientific task. Codex: infrastructure writer only. Copilot: WAIT, orientation completed, independent research not assigned. Qwen: pending verification. See [agent registry](docs/project/AGENT_REGISTRY.json) for modes/current assignment, [task ledger](docs/project/AGENT_WORK_LEDGER.jsonl) and [PI decisions](docs/project/PI_DECISION_LOG.jsonl). Infrastructure closure is explicitly authorized; STOP PI after publication. Historical SSD inventory: **NOT FULLY CERTIFIED**.
+
+**ACTIVE COPILOT EMBARGO:** `JGA_BASS_COVERED_CANDIDATE_FEATURE_AUDIT_001_20260927` exists, Codex completed it, EXPERIMENTAL / PI REVIEW REQUIRED. Contents/results/features/next steps and derivatives are embargoed from Copilot. Exact safe metadata/release conditions are owned by [embargo registry](docs/project/EMBARGO_REGISTRY.json); no release recorded. Earlier adjudication, sensitivity, root-cause, mechanism and coverage/ranking remain allowed background, not scientific promotion.
+
+[External artifact index](docs/project/EXTERNAL_ARTIFACT_MANIFEST.json) records verification scope and legacy gaps. [Continuous backup](docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md) remains mandatory. [Chat handoff](docs/project/JGA_CHAT_HANDOFF.md) is a portable dated projection, not a second authority. Complete only the authorized block; STOP FOR PI REVIEW.
+
+Approved [infrastructure freeze](docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_RECORD.json) and [13-check audit](docs/project/INFRASTRUCTURE_FREEZE_20260927/SELF_AUDIT.json) cover governance only. Final publication/remote evidence is recorded by the task ledger and commit-addressed recovery export. No scientific task or embargo release is implied.
+
 # Current authority — final observed/reconstructed relations · 2026-09-25
 
 **FROZEN — STOP. No further scientific work before 2026-09-30.** The PI closes this milestone with the [final report](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/JGA_FINAL_REPORT.pdf), [freeze](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/FREEZE_RECORD.json) and [manifest](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/MANIFEST.json). Region remains Ray Brown Trio — Exactly Like You, M33–M48/Q131–Q194.
@@ -67,6 +79,18 @@ remain mandatory at major freezes. This supplements Git, never replaces it.
 
 ## Recovery references
 
+- [docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md](docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md)
+- [docs/project/MULTI_AGENT_COORDINATION_STATE.md](docs/project/MULTI_AGENT_COORDINATION_STATE.md)
+- [docs/project/JGA_CHAT_HANDOFF.md](docs/project/JGA_CHAT_HANDOFF.md)
+- [docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_RECORD.json](docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_RECORD.json)
+- [docs/project/EXTERNAL_ARTIFACT_MANIFEST.json](docs/project/EXTERNAL_ARTIFACT_MANIFEST.json)
+- [docs/project/EMBARGO_REGISTRY.json](docs/project/EMBARGO_REGISTRY.json)
+- [docs/project/PI_DECISION_LOG.jsonl](docs/project/PI_DECISION_LOG.jsonl)
+- [docs/project/AGENT_WORK_LEDGER.jsonl](docs/project/AGENT_WORK_LEDGER.jsonl)
+- [docs/project/AGENT_REGISTRY.json](docs/project/AGENT_REGISTRY.json)
+- [docs/project/INFRASTRUCTURE_ARCHITECTURE.md](docs/project/INFRASTRUCTURE_ARCHITECTURE.md)
+- [docs/TOOLCHAIN/EXTERNAL_STORAGE.md](docs/TOOLCHAIN/EXTERNAL_STORAGE.md)
+- [docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md](docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md)
 - [AGENTS.md](AGENTS.md)
 - [docs/JGA_PROJECT_STATE.md](docs/JGA_PROJECT_STATE.md)
 - [docs/JGA_ROADMAP.md](docs/JGA_ROADMAP.md)

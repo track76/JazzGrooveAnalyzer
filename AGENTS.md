@@ -20,9 +20,14 @@ Before modifying a file:
 1. Read this file.
 2. Load root `JGA_BOOTSTRAP.md` as the sole current session recovery
    entry point.
-3. Inspect the repository evidence relevant to the requested work.
-4. Summarize the current state and any architectural ambiguities.
-5. Obtain approval before making changes.
+3. Read the [multi-agent protocol](docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md)
+   and [coordination/embargo state](docs/project/MULTI_AGENT_COORDINATION_STATE.md)
+   BEFORE inspecting scientific contents, searching broadly or loading other-agent context.
+4. Perform its mandatory authority/Git/PI-decision/storage/backup sync, then inspect
+   only authorized, non-embargoed repository evidence relevant to the task.
+5. Summarize the current state and any architectural ambiguities.
+6. Obtain approval before making changes; explicit PI task authorization defines
+   the permitted scope. Completion does not authorize a new task or cross-review.
 
 The bootstrap initializes a session; the repository remains canonical.
 If they conflict, report the Evidence Conflict and stop until
@@ -99,3 +104,13 @@ dependent work. Back up batch outputs incrementally and inventory after the batc
 Before commit run `python3 tools/continuous_backup.py staged`. Never delete mirror
 orphans. If unavailable, report CONTINUOUS EXTERNAL BACKUP UNAVAILABLE and ask PI
 about stopping versus explicit backup debt; never silently continue.
+
+## All-agent infrastructure gate
+
+Follow [infrastructure ownership and lifecycle](docs/project/INFRASTRUCTURE_ARCHITECTURE.md),
+[agent registry](docs/project/AGENT_REGISTRY.json), [task ledger](docs/project/AGENT_WORK_LEDGER.jsonl),
+[PI decisions](docs/project/PI_DECISION_LOG.jsonl) and [embargo registry](docs/project/EMBARGO_REGISTRY.json).
+Only one writer; acquire/check the common Git writer lease before every mutation.
+Unexpected concurrent changes require STOP/resync, never automatic merge.
+Run the staged large-file guard and backup gate before any explicitly authorized commit.
+Refresh the persistent chat handoff at task closure. Infrastructure approval does not authorize science.

@@ -1,6 +1,10 @@
 {
   "sections": [
     {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "current_section_only": false
+    },
+    {
       "path": "docs/project/JGA_FINAL_ANCHORED_REPORT_CHECKPOINT_20260925.md",
       "current_section_only": false
     },
@@ -10,6 +14,18 @@
     }
   ],
   "recovery_links": [
+    "docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md",
+    "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+    "docs/project/JGA_CHAT_HANDOFF.md",
+    "docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_RECORD.json",
+    "docs/project/EXTERNAL_ARTIFACT_MANIFEST.json",
+    "docs/project/EMBARGO_REGISTRY.json",
+    "docs/project/PI_DECISION_LOG.jsonl",
+    "docs/project/AGENT_WORK_LEDGER.jsonl",
+    "docs/project/AGENT_REGISTRY.json",
+    "docs/project/INFRASTRUCTURE_ARCHITECTURE.md",
+    "docs/TOOLCHAIN/EXTERNAL_STORAGE.md",
+    "docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md",
     "AGENTS.md",
     "docs/JGA_PROJECT_STATE.md",
     "docs/JGA_ROADMAP.md",

@@ -1,0 +1,6 @@
+#!/bin/sh
+# Guard only: a successful hook is NOT PI authorization to commit.
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+python3 tools/jga_governance.py guard-staged
+python3 tools/continuous_backup.py staged

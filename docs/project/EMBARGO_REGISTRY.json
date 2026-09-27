@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "embargoes": [
+    {
+      "embargo_id": "EMBARGO-COPILOT-FEATURE-001",
+      "artifact": "docs/scientific/validation/JGA_BASS_COVERED_CANDIDATE_FEATURE_AUDIT_001_20260927/",
+      "embargoed_from": [
+        "copilot"
+      ],
+      "reason": "independent onset-localization review without feature-finding contamination",
+      "start": "2026-09-27",
+      "release_authority": "PI — Angelo Tracanna",
+      "status": "ACTIVE",
+      "owner": "codex",
+      "classification": "EXPERIMENTAL / PI_REVIEW_REQUIRED",
+      "derivatives": "all results, features, conclusions, solutions, next-step recommendations, copies and summaries",
+      "release_condition": "Copilot independent report finalized AND explicit PI release plus cross-review authorization",
+      "PI_decision": "PI-MULTI-AGENT-20260927",
+      "release_decision": null,
+      "allowed_earlier_evidence": [
+        "adjudication",
+        "sensitivity",
+        "root-cause",
+        "targeted mechanism",
+        "coverage/ranking"
+      ]
+    }
+  ]
+}

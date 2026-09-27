@@ -1,0 +1,127 @@
+{
+  "scope": "PI_APPROVED_GOVERNANCE_SNAPSHOT",
+  "snapshot_revision_rule": "The commit first adding this FREEZE_RECORD.json (git log --diff-filter=A). Manifest hashes identify that commit snapshot, not later mutable task/publication records.",
+  "historical_SSD_inventory": "NOT FULLY CERTIFIED",
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "sha256": "a40be729665e39654c1e91fead28947f2474e150a68c7467a9612f7479dcb623",
+      "size_bytes": 46
+    },
+    {
+      "path": ".githooks/pre-commit",
+      "sha256": "4ff4bef3f57000fbd9ce74b703a6cb8b8e85a93666504c9b5e572821bd392483",
+      "size_bytes": 210
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "sha256": "16ef1cf13b214fd4b294502e6d050c83e198416a9b2a746fb3eac6e3c11b7e48",
+      "size_bytes": 824
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "82d43a7b93d06a92f5154d3cfba34107063cc421721562c92dc002d7f500a584",
+      "size_bytes": 5150
+    },
+    {
+      "path": "JGA_BOOTSTRAP.md",
+      "sha256": "860c7776b8d217234fd823f434eafafca7edcf8e82fce9b01998d06c68ba12af",
+      "size_bytes": 13008
+    },
+    {
+      "path": "docs/project/AGENT_REGISTRY.json",
+      "sha256": "c5fec9dcdd121269099b5d82518d18651380da05ec4f02b0e938dc4d5491eaf0",
+      "size_bytes": 3805
+    },
+    {
+      "path": "docs/project/AGENT_WORK_LEDGER.jsonl",
+      "sha256": "daec7232c32615db5813b65800b9f544ebe2504ce3f43f522dc1420e76e334ca",
+      "size_bytes": 20863
+    },
+    {
+      "path": "docs/project/BOOTSTRAP_SOURCES.json",
+      "sha256": "d19b15b5dd122dc557bfe2075f8a5e7aad9f64cb3565a46b4ee5cfb98f8d119f",
+      "size_bytes": 1814
+    },
+    {
+      "path": "docs/project/EMBARGO_REGISTRY.json",
+      "sha256": "20f92b14f360b4cd5e21b7c9c5ec06f2c6bc489afe1d65f4a6082e370e6497b1",
+      "size_bytes": 1047
+    },
+    {
+      "path": "docs/project/EXTERNAL_ARTIFACT_MANIFEST.json",
+      "sha256": "01f1603cd82602862bc61689bb1b08fb72d44455877f8cfa375ea88f6cc5cec7",
+      "size_bytes": 11696
+    },
+    {
+      "path": "docs/project/INFRASTRUCTURE_ARCHITECTURE.md",
+      "sha256": "da11ecdd6f7f902a8948fc175d1e86e65e5abbf37dbf11a078d035f43075ce25",
+      "size_bytes": 11886
+    },
+    {
+      "path": "docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_RECORD.json",
+      "sha256": "97ba383a5edf9e82b36b4e80a503ebd1dd76a8cc78cfdcc4a64021c48b0f2ae2",
+      "size_bytes": 2366
+    },
+    {
+      "path": "docs/project/INFRASTRUCTURE_FREEZE_20260927/SELF_AUDIT.json",
+      "sha256": "43a138024cf15a6c993cd4ef4781a87c872dfb232bbea9c71d17daef5af261eb",
+      "size_bytes": 2583
+    },
+    {
+      "path": "docs/project/INFRASTRUCTURE_PREFLIGHT_20260927.json",
+      "sha256": "d4d81bbdcc5cb4d8cac12c2d25de75e986805285d515346514a12a20df7ca8c5",
+      "size_bytes": 625874
+    },
+    {
+      "path": "docs/project/INFRASTRUCTURE_SELF_AUDIT_20260927.json",
+      "sha256": "1a2d988b7be0fa06b3b0209d22064f9dfa4df04fbb1bfcbe5fca1b05f4ffe4d1",
+      "size_bytes": 5977
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF.md",
+      "sha256": "8f93af73ca2b1a144869eec38538ede216b7e48b5aba5025ef4497a334b76e21",
+      "size_bytes": 19693
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF_VERIFICATION_20260927.json",
+      "sha256": "47feb27aad1d6abae38d472165156224bc8eaa396dfcd29cbc8adea4b87e617d",
+      "size_bytes": 15399
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "sha256": "e390b970f49a0a138927e498f6dbf7f925c25650b7eb85736300505018ef5caf",
+      "size_bytes": 2022
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_PROTOCOL_INSTALLATION_20260927.json",
+      "sha256": "3e2af69248762d5bcd486bf51ff3e88c25531be4856308faaf9476af8a02bfa5",
+      "size_bytes": 9654
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md",
+      "sha256": "451f3128444b95a2aea5350fa7c930091f02878f8c11b6a61bf779b61500bd19",
+      "size_bytes": 14900
+    },
+    {
+      "path": "docs/project/PI_DECISION_LOG.jsonl",
+      "sha256": "da4c8c2941978b2c374d96db1831352f87ec064c310c3504b20e4f95876d0661",
+      "size_bytes": 3988
+    },
+    {
+      "path": "tools/export_chat_recovery.py",
+      "sha256": "7e5ff8509372cdad97bca58a76ea42944e1af05aa262db97ee89e417ae297811",
+      "size_bytes": 3554
+    },
+    {
+      "path": "tools/jga_governance.py",
+      "sha256": "b81577e29df6395abd7f09ed8e212b2613ecf8c5de6e368ba94640cc07e2e7f4",
+      "size_bytes": 13251
+    },
+    {
+      "path": "tools/tests/test_jga_governance.py",
+      "sha256": "84a306533aa4528560a7e9dc29e0aeb4b0d789b4384e2eea7e2fe39cd04953ac",
+      "size_bytes": 7746
+    }
+  ]
+}

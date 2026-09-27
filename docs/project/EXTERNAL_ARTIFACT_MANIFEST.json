@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "root_environment_variable": "JGA_EXTERNAL_ROOT",
+  "observed_root": "/Volumes/SSD Track/JGA",
+  "coverage_scope": "Incremental index: three exact referenced files verified; existing top-level sets inventoried, NOT exhaustive provenance/hash certification. Legacy manifests remain authoritative. No absent registration is proof of absent artifact.",
+  "artifacts": [
+    {
+      "artifact_id": "EXT-EXPERT-ADJUDICATION-001",
+      "logical_role": "EXPERT_REFERENCE",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/7f43b1d5-4fc7-466e-aafe-1ea34e709094(3).json",
+      "size_bytes": 130812,
+      "sha256": "cb8cc2d1f0cb022ba94f8b26675baac8df368362bc5114a5688646cbb0b0291b",
+      "created_by_agent": "UNKNOWN_LEGACY",
+      "task_id": "LEGACY_REFERENCED_INPUT",
+      "registered_by_task": "GOV-INFRA-001-20260927",
+      "source_provenance": "docs/scientific/validation/JGA_EXPERT_ONSET_ADJUDICATION_SENSITIVITY_001_20260926/SUMMARY.json",
+      "authority_status": "EXISTING_REFERENCE_NO_PROMOTION",
+      "backup_class": "SSD_AND_BACKUP",
+      "backup_destination": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/7f43b1d5-4fc7-466e-aafe-1ea34e709094(3).json",
+      "backup_status": "VERIFIED",
+      "date_verified": "2026-09-27T06:55:55.892211+00:00",
+      "verified_mtime_ns": 1790418341950000000,
+      "backup_verified_at": "2026-09-27T07:10:13.939631+00:00",
+      "backup_verified_mtime_ns": 1790493013000000000,
+      "backup_verification_task": "GOV-INFRA-001-20260927"
+    },
+    {
+      "artifact_id": "EXT-RB-BASS-STEM-001",
+      "logical_role": "STEMS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/bass.wav",
+      "size_bytes": 122708024,
+      "sha256": "8ca185528ce4c50f7a318fb21e9e49ee68b76c7fbede9e7dace5b61120c46952",
+      "created_by_agent": "UNKNOWN_LEGACY",
+      "task_id": "LEGACY_REFERENCED_INPUT",
+      "registered_by_task": "GOV-INFRA-001-20260927",
+      "source_provenance": "tools/onset_adjudication/EVENT_PROVENANCE_MANIFEST.json",
+      "authority_status": "EXISTING_REFERENCE_NO_PROMOTION",
+      "backup_class": "SSD_AND_BACKUP",
+      "backup_destination": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/bass.wav",
+      "backup_status": "VERIFIED",
+      "date_verified": "2026-09-27T06:55:55.892211+00:00",
+      "verified_mtime_ns": 1790165827550000000,
+      "backup_verified_at": "2026-09-27T07:10:18.541612+00:00",
+      "backup_verified_mtime_ns": 1790493017000000000,
+      "backup_verification_task": "GOV-INFRA-001-20260927"
+    },
+    {
+      "artifact_id": "EXT-RB-ORIGINAL-001",
+      "logical_role": "AUDIO_ORIGINAL",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a",
+      "size_bytes": 5625911,
+      "sha256": "aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45",
+      "created_by_agent": "UNKNOWN_LEGACY",
+      "task_id": "LEGACY_REFERENCED_INPUT",
+      "registered_by_task": "GOV-INFRA-001-20260927",
+      "source_provenance": "tools/onset_adjudication/EVENT_PROVENANCE_MANIFEST.json",
+      "authority_status": "EXISTING_REFERENCE_NO_PROMOTION",
+      "backup_class": "SSD_AND_BACKUP",
+      "backup_destination": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/downloads/Ray Brown Trio - Exactly Like You.m4a",
+      "backup_status": "VERIFIED",
+      "date_verified": "2026-09-27T06:55:55.892211+00:00",
+      "verified_mtime_ns": 1789073076170000000,
+      "backup_verified_at": "2026-09-27T07:10:18.720052+00:00",
+      "backup_verified_mtime_ns": 1789073076000000000,
+      "backup_verification_task": "GOV-INFRA-001-20260927"
+    }
+  ],
+  "legacy_sets": [
+    {
+      "artifact_set_id": "LEGACY-SET-ABLETON_EXACTLY_LIKE_YOU_CANONICAL_TEMPOAUTHORITY",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/Ableton_Exactly_Like_You_CANONICAL_TempoAuthority",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-ABLETON_EXACTLY_LIKE_YOU_TEMPOAUTHORITY",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/Ableton_Exactly_Like_You_TempoAuthority",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-CACHES",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/caches",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-DATASETS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/datasets",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-DOWNLOADS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/downloads",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-ENVIRONMENTS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/environments",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-EXPERIMENTS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/experiments",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-MODELS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/models",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-RECORDINGS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/recordings",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-RENDERS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/renders",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-STEMS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/stems",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    },
+    {
+      "artifact_set_id": "LEGACY-SET-VALIDATION",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/validation",
+      "logical_role": "LEGACY_LAYOUT",
+      "authority_status": "INVENTORIED_DIRECTORY_NOT_CONTENT_CERTIFIED",
+      "source_provenance": "observed existing SSD directory; per-artifact legacy manifests remain authoritative",
+      "size_bytes": null,
+      "sha256": null,
+      "backup_status": "NOT_VERIFIED_IN_THIS_TASK",
+      "registration_status": "LEGACY_DISCOVERY_REQUIRED"
+    }
+  ],
+  "legacy_repository_heavy_assets": "grandfathered; preserve, do not move or add new blobs to Git",
+  "legacy_root_files": "existing root-level annotation/export JSONs remain in place; registration of new artifacts is mandatory",
+  "other_existing_referenced_roots": [
+    {
+      "path": "/Volumes/SSD/JGA",
+      "status": "HISTORICAL_UNMOUNTED_ALIAS_NOT_WRITE_AUTHORITY",
+      "source": "docs/scientific/rfc/JGA_DOUBLE_BASS_RECORDED_ACOUSTIC_ONSET_VALIDATION_001_20260922/AUDIO_ONLY_PERCEPTUAL_REVIEW/CURRENT_REVIEW_STATUS.md"
+    },
+    {
+      "path": "/Volumes/SSD Track/MUSICA D'INSIEME",
+      "status": "EXISTING_READ_ONLY_SOURCE_LIBRARY_NOT_JGA_OUTPUT_ROOT",
+      "exists": true,
+      "source": "docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/SOURCE_INVENTORY/METADATA_RECEIPT.json"
+    }
+  ],
+  "historical_SSD_inventory": "NOT FULLY CERTIFIED",
+  "recovery_distribution": {
+    "artifact_set_id": "GOV-INFRA-RECOVERY-20260927",
+    "canonical_external_root": "/Volumes/SSD Track/JGA/experiments/GOV_INFRASTRUCTURE_FREEZE_20260927/recovery",
+    "addressing": "one immutable child directory named by verified final Git HEAD",
+    "member_manifest": "EXPORT_MANIFEST.json within that child",
+    "source_provenance": "tools/export_chat_recovery.py and the explicit PI infrastructure publication authorization",
+    "backup_root": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/GOV_INFRASTRUCTURE_FREEZE_20260927/recovery",
+    "backup_class": "SSD_AND_BACKUP",
+    "status": "VERIFY_EXACT_COMMIT_MEMBER_MANIFEST; no blanket archive certification"
+  }
+}

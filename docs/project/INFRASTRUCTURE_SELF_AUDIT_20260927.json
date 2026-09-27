@@ -1,0 +1,102 @@
+{
+  "task_id": "GOV-INFRA-001-20260927",
+  "verified_at": "2026-09-27T07:57:34.628986+00:00",
+  "status": "READY_FOR_PI_REVIEW_NOT_FROZEN",
+  "scientific_work_lock": "ACTIVE",
+  "tests": {
+    "command": "python3 -m unittest discover -s tools/tests -p test_jga_governance.py -v",
+    "passed": 17,
+    "failed": 0
+  },
+  "recovery_simulations": {
+    "new_repository_agent": "PASS: bootstrap links all typed registries/authority/protocol/storage/backup owners",
+    "new_copilot": "PASS: WAIT status and safe embargo metadata discoverable before protected results",
+    "external_chatgpt": "PASS: bootstrap plus persistent handoff; no repository inspection claimed",
+    "second_writer": "PASS: exclusive common-Git lease test",
+    "stale_head_index_worktree": "PASS: branch/HEAD/index/ignored and untracked metadata captured, mutation rejected on changed baseline",
+    "large_staged_payload": "PASS: staged bytes inspected, small CSV permitted, heavy format rejected",
+    "missing_backup_hash_mismatch": "PASS: fixture detects both; actual three registered external sources/backups verified",
+    "new_agent": "PASS: schema accepts registry entry, task/mode/PI decision required; no provider grants authority"
+  },
+  "reference_check": {
+    "status": "PASS",
+    "findings": [],
+    "scope": "registered references; historical files are not repaired automatically"
+  },
+  "external_check": {
+    "mode": "full",
+    "checked": 3,
+    "findings": [],
+    "scope": "Incremental index: three exact referenced files verified; existing top-level sets inventoried, NOT exhaustive provenance/hash certification. Legacy manifests remain authoritative. No absent registration is proof of absent artifact.",
+    "note": "metadata is existence/size only; incremental unchanged bytes rely on recorded verification, not a new full hash claim"
+  },
+  "secret_scan": "PASS_SCOPE_CHANGED_GOVERNANCE",
+  "embargo_safe": "metadata only; no protected findings copied",
+  "protected_files_unchanged_except_authorized_governance": true,
+  "bootstrap_scientific_source_files_unchanged": true,
+  "large_file_hook": {
+    "configured_path": ".githooks",
+    "executable": true,
+    "PI_commit_authorization_required": true
+  },
+  "storage_root_census": {
+    "canonical": "/Volumes/SSD Track/JGA",
+    "backup": "/Volumes/HD BackUp/JGA_BACKUP",
+    "other_references": [
+      {
+        "path": "/Volumes/SSD/JGA",
+        "status": "HISTORICAL_UNMOUNTED_ALIAS_NOT_WRITE_AUTHORITY",
+        "source": "docs/scientific/rfc/JGA_DOUBLE_BASS_RECORDED_ACOUSTIC_ONSET_VALIDATION_001_20260922/AUDIO_ONLY_PERCEPTUAL_REVIEW/CURRENT_REVIEW_STATUS.md"
+      },
+      {
+        "path": "/Volumes/SSD Track/MUSICA D'INSIEME",
+        "status": "EXISTING_READ_ONLY_SOURCE_LIBRARY_NOT_JGA_OUTPUT_ROOT",
+        "exists": true,
+        "source": "docs/scientific/rfc/JGA_NATIVE_TEMPO_AUTHORITY_001_20260922/INDEPENDENT_PLP_VALIDATION/SOURCE_INVENTORY/METADATA_RECEIPT.json"
+      }
+    ],
+    "scope": "lightweight docs/tools/src path extraction excluding embargo package; prose suffixes were not treated as roots"
+  },
+  "legacy_limits": [
+    "External index is incremental, not exhaustive legacy member registration",
+    "Directory sets are not hash-certified; no orphan cleanup or migration",
+    "Guards are cooperative, not OS enforcement",
+    "Secret pattern scan is not exhaustive credential detection"
+  ],
+  "backup": {
+    "repository_full_inventory": {
+      "status": "PASS",
+      "mode": "all",
+      "files": 10242,
+      "bytes": 7660992957,
+      "mirror": "/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_CURRENT",
+      "deleted_backup_files": 0,
+      "completed_at": "2026-09-27T07:57:27.126975+00:00",
+      "closing_delta": "Subsequent closure documents and final mode-guard refinement atomically backed up and hash-verified; baseline checked for unrelated modifications."
+    },
+    "registered_external_sources": "FULL_REGISTERED_SCOPE_PASS",
+    "closure_artifacts": "PER_FILE_HASH_VERIFIED"
+  },
+  "governance_freeze": "NOT_CREATED_PENDING_PI_REVIEW_AND_COMPLETE_DIRECTIVE",
+  "commit": null,
+  "push": "NOT_PERFORMED",
+  "next_step": "PI infrastructure review only; no scientific experiment",
+  "output_sha256": {
+    ".githooks/pre-commit": "4ff4bef3f57000fbd9ce74b703a6cb8b8e85a93666504c9b5e572821bd392483",
+    "AGENTS.md": "82d43a7b93d06a92f5154d3cfba34107063cc421721562c92dc002d7f500a584",
+    "JGA_BOOTSTRAP.md": "19a8c7e8ed5cf6706bf624381472f59db443b692a32ec0972df605d9c1e9a3b7",
+    "docs/project/AGENT_REGISTRY.json": "3b8f4b22a8c79c3da81303d09ed92edc11feb89f0fa69c89bbf5cb58a4cb0670",
+    "docs/project/AGENT_WORK_LEDGER.jsonl": "f21ba37d6ba8738d509bb5789ff9698214773d305d8b5b8f59153529d0f48ade",
+    "docs/project/BOOTSTRAP_SOURCES.json": "84dd245d5b5cbb54f35f2b60dddac5de97a84e871eba01f25b89947fcbf82666",
+    "docs/project/EMBARGO_REGISTRY.json": "20f92b14f360b4cd5e21b7c9c5ec06f2c6bc489afe1d65f4a6082e370e6497b1",
+    "docs/project/EXTERNAL_ARTIFACT_MANIFEST.json": "7c0c64865cdbfcf87d8b42cce9eca6d54936d64b53badc66a524553223586203",
+    "docs/project/INFRASTRUCTURE_ARCHITECTURE.md": "cd3c1fb34949339c86d14576a3a1b5ddee8c1ce33b91977df0c97e4431577846",
+    "docs/project/INFRASTRUCTURE_PREFLIGHT_20260927.json": "d4d81bbdcc5cb4d8cac12c2d25de75e986805285d515346514a12a20df7ca8c5",
+    "docs/project/JGA_CHAT_HANDOFF.md": "d0ccc63b49c5ee1eee453ebdf07fc980199ad89e636707f8abc2e4d157096fb9",
+    "docs/project/MULTI_AGENT_COORDINATION_STATE.md": "f36256041f6a97af951e16676b804e2bbb5d7e87aab27fdd273cba2e8ef66da6",
+    "docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md": "450290061e80b99f2161095ef3ff16c0cb94d48b70093739c36a07292c494cb7",
+    "docs/project/PI_DECISION_LOG.jsonl": "9be6fc2e0ee1c097f5606f723fc346f604c91efe0e2ce63f7e2397646b8488ee",
+    "tools/jga_governance.py": "286304c70e09332a7726ae370fb0e5f2af1ecf1c23f4cfa84c74aebbab42ce13",
+    "tools/tests/test_jga_governance.py": "29411c0bf333b2020c4798e09908370df1eb1041c71f2309090711f92f78c2f8"
+  }
+}

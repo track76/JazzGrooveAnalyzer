@@ -1,0 +1,73 @@
+{
+  "task_id": "GOV-INFRA-CLOSURE-001-20260927",
+  "verified_at": "2026-09-27T08:27:54.280870+00:00",
+  "status": "PASS",
+  "components": {
+    "SINGLE_ROOT_BOOTSTRAP": {
+      "status": "PASS",
+      "evidence": "pure generator parity and unchanged scientific source files"
+    },
+    "MULTI_AGENT_DISCOVERABILITY": {
+      "status": "PASS",
+      "evidence": "bootstrap and protocol link all typed registries"
+    },
+    "SINGLE_WRITER": {
+      "status": "PASS",
+      "evidence": "exclusive lease and second-writer rejection tests"
+    },
+    "STALE_STATE_RESYNC": {
+      "status": "PASS",
+      "evidence": "HEAD/index/worktree/ignored-payload snapshots plus failure tests"
+    },
+    "EMBARGO_FIREWALL": {
+      "status": "PASS",
+      "evidence": "safe metadata only, active Copilot restriction unchanged; behavioral boundary not OS sandbox"
+    },
+    "SSD_LARGE_FILE_ROUTING": {
+      "status": "PASS",
+      "evidence": "existing external root and roles; no migrations; explicit legacy limitation"
+    },
+    "REPOSITORY_LARGE_FILE_GUARD": {
+      "status": "PASS",
+      "evidence": "active hook; staged-byte heavy-format/size tests"
+    },
+    "BACKUP_POLICY": {
+      "status": "PASS",
+      "evidence": "existing helper preserved; three registered SSD files full hash verified; repository final batch remains publication gate"
+    },
+    "CHAT_HANDOFF": {
+      "status": "PASS",
+      "evidence": "PI approval/state synchronized, no embargo findings exposed"
+    },
+    "NEW_CHAT_RECOVERY": {
+      "status": "PASS",
+      "evidence": "Git exact-HEAD export plus dirty/stale template tests"
+    },
+    "FUTURE_AGENT_ONBOARDING": {
+      "status": "PASS",
+      "evidence": "PI admission, modes and readonly-mode rejection test"
+    },
+    "PI_REVIEW_GATES": {
+      "status": "PASS",
+      "evidence": "explicit current decision authorizes governance only"
+    },
+    "NO_AUTOMATIC_SCIENTIFIC_CHAINING": {
+      "status": "PASS",
+      "evidence": "scientific STOP, Copilot WAIT, Qwen pending"
+    }
+  },
+  "components_passed": 13,
+  "components_total": 13,
+  "unit_tests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "historical_SSD_inventory": "NOT FULLY CERTIFIED",
+  "registered_external_files_verified": 3,
+  "scientific_data_modified": false,
+  "frozen_scientific_results_modified": false,
+  "embargo_changed": false,
+  "global_worktree": "PREEXISTING_NON_GOVERNANCE_CHANGES_PRESERVED",
+  "publication_authorization": "PI-INFRA-FINAL-APPROVAL-20260927",
+  "backup_gate": "per-file PASS; complete final inventory and staged verification required before commit"
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "agents": [
+    {
+      "agent_id": "pi",
+      "agent_name": "Angelo Tracanna",
+      "provider": "PI",
+      "role": "scientific decision authority",
+      "allowed_modes": [
+        "PI_AUTHORITY"
+      ],
+      "current_mode": "PI_AUTHORITY",
+      "write_authority_status": "NOT_GRANTED",
+      "current_task": null,
+      "current_status": "ACTIVE",
+      "last_authority_sync": null,
+      "last_known_branch": null,
+      "last_known_HEAD": null,
+      "current_embargo_restrictions": [],
+      "last_handoff": null,
+      "notes": "PI assigns each task and mode; role is not scientific promotion authority."
+    },
+    {
+      "agent_id": "chatgpt",
+      "agent_name": "ChatGPT",
+      "provider": "OpenAI",
+      "role": "scientific/methodological coordinator",
+      "allowed_modes": [
+        "COORDINATION"
+      ],
+      "current_mode": "COORDINATION",
+      "write_authority_status": "NOT_GRANTED",
+      "current_task": null,
+      "current_status": "NO_FILESYSTEM_ASSUMED",
+      "last_authority_sync": null,
+      "last_known_branch": null,
+      "last_known_HEAD": null,
+      "current_embargo_restrictions": [],
+      "last_handoff": null,
+      "notes": "PI assigns each task and mode; role is not scientific promotion authority."
+    },
+    {
+      "agent_id": "codex",
+      "agent_name": "Codex",
+      "provider": "OpenAI",
+      "role": "experimental engineer / implementation agent",
+      "allowed_modes": [
+        "AUTHORIZED_WRITER"
+      ],
+      "current_mode": "AUTHORIZED_WRITER",
+      "write_authority_status": "AUTHORIZED_FOR_CURRENT_TASK",
+      "current_task": "GOV-INFRA-CLOSURE-001-20260927",
+      "current_status": "INFRASTRUCTURE_PUBLICATION_ONLY",
+      "last_authority_sync": "2026-09-27T08:20:09.200994+00:00",
+      "last_known_branch": "scientific/translation-layer-finalization",
+      "last_known_HEAD": "a5eb987d5742bed31e4b5ef02ccda9a17c5ab093",
+      "current_embargo_restrictions": [],
+      "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
+      "notes": "PI-approved infrastructure freeze/publication only; no scientific task. Embargo unchanged."
+    },
+    {
+      "agent_id": "copilot",
+      "agent_name": "GitHub Copilot CLI",
+      "provider": "GitHub",
+      "role": "independent MIR researcher/reviewer; writer only when authorized",
+      "allowed_modes": [
+        "READ_ONLY_RESEARCH"
+      ],
+      "current_mode": "READ_ONLY_RESEARCH",
+      "write_authority_status": "NOT_GRANTED",
+      "current_task": null,
+      "current_status": "WAIT_NO_RESEARCH_AUTHORIZED",
+      "last_authority_sync": null,
+      "last_known_branch": null,
+      "last_known_HEAD": null,
+      "current_embargo_restrictions": [
+        "EMBARGO-COPILOT-FEATURE-001"
+      ],
+      "last_handoff": null,
+      "notes": "PI assigns each task and mode; role is not scientific promotion authority."
+    },
+    {
+      "agent_id": "qwen",
+      "agent_name": "Qwen / Alibaba Model Studio",
+      "provider": "Alibaba",
+      "role": "potential independent reviewer/replication agent",
+      "allowed_modes": [
+        "NOT_OPERATIONAL"
+      ],
+      "current_mode": "NOT_OPERATIONAL",
+      "write_authority_status": "NOT_GRANTED",
+      "current_task": null,
+      "current_status": "PENDING_VERIFICATION",
+      "last_authority_sync": null,
+      "last_known_branch": null,
+      "last_known_HEAD": null,
+      "current_embargo_restrictions": [],
+      "last_handoff": null,
+      "notes": "PI assigns each task and mode; role is not scientific promotion authority."
+    }
+  ],
+  "mode_catalog": [
+    "READ_ONLY_RESEARCH",
+    "INDEPENDENT_REVIEW",
+    "VALIDATION",
+    "AUTHORIZED_WRITER",
+    "EXPERIMENTAL_ENGINEER",
+    "COORDINATION",
+    "PI_AUTHORITY",
+    "NOT_OPERATIONAL"
+  ],
+  "task_authorization_required": true
+}

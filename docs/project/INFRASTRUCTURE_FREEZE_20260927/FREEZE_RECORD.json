@@ -1,0 +1,34 @@
+{
+  "freeze_id": "JGA_MULTI_AGENT_INFRASTRUCTURE_FREEZE_20260927",
+  "status": "FROZEN_PI_APPROVED",
+  "scope": "GOVERNANCE_INFRASTRUCTURE_ONLY",
+  "PI_authorization": "PI-INFRA-FINAL-APPROVAL-20260927",
+  "created_at": "2026-09-27T08:27:58.221866+00:00",
+  "scientific_data_modified": false,
+  "frozen_scientific_results_modified": false,
+  "historical_SSD_inventory": "NOT FULLY CERTIFIED",
+  "branch": "scientific/translation-layer-finalization",
+  "pre_publication_HEAD": "a5eb987d5742bed31e4b5ef02ccda9a17c5ab093",
+  "frozen_core_sha256": {
+    ".githooks/pre-commit": "4ff4bef3f57000fbd9ce74b703a6cb8b8e85a93666504c9b5e572821bd392483",
+    ".gitattributes": "a40be729665e39654c1e91fead28947f2474e150a68c7467a9612f7479dcb623",
+    ".github/copilot-instructions.md": "16ef1cf13b214fd4b294502e6d050c83e198416a9b2a746fb3eac6e3c11b7e48",
+    "AGENTS.md": "82d43a7b93d06a92f5154d3cfba34107063cc421721562c92dc002d7f500a584",
+    "docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md": "451f3128444b95a2aea5350fa7c930091f02878f8c11b6a61bf779b61500bd19",
+    "docs/project/INFRASTRUCTURE_ARCHITECTURE.md": "da11ecdd6f7f902a8948fc175d1e86e65e5abbf37dbf11a078d035f43075ce25",
+    "tools/jga_governance.py": "b81577e29df6395abd7f09ed8e212b2613ecf8c5de6e368ba94640cc07e2e7f4",
+    "tools/export_chat_recovery.py": "7e5ff8509372cdad97bca58a76ea42944e1af05aa262db97ee89e417ae297811",
+    "tools/tests/test_jga_governance.py": "84a306533aa4528560a7e9dc29e0aeb4b0d789b4384e2eea7e2fe39cd04953ac"
+  },
+  "audit_sha256": "43a138024cf15a6c993cd4ef4781a87c872dfb232bbea9c71d17daef5af261eb",
+  "manifest": "MANIFEST.json",
+  "snapshot_revision_rule": "The commit first adding this FREEZE_RECORD.json (git log --diff-filter=A). Manifest hashes identify that commit snapshot, not later mutable task/publication records.",
+  "publication_identity": "Final current handoff is committed with export-subst; exported recovery contains exact final HEAD; no recursive self-hash commits.",
+  "scientific_next_task": "NONE — AWAITING PI AUTHORIZATION",
+  "limitations": [
+    "Historical SSD directory sets are not fully certified",
+    "Only registered external files carry the stated per-file verification",
+    "Governance guards are cooperative, not a malicious-process security sandbox",
+    "Unrelated pre-existing scientific working-tree changes are not part of this freeze"
+  ]
+}
