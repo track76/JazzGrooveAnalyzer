@@ -97,6 +97,26 @@
       "current_embargo_restrictions": [],
       "last_handoff": null,
       "notes": "PI assigns each task and mode; role is not scientific promotion authority."
+    },
+    {
+      "agent_id": "opencode",
+      "agent_name": "OpenCode / Nemotron",
+      "provider": "NVIDIA",
+      "role": "primary experimental engineer",
+      "allowed_modes": [
+        "PRIMARY_EXPERIMENTAL_ENGINEER",
+        "EXPERIMENTAL_ENGINEER"
+      ],
+      "current_mode": "EXPERIMENTAL_ENGINEER",
+      "write_authority_status": "AUTHORIZED_FOR_CURRENT_TASK",
+      "current_task": "GOV-TEAM-POLICY-AMENDMENT-001-20260927",
+      "current_status": "AUTHORIZED_GOVERNANCE_ONLY",
+      "last_authority_sync": "2026-09-27T10:00:00.000000+00:00",
+      "last_known_branch": "scientific/translation-layer-finalization",
+      "last_known_HEAD": "50a455bc8fe9385808f15a31b412da7adb863e1a",
+      "current_embargo_restrictions": [],
+      "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
+      "notes": "PI assigns each task and mode; role is not scientific promotion authority. Writer authority is task-scoped only per GOV-TEAM-POLICY-AMENDMENT-001-20260927."
     }
   ],
   "mode_catalog": [
@@ -105,6 +125,7 @@
     "VALIDATION",
     "AUTHORIZED_WRITER",
     "EXPERIMENTAL_ENGINEER",
+    "PRIMARY_EXPERIMENTAL_ENGINEER",
     "COORDINATION",
     "PI_AUTHORITY",
     "NOT_OPERATIONAL"

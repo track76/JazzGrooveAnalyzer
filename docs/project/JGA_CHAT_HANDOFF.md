@@ -5,7 +5,7 @@
 ## Project, PI and recovery snapshot
 
 - Project: Jazz Groove Analyzer (JGA). PI: Angelo Tracanna. Role authority: `docs/project/AGENT_REGISTRY.json`; PI decisions: `docs/project/PI_DECISION_LOG.jsonl`.
-- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T09:15:12.501472+00:00 (UTC).
+- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T10:00:00.000000+00:00 (UTC).
 - Repository root: `/Users/StarTrack/Development/JazzGrooveAnalyzer`.
 - Current branch: `scientific/translation-layer-finalization`.
 - Publication HEAD: $Format:%H$
@@ -66,7 +66,8 @@ Role authority: `docs/project/AGENT_REGISTRY.json`. PI-INFRA-FINAL-APPROVAL-2026
 |---|---|
 | PI — Angelo Tracanna | Sole scientific/methodological decision, promotion, embargo-release and task-transition authority |
 | ChatGPT | Scientific/methodological coordinator; external conversations assume no filesystem access |
-| Codex | Experimental engineer / implementation agent; scientific work stopped for PI review; current governance infrastructure block only |
+| Codex | Engineering reviewer / fallback engineer; historical provenance preserved; scientific work stopped for PI review |
+| OpenCode / Nemotron | Primary experimental engineer; task-scoped governance writer per GOV-TEAM-POLICY-AMENDMENT-001-20260927 |
 | GitHub Copilot CLI | Independent MIR researcher / reviewer; READ-ONLY orientation completed; independent research INTENDED, NOT YET ASSIGNED |
 | Qwen / Alibaba | Potential future third reviewer/replication agent; no active assignment |
 
@@ -142,12 +143,10 @@ Infrastructure content commit `6fa61b7954a509cbcaba4c63b959dac246ff67a7` was pus
 
 Codex completes only publication receipts/backup and then STOP FOR PI REVIEW. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
 
-## Current operational directive — 2026-09-27T09:07:03.602625+00:00
+## Current operational directive — 2026-09-27T10:00:00.000000+00:00
 
-Decision `PI-BOUNDED-AUTONOMY-20260927` in `docs/project/PI_DECISION_LOG.jsonl` is APPROVED. Execute routine safe substeps autonomously within explicit PI scope. Scientific decisions, embargoes, single writer, storage, backup and STOP PI gates remain mandatory. Narrow environment permission rules only; no unrestricted or destructive persistent permissions. No automatic task chaining.
+Decision `PI-TEAM-POLICY-AMENDMENT-20260927` in `docs/project/PI_DECISION_LOG.jsonl` is APPROVED. Execute governance team policy amendment: admit OpenCode as PRIMARY_EXPERIMENTAL_ENGINEER with task-scoped writer authority; update Codex role to ENGINEERING_REVIEWER/FALLBACK_ENGINEER; preserve Copilot READ_ONLY_RESEARCH with unchanged embargo. Scientific decisions, embargoes, single writer, storage, backup and STOP PI gates remain mandatory. No scientific work authorized. No automatic task chaining.
 
-Task `GOV-BOUNDED-AUTONOMY-001-20260927` registered the directive and verified the four records against CURRENT. PI decision `PI-BOUNDED-AUTONOMY-PUBLISH-20260927` now authorizes publishing those four records only, under task `GOV-BOUNDED-AUTONOMY-PUBLISH-20260927`. The earlier no-publication gate applied to registration, not this explicitly authorized publication. No general commit/push authorization or scientific work is granted.
+Task `GOV-TEAM-POLICY-AMENDMENT-001-20260927` started by OpenCode. Complete governance updates, regenerate bootstrap, synchronize handoff, verify backup, then STOP FOR PI REVIEW.
 
-The publication HEAD above resolves to the containing commit through the established Git export-subst recovery mechanism. Its commit-addressed EXPORT_MANIFEST.json verifies remote equality; CLOSURE_RECEIPT.json records final backup and lock-release outcome. These receipts must pass before completion is declared. Per-file backups are verified during writes; final full repository inventory remains mandatory. Prior committed exports are preserved historical snapshots. Unrelated working-tree changes remain untouched. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
-
-Codex: complete only this publication then STOP FOR PI REVIEW. Copilot embargo unchanged; no new scientific task, scientific-decision autonomy or automatic chaining. Pending future publication/task scope always requires PI authorization.
+Previous bounded autonomy directive `PI-BOUNDED-AUTONOMY-20260927` and its publication `PI-BOUNDED-AUTONOMY-PUBLISH-20260927` remain recorded; Codex completes only that publication then STOP FOR PI REVIEW. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
