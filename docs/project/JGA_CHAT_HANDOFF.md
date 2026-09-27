@@ -5,7 +5,7 @@
 ## Project, PI and recovery snapshot
 
 - Project: Jazz Groove Analyzer (JGA). PI: Angelo Tracanna. Role authority: `docs/project/AGENT_REGISTRY.json`; PI decisions: `docs/project/PI_DECISION_LOG.jsonl`.
-- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T10:00:00.000000+00:00 (UTC).
+- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T12:00:00.000000+00:00 (UTC).
 - Repository root: `/Users/StarTrack/Development/JazzGrooveAnalyzer`.
 - Current branch: `scientific/translation-layer-finalization`.
 - Publication HEAD: $Format:%H$
@@ -66,8 +66,8 @@ Role authority: `docs/project/AGENT_REGISTRY.json`. PI-INFRA-FINAL-APPROVAL-2026
 |---|---|
 | PI — Angelo Tracanna | Sole scientific/methodological decision, promotion, embargo-release and task-transition authority |
 | ChatGPT | Scientific/methodological coordinator; external conversations assume no filesystem access |
-| Codex | Engineering reviewer / fallback engineer; historical provenance preserved; scientific work stopped for PI review |
-| OpenCode / Nemotron | Primary experimental engineer; task-scoped governance writer per GOV-TEAM-POLICY-AMENDMENT-001-20260927 |
+| Codex | Engineering reviewer / fallback engineer; historical provenance preserved; scientific work stopped for PI review; INDEPENDENT_REVIEW mode |
+| OpenCode / Nemotron | Primary experimental engineer; NO ACTIVE TASK; write_authority_status = NOT_GRANTED |
 | GitHub Copilot CLI | Independent MIR researcher / reviewer; READ-ONLY orientation completed; independent research INTENDED, NOT YET ASSIGNED |
 | Qwen / Alibaba | Potential future third reviewer/replication agent; no active assignment |
 
@@ -123,7 +123,7 @@ Paths below are repository-relative. File hashes identify exact consulted payloa
 | [BACKUP] | `docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md` | `c6f5648fea7f4a82ee30f546ba332f153f0d3cc830646486b347927c8ffe1ca6` |
 | [DEFERRED] | `docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/NEXT_SCIENTIFIC_TASK.md` | `9c97b14b6ca8db59c72fd07adadcd313dd0d8f25f88d70dc819464d4c20c3885` |
 
-HANDOFF STATUS: CURRENT for the declared publication snapshot/export. PI infrastructure approval granted; science remains STOP FOR PI REVIEW.
+HANDOFF STATUS: CURRENT for the declared publication snapshot/export. PI infrastructure approval granted; science remains STOP FOR PI REVIEW. Corrective governance reconciliation in progress per GOV-TEAM-POLICY-RECONCILIATION-001-20260927.
 
 ## Approved infrastructure publication
 
@@ -143,10 +143,10 @@ Infrastructure content commit `6fa61b7954a509cbcaba4c63b959dac246ff67a7` was pus
 
 Codex completes only publication receipts/backup and then STOP FOR PI REVIEW. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
 
-## Current operational directive — 2026-09-27T10:00:00.000000+00:00
+## Current operational directive — 2026-09-27T12:00:00.000000+00:00
 
-Decision `PI-TEAM-POLICY-AMENDMENT-20260927` in `docs/project/PI_DECISION_LOG.jsonl` is APPROVED. Execute governance team policy amendment: admit OpenCode as PRIMARY_EXPERIMENTAL_ENGINEER with task-scoped writer authority; update Codex role to ENGINEERING_REVIEWER/FALLBACK_ENGINEER; preserve Copilot READ_ONLY_RESEARCH with unchanged embargo. Scientific decisions, embargoes, single writer, storage, backup and STOP PI gates remain mandatory. No scientific work authorized. No automatic task chaining.
+Decision `PI-TEAM-POLICY-AMENDMENT-20260927` in `docs/project/PI_DECISION_LOG.jsonl` is APPROVED. Governance team policy amendment completed: OpenCode admitted as PRIMARY_EXPERIMENTAL_ENGINEER with task-scoped writer authority; Codex role updated to ENGINEERING_REVIEWER/FALLBACK_ENGINEER; Copilot READ_ONLY_RESEARCH preserved with unchanged embargo.
 
-Task `GOV-TEAM-POLICY-AMENDMENT-001-20260927` started by OpenCode. Complete governance updates, regenerate bootstrap, synchronize handoff, verify backup, then STOP FOR PI REVIEW.
+Corrective governance reconciliation task `GOV-TEAM-POLICY-RECONCILIATION-001-20260927` authorized by PI. Complete governance reconciliation: update registry roles/states, record publication provenance, reconcile task metadata, synchronize handoff/bootstrap, verify backup, then STOP FOR PI REVIEW.
 
-Previous bounded autonomy directive `PI-BOUNDED-AUTONOMY-20260927` and its publication `PI-BOUNDED-AUTONOMY-PUBLISH-20260927` remain recorded; Codex completes only that publication then STOP FOR PI REVIEW. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
+Previous bounded autonomy directive `PI-BOUNDED-AUTONOMY-20260927` and its publication `PI-BOUNDED-AUTONOMY-PUBLISH-20260927` remain recorded; Codex completed that publication. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.

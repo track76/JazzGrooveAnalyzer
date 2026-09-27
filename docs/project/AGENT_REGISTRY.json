@@ -43,20 +43,20 @@
       "agent_id": "codex",
       "agent_name": "Codex",
       "provider": "OpenAI",
-      "role": "experimental engineer / implementation agent",
+      "role": "engineering reviewer / fallback engineer",
       "allowed_modes": [
-        "AUTHORIZED_WRITER"
+        "INDEPENDENT_REVIEW"
       ],
-      "current_mode": "AUTHORIZED_WRITER",
+      "current_mode": "INDEPENDENT_REVIEW",
       "write_authority_status": "NOT_GRANTED",
-      "current_task": "GOV-BOUNDED-AUTONOMY-PUBLISH-20260927",
-      "current_status": "STOP_FOR_PI_REVIEW_AFTER_PUBLICATION",
+      "current_task": null,
+      "current_status": "NO_ACTIVE_TASK",
       "last_authority_sync": "2026-09-27T09:15:12.501472+00:00",
       "last_known_branch": "scientific/translation-layer-finalization",
       "last_known_HEAD": "50a455bc8fe9385808f15a31b412da7adb863e1a",
       "current_embargo_restrictions": [],
       "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
-      "notes": "Only current PI-approved publication lease; no future writer/scientific authorization. Final publication identity is the handoff containing commit/export."
+      "notes": "Historical provenance preserved. Returns to ENGINEERING_REVIEWER / FALLBACK_ENGINEER role. May temporarily return to EXPERIMENTAL_ENGINEER / AUTHORIZED_WRITER only for a future explicitly PI-authorized bounded task."
     },
     {
       "agent_id": "copilot",
@@ -107,16 +107,16 @@
         "PRIMARY_EXPERIMENTAL_ENGINEER",
         "EXPERIMENTAL_ENGINEER"
       ],
-      "current_mode": "EXPERIMENTAL_ENGINEER",
-      "write_authority_status": "AUTHORIZED_FOR_CURRENT_TASK",
-      "current_task": "GOV-TEAM-POLICY-AMENDMENT-001-20260927",
-      "current_status": "AUTHORIZED_GOVERNANCE_ONLY",
+      "current_mode": "PRIMARY_EXPERIMENTAL_ENGINEER",
+      "write_authority_status": "NOT_GRANTED",
+      "current_task": null,
+      "current_status": "NO_ACTIVE_TASK",
       "last_authority_sync": "2026-09-27T10:00:00.000000+00:00",
       "last_known_branch": "scientific/translation-layer-finalization",
       "last_known_HEAD": "50a455bc8fe9385808f15a31b412da7adb863e1a",
       "current_embargo_restrictions": [],
       "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
-      "notes": "PI assigns each task and mode; role is not scientific promotion authority. Writer authority is task-scoped only per GOV-TEAM-POLICY-AMENDMENT-001-20260927."
+      "notes": "PI assigns each task and mode; role is not scientific promotion authority. Writer authority is task-scoped only per GOV-TEAM-POLICY-AMENDMENT-001-20260927. Completed historical task authorization must remain historical provenance, not reusable current authorization. OpenCode may receive writer authority again ONLY through a future explicitly PI-authorized bounded task."
     }
   ],
   "mode_catalog": [
