@@ -5,11 +5,11 @@
 ## Project, PI and recovery snapshot
 
 - Project: Jazz Groove Analyzer (JGA). PI: Angelo Tracanna. Role authority: `docs/project/AGENT_REGISTRY.json`; PI decisions: `docs/project/PI_DECISION_LOG.jsonl`.
-- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T08:48:05.819336+00:00 (UTC).
+- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T09:15:12.501472+00:00 (UTC).
 - Repository root: `/Users/StarTrack/Development/JazzGrooveAnalyzer`.
 - Current branch: `scientific/translation-layer-finalization`.
 - Publication HEAD: $Format:%H$
-- Preparation baseline HEAD: `6fa61b7954a509cbcaba4c63b959dac246ff67a7` (historical; not the final publication identity).
+- Preparation baseline HEAD: `50a455bc8fe9385808f15a31b412da7adb863e1a` (historical; not the final publication identity).
 - The repository file is a Git export-subst template. The commit-addressed NEW CHAT RECOVERY export substitutes the exact final published HEAD above. If a raw `$Format` token is visible, the PI should attach the exported pair; do not pretend that token is a verified hash.
 - Working tree: pre-existing scientific/output/recording modifications and untracked experiments were preserved outside governance staging. Governance closure does not authorize committing, hiding or reverting those files. Report global worktree status separately from clean published governance.
 - PI final approval authorizes the infrastructure freeze and focused commit/push, not scientific execution.
@@ -141,3 +141,13 @@ Approved governance freeze: `docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_
 Infrastructure content commit `6fa61b7954a509cbcaba4c63b959dac246ff67a7` was pushed to `scientific/translation-layer-finalization`; remote HEAD equality verified. Its 26-file governance-only versioned backup was SHA-256 verified at `/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_GOVERNANCE_FREEZE_20260927/6fa61b7954a509cbcaba4c63b959dac246ff67a7/`. The repository batch checkpoint verified 10,274 files (7,661,157,788 bytes), with no backup deletion. This metadata closure has immediate per-file backup; the final exported `EXPORT_MANIFEST.json` records the containing publication HEAD and remote verification. Final post-publication batch verification is required before the agent declares completion; this checkpoint does not preclaim that later result.
 
 Codex completes only publication receipts/backup and then STOP FOR PI REVIEW. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
+
+## Current operational directive — 2026-09-27T09:07:03.602625+00:00
+
+Decision `PI-BOUNDED-AUTONOMY-20260927` in `docs/project/PI_DECISION_LOG.jsonl` is APPROVED. Execute routine safe substeps autonomously within explicit PI scope. Scientific decisions, embargoes, single writer, storage, backup and STOP PI gates remain mandatory. Narrow environment permission rules only; no unrestricted or destructive persistent permissions. No automatic task chaining.
+
+Task `GOV-BOUNDED-AUTONOMY-001-20260927` registered the directive and verified the four records against CURRENT. PI decision `PI-BOUNDED-AUTONOMY-PUBLISH-20260927` now authorizes publishing those four records only, under task `GOV-BOUNDED-AUTONOMY-PUBLISH-20260927`. The earlier no-publication gate applied to registration, not this explicitly authorized publication. No general commit/push authorization or scientific work is granted.
+
+The publication HEAD above resolves to the containing commit through the established Git export-subst recovery mechanism. Its commit-addressed EXPORT_MANIFEST.json verifies remote equality; CLOSURE_RECEIPT.json records final backup and lock-release outcome. These receipts must pass before completion is declared. Per-file backups are verified during writes; final full repository inventory remains mandatory. Prior committed exports are preserved historical snapshots. Unrelated working-tree changes remain untouched. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
+
+Codex: complete only this publication then STOP FOR PI REVIEW. Copilot embargo unchanged; no new scientific task, scientific-decision autonomy or automatic chaining. Pending future publication/task scope always requires PI authorization.

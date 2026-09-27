@@ -48,15 +48,15 @@
         "AUTHORIZED_WRITER"
       ],
       "current_mode": "AUTHORIZED_WRITER",
-      "write_authority_status": "AUTHORIZED_FOR_CURRENT_TASK",
-      "current_task": "GOV-INFRA-CLOSURE-001-20260927",
+      "write_authority_status": "NOT_GRANTED",
+      "current_task": "GOV-BOUNDED-AUTONOMY-PUBLISH-20260927",
       "current_status": "STOP_FOR_PI_REVIEW_AFTER_PUBLICATION",
-      "last_authority_sync": "2026-09-27T08:48:05.819336+00:00",
+      "last_authority_sync": "2026-09-27T09:15:12.501472+00:00",
       "last_known_branch": "scientific/translation-layer-finalization",
-      "last_known_HEAD": "6fa61b7954a509cbcaba4c63b959dac246ff67a7",
+      "last_known_HEAD": "50a455bc8fe9385808f15a31b412da7adb863e1a",
       "current_embargo_restrictions": [],
       "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
-      "notes": "Closure publication only under existing lease; no new writer or scientific task authorized. Final publication HEAD is the commit containing the current handoff and its verified recovery export."
+      "notes": "Only current PI-approved publication lease; no future writer/scientific authorization. Final publication identity is the handoff containing commit/export."
     },
     {
       "agent_id": "copilot",
