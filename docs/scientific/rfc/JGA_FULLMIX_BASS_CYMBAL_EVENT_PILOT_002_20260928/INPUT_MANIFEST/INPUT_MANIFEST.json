@@ -1,0 +1,42 @@
+{
+  "task_id": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-20260928",
+  "source": {
+    "path": "docs/scientific/rfc/JGA_TARGETED_PITCH_ONSET_20260924/inference/input/FULLMIX.wav",
+    "sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+    "sample_rate": 44100,
+    "channels": 2,
+    "frames": 15338496,
+    "duration_s": 347.8117006802721,
+    "format": "WAV",
+    "subtype": "FLOAT"
+  },
+  "region": {
+    "measure": "M33-M56",
+    "quarter_labels": "Q131-Q226",
+    "chorus_identity": "NOT_ESTABLISHED",
+    "requested_interval_s": [
+      47.786666667,
+      82.616598639
+    ],
+    "native_start_inclusive": 2107392,
+    "native_end_exclusive": 3643392,
+    "native_interval_s": [
+      47.78666666666667,
+      82.61659863945579
+    ],
+    "rounding": "nearest_integer_half_even",
+    "sample_count": 1536000
+  },
+  "processing_support": {
+    "start_sample": 2062268,
+    "end_sample_exclusive": 3688516,
+    "source_padding_at_evaluation_boundary": false
+  },
+  "independence": {
+    "original_fullmix_only": true,
+    "stem_access": false,
+    "human_access": false,
+    "global_selection": false,
+    "quarter_mapping": "PI-authorized interval only; no quarter array loaded"
+  }
+}

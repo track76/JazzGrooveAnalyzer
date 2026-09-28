@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "impulse_sample": 1024,
+      "peak_frame": 2,
+      "frame_center_sample": 1024,
+      "error_samples": 0,
+      "pass": true
+    },
+    {
+      "impulse_sample": 2048,
+      "peak_frame": 4,
+      "frame_center_sample": 2048,
+      "error_samples": 0,
+      "pass": true
+    },
+    {
+      "impulse_sample": 4096,
+      "peak_frame": 8,
+      "frame_center_sample": 4096,
+      "error_samples": 0,
+      "pass": true
+    }
+  ],
+  "center": true,
+  "formula": "processing_start_sample + frame_index * hop_length",
+  "half_window_subtraction": false,
+  "hop_ms": 11.609977324263038,
+  "window_ms": 46.439909297052154,
+  "scope": "STFT frame coordinate invariant, not physical attack accuracy",
+  "filter_checks": [
+    {
+      "arm": "bass",
+      "impulse_sample": 44100,
+      "filtered_abs_peak_sample": 44100,
+      "symmetry_max_abs_difference": 5.342948306008566e-16,
+      "max_abs_tail_beyond_guard_0_5s": 9.842821178632071e-23,
+      "interpretation": "engineering descriptor only; zero-phase does not prove unchanged transient maxima"
+    },
+    {
+      "arm": "cymbal",
+      "impulse_sample": 44100,
+      "filtered_abs_peak_sample": 44100,
+      "symmetry_max_abs_difference": 4.0245584642661925e-16,
+      "max_abs_tail_beyond_guard_0_5s": 4.4e-323,
+      "interpretation": "engineering descriptor only; zero-phase does not prove unchanged transient maxima"
+    }
+  ]
+}

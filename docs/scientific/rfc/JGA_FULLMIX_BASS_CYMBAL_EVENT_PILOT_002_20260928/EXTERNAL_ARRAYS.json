@@ -1,0 +1,249 @@
+{
+  "files": [
+    {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EVIDENCE_ARRAYS.npz",
+      "sha256": "12d5c3d3ac218b163a3e2b5d396d066decd514f329e3091c7875fda3a127cf20",
+      "size": 69509154,
+      "backup_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EVIDENCE_ARRAYS.npz",
+      "backup_sha256": "12d5c3d3ac218b163a3e2b5d396d066decd514f329e3091c7875fda3a127cf20",
+      "status": "PASS",
+      "verified_at": "2026-09-28T09:38:31.038277+00:00"
+    }
+  ],
+  "processing_start_sample": 2062268,
+  "processing_end_sample_exclusive": 3688516,
+  "arrays": {
+    "native_sample": {
+      "shape": [
+        3177
+      ],
+      "dtype": "int64"
+    },
+    "time_s": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "fullmix_waveform": {
+      "shape": [
+        1626248
+      ],
+      "dtype": "float64"
+    },
+    "fullmix_magnitude": {
+      "shape": [
+        1025,
+        3177
+      ],
+      "dtype": "float32"
+    },
+    "frequencies_hz": {
+      "shape": [
+        1025
+      ],
+      "dtype": "float64"
+    },
+    "bass_filtered_waveform": {
+      "shape": [
+        1626248
+      ],
+      "dtype": "float64"
+    },
+    "bass_magnitude": {
+      "shape": [
+        1025,
+        3177
+      ],
+      "dtype": "float32"
+    },
+    "bass_flux": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_context_local_maxima_frames": {
+      "shape": [
+        992
+      ],
+      "dtype": "int64"
+    },
+    "bass_context_prominences": {
+      "shape": [
+        992
+      ],
+      "dtype": "float64"
+    },
+    "bass_context_distance_kept_frames": {
+      "shape": [
+        743
+      ],
+      "dtype": "int64"
+    },
+    "bass_context_peak_qualified_frames": {
+      "shape": [
+        692
+      ],
+      "dtype": "int64"
+    },
+    "bass_centroid_hz": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_rolloff_hz": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_bandwidth_hz": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_flatness": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_subband_energy_cv": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_zcr": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_post_event_energy": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_f0_hz": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_voiced": {
+      "shape": [
+        3177
+      ],
+      "dtype": "bool"
+    },
+    "bass_voiced_probability": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_harmonic_magnitude_sum": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "bass_prior_voiced_difference_hz": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_filtered_waveform": {
+      "shape": [
+        1626248
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_magnitude": {
+      "shape": [
+        1025,
+        3177
+      ],
+      "dtype": "float32"
+    },
+    "cymbal_flux": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_context_local_maxima_frames": {
+      "shape": [
+        750
+      ],
+      "dtype": "int64"
+    },
+    "cymbal_context_prominences": {
+      "shape": [
+        750
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_context_distance_kept_frames": {
+      "shape": [
+        750
+      ],
+      "dtype": "int64"
+    },
+    "cymbal_context_peak_qualified_frames": {
+      "shape": [
+        426
+      ],
+      "dtype": "int64"
+    },
+    "cymbal_centroid_hz": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_rolloff_hz": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_bandwidth_hz": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_flatness": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_subband_energy_cv": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_zcr": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    },
+    "cymbal_post_event_energy": {
+      "shape": [
+        3177
+      ],
+      "dtype": "float64"
+    }
+  },
+  "nan_semantics": "NaN in numeric NPZ pitch/harmonic arrays means missing measurement, never zero; JSON uses null/status"
+}

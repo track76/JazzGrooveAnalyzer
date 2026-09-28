@@ -1,0 +1,140 @@
+{
+  "task_id": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-20260928",
+  "classification": "EXPERIMENTAL_DIAGNOSTIC_NOT_PROMOTED",
+  "region_native_samples": [
+    2107392,
+    3643392
+  ],
+  "region_s": [
+    47.78666666666667,
+    82.61659863945579
+  ],
+  "source_sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+  "arms": {
+    "bass": {
+      "all_local_maxima": 939,
+      "peak_qualified": 659,
+      "deduplicated": 458,
+      "rejected": 280,
+      "merged_members": 201,
+      "states": {
+        "BASS_COMPATIBLE": 350,
+        "BASS_POSSIBLE": 0,
+        "AMBIGUOUS": 108,
+        "UNRESOLVED": 0
+      },
+      "clusters": 458,
+      "multi_member_clusters": 137,
+      "cluster_size_distribution": {
+        "1": 321,
+        "2": 93,
+        "3": 30,
+        "4": 9,
+        "5": 4,
+        "6": 1
+      },
+      "cluster_span_ms": {
+        "n": 458,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 34.829931972787165,
+        "max": 174.14965986394293
+      },
+      "clusters_span_exceeds_tolerance": 44,
+      "dedup_spacing_ms": {
+        "n": 457,
+        "min": 46.43990929704955,
+        "q1": 46.439909297063764,
+        "median": 69.65986394557433,
+        "q3": 92.8798185940991,
+        "max": 220.5895691610067
+      },
+      "evaluation_boundary_crossed": 2,
+      "source_support_truncated": 0,
+      "flux": {
+        "n": 458,
+        "min": 1.6033829047394101,
+        "q1": 6.313492246775783,
+        "median": 11.537758346879738,
+        "q3": 27.9536300547393,
+        "max": 146.13729593199778
+      },
+      "prominence": {
+        "n": 458,
+        "min": 0.9466820051944711,
+        "q1": 3.9184974682137357,
+        "median": 8.486922586288136,
+        "q3": 22.514207918165418,
+        "max": 146.0314920412538
+      }
+    },
+    "cymbal": {
+      "all_local_maxima": 709,
+      "peak_qualified": 405,
+      "deduplicated": 302,
+      "rejected": 304,
+      "merged_members": 103,
+      "states": {
+        "CYMBAL_COMPATIBLE": 17,
+        "OTHER_PERCUSSIVE_COMPATIBLE": 279,
+        "AMBIGUOUS": 6,
+        "UNRESOLVED": 0
+      },
+      "clusters": 302,
+      "multi_member_clusters": 83,
+      "cluster_size_distribution": {
+        "1": 219,
+        "2": 68,
+        "3": 11,
+        "4": 3,
+        "5": 1
+      },
+      "cluster_span_ms": {
+        "n": 302,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 23.219954648524777,
+        "max": 127.70975056689338
+      },
+      "clusters_span_exceeds_tolerance": 15,
+      "dedup_spacing_ms": {
+        "n": 301,
+        "min": 46.43990929704955,
+        "q1": 69.65986394557433,
+        "median": 81.26984126984382,
+        "q3": 127.70975056689338,
+        "max": 406.3492063492049
+      },
+      "evaluation_boundary_crossed": 8,
+      "source_support_truncated": 0,
+      "flux": {
+        "n": 302,
+        "min": 0.7174670595815493,
+        "q1": 2.0326315273102766,
+        "median": 4.551650634373583,
+        "q3": 8.653358402448344,
+        "max": 24.82999622535677
+      },
+      "prominence": {
+        "n": 302,
+        "min": 0.27461212094996723,
+        "q1": 0.632853894891114,
+        "median": 2.208009749425847,
+        "q3": 7.105068259017739,
+        "max": 24.42323857272206
+      }
+    }
+  },
+  "independence": {
+    "stems": false,
+    "human": false,
+    "global_for_selection": false,
+    "no_grid": true
+  },
+  "raw_inventory_preserved": true,
+  "all_rejections_preserved": true,
+  "all_merged_members_preserved": true,
+  "no_physical_identity_validation": true
+}

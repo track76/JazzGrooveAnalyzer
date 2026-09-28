@@ -1,0 +1,422 @@
+{
+  "status": "PRESERVED_OPENCODE_PARTIAL_PROVENANCE",
+  "files": {
+    "CONFIGURATION/CONFIGURATION.json": {
+      "sha256": "7459538e1114279f773b9b145cc0c9f93d528c2d388387734f700a63be35f771",
+      "original_content": {
+        "task_id": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-20260928",
+        "date": "2026-09-28",
+        "pi": "Angelo Tracanna",
+        "role": "PRIMARY_EXPERIMENTAL_ENGINEER",
+        "audio_input": {
+          "input_path": "docs/scientific/rfc/JGA_TARGETED_PITCH_ONSET_20260924/inference/input/FULLMIX.wav",
+          "sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+          "sample_rate": 44100,
+          "channels": 2,
+          "duration_s": 347.811701,
+          "subtype": "FLOAT",
+          "format": "WAV",
+          "channel_handling": "mean_to_mono",
+          "analysis_window": {
+            "start_s": 47.786666667,
+            "end_s": 82.616598639,
+            "measure_range": "M33-M56",
+            "quarter_range": "Q131-Q226",
+            "quarter_count": 96,
+            "start_sample_inclusive": 2107392,
+            "end_sample_exclusive": 3643392,
+            "sample_calculation": {
+              "start_s": 47.786666667,
+              "sr": 44100,
+              "start_sample_float": 2107392.0000147,
+              "start_sample_rounded": 2107392,
+              "end_s": 82.616598639,
+              "end_sample_float": 3643391.9999799,
+              "end_sample_rounded": 3643392,
+              "rounding_convention": "round_to_nearest_integer",
+              "interval_semantics": "start_inclusive_end_exclusive_native_samples"
+            }
+          }
+        },
+        "stft_configuration": {
+          "window": "hann",
+          "n_fft": 2048,
+          "hop_length": 512,
+          "win_length": 2048,
+          "center": true,
+          "pad_mode": "reflect",
+          "dtype": "complex64",
+          "derived_parameters": {
+            "frame_rate_hz": 86.1328125,
+            "frame_duration_s": 0.011609977324263039,
+            "frequency_resolution_hz": 21.533203125,
+            "center_offset_samples": 1024,
+            "center_offset_s": 0.023219954648526078,
+            "timestamp_convention": "librosa_center_true_frame_center_at_original_sample_t_hop_length",
+            "frame_to_native_time_formula": "window_start_s + frame_index * hop_length / sample_rate",
+            "native_time_to_frame_formula": "round((time_s - window_start_s) * sample_rate / hop_length)",
+            "timestamp_invariant_test": {
+              "impulse_sample": 1024,
+              "impulse_time_s": 0.023219954648526078,
+              "peak_frame": 2,
+              "peak_frame_center_time_s": 0.023219954648526078,
+              "difference_s": 0.0,
+              "test_result": "PASS"
+            }
+          }
+        },
+        "bass_arm": {
+          "evidence_band_hz": [
+            45,
+            350
+          ],
+          "filter": {
+            "type": "butterworth",
+            "order": 4,
+            "btype": "bandpass",
+            "fs": 44100,
+            "phase_correction": "filtfilt_zero_phase",
+            "group_delay_note": "Zero-phase filtering (filtfilt) used; no group delay introduced"
+          },
+          "spectral_flux": {
+            "definition": "L2 norm of positive spectral difference between consecutive frames",
+            "formula": "flux[t] = sqrt(sum(max(0, |X[t,f]| - |X[t-1,f]|)^2)) for f in evidence_band",
+            "smoothing": {
+              "enabled": false,
+              "note": "No smoothing applied to preserve raw transient structure"
+            },
+            "peak_detection": {
+              "method": "scipy.signal.find_peaks",
+              "min_distance_frames": 3,
+              "prominence": "adaptive_per_segment",
+              "note": "Local maxima in flux within evidence band; min_distance ~35ms"
+            }
+          },
+          "pitch_f0": {
+            "method": "librosa.pyin",
+            "fmin": 41.2,
+            "fmax": 350.0,
+            "frame_length": 2048,
+            "hop_length": 512,
+            "threshold": 0.1,
+            "note": "Saved descriptively; dependency on low-band filtering explicit"
+          },
+          "harmonic_structure": {
+            "method": "harmonic_summation",
+            "max_harmonics": 8,
+            "note": "Sum of spectral energy at integer multiples of F0 candidate; computed only when F0 available, otherwise marked NOT_COMPUTED"
+          },
+          "pitch_contour": {
+            "enabled": true,
+            "continuity_threshold_hz": 50,
+            "max_gap_frames": 5,
+            "note": "Track F0 continuity across frames; saved as supporting evidence only"
+          },
+          "candidate_states": [
+            "BASS_COMPATIBLE",
+            "BASS_POSSIBLE",
+            "AMBIGUOUS",
+            "UNRESOLVED",
+            "NOT_OBSERVABLE"
+          ],
+          "classification_heuristics": {
+            "bass_compatible": "peak_voiced AND f0_in_range AND harmonic_energy > flux * 0.5",
+            "bass_possible": "peak_voiced AND f0_in_range AND harmonic_energy <= flux * 0.5",
+            "ambiguous": "NOT peak_voiced OR f0_out_of_range",
+            "note": "All heuristics explicitly declared; no validated identity claims"
+          }
+        },
+        "cymbal_arm": {
+          "evidence_band_hz": [
+            2000,
+            10000
+          ],
+          "filter": {
+            "type": "butterworth",
+            "order": 4,
+            "btype": "bandpass",
+            "fs": 44100,
+            "phase_correction": "filtfilt_zero_phase",
+            "group_delay_note": "Zero-phase filtering (filtfilt) used; no group delay introduced"
+          },
+          "spectral_flux": {
+            "definition": "L2 norm of positive spectral difference between consecutive frames in evidence band",
+            "formula": "flux[t] = sqrt(sum(max(0, |X[t,f]| - |X[t-1,f]|)^2)) for f in evidence_band",
+            "smoothing": {
+              "enabled": false,
+              "note": "No smoothing applied to preserve raw transient structure"
+            },
+            "peak_detection": {
+              "method": "scipy.signal.find_peaks",
+              "min_distance_frames": 2,
+              "prominence": "adaptive_per_segment",
+              "note": "Local maxima in flux within evidence band; min_distance ~23ms"
+            }
+          },
+          "spectral_features": {
+            "centroid": {
+              "definition": "Weighted mean frequency in evidence band",
+              "formula": "sum(f * |X[f]|) / sum(|X[f]|) for f in evidence_band"
+            },
+            "rolloff": {
+              "definition": "Frequency below which 85% of spectral energy in evidence band resides",
+              "threshold": 0.85
+            },
+            "bandwidth": {
+              "definition": "Spectral bandwidth around centroid in evidence band",
+              "formula": "sqrt(sum((f - centroid)^2 * |X[f]|) / sum(|X[f]|))"
+            },
+            "zcr": {
+              "definition": "Zero crossing rate of bandpassed time-domain signal",
+              "note": "Computed on filtered signal in evidence band"
+            },
+            "flatness": {
+              "definition": "Geometric mean / arithmetic mean of spectrum in evidence band",
+              "note": "Spectral flatness measure"
+            },
+            "contrast": {
+              "definition": "Spectral contrast (std/mean of sub-band energies) in evidence band",
+              "n_bands": 6,
+              "note": "Simplified statistic; named exactly as implemented"
+            }
+          },
+          "decay_persistence": {
+            "enabled": true,
+            "observation_window_s": 0.5,
+            "method": "exponential_fit",
+            "note": "Post-candidate decay envelope observation; saved as continuous descriptor named POST_EVENT_ENERGY"
+          },
+          "candidate_states": [
+            "CYMBAL_COMPATIBLE",
+            "OTHER_PERCUSSIVE_COMPATIBLE",
+            "AMBIGUOUS",
+            "UNRESOLVED",
+            "NOT_OBSERVABLE"
+          ],
+          "subtype_hypothesis": {
+            "enabled": true,
+            "note": "Ride/HiHat subtype recorded as TENTATIVE_SUBTYPE_HYPOTHESIS only, explicitly qualified, never forced"
+          },
+          "classification_heuristics": {
+            "cymbal_compatible": "centroid > 4000 AND flux > p50 AND flatness < 0.5 AND contrast > 1.0",
+            "other_percussive_compatible": "centroid > 2000 AND flux > p30",
+            "ambiguous": "otherwise",
+            "tentative_hihat": "centroid > 6000 AND flatness < 0.4",
+            "tentative_ride": "3000 < centroid < 6000 AND contrast > 1.5",
+            "note": "All heuristics explicitly declared; no validated subtype claims"
+          }
+        },
+        "candidate_management": {
+          "raw_candidate_preservation": {
+            "enabled": true,
+            "note": "Raw candidates receive immutable unique IDs; NEVER overwritten by deduplication"
+          },
+          "deduplication": {
+            "enabled": true,
+            "method": "temporal_proximity",
+            "max_merge_gap_s": 0.035,
+            "provenance_required": true,
+            "note": "Merged candidates preserve ALL original timestamps, features, and classifications. Cluster metadata includes: cluster_id, member_raw_ids, member_timestamps, member_features, member_classifications, representative_raw_id, representative_selection_rule, reason, cluster_span."
+          },
+          "boundary_handling": {
+            "support_context_required": true,
+            "context_duration_s": 0.5,
+            "note": "DSP runs with sufficient surrounding context (0.5s each side). Candidates whose required evidence support crosses evaluation boundary are flagged with boundary_truncated=true and boundary_crossing_detail.",
+            "evaluation_interval_only": "Candidates retained/output ONLY if landmark_time within [47.786666667, 82.616598639)"
+          },
+          "landmark_preservation": {
+            "original_detection_time_immutable": true,
+            "classification_window_separate": true,
+            "decision_time_recorded": true,
+            "evidence_available_until_recorded": true
+          }
+        },
+        "figure_generation": {
+          "bass_evidence": {
+            "timeline_range": [
+              47.786666667,
+              82.616598639
+            ],
+            "show_quarter_markers": true,
+            "quarter_marker_style": "faint_orientation_only",
+            "show_raw_candidates": true,
+            "show_pitch_harmonic": true,
+            "show_candidate_states": true,
+            "show_ambiguous_confuser": true,
+            "no_internal_grid": true
+          },
+          "cymbal_evidence": {
+            "timeline_range": [
+              47.786666667,
+              82.616598639
+            ],
+            "show_quarter_markers": true,
+            "quarter_marker_style": "faint_orientation_only",
+            "show_raw_candidates": true,
+            "show_spectral_decay": true,
+            "show_candidate_states": true,
+            "show_ambiguous_confuser": true,
+            "no_internal_grid": true
+          },
+          "combined_event_map": {
+            "timeline_range": [
+              47.786666667,
+              82.616598639
+            ],
+            "show_quarter_markers": true,
+            "quarter_marker_style": "faint_orientation_only",
+            "bass_row": true,
+            "cymbal_row": true,
+            "no_internal_grid": true,
+            "no_groove_interpretation": true
+          },
+          "diagnostic_zooms": {
+            "categories": [
+              "REPRESENTATIVE_COMPATIBLE",
+              "REPRESENTATIVE_AMBIGUOUS",
+              "BOUNDARY_CASE",
+              "CONFUSER_HYPOTHESIS"
+            ],
+            "zoom_window_s": 2.0,
+            "representative_count_per_category": 3,
+            "verify_correct_panel_programmatically": true
+          },
+          "boundary_diagnostic": {
+            "enabled": true,
+            "note": "Shows context handling at evaluation boundaries"
+          },
+          "timestamp_diagnostic": {
+            "enabled": true,
+            "note": "Raw-vs-filtered/timestamp diagnostic on synthetic impulse"
+          }
+        },
+        "output_paths": {
+          "output_root": "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928",
+          "heavy_arrays_external": true,
+          "external_ssd_path": "/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_CURRENT/docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928"
+        },
+        "global_plp_constraints": {
+          "used_for": [
+            "establishing_authorized_analysis_interval",
+            "quarter_measure_metadata",
+            "faint_orientation_markers_in_figures"
+          ],
+          "must_not_influence": [
+            "candidate_generation",
+            "candidate_ranking",
+            "peak_selection",
+            "deduplication",
+            "classification",
+            "acceptance_rejection",
+            "timestamps",
+            "source_identity"
+          ]
+        },
+        "stems_human_constraints": {
+          "stem_audio_may_not_influence": [
+            "candidate_existence",
+            "candidate_timing",
+            "pitch_witness",
+            "classification",
+            "deduplication",
+            "parameter_choice"
+          ],
+          "human_adjudication_may_not_influence": [
+            "parameters",
+            "thresholds",
+            "selection",
+            "timing",
+            "classification",
+            "deduplication",
+            "figure_example_choice"
+          ]
+        },
+        "reporting_constraints": {
+          "may_claim": [
+            "full_mix_derived_band_flux_candidate_evidence_exists",
+            "candidate_feature_distributions",
+            "candidate_counts",
+            "ambiguity",
+            "deduplication_behavior",
+            "computational_timestamp_semantics",
+            "source_compatible_hypotheses"
+          ],
+          "may_not_claim": [
+            "N_Bass_notes",
+            "N_Ride_HiHat_hits",
+            "physical_onset_accuracy",
+            "recall",
+            "source_identity_truth",
+            "quarter_relevance",
+            "internal_pulse",
+            "groove",
+            "ensemble_locking"
+          ]
+        }
+      }
+    },
+    "INPUT_MANIFEST/INPUT_MANIFEST.json": {
+      "sha256": "33258585dadc185bb08e9c5e21846ad5c3697c98df4ee52640f97fedd87211df",
+      "original_content": {
+        "task_id": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-20260928",
+        "date": "2026-09-28",
+        "primary_input": {
+          "path": "docs/scientific/rfc/JGA_TARGETED_PITCH_ONSET_20260924/inference/input/FULLMIX.wav",
+          "sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+          "sample_rate": 44100,
+          "channels": 2,
+          "duration_s": 347.811701,
+          "format": "WAV",
+          "subtype": "FLOAT",
+          "verification": {
+            "verified_independently": true,
+            "verification_method": "soundfile.info + sha256",
+            "not_pcm24": true,
+            "is_float32": true
+          }
+        },
+        "analysis_window": {
+          "start_s": 47.786666667,
+          "end_s": 82.616598639,
+          "measure_range": "M33-M56",
+          "quarter_range": "Q131-Q226",
+          "quarter_count": 96,
+          "native_sample_bounds": {
+            "start_sample_inclusive": 2107392,
+            "end_sample_exclusive": 3643392,
+            "sample_count": 1536000,
+            "calculation": "start_s * sr rounded to nearest, end_s * sr rounded to nearest",
+            "rounding_convention": "round_to_nearest_integer",
+            "interval_semantics": "start_inclusive_end_exclusive",
+            "plp_verification": {
+              "q131_idx_130": 47.786666667,
+              "q227_idx_226": 82.616598639,
+              "match": true
+            }
+          }
+        },
+        "context_support": {
+          "pre_context_s": 0.5,
+          "post_context_s": 0.5,
+          "context_start_sample_inclusive": 2085342,
+          "context_end_sample_exclusive": 3665442,
+          "note": "DSP runs with 0.5s surrounding context for filter edge handling and post-event decay observation"
+        },
+        "plp_reference": {
+          "path": "docs/scientific/rfc/JGA_V1_OPERATIONAL_PLP_QUARTER_NEAREST_001_20260922/INPUT_SNAPSHOTS/PLP_TIMESTAMPS.npy",
+          "sha256": "pending",
+          "used_for": "quarter metadata and faint figure orientation only"
+        },
+        "software_environment": {
+          "python_version": "3.11.9",
+          "librosa_version": "0.10.2",
+          "numpy_version": "1.26.4",
+          "scipy_version": "1.13.0",
+          "soundfile_version": "0.12.1",
+          "matplotlib_version": "3.8.4",
+          "platform": "darwin"
+        }
+      }
+    }
+  }
+}

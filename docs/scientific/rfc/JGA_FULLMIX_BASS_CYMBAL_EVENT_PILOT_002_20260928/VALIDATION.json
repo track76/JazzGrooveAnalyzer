@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "check_count": 9121,
+  "failed_checks": [],
+  "scope": "Independent saved-artifact arithmetic, provenance, frame, selection, rejection, dedup, plot and optional manifest checks; no source-identity validation",
+  "arms_recomputed": {
+    "bass": {
+      "all_local_maxima": 939,
+      "peak_qualified": 659,
+      "deduplicated": 458,
+      "rejected": 280,
+      "merged_members": 201,
+      "clusters": 458,
+      "multi_member_clusters": 137,
+      "cluster_size_distribution": {
+        "1": 321,
+        "2": 93,
+        "3": 30,
+        "4": 9,
+        "5": 4,
+        "6": 1
+      },
+      "cluster_span_ms": {
+        "n": 458,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 34.829931972787165,
+        "max": 174.14965986394293
+      },
+      "clusters_span_exceeds_tolerance": 44,
+      "dedup_spacing_ms": {
+        "n": 457,
+        "min": 46.43990929704955,
+        "q1": 46.439909297063764,
+        "median": 69.65986394557433,
+        "q3": 92.8798185940991,
+        "max": 220.5895691610067
+      },
+      "evaluation_boundary_crossed": 2,
+      "source_support_truncated": 0,
+      "flux": {
+        "n": 458,
+        "min": 1.6033829047394101,
+        "q1": 6.313492246775783,
+        "median": 11.537758346879738,
+        "q3": 27.9536300547393,
+        "max": 146.13729593199778
+      },
+      "prominence": {
+        "n": 458,
+        "min": 0.9466820051944711,
+        "q1": 3.9184974682137357,
+        "median": 8.486922586288136,
+        "q3": 22.514207918165418,
+        "max": 146.0314920412538
+      }
+    },
+    "cymbal": {
+      "all_local_maxima": 709,
+      "peak_qualified": 405,
+      "deduplicated": 302,
+      "rejected": 304,
+      "merged_members": 103,
+      "clusters": 302,
+      "multi_member_clusters": 83,
+      "cluster_size_distribution": {
+        "1": 219,
+        "2": 68,
+        "3": 11,
+        "4": 3,
+        "5": 1
+      },
+      "cluster_span_ms": {
+        "n": 302,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 23.219954648524777,
+        "max": 127.70975056689338
+      },
+      "clusters_span_exceeds_tolerance": 15,
+      "dedup_spacing_ms": {
+        "n": 301,
+        "min": 46.43990929704955,
+        "q1": 69.65986394557433,
+        "median": 81.26984126984382,
+        "q3": 127.70975056689338,
+        "max": 406.3492063492049
+      },
+      "evaluation_boundary_crossed": 8,
+      "source_support_truncated": 0,
+      "flux": {
+        "n": 302,
+        "min": 0.7174670595815493,
+        "q1": 2.0326315273102766,
+        "median": 4.551650634373583,
+        "q3": 8.653358402448344,
+        "max": 24.82999622535677
+      },
+      "prominence": {
+        "n": 302,
+        "min": 0.27461212094996723,
+        "q1": 0.632853894891114,
+        "median": 2.208009749425847,
+        "q3": 7.105068259017739,
+        "max": 24.42323857272206
+      }
+    }
+  },
+  "checks_by_category": [
+    "native coordinates",
+    "raw completeness",
+    "rejection reasons",
+    "configured selection and classification",
+    "harmonic components",
+    "cluster membership",
+    "unchanged landmark",
+    "statistics",
+    "plot references",
+    "input/config/script/array hashes"
+  ],
+  "validated_at": "2026-09-28T09:54:00.965778+00:00",
+  "validator_sha256": "972a162aceb50c3c5fad1943e3d8e4bd5eb5a189afff5889ce0a8191d0dab2a3",
+  "visual_review": {
+    "status": "PASS",
+    "reviewer": "Codex within-task engineering review, not independent scientific source-identity validation",
+    "figures": [
+      {
+        "path": "FIGURES/BASS_EVIDENCE.png",
+        "sha256": "82f839993fa4e17bb3014530dc2aa752ffbf39fd9d4a19238a1524a271256225"
+      },
+      {
+        "path": "FIGURES/BOUNDARY_SUPPORT.png",
+        "sha256": "54f17675d57f8500bc740be19ad45a667eb8248e782155173bf413ce56cb4e1f"
+      },
+      {
+        "path": "FIGURES/COMBINED_EVENT_MAP.png",
+        "sha256": "ebb66f5762607a80295e622d39058d9574cccb79bdf9a44ce7a538bf1930e730"
+      },
+      {
+        "path": "FIGURES/CYMBAL_EVIDENCE.png",
+        "sha256": "5f1f8945e2bf6d1b7f5ccfb050683bc27acc70cfe11a62b697486be242d8083a"
+      },
+      {
+        "path": "FIGURES/REPRESENTATIVE_ZOOMS.png",
+        "sha256": "77afd7ab3a1e94b2741341b2a99881a3761e0a3c4fcc642fb4c6cbf5aa0fcd23"
+      },
+      {
+        "path": "FIGURES/TIMESTAMP_DIAGNOSTIC.png",
+        "sha256": "88b4f1391ea12081ab1cfc7702a21c36c088517483608155be3c5a2f751235c8"
+      }
+    ],
+    "notes": "All six figures visually inspected before interruption; unchanged hashes and renderer provenance verified on resume. Candidate landmarks, correct instrument panels, no internal grid, readable labels, no clipping; zoom examples are heuristic hypotheses, never confirmed confusers. Trace lines represent frame features, not pulse trajectories."
+  },
+  "resumption": {
+    "persisted_repository_artifacts_recovered": 26,
+    "external_npz_crc": "PASS",
+    "source_and_mirror_sha256": "PASS",
+    "producer_reexecuted": false,
+    "partial_or_corrupt_scientific_outputs_found": false,
+    "incomplete_portion": "validator, report, manifest and governance closure",
+    "validator_implementation_note": "Initial read-only check interrupted to eliminate redundant NPZ decompression; same numerical checks rerun against unchanged saved evidence."
+  },
+  "classification": "ENGINEERING_INTEGRITY_CHECKS_ONLY_NOT_SCIENTIFIC_VALIDATION"
+}

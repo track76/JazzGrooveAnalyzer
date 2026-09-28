@@ -2,10 +2,20 @@
 
 **NOT a second bootstrap or scientific authority.** Attach this file WITH root `JGA_BOOTSTRAP.md`. Repository records referenced below remain authoritative. This is a dated, lightweight recovery snapshot; it does not authorize research or cross-review. Artifact references [F], [S], etc. resolve to the explicit path/hash registry below, not to attachments implicitly available to ChatGPT.
 
+## Current evidence publication snapshot — 2026-09-28T10:30:19.339066+00:00
+
+Preparation HEAD: `1c424c2e319ac74c5da47c5b37452e30b3f2af12`; branch `scientific/translation-layer-finalization`. Publication HEAD: $Format:%H$. Git export substitutes the actual containing commit; exact remote/backup/recovery success is recorded in `/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/recovery/<publication_HEAD>/PUBLICATION_RECEIPT.json` and EXPORT_MANIFEST.json. No post-publication success is preclaimed by this preparation snapshot. Only one focused commit is authorized; no later tracked handoff edit is needed.
+
+PI `PI-PILOT-002-CANDIDATE-FREEZE-20260928` authorizes freeze `JGA-PILOT-002-CANDIDATE-FREEZE-001-20260928`: [record](../../docs/scientific/rfc/JGA_PILOT_002_CANDIDATE_FREEZE_001_20260928/FREEZE_RECORD.json), [contract](../../docs/scientific/rfc/JGA_PILOT_002_CANDIDATE_FREEZE_001_20260928/README.md). IMMUTABLE COMPUTATIONAL EVIDENCE, NOT source/attack ground truth. SCIENTIFIC PROMOTION: NO. Original Pilot002 31-file package unchanged: [result](../../docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/RESULT.md), [manifest](../../docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/MANIFEST.json). Bass 939/659/458 and Cymbal 709/405/302 local maxima/qualified/deduplicated, per frozen inventories. These are not note/hit counts. All pYIN, frame-timing, chaining and source-confuser qualifications persist. Frozen historical reports/methodology unchanged.
+
+Both future P and D must pass the same hash-bound input gate; Global is comparison/index, Human evaluation-only, no cross-method tuning or initial-result sharing. No downstream experiment is authorized. Codex NOT_GRANTED / INDEPENDENT_REVIEW at closure; OpenCode remains inactive for writes; embargo unchanged. Inspect the actual common-Git lease on recovery. Historical governance reconciliation and Pilot002 execution are completed, not active tasks.
+
+Current source/mirror checks passed before publication; staged/full/versioned/final checks are mandatory gates. Versioned scope: `/Volumes/HD BackUp/JGA_BACKUP/CANDIDATE_FREEZES/JGA-PILOT-002-CANDIDATE-FREEZE-001-20260928`. External evidence remains on authorized SSD with its existing SHA/mirror recorded in the freeze. Historical SSD inventory NOT FULLY CERTIFIED. Unrelated dirty worktree must remain untouched. STOP FOR PI REVIEW after publication/recovery closure.
+
 ## Project, PI and recovery snapshot
 
 - Project: Jazz Groove Analyzer (JGA). PI: Angelo Tracanna. Role authority: `docs/project/AGENT_REGISTRY.json`; PI decisions: `docs/project/PI_DECISION_LOG.jsonl`.
-- Current date: 2026-09-27 (Europe/Rome). Updated at: 2026-09-27T12:00:00.000000+00:00 (UTC).
+- Current working handoff updated: 2026-09-28T10:03:05.082505+00:00. Older preparation metadata below is historical.
 - Repository root: `/Users/StarTrack/Development/JazzGrooveAnalyzer`.
 - Current branch: `scientific/translation-layer-finalization`.
 - Publication HEAD: $Format:%H$
@@ -67,13 +77,13 @@ Role authority: `docs/project/AGENT_REGISTRY.json`. PI-INFRA-FINAL-APPROVAL-2026
 | PI — Angelo Tracanna | Sole scientific/methodological decision, promotion, embargo-release and task-transition authority |
 | ChatGPT | Scientific/methodological coordinator; external conversations assume no filesystem access |
 | Codex | Engineering reviewer / fallback engineer; historical provenance preserved; scientific work stopped for PI review; INDEPENDENT_REVIEW mode |
-| OpenCode / Nemotron | Primary experimental engineer; NO ACTIVE TASK; write_authority_status = NOT_GRANTED |
+| OpenCode / Nemotron | Primary experimental engineer; inactive for writes awaiting PI; write_authority_status = NOT_GRANTED |
 | GitHub Copilot CLI | Independent MIR researcher / reviewer; READ-ONLY orientation completed; independent research INTENDED, NOT YET ASSIGNED |
 | Qwen / Alibaba | Potential future third reviewer/replication agent; no active assignment |
 
 Open PI review: future scientific task authorization and experimental acceptance; prospective Copilot task and embargo boundaries. Infrastructure approval has been granted. No new selector, optimization, deployment, scientific promotion, freeze change or cross-review is authorized. [STATE/G]
 
-Authorized now: complete the approved infrastructure freeze/publication and verified recovery export, then STOP FOR PI REVIEW; no scientific execution. Deferred:2026-09-30 TARGETED DRUM ATTACK RECOVERY, full mix primary evidence/Drum stem complementary, without artificial100%coverage; merely reaching that date does not authorize execution. Earlier milestone stop and explicitly authorized later diagnostics coexist; preserve the historical record rather than rewrite it. [DEFERRED/STATE]
+Current authorization: ONE Pilot002 experimental evidence-freeze publication/recovery block under PI-PILOT-002-CANDIDATE-FREEZE-20260928; no further scientific execution. Then STOP FOR PI REVIEW. Deferred:2026-09-30 TARGETED DRUM ATTACK RECOVERY, full mix primary evidence/Drum stem complementary, without artificial100%coverage; merely reaching that date does not authorize execution. Earlier milestone stop and explicitly authorized later diagnostics coexist; preserve the historical record rather than rewrite it. [DEFERRED/STATE]
 
 Execution autonomy means performing the bounded authorized task and routine implementation checks; it does not grant autonomy of scientific decision. Completion never authorizes the next task. STOP FOR PI REVIEW unless PI explicitly preauthorized a bounded chain. [G]
 
@@ -123,7 +133,7 @@ Paths below are repository-relative. File hashes identify exact consulted payloa
 | [BACKUP] | `docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md` | `c6f5648fea7f4a82ee30f546ba332f153f0d3cc830646486b347927c8ffe1ca6` |
 | [DEFERRED] | `docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/NEXT_SCIENTIFIC_TASK.md` | `9c97b14b6ca8db59c72fd07adadcd313dd0d8f25f88d70dc819464d4c20c3885` |
 
-HANDOFF STATUS: CURRENT for the declared publication snapshot/export. PI infrastructure approval granted; science remains STOP FOR PI REVIEW. Corrective governance reconciliation in progress per GOV-TEAM-POLICY-RECONCILIATION-001-20260927.
+HANDOFF STATUS: publication template/current snapshot at top; exact final HEAD and success receipts are in the commit-addressed recovery export. PI infrastructure approval granted; science remains STOP FOR PI REVIEW. Historical reconciliation CLOSED per PI disposition 2026-09-28; old preparation narrative below is historical.
 
 ## Approved infrastructure publication
 
@@ -141,12 +151,12 @@ Approved governance freeze: `docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_
 
 Infrastructure content commit `6fa61b7954a509cbcaba4c63b959dac246ff67a7` was pushed to `scientific/translation-layer-finalization`; remote HEAD equality verified. Its 26-file governance-only versioned backup was SHA-256 verified at `/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_GOVERNANCE_FREEZE_20260927/6fa61b7954a509cbcaba4c63b959dac246ff67a7/`. The repository batch checkpoint verified 10,274 files (7,661,157,788 bytes), with no backup deletion. This metadata closure has immediate per-file backup; the final exported `EXPORT_MANIFEST.json` records the containing publication HEAD and remote verification. Final post-publication batch verification is required before the agent declares completion; this checkpoint does not preclaim that later result.
 
-Codex completes only publication receipts/backup and then STOP FOR PI REVIEW. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
+Historical infrastructure publication is completed; current Pilot002 fallback closure is STOP FOR PI REVIEW. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.
 
 ## Current operational directive — 2026-09-27T12:00:00.000000+00:00
 
 Decision `PI-TEAM-POLICY-AMENDMENT-20260927` in `docs/project/PI_DECISION_LOG.jsonl` is APPROVED. Governance team policy amendment completed: OpenCode admitted as PRIMARY_EXPERIMENTAL_ENGINEER with task-scoped writer authority; Codex role updated to ENGINEERING_REVIEWER/FALLBACK_ENGINEER; Copilot READ_ONLY_RESEARCH preserved with unchanged embargo.
 
-Corrective governance reconciliation task `GOV-TEAM-POLICY-RECONCILIATION-001-20260927` authorized by PI. Complete governance reconciliation: update registry roles/states, record publication provenance, reconcile task metadata, synchronize handoff/bootstrap, verify backup, then STOP FOR PI REVIEW.
+Historical reconciliation `GOV-TEAM-POLICY-RECONCILIATION-001-20260927` is COMPLETED at 1c424c2e319ac74c5da47c5b37452e30b3f2af12 per PI disposition; prior entries preserved.
 
 Previous bounded autonomy directive `PI-BOUNDED-AUTONOMY-20260927` and its publication `PI-BOUNDED-AUTONOMY-PUBLISH-20260927` remain recorded; Codex completed that publication. No further scientific work is authorized. Global worktree retains unrelated pre-existing changes; published governance/handoff must be clean. HISTORICAL SSD INVENTORY: NOT FULLY CERTIFIED.

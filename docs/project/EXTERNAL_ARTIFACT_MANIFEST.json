@@ -2,7 +2,7 @@
   "schema_version": 1,
   "root_environment_variable": "JGA_EXTERNAL_ROOT",
   "observed_root": "/Volumes/SSD Track/JGA",
-  "coverage_scope": "Incremental index: three exact referenced files verified; existing top-level sets inventoried, NOT exhaustive provenance/hash certification. Legacy manifests remain authoritative. No absent registration is proof of absent artifact.",
+  "coverage_scope": "Incremental registered-file index; existing legacy directories are NOT exhaustively provenance/hash certified. Pilot002 registers only its exact persistent evidence NPZ; disposable caches are TEMPORARY_NO_BACKUP. Legacy manifests remain authoritative.",
   "artifacts": [
     {
       "artifact_id": "EXT-EXPERT-ADJUDICATION-001",
@@ -63,6 +63,27 @@
       "backup_verified_at": "2026-09-27T07:10:18.720052+00:00",
       "backup_verified_mtime_ns": 1789073076000000000,
       "backup_verification_task": "GOV-INFRA-001-20260927"
+    },
+    {
+      "artifact_id": "EXT-JGA-FULLMIX-BASS-CYMBAL-PILOT002-EVIDENCE-20260928",
+      "logical_role": "EXPERIMENT_LARGE_ARTIFACTS",
+      "canonical_external_path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EVIDENCE_ARRAYS.npz",
+      "size_bytes": 69509154,
+      "sha256": "12d5c3d3ac218b163a3e2b5d396d066decd514f329e3091c7875fda3a127cf20",
+      "created_by_agent": "codex",
+      "task_id": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-CODEX-TAKEOVER-20260928",
+      "registered_by_task": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-CODEX-TAKEOVER-20260928",
+      "source_provenance": "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EXTERNAL_ARRAYS.json",
+      "authority_status": "IMMUTABLE_EXPERIMENTAL_COMPUTATIONAL_EVIDENCE_NOT_SCIENTIFICALLY_PROMOTED",
+      "backup_class": "SSD_AND_BACKUP",
+      "backup_destination": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EVIDENCE_ARRAYS.npz",
+      "backup_status": "VERIFIED",
+      "date_verified": "2026-09-28T10:02:51.936485+00:00",
+      "verified_mtime_ns": 1790588304300000000,
+      "backup_verified_at": "2026-09-28T10:02:51.936766+00:00",
+      "backup_verified_mtime_ns": 1790588309000000000,
+      "backup_verification_task": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-CODEX-TAKEOVER-20260928",
+      "freeze_record": "docs/scientific/rfc/JGA_PILOT_002_CANDIDATE_FREEZE_001_20260928/FREEZE_RECORD.json"
     }
   ],
   "legacy_sets": [
@@ -224,5 +245,13 @@
     "backup_root": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/GOV_INFRASTRUCTURE_FREEZE_20260927/recovery",
     "backup_class": "SSD_AND_BACKUP",
     "status": "VERIFY_EXACT_COMMIT_MEMBER_MANIFEST; no blanket archive certification"
+  },
+  "pilot002_recovery_distribution": {
+    "root": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/recovery",
+    "addressing": "publication HEAD child",
+    "receipt": "PUBLICATION_RECEIPT.json",
+    "backup_root": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/recovery",
+    "versioned_backup": "/Volumes/HD BackUp/JGA_BACKUP/CANDIDATE_FREEZES/JGA-PILOT-002-CANDIDATE-FREEZE-001-20260928",
+    "status": "publication verification recorded externally after push; no preclaim"
   }
 }

@@ -1,0 +1,132 @@
+{
+  "task_id": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-20260928",
+  "execution_agent": "codex",
+  "status": "PREREGISTERED_HEURISTIC_NOT_VALIDATED",
+  "input": "docs/scientific/rfc/JGA_TARGETED_PITCH_ONSET_20260924/inference/input/FULLMIX.wav",
+  "input_sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+  "region_s": [
+    47.786666667,
+    82.616598639
+  ],
+  "sample_rate": 44100,
+  "rounding": "nearest_integer_half_even",
+  "interval": "start_inclusive_end_exclusive",
+  "channel_handling": "arithmetic_mean_stereo",
+  "external_root": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928",
+  "backup_root": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928",
+  "context_s": 1.023219954648526,
+  "context_reason": "0.5 s post-event support + half STFT window + 0.5 s filter/context guard; not tuned on events",
+  "stft": {
+    "n_fft": 2048,
+    "hop_length": 512,
+    "win_length": 2048,
+    "window": "hann",
+    "center": true,
+    "pad_mode": "reflect",
+    "dtype": "complex64"
+  },
+  "filter": {
+    "design": "butter",
+    "order": 4,
+    "btype": "bandpass",
+    "application": "sosfiltfilt",
+    "padtype": "odd",
+    "padlen": 27
+  },
+  "bass": {
+    "band_hz": [
+      45,
+      350
+    ],
+    "distance_frames": 3
+  },
+  "cymbal": {
+    "band_hz": [
+      2000,
+      10000
+    ],
+    "distance_frames": 2
+  },
+  "peak": {
+    "prominence_iqr_factor": 0.1,
+    "fallback_std_factor": 0.5,
+    "statistics_support": "entire_processing_context",
+    "distance_rule": "scipy_find_peaks_distance_before_prominence"
+  },
+  "pyin": {
+    "fmin": 41.2,
+    "fmax": 350.0,
+    "frame_length": 2048,
+    "hop_length": 512,
+    "resolution": 0.1,
+    "n_thresholds": 100,
+    "beta_parameters": [
+      2,
+      18
+    ],
+    "boltzmann_parameter": 2.0,
+    "max_transition_rate": 35.92,
+    "switch_prob": 0.01,
+    "no_trough_prob": 0.01,
+    "fill_na": null,
+    "center": true,
+    "pad_mode": "constant"
+  },
+  "harmonics": {
+    "max_harmonics": 8,
+    "spectrum": "unfiltered_fullmix_magnitude",
+    "bin_rule": "nearest_frequency_bin",
+    "interpretation": "magnitude sum including fundamental; overtone count and values saved separately; not validated identity"
+  },
+  "continuity": {
+    "max_difference_hz": 50.0,
+    "max_gap_frames": 5,
+    "method": "previous voiced frame within gap; absolute frequency difference; no tracking identity claim"
+  },
+  "bass_rule": {
+    "harmonic_sum_to_flux_factor": 0.5,
+    "logic": "voiced and valid F0: harmonic magnitude sum > factor*flux => BASS_COMPATIBLE else BASS_POSSIBLE; otherwise AMBIGUOUS; invalid numerical evidence => UNRESOLVED",
+    "dependent_evidence": "F0 depends on low-band preprocessing; harmonic magnitudes from unfiltered mix are mixture evidence, not independent source truth"
+  },
+  "features": {
+    "rolloff_magnitude_fraction": 0.85,
+    "flatness_epsilon": 1e-10,
+    "subband_energy_cv_bands": 6,
+    "post_energy_s": 0.5,
+    "post_energy_method": "sum of squared band STFT magnitudes after candidate through configured duration; NOT exponential decay"
+  },
+  "cymbal_rule": {
+    "compatible_centroid_hz": 4000.0,
+    "compatible_flux_percentile": 50.0,
+    "compatible_flatness_max": 0.5,
+    "compatible_cv_min": 1.0,
+    "other_centroid_hz": 2000.0,
+    "other_flux_percentile": 30.0,
+    "hihat_centroid_min": 6000.0,
+    "hihat_flatness_max": 0.4,
+    "ride_centroid_min": 3000.0,
+    "ride_centroid_max": 6000.0,
+    "ride_cv_min": 1.5,
+    "subtype_status": "TENTATIVE_SUBTYPE_HYPOTHESIS_NOT_VALIDATED",
+    "dependency": "band conditioned descriptors; no confirmed confuser or source identity"
+  },
+  "dedup": {
+    "tolerance_s": 0.035,
+    "method": "adjacent_gap_chaining",
+    "representative": "earliest_native_sample_then_immutable_ID",
+    "classification_used_for_selection": false,
+    "physical_equivalence_claim": false
+  },
+  "figures": {
+    "zoom_width_s": 2.0,
+    "examples_per_category": 3,
+    "selection": "first middle last chronological in each available state and boundary category; no human labels",
+    "quarter_markers": "NOT_USED; interval metadata only"
+  },
+  "constraints": {
+    "stems": false,
+    "human": false,
+    "global_for_selection": false,
+    "no_grid": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "freeze_id": "JGA-PILOT-002-CANDIDATE-FREEZE-001-20260928",
+  "created_at": "2026-09-28T10:29:50.166687+00:00",
+  "PI_decision_id": "PI-PILOT-002-CANDIDATE-FREEZE-20260928",
+  "qualification_status": "IMMUTABLE COMPUTATIONAL EVIDENCE — NOT SOURCE/ATTACK GROUND TRUTH",
+  "scientific_promotion": false,
+  "package": "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928",
+  "prepublication_HEAD": "1c424c2e319ac74c5da47c5b37452e30b3f2af12",
+  "input_audio_sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+  "configuration_sha256": "e3df2997d0b83ba842b19e3c893fc8b255dd7bafe115c8baee172fe7cee30a33",
+  "producer_sha256": "d0e0ef930dd2431a8b703fe744f1fd5388f6d42be91535fbbe718d60e82f87da",
+  "pilot_manifest_sha256": "2ca9a54f44a5d907d26f36a81eb90de702117f2da14b45e2379b63fff3236d0e",
+  "candidate_and_cluster_hashes": {
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BASS/ALL_LOCAL_MAXIMA.json": "7bf2fc846c2fba1f09ad6d8661786ec173a907cda8e724a1e304ff1d6d3905db",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BASS/DEDUPLICATED_CANDIDATES.json": "69ecace3bdd0f34c9ed6f1516b0884671dea746365b8df8a1c0c29cfea397338",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BASS/DEDUP_CLUSTERS.json": "23f4c4f22a8809cee46be6ff9f2784d1f353a8829ee6b156ac4992702324974d",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BASS/PEAK_QUALIFIED_CANDIDATES.json": "2b471c142ce5d12aab284019cfe04eb922953242138ae48bfc00e2f281c8eb5c",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CYMBAL/ALL_LOCAL_MAXIMA.json": "4cff370418d4c2509a01793e73db292f110c172fd53bad785ffa0300cfd241b9",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CYMBAL/DEDUPLICATED_CANDIDATES.json": "0f4f9a9f3a35d875aa5b5dbabae63e54a70112af58ed15f14ddcbb0ce8e7e400",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CYMBAL/DEDUP_CLUSTERS.json": "70e1b01952a96691b162f96f450dd6f72e57a6c2de8959384b24b05263845f8c",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CYMBAL/PEAK_QUALIFIED_CANDIDATES.json": "dca03385a2bddb9569145dcebb9abdad894bdc09e669a1f4c57a6294f3ccf810"
+  },
+  "package_file_hashes": {
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BACKUP_VERIFICATION.json": "ea51bab74d82b90515923a5f62c17c710f36cdae87c205193f94fc046a0df682",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BASS/ALL_LOCAL_MAXIMA.json": "7bf2fc846c2fba1f09ad6d8661786ec173a907cda8e724a1e304ff1d6d3905db",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BASS/DEDUPLICATED_CANDIDATES.json": "69ecace3bdd0f34c9ed6f1516b0884671dea746365b8df8a1c0c29cfea397338",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BASS/DEDUP_CLUSTERS.json": "23f4c4f22a8809cee46be6ff9f2784d1f353a8829ee6b156ac4992702324974d",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/BASS/PEAK_QUALIFIED_CANDIDATES.json": "2b471c142ce5d12aab284019cfe04eb922953242138ae48bfc00e2f281c8eb5c",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CONFIGURATION/CONFIGURATION.json": "e3df2997d0b83ba842b19e3c893fc8b255dd7bafe115c8baee172fe7cee30a33",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CYMBAL/ALL_LOCAL_MAXIMA.json": "4cff370418d4c2509a01793e73db292f110c172fd53bad785ffa0300cfd241b9",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CYMBAL/DEDUPLICATED_CANDIDATES.json": "0f4f9a9f3a35d875aa5b5dbabae63e54a70112af58ed15f14ddcbb0ce8e7e400",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CYMBAL/DEDUP_CLUSTERS.json": "70e1b01952a96691b162f96f450dd6f72e57a6c2de8959384b24b05263845f8c",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/CYMBAL/PEAK_QUALIFIED_CANDIDATES.json": "dca03385a2bddb9569145dcebb9abdad894bdc09e669a1f4c57a6294f3ccf810",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/DSP_METADATA.json": "e08d55b01725934cda08c5a022b7ac856493b659e1546b50e88854cf508c50dc",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/ENGINEERING_INVARIANTS.json": "6129e6c8168622ae8813daabebd853bfc2a59f10bd8f98f2e8ab71d01c237cc1",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EXECUTION_PROVENANCE.json": "40219eb588a90df304d0bb656a9d0effa64334be5210dc2bf0897ad994eaa41b",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EXTERNAL_ARRAYS.json": "850217354d70756bd7dd6b3f21f02b1a740d4f34a1e0070aa79b6194a055fab1",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/FIGURES/BASS_EVIDENCE.png": "82f839993fa4e17bb3014530dc2aa752ffbf39fd9d4a19238a1524a271256225",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/FIGURES/BOUNDARY_SUPPORT.png": "54f17675d57f8500bc740be19ad45a667eb8248e782155173bf413ce56cb4e1f",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/FIGURES/COMBINED_EVENT_MAP.png": "ebb66f5762607a80295e622d39058d9574cccb79bdf9a44ce7a538bf1930e730",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/FIGURES/CYMBAL_EVIDENCE.png": "5f1f8945e2bf6d1b7f5ccfb050683bc27acc70cfe11a62b697486be242d8083a",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/FIGURES/REPRESENTATIVE_ZOOMS.png": "77afd7ab3a1e94b2741341b2a99881a3761e0a3c4fcc642fb4c6cbf5aa0fcd23",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/FIGURES/TIMESTAMP_DIAGNOSTIC.png": "88b4f1391ea12081ab1cfc7702a21c36c088517483608155be3c5a2f751235c8",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/INPUT_MANIFEST/INPUT_MANIFEST.json": "68d764383c36b4e885673a0a6b773c6742f1e830bdb1b9167b8c6a0424c3c88e",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/PLOT_DATA.json": "0fbd12452ea0195e3f0153ebec1ceb85f0be7a9d27f02411bcafc77b166ad185",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/PREEXISTING_INPUTS.json": "92ccb7c81d0a80b3261354dbbd80d686b7eed18cc587d275aa801851e425c30e",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/PREREGISTRATION.md": "36cebccd12ae8f45437b17919b7b5d7af3f3fc4773bd0fe392be7d119658f9da",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/REPRODUCTION/producer.py": "d0e0ef930dd2431a8b703fe744f1fd5388f6d42be91535fbbe718d60e82f87da",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/REPRODUCTION/render.py": "3f5ca931933a1e6fdcb8fca19e90546a35ccaae0327aabc95235bd1ad14079d8",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/REPRODUCTION/validate.py": "972a162aceb50c3c5fad1943e3d8e4bd5eb5a189afff5889ce0a8191d0dab2a3",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/RESULT.md": "d37dbb0f3ff7abbd39d1f961527c265a1393a197069681edc6524b074b5f8c2d",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/SUMMARY.json": "6586bce543ecfa4d557beee97052681c20842a980d6feb2680fbcffccb98b8ee",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/VALIDATION.json": "6e5bac12fc322b2a848c49cdeda511b8af75c742323d36004652bd38cfe67013",
+    "docs/scientific/rfc/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/MANIFEST.json": "2ca9a54f44a5d907d26f36a81eb90de702117f2da14b45e2379b63fff3236d0e"
+  },
+  "external_evidence": [
+    {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EVIDENCE_ARRAYS.npz",
+      "sha256": "12d5c3d3ac218b163a3e2b5d396d066decd514f329e3091c7875fda3a127cf20",
+      "size": 69509154,
+      "backup_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EVIDENCE_ARRAYS.npz",
+      "backup_sha256": "12d5c3d3ac218b163a3e2b5d396d066decd514f329e3091c7875fda3a127cf20",
+      "status": "PASS",
+      "verified_at": "2026-09-28T09:38:31.038277+00:00"
+    }
+  ],
+  "counts": {
+    "BASS": {
+      "ALL_LOCAL_MAXIMA": 939,
+      "PEAK_QUALIFIED_CANDIDATES": 659,
+      "DEDUPLICATED_CANDIDATES": 458
+    },
+    "CYMBAL": {
+      "ALL_LOCAL_MAXIMA": 709,
+      "PEAK_QUALIFIED_CANDIDATES": 405,
+      "DEDUPLICATED_CANDIDATES": 302
+    }
+  },
+  "review_disposition": "PASS_WITH_FINDINGS",
+  "candidate_freeze_recommendation": "ELIGIBLE_FOR_FREEZE_WITH_DOCUMENTED_QUALIFICATIONS",
+  "publication_recommendation": "SAFE_TO_COMMIT_AS_EXPERIMENTAL",
+  "review_source": "PI disposition; see REVIEW_DISPOSITION.md",
+  "limitations": [
+    "BASS_COMPATIBLE is not validated Bass identity",
+    "CYMBAL_COMPATIBLE is not validated Cymbal identity",
+    "Frame-derived landmarks are not validated physical attacks",
+    "Candidate density is not note/hit density",
+    "pYIN low-register frame limitation remains",
+    "Adjacent-gap dedup chaining can merge distinct attacks; all members retained",
+    "Source confusers remain unresolved",
+    "No quarter assignments, internal pulse or groove evidence is established"
+  ],
+  "downstream_contract": {
+    "METHOD_P": "same frozen evidence -> PLP-based pulse; NOT AUTHORIZED TO RUN",
+    "METHOD_D": "same frozen evidence -> direct continuous event grid; NOT AUTHORIZED TO RUN",
+    "identical_source_hashes_required": true,
+    "source_mutations_forbidden": [
+      "rerun extraction",
+      "remove or add source candidates",
+      "change source timestamps",
+      "change source classes",
+      "change dedup membership",
+      "select evidence for agreement with Global/Human/other method"
+    ],
+    "derived_transformations": "Separately preregistered transformation may derive subsets/weights but must preserve frozen source IDs and provenance; does not alter frozen source inventories. No transformation authorized here.",
+    "global": "comparison/index reference, not ground truth",
+    "human": "evaluation only, not tuning",
+    "cross_method": "No use of other method results during initial construction or tuning"
+  },
+  "enforcement": "verify_frozen.py fails closed on any frozen source hash/count mismatch and on mismatched P/D source manifests; cooperative admission gate, not OS immutability or implemented downstream algorithms",
+  "publication_receipt": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/recovery/<publication_HEAD>/PUBLICATION_RECEIPT.json",
+  "versioned_backup": "/Volumes/HD BackUp/JGA_BACKUP/CANDIDATE_FREEZES/JGA-PILOT-002-CANDIDATE-FREEZE-001-20260928"
+}

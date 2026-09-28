@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "task_id": "JGA-FULLMIX-BASS-CYMBAL-EVENT-PILOT-002-20260928",
+  "status": "EXPERIMENTAL_NOT_PROMOTED_PI_REVIEW_REQUIRED",
+  "artifacts": [
+    {
+      "path": "BACKUP_VERIFICATION.json",
+      "sha256": "ea51bab74d82b90515923a5f62c17c710f36cdae87c205193f94fc046a0df682",
+      "size": 7599,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "BASS/ALL_LOCAL_MAXIMA.json",
+      "sha256": "7bf2fc846c2fba1f09ad6d8661786ec173a907cda8e724a1e304ff1d6d3905db",
+      "size": 3064799,
+      "role": "CANDIDATE_INVENTORY",
+      "generation_step": "extract_fullmix"
+    },
+    {
+      "path": "BASS/DEDUPLICATED_CANDIDATES.json",
+      "sha256": "69ecace3bdd0f34c9ed6f1516b0884671dea746365b8df8a1c0c29cfea397338",
+      "size": 1493271,
+      "role": "CANDIDATE_INVENTORY",
+      "generation_step": "extract_fullmix"
+    },
+    {
+      "path": "BASS/DEDUP_CLUSTERS.json",
+      "sha256": "23f4c4f22a8809cee46be6ff9f2784d1f353a8829ee6b156ac4992702324974d",
+      "size": 2554777,
+      "role": "CANDIDATE_INVENTORY",
+      "generation_step": "extract_fullmix"
+    },
+    {
+      "path": "BASS/PEAK_QUALIFIED_CANDIDATES.json",
+      "sha256": "2b471c142ce5d12aab284019cfe04eb922953242138ae48bfc00e2f281c8eb5c",
+      "size": 2124099,
+      "role": "CANDIDATE_INVENTORY",
+      "generation_step": "extract_fullmix"
+    },
+    {
+      "path": "CONFIGURATION/CONFIGURATION.json",
+      "sha256": "e3df2997d0b83ba842b19e3c893fc8b255dd7bafe115c8baee172fe7cee30a33",
+      "size": 4325,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "CYMBAL/ALL_LOCAL_MAXIMA.json",
+      "sha256": "4cff370418d4c2509a01793e73db292f110c172fd53bad785ffa0300cfd241b9",
+      "size": 1177400,
+      "role": "CANDIDATE_INVENTORY",
+      "generation_step": "extract_fullmix"
+    },
+    {
+      "path": "CYMBAL/DEDUPLICATED_CANDIDATES.json",
+      "sha256": "0f4f9a9f3a35d875aa5b5dbabae63e54a70112af58ed15f14ddcbb0ce8e7e400",
+      "size": 509267,
+      "role": "CANDIDATE_INVENTORY",
+      "generation_step": "extract_fullmix"
+    },
+    {
+      "path": "CYMBAL/DEDUP_CLUSTERS.json",
+      "sha256": "70e1b01952a96691b162f96f450dd6f72e57a6c2de8959384b24b05263845f8c",
+      "size": 855736,
+      "role": "CANDIDATE_INVENTORY",
+      "generation_step": "extract_fullmix"
+    },
+    {
+      "path": "CYMBAL/PEAK_QUALIFIED_CANDIDATES.json",
+      "sha256": "dca03385a2bddb9569145dcebb9abdad894bdc09e669a1f4c57a6294f3ccf810",
+      "size": 668406,
+      "role": "CANDIDATE_INVENTORY",
+      "generation_step": "extract_fullmix"
+    },
+    {
+      "path": "DSP_METADATA.json",
+      "sha256": "e08d55b01725934cda08c5a022b7ac856493b659e1546b50e88854cf508c50dc",
+      "size": 178211,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "ENGINEERING_INVARIANTS.json",
+      "sha256": "6129e6c8168622ae8813daabebd853bfc2a59f10bd8f98f2e8ab71d01c237cc1",
+      "size": 1432,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "EXECUTION_PROVENANCE.json",
+      "sha256": "40219eb588a90df304d0bb656a9d0effa64334be5210dc2bf0897ad994eaa41b",
+      "size": 1327,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "EXTERNAL_ARRAYS.json",
+      "sha256": "850217354d70756bd7dd6b3f21f02b1a740d4f34a1e0070aa79b6194a055fab1",
+      "size": 4674,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "FIGURES/BASS_EVIDENCE.png",
+      "sha256": "82f839993fa4e17bb3014530dc2aa752ffbf39fd9d4a19238a1524a271256225",
+      "size": 253121,
+      "role": "FIGURE",
+      "generation_step": "render_saved_evidence"
+    },
+    {
+      "path": "FIGURES/BOUNDARY_SUPPORT.png",
+      "sha256": "54f17675d57f8500bc740be19ad45a667eb8248e782155173bf413ce56cb4e1f",
+      "size": 184697,
+      "role": "FIGURE",
+      "generation_step": "render_saved_evidence"
+    },
+    {
+      "path": "FIGURES/COMBINED_EVENT_MAP.png",
+      "sha256": "ebb66f5762607a80295e622d39058d9574cccb79bdf9a44ce7a538bf1930e730",
+      "size": 59951,
+      "role": "FIGURE",
+      "generation_step": "render_saved_evidence"
+    },
+    {
+      "path": "FIGURES/CYMBAL_EVIDENCE.png",
+      "sha256": "5f1f8945e2bf6d1b7f5ccfb050683bc27acc70cfe11a62b697486be242d8083a",
+      "size": 353918,
+      "role": "FIGURE",
+      "generation_step": "render_saved_evidence"
+    },
+    {
+      "path": "FIGURES/REPRESENTATIVE_ZOOMS.png",
+      "sha256": "77afd7ab3a1e94b2741341b2a99881a3761e0a3c4fcc642fb4c6cbf5aa0fcd23",
+      "size": 385520,
+      "role": "FIGURE",
+      "generation_step": "render_saved_evidence"
+    },
+    {
+      "path": "FIGURES/TIMESTAMP_DIAGNOSTIC.png",
+      "sha256": "88b4f1391ea12081ab1cfc7702a21c36c088517483608155be3c5a2f751235c8",
+      "size": 295836,
+      "role": "FIGURE",
+      "generation_step": "render_saved_evidence"
+    },
+    {
+      "path": "INPUT_MANIFEST/INPUT_MANIFEST.json",
+      "sha256": "68d764383c36b4e885673a0a6b773c6742f1e830bdb1b9167b8c6a0424c3c88e",
+      "size": 1216,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "PLOT_DATA.json",
+      "sha256": "0fbd12452ea0195e3f0153ebec1ceb85f0be7a9d27f02411bcafc77b166ad185",
+      "size": 506248,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "PREEXISTING_INPUTS.json",
+      "sha256": "92ccb7c81d0a80b3261354dbbd80d686b7eed18cc587d275aa801851e425c30e",
+      "size": 16989,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "PREREGISTRATION.md",
+      "sha256": "36cebccd12ae8f45437b17919b7b5d7af3f3fc4773bd0fe392be7d119658f9da",
+      "size": 2864,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "REPRODUCTION/producer.py",
+      "sha256": "d0e0ef930dd2431a8b703fe744f1fd5388f6d42be91535fbbe718d60e82f87da",
+      "size": 16613,
+      "role": "PRODUCER_OR_VALIDATOR_CODE",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "REPRODUCTION/render.py",
+      "sha256": "3f5ca931933a1e6fdcb8fca19e90546a35ccaae0327aabc95235bd1ad14079d8",
+      "size": 7002,
+      "role": "PRODUCER_OR_VALIDATOR_CODE",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "REPRODUCTION/validate.py",
+      "sha256": "972a162aceb50c3c5fad1943e3d8e4bd5eb5a189afff5889ce0a8191d0dab2a3",
+      "size": 11890,
+      "role": "PRODUCER_OR_VALIDATOR_CODE",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "RESULT.md",
+      "sha256": "d37dbb0f3ff7abbd39d1f961527c265a1393a197069681edc6524b074b5f8c2d",
+      "size": 8058,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "SUMMARY.json",
+      "sha256": "6586bce543ecfa4d557beee97052681c20842a980d6feb2680fbcffccb98b8ee",
+      "size": 3566,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "6e5bac12fc322b2a848c49cdeda511b8af75c742323d36004652bd38cfe67013",
+      "size": 5391,
+      "role": "CONFIGURATION_PROVENANCE_OR_REPORT",
+      "generation_step": "preregistration_execution_validation_closure"
+    }
+  ],
+  "actual_package_file_count": 31,
+  "self_hash_convention": "MANIFEST.json counts as one file, excluded from own hash list; exact SHA recorded by continuous backup log and final agent task ledger",
+  "external_artifacts": [
+    {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EVIDENCE_ARRAYS.npz",
+      "sha256": "12d5c3d3ac218b163a3e2b5d396d066decd514f329e3091c7875fda3a127cf20",
+      "size": 69509154,
+      "backup_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_FULLMIX_BASS_CYMBAL_EVENT_PILOT_002_20260928/EVIDENCE_ARRAYS.npz",
+      "backup_sha256": "12d5c3d3ac218b163a3e2b5d396d066decd514f329e3091c7875fda3a127cf20",
+      "status": "PASS",
+      "verified_at": "2026-09-28T09:38:31.038277+00:00"
+    }
+  ]
+}
