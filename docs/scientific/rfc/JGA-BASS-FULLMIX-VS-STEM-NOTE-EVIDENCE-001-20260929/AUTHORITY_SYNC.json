@@ -1,0 +1,52 @@
+{
+  "task_id": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "pi_decision": "PI-BASS-FULLMIX-VS-STEM-STORAGE-20260929",
+  "agent": "opencode",
+  "role_mode": "EXPERIMENTAL_ENGINEER",
+  "lease": "ACQUIRED_CANONICAL",
+  "branch": "scientific/translation-layer-finalization",
+  "head": "e8ea9ec5f1ccf108b78228fbf7a29bb8bfe510c6",
+  "pre_existing_modified_paths_preserved": true,
+  "commit": null,
+  "push": "NOT_PERFORMED",
+  "config_gate_history": [
+    {
+      "stage": "preflight_first_attempt",
+      "observed": "FAIL",
+      "cause": "gate implementation defect: per-arm keys were injected and then compared instead of excluded",
+      "classification": "IMPLEMENTATION_DEFECT_NOT_SCIENTIFIC_EVIDENCE"
+    },
+    {
+      "stage": "preflight_second_attempt",
+      "observed": "PASS with keys_differing_at_all=[arm, input_path]",
+      "defect": "UNFAITHFUL: only arm and input_path had been overridden, so input_sha256 still carried the fullmix hash in both configs; the per-arm input binding was never set per arm",
+      "classification": "IMPLAUSIBLE_RESULT_INVESTIGATED_NOT_ACCEPTED",
+      "status": "SUPERSEDED"
+    },
+    {
+      "stage": "execution_gate_first_form",
+      "observed": "FAIL",
+      "defect": "routing keys were not declared, so the gate conflated extractor identity with operational routing; a too-narrow assertion then rejected the legitimate per-arm routing difference",
+      "classification": "IMPLEMENTATION_DEFECT_NOT_SCIENTIFIC_EVIDENCE",
+      "contamination_risk_found": "frozen pilot external_root/backup_root would have directed evidence writes into the pilot namespace",
+      "remedy": "routing overridden to this task namespace and declared as a separate key class"
+    },
+    {
+      "stage": "execution_gate_final",
+      "observed": "PASS",
+      "method": "identity, provenance and routing key classes removed; remaining extractor block byte-identical across arms AND equal to the frozen pilot CONFIGURATION.json",
+      "fullmix_sha256": "a0dd5fcbfc15d9d7086cc6b7135806725069e17f44f29309a7f4ecc1bc6b9663",
+      "stem_sha256": "a0dd5fcbfc15d9d7086cc6b7135806725069e17f44f29309a7f4ecc1bc6b9663",
+      "keys_differing_at_all": [
+        "arm",
+        "backup_root",
+        "external_root",
+        "input",
+        "input_path",
+        "input_sha256"
+      ]
+    }
+  ],
+  "scientific_execution_started_after": "execution_gate_final PASS",
+  "no_scientific_evidence_derived_from_any_failed_or_superseded_gate": true
+}

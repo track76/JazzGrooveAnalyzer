@@ -1,0 +1,1 @@
+Both F0 valid population at T1. Values are continuous; no admissibility rule was applied.

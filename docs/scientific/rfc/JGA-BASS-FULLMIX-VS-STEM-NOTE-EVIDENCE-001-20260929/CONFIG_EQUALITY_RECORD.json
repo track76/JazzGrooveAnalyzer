@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "rule": "the two arm configurations must be byte-identical after removing exactly the declared per-arm identity, provenance and routing key classes; every extractor parameter must additionally equal the frozen pilot CONFIGURATION.json",
+  "per_arm_identity_keys": [
+    "arm",
+    "input",
+    "input_path",
+    "input_sha256"
+  ],
+  "provenance_keys": [
+    "execution_agent",
+    "status",
+    "task_id"
+  ],
+  "routing_keys": [
+    "backup_root",
+    "external_root"
+  ],
+  "fullmix_sha256_extractor_block": "a0dd5fcbfc15d9d7086cc6b7135806725069e17f44f29309a7f4ecc1bc6b9663",
+  "stem_sha256_extractor_block": "a0dd5fcbfc15d9d7086cc6b7135806725069e17f44f29309a7f4ecc1bc6b9663",
+  "keys_differing_at_all": [
+    "arm",
+    "backup_root",
+    "external_root",
+    "input",
+    "input_path",
+    "input_sha256"
+  ],
+  "keys_differing_at_all_decomposition": {
+    "identity": [
+      "arm",
+      "input",
+      "input_path",
+      "input_sha256"
+    ],
+    "routing": [
+      "backup_root",
+      "external_root"
+    ],
+    "note": "routing keys differ only by the arm subdirectory; the parent namespace is identical for both arms"
+  },
+  "extractor_block_key_count": 21,
+  "extractor_block_equals_frozen_CONFIGURATION_json": true,
+  "frozen_SOURCE_CONFIGURATION_sha256": "e3df2997d0b83ba842b19e3c893fc8b255dd7bafe115c8baee172fe7cee30a33",
+  "contamination_control": "external_root and backup_root were overridden to this task namespace; the frozen pilot values would otherwise have directed evidence writes into the pilot namespace",
+  "cymbal_arm": "NOT_EXECUTED; the source producer cymbal branch is not run because this task compares the identical bass extractor across two representations of the same bass content"
+}

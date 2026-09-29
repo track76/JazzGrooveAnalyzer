@@ -1,0 +1,1 @@
+F0 exists only for a subset of events; events without valid F0 are retained in the inventory and excluded only from pitch distributions.

@@ -1,0 +1,1 @@
+Zero crossings at T0/T1; ambiguity first appears at T2 and grows at T4.

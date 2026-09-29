@@ -1,0 +1,60 @@
+{
+  "task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "n_figures": 13,
+  "all_figures_descriptive_only": true,
+  "no_figure_shows_ground_truth": true,
+  "figures": {
+    "AMBIGUITY_DENSITY_T1.png": {
+      "caption": "Fraction of full-mix events sitting in an ambiguous multi-pair component.",
+      "status": "descriptive_only"
+    },
+    "ARM_DENSITY_COMPARISON.png": {
+      "caption": "Descriptive density comparison only. No superiority or accuracy claim.",
+      "status": "descriptive_only"
+    },
+    "COVERAGE_MAP.png": {
+      "caption": "Positional context only. No beat, quarter or PLP-relative alignment is shown or implied.",
+      "status": "descriptive_only"
+    },
+    "CROSSINGS_T1.png": {
+      "caption": "Zero crossings at T0/T1; ambiguity first appears at T2 and grows at T4.",
+      "status": "descriptive_only"
+    },
+    "DELTA_TIME_FAMILY.png": {
+      "caption": "Trade-off between coverage and ambiguity across the four preregistered tolerance families.",
+      "status": "descriptive_only"
+    },
+    "DELTA_TIME_T1.png": {
+      "caption": "T1 is the preregistered primary operational point. No threshold or cut applied.",
+      "status": "descriptive_only"
+    },
+    "EVENT_RATE_BOTH_ARMS.png": {
+      "caption": "Temporal distribution of the two inventories over the preregistered interval. Descriptive only.",
+      "status": "descriptive_only"
+    },
+    "PITCH_CENTS_T1.png": {
+      "caption": "Both F0 valid population at T1. Values are continuous; no admissibility rule was applied.",
+      "status": "descriptive_only"
+    },
+    "PITCH_HZ_T1.png": {
+      "caption": "F0 exists only for a subset of events; events without valid F0 are retained in the inventory and excluded only from pitch distributions.",
+      "status": "descriptive_only"
+    },
+    "RESIDUAL_WAVEFORM.png": {
+      "caption": "Stem-sum RMS was 0.0986 vs full-mix RMS 0.0996; residual 11.7% of full-mix RMS. Descriptive, not a leakage test.",
+      "status": "descriptive_only"
+    },
+    "SEGMENT_BOUNDARY_OVERLAY.png": {
+      "caption": "2 boundary-crossed events per arm, all retained. No event was removed for boundary proximity.",
+      "status": "descriptive_only"
+    },
+    "STATE_COMPOSITION_BOTH_ARMS.png": {
+      "caption": "Both arms over the identical preregistered interval. Density 13.150/s vs 12.690/s. Vertical marks are extractor landmarks; they are not verified attacks and not Ground Truth.",
+      "status": "descriptive_only"
+    },
+    "STATUS_COMPOSITION_T1.png": {
+      "caption": "Composition difference between representations. Not a source-identification accuracy statement.",
+      "status": "descriptive_only"
+    }
+  }
+}

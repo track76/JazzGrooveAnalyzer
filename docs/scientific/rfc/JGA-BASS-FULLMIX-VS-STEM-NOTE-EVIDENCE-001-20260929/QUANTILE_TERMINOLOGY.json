@@ -1,0 +1,27 @@
+{
+  "record": "QUANTILE_TERMINOLOGY_CORRECTION",
+  "task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929",
+  "date_time": "2026-09-29T07:57:45.525668+00:00",
+  "correct_terminology": "PREREGISTERED_ROUNDED_INDEX_QUANTILE",
+  "exact_definition": "index = round(f * (n - 1)) applied to the sorted population, clamped to [0, n-1]",
+  "prohibited_term": "nearest-rank",
+  "rationale": "The preregistered formula is a rounded-index selection over the sorted population. It is not the conventional nearest-rank order statistic, which selects a different index. Describing it as nearest-rank was a documentation error, not a numerical one.",
+  "frozen_results_preserved": {
+    "T1_p95_cents": 60,
+    "T0_p95_cents": 70,
+    "recomputed_under_conventional_nearest_rank": false,
+    "note": "T1 p95 = 60 cents is preserved because it is correct under the preregistered formula. T0 p95 = 70 cents is preserved as a legitimate distinct-population result. Neither value was changed."
+  },
+  "corrected_in": [
+    "RESULT.md",
+    "PREREGISTRATION_0_2.md"
+  ],
+  "scope_of_correction": "documentation/metadata only; no scientific byte changed",
+  "summary_json_exception": {
+    "file": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/SUMMARY.json",
+    "action": "NOT MODIFIED",
+    "reason": "SUMMARY.json contains the frozen scientific results and is the object of the required SHA-256 verification against the existing backed-up copy. Editing its terminology field would change the accepted scientific bytes and invalidate that verification. It retains the historical wording \"nearest-rank\" and \"abs_delta_cents_nearest_rank\" as preserved provenance; this record is the controlling terminology authority.",
+    "controlling_record": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/QUANTILE_TERMINOLOGY.json"
+  },
+  "scientific_bytes_modified": false
+}

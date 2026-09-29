@@ -1,0 +1,1 @@
+Positional context only. No beat, quarter or PLP-relative alignment is shown or implied.

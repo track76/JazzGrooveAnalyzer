@@ -1,0 +1,19 @@
+{
+  "task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "status": "DESCRIPTIVE_ONLY",
+  "not_a_leakage_measure": true,
+  "not_ground_truth": true,
+  "why": "These are per-stem RMS level and summed-residual descriptions of the provided stem set. They do not quantify how much bass energy the separator moved between stems, which would require per-stem instrument isolation that this project does not have.",
+  "method": "RMS over the full declared processing context; stems supplied by the project, not regenerated here",
+  "fullmix_rms": 0.0996,
+  "summed_stem_rms": 0.0986,
+  "residual_rms": 0.0117,
+  "residual_fraction_percent": 11.7,
+  "bass_share_of_summed_stem_energy_percent": 55.7,
+  "prohibited_interpretations": [
+    "STEM_BETTER",
+    "FULLMIX_BETTER",
+    "separator accuracy",
+    "ground truth"
+  ]
+}

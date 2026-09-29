@@ -50,14 +50,16 @@
       "current_mode": "INDEPENDENT_REVIEW",
       "write_authority_status": "NOT_GRANTED",
       "current_task": null,
-      "current_status": "STOP_FOR_PI_REVIEW",
-      "last_authority_sync": "2026-09-28T10:29:41.813779+00:00",
+      "current_status": "STOP_FOR_PI_REVIEW_METHOD_D_MINIMAL_COMPLETED",
+      "last_authority_sync": "2026-09-28T20:41:35.037281+00:00",
       "last_known_branch": "scientific/translation-layer-finalization",
-      "last_known_HEAD": "1c424c2e319ac74c5da47c5b37452e30b3f2af12",
-      "current_embargo_restrictions": [],
+      "last_known_HEAD": "e8ea9ec5f1ccf108b78228fbf7a29bb8bfe510c6",
+      "current_embargo_restrictions": [
+        "Strict Method-P scientific embargo; no cross-method comparison."
+      ],
       "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
       "notes": "Historical provenance preserved. Returns to ENGINEERING_REVIEWER / FALLBACK_ENGINEER role. May temporarily return to EXPERIMENTAL_ENGINEER / AUTHORIZED_WRITER only for a future explicitly PI-authorized bounded task.",
-      "last_completed_task": "JGA-PILOT-002-CANDIDATE-FREEZE-001-20260928"
+      "last_completed_task": "JGA-METHOD-D-MINIMAL-PERIODICITY-PHASE-001-20260928"
     },
     {
       "agent_id": "copilot",
@@ -108,16 +110,21 @@
         "PRIMARY_EXPERIMENTAL_ENGINEER",
         "EXPERIMENTAL_ENGINEER"
       ],
-      "current_mode": "PRIMARY_EXPERIMENTAL_ENGINEER",
-      "write_authority_status": "NOT_GRANTED",
-      "current_task": null,
-      "current_status": "INACTIVE_FOR_WRITES_AWAITING_PI_AUTHORIZATION",
-      "last_authority_sync": "2026-09-27T10:00:00.000000+00:00",
+      "current_mode": "EXPERIMENTAL_ENGINEER",
+      "write_authority_status": "AUTHORIZED_FOR_CURRENT_TASK",
+      "current_task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929",
+      "current_status": "AUTHORIZED_CLOSURE_METADATA_ONLY",
+      "last_authority_sync": "2026-09-29T07:55:48.791713+00:00",
       "last_known_branch": "scientific/translation-layer-finalization",
-      "last_known_HEAD": "50a455bc8fe9385808f15a31b412da7adb863e1a",
-      "current_embargo_restrictions": [],
+      "last_known_HEAD": "e8ea9ec5f1ccf108b78228fbf7a29bb8bfe510c6",
+      "current_embargo_restrictions": [
+        "PI task restriction: no Method-P work/results, future Method-P artifacts, or cross-method conclusions",
+        "PI task restriction: no PLP, no Global, no quarter files, no Human annotation, no Method-P/D results"
+      ],
       "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
-      "notes": "PI assigns each task and mode; role is not scientific promotion authority. Writer authority is task-scoped only per GOV-TEAM-POLICY-AMENDMENT-001-20260927. Completed historical task authorization must remain historical provenance, not reusable current authorization. OpenCode may receive writer authority again ONLY through a future explicitly PI-authorized bounded task."
+      "notes": "Task-scoped writer authority for JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929 under PI-BASS-FULLMIX-VS-STEM-CLOSURE-20260929. GOVERNANCE/METADATA/PACKAGE CLOSURE ONLY: no scientific rerun, no change to scientific bytes. Includes repair of the canonical EXTERNAL_ARTIFACT_MANIFEST.json schema regression introduced at the previous task closure (DEV-7). Authority returns to NOT_GRANTED and the lease is released at closure.",
+      "last_interrupted_task": "JGA-FROZEN-CANDIDATES-DIRECT-GRID-001-20260928",
+      "active_branch": "scientific/translation-layer-finalization"
     }
   ],
   "mode_catalog": [

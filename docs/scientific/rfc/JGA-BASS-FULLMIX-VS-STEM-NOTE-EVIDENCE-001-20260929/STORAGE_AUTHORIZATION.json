@@ -1,0 +1,12 @@
+{
+  "pi_decision": "PI-BASS-FULLMIX-VS-STEM-STORAGE-20260929",
+  "ssd_operational_destination": "/Volumes/SSD Track/JGA/experiments/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "hd_canonical_backup_destination": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "ssd_working_max_GiB": 0.5,
+  "ssd_persistent_max_GiB": 0.12,
+  "backup_max_GiB": 0.12,
+  "allowance_semantics": "planning allowances, not targets",
+  "overrun_rule": "STOP FOR PI REVIEW before exceeding; never truncate, discard, selectively compress, sample, or reduce evidence to fit",
+  "predecessor_namespaces_not_reused": true,
+  "contamination_control": "fresh namespace; no existing experiment directory repurposed"
+}

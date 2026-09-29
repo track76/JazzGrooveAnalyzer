@@ -1,0 +1,188 @@
+{
+  "task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "preregistration": "0.2",
+  "claim_scope": "Convergent computational evidence that bass note candidates in the isolated bass stem and the full mix correspond within fixed temporal tolerances. NOT verified/true notes, NOT Ground Truth, NOT independent confirmation, NOT accuracy.",
+  "no_pitch_based_matching": true,
+  "matching_method": "connected components over all candidate events; no nearest-neighbour, no one-to-one constraint",
+  "quantile_convention": "nearest-rank on the sorted population; index = round(f*(n-1)), clamped to [0, n-1]",
+  "inputs": {
+    "fullmix_sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+    "stem_sha256": "8ca185528ce4c50f7a318fb21e9e49ee68b76c7fbede9e7dace5b61120c46952",
+    "sample_rate_hz": 44100,
+    "evaluation_interval_native": [
+      2107392,
+      3643392
+    ],
+    "evaluation_interval_s": [
+      47.786666667,
+      82.616598639
+    ],
+    "evaluation_duration_s": 34.829932,
+    "processing_guard_native": [
+      2062268,
+      3688516
+    ],
+    "timestamp_mapping": "native_sample = 2062268 + frame_index*512; no correction applied"
+  },
+  "extraction": {
+    "fullmix": {
+      "n_events": 458,
+      "density_per_s": 13.15
+    },
+    "stem": {
+      "n_events": 442,
+      "density_per_s": 12.69
+    },
+    "identical_code_both_arms": true
+  },
+  "tolerance_families": {
+    "T0": {
+      "tolerance_samples": 0,
+      "tolerance_ms": 0.0,
+      "n_edges": 286,
+      "n_components": 614,
+      "component_classes": {
+        "MATCHED": 286,
+        "UNMATCHED_FULLMIX_ONLY": 172,
+        "UNMATCHED_STEM_ONLY": 156
+      },
+      "fullmix_coverage_fraction": 0.6244541484716157,
+      "stem_coverage_fraction": 0.6470588235294118,
+      "n_unmatched_fullmix_only": 172,
+      "n_unmatched_stem_only": 156,
+      "n_crossing_components": 0,
+      "ALL_F0_BOTH_VALID": {
+        "n_pairs": 227,
+        "abs_delta_cents_nearest_rank": {
+          "min": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 10.000000000000066,
+          "p95": 70.00000000000017,
+          "max": 329.9999999999991
+        },
+        "n_exact_zero_cents": 133,
+        "n_within_10_cents": 154,
+        "threshold_applied": "NONE"
+      },
+      "VALIDITY_QUALIFIED": {
+        "n_pairs": 17,
+        "boundary_hz": 43.06640625,
+        "boundary_basis": "geometry-derived boundary fixed at preregistration; reporting descriptor only",
+        "threshold_applied": "NONE"
+      }
+    },
+    "T1": {
+      "tolerance_samples": 512,
+      "tolerance_ms": 11.609977324263038,
+      "n_edges": 328,
+      "n_components": 572,
+      "component_classes": {
+        "MATCHED": 328,
+        "UNMATCHED_FULLMIX_ONLY": 130,
+        "UNMATCHED_STEM_ONLY": 114
+      },
+      "fullmix_coverage_fraction": 0.7161572052401747,
+      "stem_coverage_fraction": 0.7420814479638009,
+      "n_unmatched_fullmix_only": 130,
+      "n_unmatched_stem_only": 114,
+      "n_crossing_components": 0,
+      "ALL_F0_BOTH_VALID": {
+        "n_pairs": 255,
+        "abs_delta_cents_nearest_rank": {
+          "min": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 10.000000000000066,
+          "p95": 60.000000000000114,
+          "max": 329.9999999999991
+        },
+        "n_exact_zero_cents": 139,
+        "n_within_10_cents": 163,
+        "threshold_applied": "NONE"
+      },
+      "VALIDITY_QUALIFIED": {
+        "n_pairs": 17,
+        "boundary_hz": 43.06640625,
+        "boundary_basis": "geometry-derived boundary fixed at preregistration; reporting descriptor only",
+        "threshold_applied": "NONE"
+      }
+    },
+    "T2": {
+      "tolerance_samples": 1024,
+      "tolerance_ms": 23.219954648526077,
+      "n_edges": 377,
+      "n_components": 523,
+      "component_classes": {
+        "MATCHED": 367,
+        "UNMATCHED_FULLMIX_ONLY": 85,
+        "UNMATCHED_STEM_ONLY": 71
+      },
+      "fullmix_coverage_fraction": 0.8144104803493449,
+      "stem_coverage_fraction": 0.8393665158371041,
+      "n_unmatched_fullmix_only": 85,
+      "n_unmatched_stem_only": 71,
+      "n_crossing_components": 8,
+      "ALL_F0_BOTH_VALID": {
+        "n_pairs": 293,
+        "abs_delta_cents_nearest_rank": {
+          "min": 0.0,
+          "p25": 0.0,
+          "median": 9.999999999999636,
+          "p75": 10.000000000000258,
+          "p95": 79.99999999999969,
+          "max": 329.9999999999991
+        },
+        "n_exact_zero_cents": 146,
+        "n_within_10_cents": 179,
+        "threshold_applied": "NONE"
+      },
+      "VALIDITY_QUALIFIED": {
+        "n_pairs": 20,
+        "boundary_hz": 43.06640625,
+        "boundary_basis": "geometry-derived boundary fixed at preregistration; reporting descriptor only",
+        "threshold_applied": "NONE"
+      }
+    },
+    "T4": {
+      "tolerance_samples": 2048,
+      "tolerance_ms": 46.439909297052154,
+      "n_edges": 647,
+      "n_components": 326,
+      "component_classes": {
+        "MATCHED": 272,
+        "UNMATCHED_FULLMIX_ONLY": 36,
+        "UNMATCHED_STEM_ONLY": 18
+      },
+      "fullmix_coverage_fraction": 0.9213973799126638,
+      "stem_coverage_fraction": 0.9592760180995475,
+      "n_unmatched_fullmix_only": 36,
+      "n_unmatched_stem_only": 18,
+      "n_crossing_components": 111,
+      "ALL_F0_BOTH_VALID": {
+        "n_pairs": 502,
+        "abs_delta_cents_nearest_rank": {
+          "min": 0.0,
+          "p25": 0.0,
+          "median": 10.000000000000016,
+          "p75": 29.99999999999983,
+          "p95": 140.00000000000003,
+          "max": 650.0000000000001
+        },
+        "n_exact_zero_cents": 185,
+        "n_within_10_cents": 234,
+        "threshold_applied": "NONE"
+      },
+      "VALIDITY_QUALIFIED": {
+        "n_pairs": 42,
+        "boundary_hz": 43.06640625,
+        "boundary_basis": "geometry-derived boundary fixed at preregistration; reporting descriptor only",
+        "threshold_applied": "NONE"
+      }
+    }
+  },
+  "figures": {
+    "n_png": 13,
+    "note": "see FIGURE_INDEX.json"
+  }
+}

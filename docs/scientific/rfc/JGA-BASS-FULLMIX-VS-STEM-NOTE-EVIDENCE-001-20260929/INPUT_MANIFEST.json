@@ -1,0 +1,68 @@
+{
+  "task_id": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "arms": {
+    "FULLMIX": {
+      "path": "docs/scientific/rfc/JGA_NOTE_CONDITIONED_FULLMIX_20260924/inference/input/FULLMIX.wav",
+      "sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+      "representation": "FULL MIXTURE",
+      "external_root": "/Volumes/SSD Track/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929/FULLMIX",
+      "backup_root": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929/FULLMIX"
+    },
+    "STEM": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/stems/bass.wav",
+      "sha256": "8ca185528ce4c50f7a318fb21e9e49ee68b76c7fbede9e7dace5b61120c46952",
+      "representation": "BASS STEM",
+      "external_root": "/Volumes/SSD Track/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929/STEM",
+      "backup_root": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929/STEM"
+    }
+  },
+  "frozen_sources": {
+    "CONFIGURATION.json": "e3df2997d0b83ba842b19e3c893fc8b255dd7bafe115c8baee172fe7cee30a33",
+    "producer.py": "d0e0ef930dd2431a8b703fe744f1fd5388f6d42be91535fbbe718d60e82f87da"
+  },
+  "common_evaluation_interval": {
+    "native_samples_half_open": [
+      2107392,
+      3643392
+    ],
+    "s": [
+      47.786666667,
+      82.616598639
+    ],
+    "duration_s": 34.829932,
+    "basis": "identical preregistered native-sample interval for both arms; stem and fullmix share one native timeline"
+  },
+  "processing_guard": {
+    "native_samples": [
+      2062268,
+      3688516
+    ],
+    "context_s": 1.023219954648526,
+    "samples": 1626248,
+    "stft_frames": 3177,
+    "rounding": "nearest_integer_half_even",
+    "purpose": "STFT centering, filter padding and classification support; excluded from event counts"
+  },
+  "timestamp_mapping": "native_sample = 2062268 + frame_index * 512; no correction",
+  "dependency": {
+    "fullmix_and_stem_are": "dependent representations of the same mixdown",
+    "independence_claim": "NOT_AVAILABLE",
+    "effect": "agreement is convergent computational evidence, never independent confirmation"
+  },
+  "prohibited_inputs_not_read": [
+    "PLP",
+    "Global",
+    "quarter files",
+    "Method-P results",
+    "Method-D results",
+    "Human annotation"
+  ],
+  "decode_equivalence": "docs/scientific/rfc/JGA_FULLMIX_VS_STEMS_GEOMETRY_001_20260923/DECODE_EQUIVALENCE.json; max_abs_difference 0.0; no global coordinate offset detected",
+  "destination_correction": {
+    "defect": "external_root and backup_root were written using the task-id spelling (hyphens) instead of the PI-authorized destination spelling (underscores), so external payloads were directed to an unauthorized sibling namespace",
+    "classification": "EXECUTION_INFRASTRUCTURE_DEFECT_NOT_SCIENTIFIC_EVIDENCE",
+    "authorized_ssd": "/Volumes/SSD Track/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929",
+    "authorized_hd": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929",
+    "corrected_before_any_scientific_result_was_reported": true
+  }
+}

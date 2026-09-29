@@ -1,0 +1,1 @@
+Stem-sum RMS was 0.0986 vs full-mix RMS 0.0996; residual 11.7% of full-mix RMS. Descriptive, not a leakage test.

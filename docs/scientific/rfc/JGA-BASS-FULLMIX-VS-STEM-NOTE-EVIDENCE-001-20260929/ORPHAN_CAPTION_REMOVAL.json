@@ -1,0 +1,30 @@
+{
+  "record": "ORPHAN_CAPTION_REMOVAL",
+  "task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929",
+  "date_time": "2026-09-29T07:56:36.491365+00:00",
+  "target": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/LEAKAGE_DESCRIPTIVE.png.txt",
+  "original_sha256": "05099388bfa9368d4a5fa336fd6d95bea43ee5a755bda7ebb4bde504109affc5",
+  "original_bytes": 64,
+  "original_content": "Temporal distribution of the two inventories. Descriptive only.",
+  "defect": "Stale/misleading metadata. No LEAKAGE_DESCRIPTIVE.png exists. The caption describes a temporal distribution of the two inventories, which is not a leakage measurement.",
+  "cause": "The figure was renamed to EVENT_RATE_BOTH_ARMS.png during the previous task when the filename was found not to match its content. The .png.txt caption sidecar was not renamed in that same operation, leaving an orphan.",
+  "provenance_preservation": {
+    "original_sha256": "05099388bfa9368d4a5fa336fd6d95bea43ee5a755bda7ebb4bde504109affc5",
+    "original_content": "Temporal distribution of the two inventories. Descriptive only.",
+    "mirror_copy_retained": true,
+    "mirror_path": "/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_CURRENT/docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/LEAKAGE_DESCRIPTIVE.png.txt",
+    "note": "The exact bytes and hash of the removed orphan are preserved here and in the untouched continuous-backup mirror copy. Removal from the canonical package does not erase its history.",
+    "superseded_by": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/EVENT_RATE_BOTH_ARMS.png.txt"
+  },
+  "action": "REMOVED_FROM_CANONICAL_PACKAGE",
+  "policy_basis": "Canonical artifact governance permits removal of stale metadata whose referenced payload does not exist, provided provenance is preserved. The backup mirror is append-only and its orphan was NOT deleted.",
+  "not_done": [
+    "did not fabricate a LEAKAGE_DESCRIPTIVE.png",
+    "did not alter any scientific figure",
+    "did not delete the mirror copy (no orphan deletion permitted)"
+  ],
+  "canonical_figures_unaffected": [
+    "FIGURES/EVENT_RATE_BOTH_ARMS.png",
+    "FIGURES/STATE_COMPOSITION_BOTH_ARMS.png"
+  ]
+}

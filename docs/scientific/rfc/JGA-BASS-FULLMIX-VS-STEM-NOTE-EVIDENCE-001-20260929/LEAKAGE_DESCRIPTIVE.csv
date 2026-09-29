@@ -1,0 +1,10 @@
+stem,rms,share_of_summed_stem_energy_percent,status
+bass,0.0736,74.6,descriptive_only
+piano,0.0499,50.6,descriptive_only
+guitar,0.0234,23.7,descriptive_only
+drums,0.0201,20.4,descriptive_only
+other,0.0020,2.0,descriptive_only
+vocals,0.0015,1.5,descriptive_only
+FULLMIX,0.0996,,descriptive_only
+SUM_STEMS,0.0986,100.0,descriptive_only
+RESIDUAL,0.0117,,descriptive_only

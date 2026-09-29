@@ -1,0 +1,1 @@
+Both arms over the identical preregistered interval. Density 13.150/s vs 12.690/s. Vertical marks are extractor landmarks; they are not verified attacks and not Ground Truth.

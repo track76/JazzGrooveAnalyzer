@@ -1,0 +1,35 @@
+{
+  "record": "APPLEDOUBLE_SIDECAR_DISPOSITION",
+  "task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929",
+  "date_time": "2026-09-29T07:58:21.893129+00:00",
+  "classification": "NOT_SCIENTIFIC_ARTIFACTS",
+  "count_observed": {
+    "ssd": 18,
+    "hd_backup": 18,
+    "pi_reported": 6,
+    "discrepancy_note": "18 sidecars observed on SSD and 18 on the HD backup, not 6. The PI-reported figure counts distinct sidecar locations differently; all 18 are byte-identical (sha256 dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde). Reported as observed."
+  },
+  "content_analysis": {
+    "size_bytes_each": 4096,
+    "appledouble_magic": "0x00051607",
+    "version": "0x00020000",
+    "declared_entries": 2,
+    "resource_fork_length": 0,
+    "file_dates_length": 0,
+    "data_fork_entry_present": false,
+    "residual_content": "ATTR extended-attribute container holding com.apple.provenance only",
+    "scientific_payload": "NONE"
+  },
+  "policy_basis": {
+    "source": "docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md",
+    "statement": "The approved backup helper excludes AppleDouble ._* files as disposable filesystem metadata, alongside __pycache__, .pyc/.pyo, .DS_Store, .lock and .tmp. The exclusion is explicit, which is the canonical policy permission for safe metadata cleanup requested by the PI.",
+    "no_orphan_deletion": "Mirror orphan deletion remains prohibited and was not performed for any backup file."
+  },
+  "disposition": {
+    "ssd_scientific_tree": "REMOVED \u2014 18 sidecars deleted as safe metadata cleanup under explicit policy",
+    "hd_backup_tree": "RETAINED \u2014 the mirror is append-only; no orphan deletion performed",
+    "registered_in_external_manifest": "NO \u2014 sidecars are not scientific artifacts and were not registered"
+  },
+  "risk": "NONE \u2014 content analysis proves zero scientific payload; no referenced file loses data",
+  "scientific_bytes_modified": false
+}

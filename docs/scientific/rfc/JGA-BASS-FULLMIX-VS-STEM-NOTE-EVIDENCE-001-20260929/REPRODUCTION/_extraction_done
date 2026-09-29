@@ -1,0 +1,23 @@
+{
+  "started": "2026-09-29T06:54:15.829254+00:00",
+  "arms": {
+    "FULLMIX": {
+      "all_local_maxima": 939,
+      "peak_qualified": 659,
+      "deduplicated": 458,
+      "rejected": 280,
+      "merged_members": 201,
+      "clusters": 458,
+      "multi_member_clusters": 137
+    },
+    "STEM": {
+      "all_local_maxima": 928,
+      "peak_qualified": 582,
+      "deduplicated": 442,
+      "rejected": 346,
+      "merged_members": 140,
+      "clusters": 442,
+      "multi_member_clusters": 97
+    }
+  }
+}

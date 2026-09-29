@@ -1,0 +1,172 @@
+{
+  "task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "ssd_root": "/Volumes/SSD Track/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929",
+  "verified_by": "sha256 read-back after durable write",
+  "allowance_bytes": 128849018,
+  "arms": {
+    "FULLMIX": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929/FULLMIX",
+      "n_files": 6,
+      "files": {
+        "ALL_LOCAL_MAXIMA.json": {
+          "sha256": "b0894010c8801e81419888ffa5ca0ef8b01193fbd27ab7567b99e869f579bb13",
+          "bytes": 2915327
+        },
+        "CLUSTERS.json": {
+          "sha256": "b5600b3f67e4f3dc56c33bd719a9ea90f4d5e6df720cf7f34ad83de70cf3efc3",
+          "bytes": 2439288
+        },
+        "EVENTS.json": {
+          "sha256": "556cd14c55fb060a5b92b56efaa2f9ab622f6cd95be37cb274833fefbd5d8b10",
+          "bytes": 1420283
+        },
+        "EXTRACTION_ARRAYS.npz": {
+          "sha256": "a58d9b1e782faa88c6970be3e762fd9323cb25fd4081cbcb5c07e573bd079e2a",
+          "bytes": 32067778
+        },
+        "EXTRACTION_SUMMARY.json": {
+          "sha256": "386e0d1a11e9aecdcfd048338078927735334c1080bd3595d7bedcf639713c4e",
+          "bytes": 4832
+        },
+        "PEAK_QUALIFIED.json": {
+          "sha256": "076e1c3d83184113fd3483e249c18a38334ba53dcf27ba29e1067558a61f6169",
+          "bytes": 2019154
+        }
+      }
+    },
+    "STEM": {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_BASS_FULLMIX_VS_STEM_NOTE_EVIDENCE_001_20260929/STEM",
+      "n_files": 6,
+      "files": {
+        "ALL_LOCAL_MAXIMA.json": {
+          "sha256": "ee5e2b2b31a56eba887fb65c5634be1b66526a4c7d14deee7fbc2c18ac612e02",
+          "bytes": 3020842
+        },
+        "CLUSTERS.json": {
+          "sha256": "751bee2309e50f83297ca654d6d19ef30fe35a1f34fa24f6cd1886ed464a0dbb",
+          "bytes": 2298449
+        },
+        "EVENTS.json": {
+          "sha256": "5ff30c6eb2be94aeb19ffd32cd3f085fddfd9f398b0ef069df1d7e94a460f7cf",
+          "bytes": 1450356
+        },
+        "EXTRACTION_ARRAYS.npz": {
+          "sha256": "263bf61e362cd52c445b3a1a2d18ce8f4d8c6d31ffbe92c30fd27966c562747f",
+          "bytes": 31593331
+        },
+        "EXTRACTION_SUMMARY.json": {
+          "sha256": "ca78dae01d65f08018f1422186e99f56c5870624febffa8b3186591d33eeea43",
+          "bytes": 4816
+        },
+        "PEAK_QUALIFIED.json": {
+          "sha256": "d10fc45dacb06429ccd6a12635e6ea0dd575144ecea366a3102371d166897f6a",
+          "bytes": 1898129
+        }
+      }
+    }
+  },
+  "matching": {
+    "MATCH_T0.json": {
+      "sha256": "94fca8acb519b5dd9de04c81085c27742e3038603e24867d74e9264dd0c33b4e",
+      "bytes": 40781
+    },
+    "MATCH_T1.json": {
+      "sha256": "33d3b3060fd0868e0651630f8be7f292695bc00623431e92d911ec94cca4ee9b",
+      "bytes": 44550
+    },
+    "MATCH_T2.json": {
+      "sha256": "06fdb942ee0cfee33bb452495d53c796057b874627f43c0fba010217d535921d",
+      "bytes": 50879
+    },
+    "MATCH_T4.json": {
+      "sha256": "8e39840e39166e3e3758d6d0c89229c4c164156547a2a131a2821b3755fa5ff2",
+      "bytes": 95278
+    }
+  },
+  "total_bytes": 81364073,
+  "total_mib": 77.59,
+  "within_allowance": true,
+  "metadata_repair": {
+    "repaired_at": "2026-09-29T08:00:14.129616+00:00",
+    "closure_task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929",
+    "what": "The original inventory wrongly listed AppleDouble ._* sidecars as scientific artifacts. They are filesystem metadata and are explicitly excluded by canonical backup policy.",
+    "entries_removed": 12,
+    "removed_entries": [
+      {
+        "arm": "FULLMIX",
+        "name": "._ALL_LOCAL_MAXIMA.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "FULLMIX",
+        "name": "._CLUSTERS.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "FULLMIX",
+        "name": "._EVENTS.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "FULLMIX",
+        "name": "._EXTRACTION_ARRAYS.npz",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "FULLMIX",
+        "name": "._EXTRACTION_SUMMARY.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "FULLMIX",
+        "name": "._PEAK_QUALIFIED.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "STEM",
+        "name": "._ALL_LOCAL_MAXIMA.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "STEM",
+        "name": "._CLUSTERS.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "STEM",
+        "name": "._EVENTS.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "STEM",
+        "name": "._EXTRACTION_ARRAYS.npz",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "STEM",
+        "name": "._EXTRACTION_SUMMARY.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      },
+      {
+        "arm": "STEM",
+        "name": "._PEAK_QUALIFIED.json",
+        "sha256": "dbce38635c9c29d1ba7b6a886f1ae64eb24a4249f9608d738d8526f83cae3fde",
+        "bytes": 4096
+      }
+    ],
+    "disposition_record": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/APPLEDOUBLE_SIDECAR_DISPOSITION.json",
+    "scientific_artifacts_unchanged": true,
+    "note": "Only the sidecar entries were removed. Every genuine scientific artifact and its recorded hash are unchanged; no scientific byte was modified."
+  }
+}

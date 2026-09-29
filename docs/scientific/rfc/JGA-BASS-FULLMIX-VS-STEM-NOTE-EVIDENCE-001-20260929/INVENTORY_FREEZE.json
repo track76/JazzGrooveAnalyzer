@@ -1,0 +1,372 @@
+{
+  "task_id": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "frozen_at_stage": "BEFORE_ANY_MATCHING",
+  "status": "BOTH_ARMS_FROZEN",
+  "arms": {
+    "FULLMIX": {
+      "counts": {
+        "all_local_maxima": 939,
+        "peak_qualified": 659,
+        "deduplicated": 458,
+        "rejected": 280,
+        "merged_members": 201,
+        "clusters": 458,
+        "multi_member_clusters": 137
+      },
+      "states": {
+        "BASS_COMPATIBLE": 350,
+        "BASS_POSSIBLE": 0,
+        "AMBIGUOUS": 108,
+        "UNRESOLVED": 0
+      },
+      "density_events_per_s": 13.149609374999999,
+      "region_s": [
+        47.78666666666667,
+        82.61659863945579
+      ],
+      "region_native_samples": [
+        2107392,
+        3643392
+      ],
+      "thresholds": {
+        "prominence": 0.9086610819095555,
+        "iqr": 9.086610819095554,
+        "std": 13.6229308692321,
+        "prominence_fallback_used": false,
+        "statistics_support": "entire_processing_context"
+      },
+      "pyin": {
+        "fmin": 41.2,
+        "fmax": 350.0,
+        "frame_length": 2048,
+        "hop_length": 512,
+        "resolution": 0.1,
+        "n_thresholds": 100,
+        "beta_parameters": [
+          2,
+          18
+        ],
+        "boltzmann_parameter": 2.0,
+        "max_transition_rate": 35.92,
+        "switch_prob": 0.01,
+        "no_trough_prob": 0.01,
+        "fill_na": null,
+        "center": true,
+        "pad_mode": "constant"
+      },
+      "filter": {
+        "design": "butter",
+        "order": 4,
+        "btype": "bandpass",
+        "application": "sosfiltfilt",
+        "padtype": "odd",
+        "padlen": 27
+      },
+      "stft": {
+        "n_fft": 2048,
+        "hop_length": 512,
+        "win_length": 2048,
+        "window": "hann",
+        "center": true,
+        "pad_mode": "reflect",
+        "dtype": "complex64"
+      },
+      "bands": {
+        "bass_hz": [
+          45,
+          350
+        ],
+        "n_bins": 14
+      },
+      "dedup": {
+        "tolerance_s": 0.035,
+        "method": "adjacent_gap_chaining",
+        "representative": "earliest_native_sample_then_immutable_ID",
+        "classification_used_for_selection": false,
+        "physical_equivalence_claim": false
+      },
+      "bass_rule": {
+        "harmonic_sum_to_flux_factor": 0.5,
+        "logic": "voiced and valid F0: harmonic magnitude sum > factor*flux => BASS_COMPATIBLE else BASS_POSSIBLE; otherwise AMBIGUOUS; invalid numerical evidence => UNRESOLVED",
+        "dependent_evidence": "F0 depends on low-band preprocessing; harmonic magnitudes from unfiltered mix are mixture evidence, not independent source truth"
+      },
+      "continuity": {
+        "max_difference_hz": 50.0,
+        "max_gap_frames": 5,
+        "method": "previous voiced frame within gap; absolute frequency difference; no tracking identity claim"
+      },
+      "harmonics": {
+        "max_harmonics": 8,
+        "spectrum": "unfiltered_fullmix_magnitude",
+        "bin_rule": "nearest_frequency_bin",
+        "interpretation": "magnitude sum including fundamental; overtone count and values saved separately; not validated identity"
+      },
+      "low_register_boundary_hz": 43.06640625,
+      "engineering_invariants": {
+        "stft_coordinate": [
+          {
+            "impulse_sample": 1024,
+            "peak_frame": 2,
+            "error_samples": 0,
+            "pass": true
+          },
+          {
+            "impulse_sample": 2048,
+            "peak_frame": 4,
+            "error_samples": 0,
+            "pass": true
+          },
+          {
+            "impulse_sample": 4096,
+            "peak_frame": 8,
+            "error_samples": 0,
+            "pass": true
+          }
+        ],
+        "formula": "native_sample = begin + frame_index*hop",
+        "hop_ms": 11.609977324263038,
+        "window_ms": 46.439909297052154
+      },
+      "cluster_size_distribution": {
+        "1": 321,
+        "2": 93,
+        "3": 30,
+        "4": 9,
+        "5": 4,
+        "6": 1
+      },
+      "evaluation_boundary_crossed": 2,
+      "source_support_truncated": 0,
+      "flux": {
+        "n": 458,
+        "min": 1.6033829047394101,
+        "q1": 6.313492246775783,
+        "median": 11.537758346879738,
+        "q3": 27.9536300547393,
+        "max": 146.13729593199778,
+        "mean": 20.2553365068745
+      },
+      "prominence": {
+        "n": 458,
+        "min": 0.9466820051944711,
+        "q1": 3.9184974682137357,
+        "median": 8.486922586288136,
+        "q3": 22.514207918165418,
+        "max": 146.0314920412538,
+        "mean": 17.362897459796258
+      },
+      "dedup_spacing_ms": {
+        "n": 457,
+        "min": 46.43990929704955,
+        "q1": 46.439909297063764,
+        "median": 69.65986394557433,
+        "q3": 92.8798185940991,
+        "max": 220.5895691610067,
+        "mean": 76.1634836283164
+      },
+      "cluster_span_ms": {
+        "n": 458,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 34.829931972787165,
+        "max": 174.14965986394293,
+        "mean": 15.285625167097372
+      },
+      "warnings": [
+        "With fmin=41.200, sr=44100 and frame_length=2048, less than two periods of fmin fit into the frame, which can cause inaccurate pitch detection. Consider increasing to fmin=43.066 or frame_length=2143."
+      ],
+      "events_sha256": "556cd14c55fb060a5b92b56efaa2f9ab622f6cd95be37cb274833fefbd5d8b10",
+      "clusters_sha256": "b5600b3f67e4f3dc56c33bd719a9ea90f4d5e6df720cf7f34ad83de70cf3efc3",
+      "arrays_sha256": "a58d9b1e782faa88c6970be3e762fd9323cb25fd4081cbcb5c07e573bd079e2a",
+      "summary_sha256": "47b7f1cffcdcdcb9b1961aa71e613a96465bdd1d2f4304737146ec5af0489466"
+    },
+    "STEM": {
+      "counts": {
+        "all_local_maxima": 928,
+        "peak_qualified": 582,
+        "deduplicated": 442,
+        "rejected": 346,
+        "merged_members": 140,
+        "clusters": 442,
+        "multi_member_clusters": 97
+      },
+      "states": {
+        "BASS_COMPATIBLE": 388,
+        "BASS_POSSIBLE": 0,
+        "AMBIGUOUS": 54,
+        "UNRESOLVED": 0
+      },
+      "density_events_per_s": 12.690234375,
+      "region_s": [
+        47.78666666666667,
+        82.61659863945579
+      ],
+      "region_native_samples": [
+        2107392,
+        3643392
+      ],
+      "thresholds": {
+        "prominence": 0.5465474360230774,
+        "iqr": 5.4654743602307745,
+        "std": 11.94717036976422,
+        "prominence_fallback_used": false,
+        "statistics_support": "entire_processing_context"
+      },
+      "pyin": {
+        "fmin": 41.2,
+        "fmax": 350.0,
+        "frame_length": 2048,
+        "hop_length": 512,
+        "resolution": 0.1,
+        "n_thresholds": 100,
+        "beta_parameters": [
+          2,
+          18
+        ],
+        "boltzmann_parameter": 2.0,
+        "max_transition_rate": 35.92,
+        "switch_prob": 0.01,
+        "no_trough_prob": 0.01,
+        "fill_na": null,
+        "center": true,
+        "pad_mode": "constant"
+      },
+      "filter": {
+        "design": "butter",
+        "order": 4,
+        "btype": "bandpass",
+        "application": "sosfiltfilt",
+        "padtype": "odd",
+        "padlen": 27
+      },
+      "stft": {
+        "n_fft": 2048,
+        "hop_length": 512,
+        "win_length": 2048,
+        "window": "hann",
+        "center": true,
+        "pad_mode": "reflect",
+        "dtype": "complex64"
+      },
+      "bands": {
+        "bass_hz": [
+          45,
+          350
+        ],
+        "n_bins": 14
+      },
+      "dedup": {
+        "tolerance_s": 0.035,
+        "method": "adjacent_gap_chaining",
+        "representative": "earliest_native_sample_then_immutable_ID",
+        "classification_used_for_selection": false,
+        "physical_equivalence_claim": false
+      },
+      "bass_rule": {
+        "harmonic_sum_to_flux_factor": 0.5,
+        "logic": "voiced and valid F0: harmonic magnitude sum > factor*flux => BASS_COMPATIBLE else BASS_POSSIBLE; otherwise AMBIGUOUS; invalid numerical evidence => UNRESOLVED",
+        "dependent_evidence": "F0 depends on low-band preprocessing; harmonic magnitudes from unfiltered mix are mixture evidence, not independent source truth"
+      },
+      "continuity": {
+        "max_difference_hz": 50.0,
+        "max_gap_frames": 5,
+        "method": "previous voiced frame within gap; absolute frequency difference; no tracking identity claim"
+      },
+      "harmonics": {
+        "max_harmonics": 8,
+        "spectrum": "unfiltered_fullmix_magnitude",
+        "bin_rule": "nearest_frequency_bin",
+        "interpretation": "magnitude sum including fundamental; overtone count and values saved separately; not validated identity"
+      },
+      "low_register_boundary_hz": 43.06640625,
+      "engineering_invariants": {
+        "stft_coordinate": [
+          {
+            "impulse_sample": 1024,
+            "peak_frame": 2,
+            "error_samples": 0,
+            "pass": true
+          },
+          {
+            "impulse_sample": 2048,
+            "peak_frame": 4,
+            "error_samples": 0,
+            "pass": true
+          },
+          {
+            "impulse_sample": 4096,
+            "peak_frame": 8,
+            "error_samples": 0,
+            "pass": true
+          }
+        ],
+        "formula": "native_sample = begin + frame_index*hop",
+        "hop_ms": 11.609977324263038,
+        "window_ms": 46.439909297052154
+      },
+      "cluster_size_distribution": {
+        "1": 345,
+        "2": 68,
+        "3": 18,
+        "4": 9,
+        "5": 1,
+        "6": 1
+      },
+      "evaluation_boundary_crossed": 2,
+      "source_support_truncated": 0,
+      "flux": {
+        "n": 442,
+        "min": 0.5977075775798764,
+        "q1": 2.875807154495924,
+        "median": 6.593744647499378,
+        "q3": 20.12399123947895,
+        "max": 110.03889757092789,
+        "mean": 15.315137218146091
+      },
+      "prominence": {
+        "n": 442,
+        "min": 0.5500504587995417,
+        "q1": 1.8515032275122398,
+        "median": 4.804778319332666,
+        "q3": 16.85910076643745,
+        "max": 110.03889757092789,
+        "mean": 13.707648064702932
+      },
+      "dedup_spacing_ms": {
+        "n": 441,
+        "min": 46.43990929704955,
+        "q1": 46.439909297063764,
+        "median": 69.65986394557433,
+        "q3": 92.8798185940991,
+        "max": 1393.1972789115575,
+        "mean": 78.926784621634
+      },
+      "cluster_span_ms": {
+        "n": 442,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0,
+        "max": 174.14965986394293,
+        "mean": 11.03210514975222
+      },
+      "warnings": [
+        "With fmin=41.200, sr=44100 and frame_length=2048, less than two periods of fmin fit into the frame, which can cause inaccurate pitch detection. Consider increasing to fmin=43.066 or frame_length=2143."
+      ],
+      "events_sha256": "5ff30c6eb2be94aeb19ffd32cd3f085fddfd9f398b0ef069df1d7e94a460f7cf",
+      "clusters_sha256": "751bee2309e50f83297ca654d6d19ef30fe35a1f34fa24f6cd1886ed464a0dbb",
+      "arrays_sha256": "263bf61e362cd52c445b3a1a2d18ce8f4d8c6d31ffbe92c30fd27966c562747f",
+      "summary_sha256": "3e7f11e53c0535215a537af01c213c08d422cbfce9e675ed9daf93ec44a5bc67"
+    }
+  },
+  "ordering_guarantee": "both arm inventories were written and hashed before any matching, connected-component or crossing computation",
+  "fullmix_reproduction_check": {
+    "expected_frozen_pilot002_deduplicated": 458,
+    "observed": 458,
+    "match": true,
+    "significance": "confirms the symmetric re-implementation reproduces the frozen fullmix inventory; a code-port verification, NOT independent scientific evidence about the audio source"
+  },
+  "frozen_pilot002_artifact_sha256": "69ecace3bdd0f34c9ed6f1516b0884671dea746365b8df8a1c0c29cfea397338",
+  "frozen_pilot002_artifact_modified": false
+}

@@ -1,0 +1,440 @@
+{
+  "task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929",
+  "preregistration": "0.2",
+  "accepted": true,
+  "accepted_claim_scope": "CONVERGENT COMPUTATIONAL EVIDENCE ACROSS RELATED REPRESENTATIONS",
+  "downstream_status": "READY_WITH_QUALIFICATIONS",
+  "closure_task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929",
+  "closure_date_time": "2026-09-29T08:01:08.011610+00:00",
+  "scientific_bytes_modified": false,
+  "hash_chain": {
+    "design": "MANIFEST.json lists every package file except itself and SHA256SUMS. SHA256SUMS is built afterwards and covers every package file including MANIFEST.json.",
+    "terminal_exception": {
+      "file": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/SHA256SUMS",
+      "reason": "A checksum file cannot contain its own hash; this is mathematically recursive and is therefore a documented terminal node rather than a coverage gap.",
+      "verification": "Verify SHA256SUMS by recomputing every listed digest, then verify the SHA256SUMS file itself against the continuous external backup mirror and the canonical external manifest."
+    },
+    "note": "No self-referential hash requirement is created."
+  },
+  "n_artifacts": 79,
+  "artifacts": [
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/APPLEDOUBLE_SIDECAR_DISPOSITION.json",
+      "sha256": "7ef87917dff62f6c5f2e084701a5d51b93f8a38f6c0995044d6ea724d0733831",
+      "bytes": 1949
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/AUTHORITY_SYNC.json",
+      "sha256": "39db35b0c85a4c7ecba49b318a3895a4bb30256dbc1a9f6ec45400a1916c0731",
+      "bytes": 2477
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/CLAIM_SCOPE_AND_DOWNSTREAM_STATUS.md",
+      "sha256": "ddd806a520c2b870470741cc5f452053d8bbdf9c09e6625c358416ec0321f28c",
+      "bytes": 2319
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/COMPONENTS_T0.csv",
+      "sha256": "617cf06598ccac471863e33b5b046987d171c5e047d35fa54b48700e23be054d",
+      "bytes": 35004
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/COMPONENTS_T1.csv",
+      "sha256": "6191f7085d55afa0e7912afd6a10ccff185edaff8b0366fd88314d65779f1147",
+      "bytes": 32526
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/COMPONENTS_T2.csv",
+      "sha256": "af15859dfefc945e0d984da1edd1207756bc5ccfcec6c0580b7ddbbb559e615d",
+      "bytes": 29769
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/COMPONENTS_T4.csv",
+      "sha256": "3e45ef174de81efd9fd28160615a5347d50c458128ba4a717ac41454c2c10de9",
+      "bytes": 22288
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/CONFIG_EQUALITY_RECORD.json",
+      "sha256": "6120057facdf58f4bd4e7eef0664c845444a43d8dc8cf6611b7ee2932bcb56c3",
+      "bytes": 1745
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/CROSSINGS_T0.csv",
+      "sha256": "2367cb6ae2ef6f53d392caa4056e17b865d2c404e0eef9247850aa38e31afb02",
+      "bytes": 80
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/CROSSINGS_T1.csv",
+      "sha256": "2367cb6ae2ef6f53d392caa4056e17b865d2c404e0eef9247850aa38e31afb02",
+      "bytes": 80
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/CROSSINGS_T2.csv",
+      "sha256": "ec2970ee607e0a76ae87d801321670bbc8a45e169cae3dd1a038aedf2949a763",
+      "bytes": 546
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/CROSSINGS_T4.csv",
+      "sha256": "ccaac1db4f039006de54fbd6bddd97b27e15af7e3dcc5f375187b6d3322d0a65",
+      "bytes": 8673
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/EXECUTION_PROVENANCE.json",
+      "sha256": "8cfd96bcc69a7beb06c33e9c715a0d72070d3c860259a791c5b3d4b17535dec1",
+      "bytes": 8322
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/EXTERNAL_ARTIFACT_INVENTORY.json",
+      "sha256": "38be19d96924ffa7ff72d5d9599a458e7d05235bdccf494b5157fb07eadcf6e1",
+      "bytes": 6185
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/EXTRACTOR_CONFIG_FULLMIX.json",
+      "sha256": "e6f09ba09b906c3af64f27f2bfe97e7cd92347c23b8acc8a99d2e108e0f1e0bb",
+      "bytes": 4472
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/EXTRACTOR_CONFIG_STEM.json",
+      "sha256": "a83c011fbeb5882aac19513e2d1c0a37b84b478fe70fc8d5e5290c66c39cc3e7",
+      "bytes": 4482
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/AMBIGUITY_DENSITY_T1.png",
+      "sha256": "b117511fc3655361fb0b242785b59b380f46731d66ee1d3aa7f6139980d8dc75",
+      "bytes": 25111
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/AMBIGUITY_DENSITY_T1.png.txt",
+      "sha256": "bdb07a6a0d7efb08066cc176361150268097f6259a7a52375a2e42969604d142",
+      "bytes": 74
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/ARM_DENSITY_COMPARISON.png",
+      "sha256": "54141023ac7a7ccb58ee8de17a443bf684eba7cdc9f4d0729f12fe8d853b3224",
+      "bytes": 25610
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/ARM_DENSITY_COMPARISON.png.txt",
+      "sha256": "e73d88f4199a3f6de9ca934ddc4a40dec0b20d814879418bf491ca54ced64d72",
+      "bytes": 71
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/COVERAGE_MAP.png",
+      "sha256": "d1a14b348864c1d5c38645b25e0dc013ea6ab92563d8696222d20f0fe32c33c3",
+      "bytes": 31622
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/COVERAGE_MAP.png.txt",
+      "sha256": "2ce163f43d7d9476068d3e479c715392d63c6fb76e17b280a63ffa77aa978e51",
+      "bytes": 89
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/CROSSINGS_T1.png",
+      "sha256": "f0bd36ebbb7ef6cf4662085ffa901253870abce3374bbd3b3afeed891b65f9d3",
+      "bytes": 28686
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/CROSSINGS_T1.png.txt",
+      "sha256": "f4aec1f7c149f18a55e3099c71ffa82860a3aa28f3ed28096d5fa7dffb88f2db",
+      "bytes": 72
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/DELTA_TIME_FAMILY.png",
+      "sha256": "729b1ed01e67ee11a8f7b9092faba0504d66a55ed95d4310a4cef924ae326020",
+      "bytes": 85229
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/DELTA_TIME_FAMILY.png.txt",
+      "sha256": "7ad2cbf6f34e9d4f40a6e534676feb87ead9b59337665ed80c38e3923b102bf0",
+      "bytes": 91
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/DELTA_TIME_T1.png",
+      "sha256": "175acd9710e8259236d4ba18f9f2560b3784ae359871626d10cbff9cd543312d",
+      "bytes": 32961
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/DELTA_TIME_T1.png.txt",
+      "sha256": "5783889d6be27913dbfe9a294693f090d8c049d1cc6d48956a9e41921ff5d545",
+      "bytes": 80
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/EVENT_RATE_BOTH_ARMS.png",
+      "sha256": "3502e87815cdcfc0eac3215751987d4658157d14b0fbaa835b3e6b9123a64ee3",
+      "bytes": 32155
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/EVENT_RATE_BOTH_ARMS.png.txt",
+      "sha256": "6d746cf5721eb03b95eb909bbfab1c48f729b4f4b5e07fc300f4c1157ac4b57f",
+      "bytes": 96
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/PITCH_CENTS_T1.png",
+      "sha256": "88cca01d3911d9efc7490fc36570779cb10f635314f0c1f45e1ed95f4ca58208",
+      "bytes": 32499
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/PITCH_CENTS_T1.png.txt",
+      "sha256": "220b11e2891226d8e161cea6f3b4e537b12de9831de2c3020573580865a673a3",
+      "bytes": 90
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/PITCH_HZ_T1.png",
+      "sha256": "431dea5f5293797c1b96b0c48540299fd494be58432c19c7a49d7e47ca3cd698",
+      "bytes": 47347
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/PITCH_HZ_T1.png.txt",
+      "sha256": "85fb1869606d819b4c010923f6c7453ab2402455d68d976fd3c40f3a61efca26",
+      "bytes": 137
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/RESIDUAL_WAVEFORM.png",
+      "sha256": "92263ccea51bb9412b9e59c079cb2b509733aebd9c57ff5fb88ccc59fcf30f51",
+      "bytes": 35916
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/RESIDUAL_WAVEFORM.png.txt",
+      "sha256": "82a08d39b52563c9c9b8ecbf5f35fcca0dcb472370877428318e6012605eae85",
+      "bytes": 113
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/SEGMENT_BOUNDARY_OVERLAY.png",
+      "sha256": "e62be01a58469c24d8005286e3862be1d1b8d0f9162d511d1ae8338eedc9b482",
+      "bytes": 29278
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/SEGMENT_BOUNDARY_OVERLAY.png.txt",
+      "sha256": "cc46d7e8e94cbe392d953d0e9f53915deac6a4e4ed2f7b579f655331ca7ee9c8",
+      "bytes": 94
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/STATE_COMPOSITION_BOTH_ARMS.png",
+      "sha256": "6200597ed914786818baf9144fb4522478d2d2093dff63f4c31e6e81e2a09e3e",
+      "bytes": 46937
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/STATE_COMPOSITION_BOTH_ARMS.png.txt",
+      "sha256": "7e70c4d613f363d3ddfece127577f8d497c2e8f1134c77176e4f208db1f9c2d7",
+      "bytes": 175
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/STATUS_COMPOSITION_T1.png",
+      "sha256": "8ef659b8953a4783ea08695de9c8ce77cf540a53bc55bddcc5b0aa5ac14678de",
+      "bytes": 34994
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURES/STATUS_COMPOSITION_T1.png.txt",
+      "sha256": "9803a51b778c747c88a062f44b6c1b3a09417b79b6b7b9f7b1ee9afb9d211779",
+      "bytes": 96
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FIGURE_INDEX.json",
+      "sha256": "964eeffda2c7154a83a20fee37bf84303276025680824c2e3c2b1f70cf541155",
+      "bytes": 2682
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FULLMIX_DEDUP_CLUSTERS.json",
+      "sha256": "b5600b3f67e4f3dc56c33bd719a9ea90f4d5e6df720cf7f34ad83de70cf3efc3",
+      "bytes": 2439288
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/FULLMIX_EVENTS.json",
+      "sha256": "556cd14c55fb060a5b92b56efaa2f9ab622f6cd95be37cb274833fefbd5d8b10",
+      "bytes": 1420283
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/INPUT_MANIFEST.json",
+      "sha256": "7848b338af99399e17685e00a8dec0ec0abf206f853d101016e62d5da7f07fa4",
+      "bytes": 3273
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/INVENTORY_FREEZE.json",
+      "sha256": "ae7b49f5fbcada6f751f92917c5cdb8eae2eaed91a6e2ae1babeabb5a532887c",
+      "bytes": 11780
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/LEAKAGE_DESCRIPTIVE.csv",
+      "sha256": "41b703c46fed7f2f7f45458473b4c2b535f85bdcd3fcbb2d5ecdbd6ee7b75946",
+      "bytes": 368
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/LIMITATIONS.md",
+      "sha256": "f6c032dba9f25e9808f51ea2745e28c4b35a3793de195b4f3c5c4458d56a2a9a",
+      "bytes": 2537
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/MATCHES_T0.csv",
+      "sha256": "c8400530da90a84f3d55ee58110752f05763f751b4a5ebc31aaba15730628896",
+      "bytes": 42305
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/MATCHES_T1.csv",
+      "sha256": "49e0b3615d35d87f26ea62c98da300ee85197f441449e5d1abe6c222f4e545a1",
+      "bytes": 49514
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/MATCHES_T2.csv",
+      "sha256": "85dce54a0bc2a911c899f733d3b67b89d0968f5fa463c4082b342a6d1a83c240",
+      "bytes": 58319
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/MATCHES_T4.csv",
+      "sha256": "628a32e28ef45350ca6f75ef995fbb8459668bc631280f96980b85301b4c1287",
+      "bytes": 106537
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/MATCHING_EDGES_T0.csv",
+      "sha256": "e0de8313c31a17f459fe84c795348f59a6446a799ff11c6d5bf49fa434a2ccb8",
+      "bytes": 32089
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/MATCHING_EDGES_T1.csv",
+      "sha256": "ca0a5b7f2e0f2a4e96ba8db9bd9f79df07080fd1fe4c69330b120f1a3d5fe65e",
+      "bytes": 37560
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/MATCHING_EDGES_T2.csv",
+      "sha256": "f72a578fc2deb7a4ae922a41505ce0b976d22f625e66414504eb62b66ad9a86d",
+      "bytes": 44163
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/MATCHING_EDGES_T4.csv",
+      "sha256": "10b274584c63c1684f59cab37393f46609d9884ca63430d6b10fce1ca108c6f7",
+      "bytes": 80551
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/ORPHAN_CAPTION_REMOVAL.json",
+      "sha256": "ceb440b64048e0fc0c52bd104e22fad7936218b81f15933ae99adababa3891fb",
+      "bytes": 2253
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/PITCH_CONTINUOUS_T0.json",
+      "sha256": "75d96f85139af0434cf05528475dee3fc22793bc2f0c1990b4a11510c9906c38",
+      "bytes": 24522
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/PITCH_CONTINUOUS_T1.json",
+      "sha256": "3205ba60c2331379044e7faf6ecf90cc20ac003a00f3eb7b19089a2eac9af727",
+      "bytes": 27287
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/PITCH_CONTINUOUS_T2.json",
+      "sha256": "457e29cb2f1965f0f5c32db7ff7c8a070363669fc7988c6ff92ba73a60983fb3",
+      "bytes": 32197
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/PITCH_CONTINUOUS_T4.json",
+      "sha256": "7410993aaeb922318996e7e53afc4cb328f169535b09f59546cf9aef13c195a8",
+      "bytes": 61326
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/PREREGISTRATION_0_2.md",
+      "sha256": "b93e22adc32bbc49a8dd12b8641d1678287099c57447642c32a18b3231e56782",
+      "bytes": 2663
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/QUANTILE_TERMINOLOGY.json",
+      "sha256": "13ffb217405209d47c3908d4e286613313e9d7b864965e085ba7940fda400183",
+      "bytes": 1914
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/REPRODUCTION/_extraction_done",
+      "sha256": "f98648a3df13bcdfd70ff5b9b8ebfbdbac024c15b5c2eb5a8e77197bf937f9de",
+      "bytes": 506
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/REPRODUCTION/_figures_done",
+      "sha256": "b1836e25df484f20323c906e39b91f92e258b2b37a70ebc6648abbbdd04f3ef8",
+      "bytes": 335
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/REPRODUCTION/_match_done",
+      "sha256": "ecb9ac11f12c99ebe66462208f7ac577b8c623b5a95bab9bed8a5c392c951543",
+      "bytes": 45
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/REPRODUCTION/analyze_match.py",
+      "sha256": "811ecc026dd834247e86117dc34e5e0a690889c5ee32517e0e2c7cb16596a4ab",
+      "bytes": 13150
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/REPRODUCTION/export_family.py",
+      "sha256": "e0077684797f9223eb80a1d021ca4ae2c78fe755c4917e96e17312f41d479b2a",
+      "bytes": 8742
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/REPRODUCTION/producer.py",
+      "sha256": "d0e0ef930dd2431a8b703fe744f1fd5388f6d42be91535fbbe718d60e82f87da",
+      "bytes": 16613
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/REPRODUCTION/render_figures.py",
+      "sha256": "568bfbbcf10ac6c9124fdda732fc4386e28b0628dfa23402aa149acf6582de52",
+      "bytes": 14096
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/REPRODUCTION/run_extraction.py",
+      "sha256": "dae63374ab91e148e751237a8fa8781b7b7bfdf6d9fa7bbf73ff4b5c43646f91",
+      "bytes": 17394
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/RESULT.md",
+      "sha256": "4f0fa4fcfce47471a47dc7e9fdb2633787421247456a7e4226ae4d688175dd38",
+      "bytes": 2446
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/SEPARATOR_PROVENANCE.json",
+      "sha256": "21459c9840be8b78ba18bf36a4330d4501f35b48cc46083031fc2ffe5529f751",
+      "bytes": 829
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/STEM_DEDUP_CLUSTERS.json",
+      "sha256": "751bee2309e50f83297ca654d6d19ef30fe35a1f34fa24f6cd1886ed464a0dbb",
+      "bytes": 2298449
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/STEM_EVENTS.json",
+      "sha256": "5ff30c6eb2be94aeb19ffd32cd3f085fddfd9f398b0ef069df1d7e94a460f7cf",
+      "bytes": 1450356
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/STORAGE_AUTHORIZATION.json",
+      "sha256": "ba18bb513d3bde84ab1e34a970378da162167cb402e546d15636c0a690589158",
+      "bytes": 765
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/SUMMARY.json",
+      "sha256": "fa1725a6ee46544a67039d164c7ac4c2ad6ffc44647d1b15dd6fe9e519ab4964",
+      "bytes": 6036
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-001-20260929/VALIDATION.json",
+      "sha256": "715aae5f5bbf1620c6aa062b6fb9ece5c830fba20fe2cecea8059246a02de852",
+      "bytes": 3614
+    }
+  ],
+  "figures": [
+    "AMBIGUITY_DENSITY_T1.png",
+    "ARM_DENSITY_COMPARISON.png",
+    "COVERAGE_MAP.png",
+    "CROSSINGS_T1.png",
+    "DELTA_TIME_FAMILY.png",
+    "DELTA_TIME_T1.png",
+    "EVENT_RATE_BOTH_ARMS.png",
+    "PITCH_CENTS_T1.png",
+    "PITCH_HZ_T1.png",
+    "RESIDUAL_WAVEFORM.png",
+    "SEGMENT_BOUNDARY_OVERLAY.png",
+    "STATE_COMPOSITION_BOTH_ARMS.png",
+    "STATUS_COMPOSITION_T1.png"
+  ],
+  "reproduction_scripts": [
+    "analyze_match.py",
+    "export_family.py",
+    "producer.py",
+    "render_figures.py",
+    "run_extraction.py"
+  ],
+  "verdict": "ACCEPTED_BY_PI_WITH_RECORDED_DEVIATIONS"
+}
