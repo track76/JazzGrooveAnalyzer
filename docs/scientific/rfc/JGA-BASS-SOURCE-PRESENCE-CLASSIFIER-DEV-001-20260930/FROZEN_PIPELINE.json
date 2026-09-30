@@ -1,0 +1,322 @@
+{
+  "task_id": "JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930",
+  "frozen_at_utc": "2026-09-30T09:25:08+00:00",
+  "status": "FROZEN_DEVELOPMENT_ONLY_NOT_SCIENTIFICALLY_VALIDATED",
+  "training_data": {
+    "source": "BASS_CONSENSUS_DEVELOPMENT.json",
+    "development_total": 40,
+    "supervised_eligible_used": 32,
+    "excluded_human_unstable": 8,
+    "present": 12,
+    "absent": 20,
+    "held_out_rows_used": 0,
+    "held_out_human_answers_accessed": false
+  },
+  "target": {
+    "positive_class": "BASS_PRESENT_STABLE",
+    "negative_class": "BASS_ABSENT_STABLE",
+    "meaning": "Does the target FullMix landmark contain a perceptually reproducible Bass attack?",
+    "does_not_mean": [
+      "structural quarter note",
+      "walking quarter",
+      "beat",
+      "PLP ownership",
+      "microtiming"
+    ]
+  },
+  "model": {
+    "family": "L2-regularized logistic regression, balanced class weights",
+    "features": [
+      "peak_prominence"
+    ],
+    "hyperparameters": {
+      "penalty": "l2",
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 20000,
+      "solver": "lbfgs"
+    },
+    "preprocessing": {
+      "imputation": "features are complete on all 32 eligible rows; median retained as the declared fallback",
+      "scaling": "StandardScaler fitted on the 32 development rows, then frozen",
+      "feature_selection": "NONE at run time; the feature list is fixed in this record",
+      "threshold_selection": "inner 4-fold stratified CV on the 32 development rows only; this is the procedure that produced model.decision_threshold. It is NOT the in_fold_threshold_mode field, which only describes the CV procedure."
+    },
+    "decision_threshold": 0.5,
+    "decision_rule": "BASS_PRESENT if score >= decision_threshold else BASS_ABSENT",
+    "frozen_scaler_mean": [
+      40.949522853388416
+    ],
+    "frozen_scaler_scale": [
+      50.50390234921561
+    ],
+    "frozen_coefficients": [
+      -1.7200686086352484
+    ],
+    "frozen_intercept": -0.49553624847010386
+  },
+  "outputs": [
+    "BASS_PRESENT probability",
+    "binary predicted class"
+  ],
+  "uncertainty_output": "NOT PROVIDED. With n=32 these scores are uncalibrated margins and must NOT be read as confidence.",
+  "seed": 20260930,
+  "software": {
+    "python": "3.13.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "scikit_learn": "1.9.0"
+  },
+  "development_cross_validation": {
+    "balanced_accuracy": 0.7908333333333333,
+    "sensitivity": 0.9166666666666666,
+    "specificity": 0.665,
+    "precision": 0.6214689265536724,
+    "f1": 0.7407407407407408,
+    "confusion": {
+      "tn": 133,
+      "fp": 67,
+      "fn": 10,
+      "tp": 110
+    },
+    "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.55,
+    "n_features": 1,
+    "in_fold_threshold_distribution": {
+      "0.45": 1,
+      "0.50": 18,
+      "0.55": 20,
+      "0.60": 11
+    }
+  },
+  "threshold_documentation": {
+    "operative_frozen_decision_threshold": 0.5,
+    "operative_derivation": "The preregistered inner-threshold procedure (stratified 4-fold CV on the training rows, out-of-fold scores, grid 0.05..0.95 maximising balanced accuracy) applied to ALL 32 supervised-eligible development rows.",
+    "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.55,
+    "in_fold_threshold_distribution_across_50_outer_folds": {
+      "0.45": 1,
+      "0.50": 18,
+      "0.55": 20,
+      "0.60": 11
+    },
+    "in_fold_threshold_observed_range": [
+      0.45,
+      0.6
+    ],
+    "what_the_mode_is": "The mode is the most common threshold among the 50 OUTER-FOLD training fits (each on about 25-26 rows). It characterises the cross-validation procedure, NOT the frozen model.",
+    "why_they_differ": "The mode aggregates 50 subsample fits; the frozen threshold comes from one application of the same procedure to all 32 rows. These are different quantities and are not required to agree.",
+    "non_operative": true,
+    "prohibition": "The in-fold mode is NON-OPERATIVE. predict_bass.py MUST NOT use it. The only operative threshold is model.decision_threshold = 0.50.",
+    "tuning_prohibition": "The in-fold mode was observed to score HIGHER development cross-validated balanced accuracy (0.8200) than the frozen 0.50 (0.7908). This was NOT acted on: substituting it would be tuning on development cross-validation. The observed 0.45-0.60 spread shows the difference lies within the noise of the threshold-selection procedure at n=32.",
+    "stability_caveat": "The outer-fold spread independently corroborates the recorded HIGH overfitting risk at n=32.",
+    "documentation_correction": "Corrected 2026-09-30 under PI-BASS-FROZEN-THRESHOLD-DOC-CORRECTION-20260930. The field previously named 'threshold_mode' was renamed to 'in_fold_threshold_mode_NOT_the_frozen_threshold' and this block was added. No scientific value, model parameter or performance result was changed."
+  },
+  "candidate_family_results": {
+    "logreg_single_peak_prominence_C1": {
+      "balanced_accuracy": 0.7908333333333333,
+      "sensitivity": 0.9166666666666666,
+      "specificity": 0.665,
+      "precision": 0.6214689265536724,
+      "f1": 0.7407407407407408,
+      "confusion": {
+        "tn": 133,
+        "fp": 67,
+        "fn": 10,
+        "tp": 110
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.55,
+      "n_features": 1,
+      "in_fold_threshold_distribution": {
+        "0.45": 1,
+        "0.50": 18,
+        "0.55": 20,
+        "0.60": 11
+      }
+    },
+    "logreg16_C0.05": {
+      "balanced_accuracy": 0.6499999999999999,
+      "sensitivity": 0.725,
+      "specificity": 0.575,
+      "precision": 0.5058139534883721,
+      "f1": 0.595890410958904,
+      "confusion": {
+        "tn": 115,
+        "fp": 85,
+        "fn": 33,
+        "tp": 87
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.5,
+      "n_features": 16
+    },
+    "logreg16_C0.1": {
+      "balanced_accuracy": 0.6283333333333333,
+      "sensitivity": 0.6666666666666666,
+      "specificity": 0.59,
+      "precision": 0.49382716049382713,
+      "f1": 0.5673758865248227,
+      "confusion": {
+        "tn": 118,
+        "fp": 82,
+        "fn": 40,
+        "tp": 80
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.45,
+      "n_features": 16
+    },
+    "logreg16_C0.25": {
+      "balanced_accuracy": 0.6491666666666667,
+      "sensitivity": 0.6833333333333333,
+      "specificity": 0.615,
+      "precision": 0.5157232704402516,
+      "f1": 0.5878136200716846,
+      "confusion": {
+        "tn": 123,
+        "fp": 77,
+        "fn": 38,
+        "tp": 82
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.45,
+      "n_features": 16
+    },
+    "logreg16_C0.5": {
+      "balanced_accuracy": 0.6725,
+      "sensitivity": 0.725,
+      "specificity": 0.62,
+      "precision": 0.5337423312883436,
+      "f1": 0.6148409893992932,
+      "confusion": {
+        "tn": 124,
+        "fp": 76,
+        "fn": 33,
+        "tp": 87
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.35,
+      "n_features": 16
+    },
+    "logreg16_C1": {
+      "balanced_accuracy": 0.6883333333333334,
+      "sensitivity": 0.8166666666666667,
+      "specificity": 0.56,
+      "precision": 0.5268817204301075,
+      "f1": 0.6405228758169935,
+      "confusion": {
+        "tn": 112,
+        "fp": 88,
+        "fn": 22,
+        "tp": 98
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.1,
+      "n_features": 16
+    },
+    "logreg16_C2": {
+      "balanced_accuracy": 0.665,
+      "sensitivity": 0.8,
+      "specificity": 0.53,
+      "precision": 0.5052631578947369,
+      "f1": 0.6193548387096774,
+      "confusion": {
+        "tn": 106,
+        "fp": 94,
+        "fn": 24,
+        "tp": 96
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.05,
+      "n_features": 16
+    },
+    "tree16_depth2": {
+      "balanced_accuracy": 0.6783333333333332,
+      "sensitivity": 0.5416666666666666,
+      "specificity": 0.815,
+      "precision": 0.6372549019607843,
+      "f1": 0.5855855855855856,
+      "confusion": {
+        "tn": 163,
+        "fp": 37,
+        "fn": 55,
+        "tp": 65
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.9,
+      "n_features": 16
+    },
+    "tree16_depth3": {
+      "balanced_accuracy": 0.76,
+      "sensitivity": 0.7,
+      "specificity": 0.82,
+      "precision": 0.7,
+      "f1": 0.7,
+      "confusion": {
+        "tn": 164,
+        "fp": 36,
+        "fn": 36,
+        "tp": 84
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.95,
+      "n_features": 16
+    },
+    "svc16_rbf_C0.5": {
+      "balanced_accuracy": 0.6241666666666666,
+      "sensitivity": 0.35833333333333334,
+      "specificity": 0.89,
+      "precision": 0.6615384615384615,
+      "f1": 0.4648648648648649,
+      "confusion": {
+        "tn": 178,
+        "fp": 22,
+        "fn": 77,
+        "tp": 43
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.05,
+      "n_features": 16
+    },
+    "svc16_rbf_C1": {
+      "balanced_accuracy": 0.5841666666666667,
+      "sensitivity": 0.30833333333333335,
+      "specificity": 0.86,
+      "precision": 0.5692307692307692,
+      "f1": 0.4,
+      "confusion": {
+        "tn": 172,
+        "fp": 28,
+        "fn": 83,
+        "tp": 37
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.1,
+      "n_features": 16
+    }
+  },
+  "single_feature_reference_sweep": {
+    "centroid_hz": 0.4625,
+    "rolloff85_hz": 0.5104166666666667,
+    "bandwidth_hz": 0.4625,
+    "zcr": 0.4625,
+    "flatness_magnitude": 0.5520833333333333,
+    "subband_energy_share_0": 0.48125,
+    "subband_energy_share_1": 0.63125,
+    "subband_energy_share_2": 0.38125,
+    "subband_energy_share_3": 0.73125,
+    "subband_energy_share_4": 0.47291666666666665,
+    "subband_energy_share_5": 0.4458333333333333,
+    "subband_energy_cv": 0.45416666666666666,
+    "spectral_flux": 0.6270833333333333,
+    "peak_prominence": 0.80625,
+    "post_event_energy": 0.46875,
+    "post_event_decay": 0.47291666666666665
+  },
+  "in_sample_metrics_NOT_performance": {
+    "balanced_accuracy": 0.825,
+    "sensitivity": 1.0,
+    "specificity": 0.65,
+    "precision": 0.631578947368421,
+    "f1": 0.7741935483870968,
+    "confusion": {
+      "tn": 13,
+      "fp": 7,
+      "fn": 0,
+      "tp": 12
+    }
+  },
+  "post_freeze_rules": [
+    "No tuning of any kind based on held-out results is permitted.",
+    "Predictions for the 20 held-out landmarks must be computed and frozen BEFORE the held-out human labels are opened.",
+    "Human-unstable held-out cases must be reported separately, not counted as binary errors."
+  ]
+}

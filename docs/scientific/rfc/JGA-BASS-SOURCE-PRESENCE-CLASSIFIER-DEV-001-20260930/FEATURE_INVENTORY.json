@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "task_id": "JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930",
+  "feature_schema": "COMMON_FULLMIX_TRANSFERABLE_V1",
+  "availability_on_32_supervised_eligible_development_rows": {
+    "centroid_hz": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "rolloff85_hz": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "bandwidth_hz": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 26,
+      "frozen": false
+    },
+    "zcr": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 27,
+      "frozen": false
+    },
+    "flatness_magnitude": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "subband_energy_share_0": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "subband_energy_share_1": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "subband_energy_share_2": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "subband_energy_share_3": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "subband_energy_share_4": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "subband_energy_share_5": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "subband_energy_cv": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "spectral_flux": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "peak_prominence": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": true
+    },
+    "post_event_energy": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    },
+    "post_event_decay": {
+      "available": 32,
+      "missing": 0,
+      "distinct": 32,
+      "frozen": false
+    }
+  },
+  "available_fullmix_lowband_descriptors_not_frozen": {
+    "low_band_f0_hz": {
+      "available": 32
+    },
+    "voiced_probability": {
+      "available": 32
+    },
+    "harmonic_magnitude_sum": {
+      "available": 32
+    },
+    "harmonic_count": {
+      "available": 32,
+      "distinct": 1,
+      "zero_variance": true
+    },
+    "pitch_continuity_delta_hz": {
+      "available": 32
+    },
+    "low_register_flag": {
+      "available": 32,
+      "redundant_with": "low_band_f0_hz <= 50 Hz"
+    },
+    "pitch_continuity_status": {
+      "available": 32,
+      "distinct": 1,
+      "zero_variance": true
+    },
+    "decision": "All four numeric low-band descriptors were evaluated in a separate 20-feature feature set. That set performed WORSE (balanced accuracy 0.7333 versus 0.7642 for the source-neutral set under the same pre-scaling protocol), so the source-neutral set was kept. They are FullMix-derived, not stem-derived, so they were not excluded on leakage grounds."
+  },
+  "excluded_for_leakage_or_prohibition": {
+    "multi_stem_witness.*": "STEM-DERIVED (Demucs). Excluded entirely; never predictor, never Ground Truth.",
+    "witness_active_stems / witness_active_count / multi_source_ambiguity_state": "STEM-DERIVED. Excluded.",
+    "candidate_arms / arm_populated_arms / arm_membership_basis": "Method L selection state. Prohibited. Excluded.",
+    "timestamp_s / native_sample / frame_index": "Absolute track time and musical position. Prohibited. Excluded.",
+    "coordinate_authority / coordinate_convention": "Identity metadata, not features. Excluded.",
+    "event_id": "Join key only. Never a predictor.",
+    "pitch_continuity_status": "Constant on all 32 eligible rows. Zero variance.",
+    "harmonic_count": "Constant on all 32 eligible rows. Zero variance.",
+    "low_register_flag": "Deterministic function of low_band_f0_hz. Redundant.",
+    "PLP distance / PLP phase / quarter number / measure number / Method L/G / human tap timing / off-beat / distance to subsequent candidate / 69.7 ms observation / 100 ms count / Demucs top source / held-out human answer": "Explicitly prohibited by the PI. None is present in the Phase A feature matrix; none was computed, read or used."
+  },
+  "feature_provenance_audit": {
+    "method": "Each candidate was traced to its extractor call and to the fields of the Phase A table.",
+    "upstream_task_predates_human_labels": true,
+    "upstream_task_date": "2026-09-29",
+    "human_bass_labels_date": "2026-09-30",
+    "argument": "The Phase A feature table was produced the day BEFORE the human Bass labels existed, so no feature could have been created using them, the Bass-vs-not-Bass outcome, or any held-out information.",
+    "extractor_asserts_prohibitions_at_runtime": true,
+    "extractor_prohibition_assertion": "REPRODUCTION/producer.py states: 'Prohibited by PI decision and asserted at runtime: PLP, Method L, quarter/measure' and its excluded list matches the schema.",
+    "grep_of_extractor_for_label_tokens": {
+      "BASS_PRESENT": 0,
+      "BASS_ABSENT": 0,
+      "HUMAN": 0,
+      "UNSTABLE": 0,
+      "SEALED": 0,
+      "HELD_OUT": 0,
+      "held_out": 0,
+      "plp": 0,
+      "method_l": 0
+    },
+    "plp_quarter_measure_mentions_are_exclusions_only": true
+  },
+  "frozen_feature": {
+    "name": "peak_prominence",
+    "definition": "scipy find_peaks prominence at the candidate frame (FullMix).",
+    "source_neutral": true,
+    "stem_derived": false,
+    "encodes_musical_position": false,
+    "uses_plp": false,
+    "uses_timing_offset": false,
+    "uses_candidate_relative_distance": false
+  }
+}

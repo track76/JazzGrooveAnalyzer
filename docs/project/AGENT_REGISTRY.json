@@ -108,23 +108,56 @@
       "role": "primary experimental engineer",
       "allowed_modes": [
         "PRIMARY_EXPERIMENTAL_ENGINEER",
-        "EXPERIMENTAL_ENGINEER"
+        "EXPERIMENTAL_ENGINEER",
+        "AUTHORIZED_WRITER"
       ],
-      "current_mode": "EXPERIMENTAL_ENGINEER",
+      "current_mode": "AUTHORIZED_WRITER",
       "write_authority_status": "AUTHORIZED_FOR_CURRENT_TASK",
-      "current_task": "JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929",
-      "current_status": "AUTHORIZED_CLOSURE_METADATA_ONLY",
-      "last_authority_sync": "2026-09-29T07:55:48.791713+00:00",
+      "current_task": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+      "current_status": "AUTHORIZED_REMOTE_FREEZE",
+      "last_authority_sync": "2026-09-30T08:58:48+00:00",
       "last_known_branch": "scientific/translation-layer-finalization",
-      "last_known_HEAD": "e8ea9ec5f1ccf108b78228fbf7a29bb8bfe510c6",
+      "last_known_HEAD": "7d3e3b991ca703c9014b64120384eaf27b20e1ad",
       "current_embargo_restrictions": [
-        "PI task restriction: no Method-P work/results, future Method-P artifacts, or cross-method conclusions",
-        "PI task restriction: no PLP, no Global, no quarter files, no Human annotation, no Method-P/D results"
+        "Held-out experiment NOT authorized",
+        "Held-out human labels must never be opened, inferred or reconstructed",
+        "Do NOT perform or record the held-out-unstable set-difference derivation",
+        "decision_threshold 0.50 operative; 0.55 in-fold mode NON-OPERATIVE",
+        "Frozen scientific bytes must remain identical; regeneration requires PI override token"
       ],
       "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
-      "notes": "Task-scoped writer authority for JGA-BASS-FULLMIX-VS-STEM-NOTE-EVIDENCE-CLOSURE-001-20260929 under PI-BASS-FULLMIX-VS-STEM-CLOSURE-20260929. GOVERNANCE/METADATA/PACKAGE CLOSURE ONLY: no scientific rerun, no change to scientific bytes. Includes repair of the canonical EXTERNAL_ARTIFACT_MANIFEST.json schema regression introduced at the previous task closure (DEV-7). Authority returns to NOT_GRANTED and the lease is released at closure.",
+      "notes": "Sealing task. PI approved Option A: the frozen stability rule is superseded by an append-only record, not rewritten. LABEL_RULE_FROZEN.json stays byte-identical. seal_bass.py implements the new derived rule, preserves raw two-pass evidence including item 21 UNRESOLVED/OTHER -> YES, and carries locator, reliability and temporal qualification provenance. Pre-seal HD copies must verify against the PI-authorized hashes before any SSD redaction.",
       "last_interrupted_task": "JGA-FROZEN-CANDIDATES-DIRECT-GRID-001-20260928",
-      "active_branch": "scientific/translation-layer-finalization"
+      "active_branch": "scientific/translation-layer-finalization",
+      "closed_task": "JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929",
+      "closure_note": "Phase A governance closure complete; scientific validation PASS 16/16; baseline resync authorized by PI under JGA-GOVERNANCE-RESYNC-TOOLING-REVIEW-001-20260929",
+      "last_embargo_restrictions": [],
+      "last_completed_task": null,
+      "write_paths": [
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/FEATURE_INVENTORY.json",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/FROZEN_PIPELINE.json",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/INPUT_PROVENANCE.json",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPORT.md",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/VALIDATION.json",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/SHA256SUMS",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/predict_bass.py",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/test_predict_bass.py",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/train_bass_classifier.py",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/score_bass_heldout.py",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/test_hardening.py",
+        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/rehearse_freeze_sequence.py",
+        "docs/scientific/rfc/JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930/FIREWALL_POLICY.json",
+        "docs/scientific/rfc/JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930/HELD_OUT_SCORING_PREREGISTRATION.json",
+        "docs/scientific/rfc/JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930/PREDICTION_FREEZE_SEQUENCE.json",
+        "docs/scientific/rfc/JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930/HARDENING_REPORT.md",
+        "docs/project/BASS_FREEZE_ANCHOR_20260930.json",
+        "docs/project/BASS_PHASE_A_INPUT_DEPENDENCY_20260930.json",
+        "docs/project/PI_DECISION_LOG.jsonl",
+        "docs/project/AGENT_WORK_LEDGER.jsonl",
+        "docs/project/AGENT_REGISTRY.json"
+      ],
+      "authority_granted_at": "2026-09-30T12:44:06+00:00",
+      "authority_scope": "documentation/metadata clarification only; no scientific change"
     }
   ],
   "mode_catalog": [

@@ -1,0 +1,37 @@
+{
+  "record_type": "PHASE_A_INPUT_DEPENDENCY",
+  "task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+  "pi_authorization": "PI-BASS-PRE-HELD-OUT-REMOTE-FREEZE-20260930",
+  "created_utc": "2026-09-30T12:44:34+00:00",
+  "purpose": "Preserve the Phase-A provenance dependency of the frozen Bass classifier BY HASH, so the remote freeze does NOT need to stage the untracked Phase-A package.",
+  "phase_a_package_git_tracked": false,
+  "phase_a_package_committed_by_this_task": false,
+  "phase_a_additional_files_staged": 0,
+  "audit_method": "Python sys.addaudithook over the full frozen pipeline (predict_bass, train_bass_classifier guard, score_bass_heldout, rehearse_freeze_sequence and all 83 named tests).",
+  "phase_a_files_actually_read": [
+    {
+      "path": "docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/PHASE_A/SOURCE_EVIDENCE_TABLE.json",
+      "role": "the ONLY feature data read by predict_bass.score / load_phase_a",
+      "sha256": "d62496383577207498d1e8f9f481b16eb92500adced2630e95e70545e818316d",
+      "size_bytes": 2173832,
+      "pinned_by": "docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/SHA256SUMS",
+      "manifest_hash_matches_live_bytes": true
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/COMMON_FEATURE_SCHEMA.json",
+      "role": "source-neutral feature schema asserted by named test test_frozen_feature_is_source_neutral",
+      "sha256": "01aa9859c99506dbdfa040e103e5df689e9881ffd633874418e44efe80d2f0bc",
+      "size_bytes": 3649,
+      "pinned_by": "docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/SHA256SUMS",
+      "manifest_hash_matches_live_bytes": true
+    }
+  ],
+  "phase_a_read_set_is_complete": true,
+  "conclusion": "The frozen pipeline reads exactly TWO Phase-A files. Both are already immutably pinned by the Phase-A package's own SHA256SUMS, and both recorded hashes match the live bytes. Sufficient immutable identity therefore exists, so remote reproducibility does NOT require staging the 2.1 MB feature table or any other Phase-A artifact.",
+  "caveat": "The pinning manifest docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/SHA256SUMS is itself untracked. Its content is reproduced above so this remote record carries the dependency independently of that manifest.",
+  "bound_freeze": {
+    "package_fingerprint_sha256": "fe82ba240c411f8da22191016abc3b3d24e778f01ce39712f75b137979b86cd1",
+    "freeze_anchor": "docs/project/BASS_FREEZE_ANCHOR_20260930.json",
+    "note": "Staging a Phase-A file was NOT required; scope was not broadened."
+  }
+}

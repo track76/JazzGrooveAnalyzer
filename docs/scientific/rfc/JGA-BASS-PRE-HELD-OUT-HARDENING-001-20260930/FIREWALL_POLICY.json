@@ -1,0 +1,100 @@
+{
+  "record_type": "HELD_OUT_OPERATIONAL_FIREWALL_POLICY",
+  "task_id": "JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930",
+  "pi_authorization": "PI-BASS-PRE-HELD-OUT-HARDENING-20260930",
+  "status": "ACTIVE_BEFORE_PREDICTION_FREEZE",
+
+  "actual_condition_recorded_truthfully": {
+    "statement": "Held-out human labels exist in plaintext on the canonical HD archive. They are not physically inaccessible.",
+    "historical_plaintext_deleted_or_moved": false,
+    "deletion_refused_because": "Deleting or moving historical held-out plaintext purely to create the appearance of blindness would manufacture a false evidentiary condition. The real condition is recorded instead.",
+    "operational_consequence": "Blindness is enforced by PROCESS, not by physical absence: explicit prohibited paths, code-level access restriction, audited file-open behaviour, and prediction-before-reveal provenance.",
+    "verification_method": "Presence and size only (stat/stat) was used to establish which answer-bearing artifacts exist. NO answer-bearing file content was opened, read, parsed or inferred during this task."
+  },
+
+  "prohibited_answer_bearing_paths": {
+    "note": "Every path below was confirmed to exist on disk by stat. These are the REAL files, not placeholder names. Tests fail if this list drifts away from disk.",
+    "hd_mirror": [
+      "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/SEALED_BASS_HELD_OUT_LABELS.json",
+      "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_CONSENSUS_ALL60_SEALED.json",
+      "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/PRE_SEAL_RECORDS/",
+      "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_PASS_1_LABELS.json",
+      "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_PASS_2_LABELS.json",
+      "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_HELD_OUT_SEAL.json"
+    ],
+    "ssd_original": [
+      "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_PASS_1_LABELS.json",
+      "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_PASS_2_LABELS.json",
+      "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_HELD_OUT_SEAL.json"
+    ],
+    "absent_from_ssd_original_confirmed": [
+      "SEALED_BASS_HELD_OUT_LABELS.json",
+      "BASS_CONSENSUS_ALL60_SEALED.json",
+      "PRE_SEAL_RECORDS/"
+    ]
+  },
+
+  "authorized_label_free_inputs_for_prediction": [
+    {
+      "path": "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/FROZEN_PIPELINE.json",
+      "role": "frozen classifier record"
+    },
+    {
+      "path": "docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/PHASE_A/SOURCE_EVIDENCE_TABLE.json",
+      "role": "label-free feature table"
+    },
+    {
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/SEALED_ITEM_EVENT_MAP.json",
+      "role": "MEMBERSHIP ONLY; no stable class, no answer"
+    }
+  ],
+
+  "authorized_after_reveal_only": [
+    "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/SEALED_BASS_HELD_OUT_LABELS.json"
+  ],
+
+  "development_label_source": "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_CONSENSUS_DEVELOPMENT.json",
+
+  "predictor_file_access_audit": {
+    "method": "Python sys.addaudithook tracing every 'open' audit event, including io/Path mechanisms that bypass builtins.open.",
+    "inputs": "SYNTHETIC feature records and one confirmed DEVELOPMENT item. No held-out identifier used.",
+    "observed_access_set": [
+      "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/FROZEN_PIPELINE.json",
+      "docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/PHASE_A/SOURCE_EVIDENCE_TABLE.json",
+      "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/SEALED_ITEM_EVENT_MAP.json"
+    ],
+    "answer_bearing_artifacts_opened": "NONE",
+    "scoring_purity": "score() performs NO file access once the spec is in memory.",
+    "verdict": "PASS"
+  },
+
+  "held_out_unstable_membership_blindness": {
+    "classification": "PARTIALLY_COMPROMISED",
+    "public_fact": "The global set of 10 human-unstable item numbers is public.",
+    "readable_fact": "The 8 development-unstable identities are readable from the authorized development label source.",
+    "logical_consequence": "The two held-out-unstable identities are logically derivable by set difference.",
+    "derivation_performed_by_this_task": false,
+    "derivation_recorded_by_this_task": false,
+    "held_out_item_numbers_identified_by_this_task": false,
+    "qualification_required_on_future_reporting": "This condition does NOT reveal the stable held-out YES/NO answers, and it does NOT affect binary scoring: human-unstable held-out cases are already excluded from binary scoring by the preregistered methodology.",
+    "split_redesigned": false,
+    "split_redesign_note": "The 40/20 split is NOT redesigned. The split was sealed before the classifier existed."
+  },
+
+  "backup_tool_gap": {
+    "finding": "tools/continuous_backup.py has no label/sealed-file exclusion.",
+    "consequence": "Mirror contents are not a secrecy boundary and must never be treated as one.",
+    "remediation_in_this_task": "None. Deleting mirror orphans is forbidden by the authority document, and rewriting the shared backup tool is outside this task's scope.",
+    "escalated_to_pi": true
+  },
+
+  "enforcement_layers": [
+    "1. Explicit prohibited-path list bound to real on-disk artifacts.",
+    "2. Runtime audit-hook test that fails if pre-reveal scoring opens any prohibited path.",
+    "3. Anti-vacuity test that fails if the prohibited list stops matching disk.",
+    "4. Static AST check that no answer-bearing filename appears in executable code (docstrings excluded).",
+    "5. Prediction artifact must not carry any label field; scoring rejects it otherwise.",
+    "6. Prediction artifact hashed and externally backed BEFORE reveal authorization.",
+    "7. Reveal and scoring are separate, individually authorized, ordered gates."
+  ]
+}

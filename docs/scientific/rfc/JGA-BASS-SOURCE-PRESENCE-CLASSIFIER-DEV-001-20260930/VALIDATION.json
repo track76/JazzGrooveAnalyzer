@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "task_id": "JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930",
+  "pi_authorization": "PI-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-20260930",
+  "validated_at": "2026-09-30T09:26:24+00:00",
+  "stage": "DEVELOPMENT_ONLY_PIPELINE_FROZEN",
+  "result": "PASS_WITH_SUBSTANTIVE_QUALIFICATIONS",
+  "passed": 28,
+  "total": 28,
+  "development_data": {
+    "development_total": 40,
+    "development_stable_present": 12,
+    "development_stable_absent": 20,
+    "development_human_unstable_excluded": 8,
+    "supervised_eligible_used": 32,
+    "important": "The supervised-eligible development set is 32, NOT 40. The PI's instruction not to assume all 40 development landmarks are eligible was correct: 8 are human-unstable.",
+    "identities_of_the_development_unstable_items_are_withheld": true,
+    "withholding_reason": "The 10 unstable item numbers are public. Publishing which 8 fall in development would let a later step derive the identities of the 2 unstable items inside the held-out set, which the PI required be kept unrevealed during development."
+  },
+  "held_out_firewall": {
+    "human_answers_accessed": false,
+    "predictions_made": 0,
+    "labels_opened": 0,
+    "files_never_opened": [
+      "SEALED_BASS_HELD_OUT_LABELS.json",
+      "BASS_CONSENSUS_ALL60_SEALED.json",
+      "PRE_SEAL_RECORDS/"
+    ],
+    "membership_use": "exclusion of held-out rows from development only"
+  },
+  "validation_design": {
+    "method": "repeated stratified k-fold cross-validation with a nested inner loop",
+    "outer": "StratifiedKFold n_splits=5, n_repeats=10 => 50 outer evaluations",
+    "inner": "StratifiedKFold n_splits=4 on the training portion only, used to choose the decision threshold",
+    "inside_every_training_fold": [
+      "median imputation",
+      "StandardScaler",
+      "zero-variance filtering",
+      "hyperparameter selection",
+      "decision-threshold selection"
+    ],
+    "never_inside_a_training_fold": [
+      "any statistic derived from the validation fold"
+    ],
+    "correction_made": "An earlier pass selected the threshold using the validation fold's own labels, which leaks each evaluation observation into its own prediction and inflated balanced accuracy to 0.8842 (single feature) and 0.8625 (16-feature). Both figures were WITHDRAWN. Every number reported here comes from the corrected protocol.",
+    "second_correction_made": "An earlier pass fitted on RAW features, so L2 shrinkage acted per-unit across features spanning 0.01 to 224549. Scaling is now fitted inside each training fold, as the PI required. This materially changed the ranking and is why the single-feature model wins."
+  },
+  "threshold_documentation": {
+    "operative_frozen_decision_threshold": 0.5,
+    "operative_derivation": "The preregistered inner-threshold procedure (stratified 4-fold CV on the training rows, out-of-fold scores, grid 0.05..0.95 maximising balanced accuracy) applied to ALL 32 supervised-eligible development rows.",
+    "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.55,
+    "in_fold_threshold_distribution_across_50_outer_folds": {
+      "0.45": 1,
+      "0.50": 18,
+      "0.55": 20,
+      "0.60": 11
+    },
+    "in_fold_threshold_observed_range": [
+      0.45,
+      0.6
+    ],
+    "what_the_mode_is": "The mode is the most common threshold among the 50 OUTER-FOLD training fits (each on about 25-26 rows). It characterises the cross-validation procedure, NOT the frozen model.",
+    "why_they_differ": "The mode aggregates 50 subsample fits; the frozen threshold comes from one application of the same procedure to all 32 rows. These are different quantities and are not required to agree.",
+    "non_operative": true,
+    "prohibition": "The in-fold mode is NON-OPERATIVE. predict_bass.py MUST NOT use it. The only operative threshold is model.decision_threshold = 0.50.",
+    "tuning_prohibition": "The in-fold mode was observed to score HIGHER development cross-validated balanced accuracy (0.8200) than the frozen 0.50 (0.7908). This was NOT acted on: substituting it would be tuning on development cross-validation. The observed 0.45-0.60 spread shows the difference lies within the noise of the threshold-selection procedure at n=32.",
+    "stability_caveat": "The outer-fold spread independently corroborates the recorded HIGH overfitting risk at n=32.",
+    "documentation_correction": "Corrected 2026-09-30 under PI-BASS-FROZEN-THRESHOLD-DOC-CORRECTION-20260930. The field previously named 'threshold_mode' was renamed to 'in_fold_threshold_mode_NOT_the_frozen_threshold' and this block was added. No scientific value, model parameter or performance result was changed."
+  },
+  "baselines": {
+    "majority_class": {
+      "balanced_accuracy": 0.5,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "note": "predicts BASS_ABSENT for every row; 20 of 32 eligible development rows are absent"
+    },
+    "balanced_chance_reference": {
+      "mean_balanced_accuracy": 0.5042,
+      "draws": 200,
+      "note": "uniform random binary prediction, 200 draws"
+    },
+    "single_feature_reference_sweep": {
+      "centroid_hz": 0.4625,
+      "rolloff85_hz": 0.5104166666666667,
+      "bandwidth_hz": 0.4625,
+      "zcr": 0.4625,
+      "flatness_magnitude": 0.5520833333333333,
+      "subband_energy_share_0": 0.48125,
+      "subband_energy_share_1": 0.63125,
+      "subband_energy_share_2": 0.38125,
+      "subband_energy_share_3": 0.73125,
+      "subband_energy_share_4": 0.47291666666666665,
+      "subband_energy_share_5": 0.4458333333333333,
+      "subband_energy_cv": 0.45416666666666666,
+      "spectral_flux": 0.6270833333333333,
+      "peak_prominence": 0.80625,
+      "post_event_energy": 0.46875,
+      "post_event_decay": 0.47291666666666665
+    },
+    "single_feature_sweep_caveat": "This sweep ranks the 16 source-neutral descriptors. The frozen feature was the top of this sweep, so its own cross-validated figure carries a selection advantage. A nested estimate that re-picked the best descriptor inside each fold gave 0.7558 under the pre-scaling protocol, slightly BELOW the 16-feature model, so the honest reading is that the single descriptor and the 16-feature model are not clearly separable on 32 rows."
+  },
+  "model_candidates": {
+    "logreg_single_peak_prominence_C1": {
+      "balanced_accuracy": 0.7908333333333333,
+      "sensitivity": 0.9166666666666666,
+      "specificity": 0.665,
+      "precision": 0.6214689265536724,
+      "f1": 0.7407407407407408,
+      "confusion": {
+        "tn": 133,
+        "fp": 67,
+        "fn": 10,
+        "tp": 110
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.55,
+      "n_features": 1,
+      "in_fold_threshold_distribution": {
+        "0.45": 1,
+        "0.50": 18,
+        "0.55": 20,
+        "0.60": 11
+      }
+    },
+    "logreg16_C0.05": {
+      "balanced_accuracy": 0.6499999999999999,
+      "sensitivity": 0.725,
+      "specificity": 0.575,
+      "precision": 0.5058139534883721,
+      "f1": 0.595890410958904,
+      "confusion": {
+        "tn": 115,
+        "fp": 85,
+        "fn": 33,
+        "tp": 87
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.5,
+      "n_features": 16
+    },
+    "logreg16_C0.1": {
+      "balanced_accuracy": 0.6283333333333333,
+      "sensitivity": 0.6666666666666666,
+      "specificity": 0.59,
+      "precision": 0.49382716049382713,
+      "f1": 0.5673758865248227,
+      "confusion": {
+        "tn": 118,
+        "fp": 82,
+        "fn": 40,
+        "tp": 80
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.45,
+      "n_features": 16
+    },
+    "logreg16_C0.25": {
+      "balanced_accuracy": 0.6491666666666667,
+      "sensitivity": 0.6833333333333333,
+      "specificity": 0.615,
+      "precision": 0.5157232704402516,
+      "f1": 0.5878136200716846,
+      "confusion": {
+        "tn": 123,
+        "fp": 77,
+        "fn": 38,
+        "tp": 82
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.45,
+      "n_features": 16
+    },
+    "logreg16_C0.5": {
+      "balanced_accuracy": 0.6725,
+      "sensitivity": 0.725,
+      "specificity": 0.62,
+      "precision": 0.5337423312883436,
+      "f1": 0.6148409893992932,
+      "confusion": {
+        "tn": 124,
+        "fp": 76,
+        "fn": 33,
+        "tp": 87
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.35,
+      "n_features": 16
+    },
+    "logreg16_C1": {
+      "balanced_accuracy": 0.6883333333333334,
+      "sensitivity": 0.8166666666666667,
+      "specificity": 0.56,
+      "precision": 0.5268817204301075,
+      "f1": 0.6405228758169935,
+      "confusion": {
+        "tn": 112,
+        "fp": 88,
+        "fn": 22,
+        "tp": 98
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.1,
+      "n_features": 16
+    },
+    "logreg16_C2": {
+      "balanced_accuracy": 0.665,
+      "sensitivity": 0.8,
+      "specificity": 0.53,
+      "precision": 0.5052631578947369,
+      "f1": 0.6193548387096774,
+      "confusion": {
+        "tn": 106,
+        "fp": 94,
+        "fn": 24,
+        "tp": 96
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.05,
+      "n_features": 16
+    },
+    "tree16_depth2": {
+      "balanced_accuracy": 0.6783333333333332,
+      "sensitivity": 0.5416666666666666,
+      "specificity": 0.815,
+      "precision": 0.6372549019607843,
+      "f1": 0.5855855855855856,
+      "confusion": {
+        "tn": 163,
+        "fp": 37,
+        "fn": 55,
+        "tp": 65
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.9,
+      "n_features": 16
+    },
+    "tree16_depth3": {
+      "balanced_accuracy": 0.76,
+      "sensitivity": 0.7,
+      "specificity": 0.82,
+      "precision": 0.7,
+      "f1": 0.7,
+      "confusion": {
+        "tn": 164,
+        "fp": 36,
+        "fn": 36,
+        "tp": 84
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.95,
+      "n_features": 16
+    },
+    "svc16_rbf_C0.5": {
+      "balanced_accuracy": 0.6241666666666666,
+      "sensitivity": 0.35833333333333334,
+      "specificity": 0.89,
+      "precision": 0.6615384615384615,
+      "f1": 0.4648648648648649,
+      "confusion": {
+        "tn": 178,
+        "fp": 22,
+        "fn": 77,
+        "tp": 43
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.05,
+      "n_features": 16
+    },
+    "svc16_rbf_C1": {
+      "balanced_accuracy": 0.5841666666666667,
+      "sensitivity": 0.30833333333333335,
+      "specificity": 0.86,
+      "precision": 0.5692307692307692,
+      "f1": 0.4,
+      "confusion": {
+        "tn": 172,
+        "fp": 28,
+        "fn": 83,
+        "tp": 37
+      },
+      "in_fold_threshold_mode_NOT_the_frozen_threshold": 0.1,
+      "n_features": 16
+    }
+  },
+  "selected_pipeline": {
+    "name": "L2-regularized logistic regression, balanced class weights",
+    "features": [
+      "peak_prominence"
+    ],
+    "hyperparameters": {
+      "penalty": "l2",
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 20000,
+      "solver": "lbfgs"
+    },
+    "decision_threshold": 0.5,
+    "why_selected": "Best honest nested-CV balanced accuracy of the preregistered candidate family, and the multi-feature alternatives scored worse, which is the expected signature of a sample too small to support 16 predictors.",
+    "no_deep_learning": true,
+    "no_large_model_search": true,
+    "candidate_family_size": 11,
+    "hyperparameter_values_per_family_member": 6,
+    "threshold_note": "decision_threshold = 0.50 is the operative frozen threshold. Any in_fold_threshold_mode_NOT_the_frozen_threshold value in model_candidates is a cross-fold mode of the CV procedure, is non-operative, and MUST NOT be used by predict_bass.py. See threshold_documentation."
+  },
+  "cross_validated_confusion_matrix": {
+    "orientation": "rows = human truth (ABSENT, PRESENT), columns = predicted",
+    "tn": 133,
+    "fp": 67,
+    "fn": 10,
+    "tp": 110,
+    "n_outer_predictions": 320,
+    "note": "Aggregated over 50 outer evaluations, so counts exceed 32."
+  },
+  "metrics": {
+    "balanced_accuracy": 0.7908333333333333,
+    "sensitivity_recall_bass_present": 0.9166666666666666,
+    "specificity_recall_bass_absent": 0.665,
+    "precision": 0.6214689265536724,
+    "f1": 0.7407407407407408,
+    "accuracy_alone_reported": false,
+    "uncertainty_statement": "Per-fold balanced accuracy had mean 0.7958 and sd 0.1432, range 0.4167 to 1.0000. These folds are NOT independent and n=32, so this is a descriptive spread only. No confidence interval and no significance claim is made."
+  },
+  "most_informative_features": {
+    "primary_frozen_feature": "peak_prominence",
+    "direction": "HIGHER peak_prominence is associated with BASS_ABSENT_STABLE",
+    "point_biserial_correlation_with_presence": -0.5092,
+    "next_ranked_source_neutral": [
+      "subband_energy_share_3",
+      "subband_energy_share_1",
+      "spectral_flux",
+      "flatness_magnitude"
+    ],
+    "coefficient_stability_of_the_16_feature_model": {
+      "sign_stable_features": "6 of 16",
+      "median_absolute_coefficient": 0.0038,
+      "largest_absolute_coefficient": 0.229,
+      "interpretation": "In the 16-feature model peak_prominence dominates by roughly 60x and most other coefficients flip sign across folds. The multivariate model is largely a peak_prominence model carrying unstable extra terms."
+    },
+    "causation_warning": "Association only. Correlation is NOT physical causation and no claim is made that spectral prominence causes a human to hear a Bass attack.",
+    "answer_to_the_PI_scientific_question": {
+      "question": "Are stable human YES and stable human NO distinguishable from FullMix features independently of PLP and stems?",
+      "answer": "YES, but modestly and from a single broadband descriptor.",
+      "detail": "A source-neutral FullMix descriptor separates the two stable classes at balanced accuracy 0.79 against a 0.50 majority baseline, with no PLP, no stem, no quarter/measure and no timing information. Discrimination is real but far from strong, and rests on one feature whose selection advantage cannot be ruled out at n=32."
+    }
+  },
+  "negative_examples": {
+    "pi_observation": "The PI observed many stable-NO targets that sounded off-beat or pre-articulation.",
+    "treatment": "NOT used. No timing feature, no candidate-relative distance, no 69.7 ms value and no 100 ms count entered the model. The distinction is left entirely to the acoustic descriptor.",
+    "result": "The descriptor does not cleanly separate the stable-NO class: specificity is 0.665, so roughly a third of stable-NO landmarks are predicted PRESENT. The off-beat-looking negatives are not trivially separable from FullMix spectral shape at this sample size."
+  },
+  "overfitting_risk": {
+    "assessment": "HIGH, and it materially constrained the design.",
+    "evidence": [
+      "32 supervised-eligible rows against 16 candidate predictors is 2.0 observations per predictor.",
+      "The 16-feature logistic scored 0.6883 while the single descriptor scored 0.7908: more features made it worse.",
+      "Adding FullMix low-band descriptors lowered balanced accuracy from 0.7642 to 0.7333 under the pre-scaling protocol.",
+      "Only 6 of 16 coefficients are sign-stable across folds.",
+      "The RBF SVM comparator fell to 0.5842-0.6242, at or below the chance reference, confirming the sample cannot support nonlinear capacity.",
+      "The learning curve was still rising at the largest training size, so the model is DATA-limited, not feature-limited."
+    ],
+    "consequence": "The frozen pipeline uses ONE feature. More landmarks, not more features, is the binding constraint.",
+    "leakage_risk": "Low. Source-neutral FullMix features only; upstream table predates the labels; no stem, PLP, timing or position field used."
+  },
+  "current_fullmix_features_show_bass_source_discrimination": "PARTIAL",
+  "discrimination_verdict": {
+    "PARTIAL_reasoning": "Discrimination above the majority baseline is real and reproducible, but sensitivity 0.917 against specificity 0.665 is a strongly asymmetric classifier, the margin over baseline is modest, per-fold spread is wide, and the single frozen feature carries an unquantifiable selection advantage. PARTIAL is the honest verdict, not YES."
+  },
+  "final_pipeline_frozen": true,
+  "frozen_components": [
+    "feature list",
+    "feature preprocessing",
+    "model family",
+    "hyperparameters",
+    "decision threshold",
+    "missing-value handling",
+    "software versions",
+    "random seeds"
+  ],
+  "held_out_predictions_made": false,
+  "held_out_labels_opened": false,
+  "plp_used": false,
+  "method_l_or_g_used": false,
+  "temporal_off_beat_rule_used": false,
+  "stem_derived_predictors_used": false,
+  "tests": {
+    "file": "REPRODUCTION/test_predict_bass.py",
+    "collected_by_name": 28,
+    "result": "PASS",
+    "coverage": [
+      "frozen record completeness",
+      "training-data discipline",
+      "held-out firewall by source inspection",
+      "predictor output schema",
+      "scoring determinism",
+      "prohibited-predictor absence"
+    ]
+  },
+  "scientific_promotion": false,
+  "classifier_scientifically_validated": false,
+  "next": "FROZEN HELD-OUT PREDICTION AND REVEAL (separately authorized)"
+}

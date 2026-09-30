@@ -1,0 +1,124 @@
+{
+  "record_type": "PRE_HELD_OUT_FREEZE_ANCHOR",
+  "task_id": "JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930",
+  "pi_authorization": "PI-BASS-PRE-HELD-OUT-HARDENING-20260930",
+  "purpose": "Canonical, externally backed anchor proving the frozen classifier package existed with these exact bytes BEFORE any held-out prediction or label reveal.",
+  "created_utc": "2026-09-30T11:04:49+00:00",
+  "git_head": "7d3e3b991ca703c9014b64120384eaf27b20e1ad",
+  "git_branch": "scientific/translation-layer-finalization",
+  "package_path": "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930",
+  "package_is_git_tracked": false,
+  "package_tracking_note": "The package is NOT committed. This anchor, not Git, is the historical anchor for the freeze. See COMMIT_BEFORE_HELD_OUT recommendation in HARDENING_REPORT.md.",
+  "file_count": 12,
+  "files": [
+    {
+      "path": "FEATURE_INVENTORY.json",
+      "size_bytes": 5735,
+      "sha256": "77c55cc9410a32a3660a8284d74c08cebd946528577a4ec141671482dba266d9"
+    },
+    {
+      "path": "FROZEN_PIPELINE.json",
+      "size_bytes": 10604,
+      "sha256": "2f1c86c6a7063baf66c23eee7bb9949e2cff4f53d7c76d258c86453a16c225a8"
+    },
+    {
+      "path": "INPUT_PROVENANCE.json",
+      "size_bytes": 3541,
+      "sha256": "0818cfc70632cff25a831619df9753b7e6ad724f78953f754e723ce92c9d276f"
+    },
+    {
+      "path": "REPORT.md",
+      "size_bytes": 11691,
+      "sha256": "c295c61c33bfea6fbff3e63ad81e2a38292ab020597edd31800e05e64969ec9e"
+    },
+    {
+      "path": "REPRODUCTION/predict_bass.py",
+      "size_bytes": 4112,
+      "sha256": "7592916144001700dc0df6bbb1015ba6bfaf52d30d69edc5d90712fb873a5c9a"
+    },
+    {
+      "path": "REPRODUCTION/rehearse_freeze_sequence.py",
+      "size_bytes": 8448,
+      "sha256": "8fe92a827b9dcf8c69712b6641466def9ad32f395d125fd637e4f2013233412e"
+    },
+    {
+      "path": "REPRODUCTION/score_bass_heldout.py",
+      "size_bytes": 8931,
+      "sha256": "66d3543c5dded74ecfb6f8b9b84322e83d6df0a575f2b110fbff97d0bf047ca3"
+    },
+    {
+      "path": "REPRODUCTION/test_hardening.py",
+      "size_bytes": 15268,
+      "sha256": "61a54989002248471f42553f104dd9e8f48aeefda42b1cf26b3fa6fdd795f6ac"
+    },
+    {
+      "path": "REPRODUCTION/test_predict_bass.py",
+      "size_bytes": 14856,
+      "sha256": "ab43a4113281d5cfa9aba7d78dd5677fb55a2064baf2ef9c2af6bf696fcf792d"
+    },
+    {
+      "path": "REPRODUCTION/train_bass_classifier.py",
+      "size_bytes": 20917,
+      "sha256": "d6fa1271e1fe35a92b587d7ecd782fcc9907b1b55137221c44d85576f9c1169d"
+    },
+    {
+      "path": "SHA256SUMS",
+      "size_bytes": 1026,
+      "sha256": "67b055dd56ca024e494e9a877ae6b73331c882640cdc4aa95dc5be1cc5dafa11"
+    },
+    {
+      "path": "VALIDATION.json",
+      "size_bytes": 17216,
+      "sha256": "e7cbc7fe1663e0eaf9b81b712e7a53aadee2e50e87e471bf5439f0b7eb259104"
+    }
+  ],
+  "package_fingerprint_sha256": "fe82ba240c411f8da22191016abc3b3d24e778f01ce39712f75b137979b86cd1",
+  "package_fingerprint_definition": "sha256 over the concatenation, in ascending path order, of '<path>\\0<size_bytes>\\0<sha256>\\n' for every file in the package. Deterministic and independently recomputable.",
+  "frozen_scientific_state": {
+    "features": [
+      "peak_prominence"
+    ],
+    "hyperparameters": {
+      "penalty": "l2",
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 20000,
+      "solver": "lbfgs"
+    },
+    "decision_threshold": 0.5,
+    "frozen_scaler_mean": [
+      40.949522853388416
+    ],
+    "frozen_scaler_scale": [
+      50.50390234921561
+    ],
+    "frozen_coefficients": [
+      -1.7200686086352484
+    ],
+    "frozen_intercept": -0.49553624847010386,
+    "frozen_at_utc": "2026-09-30T09:25:08+00:00"
+  },
+  "frozen_scientific_fingerprint_sha256": "6edfed06ef678da509bdfb8f711becc4bead22526739ce5f704eb3b63a79d721",
+  "self_verification_command": "shasum -c SHA256SUMS  (run inside the package); then recompute package_fingerprint_sha256 with the definition above.",
+  "STRENGTH_OF_EVIDENCE_HONEST_LIMITATION": {
+    "provides": "Tamper EVIDENCE. Any later divergence of the package from this anchor is detectable by recomputing the fingerprint.",
+    "does_not_provide": "Tamper PREVENTION and not cryptographic immutability. Both the working repository and the external mirror are ordinary writable filesystems. An actor with write access to BOTH could alter the package and the mirror together, so this anchor cannot defeat a coordinated rewrite.",
+    "explicitly_not_claimed": "This anchor is NOT a WORM/immutable store, NOT a signed commit, and NOT a notarized timestamp. No third-party timestamp authority or external notary is in use.",
+    "why_this_is_still_useful": "It moves the freeze from an unverifiable assertion to a dated, externally copied, independently recomputable fingerprint, and it is the minimum JGA governance provides. A Git commit would add an additional independent layer; see the commit recommendation.",
+    "git_is_unavailable_as_the_sole_anchor_because": "The 9+ package files and the 23 Phase A files are untracked, and SHA256SUMS cannot authenticate itself; neither Git nor the package manifest currently provides ordering evidence."
+  },
+  "external_backup": {
+    "required": true,
+    "tool": "tools/continuous_backup.py",
+    "verified": true,
+    "verified_utc": "2026-09-30T11:05:26+00:00",
+    "files": 13,
+    "anchor_sha256": "c69db7bb5ca4d7dfedebc1d292f57f1e85cab26572ab35c5901e1643de4bab46",
+    "mirror": "/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_CURRENT",
+    "mirror_matches_repo_byte_for_byte": true
+  },
+  "binding": "Any held-out prediction authorized later MUST first verify this fingerprint (PREDICTION_FREEZE_SEQUENCE step A) and MUST record this anchor's hash in the PREDICTION_FREEZE record (step G).",
+  "supersedes_fingerprint": "0d151561a8ce144a11ef47142e80021eb7f96ce5a6de08c2b2648b2d554da906",
+  "supersedes_reason": "Final re-anchor after regenerating SHA256SUMS to match final bytes. SHA256SUMS itself is covered by the anchor, so the two must be written in this order.",
+  "sha256sums_entries": 11
+}

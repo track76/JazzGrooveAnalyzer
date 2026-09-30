@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "task_id": "JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930",
+  "pi_authorization": "PI-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-20260930",
+  "stage": "DEVELOPMENT_ONLY_PIPELINE_FROZEN",
+  "label_source": {
+    "path": "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/BASS_CONSENSUS_DEVELOPMENT.json",
+    "role": "DEVELOPMENT human labels, 40 landmarks",
+    "sealed_authority": "PI-BASS-PRESENCE-60-STABILITY-RULE-SUPERSESSION-20260930",
+    "classes_used": [
+      "BASS_PRESENT_STABLE",
+      "BASS_ABSENT_STABLE"
+    ],
+    "class_excluded": "BASS_HUMAN_UNSTABLE (8 development landmarks, excluded not relabelled)"
+  },
+  "membership_source": {
+    "path": "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/SEALED_ITEM_EVENT_MAP.json",
+    "role": "item->event map and development/held-out MEMBERSHIP only",
+    "held_out_membership_used_for": "asserting every trained row is a development member",
+    "held_out_answers_read": false
+  },
+  "feature_source": {
+    "path": "docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/PHASE_A/SOURCE_EVIDENCE_TABLE.json",
+    "schema": "COMMON_FULLMIX_TRANSFERABLE_V1",
+    "upstream_task": "JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929",
+    "extractor": "REPRODUCTION/producer.py",
+    "audio": {
+      "path": "docs/scientific/rfc/JGA_NOTE_CONDITIONED_FULLMIX_20260924/inference/input/FULLMIX.wav",
+      "sha256": "c890658d8c8f67e0d295d7ab334712227c2c2c999283a1fdb5cf32e6af7a467f",
+      "read_only": true,
+      "copied": false,
+      "modified": false
+    },
+    "join": "all 40 development landmarks joined to Phase A rows on event_id; 0 missing"
+  },
+  "held_out_firewall": {
+    "statement": "No held-out human answer was read, inferred, reconstructed or used at any point.",
+    "files_never_opened": [
+      "SEALED_BASS_HELD_OUT_LABELS.json",
+      "BASS_CONSENSUS_ALL60_SEALED.json",
+      "PRE_SEAL_RECORDS/ (entire directory)",
+      "any HD plaintext containing held-out human answers"
+    ],
+    "backups_not_inspected_for_reconstruction": true,
+    "structural_guard": "REPRODUCTION/predict_bass.py is label-blind by construction and its source is asserted by named test to contain no human-label read.",
+    "held_out_predictions_made": 0,
+    "held_out_labels_opened": 0
+  },
+  "stem_evidence": {
+    "stem_audio_read": false,
+    "stem_witness_fields_used": false,
+    "demucs_top_source_used": false,
+    "statement": "Stem-derived evidence is excluded entirely. No stem value serves as predictor or as Ground Truth."
+  },
+  "prohibited_not_used": {
+    "plp": false,
+    "quarter": false,
+    "measure": false,
+    "method_l_or_g": false,
+    "human_tap_timing": false,
+    "off_beat_rule": false,
+    "temporal_69_7ms_observation": false,
+    "temporal_100ms_count": false,
+    "absolute_track_time": false,
+    "candidate_relative_distance": false
+  },
+  "storage": {
+    "new_persistent_namespace_required": false,
+    "rationale": "The frozen pipeline is a small JSON record. No audio copied, no array artifacts. Features are recomputed from the already-registered Phase A table.",
+    "ssd_path": null,
+    "hd_path": null,
+    "human_annotation_namespace_reused": false,
+    "reading_of_PI_storage_gate": "A 'persistent namespace' is read as a new SSD/HD experiment volume subject to the existing size allowances, not the canonical repository record directory. Flagged to the PI for confirmation."
+  },
+  "scientific_promotion": false,
+  "commit": false,
+  "push": false
+}

@@ -1,0 +1,84 @@
+{
+  "record_type": "HELD_OUT_SCORING_PREREGISTRATION",
+  "task_id": "JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930",
+  "pi_authorization": "PI-BASS-PRE-HELD-OUT-HARDENING-20260930",
+  "status": "PREREGISTERED_BEFORE_ANY_HELD_OUT_PREDICTION_OR_REVEAL",
+  "adopts": "Agent A methodology proposal from JGA-BASS-HELDOUT-READINESS-REVIEW-001-20260930",
+  "frozen_scoring_implementation": "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/score_bass_heldout.py",
+  "frozen_scoring_implementation_tested_on": "SYNTHETIC fixtures only",
+
+  "fixed_at_registration": {
+    "model": "frozen JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930, byte-anchored by docs/project/BASS_FREEZE_ANCHOR_20260930.json",
+    "decision_threshold": 0.5,
+    "feature": "peak_prominence",
+    "target": "BASS_PRESENT_STABLE (positive) vs BASS_ABSENT_STABLE (negative)",
+    "note": "0.55 in_fold_threshold_mode is NON-OPERATIVE and is never used."
+  },
+
+  "primary_reporting_metrics": [
+    {"name": "balanced_accuracy", "definition": "(sensitivity + specificity) / 2", "uncertainty": "NONE REPORTED. A binomial interval is not valid for a ratio of two proportions on one small sample."},
+    {"name": "sensitivity_bass_present", "definition": "TP / (TP + FN)", "alias": "recall on BASS_PRESENT", "uncertainty": "95% Clopper-Pearson exact interval"},
+    {"name": "specificity_bass_absent", "definition": "TN / (TN + FP)", "alias": "recall on BASS_ABSENT", "uncertainty": "95% Clopper-Pearson exact interval"},
+    {"name": "precision_bass_present", "definition": "TP / (TP + FP)", "uncertainty": "95% Clopper-Pearson exact interval"},
+    {"name": "f1_bass_present", "definition": "2 * precision * sensitivity / (precision + sensitivity)", "uncertainty": "none"},
+    {"name": "confusion_matrix", "definition": "full 2x2 over stable scored cases only", "uncertainty": "none"}
+  ],
+
+  "required_counts": [
+    "stable PRESENT",
+    "stable ABSENT",
+    "human-unstable"
+  ],
+
+  "human_unstable_handling": {
+    "included_in_binary_scoring": false,
+    "counted_as_binary_error": false,
+    "relabelled": false,
+    "deleted": false,
+    "reporting": "aggregate count only, reported separately from all binary metrics",
+    "identity_disclosure": "individual unstable item identities are never published, because the held-out unstable identities are derivable by set difference (see FIREWALL_POLICY.json)"
+  },
+
+  "small_n_policy": {
+    "categorical_boundary_authorized": false,
+    "authorized_categories": "NONE. strong / partial / failure is NOT authorized.",
+    "required_statement": "n is too small for a defensible categorical performance boundary.",
+    "reporting_style": "DESCRIPTIVE, with appropriate uncertainty.",
+    "rationale": "At n on the order of 18 scored stable cases, the exact 95% interval on a single proportion is wider than the development effect being assessed, so any categorical cut point would be an artifact of the sample size rather than a measurement.",
+    "no_significance_test": true,
+    "no_p_value": true,
+    "no_balanced_accuracy_interval": true
+  },
+
+  "post_reveal_prohibitions": [
+    "NO threshold adjustment.",
+    "NO feature replacement.",
+    "NO model selection.",
+    "NO relabelling of stable human answers.",
+    "NO deletion of stable cases.",
+    "NO second attempt on this held-out set.",
+    "Any future classifier improvement must be a NEW development cycle. This held-out result remains historical evidence and may not be reused as if it were a fresh evaluation set."
+  ],
+
+  "integrity_requirements_on_the_scoring_code": [
+    "It must separate human-unstable cases.",
+    "It must compute only the preregistered metric set.",
+    "It must never alter predictions.",
+    "It must never alter labels.",
+    "It must be deterministic.",
+    "It must be hash-anchored before held-out reveal.",
+    "It must reject any prediction artifact carrying a label field."
+  ],
+
+  "execution_order_binding": [
+    "Predictions for all 20 held-out items are generated and hashed BEFORE any human label is opened.",
+    "Scoring runs exactly once, after separate PI reveal authorization, using this frozen code.",
+    "A second scoring run on the same held-out set is prohibited."
+  ],
+
+  "outstanding_pi_decisions": [
+    "Whether to commit the currently untracked scientific packages before held-out use.",
+    "Formal acceptance that no numeric categorical boundary will be reported.",
+    "Whether the anchor + external mirror is sufficient, or a Git commit is additionally required."
+  ]
+}

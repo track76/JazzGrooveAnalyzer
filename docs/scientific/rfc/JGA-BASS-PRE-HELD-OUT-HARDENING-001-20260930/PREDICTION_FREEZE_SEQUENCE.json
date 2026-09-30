@@ -1,0 +1,34 @@
+{
+  "record_type": "PREDICTION_FREEZE_SEQUENCE",
+  "task_id": "JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930",
+  "pi_authorization": "PI-BASS-PRE-HELD-OUT-HARDENING-20260930",
+  "status": "DESIGNED_AND_REHEARSED_ON_DUMMY_DATA_ONLY",
+  "rehearsal_implementation": "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/rehearse_freeze_sequence.py",
+  "rehearsal_result": "Steps A-I executed on DUMMY identifiers (DUMMY_ITEM_01..20). Steps J and K executed as REFUSED gates. No real held-out item number, prediction or label was used.",
+
+  "purpose": "Make 'prediction frozen before reveal' mechanically auditable rather than asserted in prose.",
+
+  "steps": [
+    {"id": "A", "name": "verify frozen-anchor fingerprint", "gate": "internal", "fails_if": "any package file is missing or its SHA-256 differs from the anchor", "status_now": "REHEARSED"},
+    {"id": "B", "name": "load frozen predictor", "gate": "internal", "note": "operative threshold 0.50 only; 0.55 in-fold mode never read", "status_now": "REHEARSED"},
+    {"id": "C", "name": "identify held-out item IDs using membership ONLY", "gate": "internal", "reads": "SEALED_ITEM_EVENT_MAP.json (label-free)", "must_not_read": "any stable class or answer", "status_now": "REHEARSED_WITH_DUMMY_IDS"},
+    {"id": "D", "name": "generate 20 predictions WITHOUT answer access", "gate": "internal", "status_now": "REHEARSED_WITH_SYNTHETIC_FEATURES"},
+    {"id": "E", "name": "write prediction artifact", "gate": "internal", "note": "artifact must contain no label field", "status_now": "REHEARSED"},
+    {"id": "F", "name": "hash prediction artifact", "gate": "internal", "status_now": "REHEARSED"},
+    {"id": "G", "name": "create externally backed PREDICTION_FREEZE record", "gate": "internal", "must_contain": ["prediction hash", "model-anchor hash", "timestamp", "git HEAD", "git branch", "exact item IDs"], "status_now": "REHEARSED"},
+    {"id": "H", "name": "close prediction writer authority", "gate": "internal", "status_now": "REHEARSED"},
+    {"id": "I", "name": "independently verify prediction artifact unchanged", "gate": "internal", "status_now": "REHEARSED"},
+    {"id": "J", "name": "open human held-out labels", "gate": "SEPARATE PI AUTHORIZATION REQUIRED", "status_now": "BLOCKED_NOT_EXECUTED"},
+    {"id": "K", "name": "score once using preregistered scoring code", "gate": "SEPARATE PI AUTHORIZATION REQUIRED", "runs": "exactly once", "status_now": "BLOCKED_NOT_EXECUTED"}
+  ],
+
+  "hard_requirements": [
+    "Steps A-I must all pass before step J is even requested.",
+    "Step G must be externally backed up before step J is requested.",
+    "Step I must be performed by a party other than the prediction writer.",
+    "Steps J and K each require their own explicit PI authorization.",
+    "A failed or altered prediction artifact invalidates the reveal and requires a new PI decision; it does not license a retry."
+  ],
+
+  "explicitly_not_performed_in_this_task": ["C with real held-out item IDs", "D with real features", "E with real predictions", "J", "K"]
+}
