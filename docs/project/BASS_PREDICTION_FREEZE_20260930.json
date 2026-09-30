@@ -1,0 +1,102 @@
+{
+  "record_type": "HELD_OUT_PREDICTION_FREEZE_RECORD",
+  "task_id": "JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930",
+  "pi_authorization": "PI-BASS-HELDOUT-PREDICTION-FREEZE-20260930",
+  "frozen_utc": "2026-09-30T13:36:52+00:00",
+  "prediction_artifact_sha256": "ce6bdae79520156ac21b3e17951773d39d5c6b2c4614e0f8310fdac6af39f6c9",
+  "prediction_artifact_repo": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930/HELD_OUT_PREDICTIONS.json",
+  "prediction_artifact_ssd": "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/PREDICTION_FREEZE/HELD_OUT_PREDICTIONS.json",
+  "prediction_artifact_hd": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/PREDICTION_FREEZE/HELD_OUT_PREDICTIONS.json",
+  "ssd_hash_matches": true,
+  "hd_hash_matches": true,
+  "exact_held_out_item_numbers": [
+    1,
+    2,
+    7,
+    11,
+    15,
+    19,
+    22,
+    23,
+    25,
+    32,
+    36,
+    37,
+    38,
+    39,
+    44,
+    47,
+    48,
+    53,
+    57,
+    59
+  ],
+  "held_out_count": 20,
+  "model_package_fingerprint": "fe82ba240c411f8da22191016abc3b3d24e778f01ce39712f75b137979b86cd1",
+  "model_package_fingerprint_expected": "fe82ba240c411f8da22191016abc3b3d24e778f01ce39712f75b137979b86cd1",
+  "model_package_fingerprint_match": true,
+  "remote_freeze_commit": "61c0f719ae0629e8d2cd105ba434f479355b4172",
+  "remote_freeze_parent": "7d3e3b991ca703c9014b64120384eaf27b20e1ad",
+  "branch": "scientific/translation-layer-finalization",
+  "head": "61c0f719ae0629e8d2cd105ba434f479355b4172",
+  "frozen_pipeline_sha256": "2f1c86c6a7063baf66c23eee7bb9949e2cff4f53d7c76d258c86453a16c225a8",
+  "predictor_code_sha256": "7592916144001700dc0df6bbb1015ba6bfaf52d30d69edc5d90712fb873a5c9a",
+  "scoring_code_sha256": "66d3543c5dded74ecfb6f8b9b84322e83d6df0a575f2b110fbff97d0bf047ca3",
+  "scoring_preregistration_sha256": "80cddbffa399788b78f8728ee28509ed86b16e78e88ac0d831e4ff04c301964f",
+  "prediction_freeze_sequence_sha256": "654552be1c48c805d143c88fa28738fb1a17e4ca48ccb07f080303e8af7e7f58",
+  "firewall_policy_sha256": "d33bc29500bf24bc0146f3caec7db2e1c19940faee4df8046cd1a3a2a5d32faa",
+  "prediction_runner_sha256": "61a23bcb71891fc05d762626ae1d37a04ad5356dcbf4a7de70a90f0f8b5414d0",
+  "frozen_model_values": {
+    "features": [
+      "peak_prominence"
+    ],
+    "decision_threshold": 0.5,
+    "frozen_coefficients": [
+      -1.7200686086352484
+    ],
+    "frozen_intercept": -0.49553624847010386,
+    "frozen_scaler_mean": [
+      40.949522853388416
+    ],
+    "frozen_scaler_scale": [
+      50.50390234921561
+    ],
+    "hyperparameters": {
+      "penalty": "l2",
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 20000,
+      "solver": "lbfgs"
+    }
+  },
+  "frozen_at_utc_of_model": "2026-09-30T09:25:08+00:00",
+  "prediction_pass_count": 1,
+  "retrained": false,
+  "tuned": false,
+  "threshold_adjusted": false,
+  "feature_changed": false,
+  "firewall": {
+    "status": "PASS",
+    "prohibited_paths_registered": 9,
+    "answer_bearing_open_attempts": 0,
+    "observed_label_free_open_set": [
+      "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/FROZEN_PIPELINE.json",
+      "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/predict_bass.py",
+      "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA-FULLMIX-INSTRUMENT-IDENTITY-001-20260929/PHASE_A/SOURCE_EVIDENCE_TABLE.json",
+      "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930/SEALED_ITEM_EVENT_MAP.json"
+    ]
+  },
+  "held_out_human_answers_accessed": false,
+  "held_out_labels_revealed": false,
+  "scoring_performed": false,
+  "performance_computed": false,
+  "human_unstable_identities_derived": false,
+  "human_unstable_blindness_qualification": "HELD_OUT_UNSTABLE_MEMBERSHIP_BLINDNESS=PARTIALLY_COMPROMISED",
+  "prediction_distribution": {
+    "BASS_PRESENT": 10,
+    "BASS_ABSENT": 10
+  },
+  "immutability": "Prediction artifact is hashed here, backed to SSD and HD, and written to the ledger. Any subsequent modification invalidates this freeze and requires a NEW PI decision; it does not license a retry.",
+  "remote_publication_status": "REQUIRES_SEPARATE_PI_AUTHORIZATION",
+  "remote_publication_rationale": "HELD_OUT_SCORING_PREREGISTRATION.outstanding_pi_decisions[2] leaves open whether the anchor + external mirror suffices or a Git commit is additionally required. Not settled by protocol."
+}

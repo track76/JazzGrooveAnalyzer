@@ -1,0 +1,36 @@
+{
+  "record_type": "PREDICTION_EXECUTION_PROVENANCE",
+  "task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+  "pi_authorization": "PI-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-20260930",
+  "recorded_utc": "2026-09-30T15:56:54+00:00",
+  "companion_to": "docs/project/BASS_PREDICTION_FREEZE_20260930.json",
+  "frozen_prediction_artifact_sha256": "ce6bdae79520156ac21b3e17951773d39d5c6b2c4614e0f8310fdac6af39f6c9",
+  "invocation_count": 2,
+  "do_not_describe_as": "literally one predictor invocation",
+  "explicit_statements": {
+    "no_human_label_accessed_during_either_invocation": true,
+    "zero_answer_bearing_file_opens_across_both_invocations": true,
+    "no_prediction_artifact_existed_from_first_invocation": true,
+    "frozen_model_and_feature_inputs_identical_across_invocations": true,
+    "predictor_is_deterministic": true,
+    "no_model_or_methodological_choice_made_between_invocations": true
+  },
+  "invocation_1": {
+    "outcome": "ABORTED",
+    "prediction_computed_in_memory": true,
+    "artifact_written": false,
+    "failure_point": "report assembly after predict_bass.score() returned and before any artifact write; KeyError 'estimator_name'",
+    "cause": "wrong metadata field name in the reporting block of the runner; the frozen record exposes 'family', not 'estimator_name'",
+    "answer_bearing_opens": 0,
+    "human_labels_accessed": false
+  },
+  "invocation_2": {
+    "outcome": "AUTHORITATIVE",
+    "artifact_written": true,
+    "produced_sha256": "ce6bdae79520156ac21b3e17951773d39d5c6b2c4614e0f8310fdac6af39f6c9",
+    "answer_bearing_opens": 0,
+    "human_labels_accessed": false
+  },
+  "why_repetition_cannot_bias_the_result": "The frozen predictor is a pure function of the frozen coefficients, intercept and scaler applied to label-free Phase A feature values. It consumes no randomness, performs no file access at scoring time, and reads no human label. Its output is therefore a deterministic function of frozen inputs. The only defect in invocation 1 was a post-prediction metadata field name in the reporting block; no feature, coefficient, threshold, decision rule or methodological parameter was altered, and no human answer was visible at any point.",
+  "integrity_note": "This record is separate from the frozen artifact and from the prediction freeze record so that neither had to be edited to accommodate it. Both retain their PI-authorized hashes exactly."
+}

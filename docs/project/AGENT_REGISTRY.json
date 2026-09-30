@@ -113,17 +113,19 @@
       ],
       "current_mode": "AUTHORIZED_WRITER",
       "write_authority_status": "AUTHORIZED_FOR_CURRENT_TASK",
-      "current_task": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
-      "current_status": "AUTHORIZED_REMOTE_FREEZE",
+      "current_task": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+      "current_status": "AUTHORIZED_REMOTE_PUBLICATION_ONLY",
       "last_authority_sync": "2026-09-30T08:58:48+00:00",
       "last_known_branch": "scientific/translation-layer-finalization",
       "last_known_HEAD": "7d3e3b991ca703c9014b64120384eaf27b20e1ad",
       "current_embargo_restrictions": [
-        "Held-out experiment NOT authorized",
-        "Held-out human labels must never be opened, inferred or reconstructed",
-        "Do NOT perform or record the held-out-unstable set-difference derivation",
+        "Held-out experiment NOT authorized; separate PI authorization required",
+        "DO NOT generate held-out predictions",
+        "DO NOT open held-out human labels",
+        "DO NOT derive or identify the two held-out-unstable item numbers",
+        "No numeric categorical performance boundary is authorized",
         "decision_threshold 0.50 operative; 0.55 in-fold mode NON-OPERATIVE",
-        "Frozen scientific bytes must remain identical; regeneration requires PI override token"
+        "Frozen scientific bytes must remain identical"
       ],
       "last_handoff": "docs/project/JGA_CHAT_HANDOFF.md",
       "notes": "Sealing task. PI approved Option A: the frozen stability rule is superseded by an append-only record, not rewritten. LABEL_RULE_FROZEN.json stays byte-identical. seal_bass.py implements the new derived rule, preserves raw two-pass evidence including item 21 UNRESOLVED/OTHER -> YES, and carries locator, reliability and temporal qualification provenance. Pre-seal HD copies must verify against the PI-authorized hashes before any SSD redaction.",
@@ -134,30 +136,26 @@
       "last_embargo_restrictions": [],
       "last_completed_task": null,
       "write_paths": [
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/FEATURE_INVENTORY.json",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/FROZEN_PIPELINE.json",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/INPUT_PROVENANCE.json",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPORT.md",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/VALIDATION.json",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/SHA256SUMS",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/predict_bass.py",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/test_predict_bass.py",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/train_bass_classifier.py",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/score_bass_heldout.py",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/test_hardening.py",
-        "docs/scientific/rfc/JGA-BASS-SOURCE-PRESENCE-CLASSIFIER-DEV-001-20260930/REPRODUCTION/rehearse_freeze_sequence.py",
-        "docs/scientific/rfc/JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930/FIREWALL_POLICY.json",
-        "docs/scientific/rfc/JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930/HELD_OUT_SCORING_PREREGISTRATION.json",
-        "docs/scientific/rfc/JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930/PREDICTION_FREEZE_SEQUENCE.json",
-        "docs/scientific/rfc/JGA-BASS-PRE-HELD-OUT-HARDENING-001-20260930/HARDENING_REPORT.md",
-        "docs/project/BASS_FREEZE_ANCHOR_20260930.json",
-        "docs/project/BASS_PHASE_A_INPUT_DEPENDENCY_20260930.json",
         "docs/project/PI_DECISION_LOG.jsonl",
         "docs/project/AGENT_WORK_LEDGER.jsonl",
-        "docs/project/AGENT_REGISTRY.json"
+        "docs/project/AGENT_REGISTRY.json",
+        "docs/project/BASS_PREDICTION_FREEZE_20260930.json",
+        "docs/project/BASS_PREDICTION_EXECUTION_PROVENANCE_20260930.json",
+        "docs/scientific/rfc/JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930/HELD_OUT_PREDICTIONS.json",
+        "docs/scientific/rfc/JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930/PREDICTION_FREEZE_REPORT.md",
+        "docs/scientific/rfc/JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930/SHA256SUMS",
+        "docs/scientific/rfc/JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930/REPRODUCTION/run_heldout_prediction.py"
       ],
-      "authority_granted_at": "2026-09-30T12:44:06+00:00",
-      "authority_scope": "documentation/metadata clarification only; no scientific change"
+      "authority_granted_at": "2026-09-30T15:56:54+00:00",
+      "authority_scope": "documentation/metadata clarification only; no scientific change",
+      "write_scope_correction": {
+        "path_added": "docs/project/BASS_REMOTE_FREEZE_PUBLICATION_20260930.json",
+        "added_at": "2026-09-30T12:48:14+00:00",
+        "reason": "The PI instruction required recording the remote commit SHA into a provenance record. That path was omitted from the initial write_paths registration, so governance correctly refused the resync. The scope is corrected here rather than forcing the resync through.",
+        "discovered_by": "tools/jga_governance.py resync (divergence outside write_paths)"
+      },
+      "authority_revoked_at": "2026-09-30T13:38:22+00:00",
+      "authority_revoked_reason": "Prediction freeze complete; PI instruction requires returning writer authority to NOT_GRANTED."
     }
   ],
   "mode_catalog": [
