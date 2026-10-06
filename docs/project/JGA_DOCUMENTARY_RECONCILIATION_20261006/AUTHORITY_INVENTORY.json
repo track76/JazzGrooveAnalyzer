@@ -1,0 +1,2691 @@
+{
+  "task_id": "JGA-DOCUMENTARY-RECONCILIATION-PRE-ARCHITECTURE-001-20261006",
+  "records": [
+    {
+      "task_id": "JGA-BASS61-HUMAN-MULTIATTACK-PASS1-001-20261004",
+      "status": "FROZEN",
+      "scope": "Finalized PASS1; methodology/preflight gates retained",
+      "scientific_claim": "Finalized PASS1; methodology/preflight gates retained",
+      "scientific_limitation": "Candidate-conditioned localization, not exhaustive census",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS1-001-20261004",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS1-001-20261004",
+      "files": {
+        "INPUT_HASHES.json": {
+          "sha256": "29d8cd0af2680237f0bdcd6353f0910d544e2033cd5d48a155cd2773f2c0f729",
+          "size_bytes": 2631,
+          "mtime_ns": 1791108476920000000
+        },
+        "INSTRUMENT_jga_bass61_pass1_61event_annotator.html": {
+          "sha256": "790dfbfc623813cc4567e79cfaf28871e1bf8a6934e4464d4c782fc8409d5bc6",
+          "size_bytes": 48300,
+          "mtime_ns": 1791118153690000000
+        },
+        "INSTRUMENT_jga_bass61_pass1_annotator.html": {
+          "sha256": "61fd4b972e6a08437fbde147cb9a2a74be68085e8d0d2191b86e173a949edb9b",
+          "size_bytes": 41904,
+          "mtime_ns": 1791108476920000000
+        },
+        "MANIFEST.sha256": {
+          "sha256": "2037fe03f073fde58bc28c051829315919a041ef81fd0e3ec09c19f9ee9a8e10",
+          "size_bytes": 740,
+          "mtime_ns": 1791108476950000000
+        },
+        "PASS1_61EVENT_GATE_RESULT.json": {
+          "sha256": "3742021c34f4fbde0a0488c01f29ac403f80dd09d0a7c5a30e2ff51ea25cdb8a",
+          "size_bytes": 7520,
+          "mtime_ns": 1791118154280000000
+        },
+        "PASS1_61EVENT_MANIFEST.sha256": {
+          "sha256": "fb836ed91e6f7696db58833a411c92896db93de704c4710e0f99b3b08897bb72",
+          "size_bytes": 647,
+          "mtime_ns": 1791118255810000000
+        },
+        "PASS1_61EVENT_METHODOLOGY_VALIDATION.json": {
+          "sha256": "2ac647d1dd16caa4cd02ccaba4ce1b5fd891eb3cbd1cb6110e5b87b57b87dd74",
+          "size_bytes": 9120,
+          "mtime_ns": 1791118206860000000
+        },
+        "PASS1_61EVENT_PERSISTENCE_RECEIPT.json": {
+          "sha256": "6c848707fc56e0bb155206ba7166c80d94961b0a28b4fc621e9c5b540addbbca",
+          "size_bytes": 5601,
+          "mtime_ns": 1791118255870000000
+        },
+        "PASS1_61EVENT_SAME_PROFILE_CLEAN_START.json": {
+          "sha256": "689a2f1b750ed1c43c87a530ec780dc1cee39d87a28a73f7f1bd0606220f6ef5",
+          "size_bytes": 3623,
+          "mtime_ns": 1791118255740000000
+        },
+        "PASS1_61EVENT_SELECTION.json": {
+          "sha256": "e29a2383857ac803ea82b44d5070f28530b017e1a821b41d46b3ab397c741a6b",
+          "size_bytes": 10135,
+          "mtime_ns": 1791118154240000000
+        },
+        "PASS1_FREEZE_RECORD.json": {
+          "sha256": "c129785ba49f1777c540ad96e155c662efa9feea0093cf0b071cd9ed1e9832ad",
+          "size_bytes": 4669,
+          "mtime_ns": 1791130020990000000
+        },
+        "PASS1_HUMAN_EVIDENCE_AUTHORITY_FINALIZED.json": {
+          "sha256": "7c4f63f33b149e2ce1890b1585ed999a7b4513a351f99850511883f252593e5d",
+          "size_bytes": 69046,
+          "mtime_ns": 1791130020780000000
+        },
+        "PASS1_PI_COLLECTION_NOTE.json": {
+          "sha256": "264a8238d4228b870036c93f5d372edbcdf1e056fc930a2beb79a183b4a89ea3",
+          "size_bytes": 1183,
+          "mtime_ns": 1791130020980000000
+        },
+        "PASS1_PREFINALIZATION_EXPORT.json": {
+          "sha256": "21332e289fdfadd3a6e191b2b5c6a6b1d01e2cfb4dcbbe9c5544a993be481374",
+          "size_bytes": 69024,
+          "mtime_ns": 1791130020970000000
+        },
+        "PASS1_SHA256SUMS": {
+          "sha256": "0bdbe89d4468fce3c8c6913da54f6cf011ed5cb796185876595f5a6497d3bff5",
+          "size_bytes": 495,
+          "mtime_ns": 1791130020990000000
+        },
+        "PATHS_FROZEN.json": {
+          "sha256": "4a651e2dd490bde095fb477c291be9b04310744d55dfc22d72d827e2c4e6d66a",
+          "size_bytes": 1124,
+          "mtime_ns": 1791108476920000000
+        },
+        "PI-BASS61-PASS1-EXTERNAL-PERSISTENCE-001-20261004.md": {
+          "sha256": "64fe3f5d8d19f2f0034de7de5fddc0dabd047a61cc4c7bf561c3a8e8ea8be7dc",
+          "size_bytes": 4374,
+          "mtime_ns": 1791108476910000000
+        },
+        "PI-BASS61-PASS1-FINAL-AUTHORIZATION-001-20261004.md": {
+          "sha256": "e83ba2f66495a8cbe48ded801daa29c00b841d97e48f58b5e3a515981b6bf485",
+          "size_bytes": 3362,
+          "mtime_ns": 1791121362340000000
+        },
+        "PI-BASS61-PASS1-INSTRUMENT-CORRECTION-001-20261004.md": {
+          "sha256": "9814ef5e671f978841b01d22958b266c56601bbc41427e5c3cd74f55acf21a6d",
+          "size_bytes": 2144,
+          "mtime_ns": 1791118154180000000
+        },
+        "PRESERVATION_RECORD.json": {
+          "sha256": "ada949c443de59a28bd001ac7db143bf74b139d5253fcd963eb10c069a7d79f7",
+          "size_bytes": 3853,
+          "mtime_ns": 1791108476930000000
+        },
+        "VALIDATION.json": {
+          "sha256": "581736ea3307da398c1cdd0b4140b82b81458d657eea4cea8f52ec46cf50e937",
+          "size_bytes": 1213,
+          "mtime_ns": 1791108476940000000
+        },
+        "WRITE_TEST_HD.json": {
+          "sha256": "9f2e23965bfe9f254ce1c1dbbaaa471b298d27efc5953cc585a7e6c39cedb6df",
+          "size_bytes": 445,
+          "mtime_ns": 1791108476940000000
+        },
+        "WRITE_TEST_SSD.json": {
+          "sha256": "38b0581daa891021677d21645dfcfdd3f88ef336bd1eb7dde07cf40c45356381",
+          "size_bytes": 418,
+          "mtime_ns": 1791108476940000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS1-001-20261004/MANIFEST.sha256",
+          "sha256": "2037fe03f073fde58bc28c051829315919a041ef81fd0e3ec09c19f9ee9a8e10",
+          "entries_verified": 8,
+          "status": "PASS"
+        },
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS1-001-20261004/PASS1_61EVENT_MANIFEST.sha256",
+          "sha256": "fb836ed91e6f7696db58833a411c92896db93de704c4710e0f99b3b08897bb72",
+          "entries_verified": 6,
+          "status": "PASS"
+        },
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS1-001-20261004/PASS1_SHA256SUMS",
+          "sha256": "0bdbe89d4468fce3c8c6913da54f6cf011ed5cb796185876595f5a6497d3bff5",
+          "entries_verified": 5,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-BASS61-HUMAN-MULTIATTACK-PASS2-001-20261004",
+      "status": "FROZEN",
+      "scope": "Finalized blinded PASS2; collection complete",
+      "scientific_claim": "Finalized blinded PASS2; collection complete",
+      "scientific_limitation": "Same-rater repeatability, not absolute truth",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS2-001-20261004",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS2-001-20261004",
+      "files": {
+        "AGENT_RECORDED_PI_INSTRUCTION_PASS2_PREPARATION.json": {
+          "sha256": "93313a45f441e67584eb6d4548850fcbeadca17d95c286409aa0c7db4e298f81",
+          "size_bytes": 1551,
+          "mtime_ns": 1791131124120000000
+        },
+        "INSTRUMENT_jga_bass61_pass2_annotator.html": {
+          "sha256": "9f76b79b9556efe4fcdd499652d0fe022f33ad0259c324bf769dba29d40df8c7",
+          "size_bytes": 48863,
+          "mtime_ns": 1791131124150000000
+        },
+        "PASS2_FREEZE_INDEX_CORRECTION_20261004.json": {
+          "sha256": "ecc489f7ab3a98d3aa67086a59f8b740e074c21fa406367153a63458c42ed397",
+          "size_bytes": 1131,
+          "mtime_ns": 1791142778990000000
+        },
+        "PASS2_FREEZE_RECORD.json": {
+          "sha256": "42e2bc43da049bbf6cab7a55292ad124aa2d0c953398cbec2b3bc2f4d9658b2d",
+          "size_bytes": 3774,
+          "mtime_ns": 1791142746120000000
+        },
+        "PASS2_HUMAN_EVIDENCE_AUTHORITY_FINALIZED.json": {
+          "sha256": "355b2a3f4e28f0d569e78312b99aca6d6ee1e957efed5149cbc8e03ff5f16ad4",
+          "size_bytes": 69645,
+          "mtime_ns": 1791142746100000000
+        },
+        "PASS2_ISOLATION.txt": {
+          "sha256": "90dcf7e96383ddbe3732e8e2686e4125808ac88a72a9b7c3e76b01ed5a9d26e0",
+          "size_bytes": 1400,
+          "mtime_ns": 1791131124150000000
+        },
+        "PASS2_ISOLATION_RESULT.json": {
+          "sha256": "79463aa92af06d0eaab6d79ea4cbde53b1d3013dc30b890735d39d870cfb8f2c",
+          "size_bytes": 1146,
+          "mtime_ns": 1791131124140000000
+        },
+        "PASS2_MANIFEST.sha256": {
+          "sha256": "81e4902431cc46f5addd6ebf53852c7abaafad7b751cac6fb9a0b18a96d9918e",
+          "size_bytes": 1715,
+          "mtime_ns": 1791142779010000000
+        },
+        "PASS2_METHODOLOGY_GATE.txt": {
+          "sha256": "ae75f661af6e666db88b5a5d11aea17fc36382686e96d74ec164e916dd057eb5",
+          "size_bytes": 5737,
+          "mtime_ns": 1791131124150000000
+        },
+        "PASS2_METHODOLOGY_GATE_RESULT.json": {
+          "sha256": "07ff7c7ca3b052cd4ef9f1d45768056506843e411008241f5dd3eace0650cf10",
+          "size_bytes": 836,
+          "mtime_ns": 1791131124140000000
+        },
+        "PASS2_ORDER_PROVENANCE.json": {
+          "sha256": "df8fb066fa29c138ac3c02bc34412817913b4fbfcae26480a6b077804eed0508",
+          "size_bytes": 1622,
+          "mtime_ns": 1791131124140000000
+        },
+        "PASS2_PI_PROFILE_START_CHECK_20261004.json": {
+          "sha256": "3f67b32be6e2291dd376487cbe2d3cea64991373699d6aa0882d36a16a386117",
+          "size_bytes": 1694,
+          "mtime_ns": 1791131669590000000
+        },
+        "PASS2_PREFINALIZATION_EXPORT.json": {
+          "sha256": "3b9ea6044cee2c3979cb30dc219cb4c93a604f96fca34e5e1ea3378b527df63b",
+          "size_bytes": 69623,
+          "mtime_ns": 1791142746110000000
+        },
+        "PASS2_SELECTION.json": {
+          "sha256": "ec078b237f3be6dd7ea92dd65a7ae6bf3e21e8f0b696ceb68a85724c41e880c7",
+          "size_bytes": 9626,
+          "mtime_ns": 1791131124130000000
+        },
+        "PASS2_SHA256SUMS": {
+          "sha256": "e6dd9515e649939a1654e80b399f082fb3268e2c3c02e10b631f6ea94c9bd3d0",
+          "size_bytes": 1803,
+          "mtime_ns": 1791142779020000000
+        },
+        "PASS2_STATUS.json": {
+          "sha256": "d2b71063101740dfa4082899494633114b2784203261e5c0006e2ca65236e72d",
+          "size_bytes": 964,
+          "mtime_ns": 1791131124140000000
+        },
+        "PERSISTENCE_RECORD.json": {
+          "sha256": "ee07f6b1f36a9b258ebb84af0a96131da1968956649b972f2347eeff23482485",
+          "size_bytes": 1167,
+          "mtime_ns": 1791131162570000000
+        },
+        "PI-BASS61-PASS2-COLLECTION-FREEZE-001-20261004.json": {
+          "sha256": "e297a235565ce24a82455326955965fb9fbfdc2496e4ac652e89660da96b7501",
+          "size_bytes": 2818,
+          "mtime_ns": 1791131669590000000
+        },
+        "PI-BASS61-PASS2-FINAL-AUTHORIZATION-001-20261004.md": {
+          "sha256": "4c8f20f58b3605d90cd12b9bdef4104f99a6fe5e2b9d9e9e3e87180cc6be8391",
+          "size_bytes": 4236,
+          "mtime_ns": 1791131669580000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS2-001-20261004/PASS2_MANIFEST.sha256",
+          "sha256": "81e4902431cc46f5addd6ebf53852c7abaafad7b751cac6fb9a0b18a96d9918e",
+          "entries_verified": 17,
+          "status": "PASS"
+        },
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-PASS2-001-20261004/PASS2_SHA256SUMS",
+          "sha256": "e6dd9515e649939a1654e80b399f082fb3268e2c3c02e10b631f6ea94c9bd3d0",
+          "entries_verified": 18,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-BASS61-HUMAN-MULTIATTACK-INTRARATER-RELIABILITY-001-20261004",
+      "status": "COMPLETE",
+      "scope": "Intra-rater reliability analysis complete",
+      "scientific_claim": "Intra-rater reliability analysis complete",
+      "scientific_limitation": "Repeatability, not absolute accuracy",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-INTRARATER-RELIABILITY-001-20261004",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-INTRARATER-RELIABILITY-001-20261004",
+      "files": {
+        "RELIABILITY_MANIFEST.json": {
+          "sha256": "cc9d1c25f3c803ff7cd39d66e41b0418f474bb6c5d2fcb9fef55f5fcdd101bc4",
+          "size_bytes": 7035,
+          "mtime_ns": 1791143153990000000
+        },
+        "RELIABILITY_REPORT.md": {
+          "sha256": "300990d74f1714af6e560ad2be5c4d4254d2c25fd276943e424d25cb3b2acc32",
+          "size_bytes": 5385,
+          "mtime_ns": 1791143153970000000
+        },
+        "SHA256SUMS": {
+          "sha256": "8a176d4912c3479c706ed7fec544a920415e38c096e6ef8389e4baffe2b81c0b",
+          "size_bytes": 1263,
+          "mtime_ns": 1791143154000000000
+        },
+        "absolute_agreement_curve.png": {
+          "sha256": "0269dd8c13d3311b7c77e340c5d125be6e24bca556d8ba70fb250719817e872e",
+          "size_bytes": 46872,
+          "mtime_ns": 1791143153990000000
+        },
+        "bland_altman.png": {
+          "sha256": "cd5bf3ec0567b3e306581b8f832695b367e962070728e49ae2867dbed7599d16",
+          "size_bytes": 58128,
+          "mtime_ns": 1791143153980000000
+        },
+        "count_confusion.png": {
+          "sha256": "26963f7cea31650ae0265a1fc87774b7fabb211edb6c77328ccaaff50dc01e26",
+          "size_bytes": 24679,
+          "mtime_ns": 1791143153990000000
+        },
+        "delta_by_label.png": {
+          "sha256": "beee24277312098481571f546980224be9fef0d33ae1a21d5f8cdb6703387150",
+          "size_bytes": 25367,
+          "mtime_ns": 1791143153980000000
+        },
+        "event_table.json": {
+          "sha256": "9bda5716bd07656b7664f9d0ea7325cd2cd19a548114468ec486b9951d453bb9",
+          "size_bytes": 35554,
+          "mtime_ns": 1791143153950000000
+        },
+        "interval_repeatability.png": {
+          "sha256": "9fd257fe6f463510b7bb2d5e7cb1a4c371ebdc9669c92ebed9e6230334b54616",
+          "size_bytes": 72797,
+          "mtime_ns": 1791143153990000000
+        },
+        "intervals.json": {
+          "sha256": "10abf5eb8454ed96d974554cd494bac18c44907b3fb5080620d7ab746a1d8729",
+          "size_bytes": 2406,
+          "mtime_ns": 1791143153960000000
+        },
+        "matched_markers.json": {
+          "sha256": "bf86b7b07a296f54323f3a332e5dab1ea4c389616e20dca63b454c0b52f214a9",
+          "size_bytes": 10993,
+          "mtime_ns": 1791143153960000000
+        },
+        "persist_rel.py": {
+          "sha256": "71374308d66815a39208809226d9cd6cf29c15c05dd6a1122c533e0feec44818",
+          "size_bytes": 6382,
+          "mtime_ns": 1791143153980000000
+        },
+        "plots.py": {
+          "sha256": "9380eb6f8373566311dd2ab034c3a50b00560a685c1f8748cbffcd974dcfc2de",
+          "size_bytes": 3581,
+          "mtime_ns": 1791143153970000000
+        },
+        "reanalyze.py": {
+          "sha256": "5124a087055afb95eb3f74dc53f4faf206de4845a0294dc1126ed2de34fcfb48",
+          "size_bytes": 13361,
+          "mtime_ns": 1791143153970000000
+        },
+        "report.py": {
+          "sha256": "101305265c85d42953033e1945872aacbe0d80228b1459eb9c3c9fd2d763e45e",
+          "size_bytes": 7546,
+          "mtime_ns": 1791143153970000000
+        },
+        "summary.json": {
+          "sha256": "c4ffb35b4bcfc1759426b585a924309c406d122af6482fc59e20e235508e03de",
+          "size_bytes": 9756,
+          "mtime_ns": 1791143153940000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-MULTIATTACK-INTRARATER-RELIABILITY-001-20261004/SHA256SUMS",
+          "sha256": "8a176d4912c3479c706ed7fec544a920415e38c096e6ef8389e4baffe2b81c0b",
+          "entries_verified": 15,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-BASS61-HUMAN-REFERENCE-CONSTRUCTION-ANALYSIS-001-20261004",
+      "status": "COMPLETE",
+      "scope": "Reference construction analysis and correction preserved",
+      "scientific_claim": "Reference construction analysis and correction preserved",
+      "scientific_limitation": "Analysis is not itself final onset authority",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-CONSTRUCTION-ANALYSIS-001-20261004",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-CONSTRUCTION-ANALYSIS-001-20261004",
+      "files": {
+        "CORRECTION_RECORD_20261004.json": {
+          "sha256": "cb6ed77650d56888fc47061a41a4c78c454b568ef0c6ea00ee73fc62c8520b76",
+          "size_bytes": 2864,
+          "mtime_ns": 1791178589810000000
+        },
+        "REFERENCE_CONSTRUCTION_REPORT.md": {
+          "sha256": "c57621e1cf7b83ea3857ce28b0c01192c6a07c2f7cbd513275d24cf1604cba6b",
+          "size_bytes": 15144,
+          "mtime_ns": 1791178589780000000
+        },
+        "REFERENCE_MANIFEST.json": {
+          "sha256": "fdeb3e47f9e540319e18c8b2105ac0485c3298bf9e9e277b00dab908c85c31cf",
+          "size_bytes": 14126,
+          "mtime_ns": 1791178589810000000
+        },
+        "SHA256SUMS": {
+          "sha256": "470f74ff1f0fe537d3368d8f1dd655d4d3a56b3bb8014493e9817b1266ff2488",
+          "size_bytes": 1431,
+          "mtime_ns": 1791178589820000000
+        },
+        "bias_and_uncertainty.png": {
+          "sha256": "a4719d7929781568d6dc4362f72dffe1551a07a84f5612a70024c6fa2d119085",
+          "size_bytes": 69376,
+          "mtime_ns": 1791178589790000000
+        },
+        "bias_characterization.json": {
+          "sha256": "2d7c4242d1f49674c83be8cb1f8d9c78bb31e460cf88db7bee68856db94b9ea9",
+          "size_bytes": 15080,
+          "mtime_ns": 1791178300720000000
+        },
+        "bias_vs_time_and_order.png": {
+          "sha256": "edbf73775e0d6ae6dcd2d02556e8939f38eb240806873724ae82181c97404886",
+          "size_bytes": 90215,
+          "mtime_ns": 1791178589790000000
+        },
+        "characterize.py": {
+          "sha256": "1575a97697d031cafbbcb85c02349fd05aa536b5ac645bf1a8afceec509db7a1",
+          "size_bytes": 11567,
+          "mtime_ns": 1791178589770000000
+        },
+        "common_shift_and_groups.png": {
+          "sha256": "f4f30e3848a1e7566fc91f8562a7a985331cc6a4053f4a13945bb53995e940f3",
+          "size_bytes": 54789,
+          "mtime_ns": 1791178589800000000
+        },
+        "common_shift_table.json": {
+          "sha256": "6a6264fb153203024d13a5b397d1079c20515b2c8603466397271e1e446694f1",
+          "size_bytes": 5453,
+          "mtime_ns": 1791178300730000000
+        },
+        "matched_markers_enriched.json": {
+          "sha256": "e22d2b70084923cdc7ead6cf9475de074ab3f6d82ae91fd828f0051ef631f403",
+          "size_bytes": 18017,
+          "mtime_ns": 1791178300730000000
+        },
+        "persist_ref.py": {
+          "sha256": "51201f2049782551892b4136900a8aea78ced2d756a24cc5c451dac4657d88fa",
+          "size_bytes": 6502,
+          "mtime_ns": 1791178300720000000
+        },
+        "refplots.py": {
+          "sha256": "e53f53929f7d1b8631445e3c76a1edc5f55d2cf2399a08659eb67343e5e9c7fb",
+          "size_bytes": 4490,
+          "mtime_ns": 1791178300710000000
+        },
+        "refreport.py": {
+          "sha256": "cf25f4191cf4d5ef0108e3e5363e59524f2f96a9db95de58a127c713c8d68f0a",
+          "size_bytes": 11728,
+          "mtime_ns": 1791178589770000000
+        },
+        "rules.py": {
+          "sha256": "dd0ab615a1b4c4fac08e6f27703aac61c010e803c504a13b7c5323c316026c57",
+          "size_bytes": 14551,
+          "mtime_ns": 1791178300710000000
+        },
+        "rules_uncertainty_sensitivity.json": {
+          "sha256": "bc42d6cdfff7e33ac6846b7c8e45c8b0457cbe298d043c72e2bd19c9b1899f07",
+          "size_bytes": 26107,
+          "mtime_ns": 1791178589780000000
+        },
+        "sensitivity_variants.png": {
+          "sha256": "f59c880fc722ed8c6f7f65880133fe47e8fa18b9e1f8e19acdecac6abd5dc380",
+          "size_bytes": 36171,
+          "mtime_ns": 1791178589800000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-CONSTRUCTION-ANALYSIS-001-20261004/SHA256SUMS",
+          "sha256": "470f74ff1f0fe537d3368d8f1dd655d4d3a56b3bb8014493e9817b1266ff2488",
+          "entries_verified": 16,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-BASS61-HUMAN-REFERENCE-FREEZE-001-20261005",
+      "status": "FROZEN",
+      "scope": "54 count-stable groups; 7 count-unstable; 66 consolidated markers",
+      "scientific_claim": "54 count-stable groups; 7 count-unstable; 66 consolidated markers",
+      "scientific_limitation": "Candidate-conditioned empirical Human central estimates, not exhaustive or absolute truth",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-FREEZE-001-20261005",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-FREEZE-001-20261005",
+      "files": {
+        "HUMAN_BASS_REFERENCE.json": {
+          "sha256": "49b5490c158a1df8f7c47d250383e3fab3446ff18aa8d0d24d326e27720592b1",
+          "size_bytes": 5434,
+          "mtime_ns": 1791179752160000000
+        },
+        "METHODOLOGICAL_STATEMENT.md": {
+          "sha256": "2a0303ef2d9145777ecd7d14ad8c92b00be36a1a4e69d60e466c54f2210028f1",
+          "size_bytes": 3735,
+          "mtime_ns": 1791179752150000000
+        },
+        "SHA256SUMS": {
+          "sha256": "84ab58aacdb44bb7e65e1a0a0de6b41c16085ca787077780048ca5d33fdfb7ca",
+          "size_bytes": 1276,
+          "mtime_ns": 1791179752170000000
+        },
+        "construct_reference.py": {
+          "sha256": "6da95472e5d7dcd81df1c4c271f4c62a8c718592da714590f344fa70c979d6b2",
+          "size_bytes": 12571,
+          "mtime_ns": 1791179752120000000
+        },
+        "construction_specification.json": {
+          "sha256": "05a0a2d33e4b76de311c3f1c72cfd89b2eb2af8b8d7fb80a37a64cbe71822f7b",
+          "size_bytes": 5622,
+          "mtime_ns": 1791179752130000000
+        },
+        "event_table.json": {
+          "sha256": "b26e503e9ba828ac1882989e4e561737c7f1c13efd0843842d14290fd5baa5b4",
+          "size_bytes": 34749,
+          "mtime_ns": 1791179752140000000
+        },
+        "freeze_human_reference.py": {
+          "sha256": "fcdccc9627a6d7269f0ba56d7afe50a276c3369f42fd4fc04d5cbbe68e5eb7ea",
+          "size_bytes": 5758,
+          "mtime_ns": 1791179752130000000
+        },
+        "interval_references.json": {
+          "sha256": "000490b2dba33460a1f3cab2608f84dc136bdd5e49f5650ca017832af1a44b93",
+          "size_bytes": 16129,
+          "mtime_ns": 1791179752150000000
+        },
+        "marker_references.json": {
+          "sha256": "b83460d27548f6dbf3982985ff46c93d3bf9fabee464c01733f5ae8f965715f0",
+          "size_bytes": 84621,
+          "mtime_ns": 1791179752140000000
+        },
+        "population_descriptors.json": {
+          "sha256": "4648020752a3412fbf09be77ace90d17b1d4ba0faed9d0d96f16c17ee7e3ef4b",
+          "size_bytes": 274,
+          "mtime_ns": 1791179752160000000
+        },
+        "spec_and_statement.py": {
+          "sha256": "c6a912341587a3ec6cecb9cc77697cbf0441c73cb5f9b7ba3d2ec1303c820e36",
+          "size_bytes": 10255,
+          "mtime_ns": 1791179752130000000
+        },
+        "stable_event_references.json": {
+          "sha256": "83ad40524683764e4bcf1a8f0728fb0319d3fbbd9c95be66eec41843ab0a3065",
+          "size_bytes": 23789,
+          "mtime_ns": 1791179752140000000
+        },
+        "unstable_event_records.json": {
+          "sha256": "3b1624719b3cb77e58a58af14329efb7b4cfdf16fc4b1ec64efa8076e49bb0e5",
+          "size_bytes": 10962,
+          "mtime_ns": 1791179752140000000
+        },
+        "validate_reference.py": {
+          "sha256": "1b619d1b3cc205d48d1aa1b13f6f203d9952230d052ac01d94c6b0e466f413e0",
+          "size_bytes": 11392,
+          "mtime_ns": 1791179752120000000
+        },
+        "validation_record.json": {
+          "sha256": "b715a450a082fbf0f2090efaa864407361f1fb8a11f8cdd70ee7f39017083c35",
+          "size_bytes": 6055,
+          "mtime_ns": 1791179752150000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-FREEZE-001-20261005/SHA256SUMS",
+          "sha256": "84ab58aacdb44bb7e65e1a0a0de6b41c16085ca787077780048ca5d33fdfb7ca",
+          "entries_verified": 14,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-BASS61-HUMAN-REFERENCE-PLP-COMPARISON-001-20261005",
+      "status": "STOPPED",
+      "scope": "Authority-mapping audit stopped before completed comparison",
+      "scientific_claim": "Authority-mapping audit stopped before completed comparison",
+      "scientific_limitation": "Do not substitute this preparatory package for VS-B3PLP",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-PLP-COMPARISON-001-20261005",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-PLP-COMPARISON-001-20261005",
+      "files": {
+        "PLP_AUTHORITY_MAPPING_AUDIT.json": {
+          "sha256": "4437b629ee3a5681ca97bba34c63612012547588d4671b16f8cc80f9d57fe0b2",
+          "size_bytes": 16636,
+          "mtime_ns": 1791180326720000000
+        },
+        "PRE_PLP_DECISION_VERBATIM.md": {
+          "sha256": "c62d993a526efd6e7e3583b1dd4ffa9171f0b357e51705678af952327defe96d",
+          "size_bytes": 2648,
+          "mtime_ns": 1791179936930000000
+        },
+        "SHA256SUMS": {
+          "sha256": "f22374786492f727c054911c17faa6d902fa63749d96141ea1d30c95343d1484",
+          "size_bytes": 461,
+          "mtime_ns": 1791180326750000000
+        },
+        "STOP_RECORD.json": {
+          "sha256": "2b89245b78795932b7edc0a505cc5b2d6c5deef06709c50a19d6ff1bcaf3ccce",
+          "size_bytes": 4043,
+          "mtime_ns": 1791180326730000000
+        },
+        "plp_authority_audit.py": {
+          "sha256": "12d29e932914ebd74c925a929af1a528cb2054f0f421b23d7cdd72c9795643f9",
+          "size_bytes": 13198,
+          "mtime_ns": 1791180326740000000
+        },
+        "pre_plp_population_rule.json": {
+          "sha256": "66022e62a89851fd92cb6e2999cb97144c0489527ddcda50265a9443ee062b39",
+          "size_bytes": 1733,
+          "mtime_ns": 1791179936940000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-PLP-COMPARISON-001-20261005/SHA256SUMS",
+          "sha256": "f22374786492f727c054911c17faa6d902fa63749d96141ea1d30c95343d1484",
+          "entries_verified": 5,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-BASS61-HUMAN-REFERENCE-VS-B3PLP-001-20261005",
+      "status": "COMPLETE_BOUNDED",
+      "scope": "Completed frozen Human versus B3_PLP bounded comparison",
+      "scientific_claim": "Completed frozen Human versus B3_PLP bounded comparison",
+      "scientific_limitation": "No universal quarter authority, physical truth, or general Ray Brown/jazz claim",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-VS-B3PLP-001-20261005",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-VS-B3PLP-001-20261005",
+      "files": {
+        "ANALYSIS_REPORT.md": {
+          "sha256": "03e23e0a83b030f8b93cbc65a74dedd3bea45210c8353459437b7ffe2e08438a",
+          "size_bytes": 8459,
+          "mtime_ns": 1791210925300000000
+        },
+        "AUTHORITY_VERIFICATION.json": {
+          "sha256": "98fb39a1c39ce435e581530c69954c13a87b6e2a23fc51c859d9249832aaf8e9",
+          "size_bytes": 1283,
+          "mtime_ns": 1791210824270000000
+        },
+        "MAPPING_SPECIFICATION.json": {
+          "sha256": "3c7f31a89675d9cab532c80b5927de0fb08f258c0b467becdfb5f3c5fb73cf25",
+          "size_bytes": 1963,
+          "mtime_ns": 1791210824270000000
+        },
+        "PI_DECISION_TERMINATION_RECORD.json": {
+          "sha256": "1449c54b68d7acd1cc562cab82fb3a0d12df7567a278e45f5edd112f2e440b25",
+          "size_bytes": 1027,
+          "mtime_ns": 1791210727300000000
+        },
+        "SCIENTIFIC_LIMITATIONS.md": {
+          "sha256": "aaa6995cb655c9e752f7f6b48d3ca2d2fa141668c71c77ec466bcb28e8191d61",
+          "size_bytes": 5788,
+          "mtime_ns": 1791210951210000000
+        },
+        "SHA256SUMS": {
+          "sha256": "02c17d1dd6bf329c6d4bcc2d45e048720fa86158d4f694db5824d0aba6484b4e",
+          "size_bytes": 1800,
+          "mtime_ns": 1791210973000000000
+        },
+        "analyze_human_vs_b3plp.py": {
+          "sha256": "d0922abc3565f4a5a15f639ecf8f36c2fa77122d8f6813e3de47a89c21cb606c",
+          "size_bytes": 17156,
+          "mtime_ns": 1791210815800000000
+        },
+        "event_level_table.csv": {
+          "sha256": "dd2affc6d5690714655a5fa87ff3efab5ed7a5d5424bfc88fe45c91f61ddb3a1",
+          "size_bytes": 6392,
+          "mtime_ns": 1791210824280000000
+        },
+        "event_level_table.json": {
+          "sha256": "7bb72eeb8b67d612c8c80497316c2d674dbaab7460dc12f072bdc82c67e71bc7",
+          "size_bytes": 18200,
+          "mtime_ns": 1791210824280000000
+        },
+        "make_plots.py": {
+          "sha256": "b4b32ccb9b5c3f2c5727397c35005aa3e5e391530b24018ce82c5f8c08566f7a",
+          "size_bytes": 6078,
+          "mtime_ns": 1791210855340000000
+        },
+        "marker_level_table.csv": {
+          "sha256": "ca976f30f9341122d59c029e8650aba880c721b79e9676d64d33c2fd1adf2f8c",
+          "size_bytes": 11782,
+          "mtime_ns": 1791210824280000000
+        },
+        "marker_level_table.json": {
+          "sha256": "20475b4b5f79b28afe64669f6632faa0391ade80947aa622ef6d68fc9c48ead8",
+          "size_bytes": 37651,
+          "mtime_ns": 1791210824280000000
+        },
+        "plots/01_hist_stable_single.png": {
+          "sha256": "0d3831650f4ff0493a09ff18045bd18866ee69eaf96cb4a5a210045ca7099cd9",
+          "size_bytes": 25407,
+          "mtime_ns": 1791210861090000000
+        },
+        "plots/02_hist_stable_double_B1_B2.png": {
+          "sha256": "e7225e4dd39e572ba1a10f3095a61716ca101c98f974ed434dd607e9c6d66450",
+          "size_bytes": 29490,
+          "mtime_ns": 1791210861170000000
+        },
+        "plots/03_timeline_human_vs_plp.png": {
+          "sha256": "862bb7d3edadc891aa60f2e3c63ba54dae167826a9a88007c61f7e0fd25b7494",
+          "size_bytes": 33311,
+          "mtime_ns": 1791210861230000000
+        },
+        "plots/04_delta_vs_recording_time.png": {
+          "sha256": "485e685565cea7fc886e9cb5aca36890fa8a500b90b4480b1ec1bc942949fdae",
+          "size_bytes": 47716,
+          "mtime_ns": 1791210861300000000
+        },
+        "plots/05_delta_with_repeatability_uncertainty.png": {
+          "sha256": "ffd77b3671a89e931a24552dcf24df3a053fb4a3c4e195d94ad537f05f4232bc",
+          "size_bytes": 50727,
+          "mtime_ns": 1791210861370000000
+        },
+        "plots/06_multi_attack_geometry.png": {
+          "sha256": "fd77ca20cfd91083d81bec8208ae55dfb7702f3ae40c740c56c1029c19db1fb3",
+          "size_bytes": 49452,
+          "mtime_ns": 1791210861450000000
+        },
+        "sensitivity_integrity.json": {
+          "sha256": "9a9ec5e9af2675ed8a144880cc900d88385bfa970c9d4820fe2a3e1e4a107424",
+          "size_bytes": 775,
+          "mtime_ns": 1791210824270000000
+        },
+        "summary_statistics.json": {
+          "sha256": "5c3211cb2437f3ea0474e53ba65cd0ee933fc30854d103bec57768c7905d139e",
+          "size_bytes": 9313,
+          "mtime_ns": 1791210824270000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-HUMAN-REFERENCE-VS-B3PLP-001-20261005/SHA256SUMS",
+          "sha256": "02c17d1dd6bf329c6d4bcc2d45e048720fa86158d4f694db5824d0aba6484b4e",
+          "entries_verified": 19,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-BASS61-POPULATION-PROVENANCE-AUDIT-001-20261006",
+      "status": "COMPLETE",
+      "scope": "401 candidates to 216 non-chaining groups to 61 stable-present targets verified",
+      "scientific_claim": "401 candidates to 216 non-chaining groups to 61 stable-present targets verified",
+      "scientific_limitation": "Human could not create new arbitrary canonical event identities",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-POPULATION-PROVENANCE-AUDIT-001-20261006",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS61-POPULATION-PROVENANCE-AUDIT-001-20261006",
+      "files": {
+        "AUDIT_REPORT.txt": {
+          "sha256": "673488b529e4042818e947bf58149119d04b08c87ec01ad80a9cc2aba774d239",
+          "size_bytes": 12100,
+          "mtime_ns": 1791264298930000000
+        },
+        "SHA256SUMS": {
+          "sha256": "7ce600c2315da5f4f6ef2f9dc9b44b9b6b9f0bbdee4e5e304d4f7b26bf65287a",
+          "size_bytes": 1109,
+          "mtime_ns": 1791264298980000000
+        },
+        "authority_index.json": {
+          "sha256": "57a61bc2ad9ecfa8b5e6aed8d746c5ff91768591a37905d2fe74880f35d4b853",
+          "size_bytes": 18667,
+          "mtime_ns": 1791264298940000000
+        },
+        "backup_verification.json": {
+          "sha256": "cf9edafca933198fb795de5c3a535c3a6692f6af240480e5621d510cadd40786",
+          "size_bytes": 1812,
+          "mtime_ns": 1791264298970000000
+        },
+        "canonical_item_definition.json": {
+          "sha256": "7718b71429419118d6a7eb500d00c2bcf7e0da580234b8bd7d075b42af284706",
+          "size_bytes": 1355,
+          "mtime_ns": 1791264298370000000
+        },
+        "cell_occupancy.json": {
+          "sha256": "fb7834dcc85e4bce595899d447e97d43476e66355a9dbf392f7df7fb01c20509",
+          "size_bytes": 14056,
+          "mtime_ns": 1791264298410000000
+        },
+        "class_distribution_216.json": {
+          "sha256": "23862ed165797e3fdce0fdce0aea058ec7d8daa80d51ba94598cde4a8f15abde",
+          "size_bytes": 416,
+          "mtime_ns": 1791264298380000000
+        },
+        "exhaustive_annotation_protocol_proposal.json": {
+          "sha256": "3cff940112b8059d250bab005bca75b364590c14f93f4e29543a9edc558a64ab",
+          "size_bytes": 1544,
+          "mtime_ns": 1791264298920000000
+        },
+        "future_detector_implications.json": {
+          "sha256": "e88b0a3793d09834263b5fa56b6bee4ee270a0f32596c049ed93058f0f873d44",
+          "size_bytes": 805,
+          "mtime_ns": 1791264298420000000
+        },
+        "historical_score_comparison.json": {
+          "sha256": "c11936fa2fdb4f7598ba5638a8a2d044ddaa88a68abb57ac74c961ed2dadba10",
+          "size_bytes": 1024,
+          "mtime_ns": 1791264298420000000
+        },
+        "lineage.json": {
+          "sha256": "e7d10bc14e8f545d5e7fe48fc02eabd37038fb46fb62049a1549ef7a6b277649",
+          "size_bytes": 3007,
+          "mtime_ns": 1791264298340000000
+        },
+        "population_accounting.json": {
+          "sha256": "238491e084c6bad705915c4d5e208c36e0f24ad847db93a4a705bd22746033c1",
+          "size_bytes": 1193,
+          "mtime_ns": 1791264298400000000
+        },
+        "validation_record.json": {
+          "sha256": "e9eb9f105db0ece8d1169b5e5b80e752799281862ef892f4503ab7c96c7a8405",
+          "size_bytes": 809,
+          "mtime_ns": 1791264298950000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS61-POPULATION-PROVENANCE-AUDIT-001-20261006/SHA256SUMS",
+          "sha256": "7ce600c2315da5f4f6ef2f9dc9b44b9b6b9f0bbdee4e5e304d4f7b26bf65287a",
+          "entries_verified": 12,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-HISTORICAL-BASS-CAPABILITY-RECOVERY-001-20261006",
+      "status": "COMPLETE",
+      "scope": "Existing machine capabilities recovered; controlled baseline and historical failures preserved",
+      "scientific_claim": "Existing machine capabilities recovered; controlled baseline and historical failures preserved",
+      "scientific_limitation": "No new detector or promotion",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-HISTORICAL-BASS-CAPABILITY-RECOVERY-001-20261006",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HISTORICAL-BASS-CAPABILITY-RECOVERY-001-20261006",
+      "files": {
+        "AUDIT_REPORT.txt": {
+          "sha256": "6ed88c7adf1d03af19fb4b95e2312d747bb36c5fa905476387d043a076810fb2",
+          "size_bytes": 16393,
+          "mtime_ns": 1791265928110000000
+        },
+        "CAMPAIGN_INDEX.tsv": {
+          "sha256": "11f3bfc8fe2088dfb8790dc936215ce3c502ab665eb87cf43e0545c58f5228a5",
+          "size_bytes": 161312,
+          "mtime_ns": 1791265928140000000
+        },
+        "SHA256SUMS": {
+          "sha256": "bd5df10af27e7bfff69ed66a3d5c5f5957144532cf03e14b03fcdeeebc2159fe",
+          "size_bytes": 1789,
+          "mtime_ns": 1791265928170000000
+        },
+        "authority_index.json": {
+          "sha256": "4f166ee09dce13e6e89e512395940311c1b1d8b1d760b31c18fa56298bba0474",
+          "size_bytes": 1540520,
+          "mtime_ns": 1791265910310000000
+        },
+        "backup_verification.json": {
+          "sha256": "1c6ddfe0b367cbc1d6918a0b38c52b2836d142cab357a5c9918ab93fc45e6719",
+          "size_bytes": 2765,
+          "mtime_ns": 1791265928160000000
+        },
+        "baseline_manifest_verification.json": {
+          "sha256": "e648fa7d8b3ebc3a7cda005a96a11ae9555e5a48ace6d9044ea015625b57bf31",
+          "size_bytes": 137621,
+          "mtime_ns": 1791265928120000000
+        },
+        "campaign_inventory.json": {
+          "sha256": "9d912365be401db50986d030f2830bb522029b081164f2f65c1becede0cfdb7f",
+          "size_bytes": 15811342,
+          "mtime_ns": 1791265910510000000
+        },
+        "capability_matrix.json": {
+          "sha256": "a41fc4166e0dc722269a82f37fc1212fb891331b8b906b0326c0f9d7eaef0777",
+          "size_bytes": 3081,
+          "mtime_ns": 1791265928070000000
+        },
+        "external_authority_registration_recovery.json": {
+          "sha256": "b3e232f1ee08eda96a9397a80e91d871fd87f8b5588e094e0ade50f89d0b6577",
+          "size_bytes": 195290,
+          "mtime_ns": 1791265928120000000
+        },
+        "fullmix_stem_separation.json": {
+          "sha256": "e3d0a49b48b0948f85073d4fa65c54bdd5a7791cda243b457632973e218d1db6",
+          "size_bytes": 974,
+          "mtime_ns": 1791265927980000000
+        },
+        "gap_analysis.json": {
+          "sha256": "75fb8301d9df3ff98627da691783d39113b255676021426eacbcde72ed042ba8",
+          "size_bytes": 1988,
+          "mtime_ns": 1791265928080000000
+        },
+        "machine_human_comparison_inventory.json": {
+          "sha256": "353c59f9b4c850f36cb4118982d26593b3889243b8e5797658201f4cf1167696",
+          "size_bytes": 1917498,
+          "mtime_ns": 1791265928010000000
+        },
+        "machine_pipeline_inventory.json": {
+          "sha256": "079644926b38ad21a310409abd0b670bc7aea2646cb997f7ba894ca72c82e8fb",
+          "size_bytes": 522009,
+          "mtime_ns": 1791265927960000000
+        },
+        "multiattack_structural_recovery.json": {
+          "sha256": "0256341f837f53a1dc0cb4da02d44588b41cb510609dd52bf0608fc1e28c21b4",
+          "size_bytes": 632,
+          "mtime_ns": 1791265928100000000
+        },
+        "population_lineage.json": {
+          "sha256": "da51eb797848d28bb17a26c520e4d97589410f23dae820f193dd0e579f97efb9",
+          "size_bytes": 5423,
+          "mtime_ns": 1791265927930000000
+        },
+        "prelocalization_fields.json": {
+          "sha256": "c1cc80ab2ed73b7911a400b3920992e74addca012fa5ffe3cf47a32677d1b671",
+          "size_bytes": 1698,
+          "mtime_ns": 1791265928100000000
+        },
+        "presence_validation_recovery.json": {
+          "sha256": "819b100d572f556a4fedc2903448d5f901078948d7810d5811bded89d257f566",
+          "size_bytes": 3217,
+          "mtime_ns": 1791265928090000000
+        },
+        "recovery_conclusions.json": {
+          "sha256": "0e7a73a26775726be463d4ebf2181742329e39a4432f6f47004c08f196d02e09",
+          "size_bytes": 1993,
+          "mtime_ns": 1791265928110000000
+        },
+        "special_population_recovery.json": {
+          "sha256": "fea0bf18ad936273749d6fdb94a26e27532d4c5eb7e5e37e139c8822cbe3cb47",
+          "size_bytes": 1966,
+          "mtime_ns": 1791265928080000000
+        },
+        "validation_record.json": {
+          "sha256": "11dda20d03bda1a02e9ab7b4f3ce47be92940806bfc4506741a317ab77050dc0",
+          "size_bytes": 4476,
+          "mtime_ns": 1791265928100000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-HISTORICAL-BASS-CAPABILITY-RECOVERY-001-20261006/SHA256SUMS",
+          "sha256": "bd5df10af27e7bfff69ed66a3d5c5f5957144532cf03e14b03fcdeeebc2159fe",
+          "entries_verified": 19,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-BASS-PLP-DRUM-INTEGRATED-VISUALIZATION-001-20261005",
+      "status": "CANDIDATE_DIAGNOSTIC",
+      "scope": "Bass/PLP visualization diagnostic checkpoint",
+      "scientific_claim": "Bass/PLP visualization diagnostic checkpoint",
+      "scientific_limitation": "Drum timing authority not established; not final score",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS-PLP-DRUM-INTEGRATED-VISUALIZATION-001-20261005",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-BASS-PLP-DRUM-INTEGRATED-VISUALIZATION-001-20261005",
+      "files": {
+        "AUTHORITY_VERIFICATION.json": {
+          "sha256": "f055a4b73a48a9dacee8470bee908fd8eaddbbb47294089424e2d943d2562240",
+          "size_bytes": 2325,
+          "mtime_ns": 1791212906370000000
+        },
+        "DRUM_AUTHORITY_INVESTIGATION.md": {
+          "sha256": "9b79c76ad2e6ab3974b706f275b32b0bd19f039de6449acdf60ae1efcde3f492",
+          "size_bytes": 3637,
+          "mtime_ns": 1791212717560000000
+        },
+        "RENDERING_SPECIFICATION.json": {
+          "sha256": "78c6115c3f11ad737569fb24729058a5d47e698ba634307e0faae264265d8fbe",
+          "size_bytes": 2552,
+          "mtime_ns": 1791212906370000000
+        },
+        "RENDER_VALIDATION.json": {
+          "sha256": "8e0fa1b88e6cd19674917d9d777e858eb36b89166376f0d984a4a9eaf1034c1a",
+          "size_bytes": 3874,
+          "mtime_ns": 1791212907480000000
+        },
+        "REQUIRED_CANONICAL_CHANGE.md": {
+          "sha256": "8c3440f5c32e53a5cd491cd3ee062ea586fdb542ab93b0dae6b2144edf80e692",
+          "size_bytes": 3119,
+          "mtime_ns": 1791212484900000000
+        },
+        "SHA256SUMS": {
+          "sha256": "11adeabb6f27e59dc084ede2e05612918b64e65341196d4db8406e525fad7f26",
+          "size_bytes": 1596,
+          "mtime_ns": 1791212935110000000
+        },
+        "VISUALIZATION_REPORT.md": {
+          "sha256": "562fd844424f18df9c5dc3133eb9e8f1ced5cbeefa0fc038d89d4122316e99ba",
+          "size_bytes": 9325,
+          "mtime_ns": 1791212924690000000
+        },
+        "__pycache__/authority_loader.cpython-313.pyc": {
+          "sha256": "1c1a942d4fee48eccd27bd93805b6ac91f38baa351751c4cf62524d1988db7bc",
+          "size_bytes": 8151,
+          "mtime_ns": 1791212947260000000
+        },
+        "analytical_score_prototype.json": {
+          "sha256": "27ef66e17d79c14061f0698a51c5ba25becda7a676580cff9c9422a9dcc2f8c9",
+          "size_bytes": 395,
+          "mtime_ns": 1791212907480000000
+        },
+        "analytical_score_prototype.py": {
+          "sha256": "d72bcd0cc53701fae85b135ec024c8c94ed939466486e78b265cc718ac3c693a",
+          "size_bytes": 6081,
+          "mtime_ns": 1791212454570000000
+        },
+        "authority_loader.py": {
+          "sha256": "0bf662e490f191807cc8ebf72a5a7fe4fe3ba3c9f2340ff41d9e98a88f71f8e4",
+          "size_bytes": 5655,
+          "mtime_ns": 1791212301460000000
+        },
+        "plots/01_integrated_clean.png": {
+          "sha256": "f505c26d0f8d6283ace860ff63682e416a34c3f4335e5badb7c705b5ff97dfa8",
+          "size_bytes": 137774,
+          "mtime_ns": 1791212906660000000
+        },
+        "plots/02_integrated_uncertainty.png": {
+          "sha256": "cbbe9bc3560719126895aa49deb4ba9a7e49035275c251647174472a1b3e9f2d",
+          "size_bytes": 145489,
+          "mtime_ns": 1791212906870000000
+        },
+        "plots/03_delta_vs_plp.png": {
+          "sha256": "e2a8f217a76e52dbc463f4755ceb2a363f4d463d8ba5231e3a3a50c3d04c20a2",
+          "size_bytes": 117081,
+          "mtime_ns": 1791212907040000000
+        },
+        "plots/04_double_attack_zoom.png": {
+          "sha256": "82dbaabeadf418e125cb6f2d444058f15404b691dcc406fe6c016c967dedc260",
+          "size_bytes": 87684,
+          "mtime_ns": 1791212907170000000
+        },
+        "plots/05_analytical_score_prototype.png": {
+          "sha256": "b0a2d3d4cb6a9fa3b18211c320f63d527ce1c36f1ea3a8ce70e5395998e63cd4",
+          "size_bytes": 230463,
+          "mtime_ns": 1791212907480000000
+        },
+        "render_views.py": {
+          "sha256": "f9b012b6fd4f8517748f849497e1d1c790d47ac65c4238193a10c8360fe5b84b",
+          "size_bytes": 12770,
+          "mtime_ns": 1791212388260000000
+        },
+        "rendering_manifest.json": {
+          "sha256": "8c9354d8a709f0438c479eb1f336f19cf9d56c2a302b0d55f3d2be1ca104bcb5",
+          "size_bytes": 458,
+          "mtime_ns": 1791212907170000000
+        },
+        "verify_and_validate.py": {
+          "sha256": "f935621c9e3ed1892b89dfe4ca63db1ae7a94c06532226e16d725411f1fdfd97",
+          "size_bytes": 13505,
+          "mtime_ns": 1791212900550000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-BASS-PLP-DRUM-INTEGRATED-VISUALIZATION-001-20261005/SHA256SUMS",
+          "sha256": "11adeabb6f27e59dc084ede2e05612918b64e65341196d4db8406e525fad7f26",
+          "entries_verified": 17,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-MICROTIMING-SCORE-HUMAN-BASS-B3PLP-001-20261005",
+      "status": "CANDIDATE",
+      "scope": "Visual language recovered; frozen validation records verify 66/66 rendered",
+      "scientific_claim": "Visual language recovered; frozen validation records verify 66/66 rendered",
+      "scientific_limitation": "Not final canonical public machine-only score",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-MICROTIMING-SCORE-HUMAN-BASS-B3PLP-001-20261005",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-MICROTIMING-SCORE-HUMAN-BASS-B3PLP-001-20261005",
+      "files": {
+        "SHA256SUMS": {
+          "sha256": "985931edaac14c6fe32424858fe382cf8fcc094cb3347efab0d311a13610dc56",
+          "size_bytes": 3213,
+          "mtime_ns": 1791262147350000000
+        },
+        "authority_verification.json": {
+          "sha256": "e67d10e3b071151a65f9580ae5bb7a00a5339de78a853af98cb380bcf45e191e",
+          "size_bytes": 13497,
+          "mtime_ns": 1791237704120000000
+        },
+        "backup_verification.json": {
+          "sha256": "8cba4bca94edba9a6c6349603d0e098e60127a1c232f3c809e5ba6701d76076b",
+          "size_bytes": 6001,
+          "mtime_ns": 1791262147330000000
+        },
+        "drawn_marker_manifest.json": {
+          "sha256": "561d0da1d8842e59af1d1b55ee140abe2590d3a30eca0a12c8e8f789e776e027",
+          "size_bytes": 94864,
+          "mtime_ns": 1791237704090000000
+        },
+        "interrupted_provenance/plots/microtiming_score_human_bass_b3plp_clean.pdf": {
+          "sha256": "445aa1df72843b48acd6f22bfb6bd84f518c361346073a1429ace46a96cd641a",
+          "size_bytes": 57119,
+          "mtime_ns": 1791237576900000000
+        },
+        "interrupted_provenance/plots/microtiming_score_human_bass_b3plp_clean.png": {
+          "sha256": "2c6ed13124f0518d3d76936a1c03dfa0562559f2d412b228079f16cac5796e47",
+          "size_bytes": 207454,
+          "mtime_ns": 1791237576900000000
+        },
+        "interrupted_provenance/plots/microtiming_score_human_bass_b3plp_uncertainty.pdf": {
+          "sha256": "566d1e17afa2d9370dc29c0231631d6cd87fc3219ae05697e45fe235dad9faaf",
+          "size_bytes": 59421,
+          "mtime_ns": 1791237576910000000
+        },
+        "interrupted_provenance/plots/microtiming_score_human_bass_b3plp_uncertainty.png": {
+          "sha256": "1c7d307ab9eecf7af53d11ef4c066bed3ef21abe858e77e9dc6a7df1337d0774",
+          "size_bytes": 224820,
+          "mtime_ns": 1791237576910000000
+        },
+        "interrupted_provenance/recovery_inventory.json": {
+          "sha256": "249e82fd7c9ca2bad222b6cf9bf3fdedde6a8741e4627b408e11026b74901586",
+          "size_bytes": 2599,
+          "mtime_ns": 1791237576910000000
+        },
+        "interrupted_provenance/render_microtiming_score.py": {
+          "sha256": "5642d425d0850ebdfb8b0fbfc0e6958e72a5142fe176716c5ea5f77ce2db810b",
+          "size_bytes": 16972,
+          "mtime_ns": 1791237576880000000
+        },
+        "interrupted_provenance/render_report.json": {
+          "sha256": "45837067f0920cb5dc88e9045e59be03f33156542c2148a980381b051b48f3f9",
+          "size_bytes": 420,
+          "mtime_ns": 1791237576890000000
+        },
+        "interrupted_provenance/validate_score.py": {
+          "sha256": "d467e792a9d4ea83e9d2a85ddd12dfb516275d5b3aa24e78995f54db60a9e547",
+          "size_bytes": 7813,
+          "mtime_ns": 1791237576890000000
+        },
+        "interrupted_provenance/validation_report.json": {
+          "sha256": "525f7bcf0430bd711077e6833b2eb7952a1744513ad8b90ec9b25154ff3b3c4e",
+          "size_bytes": 3864,
+          "mtime_ns": 1791237576890000000
+        },
+        "layout_validation.json": {
+          "sha256": "90d9ecc4e633f72b6bbac7c576a7a2356da27d238d25cceccdc14ca22f906a23",
+          "size_bytes": 511,
+          "mtime_ns": 1791237704100000000
+        },
+        "plots/microtiming_score_human_bass_b3plp_clean.pdf": {
+          "sha256": "9e301e7a85510fb5d2e0a50418d122df8cb1fbfa76b7353ea4503302de1a3ef6",
+          "size_bytes": 63424,
+          "mtime_ns": 1791237702670000000
+        },
+        "plots/microtiming_score_human_bass_b3plp_clean.png": {
+          "sha256": "376e57a9ef282f29539ea3c8ff5670ab1271dc64e3d6ae6146b8238cab05620b",
+          "size_bytes": 391979,
+          "mtime_ns": 1791237702730000000
+        },
+        "plots/microtiming_score_human_bass_b3plp_uncertainty.pdf": {
+          "sha256": "ef5737666ab7865e831cd10d84b177bbc5cd642352f95816ed1ea2c1fb2d8788",
+          "size_bytes": 66325,
+          "mtime_ns": 1791237704010000000
+        },
+        "plots/microtiming_score_human_bass_b3plp_uncertainty.png": {
+          "sha256": "5b461faa28ebcfb31f68ab9fb5d537d52d87c66fd1cb66ff90640bec64ac5356",
+          "size_bytes": 421736,
+          "mtime_ns": 1791237704070000000
+        },
+        "recovery_record.json": {
+          "sha256": "b37e3d6e2aadb8c4e90a2532e695d7270e4d226131a407341b3bd0b1817ccdfd",
+          "size_bytes": 1209,
+          "mtime_ns": 1791262144340000000
+        },
+        "reference/BPM_EVOLUTION.csv": {
+          "sha256": "2d7e7b7ebdb2c9f2790fa5f7722b4c95628dc8fb9a7d440c50579711709f0d2c",
+          "size_bytes": 83253,
+          "mtime_ns": 1791219986540000000
+        },
+        "reference/FINAL_BPM_SUMMARY.json": {
+          "sha256": "ca74022dc89db853e1790b6433dade962b893d30c7b2fc24f9a5c86b62c223f1",
+          "size_bytes": 1906,
+          "mtime_ns": 1791219986490000000
+        },
+        "reference/JGA_FINAL_REPORT_page1_visual_reference.pdf": {
+          "sha256": "7cb2ef38897703cd33d4ab423250a02f23c0bb387ca344c5a392a0883884e450",
+          "size_bytes": 63784,
+          "mtime_ns": 1791219986460000000
+        },
+        "reference/METRIC_REFERENCE.csv": {
+          "sha256": "15aca782227893092b962fe8b9ea9d67e2194f9f967a6634f80b2fbf92b00fd6",
+          "size_bytes": 58662,
+          "mtime_ns": 1791219986500000000
+        },
+        "reference/historical_render_final_report.py": {
+          "sha256": "eb5d841b5512c902f775c064e1de9fdf5ca98221bbd7b46ef5f2e63b6f7b6327",
+          "size_bytes": 7991,
+          "mtime_ns": 1791219986480000000
+        },
+        "render_microtiming_score.py": {
+          "sha256": "1b7114f2f98cc3224f22b74ef8e5a89819d38db6c6f6bbe2759bc61784318ab9",
+          "size_bytes": 16688,
+          "mtime_ns": 1791237700850000000
+        },
+        "render_report.json": {
+          "sha256": "0abeb0d381c47662215f669e781571b040c2a805f11ac183c0069ff8ee3f131c",
+          "size_bytes": 289,
+          "mtime_ns": 1791237704080000000
+        },
+        "rendering_specification.json": {
+          "sha256": "8ad9c34b6dc707577b5746fb7b6f714b9a997e961904bc19b5a12f6dbd5ac1c3",
+          "size_bytes": 2570,
+          "mtime_ns": 1791261126490000000
+        },
+        "required_canonical_changes.json": {
+          "sha256": "33b7afd77d42bd87ffc2861cb06af90455f5d28ebbf651b5f29a0f95abb5b7fd",
+          "size_bytes": 1027,
+          "mtime_ns": 1791261126490000000
+        },
+        "text_manifest.json": {
+          "sha256": "3475a14873cbbae1d691579df041ce34afb353fb97af7767f80883eed9626349",
+          "size_bytes": 140793,
+          "mtime_ns": 1791237704100000000
+        },
+        "validate_score.py": {
+          "sha256": "7038238a1e5ae0dc582562fb49db8aa7d8eb81f44a0485625a7f3ef0dc52827d",
+          "size_bytes": 9011,
+          "mtime_ns": 1791261126480000000
+        },
+        "validation_report.json": {
+          "sha256": "0943f7fc2dfb0d7040a4c9175f5777912e9108e7c55e9ad6b2c39f2ce79d82ed",
+          "size_bytes": 6706,
+          "mtime_ns": 1791262144310000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-MICROTIMING-SCORE-HUMAN-BASS-B3PLP-001-20261005/SHA256SUMS",
+          "sha256": "985931edaac14c6fe32424858fe382cf8fcc094cb3347efab0d311a13610dc56",
+          "entries_verified": 30,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-HISTORICAL-FULLMIX-BASS-MACHINE-QUALIFICATION-001-20261006",
+      "status": "BLOCKED_NOT_EXECUTED",
+      "scope": "Six prospective PI gates frozen; firewall blocker recorded",
+      "scientific_claim": "Six prospective PI gates frozen; firewall blocker recorded",
+      "scientific_limitation": "No machine output authority, formal comparison unseal, or promotion result",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-HISTORICAL-FULLMIX-BASS-MACHINE-QUALIFICATION-001-20261006",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-HISTORICAL-FULLMIX-BASS-MACHINE-QUALIFICATION-001-20261006",
+      "files": {
+        "AUTHORITY_INSPECTION_RECORD.json": {
+          "sha256": "4a6725aa33bf8aca1a4ce1a20386e99f3d3f1c99c6d7e1a8c0fe4298f89767a7",
+          "size_bytes": 2124,
+          "mtime_ns": 1791269063850000000
+        },
+        "BLOCKED_REPORT.json": {
+          "sha256": "804fba634ad3fd6d3e18f40d469eea9344f9f6cd6278c642ffc49e2a64d922f8",
+          "size_bytes": 1503,
+          "mtime_ns": 1791269066030000000
+        },
+        "HUMAN_FIREWALL_FAILURE.json": {
+          "sha256": "a20667db485f236480ae333f5f929c05791d145c5c137fd604bb2362e3ea76d2",
+          "size_bytes": 1006,
+          "mtime_ns": 1791269061500000000
+        },
+        "MANIFEST.json": {
+          "sha256": "6ef1958c8faaac38c276f7639d8d1fd6af8f079d5fee8e720fd243692d6c3c68",
+          "size_bytes": 700,
+          "mtime_ns": 1791269068120000000
+        },
+        "PI_PROMOTION_CRITERIA.json": {
+          "sha256": "ed37daff10cc6d723f316b7f575a84f55d931f3d59bf20c45cb1f84efc7625a7",
+          "size_bytes": 685,
+          "mtime_ns": 1791269059050000000
+        },
+        "SHA256SUMS": {
+          "sha256": "6db5d4fe1fcd1519504ba3a3f18e32ee4cfbcbe1d481e1b9f7271da205a1df04",
+          "size_bytes": 452,
+          "mtime_ns": 1791269070340000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-HISTORICAL-FULLMIX-BASS-MACHINE-QUALIFICATION-001-20261006/SHA256SUMS",
+          "sha256": "6db5d4fe1fcd1519504ba3a3f18e32ee4cfbcbe1d481e1b9f7271da205a1df04",
+          "entries_verified": 5,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-MUSICAL-QUARTER-INDEPENDENT-PI-VALIDATION-001-20261005",
+      "status": "TERMINATED_BEFORE_SCIENTIFIC_COLLECTION",
+      "scope": "Termination record; zero scientific answers; PASS_B not opened according to records",
+      "scientific_claim": "Termination record; zero scientific answers; PASS_B not opened according to records",
+      "scientific_limitation": "Usability smoke interactions are not scientific evidence",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-MUSICAL-QUARTER-INDEPENDENT-PI-VALIDATION-001-20261005",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-MUSICAL-QUARTER-INDEPENDENT-PI-VALIDATION-001-20261005",
+      "files": {
+        "AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "f770886b4196bbf423e6d841c762faace11e343bfba4845177f1727cfa74baa6",
+          "size_bytes": 2737,
+          "mtime_ns": 1791208609660000000
+        },
+        "AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/REVIEW.html": {
+          "sha256": "13696fc584d2a1ed7ac49530aa3dd4ded9f67f4d13b0f12fb0d3f9eb1fb39102",
+          "size_bytes": 30518,
+          "mtime_ns": 1791208609650000000
+        },
+        "AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "b3ca90a8f19b246dd65dc3e7a70ec085ee28896a8d283597d781fc7d95a14d5e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791208609550000000
+        },
+        "AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "ba927bfa75c4790cef90f10b77728bda6d35458b30fccdf760f5769e23de1303",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791208609570000000
+        },
+        "AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "ea8516b714b9ebd71fbf82a5461341be07f6b57808c616a4972cacd6ab0f90cc",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791208609600000000
+        },
+        "AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "c1297dbc7a35c56fdd0404475e3220695afa269ab7fe12fc39c4d70ddebe450e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791208609640000000
+        },
+        "DESIGN_RECORD.md": {
+          "sha256": "ed7e5b43850c0c28715c6003699c691aad76c03160c02658ca30ded8422b8df4",
+          "size_bytes": 15959,
+          "mtime_ns": 1791193181540000000
+        },
+        "LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "1292a40ba386d39c6e0adc7b3c6e1159075defbd9618b129cc39230dd8dabc8c",
+          "size_bytes": 3397,
+          "mtime_ns": 1791191312860000000
+        },
+        "PASS_A/INSTRUCTIONS.md": {
+          "sha256": "f770886b4196bbf423e6d841c762faace11e343bfba4845177f1727cfa74baa6",
+          "size_bytes": 2737,
+          "mtime_ns": 1791199589880000000
+        },
+        "PASS_A/REVIEW.html": {
+          "sha256": "13696fc584d2a1ed7ac49530aa3dd4ded9f67f4d13b0f12fb0d3f9eb1fb39102",
+          "size_bytes": 30518,
+          "mtime_ns": 1791199589870000000
+        },
+        "PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "b3ca90a8f19b246dd65dc3e7a70ec085ee28896a8d283597d781fc7d95a14d5e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791199589670000000
+        },
+        "PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "ba927bfa75c4790cef90f10b77728bda6d35458b30fccdf760f5769e23de1303",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791199589680000000
+        },
+        "PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "ea8516b714b9ebd71fbf82a5461341be07f6b57808c616a4972cacd6ab0f90cc",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791199589700000000
+        },
+        "PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "c1297dbc7a35c56fdd0404475e3220695afa269ab7fe12fc39c4d70ddebe450e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791199589710000000
+        },
+        "PASS_B/INSTRUCTIONS.md": {
+          "sha256": "70d02c8be5e71c06e583367d1f3e4288cf81c0ea27901e3f0c34165fdef3cced",
+          "size_bytes": 3075,
+          "mtime_ns": 1791199589960000000
+        },
+        "PASS_B/REVIEW.html": {
+          "sha256": "9caf10e70194e628f0a6e61c2956243ad3ff3ab0a5c63b87b49ba73b27a75506",
+          "size_bytes": 30518,
+          "mtime_ns": 1791199589960000000
+        },
+        "PASS_B/SEGMENT/SEG_00.wav": {
+          "sha256": "b3ca90a8f19b246dd65dc3e7a70ec085ee28896a8d283597d781fc7d95a14d5e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791199589670000000
+        },
+        "PASS_B/SEGMENT/SEG_01.wav": {
+          "sha256": "ba927bfa75c4790cef90f10b77728bda6d35458b30fccdf760f5769e23de1303",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791199589680000000
+        },
+        "PASS_B/SEGMENT/SEG_02.wav": {
+          "sha256": "ea8516b714b9ebd71fbf82a5461341be07f6b57808c616a4972cacd6ab0f90cc",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791199589700000000
+        },
+        "PASS_B/SEGMENT/SEG_03.wav": {
+          "sha256": "c1297dbc7a35c56fdd0404475e3220695afa269ab7fe12fc39c4d70ddebe450e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791199589710000000
+        },
+        "PI_DECISION_TERMINATION_RECORD.json": {
+          "sha256": "1449c54b68d7acd1cc562cab82fb3a0d12df7567a278e45f5edd112f2e440b25",
+          "size_bytes": 1027,
+          "mtime_ns": 1791210741330000000
+        },
+        "PI_RULING_FROZEN.json": {
+          "sha256": "e143d5939c36015026463ca978d5d7baa3ee38b770220305dcb6b6b672c3b92a",
+          "size_bytes": 7400,
+          "mtime_ns": 1791210741430000000
+        },
+        "PREREGISTRATION_FREEZE.json": {
+          "sha256": "c613d39c5f908409fa13c22131fceb995107adc46a161004efcc17decbcd918f",
+          "size_bytes": 11012,
+          "mtime_ns": 1791191312770000000
+        },
+        "PREREGISTRATION_SHA256.txt": {
+          "sha256": "c9724e4722b0e7040777e711da36a9b9b04461fd4da38ea117b9e4a0935415ca",
+          "size_bytes": 65,
+          "mtime_ns": 1791191312770000000
+        },
+        "SEALED_MAPPING.json": {
+          "sha256": "6b65b4776a70e25dec625b9b19cf12d63fd10890b0d7f9dffbd3be771676a6a4",
+          "size_bytes": 4261,
+          "mtime_ns": 1791199589970000000
+        },
+        "SHA256SUMS": {
+          "sha256": "d65fb63c62e7fdeeb794e397b61ca3b20ef5d962a40b74e0ce7a83f760d56a76",
+          "size_bytes": 15916,
+          "mtime_ns": 1791193284670000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/DESIGN_RECORD.md": {
+          "sha256": "79c6f78e12f500bb25387b1a4df61c992c87e2231c7bdb1c1674d0425e11d0e3",
+          "size_bytes": 9149,
+          "mtime_ns": 1791183764000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "5d2214f92f5c2e69cff270a9b193fc3b15b4a318e0feab3521b29d634704f27f",
+          "size_bytes": 3827,
+          "mtime_ns": 1791183656000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "3837463b44350eaeb313fd8df1aa040ab7424ebff2519ae015cc9480101205eb",
+          "size_bytes": 1927,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_A/REVIEW.html": {
+          "sha256": "a53201740edddb32daab99a076d8c79f8ff7cf2f1d564c34734b0f2e88ecaf84",
+          "size_bytes": 14363,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_B/INSTRUCTIONS.md": {
+          "sha256": "113ff246bfd6e00029f33529cc6440a9fc20da0c1275d2e08f03dbc5b838042a",
+          "size_bytes": 1927,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_B/REVIEW.html": {
+          "sha256": "d8d1647f0f52de2c07bcb24df1dfb7a88181cfb8bbe69d0b1360a66b0a487d9a",
+          "size_bytes": 14363,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/PREREGISTRATION_FREEZE.json": {
+          "sha256": "2c0dab4958033ac9e519ee891b3d627a2b8c88db12c88fae19e1a01b4fa56c17",
+          "size_bytes": 8729,
+          "mtime_ns": 1791183656000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/PREREGISTRATION_SHA256.txt": {
+          "sha256": "3957d3ac1a270e78109f682ed5045d63be28a4b5161bcb8677c2be8e0b0526da",
+          "size_bytes": 65,
+          "mtime_ns": 1791183656000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/SEALED_MAPPING.json": {
+          "sha256": "99a92c1bb52db3ca09967d8af1dd91c3942b74f782ce3fbf2beeb87ab2ac63e7",
+          "size_bytes": 4927,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/SHA256SUMS": {
+          "sha256": "1ec548dced1c80b90c0aa73eb7207951534e445e899f6d81c2b12be6838e9bf3",
+          "size_bytes": 2243,
+          "mtime_ns": 1791183803000000000
+        },
+        "SUPERSEDED_20261005_PRE_WINDOW_RULING/VALIDATION.json": {
+          "sha256": "e65148bde5363e1fe675b91c57077babe6cceaa39897a2408a5d9b8e78b751f6",
+          "size_bytes": 5945,
+          "mtime_ns": 1791183793000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/DESIGN_RECORD.md": {
+          "sha256": "ed7e5b43850c0c28715c6003699c691aad76c03160c02658ca30ded8422b8df4",
+          "size_bytes": 15959,
+          "mtime_ns": 1791193181000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "1292a40ba386d39c6e0adc7b3c6e1159075defbd9618b129cc39230dd8dabc8c",
+          "size_bytes": 3397,
+          "mtime_ns": 1791191312000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "f770886b4196bbf423e6d841c762faace11e343bfba4845177f1727cfa74baa6",
+          "size_bytes": 2737,
+          "mtime_ns": 1791192594000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/REVIEW.html": {
+          "sha256": "3038585458660059f5d174fe5d466ca6ac4a4861c050fce25c3bd91b1467e5e0",
+          "size_bytes": 28265,
+          "mtime_ns": 1791192594000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "9168cf4de581cbdde48125556d971bd29b2d927cc5d8e901cdf7e1e39845f985",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "0353a7bef802d54f504abf34330f524dac5aeae2e42f38364c30b4f214912fb2",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "f9ba06e8ea026a2db7d44bb5d69cc0dd50ce1accb582727e11f3c2580100df68",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "a1165069cd8b225def3d6e389602bf8e90ea6ddc0226de0cc92843d32f5b81d9",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/INSTRUCTIONS.md": {
+          "sha256": "70d02c8be5e71c06e583367d1f3e4288cf81c0ea27901e3f0c34165fdef3cced",
+          "size_bytes": 3075,
+          "mtime_ns": 1791192594000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/REVIEW.html": {
+          "sha256": "3262e45193457c659b342fa09616dd62a1306eaa5a123988f4bc501e72a61df2",
+          "size_bytes": 28265,
+          "mtime_ns": 1791192594000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_00.wav": {
+          "sha256": "9168cf4de581cbdde48125556d971bd29b2d927cc5d8e901cdf7e1e39845f985",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_01.wav": {
+          "sha256": "0353a7bef802d54f504abf34330f524dac5aeae2e42f38364c30b4f214912fb2",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_02.wav": {
+          "sha256": "f9ba06e8ea026a2db7d44bb5d69cc0dd50ce1accb582727e11f3c2580100df68",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_03.wav": {
+          "sha256": "a1165069cd8b225def3d6e389602bf8e90ea6ddc0226de0cc92843d32f5b81d9",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PI_RULING_FROZEN.json": {
+          "sha256": "8383d05f90856887febd1e41a4de31c8b5ecdd4f48e6fc926b4735da40b118ae",
+          "size_bytes": 6846,
+          "mtime_ns": 1791193209000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_FREEZE.json": {
+          "sha256": "c613d39c5f908409fa13c22131fceb995107adc46a161004efcc17decbcd918f",
+          "size_bytes": 11012,
+          "mtime_ns": 1791191312000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_SHA256.txt": {
+          "sha256": "c9724e4722b0e7040777e711da36a9b9b04461fd4da38ea117b9e4a0935415ca",
+          "size_bytes": 65,
+          "mtime_ns": 1791191312000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SEALED_MAPPING.json": {
+          "sha256": "b4025905f7ac742344811b0baee729eda20c0a4615bcd5acc631b34056c33bcd",
+          "size_bytes": 4261,
+          "mtime_ns": 1791192594000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SHA256SUMS": {
+          "sha256": "d65fb63c62e7fdeeb794e397b61ca3b20ef5d962a40b74e0ce7a83f760d56a76",
+          "size_bytes": 15916,
+          "mtime_ns": 1791193284000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/DESIGN_RECORD.md": {
+          "sha256": "79c6f78e12f500bb25387b1a4df61c992c87e2231c7bdb1c1674d0425e11d0e3",
+          "size_bytes": 9149,
+          "mtime_ns": 1791183764000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "5d2214f92f5c2e69cff270a9b193fc3b15b4a318e0feab3521b29d634704f27f",
+          "size_bytes": 3827,
+          "mtime_ns": 1791183656000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "3837463b44350eaeb313fd8df1aa040ab7424ebff2519ae015cc9480101205eb",
+          "size_bytes": 1927,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_A/REVIEW.html": {
+          "sha256": "a53201740edddb32daab99a076d8c79f8ff7cf2f1d564c34734b0f2e88ecaf84",
+          "size_bytes": 14363,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_B/INSTRUCTIONS.md": {
+          "sha256": "113ff246bfd6e00029f33529cc6440a9fc20da0c1275d2e08f03dbc5b838042a",
+          "size_bytes": 1927,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_B/REVIEW.html": {
+          "sha256": "d8d1647f0f52de2c07bcb24df1dfb7a88181cfb8bbe69d0b1360a66b0a487d9a",
+          "size_bytes": 14363,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PREREGISTRATION_FREEZE.json": {
+          "sha256": "2c0dab4958033ac9e519ee891b3d627a2b8c88db12c88fae19e1a01b4fa56c17",
+          "size_bytes": 8729,
+          "mtime_ns": 1791183656000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PREREGISTRATION_SHA256.txt": {
+          "sha256": "3957d3ac1a270e78109f682ed5045d63be28a4b5161bcb8677c2be8e0b0526da",
+          "size_bytes": 65,
+          "mtime_ns": 1791183656000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/SEALED_MAPPING.json": {
+          "sha256": "99a92c1bb52db3ca09967d8af1dd91c3942b74f782ce3fbf2beeb87ab2ac63e7",
+          "size_bytes": 4927,
+          "mtime_ns": 1791183657000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/SHA256SUMS": {
+          "sha256": "1ec548dced1c80b90c0aa73eb7207951534e445e899f6d81c2b12be6838e9bf3",
+          "size_bytes": 2243,
+          "mtime_ns": 1791183803000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/VALIDATION.json": {
+          "sha256": "e65148bde5363e1fe675b91c57077babe6cceaa39897a2408a5d9b8e78b751f6",
+          "size_bytes": 5945,
+          "mtime_ns": 1791183793000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/DESIGN_RECORD.md": {
+          "sha256": "5ce4199cc192420f959bfeeb59663a517dbe8b608adb95334d1e615e5365273b",
+          "size_bytes": 12604,
+          "mtime_ns": 1791185332000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "d7f6780d35dc626cfce474062b96bfb3aeeb329b0433e823e2eb1fa15b9dd2d2",
+          "size_bytes": 3397,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "32089fbba19eb4f9904256fe0507eef3b7cdd777d6bb7862ab418b71c3b4af8d",
+          "size_bytes": 2087,
+          "mtime_ns": 1791185272000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/REVIEW.html": {
+          "sha256": "5a21e8f4a252825edb8656ed2a723f27184e74ea774929fba7095a532bad2cd9",
+          "size_bytes": 15895,
+          "mtime_ns": 1791185272000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "1b82d5dede40d795d3a3e101326d5cf887a505226fb4a60b55588eb02b8c8221",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "14f105681012df4b27392e3aa5dad6eb86c576a007c1921677b5d0f5e63d6d7c",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "a3187f00aeb5f9cb8103487e425e9f45ac8f240af79d7cb2b5742bdec69df0aa",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "295fac39ecc7b0b9a6724018cb9daea69948fa477f3f70261d8a5d68e806d297",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/INSTRUCTIONS.md": {
+          "sha256": "b04ff70786cd8e84ddcff1af0c88a514a6f1ca2acdfe6c33ab868d7d7ac7bd91",
+          "size_bytes": 2425,
+          "mtime_ns": 1791185272000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/REVIEW.html": {
+          "sha256": "9ac5e778a839adcad922b6b85992e2fa32782322cd372342034569e99edc7f74",
+          "size_bytes": 15895,
+          "mtime_ns": 1791185272000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_00.wav": {
+          "sha256": "1b82d5dede40d795d3a3e101326d5cf887a505226fb4a60b55588eb02b8c8221",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_01.wav": {
+          "sha256": "14f105681012df4b27392e3aa5dad6eb86c576a007c1921677b5d0f5e63d6d7c",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_02.wav": {
+          "sha256": "a3187f00aeb5f9cb8103487e425e9f45ac8f240af79d7cb2b5742bdec69df0aa",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_03.wav": {
+          "sha256": "295fac39ecc7b0b9a6724018cb9daea69948fa477f3f70261d8a5d68e806d297",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PI_RULING_FROZEN.json": {
+          "sha256": "44496a272b1318621509e99c0d41b499ea5f5f70d797560495a85d397af71872",
+          "size_bytes": 3715,
+          "mtime_ns": 1791185149000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_FREEZE.json": {
+          "sha256": "9046acd5f2c009465c811a0df128ccaa16057d900632ce3692642a4cff14722e",
+          "size_bytes": 9385,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_SHA256.txt": {
+          "sha256": "9f36680f91ae6c0094151b5b689443203521691c71515000d110ca8872a71eb9",
+          "size_bytes": 65,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/SEALED_MAPPING.json": {
+          "sha256": "3cc15b68078dfd98e16deed348d331b08e4703560f18bc8b6b93da37956a52c4",
+          "size_bytes": 4261,
+          "mtime_ns": 1791185272000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/SUPERSESSION_RECORD.json": {
+          "sha256": "634888e313f0083210d258aa8e047104f17506c6a8d7855115e487ba6bc048aa",
+          "size_bytes": 868,
+          "mtime_ns": 1791190777000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/TEMPLATE.html": {
+          "sha256": "68cd61ce64a35b653827e47f3155cbd6f6c946cd308fe9a9dbb459aba75a9f71",
+          "size_bytes": 13975,
+          "mtime_ns": 1791184562000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/USABILITY_TEST.json": {
+          "sha256": "34e3c857be07ff3e80fa42c4e1456bb5977bcbfd00acf41af5853190684e6697",
+          "size_bytes": 12007,
+          "mtime_ns": 1791185319000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/VALIDATION.json": {
+          "sha256": "80f69a7fd4541ae5d84a288ec8ee2940a11bb676c70b1d3bb1fa17ec48216311",
+          "size_bytes": 6038,
+          "mtime_ns": 1791185272000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage1_prereg_and_audio.py": {
+          "sha256": "22e048260cd0cb04f38d400a04f5e2cbdb53282c0016a4684954ace4f5501e26",
+          "size_bytes": 19068,
+          "mtime_ns": 1791185271000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage2_passes.py": {
+          "sha256": "b03fd321fa92ade77ac4075b8ce0f26cda39f1fb9b6c682373809a439d4beb16",
+          "size_bytes": 11169,
+          "mtime_ns": 1791185049000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage3_validate.py": {
+          "sha256": "4e51413d3b0781e797a24b1b98a05da1fb0ff8e74f2cd59d53d15cab0f07c4b8",
+          "size_bytes": 8130,
+          "mtime_ns": 1791183789000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/test_review.js": {
+          "sha256": "bb5d0400dfc0ad49086c7d0dacd95d3514fc845299a1767b2459f165751c3e03",
+          "size_bytes": 7816,
+          "mtime_ns": 1791184586000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/usability_browser_test.js": {
+          "sha256": "ed51cc1bad020228b797c831acd9c390ef03dc1b817a1474aaaa20123858fab3",
+          "size_bytes": 9217,
+          "mtime_ns": 1791185061000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/usability_probe.js": {
+          "sha256": "8f57d59e7cfbd204b5b654a661b48794dec16247a086239c9d0020972f8e38d6",
+          "size_bytes": 12056,
+          "mtime_ns": 1791184972000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/TEMPLATE_MANUAL.html": {
+          "sha256": "ea109734c9c2852a1e76fd120d326dc1b86c6374746da93b26c94a4640a2b7ae",
+          "size_bytes": 25925,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/USABILITY_TEST.json": {
+          "sha256": "a92352d67054d784b3a3250affc9b7acd26301f4bd294cd7dbb579910e1bf47d",
+          "size_bytes": 20034,
+          "mtime_ns": 1791192642000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/VALIDATION.json": {
+          "sha256": "4836430e8304e50f287ddf7f5576ee69ee31b0b8b6c3175a4d112797969a75e2",
+          "size_bytes": 19726,
+          "mtime_ns": 1791193273000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/build_stage1_prereg_and_audio.py": {
+          "sha256": "f49b2a69acda0eed038595e19bd8953edb6b37adb3ec2e9ea1b1301c30d4f594",
+          "size_bytes": 21009,
+          "mtime_ns": 1791191312000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/build_stage2_passes.py": {
+          "sha256": "29a9fd49831ca0424512fb155cdfe918f29f8ccfbeaee59c18bafcad65cee504",
+          "size_bytes": 13122,
+          "mtime_ns": 1791190974000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/build_stage3_validate.py": {
+          "sha256": "7ba0a163ca5762e947eb68306ff7a3cdedef04283ae08d65d49cbf83f51211e3",
+          "size_bytes": 16320,
+          "mtime_ns": 1791193075000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/test_review.js": {
+          "sha256": "32d8c1dcdf769fb7facf527e3524b367106c045591052b42ccf31c5153bbe365",
+          "size_bytes": 18448,
+          "mtime_ns": 1791192476000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/usability_browser_test.js": {
+          "sha256": "d9c79b9d630c9a548ab6101f157b7027427f84f4811b7bbeed739e5385d23522",
+          "size_bytes": 26222,
+          "mtime_ns": 1791192593000000000
+        },
+        "SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/usability_probe.js": {
+          "sha256": "47b32b5e7531f8215e02436f9369519fa48207bc3d16d2e4d979d9190c4e8f42",
+          "size_bytes": 6459,
+          "mtime_ns": 1791192300000000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/DESIGN_RECORD.md": {
+          "sha256": "5ce4199cc192420f959bfeeb59663a517dbe8b608adb95334d1e615e5365273b",
+          "size_bytes": 12604,
+          "mtime_ns": 1791185332920000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "d7f6780d35dc626cfce474062b96bfb3aeeb329b0433e823e2eb1fa15b9dd2d2",
+          "size_bytes": 3397,
+          "mtime_ns": 1791185271710000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "32089fbba19eb4f9904256fe0507eef3b7cdd777d6bb7862ab418b71c3b4af8d",
+          "size_bytes": 2087,
+          "mtime_ns": 1791185272050000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/REVIEW.html": {
+          "sha256": "5a21e8f4a252825edb8656ed2a723f27184e74ea774929fba7095a532bad2cd9",
+          "size_bytes": 15895,
+          "mtime_ns": 1791185272050000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "1b82d5dede40d795d3a3e101326d5cf887a505226fb4a60b55588eb02b8c8221",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271650000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "14f105681012df4b27392e3aa5dad6eb86c576a007c1921677b5d0f5e63d6d7c",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271670000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "a3187f00aeb5f9cb8103487e425e9f45ac8f240af79d7cb2b5742bdec69df0aa",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271690000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "295fac39ecc7b0b9a6724018cb9daea69948fa477f3f70261d8a5d68e806d297",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271710000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/INSTRUCTIONS.md": {
+          "sha256": "b04ff70786cd8e84ddcff1af0c88a514a6f1ca2acdfe6c33ab868d7d7ac7bd91",
+          "size_bytes": 2425,
+          "mtime_ns": 1791185272130000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/REVIEW.html": {
+          "sha256": "9ac5e778a839adcad922b6b85992e2fa32782322cd372342034569e99edc7f74",
+          "size_bytes": 15895,
+          "mtime_ns": 1791185272130000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_00.wav": {
+          "sha256": "1b82d5dede40d795d3a3e101326d5cf887a505226fb4a60b55588eb02b8c8221",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271650000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_01.wav": {
+          "sha256": "14f105681012df4b27392e3aa5dad6eb86c576a007c1921677b5d0f5e63d6d7c",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271670000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_02.wav": {
+          "sha256": "a3187f00aeb5f9cb8103487e425e9f45ac8f240af79d7cb2b5742bdec69df0aa",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271690000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_03.wav": {
+          "sha256": "295fac39ecc7b0b9a6724018cb9daea69948fa477f3f70261d8a5d68e806d297",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791185271710000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PI_RULING_FROZEN.json": {
+          "sha256": "44496a272b1318621509e99c0d41b499ea5f5f70d797560495a85d397af71872",
+          "size_bytes": 3715,
+          "mtime_ns": 1791185149620000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_FREEZE.json": {
+          "sha256": "9046acd5f2c009465c811a0df128ccaa16057d900632ce3692642a4cff14722e",
+          "size_bytes": 9385,
+          "mtime_ns": 1791185271630000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_SHA256.txt": {
+          "sha256": "9f36680f91ae6c0094151b5b689443203521691c71515000d110ca8872a71eb9",
+          "size_bytes": 65,
+          "mtime_ns": 1791185271630000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/SEALED_MAPPING.json": {
+          "sha256": "3cc15b68078dfd98e16deed348d331b08e4703560f18bc8b6b93da37956a52c4",
+          "size_bytes": 4261,
+          "mtime_ns": 1791185272140000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/SUPERSESSION_RECORD.json": {
+          "sha256": "634888e313f0083210d258aa8e047104f17506c6a8d7855115e487ba6bc048aa",
+          "size_bytes": 868,
+          "mtime_ns": 1791190777970000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/TEMPLATE.html": {
+          "sha256": "68cd61ce64a35b653827e47f3155cbd6f6c946cd308fe9a9dbb459aba75a9f71",
+          "size_bytes": 13975,
+          "mtime_ns": 1791184562260000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/USABILITY_TEST.json": {
+          "sha256": "34e3c857be07ff3e80fa42c4e1456bb5977bcbfd00acf41af5853190684e6697",
+          "size_bytes": 12007,
+          "mtime_ns": 1791185319510000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/VALIDATION.json": {
+          "sha256": "80f69a7fd4541ae5d84a288ec8ee2940a11bb676c70b1d3bb1fa17ec48216311",
+          "size_bytes": 6038,
+          "mtime_ns": 1791185272660000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage1_prereg_and_audio.py": {
+          "sha256": "22e048260cd0cb04f38d400a04f5e2cbdb53282c0016a4684954ace4f5501e26",
+          "size_bytes": 19068,
+          "mtime_ns": 1791185271280000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage2_passes.py": {
+          "sha256": "b03fd321fa92ade77ac4075b8ce0f26cda39f1fb9b6c682373809a439d4beb16",
+          "size_bytes": 11169,
+          "mtime_ns": 1791185049590000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage3_validate.py": {
+          "sha256": "4e51413d3b0781e797a24b1b98a05da1fb0ff8e74f2cd59d53d15cab0f07c4b8",
+          "size_bytes": 8130,
+          "mtime_ns": 1791183789550000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/test_review.js": {
+          "sha256": "bb5d0400dfc0ad49086c7d0dacd95d3514fc845299a1767b2459f165751c3e03",
+          "size_bytes": 7816,
+          "mtime_ns": 1791184586220000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/usability_browser_test.js": {
+          "sha256": "ed51cc1bad020228b797c831acd9c390ef03dc1b817a1474aaaa20123858fab3",
+          "size_bytes": 9217,
+          "mtime_ns": 1791185061430000000
+        },
+        "SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/usability_probe.js": {
+          "sha256": "8f57d59e7cfbd204b5b654a661b48794dec16247a086239c9d0020972f8e38d6",
+          "size_bytes": 12056,
+          "mtime_ns": 1791184972680000000
+        },
+        "TEMPLATE_MANUAL.html": {
+          "sha256": "a91e28cc627cb15e296a56ab251e262ceedcc8bc3a4ad5d65d3fc9fe285eb0d1",
+          "size_bytes": 28178,
+          "mtime_ns": 1791199499610000000
+        },
+        "USABILITY_TEST.json": {
+          "sha256": "7d2d44edf04dd04336b3ed85e92f93989d15f0cdccce6e379b44ed0c7c329e63",
+          "size_bytes": 29325,
+          "mtime_ns": 1791206397430000000
+        },
+        "VALIDATION.json": {
+          "sha256": "4836430e8304e50f287ddf7f5576ee69ee31b0b8b6c3175a4d112797969a75e2",
+          "size_bytes": 19726,
+          "mtime_ns": 1791193273140000000
+        },
+        "build_stage1_prereg_and_audio.py": {
+          "sha256": "f49b2a69acda0eed038595e19bd8953edb6b37adb3ec2e9ea1b1301c30d4f594",
+          "size_bytes": 21009,
+          "mtime_ns": 1791191312390000000
+        },
+        "build_stage2_passes.py": {
+          "sha256": "29a9fd49831ca0424512fb155cdfe918f29f8ccfbeaee59c18bafcad65cee504",
+          "size_bytes": 13122,
+          "mtime_ns": 1791190974700000000
+        },
+        "build_stage3_validate.py": {
+          "sha256": "7ba0a163ca5762e947eb68306ff7a3cdedef04283ae08d65d49cbf83f51211e3",
+          "size_bytes": 16320,
+          "mtime_ns": 1791193075150000000
+        },
+        "render_evidence/PASS_A_MQ-A1_canvas.png": {
+          "sha256": "64e65aa8640c369b7ef34763f013aa865883cb1dd6d17edaaf9d56326051c8bb",
+          "size_bytes": 19237,
+          "mtime_ns": 1791206418100000000
+        },
+        "render_evidence/PASS_A_MQ-A1_page.png": {
+          "sha256": "99c74235a510089b32483a2716adbc1e13b2f2f1c59d07497b7f4e16a47e659f",
+          "size_bytes": 210453,
+          "mtime_ns": 1791206418200000000
+        },
+        "render_evidence/PASS_A_MQ-A2_canvas.png": {
+          "sha256": "2ce7cec40366fb2645234248e7500c06839d0df7116d1f8e2b4f9fd2c8bebba1",
+          "size_bytes": 19182,
+          "mtime_ns": 1791206419530000000
+        },
+        "render_evidence/PASS_A_MQ-A2_page.png": {
+          "sha256": "df7c2c75df47e62ae77f6bebea43e8490b185dd9948f4b38027c32e4be62069a",
+          "size_bytes": 210432,
+          "mtime_ns": 1791206419600000000
+        },
+        "render_evidence/PASS_A_MQ-A3_canvas.png": {
+          "sha256": "eb22e0970fbf18dc37eb799b4adb5074ac0ddacc4ec618d07f11366f2479e795",
+          "size_bytes": 19075,
+          "mtime_ns": 1791206420920000000
+        },
+        "render_evidence/PASS_A_MQ-A3_page.png": {
+          "sha256": "5f3a20b89d5a3f36177e27ed8b782888bd75c3a4dd13eea78efbfc79bb358040",
+          "size_bytes": 210831,
+          "mtime_ns": 1791206421010000000
+        },
+        "render_evidence/PASS_A_MQ-A4_canvas.png": {
+          "sha256": "54e1fb222118deb7100be1a7148d4f2e1f51b134ca0280d5db4a13b4d9c10afe",
+          "size_bytes": 19332,
+          "mtime_ns": 1791206422320000000
+        },
+        "render_evidence/PASS_A_MQ-A4_page.png": {
+          "sha256": "b2889186eae3c86063133f613721da2df97edf3fc85bde20d48d38e3f9aa2f72",
+          "size_bytes": 210497,
+          "mtime_ns": 1791206422400000000
+        },
+        "render_evidence/render_diagnostics.json": {
+          "sha256": "3e5ad180d8cb5a3967a17b58794bb18c420094ad2099424cd77a275f26588f3e",
+          "size_bytes": 14482,
+          "mtime_ns": 1791206422410000000
+        },
+        "render_evidence/render_raster.txt": {
+          "sha256": "a44f5359e7293b4cdf817743ff4e01a38dad38e586cd14f917a38dc234b12f4a",
+          "size_bytes": 10856,
+          "mtime_ns": 1791206422410000000
+        },
+        "test_review.js": {
+          "sha256": "f4cf091344594c310657533aab1c8c4150ae31e868d5fb2760159919d94dddf4",
+          "size_bytes": 18636,
+          "mtime_ns": 1791198350090000000
+        },
+        "usability_browser_test.js": {
+          "sha256": "dfcb44b40fae1408e098d0d6a9dc4aeb4633ebce085e3c2d7733afee754aa03f",
+          "size_bytes": 32626,
+          "mtime_ns": 1791206366000000000
+        },
+        "usability_probe.js": {
+          "sha256": "47b32b5e7531f8215e02436f9369519fa48207bc3d16d2e4d979d9190c4e8f42",
+          "size_bytes": 6459,
+          "mtime_ns": 1791192300410000000
+        },
+        "waveform_render_diag.js": {
+          "sha256": "a2b3581ae759f15f7c85ea2afbeabc821ff49079163325586fb9b610381bba52",
+          "size_bytes": 8579,
+          "mtime_ns": 1791199561270000000
+        }
+      },
+      "SSD_manifest_verification": [],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    },
+    {
+      "task_id": "JGA-MANUAL-QUARTER-PRESERVATION-RECONCILIATION-001-20261006",
+      "status": "BLOCKED_HD_VERIFICATION",
+      "scope": "SSD preservation package verified; HD exact-file read error reproduced",
+      "scientific_claim": "SSD preservation package verified; HD exact-file read error reproduced",
+      "scientific_limitation": "Backup certification failure, not evidence of scientific-result loss",
+      "SSD_path": "/Volumes/SSD Track/JGA/experiments/JGA-MANUAL-QUARTER-PRESERVATION-RECONCILIATION-001-20261006",
+      "HD_path": "/Volumes/HD BackUp/JGA_BACKUP/SSD_TRACK_JGA/JGA/experiments/JGA-MANUAL-QUARTER-PRESERVATION-RECONCILIATION-001-20261006",
+      "files": {
+        "FINALIZATION_RECORD.json": {
+          "sha256": "b2e7b754a9a13bd9388cf7cb5976e12a8af3840bdd6134fa76b589fb9eaa297e",
+          "size_bytes": 1202,
+          "mtime_ns": 1791272561530000000
+        },
+        "LATER_SSD_STATE/AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "f770886b4196bbf423e6d841c762faace11e343bfba4845177f1727cfa74baa6",
+          "size_bytes": 2737,
+          "mtime_ns": 1791271728780000000
+        },
+        "LATER_SSD_STATE/AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/REVIEW.html": {
+          "sha256": "13696fc584d2a1ed7ac49530aa3dd4ded9f67f4d13b0f12fb0d3f9eb1fb39102",
+          "size_bytes": 30518,
+          "mtime_ns": 1791271730860000000
+        },
+        "LATER_SSD_STATE/AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "b3ca90a8f19b246dd65dc3e7a70ec085ee28896a8d283597d781fc7d95a14d5e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271732920000000
+        },
+        "LATER_SSD_STATE/AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "ba927bfa75c4790cef90f10b77728bda6d35458b30fccdf760f5769e23de1303",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271735000000000
+        },
+        "LATER_SSD_STATE/AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "ea8516b714b9ebd71fbf82a5461341be07f6b57808c616a4972cacd6ab0f90cc",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271738640000000
+        },
+        "LATER_SSD_STATE/AUDIO_SMOKETEST_DO_NOT_ANNOTATE/PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "c1297dbc7a35c56fdd0404475e3220695afa269ab7fe12fc39c4d70ddebe450e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271740980000000
+        },
+        "LATER_SSD_STATE/PASS_A/REVIEW.html": {
+          "sha256": "13696fc584d2a1ed7ac49530aa3dd4ded9f67f4d13b0f12fb0d3f9eb1fb39102",
+          "size_bytes": 30518,
+          "mtime_ns": 1791271909370000000
+        },
+        "LATER_SSD_STATE/PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "b3ca90a8f19b246dd65dc3e7a70ec085ee28896a8d283597d781fc7d95a14d5e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271911340000000
+        },
+        "LATER_SSD_STATE/PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "ba927bfa75c4790cef90f10b77728bda6d35458b30fccdf760f5769e23de1303",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271913370000000
+        },
+        "LATER_SSD_STATE/PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "ea8516b714b9ebd71fbf82a5461341be07f6b57808c616a4972cacd6ab0f90cc",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271915400000000
+        },
+        "LATER_SSD_STATE/PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "c1297dbc7a35c56fdd0404475e3220695afa269ab7fe12fc39c4d70ddebe450e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271918420000000
+        },
+        "LATER_SSD_STATE/PASS_B/REVIEW.html": {
+          "sha256": "9caf10e70194e628f0a6e61c2956243ad3ff3ab0a5c63b87b49ba73b27a75506",
+          "size_bytes": 30518,
+          "mtime_ns": 1791271924110000000
+        },
+        "LATER_SSD_STATE/PASS_B/SEGMENT/SEG_00.wav": {
+          "sha256": "b3ca90a8f19b246dd65dc3e7a70ec085ee28896a8d283597d781fc7d95a14d5e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271926060000000
+        },
+        "LATER_SSD_STATE/PASS_B/SEGMENT/SEG_01.wav": {
+          "sha256": "ba927bfa75c4790cef90f10b77728bda6d35458b30fccdf760f5769e23de1303",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271929630000000
+        },
+        "LATER_SSD_STATE/PASS_B/SEGMENT/SEG_02.wav": {
+          "sha256": "ea8516b714b9ebd71fbf82a5461341be07f6b57808c616a4972cacd6ab0f90cc",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271931830000000
+        },
+        "LATER_SSD_STATE/PASS_B/SEGMENT/SEG_03.wav": {
+          "sha256": "c1297dbc7a35c56fdd0404475e3220695afa269ab7fe12fc39c4d70ddebe450e",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271933910000000
+        },
+        "LATER_SSD_STATE/PI_DECISION_TERMINATION_RECORD.json": {
+          "sha256": "1449c54b68d7acd1cc562cab82fb3a0d12df7567a278e45f5edd112f2e440b25",
+          "size_bytes": 1027,
+          "mtime_ns": 1791271743060000000
+        },
+        "LATER_SSD_STATE/PI_RULING_FROZEN.json": {
+          "sha256": "e143d5939c36015026463ca978d5d7baa3ee38b770220305dcb6b6b672c3b92a",
+          "size_bytes": 7400,
+          "mtime_ns": 1791271937100000000
+        },
+        "LATER_SSD_STATE/SEALED_MAPPING.json": {
+          "sha256": "6b65b4776a70e25dec625b9b19cf12d63fd10890b0d7f9dffbd3be771676a6a4",
+          "size_bytes": 4261,
+          "mtime_ns": 1791271939070000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/DESIGN_RECORD.md": {
+          "sha256": "ed7e5b43850c0c28715c6003699c691aad76c03160c02658ca30ded8422b8df4",
+          "size_bytes": 15959,
+          "mtime_ns": 1791271745000000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "1292a40ba386d39c6e0adc7b3c6e1159075defbd9618b129cc39230dd8dabc8c",
+          "size_bytes": 3397,
+          "mtime_ns": 1791271746970000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "f770886b4196bbf423e6d841c762faace11e343bfba4845177f1727cfa74baa6",
+          "size_bytes": 2737,
+          "mtime_ns": 1791271749050000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/REVIEW.html": {
+          "sha256": "3038585458660059f5d174fe5d466ca6ac4a4861c050fce25c3bd91b1467e5e0",
+          "size_bytes": 28265,
+          "mtime_ns": 1791271751040000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "9168cf4de581cbdde48125556d971bd29b2d927cc5d8e901cdf7e1e39845f985",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271753070000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "0353a7bef802d54f504abf34330f524dac5aeae2e42f38364c30b4f214912fb2",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271755250000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "f9ba06e8ea026a2db7d44bb5d69cc0dd50ce1accb582727e11f3c2580100df68",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271757300000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "a1165069cd8b225def3d6e389602bf8e90ea6ddc0226de0cc92843d32f5b81d9",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271759400000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/INSTRUCTIONS.md": {
+          "sha256": "70d02c8be5e71c06e583367d1f3e4288cf81c0ea27901e3f0c34165fdef3cced",
+          "size_bytes": 3075,
+          "mtime_ns": 1791271765010000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/REVIEW.html": {
+          "sha256": "3262e45193457c659b342fa09616dd62a1306eaa5a123988f4bc501e72a61df2",
+          "size_bytes": 28265,
+          "mtime_ns": 1791271767650000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_00.wav": {
+          "sha256": "9168cf4de581cbdde48125556d971bd29b2d927cc5d8e901cdf7e1e39845f985",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271769660000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_01.wav": {
+          "sha256": "0353a7bef802d54f504abf34330f524dac5aeae2e42f38364c30b4f214912fb2",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271771700000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_02.wav": {
+          "sha256": "f9ba06e8ea026a2db7d44bb5d69cc0dd50ce1accb582727e11f3c2580100df68",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271773850000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_03.wav": {
+          "sha256": "a1165069cd8b225def3d6e389602bf8e90ea6ddc0226de0cc92843d32f5b81d9",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271775930000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PI_RULING_FROZEN.json": {
+          "sha256": "8383d05f90856887febd1e41a4de31c8b5ecdd4f48e6fc926b4735da40b118ae",
+          "size_bytes": 6846,
+          "mtime_ns": 1791271778370000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_FREEZE.json": {
+          "sha256": "c613d39c5f908409fa13c22131fceb995107adc46a161004efcc17decbcd918f",
+          "size_bytes": 11012,
+          "mtime_ns": 1791271780340000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_SHA256.txt": {
+          "sha256": "c9724e4722b0e7040777e711da36a9b9b04461fd4da38ea117b9e4a0935415ca",
+          "size_bytes": 65,
+          "mtime_ns": 1791271783010000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SEALED_MAPPING.json": {
+          "sha256": "b4025905f7ac742344811b0baee729eda20c0a4615bcd5acc631b34056c33bcd",
+          "size_bytes": 4261,
+          "mtime_ns": 1791271784950000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SHA256SUMS": {
+          "sha256": "d65fb63c62e7fdeeb794e397b61ca3b20ef5d962a40b74e0ce7a83f760d56a76",
+          "size_bytes": 15916,
+          "mtime_ns": 1791271786940000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/DESIGN_RECORD.md": {
+          "sha256": "79c6f78e12f500bb25387b1a4df61c992c87e2231c7bdb1c1674d0425e11d0e3",
+          "size_bytes": 9149,
+          "mtime_ns": 1791271788940000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "5d2214f92f5c2e69cff270a9b193fc3b15b4a318e0feab3521b29d634704f27f",
+          "size_bytes": 3827,
+          "mtime_ns": 1791271790940000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "3837463b44350eaeb313fd8df1aa040ab7424ebff2519ae015cc9480101205eb",
+          "size_bytes": 1927,
+          "mtime_ns": 1791271792890000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_A/REVIEW.html": {
+          "sha256": "a53201740edddb32daab99a076d8c79f8ff7cf2f1d564c34734b0f2e88ecaf84",
+          "size_bytes": 14363,
+          "mtime_ns": 1791271794890000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_B/INSTRUCTIONS.md": {
+          "sha256": "113ff246bfd6e00029f33529cc6440a9fc20da0c1275d2e08f03dbc5b838042a",
+          "size_bytes": 1927,
+          "mtime_ns": 1791271796880000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PASS_B/REVIEW.html": {
+          "sha256": "d8d1647f0f52de2c07bcb24df1dfb7a88181cfb8bbe69d0b1360a66b0a487d9a",
+          "size_bytes": 14363,
+          "mtime_ns": 1791271798860000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PREREGISTRATION_FREEZE.json": {
+          "sha256": "2c0dab4958033ac9e519ee891b3d627a2b8c88db12c88fae19e1a01b4fa56c17",
+          "size_bytes": 8729,
+          "mtime_ns": 1791271800810000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/PREREGISTRATION_SHA256.txt": {
+          "sha256": "3957d3ac1a270e78109f682ed5045d63be28a4b5161bcb8677c2be8e0b0526da",
+          "size_bytes": 65,
+          "mtime_ns": 1791271802780000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/SEALED_MAPPING.json": {
+          "sha256": "99a92c1bb52db3ca09967d8af1dd91c3942b74f782ce3fbf2beeb87ab2ac63e7",
+          "size_bytes": 4927,
+          "mtime_ns": 1791271804750000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/SHA256SUMS": {
+          "sha256": "1ec548dced1c80b90c0aa73eb7207951534e445e899f6d81c2b12be6838e9bf3",
+          "size_bytes": 2243,
+          "mtime_ns": 1791271806690000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_20261005_PRE_WINDOW_RULING/VALIDATION.json": {
+          "sha256": "e65148bde5363e1fe675b91c57077babe6cceaa39897a2408a5d9b8e78b751f6",
+          "size_bytes": 5945,
+          "mtime_ns": 1791271808650000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/DESIGN_RECORD.md": {
+          "sha256": "5ce4199cc192420f959bfeeb59663a517dbe8b608adb95334d1e615e5365273b",
+          "size_bytes": 12604,
+          "mtime_ns": 1791271810640000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/LISTENING_MATERIAL_FREEZE.json": {
+          "sha256": "d7f6780d35dc626cfce474062b96bfb3aeeb329b0433e823e2eb1fa15b9dd2d2",
+          "size_bytes": 3397,
+          "mtime_ns": 1791271812590000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/INSTRUCTIONS.md": {
+          "sha256": "32089fbba19eb4f9904256fe0507eef3b7cdd777d6bb7862ab418b71c3b4af8d",
+          "size_bytes": 2087,
+          "mtime_ns": 1791271814560000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/REVIEW.html": {
+          "sha256": "5a21e8f4a252825edb8656ed2a723f27184e74ea774929fba7095a532bad2cd9",
+          "size_bytes": 15895,
+          "mtime_ns": 1791271816510000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_00.wav": {
+          "sha256": "1b82d5dede40d795d3a3e101326d5cf887a505226fb4a60b55588eb02b8c8221",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271818550000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_01.wav": {
+          "sha256": "14f105681012df4b27392e3aa5dad6eb86c576a007c1921677b5d0f5e63d6d7c",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271820700000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_02.wav": {
+          "sha256": "a3187f00aeb5f9cb8103487e425e9f45ac8f240af79d7cb2b5742bdec69df0aa",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271823120000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_A/SEGMENT/SEG_03.wav": {
+          "sha256": "295fac39ecc7b0b9a6724018cb9daea69948fa477f3f70261d8a5d68e806d297",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271825200000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/INSTRUCTIONS.md": {
+          "sha256": "b04ff70786cd8e84ddcff1af0c88a514a6f1ca2acdfe6c33ab868d7d7ac7bd91",
+          "size_bytes": 2425,
+          "mtime_ns": 1791271828510000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/REVIEW.html": {
+          "sha256": "9ac5e778a839adcad922b6b85992e2fa32782322cd372342034569e99edc7f74",
+          "size_bytes": 15895,
+          "mtime_ns": 1791271830490000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_00.wav": {
+          "sha256": "1b82d5dede40d795d3a3e101326d5cf887a505226fb4a60b55588eb02b8c8221",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271833540000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_01.wav": {
+          "sha256": "14f105681012df4b27392e3aa5dad6eb86c576a007c1921677b5d0f5e63d6d7c",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271835680000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_02.wav": {
+          "sha256": "a3187f00aeb5f9cb8103487e425e9f45ac8f240af79d7cb2b5742bdec69df0aa",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271837750000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PASS_B/SEGMENT/SEG_03.wav": {
+          "sha256": "295fac39ecc7b0b9a6724018cb9daea69948fa477f3f70261d8a5d68e806d297",
+          "size_bytes": 3072088,
+          "mtime_ns": 1791271840150000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PI_RULING_FROZEN.json": {
+          "sha256": "44496a272b1318621509e99c0d41b499ea5f5f70d797560495a85d397af71872",
+          "size_bytes": 3715,
+          "mtime_ns": 1791271842200000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_FREEZE.json": {
+          "sha256": "9046acd5f2c009465c811a0df128ccaa16057d900632ce3692642a4cff14722e",
+          "size_bytes": 9385,
+          "mtime_ns": 1791271844140000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/PREREGISTRATION_SHA256.txt": {
+          "sha256": "9f36680f91ae6c0094151b5b689443203521691c71515000d110ca8872a71eb9",
+          "size_bytes": 65,
+          "mtime_ns": 1791271846090000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/SEALED_MAPPING.json": {
+          "sha256": "3cc15b68078dfd98e16deed348d331b08e4703560f18bc8b6b93da37956a52c4",
+          "size_bytes": 4261,
+          "mtime_ns": 1791271848030000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/SUPERSESSION_RECORD.json": {
+          "sha256": "634888e313f0083210d258aa8e047104f17506c6a8d7855115e487ba6bc048aa",
+          "size_bytes": 868,
+          "mtime_ns": 1791271850000000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/TEMPLATE.html": {
+          "sha256": "68cd61ce64a35b653827e47f3155cbd6f6c946cd308fe9a9dbb459aba75a9f71",
+          "size_bytes": 13975,
+          "mtime_ns": 1791271852000000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/USABILITY_TEST.json": {
+          "sha256": "34e3c857be07ff3e80fa42c4e1456bb5977bcbfd00acf41af5853190684e6697",
+          "size_bytes": 12007,
+          "mtime_ns": 1791271853950000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/VALIDATION.json": {
+          "sha256": "80f69a7fd4541ae5d84a288ec8ee2940a11bb676c70b1d3bb1fa17ec48216311",
+          "size_bytes": 6038,
+          "mtime_ns": 1791271855900000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage1_prereg_and_audio.py": {
+          "sha256": "22e048260cd0cb04f38d400a04f5e2cbdb53282c0016a4684954ace4f5501e26",
+          "size_bytes": 19068,
+          "mtime_ns": 1791271857830000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage2_passes.py": {
+          "sha256": "b03fd321fa92ade77ac4075b8ce0f26cda39f1fb9b6c682373809a439d4beb16",
+          "size_bytes": 11169,
+          "mtime_ns": 1791271859830000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/build_stage3_validate.py": {
+          "sha256": "4e51413d3b0781e797a24b1b98a05da1fb0ff8e74f2cd59d53d15cab0f07c4b8",
+          "size_bytes": 8130,
+          "mtime_ns": 1791271861870000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/test_review.js": {
+          "sha256": "bb5d0400dfc0ad49086c7d0dacd95d3514fc845299a1767b2459f165751c3e03",
+          "size_bytes": 7816,
+          "mtime_ns": 1791271863850000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/usability_browser_test.js": {
+          "sha256": "ed51cc1bad020228b797c831acd9c390ef03dc1b817a1474aaaa20123858fab3",
+          "size_bytes": 9217,
+          "mtime_ns": 1791271865770000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/SUPERSEDED_NOT_USED_FOR_PI_EVIDENCE/usability_probe.js": {
+          "sha256": "8f57d59e7cfbd204b5b654a661b48794dec16247a086239c9d0020972f8e38d6",
+          "size_bytes": 12056,
+          "mtime_ns": 1791271867760000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/TEMPLATE_MANUAL.html": {
+          "sha256": "ea109734c9c2852a1e76fd120d326dc1b86c6374746da93b26c94a4640a2b7ae",
+          "size_bytes": 25925,
+          "mtime_ns": 1791271869760000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/USABILITY_TEST.json": {
+          "sha256": "a92352d67054d784b3a3250affc9b7acd26301f4bd294cd7dbb579910e1bf47d",
+          "size_bytes": 20034,
+          "mtime_ns": 1791271871720000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/VALIDATION.json": {
+          "sha256": "4836430e8304e50f287ddf7f5576ee69ee31b0b8b6c3175a4d112797969a75e2",
+          "size_bytes": 19726,
+          "mtime_ns": 1791271873650000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/build_stage1_prereg_and_audio.py": {
+          "sha256": "f49b2a69acda0eed038595e19bd8953edb6b37adb3ec2e9ea1b1301c30d4f594",
+          "size_bytes": 21009,
+          "mtime_ns": 1791271875610000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/build_stage2_passes.py": {
+          "sha256": "29a9fd49831ca0424512fb155cdfe918f29f8ccfbeaee59c18bafcad65cee504",
+          "size_bytes": 13122,
+          "mtime_ns": 1791271877560000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/build_stage3_validate.py": {
+          "sha256": "7ba0a163ca5762e947eb68306ff7a3cdedef04283ae08d65d49cbf83f51211e3",
+          "size_bytes": 16320,
+          "mtime_ns": 1791271879580000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/test_review.js": {
+          "sha256": "32d8c1dcdf769fb7facf527e3524b367106c045591052b42ccf31c5153bbe365",
+          "size_bytes": 18448,
+          "mtime_ns": 1791271881600000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/usability_browser_test.js": {
+          "sha256": "d9c79b9d630c9a548ab6101f157b7027427f84f4811b7bbeed739e5385d23522",
+          "size_bytes": 26222,
+          "mtime_ns": 1791271883560000000
+        },
+        "LATER_SSD_STATE/SUPERSEDED_BLANK_WAVEFORM_NOT_USED_FOR_PI_EVIDENCE/usability_probe.js": {
+          "sha256": "47b32b5e7531f8215e02436f9369519fa48207bc3d16d2e4d979d9190c4e8f42",
+          "size_bytes": 6459,
+          "mtime_ns": 1791271885520000000
+        },
+        "LATER_SSD_STATE/TEMPLATE_MANUAL.html": {
+          "sha256": "a91e28cc627cb15e296a56ab251e262ceedcc8bc3a4ad5d65d3fc9fe285eb0d1",
+          "size_bytes": 28178,
+          "mtime_ns": 1791271941060000000
+        },
+        "LATER_SSD_STATE/USABILITY_TEST.json": {
+          "sha256": "7d2d44edf04dd04336b3ed85e92f93989d15f0cdccce6e379b44ed0c7c329e63",
+          "size_bytes": 29325,
+          "mtime_ns": 1791271943030000000
+        },
+        "LATER_SSD_STATE/render_evidence/PASS_A_MQ-A1_canvas.png": {
+          "sha256": "64e65aa8640c369b7ef34763f013aa865883cb1dd6d17edaaf9d56326051c8bb",
+          "size_bytes": 19237,
+          "mtime_ns": 1791271887460000000
+        },
+        "LATER_SSD_STATE/render_evidence/PASS_A_MQ-A1_page.png": {
+          "sha256": "99c74235a510089b32483a2716adbc1e13b2f2f1c59d07497b7f4e16a47e659f",
+          "size_bytes": 210453,
+          "mtime_ns": 1791271889460000000
+        },
+        "LATER_SSD_STATE/render_evidence/PASS_A_MQ-A2_canvas.png": {
+          "sha256": "2ce7cec40366fb2645234248e7500c06839d0df7116d1f8e2b4f9fd2c8bebba1",
+          "size_bytes": 19182,
+          "mtime_ns": 1791271891420000000
+        },
+        "LATER_SSD_STATE/render_evidence/PASS_A_MQ-A2_page.png": {
+          "sha256": "df7c2c75df47e62ae77f6bebea43e8490b185dd9948f4b38027c32e4be62069a",
+          "size_bytes": 210432,
+          "mtime_ns": 1791271893420000000
+        },
+        "LATER_SSD_STATE/render_evidence/PASS_A_MQ-A3_canvas.png": {
+          "sha256": "eb22e0970fbf18dc37eb799b4adb5074ac0ddacc4ec618d07f11366f2479e795",
+          "size_bytes": 19075,
+          "mtime_ns": 1791271895370000000
+        },
+        "LATER_SSD_STATE/render_evidence/PASS_A_MQ-A3_page.png": {
+          "sha256": "5f3a20b89d5a3f36177e27ed8b782888bd75c3a4dd13eea78efbfc79bb358040",
+          "size_bytes": 210831,
+          "mtime_ns": 1791271897320000000
+        },
+        "LATER_SSD_STATE/render_evidence/PASS_A_MQ-A4_canvas.png": {
+          "sha256": "54e1fb222118deb7100be1a7148d4f2e1f51b134ca0280d5db4a13b4d9c10afe",
+          "size_bytes": 19332,
+          "mtime_ns": 1791271899280000000
+        },
+        "LATER_SSD_STATE/render_evidence/PASS_A_MQ-A4_page.png": {
+          "sha256": "b2889186eae3c86063133f613721da2df97edf3fc85bde20d48d38e3f9aa2f72",
+          "size_bytes": 210497,
+          "mtime_ns": 1791271901230000000
+        },
+        "LATER_SSD_STATE/render_evidence/render_diagnostics.json": {
+          "sha256": "3e5ad180d8cb5a3967a17b58794bb18c420094ad2099424cd77a275f26588f3e",
+          "size_bytes": 14482,
+          "mtime_ns": 1791271903280000000
+        },
+        "LATER_SSD_STATE/render_evidence/render_raster.txt": {
+          "sha256": "a44f5359e7293b4cdf817743ff4e01a38dad38e586cd14f917a38dc234b12f4a",
+          "size_bytes": 10856,
+          "mtime_ns": 1791271905320000000
+        },
+        "LATER_SSD_STATE/test_review.js": {
+          "sha256": "f4cf091344594c310657533aab1c8c4150ae31e868d5fb2760159919d94dddf4",
+          "size_bytes": 18636,
+          "mtime_ns": 1791271944990000000
+        },
+        "LATER_SSD_STATE/usability_browser_test.js": {
+          "sha256": "dfcb44b40fae1408e098d0d6a9dc4aeb4633ebce085e3c2d7733afee754aa03f",
+          "size_bytes": 32626,
+          "mtime_ns": 1791271946940000000
+        },
+        "LATER_SSD_STATE/waveform_render_diag.js": {
+          "sha256": "a2b3581ae759f15f7c85ea2afbeabc821ff49079163325586fb9b610381bba52",
+          "size_bytes": 8579,
+          "mtime_ns": 1791271907350000000
+        },
+        "LOGICAL_SHA256SUMS": {
+          "sha256": "817fb16323b9c24b828ada9a94a83ea730313f98a9479ad80a9008b941532938",
+          "size_bytes": 16626,
+          "mtime_ns": 1791272570080000000
+        },
+        "PRESERVATION_DECISION.json": {
+          "sha256": "ce34bb21fcc24812c6dddafb4cee9d2cbc630d88691fabc5312a85d181d954f5",
+          "size_bytes": 216459,
+          "mtime_ns": 1791271952870000000
+        },
+        "PRINCIPAL_AUTHORITY_VERIFICATION.json": {
+          "sha256": "4730417d69c436ecf12117c1e37962f7afb9db30266b193ee48880036d16ff3f",
+          "size_bytes": 55531,
+          "mtime_ns": 1791271954850000000
+        },
+        "README.md": {
+          "sha256": "8fba4fe0ecbe163c48132d161e2c5e5f97a94eb55d7b81ac4b83cef436b920f7",
+          "size_bytes": 889,
+          "mtime_ns": 1791271956800000000
+        },
+        "RECONCILIATION_LOGICAL_MANIFEST.json": {
+          "sha256": "152756bcca467b7447a838103975d7e0420a2fccfb0b3fb51cbb4e1fee05366d",
+          "size_bytes": 27055,
+          "mtime_ns": 1791272565850000000
+        },
+        "RECONCILIATION_MANIFEST.json": {
+          "sha256": "a40b932a59b2a0e9373d56fe9ce74495fdd8cdc4116d691fa30e6c18d85efb0f",
+          "size_bytes": 57938,
+          "mtime_ns": 1791271965190000000
+        },
+        "SHA256SUMS": {
+          "sha256": "87884b50f2358fce7a99381f14524b843f69ec46eab16b28914d098d28072219",
+          "size_bytes": 36009,
+          "mtime_ns": 1791271967410000000
+        },
+        "SOURCE_INVENTORY.json": {
+          "sha256": "3ad9fafc1b72e0564fb097ca1ef48a5c8482d0a4e731fbe2d8b505e8d29c419a",
+          "size_bytes": 263300,
+          "mtime_ns": 1791271948920000000
+        },
+        "VERSION_LINEAGE.json": {
+          "sha256": "0385cb59e78b3b48ea50111ca790e8cc468b518997dac1e0d16849e10d751230",
+          "size_bytes": 18762,
+          "mtime_ns": 1791271950890000000
+        }
+      },
+      "SSD_manifest_verification": [
+        {
+          "path": "/Volumes/SSD Track/JGA/experiments/JGA-MANUAL-QUARTER-PRESERVATION-RECONCILIATION-001-20261006/LOGICAL_SHA256SUMS",
+          "sha256": "817fb16323b9c24b828ada9a94a83ea730313f98a9479ad80a9008b941532938",
+          "entries_verified": 110,
+          "status": "PASS"
+        }
+      ],
+      "HD_current_verification": "NOT_PERFORMED; old HD excluded; prior audit historical only",
+      "supersedes": "Later current status only; frozen earlier results and original namespaces remain untouched",
+      "does_not_supersede": "Negative historical scientific results or normative architecture"
+    }
+  ],
+  "controlled_baseline": {
+    "path": "/Users/StarTrack/Development/JazzGrooveAnalyzer/docs/scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924.md",
+    "sha256": "2a33d8026846b83ea4e0b61b4b9d9589174f53b834e302418c0c2fe93e84f70e",
+    "claim": "Recognized-note-conditioned controlled Fishman/Gallegati selection 35/40; median absolute 5.213 ms; P95 5.621 ms; all selected within 10 ms",
+    "limitation": "No autonomous identity, exhaustive recall, or historical FullMix validation"
+  },
+  "promotion_criteria": {
+    "task": "JGA-HISTORICAL-FULLMIX-BASS-MACHINE-QUALIFICATION-001-20261006",
+    "classification": "PI_FROZEN_BEFORE_CURRENT_HUMAN_COORDINATE_EXPOSURE",
+    "criteria": {
+      "timing_coverage_min": 0.8,
+      "median_absolute_error_ms_max": 15.0,
+      "p95_absolute_error_ms_max": 30.0,
+      "within20ms_fraction_min": 0.7,
+      "within10ms_fraction_min": 0.4,
+      "absolute_median_signed_error_ms_max": 10.0,
+      "rule": "ALL_SIX_REQUIRED",
+      "scope": "bounded historical FullMix qualification only",
+      "frozen_before_current_human_timing_unseal": true
+    },
+    "execution_authorized_after_all_gates": false,
+    "reason": "Current Human firewall subsequently failed before machine freeze"
+  },
+  "backup_status": "SSD verified only; old HD not certified",
+  "authority_conflicts": [],
+  "corrected_chat_inventory_dates": "Human Reference freeze and preparatory PLP comparison are 20261005 per actual frozen task records, not 20261004 in earlier audit narrative",
+  "forensic_retry_source": "PI-authorized read-only retry in current conversation; exact HD PRINCIPAL_AUTHORITY_VERIFICATION.json errno5 reproduced twice; no stored retry report was created under read-only scope"
+}

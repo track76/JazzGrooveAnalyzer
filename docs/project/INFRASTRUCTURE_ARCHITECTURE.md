@@ -73,3 +73,81 @@ Future agent onboarding: roster entry, PI role/mode/task, bootstrap sync, storag
 PI-INFRA-FINAL-APPROVAL-20260927 authorizes this infrastructure freeze/commit/push and routine closure synchronization. All scientific tasks still need separate PI authorization. Copilot embargo is unchanged. Historical SSD inventory: NOT FULLY CERTIFIED; registered verified inputs are not evidence of certification of every legacy directory.
 
 The publication handoff uses Git export-subst and `tools/export_chat_recovery.py` as documented in the protocol. The two exported files are a distribution of the same committed recovery records, not a second bootstrap. Commit-addressed exports live below the authorized SSD experiments/GOV_INFRASTRUCTURE_FREEZE_20260927/recovery directory, with the existing SSD backup mapping. Versioned governance archive contains only the publication's governance files, never claims a complete historical scientific archive.
+
+## PI-approved minimal alignment — 2026-10-06
+
+PI-MINIMAL-ARCHITECTURE-ALIGNMENT-20261006 clarifies the existing mechanisms;
+these clarifications do not authorize a scientific task or rehabilitate blocked work.
+
+### Task scope and internal phases
+
+One bounded PI-authorized task may contain PRE-UNSEAL → METHOD FREEZE → OUTPUT
+FREEZE → HUMAN UNSEAL → VALIDATION → PROMOTION DECISION. A separate task ID per
+phase/artifact is not required. Optional `phases` metadata and ledger phase/status
+entries describe the existing task; they never authorize automatic cross-task
+chaining. Overall scope, output paths, access restrictions and transition gates
+must be registered beforehand. PI decisions remain PI-only. Human reveal requires
+independently fixed method, parameters, population, evaluation rules and frozen
+machine output. Record evidence at each required transition.
+
+### Writer adapter and external scope
+
+The cooperative common Git lease serializes persistent repository tracked and
+untracked writes, governance metadata and persistent external scientific writes.
+It is not scientific authorization, blindness enforcement or a phase counter.
+Read-only execution that creates no persistent output needs no writer lease;
+explicitly reproducible disposable scratch remains subject to task permission.
+Acquisition validates registry assignment, latest ledger scope and an approved
+PI-decision linkage for the same task and agent. Historical logs remain readable;
+new acquisitions lacking explicit linkage fail closed and require admission.
+Repository paths stay repository-relative. Optional `external_write_roots` and
+`external_write_paths` are absolute registered external scopes. Repository-only
+tasks remain supported. The existing adapter inventories exact external file
+paths at acquisition and verifies created output/sidecar hash and size. Registered
+roots permit bounded creations, not implicit whole-tree certification; acquisition
+never recursively hashes large scientific trees. `write-external` requires task,
+artifact, provenance, authority classification, manifest sidecar and verified
+backup; it refuses overwrite of existing outputs. Register completed authorities
+in EXTERNAL_ARTIFACT_MANIFEST through the already-authorized repository scope.
+Unmonitored files within roots and bypassing editors remain a cooperative-audit
+limitation, not a claim of OS security. Unexpected changes require STOP/resync.
+
+### Existing closure states
+
+Ledger/handoff may distinguish SCIENTIFIC_FREEZE_COMPLETE,
+EXTERNAL_ARTIFACT_REGISTERED, REPOSITORY_DOCUMENTATION_CURRENT,
+BACKUP_VERIFIED / BACKUP_DEBT_PI_AUTHORIZED / BACKUP_BLOCKED, PUBLICATION_READY,
+COMMITTED, PUSHED, REMOTE_HEAD_VERIFIED and HANDOFF_CURRENT. These are status
+metadata within the existing lifecycle, not a second closure protocol. Scientific
+freeze alone is not publication completion. PUBLICATION_READY requires tests,
+current documentation/index, authorized bootstrap generation and verified backup;
+commit/push still require explicit PI authorization. No clean global worktree is
+required: preserve unrelated dirty bytes and index; scope and baseline must remain
+consistent. No automatic cleanup, restoration or staging.
+
+## PI-authorized historical consistency and governed publication — 2026-10-06
+
+PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006 authorizes the existing
+lifecycle tooling alignment and scoped pre-DC3 checkpoint publication only.
+Historical ledger events remain immutable. Append-only corrections identify the
+original record number plus canonical JSON SHA-256, task/event, correction PI
+decision and preservation/provenance. Verified same-task decision linkage may
+resolve historical malformed fields; unresolved consent remains visibly
+HISTORICAL_AUTHORIZATION_UNRESOLVED, never retroactively authorized. PI-accepted
+missing intended historical references remain UNKNOWN qualifications without
+fabrication. Current references and task admission remain strict. Corrections
+cannot resolve current recovery or embargo references; conflicts fail closed.
+
+The existing governance adapter supports REVIEWED_WORKTREE → GOVERNED_STAGE →
+VERIFY_STAGED_SCOPE → GOVERNED_COMMIT → VERIFY_COMMIT → GOVERNED_PUSH →
+VERIFY_REMOTE_HEAD. Its owner lease remains held throughout. Exact reviewed
+path/operation/blob hashes, parent/branch/tree and unchanged unrelated worktree
+are verified before advancing only expected index/HEAD transitions. Unexpected
+changes are not absorbed by generic resync. Publication guards and a reviewed
+passing test receipt remain required. No automatic task chaining or promotion.
+
+This checkpoint has an explicit PI-linked publication-under-backup-debt exception.
+It remains BACKUP_DEBT_PI_AUTHORIZED — OPEN, never backup PASS. Old HD access is
+prohibited. Final Git export-subst recovery resolves the actual carrying commit;
+a post-publication receipt may reference the verified content commit and be
+carried by one explicit final closure commit, without a recursive amend loop.

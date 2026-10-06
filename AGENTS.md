@@ -114,3 +114,16 @@ Only one writer; acquire/check the common Git writer lease before every mutation
 Unexpected concurrent changes require STOP/resync, never automatic merge.
 Run the staged large-file guard and backup gate before any explicitly authorized commit.
 Refresh the persistent chat handoff at task closure. Infrastructure approval does not authorize science.
+
+## PI-controlled blind startup and backup debt
+
+The explicit restricted-worker exception in the multi-agent protocol is the only
+exception to complete startup recovery. A coordinator performs full recovery; a
+blind worker requires a recorded PI-bound, hash-verified allowed/denied view and
+release condition. No worker silently skips recovery and no second bootstrap is
+created. Stricter task-specific firewalls remain binding.
+
+Use the explicit PI-linked backup configuration. BACKUP_DEBT_PI_AUTHORIZED permits
+only its registered scope and never means backup PASS. Do not access a prohibited
+historical target. Persistent scientific outputs and publication require verified
+backup. One admitted task may contain gated phases without automatic task chaining.

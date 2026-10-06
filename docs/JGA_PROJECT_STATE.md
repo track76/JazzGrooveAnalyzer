@@ -1,3 +1,19 @@
+# Current pre-DC3 project checkpoint · 2026-10-06
+
+Scientific state is reconciled; DC-3 DEVELOPMENT DIRECTION selected, training NOT STARTED. [Scientific authority](JGA_SCIENTIFIC_STATE.md), [checkpoint review](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/PI_REVIEW.md), [machine-only audit](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/DESIGN_AND_TRAINING_AUDIT.md).
+
+No existing frozen 216-group Bass timing deployment; qualification not executed to current Human comparison. No Bass timing promotion, new visualization or Drum authority. Final target remains EMBARGOED FOR DC-3 DEVELOPMENT.
+
+Fishman80: DEVELOPMENT-ONLY under future frozen training contract; Fishman40: CONSUMED VALIDATION / DO NOT TRAIN. DC-3 readiness E — multiple blockers, including qualified independent FullMix fine-attack supervision.
+
+Architecture alignment PASS (prior56 focused/60 broader). Current closure tests/receipt own observed new counts; publication remains gated. One root JGA_BOOTSTRAP.md; no new recovery architecture.
+
+INTERNAL HD live repository; EXTERNAL SSD scientific primary; OLD EXTERNAL HD prohibited from access. BACKUP_DEBT_PI_AUTHORIZED — OPEN; replacement expected2026-10-07 per PI. The PI authorizes this bounded repository publication exception, never backup PASS.
+
+NEXT CHAT FIRST STORAGE ACTION: SETTLE BACKUP DEBT ON REPLACEMENT SSD by authorized initialization, copy and independent file-set/size/hash verification. NEXT SCIENTIFIC TASK: DC-3 INDEPENDENT FULLMIX BASS GT CORPUS SELECTION, NOT executed or authorized by recovery itself. STOP for PI/new-chat scientific authorization.
+
+## Historical project checkpoints — preserved verbatim
+
 # Current authoritative checkpoint — best validated Bass baseline · 2026-09-25
 
 **BEST VALIDATED BASS BASELINE — CURRENT BEST VALIDATED BASS ATTACK BASELINE.** PI-selected [baseline authority](scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924.md). Audio → Spotify Basic Pitch → native note identity and approximate onset → fixed ±150 ms local window → acoustic candidates → frozen JGA Learned Local Attack Selector → selected attack / abstain.

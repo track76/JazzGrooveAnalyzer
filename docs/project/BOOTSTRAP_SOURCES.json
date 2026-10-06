@@ -2,15 +2,18 @@
   "sections": [
     {
       "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
-      "current_section_only": false
-    },
-    {
-      "path": "docs/project/JGA_FINAL_ANCHORED_REPORT_CHECKPOINT_20260925.md",
-      "current_section_only": false
+      "current_section_only": true,
+      "current_section_end": "<!-- JGA_CURRENT_SECTION_END -->"
     },
     {
       "path": "docs/JGA_PROJECT_STATE.md",
-      "current_section_only": true
+      "current_section_only": true,
+      "current_section_end": "## Historical project checkpoints — preserved verbatim"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "current_section_only": true,
+      "current_section_end": "## Historical checkpoints — preserved verbatim; not current next-action instructions"
     }
   ],
   "recovery_links": [
@@ -40,5 +43,7 @@
     "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md",
     "docs/scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json",
     "docs/project/JGA_FINAL_ANCHORED_REPORT_CHECKPOINT_20260925.md"
-  ]
+  ],
+  "production_generation_status": "AUTHORIZED_PRE_DC3_CHECKPOINT",
+  "PI_decision": "PI-PRE-DC3-CHECKPOINT-CLOSURE-20261006"
 }

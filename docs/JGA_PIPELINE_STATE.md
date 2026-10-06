@@ -1,3 +1,27 @@
+# Current pipeline checkpoint · 2026-10-06
+
+[Scientific state](JGA_SCIENTIFIC_STATE.md), [machine-only design/training audit](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/DESIGN_AND_TRAINING_AUDIT.md).
+
+Frozen identity path: Native FullMix →401 source-neutral candidates →216 immutable non-chaining groups. Presence classification is separate from attack localization. Group anchor is a machine landmark, NOT verified Bass onset.
+
+Controlled Learned Local Attack Selector remains recognized-note-conditioned. No frozen canonical216 timing deployment exists. DC-1/DC-2/DC-3 are design options; PI chooses DC-3 development direction only. Old22 inputs comprise19 audio-only acoustic morphology features plus3 incompatible BP-relative features. Qualified independent FullMix fine-attack GT set is not established. Readiness E; no training or target evaluation.
+
+No PLP snapping, stem-to-FullMix timestamp substitution, Human timing correction or visualization finalization. Human Reference remains internal validation evidence. Exactly Like You216+Human reference final test remains embargoed for DC-3 development.
+
+Next intended scientific task: independent FullMix Bass GT corpus selection in next chat, not executed here. BACKUP_DEBT_PI_AUTHORIZED remains open; replacement verification is first storage action.
+
+## Historical recovery records — preserved
+
+# Current pipeline state · 2026-10-06
+
+[Current scientific state](JGA_SCIENTIFIC_STATE.md) owns results and limitations. FullMix → 401 machine candidates → 216 canonical non-chaining groups → historical60 + new156 two-pass presence labels → 61 stable-present /119 stable-absent /36 unstable → two Bass61 localization passes →54 count-stable /7 count-unstable →66 Human markers → bounded frozen B3_PLP comparison. Candidate-conditioned; no arbitrary new event creation or exhaustive onset census.
+
+Machine paths already exist: recognized-note-conditioned Learned Local Attack Selector; qualified historical transfer/targeted-pitch/scanner diagnostics; 39-feature presence development model. Their frozen failures and limits remain. Current historical FullMix machine qualification is BLOCKED / NOT EXECUTED; no output authority or timing promotion. PLP must not select/snap acoustic attacks; frozen machine timestamps must precede future PLP evaluation. Human evidence remains internal validation. Drum timing authority and historical FullMix multiattack-count authority remain unestablished.
+
+No pipeline code/parameter changes. Backup debt and execution deferral: [runtime state](JGA_RUNTIME_STATE.md). Next: PI review, not automatic science.
+
+## Historical pipeline checkpoints — preserved verbatim
+
 # Current authority — JGA v1 hybrid operational adoption · 2026-09-23
 
 **Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) · [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) · [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json).

@@ -1,0 +1,40 @@
+{
+  "task_id": "JGA-MINIMAL-ARCHITECTURE-ALIGNMENT-001-20261006",
+  "date_time": "2026-10-06T09:54:51.166168+00:00",
+  "status": "PASS",
+  "focused_tests": {
+    "passed": 56,
+    "failed": 0,
+    "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider --basetemp /private/tmp/jga_alignment_pytest tools/tests/test_jga_governance.py tools/tests/test_architecture_alignment.py tests/tooling/test_bootstrap_recovery.py"
+  },
+  "broader_tests": {
+    "passed": 60,
+    "failed": 0,
+    "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider --basetemp /private/tmp/jga_alignment_broader tools/tests tests/tooling"
+  },
+  "syntax": "PASS",
+  "JSON_JSONL_validation": "PASS",
+  "diff_whitespace_check": "PASS",
+  "unrelated_worktree_changes": [],
+  "branch_HEAD_index_unchanged": true,
+  "registered_SSD_files_opaque_hash_verified": 468,
+  "external_SSD_scientific_artifacts_modified": false,
+  "old_HD_accessed": false,
+  "production_bootstrap_sha256": "caeaf32ee1ebc830b099e69fa7e28e8a2970fb1ce60c261a436e1486eed6e84a",
+  "production_bootstrap_updated": false,
+  "backup_state": "BACKUP_DEBT_PI_AUTHORIZED",
+  "backup_debt_settled": false,
+  "scientific_execution": false,
+  "scientific_unseal": false,
+  "commit": false,
+  "push": false,
+  "lease_release": "Final owner release after revocation metadata; verified in task return",
+  "limitations": [
+    "Common lease and access guards are cooperative, not an OS sandbox",
+    "External roots are not recursively inventoried at acquisition; exact file paths and created outputs are checked",
+    "Coordinator attests recovery and supplies hash-bound permitted PI evidence; restricted guard must be used by worker",
+    "Freeze hashes/gate metadata require task-specific scientific provenance/auditor verification; no independent scientific approval is inferred",
+    "Backup device mount/device isolation cannot be exercised against replacement hardware until it arrives",
+    "Preflight worktree fingerprint uses existing bounded hashes and size/mtime/mode for large files; complete Git status inventory is retained"
+  ]
+}

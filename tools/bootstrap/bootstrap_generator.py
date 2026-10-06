@@ -21,6 +21,18 @@ def _root_links(text: str, source: Path, root: Path) -> str:
     return re.sub(r"\]\(([^)]+)\)", replace, text)
 
 
+def current_section(text, section):
+    marker=section.get('current_section_end')
+    if marker:
+        if text.count(marker)!=1:raise ValueError('Current-section boundary must occur exactly once')
+        return text.split(marker,1)[0]
+    # Compatibility for older source configurations; semantic historical heading
+    # takes precedence over decorative horizontal rules.
+    match=re.search(r'^## (?:Historical|Archived|Preserved historical)\b',text,re.M)
+    if match:return text[:match.start()]
+    return text.split("\n---\n",1)[0]
+
+
 def render_bootstrap(root: Path = ROOT) -> str:
     """Pure rendering; unchanged canonical inputs produce identical bytes."""
     root = Path(root)
@@ -44,7 +56,7 @@ Consult Git for current branch/commit; no commit identity is embedded here.
         source = root / section["path"]
         text = source.read_text(encoding="utf-8")
         if section["current_section_only"]:
-            text = text.split("\n---\n", 1)[0]
+            text = current_section(text, section)
         parts.append(_root_links(text.strip(), source, root))
     links = []
     for name in config["recovery_links"]:
@@ -58,6 +70,9 @@ Consult Git for current branch/commit; no commit identity is embedded here.
 def generate_bootstrap(root: Path = ROOT) -> Path:
     """Write root only; never recreate a second mutable artifacts bootstrap."""
     root = Path(root)
+    config=json.loads((root / SOURCE_INDEX).read_text())
+    if config.get('production_generation_status','').startswith('DEFERRED'):
+        raise ValueError('Production bootstrap generation deferred by PI; use isolated fixtures')
     text = render_bootstrap(root)  # Validate before replacing the existing output.
     output = root / "JGA_BOOTSTRAP.md"
     output.write_text(text, encoding="utf-8")

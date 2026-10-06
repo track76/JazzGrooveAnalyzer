@@ -1,0 +1,404 @@
+{
+  "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+  "PI_decision": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+  "status": "RECONCILED_WITH_HISTORICAL_QUALIFICATIONS",
+  "original_records_preserved": true,
+  "corrections": [
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.782989+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 50,
+      "original_record_sha256": "9dfbacdc675a022aec9a25786ecfb0879d09c62565f6dd8f6d23d6a6c633cba2",
+      "original_task_id": "JGA-BLIND-M54-PROVENANCE-LEASE-RECOVERY-001-20260929",
+      "original_event": "GOVERNANCE_ONLY_LEASE_RECOVERY",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "HISTORICAL_AUTHORIZATION_UNRESOLVED",
+      "missing_decision_id": "PI-BLIND-M54-PROVENANCE-LEASE-RECOVERY-20260929",
+      "historical_authorization_confirmed": false,
+      "current_PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.783366+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 51,
+      "original_record_sha256": "6c7e64da4cb6f6d65444a9701c7f78785f256bdfa6a2c986c8d0057326e2b092",
+      "original_task_id": "JGA-BLIND-M54-PROVENANCE-LEASE-RECOVERY-001-20260929",
+      "original_event": "GOVERNANCE_ONLY_LEASE_RECOVERY_COMPLETED",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "HISTORICAL_AUTHORIZATION_UNRESOLVED",
+      "missing_decision_id": "PI-BLIND-M54-PROVENANCE-LEASE-RECOVERY-20260929",
+      "historical_authorization_confirmed": false,
+      "current_PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.783385+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 82,
+      "original_record_sha256": "a0e5ed4edd7dfb0f73f3faa05811543e752fe5f5177badb0ae0e5b3c26ee07a6",
+      "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+      "original_event": "SCOPE_CORRECTION",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-PRE-HELD-OUT-REMOTE-FREEZE-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.784082+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 83,
+      "original_record_sha256": "e974e0c30b5c26b977dcdf74c1838dfb24702b63dfd90749a4b1ed7900b96d8d",
+      "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+      "original_event": "SCOPE_AMENDMENT",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-PRE-HELD-OUT-REMOTE-FREEZE-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.784521+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 84,
+      "original_record_sha256": "a9b69fe1725a9a5270b9a8301d2f633561b8040e1a8222c44b43661539f08bc3",
+      "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+      "original_event": "SCOPE_AMENDMENT",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-PRE-HELD-OUT-REMOTE-FREEZE-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.784978+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 85,
+      "original_record_sha256": "9b227db257d2dbbbff0d71bb60ffab398bf5a02929646174e82929bbe948f05e",
+      "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930",
+      "original_event": "STARTED",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-HELDOUT-PREDICTION-FREEZE-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.785479+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 86,
+      "original_record_sha256": "1c7bdec3c96c9225e47d1393ee9f78f7bd6ebeac04ec20207af33d6624bd5c23",
+      "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930",
+      "original_event": "CLOSED",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-HELDOUT-PREDICTION-FREEZE-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.785912+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 87,
+      "original_record_sha256": "69b528062c251e5e2c7d7a2d9cc2b16d819f13e33437d7ace766cf9aef04f333",
+      "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+      "original_event": "STARTED",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.786360+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 88,
+      "original_record_sha256": "4a0c313374c6dd936448d309f3943643921c2e551591ce7a9e1727881d0d1651",
+      "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+      "original_event": "CLOSED",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.786778+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 89,
+      "original_record_sha256": "c972ea60f65d2a42e57eb92ac8f5eeb769383ddc87084b179a7f8534a3a2dcdb",
+      "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+      "original_event": "SCOPE_RECONFIRMED",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.787178+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 90,
+      "original_record_sha256": "201fcf88055d86a5f2cc8ebc0e2e472d163280232588628a696046931061f173",
+      "original_task_id": "JGA-BASS-HELDOUT-REVEAL-SCORING-001-20260930",
+      "original_event": "STARTED",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-HELDOUT-REVEAL-SCORING-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.787582+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 91,
+      "original_record_sha256": "24e6a2a2c1467ba6237a0507f0bef08dc6f84f0816cd899086bae068e1c8620a",
+      "original_task_id": "JGA-BASS-HELDOUT-REVEAL-SCORING-001-20260930",
+      "original_event": "CLOSED",
+      "source_provenance": "Explicit PI historical governance reconciliation authorization 2026-10-06; existing PI decision log and immutable ledger event",
+      "preservation_requirement": "Original append-only event remains unchanged; correction never claims missing historical consent",
+      "scientific_bytes_shown_invalid": false,
+      "resolution_kind": "CORRECTIVE_PI_LINKAGE",
+      "verified_existing_PI_decision": "PI-BASS-HELDOUT-REVEAL-SCORING-20260930"
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.886086+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 54,
+      "original_record_sha256": "c523fc0dfce84daf91ebb437917ffcd79b66010518c636e644d3432da0c0361d",
+      "original_task_id": "JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929",
+      "original_event": "STARTED",
+      "resolution_kind": "HISTORICAL_REFERENCE_RESOLUTION",
+      "missing_path": "docs/scientific/rfc/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929/HELD_OUT_SEAL.json",
+      "reference_status": "UNKNOWN",
+      "source_provenance": "PI instruction plus metadata-only exact-name search in original repository namespace and source-associated SSD namespaces",
+      "preservation_requirement": "Preserve intended-artifact reference; do not fabricate a seal or reliability file",
+      "scientific_bytes_shown_invalid": false,
+      "interpretation": "Intended historical artifact is not present at registered path; cannot reconstruct or assert NEVER_PRODUCED without evidence."
+    },
+    {
+      "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+      "agent_id": "codex",
+      "PI_authorization": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+      "date_time": "2026-10-06T13:01:13.887040+00:00",
+      "event": "HISTORICAL_GOVERNANCE_CORRECTION",
+      "original_record_number": 54,
+      "original_record_sha256": "c523fc0dfce84daf91ebb437917ffcd79b66010518c636e644d3432da0c0361d",
+      "original_task_id": "JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929",
+      "original_event": "STARTED",
+      "resolution_kind": "HISTORICAL_REFERENCE_RESOLUTION",
+      "missing_path": "docs/scientific/rfc/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929/RELIABILITY_SUMMARY.json",
+      "reference_status": "UNKNOWN",
+      "source_provenance": "PI instruction plus metadata-only exact-name search in original repository namespace and source-associated SSD namespaces",
+      "preservation_requirement": "Preserve intended-artifact reference; do not fabricate a seal or reliability file",
+      "scientific_bytes_shown_invalid": false,
+      "interpretation": "Intended historical artifact is not present at registered path; cannot reconstruct or assert NEVER_PRODUCED without evidence."
+    }
+  ],
+  "missing_reference_search": [
+    {
+      "missing_path": "docs/scientific/rfc/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929/HELD_OUT_SEAL.json",
+      "scope": [
+        "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929",
+        "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-SOURCE-IDENTITY-60-CONTEXT-REVISION-001-20260930",
+        "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930"
+      ],
+      "metadata_only_exact_name_matches": [],
+      "status": "UNKNOWN",
+      "reason": "Historical STARTED event lists intended artifact; exact original is absent. Name matches alone cannot establish alternate authority."
+    },
+    {
+      "missing_path": "docs/scientific/rfc/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929/RELIABILITY_SUMMARY.json",
+      "scope": [
+        "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929",
+        "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-SOURCE-IDENTITY-60-CONTEXT-REVISION-001-20260930",
+        "/Volumes/SSD Track/JGA/experiments/JGA-HUMAN-BASS-PRESENCE-60-001-20260930"
+      ],
+      "metadata_only_exact_name_matches": [],
+      "status": "UNKNOWN",
+      "reason": "Historical STARTED event lists intended artifact; exact original is absent. Name matches alone cannot establish alternate authority."
+    }
+  ],
+  "legacy_mapping": "21 sorted unique names, sequential IDs, valid metadata and all SSD byte hashes verified; positional relationship recorded explicitly in current registrations",
+  "legacy_artifacts_verified": [
+    {
+      "artifact_id": "EXT-JGA-METHOD-P-ARRAYS-20260928",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_FROZEN_CANDIDATES_PLP_GRID_001_20260928/METHOD_P_ARRAYS.npz",
+      "size_bytes": 53854975,
+      "sha256": "8813f01fa21d8e9e4b2d21153bff773d6b46f041e28cd59a076b117400a8d38c"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-001",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/ATTEMPT_001/INCOMPLETE_DATABASE.sqlite",
+      "size_bytes": 12288,
+      "sha256": "47d01fd8edd02a0d130f853c9e08a47d0a8472d6819e32338511ddcb2ec83054"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-002",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/ATTEMPT_001/producer.py",
+      "size_bytes": 13206,
+      "sha256": "7260103918a6a0a53a5163b16fe9af19a859b55eefad9b1ad03262f533f5a122"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-003",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/CANDIDATE_PROJECTION.json",
+      "size_bytes": 33895,
+      "sha256": "aabe26ec9d1f0205617e55c389f7362d7e7f03546d5195bf7cb4be328e74eedb"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-004",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/EVIDENCE.sqlite",
+      "size_bytes": 236474368,
+      "sha256": "2bcfcdb4407cc759b643201177a110f313a37ba371446930aff677da6c8ce0d2"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-005",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/FIGURES/ALL_CONTEXT_SPECTRA.pdf",
+      "size_bytes": 610993,
+      "sha256": "3501c72cf6cade731591033bdadbca152500ddbb0ac564de2a7dd4a97561565c"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-006",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/FIGURES/ALL_ROOT_PEAK_PHASES.pdf",
+      "size_bytes": 2959703,
+      "sha256": "b6114cee5f30d1d430dc0fc3fe187ed00f44cf2f99bab6fecd1598d454125f2d"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-007",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/FIGURES/ANCESTOR_FREQUENCY_SUPPORT.pdf",
+      "size_bytes": 462855,
+      "sha256": "fbdd85003a2f703b1bb738ec9fb5496247d98e1932a24787250693a2ca09bab0"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-008",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/FIGURES/EVENT_RASTER.pdf",
+      "size_bytes": 25627,
+      "sha256": "ec08ed9dd8ea5861fff10c5158c18913407255ed65a8f0b39aae9694cce95988"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-009",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/FIGURES/FULL_SUPPORT_SPECTRUM.pdf",
+      "size_bytes": 102640,
+      "sha256": "6b8ea0db9dc90bdd4a5b6bd8074b7556a795fcaf572c85d6fdeb495ebdb25b0e"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-010",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/FIGURES/INTERVAL_STRUCTURE.pdf",
+      "size_bytes": 65084,
+      "sha256": "2d48388f93924d98635a737cb1b8df77d7abbaa722965bceeaa951b3e7f5b377"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-011",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/BASS/SUMMARY.json",
+      "size_bytes": 1110,
+      "sha256": "20397be3934bd18ceee4e9f453e103b072dd4bb6c2ff76ccfccbfe6b273d1a63"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-012",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CONTEXT_TREE.json",
+      "size_bytes": 734216,
+      "sha256": "27ac2d56c55c7b16523ab22dcba24de8213a8d7dd21726e00974a1e8bf619648"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-013",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/CANDIDATE_PROJECTION.json",
+      "size_bytes": 22955,
+      "sha256": "be92d0613bdb52dc83fc794d2fb0b9540f749e3f45c7dd2827d644a100cd33fc"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-014",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/EVIDENCE.sqlite",
+      "size_bytes": 176685056,
+      "sha256": "6ba6a16f24245ebb77da080b5eced85b9be0f7ec0bc418d4cc132403db4c6de4"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-015",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/FIGURES/ALL_CONTEXT_SPECTRA.pdf",
+      "size_bytes": 487248,
+      "sha256": "49afb898e69609e38cced69762c45d49ad2be722c6d9947b472d5370e26385c9"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-016",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/FIGURES/ALL_ROOT_PEAK_PHASES.pdf",
+      "size_bytes": 1993807,
+      "sha256": "61fba4adc789dc6ffd19f5e13f6bf232efdca70a37fd07fcf0d61b7c5ba8215b"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-017",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/FIGURES/ANCESTOR_FREQUENCY_SUPPORT.pdf",
+      "size_bytes": 383868,
+      "sha256": "e55d5ff25f6b73ae2166d89ed97d14acd32552c60184af73b03c41e8d9e708b9"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-018",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/FIGURES/EVENT_RASTER.pdf",
+      "size_bytes": 22927,
+      "sha256": "192d48ba0e5222a56189dde185e7e695fade6f7fad4b4757d1db20a65f78b7b4"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-019",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/FIGURES/FULL_SUPPORT_SPECTRUM.pdf",
+      "size_bytes": 103428,
+      "sha256": "0b2af5f1a883cd214dfca06fbe2439475ec593750480108332b1e4be3f6f149e"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-020",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/FIGURES/INTERVAL_STRUCTURE.pdf",
+      "size_bytes": 54996,
+      "sha256": "4c9670ce1740a4de45dd7d0812fb17fe57a115e220d2b7fd0ffb2b31e2192171"
+    },
+    {
+      "artifact_id": "EXT-DMIN-20260928-021",
+      "path": "/Volumes/SSD Track/JGA/experiments/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/CYMBAL/SUMMARY.json",
+      "size_bytes": 1106,
+      "sha256": "bd9e28bdcc67d0e246080404c30f750a032433962f4d741c50e0bb57dec69613"
+    }
+  ],
+  "registered_count": 22,
+  "old_HD_accessed": false,
+  "Human_target_opened": false,
+  "scientific_results_changed": false,
+  "backup": "BACKUP_DEBT_PI_AUTHORIZED"
+}

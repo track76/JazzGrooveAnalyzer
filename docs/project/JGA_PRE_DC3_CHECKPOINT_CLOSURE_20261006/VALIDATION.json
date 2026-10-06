@@ -1,0 +1,324 @@
+{
+  "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+  "status": "PUBLICATION_READY_WITH_PI_ACCEPTED_HISTORICAL_QUALIFICATIONS",
+  "test_exit_code": 0,
+  "publication_tests_passed": true,
+  "test_command": [
+    "/Users/StarTrack/Development/JazzGrooveAnalyzer/.venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "/private/tmp/jga_pre_dc3_governance_publish_tests",
+    "tools/tests",
+    "tests/tooling"
+  ],
+  "test_output": "........................................................................ [ 68%]\n.................................                                        [100%]\n105 passed in 25.89s\n",
+  "prior_architecture_focused": 56,
+  "prior_architecture_broader": 60,
+  "governance": {
+    "status": "PASS",
+    "findings": [],
+    "notices": [
+      {
+        "issue": "HISTORICAL_AUTHORIZATION_UNRESOLVED",
+        "original_record_number": 50,
+        "original_task_id": "JGA-BLIND-M54-PROVENANCE-LEASE-RECOVERY-001-20260929",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": false,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "HISTORICAL_AUTHORIZATION_UNRESOLVED",
+        "original_record_number": 51,
+        "original_task_id": "JGA-BLIND-M54-PROVENANCE-LEASE-RECOVERY-001-20260929",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": false,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 82,
+        "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 83,
+        "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 84,
+        "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 85,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 86,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 87,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 88,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 89,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 90,
+        "original_task_id": "JGA-BASS-HELDOUT-REVEAL-SCORING-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 91,
+        "original_task_id": "JGA-BASS-HELDOUT-REVEAL-SCORING-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "HISTORICAL_REFERENCE_RESOLUTION",
+        "original_record_number": 54,
+        "original_task_id": "JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": "docs/scientific/rfc/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929/HELD_OUT_SEAL.json",
+        "reference_status": "UNKNOWN",
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "HISTORICAL_REFERENCE_RESOLUTION",
+        "original_record_number": 54,
+        "original_task_id": "JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": "docs/scientific/rfc/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929/RELIABILITY_SUMMARY.json",
+        "reference_status": "UNKNOWN",
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      }
+    ],
+    "historical_qualifications": [
+      {
+        "issue": "HISTORICAL_AUTHORIZATION_UNRESOLVED",
+        "original_record_number": 50,
+        "original_task_id": "JGA-BLIND-M54-PROVENANCE-LEASE-RECOVERY-001-20260929",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": false,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "HISTORICAL_AUTHORIZATION_UNRESOLVED",
+        "original_record_number": 51,
+        "original_task_id": "JGA-BLIND-M54-PROVENANCE-LEASE-RECOVERY-001-20260929",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": false,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 82,
+        "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 83,
+        "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 84,
+        "original_task_id": "JGA-BASS-PRE-HELD-OUT-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 85,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 86,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 87,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 88,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 89,
+        "original_task_id": "JGA-BASS-HELDOUT-PREDICTION-REMOTE-FREEZE-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 90,
+        "original_task_id": "JGA-BASS-HELDOUT-REVEAL-SCORING-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "CORRECTIVE_PI_LINKAGE",
+        "original_record_number": 91,
+        "original_task_id": "JGA-BASS-HELDOUT-REVEAL-SCORING-001-20260930",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": null,
+        "reference_status": null,
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "HISTORICAL_REFERENCE_RESOLUTION",
+        "original_record_number": 54,
+        "original_task_id": "JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": "docs/scientific/rfc/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929/HELD_OUT_SEAL.json",
+        "reference_status": "UNKNOWN",
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      },
+      {
+        "issue": "HISTORICAL_REFERENCE_RESOLUTION",
+        "original_record_number": 54,
+        "original_task_id": "JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929",
+        "qualification": "RESOLVED_FOR_CURRENT_CONSISTENCY_WITH_QUALIFICATION",
+        "historically_authorized": null,
+        "missing_path": "docs/scientific/rfc/JGA-HUMAN-SOURCE-IDENTITY-60-001-20260929/RELIABILITY_SUMMARY.json",
+        "reference_status": "UNKNOWN",
+        "PI_acknowledgement": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006"
+      }
+    ],
+    "consistency_classification": "PASS_WITH_HISTORICAL_QUALIFICATIONS",
+    "scope": "registered references; immutable historical originals preserved"
+  },
+  "bootstrap_generator_parity": true,
+  "bootstrap_sha256": "2c32923c3c84479a9505e7b325c70874e7c77ffc95262d089f6cc320727fb0f5",
+  "registered_SSD_authority_files_verified": 469,
+  "legacy_external_files_verified": 22,
+  "all_original_ledger_bytes_preserved": true,
+  "out_of_scope_worktree_changes": [],
+  "scientific_results_changed": false,
+  "current_Human_target_opened": false,
+  "DC3_training_started": false,
+  "old_HD_accessed": false,
+  "backup": "BACKUP_DEBT_PI_AUTHORIZED",
+  "backup_verified": false
+}

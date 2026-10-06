@@ -1,3 +1,9 @@
+# Current checkpoint decisions/index · 2026-10-06
+
+[Checkpoint review](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/PI_REVIEW.md); [machine-only design/audit record](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/DESIGN_AND_TRAINING_AUDIT.md). PI PI-PRE-DC3-CHECKPOINT-CLOSURE-20261006 authorizes checkpoint publication under open backup debt, not new science. DC-3 development direction; readiness E. Fishman80 development-only, Fishman40 consumed validation/do not train; Exactly Like You final target embargoed.
+
+## Historical decisions/evidence — preserved
+
 # Current authority — JGA v1 hybrid operational adoption · 2026-09-23
 
 **Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) · [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) · [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json).
@@ -2336,3 +2342,8 @@ localization, correction or production behavior is authorized.
 ## Canonical Specification
 
 `docs/architecture/AD-040_RHYTHM_SECTION_TIMING_PROFILE.md`
+
+
+## PI documentary reconciliation and temporary backup debt — 2026-10-06
+
+Operational decision PI-DOCUMENTARY-RECONCILIATION-BACKUP-DEBT-20261006 authorizes documentation reconciliation only. [Current scientific state](JGA_SCIENTIFIC_STATE.md) records the six previously frozen promotion gates; no new scientific decision or execution. Old external HD writes prohibited; temporary backup debt explicitly authorized; replacement backup pending per PI. Bootstrap, architecture rules, commit/push deferred. [Review record](project/JGA_DOCUMENTARY_RECONCILIATION_20261006/PI_REVIEW.md).

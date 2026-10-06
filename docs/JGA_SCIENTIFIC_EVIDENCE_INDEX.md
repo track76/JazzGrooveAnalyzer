@@ -1,3 +1,29 @@
+# Current checkpoint decisions/index · 2026-10-06
+
+[Checkpoint review](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/PI_REVIEW.md); [machine-only design/audit record](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/DESIGN_AND_TRAINING_AUDIT.md). PI PI-PRE-DC3-CHECKPOINT-CLOSURE-20261006 authorizes checkpoint publication under open backup debt, not new science. DC-3 development direction; readiness E. Fishman80 development-only, Fishman40 consumed validation/do not train; Exactly Like You final target embargoed.
+
+## Historical decisions/evidence — preserved
+
+## Current navigation update — verified October4–6 evidence · 2026-10-06
+
+[Verified authority inventory](project/JGA_DOCUMENTARY_RECONCILIATION_20261006/AUTHORITY_INVENTORY.json) links finalized Bass61 passes, reliability/construction, October5 Human Reference, bounded VS-B3PLP comparison, provenance/capability audits, candidate visualization, qualification blockers and terminated manual-quarter provenance. This is navigation, not scientific promotion. [Current scientific scope](JGA_SCIENTIFIC_STATE.md); [backup/debt status](JGA_RUNTIME_STATE.md). Earlier frozen index material below is preserved.
+
+# Current scientific checkpoint — first complete musicological performance analysis · 2026-09-22
+
+**JGA-FIRST-COMPLETE-MUSICOLOGICAL-PERFORMANCE-ANALYSIS-001: PASS with documented qualifications.** Target: Ray Brown Trio — “Exactly Like You”. Branch: `scientific/translation-layer-finalization`. Scientific result frozen; awaiting PI review. No commit or push.
+
+[Musicological report](scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/MUSICOLOGICAL_ANALYSIS.md) · [technical appendix](scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/TECHNICAL_APPENDIX.md) · [result](scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/RESULT.md) · [result freeze](scientific/rfc/JGA_FIRST_COMPLETE_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_001_20260922/JGA_MUSICOLOGICAL_PERFORMANCE_ANALYSIS_RESULT_FREEZE.json), SHA-256 `3fe103ee2a20348e89395b1557e8ef3275b08df151e2e95f2dc49a7f34341bf1`. Preregistration SHA-256 `aac8d1f76785dda4b8e68a73ca8517202f8fee3864853cc61eb9b61ff490acfa`.
+
+**Preserved limitations:** precise recorded-acoustic Bass onset NOT ESTABLISHED; physical Bass onset and physical Bass–Drum microtiming NOT ESTABLISHED; continuous mixed-source trajectory NOT ESTABLISHED. Final audio-only within-PI reference decision D — INSUFFICIENT (6/17 bounded both, all6 overlapping, below prospective minimum12). The620 mathematical comparator records remain STILL BLINDED. Earlier negative/partial studies remain historical authorities, not erased. No estimator or commercial transfer is authorized by this checkpoint.
+
+**ONE next recommended action, NOT EXECUTED:** independent listening validation of the frozen internal quarter pulse during the Piano–Drum exchange chorus (03:06–03:52), without changing the grid or groove coordinate. PI approval of that next action is pending. This checkpoint records the current completed study, not automatic authorization to continue.
+
+---
+
+## Preserved historical state below
+
+Earlier current-task labels and recommendations below are historical checkpoints; their evidence remains valid within its original scope.
+
 # JGA Scientific Evidence Index
 
 Index ID: `JGA-SCIENTIFIC-EVIDENCE-INDEX-001`

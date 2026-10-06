@@ -124,3 +124,69 @@ A committed document cannot literally contain the hash of its own containing com
 After an authorized push, run `tools/export_chat_recovery.py --destination <authorized-SSD-recovery-path>/<final-HEAD>`; it verifies remote HEAD, exports ONLY root bootstrap and handoff through Git, substitutes the exact final HEAD, and hash-verifies the immutable package and its mapped backup. Give these exported files to external ChatGPT. Raw Git template tokens are not an inspected commit hash. Publication receipts reference the verified content commit; the final carrying commit is resolved through Git/export, avoiding recursive commits. No intentional tracked handoff changes may remain uncommitted.
 
 A full repository mirror and a versioned GOVERNANCE-ONLY freeze archive preserve this closure. Historical SSD inventory remains NOT FULLY CERTIFIED. Unrelated existing scientific work must never be staged, reverted or hidden just to make a governance working tree appear clean. Report its actual status.
+
+## PI-controlled restricted blind-worker startup — 2026-10-06
+
+Root JGA_BOOTSTRAP.md remains the single recovery root. A coordinator/recovery
+context performs complete canonical recovery. Only explicit PI authorization may
+permit a scientifically blind worker to start from a restricted authority/input
+view when complete recovery would expose protected validation targets. This is an
+execution view of canonical authority, never MACHINE_BOOTSTRAP/BLIND_BOOTSTRAP or
+another recovery root. A worker cannot silently select skipped documents.
+
+Record task ID, agent, PI decision, hash-bound coordinator recovery record,
+permitted authority file identities/hashes, absolute allowed paths, denied and
+embargoed paths, and release condition. `validate_blind_view` / `blind_access` in
+the existing governance tool validate those bindings; callers must route opens
+through the permitted view and retain file-open audit evidence. Cooperative
+checks do not intercept arbitrary file access. Denied paths remain denied in the
+pre-unseal view: use a separately PI-bound post-release access view only after
+verified release gates. The existing embargo registry and independent Agent A/B/C
+roles continue to apply; no new universal role roster is imposed.
+
+Generic or PI-permitted Human-derived summaries alone do not automatically
+invalidate independence. Exposure to protected CURRENT validation-target
+coordinates before output freeze compromises claimed blind execution. Using
+protected target information to change method, parameters, population or machine
+selection invalidates independent qualification. Output freeze before reveal is
+necessary but insufficient: method, parameters, population and evaluation rules
+must also be independently fixed. Existing stricter task-specific freezes prevail.
+No already-blocked qualification is retroactively rehabilitated by this rule.
+
+One admitted bounded task may contain multiple gated phases. Required transitions
+are recorded in its ledger under the same task ID; phase IDs are optional. A
+new scientific scope still requires PI admission. A phase gate cannot confer
+another task, change a frozen criterion, or release Human data automatically.
+
+The coordinator validates canonical PI linkage. Restricted workers receive only
+the permitted, coordinator-verified PI decision record, with its source provenance
+and hash in their access audit. `blind_access` requires that record explicitly; it
+never implicitly reloads full canonical PI logs. Its optional coordinator validator
+may use full recovery only in the unrestricted coordinator context.
+
+## PI-authorized historical consistency and governed publication — 2026-10-06
+
+PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006 authorizes the existing
+lifecycle tooling alignment and scoped pre-DC3 checkpoint publication only.
+Historical ledger events remain immutable. Append-only corrections identify the
+original record number plus canonical JSON SHA-256, task/event, correction PI
+decision and preservation/provenance. Verified same-task decision linkage may
+resolve historical malformed fields; unresolved consent remains visibly
+HISTORICAL_AUTHORIZATION_UNRESOLVED, never retroactively authorized. PI-accepted
+missing intended historical references remain UNKNOWN qualifications without
+fabrication. Current references and task admission remain strict. Corrections
+cannot resolve current recovery or embargo references; conflicts fail closed.
+
+The existing governance adapter supports REVIEWED_WORKTREE → GOVERNED_STAGE →
+VERIFY_STAGED_SCOPE → GOVERNED_COMMIT → VERIFY_COMMIT → GOVERNED_PUSH →
+VERIFY_REMOTE_HEAD. Its owner lease remains held throughout. Exact reviewed
+path/operation/blob hashes, parent/branch/tree and unchanged unrelated worktree
+are verified before advancing only expected index/HEAD transitions. Unexpected
+changes are not absorbed by generic resync. Publication guards and a reviewed
+passing test receipt remain required. No automatic task chaining or promotion.
+
+This checkpoint has an explicit PI-linked publication-under-backup-debt exception.
+It remains BACKUP_DEBT_PI_AUTHORIZED — OPEN, never backup PASS. Old HD access is
+prohibited. Final Git export-subst recovery resolves the actual carrying commit;
+a post-publication receipt may reference the verified content commit and be
+carried by one explicit final closure commit, without a recursive amend loop.

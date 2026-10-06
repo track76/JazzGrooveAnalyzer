@@ -12,7 +12,8 @@ class GovernanceTests(unittest.TestCase):
   (self.root/'base.txt').write_text('baseline');self.git('add','base.txt');self.git('commit','-qm','fixture')
   p=self.root/'docs/project';p.mkdir(parents=True)
   (p/'AGENT_REGISTRY.json').write_text(json.dumps({'agents':[{'agent_id':'writer','write_authority_status':'AUTHORIZED_FOR_CURRENT_TASK','current_task':'T','current_mode':'AUTHORIZED_WRITER','allowed_modes':['AUTHORIZED_WRITER']}]}))
-  (p/'AGENT_WORK_LEDGER.jsonl').write_text(json.dumps({'task_id':'T','write_paths':['new.txt']})+'\n')
+  (p/'AGENT_WORK_LEDGER.jsonl').write_text(json.dumps({'task_id':'T','agent_id':'writer','PI_decision':'PI-T','write_paths':['new.txt']})+'\n')
+  (p/'PI_DECISION_LOG.jsonl').write_text(json.dumps({'decision_id':'PI-T','task_id':'T','agent_id':'writer','decision':'AUTHORIZED_FOR_CURRENT_TASK','write_paths':['new.txt']})+'\n')
  def tearDown(self):self.tmp.cleanup()
  def git(self,*args):return subprocess.check_output(['git','-C',str(self.root),*args],stderr=subprocess.DEVNULL)
  def test_second_writer_rejected(self):
@@ -99,6 +100,34 @@ class GovernanceTests(unittest.TestCase):
   p=self.root/'docs/project/EXTERNAL_ARTIFACT_MANIFEST.json';p.write_text(json.dumps(d))
   self.assertEqual(g.external_check(self.root,'full')['findings'][0]['issue'],'BACKUP_HASH_MISMATCH')
   src.unlink();self.assertEqual(g.external_check(self.root,'metadata')['findings'][0]['issue'],'SOURCE_MISSING')
+ def test_resync_absorbs_authorized_in_scope_divergence(self):
+  g.acquire(self.root,'writer','T','one');(self.root/'docs/authorized.txt').write_text('in scope')
+  d=json.loads(g.lock_path(self.root).read_text());d['write_paths']=['docs/authorized.txt']
+  g.lock_path(self.root).write_text(json.dumps(d))
+  with self.assertRaisesRegex(ValueError,'STALE'):g.lease(self.root,'one')
+  r=g.resync(self.root,'one','authorized in-scope restoration outside baseline advancement')
+  self.assertEqual(r['absorbed_paths'],['docs/authorized.txt']);g.lease(self.root,'one')
+ def test_resync_refuses_out_of_scope_divergence(self):
+  g.acquire(self.root,'writer','T','one');(self.root/'base.txt').write_text('not my scope')
+  with self.assertRaisesRegex(ValueError,'outside authorized write_paths'):g.resync(self.root,'one','x')
+  self.assertTrue(g.lock_path(self.root).exists())
+ def test_resync_refuses_foreign_token_and_requires_justification(self):
+  g.acquire(self.root,'writer','T','one')
+  with self.assertRaisesRegex(ValueError,'token mismatch'):g.resync(self.root,'two','x')
+  with self.assertRaisesRegex(ValueError,'justification'):g.resync(self.root,'one','   ')
+ def test_resync_refuses_head_or_index_movement(self):
+  g.acquire(self.root,'writer','T','one');(self.root/'docs/authorized.txt').write_text('in scope')
+  d=json.loads(g.lock_path(self.root).read_text());d['write_paths']=['docs/authorized.txt']
+  g.lock_path(self.root).write_text(json.dumps(d));self.git('add','docs/authorized.txt')
+  with self.assertRaisesRegex(ValueError,'branch, HEAD or index changed'):g.resync(self.root,'one','x')
+ def test_resync_is_recorded_in_the_lease(self):
+  g.acquire(self.root,'writer','T','one');(self.root/'docs/authorized.txt').write_text('in scope')
+  d=json.loads(g.lock_path(self.root).read_text());d['write_paths']=['docs/authorized.txt']
+  g.lock_path(self.root).write_text(json.dumps(d))
+  g.resync(self.root,'one','procedural deviation')
+  d=json.loads(g.lock_path(self.root).read_text())
+  self.assertEqual(d['resyncs'][0]['diverging_paths'],['docs/authorized.txt'])
+  self.assertEqual(d['resyncs'][0]['justification'],'procedural deviation')
  def test_secret_not_printed(self):
   token='ghp_'+'a'*32;(self.root/'secret.txt').write_text(token)
   findings=g.secrets(self.root,['secret.txt']);self.assertTrue(findings);self.assertNotIn(token,str(findings))

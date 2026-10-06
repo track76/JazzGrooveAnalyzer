@@ -80,3 +80,39 @@ The helper was checked for CREATE, UPDATE, append-only log preservation,
 unchanged-file verification, orphan preservation, path traversal rejection and
 simulated hash mismatch rejection before installation. Initial population must
 finish full inventory/hash verification before installation is reported complete.
+
+## Explicit target and debt alignment — 2026-10-06
+
+The historical HD destination above is provenance, not an implicit active target.
+`BACKUP_CONFIGURATION.json` projects a linked PI decision and exact scope;
+continuous_backup.py never automatically chooses a mounted disk. A replacement
+backup destination must be absolute, explicitly PI-authorized and physically
+separate from INTERNAL HD; primary scientific storage remains separately named.
+Old backup bytes and orphans remain preserved. Configuring a target is not
+certification: preflight checks availability, and every completed output still
+requires independent copy/hash verification for its bounded scope.
+
+States: BACKUP_VERIFIED means the named gate passed, not all historical storage
+is certified; BACKUP_DEBT_PI_AUTHORIZED means local work only under the exact PI
+scope, reason, permitted/prohibited work and settlement condition;
+BACKUP_BLOCKED means dependent work must stop. Debt never reports PASS or verified
+backup. Configuration without an approved task-bound PI decision fails closed.
+Under debt the helper permits only exact registered local paths, records local
+hash/size, and performs no external reads or writes. `all`, `staged`, publication
+exports and persistent scientific outputs remain blocked. On replacement arrival,
+obtain PI target authorization, perform per-file copy/hash verification and bounded
+inventory, preserve old history, and settle debt explicitly before publication or
+new science. Device arrival alone is not authority or backup verification.
+
+Current PI debt permits documentation, architecture, tooling and isolated tests;
+new science, Human unseal, scientific freeze, final visualization and publication
+are prohibited. `/Volumes/HD BackUp/` is not trusted and must not be accessed in
+this task. The replacement SSD is pending.
+
+Browser/test profiles are not blanket disposable. Classify inspected paths as
+DISPOSABLE_REPRODUCIBLE only with an explicit PI-linked inspection/exclusion record.
+Scientific responses, logs and validation evidence remain SCIENTIFIC_EVIDENCE,
+even within a profile; explicit evidence paths override disposable classification.
+Mixed directories must be subdivided or preserved in full. Source evidence is
+never deleted. Named historical cache exclusions do not authorize discarding
+scientific responses placed there: producers must preserve/classify them first.

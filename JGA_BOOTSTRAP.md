@@ -14,68 +14,75 @@ The next scientific action requires separate PI authorization; recovery grants n
 Consult Git for current branch/commit; no commit identity is embedded here.
 
 
-## Multi-agent coordination gate — infrastructure lock
+# Current pre-DC3 coordination gate · 2026-10-06
 
-Read [protocol](docs/project/MULTI_AGENT_SCIENTIFIC_WORKFLOW_PROTOCOL.md) and [ownership/operating contract](docs/project/INFRASTRUCTURE_ARCHITECTURE.md) before scientific searches. Root JGA_BOOTSTRAP.md is the only recovery entry.
+Historical governance reconciled by append-only PI dispositions under PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006. Two Sep29 lease-recovery events remain HISTORICAL_AUTHORIZATION_UNRESOLVED: historical consent is NOT confirmed or fabricated. Ten malformed/missing event linkages are corrected through hash-bound metadata pointing to existing decisions. Two Sep29 pilot intended references remain UNKNOWN / historically absent, not reconstructed. These are visible accepted historical qualifications, not scientific-result changes. OpenCode is inactive INDEPENDENT_REVIEW, NOT_GRANTED, task null. All22 legacy Method P/D IDs are registered after SSD-only byte verification; registration does not promote them. Current task checking remains strict.
 
-**PILOT002 COMPUTATIONAL EVIDENCE FROZEN — NO SCIENTIFIC PROMOTION.** PI PI-PILOT-002-CANDIDATE-FREEZE-20260928 authorizes ONE focused experimental publication and recovery closure of [JGA-PILOT-002-CANDIDATE-FREEZE-001-20260928](docs/scientific/rfc/JGA_PILOT_002_CANDIDATE_FREEZE_001_20260928/FREEZE_RECORD.json). Future P/D methods must consume identical frozen hashes under its admission gate; no downstream experiment is authorized. Codex returns to NOT_GRANTED / INDEPENDENT_REVIEW; OpenCode remains inactive. Publication/remote/recovery success is recorded in the commit-addressed external receipt named by the freeze; no success is preclaimed in the committed preparation. Historical SSD inventory: **NOT FULLY CERTIFIED**.
+The existing governed publication adapter retains one writer lease across exact reviewed staging, staged verification, commit/tree verification, push and remote verification. Unrelated dirty bytes remain excluded. Required tests and current recovery parity gate publication. BACKUP_DEBT_PI_AUTHORIZED — OPEN remains explicitly accepted for this scoped repository checkpoint only.
 
-**ACTIVE COPILOT EMBARGO:** `JGA_BASS_COVERED_CANDIDATE_FEATURE_AUDIT_001_20260927` exists, Codex completed it, EXPERIMENTAL / PI REVIEW REQUIRED. Contents/results/features/next steps and derivatives are embargoed from Copilot. Exact safe metadata/release conditions are owned by [embargo registry](docs/project/EMBARGO_REGISTRY.json); no release recorded. Earlier adjudication, sensitivity, root-cause, mechanism and coverage/ranking remain allowed background, not scientific promotion.
+Scientific checkpoint CURRENT; publication governed and pending final verified transition. No DC-3 development. Backup debt OPEN.
 
-[External artifact index](docs/project/EXTERNAL_ARTIFACT_MANIFEST.json) records verification scope and legacy gaps. [Continuous backup](docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md) remains mandatory. [Chat handoff](docs/project/JGA_CHAT_HANDOFF.md) is a portable dated projection, not a second authority. Complete only the authorized block; STOP FOR PI REVIEW.
+Scientific checkpoint ends before DC-3 development. DC-3 corpus selection, Ground Truth construction, training, Exactly Like You execution/Human unseal, visualization and Drum work are NOT started or authorized by this closure.
 
-Approved [infrastructure freeze](docs/project/INFRASTRUCTURE_FREEZE_20260927/FREEZE_RECORD.json) and [13-check audit](docs/project/INFRASTRUCTURE_FREEZE_20260927/SELF_AUDIT.json) cover governance only. Final publication/remote evidence is recorded by the task ledger and commit-addressed recovery export. No scientific task or embargo release is implied.
+Native FullMix → 401 source-neutral candidates → 216 canonical non-chaining groups → historical 60 + new 156 two-pass presence classifications → 61 BASS_PRESENT_STABLE / 119 BASS_ABSENT_STABLE / 36 BASS_HUMAN_UNSTABLE → two blinded Bass61 localization passes → 54 HUMAN_COUNT_STABLE / 7 HUMAN_COUNT_UNSTABLE → 66 consolidated Human markers. Reference is CANDIDATE-CONDITIONED, NOT exhaustive all-Bass Ground Truth. B1/B2 remain positional labels.
 
-# Current authority — final observed/reconstructed relations · 2026-09-25
+Bounded Human Bass ↔ unchanged frozen B3_PLP comparison is complete, descriptive, and not physical Ground Truth or general historical-jazz/musical-quarter authority. Manual-quarter collection: TERMINATED_BEFORE_SCIENTIFIC_COLLECTION; PI answers 0; PASS_B never opened according to preserved authority; no scientific Human-quarter evidence. Later termination provenance is on primary SSD; old HD is an earlier partial mirror. SSD preservation reconciliation verified; old-HD certification blocked by reproducible I/O errors.
 
-**FROZEN — STOP. No further scientific work before 2026-09-30.** The PI closes this milestone with the [final report](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/JGA_FINAL_REPORT.pdf), [freeze](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/FREEZE_RECORD.json) and [manifest](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/MANIFEST.json). Region remains Ray Brown Trio — Exactly Like You, M33–M48/Q131–Q194.
+Human/B3_PLP visualization remains CANDIDATE / diagnostic development; 66/66 markers independently verified rendered; not final public score. Drum timing authority NOT ESTABLISHED. Future public score requires qualified MACHINE evidence; Human remains internal validation.
 
-Current primary unit is an independently supported quarter: observed eligible Bass AND Drum representatives.43/64observed relations; median+16.93349208519379ms (BMIG−DMIG), Bass ahead18, behind25, exact0. Existing anchored coordinates remain unchanged for these43quarters. Exactly3observed relations in a measure permits ONLY its fourth contextual completion: Q131,Q148,Q162,Q184, using already saved preregistered measure-grid coordinates, no new fit. All4marked□and excluded from primary statistics.17unsupported relations omitted; all127original onset events remain visible. No full-grid filling merely because the old anchored model has64/64coordinates.
+Learned Local Attack Selector remains best validated CONTROLLED recognized-note baseline: 35/40 selected; median absolute 5.213 ms; P95 5.621 ms; selected within ±10 ms. No historical FullMix generalization. Historical failures, stem-based transfers and diagnostics remain unchanged. Existing 39-feature presence classifier (L2 C=0.3, threshold 0.435) is DEVELOPMENT EVALUATION, NOT independent validation and NOT attack timing.
 
-□ = reconstructed quarter. Normal observed-support B/D font unchanged; reconstructed B/D gray. A4, four measures per system, true native coordinates, blue solid BMIG/orange dashed DMIG, original○/◆, lowerQ/MM:SS.xx references and minimal legend preserved. Mathematical internal-grid differences are not directly observed physical pulse coordinates; historical Ground Truth limitations remain.
+Historical 216-group machine qualification has NOT executed to current Human comparison: NO EXISTING TIMING METHOD HAS A FROZEN 216-GROUP DEPLOYMENT CONTRACT. No current MACHINE_OUTPUT_AUTHORITY or promotion result. Current qualification Human timing remained sealed. Earlier compromised preparatory attempts remain historical failures; none is retroactively rehabilitated. Six prospective gates unchanged: coverage ≥80%; median absolute ≤15 ms; P95 absolute ≤30 ms; ≥70% within20 ms; ≥40% within10 ms; absolute median signed bias ≤10 ms; ALL required.
 
-BPM correction unchanged: arithmetic mean164.50074335007832; first160.2470930232559; last167.04545454545467; change+6.798361522198775BPM from saved report-curve native centers inside selection. Reader mean164,5,160,2→167,0, incremento+6,8BPM. Global dashed median161.5 and curve/extrema unchanged.
+DC-1 unique compatible candidate, DC-2 harmonic-track association and DC-3 learned selector remain design options. PI selects DC-3 as DEVELOPMENT DIRECTION ONLY, not a trained/promoted method. Training audit READINESS E — MULTIPLE BLOCKERS; no training, target reveal or final-test use. Old 22 features comprise exactly 19 audio-only acoustic morphology features and three incompatible BP-relative inputs. Qualified independently supervised FullMix fine-attack GT set is not currently established.
 
-Previous+8.886ms clean-six anchored and+1.578ms prior measure-model results remain history, not current primary statistics. Original anchored and prior experiment files are not overwritten. No new audio/PLP/BPM/onset/model research. The controlled Learned Selector validation baseline remains separate and is not superseded by this report.
+PI prospective data-use decision: Fishman eight development takes /80 supervised references may be reused for DC-3 DEVELOPMENT ONLY subject to a future frozen training contract; never new independent validation. Four takes /40 references remain CONSUMED VALIDATION / DO NOT TRAIN. Exactly Like You 216 groups + current frozen Human Reference are CURRENT FINAL TEST, EMBARGOED FOR DC-3 DEVELOPMENT. No event-level target coordinates are included here.
 
-**Deferred task — 2026-09-30: TARGETED DRUM ATTACK RECOVERY.** Full mix is audio authority; Drum stem complementary evidence; investigate missing quarter-level attacks without artificial100%coverage. Record only, not executed or automatically scheduled.
+Architecture alignment PASS: one task/multiple phases; explicit blind startup; Human firewall; external writer scope; PI-linked acquire; configurable backup; explicit debt; semantic bootstrap extraction; closure states; disposable-profile classification. Prior focused56/broader60 PASS. Existing recovery root remains JGA_BOOTSTRAP.md.
 
-**Canonical software requirement — ANALYSIS RANGE:** [ TUTTO IL BRANO ] or [ DA MM:SS.xx ] → [ A MM:SS.xx ]. All analyses/reports respect and identify the selected interval; no GUI implementation here. [Current rule and limitations](docs/historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_OBSERVED_RELATION_CLEANUP_20260925/RELATION_RULE.md).
+Storage: INTERNAL HD = live Git repository; EXTERNAL SSD /Volumes/SSD Track/JGA/ = scientific primary; OLD EXTERNAL HD /Volumes/HD BackUp/ = historical device, untrusted for new writes and prohibited from access here. BACKUP_DEBT_PI_AUTHORIZED — OPEN. Replacement external SSD pending/expected2026-10-07 per PI, not independently confirmed. Publication exception is for this repository checkpoint only, never BACKUP PASS or SSD=HD PASS.
 
-# Current authoritative checkpoint — best validated Bass baseline · 2026-09-25
+NEXT CHAT FIRST STORAGE ACTION: initialize replacement device → register PI-authorized backup target → copy required primary scientific material → independently verify file set/sizes/hashes → update backup references → explicitly settle debt. NEXT SCIENTIFIC TASK: DC-3 INDEPENDENT FULLMIX BASS GT CORPUS SELECTION; intended, NOT executed. STOP for PI/new-chat authorization.
 
-**BEST VALIDATED BASS BASELINE — CURRENT BEST VALIDATED BASS ATTACK BASELINE.** PI-selected [baseline authority](docs/scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924.md). Audio → Spotify Basic Pitch → native note identity and approximate onset → fixed ±150 ms local window → acoustic candidates → frozen JGA Learned Local Attack Selector → selected attack / abstain.
+# Current pre-DC3 project checkpoint · 2026-10-06
 
-**Controlled Gallegati/Fishman holdout: 35/40 = 87.5%; median absolute error 5.213 ms; P95 absolute error 5.621 ms; 100% of selected within ±10 ms.** This validates recognized-note-conditioned local selection, not autonomous Bass identity or cross-domain generalization. [Contained fallback](docs/scientific/rfc/JGA_CONTAINED_BP_FALLBACK_20260924/RESULT.md) is secondary validation: independent windows only; distinct attacks trigger abstention. Do not pool its statistics with the primary35/40baseline.
+Scientific state is reconciled; DC-3 DEVELOPMENT DIRECTION selected, training NOT STARTED. [Scientific authority](docs/JGA_SCIENTIFIC_STATE.md), [checkpoint review](docs/project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/PI_REVIEW.md), [machine-only audit](docs/project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/DESIGN_AND_TRAINING_AUDIT.md).
 
-**Definitive baseline freeze SHA-256:** `31d865a6d8b48f41cab7e147b01c336bde0bc2c4ceb211a101399994bf9772d4`. [Final manifest](docs/scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924/MANIFEST.json) · [verified digest receipt](docs/scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924/FINAL_FREEZE.json). The older fd768ec83bc77a5e32938bed743edef10d1355d0c1a961c623be5ea4728b850d hash is an incomplete payload, NOT this milestone.
+No existing frozen 216-group Bass timing deployment; qualification not executed to current Human comparison. No Bass timing promotion, new visualization or Drum authority. Final target remains EMBARGOED FOR DC-3 DEVELOPMENT.
 
-**Historical Bass microtiming NOT finalized.** [Direct Exactly Like You transfer](docs/scientific/rfc/JGA_BASS_V1_HISTORICAL_TRANSFER_20260924/JGA_BASS_V1_HISTORICAL_REPORT.md) recovered only17/63episodes with46abstentions; its walking structure is insufficiently recovered. Fishman→historical/Demucs domain shift remains important. [Targeted-pitch full-mix diagnostic](docs/scientific/rfc/JGA_TARGETED_PITCH_ONSET_20260924/RESULT.md) reached37/63CLEAR=58.73%, explicitly NOT GT validated. These are research evidence, not replacement authorities. Bass-v1 historical milestone is NOT complete; prior Report001 stays unchanged within its historical operational scope.
+Fishman80: DEVELOPMENT-ONLY under future frozen training contract; Fishman40: CONSUMED VALIDATION / DO NOT TRAIN. DC-3 readiness E — multiple blockers, including qualified independent FullMix fine-attack supervision.
 
-**Do not restart Bass development from scratch.** Preserve the frozen Learned Local Attack Selector as the mandatory comparison baseline. Future methods are extensions/improvements and must report baseline modification, controlled coverage, median/P95 absolute error,±10ms, abstention, cross-domain/historical coverage and any timing-precision cost. Visual plausibility cannot supersede independent controlled validation. **Next scientific goal: improve cross-domain/historical coverage while preserving the frozen controlled baseline.** New scientific execution requires separate PI authorization.
+Architecture alignment PASS (prior56 focused/60 broader). Current closure tests/receipt own observed new counts; publication remains gated. One root JGA_BOOTSTRAP.md; no new recovery architecture.
 
-RAW PLP remains temporal authority for quarter reference; PLP must not guide acoustic attack selection. Historical attack timestamps must be frozen before PLP evaluation. Full mix remains original audio authority; stems are complementary source/identity evidence. This closure changes documentary authority/preservation only; no scientific rerun, model update or timestamp correction.
+INTERNAL HD live repository; EXTERNAL SSD scientific primary; OLD EXTERNAL HD prohibited from access. BACKUP_DEBT_PI_AUTHORIZED — OPEN; replacement expected2026-10-07 per PI. The PI authorizes this bounded repository publication exception, never backup PASS.
 
-## CONTINUOUS EXTERNAL BACKUP AUTHORITY
+NEXT CHAT FIRST STORAGE ACTION: SETTLE BACKUP DEBT ON REPLACEMENT SSD by authorized initialization, copy and independent file-set/size/hash verification. NEXT SCIENTIFIC TASK: DC-3 INDEPENDENT FULLMIX BASS GT CORPUS SELECTION, NOT executed or authorized by recovery itself. STOP for PI/new-chat scientific authorization.
 
-**Permanent PI operational directive, effective 2026-09-25.** Approved external root:
-`/Volumes/HD BackUp/JGA_BACKUP`; persistent current mirror:
-`/Volumes/HD BackUp/JGA_BACKUP/JazzGrooveAnalyzer_CURRENT/`. Preserve repository-relative
-paths. [Complete policy](docs/project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md) and
-[completion-gate utility](tools/continuous_backup.py).
+# Current pre-DC3 scientific/project checkpoint · 2026-10-06
 
-Before writing, verify the external volume is mounted and writable. Every relevant
-completed, closed, atomically written local file must immediately be copied and
-SHA-256 verified against its external copy before continuing dependent work.
-Back up multi-file outputs incrementally, then verify inventory. Maintain append-only
-`BACKUP_LOG.jsonl` in the mirror. Before commit verify intended staged files.
-Copy/update only: no automatic deletion of orphaned backups, no destructive sync.
+[Checkpoint review](docs/project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/PI_REVIEW.md). [Verified prior authority inventory](docs/project/JGA_DOCUMENTARY_RECONCILIATION_20261006/AUTHORITY_INVENTORY.json).
 
-If unavailable, report **CONTINUOUS EXTERNAL BACKUP UNAVAILABLE** and ask PI to
-authorize explicit local backup debt or stop until available. Do not choose silently.
-Hash mismatch: **BACKUP VERIFICATION FAILURE**, stop dependent work and report.
-CURRENT protects between commits; separate immutable/versioned milestone backups
-remain mandatory at major freezes. This supplements Git, never replaces it.
+Scientific checkpoint ends before DC-3 development. DC-3 corpus selection, Ground Truth construction, training, Exactly Like You execution/Human unseal, visualization and Drum work are NOT started or authorized by this closure.
+
+Native FullMix → 401 source-neutral candidates → 216 canonical non-chaining groups → historical 60 + new 156 two-pass presence classifications → 61 BASS_PRESENT_STABLE / 119 BASS_ABSENT_STABLE / 36 BASS_HUMAN_UNSTABLE → two blinded Bass61 localization passes → 54 HUMAN_COUNT_STABLE / 7 HUMAN_COUNT_UNSTABLE → 66 consolidated Human markers. Reference is CANDIDATE-CONDITIONED, NOT exhaustive all-Bass Ground Truth. B1/B2 remain positional labels.
+
+Bounded Human Bass ↔ unchanged frozen B3_PLP comparison is complete, descriptive, and not physical Ground Truth or general historical-jazz/musical-quarter authority. Manual-quarter collection: TERMINATED_BEFORE_SCIENTIFIC_COLLECTION; PI answers 0; PASS_B never opened according to preserved authority; no scientific Human-quarter evidence. Later termination provenance is on primary SSD; old HD is an earlier partial mirror. SSD preservation reconciliation verified; old-HD certification blocked by reproducible I/O errors.
+
+Human/B3_PLP visualization remains CANDIDATE / diagnostic development; 66/66 markers independently verified rendered; not final public score. Drum timing authority NOT ESTABLISHED. Future public score requires qualified MACHINE evidence; Human remains internal validation.
+
+Learned Local Attack Selector remains best validated CONTROLLED recognized-note baseline: 35/40 selected; median absolute 5.213 ms; P95 5.621 ms; selected within ±10 ms. No historical FullMix generalization. Historical failures, stem-based transfers and diagnostics remain unchanged. Existing 39-feature presence classifier (L2 C=0.3, threshold 0.435) is DEVELOPMENT EVALUATION, NOT independent validation and NOT attack timing.
+
+Historical 216-group machine qualification has NOT executed to current Human comparison: NO EXISTING TIMING METHOD HAS A FROZEN 216-GROUP DEPLOYMENT CONTRACT. No current MACHINE_OUTPUT_AUTHORITY or promotion result. Historical FullMix Bass timing remains NOT PROMOTED. Current qualification Human timing remained sealed. Earlier compromised preparatory attempts remain historical failures; none is retroactively rehabilitated. Six prospective gates unchanged: coverage ≥80%; median absolute ≤15 ms; P95 absolute ≤30 ms; ≥70% within20 ms; ≥40% within10 ms; absolute median signed bias ≤10 ms; ALL required.
+
+DC-1 unique compatible candidate, DC-2 harmonic-track association and DC-3 learned selector remain design options. PI selects DC-3 as DEVELOPMENT DIRECTION ONLY, not a trained/promoted method. Training audit READINESS E — MULTIPLE BLOCKERS; no training, target reveal or final-test use. Old 22 features comprise exactly 19 audio-only acoustic morphology features and three incompatible BP-relative inputs. Qualified independently supervised FullMix fine-attack GT set is not currently established.
+
+PI prospective data-use decision: Fishman eight development takes /80 supervised references may be reused for DC-3 DEVELOPMENT ONLY subject to a future frozen training contract; never new independent validation. Four takes /40 references remain CONSUMED VALIDATION / DO NOT TRAIN. Exactly Like You 216 groups + current frozen Human Reference are CURRENT FINAL TEST, EMBARGOED FOR DC-3 DEVELOPMENT. No event-level target coordinates are included here.
+
+Architecture alignment PASS: one task/multiple phases; explicit blind startup; Human firewall; external writer scope; PI-linked acquire; configurable backup; explicit debt; semantic bootstrap extraction; closure states; disposable-profile classification. Prior focused56/broader60 PASS. Existing recovery root remains JGA_BOOTSTRAP.md.
+
+Storage: INTERNAL HD = live Git repository; EXTERNAL SSD /Volumes/SSD Track/JGA/ = scientific primary; OLD EXTERNAL HD /Volumes/HD BackUp/ = historical device, untrusted for new writes and prohibited from access here. BACKUP_DEBT_PI_AUTHORIZED — OPEN. Replacement external SSD pending/expected2026-10-07 per PI, not independently confirmed. Publication exception is for this repository checkpoint only, never BACKUP PASS or SSD=HD PASS.
+
+NEXT CHAT FIRST STORAGE ACTION: initialize replacement device → register PI-authorized backup target → copy required primary scientific material → independently verify file set/sizes/hashes → update backup references → explicitly settle debt. NEXT SCIENTIFIC TASK: DC-3 INDEPENDENT FULLMIX BASS GT CORPUS SELECTION; intended, NOT executed. STOP for PI/new-chat authorization.
 
 ## Recovery references
 

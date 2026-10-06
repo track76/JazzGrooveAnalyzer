@@ -1,3 +1,27 @@
+# Current runtime/storage checkpoint · 2026-10-06
+
+Runtime scientific algorithms unchanged. [Scientific state](JGA_SCIENTIFIC_STATE.md), [closure review](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/PI_REVIEW.md).
+
+INTERNAL HD /Users/StarTrack/Development/JazzGrooveAnalyzer is the live working repository. EXTERNAL SSD /Volumes/SSD Track/JGA is scientific primary. OLD EXTERNAL HD /Volumes/HD BackUp has reproducible I/O problems and is prohibited from access here. Replacement external SSD pending/expected2026-10-07 per PI.
+
+BACKUP_DEBT_PI_AUTHORIZED — OPEN. Explicit PI checkpoint-publication exception does not certify backup. New science remains stopped. Next storage action: initialize/register replacement, copy required primary scientific material, independently verify file set/sizes/hashes, update references and explicitly settle debt.
+
+Governance/backups use PI-linked scopes. Registered source inventory hashes verified SSD-only; old backup statuses remain historical, not current certification. Dirty worktree preserved; no global cleanup.
+
+## Historical recovery records — preserved
+
+# Current runtime state · 2026-10-06
+
+Documentation-only reconciliation; no runtime/model/parameter/PLP change or scientific rerun. [Current scientific status](JGA_SCIENTIFIC_STATE.md) and [verified evidence inventory](project/JGA_DOCUMENTARY_RECONCILIATION_20261006/AUTHORITY_INVENTORY.json).
+
+INTERNAL HD `/Users/StarTrack/Development/JazzGrooveAnalyzer` is the live Git worktree; its existing dirty evidence is preserved. EXTERNAL SSD `/Volumes/SSD Track/JGA/` is verified scientific primary storage. OLD EXTERNAL HD `/Volumes/HD BackUp/` is a historical backup currently UNTRUSTED FOR NEW WRITES because exact-file I/O failure reproduced despite the PI-reported successful filesystem check. No old-HD reads/writes are performed in this documentation task. Continuous external backup is NOT currently certified PASS.
+
+TEMPORARY EXTERNAL BACKUP DEBT — PI AUTHORIZED FOR DOCUMENTATION-ONLY WORK. PI reports replacement external SSD ordered, expected tomorrow; availability remains unverified. Debt must be settled after replacement-device authorization and independent verification. Local lease/state-guarded atomic document writes intentionally omit the backup helper's old-HD write side effect under this explicit PI exception; no infrastructure source/policy changes.
+
+Bootstrap regeneration, science, qualification, visualization, cleanup, commit and push are deferred. Next: PI document/architecture review.
+
+## Historical runtime checkpoints — preserved verbatim
+
 # Current authority — JGA v1 hybrid operational adoption · 2026-09-23
 
 **Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) · [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) · [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHORITY_REFERENCES.json).

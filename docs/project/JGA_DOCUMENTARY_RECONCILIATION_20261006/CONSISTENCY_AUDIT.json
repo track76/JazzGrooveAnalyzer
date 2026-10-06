@@ -1,0 +1,2116 @@
+{
+  "task_id": "JGA-DOCUMENTARY-RECONCILIATION-PRE-ARCHITECTURE-001-20261006",
+  "scope": [
+    "docs/JGA_SCIENTIFIC_STATE.md",
+    "docs/JGA_RUNTIME_STATE.md",
+    "docs/JGA_PIPELINE_STATE.md",
+    "docs/JGA_PROJECT_STATE.md",
+    "docs/JGA_DECISIONS.md",
+    "docs/JGA_SESSION_CONTEXT.md",
+    "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+    "docs/project/JGA_CHAT_HANDOFF.md",
+    "docs/project/MULTI_AGENT_COORDINATION_STATE.md"
+  ],
+  "findings": [
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 3,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Documentary update from existing frozen evidence only; no scientific execution or promotion. [Verified authority inventory](project/JGA_DOCUMENTARY_RECONCILIATION_20261006/AUTHORITY_INVENTORY.json). Current next step is PI document/architecture review; previous next-action instructions below are historical."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 7,
+      "topics": [
+        "exhaustive"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "PASS1 and PASS2 are finalized/frozen; collection, intra-rater reliability and reference-construction analysis are complete. The October 5 Human Reference has 42 stable single and 12 stable double groups; seven count-unstable groups retain observations without fabricated consolidated coordinates. It is CANDIDATE-CONDITIONED: Human could not create arbitrary new canonical event identities. It is a reference for the preselected Bass-present-stable population, NOT an exhaustive all-Bass-attack censu"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 9,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "The completed `JGA-BASS61-HUMAN-REFERENCE-VS-B3PLP-001-20261005` is a bounded descriptive relation to unchanged frozen B3_PLP, not error against truth, final universal musical-quarter authority, or a general Ray Brown/historical-jazz claim. The earlier `...REFERENCE-PLP-COMPARISON-001-20261005` stopped at an authority-mapping gate; its stop remains preserved."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 11,
+      "topics": [
+        "restart",
+        "exhaustive",
+        "promotion"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Existing Bass capability includes the [PI-selected Learned Local Attack Selector](scientific/rfc/JGA_BASS_BEST_VALIDATED_BASELINE_20260924.md): controlled Fishman/Gallegati recognized-note-conditioned holdout 35/40 selected; median absolute error 5.213 ms; P95 5.621 ms; all selected within \u00b110 ms. This does not validate autonomous Bass identity, exhaustive detection or historical FullMix timing. Do not restart Bass development from scratch. Historical transfer selected 17/63 episodes with 46 abs"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 13,
+      "topics": [
+        "exhaustive"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "The existing candidate-conditioned Bass-presence model uses 39 FullMix features, L2 logistic regression C=0.3, threshold=0.435. Blocked DEVELOPMENT EVALUATION on 180 stable labels: TP47/TN105/FP14/FN14; precision 0.770492; recall 0.770492; specificity 0.882353; F1 0.770492; accuracy 0.844444; balanced accuracy 0.826422; AUC 0.872434. The 36 unstable labels are not binary truth. This is development-consumed evidence, NOT independent scientific validation. Presence does not certify timing or exhau"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 15,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "`JGA-HISTORICAL-FULLMIX-BASS-MACHINE-QUALIFICATION-001-20261006` remains BLOCKED / NOT EXECUTED. No current qualification MACHINE_OUTPUT_AUTHORITY, matched timing results, or PROMOTE / DO NOT PROMOTE outcome exists. Formal qualification Human unseal was not performed; incidental pre-freeze current-coordinate exposure was recorded and stopped execution. Architecture/workflow review is pending."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 17,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "All six prospectively PI-frozen timing promotion gates are required: coverage \u226580%; median absolute error \u226415.0 ms; P95 absolute error \u226430.0 ms; \u226570% of valid matched markers within \u00b120 ms; \u226540% within \u00b110 ms; absolute median signed machine-minus-Human bias \u226410.0 ms. They were fixed before formal current Human timing unseal; this documentation does not execute or alter them."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 19,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Manual musical-quarter test: TERMINATED_BEFORE_SCIENTIFIC_COLLECTION; scientific PI answers=0; PASS_B never opened according to preserved records; no scientific Human-quarter evidence recorded. Namespace and usability provenance remain preserved. Later termination/provenance is on SSD; old HD holds an earlier partial mirror. The new preservation package passes SSD logical checksums, but HD verification repeatedly fails reading `PRINCIPAL_AUTHORITY_VERIFICATION.json` with errno5. This is a backup"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 21,
+      "topics": [
+        "promotion",
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Historical Microtiming Score visual language was recovered. Current Human/B3_PLP prototype is CANDIDATE / diagnostic development, not final canonical score; preserved independent validation reports 66/66 markers rendered. Drum timing authority is NOT ESTABLISHED. Intended future public score uses JGA MACHINE evidence only if scientifically promoted; Human evidence is internal validation only. No visualization change here."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 27,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) \u00b7 [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) \u00b7 [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHOR"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 31,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Historical independent PLP FAIL (10/10/3/1; 24/24) and all earlier qualifications remain unchanged. This is subsequent PI operational adoption, not new experimental proof. 4/4 primary; 3/4 supported/secondary; odd meters and free endings outside v1 scope. Universal physical timing, Bass identity and component-specific Ride/Hi-Hat remain future questions. Earlier temporal-layer proposals remain unimplemented and are not reopened as v1 prerequisites. Runtime code is unchanged; this freezes the rep"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 41,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**JGA v1 final trial on Exactly Like You: PARTIALLY_USABLE.** [Report](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT.md) \u00b7 [result freeze](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT_FREEZE.json), SHA-256 `64979a72bf7c878bdea445d94c03dad417e4dd170d384999e3a5bb2172e23953`. This is the newly authorized additive readout, not a rewrite of historical groove studies. Analysis [0,330) s; PI-defined ending excluded. 1,606 native markers; Bass-i"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 45,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Separate PI engineering adoption:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE, adopted internal BPM/local-pulse context for bounded JGA v1. Input: ORIGINAL FULL MIX. Raw maxima are evidence, not final musical-quarter Ground Truth. FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE. 4/4 PRIMARY; 3/4 SUPPORTED; 5/4 and other odd meters EXPERIMENTAL and outside current operational scope. Open/free endings excluded from this trial; negative evidence preserved."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 51,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Next action: PI review of this trial and its single attack-timing qualification blocker. Further scientific work requires separate PI authorization. Historical checkpoints below retain their original scope and do not authorize automatic continuation."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 59,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Subsequent PI engineering decision:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE for JGA v1. **FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE.** Full mix is the analysis input; unchanged frozen librosa PLP is evidence, not raw-maxima Ground Truth. Required, unimplemented next layers: Tempo-Existence / Confidence Gate; Metric-Level Selection; Metric-Level Lock / Continuity. TEMPO_EXISTS may be YES / LOW_CONFIDENCE / NO; do not force quarters in free endings."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 75,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**JGA-FIRST-COMPLETE-MUSICOLOGICAL-PERFORMANCE-ANALYSIS-001: PASS with documented qualifications.** Target: Ray Brown Trio \u2014 \u201cExactly Like You\u201d. Branch: `scientific/translation-layer-finalization`. Scientific result frozen; awaiting PI review. No commit or push."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 83,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Architecture unchanged: full mix \u2192 native observability \u2192 qualified external identity evidence \u2192 frozen internal pulse \u2192 quarter-anchored geometry \u2192 form-linked description. JGA owns timing. ADTOF qualified Drum evidence; MuScriptor complementary evidence; YourMT3 historical, not mandatory gate. Dual support is one marker, not two timed attacks. Preferred research coordinate remains supported WITH QUALIFICATION and closed to redesign absent falsifying evidence; not newly promoted to canonical pr"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 97,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. **JGA-QUARTER-NEAREST-ONSET-COVERAGE-SENSITIVITY-001: PASS; decision B \u2014 SUPPORTED WITH QUALIFICATION.** Scientific result frozen; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 101,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Preferred current NON-PHYSICAL JGA v1 research representation: QUARTER-ANCHORED NEAREST-OBSERVABLE-ONSET GEOMETRY \u2014 YES-WITH-QUALIFICATION. Basic descriptive groove-coordinate problem CLOSED FOR JGA v1 RESEARCH WITH QUALIFICATION**, subject to new falsifying evidence. No canonical production change. Frozen quarter \u2192 unique midpoint cell \u2192 temporally nearest existing native event; UNKNOWN remains eligible; all other events remain context. No event-stream unwrapping."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 121,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed pilot: **JGA-QUARTER-NEAREST-ONSET-GROOVE-001 \u2014 PASS; decision B, SUPPORTED WITH QUALIFICATION**. Additive NONCANONICAL research representation; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 133,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Qualifications: nearest selection structurally favors small distances and depends on candidate coverage; empty cells do not prove silence. Source states are provisional; dual support does not independently time two attacks. Grid numerical continuity does not establish physical/perceptual pulse Ground Truth. No physical performer early/late, true beat, full-mix Bass attack timing or independent Bass\u2013Drum microtiming claims. Drum attack timing and controlled Fishman T0 remain PROMISING. No canonic"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 145,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "# Current trajectory-validation qualification \u2014 2026-09-21"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 151,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The parent whole-track frozen arithmetic/data remain unchanged and usable under their original qualifications. This validation **does not establish a representation-robust continuous groove trajectory** from the mixed-source candidate stream. Minimum-jump is an assumption-dependent diagnostic, not unique/physical cycle recovery or canonical timing."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 153,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "1627 events and52 windows preserved. Numerical grid continuity PASS(946 quarters), but independent pulse/phase qualification is not strengthened. 1626 cycle transitions admit alternatives; the first assignment is a fixed gauge, not a scientifically unique cycle. All52 windows are MIXED / UNCERTAIN under the preregistered conservative alternatives. There are no algorithmic half-cycle ties; scientific ambiguity is distinct from a numerical tie."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 165,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "## Preserved parent checkpoint \u2014 qualification above applies to continuous-trajectory interpretation"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 167,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The following records retain historical results and prior recommendations. The latest validation qualification and next-action status are given above; no parent scientific artifact has been rewritten."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 196,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Frozen scientific conclusions: {\"chronologically_varying_geometry\": \"YES-WITH-QUALIFICATION\", \"reference_pattern_nonoverlap_recurrence\": \"PARTIALLY\", \"reducible_to_BPM_alone\": \"NO-NOT-SUPPORTED\", \"source_supported_all_event_compatibility\": \"YES\", \"frozen_procedure_generalizes\": \"YES-WITH-QUALIFICATION\"}. See the result for associations, sensitivity, missing evidence and limitations. Whole-track procedural generalization is not cross-recording validation or physical attack accuracy."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 200,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "ESTABLISHED / USABLE: frozen internal BPM/quarters according to their authority; native observability and preserved candidate coverage; direct native marker-to-quarter arithmetic. Whole-track descriptive geometry is usable with the qualifications in the frozen result."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 237,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** Current work on Ray Brown Trio \u2014 \u201cExactly Like You\u201d is **FROZEN / AWAITING PI DECISION**. `JGA-BASS-DRUM-MICROTIMING-001` has reached an integrated **PARTIAL** qualification result; it is not the next automatically executable experiment. **Next session: recover state \u2192 report the single blocker to PI \u2192 wait for separate PI authorization.** No new scientific experiment is authorized by this closure. Older \u201cnext task\u201d or \u201cnext exp"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 239,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_STATE.md",
+      "line": 243,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Integrated timing tiers (full frozen populations):** Bass T1/T2/T3/T4/T5 = **4/0/0/328/164**; generic Drum = **7/0/0/284/209**. T1 is an individual bounded review, not a transferable class rule. Drum timing-grade is **partially validated** (26 prospective PASS selected, six admitted, 20 abstained); Bass timing-grade is **not established**. T4 and T5 are valid observable events, not false detections. The **one primary blocker** is a prospectively supported source-associated attack uncertainty/q"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 5,
+      "topics": [
+        "backup"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "INTERNAL HD `/Users/StarTrack/Development/JazzGrooveAnalyzer` is the live Git worktree; its existing dirty evidence is preserved. EXTERNAL SSD `/Volumes/SSD Track/JGA/` is verified scientific primary storage. OLD EXTERNAL HD `/Volumes/HD BackUp/` is a historical backup currently UNTRUSTED FOR NEW WRITES because exact-file I/O failure reproduced despite the PI-reported successful filesystem check. No old-HD reads/writes are performed in this documentation task. Continuous external backup is NOT c"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 9,
+      "topics": [
+        "promotion",
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Bootstrap regeneration, science, qualification, visualization, cleanup, commit and push are deferred. Next: PI document/architecture review."
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 15,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) \u00b7 [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) \u00b7 [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHOR"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 19,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Historical independent PLP FAIL (10/10/3/1; 24/24) and all earlier qualifications remain unchanged. This is subsequent PI operational adoption, not new experimental proof. 4/4 primary; 3/4 supported/secondary; odd meters and free endings outside v1 scope. Universal physical timing, Bass identity and component-specific Ride/Hi-Hat remain future questions. Earlier temporal-layer proposals remain unimplemented and are not reopened as v1 prerequisites. Runtime code is unchanged; this freezes the rep"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 35,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Subsequent PI engineering decision:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE for JGA v1. **FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE.** Full mix is the analysis input; unchanged frozen librosa PLP is evidence, not raw-maxima Ground Truth. Required, unimplemented next layers: Tempo-Existence / Confidence Gate; Metric-Level Selection; Metric-Level Lock / Continuity. TEMPO_EXISTS may be YES / LOW_CONFIDENCE / NO; do not force quarters in free endings."
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 51,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. **JGA-QUARTER-NEAREST-ONSET-COVERAGE-SENSITIVITY-001: PASS; decision B \u2014 SUPPORTED WITH QUALIFICATION.** Scientific result frozen; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 55,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Preferred current NON-PHYSICAL JGA v1 research representation: QUARTER-ANCHORED NEAREST-OBSERVABLE-ONSET GEOMETRY \u2014 YES-WITH-QUALIFICATION. Basic descriptive groove-coordinate problem CLOSED FOR JGA v1 RESEARCH WITH QUALIFICATION**, subject to new falsifying evidence. No canonical production change. Frozen quarter \u2192 unique midpoint cell \u2192 temporally nearest existing native event; UNKNOWN remains eligible; all other events remain context. No event-stream unwrapping."
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 71,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed pilot: **JGA-QUARTER-NEAREST-ONSET-GROOVE-001 \u2014 PASS; decision B, SUPPORTED WITH QUALIFICATION**. Additive NONCANONICAL research representation; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 83,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Qualifications: nearest selection structurally favors small distances and depends on candidate coverage; empty cells do not prove silence. Source states are provisional; dual support does not independently time two attacks. Grid numerical continuity does not establish physical/perceptual pulse Ground Truth. No physical performer early/late, true beat, full-mix Bass attack timing or independent Bass\u2013Drum microtiming claims. Drum attack timing and controlled Fishman T0 remain PROMISING. No canonic"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 95,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "# Current trajectory-validation qualification \u2014 2026-09-21"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 101,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The parent whole-track frozen arithmetic/data remain unchanged and usable under their original qualifications. This validation **does not establish a representation-robust continuous groove trajectory** from the mixed-source candidate stream. Minimum-jump is an assumption-dependent diagnostic, not unique/physical cycle recovery or canonical timing."
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 103,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "1627 events and52 windows preserved. Numerical grid continuity PASS(946 quarters), but independent pulse/phase qualification is not strengthened. 1626 cycle transitions admit alternatives; the first assignment is a fixed gauge, not a scientifically unique cycle. All52 windows are MIXED / UNCERTAIN under the preregistered conservative alternatives. There are no algorithmic half-cycle ties; scientific ambiguity is distinct from a numerical tie."
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 115,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "## Preserved parent checkpoint \u2014 qualification above applies to continuous-trajectory interpretation"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 117,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The following records retain historical results and prior recommendations. The latest validation qualification and next-action status are given above; no parent scientific artifact has been rewritten."
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 123,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Recover [current scientific state](JGA_SCIENTIFIC_STATE.md), [procedure freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_PROCEDURE_FREEZE.json) SHA-256 `1f34654b693ef01af2b93348d3ffcff05e9c93d60eaa82fa3583d0911e17fd2a`, and [result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) SHA-256 `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`. The current state documen"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 140,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** Current work on Ray Brown Trio \u2014 \u201cExactly Like You\u201d is **FROZEN / AWAITING PI DECISION**. `JGA-BASS-DRUM-MICROTIMING-001` has reached an integrated **PARTIAL** qualification result; it is not the next automatically executable experiment. **Next session: recover state \u2192 report the single blocker to PI \u2192 wait for separate PI authorization.** No new scientific experiment is authorized by this closure. Older \u201cnext task\u201d or \u201cnext exp"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 142,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 146,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Integrated timing tiers (full frozen populations):** Bass T1/T2/T3/T4/T5 = **4/0/0/328/164**; generic Drum = **7/0/0/284/209**. T1 is an individual bounded review, not a transferable class rule. Drum timing-grade is **partially validated** (26 prospective PASS selected, six admitted, 20 abstained); Bass timing-grade is **not established**. T4 and T5 are valid observable events, not false detections. The **one primary blocker** is a prospectively supported source-associated attack uncertainty/q"
+    },
+    {
+      "path": "docs/JGA_RUNTIME_STATE.md",
+      "line": 155,
+      "topics": [
+        "restart"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Parent inventory freeze `a76c0533d5e3e7e7572a593cfc2b762fa5bf418ea13cf3e69425afbc74fd34e6` (496 Bass, 500 generic Drum HIGH+MEDIUM); grid freeze `18e5d3283f9de9b878fbfe4e956805717e86a55da91a9c7c2494ca595cf0941d` (164.76 BPM initial, 164.09 BPM median local). PI manual tap is ~162 BPM approximate; Easy Does It is ~120 BPM. Automatic phase support was partial; PI subsequently confirmed by listening that the frozen click follows the quarter pulse through 01:55\u201302:10. The 127 / 118 / 9 slot counts a"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 3,
+      "topics": [
+        "exhaustive"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "[Current scientific state](JGA_SCIENTIFIC_STATE.md) owns results and limitations. FullMix \u2192 401 machine candidates \u2192 216 canonical non-chaining groups \u2192 historical60 + new156 two-pass presence labels \u2192 61 stable-present /119 stable-absent /36 unstable \u2192 two Bass61 localization passes \u219254 count-stable /7 count-unstable \u219266 Human markers \u2192 bounded frozen B3_PLP comparison. Candidate-conditioned; no arbitrary new event creation or exhaustive onset census."
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 5,
+      "topics": [
+        "promotion",
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Machine paths already exist: recognized-note-conditioned Learned Local Attack Selector; qualified historical transfer/targeted-pitch/scanner diagnostics; 39-feature presence development model. Their frozen failures and limits remain. Current historical FullMix machine qualification is BLOCKED / NOT EXECUTED; no output authority or timing promotion. PLP must not select/snap acoustic attacks; frozen machine timestamps must precede future PLP evaluation. Human evidence remains internal validation. "
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 13,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) \u00b7 [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) \u00b7 [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHOR"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 17,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Historical independent PLP FAIL (10/10/3/1; 24/24) and all earlier qualifications remain unchanged. This is subsequent PI operational adoption, not new experimental proof. 4/4 primary; 3/4 supported/secondary; odd meters and free endings outside v1 scope. Universal physical timing, Bass identity and component-specific Ride/Hi-Hat remain future questions. Earlier temporal-layer proposals remain unimplemented and are not reopened as v1 prerequisites. Runtime code is unchanged; this freezes the rep"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 29,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Subsequent PI engineering decision:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE for JGA v1. **FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE.** Full mix is the analysis input; unchanged frozen librosa PLP is evidence, not raw-maxima Ground Truth. Required, unimplemented next layers: Tempo-Existence / Confidence Gate; Metric-Level Selection; Metric-Level Lock / Continuity. TEMPO_EXISTS may be YES / LOW_CONFIDENCE / NO; do not force quarters in free endings."
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 45,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. **JGA-QUARTER-NEAREST-ONSET-COVERAGE-SENSITIVITY-001: PASS; decision B \u2014 SUPPORTED WITH QUALIFICATION.** Scientific result frozen; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 49,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Preferred current NON-PHYSICAL JGA v1 research representation: QUARTER-ANCHORED NEAREST-OBSERVABLE-ONSET GEOMETRY \u2014 YES-WITH-QUALIFICATION. Basic descriptive groove-coordinate problem CLOSED FOR JGA v1 RESEARCH WITH QUALIFICATION**, subject to new falsifying evidence. No canonical production change. Frozen quarter \u2192 unique midpoint cell \u2192 temporally nearest existing native event; UNKNOWN remains eligible; all other events remain context. No event-stream unwrapping."
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 65,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed pilot: **JGA-QUARTER-NEAREST-ONSET-GROOVE-001 \u2014 PASS; decision B, SUPPORTED WITH QUALIFICATION**. Additive NONCANONICAL research representation; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 77,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Qualifications: nearest selection structurally favors small distances and depends on candidate coverage; empty cells do not prove silence. Source states are provisional; dual support does not independently time two attacks. Grid numerical continuity does not establish physical/perceptual pulse Ground Truth. No physical performer early/late, true beat, full-mix Bass attack timing or independent Bass\u2013Drum microtiming claims. Drum attack timing and controlled Fishman T0 remain PROMISING. No canonic"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 89,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "# Current trajectory-validation qualification \u2014 2026-09-21"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 95,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The parent whole-track frozen arithmetic/data remain unchanged and usable under their original qualifications. This validation **does not establish a representation-robust continuous groove trajectory** from the mixed-source candidate stream. Minimum-jump is an assumption-dependent diagnostic, not unique/physical cycle recovery or canonical timing."
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 97,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "1627 events and52 windows preserved. Numerical grid continuity PASS(946 quarters), but independent pulse/phase qualification is not strengthened. 1626 cycle transitions admit alternatives; the first assignment is a fixed gauge, not a scientifically unique cycle. All52 windows are MIXED / UNCERTAIN under the preregistered conservative alternatives. There are no algorithmic half-cycle ties; scientific ambiguity is distinct from a numerical tie."
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 109,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "## Preserved parent checkpoint \u2014 qualification above applies to continuous-trajectory interpretation"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 111,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The following records retain historical results and prior recommendations. The latest validation qualification and next-action status are given above; no parent scientific artifact has been rewritten."
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 117,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Recover [current scientific state](JGA_SCIENTIFIC_STATE.md), [procedure freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_PROCEDURE_FREEZE.json) SHA-256 `1f34654b693ef01af2b93348d3ffcff05e9c93d60eaa82fa3583d0911e17fd2a`, and [result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) SHA-256 `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`. The current state documen"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 134,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** Current work on Ray Brown Trio \u2014 \u201cExactly Like You\u201d is **FROZEN / AWAITING PI DECISION**. `JGA-BASS-DRUM-MICROTIMING-001` has reached an integrated **PARTIAL** qualification result; it is not the next automatically executable experiment. **Next session: recover state \u2192 report the single blocker to PI \u2192 wait for separate PI authorization.** No new scientific experiment is authorized by this closure. Older \u201cnext task\u201d or \u201cnext exp"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 136,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 140,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Integrated timing tiers (full frozen populations):** Bass T1/T2/T3/T4/T5 = **4/0/0/328/164**; generic Drum = **7/0/0/284/209**. T1 is an individual bounded review, not a transferable class rule. Drum timing-grade is **partially validated** (26 prospective PASS selected, six admitted, 20 abstained); Bass timing-grade is **not established**. T4 and T5 are valid observable events, not false detections. The **one primary blocker** is a prospectively supported source-associated attack uncertainty/q"
+    },
+    {
+      "path": "docs/JGA_PIPELINE_STATE.md",
+      "line": 144,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Current pipeline boundary:** full mix \u2192 observability \u2192 independent Bass and generic-Drum inventories \u2192 frozen quarter grid \u2192 marker-to-quarter report; source-associated attack qualification only when individually bounded or prospectively validated. No performer Bass\u2194Drum offset is established for a broad passage."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 3,
+      "topics": [
+        "exhaustive",
+        "promotion"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Frozen October4\u20136 work is reconciled in [scientific state](JGA_SCIENTIFIC_STATE.md) and [authority inventory](project/JGA_DOCUMENTARY_RECONCILIATION_20261006/AUTHORITY_INVENTORY.json). Human two-pass Bass61 collection/reference and bounded B3_PLP comparison are complete; current reference is candidate-conditioned, not exhaustive. Existing controlled Learned Local Attack Selector remains best validated baseline; historical FullMix Bass timing is NOT promoted. Machine qualification has not execute"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 5,
+      "topics": [
+        "manual_quarter",
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Current Human/B3_PLP visualization is a candidate, not final score; Drum timing authority remains NOT ESTABLISHED. Manual-quarter test is terminated before scientific collection, not an active required Human task. Preservation-reconciliation SSD package verifies; old-HD exact-file I/O prevents backup certification. [Runtime storage/debt status](JGA_RUNTIME_STATE.md) explicitly records PI-authorized documentation-only backup debt and replacement-device pending."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 23,
+      "topics": [
+        "restart"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Do not restart Bass development from scratch.** Preserve the frozen Learned Local Attack Selector as the mandatory comparison baseline. Future methods are extensions/improvements and must report baseline modification, controlled coverage, median/P95 absolute error,\u00b110ms, abstention, cross-domain/historical coverage and any timing-precision cost. Visual plausibility cannot supersede independent controlled validation. **Next scientific goal: improve cross-domain/historical coverage while preserv"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 27,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "## CONTINUOUS EXTERNAL BACKUP AUTHORITY"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 32,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "paths. [Complete policy](project/CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md) and"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 33,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "[completion-gate utility](../tools/continuous_backup.py)."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 42,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "If unavailable, report **CONTINUOUS EXTERNAL BACKUP UNAVAILABLE** and ask PI to"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 56,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**JGA v1 methodological development: CLOSED for operational historical analysis. Operational format: USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** This PI engineering decision supersedes earlier next-research instructions below, without rewriting any experimental result. [Final operational decision](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) \u00b7 [frozen reporting workflow](scientific/rfc/JGA_V1_HYBRI"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 64,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Historical independent PLP experiment: FAIL, unchanged:** 10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain; 24/24 responses; SHA-256 `0355d78186ea4b79d1e1c0f99e634be674a41227f4faef19993351b84867100f`. Exactly Like You 5/5 development evidence remains outside the denominator. PLP remains ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE; present operational adoption does not convert FAIL to PASS. Raw maxima are not final musical-quarter Ground Truth. General-purpose physical/me"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 81,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**JGA v1 final trial on Exactly Like You: PARTIALLY_USABLE.** [Report](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT.md) \u00b7 [result freeze](scientific/rfc/JGA_V1_FINAL_HISTORICAL_RECORDING_TRIAL_001_20260922/RESULT_FREEZE.json), SHA-256 `64979a72bf7c878bdea445d94c03dad417e4dd170d384999e3a5bb2172e23953`. This is the newly authorized additive readout, not a rewrite of historical groove studies. Analysis [0,330) s; PI-defined ending excluded. 1,606 native markers; Bass-i"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 85,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Separate PI engineering adoption:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE, adopted internal BPM/local-pulse context for bounded JGA v1. Input: ORIGINAL FULL MIX. Raw maxima are evidence, not final musical-quarter Ground Truth. FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE. 4/4 PRIMARY; 3/4 SUPPORTED; 5/4 and other odd meters EXPERIMENTAL and outside current operational scope. Open/free endings excluded from this trial; negative evidence preserved."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 91,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Next action: PI review of this trial and its single attack-timing qualification blocker. Further scientific work requires separate PI authorization. Historical checkpoints below retain their original scope and do not authorize automatic continuation."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 99,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Subsequent PI engineering decision:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE for JGA v1. **FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE.** Full mix is the analysis input; unchanged frozen librosa PLP is evidence, not raw-maxima Ground Truth. Required, unimplemented next layers: Tempo-Existence / Confidence Gate; Metric-Level Selection; Metric-Level Lock / Continuity. TEMPO_EXISTS may be YES / LOW_CONFIDENCE / NO; do not force quarters in free endings."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 115,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**JGA-FIRST-COMPLETE-MUSICOLOGICAL-PERFORMANCE-ANALYSIS-001: PASS with documented qualifications.** Target: Ray Brown Trio \u2014 \u201cExactly Like You\u201d. Branch: `scientific/translation-layer-finalization`. Scientific result frozen; awaiting PI review. No commit or push."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 123,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Architecture unchanged: full mix \u2192 native observability \u2192 qualified external identity evidence \u2192 frozen internal pulse \u2192 quarter-anchored geometry \u2192 form-linked description. JGA owns timing. ADTOF qualified Drum evidence; MuScriptor complementary evidence; YourMT3 historical, not mandatory gate. Dual support is one marker, not two timed attacks. Preferred research coordinate remains supported WITH QUALIFICATION and closed to redesign absent falsifying evidence; not newly promoted to canonical pr"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 137,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. **JGA-QUARTER-NEAREST-ONSET-COVERAGE-SENSITIVITY-001: PASS; decision B \u2014 SUPPORTED WITH QUALIFICATION.** Scientific result frozen; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 141,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Preferred current NON-PHYSICAL JGA v1 research representation: QUARTER-ANCHORED NEAREST-OBSERVABLE-ONSET GEOMETRY \u2014 YES-WITH-QUALIFICATION. Basic descriptive groove-coordinate problem CLOSED FOR JGA v1 RESEARCH WITH QUALIFICATION**, subject to new falsifying evidence. No canonical production change. Frozen quarter \u2192 unique midpoint cell \u2192 temporally nearest existing native event; UNKNOWN remains eligible; all other events remain context. No event-stream unwrapping."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 161,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed pilot: **JGA-QUARTER-NEAREST-ONSET-GROOVE-001 \u2014 PASS; decision B, SUPPORTED WITH QUALIFICATION**. Additive NONCANONICAL research representation; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 173,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Qualifications: nearest selection structurally favors small distances and depends on candidate coverage; empty cells do not prove silence. Source states are provisional; dual support does not independently time two attacks. Grid numerical continuity does not establish physical/perceptual pulse Ground Truth. No physical performer early/late, true beat, full-mix Bass attack timing or independent Bass\u2013Drum microtiming claims. Drum attack timing and controlled Fishman T0 remain PROMISING. No canonic"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 185,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "# Current trajectory-validation qualification \u2014 2026-09-21"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 191,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The parent whole-track frozen arithmetic/data remain unchanged and usable under their original qualifications. This validation **does not establish a representation-robust continuous groove trajectory** from the mixed-source candidate stream. Minimum-jump is an assumption-dependent diagnostic, not unique/physical cycle recovery or canonical timing."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 193,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "1627 events and52 windows preserved. Numerical grid continuity PASS(946 quarters), but independent pulse/phase qualification is not strengthened. 1626 cycle transitions admit alternatives; the first assignment is a fixed gauge, not a scientifically unique cycle. All52 windows are MIXED / UNCERTAIN under the preregistered conservative alternatives. There are no algorithmic half-cycle ties; scientific ambiguity is distinct from a numerical tie."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 205,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "## Preserved parent checkpoint \u2014 qualification above applies to continuous-trajectory interpretation"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 207,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The following records retain historical results and prior recommendations. The latest validation qualification and next-action status are given above; no parent scientific artifact has been rewritten."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 213,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Recover [current scientific state](JGA_SCIENTIFIC_STATE.md), [procedure freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_PROCEDURE_FREEZE.json) SHA-256 `1f34654b693ef01af2b93348d3ffcff05e9c93d60eaa82fa3583d0911e17fd2a`, and [result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) SHA-256 `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`. The current state documen"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 230,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** Current work on Ray Brown Trio \u2014 \u201cExactly Like You\u201d is **FROZEN / AWAITING PI DECISION**. `JGA-BASS-DRUM-MICROTIMING-001` has reached an integrated **PARTIAL** qualification result; it is not the next automatically executable experiment. **Next session: recover state \u2192 report the single blocker to PI \u2192 wait for separate PI authorization.** No new scientific experiment is authorized by this closure. Older \u201cnext task\u201d or \u201cnext exp"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 232,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 236,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Integrated timing tiers (full frozen populations):** Bass T1/T2/T3/T4/T5 = **4/0/0/328/164**; generic Drum = **7/0/0/284/209**. T1 is an individual bounded review, not a transferable class rule. Drum timing-grade is **partially validated** (26 prospective PASS selected, six admitted, 20 abstained); Bass timing-grade is **not established**. T4 and T5 are valid observable events, not false detections. The **one primary blocker** is a prospectively supported source-associated attack uncertainty/q"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 243,
+      "topics": [
+        "manual_quarter",
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER. NEXT MILESTONE: JGA-BASS-DRUM-MICROTIMING-001.** Use the [session closure](scientific/rfc/JGA_SESSION_CLOSURE_OBSERVABLE_GROOVE_20260920/README.md) as the current state and the [PI finalization directive](scientific/rfc/JGA_FINALIZATION_DIRECTIVE_001_20260920/README.md) as product authority. \u201cExactly Like You\u201d has 496 frozen Bass and 500 frozen generic-Drum HIGH+MEDIUM candidates, an unchanged Bass-derived ~164 BPM quarter grid, 1"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 348,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  correction, external trackers/adapters, GUI and interactive visualization."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 545,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- The preregistered observational/frame-resolved visualization was produced."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 562,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- No JGA execution, EME, localization, profile or visualization has been"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 902,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  blocked by Drum `AMBIGUOUS_MULTIPLE_OBSERVED` authority and 2 by Double Bass"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 959,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- H02 remains experimental and is not promoted. `GEOMETRIC_ONLY` remains"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1031,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- No correction or production promotion is authorized. `GEOMETRIC_ONLY`"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1037,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  production promotion may be reconsidered."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1147,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  potentially useful, but production promotion remains unauthorized. No raw"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1153,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- Before production promotion may be considered, the unchanged rule requires"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1182,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  Piano. No relation was promoted to `AUTHORIZED_EVENT_RELATION`."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1215,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  and visualizations remain unchanged."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1438,
+      "topics": [
+        "exhaustive"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- Candidate origin was an exhaustively evaluated nuisance parameter. Neutral"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1835,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "M42 \u2014 Scientific Visualization Evolution"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1845,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- Scientific Visualization Semantics"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1846,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- Multi-Trajectory Visualization"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1847,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- ScientificVisualizationScene"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1848,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- VisualizationTrajectoryDescriptor"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1852,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- TemporalVisualizationWindow"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1854,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- TemporalVisualizationProjector"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1855,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- DefaultTemporalVisualizationProjector"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1856,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- VisualizationProjectionPipeline"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1874,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The Visualization Layer now supports immutable,"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1876,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "ScientificVisualizationScene objects."
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1878,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Real audio visualization validation is intentionally"
+    },
+    {
+      "path": "docs/JGA_PROJECT_STATE.md",
+      "line": 1879,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "deferred until the visualization layer supports"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 3,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) \u00b7 [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) \u00b7 [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHOR"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 7,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Historical independent PLP FAIL (10/10/3/1; 24/24) and all earlier qualifications remain unchanged. This is subsequent PI operational adoption, not new experimental proof. 4/4 primary; 3/4 supported/secondary; odd meters and free endings outside v1 scope. Universal physical timing, Bass identity and component-specific Ride/Hi-Hat remain future questions. Earlier temporal-layer proposals remain unimplemented and are not reopened as v1 prerequisites. Runtime code is unchanged; this freezes the rep"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 21,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Subsequent PI engineering decision:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE for JGA v1. **FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE.** Full mix is the analysis input; unchanged frozen librosa PLP is evidence, not raw-maxima Ground Truth. Required, unimplemented next layers: Tempo-Existence / Confidence Gate; Metric-Level Selection; Metric-Level Lock / Continuity. TEMPO_EXISTS may be YES / LOW_CONFIDENCE / NO; do not force quarters in free endings."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 37,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. **JGA-QUARTER-NEAREST-ONSET-COVERAGE-SENSITIVITY-001: PASS; decision B \u2014 SUPPORTED WITH QUALIFICATION.** Scientific result frozen; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 41,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Preferred current NON-PHYSICAL JGA v1 research representation: QUARTER-ANCHORED NEAREST-OBSERVABLE-ONSET GEOMETRY \u2014 YES-WITH-QUALIFICATION. Basic descriptive groove-coordinate problem CLOSED FOR JGA v1 RESEARCH WITH QUALIFICATION**, subject to new falsifying evidence. No canonical production change. Frozen quarter \u2192 unique midpoint cell \u2192 temporally nearest existing native event; UNKNOWN remains eligible; all other events remain context. No event-stream unwrapping."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 59,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed pilot: **JGA-QUARTER-NEAREST-ONSET-GROOVE-001 \u2014 PASS; decision B, SUPPORTED WITH QUALIFICATION**. Additive NONCANONICAL research representation; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 71,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Qualifications: nearest selection structurally favors small distances and depends on candidate coverage; empty cells do not prove silence. Source states are provisional; dual support does not independently time two attacks. Grid numerical continuity does not establish physical/perceptual pulse Ground Truth. No physical performer early/late, true beat, full-mix Bass attack timing or independent Bass\u2013Drum microtiming claims. Drum attack timing and controlled Fishman T0 remain PROMISING. No canonic"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 83,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "# Current trajectory-validation qualification \u2014 2026-09-21"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 89,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The parent whole-track frozen arithmetic/data remain unchanged and usable under their original qualifications. This validation **does not establish a representation-robust continuous groove trajectory** from the mixed-source candidate stream. Minimum-jump is an assumption-dependent diagnostic, not unique/physical cycle recovery or canonical timing."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 91,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "1627 events and52 windows preserved. Numerical grid continuity PASS(946 quarters), but independent pulse/phase qualification is not strengthened. 1626 cycle transitions admit alternatives; the first assignment is a fixed gauge, not a scientifically unique cycle. All52 windows are MIXED / UNCERTAIN under the preregistered conservative alternatives. There are no algorithmic half-cycle ties; scientific ambiguity is distinct from a numerical tie."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 103,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "## Preserved parent checkpoint \u2014 qualification above applies to continuous-trajectory interpretation"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 105,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The following records retain historical results and prior recommendations. The latest validation qualification and next-action status are given above; no parent scientific artifact has been rewritten."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 111,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Recover [current scientific state](JGA_SCIENTIFIC_STATE.md), [procedure freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_PROCEDURE_FREEZE.json) SHA-256 `1f34654b693ef01af2b93348d3ffcff05e9c93d60eaa82fa3583d0911e17fd2a`, and [result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) SHA-256 `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`. The current state documen"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 130,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** Current work on Ray Brown Trio \u2014 \u201cExactly Like You\u201d is **FROZEN / AWAITING PI DECISION**. `JGA-BASS-DRUM-MICROTIMING-001` has reached an integrated **PARTIAL** qualification result; it is not the next automatically executable experiment. **Next session: recover state \u2192 report the single blocker to PI \u2192 wait for separate PI authorization.** No new scientific experiment is authorized by this closure. Older \u201cnext task\u201d or \u201cnext exp"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 132,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 136,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Integrated timing tiers (full frozen populations):** Bass T1/T2/T3/T4/T5 = **4/0/0/328/164**; generic Drum = **7/0/0/284/209**. T1 is an individual bounded review, not a transferable class rule. Drum timing-grade is **partially validated** (26 prospective PASS selected, six admitted, 20 abstained); Bass timing-grade is **not established**. T4 and T5 are valid observable events, not false detections. The **one primary blocker** is a prospectively supported source-associated attack uncertainty/q"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 630,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "a visualization layer."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 636,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Separating Behaviour Space from graphical visualization preserves the"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 887,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- Interactive Visualization"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1463,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "AD-016 \u2014 Visualization Projection Pipeline"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1474,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The Visualization Layer evolved from rendering a single"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1476,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "over complete ScientificVisualizationScene objects."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1478,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Temporal visualization introduced the need to apply one or"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1479,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "more visualization transformations before rendering while"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1484,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Introduce the VisualizationProjectionPipeline."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1486,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The pipeline applies one or more visualization projectors"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1491,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "    ScientificVisualizationScene"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1493,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "    ScientificVisualizationScene"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1495,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The pipeline performs only visualization-level"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1506,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- composable visualization transformations;"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 1507,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- immutable visualization workflow;"
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 2181,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "promoted to production authority."
+    },
+    {
+      "path": "docs/JGA_DECISIONS.md",
+      "line": 2343,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Operational decision PI-DOCUMENTARY-RECONCILIATION-BACKUP-DEBT-20261006 authorizes documentation reconciliation only. [Current scientific state](JGA_SCIENTIFIC_STATE.md) records the six previously frozen promotion gates; no new scientific decision or execution. Old external HD writes prohibited; temporary backup debt explicitly authorized; replacement backup pending per PI. Bootstrap, architecture rules, commit/push deferred. [Review record](project/JGA_DOCUMENTARY_RECONCILIATION_20261006/PI_REV"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 5,
+      "topics": [
+        "manual_quarter",
+        "promotion",
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "Bass61 reference and bounded B3_PLP comparison complete and candidate-conditioned; manual-quarter collection terminated; existing controlled machine baseline retained; historical FullMix machine qualification NOT EXECUTED / NOT PROMOTED; visualization candidate only; Drum timing authority not established. Preserve Method-P embargo; no scientific cross-review authorized here."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 15,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Methodological development CLOSED for bounded v1 operational historical analysis; USABLE_WITH_QUALIFICATION. Current phase: HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION.** [PI decision and architecture](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/PI_OPERATIONAL_DECISION.md) \u00b7 [workflow](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/HISTORICAL_REPORT_WORKFLOW.md) \u00b7 [authority hashes](scientific/rfc/JGA_V1_HYBRID_OPERATIONAL_ARCHITECTURE_20260923/AUTHOR"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 19,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Historical independent PLP FAIL (10/10/3/1; 24/24) and all earlier qualifications remain unchanged. This is subsequent PI operational adoption, not new experimental proof. 4/4 primary; 3/4 supported/secondary; odd meters and free endings outside v1 scope. Universal physical timing, Bass identity and component-specific Ride/Hi-Hat remain future questions. Earlier temporal-layer proposals remain unimplemented and are not reopened as v1 prerequisites. Runtime code is unchanged; this freezes the rep"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 40,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Subsequent PI engineering decision:** PLP is ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE for JGA v1. **FINAL MUSICAL-QUARTER AUTHORITY: NOT YET COMPLETE.** Full mix is the analysis input; unchanged frozen librosa PLP is evidence, not raw-maxima Ground Truth. Required, unimplemented next layers: Tempo-Existence / Confidence Gate; Metric-Level Selection; Metric-Level Lock / Continuity. TEMPO_EXISTS may be YES / LOW_CONFIDENCE / NO; do not force quarters in free endings."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 56,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**JGA-FIRST-COMPLETE-MUSICOLOGICAL-PERFORMANCE-ANALYSIS-001: PASS with documented qualifications.** Target: Ray Brown Trio \u2014 \u201cExactly Like You\u201d. Branch: `scientific/translation-layer-finalization`. Scientific result frozen; awaiting PI review. No commit or push."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 64,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Architecture unchanged: full mix \u2192 native observability \u2192 qualified external identity evidence \u2192 frozen internal pulse \u2192 quarter-anchored geometry \u2192 form-linked description. JGA owns timing. ADTOF qualified Drum evidence; MuScriptor complementary evidence; YourMT3 historical, not mandatory gate. Dual support is one marker, not two timed attacks. Preferred research coordinate remains supported WITH QUALIFICATION and closed to redesign absent falsifying evidence; not newly promoted to canonical pr"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 78,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. **JGA-QUARTER-NEAREST-ONSET-COVERAGE-SENSITIVITY-001: PASS; decision B \u2014 SUPPORTED WITH QUALIFICATION.** Scientific result frozen; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 82,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Preferred current NON-PHYSICAL JGA v1 research representation: QUARTER-ANCHORED NEAREST-OBSERVABLE-ONSET GEOMETRY \u2014 YES-WITH-QUALIFICATION. Basic descriptive groove-coordinate problem CLOSED FOR JGA v1 RESEARCH WITH QUALIFICATION**, subject to new falsifying evidence. No canonical production change. Frozen quarter \u2192 unique midpoint cell \u2192 temporally nearest existing native event; UNKNOWN remains eligible; all other events remain context. No event-stream unwrapping."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 98,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Jazz Groove Analyzer (JGA), branch `scientific/translation-layer-finalization`. Latest completed pilot: **JGA-QUARTER-NEAREST-ONSET-GROOVE-001 \u2014 PASS; decision B, SUPPORTED WITH QUALIFICATION**. Additive NONCANONICAL research representation; awaiting PI review."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 110,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Qualifications: nearest selection structurally favors small distances and depends on candidate coverage; empty cells do not prove silence. Source states are provisional; dual support does not independently time two attacks. Grid numerical continuity does not establish physical/perceptual pulse Ground Truth. No physical performer early/late, true beat, full-mix Bass attack timing or independent Bass\u2013Drum microtiming claims. Drum attack timing and controlled Fishman T0 remain PROMISING. No canonic"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 122,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "# Current trajectory-validation qualification \u2014 2026-09-21"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 128,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The parent whole-track frozen arithmetic/data remain unchanged and usable under their original qualifications. This validation **does not establish a representation-robust continuous groove trajectory** from the mixed-source candidate stream. Minimum-jump is an assumption-dependent diagnostic, not unique/physical cycle recovery or canonical timing."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 130,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "1627 events and52 windows preserved. Numerical grid continuity PASS(946 quarters), but independent pulse/phase qualification is not strengthened. 1626 cycle transitions admit alternatives; the first assignment is a fixed gauge, not a scientifically unique cycle. All52 windows are MIXED / UNCERTAIN under the preregistered conservative alternatives. There are no algorithmic half-cycle ties; scientific ambiguity is distinct from a numerical tie."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 142,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "## Preserved parent checkpoint \u2014 qualification above applies to continuous-trajectory interpretation"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 144,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "The following records retain historical results and prior recommendations. The latest validation qualification and next-action status are given above; no parent scientific artifact has been rewritten."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 150,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Recover [current scientific state](JGA_SCIENTIFIC_STATE.md), [procedure freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_PROCEDURE_FREEZE.json) SHA-256 `1f34654b693ef01af2b93348d3ffcff05e9c93d60eaa82fa3583d0911e17fd2a`, and [result freeze](scientific/rfc/JGA_WHOLE_TRACK_GROOVE_FROZEN_PIPELINE_001_20260921/JGA_WHOLE_TRACK_GROOVE_RESULT_FREEZE.json) SHA-256 `6ec8af738bb2512859ef92d29c5a36c6d0557dea009ee1c9d86cca543a5382dc`. The current state documen"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 167,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**PRIMARY GOAL: COMPLETE JGA v1 AS AN OBSERVABLE GROOVE ANALYZER.** Current work on Ray Brown Trio \u2014 \u201cExactly Like You\u201d is **FROZEN / AWAITING PI DECISION**. `JGA-BASS-DRUM-MICROTIMING-001` has reached an integrated **PARTIAL** qualification result; it is not the next automatically executable experiment. **Next session: recover state \u2192 report the single blocker to PI \u2192 wait for separate PI authorization.** No new scientific experiment is authorized by this closure. Older \u201cnext task\u201d or \u201cnext exp"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 169,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Authoritative [frozen report method](scientific/rfc/JGA_V1_OBSERVABLE_GROOVE_REPORT_METHOD_001_20260920/README.md) SHA-256 `8d101e9e2d9200a2c726434ec85ecb8a4e6ff975ec09b8b90bbaee6430605f9a`; [integrated qualification](scientific/rfc/JGA_V1_BASS_DRUM_TIMING_QUALIFICATION_20260920/RESULT.md); [final recovery sync](scientific/rfc/JGA_FINAL_RECOVERY_STATE_SYNC_20260920/RECOVERY_STATE_SYNC_FREEZE.json). Original source SHA-256 `aec97cfb67096bd6a7c3d432f025523d1269b6b261e2dd6bc01a33c045acac45`. Frozen"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 173,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**Integrated timing tiers (full frozen populations):** Bass T1/T2/T3/T4/T5 = **4/0/0/328/164**; generic Drum = **7/0/0/284/209**. T1 is an individual bounded review, not a transferable class rule. Drum timing-grade is **partially validated** (26 prospective PASS selected, six admitted, 20 abstained); Bass timing-grade is **not established**. T4 and T5 are valid observable events, not false detections. The **one primary blocker** is a prospectively supported source-associated attack uncertainty/q"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 309,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "M42 \u2014 Scientific Visualization Evolution"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 313,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- TemporalVisualizationWindow"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 315,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- TemporalVisualizationProjector"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 316,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- DefaultTemporalVisualizationProjector"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 317,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- VisualizationProjectionPipeline"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 321,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Visualization pipeline now supports immutable,"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 323,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "ScientificVisualizationScene objects."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 325,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Current visualization architecture:"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 329,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "MetricLandscapeVisualizationAdapter"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 333,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "ScientificVisualizationScene"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 335,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "VisualizationProjectionPipeline"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 337,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "ScientificVisualizationScene"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 343,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- Visualization migration completed."
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 349,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "Real audio visualization validation has been"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 350,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "intentionally postponed until the visualization"
+    },
+    {
+      "path": "docs/JGA_SESSION_CONTEXT.md",
+      "line": 356,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "M43 \u2014 Scientific Visualization Exploration"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+      "line": 3,
+      "topics": [
+        "manual_quarter",
+        "promotion",
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "[Verified authority inventory](project/JGA_DOCUMENTARY_RECONCILIATION_20261006/AUTHORITY_INVENTORY.json) links finalized Bass61 passes, reliability/construction, October5 Human Reference, bounded VS-B3PLP comparison, provenance/capability audits, candidate visualization, qualification blockers and terminated manual-quarter provenance. This is navigation, not scientific promotion. [Current scientific scope](JGA_SCIENTIFIC_STATE.md); [backup/debt status](JGA_RUNTIME_STATE.md). Earlier frozen index"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+      "line": 7,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "**JGA-FIRST-COMPLETE-MUSICOLOGICAL-PERFORMANCE-ANALYSIS-001: PASS with documented qualifications.** Target: Ray Brown Trio \u2014 \u201cExactly Like You\u201d. Branch: `scientific/translation-layer-finalization`. Scientific result frozen; awaiting PI review. No commit or push."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+      "line": 41,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "than repairing history. Descriptive summaries are not promoted to authority."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+      "line": 178,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "| 33 | CED-VAL-005 visualization | [Preregistration](../validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/preregistrations/H-CEDVAL005-FIVE-WINDOW-LOCAL-NEUTRAL-VISUALIZATION-01.md) | [`local_visualizations_20260824_160657`](../validation/CED-VAL-005-REAL-JAZZ-MULTITRACK/local_visualizations_20260824_160657/) | B | Presentation evidence only. |"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+      "line": 182,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "| 37 | CED-VAL-006 visualization | [Preregistration](../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/preregistrations/H-CEDVAL006-FIVE-WINDOW-LOCAL-NEUTRAL-VISUALIZATION-01.md) | [`local_visualizations_20260824_185658`](../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/local_visualizations_20260824_185658/) | B | Presentation evidence only. |"
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+      "line": 345,
+      "topics": [
+        "exhaustive"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "  session/file origin, exhaustive timing-process history and physical onset."
+    },
+    {
+      "path": "docs/JGA_SCIENTIFIC_EVIDENCE_INDEX.md",
+      "line": 417,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "| Strength as a general correspondence selector | CED-VAL-003/004 negative and insufficient evidence prevents promotion. |"
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF.md",
+      "line": 5,
+      "topics": [
+        "manual_quarter",
+        "promotion",
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "[Current scientific state](../JGA_SCIENTIFIC_STATE.md) records candidate-conditioned Bass61 reference, completed bounded Human/B3_PLP comparison, existing controlled selector and presence development model, preserved historical failures, terminated manual-quarter test, machine-qualification blocker and six prospective gates. Current visualization is candidate only, 66/66 rendered per frozen validation; Drum timing authority not established."
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF.md",
+      "line": 7,
+      "topics": [
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "[Runtime state](../JGA_RUNTIME_STATE.md): INTERNAL HD live repo; SSD primary; old HD untrusted for new writes; temporary documentation-only backup debt explicitly PI authorized. SSD preservation package verified, HD exact-file read failure reproduced; not scientific-result loss. Replacement backup pending per PI. No old-HD writes, external scientific writes, science reruns, Human unseal, visualization or architecture changes."
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF.md",
+      "line": 187,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "## Mandatory qualifications"
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF.md",
+      "line": 271,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  backup PASS for every changed and new file."
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF.md",
+      "line": 299,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**STOP FOR PI REVIEW. NO SCIENTIFIC PROMOTION.**"
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF.md",
+      "line": 313,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  definition, **not** a musical quarter structural-role label. The 12 ABSENT quarters are not"
+    },
+    {
+      "path": "docs/project/JGA_CHAT_HANDOFF.md",
+      "line": 319,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- No commit, no push, no promotion. Authority NOT_GRANTED; lease released."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 3,
+      "topics": [
+        "promotion",
+        "visualization"
+      ],
+      "classification": "CURRENT AND CORRECT",
+      "text": "DOCUMENTARY RECONCILIATION ONLY \u2014 STOP FOR PI DOCUMENT + ARCHITECTURE REVIEW. [Review package](JGA_DOCUMENTARY_RECONCILIATION_20261006/PI_REVIEW.md); [scientific state](../JGA_SCIENTIFIC_STATE.md); [storage/debt status](../JGA_RUNTIME_STATE.md). Current Human Reference is candidate-conditioned; historical FullMix qualification not executed/promoted; visualization candidate only; Drum authority pending."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 11,
+      "topics": [
+        "promotion",
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**BLIND M54 AUDIO PROVENANCE REPAIR COMPLETED \u2014 STOP FOR PI REVIEW.** PI `PI-BLIND-M54-AUDIO-PROVENANCE-REPAIR-STORAGE-20260929` (PATH 1 full canonical repair) governs `JGA-BLIND-M54-AUDIO-PROVENANCE-REPAIR-001-20260929`. Decoded-sample identity resolved: **LISTEN_A = ORIGINAL FULL MIX, LISTEN_B = BASS STEM ONLY** (sample-by-sample identical over native samples [3417750,3505950); 0 differing frames of 88200). Original held-back `BLIND_KEY.json` was an erroneous arm/file pairing; the audio bytes "
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 16,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**METHOD-D MINIMAL 0.2 COMPLETED \u2014 STOP FOR PI REVIEW.** PI `PI-METHOD-D-MINIMAL-STORAGE-20260928` and execution authorization `PI-METHOD-D-MINIMAL-EXECUTION-20260928` govern `JGA-METHOD-D-MINIMAL-PERIODICITY-PHASE-001-20260928`. Experimental outputs and validation are in `docs/scientific/rfc/JGA_METHOD_D_MINIMAL_PERIODICITY_PHASE_001_20260928/MANIFEST.json`; detailed findings remain in the independent package. Preregistration unchanged. Method-P embargo preserved; no Global/Human timing, candid"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 18,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**HISTORICAL METHOD-D FALLBACK \u2014 PREREGISTRATION_INCOMPLETE; STOP FOR PI REVIEW.** PI `PI-METHOD-D-FALLBACK-20260928` authorized Codex fallback for `JGA-FROZEN-CANDIDATES-DIRECT-GRID-001-20260928`. Recovered preparation remains byte-identical. The preregistration sufficiency gate stopped execution; the frozen input hash/count gate passed. Audit: `docs/scientific/rfc/JGA_FROZEN_CANDIDATES_DIRECT_GRID_001_20260928/FALLBACK_PREREGISTRATION_AUDIT.json`. No model execution or derived grids, no Global"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 20,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**HISTORICAL METHOD-D INTERRUPTION RECOVERY \u2014 STOP FOR PI REVIEW.** PI `PI-METHOD-D-INTERRUPTION-RECOVERY-20260928` authorized task `JGA-METHOD-D-OPENCODE-INTERRUPTION-RECOVERY-20260928`. OpenCode session ended with a recorded upstream 504 after four preparatory file writes; later process rechecks after PI closure of the idle UI confirmed no active OpenCode/Nemotron process; no model execution call or model outputs were found. Preregistration/configuration/source manifest/input-verification reco"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 22,
+      "topics": [
+        "promotion",
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**METHOD P COMPLETED \u2014 PI REVIEW REQUIRED.** PI PI-METHOD-P-BLINDED-20260928 and PI-METHOD-P-STORAGE-20260928 authorized JGA-FROZEN-CANDIDATES-PLP-GRID-001-20260928. [Package metadata](../../docs/scientific/rfc/JGA_FROZEN_CANDIDATES_PLP_GRID_001_20260928/MANIFEST.json) identifies its completed experimental artifacts; no findings are copied into shared coordination to protect cross-method independence. Unchanged preregistration/configuration; no source-candidate mutation, scientific promotion, co"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 24,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "**ACTIVE COPILOT EMBARGO:** `JGA_BASS_COVERED_CANDIDATE_FEATURE_AUDIT_001_20260927` exists, Codex completed it, EXPERIMENTAL / PI REVIEW REQUIRED. Contents/results/features/next steps and derivatives are embargoed from Copilot. Exact safe metadata/release conditions are owned by [embargo registry](EMBARGO_REGISTRY.json); no release recorded. Earlier adjudication, sensitivity, root-cause, mechanism and coverage/ranking remain allowed background, not scientific promotion."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 26,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "[External artifact index](EXTERNAL_ARTIFACT_MANIFEST.json) records verification scope and legacy gaps. [Continuous backup](CONTINUOUS_EXTERNAL_BACKUP_AUTHORITY.md) remains mandatory. [Chat handoff](JGA_CHAT_HANDOFF.md) is a portable dated projection, not a second authority. Complete only the authorized block; STOP FOR PI REVIEW."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 40,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- no commit, no push, no scientific promotion"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 50,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- STATUS: EXPLORATORY / PLP-CONDITIONED / NOT INDEPENDENT / NOT PROMOTABLE. PLP is an OPERATIONAL"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 51,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  tempo/local-pulse quarter reference; FINAL MUSICAL-QUARTER AUTHORITY IS NOT YET COMPLETE."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 53,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- No commit, no push, no scientific promotion. Authority returned to NOT_GRANTED; lease released."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 65,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- STATUS: EXPLORATORY / PLP-CONDITIONED / ASSIGNMENT-CONDITIONED / NOT INDEPENDENT / NOT PROMOTED."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 66,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  PLP is an OPERATIONAL tempo/local-pulse quarter reference; FINAL MUSICAL-QUARTER AUTHORITY IS NOT YET COMPLETE."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 70,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- No commit, no push, no scientific promotion. Authority NOT_GRANTED; lease released. STOP FOR PI REVIEW."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 95,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  scientific promotion, commit, push, audio modification, audio duplication."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 98,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- BACKUP: continuous external backup available and verified before any writing workflow."
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 124,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  new candidate generation, classifier training or evaluation, scientific promotion,"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 173,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  quarter/measure disclosure, classifier training, scientific promotion, commit, push, Drum namespace"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 208,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "     absent from the SSD original. `tools/continuous_backup.py` has **no label/sealed exclusion** and"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 250,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- CLASSIFICATION: **DEVELOPMENT RECORD. NO SCIENTIFIC PROMOTION.** No detector, gate,"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 251,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  classifier or threshold is promoted. No historical artifact was overwritten; a fresh RFC"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 265,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  (0.648). `low_change` is a **DEVELOPMENT SIGNAL ONLY** and is **not** promoted as a"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 271,
+      "topics": [
+        "manual_quarter"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  definition** and is **NOT equivalent to** \"this musical quarter has/no Bass structural"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 286,
+      "topics": [
+        "promotion"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "- No commit, no push, no scientific promotion. Authority returned to NOT_GRANTED; lease"
+    },
+    {
+      "path": "docs/project/MULTI_AGENT_COORDINATION_STATE.md",
+      "line": 287,
+      "topics": [
+        "backup"
+      ],
+      "classification": "HISTORICAL \u2014 PRESERVE",
+      "text": "  released at closure. Immediate SHA-verified backup of every artifact PASS."
+    }
+  ],
+  "stale_current_claims_resolved": "Prior active headings/next steps now explicitly under historical boundary; current sections state latest evidence and backup debt",
+  "historical_records_modified": false,
+  "known_remaining_stale_surface": "Root JGA_BOOTSTRAP.md intentionally deferred by PI; not edited",
+  "prior_chat_corrections": "October5 actual Reference/PLP package IDs; preparatory PLP comparison STOPPED, later VS-B3PLP completed"
+}

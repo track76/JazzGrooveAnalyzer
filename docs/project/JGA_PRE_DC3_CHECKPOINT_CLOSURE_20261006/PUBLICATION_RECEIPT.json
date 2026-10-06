@@ -1,0 +1,17 @@
+{
+  "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
+  "status": "REVIEWED_READY_FOR_GOVERNED_PUBLICATION",
+  "publication_PI_decision": "PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006",
+  "branch": "scientific/translation-layer-finalization",
+  "preparation_HEAD": "2169eb12805a7b63b4d6e5517c9bcea90c22058c",
+  "content_commit": null,
+  "final_publication_revision": "Resolved by Git export-subst and final commit-addressed EXPORT_MANIFEST.json",
+  "publication_transition": "Same writer lease; exact reviewed index/tree; verified remote HEAD",
+  "backup": "BACKUP_DEBT_PI_AUTHORIZED",
+  "historical_qualifications": [
+    "HISTORICAL_AUTHORIZATION_UNRESOLVED (2 preserved events)",
+    "UNKNOWN missing intended historical pilot references (2)"
+  ],
+  "scientific_results_changed": false,
+  "old_HD_accessed": false
+}

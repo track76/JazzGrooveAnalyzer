@@ -16,14 +16,18 @@ PACKAGE = ROOT / 'docs/scientific/rfc/JGA_SINGLE_ROOT_BOOTSTRAP_MIGRATION_202609
 
 def test_root_matches_canonical_sources_and_links():
     text = render_bootstrap(ROOT)
-    assert text == (ROOT / 'JGA_BOOTSTRAP.md').read_text()
+    config=json.loads((ROOT / 'docs/project/BOOTSTRAP_SOURCES.json').read_text())
+    if config.get('production_generation_status','').startswith('DEFERRED'):
+        with pytest.raises(ValueError,match='deferred'):generate_bootstrap(ROOT)
+    else:assert text == (ROOT / 'JGA_BOOTSTRAP.md').read_text()
     for target in re.findall(r'\]\(([^)]+)\)', text):
         assert (ROOT / target).exists(), target
     assert '## Preserved historical checkpoints' not in text
 
 
-def test_checkpoint_preserves_fail_and_distinct_engineering_decision():
-    text = render_bootstrap(ROOT)
+def test_historical_checkpoint_preserves_fail_and_distinct_engineering_decision():
+    # Old scientific claims remain in their sources, not current instructions.
+    text = '\n'.join((ROOT/p).read_text() for p in ['docs/JGA_PROJECT_STATE.md','docs/project/MULTI_AGENT_COORDINATION_STATE.md','docs/project/JGA_FINAL_ANCHORED_REPORT_CHECKPOINT_20260925.md'])
     for required in ['FAIL', '10 aligned / 10 mostly aligned / 3 misaligned / 1 uncertain',
                      'ACCEPTED AS PRIMARY TEMPO / LOCAL-PULSE EVIDENCE ENGINE',
                      'NOT YET COMPLETE', 'ORIGINAL FULL MIX', 'not final musical-quarter Ground Truth',
@@ -38,24 +42,16 @@ def test_checkpoint_preserves_fail_and_distinct_engineering_decision():
         assert required in text, required
 
 
-def test_hybrid_operational_adoption_preserves_authority_boundaries():
-    text = render_bootstrap(ROOT)
-    for required in ['CLOSED for operational historical analysis',
-                     'HISTORICAL JAZZ CORPUS ANALYSIS / REPORT PRODUCTION',
-                     'primary historical audio and operational signal authority',
-                     'INTERNAL BPM / LOCAL-PULSE / operational QUARTER REFERENCE',
-                     'SEPARATOR_DERIVED / STEM_ONLY', 'SHARED_DUAL_MARKER / UNRESOLVED',
-                     'GLOBAL QUARTER-NEAREST', 'QUARTER-CENTERED BASS/DRUM',
-                     'light-gray source-shaped CONTEXT', 'No snapping',
-                     'not current v1 development prerequisites',
-                     'Historical Report 001 completed',
-                     'Select/prepare Historical Report 002']:
-        assert required in text, required
-    config = json.loads((ROOT / 'docs/project/BOOTSTRAP_SOURCES.json').read_text())
-    assert config['sections'] == [
-        {'path': 'docs/JGA_PROJECT_STATE.md', 'current_section_only': True}]
-    # Superseded research orders must not be re-exported as active instructions.
-    assert 'Next scientific action: separately authorize bounded Tempo-Existence' not in text
+def test_current_recovery_sources_preserve_authority_boundaries():
+    text=render_bootstrap(ROOT)
+    for required in ['candidate-conditioned','not promoted','backup','pi']:
+        assert required in text.lower()
+    config=json.loads((ROOT/'docs/project/BOOTSTRAP_SOURCES.json').read_text())
+    assert all('BOOTSTRAP.md' not in s['path'] for s in config['sections'])
+    for s in config['sections']:
+        if s.get('current_section_end'):
+            assert (ROOT/s['path']).read_text().count(s['current_section_end'])==1
+    assert '## Historical coordination record' not in text
 
 
 def test_snapshot_bytes_preserved():

@@ -1,3 +1,45 @@
+# Current pre-DC3 new-chat session context · 2026-10-06
+
+[Publication review](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/PI_REVIEW.md). Recovery publication is resolved through the actual Git-exported handoff; do not infer a successful push from preparation state.
+
+Historical governance reconciled by append-only PI dispositions under PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006. Two Sep29 lease-recovery events remain HISTORICAL_AUTHORIZATION_UNRESOLVED: historical consent is NOT confirmed or fabricated. Ten malformed/missing event linkages are corrected through hash-bound metadata pointing to existing decisions. Two Sep29 pilot intended references remain UNKNOWN / historically absent, not reconstructed. These are visible accepted historical qualifications, not scientific-result changes. OpenCode is inactive INDEPENDENT_REVIEW, NOT_GRANTED, task null. All22 legacy Method P/D IDs are registered after SSD-only byte verification; registration does not promote them. Current task checking remains strict.
+
+The existing governed publication adapter retains one writer lease across exact reviewed staging, staged verification, commit/tree verification, push and remote verification. Unrelated dirty bytes remain excluded. Required tests and current recovery parity gate publication. BACKUP_DEBT_PI_AUTHORIZED — OPEN remains explicitly accepted for this scoped repository checkpoint only.
+
+Scientific checkpoint ends before DC-3 development. DC-3 corpus selection, Ground Truth construction, training, Exactly Like You execution/Human unseal, visualization and Drum work are NOT started or authorized by this closure.
+
+Native FullMix → 401 source-neutral candidates → 216 canonical non-chaining groups → historical 60 + new 156 two-pass presence classifications → 61 BASS_PRESENT_STABLE / 119 BASS_ABSENT_STABLE / 36 BASS_HUMAN_UNSTABLE → two blinded Bass61 localization passes → 54 HUMAN_COUNT_STABLE / 7 HUMAN_COUNT_UNSTABLE → 66 consolidated Human markers. Reference is CANDIDATE-CONDITIONED, NOT exhaustive all-Bass Ground Truth. B1/B2 remain positional labels.
+
+Bounded Human Bass ↔ unchanged frozen B3_PLP comparison is complete, descriptive, and not physical Ground Truth or general historical-jazz/musical-quarter authority. Manual-quarter collection: TERMINATED_BEFORE_SCIENTIFIC_COLLECTION; PI answers 0; PASS_B never opened according to preserved authority; no scientific Human-quarter evidence. Later termination provenance is on primary SSD; old HD is an earlier partial mirror. SSD preservation reconciliation verified; old-HD certification blocked by reproducible I/O errors.
+
+Human/B3_PLP visualization remains CANDIDATE / diagnostic development; 66/66 markers independently verified rendered; not final public score. Drum timing authority NOT ESTABLISHED. Future public score requires qualified MACHINE evidence; Human remains internal validation.
+
+Learned Local Attack Selector remains best validated CONTROLLED recognized-note baseline: 35/40 selected; median absolute 5.213 ms; P95 5.621 ms; selected within ±10 ms. No historical FullMix generalization. Historical failures, stem-based transfers and diagnostics remain unchanged. Existing 39-feature presence classifier (L2 C=0.3, threshold 0.435) is DEVELOPMENT EVALUATION, NOT independent validation and NOT attack timing.
+
+Historical 216-group machine qualification has NOT executed to current Human comparison: NO EXISTING TIMING METHOD HAS A FROZEN 216-GROUP DEPLOYMENT CONTRACT. No current MACHINE_OUTPUT_AUTHORITY or promotion result. Current qualification Human timing remained sealed. Earlier compromised preparatory attempts remain historical failures; none is retroactively rehabilitated. Six prospective gates unchanged: coverage ≥80%; median absolute ≤15 ms; P95 absolute ≤30 ms; ≥70% within20 ms; ≥40% within10 ms; absolute median signed bias ≤10 ms; ALL required.
+
+DC-1 unique compatible candidate, DC-2 harmonic-track association and DC-3 learned selector remain design options. PI selects DC-3 as DEVELOPMENT DIRECTION ONLY, not a trained/promoted method. Training audit READINESS E — MULTIPLE BLOCKERS; no training, target reveal or final-test use. Old 22 features comprise exactly 19 audio-only acoustic morphology features and three incompatible BP-relative inputs. Qualified independently supervised FullMix fine-attack GT set is not currently established.
+
+PI prospective data-use decision: Fishman eight development takes /80 supervised references may be reused for DC-3 DEVELOPMENT ONLY subject to a future frozen training contract; never new independent validation. Four takes /40 references remain CONSUMED VALIDATION / DO NOT TRAIN. Exactly Like You 216 groups + current frozen Human Reference are CURRENT FINAL TEST, EMBARGOED FOR DC-3 DEVELOPMENT. No event-level target coordinates are included here.
+
+Architecture alignment PASS: one task/multiple phases; explicit blind startup; Human firewall; external writer scope; PI-linked acquire; configurable backup; explicit debt; semantic bootstrap extraction; closure states; disposable-profile classification. Prior focused56/broader60 PASS. Existing recovery root remains JGA_BOOTSTRAP.md.
+
+Storage: INTERNAL HD = live Git repository; EXTERNAL SSD /Volumes/SSD Track/JGA/ = scientific primary; OLD EXTERNAL HD /Volumes/HD BackUp/ = historical device, untrusted for new writes and prohibited from access here. BACKUP_DEBT_PI_AUTHORIZED — OPEN. Replacement external SSD pending/expected2026-10-07 per PI, not independently confirmed. Publication exception is for this repository checkpoint only, never BACKUP PASS or SSD=HD PASS.
+
+NEXT CHAT FIRST STORAGE ACTION: initialize replacement device → register PI-authorized backup target → copy required primary scientific material → independently verify file set/sizes/hashes → update backup references → explicitly settle debt. NEXT SCIENTIFIC TASK: DC-3 INDEPENDENT FULLMIX BASS GT CORPUS SELECTION; intended, NOT executed. STOP for PI/new-chat authorization.
+
+## Historical recovery records — preserved
+
+# Current session context · 2026-10-06
+
+Current task: JGA-DOCUMENTARY-RECONCILIATION-PRE-ARCHITECTURE-001-20261006; documentary reconciliation only, awaiting PI review. [Scientific state](JGA_SCIENTIFIC_STATE.md), [project state](JGA_PROJECT_STATE.md), [runtime debt/storage status](JGA_RUNTIME_STATE.md), [review package](project/JGA_DOCUMENTARY_RECONCILIATION_20261006/PI_REVIEW.md).
+
+Bass61 reference and bounded B3_PLP comparison complete and candidate-conditioned; manual-quarter collection terminated; existing controlled machine baseline retained; historical FullMix machine qualification NOT EXECUTED / NOT PROMOTED; visualization candidate only; Drum timing authority not established. Preserve Method-P embargo; no scientific cross-review authorized here.
+
+Old EXTERNAL HD prohibited for new writes; PI-authorized temporary documentation backup debt. Bootstrap intentionally not regenerated. Do not interpret old next-step instructions below as current authorization. Next: PI document/architecture review.
+
+## Historical session checkpoints — preserved verbatim
+
 # Current authority — JGA v1 hybrid operational adoption · 2026-09-23
 
 **Final musicological output frozen — 2026-09-23.** [JGA Musicological Report Format v1](historical_reports/formats/JGA_MUSICOLOGICAL_REPORT_FORMAT_V1/JGA_MUSICOLOGICAL_REPORT_FORMAT_V1.md) is the standard musician-facing output; [Historical Report 001 final report](historical_reports/JGA_HISTORICAL_REPORT_001/FINAL_SCORE_V1/FINAL_MUSICOLOGICAL_REPORT.md) and its 15-page A4 Microtiming Score are the reference example. PI_METRIC_ANCHOR: unchanged PLP Q3 at 0.8126984126984127 s is M1/Beat 1. PI-authorized 32-quarter elapsed-span BPM provides the local tempo curve, separate from the existing central statistic. Native/source evidence and P01–P21 remain unchanged; unresolved Dual stays gray. No form analysis or new inference. JGA v1 methodology remains CLOSED. Next: historical-jazz corpus analysis using the frozen format; non-specialist explanatory page remains deferred. Earlier endpoint/metric ambiguity is superseded by this explicit PI annotation, not silently revised.
