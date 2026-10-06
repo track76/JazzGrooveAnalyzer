@@ -1,5 +1,25 @@
 # Current pre-DC3 new-chat session context · 2026-10-06
 
+## Verified content checkpoint and final recovery
+
+Content checkpoint commit: 8ea11c2921a537c52259dbb831d64a453a3fb98e. Push and remote branch HEAD verified.
+Scientific state, documentation and minimal infrastructure alignment are current.
+Historical governance qualifications remain visible; no historical consent or
+missing scientific artifact was invented. DC-3 training NOT STARTED; final test
+EMBARGOED / UNTOUCHED. Fishman80 DEVELOPMENT-ONLY; Fishman40 CONSUMED VALIDATION /
+DO NOT TRAIN. Backup debt remains OPEN; old HD untouched.
+
+The actual final carrying revision is `Publication HEAD: $Format:%H$` in the
+Git-exported handoff and the commit-addressed EXPORT_MANIFEST.json. This receipt
+references the verified content commit rather than its own containing commit.
+One bounded final receipt commit is authorized; no recursive amend loop.
+Codex's registry is NOT_GRANTED; the existing same-task lease is retained only
+through final publication/export and normal release. No new work is authorized.
+
+NEXT CHAT FIRST STORAGE ACTION: SETTLE BACKUP DEBT ON REPLACEMENT SSD.
+NEXT SCIENTIFIC TASK: DC-3 INDEPENDENT FULLMIX BASS GT CORPUS SELECTION — NOT STARTED.
+
+
 [Publication review](project/JGA_PRE_DC3_CHECKPOINT_CLOSURE_20261006/PI_REVIEW.md). Recovery publication is resolved through the actual Git-exported handoff; do not infer a successful push from preparation state.
 
 Historical governance reconciled by append-only PI dispositions under PI-PRE-DC3-GOVERNANCE-RECONCILIATION-PUBLICATION-20261006. Two Sep29 lease-recovery events remain HISTORICAL_AUTHORIZATION_UNRESOLVED: historical consent is NOT confirmed or fabricated. Ten malformed/missing event linkages are corrected through hash-bound metadata pointing to existing decisions. Two Sep29 pilot intended references remain UNKNOWN / historically absent, not reconstructed. These are visible accepted historical qualifications, not scientific-result changes. OpenCode is inactive INDEPENDENT_REVIEW, NOT_GRANTED, task null. All22 legacy Method P/D IDs are registered after SSD-only byte verification; registration does not promote them. Current task checking remains strict.

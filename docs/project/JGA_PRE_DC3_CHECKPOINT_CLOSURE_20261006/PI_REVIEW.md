@@ -29,3 +29,22 @@ Storage: INTERNAL HD = live Git repository; EXTERNAL SSD /Volumes/SSD Track/JGA/
 NEXT CHAT FIRST STORAGE ACTION: initialize replacement device → register PI-authorized backup target → copy required primary scientific material → independently verify file set/sizes/hashes → update backup references → explicitly settle debt. NEXT SCIENTIFIC TASK: DC-3 INDEPENDENT FULLMIX BASS GT CORPUS SELECTION; intended, NOT executed. STOP for PI/new-chat authorization.
 
 See GOVERNANCE_RECONCILIATION.json and VALIDATION.json for immutable-event identities, SSD verification and tests. PUBLICATION_RECEIPT.json records reviewed publication intent; actual verified commit and final export are recorded after the governed transition. Publication must not be claimed until remote verification succeeds.
+
+## Verified content checkpoint and final recovery
+
+Content checkpoint commit: 8ea11c2921a537c52259dbb831d64a453a3fb98e. Push and remote branch HEAD verified.
+Scientific state, documentation and minimal infrastructure alignment are current.
+Historical governance qualifications remain visible; no historical consent or
+missing scientific artifact was invented. DC-3 training NOT STARTED; final test
+EMBARGOED / UNTOUCHED. Fishman80 DEVELOPMENT-ONLY; Fishman40 CONSUMED VALIDATION /
+DO NOT TRAIN. Backup debt remains OPEN; old HD untouched.
+
+The actual final carrying revision is `Publication HEAD: $Format:%H$` in the
+Git-exported handoff and the commit-addressed EXPORT_MANIFEST.json. This receipt
+references the verified content commit rather than its own containing commit.
+One bounded final receipt commit is authorized; no recursive amend loop.
+Codex's registry is NOT_GRANTED; the existing same-task lease is retained only
+through final publication/export and normal release. No new work is authorized.
+
+NEXT CHAT FIRST STORAGE ACTION: SETTLE BACKUP DEBT ON REPLACEMENT SSD.
+NEXT SCIENTIFIC TASK: DC-3 INDEPENDENT FULLMIX BASS GT CORPUS SELECTION — NOT STARTED.

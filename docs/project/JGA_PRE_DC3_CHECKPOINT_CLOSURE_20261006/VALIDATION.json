@@ -1,6 +1,6 @@
 {
   "task_id": "JGA-PRE-DC3-CHECKPOINT-CLOSURE-001-20261006",
-  "status": "PUBLICATION_READY_WITH_PI_ACCEPTED_HISTORICAL_QUALIFICATIONS",
+  "status": "PASS_CONTENT_PUBLICATION_VERIFIED_FINAL_RECEIPTS_READY",
   "test_exit_code": 0,
   "publication_tests_passed": true,
   "test_command": [
@@ -12,11 +12,11 @@
     "-p",
     "no:cacheprovider",
     "--basetemp",
-    "/private/tmp/jga_pre_dc3_governance_publish_tests",
+    "/private/tmp/jga_pre_dc3_final_receipt_tests",
     "tools/tests",
     "tests/tooling"
   ],
-  "test_output": "........................................................................ [ 68%]\n.................................                                        [100%]\n105 passed in 25.89s\n",
+  "test_output": "........................................................................ [ 68%]\n.................................                                        [100%]\n105 passed in 29.22s\n",
   "prior_architecture_focused": 56,
   "prior_architecture_broader": 60,
   "governance": {
@@ -310,7 +310,7 @@
     "scope": "registered references; immutable historical originals preserved"
   },
   "bootstrap_generator_parity": true,
-  "bootstrap_sha256": "2c32923c3c84479a9505e7b325c70874e7c77ffc95262d089f6cc320727fb0f5",
+  "bootstrap_sha256": "b438541e0fa9790405dff6b9d91844a93d594ad334b0333295996e1e780f5bcd",
   "registered_SSD_authority_files_verified": 469,
   "legacy_external_files_verified": 22,
   "all_original_ledger_bytes_preserved": true,
@@ -320,5 +320,9 @@
   "DC3_training_started": false,
   "old_HD_accessed": false,
   "backup": "BACKUP_DEBT_PI_AUTHORIZED",
-  "backup_verified": false
+  "backup_verified": false,
+  "content_commit": "8ea11c2921a537c52259dbb831d64a453a3fb98e",
+  "remote_content_HEAD_verified": "8ea11c2921a537c52259dbb831d64a453a3fb98e",
+  "final_carrying_revision": "Resolved by committed handoff/export manifest",
+  "writer_lease_continuity": true
 }

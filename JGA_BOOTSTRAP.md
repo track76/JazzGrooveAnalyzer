@@ -20,7 +20,7 @@ Historical governance reconciled by append-only PI dispositions under PI-PRE-DC3
 
 The existing governed publication adapter retains one writer lease across exact reviewed staging, staged verification, commit/tree verification, push and remote verification. Unrelated dirty bytes remain excluded. Required tests and current recovery parity gate publication. BACKUP_DEBT_PI_AUTHORIZED — OPEN remains explicitly accepted for this scoped repository checkpoint only.
 
-Scientific checkpoint CURRENT; publication governed and pending final verified transition. No DC-3 development. Backup debt OPEN.
+Scientific checkpoint CURRENT; content commit 8ea11c2921a537c52259dbb831d64a453a3fb98e COMMITTED/PUSHED/REMOTE_HEAD_VERIFIED. Final carrying revision resolves through the handoff/export. Codex NOT_GRANTED; same owner lease finishes only receipt publication, recovery export and release. No DC-3 development. Backup debt OPEN.
 
 Scientific checkpoint ends before DC-3 development. DC-3 corpus selection, Ground Truth construction, training, Exactly Like You execution/Human unseal, visualization and Drum work are NOT started or authorized by this closure.
 
