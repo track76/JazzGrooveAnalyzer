@@ -32,6 +32,12 @@ from jga.engines.source_pulse_candidate_builder import (
 from jga.engines.domain_pulse_candidate_adapter import (
     DomainPulseCandidateAdapter,
 )
+from jga.engines.bass_candidate_attribution_engine import (
+    BassCandidateAttributionEngine,
+)
+from jga.source_understanding.bass_candidate_attribution import (
+    CandidateInputRepresentation,
+)
 from jga.engines.periodicity_discovery import PeriodicityDiscovery
 from jga.engines.metric_segment_builder import MetricSegmentBuilder
 from jga.engines.metric_context_builder import MetricContextBuilder
@@ -158,6 +164,10 @@ class AnalysisPipeline:
 
         self.domain_pulse_candidate_adapter = (
             DomainPulseCandidateAdapter()
+        )
+
+        self.bass_candidate_attribution_engine = (
+            BassCandidateAttributionEngine()
         )
 
         self.periodicity_discovery = PeriodicityDiscovery()
@@ -326,6 +336,18 @@ class AnalysisPipeline:
                 observation_scope_identity=(
                     context.candidate_period_population.provenance.input_asset_sha256
                 ),
+            )
+        )
+
+        input_representation = (
+            CandidateInputRepresentation.FULL_MIX
+            if isinstance(self.separator, NullSeparator)
+            else CandidateInputRepresentation.STEM
+        )
+        context.bass_candidate_attributions = (
+            self.bass_candidate_attribution_engine.attribute(
+                context.domain_pulse_candidates,
+                input_representation=input_representation,
             )
         )
 

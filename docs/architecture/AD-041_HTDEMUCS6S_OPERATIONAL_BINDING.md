@@ -3,7 +3,7 @@
 PI authorization: 2026-09-07. Scope: provenance and the explicitly authorized
 historical per-file signal preparation; no new scientific interpretation.
 
-The [parent and separator authority package](../../validation/CED-VAL-006-LEWITT-COSMIX-REAL-LIVE-MULTITRACK/demucs_operational_reintroduction_20260907/README.md)
+The parent and separator authority package (riferimento non distribuito in questa proiezione pubblica)
 binds the PI-issued mixture source instance, frozen M2 model/configuration, and
 six model-declared output keys. The UUID rule is unchanged from
 [AD-041](AD-041_DIRECT_INPUT_AUDIOSTEM_METRIC_SOURCE_IDENTITY.md).

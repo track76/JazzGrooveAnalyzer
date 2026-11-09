@@ -1,0 +1,3 @@
+# Core/review dependencies are declared once in pyproject.toml.
+# Installation may need network/build dependencies; not executed in this task.
+-e .[review]

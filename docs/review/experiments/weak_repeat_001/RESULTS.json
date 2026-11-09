@@ -1,0 +1,206 @@
+{
+  "Phase_B": "NOT_STARTED",
+  "calibration_scenes": 64,
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "identical_pairs": 32,
+  "identifiability_collision_pairs": 32,
+  "leakage_checks": {
+    "H0_H1_prehistory_bit_identical": true,
+    "calibration_test_seed_disjoint": true,
+    "no_per_case_normalization_by_future": true,
+    "past_coefficients_future_invariant": true,
+    "threshold_frozen_before_test": true,
+    "truth_not_detector_argument": true
+  },
+  "limitations": [
+    "Matched model family is optimistic; drift/gain/background negatives are explicit out-of-model stresses",
+    "Conditional synthetic intervals are not physical uncertainty or population jazz accuracy",
+    "No attribution of N to Bass I or physical P",
+    "Fixed synthetic clock zero offset to software index only; no physical synchronization evidence"
+  ],
+  "max_possible_balanced_accuracy_on_balanced_identical_pairs": 0.5,
+  "paired_detection_advantage_amp016_minus003": {
+    "bootstrap95_conditional_scene": [
+      0.0,
+      0.0
+    ],
+    "estimate": 0.0
+  },
+  "physical_reference": "BLOCKED_REFERENCE",
+  "plan_sha256": "321a5ad41c69c648c893d99698ccf428106a8f75a23a0177637757387b433e6b",
+  "postfit_diagnostic": {
+    "future_fit_is_not_a_valid_detector": true,
+    "past_constrained_RMSE": 0.0380749391398027,
+    "post_only_RMSE": 8.064169525224397e-17
+  },
+  "status": "COMPLETED_SYNTHETIC_DEVELOPMENT_ONLY",
+  "summary": {
+    "attack_0.03": {
+      "Wilson95_conditional_generator_scenes": [
+        0.9433759402071946,
+        1
+      ],
+      "censored": 0,
+      "extra_events": 512,
+      "fraction": 1.0,
+      "matched_or_false_positive_scenes": 64,
+      "missed": 0,
+      "n": 64,
+      "physical_accuracy": null,
+      "timing_matched_only": {
+        "median_s": 0.017000000000000015,
+        "n": 64,
+        "p95_absolute_s": 0.021775000000000003
+      },
+      "unknown_I": 64,
+      "unknown_P": 64
+    },
+    "attack_0.08": {
+      "Wilson95_conditional_generator_scenes": [
+        0.9433759402071946,
+        1
+      ],
+      "censored": 0,
+      "extra_events": 3,
+      "fraction": 1.0,
+      "matched_or_false_positive_scenes": 64,
+      "missed": 0,
+      "n": 64,
+      "physical_accuracy": null,
+      "timing_matched_only": {
+        "median_s": 0.010000000000000009,
+        "n": 64,
+        "p95_absolute_s": 0.013925000000000002
+      },
+      "unknown_I": 64,
+      "unknown_P": 64
+    },
+    "attack_0.16": {
+      "Wilson95_conditional_generator_scenes": [
+        0.9433759402071946,
+        1
+      ],
+      "censored": 0,
+      "extra_events": 1,
+      "fraction": 1.0,
+      "matched_or_false_positive_scenes": 64,
+      "missed": 0,
+      "n": 64,
+      "physical_accuracy": null,
+      "timing_matched_only": {
+        "median_s": 0.007499999999999896,
+        "n": 64,
+        "p95_absolute_s": 0.009424999999999975
+      },
+      "unknown_I": 64,
+      "unknown_P": 64
+    },
+    "gain_without_event_0.0": {
+      "Wilson95_conditional_generator_scenes": [
+        0.9166589839990573,
+        0.9972364580766624
+      ],
+      "censored": 0,
+      "extra_events": 309,
+      "fraction": 0.984375,
+      "matched_or_false_positive_scenes": 63,
+      "missed": 0,
+      "n": 64,
+      "physical_accuracy": null,
+      "timing_matched_only": {
+        "median_s": null,
+        "n": 0,
+        "p95_absolute_s": null
+      },
+      "unknown_I": 64,
+      "unknown_P": 64
+    },
+    "mask_without_bass_event_0.0": {
+      "Wilson95_conditional_generator_scenes": [
+        0.9433759402071946,
+        1
+      ],
+      "censored": 0,
+      "extra_events": 66,
+      "fraction": 1.0,
+      "matched_or_false_positive_scenes": 64,
+      "missed": 0,
+      "n": 64,
+      "physical_accuracy": null,
+      "timing_matched_only": {
+        "median_s": null,
+        "n": 0,
+        "p95_absolute_s": null
+      },
+      "unknown_I": 64,
+      "unknown_P": 64
+    },
+    "pitch_drift_without_event_0.0": {
+      "Wilson95_conditional_generator_scenes": [
+        0.9433759402071946,
+        1
+      ],
+      "censored": 0,
+      "extra_events": 96,
+      "fraction": 1.0,
+      "matched_or_false_positive_scenes": 64,
+      "missed": 0,
+      "n": 64,
+      "physical_accuracy": null,
+      "timing_matched_only": {
+        "median_s": null,
+        "n": 0,
+        "p95_absolute_s": null
+      },
+      "unknown_I": 64,
+      "unknown_P": 64
+    },
+    "stable_0.0": {
+      "Wilson95_conditional_generator_scenes": [
+        0.008612138346171874,
+        0.10697291770958313
+      ],
+      "censored": 0,
+      "extra_events": 2,
+      "fraction": 0.03125,
+      "matched_or_false_positive_scenes": 2,
+      "missed": 0,
+      "n": 64,
+      "physical_accuracy": null,
+      "timing_matched_only": {
+        "median_s": null,
+        "n": 0,
+        "p95_absolute_s": null
+      },
+      "unknown_I": 64,
+      "unknown_P": 64
+    },
+    "strong_0.4": {
+      "Wilson95_conditional_generator_scenes": [
+        0.9433759402071946,
+        1
+      ],
+      "censored": 0,
+      "extra_events": 1,
+      "fraction": 1.0,
+      "matched_or_false_positive_scenes": 64,
+      "missed": 0,
+      "n": 64,
+      "physical_accuracy": null,
+      "timing_matched_only": {
+        "median_s": 0.005499999999999894,
+        "n": 64,
+        "p95_absolute_s": 0.007925000000000012
+      },
+      "unknown_I": 64,
+      "unknown_P": 64
+    }
+  },
+  "test_observations": 512,
+  "test_scenes": 64,
+  "threshold_calibration_H0_only": 1.4891937286498016
+}

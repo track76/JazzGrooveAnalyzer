@@ -1,0 +1,53 @@
+{
+  "Phase_B": "NOT_STARTED",
+  "accounting": "All original starts/extras retained; no censorship removes misses/extras from denominator",
+  "all_crossing_times_reproduced": true,
+  "classification": "Fixed-result support/censoring audit, not method retry or retuning",
+  "original_censored_field_semantics": "Admitted target support not cropped; not a claim that novelty episode ends are all observed",
+  "physical_reference": "BLOCKED_REFERENCE",
+  "right_censored_rule": "Last causal residual window remains over threshold; its episode end is unobserved",
+  "status": "PASS",
+  "summary": {
+    "attack_0.03": {
+      "n": 64,
+      "right_censored_novelty_episodes": 11,
+      "target_support_censored": 0
+    },
+    "attack_0.08": {
+      "n": 64,
+      "right_censored_novelty_episodes": 60,
+      "target_support_censored": 0
+    },
+    "attack_0.16": {
+      "n": 64,
+      "right_censored_novelty_episodes": 64,
+      "target_support_censored": 0
+    },
+    "gain_without_event_0.0": {
+      "n": 64,
+      "right_censored_novelty_episodes": 25,
+      "target_support_censored": 0
+    },
+    "mask_without_bass_event_0.0": {
+      "n": 64,
+      "right_censored_novelty_episodes": 0,
+      "target_support_censored": 0
+    },
+    "pitch_drift_without_event_0.0": {
+      "n": 64,
+      "right_censored_novelty_episodes": 57,
+      "target_support_censored": 0
+    },
+    "stable_0.0": {
+      "n": 64,
+      "right_censored_novelty_episodes": 0,
+      "target_support_censored": 0
+    },
+    "strong_0.4": {
+      "n": 64,
+      "right_censored_novelty_episodes": 64,
+      "target_support_censored": 0
+    }
+  },
+  "threshold_unchanged": 1.4891937286498016
+}

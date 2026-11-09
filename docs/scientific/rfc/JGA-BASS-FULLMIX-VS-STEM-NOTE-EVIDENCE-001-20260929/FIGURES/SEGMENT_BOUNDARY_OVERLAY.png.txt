@@ -1,1 +1,0 @@
-2 boundary-crossed events per arm, all retained. No event was removed for boundary proximity.

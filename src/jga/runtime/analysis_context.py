@@ -96,6 +96,9 @@ from jga.source_understanding.observed_source_collection import (
 from jga.source_understanding.ensemble_profile import (
     EnsembleProfile,
 )
+from jga.source_understanding.bass_candidate_attribution import (
+    BassCandidateAttribution,
+)
 
 from jga.validation.validation_dataset import (
     ValidationDataset,
@@ -143,6 +146,10 @@ class AnalysisContext:
 
     ensemble_profile: EnsembleProfile | None = None
     source_pulse_sequences: list | None = None
+
+    bass_candidate_attributions: tuple[
+        BassCandidateAttribution, ...
+    ] = ()
 
     # =====================================================
     # Pulse Detection

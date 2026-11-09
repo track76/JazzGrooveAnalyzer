@@ -6,10 +6,22 @@ build-backend = "setuptools.build_meta"
 name = "jga"
 version = "0.3.0a0"
 description = "Jazz Groove Analyzer"
+readme = "README.md"
 authors = [
     { name = "Angelo Tracanna" }
 ]
 requires-python = ">=3.13"
+# Observed core environment snapshot; clean-install reproduction remains pending.
+dependencies = [
+    "numpy==2.4.6",
+    "scipy==1.18.0",
+    "librosa==0.11.0",
+    "soundfile==0.14.0",
+    "matplotlib==3.11.1",
+]
+
+[project.optional-dependencies]
+review = ["pytest==9.1.1"]
 
 [tool.setuptools]
 package-dir = { "" = "src" }
@@ -18,4 +30,4 @@ package-dir = { "" = "src" }
 where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["."]
+pythonpath = [".", "src"]

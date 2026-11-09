@@ -59,4 +59,4 @@ future JGA version or erase historical Voice/lead validation records.
 - [Scientific Knowledge Record](foundations/F-030_SCIENTIFIC_KNOWLEDGE_RECORD.md)
 - [Observation Model](JGA_OBSERVATION_MODEL.md)
 - [AD-040 Rhythm Section Timing Profile](../architecture/AD-040_RHYTHM_SECTION_TIMING_PROFILE.md)
-- [Bass research synthesis](../../validation/BASS-RECOVERY-EVIDENCE-SYNTHESIS-20260902/BASS_RESEARCH_SYNTHESIS.md)
+- Bass research synthesis (riferimento non distribuito in questa proiezione pubblica)

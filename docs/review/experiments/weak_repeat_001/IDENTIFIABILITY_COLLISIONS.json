@@ -1,0 +1,322 @@
+[
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "b6da3e20015835645e8050090be147f719c912807dc99e2d9ffdad43ab2b2065",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 0
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "d44782aa7e115e6a1752ecaf92c6300b6642b5d537cd6a257e7ad2fd61efabf4",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 1
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "dca1e4e73888156dd3456e3a2c1bea63203ea81230a88bf1c54fadfd8a8f0b4b",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 2
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "1a54a3a8c059f31132f2235bef3ef32bc1f58c5ed62d18ea0ee527bc76f7dded",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 3
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "e6abf6a34327d493273846bbbf26ec9774e260f0df539178c083ecb91b227663",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 4
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "801160c4259f2d868dee99dde92d31a88d8ac10c7836aa2869705d9092373370",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 5
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "e2b5498c63cc7c38334b10cd182b8adbada1a34b312fd6ee817e7434c2c6dcbe",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 6
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "00b69a27e5a5563aa28025d64e930c228307e9243a65cee81a9b2d64b4f32340",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 7
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "ed08974215c7f6310d2b11e29efcd09730793e82eaa0de442fa9efefac50c682",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 8
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "399d9c2ff51a51b3d8fc6e9cba72b290d0404a2084340b171d1f13a19d7de153",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 9
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "1ae64f49e36568d2776a61dc8e6a5fecf74c3efd496a03e43edc2e8751f9e77e",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 10
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "ff085633c393e76c281adec855ba25b468dd4ea6c360b0e59fd2f97683a66afc",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 11
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "c1e0ef33631988bb79768163613bc674a4797065560ff4e6dc350567ab04d5b4",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 12
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "40f7555e96fb3a244a6f9a03c6f8166aaa02f6b9a4fbc483e4cc6ff15ed17a08",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 13
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "5413f2996df269a4ad899ace6677641751fc90deca8c462980fc708ff51b37b2",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 14
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "34c49221dde748c639de0eb2d26f941bc4cc69a566da51628292bbac843440fc",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 15
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "4b9d0e7f425d5a3e6f8a0f52fc5b6c0ceacd2eeab27c52a2a0bc5459daa57247",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 16
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "b2e62dad3324e477d8c9ce302cae86e0670543ab722faa990331566b7baa7568",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 17
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "e24fedeb312382fb8d966533a909db61e588acfaa5e4c04ef54f4d350c4d4840",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 18
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "2cf96c035ef51132e6153d1e05ab2b25e8f24076d3288f7ed020978d3ef802fc",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 19
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "8e7fd71d47096ea56f8653c25b96d53991aac9526114ec56d00396cdf750b7b6",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 20
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "9f886fa25f76514f2f071fe2bc4189cfea48c0d808bc287aa6c8a321eb82005f",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 21
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "13f61b0956a7dd369b78d210d462ab0a49fb44d6c299bd62a52f8716257c8670",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 22
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "62f9b6f36d3f07feab844ace60f522d88a16733a40f6d7333297affa36995f1e",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 23
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "ca196962b8a853f50ec67663c53499590dad9e220e7fb6e7765867464b4dee6c",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 24
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "63e9e00c08d3d88f4deb3cc1af754ff327d753ad12585146cb7d0c92fd9ebb41",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 25
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "629bb782251f278ae421e36cb971efab20d11613251fa4010f371e75e7a585c7",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 26
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "f584b87c271e31352ea2ee77641be4e5957592ea4dd2c69fc335faf49e5ecdf1",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 27
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "77571ea07c08a395baa0e6a52f2c83f272e638212ee40d3e1fd810a6fcd3a4d2",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 28
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "076fa52f9ae870726577a41808a2db972b6cd69cade73f4e8dce9aa876cfed42",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 29
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "d11a32ad7cdb3d9c1308b89c1afa6ed150b130a14222f0d33cc1c53d74c98101",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 30
+  },
+  {
+    "H0": "gain change without stipulated new event",
+    "H1": "phase-aligned additive software excitation",
+    "P": "UNIDENTIFIABLE_IN_THIS_SURROGATE",
+    "array_sha256": "c3817b2eb34a3c44983afc8e914c0100e8ff3755271808ed2d87420f5051b3a0",
+    "bit_identical": true,
+    "oracle_latent_labels_distinct": true,
+    "same_detector_decision": true,
+    "scene": 31
+  }
+]

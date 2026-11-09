@@ -34,3 +34,24 @@ JGA_REPOSITORY.zip
 artifacts/
 output/*.png
 output/archive_before_M80_1/
+
+# Non-public operational recovery and data are intentionally outside this tree.
+/docs/project/
+/docs/scientific/rfc/
+/docs/scientific/validation/
+/docs/historical_reports/
+/validation/
+/recordings/
+/output/
+/artifacts/
+AGENTS.md
+JGA_BOOTSTRAP.md
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+**/browser_profiles/
+**/Chrome/
+**/Cookies

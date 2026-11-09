@@ -1,3 +1,11 @@
+# Optional integration: this flag does not grant data rights or JGA eligibility.
+import os
+import pytest
+pytestmark = pytest.mark.skipif(
+    os.environ.get("JGA_RUN_LICENSED_AUDIO_TESTS") != "1",
+    reason="Requires separately authorized licensed recording; excluded from public source-only checks",
+)
+
 from pathlib import Path
 
 from jga.audio.file_audio_source import FileAudioSource
